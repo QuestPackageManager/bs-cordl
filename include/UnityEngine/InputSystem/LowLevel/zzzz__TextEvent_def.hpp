@@ -29,8 +29,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TextEvent);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6530))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6547))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TextEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE TextEvent {
@@ -47,40 +45,40 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
+  /// @brief Method Create, addr 0x2bd752c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
+  /// @brief Method Create, addr 0x2bd75cc, size 0x9c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
+
+  /// @brief Method From, addr 0x2bd7400, size 0x12c, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
-
-  constexpr int32_t& __cordl_internal_get_character();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
   constexpr int32_t const& __cordl_internal_get_character() const;
 
+  constexpr int32_t& __cordl_internal_get_character();
+
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+
   constexpr void __cordl_internal_set_character(int32_t value);
 
-  /// @brief Method get_typeStatic, addr 0x2af07a0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bd73e0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method From, addr 0x2af07c0, size 0x12c, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
-
-  /// @brief Method Create, addr 0x2af08ec, size 0xa0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
-
-  /// @brief Method Create, addr 0x2af098c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
-
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "character", ty: "int32_t", modifiers:
-  // "", def_value: None }]
-  constexpr TextEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, int32_t character) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TextEvent();
+
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "character", ty: "int32_t", modifiers:
+  // "", def_value: None }]
+  constexpr TextEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, int32_t character) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -116,11 +114,11 @@ private:
   };
 
 public:
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   /// @brief Field Type offset 0xffffffff size 0x4
   static constexpr int32_t Type{ static_cast<int32_t>(0x54455854) };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

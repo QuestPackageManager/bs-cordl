@@ -53,55 +53,13 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSceneRoom);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7981))
 // CS Name: ::OVRSceneRoom*
 class CORDL_TYPE OVRSceneRoom : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field <Floor>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Floor_k__BackingField, put = __cordl_internal_set__Floor_k__BackingField))::UnityW<::GlobalNamespace::OVRScenePlane> _Floor_k__BackingField;
+  __declspec(property(get = get_Ceiling, put = set_Ceiling))::UnityW<::GlobalNamespace::OVRScenePlane> Ceiling;
 
-  /// @brief Field <Ceiling>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Ceiling_k__BackingField, put = __cordl_internal_set__Ceiling_k__BackingField))::UnityW<::GlobalNamespace::OVRScenePlane> _Ceiling_k__BackingField;
-
-  /// @brief Field <Walls>k__BackingField, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__Walls_k__BackingField,
-               put = __cordl_internal_set__Walls_k__BackingField))::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> _Walls_k__BackingField;
-
-  /// @brief Field _walls, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__walls, put = __cordl_internal_set__walls))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* _walls;
-
-  /// @brief Field _orderedRoomGuids, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__orderedRoomGuids,
-                      put = __cordl_internal_set__orderedRoomGuids))::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>* _orderedRoomGuids;
-
-  /// @brief Field _wallOrderComparer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__wallOrderComparer,
-                      put = __cordl_internal_set__wallOrderComparer))::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* _wallOrderComparer;
-
-  /// @brief Field _sceneAnchor, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor))::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
-
-  /// @brief Field _sceneManager, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneManager, put = __cordl_internal_set__sceneManager))::UnityW<::GlobalNamespace::OVRSceneManager> _sceneManager;
-
-  /// @brief Field _uuidToQuery, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__uuidToQuery, put = __cordl_internal_set__uuidToQuery))::System::Collections::Generic::HashSet_1<::System::Guid>* _uuidToQuery;
-
-  /// @brief Field _roomAnchors, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__roomAnchors, put = __cordl_internal_set__roomAnchors))::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _roomAnchors;
-
-  /// @brief Field _taskCount, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__taskCount, put = __cordl_internal_set__taskCount)) int32_t _taskCount;
-
-  /// @brief Field _onFetchAnchorsCompleted, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__onFetchAnchorsCompleted, put = __cordl_internal_set__onFetchAnchorsCompleted))::System::Action_1<bool>* _onFetchAnchorsCompleted;
-
-  /// @brief Field _onAnchorLocalizationCompleted, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__onAnchorLocalizationCompleted,
-                      put = __cordl_internal_set__onAnchorLocalizationCompleted))::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>* _onAnchorLocalizationCompleted;
+  __declspec(property(get = get_Floor, put = set_Floor))::UnityW<::GlobalNamespace::OVRScenePlane> Floor;
 
   /// @brief Field SceneRooms, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SceneRooms,
@@ -110,157 +68,203 @@ public:
   /// @brief Field SceneRoomsList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SceneRoomsList, put = setStaticF_SceneRoomsList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* SceneRoomsList;
 
-  __declspec(property(get = get_Floor, put = set_Floor))::UnityW<::GlobalNamespace::OVRScenePlane> Floor;
-
-  __declspec(property(get = get_Ceiling, put = set_Ceiling))::UnityW<::GlobalNamespace::OVRScenePlane> Ceiling;
-
   __declspec(property(get = get_Walls, put = set_Walls))::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> Walls;
+
+  /// @brief Field <Ceiling>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__Ceiling_k__BackingField, put = __cordl_internal_set__Ceiling_k__BackingField))::UnityW<::GlobalNamespace::OVRScenePlane> _Ceiling_k__BackingField;
+
+  /// @brief Field <Floor>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Floor_k__BackingField, put = __cordl_internal_set__Floor_k__BackingField))::UnityW<::GlobalNamespace::OVRScenePlane> _Floor_k__BackingField;
+
+  /// @brief Field <Walls>k__BackingField, offset 0x28, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__Walls_k__BackingField,
+               put = __cordl_internal_set__Walls_k__BackingField))::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> _Walls_k__BackingField;
+
+  /// @brief Field _onAnchorLocalizationCompleted, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__onAnchorLocalizationCompleted,
+                      put = __cordl_internal_set__onAnchorLocalizationCompleted))::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>* _onAnchorLocalizationCompleted;
+
+  /// @brief Field _onFetchAnchorsCompleted, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__onFetchAnchorsCompleted, put = __cordl_internal_set__onFetchAnchorsCompleted))::System::Action_1<bool>* _onFetchAnchorsCompleted;
+
+  /// @brief Field _orderedRoomGuids, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__orderedRoomGuids,
+                      put = __cordl_internal_set__orderedRoomGuids))::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>* _orderedRoomGuids;
+
+  /// @brief Field _roomAnchors, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__roomAnchors, put = __cordl_internal_set__roomAnchors))::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* _roomAnchors;
+
+  /// @brief Field _sceneAnchor, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor))::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
+
+  /// @brief Field _sceneManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneManager, put = __cordl_internal_set__sceneManager))::UnityW<::GlobalNamespace::OVRSceneManager> _sceneManager;
+
+  /// @brief Field _taskCount, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__taskCount, put = __cordl_internal_set__taskCount)) int32_t _taskCount;
+
+  /// @brief Field _uuidToQuery, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__uuidToQuery, put = __cordl_internal_set__uuidToQuery))::System::Collections::Generic::HashSet_1<::System::Guid>* _uuidToQuery;
+
+  /// @brief Field _wallOrderComparer, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__wallOrderComparer,
+                      put = __cordl_internal_set__wallOrderComparer))::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* _wallOrderComparer;
+
+  /// @brief Field _walls, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__walls, put = __cordl_internal_set__walls))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* _walls;
 
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+  /// @brief Method Awake, addr 0x287c190, size 0x200, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get__Floor_k__BackingField();
+  /// @brief Method GetUuidsToQuery, addr 0x287c4a4, size 0x64c, virtual false, abstract: false, final false
+  inline void GetUuidsToQuery();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get__Floor_k__BackingField() const;
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x287c390, size 0x114, virtual true, abstract: false, final true
+  inline void IOVRSceneComponent_Initialize();
 
-  constexpr void __cordl_internal_set__Floor_k__BackingField(::UnityW<::GlobalNamespace::OVRScenePlane> value);
+  /// @brief Method LoadRoom, addr 0x2875194, size 0xf0, virtual false, abstract: false, final false
+  inline void LoadRoom();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get__Ceiling_k__BackingField();
+  static inline ::GlobalNamespace::OVRSceneRoom* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x287d69c, size 0xb8, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnFetchAnchorsCompleted, addr 0x287caf0, size 0x3d4, virtual false, abstract: false, final false
+  inline void OnFetchAnchorsCompleted(bool success);
+
+  /// @brief Method OnLocalizationCompleted, addr 0x287cec4, size 0x3a4, virtual false, abstract: false, final false
+  inline void OnLocalizationCompleted(bool success, ::GlobalNamespace::OVRAnchor anchor);
+
+  /// @brief Method UpdateRoomInformation, addr 0x287d268, size 0x434, virtual false, abstract: false, final false
+  inline void UpdateRoomInformation(::GlobalNamespace::OVRScenePlane* plane);
+
+  /// @brief Method <Awake>b__24_0, addr 0x287d9a8, size 0x60, virtual false, abstract: false, final false
+  inline int32_t _Awake_b__24_0(::GlobalNamespace::OVRScenePlane* planeA, ::GlobalNamespace::OVRScenePlane* planeB);
+
+  /// @brief Method <Awake>g__TryGetUuid|24_1, addr 0x287da08, size 0x94, virtual false, abstract: false, final false
+  inline bool _Awake_g__TryGetUuid_24_1(::GlobalNamespace::OVRScenePlane* plane, ByRef<int32_t> index);
 
   constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get__Ceiling_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Ceiling_k__BackingField(::UnityW<::GlobalNamespace::OVRScenePlane> value);
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get__Ceiling_k__BackingField();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*>& __cordl_internal_get__Walls_k__BackingField();
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get__Floor_k__BackingField() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRScenePlane>& __cordl_internal_get__Floor_k__BackingField();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get__Walls_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Walls_k__BackingField(::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*& __cordl_internal_get__walls();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get__walls() const;
-
-  constexpr void __cordl_internal_set__walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*& __cordl_internal_get__orderedRoomGuids();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*> const& __cordl_internal_get__orderedRoomGuids() const;
-
-  constexpr void __cordl_internal_set__orderedRoomGuids(::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>* value);
-
-  constexpr ::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*& __cordl_internal_get__wallOrderComparer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get__wallOrderComparer() const;
-
-  constexpr void __cordl_internal_set__wallOrderComparer(::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor() const;
-
-  constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager>& __cordl_internal_get__sceneManager();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__sceneManager() const;
-
-  constexpr void __cordl_internal_set__sceneManager(::UnityW<::GlobalNamespace::OVRSceneManager> value);
-
-  constexpr ::System::Collections::Generic::HashSet_1<::System::Guid>*& __cordl_internal_get__uuidToQuery();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Guid>*> const& __cordl_internal_get__uuidToQuery() const;
-
-  constexpr void __cordl_internal_set__uuidToQuery(::System::Collections::Generic::HashSet_1<::System::Guid>* value);
-
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*& __cordl_internal_get__roomAnchors();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*> const& __cordl_internal_get__roomAnchors() const;
-
-  constexpr void __cordl_internal_set__roomAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* value);
-
-  constexpr int32_t& __cordl_internal_get__taskCount();
-
-  constexpr int32_t const& __cordl_internal_get__taskCount() const;
-
-  constexpr void __cordl_internal_set__taskCount(int32_t value);
-
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get__onFetchAnchorsCompleted();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get__onFetchAnchorsCompleted() const;
-
-  constexpr void __cordl_internal_set__onFetchAnchorsCompleted(::System::Action_1<bool>* value);
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*>& __cordl_internal_get__Walls_k__BackingField();
 
   constexpr ::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>*& __cordl_internal_get__onAnchorLocalizationCompleted();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>*> const& __cordl_internal_get__onAnchorLocalizationCompleted() const;
 
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get__onFetchAnchorsCompleted();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get__onFetchAnchorsCompleted() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*& __cordl_internal_get__orderedRoomGuids();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>*> const& __cordl_internal_get__orderedRoomGuids() const;
+
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*& __cordl_internal_get__roomAnchors();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*> const& __cordl_internal_get__roomAnchors() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__sceneManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager>& __cordl_internal_get__sceneManager();
+
+  constexpr int32_t const& __cordl_internal_get__taskCount() const;
+
+  constexpr int32_t& __cordl_internal_get__taskCount();
+
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Guid>*& __cordl_internal_get__uuidToQuery();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Guid>*> const& __cordl_internal_get__uuidToQuery() const;
+
+  constexpr ::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*& __cordl_internal_get__wallOrderComparer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get__wallOrderComparer() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*& __cordl_internal_get__walls();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>*> const& __cordl_internal_get__walls() const;
+
+  constexpr void __cordl_internal_set__Ceiling_k__BackingField(::UnityW<::GlobalNamespace::OVRScenePlane> value);
+
+  constexpr void __cordl_internal_set__Floor_k__BackingField(::UnityW<::GlobalNamespace::OVRScenePlane> value);
+
+  constexpr void __cordl_internal_set__Walls_k__BackingField(::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> value);
+
   constexpr void __cordl_internal_set__onAnchorLocalizationCompleted(::System::Action_2<bool, ::GlobalNamespace::OVRAnchor>* value);
 
-  static inline void setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
+  constexpr void __cordl_internal_set__onFetchAnchorsCompleted(::System::Action_1<bool>* value);
+
+  constexpr void __cordl_internal_set__orderedRoomGuids(::System::Collections::Generic::Dictionary_2<::System::Guid, int32_t>* value);
+
+  constexpr void __cordl_internal_set__roomAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* value);
+
+  constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
+
+  constexpr void __cordl_internal_set__sceneManager(::UnityW<::GlobalNamespace::OVRSceneManager> value);
+
+  constexpr void __cordl_internal_set__taskCount(int32_t value);
+
+  constexpr void __cordl_internal_set__uuidToQuery(::System::Collections::Generic::HashSet_1<::System::Guid>* value);
+
+  constexpr void __cordl_internal_set__wallOrderComparer(::System::Comparison_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
+
+  constexpr void __cordl_internal_set__walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
+
+  /// @brief Method .ctor, addr 0x287d754, size 0x17c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRooms();
 
-  static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
-
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRoomsList();
 
-  /// @brief Method get_Floor, addr 0x2789858, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Floor();
-
-  /// @brief Method set_Floor, addr 0x2789860, size 0x8, virtual false, abstract: false, final false
-  inline void set_Floor(::GlobalNamespace::OVRScenePlane* value);
-
-  /// @brief Method get_Ceiling, addr 0x2789868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ceiling, addr 0x287c170, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Ceiling();
 
-  /// @brief Method set_Ceiling, addr 0x2789870, size 0x8, virtual false, abstract: false, final false
-  inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
+  /// @brief Method get_Floor, addr 0x287c160, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Floor();
 
-  /// @brief Method get_Walls, addr 0x2789878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Walls, addr 0x287c180, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> get_Walls();
 
-  /// @brief Method set_Walls, addr 0x2789880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+
+  static inline void setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
+
+  static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
+
+  /// @brief Method set_Ceiling, addr 0x287c178, size 0x8, virtual false, abstract: false, final false
+  inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
+
+  /// @brief Method set_Floor, addr 0x287c168, size 0x8, virtual false, abstract: false, final false
+  inline void set_Floor(::GlobalNamespace::OVRScenePlane* value);
+
+  /// @brief Method set_Walls, addr 0x287c188, size 0x8, virtual false, abstract: false, final false
   inline void set_Walls(::ArrayW<::GlobalNamespace::OVRScenePlane*, ::Array<::GlobalNamespace::OVRScenePlane*>*> value);
 
-  /// @brief Method Awake, addr 0x2789888, size 0x200, virtual false, abstract: false, final false
-  inline void Awake();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRSceneRoom();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2789a88, size 0x114, virtual true, abstract: false, final true
-  inline void IOVRSceneComponent_Initialize();
-
-  /// @brief Method LoadRoom, addr 0x278288c, size 0xf0, virtual false, abstract: false, final false
-  inline void LoadRoom();
-
-  /// @brief Method OnFetchAnchorsCompleted, addr 0x278a1e8, size 0x3d4, virtual false, abstract: false, final false
-  inline void OnFetchAnchorsCompleted(bool success);
-
-  /// @brief Method OnLocalizationCompleted, addr 0x278a5bc, size 0x3a4, virtual false, abstract: false, final false
-  inline void OnLocalizationCompleted(bool success, ::GlobalNamespace::OVRAnchor anchor);
-
-  /// @brief Method UpdateRoomInformation, addr 0x278a960, size 0x434, virtual false, abstract: false, final false
-  inline void UpdateRoomInformation(::GlobalNamespace::OVRScenePlane* plane);
-
-  /// @brief Method GetUuidsToQuery, addr 0x2789b9c, size 0x64c, virtual false, abstract: false, final false
-  inline void GetUuidsToQuery();
-
-  /// @brief Method OnDestroy, addr 0x278ad94, size 0xb8, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  static inline ::GlobalNamespace::OVRSceneRoom* New_ctor();
-
-  /// @brief Method .ctor, addr 0x278ae4c, size 0x17c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <Awake>b__24_0, addr 0x278b0a0, size 0x60, virtual false, abstract: false, final false
-  inline int32_t _Awake_b__24_0(::GlobalNamespace::OVRScenePlane* planeA, ::GlobalNamespace::OVRScenePlane* planeB);
-
-  /// @brief Method <Awake>g__TryGetUuid|24_1, addr 0x278b100, size 0x94, virtual false, abstract: false, final false
-  inline bool _Awake_g__TryGetUuid_24_1(::GlobalNamespace::OVRScenePlane* plane, ByRef<int32_t> index);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneRoom", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneRoom(OVRSceneRoom&&) = delete;
@@ -269,12 +273,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneRoom(OVRSceneRoom const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSceneRoom();
-
-public:
   /// @brief Field <Floor>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRScenePlane> ____Floor_k__BackingField;
 

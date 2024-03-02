@@ -57,59 +57,63 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3983))
 // CS Name: ::BTSStarTextEventEffect::StarTextSprite*
 class CORDL_TYPE __BTSStarTextEventEffect__StarTextSprite : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _animationLength, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__animationLength, put = __cordl_internal_set__animationLength)) float_t _animationLength;
+
   /// @brief Field _id, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   /// @brief Field _starTextSprite, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__starTextSprite, put = __cordl_internal_set__starTextSprite))::UnityW<::UnityEngine::Sprite> _starTextSprite;
 
-  /// @brief Field _animationLength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__animationLength, put = __cordl_internal_set__animationLength)) float_t _animationLength;
+  __declspec(property(get = get_animationLength)) float_t animationLength;
 
   __declspec(property(get = get_id)) int32_t id;
 
   __declspec(property(get = get_starTextSprite))::UnityW<::UnityEngine::Sprite> starTextSprite;
 
-  __declspec(property(get = get_animationLength)) float_t animationLength;
-
-  constexpr int32_t& __cordl_internal_get__id();
-
-  constexpr int32_t const& __cordl_internal_get__id() const;
-
-  constexpr void __cordl_internal_set__id(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__starTextSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__starTextSprite() const;
-
-  constexpr void __cordl_internal_set__starTextSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr float_t& __cordl_internal_get__animationLength();
+  static inline ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite* New_ctor();
 
   constexpr float_t const& __cordl_internal_get__animationLength() const;
 
+  constexpr float_t& __cordl_internal_get__animationLength();
+
+  constexpr int32_t const& __cordl_internal_get__id() const;
+
+  constexpr int32_t& __cordl_internal_get__id();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__starTextSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__starTextSprite();
+
   constexpr void __cordl_internal_set__animationLength(float_t value);
 
-  /// @brief Method get_id, addr 0x221dc64, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
+  constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method get_starTextSprite, addr 0x221dc6c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_starTextSprite();
+  constexpr void __cordl_internal_set__starTextSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method get_animationLength, addr 0x221dc74, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_animationLength();
-
-  static inline ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite* New_ctor();
-
-  /// @brief Method .ctor, addr 0x221dc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7540c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_animationLength, addr 0xe75404, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_animationLength();
+
+  /// @brief Method get_id, addr 0xe753f4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+  /// @brief Method get_starTextSprite, addr 0xe753fc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_starTextSprite();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BTSStarTextEventEffect__StarTextSprite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEventEffect__StarTextSprite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BTSStarTextEventEffect__StarTextSprite(__BTSStarTextEventEffect__StarTextSprite&&) = delete;
@@ -118,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BTSStarTextEventEffect__StarTextSprite(__BTSStarTextEventEffect__StarTextSprite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BTSStarTextEventEffect__StarTextSprite();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -149,8 +147,6 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEventEffect__StarTextSpri
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3984))
 // CS Name: ::BTSStarTextEventEffect::StartTextPosition*
 class CORDL_TYPE __BTSStarTextEventEffect__StartTextPosition : public ::System::Object {
 public:
@@ -165,29 +161,35 @@ public:
 
   __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  constexpr int32_t& __cordl_internal_get__id();
+  static inline ::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get__id() const;
 
-  constexpr void __cordl_internal_set__id(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+  constexpr int32_t& __cordl_internal_get__id();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__id(int32_t value);
+
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method get_id, addr 0x221dc84, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
-
-  /// @brief Method get_transform, addr 0x221dc8c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_transform();
-
-  static inline ::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition* New_ctor();
-
-  /// @brief Method .ctor, addr 0x221dc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe75424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0xe75414, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+  /// @brief Method get_transform, addr 0xe7541c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BTSStarTextEventEffect__StartTextPosition();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEventEffect__StartTextPosition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BTSStarTextEventEffect__StartTextPosition(__BTSStarTextEventEffect__StartTextPosition&&) = delete;
@@ -196,12 +198,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BTSStarTextEventEffect__StartTextPosition(__BTSStarTextEventEffect__StartTextPosition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BTSStarTextEventEffect__StartTextPosition();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -222,15 +218,33 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEventEffect__StartTextPos
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::BTSStarTextEventEffect*
 class CORDL_TYPE BTSStarTextEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  using StarTextSprite = ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite;
+
   using StartTextPosition = ::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition;
 
-  using StarTextSprite = ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite;
+  /// @brief Field _audioTimeSource, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+
+  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+
+  /// @brief Field _idsToStarTextPositionDictionary, offset 0x50, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__idsToStarTextPositionDictionary,
+               put = __cordl_internal_set__idsToStarTextPositionDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Transform>>* _idsToStarTextPositionDictionary;
+
+  /// @brief Field _idsToStarTextSpriteDictionary, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__idsToStarTextSpriteDictionary, put = __cordl_internal_set__idsToStarTextSpriteDictionary))::System::Collections::Generic::Dictionary_2<
+      int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>* _idsToStarTextSpriteDictionary;
 
   /// @brief Field _starTextSprites, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__starTextSprites,
@@ -242,107 +256,93 @@ public:
                       put = __cordl_internal_set__startTextPositions))::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*,
                                                                                ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*> _startTextPositions;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
-
-  /// @brief Field _audioTimeSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
-
   /// @brief Field startStarTextAnimationEvent, offset 0x38, size 0x8
   __declspec(
       property(get = __cordl_internal_get_startStarTextAnimationEvent,
                put = __cordl_internal_set_startStarTextAnimationEvent))::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* startStarTextAnimationEvent;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  /// @brief Method HandleBeatmapEvent, addr 0xe7515c, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Field _idsToStarTextSpriteDictionary, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__idsToStarTextSpriteDictionary, put = __cordl_internal_set__idsToStarTextSpriteDictionary))::System::Collections::Generic::Dictionary_2<
-      int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>* _idsToStarTextSpriteDictionary;
+  static inline ::GlobalNamespace::BTSStarTextEventEffect* New_ctor();
 
-  /// @brief Field _idsToStarTextPositionDictionary, offset 0x50, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__idsToStarTextPositionDictionary,
-               put = __cordl_internal_set__idsToStarTextPositionDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Transform>>* _idsToStarTextPositionDictionary;
+  /// @brief Method OnDestroy, addr 0xe75140, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*>& __cordl_internal_get__starTextSprites();
-
-  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> const&
-  __cordl_internal_get__starTextSprites() const;
-
-  constexpr void
-  __cordl_internal_set__starTextSprites(::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*>&
-  __cordl_internal_get__startTextPositions();
-
-  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*> const&
-  __cordl_internal_get__startTextPositions() const;
-
-  constexpr void
-  __cordl_internal_set__startTextPositions(::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*> value);
-
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
-
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  /// @brief Method Start, addr 0xe74f54, size 0x1ec, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*& __cordl_internal_get_startStarTextAnimationEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*> const&
-  __cordl_internal_get_startStarTextAnimationEvent() const;
-
-  constexpr void __cordl_internal_set_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
-
-  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*& __cordl_internal_get__idsToStarTextSpriteDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> const&
-  __cordl_internal_get__idsToStarTextSpriteDictionary() const;
-
-  constexpr void __cordl_internal_set__idsToStarTextSpriteDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__idsToStarTextPositionDictionary();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Transform>>*> const&
   __cordl_internal_get__idsToStarTextPositionDictionary() const;
 
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*& __cordl_internal_get__idsToStarTextSpriteDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> const&
+  __cordl_internal_get__idsToStarTextSpriteDictionary() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> const&
+  __cordl_internal_get__starTextSprites() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*>& __cordl_internal_get__starTextSprites();
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*> const&
+  __cordl_internal_get__startTextPositions() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*>&
+  __cordl_internal_get__startTextPositions();
+
+  constexpr ::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*& __cordl_internal_get_startStarTextAnimationEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>*> const&
+  __cordl_internal_get_startStarTextAnimationEvent() const;
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+
   constexpr void __cordl_internal_set__idsToStarTextPositionDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method add_startStarTextAnimationEvent, addr 0x221d360, size 0xb0, virtual false, abstract: false, final false
-  inline void add_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
+  constexpr void __cordl_internal_set__idsToStarTextSpriteDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>* value);
 
-  /// @brief Method remove_startStarTextAnimationEvent, addr 0x221d498, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
+  constexpr void
+  __cordl_internal_set__starTextSprites(::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> value);
 
-  /// @brief Method Start, addr 0x221d7c4, size 0x1ec, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void
+  __cordl_internal_set__startTextPositions(::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition*>*> value);
 
-  /// @brief Method OnDestroy, addr 0x221d9b0, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x221d9cc, size 0x1d8, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
-
-  static inline ::GlobalNamespace::BTSStarTextEventEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x221dba4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe75334, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_startStarTextAnimationEvent, addr 0xe74af0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
+
+  /// @brief Method remove_startStarTextAnimationEvent, addr 0xe74c28, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_startStarTextAnimationEvent(::System::Action_3<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSStarTextEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSStarTextEventEffect(BTSStarTextEventEffect&&) = delete;
@@ -351,12 +351,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSStarTextEventEffect(BTSStarTextEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSStarTextEventEffect();
-
-public:
   /// @brief Field _starTextSprites, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*, ::Array<::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite*>*> ____starTextSprites;
 

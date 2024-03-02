@@ -37,8 +37,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BpmController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4832))
 // CS Name: ::BpmController::InitData*
 class CORDL_TYPE __BpmController__InitData : public ::System::Object {
 public:
@@ -46,17 +44,23 @@ public:
   /// @brief Field startBpm, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
 
-  constexpr float_t& __cordl_internal_get_startBpm();
+  static inline ::GlobalNamespace::__BpmController__InitData* New_ctor(float_t startBpm);
 
   constexpr float_t const& __cordl_internal_get_startBpm() const;
 
+  constexpr float_t& __cordl_internal_get_startBpm();
+
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  static inline ::GlobalNamespace::__BpmController__InitData* New_ctor(float_t startBpm);
-
-  /// @brief Method .ctor, addr 0x23962a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2423da8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BpmController__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BpmController__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BpmController__InitData(__BpmController__InitData&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BpmController__InitData(__BpmController__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BpmController__InitData();
-
-public:
   /// @brief Field startBpm, offset: 0x10, size: 0x4, def value: None
   float_t ___startBpm;
 
@@ -86,8 +84,6 @@ static_assert(offsetof(::GlobalNamespace::__BpmController__InitData, ___startBpm
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4833))
 // CS Name: ::BpmController*
 class CORDL_TYPE BpmController : public ::System::Object {
 public:
@@ -108,53 +104,59 @@ public:
 
   __declspec(property(get = get_oneBeatDuration)) float_t oneBeatDuration;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
   /// @brief Convert operator to "::GlobalNamespace::IBpmController"
   constexpr operator ::GlobalNamespace::IBpmController*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBpmController"
-  constexpr ::GlobalNamespace::IBpmController* i___GlobalNamespace__IBpmController() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x2423d70, size 0x1c, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x2423d8c, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
+
+  static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallback() const;
 
-  constexpr void __cordl_internal_set__beatmapDataCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr float_t const& __cordl_internal_get__currentBpm() const;
 
   constexpr float_t& __cordl_internal_get__currentBpm();
 
-  constexpr float_t const& __cordl_internal_get__currentBpm() const;
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
+  constexpr void __cordl_internal_set__beatmapDataCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
-  /// @brief Method get_currentBpm, addr 0x2396178, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_currentBpm();
-
-  /// @brief Method get_oneBeatDuration, addr 0x2396180, size 0x20, virtual true, abstract: false, final true
-  inline float_t get_oneBeatDuration();
-
-  static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
-
-  /// @brief Method .ctor, addr 0x23961a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2423ca0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Dispose, addr 0x2396270, size 0x1c, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Method get_currentBpm, addr 0x2423c78, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_currentBpm();
 
-  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x239628c, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
+  /// @brief Method get_oneBeatDuration, addr 0x2423c80, size 0x20, virtual true, abstract: false, final true
+  inline float_t get_oneBeatDuration();
 
+  /// @brief Convert to "::GlobalNamespace::IBpmController"
+  constexpr ::GlobalNamespace::IBpmController* i___GlobalNamespace__IBpmController() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BpmController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BpmController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmController(BpmController&&) = delete;
@@ -163,12 +165,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BpmController(BpmController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BpmController();
-
-public:
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Transform_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9908))
 // CS Name: ::Test_Transform_Extensions::<>c*
 class CORDL_TYPE __Test_Transform_Extensions____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* __9__2_0;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Transform_Extensions____c* value);
+  static inline ::HoudiniEngineUnity::__Test_Transform_Extensions____c* New_ctor();
+
+  /// @brief Method <ToTestObject>b__1_0, addr 0x2346c6c, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__1_0(::UnityEngine::Transform* lod);
+
+  /// @brief Method <ToTestObject>b__2_0, addr 0x2346cd0, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__2_0(::UnityEngine::Transform* lod);
+
+  /// @brief Method .ctor, addr 0x2346c64, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Transform_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* value);
-
   static inline ::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* value);
 
   static inline ::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* getStaticF___9__2_0();
 
-  static inline ::HoudiniEngineUnity::__Test_Transform_Extensions____c* New_ctor();
+  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Transform_Extensions____c* value);
 
-  /// @brief Method .ctor, addr 0x21e4d14, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* value);
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e4d1c, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__1_0(::UnityEngine::Transform* lod);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Transform>, ::HoudiniEngineUnity::Test_Transform*>* value);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e4d80, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__2_0(::UnityEngine::Transform* lod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Test_Transform_Extensions____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Transform_Extensions____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Test_Transform_Extensions____c(__Test_Transform_Extensions____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_Transform_Extensions____c(__Test_Transform_Extensions____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_Transform_Extensions____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,24 +94,28 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Trans
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9909))
 // CS Name: ::HoudiniEngineUnity::Test_Transform_Extensions*
 class CORDL_TYPE Test_Transform_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Transform_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e2454, size 0x64, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_Transform* ToTestObject(::UnityEngine::Transform* self);
-
-  /// @brief Method ToTestObject, addr 0x21e4abc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2346a0c, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Transform*, ::Array<::HoudiniEngineUnity::Test_Transform*>*>
   ToTestObject(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e4bb4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23443a4, size 0x64, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::Test_Transform* ToTestObject(::UnityEngine::Transform* self);
+
+  /// @brief Method ToTestObject, addr 0x2346b04, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Transform*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_Transform_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_Transform_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_Transform_Extensions(Test_Transform_Extensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_Transform_Extensions(Test_Transform_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_Transform_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

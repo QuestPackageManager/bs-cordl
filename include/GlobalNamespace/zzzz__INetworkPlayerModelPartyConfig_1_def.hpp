@@ -15,8 +15,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12803))
 // CS Name: ::INetworkPlayerModelPartyConfig`1<T>*
 class CORDL_TYPE INetworkPlayerModelPartyConfig_1 {
 public:

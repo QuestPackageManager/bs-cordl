@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLeaderboardEntryList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13450)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 976 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13299)) CS Name: ::Oculus.Platform::MessageWithLeaderboardEntryList*
+// CS Name: ::Oculus.Platform::MessageWithLeaderboardEntryList*
 class CORDL_TYPE MessageWithLeaderboardEntryList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithLeaderboardEntryList* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26ef2f0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetLeaderboardEntryList, addr 0x26f22e0, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
-
-  /// @brief Method GetDataFromMessage, addr 0x26f231c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e3c24, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(void* c_message);
 
+  /// @brief Method GetLeaderboardEntryList, addr 0x27e3be8, size 0x3c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
+
+  static inline ::Oculus::Platform::MessageWithLeaderboardEntryList* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0bf8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithLeaderboardEntryList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardEntryList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithLeaderboardEntryList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Destination);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
 // CS Name: ::Oculus.Platform.Models::Destination*
 class CORDL_TYPE Destination : public ::System::Object {
 public:
@@ -31,29 +29,35 @@ public:
   /// @brief Field DisplayName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
 
-  constexpr ::StringW& __cordl_internal_get_ApiName();
+  static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_ApiName() const;
 
-  constexpr void __cordl_internal_set_ApiName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
+  constexpr ::StringW& __cordl_internal_get_ApiName();
 
   constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
-  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
 
   constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
+  constexpr ::StringW& __cordl_internal_get_DisplayName();
+
+  constexpr void __cordl_internal_set_ApiName(::StringW value);
+
+  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
+
   constexpr void __cordl_internal_set_DisplayName(::StringW value);
 
-  static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27040b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f59bc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Destination();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Destination", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Destination(Destination&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Destination(Destination const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Destination();
-
-public:
   /// @brief Field ApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ApiName;
 

@@ -37,12 +37,25 @@ MARK_REF_PTR_T(::Mono::Unity::X509ChainImplUnityTls);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8764)), TypeDefinitionIndex(TypeDefinitionIndex(9006))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8814))
 // CS Name: ::Mono.Unity::X509ChainImplUnityTls*
 class CORDL_TYPE X509ChainImplUnityTls : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 public:
   // Declarations
+  __declspec(property(get = get_ChainElements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* ChainElements;
+
+  __declspec(property(get = get_ChainPolicy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* ChainPolicy;
+
+  __declspec(property(
+      get = get_ChainStatus))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> ChainStatus;
+
+  __declspec(property(get = get_IsValid)) bool IsValid;
+
+  __declspec(property(get = get_NativeCertificateChain))::Mono::Unity::__UnityTls__unitytls_x509list_ref NativeCertificateChain;
+
+  /// @brief Field chainStatusList, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_chainStatusList,
+                      put = __cordl_internal_set_chainStatusList))::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* chainStatusList;
+
   /// @brief Field elements, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* elements;
 
@@ -52,87 +65,78 @@ public:
   /// @brief Field policy, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_policy, put = __cordl_internal_set_policy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* policy;
 
-  /// @brief Field chainStatusList, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_chainStatusList,
-                      put = __cordl_internal_set_chainStatusList))::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* chainStatusList;
-
   /// @brief Field reverseOrder, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_reverseOrder, put = __cordl_internal_set_reverseOrder)) bool reverseOrder;
 
-  __declspec(property(get = get_IsValid)) bool IsValid;
+  /// @brief Method AddStatus, addr 0x29077fc, size 0x10c, virtual true, abstract: false, final false
+  inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  __declspec(property(get = get_NativeCertificateChain))::Mono::Unity::__UnityTls__unitytls_x509list_ref NativeCertificateChain;
+  /// @brief Method Build, addr 0x290798c, size 0x8, virtual true, abstract: false, final false
+  inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  __declspec(property(get = get_ChainElements))::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* ChainElements;
+  /// @brief Method Dispose, addr 0x29079d4, size 0x38, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  __declspec(property(get = get_ChainPolicy))::System::Security::Cryptography::X509Certificates::X509ChainPolicy* ChainPolicy;
+  static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  __declspec(property(
-      get = get_ChainStatus))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> ChainStatus;
-
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __cordl_internal_get_elements();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __cordl_internal_get_elements() const;
-
-  constexpr void __cordl_internal_set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
-
-  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref& __cordl_internal_get_nativeCertificateChain();
-
-  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref const& __cordl_internal_get_nativeCertificateChain() const;
-
-  constexpr void __cordl_internal_set_nativeCertificateChain(::Mono::Unity::__UnityTls__unitytls_x509list_ref value);
-
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __cordl_internal_get_policy();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __cordl_internal_get_policy() const;
-
-  constexpr void __cordl_internal_set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+  /// @brief Method Reset, addr 0x2907994, size 0x40, virtual true, abstract: false, final false
+  inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*& __cordl_internal_get_chainStatusList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const&
   __cordl_internal_get_chainStatusList() const;
 
-  constexpr void __cordl_internal_set_chainStatusList(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*& __cordl_internal_get_elements();
 
-  constexpr bool& __cordl_internal_get_reverseOrder();
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainElementCollection*> const& __cordl_internal_get_elements() const;
+
+  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref const& __cordl_internal_get_nativeCertificateChain() const;
+
+  constexpr ::Mono::Unity::__UnityTls__unitytls_x509list_ref& __cordl_internal_get_nativeCertificateChain();
+
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy*& __cordl_internal_get_policy();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*> const& __cordl_internal_get_policy() const;
 
   constexpr bool const& __cordl_internal_get_reverseOrder() const;
 
+  constexpr bool& __cordl_internal_get_reverseOrder();
+
+  constexpr void __cordl_internal_set_chainStatusList(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* value);
+
+  constexpr void __cordl_internal_set_elements(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* value);
+
+  constexpr void __cordl_internal_set_nativeCertificateChain(::Mono::Unity::__UnityTls__unitytls_x509list_ref value);
+
+  constexpr void __cordl_internal_set_policy(::System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
+
   constexpr void __cordl_internal_set_reverseOrder(bool value);
 
-  static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
-
-  /// @brief Method .ctor, addr 0x281c250, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2905eb4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method get_IsValid, addr 0x281d88c, size 0x28, virtual true, abstract: false, final false
-  inline bool get_IsValid();
-
-  /// @brief Method get_NativeCertificateChain, addr 0x281d8b4, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref get_NativeCertificateChain();
-
-  /// @brief Method get_ChainElements, addr 0x281d8bc, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x2907520, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method AddStatus, addr 0x281db98, size 0x10c, virtual true, abstract: false, final false
-  inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
-
-  /// @brief Method get_ChainPolicy, addr 0x281dca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x2907908, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus, addr 0x281dcac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_ChainStatus, addr 0x2907910, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method Build, addr 0x281dd28, size 0x8, virtual true, abstract: false, final false
-  inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
+  /// @brief Method get_IsValid, addr 0x29074f0, size 0x28, virtual true, abstract: false, final false
+  inline bool get_IsValid();
 
-  /// @brief Method Reset, addr 0x281dd30, size 0x40, virtual true, abstract: false, final false
-  inline void Reset();
+  /// @brief Method get_NativeCertificateChain, addr 0x2907518, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref get_NativeCertificateChain();
 
-  /// @brief Method Dispose, addr 0x281dd70, size 0x38, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509ChainImplUnityTls();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainImplUnityTls", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509ChainImplUnityTls(X509ChainImplUnityTls&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ChainImplUnityTls(X509ChainImplUnityTls const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509ChainImplUnityTls();
-
-public:
   /// @brief Field elements, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* ___elements;
 

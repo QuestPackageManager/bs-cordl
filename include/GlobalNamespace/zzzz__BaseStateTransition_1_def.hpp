@@ -16,8 +16,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5441))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5442))
 // CS Name: ::BaseStateTransition`1<T>*
 class CORDL_TYPE BaseStateTransition_1 : public ::GlobalNamespace::BaseStateTransition {
 public:
@@ -25,17 +23,23 @@ public:
   /// @brief Field _component, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component)) T _component;
 
-  constexpr T& __cordl_internal_get__component();
+  static inline ::GlobalNamespace::BaseStateTransition_1<T>* New_ctor();
 
   constexpr T const& __cordl_internal_get__component() const;
 
-  constexpr void __cordl_internal_set__component(T value);
+  constexpr T& __cordl_internal_get__component();
 
-  static inline ::GlobalNamespace::BaseStateTransition_1<T>* New_ctor();
+  constexpr void __cordl_internal_set__component(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseStateTransition_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseStateTransition_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseStateTransition_1(BaseStateTransition_1&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseStateTransition_1(BaseStateTransition_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseStateTransition_1();
-
-public:
   /// @brief Field _component, offset: 0x20, size: 0x8, def value: None
   T ____component;
 

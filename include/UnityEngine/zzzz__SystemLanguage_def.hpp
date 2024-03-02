@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::SystemLanguage);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10035))
 // CS Name: ::UnityEngine::SystemLanguage
 struct CORDL_TYPE SystemLanguage {
 public:
@@ -75,18 +73,20 @@ public:
     return static_cast<__SystemLanguage_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SystemLanguage(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SystemLanguage();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SystemLanguage(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Afrikaans value: static_cast<int32_t>(0x0)
   static ::UnityEngine::SystemLanguage const Afrikaans;
@@ -108,6 +108,12 @@ public:
 
   /// @brief Field Chinese value: static_cast<int32_t>(0x6)
   static ::UnityEngine::SystemLanguage const Chinese;
+
+  /// @brief Field ChineseSimplified value: static_cast<int32_t>(0x28)
+  static ::UnityEngine::SystemLanguage const ChineseSimplified;
+
+  /// @brief Field ChineseTraditional value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::SystemLanguage const ChineseTraditional;
 
   /// @brief Field Czech value: static_cast<int32_t>(0x7)
   static ::UnityEngine::SystemLanguage const Czech;
@@ -141,6 +147,9 @@ public:
 
   /// @brief Field Hebrew value: static_cast<int32_t>(0x11)
   static ::UnityEngine::SystemLanguage const Hebrew;
+
+  /// @brief Field Hungarian value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::SystemLanguage const Hungarian;
 
   /// @brief Field Icelandic value: static_cast<int32_t>(0x13)
   static ::UnityEngine::SystemLanguage const Icelandic;
@@ -202,20 +211,14 @@ public:
   /// @brief Field Ukrainian value: static_cast<int32_t>(0x26)
   static ::UnityEngine::SystemLanguage const Ukrainian;
 
-  /// @brief Field Vietnamese value: static_cast<int32_t>(0x27)
-  static ::UnityEngine::SystemLanguage const Vietnamese;
-
-  /// @brief Field ChineseSimplified value: static_cast<int32_t>(0x28)
-  static ::UnityEngine::SystemLanguage const ChineseSimplified;
-
-  /// @brief Field ChineseTraditional value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::SystemLanguage const ChineseTraditional;
-
   /// @brief Field Unknown value: static_cast<int32_t>(0x2a)
   static ::UnityEngine::SystemLanguage const Unknown;
 
-  /// @brief Field Hungarian value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::SystemLanguage const Hungarian;
+  /// @brief Field Vietnamese value: static_cast<int32_t>(0x27)
+  static ::UnityEngine::SystemLanguage const Vietnamese;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

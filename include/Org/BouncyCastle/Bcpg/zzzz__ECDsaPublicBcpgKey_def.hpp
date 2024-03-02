@@ -26,27 +26,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(565))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(567))
 // CS Name: ::Org.BouncyCastle.Bcpg::ECDsaPublicBcpgKey*
 class CORDL_TYPE ECDsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11d1440, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+  static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x11d1444, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
+  /// @brief Method .ctor, addr 0x12422a0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
-
-  /// @brief Method .ctor, addr 0x11d1448, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12422a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
+  /// @brief Method .ctor, addr 0x12422a4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECDsaPublicBcpgKey();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECDsaPublicBcpgKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECDsaPublicBcpgKey(ECDsaPublicBcpgKey&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECDsaPublicBcpgKey(ECDsaPublicBcpgKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECDsaPublicBcpgKey();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -48,77 +48,81 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11194))
 // CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <FactoryId>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get__FactoryId_k__BackingField, put = __cordl_internal_set__FactoryId_k__BackingField))::System::Guid _FactoryId_k__BackingField;
+  __declspec(property(get = get_Container, put = set_Container))::Zenject::DiContainer* Container;
+
+  __declspec(property(get = get_FactoryId, put = set_FactoryId))::System::Guid FactoryId;
+
+  __declspec(property(get = get_IsCached)) bool IsCached;
+
+  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field <Container>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Container_k__BackingField, put = __cordl_internal_set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
 
-  __declspec(property(get = get_IsCached)) bool IsCached;
-
-  __declspec(property(get = get_FactoryId, put = set_FactoryId))::System::Guid FactoryId;
-
-  __declspec(property(get = get_Container, put = set_Container))::Zenject::DiContainer* Container;
-
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+  /// @brief Field <FactoryId>k__BackingField, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get__FactoryId_k__BackingField, put = __cordl_internal_set__FactoryId_k__BackingField))::System::Guid _FactoryId_k__BackingField;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
-
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
-
-  constexpr ::System::Guid& __cordl_internal_get__FactoryId_k__BackingField();
-
-  constexpr ::System::Guid const& __cordl_internal_get__FactoryId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__FactoryId_k__BackingField(::System::Guid value);
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__Container_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
-
-  static inline ::Zenject::IFactoryProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
-
-  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_IsCached();
-
-  /// @brief Method get_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Guid get_FactoryId();
-
-  /// @brief Method set_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_FactoryId(::System::Guid value);
-
-  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* get_Container();
-
-  /// @brief Method set_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_Container(::Zenject::DiContainer* value);
-
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_TypeVariesBasedOnMemberType();
-
-  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+
+  static inline ::Zenject::IFactoryProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
+
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__Container_k__BackingField() const;
+
+  constexpr ::System::Guid const& __cordl_internal_get__FactoryId_k__BackingField() const;
+
+  constexpr ::System::Guid& __cordl_internal_get__FactoryId_k__BackingField();
+
+  constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__FactoryId_k__BackingField(::System::Guid value);
+
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
+
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* get_Container();
+
+  /// @brief Method get_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Guid get_FactoryId();
+
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool get_IsCached();
+
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool get_TypeVariesBasedOnMemberType();
+
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+
+  /// @brief Method set_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_Container(::Zenject::DiContainer* value);
+
+  /// @brief Method set_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_FactoryId(::System::Guid value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IFactoryProviderBase_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IFactoryProviderBase_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IFactoryProviderBase_1(IFactoryProviderBase_1&&) = delete;
@@ -127,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IFactoryProviderBase_1(IFactoryProviderBase_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IFactoryProviderBase_1();
-
-public:
   /// @brief Field <FactoryId>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ____FactoryId_k__BackingField;
 

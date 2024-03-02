@@ -78,14 +78,18 @@ MARK_REF_PTR_T(::TMPro::__TMP_MaterialManager____c__DisplayClass9_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12397))
 // CS Name: ::TMP_MaterialManager::FallbackMaterial*
 class CORDL_TYPE __TMP_MaterialManager__FallbackMaterial : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field count, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
+
   /// @brief Field fallbackID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_fallbackID, put = __cordl_internal_set_fallbackID)) int64_t fallbackID;
+
+  /// @brief Field fallbackMaterial, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_fallbackMaterial, put = __cordl_internal_set_fallbackMaterial))::UnityW<::UnityEngine::Material> fallbackMaterial;
 
   /// @brief Field sourceMaterial, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_sourceMaterial, put = __cordl_internal_set_sourceMaterial))::UnityW<::UnityEngine::Material> sourceMaterial;
@@ -93,47 +97,47 @@ public:
   /// @brief Field sourceMaterialCRC, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_sourceMaterialCRC, put = __cordl_internal_set_sourceMaterialCRC)) int32_t sourceMaterialCRC;
 
-  /// @brief Field fallbackMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_fallbackMaterial, put = __cordl_internal_set_fallbackMaterial))::UnityW<::UnityEngine::Material> fallbackMaterial;
-
-  /// @brief Field count, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
-
-  constexpr int64_t& __cordl_internal_get_fallbackID();
-
-  constexpr int64_t const& __cordl_internal_get_fallbackID() const;
-
-  constexpr void __cordl_internal_set_fallbackID(int64_t value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_sourceMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_sourceMaterial() const;
-
-  constexpr void __cordl_internal_set_sourceMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr int32_t& __cordl_internal_get_sourceMaterialCRC();
-
-  constexpr int32_t const& __cordl_internal_get_sourceMaterialCRC() const;
-
-  constexpr void __cordl_internal_set_sourceMaterialCRC(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_fallbackMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_fallbackMaterial() const;
-
-  constexpr void __cordl_internal_set_fallbackMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr int32_t& __cordl_internal_get_count();
+  static inline ::TMPro::__TMP_MaterialManager__FallbackMaterial* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_count() const;
 
+  constexpr int32_t& __cordl_internal_get_count();
+
+  constexpr int64_t const& __cordl_internal_get_fallbackID() const;
+
+  constexpr int64_t& __cordl_internal_get_fallbackID();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_fallbackMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_fallbackMaterial();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_sourceMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_sourceMaterial();
+
+  constexpr int32_t const& __cordl_internal_get_sourceMaterialCRC() const;
+
+  constexpr int32_t& __cordl_internal_get_sourceMaterialCRC();
+
   constexpr void __cordl_internal_set_count(int32_t value);
 
-  static inline ::TMPro::__TMP_MaterialManager__FallbackMaterial* New_ctor();
+  constexpr void __cordl_internal_set_fallbackID(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2c3c460, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_fallbackMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_sourceMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_sourceMaterialCRC(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2d240a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager__FallbackMaterial();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager__FallbackMaterial", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager__FallbackMaterial(__TMP_MaterialManager__FallbackMaterial&&) = delete;
@@ -142,12 +146,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager__FallbackMaterial(__TMP_MaterialManager__FallbackMaterial const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager__FallbackMaterial();
-
-public:
   /// @brief Field fallbackID, offset: 0x10, size: 0x8, def value: None
   int64_t ___fallbackID;
 
@@ -183,8 +181,6 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager__FallbackMaterial, ___coun
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12398))
 // CS Name: ::TMP_MaterialManager::MaskingMaterial*
 class CORDL_TYPE __TMP_MaterialManager__MaskingMaterial : public ::System::Object {
 public:
@@ -192,44 +188,50 @@ public:
   /// @brief Field baseMaterial, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_baseMaterial, put = __cordl_internal_set_baseMaterial))::UnityW<::UnityEngine::Material> baseMaterial;
 
-  /// @brief Field stencilMaterial, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
-
   /// @brief Field count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field stencilID, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_stencilID, put = __cordl_internal_set_stencilID)) int32_t stencilID;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
-
-  constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
-
-  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr int32_t& __cordl_internal_get_count();
-
-  constexpr int32_t const& __cordl_internal_get_count() const;
-
-  constexpr void __cordl_internal_set_count(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_stencilID();
-
-  constexpr int32_t const& __cordl_internal_get_stencilID() const;
-
-  constexpr void __cordl_internal_set_stencilID(int32_t value);
+  /// @brief Field stencilMaterial, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
   static inline ::TMPro::__TMP_MaterialManager__MaskingMaterial* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c3a9bc, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
+
+  constexpr int32_t const& __cordl_internal_get_count() const;
+
+  constexpr int32_t& __cordl_internal_get_count();
+
+  constexpr int32_t const& __cordl_internal_get_stencilID() const;
+
+  constexpr int32_t& __cordl_internal_get_stencilID();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+
+  constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_count(int32_t value);
+
+  constexpr void __cordl_internal_set_stencilID(int32_t value);
+
+  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
+
+  /// @brief Method .ctor, addr 0x2d225fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager__MaskingMaterial();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager__MaskingMaterial", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager__MaskingMaterial(__TMP_MaterialManager__MaskingMaterial&&) = delete;
@@ -238,12 +240,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager__MaskingMaterial(__TMP_MaterialManager__MaskingMaterial const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager__MaskingMaterial();
-
-public:
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___baseMaterial;
 
@@ -274,8 +270,6 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager__MaskingMaterial, ___stenc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12399))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass9_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass9_0 : public ::System::Object {
 public:
@@ -283,20 +277,26 @@ public:
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* New_ctor();
+
+  /// @brief Method <GetBaseMaterial>b__0, addr 0x2d249d4, size 0x70, virtual false, abstract: false, final false
+  inline bool _GetBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c3ad24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d22964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBaseMaterial>b__0, addr 0x2c3cd94, size 0x70, virtual false, abstract: false, final false
-  inline bool _GetBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager____c__DisplayClass9_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager____c__DisplayClass9_0(__TMP_MaterialManager____c__DisplayClass9_0&&) = delete;
@@ -305,12 +305,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager____c__DisplayClass9_0(__TMP_MaterialManager____c__DisplayClass9_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager____c__DisplayClass9_0();
-
-public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
@@ -326,8 +320,6 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass9_0, ___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12400))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass11_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass11_0 : public ::System::Object {
 public:
@@ -335,20 +327,26 @@ public:
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* New_ctor();
+
+  /// @brief Method <AddMaskingMaterial>b__0, addr 0x2d24a44, size 0x70, virtual false, abstract: false, final false
+  inline bool _AddMaskingMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c3b05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d22c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddMaskingMaterial>b__0, addr 0x2c3ce04, size 0x70, virtual false, abstract: false, final false
-  inline bool _AddMaskingMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager____c__DisplayClass11_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager____c__DisplayClass11_0(__TMP_MaterialManager____c__DisplayClass11_0&&) = delete;
@@ -357,12 +355,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager____c__DisplayClass11_0(__TMP_MaterialManager____c__DisplayClass11_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager____c__DisplayClass11_0();
-
-public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
@@ -378,8 +370,6 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass11_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12401))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass12_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -387,20 +377,26 @@ public:
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* New_ctor();
+
+  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x2d24ab4, size 0x70, virtual false, abstract: false, final false
+  inline bool _RemoveStencilMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
+
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c3b1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d22e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x2c3ce74, size 0x70, virtual false, abstract: false, final false
-  inline bool _RemoveStencilMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager____c__DisplayClass12_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager____c__DisplayClass12_0(__TMP_MaterialManager____c__DisplayClass12_0&&) = delete;
@@ -409,12 +405,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager____c__DisplayClass12_0(__TMP_MaterialManager____c__DisplayClass12_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager____c__DisplayClass12_0();
-
-public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
@@ -430,8 +420,6 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass12_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12402))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass13_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -439,20 +427,26 @@ public:
   /// @brief Field baseMaterial, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_baseMaterial, put = __cordl_internal_set_baseMaterial))::UnityW<::UnityEngine::Material> baseMaterial;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
+  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* New_ctor();
+
+  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x2d24b24, size 0x70, virtual false, abstract: false, final false
+  inline bool _ReleaseBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
 
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
+
   constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c3b6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d23338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x2c3cee4, size 0x70, virtual false, abstract: false, final false
-  inline bool _ReleaseBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_MaterialManager____c__DisplayClass13_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_MaterialManager____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_MaterialManager____c__DisplayClass13_0(__TMP_MaterialManager____c__DisplayClass13_0&&) = delete;
@@ -461,12 +455,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_MaterialManager____c__DisplayClass13_0(__TMP_MaterialManager____c__DisplayClass13_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_MaterialManager____c__DisplayClass13_0();
-
-public:
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___baseMaterial;
 
@@ -482,119 +470,123 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass13_0, __
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12403))
 // CS Name: ::TMPro::TMP_MaterialManager*
 class CORDL_TYPE TMP_MaterialManager : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass13_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0;
-
-  using __c__DisplayClass12_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0;
-
-  using __c__DisplayClass11_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0;
-
-  using __c__DisplayClass9_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0;
+  using FallbackMaterial = ::TMPro::__TMP_MaterialManager__FallbackMaterial;
 
   using MaskingMaterial = ::TMPro::__TMP_MaterialManager__MaskingMaterial;
 
-  using FallbackMaterial = ::TMPro::__TMP_MaterialManager__FallbackMaterial;
+  using __c__DisplayClass11_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0;
 
-  /// @brief Field m_materialList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_materialList, put = setStaticF_m_materialList))::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* m_materialList;
+  using __c__DisplayClass12_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0;
 
-  /// @brief Field m_fallbackMaterials, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_fallbackMaterials,
-                             put = setStaticF_m_fallbackMaterials))::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* m_fallbackMaterials;
+  using __c__DisplayClass13_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0;
 
-  /// @brief Field m_fallbackMaterialLookup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_fallbackMaterialLookup,
-                             put = setStaticF_m_fallbackMaterialLookup))::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* m_fallbackMaterialLookup;
+  using __c__DisplayClass9_0 = ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0;
+
+  /// @brief Field isFallbackListDirty, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_isFallbackListDirty, put = setStaticF_isFallbackListDirty)) bool isFallbackListDirty;
 
   /// @brief Field m_fallbackCleanupList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_fallbackCleanupList,
                              put = setStaticF_m_fallbackCleanupList))::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* m_fallbackCleanupList;
 
-  /// @brief Field isFallbackListDirty, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_isFallbackListDirty, put = setStaticF_isFallbackListDirty)) bool isFallbackListDirty;
+  /// @brief Field m_fallbackMaterialLookup, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_m_fallbackMaterialLookup,
+                             put = setStaticF_m_fallbackMaterialLookup))::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* m_fallbackMaterialLookup;
 
-  static inline void setStaticF_m_materialList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* value);
+  /// @brief Field m_fallbackMaterials, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_m_fallbackMaterials,
+                             put = setStaticF_m_fallbackMaterials))::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* m_fallbackMaterials;
 
-  static inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* getStaticF_m_materialList();
+  /// @brief Field m_materialList, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_m_materialList, put = setStaticF_m_materialList))::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* m_materialList;
 
-  static inline void setStaticF_m_fallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value);
+  /// @brief Method AddFallbackMaterialReference, addr 0x2d244c8, size 0x144, virtual false, abstract: false, final false
+  static inline void AddFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
 
-  static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* getStaticF_m_fallbackMaterials();
+  /// @brief Method AddMaskingMaterial, addr 0x2d22a28, size 0x274, virtual false, abstract: false, final false
+  static inline void AddMaskingMaterial(::UnityEngine::Material* baseMaterial, ::UnityEngine::Material* stencilMaterial, int32_t stencilID);
 
-  static inline void setStaticF_m_fallbackMaterialLookup(::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* value);
+  /// @brief Method CleanupFallbackMaterials, addr 0x2d21548, size 0x214, virtual false, abstract: false, final false
+  static inline void CleanupFallbackMaterials();
 
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* getStaticF_m_fallbackMaterialLookup();
+  /// @brief Method ClearMaterials, addr 0x2d23340, size 0x1bc, virtual false, abstract: false, final false
+  static inline void ClearMaterials();
 
-  static inline void setStaticF_m_fallbackCleanupList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value);
+  /// @brief Method CopyMaterialPresetProperties, addr 0x2d23e34, size 0x26c, virtual false, abstract: false, final false
+  static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  static inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* getStaticF_m_fallbackCleanupList();
+  /// @brief Method FindRootSortOverrideCanvas, addr 0x2d237c8, size 0x1a0, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
-  static inline void setStaticF_isFallbackListDirty(bool value);
+  /// @brief Method GetBaseMaterial, addr 0x2d22800, size 0x164, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
+
+  /// @brief Method GetFallbackMaterial, addr 0x2d23b64, size 0x2d0, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
+
+  /// @brief Method GetFallbackMaterial, addr 0x2d240a8, size 0x420, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
+
+  /// @brief Method GetMaterialForRendering, addr 0x2d23968, size 0x1fc, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
+
+  /// @brief Method GetStencilID, addr 0x2d234fc, size 0x2cc, virtual false, abstract: false, final false
+  static inline int32_t GetStencilID(::UnityEngine::GameObject* obj);
+
+  /// @brief Method GetStencilMaterial, addr 0x2d2175c, size 0x3b4, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
+
+  /// @brief Method OnPreRender, addr 0x2d214d0, size 0x78, virtual false, abstract: false, final false
+  static inline void OnPreRender();
+
+  /// @brief Method ReleaseBaseMaterial, addr 0x2d22e0c, size 0x52c, virtual false, abstract: false, final false
+  static inline void ReleaseBaseMaterial(::UnityEngine::Material* baseMaterial);
+
+  /// @brief Method ReleaseFallbackMaterial, addr 0x2d247e0, size 0x1f4, virtual false, abstract: false, final false
+  static inline void ReleaseFallbackMaterial(::UnityEngine::Material* fallbackMaterial);
+
+  /// @brief Method ReleaseStencilMaterial, addr 0x2d22604, size 0x1fc, virtual false, abstract: false, final false
+  static inline void ReleaseStencilMaterial(::UnityEngine::Material* stencilMaterial);
+
+  /// @brief Method RemoveFallbackMaterialReference, addr 0x2d2460c, size 0x1d4, virtual false, abstract: false, final false
+  static inline void RemoveFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
+
+  /// @brief Method RemoveStencilMaterial, addr 0x2d22ca4, size 0x160, virtual false, abstract: false, final false
+  static inline void RemoveStencilMaterial(::UnityEngine::Material* stencilMaterial);
+
+  /// @brief Method SetStencil, addr 0x2d2296c, size 0xbc, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Material> SetStencil(::UnityEngine::Material* material, int32_t stencilID);
 
   static inline bool getStaticF_isFallbackListDirty();
 
-  /// @brief Method OnPreRender, addr 0x2c39890, size 0x78, virtual false, abstract: false, final false
-  static inline void OnPreRender();
+  static inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* getStaticF_m_fallbackCleanupList();
 
-  /// @brief Method GetStencilMaterial, addr 0x2c39b1c, size 0x3b4, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* getStaticF_m_fallbackMaterialLookup();
 
-  /// @brief Method ReleaseStencilMaterial, addr 0x2c3a9c4, size 0x1fc, virtual false, abstract: false, final false
-  static inline void ReleaseStencilMaterial(::UnityEngine::Material* stencilMaterial);
+  static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* getStaticF_m_fallbackMaterials();
 
-  /// @brief Method GetBaseMaterial, addr 0x2c3abc0, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
+  static inline ::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* getStaticF_m_materialList();
 
-  /// @brief Method SetStencil, addr 0x2c3ad2c, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> SetStencil(::UnityEngine::Material* material, int32_t stencilID);
+  static inline void setStaticF_isFallbackListDirty(bool value);
 
-  /// @brief Method AddMaskingMaterial, addr 0x2c3ade8, size 0x274, virtual false, abstract: false, final false
-  static inline void AddMaskingMaterial(::UnityEngine::Material* baseMaterial, ::UnityEngine::Material* stencilMaterial, int32_t stencilID);
+  static inline void setStaticF_m_fallbackCleanupList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value);
 
-  /// @brief Method RemoveStencilMaterial, addr 0x2c3b064, size 0x160, virtual false, abstract: false, final false
-  static inline void RemoveStencilMaterial(::UnityEngine::Material* stencilMaterial);
+  static inline void setStaticF_m_fallbackMaterialLookup(::System::Collections::Generic::Dictionary_2<int32_t, int64_t>* value);
 
-  /// @brief Method ReleaseBaseMaterial, addr 0x2c3b1cc, size 0x52c, virtual false, abstract: false, final false
-  static inline void ReleaseBaseMaterial(::UnityEngine::Material* baseMaterial);
+  static inline void setStaticF_m_fallbackMaterials(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::__TMP_MaterialManager__FallbackMaterial*>* value);
 
-  /// @brief Method ClearMaterials, addr 0x2c3b700, size 0x1bc, virtual false, abstract: false, final false
-  static inline void ClearMaterials();
+  static inline void setStaticF_m_materialList(::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* value);
 
-  /// @brief Method GetStencilID, addr 0x2c3b8bc, size 0x2cc, virtual false, abstract: false, final false
-  static inline int32_t GetStencilID(::UnityEngine::GameObject* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_MaterialManager();
 
-  /// @brief Method GetMaterialForRendering, addr 0x2c3bd28, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
-
-  /// @brief Method FindRootSortOverrideCanvas, addr 0x2c3bb88, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
-
-  /// @brief Method GetFallbackMaterial, addr 0x2c3bf24, size 0x2d0, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
-
-  /// @brief Method GetFallbackMaterial, addr 0x2c3c468, size 0x420, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
-
-  /// @brief Method AddFallbackMaterialReference, addr 0x2c3c888, size 0x144, virtual false, abstract: false, final false
-  static inline void AddFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
-
-  /// @brief Method RemoveFallbackMaterialReference, addr 0x2c3c9cc, size 0x1d4, virtual false, abstract: false, final false
-  static inline void RemoveFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
-
-  /// @brief Method CleanupFallbackMaterials, addr 0x2c39908, size 0x214, virtual false, abstract: false, final false
-  static inline void CleanupFallbackMaterials();
-
-  /// @brief Method ReleaseFallbackMaterial, addr 0x2c3cba0, size 0x1f4, virtual false, abstract: false, final false
-  static inline void ReleaseFallbackMaterial(::UnityEngine::Material* fallbackMaterial);
-
-  /// @brief Method CopyMaterialPresetProperties, addr 0x2c3c1f4, size 0x26c, virtual false, abstract: false, final false
-  static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_MaterialManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_MaterialManager(TMP_MaterialManager&&) = delete;
@@ -603,12 +595,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_MaterialManager(TMP_MaterialManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_MaterialManager();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

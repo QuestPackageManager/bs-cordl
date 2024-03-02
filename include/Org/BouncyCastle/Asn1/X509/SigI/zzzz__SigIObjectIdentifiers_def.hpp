@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(337))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers*
 class CORDL_TYPE SigIObjectIdentifiers : public ::System::Object {
 public:
@@ -26,57 +24,63 @@ public:
   /// @brief Field IdSigI, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdSigI, put = setStaticF_IdSigI))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigI;
 
-  /// @brief Field IdSigIKP, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
-
   /// @brief Field IdSigICP, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdSigICP, put = setStaticF_IdSigICP))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICP;
-
-  /// @brief Field IdSigION, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
-
-  /// @brief Field IdSigIKPDirectoryService, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
-
-  /// @brief Field IdSigIONPersonalData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
 
   /// @brief Field IdSigICPSigConform, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdSigICPSigConform, put = setStaticF_IdSigICPSigConform))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICPSigConform;
 
-  static inline void setStaticF_IdSigI(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field IdSigIKP, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigI();
+  /// @brief Field IdSigIKPDirectoryService, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
 
-  static inline void setStaticF_IdSigIKP(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field IdSigION, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIKP();
-
-  static inline void setStaticF_IdSigICP(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigICP();
-
-  static inline void setStaticF_IdSigION(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigION();
-
-  static inline void setStaticF_IdSigIKPDirectoryService(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIKPDirectoryService();
-
-  static inline void setStaticF_IdSigIONPersonalData(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIONPersonalData();
-
-  static inline void setStaticF_IdSigICPSigConform(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigICPSigConform();
+  /// @brief Field IdSigIONPersonalData, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x108347c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f52dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigI();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigICP();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigICPSigConform();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIKP();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIKPDirectoryService();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigION();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigIONPersonalData();
+
+  static inline void setStaticF_IdSigI(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigICP(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigICPSigConform(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigIKP(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigIKPDirectoryService(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigION(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdSigIONPersonalData(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SigIObjectIdentifiers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SigIObjectIdentifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SigIObjectIdentifiers(SigIObjectIdentifiers&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SigIObjectIdentifiers(SigIObjectIdentifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SigIObjectIdentifiers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

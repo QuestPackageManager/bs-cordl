@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseEnterWindowEvent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4643 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7223))
 // CS Name: ::UnityEngine.UIElements::MouseEnterWindowEvent*
 class CORDL_TYPE MouseEnterWindowEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseEnterWindowEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e51724, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5f234, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e51778, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5f288, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterWindowEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e51784, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method PostDispatch, addr 0x2e517d8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2f5f2e8, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
+  /// @brief Method .ctor, addr 0x2f5f294, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseEnterWindowEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEnterWindowEvent(MouseEnterWindowEvent&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseEnterWindowEvent(MouseEnterWindowEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseEnterWindowEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

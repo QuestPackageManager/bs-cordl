@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultUnityXRHapticsHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14412))
 // CS Name: ::DefaultUnityXRHapticsHandler*
 class CORDL_TYPE DefaultUnityXRHapticsHandler : public ::System::Object {
 public:
@@ -37,38 +35,44 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
-  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Destroy, addr 0x22590d0, size 0x4, virtual false, abstract: false, final false
+  inline void Destroy();
+
+  /// @brief Method Dispose, addr 0x2259150, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
+
+  /// @brief Method StopHaptics, addr 0x2259120, size 0x30, virtual true, abstract: false, final true
+  inline void StopHaptics();
+
+  /// @brief Method TriggerHapticPulse, addr 0x22590d4, size 0x4c, virtual true, abstract: false, final true
+  inline void TriggerHapticPulse(float_t strength, float_t duration);
+
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
+
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get__node();
+
+  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
+
+  /// @brief Method .ctor, addr 0x22590a8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::XR::XRNode node);
+
+  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
+  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get__node();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultUnityXRHapticsHandler();
 
-  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
-
-  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
-
-  static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
-
-  /// @brief Method .ctor, addr 0x20f7014, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::XR::XRNode node);
-
-  /// @brief Method Destroy, addr 0x20f703c, size 0x4, virtual false, abstract: false, final false
-  inline void Destroy();
-
-  /// @brief Method TriggerHapticPulse, addr 0x20f7040, size 0x4c, virtual true, abstract: false, final true
-  inline void TriggerHapticPulse(float_t strength, float_t duration);
-
-  /// @brief Method StopHaptics, addr 0x20f708c, size 0x30, virtual true, abstract: false, final true
-  inline void StopHaptics();
-
-  /// @brief Method Dispose, addr 0x20f70bc, size 0x4, virtual true, abstract: false, final true
-  inline void Dispose();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultUnityXRHapticsHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultUnityXRHapticsHandler(DefaultUnityXRHapticsHandler&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultUnityXRHapticsHandler(DefaultUnityXRHapticsHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultUnityXRHapticsHandler();
-
-public:
   /// @brief Field _node, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ____node;
 

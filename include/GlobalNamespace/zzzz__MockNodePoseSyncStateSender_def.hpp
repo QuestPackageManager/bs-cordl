@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MockNodePoseSyncStateSender);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15510))
 // CS Name: ::MockNodePoseSyncStateSender*
 class CORDL_TYPE MockNodePoseSyncStateSender : public ::System::Object {
 public:
@@ -42,8 +40,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0x24d55c8, size 0xc8, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x24d58c0, size 0x4, virtual false, abstract: false, final false
+  inline void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+
+  static inline ::GlobalNamespace::MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
+
+  /// @brief Method SendPose, addr 0x24d5690, size 0x230, virtual false, abstract: false, final false
+  inline void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
@@ -51,20 +57,18 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  static inline ::GlobalNamespace::MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
-
-  /// @brief Method .ctor, addr 0x23e68e0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d544c, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method Dispose, addr 0x23e6a5c, size 0xc8, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method SendPose, addr 0x23e6b24, size 0x230, virtual false, abstract: false, final false
-  inline void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockNodePoseSyncStateSender();
 
-  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x23e6d54, size 0x4, virtual false, abstract: false, final false
-  inline void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockNodePoseSyncStateSender", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockNodePoseSyncStateSender(MockNodePoseSyncStateSender&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockNodePoseSyncStateSender(MockNodePoseSyncStateSender const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockNodePoseSyncStateSender();
-
-public:
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 

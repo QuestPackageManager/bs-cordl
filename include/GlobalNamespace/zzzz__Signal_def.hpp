@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::Signal);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14395))
 // CS Name: ::Signal*
 class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
@@ -26,32 +24,38 @@ public:
   /// @brief Field _event, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::System::Action* _event;
 
+  static inline ::GlobalNamespace::Signal* New_ctor();
+
+  /// @brief Method Raise, addr 0x2257810, size 0x1c, virtual true, abstract: false, final false
+  inline void Raise();
+
+  /// @brief Method Subscribe, addr 0x225782c, size 0x28, virtual false, abstract: false, final false
+  inline void Subscribe(::System::Action* foo);
+
+  /// @brief Method Unsubscribe, addr 0x2257854, size 0x4, virtual false, abstract: false, final false
+  inline void Unsubscribe(::System::Action* foo);
+
   constexpr ::System::Action*& __cordl_internal_get__event();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__event() const;
 
   constexpr void __cordl_internal_set__event(::System::Action* value);
 
-  /// @brief Method add__event, addr 0x20f5644, size 0x9c, virtual false, abstract: false, final false
-  inline void add__event(::System::Action* value);
-
-  /// @brief Method remove__event, addr 0x20f56e0, size 0x9c, virtual false, abstract: false, final false
-  inline void remove__event(::System::Action* value);
-
-  /// @brief Method Raise, addr 0x20f577c, size 0x1c, virtual true, abstract: false, final false
-  inline void Raise();
-
-  /// @brief Method Subscribe, addr 0x20f5798, size 0x28, virtual false, abstract: false, final false
-  inline void Subscribe(::System::Action* foo);
-
-  /// @brief Method Unsubscribe, addr 0x20f57c0, size 0x4, virtual false, abstract: false, final false
-  inline void Unsubscribe(::System::Action* foo);
-
-  static inline ::GlobalNamespace::Signal* New_ctor();
-
-  /// @brief Method .ctor, addr 0x20f57c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add__event, addr 0x22576d8, size 0x9c, virtual false, abstract: false, final false
+  inline void add__event(::System::Action* value);
+
+  /// @brief Method remove__event, addr 0x2257774, size 0x9c, virtual false, abstract: false, final false
+  inline void remove__event(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Signal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Signal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Signal(Signal&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Signal(Signal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Signal();
-
-public:
   /// @brief Field _event, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ____event;
 

@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionCallMessage
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3134))
 // CS Name: ::System.Runtime.Remoting.Activation::IConstructionCallMessage*
 class CORDL_TYPE IConstructionCallMessage {
 public:
@@ -55,20 +53,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
-
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
-
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
   /// @brief Method get_ActivationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ActivationType();
@@ -79,14 +68,23 @@ public:
   /// @brief Method get_Activator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method set_Activator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
-
   /// @brief Method get_CallSiteActivationAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_CallSiteActivationAttributes();
 
   /// @brief Method get_ContextProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IList* get_ContextProperties();
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
+  /// @brief Method set_Activator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IConstructionCallMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

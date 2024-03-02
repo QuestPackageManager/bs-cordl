@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Marvin);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2434))
 // CS Name: ::System::Marvin*
 class CORDL_TYPE Marvin : public ::System::Object {
 public:
@@ -28,28 +26,34 @@ public:
   /// @brief Field <DefaultSeed>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
 
-  static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);
+  /// @brief Method Block, addr 0x26a0b48, size 0x88, virtual false, abstract: false, final false
+  static inline void Block(ByRef<uint32_t> rp0, ByRef<uint32_t> rp1);
+
+  /// @brief Method ComputeHash32, addr 0x26a06cc, size 0xac, virtual false, abstract: false, final false
+  static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
+
+  /// @brief Method ComputeHash32, addr 0x26a0778, size 0x3d0, virtual false, abstract: false, final false
+  static inline int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed);
+
+  /// @brief Method GenerateSeed, addr 0x26a0c34, size 0xc, virtual false, abstract: false, final false
+  static inline uint64_t GenerateSeed();
+
+  /// @brief Method _rotl, addr 0x26a0bd0, size 0xc, virtual false, abstract: false, final false
+  static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
-  /// @brief Method ComputeHash32, addr 0x25ae0d0, size 0xac, virtual false, abstract: false, final false
-  static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
-
-  /// @brief Method ComputeHash32, addr 0x25ae17c, size 0x3d0, virtual false, abstract: false, final false
-  static inline int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed);
-
-  /// @brief Method Block, addr 0x25ae54c, size 0x88, virtual false, abstract: false, final false
-  static inline void Block(ByRef<uint32_t> rp0, ByRef<uint32_t> rp1);
-
-  /// @brief Method _rotl, addr 0x25ae5d4, size 0xc, virtual false, abstract: false, final false
-  static inline uint32_t _rotl(uint32_t value, int32_t shift);
-
-  /// @brief Method get_DefaultSeed, addr 0x25ae5e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSeed, addr 0x26a0bdc, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
-  /// @brief Method GenerateSeed, addr 0x25ae638, size 0xc, virtual false, abstract: false, final false
-  static inline uint64_t GenerateSeed();
+  static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Marvin();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marvin(Marvin&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Marvin(Marvin const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Marvin();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

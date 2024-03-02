@@ -28,14 +28,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeInfo);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9708))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9741))
 // CS Name: ::HoudiniEngineUnity::HAPI_AttributeInfo
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2191e84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f3dd0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW ignored);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_AttributeInfo();
 
   // Ctor Parameters [CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None
   // }, CppParam { name: "storage", ty: "::HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "originalOwner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner",
@@ -44,10 +46,6 @@ public:
   // None }]
   constexpr HAPI_AttributeInfo(bool exists, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ::HoudiniEngineUnity::HAPI_StorageType storage, ::HoudiniEngineUnity::HAPI_AttributeOwner originalOwner,
                                int32_t count, int32_t tupleSize, int64_t totalArrayElements, ::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_AttributeInfo();
 
   /// @brief Field exists, offset: 0x0, size: 0x1, def value: None
   bool exists;

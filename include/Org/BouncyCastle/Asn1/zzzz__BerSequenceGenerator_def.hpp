@@ -18,22 +18,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSequenceGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(476))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(489))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSequenceGenerator*
 class CORDL_TYPE BerSequenceGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11be35c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream);
-
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11be390, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122e1bc, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream);
+
+  /// @brief Method .ctor, addr 0x122e1f0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerSequenceGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerSequenceGenerator(BerSequenceGenerator&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerSequenceGenerator(BerSequenceGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSequenceGenerator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

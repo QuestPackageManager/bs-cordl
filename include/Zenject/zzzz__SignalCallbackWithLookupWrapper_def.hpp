@@ -46,8 +46,6 @@ MARK_REF_PTR_T(::Zenject::SignalCallbackWithLookupWrapper);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
 // CS Name: ::Zenject::SignalCallbackWithLookupWrapper*
 class CORDL_TYPE SignalCallbackWithLookupWrapper : public ::System::Object {
 public:
@@ -55,8 +53,8 @@ public:
   /// @brief Field _container, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
-  /// @brief Field _signalBus, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__signalBus, put = __cordl_internal_set__signalBus))::Zenject::SignalBus* _signalBus;
+  /// @brief Field _identifier, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
 
   /// @brief Field _lookupId, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__lookupId, put = __cordl_internal_set__lookupId))::System::Guid _lookupId;
@@ -67,80 +65,86 @@ public:
   /// @brief Field _objectType, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType))::System::Type* _objectType;
 
+  /// @brief Field _signalBus, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__signalBus, put = __cordl_internal_set__signalBus))::Zenject::SignalBus* _signalBus;
+
   /// @brief Field _signalType, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__signalType, put = __cordl_internal_set__signalType))::System::Type* _signalType;
-
-  /// @brief Field _identifier, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  constexpr ::Zenject::SignalBus*& __cordl_internal_get__signalBus();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __cordl_internal_get__signalBus() const;
-
-  constexpr void __cordl_internal_set__signalBus(::Zenject::SignalBus* value);
-
-  constexpr ::System::Guid& __cordl_internal_get__lookupId();
-
-  constexpr ::System::Guid const& __cordl_internal_get__lookupId() const;
-
-  constexpr void __cordl_internal_set__lookupId(::System::Guid value);
-
-  constexpr ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>*& __cordl_internal_get__methodGetter();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>*> const& __cordl_internal_get__methodGetter() const;
-
-  constexpr void __cordl_internal_set__methodGetter(::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* value);
-
-  constexpr ::System::Type*& __cordl_internal_get__objectType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__objectType() const;
-
-  constexpr void __cordl_internal_set__objectType(::System::Type* value);
-
-  constexpr ::System::Type*& __cordl_internal_get__signalType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__signalType() const;
-
-  constexpr void __cordl_internal_set__signalType(::System::Type* value);
-
-  constexpr ::System::Object*& __cordl_internal_get__identifier();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
-
-  constexpr void __cordl_internal_set__identifier(::System::Object* value);
+  /// @brief Method Dispose, addr 0x2fd0c1c, size 0xa0, virtual true, abstract: false, final true
+  inline void Dispose();
 
   static inline ::Zenject::SignalCallbackWithLookupWrapper* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::System::Type* objectType, ::System::Guid lookupId,
                                                                      ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* methodGetter, ::Zenject::SignalBus* signalBus,
                                                                      ::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor, addr 0x2ec10e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnSignalFired, addr 0x2fd0a54, size 0x1c8, virtual false, abstract: false, final false
+  inline void OnSignalFired(::System::Object* signal);
+
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+
+  constexpr ::System::Object*& __cordl_internal_get__identifier();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
+
+  constexpr ::System::Guid const& __cordl_internal_get__lookupId() const;
+
+  constexpr ::System::Guid& __cordl_internal_get__lookupId();
+
+  constexpr ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>*& __cordl_internal_get__methodGetter();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>*> const& __cordl_internal_get__methodGetter() const;
+
+  constexpr ::System::Type*& __cordl_internal_get__objectType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__objectType() const;
+
+  constexpr ::Zenject::SignalBus*& __cordl_internal_get__signalBus();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __cordl_internal_get__signalBus() const;
+
+  constexpr ::System::Type*& __cordl_internal_get__signalType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__signalType() const;
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__identifier(::System::Object* value);
+
+  constexpr void __cordl_internal_set__lookupId(::System::Guid value);
+
+  constexpr void __cordl_internal_set__methodGetter(::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* value);
+
+  constexpr void __cordl_internal_set__objectType(::System::Type* value);
+
+  constexpr void __cordl_internal_set__signalBus(::Zenject::SignalBus* value);
+
+  constexpr void __cordl_internal_set__signalType(::System::Type* value);
+
+  /// @brief Method __zenCreate, addr 0x2fd0cc4, size 0x290, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2fd0f54, size 0x544, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x2fd0954, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::System::Type* objectType, ::System::Guid lookupId,
                     ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>* methodGetter, ::Zenject::SignalBus* signalBus, ::Zenject::DiContainer* container);
 
-  /// @brief Method OnSignalFired, addr 0x2ec11e4, size 0x1c8, virtual false, abstract: false, final false
-  inline void OnSignalFired(::System::Object* signal);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x2ec13ac, size 0xa0, virtual true, abstract: false, final true
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalCallbackWithLookupWrapper();
 
-  /// @brief Method __zenCreate, addr 0x2ec1454, size 0x290, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec16e4, size 0x544, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalCallbackWithLookupWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalCallbackWithLookupWrapper(SignalCallbackWithLookupWrapper&&) = delete;
@@ -149,12 +153,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalCallbackWithLookupWrapper(SignalCallbackWithLookupWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalCallbackWithLookupWrapper();
-
-public:
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

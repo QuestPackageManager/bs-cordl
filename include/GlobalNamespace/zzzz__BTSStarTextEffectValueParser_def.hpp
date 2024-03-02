@@ -15,21 +15,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSStarTextEffectValueParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3982))
 // CS Name: ::BTSStarTextEffectValueParser*
 class CORDL_TYPE BTSStarTextEffectValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTextId, addr 0x221d7ac, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetTextId(int32_t value);
-
-  /// @brief Method GetPositionId, addr 0x221d7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPositionId, addr 0xe74f44, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPositionId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x221d7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTextId, addr 0xe74f3c, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t GetTextId(int32_t value);
+
+  /// @brief Method MergeValuesIntoOneInt, addr 0xe74f4c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t textId, int32_t positionId);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSStarTextEffectValueParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEffectValueParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSStarTextEffectValueParser(BTSStarTextEffectValueParser&&) = delete;
@@ -38,23 +42,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSStarTextEffectValueParser(BTSStarTextEffectValueParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSStarTextEffectValueParser();
-
-public:
-  /// @brief Field kTextMask offset 0xffffffff size 0x4
-  static constexpr int32_t kTextMask{ static_cast<int32_t>(0xff) };
-
-  /// @brief Field kTextBitOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kTextBitOffset{ static_cast<int32_t>(0x0) };
+  /// @brief Field kPositionBitOffset offset 0xffffffff size 0x4
+  static constexpr int32_t kPositionBitOffset{ static_cast<int32_t>(0x8) };
 
   /// @brief Field kPositionMask offset 0xffffffff size 0x4
   static constexpr int32_t kPositionMask{ static_cast<int32_t>(0xff00) };
 
-  /// @brief Field kPositionBitOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kPositionBitOffset{ static_cast<int32_t>(0x8) };
+  /// @brief Field kTextBitOffset offset 0xffffffff size 0x4
+  static constexpr int32_t kTextBitOffset{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field kTextMask offset 0xffffffff size 0x4
+  static constexpr int32_t kTextMask{ static_cast<int32_t>(0xff) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

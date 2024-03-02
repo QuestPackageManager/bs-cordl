@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Check);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1346))
 // CS Name: ::Org.BouncyCastle.Crypto::Check*
 class CORDL_TYPE Check : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DataLength, addr 0xfc5724, size 0x50, virtual false, abstract: false, final false
-  static inline void DataLength(bool condition, ::StringW msg);
-
-  /// @brief Method DataLength, addr 0xfc5774, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DataLength, addr 0x10365d4, size 0x6c, virtual false, abstract: false, final false
   static inline void DataLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
-  /// @brief Method OutputLength, addr 0xfc57e0, size 0x6c, virtual false, abstract: false, final false
-  static inline void OutputLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
+  /// @brief Method DataLength, addr 0x1036584, size 0x50, virtual false, abstract: false, final false
+  static inline void DataLength(bool condition, ::StringW msg);
 
   static inline ::Org::BouncyCastle::Crypto::Check* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OutputLength, addr 0x1036640, size 0x6c, virtual false, abstract: false, final false
+  static inline void OutputLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
+
+  /// @brief Method .ctor, addr 0x10366b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Check();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Check", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Check(Check&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Check(Check const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Check();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

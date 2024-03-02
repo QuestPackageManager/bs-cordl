@@ -17,41 +17,39 @@ MARK_VAL_T(::UnityEngine::LayerMask);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10204))
 // CS Name: ::UnityEngine::LayerMask
 struct CORDL_TYPE LayerMask {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method op_Implicit, addr 0x2cd0cb8, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
-
-  /// @brief Method op_Implicit, addr 0x2cd0cbc, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
-
-  /// @brief Method get_value, addr 0x2cd0cc4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_value();
-
-  /// @brief Method set_value, addr 0x2cd0ccc, size 0x8, virtual false, abstract: false, final false
-  inline void set_value(int32_t value);
-
-  /// @brief Method LayerToName, addr 0x2cd0cd4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW LayerToName(int32_t layer);
-
-  /// @brief Method NameToLayer, addr 0x2cd0d10, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t NameToLayer(::StringW layerName);
-
-  /// @brief Method GetMask, addr 0x2cd0d4c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x2dc3344, size 0x108, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  // Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LayerMask(int32_t m_Mask) noexcept;
+  /// @brief Method LayerToName, addr 0x2dc32cc, size 0x3c, virtual false, abstract: false, final false
+  static inline ::StringW LayerToName(int32_t layer);
+
+  /// @brief Method NameToLayer, addr 0x2dc3308, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t NameToLayer(::StringW layerName);
+
+  /// @brief Method get_value, addr 0x2dc32bc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_value();
+
+  /// @brief Method op_Implicit, addr 0x2dc32b4, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
+
+  /// @brief Method op_Implicit, addr 0x2dc32b0, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
+
+  /// @brief Method set_value, addr 0x2dc32c4, size 0x8, virtual false, abstract: false, final false
+  inline void set_value(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LayerMask();
+
+  // Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LayerMask(int32_t m_Mask) noexcept;
 
   /// @brief Field m_Mask, offset: 0x0, size: 0x4, def value: None
   int32_t m_Mask;

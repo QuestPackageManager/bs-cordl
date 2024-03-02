@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13920))
 // CS Name: ::UnityEngine.Timeline::IgnoreOnPlayableTrackAttribute*
 class CORDL_TYPE IgnoreOnPlayableTrackAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6e758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d55398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IgnoreOnPlayableTrackAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreOnPlayableTrackAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoreOnPlayableTrackAttribute(IgnoreOnPlayableTrackAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IgnoreOnPlayableTrackAttribute(IgnoreOnPlayableTrackAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IgnoreOnPlayableTrackAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

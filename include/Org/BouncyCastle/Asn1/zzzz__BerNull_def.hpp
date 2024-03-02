@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerNull);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(477))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(478))
 // CS Name: ::Org.BouncyCastle.Asn1::BerNull*
 class CORDL_TYPE BerNull : public ::Org::BouncyCastle::Asn1::DerNull {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::BerNull* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::BerNull* value);
-
-  static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();
+  /// @brief Method Encode, addr 0x122c140, size 0xd0, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11bc238, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
 
-  /// @brief Method .ctor, addr 0x11bc28c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122c098, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x122c0ec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
-  /// @brief Method Encode, addr 0x11bc2e0, size 0xd0, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::BerNull* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerNull();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerNull(BerNull&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerNull(BerNull const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerNull();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

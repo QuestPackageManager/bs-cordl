@@ -3,7 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(MeshCollider)
+namespace UnityEngine {
+struct MeshColliderCookingOptions;
+}
 namespace UnityEngine {
 class Mesh;
 }
@@ -17,28 +21,69 @@ MARK_REF_PTR_T(::UnityEngine::MeshCollider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15492))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15489))
 // CS Name: ::UnityEngine::MeshCollider*
 class CORDL_TYPE MeshCollider : public ::UnityEngine::Collider {
 public:
   // Declarations
-  __declspec(property(get = get_sharedMesh, put = set_sharedMesh))::UnityW<::UnityEngine::Mesh> sharedMesh;
-
   __declspec(property(get = get_convex, put = set_convex)) bool convex;
 
-  /// @brief Method get_sharedMesh, addr 0x2d1649c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
+  __declspec(property(get = get_cookingOptions, put = set_cookingOptions))::UnityEngine::MeshColliderCookingOptions cookingOptions;
 
-  /// @brief Method set_sharedMesh, addr 0x2d164d8, size 0x44, virtual false, abstract: false, final false
-  inline void set_sharedMesh(::UnityEngine::Mesh* value);
+  __declspec(property(get = get_inflateMesh, put = set_inflateMesh)) bool inflateMesh;
 
-  /// @brief Method get_convex, addr 0x2d1651c, size 0x3c, virtual false, abstract: false, final false
+  __declspec(property(get = get_sharedMesh, put = set_sharedMesh))::UnityW<::UnityEngine::Mesh> sharedMesh;
+
+  __declspec(property(get = get_skinWidth, put = set_skinWidth)) float_t skinWidth;
+
+  __declspec(property(get = get_smoothSphereCollisions, put = set_smoothSphereCollisions)) bool smoothSphereCollisions;
+
+  static inline ::UnityEngine::MeshCollider* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2e1d6a4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_convex, addr 0x2e1d5a4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_convex();
 
-  /// @brief Method set_convex, addr 0x2d16558, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cookingOptions, addr 0x2e1d624, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::MeshColliderCookingOptions get_cookingOptions();
+
+  /// @brief Method get_inflateMesh, addr 0x2e1d518, size 0x8, virtual false, abstract: false, final false
+  inline bool get_inflateMesh();
+
+  /// @brief Method get_sharedMesh, addr 0x2e1d524, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
+
+  /// @brief Method get_skinWidth, addr 0x2e1d50c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_skinWidth();
+
+  /// @brief Method get_smoothSphereCollisions, addr 0x2e1d500, size 0x8, virtual false, abstract: false, final false
+  inline bool get_smoothSphereCollisions();
+
+  /// @brief Method set_convex, addr 0x2e1d5e0, size 0x44, virtual false, abstract: false, final false
   inline void set_convex(bool value);
 
+  /// @brief Method set_cookingOptions, addr 0x2e1d660, size 0x44, virtual false, abstract: false, final false
+  inline void set_cookingOptions(::UnityEngine::MeshColliderCookingOptions value);
+
+  /// @brief Method set_inflateMesh, addr 0x2e1d520, size 0x4, virtual false, abstract: false, final false
+  inline void set_inflateMesh(bool value);
+
+  /// @brief Method set_sharedMesh, addr 0x2e1d560, size 0x44, virtual false, abstract: false, final false
+  inline void set_sharedMesh(::UnityEngine::Mesh* value);
+
+  /// @brief Method set_skinWidth, addr 0x2e1d514, size 0x4, virtual false, abstract: false, final false
+  inline void set_skinWidth(float_t value);
+
+  /// @brief Method set_smoothSphereCollisions, addr 0x2e1d508, size 0x4, virtual false, abstract: false, final false
+  inline void set_smoothSphereCollisions(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshCollider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshCollider(MeshCollider&&) = delete;
@@ -47,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshCollider(MeshCollider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshCollider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

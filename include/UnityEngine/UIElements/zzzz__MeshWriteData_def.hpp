@@ -28,14 +28,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9994)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9994), inst: 756 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
+// CS Name: ::UnityEngine.UIElements::MeshWriteData*
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Vertices, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_Vertices;
+  /// @brief Field currentIndex, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_currentIndex, put = __cordl_internal_set_currentIndex)) int32_t currentIndex;
+
+  /// @brief Field currentVertex, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_currentVertex, put = __cordl_internal_set_currentVertex)) int32_t currentVertex;
+
+  __declspec(property(get = get_indexCount)) int32_t indexCount;
 
   /// @brief Field m_Indices, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_m_Indices, put = __cordl_internal_set_m_Indices))::Unity::Collections::NativeSlice_1<uint16_t> m_Indices;
@@ -43,80 +46,81 @@ public:
   /// @brief Field m_UVRegion, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_m_UVRegion, put = __cordl_internal_set_m_UVRegion))::UnityEngine::Rect m_UVRegion;
 
-  /// @brief Field currentIndex, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentIndex, put = __cordl_internal_set_currentIndex)) int32_t currentIndex;
-
-  /// @brief Field currentVertex, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentVertex, put = __cordl_internal_set_currentVertex)) int32_t currentVertex;
-
-  __declspec(property(get = get_vertexCount)) int32_t vertexCount;
-
-  __declspec(property(get = get_indexCount)) int32_t indexCount;
+  /// @brief Field m_Vertices, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_Vertices;
 
   __declspec(property(get = get_uvRegion))::UnityEngine::Rect uvRegion;
 
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_Vertices();
-
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_Vertices() const;
-
-  constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
-
-  constexpr ::Unity::Collections::NativeSlice_1<uint16_t>& __cordl_internal_get_m_Indices();
-
-  constexpr ::Unity::Collections::NativeSlice_1<uint16_t> const& __cordl_internal_get_m_Indices() const;
-
-  constexpr void __cordl_internal_set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRegion();
-
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UVRegion() const;
-
-  constexpr void __cordl_internal_set_m_UVRegion(::UnityEngine::Rect value);
-
-  constexpr int32_t& __cordl_internal_get_currentIndex();
-
-  constexpr int32_t const& __cordl_internal_get_currentIndex() const;
-
-  constexpr void __cordl_internal_set_currentIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_currentVertex();
-
-  constexpr int32_t const& __cordl_internal_get_currentVertex() const;
-
-  constexpr void __cordl_internal_set_currentVertex(int32_t value);
+  __declspec(property(get = get_vertexCount)) int32_t vertexCount;
 
   static inline ::UnityEngine::UIElements::MeshWriteData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e796c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_vertexCount, addr 0x2e796c8, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_vertexCount();
-
-  /// @brief Method get_indexCount, addr 0x2e79710, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_indexCount();
-
-  /// @brief Method get_uvRegion, addr 0x2e79758, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_uvRegion();
-
-  /// @brief Method SetNextVertex, addr 0x2e79764, size 0x9c, virtual false, abstract: false, final false
-  inline void SetNextVertex(::UnityEngine::UIElements::Vertex vertex);
-
-  /// @brief Method SetNextIndex, addr 0x2e79800, size 0x64, virtual false, abstract: false, final false
-  inline void SetNextIndex(uint16_t index);
-
-  /// @brief Method SetAllVertices, addr 0x2e79864, size 0xd8, virtual false, abstract: false, final false
-  inline void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices);
-
-  /// @brief Method SetAllIndices, addr 0x2e7993c, size 0xd8, virtual false, abstract: false, final false
-  inline void SetAllIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
-
-  /// @brief Method Reset, addr 0x2e79a14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2f87524, size 0x4c, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices);
 
-  /// @brief Method Reset, addr 0x2e79a60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2f87570, size 0x18, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Rect uvRegion);
 
+  /// @brief Method SetAllIndices, addr 0x2f8744c, size 0xd8, virtual false, abstract: false, final false
+  inline void SetAllIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
+
+  /// @brief Method SetAllVertices, addr 0x2f87374, size 0xd8, virtual false, abstract: false, final false
+  inline void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices);
+
+  /// @brief Method SetNextIndex, addr 0x2f87310, size 0x64, virtual false, abstract: false, final false
+  inline void SetNextIndex(uint16_t index);
+
+  /// @brief Method SetNextVertex, addr 0x2f87274, size 0x9c, virtual false, abstract: false, final false
+  inline void SetNextVertex(::UnityEngine::UIElements::Vertex vertex);
+
+  constexpr int32_t const& __cordl_internal_get_currentIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_currentIndex();
+
+  constexpr int32_t const& __cordl_internal_get_currentVertex() const;
+
+  constexpr int32_t& __cordl_internal_get_currentVertex();
+
+  constexpr ::Unity::Collections::NativeSlice_1<uint16_t> const& __cordl_internal_get_m_Indices() const;
+
+  constexpr ::Unity::Collections::NativeSlice_1<uint16_t>& __cordl_internal_get_m_Indices();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UVRegion() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRegion();
+
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_Vertices() const;
+
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_Vertices();
+
+  constexpr void __cordl_internal_set_currentIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_currentVertex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Indices(::Unity::Collections::NativeSlice_1<uint16_t> value);
+
+  constexpr void __cordl_internal_set_m_UVRegion(::UnityEngine::Rect value);
+
+  constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
+
+  /// @brief Method .ctor, addr 0x2f871d0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_indexCount, addr 0x2f87220, size 0x48, virtual false, abstract: false, final false
+  inline int32_t get_indexCount();
+
+  /// @brief Method get_uvRegion, addr 0x2f87268, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_uvRegion();
+
+  /// @brief Method get_vertexCount, addr 0x2f871d8, size 0x48, virtual false, abstract: false, final false
+  inline int32_t get_vertexCount();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshWriteData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshWriteData(MeshWriteData&&) = delete;
@@ -125,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshWriteData(MeshWriteData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshWriteData();
-
-public:
   /// @brief Field m_Vertices, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> ___m_Vertices;
 

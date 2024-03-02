@@ -4,7 +4,7 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -65,12 +65,12 @@ inline void GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::_ctor(::GlobalN
 }
 template <typename TIn, typename TOut>
 inline void GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex,
-                                                                        float_t maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor,
+                                                                        float_t maxBeat, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConvertor, output);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter, output);
 }
 template <typename TIn, typename TOut>
 inline TOut GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset) {

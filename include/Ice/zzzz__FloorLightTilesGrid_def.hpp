@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "GlobalNamespace/zzzz__AbstractPoolContainer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
@@ -33,12 +33,13 @@ MARK_REF_PTR_T(::Ice::FloorLightTilesGrid);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16170))
 // CS Name: ::Ice::FloorLightTilesGrid*
-class CORDL_TYPE FloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FloorLightTilesGrid : public ::GlobalNamespace::AbstractPoolContainer {
 public:
   // Declarations
+  /// @brief Field _anchorPoint, offset 0x38, size 0xc
+  __declspec(property(get = __cordl_internal_get__anchorPoint, put = __cordl_internal_set__anchorPoint))::UnityEngine::Vector3 _anchorPoint;
+
   /// @brief Field _floorLightTileMemoryPool, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__floorLightTileMemoryPool, put = __cordl_internal_set__floorLightTileMemoryPool))::Ice::__FloorLightTile__Pool* _floorLightTileMemoryPool;
 
@@ -51,91 +52,94 @@ public:
                       put = __cordl_internal_set__grid))::ArrayW<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>,
                                                                  ::Array<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>>*> _grid;
 
-  /// @brief Field _tileWidth, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__tileWidth, put = __cordl_internal_set__tileWidth)) float_t _tileWidth;
-
   /// @brief Field _tileHeight, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__tileHeight, put = __cordl_internal_set__tileHeight)) float_t _tileHeight;
 
-  /// @brief Field _anchorPoint, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get__anchorPoint, put = __cordl_internal_set__anchorPoint))::UnityEngine::Vector3 _anchorPoint;
+  /// @brief Field _tileWidth, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__tileWidth, put = __cordl_internal_set__tileWidth)) float_t _tileWidth;
 
   /// @brief Field _ySize, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__ySize, put = __cordl_internal_set__ySize)) int32_t _ySize;
 
   __declspec(property(get = get_ySize)) int32_t ySize;
 
+  /// @brief Method DespawnAll, addr 0xe7a378, size 0xc0, virtual true, abstract: false, final false
+  inline void DespawnAll();
+
+  /// @brief Method DespawnTile, addr 0xe7a438, size 0x60, virtual false, abstract: false, final false
+  inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
+
+  /// @brief Method HandleFloorLightTileDidFinish, addr 0xe7a498, size 0x4, virtual false, abstract: false, final false
+  inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
+
+  /// @brief Method HighlightTile, addr 0xe79a20, size 0x1b8, virtual false, abstract: false, final false
+  inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
+
+  /// @brief Method Init, addr 0xe79484, size 0x194, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
+
+  static inline ::Ice::FloorLightTilesGrid* New_ctor();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__anchorPoint() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__anchorPoint();
+
   constexpr ::Ice::__FloorLightTile__Pool*& __cordl_internal_get__floorLightTileMemoryPool();
 
   constexpr ::cordl_internals::to_const_pointer<::Ice::__FloorLightTile__Pool*> const& __cordl_internal_get__floorLightTileMemoryPool() const;
-
-  constexpr void __cordl_internal_set__floorLightTileMemoryPool(::Ice::__FloorLightTile__Pool* value);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::Ice::FloorLightTile>>*& __cordl_internal_get__floorLightTileMemoryPoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::Ice::FloorLightTile>>*> const& __cordl_internal_get__floorLightTileMemoryPoolContainer() const;
 
-  constexpr void __cordl_internal_set__floorLightTileMemoryPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::Ice::FloorLightTile>>* value);
+  constexpr ::ArrayW<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>,
+                     ::Array<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>>*> const&
+  __cordl_internal_get__grid() const;
 
   constexpr ::ArrayW<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>,
                      ::Array<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>>*>&
   __cordl_internal_get__grid();
 
-  constexpr ::ArrayW<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>,
-                     ::Array<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>>*> const&
-  __cordl_internal_get__grid() const;
+  constexpr float_t const& __cordl_internal_get__tileHeight() const;
+
+  constexpr float_t& __cordl_internal_get__tileHeight();
+
+  constexpr float_t const& __cordl_internal_get__tileWidth() const;
+
+  constexpr float_t& __cordl_internal_get__tileWidth();
+
+  constexpr int32_t const& __cordl_internal_get__ySize() const;
+
+  constexpr int32_t& __cordl_internal_get__ySize();
+
+  constexpr void __cordl_internal_set__anchorPoint(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__floorLightTileMemoryPool(::Ice::__FloorLightTile__Pool* value);
+
+  constexpr void __cordl_internal_set__floorLightTileMemoryPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::Ice::FloorLightTile>>* value);
 
   constexpr void __cordl_internal_set__grid(
       ::ArrayW<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>, ::Array<::ArrayW<::UnityW<::Ice::FloorLightTile>, ::Array<::UnityW<::Ice::FloorLightTile>>*>>*>
           value);
 
-  constexpr float_t& __cordl_internal_get__tileWidth();
-
-  constexpr float_t const& __cordl_internal_get__tileWidth() const;
+  constexpr void __cordl_internal_set__tileHeight(float_t value);
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  constexpr float_t& __cordl_internal_get__tileHeight();
-
-  constexpr float_t const& __cordl_internal_get__tileHeight() const;
-
-  constexpr void __cordl_internal_set__tileHeight(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__anchorPoint();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__anchorPoint() const;
-
-  constexpr void __cordl_internal_set__anchorPoint(::UnityEngine::Vector3 value);
-
-  constexpr int32_t& __cordl_internal_get__ySize();
-
-  constexpr int32_t const& __cordl_internal_get__ySize() const;
-
   constexpr void __cordl_internal_set__ySize(int32_t value);
 
-  /// @brief Method get_ySize, addr 0x129fd70, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ySize();
-
-  /// @brief Method Init, addr 0x129ee84, size 0x194, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
-
-  /// @brief Method HighlightTile, addr 0x129f420, size 0x1b8, virtual false, abstract: false, final false
-  inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
-
-  /// @brief Method DespawnAllTiles, addr 0x129fd78, size 0xc0, virtual false, abstract: false, final false
-  inline void DespawnAllTiles();
-
-  /// @brief Method HandleFloorLightTileDidFinish, addr 0x129fe98, size 0x4, virtual false, abstract: false, final false
-  inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
-
-  /// @brief Method DespawnTile, addr 0x129fe38, size 0x60, virtual false, abstract: false, final false
-  inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
-
-  static inline ::Ice::FloorLightTilesGrid* New_ctor();
-
-  /// @brief Method .ctor, addr 0x129fe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7a49c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ySize, addr 0xe7a370, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_ySize();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloorLightTilesGrid();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightTilesGrid", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightTilesGrid(FloorLightTilesGrid&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloorLightTilesGrid(FloorLightTilesGrid const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloorLightTilesGrid();
-
-public:
   /// @brief Field _floorLightTileMemoryPool, offset: 0x18, size: 0x8, def value: None
   ::Ice::__FloorLightTile__Pool* ____floorLightTileMemoryPool;
 

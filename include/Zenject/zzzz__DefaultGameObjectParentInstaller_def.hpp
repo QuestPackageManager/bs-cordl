@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjec
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11347))
 // CS Name: ::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*
 class CORDL_TYPE __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer : public ::System::Object {
 public:
@@ -48,29 +46,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
-
-  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method Dispose, addr 0x302cdbc, size 0x5c, virtual true, abstract: false, final true
+  inline void Dispose();
 
   static inline ::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x2f1d524, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::GameObject* gameObject);
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
 
-  /// @brief Method Dispose, addr 0x2f1d54c, size 0x5c, virtual true, abstract: false, final true
-  inline void Dispose();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
 
-  /// @brief Method __zenCreate, addr 0x2f1d5a8, size 0xac, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  /// @brief Method __zenCreate, addr 0x302ce18, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1d654, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302cec4, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x302cd94, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::GameObject* gameObject);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer();
-
-public:
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;
 
@@ -100,8 +98,6 @@ static_assert(offsetof(::Zenject::__DefaultGameObjectParentInstaller__DefaultPar
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
 // CS Name: ::Zenject::DefaultGameObjectParentInstaller*
 class CORDL_TYPE DefaultGameObjectParentInstaller : public ::Zenject::Installer_2<::StringW, ::Zenject::DefaultGameObjectParentInstaller*> {
 public:
@@ -111,26 +107,32 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
-  constexpr ::StringW& __cordl_internal_get__name();
-
-  constexpr ::StringW const& __cordl_internal_get__name() const;
-
-  constexpr void __cordl_internal_set__name(::StringW value);
+  /// @brief Method InstallBindings, addr 0x302c930, size 0x148, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
   static inline ::Zenject::DefaultGameObjectParentInstaller* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2f1d064, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  /// @brief Method InstallBindings, addr 0x2f1d0c0, size 0x148, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  /// @brief Method __zenCreate, addr 0x2f1d208, size 0xa8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__name(::StringW value);
+
+  /// @brief Method __zenCreate, addr 0x302ca78, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1d2b0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302cb20, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x302c8d4, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultGameObjectParentInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller&&) = delete;
@@ -139,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultGameObjectParentInstaller();
-
-public:
   /// @brief Field _name, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name;
 

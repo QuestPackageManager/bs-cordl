@@ -19,12 +19,16 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ValueTypeFixupInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3211))
 // CS Name: ::System.Runtime.Serialization::ValueTypeFixupInfo*
 class CORDL_TYPE ValueTypeFixupInfo : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_ContainerID)) int64_t ContainerID;
+
+  __declspec(property(get = get_ParentField))::System::Reflection::FieldInfo* ParentField;
+
+  __declspec(property(get = get_ParentIndex))::ArrayW<int32_t, ::Array<int32_t>*> ParentIndex;
+
   /// @brief Field _containerID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__containerID, put = __cordl_internal_set__containerID)) int64_t _containerID;
 
@@ -34,44 +38,44 @@ public:
   /// @brief Field _parentIndex, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__parentIndex, put = __cordl_internal_set__parentIndex))::ArrayW<int32_t, ::Array<int32_t>*> _parentIndex;
 
-  __declspec(property(get = get_ContainerID)) int64_t ContainerID;
-
-  __declspec(property(get = get_ParentField))::System::Reflection::FieldInfo* ParentField;
-
-  __declspec(property(get = get_ParentIndex))::ArrayW<int32_t, ::Array<int32_t>*> ParentIndex;
-
-  constexpr int64_t& __cordl_internal_get__containerID();
+  static inline ::System::Runtime::Serialization::ValueTypeFixupInfo* New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
   constexpr int64_t const& __cordl_internal_get__containerID() const;
 
-  constexpr void __cordl_internal_set__containerID(int64_t value);
+  constexpr int64_t& __cordl_internal_get__containerID();
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__parentField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get__parentField() const;
 
-  constexpr void __cordl_internal_set__parentField(::System::Reflection::FieldInfo* value);
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__parentIndex() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__parentIndex();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__parentIndex() const;
+  constexpr void __cordl_internal_set__containerID(int64_t value);
+
+  constexpr void __cordl_internal_set__parentField(::System::Reflection::FieldInfo* value);
 
   constexpr void __cordl_internal_set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  static inline ::System::Runtime::Serialization::ValueTypeFixupInfo* New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
-
-  /// @brief Method .ctor, addr 0x24b5ba4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a7910, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
-  /// @brief Method get_ContainerID, addr 0x24b5cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerID, addr 0x25a7a60, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContainerID();
 
-  /// @brief Method get_ParentField, addr 0x24b5cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentField, addr 0x25a7a68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::FieldInfo* get_ParentField();
 
-  /// @brief Method get_ParentIndex, addr 0x24b5d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentIndex, addr 0x25a7a70, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ParentIndex();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValueTypeFixupInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValueTypeFixupInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueTypeFixupInfo(ValueTypeFixupInfo&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValueTypeFixupInfo(ValueTypeFixupInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValueTypeFixupInfo();
-
-public:
   /// @brief Field _containerID, offset: 0x10, size: 0x8, def value: None
   int64_t ____containerID;
 

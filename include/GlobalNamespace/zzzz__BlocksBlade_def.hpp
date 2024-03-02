@@ -50,8 +50,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BlocksBlade__Element);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5282))
 // CS Name: ::BlocksBlade::Element*
 class CORDL_TYPE __BlocksBlade__Element : public ::System::Object {
 public:
@@ -62,23 +60,29 @@ public:
   /// @brief Field velocity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_velocity, put = __cordl_internal_set_velocity)) float_t velocity;
 
-  constexpr int32_t& __cordl_internal_get_idx();
+  static inline ::GlobalNamespace::__BlocksBlade__Element* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_idx() const;
 
-  constexpr void __cordl_internal_set_idx(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_velocity();
+  constexpr int32_t& __cordl_internal_get_idx();
 
   constexpr float_t const& __cordl_internal_get_velocity() const;
 
+  constexpr float_t& __cordl_internal_get_velocity();
+
+  constexpr void __cordl_internal_set_idx(int32_t value);
+
   constexpr void __cordl_internal_set_velocity(float_t value);
 
-  static inline ::GlobalNamespace::__BlocksBlade__Element* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2261abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248f40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BlocksBlade__Element();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BlocksBlade__Element", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BlocksBlade__Element(__BlocksBlade__Element&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BlocksBlade__Element(__BlocksBlade__Element const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BlocksBlade__Element();
-
-public:
   /// @brief Field idx, offset: 0x10, size: 0x4, def value: None
   int32_t ___idx;
 
@@ -113,229 +111,233 @@ static_assert(offsetof(::GlobalNamespace::__BlocksBlade__Element, ___velocity) =
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5283))
 // CS Name: ::BlocksBlade*
 class CORDL_TYPE BlocksBlade : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Element = ::GlobalNamespace::__BlocksBlade__Element;
 
-  /// @brief Field _elementMesh, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementMesh, put = __cordl_internal_set__elementMesh))::UnityW<::UnityEngine::Mesh> _elementMesh;
-
-  /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
-
-  /// @brief Field _numberOfElements, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
-
-  /// @brief Field _radius, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
-
-  /// @brief Field _length, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
-
-  /// @brief Field _minVelocity, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__minVelocity, put = __cordl_internal_set__minVelocity)) float_t _minVelocity;
-
-  /// @brief Field _maxVelocity, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxVelocity, put = __cordl_internal_set__maxVelocity)) float_t _maxVelocity;
-
-  /// @brief Field _elementWidth, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__elementWidth, put = __cordl_internal_set__elementWidth)) float_t _elementWidth;
-
-  /// @brief Field _minElementLength, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__minElementLength, put = __cordl_internal_set__minElementLength)) float_t _minElementLength;
-
-  /// @brief Field _maxElementLength, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxElementLength, put = __cordl_internal_set__maxElementLength)) float_t _maxElementLength;
+  /// @brief Field _colorPropertyID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__colorPropertyID, put = setStaticF__colorPropertyID)) int32_t _colorPropertyID;
 
   /// @brief Field <color>k__BackingField, offset 0x48, size 0x10
   __declspec(property(get = __cordl_internal_get__color_k__BackingField, put = __cordl_internal_set__color_k__BackingField))::UnityEngine::Color _color_k__BackingField;
 
-  /// @brief Field _elements, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* _elements;
-
-  /// @brief Field _positions, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__positions, put = __cordl_internal_set__positions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _positions;
-
-  /// @brief Field _sizes, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__sizes, put = __cordl_internal_set__sizes))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _sizes;
-
   /// @brief Field _colors, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
 
-  /// @brief Field _matrices, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__matrices, put = __cordl_internal_set__matrices))::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> _matrices;
+  /// @brief Field _elementMesh, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__elementMesh, put = __cordl_internal_set__elementMesh))::UnityW<::UnityEngine::Mesh> _elementMesh;
 
-  /// @brief Field _materialPropertyBlock, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlock, put = __cordl_internal_set__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  /// @brief Field _elementWidth, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__elementWidth, put = __cordl_internal_set__elementWidth)) float_t _elementWidth;
+
+  /// @brief Field _elements, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* _elements;
 
   /// @brief Field _layer, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__layer, put = __cordl_internal_set__layer)) int32_t _layer;
 
+  /// @brief Field _length, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
+
+  /// @brief Field _material, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+
+  /// @brief Field _materialPropertyBlock, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlock, put = __cordl_internal_set__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+
+  /// @brief Field _matrices, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__matrices, put = __cordl_internal_set__matrices))::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> _matrices;
+
+  /// @brief Field _maxElementLength, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxElementLength, put = __cordl_internal_set__maxElementLength)) float_t _maxElementLength;
+
+  /// @brief Field _maxVelocity, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxVelocity, put = __cordl_internal_set__maxVelocity)) float_t _maxVelocity;
+
+  /// @brief Field _minElementLength, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__minElementLength, put = __cordl_internal_set__minElementLength)) float_t _minElementLength;
+
+  /// @brief Field _minVelocity, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__minVelocity, put = __cordl_internal_set__minVelocity)) float_t _minVelocity;
+
+  /// @brief Field _numberOfElements, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
+
   /// @brief Field _positionPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__positionPropertyID, put = setStaticF__positionPropertyID)) int32_t _positionPropertyID;
+
+  /// @brief Field _positions, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__positions, put = __cordl_internal_set__positions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _positions;
+
+  /// @brief Field _radius, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
   /// @brief Field _sizePropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__sizePropertyID, put = setStaticF__sizePropertyID)) int32_t _sizePropertyID;
 
-  /// @brief Field _colorPropertyID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorPropertyID, put = setStaticF__colorPropertyID)) int32_t _colorPropertyID;
+  /// @brief Field _sizes, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__sizes, put = __cordl_internal_set__sizes))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _sizes;
 
   /// @brief Field _zClipPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__zClipPropertyID, put = setStaticF__zClipPropertyID)) int32_t _zClipPropertyID;
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__elementMesh();
+  static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__elementMesh() const;
+  /// @brief Method RandomPointOnCircle, addr 0x248f9d0, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
-  constexpr void __cordl_internal_set__elementMesh(::UnityW<::UnityEngine::Mesh> value);
+  /// @brief Method SetUpElement, addr 0x248f414, size 0x164, virtual false, abstract: false, final false
+  inline void SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
+  /// @brief Method Start, addr 0x248f1d4, size 0x238, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
-
-  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfElements();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
-
-  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__radius();
-
-  constexpr float_t const& __cordl_internal_get__radius() const;
-
-  constexpr void __cordl_internal_set__radius(float_t value);
-
-  constexpr float_t& __cordl_internal_get__length();
-
-  constexpr float_t const& __cordl_internal_get__length() const;
-
-  constexpr void __cordl_internal_set__length(float_t value);
-
-  constexpr float_t& __cordl_internal_get__minVelocity();
-
-  constexpr float_t const& __cordl_internal_get__minVelocity() const;
-
-  constexpr void __cordl_internal_set__minVelocity(float_t value);
-
-  constexpr float_t& __cordl_internal_get__maxVelocity();
-
-  constexpr float_t const& __cordl_internal_get__maxVelocity() const;
-
-  constexpr void __cordl_internal_set__maxVelocity(float_t value);
-
-  constexpr float_t& __cordl_internal_get__elementWidth();
-
-  constexpr float_t const& __cordl_internal_get__elementWidth() const;
-
-  constexpr void __cordl_internal_set__elementWidth(float_t value);
-
-  constexpr float_t& __cordl_internal_get__minElementLength();
-
-  constexpr float_t const& __cordl_internal_get__minElementLength() const;
-
-  constexpr void __cordl_internal_set__minElementLength(float_t value);
-
-  constexpr float_t& __cordl_internal_get__maxElementLength();
-
-  constexpr float_t const& __cordl_internal_get__maxElementLength() const;
-
-  constexpr void __cordl_internal_set__maxElementLength(float_t value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color_k__BackingField();
+  /// @brief Method Update, addr 0x248f578, size 0x458, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__color_k__BackingField(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color_k__BackingField();
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__colors();
+
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__elementMesh() const;
+
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__elementMesh();
+
+  constexpr float_t const& __cordl_internal_get__elementWidth() const;
+
+  constexpr float_t& __cordl_internal_get__elementWidth();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>*& __cordl_internal_get__elements();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>*> const& __cordl_internal_get__elements() const;
 
-  constexpr void __cordl_internal_set__elements(::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* value);
+  constexpr int32_t const& __cordl_internal_get__layer() const;
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__positions();
+  constexpr int32_t& __cordl_internal_get__layer();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__positions() const;
+  constexpr float_t const& __cordl_internal_get__length() const;
 
-  constexpr void __cordl_internal_set__positions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr float_t& __cordl_internal_get__length();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__sizes();
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__sizes() const;
-
-  constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__colors();
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
-
-  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__matrices();
-
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__matrices() const;
-
-  constexpr void __cordl_internal_set__matrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
   constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get__materialPropertyBlock();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get__materialPropertyBlock() const;
 
-  constexpr void __cordl_internal_set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__matrices() const;
 
-  constexpr int32_t& __cordl_internal_get__layer();
+  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__matrices();
 
-  constexpr int32_t const& __cordl_internal_get__layer() const;
+  constexpr float_t const& __cordl_internal_get__maxElementLength() const;
+
+  constexpr float_t& __cordl_internal_get__maxElementLength();
+
+  constexpr float_t const& __cordl_internal_get__maxVelocity() const;
+
+  constexpr float_t& __cordl_internal_get__maxVelocity();
+
+  constexpr float_t const& __cordl_internal_get__minElementLength() const;
+
+  constexpr float_t& __cordl_internal_get__minElementLength();
+
+  constexpr float_t const& __cordl_internal_get__minVelocity() const;
+
+  constexpr float_t& __cordl_internal_get__minVelocity();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfElements();
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__positions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__positions();
+
+  constexpr float_t const& __cordl_internal_get__radius() const;
+
+  constexpr float_t& __cordl_internal_get__radius();
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__sizes() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__sizes();
+
+  constexpr void __cordl_internal_set__color_k__BackingField(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  constexpr void __cordl_internal_set__elementMesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set__elementWidth(float_t value);
+
+  constexpr void __cordl_internal_set__elements(::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* value);
 
   constexpr void __cordl_internal_set__layer(int32_t value);
 
-  static inline void setStaticF__positionPropertyID(int32_t value);
+  constexpr void __cordl_internal_set__length(float_t value);
 
-  static inline int32_t getStaticF__positionPropertyID();
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  static inline void setStaticF__sizePropertyID(int32_t value);
+  constexpr void __cordl_internal_set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
-  static inline int32_t getStaticF__sizePropertyID();
+  constexpr void __cordl_internal_set__matrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
 
-  static inline void setStaticF__colorPropertyID(int32_t value);
+  constexpr void __cordl_internal_set__maxElementLength(float_t value);
+
+  constexpr void __cordl_internal_set__maxVelocity(float_t value);
+
+  constexpr void __cordl_internal_set__minElementLength(float_t value);
+
+  constexpr void __cordl_internal_set__minVelocity(float_t value);
+
+  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
+
+  constexpr void __cordl_internal_set__positions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  constexpr void __cordl_internal_set__radius(float_t value);
+
+  constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  /// @brief Method .ctor, addr 0x248fa1c, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF__colorPropertyID();
 
-  static inline void setStaticF__zClipPropertyID(int32_t value);
+  static inline int32_t getStaticF__positionPropertyID();
+
+  static inline int32_t getStaticF__sizePropertyID();
 
   static inline int32_t getStaticF__zClipPropertyID();
 
-  /// @brief Method get_color, addr 0x226186c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x248f1bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x2261878, size 0xc, virtual false, abstract: false, final false
+  static inline void setStaticF__colorPropertyID(int32_t value);
+
+  static inline void setStaticF__positionPropertyID(int32_t value);
+
+  static inline void setStaticF__sizePropertyID(int32_t value);
+
+  static inline void setStaticF__zClipPropertyID(int32_t value);
+
+  /// @brief Method set_color, addr 0x248f1c8, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Start, addr 0x2261884, size 0x238, virtual false, abstract: false, final false
-  inline void Start();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BlocksBlade();
 
-  /// @brief Method Update, addr 0x2261c28, size 0x458, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method SetUpElement, addr 0x2261ac4, size 0x164, virtual false, abstract: false, final false
-  inline void SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color);
-
-  /// @brief Method RandomPointOnCircle, addr 0x2262080, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
-
-  static inline ::GlobalNamespace::BlocksBlade* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22620cc, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlocksBlade(BlocksBlade&&) = delete;
@@ -344,12 +346,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BlocksBlade(BlocksBlade const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlocksBlade();
-
-public:
   /// @brief Field _elementMesh, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____elementMesh;
 

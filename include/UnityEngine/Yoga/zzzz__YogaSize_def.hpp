@@ -15,18 +15,16 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaSize);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15366))
 // CS Name: ::UnityEngine.Yoga::YogaSize
 struct CORDL_TYPE YogaSize {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr YogaSize(float_t width, float_t height) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr YogaSize();
+
+  // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr YogaSize(float_t width, float_t height) noexcept;
 
   /// @brief Field width, offset: 0x0, size: 0x4, def value: None
   float_t width;

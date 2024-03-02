@@ -16,18 +16,16 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15923))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::ItemPriority`2<TItem,TPriority>
 struct CORDL_TYPE ItemPriority_2 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Item", ty: "TItem", modifiers: "", def_value: None }, CppParam { name: "Priority", ty: "TPriority", modifiers: "", def_value: None }]
-  constexpr ItemPriority_2(TItem Item, TPriority Priority) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ItemPriority_2();
+
+  // Ctor Parameters [CppParam { name: "Item", ty: "TItem", modifiers: "", def_value: None }, CppParam { name: "Priority", ty: "TPriority", modifiers: "", def_value: None }]
+  constexpr ItemPriority_2(TItem Item, TPriority Priority) noexcept;
 
   /// @brief Field Item, offset: 0x0, size: 0x8, def value: None
   TItem Item;

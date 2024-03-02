@@ -114,72 +114,21 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Data_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8666)), TypeDefinitionIndex(TypeDefinitionIndex(8667)), TypeDefinitionIndex(TypeDefinitionIndex(8668)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8669)), TypeDefinitionIndex(TypeDefinitionIndex(8670)), TypeDefinitionIndex(TypeDefinitionIndex(8671)), TypeDefinitionIndex(TypeDefinitionIndex(8672)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8673)), TypeDefinitionIndex(TypeDefinitionIndex(8674)), TypeDefinitionIndex(TypeDefinitionIndex(8675)), TypeDefinitionIndex(TypeDefinitionIndex(8676)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8677)), TypeDefinitionIndex(TypeDefinitionIndex(8678)), TypeDefinitionIndex(TypeDefinitionIndex(8679)), TypeDefinitionIndex(TypeDefinitionIndex(8680)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8681)), TypeDefinitionIndex(TypeDefinitionIndex(8682)), TypeDefinitionIndex(TypeDefinitionIndex(8683)), TypeDefinitionIndex(TypeDefinitionIndex(8684)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8685)), TypeDefinitionIndex(TypeDefinitionIndex(8686)), TypeDefinitionIndex(TypeDefinitionIndex(8687)), TypeDefinitionIndex(TypeDefinitionIndex(8688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8689)), TypeDefinitionIndex(TypeDefinitionIndex(8691))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8642)) CS Name: ::OVR.OpenVR::VREvent_Data_t
+// CS Name: ::OVR.OpenVR::VREvent_Data_t
 struct CORDL_TYPE VREvent_Data_t {
 public:
   // Declarations
-  /// @brief Field reserved, offset 0x0, size 0x20
-  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved))::OVR::OpenVR::VREvent_Reserved_t reserved;
-
-  /// @brief Field controller, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_controller, put = __cordl_internal_set_controller))::OVR::OpenVR::VREvent_Controller_t controller;
-
-  /// @brief Field mouse, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_mouse, put = __cordl_internal_set_mouse))::OVR::OpenVR::VREvent_Mouse_t mouse;
-
-  /// @brief Field scroll, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll))::OVR::OpenVR::VREvent_Scroll_t scroll;
-
-  /// @brief Field process, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_process, put = __cordl_internal_set_process))::OVR::OpenVR::VREvent_Process_t process;
-
-  /// @brief Field notification, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_notification, put = __cordl_internal_set_notification))::OVR::OpenVR::VREvent_Notification_t notification;
-
-  /// @brief Field overlay, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_overlay, put = __cordl_internal_set_overlay))::OVR::OpenVR::VREvent_Overlay_t overlay;
-
-  /// @brief Field status, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::OVR::OpenVR::VREvent_Status_t status;
-
-  /// @brief Field ipd, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd))::OVR::OpenVR::VREvent_Ipd_t ipd;
-
-  /// @brief Field chaperone, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_chaperone, put = __cordl_internal_set_chaperone))::OVR::OpenVR::VREvent_Chaperone_t chaperone;
-
-  /// @brief Field performanceTest, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_performanceTest, put = __cordl_internal_set_performanceTest))::OVR::OpenVR::VREvent_PerformanceTest_t performanceTest;
-
-  /// @brief Field touchPadMove, offset 0x0, size 0x18
-  __declspec(property(get = __cordl_internal_get_touchPadMove, put = __cordl_internal_set_touchPadMove))::OVR::OpenVR::VREvent_TouchPadMove_t touchPadMove;
-
-  /// @brief Field seatedZeroPoseReset, offset 0x0, size 0x1
-  __declspec(property(get = __cordl_internal_get_seatedZeroPoseReset, put = __cordl_internal_set_seatedZeroPoseReset))::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset;
-
-  /// @brief Field screenshot, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_screenshot, put = __cordl_internal_set_screenshot))::OVR::OpenVR::VREvent_Screenshot_t screenshot;
-
-  /// @brief Field screenshotProgress, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_screenshotProgress, put = __cordl_internal_set_screenshotProgress))::OVR::OpenVR::VREvent_ScreenshotProgress_t screenshotProgress;
-
   /// @brief Field applicationLaunch, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_applicationLaunch, put = __cordl_internal_set_applicationLaunch))::OVR::OpenVR::VREvent_ApplicationLaunch_t applicationLaunch;
 
   /// @brief Field cameraSurface, offset 0x0, size 0x10
   __declspec(property(get = __cordl_internal_get_cameraSurface, put = __cordl_internal_set_cameraSurface))::OVR::OpenVR::VREvent_EditingCameraSurface_t cameraSurface;
 
-  /// @brief Field messageOverlay, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_messageOverlay, put = __cordl_internal_set_messageOverlay))::OVR::OpenVR::VREvent_MessageOverlay_t messageOverlay;
+  /// @brief Field chaperone, offset 0x0, size 0x10
+  __declspec(property(get = __cordl_internal_get_chaperone, put = __cordl_internal_set_chaperone))::OVR::OpenVR::VREvent_Chaperone_t chaperone;
 
-  /// @brief Field property, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::OVR::OpenVR::VREvent_Property_t property;
+  /// @brief Field controller, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_controller, put = __cordl_internal_set_controller))::OVR::OpenVR::VREvent_Controller_t controller;
 
   /// @brief Field dualAnalog, offset 0x0, size 0x14
   __declspec(property(get = __cordl_internal_get_dualAnalog, put = __cordl_internal_set_dualAnalog))::OVR::OpenVR::VREvent_DualAnalog_t dualAnalog;
@@ -187,167 +136,216 @@ public:
   /// @brief Field hapticVibration, offset 0x0, size 0x20
   __declspec(property(get = __cordl_internal_get_hapticVibration, put = __cordl_internal_set_hapticVibration))::OVR::OpenVR::VREvent_HapticVibration_t hapticVibration;
 
-  /// @brief Field webConsole, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_webConsole, put = __cordl_internal_set_webConsole))::OVR::OpenVR::VREvent_WebConsole_t webConsole;
-
   /// @brief Field inputBinding, offset 0x0, size 0x20
   __declspec(property(get = __cordl_internal_get_inputBinding, put = __cordl_internal_set_inputBinding))::OVR::OpenVR::VREvent_InputBindingLoad_t inputBinding;
 
-  /// @brief Field spatialAnchor, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_spatialAnchor, put = __cordl_internal_set_spatialAnchor))::OVR::OpenVR::VREvent_SpatialAnchor_t spatialAnchor;
+  /// @brief Field ipd, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd))::OVR::OpenVR::VREvent_Ipd_t ipd;
 
   /// @brief Field keyboard, offset 0x0, size 0x10
   __declspec(property(get = __cordl_internal_get_keyboard, put = __cordl_internal_set_keyboard))::OVR::OpenVR::VREvent_Keyboard_t keyboard;
 
-  constexpr ::OVR::OpenVR::VREvent_Reserved_t& __cordl_internal_get_reserved();
+  /// @brief Field messageOverlay, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_messageOverlay, put = __cordl_internal_set_messageOverlay))::OVR::OpenVR::VREvent_MessageOverlay_t messageOverlay;
 
-  constexpr ::OVR::OpenVR::VREvent_Reserved_t const& __cordl_internal_get_reserved() const;
+  /// @brief Field mouse, offset 0x0, size 0xc
+  __declspec(property(get = __cordl_internal_get_mouse, put = __cordl_internal_set_mouse))::OVR::OpenVR::VREvent_Mouse_t mouse;
 
-  constexpr void __cordl_internal_set_reserved(::OVR::OpenVR::VREvent_Reserved_t value);
+  /// @brief Field notification, offset 0x0, size 0x10
+  __declspec(property(get = __cordl_internal_get_notification, put = __cordl_internal_set_notification))::OVR::OpenVR::VREvent_Notification_t notification;
 
-  constexpr ::OVR::OpenVR::VREvent_Controller_t& __cordl_internal_get_controller();
+  /// @brief Field overlay, offset 0x0, size 0x10
+  __declspec(property(get = __cordl_internal_get_overlay, put = __cordl_internal_set_overlay))::OVR::OpenVR::VREvent_Overlay_t overlay;
 
-  constexpr ::OVR::OpenVR::VREvent_Controller_t const& __cordl_internal_get_controller() const;
+  /// @brief Field performanceTest, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_performanceTest, put = __cordl_internal_set_performanceTest))::OVR::OpenVR::VREvent_PerformanceTest_t performanceTest;
 
-  constexpr void __cordl_internal_set_controller(::OVR::OpenVR::VREvent_Controller_t value);
+  /// @brief Field process, offset 0x0, size 0xc
+  __declspec(property(get = __cordl_internal_get_process, put = __cordl_internal_set_process))::OVR::OpenVR::VREvent_Process_t process;
 
-  constexpr ::OVR::OpenVR::VREvent_Mouse_t& __cordl_internal_get_mouse();
+  /// @brief Field property, offset 0x0, size 0x10
+  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::OVR::OpenVR::VREvent_Property_t property;
 
-  constexpr ::OVR::OpenVR::VREvent_Mouse_t const& __cordl_internal_get_mouse() const;
+  /// @brief Field reserved, offset 0x0, size 0x20
+  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved))::OVR::OpenVR::VREvent_Reserved_t reserved;
 
-  constexpr void __cordl_internal_set_mouse(::OVR::OpenVR::VREvent_Mouse_t value);
+  /// @brief Field screenshot, offset 0x0, size 0x8
+  __declspec(property(get = __cordl_internal_get_screenshot, put = __cordl_internal_set_screenshot))::OVR::OpenVR::VREvent_Screenshot_t screenshot;
 
-  constexpr ::OVR::OpenVR::VREvent_Scroll_t& __cordl_internal_get_scroll();
+  /// @brief Field screenshotProgress, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_screenshotProgress, put = __cordl_internal_set_screenshotProgress))::OVR::OpenVR::VREvent_ScreenshotProgress_t screenshotProgress;
 
-  constexpr ::OVR::OpenVR::VREvent_Scroll_t const& __cordl_internal_get_scroll() const;
+  /// @brief Field scroll, offset 0x0, size 0xc
+  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll))::OVR::OpenVR::VREvent_Scroll_t scroll;
 
-  constexpr void __cordl_internal_set_scroll(::OVR::OpenVR::VREvent_Scroll_t value);
+  /// @brief Field seatedZeroPoseReset, offset 0x0, size 0x1
+  __declspec(property(get = __cordl_internal_get_seatedZeroPoseReset, put = __cordl_internal_set_seatedZeroPoseReset))::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset;
 
-  constexpr ::OVR::OpenVR::VREvent_Process_t& __cordl_internal_get_process();
+  /// @brief Field spatialAnchor, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_spatialAnchor, put = __cordl_internal_set_spatialAnchor))::OVR::OpenVR::VREvent_SpatialAnchor_t spatialAnchor;
 
-  constexpr ::OVR::OpenVR::VREvent_Process_t const& __cordl_internal_get_process() const;
+  /// @brief Field status, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::OVR::OpenVR::VREvent_Status_t status;
 
-  constexpr void __cordl_internal_set_process(::OVR::OpenVR::VREvent_Process_t value);
+  /// @brief Field touchPadMove, offset 0x0, size 0x18
+  __declspec(property(get = __cordl_internal_get_touchPadMove, put = __cordl_internal_set_touchPadMove))::OVR::OpenVR::VREvent_TouchPadMove_t touchPadMove;
 
-  constexpr ::OVR::OpenVR::VREvent_Notification_t& __cordl_internal_get_notification();
-
-  constexpr ::OVR::OpenVR::VREvent_Notification_t const& __cordl_internal_get_notification() const;
-
-  constexpr void __cordl_internal_set_notification(::OVR::OpenVR::VREvent_Notification_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Overlay_t& __cordl_internal_get_overlay();
-
-  constexpr ::OVR::OpenVR::VREvent_Overlay_t const& __cordl_internal_get_overlay() const;
-
-  constexpr void __cordl_internal_set_overlay(::OVR::OpenVR::VREvent_Overlay_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Status_t& __cordl_internal_get_status();
-
-  constexpr ::OVR::OpenVR::VREvent_Status_t const& __cordl_internal_get_status() const;
-
-  constexpr void __cordl_internal_set_status(::OVR::OpenVR::VREvent_Status_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Ipd_t& __cordl_internal_get_ipd();
-
-  constexpr ::OVR::OpenVR::VREvent_Ipd_t const& __cordl_internal_get_ipd() const;
-
-  constexpr void __cordl_internal_set_ipd(::OVR::OpenVR::VREvent_Ipd_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Chaperone_t& __cordl_internal_get_chaperone();
-
-  constexpr ::OVR::OpenVR::VREvent_Chaperone_t const& __cordl_internal_get_chaperone() const;
-
-  constexpr void __cordl_internal_set_chaperone(::OVR::OpenVR::VREvent_Chaperone_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t& __cordl_internal_get_performanceTest();
-
-  constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t const& __cordl_internal_get_performanceTest() const;
-
-  constexpr void __cordl_internal_set_performanceTest(::OVR::OpenVR::VREvent_PerformanceTest_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t& __cordl_internal_get_touchPadMove();
-
-  constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t const& __cordl_internal_get_touchPadMove() const;
-
-  constexpr void __cordl_internal_set_touchPadMove(::OVR::OpenVR::VREvent_TouchPadMove_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t& __cordl_internal_get_seatedZeroPoseReset();
-
-  constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t const& __cordl_internal_get_seatedZeroPoseReset() const;
-
-  constexpr void __cordl_internal_set_seatedZeroPoseReset(::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Screenshot_t& __cordl_internal_get_screenshot();
-
-  constexpr ::OVR::OpenVR::VREvent_Screenshot_t const& __cordl_internal_get_screenshot() const;
-
-  constexpr void __cordl_internal_set_screenshot(::OVR::OpenVR::VREvent_Screenshot_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t& __cordl_internal_get_screenshotProgress();
-
-  constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t const& __cordl_internal_get_screenshotProgress() const;
-
-  constexpr void __cordl_internal_set_screenshotProgress(::OVR::OpenVR::VREvent_ScreenshotProgress_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t& __cordl_internal_get_applicationLaunch();
+  /// @brief Field webConsole, offset 0x0, size 0x8
+  __declspec(property(get = __cordl_internal_get_webConsole, put = __cordl_internal_set_webConsole))::OVR::OpenVR::VREvent_WebConsole_t webConsole;
 
   constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t const& __cordl_internal_get_applicationLaunch() const;
 
-  constexpr void __cordl_internal_set_applicationLaunch(::OVR::OpenVR::VREvent_ApplicationLaunch_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_EditingCameraSurface_t& __cordl_internal_get_cameraSurface();
+  constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t& __cordl_internal_get_applicationLaunch();
 
   constexpr ::OVR::OpenVR::VREvent_EditingCameraSurface_t const& __cordl_internal_get_cameraSurface() const;
 
-  constexpr void __cordl_internal_set_cameraSurface(::OVR::OpenVR::VREvent_EditingCameraSurface_t value);
+  constexpr ::OVR::OpenVR::VREvent_EditingCameraSurface_t& __cordl_internal_get_cameraSurface();
 
-  constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t& __cordl_internal_get_messageOverlay();
+  constexpr ::OVR::OpenVR::VREvent_Chaperone_t const& __cordl_internal_get_chaperone() const;
 
-  constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t const& __cordl_internal_get_messageOverlay() const;
+  constexpr ::OVR::OpenVR::VREvent_Chaperone_t& __cordl_internal_get_chaperone();
 
-  constexpr void __cordl_internal_set_messageOverlay(::OVR::OpenVR::VREvent_MessageOverlay_t value);
+  constexpr ::OVR::OpenVR::VREvent_Controller_t const& __cordl_internal_get_controller() const;
 
-  constexpr ::OVR::OpenVR::VREvent_Property_t& __cordl_internal_get_property();
-
-  constexpr ::OVR::OpenVR::VREvent_Property_t const& __cordl_internal_get_property() const;
-
-  constexpr void __cordl_internal_set_property(::OVR::OpenVR::VREvent_Property_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_DualAnalog_t& __cordl_internal_get_dualAnalog();
+  constexpr ::OVR::OpenVR::VREvent_Controller_t& __cordl_internal_get_controller();
 
   constexpr ::OVR::OpenVR::VREvent_DualAnalog_t const& __cordl_internal_get_dualAnalog() const;
 
-  constexpr void __cordl_internal_set_dualAnalog(::OVR::OpenVR::VREvent_DualAnalog_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_HapticVibration_t& __cordl_internal_get_hapticVibration();
+  constexpr ::OVR::OpenVR::VREvent_DualAnalog_t& __cordl_internal_get_dualAnalog();
 
   constexpr ::OVR::OpenVR::VREvent_HapticVibration_t const& __cordl_internal_get_hapticVibration() const;
 
-  constexpr void __cordl_internal_set_hapticVibration(::OVR::OpenVR::VREvent_HapticVibration_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_WebConsole_t& __cordl_internal_get_webConsole();
-
-  constexpr ::OVR::OpenVR::VREvent_WebConsole_t const& __cordl_internal_get_webConsole() const;
-
-  constexpr void __cordl_internal_set_webConsole(::OVR::OpenVR::VREvent_WebConsole_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_InputBindingLoad_t& __cordl_internal_get_inputBinding();
+  constexpr ::OVR::OpenVR::VREvent_HapticVibration_t& __cordl_internal_get_hapticVibration();
 
   constexpr ::OVR::OpenVR::VREvent_InputBindingLoad_t const& __cordl_internal_get_inputBinding() const;
 
-  constexpr void __cordl_internal_set_inputBinding(::OVR::OpenVR::VREvent_InputBindingLoad_t value);
+  constexpr ::OVR::OpenVR::VREvent_InputBindingLoad_t& __cordl_internal_get_inputBinding();
 
-  constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t& __cordl_internal_get_spatialAnchor();
+  constexpr ::OVR::OpenVR::VREvent_Ipd_t const& __cordl_internal_get_ipd() const;
 
-  constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t const& __cordl_internal_get_spatialAnchor() const;
-
-  constexpr void __cordl_internal_set_spatialAnchor(::OVR::OpenVR::VREvent_SpatialAnchor_t value);
-
-  constexpr ::OVR::OpenVR::VREvent_Keyboard_t& __cordl_internal_get_keyboard();
+  constexpr ::OVR::OpenVR::VREvent_Ipd_t& __cordl_internal_get_ipd();
 
   constexpr ::OVR::OpenVR::VREvent_Keyboard_t const& __cordl_internal_get_keyboard() const;
 
+  constexpr ::OVR::OpenVR::VREvent_Keyboard_t& __cordl_internal_get_keyboard();
+
+  constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t const& __cordl_internal_get_messageOverlay() const;
+
+  constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t& __cordl_internal_get_messageOverlay();
+
+  constexpr ::OVR::OpenVR::VREvent_Mouse_t const& __cordl_internal_get_mouse() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Mouse_t& __cordl_internal_get_mouse();
+
+  constexpr ::OVR::OpenVR::VREvent_Notification_t const& __cordl_internal_get_notification() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Notification_t& __cordl_internal_get_notification();
+
+  constexpr ::OVR::OpenVR::VREvent_Overlay_t const& __cordl_internal_get_overlay() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Overlay_t& __cordl_internal_get_overlay();
+
+  constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t const& __cordl_internal_get_performanceTest() const;
+
+  constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t& __cordl_internal_get_performanceTest();
+
+  constexpr ::OVR::OpenVR::VREvent_Process_t const& __cordl_internal_get_process() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Process_t& __cordl_internal_get_process();
+
+  constexpr ::OVR::OpenVR::VREvent_Property_t const& __cordl_internal_get_property() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Property_t& __cordl_internal_get_property();
+
+  constexpr ::OVR::OpenVR::VREvent_Reserved_t const& __cordl_internal_get_reserved() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Reserved_t& __cordl_internal_get_reserved();
+
+  constexpr ::OVR::OpenVR::VREvent_Screenshot_t const& __cordl_internal_get_screenshot() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Screenshot_t& __cordl_internal_get_screenshot();
+
+  constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t const& __cordl_internal_get_screenshotProgress() const;
+
+  constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t& __cordl_internal_get_screenshotProgress();
+
+  constexpr ::OVR::OpenVR::VREvent_Scroll_t const& __cordl_internal_get_scroll() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Scroll_t& __cordl_internal_get_scroll();
+
+  constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t const& __cordl_internal_get_seatedZeroPoseReset() const;
+
+  constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t& __cordl_internal_get_seatedZeroPoseReset();
+
+  constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t const& __cordl_internal_get_spatialAnchor() const;
+
+  constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t& __cordl_internal_get_spatialAnchor();
+
+  constexpr ::OVR::OpenVR::VREvent_Status_t const& __cordl_internal_get_status() const;
+
+  constexpr ::OVR::OpenVR::VREvent_Status_t& __cordl_internal_get_status();
+
+  constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t const& __cordl_internal_get_touchPadMove() const;
+
+  constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t& __cordl_internal_get_touchPadMove();
+
+  constexpr ::OVR::OpenVR::VREvent_WebConsole_t const& __cordl_internal_get_webConsole() const;
+
+  constexpr ::OVR::OpenVR::VREvent_WebConsole_t& __cordl_internal_get_webConsole();
+
+  constexpr void __cordl_internal_set_applicationLaunch(::OVR::OpenVR::VREvent_ApplicationLaunch_t value);
+
+  constexpr void __cordl_internal_set_cameraSurface(::OVR::OpenVR::VREvent_EditingCameraSurface_t value);
+
+  constexpr void __cordl_internal_set_chaperone(::OVR::OpenVR::VREvent_Chaperone_t value);
+
+  constexpr void __cordl_internal_set_controller(::OVR::OpenVR::VREvent_Controller_t value);
+
+  constexpr void __cordl_internal_set_dualAnalog(::OVR::OpenVR::VREvent_DualAnalog_t value);
+
+  constexpr void __cordl_internal_set_hapticVibration(::OVR::OpenVR::VREvent_HapticVibration_t value);
+
+  constexpr void __cordl_internal_set_inputBinding(::OVR::OpenVR::VREvent_InputBindingLoad_t value);
+
+  constexpr void __cordl_internal_set_ipd(::OVR::OpenVR::VREvent_Ipd_t value);
+
   constexpr void __cordl_internal_set_keyboard(::OVR::OpenVR::VREvent_Keyboard_t value);
+
+  constexpr void __cordl_internal_set_messageOverlay(::OVR::OpenVR::VREvent_MessageOverlay_t value);
+
+  constexpr void __cordl_internal_set_mouse(::OVR::OpenVR::VREvent_Mouse_t value);
+
+  constexpr void __cordl_internal_set_notification(::OVR::OpenVR::VREvent_Notification_t value);
+
+  constexpr void __cordl_internal_set_overlay(::OVR::OpenVR::VREvent_Overlay_t value);
+
+  constexpr void __cordl_internal_set_performanceTest(::OVR::OpenVR::VREvent_PerformanceTest_t value);
+
+  constexpr void __cordl_internal_set_process(::OVR::OpenVR::VREvent_Process_t value);
+
+  constexpr void __cordl_internal_set_property(::OVR::OpenVR::VREvent_Property_t value);
+
+  constexpr void __cordl_internal_set_reserved(::OVR::OpenVR::VREvent_Reserved_t value);
+
+  constexpr void __cordl_internal_set_screenshot(::OVR::OpenVR::VREvent_Screenshot_t value);
+
+  constexpr void __cordl_internal_set_screenshotProgress(::OVR::OpenVR::VREvent_ScreenshotProgress_t value);
+
+  constexpr void __cordl_internal_set_scroll(::OVR::OpenVR::VREvent_Scroll_t value);
+
+  constexpr void __cordl_internal_set_seatedZeroPoseReset(::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t value);
+
+  constexpr void __cordl_internal_set_spatialAnchor(::OVR::OpenVR::VREvent_SpatialAnchor_t value);
+
+  constexpr void __cordl_internal_set_status(::OVR::OpenVR::VREvent_Status_t value);
+
+  constexpr void __cordl_internal_set_touchPadMove(::OVR::OpenVR::VREvent_TouchPadMove_t value);
+
+  constexpr void __cordl_internal_set_webConsole(::OVR::OpenVR::VREvent_WebConsole_t value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VREvent_Data_t();
 
   // Ctor Parameters [CppParam { name: "reserved", ty: "::OVR::OpenVR::VREvent_Reserved_t", modifiers: "", def_value: None }, CppParam { name: "controller", ty: "::OVR::OpenVR::VREvent_Controller_t",
   // modifiers: "", def_value: None }, CppParam { name: "mouse", ty: "::OVR::OpenVR::VREvent_Mouse_t", modifiers: "", def_value: None }, CppParam { name: "scroll", ty:
@@ -373,10 +371,6 @@ public:
                            ::OVR::OpenVR::VREvent_EditingCameraSurface_t cameraSurface, ::OVR::OpenVR::VREvent_MessageOverlay_t messageOverlay, ::OVR::OpenVR::VREvent_Property_t property,
                            ::OVR::OpenVR::VREvent_DualAnalog_t dualAnalog, ::OVR::OpenVR::VREvent_HapticVibration_t hapticVibration, ::OVR::OpenVR::VREvent_WebConsole_t webConsole,
                            ::OVR::OpenVR::VREvent_InputBindingLoad_t inputBinding, ::OVR::OpenVR::VREvent_SpatialAnchor_t spatialAnchor, ::OVR::OpenVR::VREvent_Keyboard_t keyboard) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VREvent_Data_t();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -16,19 +16,17 @@ MARK_VAL_T(::OVR::OpenVR::NotificationBitmap_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8718))
 // CS Name: ::OVR.OpenVR::NotificationBitmap_t
 struct CORDL_TYPE NotificationBitmap_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NotificationBitmap_t(void* m_pImageData, int32_t m_nWidth, int32_t m_nHeight, int32_t m_nBytesPerPixel) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr NotificationBitmap_t();
+
+  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_nHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NotificationBitmap_t(void* m_pImageData, int32_t m_nWidth, int32_t m_nHeight, int32_t m_nBytesPerPixel) noexcept;
 
   /// @brief Field m_pImageData, offset: 0x0, size: 0x8, def value: None
   void* m_pImageData;

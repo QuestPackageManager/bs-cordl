@@ -25,12 +25,13 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSaberSoundEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4073))
 // CS Name: ::ObstacleSaberSoundEffect*
 class CORDL_TYPE ObstacleSaberSoundEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _audioSource, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+
   /// @brief Field _obstacleSaberSparkleEffectManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleSaberSparkleEffectManager,
                       put = __cordl_internal_set__obstacleSaberSparkleEffectManager))::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> _obstacleSaberSparkleEffectManager;
@@ -38,65 +39,68 @@ public:
   /// @brief Field _saberType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
-  /// @brief Field _audioSource, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _targetVolume, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
 
   /// @brief Field _volume, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
-  /// @brief Field _targetVolume, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager>& __cordl_internal_get__obstacleSaberSparkleEffectManager();
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> const& __cordl_internal_get__obstacleSaberSparkleEffectManager() const;
-
-  constexpr void __cordl_internal_set__obstacleSaberSparkleEffectManager(::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> value);
-
-  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
-
-  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
-
-  constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
-
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
-
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
-
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
-
-  constexpr float_t& __cordl_internal_get__volume();
-
-  constexpr float_t const& __cordl_internal_get__volume() const;
-
-  constexpr void __cordl_internal_set__volume(float_t value);
-
-  constexpr float_t& __cordl_internal_get__targetVolume();
-
-  constexpr float_t const& __cordl_internal_get__targetVolume() const;
-
-  constexpr void __cordl_internal_set__targetVolume(float_t value);
-
-  /// @brief Method Awake, addr 0x222f834, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2385b44, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x222f938, size 0x12c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  /// @brief Method HandleSparkleEffecDidEnd, addr 0x2385f40, size 0x14, virtual false, abstract: false, final false
+  inline void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method LateUpdate, addr 0x222fa64, size 0x104, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method HandleSparkleEffectDidStart, addr 0x222fb68, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidStart, addr 0x2385e78, size 0xc8, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffecDidEnd, addr 0x222fc30, size 0x14, virtual false, abstract: false, final false
-  inline void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
+  /// @brief Method LateUpdate, addr 0x2385d74, size 0x104, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
   static inline ::GlobalNamespace::ObstacleSaberSoundEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222fc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2385c48, size 0x12c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> const& __cordl_internal_get__obstacleSaberSparkleEffectManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager>& __cordl_internal_get__obstacleSaberSparkleEffectManager();
+
+  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
+
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+
+  constexpr float_t const& __cordl_internal_get__targetVolume() const;
+
+  constexpr float_t& __cordl_internal_get__targetVolume();
+
+  constexpr float_t const& __cordl_internal_get__volume() const;
+
+  constexpr float_t& __cordl_internal_get__volume();
+
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+
+  constexpr void __cordl_internal_set__obstacleSaberSparkleEffectManager(::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> value);
+
+  constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
+
+  constexpr void __cordl_internal_set__targetVolume(float_t value);
+
+  constexpr void __cordl_internal_set__volume(float_t value);
+
+  /// @brief Method .ctor, addr 0x2385f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObstacleSaberSoundEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSaberSoundEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleSaberSoundEffect(ObstacleSaberSoundEffect&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleSaberSoundEffect(ObstacleSaberSoundEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObstacleSaberSoundEffect();
-
-public:
   /// @brief Field _obstacleSaberSparkleEffectManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffectManager> ____obstacleSaberSparkleEffectManager;
 

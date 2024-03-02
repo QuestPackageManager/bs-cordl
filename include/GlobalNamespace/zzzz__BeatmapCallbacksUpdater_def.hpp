@@ -20,45 +20,49 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCallbacksUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4709))
 // CS Name: ::BeatmapCallbacksUpdater*
 class CORDL_TYPE BeatmapCallbacksUpdater : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _audioTimeSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+
   /// @brief Field _beatmapCallbacksController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _audioTimeSource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  /// @brief Method LateUpdate, addr 0x238ea34, size 0x124, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  /// @brief Method Pause, addr 0x238eb58, size 0xc, virtual false, abstract: false, final false
+  inline void Pause();
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  /// @brief Method Resume, addr 0x238eb64, size 0xc, virtual false, abstract: false, final false
+  inline void Resume();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method LateUpdate, addr 0x237bb98, size 0x124, virtual false, abstract: false, final false
-  inline void LateUpdate();
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method Pause, addr 0x237bcbc, size 0xc, virtual false, abstract: false, final false
-  inline void Pause();
-
-  /// @brief Method Resume, addr 0x237bcc8, size 0xc, virtual false, abstract: false, final false
-  inline void Resume();
-
-  static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
-
-  /// @brief Method .ctor, addr 0x237bcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238eb70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapCallbacksUpdater();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksUpdater", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCallbacksUpdater(BeatmapCallbacksUpdater&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCallbacksUpdater(BeatmapCallbacksUpdater const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCallbacksUpdater();
-
-public:
   /// @brief Field _beatmapCallbacksController, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

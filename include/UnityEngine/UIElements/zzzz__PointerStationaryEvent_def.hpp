@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerStationaryEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 4840 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7201))
 // CS Name: ::UnityEngine.UIElements::PointerStationaryEvent*
 class CORDL_TYPE PointerStationaryEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerStationaryEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e4fa8c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5d59c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e4fadc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5d5ec, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4fbe0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5d6f0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerStationaryEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerStationaryEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerStationaryEvent(PointerStationaryEvent&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerStationaryEvent(PointerStationaryEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerStationaryEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

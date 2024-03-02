@@ -15,22 +15,61 @@ MARK_REF_PTR_T(::UnityEngine::SpringJoint);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15496))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15497))
 // CS Name: ::UnityEngine::SpringJoint*
 class CORDL_TYPE SpringJoint : public ::UnityEngine::Joint {
 public:
   // Declarations
-  __declspec(property(put = set_minDistance)) float_t minDistance;
+  __declspec(property(get = get_damper, put = set_damper)) float_t damper;
 
-  __declspec(property(put = set_maxDistance)) float_t maxDistance;
+  __declspec(property(get = get_maxDistance, put = set_maxDistance)) float_t maxDistance;
 
-  /// @brief Method set_minDistance, addr 0x2d17460, size 0x4c, virtual false, abstract: false, final false
-  inline void set_minDistance(float_t value);
+  __declspec(property(get = get_minDistance, put = set_minDistance)) float_t minDistance;
 
-  /// @brief Method set_maxDistance, addr 0x2d174ac, size 0x4c, virtual false, abstract: false, final false
+  __declspec(property(get = get_spring, put = set_spring)) float_t spring;
+
+  __declspec(property(get = get_tolerance, put = set_tolerance)) float_t tolerance;
+
+  static inline ::UnityEngine::SpringJoint* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2e216a8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_damper, addr 0x2e21488, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_damper();
+
+  /// @brief Method get_maxDistance, addr 0x2e21598, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_maxDistance();
+
+  /// @brief Method get_minDistance, addr 0x2e21510, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_minDistance();
+
+  /// @brief Method get_spring, addr 0x2e21400, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_spring();
+
+  /// @brief Method get_tolerance, addr 0x2e21620, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_tolerance();
+
+  /// @brief Method set_damper, addr 0x2e214c4, size 0x4c, virtual false, abstract: false, final false
+  inline void set_damper(float_t value);
+
+  /// @brief Method set_maxDistance, addr 0x2e215d4, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
+  /// @brief Method set_minDistance, addr 0x2e2154c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_minDistance(float_t value);
+
+  /// @brief Method set_spring, addr 0x2e2143c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_spring(float_t value);
+
+  /// @brief Method set_tolerance, addr 0x2e2165c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_tolerance(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpringJoint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpringJoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpringJoint(SpringJoint&&) = delete;
@@ -39,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpringJoint(SpringJoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpringJoint();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

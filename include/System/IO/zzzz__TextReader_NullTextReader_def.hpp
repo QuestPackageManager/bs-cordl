@@ -17,23 +17,27 @@ MARK_REF_PTR_T(::System::IO::__TextReader__NullTextReader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3582))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3579))
 // CS Name: ::TextReader::NullTextReader*
 class CORDL_TYPE __TextReader__NullTextReader : public ::System::IO::TextReader {
 public:
   // Declarations
   static inline ::System::IO::__TextReader__NullTextReader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2506fc0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Read, addr 0x2507018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25f98f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x2507020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x25f98fc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
+  /// @brief Method .ctor, addr 0x25f989c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TextReader__NullTextReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TextReader__NullTextReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TextReader__NullTextReader(__TextReader__NullTextReader&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TextReader__NullTextReader(__TextReader__NullTextReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextReader__NullTextReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

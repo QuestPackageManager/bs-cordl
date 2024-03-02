@@ -40,14 +40,12 @@ MARK_REF_PTR_T(::GlobalNamespace::__LeaderboardTableView__ScoreData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5788))
 // CS Name: ::LeaderboardTableView::ScoreData*
 class CORDL_TYPE __LeaderboardTableView__ScoreData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <score>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__score_k__BackingField, put = __cordl_internal_set__score_k__BackingField)) int32_t _score_k__BackingField;
+  /// @brief Field <fullCombo>k__BackingField, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__fullCombo_k__BackingField, put = __cordl_internal_set__fullCombo_k__BackingField)) bool _fullCombo_k__BackingField;
 
   /// @brief Field <playerName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__playerName_k__BackingField, put = __cordl_internal_set__playerName_k__BackingField))::StringW _playerName_k__BackingField;
@@ -55,70 +53,76 @@ public:
   /// @brief Field <rank>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__rank_k__BackingField, put = __cordl_internal_set__rank_k__BackingField)) int32_t _rank_k__BackingField;
 
-  /// @brief Field <fullCombo>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__fullCombo_k__BackingField, put = __cordl_internal_set__fullCombo_k__BackingField)) bool _fullCombo_k__BackingField;
+  /// @brief Field <score>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__score_k__BackingField, put = __cordl_internal_set__score_k__BackingField)) int32_t _score_k__BackingField;
 
-  __declspec(property(get = get_score, put = set_score)) int32_t score;
+  __declspec(property(get = get_fullCombo, put = set_fullCombo)) bool fullCombo;
 
   __declspec(property(get = get_playerName, put = set_playerName))::StringW playerName;
 
   __declspec(property(get = get_rank, put = set_rank)) int32_t rank;
 
-  __declspec(property(get = get_fullCombo, put = set_fullCombo)) bool fullCombo;
-
-  constexpr int32_t& __cordl_internal_get__score_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__score_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__score_k__BackingField(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__playerName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__playerName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__playerName_k__BackingField(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__rank_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__rank_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__rank_k__BackingField(int32_t value);
-
-  constexpr bool& __cordl_internal_get__fullCombo_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__fullCombo_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__fullCombo_k__BackingField(bool value);
-
-  /// @brief Method get_score, addr 0x22e31c4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_score();
-
-  /// @brief Method set_score, addr 0x22e31cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_score(int32_t value);
-
-  /// @brief Method get_playerName, addr 0x22e31d4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_playerName();
-
-  /// @brief Method set_playerName, addr 0x22e31dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_playerName(::StringW value);
-
-  /// @brief Method get_rank, addr 0x22e31e4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_rank();
-
-  /// @brief Method set_rank, addr 0x22e31ec, size 0x8, virtual false, abstract: false, final false
-  inline void set_rank(int32_t value);
-
-  /// @brief Method get_fullCombo, addr 0x22e31f4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_fullCombo();
-
-  /// @brief Method set_fullCombo, addr 0x22e31fc, size 0xc, virtual false, abstract: false, final false
-  inline void set_fullCombo(bool value);
+  __declspec(property(get = get_score, put = set_score)) int32_t score;
 
   static inline ::GlobalNamespace::__LeaderboardTableView__ScoreData* New_ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
-  /// @brief Method .ctor, addr 0x22d3870, size 0x4c, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__fullCombo_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__fullCombo_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__playerName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__playerName_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__rank_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__rank_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__score_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__score_k__BackingField();
+
+  constexpr void __cordl_internal_set__fullCombo_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__playerName_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__rank_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__score_k__BackingField(int32_t value);
+
+  /// @brief Method .ctor, addr 0x23d1c4c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
+  /// @brief Method get_fullCombo, addr 0x23e1ce0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_fullCombo();
+
+  /// @brief Method get_playerName, addr 0x23e1cc0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_playerName();
+
+  /// @brief Method get_rank, addr 0x23e1cd0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_rank();
+
+  /// @brief Method get_score, addr 0x23e1cb0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_score();
+
+  /// @brief Method set_fullCombo, addr 0x23e1ce8, size 0xc, virtual false, abstract: false, final false
+  inline void set_fullCombo(bool value);
+
+  /// @brief Method set_playerName, addr 0x23e1cc8, size 0x8, virtual false, abstract: false, final false
+  inline void set_playerName(::StringW value);
+
+  /// @brief Method set_rank, addr 0x23e1cd8, size 0x8, virtual false, abstract: false, final false
+  inline void set_rank(int32_t value);
+
+  /// @brief Method set_score, addr 0x23e1cb8, size 0x8, virtual false, abstract: false, final false
+  inline void set_score(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LeaderboardTableView__ScoreData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LeaderboardTableView__ScoreData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LeaderboardTableView__ScoreData(__LeaderboardTableView__ScoreData&&) = delete;
@@ -127,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LeaderboardTableView__ScoreData(__LeaderboardTableView__ScoreData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LeaderboardTableView__ScoreData();
-
-public:
   /// @brief Field <score>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____score_k__BackingField;
 
@@ -163,16 +161,11 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardTableView__ScoreData, ___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5789))
 // CS Name: ::LeaderboardTableView*
 class CORDL_TYPE LeaderboardTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using ScoreData = ::GlobalNamespace::__LeaderboardTableView__ScoreData;
-
-  /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
 
   /// @brief Field _cellPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::LeaderboardTableCell> _cellPrefab;
@@ -186,59 +179,68 @@ public:
   /// @brief Field _specialScorePos, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__specialScorePos, put = __cordl_internal_set__specialScorePos)) int32_t _specialScorePos;
 
+  /// @brief Field _tableView, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
+
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Convert to "::HMUI::__TableView__IDataSource"
-  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
+  /// @brief Method CellForIdx, addr 0x23e1ab0, size 0x1f0, virtual true, abstract: false, final true
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
+  /// @brief Method CellSize, addr 0x23e1a5c, size 0x8, virtual true, abstract: false, final true
+  inline float_t CellSize();
 
-  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
+  static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
 
-  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
+  /// @brief Method NumberOfCells, addr 0x23e1a64, size 0x4c, virtual true, abstract: false, final true
+  inline int32_t NumberOfCells();
 
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardTableCell>& __cordl_internal_get__cellPrefab();
+  /// @brief Method SetScores, addr 0x23d1c98, size 0x30, virtual false, abstract: false, final false
+  inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* scores, int32_t specialScorePos);
 
   constexpr ::UnityW<::GlobalNamespace::LeaderboardTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::LeaderboardTableCell> value);
-
-  constexpr float_t& __cordl_internal_get__rowHeight();
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardTableCell>& __cordl_internal_get__cellPrefab();
 
   constexpr float_t const& __cordl_internal_get__rowHeight() const;
 
-  constexpr void __cordl_internal_set__rowHeight(float_t value);
+  constexpr float_t& __cordl_internal_get__rowHeight();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*& __cordl_internal_get__scores();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*> const& __cordl_internal_get__scores() const;
 
-  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value);
+  constexpr int32_t const& __cordl_internal_get__specialScorePos() const;
 
   constexpr int32_t& __cordl_internal_get__specialScorePos();
 
-  constexpr int32_t const& __cordl_internal_get__specialScorePos() const;
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
+
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
+
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::LeaderboardTableCell> value);
+
+  constexpr void __cordl_internal_set__rowHeight(float_t value);
+
+  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value);
 
   constexpr void __cordl_internal_set__specialScorePos(int32_t value);
 
-  /// @brief Method CellSize, addr 0x22e2f70, size 0x8, virtual true, abstract: false, final true
-  inline float_t CellSize();
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method NumberOfCells, addr 0x22e2f78, size 0x4c, virtual true, abstract: false, final true
-  inline int32_t NumberOfCells();
-
-  /// @brief Method CellForIdx, addr 0x22e2fc4, size 0x1f0, virtual true, abstract: false, final true
-  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
-
-  /// @brief Method SetScores, addr 0x22d38bc, size 0x30, virtual false, abstract: false, final false
-  inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* scores, int32_t specialScorePos);
-
-  static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e31b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e1ca0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeaderboardTableView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardTableView(LeaderboardTableView&&) = delete;
@@ -247,12 +249,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeaderboardTableView(LeaderboardTableView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeaderboardTableView();
-
-public:
   /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 

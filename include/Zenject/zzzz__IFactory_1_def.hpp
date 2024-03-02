@@ -18,8 +18,6 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10983))
 // CS Name: ::Zenject::IFactory`1<TValue>*
 class CORDL_TYPE IFactory_1 {
 public:
@@ -27,11 +25,11 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Convert to "::Zenject::IFactory"
-  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
-
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Create();
+
+  /// @brief Convert to "::Zenject::IFactory"
+  constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IFactory_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

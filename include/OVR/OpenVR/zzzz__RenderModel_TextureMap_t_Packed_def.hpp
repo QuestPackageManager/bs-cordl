@@ -20,26 +20,24 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t_Packed);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8714))
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27f6784, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
-
-  /// @brief Method Unpack, addr 0x27f6798, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x28e80a8, size 0x1c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rubTextureMapData", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, void* rubTextureMapData) noexcept;
+  /// @brief Method .ctor, addr 0x28e8094, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderModel_TextureMap_t_Packed();
+
+  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
+  // "rubTextureMapData", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, void* rubTextureMapData) noexcept;
 
   /// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
   uint16_t unWidth;

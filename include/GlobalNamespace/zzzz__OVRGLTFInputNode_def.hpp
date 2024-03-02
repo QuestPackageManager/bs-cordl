@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::OVRGLTFInputNode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7554))
 // CS Name: ::OVRGLTFInputNode
 struct CORDL_TYPE OVRGLTFInputNode {
 public:
@@ -39,21 +37,20 @@ public:
     return static_cast<__OVRGLTFInputNode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr OVRGLTFInputNode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OVRGLTFInputNode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OVRGLTFInputNode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::OVRGLTFInputNode const None;
 
   /// @brief Field Button_A_X value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::OVRGLTFInputNode const Button_A_X;
@@ -64,14 +61,20 @@ public:
   /// @brief Field Button_Oculus_Menu value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::OVRGLTFInputNode const Button_Oculus_Menu;
 
-  /// @brief Field Trigger_Grip value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::OVRGLTFInputNode const Trigger_Grip;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::OVRGLTFInputNode const None;
+
+  /// @brief Field ThumbStick value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::OVRGLTFInputNode const ThumbStick;
 
   /// @brief Field Trigger_Front value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::OVRGLTFInputNode const Trigger_Front;
 
-  /// @brief Field ThumbStick value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::OVRGLTFInputNode const ThumbStick;
+  /// @brief Field Trigger_Grip value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::OVRGLTFInputNode const Trigger_Grip;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

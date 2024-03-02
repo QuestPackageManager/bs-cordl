@@ -22,8 +22,6 @@ MARK_VAL_T(::UnityEngine::XR::MeshId);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15633))
 // CS Name: ::UnityEngine.XR::MeshId
 struct CORDL_TYPE MeshId {
 public:
@@ -34,31 +32,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>*();
 
+  /// @brief Method Equals, addr 0x2fc2fdc, size 0x88, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2fc3064, size 0x24, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::XR::MeshId other);
+
+  /// @brief Method GetHashCode, addr 0x2fc2fa8, size 0x34, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToString, addr 0x2fc2f14, size 0x94, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshId>* i___System__IEquatable_1___UnityEngine__XR__MeshId_();
 
   static inline void setStaticF_s_InvalidId(::UnityEngine::XR::MeshId value);
 
-  static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
-
-  /// @brief Method ToString, addr 0x2eb36a8, size 0x94, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method GetHashCode, addr 0x2eb373c, size 0x34, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2eb3770, size 0x88, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2eb37f8, size 0x24, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::XR::MeshId other);
-
-  // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr MeshId(uint64_t m_SubId1, uint64_t m_SubId2) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr MeshId();
+
+  // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None }]
+  constexpr MeshId(uint64_t m_SubId1, uint64_t m_SubId2) noexcept;
 
   /// @brief Field m_SubId1, offset: 0x0, size: 0x8, def value: None
   uint64_t m_SubId1;

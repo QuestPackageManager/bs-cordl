@@ -98,8 +98,6 @@ MARK_GEN_REF_PTR_T(::Zenject::__SignalBus____c__DisplayClass27_0_1);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10663))
 // CS Name: ::SignalBus::<>c*
 class CORDL_TYPE __SignalBus____c : public ::System::Object {
 public:
@@ -107,51 +105,57 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__SignalBus____c* __9;
 
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* __9__12_0;
+
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::BindingId>* __9__7_0;
 
   /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1))::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::SignalDeclaration*>* __9__7_1;
 
-  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* __9__12_0;
+  static inline ::Zenject::__SignalBus____c* New_ctor();
 
-  static inline void setStaticF___9(::Zenject::__SignalBus____c* value);
+  /// @brief Method <LateDispose>b__12_0, addr 0x2fd5400, size 0x34, virtual false, abstract: false, final false
+  inline ::StringW _LateDispose_b__12_0(::Zenject::SignalSubscription* x);
+
+  /// @brief Method <.ctor>b__7_0, addr 0x2fd53e0, size 0x18, virtual false, abstract: false, final false
+  inline ::Zenject::BindingId __ctor_b__7_0(::Zenject::SignalDeclaration* x);
+
+  /// @brief Method <.ctor>b__7_1, addr 0x2fd53f8, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::SignalDeclaration* __ctor_b__7_1(::Zenject::SignalDeclaration* x);
+
+  /// @brief Method __zenCreate, addr 0x2fd5434, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2fd5490, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x2fd53d8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Zenject::__SignalBus____c* getStaticF___9();
 
-  static inline void setStaticF___9__7_0(::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::BindingId>* value);
+  static inline ::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* getStaticF___9__12_0();
 
   static inline ::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::BindingId>* getStaticF___9__7_0();
 
-  static inline void setStaticF___9__7_1(::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::SignalDeclaration*>* value);
-
   static inline ::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::SignalDeclaration*>* getStaticF___9__7_1();
+
+  static inline void setStaticF___9(::Zenject::__SignalBus____c* value);
 
   static inline void setStaticF___9__12_0(::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* value);
 
-  static inline ::System::Func_2<::Zenject::SignalSubscription*, ::StringW>* getStaticF___9__12_0();
+  static inline void setStaticF___9__7_0(::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::BindingId>* value);
 
-  static inline ::Zenject::__SignalBus____c* New_ctor();
+  static inline void setStaticF___9__7_1(::System::Func_2<::Zenject::SignalDeclaration*, ::Zenject::SignalDeclaration*>* value);
 
-  /// @brief Method .ctor, addr 0x2ec5b68, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SignalBus____c();
 
-  /// @brief Method <.ctor>b__7_0, addr 0x2ec5b70, size 0x18, virtual false, abstract: false, final false
-  inline ::Zenject::BindingId __ctor_b__7_0(::Zenject::SignalDeclaration* x);
-
-  /// @brief Method <.ctor>b__7_1, addr 0x2ec5b88, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::SignalDeclaration* __ctor_b__7_1(::Zenject::SignalDeclaration* x);
-
-  /// @brief Method <LateDispose>b__12_0, addr 0x2ec5b90, size 0x34, virtual false, abstract: false, final false
-  inline ::StringW _LateDispose_b__12_0(::Zenject::SignalSubscription* x);
-
-  /// @brief Method __zenCreate, addr 0x2ec5bc4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec5c20, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SignalBus____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SignalBus____c(__SignalBus____c&&) = delete;
@@ -160,12 +164,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SignalBus____c(__SignalBus____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SignalBus____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -178,8 +176,6 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10664))
 // CS Name: ::SignalBus::<>c__DisplayClass25_0`1<TSignal>*
 class CORDL_TYPE __SignalBus____c__DisplayClass25_0_1 : public ::System::Object {
 public:
@@ -187,19 +183,16 @@ public:
   /// @brief Field callback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
 
+  static inline ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>* New_ctor();
+
+  /// @brief Method <SubscribeId>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _SubscribeId_b__0(::System::Object* args);
+
   constexpr ::System::Action*& __cordl_internal_get_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_callback() const;
 
   constexpr void __cordl_internal_set_callback(::System::Action* value);
-
-  static inline ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <SubscribeId>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _SubscribeId_b__0(::System::Object* args);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -207,6 +200,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SignalBus____c__DisplayClass25_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SignalBus____c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SignalBus____c__DisplayClass25_0_1(__SignalBus____c__DisplayClass25_0_1&&) = delete;
@@ -215,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SignalBus____c__DisplayClass25_0_1(__SignalBus____c__DisplayClass25_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SignalBus____c__DisplayClass25_0_1();
-
-public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___callback;
 
@@ -234,8 +230,6 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10665))
 // CS Name: ::SignalBus::<>c__DisplayClass27_0`1<TSignal>*
 class CORDL_TYPE __SignalBus____c__DisplayClass27_0_1 : public ::System::Object {
 public:
@@ -243,19 +237,16 @@ public:
   /// @brief Field callback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TSignal>* callback;
 
+  static inline ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>* New_ctor();
+
+  /// @brief Method <SubscribeId>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _SubscribeId_b__0(::System::Object* args);
+
   constexpr ::System::Action_1<TSignal>*& __cordl_internal_get_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& __cordl_internal_get_callback() const;
 
   constexpr void __cordl_internal_set_callback(::System::Action_1<TSignal>* value);
-
-  static inline ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <SubscribeId>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _SubscribeId_b__0(::System::Object* args);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -263,6 +254,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SignalBus____c__DisplayClass27_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SignalBus____c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SignalBus____c__DisplayClass27_0_1(__SignalBus____c__DisplayClass27_0_1&&) = delete;
@@ -271,12 +271,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SignalBus____c__DisplayClass27_0_1(__SignalBus____c__DisplayClass27_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SignalBus____c__DisplayClass27_0_1();
-
-public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TSignal>* ___callback;
 
@@ -288,20 +282,22 @@ public:
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10666))
 // CS Name: ::Zenject::SignalBus*
 class CORDL_TYPE SignalBus : public ::System::Object {
 public:
   // Declarations
-  template <typename TSignal> using __c__DisplayClass27_0_1 = ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>;
+  using __c = ::Zenject::__SignalBus____c;
 
   template <typename TSignal> using __c__DisplayClass25_0_1 = ::Zenject::__SignalBus____c__DisplayClass25_0_1<TSignal>;
 
-  using __c = ::Zenject::__SignalBus____c;
+  template <typename TSignal> using __c__DisplayClass27_0_1 = ::Zenject::__SignalBus____c__DisplayClass27_0_1<TSignal>;
 
-  /// @brief Field _subscriptionPool, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__subscriptionPool, put = __cordl_internal_set__subscriptionPool))::Zenject::__SignalSubscription__Pool* _subscriptionPool;
+  __declspec(property(get = get_NumSubscribers)) int32_t NumSubscribers;
+
+  __declspec(property(get = get_ParentBus))::Zenject::SignalBus* ParentBus;
+
+  /// @brief Field _container, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _localDeclarationMap, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__localDeclarationMap,
@@ -310,92 +306,36 @@ public:
   /// @brief Field _parentBus, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__parentBus, put = __cordl_internal_set__parentBus))::Zenject::SignalBus* _parentBus;
 
-  /// @brief Field _subscriptionMap, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__subscriptionMap,
-                      put = __cordl_internal_set__subscriptionMap))::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* _subscriptionMap;
-
   /// @brief Field _settings, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::__ZenjectSettings__SignalSettings* _settings;
 
   /// @brief Field _signalDeclarationFactory, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__signalDeclarationFactory, put = __cordl_internal_set__signalDeclarationFactory))::Zenject::__SignalDeclaration__Factory* _signalDeclarationFactory;
 
-  /// @brief Field _container, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _subscriptionMap, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__subscriptionMap,
+                      put = __cordl_internal_set__subscriptionMap))::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* _subscriptionMap;
 
-  __declspec(property(get = get_ParentBus))::Zenject::SignalBus* ParentBus;
-
-  __declspec(property(get = get_NumSubscribers)) int32_t NumSubscribers;
+  /// @brief Field _subscriptionPool, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__subscriptionPool, put = __cordl_internal_set__subscriptionPool))::Zenject::__SignalSubscription__Pool* _subscriptionPool;
 
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
 
-  /// @brief Convert to "::Zenject::ILateDisposable"
-  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
+  /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+  inline void DeclareSignal(::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse, ::System::Nullable_1<bool> forceAsync,
+                            ::System::Nullable_1<int32_t> asyncTickPriority);
 
-  constexpr ::Zenject::__SignalSubscription__Pool*& __cordl_internal_get__subscriptionPool();
+  /// @brief Method DeclareSignal, addr 0x2fd4a24, size 0x198, virtual false, abstract: false, final false
+  inline void DeclareSignal(::System::Type* signalType, ::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse,
+                            ::System::Nullable_1<bool> forceAsync, ::System::Nullable_1<int32_t> asyncTickPriority);
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __cordl_internal_get__subscriptionPool() const;
+  /// @brief Method Fire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void Fire();
 
-  constexpr void __cordl_internal_set__subscriptionPool(::Zenject::__SignalSubscription__Pool* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*& __cordl_internal_get__localDeclarationMap();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*> const&
-  __cordl_internal_get__localDeclarationMap() const;
-
-  constexpr void __cordl_internal_set__localDeclarationMap(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* value);
-
-  constexpr ::Zenject::SignalBus*& __cordl_internal_get__parentBus();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __cordl_internal_get__parentBus() const;
-
-  constexpr void __cordl_internal_set__parentBus(::Zenject::SignalBus* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*& __cordl_internal_get__subscriptionMap();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*> const&
-  __cordl_internal_get__subscriptionMap() const;
-
-  constexpr void __cordl_internal_set__subscriptionMap(::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* value);
-
-  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __cordl_internal_get__settings();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __cordl_internal_get__settings() const;
-
-  constexpr void __cordl_internal_set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
-
-  constexpr ::Zenject::__SignalDeclaration__Factory*& __cordl_internal_get__signalDeclarationFactory();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalDeclaration__Factory*> const& __cordl_internal_get__signalDeclarationFactory() const;
-
-  constexpr void __cordl_internal_set__signalDeclarationFactory(::Zenject::__SignalDeclaration__Factory* value);
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  static inline ::Zenject::SignalBus* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
-                                               ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::__SignalSubscription__Pool* subscriptionPool,
-                                               ::Zenject::__SignalDeclaration__Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
-
-  /// @brief Method .ctor, addr 0x2ec449c, size 0x280, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus, ::Zenject::ZenjectSettings* zenjectSettings,
-                    ::Zenject::__SignalSubscription__Pool* subscriptionPool, ::Zenject::__SignalDeclaration__Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
-
-  /// @brief Method get_ParentBus, addr 0x2ec471c, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::SignalBus* get_ParentBus();
-
-  /// @brief Method get_NumSubscribers, addr 0x2ec4724, size 0x50, virtual false, abstract: false, final false
-  inline int32_t get_NumSubscribers();
-
-  /// @brief Method LateDispose, addr 0x2ec4774, size 0x450, virtual true, abstract: false, final true
-  inline void LateDispose();
-
-  /// @brief Method FireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void FireId(::System::Object* identifier, TSignal signal);
+  /// @brief Method Fire, addr 0x2fd44c8, size 0xc, virtual false, abstract: false, final false
+  inline void Fire(::System::Object* signal);
 
   /// @brief Method Fire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void Fire(TSignal signal);
@@ -403,17 +343,57 @@ public:
   /// @brief Method FireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void FireId(::System::Object* identifier);
 
-  /// @brief Method Fire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void Fire();
-
-  /// @brief Method FireId, addr 0x2ec4bc4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FireId, addr 0x2fd4434, size 0x50, virtual false, abstract: false, final false
   inline void FireId(::System::Object* identifier, ::System::Object* signal);
 
-  /// @brief Method Fire, addr 0x2ec4c58, size 0xc, virtual false, abstract: false, final false
-  inline void Fire(::System::Object* signal);
+  /// @brief Method FireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void FireId(::System::Object* identifier, TSignal signal);
 
-  /// @brief Method TryFireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void TryFireId(::System::Object* identifier, TSignal signal);
+  /// @brief Method GetDeclaration, addr 0x2fd48ec, size 0x138, virtual false, abstract: false, final false
+  inline ::Zenject::SignalDeclaration* GetDeclaration(::Zenject::BindingId signalId, bool requireDeclaration);
+
+  /// @brief Method GetDeclaration, addr 0x2fd4484, size 0x44, virtual false, abstract: false, final false
+  inline ::Zenject::SignalDeclaration* GetDeclaration(::System::Type* signalType, ::System::Object* identifier, bool requireDeclaration);
+
+  /// @brief Method LateDispose, addr 0x2fd3fe4, size 0x450, virtual true, abstract: false, final true
+  inline void LateDispose();
+
+  static inline ::Zenject::SignalBus* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
+                                               ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::__SignalSubscription__Pool* subscriptionPool,
+                                               ::Zenject::__SignalDeclaration__Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
+
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void Subscribe(::System::Action* callback);
+
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void Subscribe(::System::Action_1<TSignal>* callback);
+
+  /// @brief Method Subscribe, addr 0x2fd4590, size 0x10, virtual false, abstract: false, final false
+  inline void Subscribe(::System::Type* signalType, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method SubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void SubscribeId(::System::Object* identifier, ::System::Action* callback);
+
+  /// @brief Method SubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void SubscribeId(::System::Object* identifier, ::System::Action_1<TSignal>* callback);
+
+  /// @brief Method SubscribeId, addr 0x2fd0a4c, size 0x8, virtual false, abstract: false, final false
+  inline void SubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method SubscribeInternal, addr 0x2fd47ac, size 0x140, virtual false, abstract: false, final false
+  inline void SubscribeInternal(::Zenject::SignalSubscriptionId id, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method SubscribeInternal, addr 0x2fd4788, size 0x24, virtual false, abstract: false, final false
+  inline void SubscribeInternal(::Zenject::BindingId signalId, ::System::Object* token, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method SubscribeInternal, addr 0x2fd453c, size 0x54, virtual false, abstract: false, final false
+  inline void SubscribeInternal(::System::Type* signalType, ::System::Object* identifier, ::System::Object* token, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method TryFire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void TryFire();
+
+  /// @brief Method TryFire, addr 0x2fd4530, size 0xc, virtual false, abstract: false, final false
+  inline void TryFire(::System::Object* signal);
 
   /// @brief Method TryFire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void TryFire(TSignal signal);
@@ -421,120 +401,138 @@ public:
   /// @brief Method TryFireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void TryFireId(::System::Object* identifier);
 
-  /// @brief Method TryFire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void TryFire();
-
-  /// @brief Method TryFireId, addr 0x2ec4c64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryFireId, addr 0x2fd44d4, size 0x5c, virtual false, abstract: false, final false
   inline void TryFireId(::System::Object* identifier, ::System::Object* signal);
 
-  /// @brief Method TryFire, addr 0x2ec4cc0, size 0xc, virtual false, abstract: false, final false
-  inline void TryFire(::System::Object* signal);
-
-  /// @brief Method SubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void SubscribeId(::System::Object* identifier, ::System::Action* callback);
-
-  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void Subscribe(::System::Action* callback);
-
-  /// @brief Method SubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void SubscribeId(::System::Object* identifier, ::System::Action_1<TSignal>* callback);
-
-  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void Subscribe(::System::Action_1<TSignal>* callback);
-
-  /// @brief Method SubscribeId, addr 0x2ec11dc, size 0x8, virtual false, abstract: false, final false
-  inline void SubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
-
-  /// @brief Method Subscribe, addr 0x2ec4d20, size 0x10, virtual false, abstract: false, final false
-  inline void Subscribe(::System::Type* signalType, ::System::Action_1<::System::Object*>* callback);
-
-  /// @brief Method UnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void UnsubscribeId(::System::Object* identifier, ::System::Action* callback);
-
-  /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void Unsubscribe(::System::Action* callback);
-
-  /// @brief Method UnsubscribeId, addr 0x2ec4d30, size 0x8, virtual false, abstract: false, final false
-  inline void UnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action* callback);
-
-  /// @brief Method Unsubscribe, addr 0x2ec4d8c, size 0x10, virtual false, abstract: false, final false
-  inline void Unsubscribe(::System::Type* signalType, ::System::Action* callback);
-
-  /// @brief Method UnsubscribeId, addr 0x2ec144c, size 0x8, virtual false, abstract: false, final false
-  inline void UnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
-
-  /// @brief Method Unsubscribe, addr 0x2ec4d9c, size 0x10, virtual false, abstract: false, final false
-  inline void Unsubscribe(::System::Type* signalType, ::System::Action_1<::System::Object*>* callback);
-
-  /// @brief Method UnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void UnsubscribeId(::System::Object* identifier, ::System::Action_1<TSignal>* callback);
-
-  /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void Unsubscribe(::System::Action_1<TSignal>* callback);
-
-  /// @brief Method TryUnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void TryUnsubscribeId(::System::Object* identifier, ::System::Action* callback);
+  /// @brief Method TryFireId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void TryFireId(::System::Object* identifier, TSignal signal);
 
   /// @brief Method TryUnsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void TryUnsubscribe(::System::Action* callback);
 
-  /// @brief Method TryUnsubscribeId, addr 0x2ec4dac, size 0x8, virtual false, abstract: false, final false
-  inline void TryUnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action* callback);
+  /// @brief Method TryUnsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void TryUnsubscribe(::System::Action_1<TSignal>* callback);
 
-  /// @brief Method TryUnsubscribe, addr 0x2ec4db4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribe, addr 0x2fd4624, size 0x10, virtual false, abstract: false, final false
   inline void TryUnsubscribe(::System::Type* signalType, ::System::Action* callback);
 
-  /// @brief Method TryUnsubscribeId, addr 0x2ec4dc4, size 0x8, virtual false, abstract: false, final false
-  inline void TryUnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
-
-  /// @brief Method TryUnsubscribe, addr 0x2ec4dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribe, addr 0x2fd463c, size 0x10, virtual false, abstract: false, final false
   inline void TryUnsubscribe(::System::Type* signalType, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method TryUnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void TryUnsubscribeId(::System::Object* identifier, ::System::Action* callback);
 
   /// @brief Method TryUnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> inline void TryUnsubscribeId(::System::Object* identifier, ::System::Action_1<TSignal>* callback);
 
-  /// @brief Method TryUnsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSignal> inline void TryUnsubscribe(::System::Action_1<TSignal>* callback);
+  /// @brief Method TryUnsubscribeId, addr 0x2fd461c, size 0x8, virtual false, abstract: false, final false
+  inline void TryUnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action* callback);
 
-  /// @brief Method UnsubscribeInternal, addr 0x2ec4d38, size 0x54, virtual false, abstract: false, final false
-  inline void UnsubscribeInternal(::System::Type* signalType, ::System::Object* identifier, ::System::Object* token, bool throwIfMissing);
+  /// @brief Method TryUnsubscribeId, addr 0x2fd4634, size 0x8, virtual false, abstract: false, final false
+  inline void TryUnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
 
-  /// @brief Method UnsubscribeInternal, addr 0x2ec4ddc, size 0x24, virtual false, abstract: false, final false
-  inline void UnsubscribeInternal(::Zenject::BindingId signalId, ::System::Object* token, bool throwIfMissing);
+  /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void Unsubscribe(::System::Action* callback);
 
-  /// @brief Method UnsubscribeInternal, addr 0x2ec4e00, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void Unsubscribe(::System::Action_1<TSignal>* callback);
+
+  /// @brief Method Unsubscribe, addr 0x2fd45fc, size 0x10, virtual false, abstract: false, final false
+  inline void Unsubscribe(::System::Type* signalType, ::System::Action* callback);
+
+  /// @brief Method Unsubscribe, addr 0x2fd460c, size 0x10, virtual false, abstract: false, final false
+  inline void Unsubscribe(::System::Type* signalType, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method UnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void UnsubscribeId(::System::Object* identifier, ::System::Action* callback);
+
+  /// @brief Method UnsubscribeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSignal> inline void UnsubscribeId(::System::Object* identifier, ::System::Action_1<TSignal>* callback);
+
+  /// @brief Method UnsubscribeId, addr 0x2fd45a0, size 0x8, virtual false, abstract: false, final false
+  inline void UnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action* callback);
+
+  /// @brief Method UnsubscribeId, addr 0x2fd0cbc, size 0x8, virtual false, abstract: false, final false
+  inline void UnsubscribeId(::System::Type* signalType, ::System::Object* identifier, ::System::Action_1<::System::Object*>* callback);
+
+  /// @brief Method UnsubscribeInternal, addr 0x2fd4670, size 0x118, virtual false, abstract: false, final false
   inline void UnsubscribeInternal(::Zenject::SignalSubscriptionId id, bool throwIfMissing);
 
-  /// @brief Method SubscribeInternal, addr 0x2ec4ccc, size 0x54, virtual false, abstract: false, final false
-  inline void SubscribeInternal(::System::Type* signalType, ::System::Object* identifier, ::System::Object* token, ::System::Action_1<::System::Object*>* callback);
+  /// @brief Method UnsubscribeInternal, addr 0x2fd464c, size 0x24, virtual false, abstract: false, final false
+  inline void UnsubscribeInternal(::Zenject::BindingId signalId, ::System::Object* token, bool throwIfMissing);
 
-  /// @brief Method SubscribeInternal, addr 0x2ec4f18, size 0x24, virtual false, abstract: false, final false
-  inline void SubscribeInternal(::Zenject::BindingId signalId, ::System::Object* token, ::System::Action_1<::System::Object*>* callback);
+  /// @brief Method UnsubscribeInternal, addr 0x2fd45a8, size 0x54, virtual false, abstract: false, final false
+  inline void UnsubscribeInternal(::System::Type* signalType, ::System::Object* identifier, ::System::Object* token, bool throwIfMissing);
 
-  /// @brief Method SubscribeInternal, addr 0x2ec4f3c, size 0x140, virtual false, abstract: false, final false
-  inline void SubscribeInternal(::Zenject::SignalSubscriptionId id, ::System::Action_1<::System::Object*>* callback);
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  inline void DeclareSignal(::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse, ::System::Nullable_1<bool> forceAsync,
-                            ::System::Nullable_1<int32_t> asyncTickPriority);
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  /// @brief Method DeclareSignal, addr 0x2ec51b4, size 0x198, virtual false, abstract: false, final false
-  inline void DeclareSignal(::System::Type* signalType, ::System::Object* identifier, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses> missingHandlerResponse,
-                            ::System::Nullable_1<bool> forceAsync, ::System::Nullable_1<int32_t> asyncTickPriority);
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*& __cordl_internal_get__localDeclarationMap();
 
-  /// @brief Method GetDeclaration, addr 0x2ec4c14, size 0x44, virtual false, abstract: false, final false
-  inline ::Zenject::SignalDeclaration* GetDeclaration(::System::Type* signalType, ::System::Object* identifier, bool requireDeclaration);
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>*> const&
+  __cordl_internal_get__localDeclarationMap() const;
 
-  /// @brief Method GetDeclaration, addr 0x2ec507c, size 0x138, virtual false, abstract: false, final false
-  inline ::Zenject::SignalDeclaration* GetDeclaration(::Zenject::BindingId signalId, bool requireDeclaration);
+  constexpr ::Zenject::SignalBus*& __cordl_internal_get__parentBus();
 
-  /// @brief Method __zenCreate, addr 0x2ec534c, size 0x288, virtual false, abstract: false, final false
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBus*> const& __cordl_internal_get__parentBus() const;
+
+  constexpr ::Zenject::__ZenjectSettings__SignalSettings*& __cordl_internal_get__settings();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__ZenjectSettings__SignalSettings*> const& __cordl_internal_get__settings() const;
+
+  constexpr ::Zenject::__SignalDeclaration__Factory*& __cordl_internal_get__signalDeclarationFactory();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalDeclaration__Factory*> const& __cordl_internal_get__signalDeclarationFactory() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*& __cordl_internal_get__subscriptionMap();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>*> const&
+  __cordl_internal_get__subscriptionMap() const;
+
+  constexpr ::Zenject::__SignalSubscription__Pool*& __cordl_internal_get__subscriptionPool();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __cordl_internal_get__subscriptionPool() const;
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__localDeclarationMap(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::Zenject::SignalDeclaration*>* value);
+
+  constexpr void __cordl_internal_set__parentBus(::Zenject::SignalBus* value);
+
+  constexpr void __cordl_internal_set__settings(::Zenject::__ZenjectSettings__SignalSettings* value);
+
+  constexpr void __cordl_internal_set__signalDeclarationFactory(::Zenject::__SignalDeclaration__Factory* value);
+
+  constexpr void __cordl_internal_set__subscriptionMap(::System::Collections::Generic::Dictionary_2<::Zenject::SignalSubscriptionId, ::Zenject::SignalSubscription*>* value);
+
+  constexpr void __cordl_internal_set__subscriptionPool(::Zenject::__SignalSubscription__Pool* value);
+
+  /// @brief Method __zenCreate, addr 0x2fd4bbc, size 0x288, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec55d4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2fd4e44, size 0x530, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x2fd3d0c, size 0x280, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus, ::Zenject::ZenjectSettings* zenjectSettings,
+                    ::Zenject::__SignalSubscription__Pool* subscriptionPool, ::Zenject::__SignalDeclaration__Factory* signalDeclarationFactory, ::Zenject::DiContainer* container);
+
+  /// @brief Method get_NumSubscribers, addr 0x2fd3f94, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_NumSubscribers();
+
+  /// @brief Method get_ParentBus, addr 0x2fd3f8c, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::SignalBus* get_ParentBus();
+
+  /// @brief Convert to "::Zenject::ILateDisposable"
+  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalBus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalBus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBus(SignalBus&&) = delete;
@@ -543,12 +541,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalBus(SignalBus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalBus();
-
-public:
   /// @brief Field _subscriptionPool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::__SignalSubscription__Pool* ____subscriptionPool;
 

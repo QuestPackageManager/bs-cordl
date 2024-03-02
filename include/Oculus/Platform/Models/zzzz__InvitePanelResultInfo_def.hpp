@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InvitePanelResultInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
 // CS Name: ::Oculus.Platform.Models::InvitePanelResultInfo*
 class CORDL_TYPE InvitePanelResultInfo : public ::System::Object {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field InvitesSent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_InvitesSent, put = __cordl_internal_set_InvitesSent)) bool InvitesSent;
 
-  constexpr bool& __cordl_internal_get_InvitesSent();
+  static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_InvitesSent() const;
 
+  constexpr bool& __cordl_internal_get_InvitesSent();
+
   constexpr void __cordl_internal_set_InvitesSent(bool value);
 
-  static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2706388, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f7c90, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvitePanelResultInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvitePanelResultInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvitePanelResultInfo(InvitePanelResultInfo&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvitePanelResultInfo(InvitePanelResultInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvitePanelResultInfo();
-
-public:
   /// @brief Field InvitesSent, offset: 0x10, size: 0x1, def value: None
   bool ___InvitesSent;
 

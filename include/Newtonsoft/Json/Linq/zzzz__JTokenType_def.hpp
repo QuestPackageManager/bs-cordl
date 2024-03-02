@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::JTokenType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12006))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenType
 struct CORDL_TYPE JTokenType {
 public:
@@ -50,72 +48,77 @@ public:
     return static_cast<__JTokenType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr JTokenType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr JTokenType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr JTokenType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::Linq::JTokenType const None;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
-  static ::Newtonsoft::Json::Linq::JTokenType const Object;
 
   /// @brief Field Array value: static_cast<int32_t>(0x2)
   static ::Newtonsoft::Json::Linq::JTokenType const Array;
 
-  /// @brief Field Constructor value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::Linq::JTokenType const Constructor;
-
-  /// @brief Field Property value: static_cast<int32_t>(0x4)
-  static ::Newtonsoft::Json::Linq::JTokenType const Property;
-
-  /// @brief Field Comment value: static_cast<int32_t>(0x5)
-  static ::Newtonsoft::Json::Linq::JTokenType const Comment;
-
-  /// @brief Field Integer value: static_cast<int32_t>(0x6)
-  static ::Newtonsoft::Json::Linq::JTokenType const Integer;
-
-  /// @brief Field Float value: static_cast<int32_t>(0x7)
-  static ::Newtonsoft::Json::Linq::JTokenType const Float;
-
-  /// @brief Field String value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::Linq::JTokenType const String;
-
   /// @brief Field Boolean value: static_cast<int32_t>(0x9)
   static ::Newtonsoft::Json::Linq::JTokenType const Boolean;
-
-  /// @brief Field Null value: static_cast<int32_t>(0xa)
-  static ::Newtonsoft::Json::Linq::JTokenType const Null;
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0xb)
-  static ::Newtonsoft::Json::Linq::JTokenType const Undefined;
-
-  /// @brief Field Date value: static_cast<int32_t>(0xc)
-  static ::Newtonsoft::Json::Linq::JTokenType const Date;
-
-  /// @brief Field Raw value: static_cast<int32_t>(0xd)
-  static ::Newtonsoft::Json::Linq::JTokenType const Raw;
 
   /// @brief Field Bytes value: static_cast<int32_t>(0xe)
   static ::Newtonsoft::Json::Linq::JTokenType const Bytes;
 
+  /// @brief Field Comment value: static_cast<int32_t>(0x5)
+  static ::Newtonsoft::Json::Linq::JTokenType const Comment;
+
+  /// @brief Field Constructor value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::Linq::JTokenType const Constructor;
+
+  /// @brief Field Date value: static_cast<int32_t>(0xc)
+  static ::Newtonsoft::Json::Linq::JTokenType const Date;
+
+  /// @brief Field Float value: static_cast<int32_t>(0x7)
+  static ::Newtonsoft::Json::Linq::JTokenType const Float;
+
   /// @brief Field Guid value: static_cast<int32_t>(0xf)
   static ::Newtonsoft::Json::Linq::JTokenType const Guid;
+
+  /// @brief Field Integer value: static_cast<int32_t>(0x6)
+  static ::Newtonsoft::Json::Linq::JTokenType const Integer;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::Linq::JTokenType const None;
+
+  /// @brief Field Null value: static_cast<int32_t>(0xa)
+  static ::Newtonsoft::Json::Linq::JTokenType const Null;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  static ::Newtonsoft::Json::Linq::JTokenType const Object;
+
+  /// @brief Field Property value: static_cast<int32_t>(0x4)
+  static ::Newtonsoft::Json::Linq::JTokenType const Property;
+
+  /// @brief Field Raw value: static_cast<int32_t>(0xd)
+  static ::Newtonsoft::Json::Linq::JTokenType const Raw;
+
+  /// @brief Field String value: static_cast<int32_t>(0x8)
+  static ::Newtonsoft::Json::Linq::JTokenType const String;
+
+  /// @brief Field TimeSpan value: static_cast<int32_t>(0x11)
+  static ::Newtonsoft::Json::Linq::JTokenType const TimeSpan;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0xb)
+  static ::Newtonsoft::Json::Linq::JTokenType const Undefined;
 
   /// @brief Field Uri value: static_cast<int32_t>(0x10)
   static ::Newtonsoft::Json::Linq::JTokenType const Uri;
 
-  /// @brief Field TimeSpan value: static_cast<int32_t>(0x11)
-  static ::Newtonsoft::Json::Linq::JTokenType const TimeSpan;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

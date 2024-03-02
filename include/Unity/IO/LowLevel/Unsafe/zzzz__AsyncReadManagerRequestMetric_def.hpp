@@ -33,11 +33,14 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(9987)), TypeDefinitionIndex(TypeDefinitionIndex(9988)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9990)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
+// CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
 struct CORDL_TYPE AsyncReadManagerRequestMetric {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncReadManagerRequestMetric();
+
   // Ctor Parameters [CppParam { name: "_AssetName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_FileName_k__BackingField", ty: "::StringW", modifiers: "",
   // def_value: None }, CppParam { name: "_OffsetBytes_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "_SizeBytes_k__BackingField", ty: "uint64_t", modifiers: "",
   // def_value: None }, CppParam { name: "_AssetTypeId_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "_CurrentBytesRead_k__BackingField", ty: "uint64_t",
@@ -53,10 +56,6 @@ public:
                                           ::Unity::IO::LowLevel::Unsafe::FileReadType _ReadType_k__BackingField, ::Unity::IO::LowLevel::Unsafe::Priority _PriorityLevel_k__BackingField,
                                           ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem _Subsystem_k__BackingField, double_t _RequestTimeMicroseconds_k__BackingField,
                                           double_t _TimeInQueueMicroseconds_k__BackingField, double_t _TotalTimeMicroseconds_k__BackingField) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncReadManagerRequestMetric();
 
   /// @brief Field <AssetName>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _AssetName_k__BackingField;

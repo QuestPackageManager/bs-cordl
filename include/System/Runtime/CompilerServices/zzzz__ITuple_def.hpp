@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ITuple);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3375))
 // CS Name: ::System.Runtime.CompilerServices::ITuple*
 class CORDL_TYPE ITuple {
 public:

@@ -24,41 +24,39 @@ MARK_VAL_T(::Mono::RuntimeClassHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2228))
 // CS Name: ::Mono::RuntimeClassHandle
 struct CORDL_TYPE RuntimeClassHandle {
 public:
   // Declarations
   __declspec(property(get = get_Value))::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method .ctor, addr 0x24124f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
-
-  /// @brief Method .ctor, addr 0x24124fc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
-
-  /// @brief Method get_Value, addr 0x241251c, size 0x8, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
-
-  /// @brief Method Equals, addr 0x2412524, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x250307c, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2412628, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2503180, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x2412650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x25031a8, size 0x4, virtual false, abstract: false, final false
   static inline void* GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x2412654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x25031ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }]
-  constexpr RuntimeClassHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value) noexcept;
+  /// @brief Method .ctor, addr 0x2503054, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(void* ptr);
+
+  /// @brief Method .ctor, addr 0x250304c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
+
+  /// @brief Method get_Value, addr 0x2503074, size 0x8, virtual false, abstract: false, final false
+  inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeClassHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }]
+  constexpr RuntimeClassHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value;

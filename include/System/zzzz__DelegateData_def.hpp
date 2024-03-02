@@ -18,44 +18,48 @@ MARK_REF_PTR_T(::System::DelegateData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2588))
 // CS Name: ::System::DelegateData*
 class CORDL_TYPE DelegateData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field target_type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_target_type, put = __cordl_internal_set_target_type))::System::Type* target_type;
+  /// @brief Field curried_first_arg, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_curried_first_arg, put = __cordl_internal_set_curried_first_arg)) bool curried_first_arg;
 
   /// @brief Field method_name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_method_name, put = __cordl_internal_set_method_name))::StringW method_name;
 
-  /// @brief Field curried_first_arg, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_curried_first_arg, put = __cordl_internal_set_curried_first_arg)) bool curried_first_arg;
+  /// @brief Field target_type, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_target_type, put = __cordl_internal_set_target_type))::System::Type* target_type;
+
+  static inline ::System::DelegateData* New_ctor();
+
+  constexpr bool const& __cordl_internal_get_curried_first_arg() const;
+
+  constexpr bool& __cordl_internal_get_curried_first_arg();
+
+  constexpr ::StringW const& __cordl_internal_get_method_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_method_name();
 
   constexpr ::System::Type*& __cordl_internal_get_target_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_target_type() const;
 
-  constexpr void __cordl_internal_set_target_type(::System::Type* value);
-
-  constexpr ::StringW& __cordl_internal_get_method_name();
-
-  constexpr ::StringW const& __cordl_internal_get_method_name() const;
+  constexpr void __cordl_internal_set_curried_first_arg(bool value);
 
   constexpr void __cordl_internal_set_method_name(::StringW value);
 
-  constexpr bool& __cordl_internal_get_curried_first_arg();
+  constexpr void __cordl_internal_set_target_type(::System::Type* value);
 
-  constexpr bool const& __cordl_internal_get_curried_first_arg() const;
-
-  constexpr void __cordl_internal_set_curried_first_arg(bool value);
-
-  static inline ::System::DelegateData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25f7bf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb1ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DelegateData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DelegateData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateData(DelegateData&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateData(DelegateData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelegateData();
-
-public:
   /// @brief Field target_type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___target_type;
 

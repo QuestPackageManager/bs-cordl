@@ -27,105 +27,109 @@ MARK_REF_PTR_T(::GlobalNamespace::TransformSpectrogram);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14733))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5001))
 // CS Name: ::TransformSpectrogram*
 class CORDL_TYPE TransformSpectrogram : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _transforms, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transforms,
-                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
-
   /// @brief Field _axis, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis))::GlobalNamespace::LightAxis _axis;
-
-  /// @brief Field _minPosition, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__minPosition, put = __cordl_internal_set__minPosition)) float_t _minPosition;
-
-  /// @brief Field _maxPosition, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxPosition, put = __cordl_internal_set__maxPosition)) float_t _maxPosition;
-
-  /// @brief Field _scaleSamples, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get__scaleSamples, put = __cordl_internal_set__scaleSamples)) bool _scaleSamples;
-
-  /// @brief Field _scale, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
-
-  /// @brief Field _spectrogramData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData))::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
-
-  /// @brief Field _direction, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction))::UnityEngine::Vector3 _direction;
 
   /// @brief Field _defaultPositions, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultPositions, put = __cordl_internal_set__defaultPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _defaultPositions;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
+  /// @brief Field _direction, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction))::UnityEngine::Vector3 _direction;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
+  /// @brief Field _maxPosition, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxPosition, put = __cordl_internal_set__maxPosition)) float_t _maxPosition;
 
-  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+  /// @brief Field _minPosition, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__minPosition, put = __cordl_internal_set__minPosition)) float_t _minPosition;
 
-  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get__axis();
+  /// @brief Field _scale, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
+  /// @brief Field _scaleSamples, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__scaleSamples, put = __cordl_internal_set__scaleSamples)) bool _scaleSamples;
 
-  constexpr void __cordl_internal_set__axis(::GlobalNamespace::LightAxis value);
+  /// @brief Field _spectrogramData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData))::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
 
-  constexpr float_t& __cordl_internal_get__minPosition();
+  /// @brief Field _transforms, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__transforms,
+                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
-  constexpr float_t const& __cordl_internal_get__minPosition() const;
-
-  constexpr void __cordl_internal_set__minPosition(float_t value);
-
-  constexpr float_t& __cordl_internal_get__maxPosition();
-
-  constexpr float_t const& __cordl_internal_get__maxPosition() const;
-
-  constexpr void __cordl_internal_set__maxPosition(float_t value);
-
-  constexpr bool& __cordl_internal_get__scaleSamples();
-
-  constexpr bool const& __cordl_internal_get__scaleSamples() const;
-
-  constexpr void __cordl_internal_set__scaleSamples(bool value);
-
-  constexpr float_t& __cordl_internal_get__scale();
-
-  constexpr float_t const& __cordl_internal_get__scale() const;
-
-  constexpr void __cordl_internal_set__scale(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
-
-  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
-
-  constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__direction();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__direction() const;
-
-  constexpr void __cordl_internal_set__direction(::UnityEngine::Vector3 value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__defaultPositions();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__defaultPositions() const;
-
-  constexpr void __cordl_internal_set__defaultPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  /// @brief Method Awake, addr 0x23b72f0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x244437c, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method Update, addr 0x23b7478, size 0x268, virtual false, abstract: false, final false
-  inline void Update();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b76e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2444504, size 0x268, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
+
+  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get__axis();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__defaultPositions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__defaultPositions();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__direction() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__direction();
+
+  constexpr float_t const& __cordl_internal_get__maxPosition() const;
+
+  constexpr float_t& __cordl_internal_get__maxPosition();
+
+  constexpr float_t const& __cordl_internal_get__minPosition() const;
+
+  constexpr float_t& __cordl_internal_get__minPosition();
+
+  constexpr float_t const& __cordl_internal_get__scale() const;
+
+  constexpr float_t& __cordl_internal_get__scale();
+
+  constexpr bool const& __cordl_internal_get__scaleSamples() const;
+
+  constexpr bool& __cordl_internal_get__scaleSamples();
+
+  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
+
+  constexpr void __cordl_internal_set__axis(::GlobalNamespace::LightAxis value);
+
+  constexpr void __cordl_internal_set__defaultPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set__direction(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__maxPosition(float_t value);
+
+  constexpr void __cordl_internal_set__minPosition(float_t value);
+
+  constexpr void __cordl_internal_set__scale(float_t value);
+
+  constexpr void __cordl_internal_set__scaleSamples(bool value);
+
+  constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
+
+  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  /// @brief Method .ctor, addr 0x244476c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransformSpectrogram();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformSpectrogram(TransformSpectrogram&&) = delete;
@@ -134,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransformSpectrogram(TransformSpectrogram const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransformSpectrogram();
-
-public:
   /// @brief Field _transforms, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 

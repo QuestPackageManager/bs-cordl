@@ -15,45 +15,49 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorSceneSetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6047))
 // CS Name: ::BeatmapEditorSceneSetupData*
 class CORDL_TYPE BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field _levelDirPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelDirPath, put = __cordl_internal_set__levelDirPath))::StringW _levelDirPath;
-
   /// @brief Field _levelAssetPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelAssetPath, put = __cordl_internal_set__levelAssetPath))::StringW _levelAssetPath;
 
-  __declspec(property(get = get_levelDirPath))::StringW levelDirPath;
+  /// @brief Field _levelDirPath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelDirPath, put = __cordl_internal_set__levelDirPath))::StringW _levelDirPath;
 
   __declspec(property(get = get_levelAssetPath))::StringW levelAssetPath;
 
-  constexpr ::StringW& __cordl_internal_get__levelDirPath();
-
-  constexpr ::StringW const& __cordl_internal_get__levelDirPath() const;
-
-  constexpr void __cordl_internal_set__levelDirPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__levelAssetPath();
-
-  constexpr ::StringW const& __cordl_internal_get__levelAssetPath() const;
-
-  constexpr void __cordl_internal_set__levelAssetPath(::StringW value);
-
-  /// @brief Method get_levelDirPath, addr 0x231c394, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelDirPath();
-
-  /// @brief Method get_levelAssetPath, addr 0x231c39c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelAssetPath();
+  __declspec(property(get = get_levelDirPath))::StringW levelDirPath;
 
   static inline ::GlobalNamespace::BeatmapEditorSceneSetupData* New_ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method .ctor, addr 0x231c3a4, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__levelAssetPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__levelAssetPath();
+
+  constexpr ::StringW const& __cordl_internal_get__levelDirPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__levelDirPath();
+
+  constexpr void __cordl_internal_set__levelAssetPath(::StringW value);
+
+  constexpr void __cordl_internal_set__levelDirPath(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2415ee8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
+  /// @brief Method get_levelAssetPath, addr 0x2415ee0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_levelAssetPath();
+
+  /// @brief Method get_levelDirPath, addr 0x2415ed8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_levelDirPath();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEditorSceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorSceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapEditorSceneSetupData();
-
-public:
   /// @brief Field _levelDirPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelDirPath;
 

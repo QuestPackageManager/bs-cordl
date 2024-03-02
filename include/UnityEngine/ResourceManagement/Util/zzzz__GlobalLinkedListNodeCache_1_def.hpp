@@ -22,8 +22,6 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13982))
 // CS Name: ::UnityEngine.ResourceManagement.Util::GlobalLinkedListNodeCache`1<T>*
 class CORDL_TYPE GlobalLinkedListNodeCache_1 : public ::System::Object {
 public:
@@ -31,16 +29,22 @@ public:
   /// @brief Field m_globalCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_globalCache, put = setStaticF_m_globalCache))::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* m_globalCache;
 
-  static inline void setStaticF_m_globalCache(::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* value);
-
-  static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* getStaticF_m_globalCache();
-
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
+  static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* getStaticF_m_globalCache();
+
+  static inline void setStaticF_m_globalCache(::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GlobalLinkedListNodeCache_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GlobalLinkedListNodeCache_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GlobalLinkedListNodeCache_1(GlobalLinkedListNodeCache_1&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GlobalLinkedListNodeCache_1(GlobalLinkedListNodeCache_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GlobalLinkedListNodeCache_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

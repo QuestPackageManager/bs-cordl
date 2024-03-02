@@ -20,21 +20,19 @@ MARK_VAL_T(::Zenject::TypeValuePair);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11114))
 // CS Name: ::Zenject::TypeValuePair
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2eeb834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffb0a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
-
-  // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TypeValuePair();
+
+  // Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept;
 
   /// @brief Field Type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* Type;

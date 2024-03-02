@@ -24,26 +24,30 @@ MARK_REF_PTR_T(::ENet::AllocCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
 // CS Name: ::ENet::AllocCallback*
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x21eecb8, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x21eed7c, size 0x14, virtual true, abstract: false, final false
-  inline void* Invoke(void* size);
-
-  /// @brief Method BeginInvoke, addr 0x21eed90, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2350ce0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x21eee14, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2350d64, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x2350ccc, size 0x14, virtual true, abstract: false, final false
+  inline void* Invoke(void* size);
+
+  static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2350c08, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AllocCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocCallback(AllocCallback&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AllocCallback(AllocCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AllocCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

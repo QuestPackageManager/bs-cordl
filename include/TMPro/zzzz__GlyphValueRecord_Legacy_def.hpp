@@ -18,25 +18,23 @@ MARK_VAL_T(::TMPro::GlyphValueRecord_Legacy);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12362))
 // CS Name: ::TMPro::GlyphValueRecord_Legacy
 struct CORDL_TYPE GlyphValueRecord_Legacy {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c102f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf6f38, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method op_Addition, addr 0x2c10358, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2cf6f98, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b);
-
-  // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "xAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yAdvance", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr GlyphValueRecord_Legacy(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GlyphValueRecord_Legacy();
+
+  // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "xAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yAdvance", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr GlyphValueRecord_Legacy(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) noexcept;
 
   /// @brief Field xPlacement, offset: 0x0, size: 0x4, def value: None
   float_t xPlacement;

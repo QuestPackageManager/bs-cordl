@@ -24,48 +24,52 @@ MARK_REF_PTR_T(::HMUI::ImageWithHint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13628))
 // CS Name: ::HMUI::ImageWithHint*
 class CORDL_TYPE ImageWithHint : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _image, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
-
   /// @brief Field _hoverHint, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hoverHint, put = __cordl_internal_set__hoverHint))::UnityW<::HMUI::HoverHint> _hoverHint;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  /// @brief Field _image, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
 
   __declspec(property(put = set_hintText))::StringW hintText;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
-
-  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
-
-  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
-
-  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
-
-  /// @brief Method set_sprite, addr 0x21408f8, size 0x1c, virtual false, abstract: false, final false
-  inline void set_sprite(::UnityEngine::Sprite* value);
-
-  /// @brief Method get_sprite, addr 0x2140914, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
-
-  /// @brief Method set_hintText, addr 0x2140930, size 0x1c, virtual false, abstract: false, final false
-  inline void set_hintText(::StringW value);
+  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
   static inline ::HMUI::ImageWithHint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214094c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
+
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
+
+  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
+
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
+
+  /// @brief Method .ctor, addr 0x22a1898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_sprite, addr 0x22a1860, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
+
+  /// @brief Method set_hintText, addr 0x22a187c, size 0x1c, virtual false, abstract: false, final false
+  inline void set_hintText(::StringW value);
+
+  /// @brief Method set_sprite, addr 0x22a1844, size 0x1c, virtual false, abstract: false, final false
+  inline void set_sprite(::UnityEngine::Sprite* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ImageWithHint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageWithHint(ImageWithHint&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ImageWithHint(ImageWithHint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImageWithHint();
-
-public:
   /// @brief Field _image, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;
 

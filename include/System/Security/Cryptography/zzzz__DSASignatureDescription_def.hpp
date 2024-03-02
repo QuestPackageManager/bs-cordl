@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDescription);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2972))
 // CS Name: ::System.Security.Cryptography::DSASignatureDescription*
 class CORDL_TYPE DSASignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::DSASignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246a2a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e010, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DSASignatureDescription();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DSASignatureDescription(DSASignatureDescription&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DSASignatureDescription(DSASignatureDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DSASignatureDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

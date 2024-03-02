@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::Unity::ThrowStub);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2453))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16265))
 // CS Name: ::Unity::ThrowStub*
 class CORDL_TYPE ThrowStub : public ::System::ObjectDisposedException {
 public:
   // Declarations
-  /// @brief Method ThrowNotSupportedException, addr 0x280cca4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x28f5908, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThrowStub();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThrowStub", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThrowStub(ThrowStub&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThrowStub(ThrowStub const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThrowStub();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

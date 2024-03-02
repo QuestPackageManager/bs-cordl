@@ -34,8 +34,6 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
 // CS Name: ::ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter {
 public:
@@ -45,36 +43,36 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
-
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method GetResult, addr 0x25cb818, size 0x100, virtual false, abstract: false, final false
+  inline void GetResult();
+
+  /// @brief Method OnCompleted, addr 0x25cb918, size 0x1b0, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x25cbadc, size 0x1ac, virtual true, abstract: false, final true
+  inline void UnsafeOnCompleted(::System::Action* continuation);
+
+  /// @brief Method .ctor, addr 0x25cb708, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::ValueTask value);
+
+  /// @brief Method get_IsCompleted, addr 0x25cb710, size 0x108, virtual false, abstract: false, final false
+  inline bool get_IsCompleted();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
-  /// @brief Method .ctor, addr 0x24da99c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::ValueTask value);
-
-  /// @brief Method get_IsCompleted, addr 0x24da9a4, size 0x108, virtual false, abstract: false, final false
-  inline bool get_IsCompleted();
-
-  /// @brief Method GetResult, addr 0x24daaac, size 0x100, virtual false, abstract: false, final false
-  inline void GetResult();
-
-  /// @brief Method OnCompleted, addr 0x24dabac, size 0x1b0, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method UnsafeOnCompleted, addr 0x24dad70, size 0x1ac, virtual true, abstract: false, final true
-  inline void UnsafeOnCompleted(::System::Action* continuation);
-
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
-  constexpr __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
+  constexpr __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;
@@ -94,26 +92,24 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredValueTas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
 struct CORDL_TYPE ConfiguredValueTaskAwaitable {
 public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 
-  /// @brief Method .ctor, addr 0x24da988, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::ValueTask value);
-
-  /// @brief Method GetAwaiter, addr 0x24da990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x25cb6fc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter GetAwaiter();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
-  constexpr ConfiguredValueTaskAwaitable(::System::Threading::Tasks::ValueTask _value) noexcept;
+  /// @brief Method .ctor, addr 0x25cb6f4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ConfiguredValueTaskAwaitable();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
+  constexpr ConfiguredValueTaskAwaitable(::System::Threading::Tasks::ValueTask _value) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;

@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithChallenge);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13426)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 1171 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13283)) CS Name: ::Oculus.Platform::MessageWithChallenge*
+// CS Name: ::Oculus.Platform::MessageWithChallenge*
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26eee20, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetChallenge, addr 0x26f1530, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x27e2e38, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f156c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e2e74, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(void* c_message);
 
+  static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0728, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithChallenge();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithChallenge(MessageWithChallenge&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithChallenge(MessageWithChallenge const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithChallenge();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

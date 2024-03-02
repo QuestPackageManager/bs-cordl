@@ -12,28 +12,25 @@ namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12;
+}
+namespace GlobalNamespace {
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14;
 }
 namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132;
-}
-namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48;
-}
-namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6;
 }
 namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9;
@@ -46,28 +43,25 @@ namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128;
+}
+namespace GlobalNamespace {
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14;
 }
 namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3;
-}
-namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132;
-}
-namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44;
 }
 namespace GlobalNamespace {
-struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64;
+struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6;
 }
 namespace GlobalNamespace {
 struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9;
@@ -75,49 +69,44 @@ struct ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::_PrivateImplementationDetails_);
 MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20);
+MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12);
+MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128);
+MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14);
 MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132);
 MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48);
-MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64);
+MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44);
+MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6);
 MARK_VAL_T(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9);
-// Type: ::__StaticArrayInitTypeSize=3
-// SizeInfo { instance_size: 3, native_size: 3, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
+// Type: ::__StaticArrayInitTypeSize=6
+// SizeInfo { instance_size: 6, native_size: 6, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13813))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=3
+// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=6
 #pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 {
+struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3();
+  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6();
 
-  /// @brief Size padding 0x3 - 0x0 = 0x3, packed as 0x3
-  uint8_t _cordl_size_padding[0x3];
+  /// @brief Size padding 0x6 - 0x0 = 0x6, packed as 0x6
+  uint8_t _cordl_size_padding[0x6];
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3, 0x3>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6, 0x6>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::__StaticArrayInitTypeSize=9
 // SizeInfo { instance_size: 9, native_size: 9, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13814))
 // CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=9
 #pragma pack(push, 1)
 struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9 {
@@ -144,8 +133,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImple
 // SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13815))
 // CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=10
 #pragma pack(push, 1)
 struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 {
@@ -168,68 +155,62 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10, 0xa>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::__StaticArrayInitTypeSize=18
-// SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
+// Type: ::__StaticArrayInitTypeSize=12
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13816))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=18
+// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=12
 #pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18 {
+struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18();
+  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12();
 
-  /// @brief Size padding 0x12 - 0x0 = 0x12, packed as 0x12
-  uint8_t _cordl_size_padding[0x12];
+  /// @brief Size padding 0xc - 0x0 = 0xc, packed as 0xc
+  uint8_t _cordl_size_padding[0xc];
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x12 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18, 0x12>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, 0xc>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::__StaticArrayInitTypeSize=20
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
+// Type: ::__StaticArrayInitTypeSize=14
+// SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13817))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=20
+// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=14
 #pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 {
+struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20();
+  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14();
 
-  /// @brief Size padding 0x14 - 0x0 = 0x14, packed as 0x14
-  uint8_t _cordl_size_padding[0x14];
+  /// @brief Size padding 0xe - 0x0 = 0xe, packed as 0xe
+  uint8_t _cordl_size_padding[0xe];
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, 0x14>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14, 0xe>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::__StaticArrayInitTypeSize=32
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13818))
 // CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=32
 #pragma pack(push, 1)
 struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 {
@@ -252,68 +233,62 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::__StaticArrayInitTypeSize=48
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
+// Type: ::__StaticArrayInitTypeSize=44
+// SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13819))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=48
+// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=44
 #pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48 {
+struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48();
+  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44();
 
-  /// @brief Size padding 0x30 - 0x0 = 0x30, packed as 0x30
-  uint8_t _cordl_size_padding[0x30];
+  /// @brief Size padding 0x2c - 0x0 = 0x2c, packed as 0x2c
+  uint8_t _cordl_size_padding[0x2c];
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44, 0x2c>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::__StaticArrayInitTypeSize=64
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
+// Type: ::__StaticArrayInitTypeSize=128
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13820))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=64
+// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=128
 #pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 {
+struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64();
+  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128();
 
-  /// @brief Size padding 0x40 - 0x0 = 0x40, packed as 0x40
-  uint8_t _cordl_size_padding[0x40];
+  /// @brief Size padding 0x80 - 0x0 = 0x80, packed as 0x80
+  uint8_t _cordl_size_padding[0x80];
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::__StaticArrayInitTypeSize=256
 // SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13821))
 // CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=256
 #pragma pack(push, 1)
 struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256 {
@@ -336,328 +311,181 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256, 0x100>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::__StaticArrayInitTypeSize=3132
-// SizeInfo { instance_size: 3132, native_size: 3132, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: Some(1), specified_packing: Some(1)
-// }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13822))
-// CS Name: ::<PrivateImplementationDetails>::__StaticArrayInitTypeSize=3132
-#pragma pack(push, 1)
-struct CORDL_TYPE ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132 {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132();
-
-  /// @brief Size padding 0xc3c - 0x0 = 0xc3c, packed as 0xc3c
-  uint8_t _cordl_size_padding[0xc3c];
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc3c };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-#pragma pack(pop)
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132, 0xc3c>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::<PrivateImplementationDetails>
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13813)), TypeDefinitionIndex(TypeDefinitionIndex(13814)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13815)), TypeDefinitionIndex(TypeDefinitionIndex(13816)), TypeDefinitionIndex(TypeDefinitionIndex(13817)), TypeDefinitionIndex(TypeDefinitionIndex(13818)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13819)), TypeDefinitionIndex(TypeDefinitionIndex(13820)), TypeDefinitionIndex(TypeDefinitionIndex(13821)), TypeDefinitionIndex(TypeDefinitionIndex(13822))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13823))
 // CS Name: ::<PrivateImplementationDetails>*
 class CORDL_TYPE _PrivateImplementationDetails_ : public ::System::Object {
 public:
   // Declarations
-  using __StaticArrayInitTypeSize = 3132 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132;
+  using __StaticArrayInitTypeSize = 10 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10;
+
+  using __StaticArrayInitTypeSize = 12 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12;
+
+  using __StaticArrayInitTypeSize = 128 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128;
+
+  using __StaticArrayInitTypeSize = 14 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14;
 
   using __StaticArrayInitTypeSize = 256 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256;
 
-  using __StaticArrayInitTypeSize = 64 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64;
-
-  using __StaticArrayInitTypeSize = 48 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48;
-
   using __StaticArrayInitTypeSize = 32 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32;
 
-  using __StaticArrayInitTypeSize = 20 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20;
+  using __StaticArrayInitTypeSize = 44 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44;
 
-  using __StaticArrayInitTypeSize = 18 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18;
-
-  using __StaticArrayInitTypeSize = 10 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10;
+  using __StaticArrayInitTypeSize = 6 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6;
 
   using __StaticArrayInitTypeSize = 9 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9;
 
-  using __StaticArrayInitTypeSize = 3 = ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3;
-
-  /// @brief Field 001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2,
-                             put = setStaticF_001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      64 001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2;
-
-  /// @brief Field 25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5, offset 0xffffffff, size 0xc3c
-  static __declspec(property(get = getStaticF_25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5,
-                             put = setStaticF_25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3132 25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5;
-
-  /// @brief Field 290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88,
-                             put = setStaticF_290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88)) int64_t 290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88;
-
-  /// @brief Field 32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950,
-                             put = setStaticF_32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950;
-
-  /// @brief Field 35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB,
-                             put = setStaticF_35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB;
-
-  /// @brief Field 3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D,
-                             put = setStaticF_3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D;
-
-  /// @brief Field 44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174,
-                             put = setStaticF_44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174;
-
-  /// @brief Field 4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6, offset 0xffffffff, size 0x30
-  static __declspec(property(get = getStaticF_4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6,
-                             put = setStaticF_4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      48 4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6;
-
-  /// @brief Field 533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA, offset 0xffffffff, size 0x14
-  static __declspec(property(get = getStaticF_533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA,
-                             put = setStaticF_533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      20 533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA;
-
-  /// @brief Field 55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329, offset 0xffffffff, size 0x100
-  static __declspec(property(get = getStaticF_55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329,
-                             put = setStaticF_55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      256 55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329;
-
-  /// @brief Field 59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE,
-                             put = setStaticF_59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE;
-
-  /// @brief Field 5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456, offset 0xffffffff, size 0x20
-  static __declspec(property(get = getStaticF_5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456,
-                             put = setStaticF_5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      32 5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456;
-
-  /// @brief Field 5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B,
-                             put = setStaticF_5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B;
-
-  /// @brief Field 60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B, offset 0xffffffff, size 0xa
-  static __declspec(property(get = getStaticF_60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B,
-                             put = setStaticF_60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      10 60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B;
-
-  /// @brief Field 64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7, offset 0xffffffff, size 0xa
-  static __declspec(property(get = getStaticF_64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7,
-                             put = setStaticF_64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      10 64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7;
-
-  /// @brief Field 6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426,
-                             put = setStaticF_6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426)) int64_t 6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426;
-
-  /// @brief Field 684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6, offset 0xffffffff, size 0x9
-  static __declspec(property(get = getStaticF_684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6,
-                             put = setStaticF_684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      9 684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6;
-
-  /// @brief Field 6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31,
-                             put = setStaticF_6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      64 6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31;
-
-  /// @brief Field 796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B,
-                             put = setStaticF_796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B;
-
-  /// @brief Field 7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5,
-                             put = setStaticF_7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      64 7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5;
-
-  /// @brief Field 850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE,
-                             put = setStaticF_850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE;
-
-  /// @brief Field 992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24,
-                             put = setStaticF_992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24)) int64_t 992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24;
-
-  /// @brief Field 9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925,
-                             put = setStaticF_9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925;
-
-  /// @brief Field 9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047, offset 0xffffffff, size 0x12
-  static __declspec(property(get = getStaticF_9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047,
-                             put = setStaticF_9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      18 9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047;
-
-  /// @brief Field B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75,
-                             put = setStaticF_B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75;
-
-  /// @brief Field C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B,
-                             put = setStaticF_C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B;
-
-  /// @brief Field E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F,
-                             put = setStaticF_E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F;
-
-  /// @brief Field F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD,
-                             put = setStaticF_F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      64 F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD;
-
-  /// @brief Field FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064, offset 0xffffffff, size 0x3
-  static __declspec(property(get = getStaticF_FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064,
-                             put = setStaticF_FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
-      3 FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064;
-
-  static inline void setStaticF_001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 getStaticF_001D686DB504E20C792EAA07FE09224A45FF328E24A80072D04D16ABC5C2B5D2();
-
-  static inline void setStaticF_25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132 getStaticF_25E3E48132FBDBE9B7C0C6C54D7C10A5DE12A105AA3E5DE2A0DC808BF245B7A5();
-
-  static inline void setStaticF_290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88(int64_t value);
-
-  static inline int64_t getStaticF_290C4A052C215D096172EB81AEE671FB3286E5C1DB5E73F96021FC09825DDB88();
-
-  static inline void setStaticF_32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_32D0830B8EE1D49A66F395C8EA80E02BFC07C2A12A8EA8C8B484AF02108A1950();
-
-  static inline void setStaticF_35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_35BF50EEF3270FD8CA09E66FC5B0481C5A151B14F6A634854E32F63633D49DCB();
-
-  static inline void setStaticF_3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_3C0C410618682C4DF0474E034114CC8E562F05A512B521AC367571017BDFA75D();
-
-  static inline void setStaticF_44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_44F5B1A2C48314502ACCBF186D1A2F9F7F176825898F32F1A2047B956194F174();
-
-  static inline void setStaticF_4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48 getStaticF_4800FBFC4566EB02D1727A4B1C949CCBC7535C216A0766564C199308631B5DD6();
-
-  static inline void setStaticF_533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20 getStaticF_533B8C444F951E83EFF7305E3807B66CE0005DE0A2D0A44873C130895A3BE6AA();
-
-  static inline void setStaticF_55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256 getStaticF_55D0BF716B334D123E0088CFB3F8E2FEA17AF5025BB527F95EEB09BA978EA329();
-
-  static inline void setStaticF_59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_59BE5A634187B8A57216EFF5371A47732C05744B1C1A0A6382A6D5622C9FFDCE();
-
-  static inline void setStaticF_5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 getStaticF_5DF6E0E2761359D30A8275058E299FCC0381534545F55CF43E41983F5D4C9456();
-
-  static inline void setStaticF_5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_5F8C6B3C66B972606D85E7651F67ADBD02E8316876884674E8328FA710747E5B();
-
-  static inline void setStaticF_60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 getStaticF_60C6ED13AF98DBFEEDA8F8197FFFCC349BB04395CC81DF0D477CBC57BF5B398B();
-
-  static inline void setStaticF_64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 getStaticF_64B3E7D737AFF47D4C3BBD81D2D06D697DDD8EB60F29E13E4425D19D8BBCA1F7();
-
-  static inline void setStaticF_6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426(int64_t value);
-
-  static inline int64_t getStaticF_6772A9B8BF207A3CFE6EE68769D6985B69522183F24A2A3D41BC3B4602953426();
-
-  static inline void setStaticF_684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9 getStaticF_684312AFB7719E57993D2826FFBAF7EA965614F20F91D999FB19B01E21AA62E6();
-
-  static inline void setStaticF_6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 getStaticF_6AA56C4BCD208911792AD24C7681FEFB93BED51903AFC54860C9BD37E41E5A31();
-
-  static inline void setStaticF_796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_796E63069E193A008CB4E85573AA1FE53C5F4E58B42A7F61FD0EEE1D89B5120B();
-
-  static inline void setStaticF_7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 getStaticF_7C8975E1E60A5C8337F28EDF8C33C3B180360B7279644A9BC1AF3C51E6220BF5();
-
-  static inline void setStaticF_850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_850D7367E4FB0766E2CBC3ACF5AB42B4E98348E58E5A789845D4FCCDB63D2AEE();
-
-  static inline void setStaticF_992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24(int64_t value);
-
-  static inline int64_t getStaticF_992F16C986809AB68C7466CC3EC6F12B2506A962EA539753E5D84A2FB7FF8A24();
-
-  static inline void setStaticF_9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_9A65C09A11757751BFED67A414E00B188DC4C7757FCB6CBD33A916DDE4A3D925();
-
-  static inline void setStaticF_9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18 getStaticF_9ACEFCC0C950280B64AB9E045E38C34ABF71EC70A0DC61B9C621C6BFB4F78047();
-
-  static inline void setStaticF_B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_B1E34F4A11EE411B83415EF0B252A0B2BBCFCAC2E592865E09C12E4252C93A75();
-
-  static inline void setStaticF_C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_C92FAD7F348A682E7D5B7E74C76B5D019174EE7BC87545B25A1FDD49FBCC2D0B();
-
-  static inline void setStaticF_E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_E17B8359E685992B0DE6242AAA24FCB7404173CBB7FF8646FF7D658139F41B5F();
-
-  static inline void setStaticF_F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64 getStaticF_F83B332BE4E6A5A4B1C56AAF6DB52657DA495E149870057D8590AB9D7A6167AD();
-
-  static inline void setStaticF_FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 value);
-
-  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3 getStaticF_FB6D7301FFDCB5FBA5807A19B4F0606947897C1105240B6BBA815352DBBE2064();
-
-  /// @brief Method ComputeStringHash, addr 0x2406718, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Field 00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A, offset 0xffffffff, size 0x100
+  static __declspec(property(get = getStaticF_00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A,
+                             put = setStaticF_00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      256 00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A;
+
+  /// @brief Field 04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5, offset 0xffffffff, size 0x20
+  static __declspec(property(get = getStaticF_04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5,
+                             put = setStaticF_04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      32 04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5;
+
+  /// @brief Field 063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374, offset 0xffffffff, size 0x20
+  static __declspec(property(get = getStaticF_063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374,
+                             put = setStaticF_063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      32 063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374;
+
+  /// @brief Field 1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B,
+                             put = setStaticF_1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B)) int64_t 1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B;
+
+  /// @brief Field 27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811, offset 0xffffffff, size 0x9
+  static __declspec(property(get = getStaticF_27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811,
+                             put = setStaticF_27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      9 27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811;
+
+  /// @brief Field 2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70, offset 0xffffffff, size 0x20
+  static __declspec(property(get = getStaticF_2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70,
+                             put = setStaticF_2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      32 2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70;
+
+  /// @brief Field 3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C,
+                             put = setStaticF_3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C)) int64_t 3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C;
+
+  /// @brief Field 356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF, offset 0xffffffff, size 0xc
+  static __declspec(property(get = getStaticF_356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF,
+                             put = setStaticF_356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      12 356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF;
+
+  /// @brief Field 6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885,
+                             put = setStaticF_6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885)) int64_t 6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885;
+
+  /// @brief Field 8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3, offset 0xffffffff, size 0x80
+  static __declspec(property(get = getStaticF_8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3,
+                             put = setStaticF_8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      128 8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3;
+
+  /// @brief Field 9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8, offset 0xffffffff, size 0x2c
+  static __declspec(property(get = getStaticF_9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8,
+                             put = setStaticF_9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      44 9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8;
+
+  /// @brief Field 9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A, offset 0xffffffff, size 0x6
+  static __declspec(property(get = getStaticF_9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A,
+                             put = setStaticF_9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      6 9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A;
+
+  /// @brief Field B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C, offset 0xffffffff, size 0x80
+  static __declspec(property(get = getStaticF_B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C,
+                             put = setStaticF_B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      128 B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C;
+
+  /// @brief Field BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859,
+                             put = setStaticF_BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859)) int64_t BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859;
+
+  /// @brief Field DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5, offset 0xffffffff, size 0xe
+  static __declspec(property(get = getStaticF_DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5,
+                             put = setStaticF_DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      14 DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5;
+
+  /// @brief Field E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A, offset 0xffffffff, size 0xa
+  static __declspec(property(get = getStaticF_E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A,
+                             put = setStaticF_E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A))::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+      10 E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A;
+
+  /// @brief Method ComputeStringHash, addr 0x2a2a95c, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t ComputeStringHash(::StringW s);
 
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256 getStaticF_00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 getStaticF_04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 getStaticF_063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374();
+
+  static inline int64_t getStaticF_1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9 getStaticF_27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 getStaticF_2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70();
+
+  static inline int64_t getStaticF_3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12 getStaticF_356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF();
+
+  static inline int64_t getStaticF_6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128 getStaticF_8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44 getStaticF_9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6 getStaticF_9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128 getStaticF_B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C();
+
+  static inline int64_t getStaticF_BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14 getStaticF_DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5();
+
+  static inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 getStaticF_E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A();
+
+  static inline void setStaticF_00C700F38385659BA060672F86D4A9A5376EADF9ED1CABB1C63290A0FDEFE36A(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256 value);
+
+  static inline void setStaticF_04D9D643E5A26924DC98C9906714082D395DCB17CEE9674D5EBFEC15D098C2B5(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 value);
+
+  static inline void setStaticF_063691760A57230E8119DF650327304D68AE1C009E476E48BE8C73DCA199D374(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 value);
+
+  static inline void setStaticF_1417FCAA8455DC8E3C88BF916DD5C75746A2597CC052F212A8E4394C890E012B(int64_t value);
+
+  static inline void setStaticF_27625E383C3A91E8B65BC745FF5D4048C82B883CCD293B07DED697BF82733811(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9 value);
+
+  static inline void setStaticF_2EF83B43314F8CD03190EEE30ECCF048DA37791237F27C62A579F23EACE9FD70(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32 value);
+
+  static inline void setStaticF_3505B8A2248AC03FE41ACADF8F29294572BBADEE1DD2E1A45D025766681C012C(int64_t value);
+
+  static inline void setStaticF_356A582FCE68ACAE8FC944F7B4F0C0DA2BFF4A90D3767C75905F3EDE2E4E66CF(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12 value);
+
+  static inline void setStaticF_6C8F647E1FCD63826D12272FF0930E9C16F1FFEF719948703A4C0F3B90052885(int64_t value);
+
+  static inline void setStaticF_8109EF063456779751E8A4AEE94A0BE9AE32827B6EB153ABD7F40057FF2C9CE3(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128 value);
+
+  static inline void setStaticF_9001C3EDE1D7E939C07996B84F82F7CBE59A7266C1FC2735E959E3C8609602E8(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44 value);
+
+  static inline void setStaticF_9F58F1261D211553DE8FBC1AFA477C84EA3974B9BFF38223D771D0CDA787E15A(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6 value);
+
+  static inline void setStaticF_B849624EC20707184A433E21DAAC963906D4B261A19BD8F139F0E269E59E308C(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128 value);
+
+  static inline void setStaticF_BB6BB42AC5453BD8AA992CCB8929F1CB7D4E112E3FC56E57D711E106D1F72859(int64_t value);
+
+  static inline void setStaticF_DFA7289CF8D8029ACEE90F30530C6926950E8DD20285772458F271AFD015BAD5(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14 value);
+
+  static inline void setStaticF_E478CC6C0579E2198C99BFDE0ABAADC66644AF69312CB9D6E94E2D4E3559482A(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10 value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr _PrivateImplementationDetails_();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "_PrivateImplementationDetails_", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   _PrivateImplementationDetails_(_PrivateImplementationDetails_&&) = delete;
@@ -666,12 +494,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   _PrivateImplementationDetails_(_PrivateImplementationDetails_ const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr _PrivateImplementationDetails_();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -681,12 +503,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::_PrivateImpleme
 NEED_NO_BOX(::GlobalNamespace::_PrivateImplementationDetails_);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::_PrivateImplementationDetails_*, "", "<PrivateImplementationDetails>");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 10, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=10");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 18, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=18");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 20, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=20");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 12, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=12");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 128, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=128");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 14, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=14");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 256, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=256");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=3");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 3132, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=3132");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 32, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=32");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 48, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=48");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 64, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=64");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 44, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=44");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 6, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=6");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 9, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=9");

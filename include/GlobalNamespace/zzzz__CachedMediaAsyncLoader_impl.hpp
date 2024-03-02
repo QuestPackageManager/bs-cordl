@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3::*)()>(
     &::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x22fea34;
+  constexpr static std::size_t addrs = 0x24d018c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22fecf4;
+  constexpr static std::size_t addrs = 0x24d044c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CachedMediaAsyncLoader::*)()>(&::GlobalNamespace::CachedMediaAsyncLoader::ClearCache)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22fe8c8;
+  constexpr static std::size_t addrs = 0x24d0020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CachedMediaAsyncLoader*>::get(), "ClearCache",
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::CachedMediaAsyncLoader::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x22fe920;
+  constexpr static std::size_t addrs = 0x24d0078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CachedMediaAsyncLoader::*)()>(&::GlobalNamespace::CachedMediaAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22fea24;
+  constexpr static std::size_t addrs = 0x24d017c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CachedMediaAsyncLoader*>::get(), ".ctor",

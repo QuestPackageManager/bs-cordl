@@ -26,8 +26,6 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10450))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10453))
 // CS Name: ::UnityEngine.Events::InvokableCall`2<T1,T2>*
 class CORDL_TYPE InvokableCall_2 : public ::UnityEngine::Events::BaseInvokableCall {
 public:
@@ -35,23 +33,29 @@ public:
   /// @brief Field Delegate, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate))::UnityEngine::Events::UnityAction_2<T1, T2>* Delegate;
 
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
+
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  static inline ::UnityEngine::Events::InvokableCall_2<T1, T2>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
+
   constexpr ::UnityEngine::Events::UnityAction_2<T1, T2>*& __cordl_internal_get_Delegate();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_2<T1, T2>*> const& __cordl_internal_get_Delegate() const;
 
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_2<T1, T2>* value);
 
-  static inline ::UnityEngine::Events::InvokableCall_2<T1, T2>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvokableCall_2();
 
-  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokableCall_2(InvokableCall_2&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvokableCall_2(InvokableCall_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvokableCall_2();
-
-public:
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_2<T1, T2>* ___Delegate;
 

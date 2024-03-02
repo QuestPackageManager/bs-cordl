@@ -24,112 +24,116 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4936)), TypeDefinitionIndex(TypeDefinitionIndex(4937)), TypeDefinitionIndex(TypeDefinitionIndex(4938)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4943)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3960 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4944)) CS Name: ::LightTranslationGroup*
+// CS Name: ::LightTranslationGroup*
 class CORDL_TYPE LightTranslationGroup
     : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupTranslationXTransform>, ::UnityW<::GlobalNamespace::LightGroupTranslationYTransform>,
                                                       ::UnityW<::GlobalNamespace::LightGroupTranslationZTransform>> {
 public:
   // Declarations
-  /// @brief Field _xTranslationLimits, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__xTranslationLimits, put = __cordl_internal_set__xTranslationLimits))::UnityEngine::Vector2 _xTranslationLimits;
-
-  /// @brief Field _yTranslationLimits, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__yTranslationLimits, put = __cordl_internal_set__yTranslationLimits))::UnityEngine::Vector2 _yTranslationLimits;
-
-  /// @brief Field _zTranslationLimits, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__zTranslationLimits, put = __cordl_internal_set__zTranslationLimits))::UnityEngine::Vector2 _zTranslationLimits;
-
   /// @brief Field _xDistributionLimits, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__xDistributionLimits, put = __cordl_internal_set__xDistributionLimits))::UnityEngine::Vector2 _xDistributionLimits;
+
+  /// @brief Field _xTranslationLimits, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__xTranslationLimits, put = __cordl_internal_set__xTranslationLimits))::UnityEngine::Vector2 _xTranslationLimits;
 
   /// @brief Field _yDistributionLimits, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__yDistributionLimits, put = __cordl_internal_set__yDistributionLimits))::UnityEngine::Vector2 _yDistributionLimits;
 
+  /// @brief Field _yTranslationLimits, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__yTranslationLimits, put = __cordl_internal_set__yTranslationLimits))::UnityEngine::Vector2 _yTranslationLimits;
+
   /// @brief Field _zDistributionLimits, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__zDistributionLimits, put = __cordl_internal_set__zDistributionLimits))::UnityEngine::Vector2 _zDistributionLimits;
 
-  __declspec(property(get = get_xTranslationLimits))::UnityEngine::Vector2 xTranslationLimits;
-
-  __declspec(property(get = get_yTranslationLimits))::UnityEngine::Vector2 yTranslationLimits;
-
-  __declspec(property(get = get_zTranslationLimits))::UnityEngine::Vector2 zTranslationLimits;
+  /// @brief Field _zTranslationLimits, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__zTranslationLimits, put = __cordl_internal_set__zTranslationLimits))::UnityEngine::Vector2 _zTranslationLimits;
 
   __declspec(property(get = get_xDistributionLimits))::UnityEngine::Vector2 xDistributionLimits;
 
+  __declspec(property(get = get_xTranslationLimits))::UnityEngine::Vector2 xTranslationLimits;
+
   __declspec(property(get = get_yDistributionLimits))::UnityEngine::Vector2 yDistributionLimits;
 
+  __declspec(property(get = get_yTranslationLimits))::UnityEngine::Vector2 yTranslationLimits;
+
   __declspec(property(get = get_zDistributionLimits))::UnityEngine::Vector2 zDistributionLimits;
+
+  __declspec(property(get = get_zTranslationLimits))::UnityEngine::Vector2 zTranslationLimits;
 
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
-  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
+  static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xTranslationLimits() const;
-
-  constexpr void __cordl_internal_set__xTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__yTranslationLimits() const;
-
-  constexpr void __cordl_internal_set__yTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__zTranslationLimits() const;
-
-  constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xDistributionLimits();
+  /// @brief Method __Validate, addr 0x2438894, size 0x21c, virtual false, abstract: false, final false
+  inline bool __Validate();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xDistributionLimits() const;
 
-  constexpr void __cordl_internal_set__xDistributionLimits(::UnityEngine::Vector2 value);
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xDistributionLimits();
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yDistributionLimits();
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xTranslationLimits();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__yDistributionLimits() const;
 
-  constexpr void __cordl_internal_set__yDistributionLimits(::UnityEngine::Vector2 value);
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yDistributionLimits();
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zDistributionLimits();
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__yTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yTranslationLimits();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__zDistributionLimits() const;
 
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zDistributionLimits();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__zTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zTranslationLimits();
+
+  constexpr void __cordl_internal_set__xDistributionLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__xTranslationLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__yDistributionLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__yTranslationLimits(::UnityEngine::Vector2 value);
+
   constexpr void __cordl_internal_set__zDistributionLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_xTranslationLimits, addr 0x23aa7e8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_xTranslationLimits();
+  constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_yTranslationLimits, addr 0x23aa7f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_yTranslationLimits();
-
-  /// @brief Method get_zTranslationLimits, addr 0x23aa7f8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_zTranslationLimits();
-
-  /// @brief Method get_xDistributionLimits, addr 0x23aa800, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_xDistributionLimits();
-
-  /// @brief Method get_yDistributionLimits, addr 0x23aa808, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_yDistributionLimits();
-
-  /// @brief Method get_zDistributionLimits, addr 0x23aa810, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_zDistributionLimits();
-
-  /// @brief Method __Validate, addr 0x23aa818, size 0x21c, virtual false, abstract: false, final false
-  inline bool __Validate();
-
-  static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23aaa34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2438ab0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_xDistributionLimits, addr 0x243887c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_xDistributionLimits();
+
+  /// @brief Method get_xTranslationLimits, addr 0x2438864, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_xTranslationLimits();
+
+  /// @brief Method get_yDistributionLimits, addr 0x2438884, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_yDistributionLimits();
+
+  /// @brief Method get_yTranslationLimits, addr 0x243886c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_yTranslationLimits();
+
+  /// @brief Method get_zDistributionLimits, addr 0x243888c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_zDistributionLimits();
+
+  /// @brief Method get_zTranslationLimits, addr 0x2438874, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_zTranslationLimits();
+
+  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationGroup(LightTranslationGroup&&) = delete;
@@ -138,12 +142,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationGroup(LightTranslationGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationGroup();
-
-public:
   /// @brief Field _xTranslationLimits, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xTranslationLimits;
 

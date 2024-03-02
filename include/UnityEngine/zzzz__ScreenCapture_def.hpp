@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::ScreenCapture);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16186))
 // CS Name: ::ScreenCapture::StereoScreenCaptureMode
 struct CORDL_TYPE __ScreenCapture__StereoScreenCaptureMode {
 public:
@@ -44,18 +42,23 @@ public:
     return static_cast<____ScreenCapture__StereoScreenCaptureMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScreenCapture__StereoScreenCaptureMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ScreenCapture__StereoScreenCaptureMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ScreenCapture__StereoScreenCaptureMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BothEyes value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const BothEyes;
 
   /// @brief Field LeftEye value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const LeftEye;
@@ -63,8 +66,8 @@ public:
   /// @brief Field RightEye value: static_cast<int32_t>(0x2)
   static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const RightEye;
 
-  /// @brief Field BothEyes value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const BothEyes;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -78,23 +81,27 @@ static_assert(offsetof(::UnityEngine::__ScreenCapture__StereoScreenCaptureMode, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16187))
 // CS Name: ::UnityEngine::ScreenCapture*
 class CORDL_TYPE ScreenCapture : public ::System::Object {
 public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x2d17f3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x2e2510c, size 0x44, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x2d17fd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x2e251a4, size 0x48, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode stereoCaptureMode);
 
-  /// @brief Method CaptureScreenshot, addr 0x2d17f80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x2e25150, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode CaptureMode);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScreenCapture();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCapture(ScreenCapture&&) = delete;
@@ -103,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenCapture(ScreenCapture const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScreenCapture();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

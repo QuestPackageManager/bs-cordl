@@ -27,78 +27,82 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15261))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarEditHistory*
 class CORDL_TYPE AvatarEditHistory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field disableNextSnapshotOverride, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_disableNextSnapshotOverride, put = __cordl_internal_set_disableNextSnapshotOverride)) bool disableNextSnapshotOverride;
+  /// @brief Field _currentDataId, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentDataId, put = __cordl_internal_set__currentDataId)) int32_t _currentDataId;
 
   /// @brief Field _snapShots, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__snapShots,
                       put = __cordl_internal_set__snapShots))::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* _snapShots;
 
-  /// @brief Field _currentDataId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentDataId, put = __cordl_internal_set__currentDataId)) int32_t _currentDataId;
-
-  __declspec(property(get = get_undoAvailable)) bool undoAvailable;
-
-  __declspec(property(get = get_redoAvailable)) bool redoAvailable;
-
   __declspec(property(get = get_currentSnapShot))::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot currentSnapShot;
+
+  /// @brief Field disableNextSnapshotOverride, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_disableNextSnapshotOverride, put = __cordl_internal_set_disableNextSnapshotOverride)) bool disableNextSnapshotOverride;
 
   __declspec(property(get = get_lastEditedPart))::BeatSaber::BeatAvatarSDK::AvatarPart lastEditedPart;
 
-  constexpr bool& __cordl_internal_get_disableNextSnapshotOverride();
+  __declspec(property(get = get_redoAvailable)) bool redoAvailable;
 
-  constexpr bool const& __cordl_internal_get_disableNextSnapshotOverride() const;
+  __declspec(property(get = get_undoAvailable)) bool undoAvailable;
 
-  constexpr void __cordl_internal_set_disableNextSnapshotOverride(bool value);
+  /// @brief Method Clear, addr 0xe663c8, size 0x6c, virtual false, abstract: false, final false
+  inline void Clear();
+
+  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* New_ctor();
+
+  /// @brief Method Redo, addr 0xe66450, size 0x68, virtual false, abstract: false, final false
+  inline void Redo();
+
+  /// @brief Method Undo, addr 0xe66434, size 0x1c, virtual false, abstract: false, final false
+  inline void Undo();
+
+  /// @brief Method UpdateEditHistory, addr 0xe664b8, size 0x184, virtual false, abstract: false, final false
+  inline void UpdateEditHistory(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
+
+  constexpr int32_t const& __cordl_internal_get__currentDataId() const;
+
+  constexpr int32_t& __cordl_internal_get__currentDataId();
 
   constexpr ::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*& __cordl_internal_get__snapShots();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*> const&
   __cordl_internal_get__snapShots() const;
 
-  constexpr void __cordl_internal_set__snapShots(::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* value);
+  constexpr bool const& __cordl_internal_get_disableNextSnapshotOverride() const;
 
-  constexpr int32_t& __cordl_internal_get__currentDataId();
-
-  constexpr int32_t const& __cordl_internal_get__currentDataId() const;
+  constexpr bool& __cordl_internal_get_disableNextSnapshotOverride();
 
   constexpr void __cordl_internal_set__currentDataId(int32_t value);
 
-  /// @brief Method get_undoAvailable, addr 0xe14bb0, size 0x10, virtual false, abstract: false, final false
-  inline bool get_undoAvailable();
+  constexpr void __cordl_internal_set__snapShots(::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* value);
 
-  /// @brief Method get_redoAvailable, addr 0xe14bc0, size 0x58, virtual false, abstract: false, final false
-  inline bool get_redoAvailable();
+  constexpr void __cordl_internal_set_disableNextSnapshotOverride(bool value);
 
-  /// @brief Method get_currentSnapShot, addr 0xe14c18, size 0x54, virtual false, abstract: false, final false
-  inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot get_currentSnapShot();
-
-  /// @brief Method get_lastEditedPart, addr 0xe14c6c, size 0x10, virtual false, abstract: false, final false
-  inline ::BeatSaber::BeatAvatarSDK::AvatarPart get_lastEditedPart();
-
-  /// @brief Method Clear, addr 0xe14c7c, size 0x6c, virtual false, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Undo, addr 0xe14ce8, size 0x1c, virtual false, abstract: false, final false
-  inline void Undo();
-
-  /// @brief Method Redo, addr 0xe14d04, size 0x68, virtual false, abstract: false, final false
-  inline void Redo();
-
-  /// @brief Method UpdateEditHistory, addr 0xe14d6c, size 0x184, virtual false, abstract: false, final false
-  inline void UpdateEditHistory(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
-
-  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe14efc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe66648, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_currentSnapShot, addr 0xe66364, size 0x54, virtual false, abstract: false, final false
+  inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot get_currentSnapShot();
+
+  /// @brief Method get_lastEditedPart, addr 0xe663b8, size 0x10, virtual false, abstract: false, final false
+  inline ::BeatSaber::BeatAvatarSDK::AvatarPart get_lastEditedPart();
+
+  /// @brief Method get_redoAvailable, addr 0xe6630c, size 0x58, virtual false, abstract: false, final false
+  inline bool get_redoAvailable();
+
+  /// @brief Method get_undoAvailable, addr 0xe662fc, size 0x10, virtual false, abstract: false, final false
+  inline bool get_undoAvailable();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarEditHistory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarEditHistory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarEditHistory(AvatarEditHistory&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarEditHistory(AvatarEditHistory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarEditHistory();
-
-public:
   /// @brief Field disableNextSnapshotOverride, offset: 0x10, size: 0x1, def value: None
   bool ___disableNextSnapshotOverride;
 

@@ -197,19 +197,17 @@ MARK_VAL_T(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44_0_d);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3610))
 // CS Name: ::Stream::ReadWriteParameters
 struct CORDL_TYPE __Stream__ReadWriteParameters {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Offset", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Stream__ReadWriteParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer, int32_t Offset, int32_t Count) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Stream__ReadWriteParameters();
+
+  // Ctor Parameters [CppParam { name: "Buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Offset", ty: "int32_t", modifiers: "", def_value: None
+  // }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Stream__ReadWriteParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer, int32_t Offset, int32_t Count) noexcept;
 
   /// @brief Field Buffer, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
@@ -239,29 +237,17 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteParameters, Count) == 0x
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3611))
 // CS Name: ::Stream::ReadWriteTask*
 class CORDL_TYPE __Stream__ReadWriteTask : public ::System::Threading::Tasks::Task_1<int32_t> {
 public:
   // Declarations
-  /// @brief Field _isRead, offset 0x54, size 0x1
-  __declspec(property(get = __cordl_internal_get__isRead, put = __cordl_internal_set__isRead)) bool _isRead;
+  __declspec(property(get = System_Threading_Tasks_ITaskCompletionAction_get_InvokeMayRunArbitraryCode)) bool System_Threading_Tasks_ITaskCompletionAction_InvokeMayRunArbitraryCode;
 
   /// @brief Field _apm, offset 0x55, size 0x1
   __declspec(property(get = __cordl_internal_get__apm, put = __cordl_internal_set__apm)) bool _apm;
 
-  /// @brief Field _stream, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
-
   /// @brief Field _buffer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
-
-  /// @brief Field _offset, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
-
-  /// @brief Field _count, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _callback, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::AsyncCallback* _callback;
@@ -269,88 +255,104 @@ public:
   /// @brief Field _context, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Threading::ExecutionContext* _context;
 
+  /// @brief Field _count, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
+
+  /// @brief Field _isRead, offset 0x54, size 0x1
+  __declspec(property(get = __cordl_internal_get__isRead, put = __cordl_internal_set__isRead)) bool _isRead;
+
+  /// @brief Field _offset, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
+
+  /// @brief Field _stream, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
+
   /// @brief Field s_invokeAsyncCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invokeAsyncCallback, put = setStaticF_s_invokeAsyncCallback))::System::Threading::ContextCallback* s_invokeAsyncCallback;
-
-  __declspec(property(get = System_Threading_Tasks_ITaskCompletionAction_get_InvokeMayRunArbitraryCode)) bool System_Threading_Tasks_ITaskCompletionAction_InvokeMayRunArbitraryCode;
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
-  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
+  /// @brief Method ClearBeginState, addr 0x262a280, size 0x8, virtual false, abstract: false, final false
+  inline void ClearBeginState();
 
-  constexpr bool& __cordl_internal_get__isRead();
+  /// @brief Method InvokeAsyncCallback, addr 0x262a288, size 0x7c, virtual false, abstract: false, final false
+  static inline void InvokeAsyncCallback(::System::Object* completedTask);
 
-  constexpr bool const& __cordl_internal_get__isRead() const;
+  static inline ::System::IO::__Stream__ReadWriteTask* New_ctor(bool isRead, bool apm, ::System::Func_2<::System::Object*, int32_t>* function, ::System::Object* state, ::System::IO::Stream* stream,
+                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback);
 
-  constexpr void __cordl_internal_set__isRead(bool value);
+  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.Invoke, addr 0x262a304, size 0x120, virtual true, abstract: false, final true
+  inline void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  constexpr bool& __cordl_internal_get__apm();
+  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.get_InvokeMayRunArbitraryCode, addr 0x262a424, size 0x8, virtual true, abstract: false, final true
+  inline bool System_Threading_Tasks_ITaskCompletionAction_get_InvokeMayRunArbitraryCode();
 
   constexpr bool const& __cordl_internal_get__apm() const;
 
-  constexpr void __cordl_internal_set__apm(bool value);
-
-  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
-
-  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
+  constexpr bool& __cordl_internal_get__apm();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get__offset();
-
-  constexpr int32_t const& __cordl_internal_get__offset() const;
-
-  constexpr void __cordl_internal_set__offset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__count();
-
-  constexpr int32_t const& __cordl_internal_get__count() const;
-
-  constexpr void __cordl_internal_set__count(int32_t value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
   constexpr ::System::AsyncCallback*& __cordl_internal_get__callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get__callback() const;
 
-  constexpr void __cordl_internal_set__callback(::System::AsyncCallback* value);
-
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__context();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__context() const;
 
+  constexpr int32_t const& __cordl_internal_get__count() const;
+
+  constexpr int32_t& __cordl_internal_get__count();
+
+  constexpr bool const& __cordl_internal_get__isRead() const;
+
+  constexpr bool& __cordl_internal_get__isRead();
+
+  constexpr int32_t const& __cordl_internal_get__offset() const;
+
+  constexpr int32_t& __cordl_internal_get__offset();
+
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
+
+  constexpr void __cordl_internal_set__apm(bool value);
+
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set__callback(::System::AsyncCallback* value);
+
   constexpr void __cordl_internal_set__context(::System::Threading::ExecutionContext* value);
 
-  static inline void setStaticF_s_invokeAsyncCallback(::System::Threading::ContextCallback* value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  static inline ::System::Threading::ContextCallback* getStaticF_s_invokeAsyncCallback();
+  constexpr void __cordl_internal_set__isRead(bool value);
 
-  /// @brief Method ClearBeginState, addr 0x2536948, size 0x8, virtual false, abstract: false, final false
-  inline void ClearBeginState();
+  constexpr void __cordl_internal_set__offset(int32_t value);
 
-  static inline ::System::IO::__Stream__ReadWriteTask* New_ctor(bool isRead, bool apm, ::System::Func_2<::System::Object*, int32_t>* function, ::System::Object* state, ::System::IO::Stream* stream,
-                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x25346b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2627ff0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(bool isRead, bool apm, ::System::Func_2<::System::Object*, int32_t>* function, ::System::Object* state, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                     int32_t offset, int32_t count, ::System::AsyncCallback* callback);
 
-  /// @brief Method InvokeAsyncCallback, addr 0x2536950, size 0x7c, virtual false, abstract: false, final false
-  static inline void InvokeAsyncCallback(::System::Object* completedTask);
+  static inline ::System::Threading::ContextCallback* getStaticF_s_invokeAsyncCallback();
 
-  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.Invoke, addr 0x25369cc, size 0x120, virtual true, abstract: false, final true
-  inline void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* completingTask);
+  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
-  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.get_InvokeMayRunArbitraryCode, addr 0x2536aec, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Threading_Tasks_ITaskCompletionAction_get_InvokeMayRunArbitraryCode();
+  static inline void setStaticF_s_invokeAsyncCallback(::System::Threading::ContextCallback* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream__ReadWriteTask();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__ReadWriteTask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Stream__ReadWriteTask(__Stream__ReadWriteTask&&) = delete;
@@ -359,12 +361,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Stream__ReadWriteTask(__Stream__ReadWriteTask const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream__ReadWriteTask();
-
-public:
   /// @brief Field _isRead, offset: 0x54, size: 0x1, def value: None
   bool ____isRead;
 
@@ -415,8 +411,6 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteTask, ____context) == 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3613))
 // CS Name: ::Stream::SynchronousAsyncResult::<>c*
 class CORDL_TYPE __Stream__SynchronousAsyncResult____c : public ::System::Object {
 public:
@@ -427,22 +421,28 @@ public:
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_1<::System::Threading::ManualResetEvent*>* __9__12_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__Stream__SynchronousAsyncResult____c* value);
+  static inline ::GlobalNamespace::__Stream__SynchronousAsyncResult____c* New_ctor();
+
+  /// @brief Method .ctor, addr 0x262ac94, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method <get_AsyncWaitHandle>b__12_0, addr 0x262ac9c, size 0x60, virtual false, abstract: false, final false
+  inline ::System::Threading::ManualResetEvent* _get_AsyncWaitHandle_b__12_0();
 
   static inline ::GlobalNamespace::__Stream__SynchronousAsyncResult____c* getStaticF___9();
 
-  static inline void setStaticF___9__12_0(::System::Func_1<::System::Threading::ManualResetEvent*>* value);
-
   static inline ::System::Func_1<::System::Threading::ManualResetEvent*>* getStaticF___9__12_0();
 
-  static inline ::GlobalNamespace::__Stream__SynchronousAsyncResult____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__Stream__SynchronousAsyncResult____c* value);
 
-  /// @brief Method .ctor, addr 0x253735c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__12_0(::System::Func_1<::System::Threading::ManualResetEvent*>* value);
 
-  /// @brief Method <get_AsyncWaitHandle>b__12_0, addr 0x2537364, size 0x60, virtual false, abstract: false, final false
-  inline ::System::Threading::ManualResetEvent* _get_AsyncWaitHandle_b__12_0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream__SynchronousAsyncResult____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__SynchronousAsyncResult____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Stream__SynchronousAsyncResult____c(__Stream__SynchronousAsyncResult____c&&) = delete;
@@ -451,12 +451,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Stream__SynchronousAsyncResult____c(__Stream__SynchronousAsyncResult____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream__SynchronousAsyncResult____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -467,118 +461,122 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Stream__Synch
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3614))
 // CS Name: ::Stream::SynchronousAsyncResult*
 class CORDL_TYPE __Stream__SynchronousAsyncResult : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__Stream__SynchronousAsyncResult____c;
 
-  /// @brief Field _stateObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateObject, put = __cordl_internal_set__stateObject))::System::Object* _stateObject;
+  __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
 
-  /// @brief Field _isWrite, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__isWrite, put = __cordl_internal_set__isWrite)) bool _isWrite;
+  __declspec(property(get = get_AsyncWaitHandle))::System::Threading::WaitHandle* AsyncWaitHandle;
 
-  /// @brief Field _waitHandle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__waitHandle, put = __cordl_internal_set__waitHandle))::System::Threading::ManualResetEvent* _waitHandle;
+  __declspec(property(get = get_CompletedSynchronously)) bool CompletedSynchronously;
 
-  /// @brief Field _exceptionInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__exceptionInfo, put = __cordl_internal_set__exceptionInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionInfo;
-
-  /// @brief Field _endXxxCalled, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__endXxxCalled, put = __cordl_internal_set__endXxxCalled)) bool _endXxxCalled;
+  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
   /// @brief Field _bytesRead, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__bytesRead, put = __cordl_internal_set__bytesRead)) int32_t _bytesRead;
 
-  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+  /// @brief Field _endXxxCalled, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__endXxxCalled, put = __cordl_internal_set__endXxxCalled)) bool _endXxxCalled;
 
-  __declspec(property(get = get_AsyncWaitHandle))::System::Threading::WaitHandle* AsyncWaitHandle;
+  /// @brief Field _exceptionInfo, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__exceptionInfo, put = __cordl_internal_set__exceptionInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionInfo;
 
-  __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
+  /// @brief Field _isWrite, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__isWrite, put = __cordl_internal_set__isWrite)) bool _isWrite;
 
-  __declspec(property(get = get_CompletedSynchronously)) bool CompletedSynchronously;
+  /// @brief Field _stateObject, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__stateObject, put = __cordl_internal_set__stateObject))::System::Object* _stateObject;
+
+  /// @brief Field _waitHandle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__waitHandle, put = __cordl_internal_set__waitHandle))::System::Threading::ManualResetEvent* _waitHandle;
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Convert to "::System::IAsyncResult"
-  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
+  /// @brief Method EndRead, addr 0x2629d4c, size 0xf0, virtual false, abstract: false, final false
+  static inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  constexpr ::System::Object*& __cordl_internal_get__stateObject();
+  /// @brief Method EndWrite, addr 0x2629fe8, size 0xf4, virtual false, abstract: false, final false
+  static inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__stateObject() const;
+  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Object* asyncStateObject);
 
-  constexpr void __cordl_internal_set__stateObject(::System::Object* value);
+  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
 
-  constexpr bool& __cordl_internal_get__isWrite();
+  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Exception* ex, ::System::Object* asyncStateObject, bool isWrite);
 
-  constexpr bool const& __cordl_internal_get__isWrite() const;
+  /// @brief Method ThrowIfError, addr 0x262ac1c, size 0x14, virtual false, abstract: false, final false
+  inline void ThrowIfError();
 
-  constexpr void __cordl_internal_set__isWrite(bool value);
+  constexpr int32_t const& __cordl_internal_get__bytesRead() const;
 
-  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__waitHandle();
+  constexpr int32_t& __cordl_internal_get__bytesRead();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__waitHandle() const;
+  constexpr bool const& __cordl_internal_get__endXxxCalled() const;
 
-  constexpr void __cordl_internal_set__waitHandle(::System::Threading::ManualResetEvent* value);
+  constexpr bool& __cordl_internal_get__endXxxCalled();
 
   constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__exceptionInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__exceptionInfo() const;
 
-  constexpr void __cordl_internal_set__exceptionInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr bool const& __cordl_internal_get__isWrite() const;
 
-  constexpr bool& __cordl_internal_get__endXxxCalled();
+  constexpr bool& __cordl_internal_get__isWrite();
 
-  constexpr bool const& __cordl_internal_get__endXxxCalled() const;
+  constexpr ::System::Object*& __cordl_internal_get__stateObject();
 
-  constexpr void __cordl_internal_set__endXxxCalled(bool value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__stateObject() const;
 
-  constexpr int32_t& __cordl_internal_get__bytesRead();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__waitHandle();
 
-  constexpr int32_t const& __cordl_internal_get__bytesRead() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__waitHandle() const;
 
   constexpr void __cordl_internal_set__bytesRead(int32_t value);
 
-  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
+  constexpr void __cordl_internal_set__endXxxCalled(bool value);
 
-  /// @brief Method .ctor, addr 0x253638c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
+  constexpr void __cordl_internal_set__exceptionInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Object* asyncStateObject);
+  constexpr void __cordl_internal_set__isWrite(bool value);
 
-  /// @brief Method .ctor, addr 0x2536674, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__stateObject(::System::Object* value);
+
+  constexpr void __cordl_internal_set__waitHandle(::System::Threading::ManualResetEvent* value);
+
+  /// @brief Method .ctor, addr 0x2629fb4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* asyncStateObject);
 
-  static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Exception* ex, ::System::Object* asyncStateObject, bool isWrite);
+  /// @brief Method .ctor, addr 0x2629ccc, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
 
-  /// @brief Method .ctor, addr 0x25363bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2629cfc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* ex, ::System::Object* asyncStateObject, bool isWrite);
 
-  /// @brief Method get_IsCompleted, addr 0x25371d4, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsCompleted();
-
-  /// @brief Method get_AsyncWaitHandle, addr 0x25371dc, size 0xf8, virtual true, abstract: false, final true
-  inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
-
-  /// @brief Method get_AsyncState, addr 0x25372d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x262ac0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x25372dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x262ab14, size 0xf8, virtual true, abstract: false, final true
+  inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
+
+  /// @brief Method get_CompletedSynchronously, addr 0x262ac14, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method ThrowIfError, addr 0x25372e4, size 0x14, virtual false, abstract: false, final false
-  inline void ThrowIfError();
+  /// @brief Method get_IsCompleted, addr 0x262ab0c, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsCompleted();
 
-  /// @brief Method EndRead, addr 0x253640c, size 0xf0, virtual false, abstract: false, final false
-  static inline int32_t EndRead(::System::IAsyncResult* asyncResult);
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  /// @brief Method EndWrite, addr 0x25366a8, size 0xf4, virtual false, abstract: false, final false
-  static inline void EndWrite(::System::IAsyncResult* asyncResult);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream__SynchronousAsyncResult();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__SynchronousAsyncResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Stream__SynchronousAsyncResult(__Stream__SynchronousAsyncResult&&) = delete;
@@ -587,12 +585,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Stream__SynchronousAsyncResult(__Stream__SynchronousAsyncResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream__SynchronousAsyncResult();
-
-public:
   /// @brief Field _stateObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____stateObject;
 
@@ -633,17 +625,12 @@ static_assert(offsetof(::System::IO::__Stream__SynchronousAsyncResult, ____bytes
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3615))
 // CS Name: ::Stream::<>c*
 class CORDL_TYPE __Stream____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::IO::__Stream____c* __9;
-
-  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_1<::System::Threading::SemaphoreSlim*>* __9__4_0;
 
   /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0))::System::Action_1<::System::Object*>* __9__37_0;
@@ -665,6 +652,9 @@ public:
   /// @brief Field <>9__49_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__49_0, put = setStaticF___9__49_0))::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* __9__49_0;
 
+  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_1<::System::Threading::SemaphoreSlim*>* __9__4_0;
+
   /// @brief Field <>9__58_0, offset 0xffffffff, size 0x8
   static __declspec(property(
       get = getStaticF___9__58_0,
@@ -674,81 +664,87 @@ public:
   static __declspec(property(get = getStaticF___9__58_1,
                              put = setStaticF___9__58_1))::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* __9__58_1;
 
-  static inline void setStaticF___9(::System::IO::__Stream____c* value);
+  static inline ::System::IO::__Stream____c* New_ctor();
+
+  /// @brief Method <BeginEndReadAsync>b__45_0, addr 0x262b00c, size 0x34, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* _BeginEndReadAsync_b__45_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method <BeginEndReadAsync>b__45_1, addr 0x262b040, size 0x2c, virtual false, abstract: false, final false
+  inline int32_t _BeginEndReadAsync_b__45_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
+
+  /// @brief Method <BeginEndWriteAsync>b__58_0, addr 0x262b258, size 0x34, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* _BeginEndWriteAsync_b__58_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback,
+                                                             ::System::Object* state);
+
+  /// @brief Method <BeginEndWriteAsync>b__58_1, addr 0x262b28c, size 0x34, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::VoidTaskResult _BeginEndWriteAsync_b__58_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
+
+  /// @brief Method <BeginReadInternal>b__40_0, addr 0x262ae7c, size 0x190, virtual false, abstract: false, final false
+  inline int32_t _BeginReadInternal_b__40_0(::System::Object* _p0_);
+
+  /// @brief Method <BeginWriteInternal>b__48_0, addr 0x262b06c, size 0x180, virtual false, abstract: false, final false
+  inline int32_t _BeginWriteInternal_b__48_0(::System::Object* _p0_);
+
+  /// @brief Method <EnsureAsyncActiveSemaphoreInitialized>b__4_0, addr 0x262ad68, size 0x64, virtual false, abstract: false, final false
+  inline ::System::Threading::SemaphoreSlim* _EnsureAsyncActiveSemaphoreInitialized_b__4_0();
+
+  /// @brief Method <FlushAsync>b__37_0, addr 0x262adcc, size 0xb0, virtual false, abstract: false, final false
+  inline void _FlushAsync_b__37_0(::System::Object* state);
+
+  /// @brief Method <RunReadWriteTaskWhenReady>b__49_0, addr 0x262b1ec, size 0x6c, virtual false, abstract: false, final false
+  inline void _RunReadWriteTaskWhenReady_b__49_0(::System::Threading::Tasks::Task* t, ::System::Object* state);
+
+  /// @brief Method .ctor, addr 0x262ad60, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::IO::__Stream____c* getStaticF___9();
 
-  static inline void setStaticF___9__4_0(::System::Func_1<::System::Threading::SemaphoreSlim*>* value);
+  static inline ::System::Action_1<::System::Object*>* getStaticF___9__37_0();
+
+  static inline ::System::Func_2<::System::Object*, int32_t>* getStaticF___9__40_0();
+
+  static inline ::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* getStaticF___9__45_0();
+
+  static inline ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, int32_t>* getStaticF___9__45_1();
+
+  static inline ::System::Func_2<::System::Object*, int32_t>* getStaticF___9__48_0();
+
+  static inline ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* getStaticF___9__49_0();
 
   static inline ::System::Func_1<::System::Threading::SemaphoreSlim*>* getStaticF___9__4_0();
 
+  static inline ::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* getStaticF___9__58_0();
+
+  static inline ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* getStaticF___9__58_1();
+
+  static inline void setStaticF___9(::System::IO::__Stream____c* value);
+
   static inline void setStaticF___9__37_0(::System::Action_1<::System::Object*>* value);
 
-  static inline ::System::Action_1<::System::Object*>* getStaticF___9__37_0();
-
   static inline void setStaticF___9__40_0(::System::Func_2<::System::Object*, int32_t>* value);
-
-  static inline ::System::Func_2<::System::Object*, int32_t>* getStaticF___9__40_0();
 
   static inline void
   setStaticF___9__45_0(::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* value);
 
-  static inline ::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* getStaticF___9__45_0();
-
   static inline void setStaticF___9__45_1(::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, int32_t>* value);
-
-  static inline ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, int32_t>* getStaticF___9__45_1();
 
   static inline void setStaticF___9__48_0(::System::Func_2<::System::Object*, int32_t>* value);
 
-  static inline ::System::Func_2<::System::Object*, int32_t>* getStaticF___9__48_0();
-
   static inline void setStaticF___9__49_0(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* value);
 
-  static inline ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* getStaticF___9__49_0();
+  static inline void setStaticF___9__4_0(::System::Func_1<::System::Threading::SemaphoreSlim*>* value);
 
   static inline void
   setStaticF___9__58_0(::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* value);
 
-  static inline ::System::Func_5<::System::IO::Stream*, ::System::IO::__Stream__ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* getStaticF___9__58_0();
-
   static inline void setStaticF___9__58_1(::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* value);
 
-  static inline ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* getStaticF___9__58_1();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream____c();
 
-  static inline ::System::IO::__Stream____c* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2537428, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <EnsureAsyncActiveSemaphoreInitialized>b__4_0, addr 0x2537430, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Threading::SemaphoreSlim* _EnsureAsyncActiveSemaphoreInitialized_b__4_0();
-
-  /// @brief Method <FlushAsync>b__37_0, addr 0x2537494, size 0xb0, virtual false, abstract: false, final false
-  inline void _FlushAsync_b__37_0(::System::Object* state);
-
-  /// @brief Method <BeginReadInternal>b__40_0, addr 0x2537544, size 0x190, virtual false, abstract: false, final false
-  inline int32_t _BeginReadInternal_b__40_0(::System::Object* _p0_);
-
-  /// @brief Method <BeginEndReadAsync>b__45_0, addr 0x25376d4, size 0x34, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* _BeginEndReadAsync_b__45_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method <BeginEndReadAsync>b__45_1, addr 0x2537708, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t _BeginEndReadAsync_b__45_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
-
-  /// @brief Method <BeginWriteInternal>b__48_0, addr 0x2537734, size 0x180, virtual false, abstract: false, final false
-  inline int32_t _BeginWriteInternal_b__48_0(::System::Object* _p0_);
-
-  /// @brief Method <RunReadWriteTaskWhenReady>b__49_0, addr 0x25378b4, size 0x6c, virtual false, abstract: false, final false
-  inline void _RunReadWriteTaskWhenReady_b__49_0(::System::Threading::Tasks::Task* t, ::System::Object* state);
-
-  /// @brief Method <BeginEndWriteAsync>b__58_0, addr 0x2537920, size 0x34, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* _BeginEndWriteAsync_b__58_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback,
-                                                             ::System::Object* state);
-
-  /// @brief Method <BeginEndWriteAsync>b__58_1, addr 0x2537954, size 0x34, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::VoidTaskResult _BeginEndWriteAsync_b__58_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Stream____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Stream____c(__Stream____c&&) = delete;
@@ -757,12 +753,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Stream____c(__Stream____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -773,23 +763,25 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__Stream____c, 0x10>
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3363)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3616)) CS
-// Name: ::Stream::<CopyToAsyncInternal>d__28
+// CS Name: ::Stream::<CopyToAsyncInternal>d__28
 struct CORDL_TYPE __Stream___CopyToAsyncInternal_d__28 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x262b2c0, size 0x6dc, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x262b99c, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2537988, size 0x6dc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2538064, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream___CopyToAsyncInternal_d__28();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -801,10 +793,6 @@ public:
                                                  ::System::Threading::CancellationToken cancellationToken, ::System::IO::Stream* destination, ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__2,
                                                  ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> __u__1,
                                                  ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream___CopyToAsyncInternal_d__28();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -864,8 +852,6 @@ static_assert(offsetof(::System::IO::__Stream___CopyToAsyncInternal_d__28, __u__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3617))
 // CS Name: ::Stream::<FinishWriteAsync>d__57
 struct CORDL_TYPE __Stream___FinishWriteAsync_d__57 {
 public:
@@ -873,14 +859,18 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x262b9a8, size 0x20c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x262bbb4, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2538070, size 0x20c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x253827c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream___FinishWriteAsync_d__57();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "writeTask", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
@@ -888,10 +878,6 @@ public:
   // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
   constexpr __Stream___FinishWriteAsync_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* writeTask,
                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream___FinishWriteAsync_d__57();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -931,24 +917,25 @@ static_assert(offsetof(::System::IO::__Stream___FinishWriteAsync_d__57, __u__1) 
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(3358)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name:
-// ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
+// CS Name: ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
 struct CORDL_TYPE __Stream____ReadAsync_g__FinishReadAsync_44_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x262bbc0, size 0x394, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x262bf54, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2538288, size 0x394, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x253861c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Stream____ReadAsync_g__FinishReadAsync_44_0_d();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "readTask", ty: "::System::Threading::Tasks::Task_1<int32_t>*",
@@ -959,10 +946,6 @@ public:
                                                             ::System::Threading::Tasks::Task_1<int32_t>* readTask, ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer,
                                                             ::System::Memory_1<uint8_t> localDestination,
                                                             ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Stream____ReadAsync_g__FinishReadAsync_44_0_d();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1007,36 +990,25 @@ static_assert(offsetof(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3619))
 // CS Name: ::System.IO::Stream*
 class CORDL_TYPE Stream : public ::System::MarshalByRefObject {
 public:
   // Declarations
-  using __ReadAsync_g__FinishReadAsync_44_0_d = ::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44_0_d;
-
-  using _FinishWriteAsync_d__57 = ::System::IO::__Stream___FinishWriteAsync_d__57;
-
-  using _CopyToAsyncInternal_d__28 = ::System::IO::__Stream___CopyToAsyncInternal_d__28;
-
-  using __c = ::System::IO::__Stream____c;
-
-  using SynchronousAsyncResult = ::System::IO::__Stream__SynchronousAsyncResult;
-
   using NullStream = ::System::IO::__Stream__NullStream;
-
-  using ReadWriteTask = ::System::IO::__Stream__ReadWriteTask;
 
   using ReadWriteParameters = ::System::IO::__Stream__ReadWriteParameters;
 
-  /// @brief Field _activeReadWriteTask, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__activeReadWriteTask, put = __cordl_internal_set__activeReadWriteTask))::System::IO::__Stream__ReadWriteTask* _activeReadWriteTask;
+  using ReadWriteTask = ::System::IO::__Stream__ReadWriteTask;
 
-  /// @brief Field _asyncActiveSemaphore, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__asyncActiveSemaphore, put = __cordl_internal_set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
+  using SynchronousAsyncResult = ::System::IO::__Stream__SynchronousAsyncResult;
 
-  /// @brief Field Null, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::Stream* Null;
+  using _CopyToAsyncInternal_d__28 = ::System::IO::__Stream___CopyToAsyncInternal_d__28;
+
+  using _FinishWriteAsync_d__57 = ::System::IO::__Stream___FinishWriteAsync_d__57;
+
+  using __ReadAsync_g__FinishReadAsync_44_0_d = ::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44_0_d;
+
+  using __c = ::System::IO::__Stream____c;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -1048,42 +1020,192 @@ public:
 
   __declspec(property(get = get_Length)) int64_t Length;
 
+  /// @brief Field Null, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::Stream* Null;
+
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
   __declspec(property(get = get_ReadTimeout, put = set_ReadTimeout)) int32_t ReadTimeout;
 
   __declspec(property(get = get_WriteTimeout, put = set_WriteTimeout)) int32_t WriteTimeout;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+  /// @brief Field _activeReadWriteTask, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__activeReadWriteTask, put = __cordl_internal_set__activeReadWriteTask))::System::IO::__Stream__ReadWriteTask* _activeReadWriteTask;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Field _asyncActiveSemaphore, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__asyncActiveSemaphore, put = __cordl_internal_set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
 
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IAsyncDisposable"
-  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method BeginEndReadAsync, addr 0x2628688, size 0x1b8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<int32_t>* BeginEndReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method BeginEndWriteAsync, addr 0x26290c8, size 0x1b8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* BeginEndWriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method BeginRead, addr 0x2627dec, size 0x20, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method BeginReadInternal, addr 0x2627e0c, size 0x1e4, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* BeginReadInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
+                                                   bool serializeAsynchronously, bool apm);
+
+  /// @brief Method BeginWrite, addr 0x2628ba8, size 0x20, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method BeginWriteInternal, addr 0x2628bc8, size 0x1e4, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* BeginWriteInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
+                                                    bool serializeAsynchronously, bool apm);
+
+  /// @brief Method BlockingBeginRead, addr 0x2629b48, size 0x184, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* BlockingBeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method BlockingBeginWrite, addr 0x2629e3c, size 0x178, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* BlockingBeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method BlockingEndRead, addr 0x2629d48, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t BlockingEndRead(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method BlockingEndWrite, addr 0x2629fe4, size 0x4, virtual false, abstract: false, final false
+  static inline void BlockingEndWrite(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method Close, addr 0x2627ba4, size 0x70, virtual true, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method CopyTo, addr 0x26279ac, size 0x38, virtual false, abstract: false, final false
+  inline void CopyTo(::System::IO::Stream* destination);
+
+  /// @brief Method CopyTo, addr 0x26279e4, size 0x1c0, virtual true, abstract: false, final false
+  inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
+
+  /// @brief Method CopyToAsync, addr 0x26276f8, size 0x2c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination);
+
+  /// @brief Method CopyToAsync, addr 0x26277ec, size 0x84, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize);
+
+  /// @brief Method CopyToAsync, addr 0x2627870, size 0x44, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method CopyToAsyncInternal, addr 0x26278b4, size 0xf8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsyncInternal(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method Dispose, addr 0x2627c14, size 0x10, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x2627c24, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method DisposeAsync, addr 0x262a0dc, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
+
+  /// @brief Method EndRead, addr 0x262836c, size 0x1cc, virtual true, abstract: false, final false
+  inline int32_t EndRead(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method EndWrite, addr 0x2628dd0, size 0x1bc, virtual true, abstract: false, final false
+  inline void EndWrite(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method EnsureAsyncActiveSemaphoreInitialized, addr 0x26274b8, size 0xf8, virtual false, abstract: false, final false
+  inline ::System::Threading::SemaphoreSlim* EnsureAsyncActiveSemaphoreInitialized();
+
+  /// @brief Method FinishTrackingAsyncOperation, addr 0x2628dac, size 0x24, virtual false, abstract: false, final false
+  inline void FinishTrackingAsyncOperation();
+
+  /// @brief Method FinishWriteAsync, addr 0x26294f8, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* FinishWriteAsync(::System::Threading::Tasks::Task* writeTask, ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer);
+
+  /// @brief Method Flush, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Flush();
+
+  /// @brief Method FlushAsync, addr 0x2624af8, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* FlushAsync();
+
+  /// @brief Method FlushAsync, addr 0x2627c28, size 0x1c4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetCopyBufferSize, addr 0x2627724, size 0xc8, virtual false, abstract: false, final false
+  inline int32_t GetCopyBufferSize();
+
+  /// @brief Method HasOverriddenBeginEndRead, addr 0x2628ba0, size 0x8, virtual false, abstract: false, final false
+  inline bool HasOverriddenBeginEndRead();
+
+  /// @brief Method HasOverriddenBeginEndWrite, addr 0x26295d0, size 0x8, virtual false, abstract: false, final false
+  inline bool HasOverriddenBeginEndWrite();
+
+  static inline ::System::IO::Stream* New_ctor();
+
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method Read, addr 0x26295d8, size 0x288, virtual true, abstract: false, final false
+  inline int32_t Read(::System::Span_1<uint8_t> buffer);
+
+  /// @brief Method ReadAsync, addr 0x2628538, size 0x94, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method ReadAsync, addr 0x26285cc, size 0xbc, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method ReadAsync, addr 0x2628840, size 0x260, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method ReadByte, addr 0x2629860, size 0x94, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
+
+  /// @brief Method RunReadWriteTask, addr 0x26282b8, size 0xb4, virtual false, abstract: false, final false
+  inline void RunReadWriteTask(::System::IO::__Stream__ReadWriteTask* readWriteTask);
+
+  /// @brief Method RunReadWriteTaskWhenReady, addr 0x2628134, size 0x184, virtual false, abstract: false, final false
+  inline void RunReadWriteTaskWhenReady(::System::Threading::Tasks::Task* asyncWaiter, ::System::IO::__Stream__ReadWriteTask* readWriteTask);
+
+  /// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+
+  /// @brief Method SetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetLength(int64_t value);
+
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method Write, addr 0x26298f4, size 0x1c8, virtual true, abstract: false, final false
+  inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
+
+  /// @brief Method WriteAsync, addr 0x2628f8c, size 0x94, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method WriteAsync, addr 0x2629020, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method WriteAsync, addr 0x2629280, size 0x278, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method WriteByte, addr 0x2629abc, size 0x8c, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t value);
+
+  /// @brief Method <ReadAsync>g__FinishReadAsync|44_0, addr 0x2628aa0, size 0x100, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::ValueTask_1<int32_t> _ReadAsync_g__FinishReadAsync_44_0(::System::Threading::Tasks::Task_1<int32_t>* readTask,
+                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer, ::System::Memory_1<uint8_t> localDestination);
 
   constexpr ::System::IO::__Stream__ReadWriteTask*& __cordl_internal_get__activeReadWriteTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::__Stream__ReadWriteTask*> const& __cordl_internal_get__activeReadWriteTask() const;
 
-  constexpr void __cordl_internal_set__activeReadWriteTask(::System::IO::__Stream__ReadWriteTask* value);
-
   constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__asyncActiveSemaphore();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__asyncActiveSemaphore() const;
 
+  constexpr void __cordl_internal_set__activeReadWriteTask(::System::IO::__Stream__ReadWriteTask* value);
+
   constexpr void __cordl_internal_set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
 
-  static inline void setStaticF_Null(::System::IO::Stream* value);
+  /// @brief Method .ctor, addr 0x2621720, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::IO::Stream* getStaticF_Null();
-
-  /// @brief Method EnsureAsyncActiveSemaphoreInitialized, addr 0x2533b78, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Threading::SemaphoreSlim* EnsureAsyncActiveSemaphoreInitialized();
 
   /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanRead();
@@ -1091,7 +1213,7 @@ public:
   /// @brief Method get_CanSeek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout, addr 0x2533c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanTimeout, addr 0x26275b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
   /// @brief Method get_CanWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -1103,170 +1225,35 @@ public:
   /// @brief Method get_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Position();
 
+  /// @brief Method get_ReadTimeout, addr 0x26275b8, size 0x50, virtual true, abstract: false, final false
+  inline int32_t get_ReadTimeout();
+
+  /// @brief Method get_WriteTimeout, addr 0x2627658, size 0x50, virtual true, abstract: false, final false
+  inline int32_t get_WriteTimeout();
+
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_Null(::System::IO::Stream* value);
+
   /// @brief Method set_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method get_ReadTimeout, addr 0x2533c78, size 0x50, virtual true, abstract: false, final false
-  inline int32_t get_ReadTimeout();
-
-  /// @brief Method set_ReadTimeout, addr 0x2533cc8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_ReadTimeout, addr 0x2627608, size 0x50, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method get_WriteTimeout, addr 0x2533d18, size 0x50, virtual true, abstract: false, final false
-  inline int32_t get_WriteTimeout();
-
-  /// @brief Method set_WriteTimeout, addr 0x2533d68, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_WriteTimeout, addr 0x26276a8, size 0x50, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
-  /// @brief Method CopyToAsync, addr 0x2533db8, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Stream();
 
-  /// @brief Method CopyToAsync, addr 0x2533eac, size 0x84, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize);
-
-  /// @brief Method CopyToAsync, addr 0x2533f30, size 0x44, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method CopyToAsyncInternal, addr 0x2533f74, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsyncInternal(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method CopyTo, addr 0x253406c, size 0x38, virtual false, abstract: false, final false
-  inline void CopyTo(::System::IO::Stream* destination);
-
-  /// @brief Method CopyTo, addr 0x25340a4, size 0x1c0, virtual true, abstract: false, final false
-  inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
-
-  /// @brief Method GetCopyBufferSize, addr 0x2533de4, size 0xc8, virtual false, abstract: false, final false
-  inline int32_t GetCopyBufferSize();
-
-  /// @brief Method Close, addr 0x2534264, size 0x70, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method Dispose, addr 0x25342d4, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Dispose, addr 0x25342e4, size 0x4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Flush, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Flush();
-
-  /// @brief Method FlushAsync, addr 0x2531190, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsync();
-
-  /// @brief Method FlushAsync, addr 0x25342e8, size 0x1c4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method BeginRead, addr 0x25344ac, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method BeginReadInternal, addr 0x25344cc, size 0x1e4, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BeginReadInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
-                                                   bool serializeAsynchronously, bool apm);
-
-  /// @brief Method EndRead, addr 0x2534a2c, size 0x1cc, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method ReadAsync, addr 0x2534bf8, size 0x94, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method ReadAsync, addr 0x2534c8c, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method ReadAsync, addr 0x2534f00, size 0x260, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method BeginEndReadAsync, addr 0x2534d48, size 0x1b8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* BeginEndReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method BeginWrite, addr 0x2535268, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method BeginWriteInternal, addr 0x2535288, size 0x1e4, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWriteInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
-                                                    bool serializeAsynchronously, bool apm);
-
-  /// @brief Method RunReadWriteTaskWhenReady, addr 0x25347f4, size 0x184, virtual false, abstract: false, final false
-  inline void RunReadWriteTaskWhenReady(::System::Threading::Tasks::Task* asyncWaiter, ::System::IO::__Stream__ReadWriteTask* readWriteTask);
-
-  /// @brief Method RunReadWriteTask, addr 0x2534978, size 0xb4, virtual false, abstract: false, final false
-  inline void RunReadWriteTask(::System::IO::__Stream__ReadWriteTask* readWriteTask);
-
-  /// @brief Method FinishTrackingAsyncOperation, addr 0x253546c, size 0x24, virtual false, abstract: false, final false
-  inline void FinishTrackingAsyncOperation();
-
-  /// @brief Method EndWrite, addr 0x2535490, size 0x1bc, virtual true, abstract: false, final false
-  inline void EndWrite(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method WriteAsync, addr 0x253564c, size 0x94, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method WriteAsync, addr 0x25356e0, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method WriteAsync, addr 0x2535940, size 0x278, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method FinishWriteAsync, addr 0x2535bb8, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FinishWriteAsync(::System::Threading::Tasks::Task* writeTask, ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer);
-
-  /// @brief Method BeginEndWriteAsync, addr 0x2535788, size 0x1b8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* BeginEndWriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
-
-  /// @brief Method SetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetLength(int64_t value);
-
-  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method Read, addr 0x2535c98, size 0x288, virtual true, abstract: false, final false
-  inline int32_t Read(::System::Span_1<uint8_t> buffer);
-
-  /// @brief Method ReadByte, addr 0x2535f20, size 0x94, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
-
-  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method Write, addr 0x2535fb4, size 0x1c8, virtual true, abstract: false, final false
-  inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
-
-  /// @brief Method WriteByte, addr 0x253617c, size 0x8c, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t value);
-
-  /// @brief Method BlockingBeginRead, addr 0x2536208, size 0x184, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BlockingBeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method BlockingEndRead, addr 0x2536408, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t BlockingEndRead(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method BlockingBeginWrite, addr 0x25364fc, size 0x178, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BlockingBeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method BlockingEndWrite, addr 0x25366a4, size 0x4, virtual false, abstract: false, final false
-  static inline void BlockingEndWrite(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method HasOverriddenBeginEndRead, addr 0x2535260, size 0x8, virtual false, abstract: false, final false
-  inline bool HasOverriddenBeginEndRead();
-
-  /// @brief Method HasOverriddenBeginEndWrite, addr 0x2535c90, size 0x8, virtual false, abstract: false, final false
-  inline bool HasOverriddenBeginEndWrite();
-
-  /// @brief Method DisposeAsync, addr 0x253679c, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
-
-  static inline ::System::IO::Stream* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2536874, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <ReadAsync>g__FinishReadAsync|44_0, addr 0x2535160, size 0x100, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::ValueTask_1<int32_t> _ReadAsync_g__FinishReadAsync_44_0(::System::Threading::Tasks::Task_1<int32_t>* readTask,
-                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer, ::System::Memory_1<uint8_t> localDestination);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Stream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stream(Stream&&) = delete;
@@ -1275,12 +1262,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Stream(Stream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Stream();
-
-public:
   /// @brief Field _activeReadWriteTask, offset: 0x18, size: 0x8, def value: None
   ::System::IO::__Stream__ReadWriteTask* ____activeReadWriteTask;
 

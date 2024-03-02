@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableIfNotPlatform);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5361))
 // CS Name: ::DisableIfNotPlatform*
 class CORDL_TYPE DisableIfNotPlatform : public ::UnityEngine::MonoBehaviour {
 public:
@@ -28,20 +26,26 @@ public:
   __declspec(property(get = __cordl_internal_get__whitelistPlatforms,
                       put = __cordl_internal_set__whitelistPlatforms))::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> _whitelistPlatforms;
 
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__whitelistPlatforms();
-
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__whitelistPlatforms() const;
-
-  constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
-
-  /// @brief Method Awake, addr 0x226c488, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2250090, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c520, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__whitelistPlatforms() const;
+
+  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__whitelistPlatforms();
+
+  constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
+
+  /// @brief Method .ctor, addr 0x2250128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisableIfNotPlatform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisableIfNotPlatform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableIfNotPlatform(DisableIfNotPlatform&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableIfNotPlatform();
-
-public:
   /// @brief Field _whitelistPlatforms, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____whitelistPlatforms;
 

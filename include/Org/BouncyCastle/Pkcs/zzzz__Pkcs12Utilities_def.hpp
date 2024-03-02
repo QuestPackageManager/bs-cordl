@@ -16,23 +16,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1702))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Utilities*
 class CORDL_TYPE Pkcs12Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToDefiniteLength, addr 0x10e62c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x1157128, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File);
 
-  /// @brief Method ConvertToDefiniteLength, addr 0x10e6364, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x11571c4, size 0x46c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File, ::ArrayW<char16_t, ::Array<char16_t>*> passwd);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10e67d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1157630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Pkcs12Utilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Utilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs12Utilities(Pkcs12Utilities&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Pkcs12Utilities(Pkcs12Utilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs12Utilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

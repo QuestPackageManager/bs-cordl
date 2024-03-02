@@ -26,23 +26,27 @@ MARK_REF_PTR_T(::System::Net::Security::LocalCertSelectionCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9370))
 // CS Name: ::System.Net.Security::LocalCertSelectionCallback*
 class CORDL_TYPE LocalCertSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Net::Security::LocalCertSelectionCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x28ffc70, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x28ffd48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29e982c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
                                                                                      ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
+  static inline ::System::Net::Security::LocalCertSelectionCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x29e9754, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalCertSelectionCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalCertSelectionCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalCertSelectionCallback(LocalCertSelectionCallback&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalCertSelectionCallback(LocalCertSelectionCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalCertSelectionCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

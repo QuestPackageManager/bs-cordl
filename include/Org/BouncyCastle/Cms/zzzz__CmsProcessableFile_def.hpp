@@ -30,61 +30,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableFile);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(646))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableFile*
 class CORDL_TYPE CmsProcessableFile : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _file, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__file, put = __cordl_internal_set__file))::System::IO::FileInfo* _file;
-
   /// @brief Field _bufSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__bufSize, put = __cordl_internal_set__bufSize)) int32_t _bufSize;
+
+  /// @brief Field _file, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__file, put = __cordl_internal_set__file))::System::IO::FileInfo* _file;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
+  /// @brief Method GetContent, addr 0x1256168, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Object* GetContent();
+
+  /// @brief Method GetInputStream, addr 0x1256050, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetInputStream();
+
+  static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
+
+  static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
+
+  /// @brief Method Write, addr 0x12560e4, size 0x84, virtual true, abstract: false, final false
+  inline void Write(::System::IO::Stream* zOut);
+
+  constexpr int32_t const& __cordl_internal_get__bufSize() const;
+
+  constexpr int32_t& __cordl_internal_get__bufSize();
 
   constexpr ::System::IO::FileInfo*& __cordl_internal_get__file();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::FileInfo*> const& __cordl_internal_get__file() const;
 
-  constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
-
-  constexpr int32_t& __cordl_internal_get__bufSize();
-
-  constexpr int32_t const& __cordl_internal_get__bufSize() const;
-
   constexpr void __cordl_internal_set__bufSize(int32_t value);
 
-  static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
+  constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
 
-  /// @brief Method .ctor, addr 0x11e5190, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1255ff0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file);
 
-  static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
-
-  /// @brief Method .ctor, addr 0x11e51c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1256020, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method GetInputStream, addr 0x11e51f0, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetInputStream();
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
 
-  /// @brief Method Write, addr 0x11e5284, size 0x84, virtual true, abstract: false, final false
-  inline void Write(::System::IO::Stream* zOut);
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
-  /// @brief Method GetContent, addr 0x11e5308, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* GetContent();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsProcessableFile();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableFile", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsProcessableFile(CmsProcessableFile&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsProcessableFile(CmsProcessableFile const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsProcessableFile();
-
-public:
   /// @brief Field _file, offset: 0x10, size: 0x8, def value: None
   ::System::IO::FileInfo* ____file;
 

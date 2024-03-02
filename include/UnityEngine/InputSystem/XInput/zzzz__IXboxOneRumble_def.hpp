@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6350))
 // CS Name: ::UnityEngine.InputSystem.XInput::IXboxOneRumble*
 class CORDL_TYPE IXboxOneRumble {
 public:
@@ -29,17 +27,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IDualMotorRumble*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
-  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
-
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
-  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
-
   /// @brief Method SetMotorSpeeds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency, float_t leftTrigger, float_t rightTrigger);
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IDualMotorRumble"
+  constexpr ::UnityEngine::InputSystem::Haptics::IDualMotorRumble* i___UnityEngine__InputSystem__Haptics__IDualMotorRumble() noexcept;
+
+  /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
+  constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IXboxOneRumble", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -43,12 +43,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__VFXController___MainCoroutine_d__9);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
 // CS Name: ::VFXController::<MainCoroutine>d__9*
 class CORDL_TYPE __VFXController___MainCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -64,78 +66,80 @@ public:
   /// @brief Field duration, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x22573e4, size 0x184, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__VFXController___MainCoroutine_d__9* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2257568, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2257570, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22575b0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x22573e0, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::VFXController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::VFXController>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::VFXController> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::VFXController> value);
+  constexpr bool const& __cordl_internal_get_deactivateAfterDuration() const;
 
   constexpr bool& __cordl_internal_get_deactivateAfterDuration();
 
-  constexpr bool const& __cordl_internal_get_deactivateAfterDuration() const;
-
-  constexpr void __cordl_internal_set_deactivateAfterDuration(bool value);
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
   constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __cordl_internal_get_duration() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::VFXController> value);
+
+  constexpr void __cordl_internal_set_deactivateAfterDuration(bool value);
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  static inline ::GlobalNamespace::__VFXController___MainCoroutine_d__9* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x20f4784, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22573b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20f47b4, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x20f47b8, size 0x184, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f493c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f4944, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VFXController___MainCoroutine_d__9();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f4984, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VFXController___MainCoroutine_d__9", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VFXController___MainCoroutine_d__9(__VFXController___MainCoroutine_d__9&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VFXController___MainCoroutine_d__9(__VFXController___MainCoroutine_d__9 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VFXController___MainCoroutine_d__9();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -185,17 +183,11 @@ static_assert(offsetof(::GlobalNamespace::__VFXController___MainCoroutine_d__9, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14384))
 // CS Name: ::VFXController*
 class CORDL_TYPE VFXController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _MainCoroutine_d__9 = ::GlobalNamespace::__VFXController___MainCoroutine_d__9;
-
-  /// @brief Field _particleSystems, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystems,
-                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
 
   /// @brief Field _animation, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
@@ -203,48 +195,58 @@ public:
   /// @brief Field _deactivateAfterAnimationDuration, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__deactivateAfterAnimationDuration, put = __cordl_internal_set__deactivateAfterAnimationDuration)) bool _deactivateAfterAnimationDuration;
 
+  /// @brief Field _particleSystems, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__particleSystems,
+                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
+
   __declspec(property(get = get_animation))::UnityW<::UnityEngine::Animation> animation;
 
   __declspec(property(get = get_particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> particleSystems;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
-
-  constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
-
-  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
-
-  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
-
-  constexpr bool& __cordl_internal_get__deactivateAfterAnimationDuration();
-
-  constexpr bool const& __cordl_internal_get__deactivateAfterAnimationDuration() const;
-
-  constexpr void __cordl_internal_set__deactivateAfterAnimationDuration(bool value);
-
-  /// @brief Method get_animation, addr 0x20f45b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Animation> get_animation();
-
-  /// @brief Method get_particleSystems, addr 0x20f45bc, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> get_particleSystems();
-
-  /// @brief Method Awake, addr 0x20f45c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22571f0, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Play, addr 0x20f45e8, size 0x110, virtual false, abstract: false, final false
-  inline void Play();
-
-  /// @brief Method MainCoroutine, addr 0x20f46f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MainCoroutine, addr 0x2257324, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float_t duration);
 
   static inline ::GlobalNamespace::VFXController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f47ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x2257214, size 0x110, virtual false, abstract: false, final false
+  inline void Play();
+
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
+
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
+
+  constexpr bool const& __cordl_internal_get__deactivateAfterAnimationDuration() const;
+
+  constexpr bool& __cordl_internal_get__deactivateAfterAnimationDuration();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems();
+
+  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
+
+  constexpr void __cordl_internal_set__deactivateAfterAnimationDuration(bool value);
+
+  constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
+
+  /// @brief Method .ctor, addr 0x22573d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_animation, addr 0x22571e0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Animation> get_animation();
+
+  /// @brief Method get_particleSystems, addr 0x22571e8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> get_particleSystems();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VFXController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VFXController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXController(VFXController&&) = delete;
@@ -253,12 +255,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VFXController(VFXController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VFXController();
-
-public:
   /// @brief Field _particleSystems, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
 

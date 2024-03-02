@@ -31,44 +31,48 @@ MARK_REF_PTR_T(::GlobalNamespace::__AutomaticSFXVolume__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
 // CS Name: ::AutomaticSFXVolume::InitData*
 class CORDL_TYPE __AutomaticSFXVolume__InitData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field volumeOffset, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_volumeOffset, put = __cordl_internal_set_volumeOffset)) float_t volumeOffset;
+  /// @brief Field adaptiveSfx, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_adaptiveSfx, put = __cordl_internal_set_adaptiveSfx)) bool adaptiveSfx;
 
   /// @brief Field maxVolume, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_maxVolume, put = __cordl_internal_set_maxVolume)) float_t maxVolume;
 
-  /// @brief Field adaptiveSfx, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_adaptiveSfx, put = __cordl_internal_set_adaptiveSfx)) bool adaptiveSfx;
-
-  constexpr float_t& __cordl_internal_get_volumeOffset();
-
-  constexpr float_t const& __cordl_internal_get_volumeOffset() const;
-
-  constexpr void __cordl_internal_set_volumeOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxVolume();
-
-  constexpr float_t const& __cordl_internal_get_maxVolume() const;
-
-  constexpr void __cordl_internal_set_maxVolume(float_t value);
-
-  constexpr bool& __cordl_internal_get_adaptiveSfx();
-
-  constexpr bool const& __cordl_internal_get_adaptiveSfx() const;
-
-  constexpr void __cordl_internal_set_adaptiveSfx(bool value);
+  /// @brief Field volumeOffset, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_volumeOffset, put = __cordl_internal_set_volumeOffset)) float_t volumeOffset;
 
   static inline ::GlobalNamespace::__AutomaticSFXVolume__InitData* New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
-  /// @brief Method .ctor, addr 0x222c538, size 0x3c, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_adaptiveSfx() const;
+
+  constexpr bool& __cordl_internal_get_adaptiveSfx();
+
+  constexpr float_t const& __cordl_internal_get_maxVolume() const;
+
+  constexpr float_t& __cordl_internal_get_maxVolume();
+
+  constexpr float_t const& __cordl_internal_get_volumeOffset() const;
+
+  constexpr float_t& __cordl_internal_get_volumeOffset();
+
+  constexpr void __cordl_internal_set_adaptiveSfx(bool value);
+
+  constexpr void __cordl_internal_set_maxVolume(float_t value);
+
+  constexpr void __cordl_internal_set_volumeOffset(float_t value);
+
+  /// @brief Method .ctor, addr 0x2382838, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AutomaticSFXVolume__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AutomaticSFXVolume__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AutomaticSFXVolume__InitData(__AutomaticSFXVolume__InitData&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AutomaticSFXVolume__InitData(__AutomaticSFXVolume__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AutomaticSFXVolume__InitData();
-
-public:
   /// @brief Field volumeOffset, offset: 0x10, size: 0x4, def value: None
   float_t ___volumeOffset;
 
@@ -108,22 +106,38 @@ static_assert(offsetof(::GlobalNamespace::__AutomaticSFXVolume__InitData, ___ada
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4055))
 // CS Name: ::AutomaticSFXVolume*
 class CORDL_TYPE AutomaticSFXVolume : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using InitData = ::GlobalNamespace::__AutomaticSFXVolume__InitData;
 
-  /// @brief Field _params, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> _params;
+  /// @brief Field _attackCoef, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__attackCoef, put = __cordl_internal_set__attackCoef)) float_t _attackCoef;
+
+  /// @brief Field _attackSamples, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__attackSamples, put = __cordl_internal_set__attackSamples)) float_t _attackSamples;
 
   /// @brief Field _audioManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
+  /// @brief Field _envelope, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__envelope, put = __cordl_internal_set__envelope)) float_t _envelope;
+
   /// @brief Field _initData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__AutomaticSFXVolume__InitData* _initData;
+
+  /// @brief Field _maxVolume, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxVolume, put = __cordl_internal_set__maxVolume)) float_t _maxVolume;
+
+  /// @brief Field _params, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> _params;
+
+  /// @brief Field _releaseCoef, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__releaseCoef, put = __cordl_internal_set__releaseCoef)) float_t _releaseCoef;
+
+  /// @brief Field _releaseSamples, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__releaseSamples, put = __cordl_internal_set__releaseSamples)) float_t _releaseSamples;
 
   /// @brief Field _sampleRate, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__sampleRate, put = __cordl_internal_set__sampleRate)) float_t _sampleRate;
@@ -131,113 +145,101 @@ public:
   /// @brief Field _volume, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
-  /// @brief Field _envelope, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__envelope, put = __cordl_internal_set__envelope)) float_t _envelope;
+  static inline ::GlobalNamespace::AutomaticSFXVolume* New_ctor();
 
-  /// @brief Field _attackSamples, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__attackSamples, put = __cordl_internal_set__attackSamples)) float_t _attackSamples;
+  /// @brief Method OnAudioFilterRead, addr 0x2382684, size 0x154, virtual false, abstract: false, final false
+  inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Field _releaseSamples, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__releaseSamples, put = __cordl_internal_set__releaseSamples)) float_t _releaseSamples;
+  /// @brief Method OnDisable, addr 0x23825fc, size 0x84, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  /// @brief Field _attackCoef, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__attackCoef, put = __cordl_internal_set__attackCoef)) float_t _attackCoef;
+  /// @brief Method OnValidate, addr 0x2382680, size 0x4, virtual false, abstract: false, final false
+  inline void OnValidate();
 
-  /// @brief Field _releaseCoef, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__releaseCoef, put = __cordl_internal_set__releaseCoef)) float_t _releaseCoef;
+  /// @brief Method RecalculateParams, addr 0x2382584, size 0x78, virtual false, abstract: false, final false
+  inline void RecalculateParams();
 
-  /// @brief Field _maxVolume, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxVolume, put = __cordl_internal_set__maxVolume)) float_t _maxVolume;
+  /// @brief Method Start, addr 0x2382580, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO>& __cordl_internal_get__params();
+  /// @brief Method Update, addr 0x23827d8, size 0x4c, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr ::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> const& __cordl_internal_get__params() const;
+  constexpr float_t const& __cordl_internal_get__attackCoef() const;
 
-  constexpr void __cordl_internal_set__params(::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> value);
+  constexpr float_t& __cordl_internal_get__attackCoef();
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
+  constexpr float_t const& __cordl_internal_get__attackSamples() const;
+
+  constexpr float_t& __cordl_internal_get__attackSamples();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
-  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
+
+  constexpr float_t const& __cordl_internal_get__envelope() const;
+
+  constexpr float_t& __cordl_internal_get__envelope();
 
   constexpr ::GlobalNamespace::__AutomaticSFXVolume__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AutomaticSFXVolume__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__AutomaticSFXVolume__InitData* value);
-
-  constexpr float_t& __cordl_internal_get__sampleRate();
-
-  constexpr float_t const& __cordl_internal_get__sampleRate() const;
-
-  constexpr void __cordl_internal_set__sampleRate(float_t value);
-
-  constexpr float_t& __cordl_internal_get__volume();
-
-  constexpr float_t const& __cordl_internal_get__volume() const;
-
-  constexpr void __cordl_internal_set__volume(float_t value);
-
-  constexpr float_t& __cordl_internal_get__envelope();
-
-  constexpr float_t const& __cordl_internal_get__envelope() const;
-
-  constexpr void __cordl_internal_set__envelope(float_t value);
-
-  constexpr float_t& __cordl_internal_get__attackSamples();
-
-  constexpr float_t const& __cordl_internal_get__attackSamples() const;
-
-  constexpr void __cordl_internal_set__attackSamples(float_t value);
-
-  constexpr float_t& __cordl_internal_get__releaseSamples();
-
-  constexpr float_t const& __cordl_internal_get__releaseSamples() const;
-
-  constexpr void __cordl_internal_set__releaseSamples(float_t value);
-
-  constexpr float_t& __cordl_internal_get__attackCoef();
-
-  constexpr float_t const& __cordl_internal_get__attackCoef() const;
-
-  constexpr void __cordl_internal_set__attackCoef(float_t value);
-
-  constexpr float_t& __cordl_internal_get__releaseCoef();
-
-  constexpr float_t const& __cordl_internal_get__releaseCoef() const;
-
-  constexpr void __cordl_internal_set__releaseCoef(float_t value);
+  constexpr float_t const& __cordl_internal_get__maxVolume() const;
 
   constexpr float_t& __cordl_internal_get__maxVolume();
 
-  constexpr float_t const& __cordl_internal_get__maxVolume() const;
+  constexpr ::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> const& __cordl_internal_get__params() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO>& __cordl_internal_get__params();
+
+  constexpr float_t const& __cordl_internal_get__releaseCoef() const;
+
+  constexpr float_t& __cordl_internal_get__releaseCoef();
+
+  constexpr float_t const& __cordl_internal_get__releaseSamples() const;
+
+  constexpr float_t& __cordl_internal_get__releaseSamples();
+
+  constexpr float_t const& __cordl_internal_get__sampleRate() const;
+
+  constexpr float_t& __cordl_internal_get__sampleRate();
+
+  constexpr float_t const& __cordl_internal_get__volume() const;
+
+  constexpr float_t& __cordl_internal_get__volume();
+
+  constexpr void __cordl_internal_set__attackCoef(float_t value);
+
+  constexpr void __cordl_internal_set__attackSamples(float_t value);
+
+  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
+
+  constexpr void __cordl_internal_set__envelope(float_t value);
+
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__AutomaticSFXVolume__InitData* value);
 
   constexpr void __cordl_internal_set__maxVolume(float_t value);
 
-  /// @brief Method Start, addr 0x222c278, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__params(::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> value);
 
-  /// @brief Method OnDisable, addr 0x222c2f4, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
+  constexpr void __cordl_internal_set__releaseCoef(float_t value);
 
-  /// @brief Method OnValidate, addr 0x222c37c, size 0x4, virtual false, abstract: false, final false
-  inline void OnValidate();
+  constexpr void __cordl_internal_set__releaseSamples(float_t value);
 
-  /// @brief Method RecalculateParams, addr 0x222c27c, size 0x78, virtual false, abstract: false, final false
-  inline void RecalculateParams();
+  constexpr void __cordl_internal_set__sampleRate(float_t value);
 
-  /// @brief Method OnAudioFilterRead, addr 0x222c380, size 0x154, virtual false, abstract: false, final false
-  inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
+  constexpr void __cordl_internal_set__volume(float_t value);
 
-  /// @brief Method Update, addr 0x222c4d4, size 0x50, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::AutomaticSFXVolume* New_ctor();
-
-  /// @brief Method .ctor, addr 0x222c524, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382824, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AutomaticSFXVolume();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolume", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutomaticSFXVolume(AutomaticSFXVolume&&) = delete;
@@ -246,12 +248,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AutomaticSFXVolume(AutomaticSFXVolume const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AutomaticSFXVolume();
-
-public:
   /// @brief Field _params, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AutomaticSFXVolumeParamsSO> ____params;
 

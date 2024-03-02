@@ -6,8 +6,8 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
+#include "BGLib/DotnetExtension/Collections/zzzz__LRUCache_2_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
-#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
@@ -139,16 +139,19 @@ constexpr void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scheduledTaskList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TKey, typename TValue> constexpr ::GlobalNamespace::HMCache_2<TKey, TValue>*& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_get__cache() {
+template <typename TKey, typename TValue>
+constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_get__cache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<TKey, TValue>*> const& GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_get__cache() const {
+constexpr ::cordl_internals::to_const_pointer<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*> const&
+GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_get__cache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cache;
 }
-template <typename TKey, typename TValue> constexpr void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_set__cache(::GlobalNamespace::HMCache_2<TKey, TValue>* value) {
+template <typename TKey, typename TValue>
+constexpr void GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>::__cordl_internal_set__cache(::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

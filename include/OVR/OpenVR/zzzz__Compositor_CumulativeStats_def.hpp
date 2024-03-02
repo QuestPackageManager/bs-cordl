@@ -15,12 +15,14 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8705))
 // CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
 struct CORDL_TYPE Compositor_CumulativeStats {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Compositor_CumulativeStats();
+
   // Ctor Parameters [CppParam { name: "m_nPid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumReprojectedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_nNumFramePresentsOnStartup", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFramesOnStartup", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
@@ -33,10 +35,6 @@ public:
                                        uint32_t m_nNumDroppedFramesOnStartup, uint32_t m_nNumReprojectedFramesOnStartup, uint32_t m_nNumLoading, uint32_t m_nNumFramePresentsLoading,
                                        uint32_t m_nNumDroppedFramesLoading, uint32_t m_nNumReprojectedFramesLoading, uint32_t m_nNumTimedOut, uint32_t m_nNumFramePresentsTimedOut,
                                        uint32_t m_nNumDroppedFramesTimedOut, uint32_t m_nNumReprojectedFramesTimedOut) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Compositor_CumulativeStats();
 
   /// @brief Field m_nPid, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nPid;

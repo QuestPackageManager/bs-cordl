@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithLightGroupIds);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14528))
 // CS Name: ::DirectionalLightWithLightGroupIds*
 class CORDL_TYPE DirectionalLightWithLightGroupIds : public ::GlobalNamespace::RuntimeLightWithLightGroupIds {
 public:
@@ -29,20 +27,26 @@ public:
   /// @brief Field _directionalLight, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
 
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
-
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
-
-  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
-
-  /// @brief Method ColorWasSet, addr 0x210f1f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2272004, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f214, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
+
+  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
+
+  /// @brief Method .ctor, addr 0x2272024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectionalLightWithLightGroupIds();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithLightGroupIds", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectionalLightWithLightGroupIds(DirectionalLightWithLightGroupIds const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectionalLightWithLightGroupIds();
-
-public:
   /// @brief Field _directionalLight, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 

@@ -21,30 +21,20 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3253))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3298))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameInfo*
 class CORDL_TYPE NameInfo : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsSealed)) bool IsSealed;
+
   /// @brief Field NIFullName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_NIFullName, put = __cordl_internal_set_NIFullName))::StringW NIFullName;
 
-  /// @brief Field NIobjectId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_NIobjectId, put = __cordl_internal_set_NIobjectId)) int64_t NIobjectId;
+  /// @brief Field NIarrayEnum, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_NIarrayEnum, put = __cordl_internal_set_NIarrayEnum))::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
 
   /// @brief Field NIassemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_NIassemId, put = __cordl_internal_set_NIassemId)) int64_t NIassemId;
-
-  /// @brief Field NIprimitiveTypeEnum, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_NIprimitiveTypeEnum,
-                      put = __cordl_internal_set_NIprimitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
-
-  /// @brief Field NItype, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype))::System::Type* NItype;
-
-  /// @brief Field NIisSealed, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_NIisSealed, put = __cordl_internal_set_NIisSealed)) bool NIisSealed;
 
   /// @brief Field NIisArray, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_NIisArray, put = __cordl_internal_set_NIisArray)) bool NIisArray;
@@ -52,120 +42,134 @@ public:
   /// @brief Field NIisArrayItem, offset 0x3a, size 0x1
   __declspec(property(get = __cordl_internal_get_NIisArrayItem, put = __cordl_internal_set_NIisArrayItem)) bool NIisArrayItem;
 
-  /// @brief Field NItransmitTypeOnObject, offset 0x3b, size 0x1
-  __declspec(property(get = __cordl_internal_get_NItransmitTypeOnObject, put = __cordl_internal_set_NItransmitTypeOnObject)) bool NItransmitTypeOnObject;
-
-  /// @brief Field NItransmitTypeOnMember, offset 0x3c, size 0x1
-  __declspec(property(get = __cordl_internal_get_NItransmitTypeOnMember, put = __cordl_internal_set_NItransmitTypeOnMember)) bool NItransmitTypeOnMember;
-
   /// @brief Field NIisParentTypeOnObject, offset 0x3d, size 0x1
   __declspec(property(get = __cordl_internal_get_NIisParentTypeOnObject, put = __cordl_internal_set_NIisParentTypeOnObject)) bool NIisParentTypeOnObject;
 
-  /// @brief Field NIarrayEnum, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_NIarrayEnum, put = __cordl_internal_set_NIarrayEnum))::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
+  /// @brief Field NIisSealed, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_NIisSealed, put = __cordl_internal_set_NIisSealed)) bool NIisSealed;
+
+  __declspec(property(get = get_NIname, put = set_NIname))::StringW NIname;
+
+  /// @brief Field NIobjectId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_NIobjectId, put = __cordl_internal_set_NIobjectId)) int64_t NIobjectId;
+
+  /// @brief Field NIprimitiveTypeEnum, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_NIprimitiveTypeEnum,
+                      put = __cordl_internal_set_NIprimitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
 
   /// @brief Field NIsealedStatusChecked, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get_NIsealedStatusChecked, put = __cordl_internal_set_NIsealedStatusChecked)) bool NIsealedStatusChecked;
 
-  __declspec(property(get = get_IsSealed)) bool IsSealed;
+  /// @brief Field NItransmitTypeOnMember, offset 0x3c, size 0x1
+  __declspec(property(get = __cordl_internal_get_NItransmitTypeOnMember, put = __cordl_internal_set_NItransmitTypeOnMember)) bool NItransmitTypeOnMember;
 
-  __declspec(property(get = get_NIname, put = set_NIname))::StringW NIname;
+  /// @brief Field NItransmitTypeOnObject, offset 0x3b, size 0x1
+  __declspec(property(get = __cordl_internal_get_NItransmitTypeOnObject, put = __cordl_internal_set_NItransmitTypeOnObject)) bool NItransmitTypeOnObject;
 
-  constexpr ::StringW& __cordl_internal_get_NIFullName();
+  /// @brief Field NItype, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype))::System::Type* NItype;
+
+  /// @brief Method Init, addr 0x25c2b84, size 0x20, virtual false, abstract: false, final false
+  inline void Init();
+
+  static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_NIFullName() const;
 
-  constexpr void __cordl_internal_set_NIFullName(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_NIFullName();
 
-  constexpr int64_t& __cordl_internal_get_NIobjectId();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const& __cordl_internal_get_NIarrayEnum() const;
 
-  constexpr int64_t const& __cordl_internal_get_NIobjectId() const;
-
-  constexpr void __cordl_internal_set_NIobjectId(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get_NIassemId();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& __cordl_internal_get_NIarrayEnum();
 
   constexpr int64_t const& __cordl_internal_get_NIassemId() const;
 
-  constexpr void __cordl_internal_set_NIassemId(int64_t value);
+  constexpr int64_t& __cordl_internal_get_NIassemId();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_NIprimitiveTypeEnum();
+  constexpr bool const& __cordl_internal_get_NIisArray() const;
+
+  constexpr bool& __cordl_internal_get_NIisArray();
+
+  constexpr bool const& __cordl_internal_get_NIisArrayItem() const;
+
+  constexpr bool& __cordl_internal_get_NIisArrayItem();
+
+  constexpr bool const& __cordl_internal_get_NIisParentTypeOnObject() const;
+
+  constexpr bool& __cordl_internal_get_NIisParentTypeOnObject();
+
+  constexpr bool const& __cordl_internal_get_NIisSealed() const;
+
+  constexpr bool& __cordl_internal_get_NIisSealed();
+
+  constexpr int64_t const& __cordl_internal_get_NIobjectId() const;
+
+  constexpr int64_t& __cordl_internal_get_NIobjectId();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_NIprimitiveTypeEnum() const;
 
-  constexpr void __cordl_internal_set_NIprimitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_NIprimitiveTypeEnum();
+
+  constexpr bool const& __cordl_internal_get_NIsealedStatusChecked() const;
+
+  constexpr bool& __cordl_internal_get_NIsealedStatusChecked();
+
+  constexpr bool const& __cordl_internal_get_NItransmitTypeOnMember() const;
+
+  constexpr bool& __cordl_internal_get_NItransmitTypeOnMember();
+
+  constexpr bool const& __cordl_internal_get_NItransmitTypeOnObject() const;
+
+  constexpr bool& __cordl_internal_get_NItransmitTypeOnObject();
 
   constexpr ::System::Type*& __cordl_internal_get_NItype();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_NItype() const;
 
-  constexpr void __cordl_internal_set_NItype(::System::Type* value);
-
-  constexpr bool& __cordl_internal_get_NIisSealed();
-
-  constexpr bool const& __cordl_internal_get_NIisSealed() const;
-
-  constexpr void __cordl_internal_set_NIisSealed(bool value);
-
-  constexpr bool& __cordl_internal_get_NIisArray();
-
-  constexpr bool const& __cordl_internal_get_NIisArray() const;
-
-  constexpr void __cordl_internal_set_NIisArray(bool value);
-
-  constexpr bool& __cordl_internal_get_NIisArrayItem();
-
-  constexpr bool const& __cordl_internal_get_NIisArrayItem() const;
-
-  constexpr void __cordl_internal_set_NIisArrayItem(bool value);
-
-  constexpr bool& __cordl_internal_get_NItransmitTypeOnObject();
-
-  constexpr bool const& __cordl_internal_get_NItransmitTypeOnObject() const;
-
-  constexpr void __cordl_internal_set_NItransmitTypeOnObject(bool value);
-
-  constexpr bool& __cordl_internal_get_NItransmitTypeOnMember();
-
-  constexpr bool const& __cordl_internal_get_NItransmitTypeOnMember() const;
-
-  constexpr void __cordl_internal_set_NItransmitTypeOnMember(bool value);
-
-  constexpr bool& __cordl_internal_get_NIisParentTypeOnObject();
-
-  constexpr bool const& __cordl_internal_get_NIisParentTypeOnObject() const;
-
-  constexpr void __cordl_internal_set_NIisParentTypeOnObject(bool value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& __cordl_internal_get_NIarrayEnum();
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const& __cordl_internal_get_NIarrayEnum() const;
+  constexpr void __cordl_internal_set_NIFullName(::StringW value);
 
   constexpr void __cordl_internal_set_NIarrayEnum(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE value);
 
-  constexpr bool& __cordl_internal_get_NIsealedStatusChecked();
+  constexpr void __cordl_internal_set_NIassemId(int64_t value);
 
-  constexpr bool const& __cordl_internal_get_NIsealedStatusChecked() const;
+  constexpr void __cordl_internal_set_NIisArray(bool value);
+
+  constexpr void __cordl_internal_set_NIisArrayItem(bool value);
+
+  constexpr void __cordl_internal_set_NIisParentTypeOnObject(bool value);
+
+  constexpr void __cordl_internal_set_NIisSealed(bool value);
+
+  constexpr void __cordl_internal_set_NIobjectId(int64_t value);
+
+  constexpr void __cordl_internal_set_NIprimitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
 
   constexpr void __cordl_internal_set_NIsealedStatusChecked(bool value);
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
+  constexpr void __cordl_internal_set_NItransmitTypeOnMember(bool value);
 
-  /// @brief Method .ctor, addr 0x24d1e48, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_NItransmitTypeOnObject(bool value);
+
+  constexpr void __cordl_internal_set_NItype(::System::Type* value);
+
+  /// @brief Method .ctor, addr 0x25c2bb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x24d1e18, size 0x20, virtual false, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method get_IsSealed, addr 0x24d1b74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x25c28e0, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x24d6188, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x25c6ef4, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x24d61c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x25c6f2c, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NameInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NameInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameInfo(NameInfo&&) = delete;
@@ -174,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NameInfo(NameInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NameInfo();
-
-public:
   /// @brief Field NIFullName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___NIFullName;
 

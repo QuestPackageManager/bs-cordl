@@ -25,38 +25,42 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInterface);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9252))
 // CS Name: ::System.Net.NetworkInformation::NetworkInterface*
 class CORDL_TYPE NetworkInterface : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Name))::StringW Name;
 
-  __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
-
   __declspec(property(get = get_NetworkInterfaceType))::System::Net::NetworkInformation::NetworkInterfaceType NetworkInterfaceType;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x29eb788, size 0x4c, virtual false, abstract: false, final false
+  __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
+
+  /// @brief Method GetAllNetworkInterfaces, addr 0x2ad8300, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method get_Name, addr 0x29eb8d0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
-
-  /// @brief Method GetIPProperties, addr 0x29eb910, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x2ad8488, size 0x40, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
-
-  /// @brief Method get_OperationalStatus, addr 0x29eb950, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
-
-  /// @brief Method get_NetworkInterfaceType, addr 0x29eb990, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
   static inline ::System::Net::NetworkInformation::NetworkInterface* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29eb9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad8548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Name, addr 0x2ad8448, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
+
+  /// @brief Method get_NetworkInterfaceType, addr 0x2ad8508, size 0x40, virtual true, abstract: false, final false
+  inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
+
+  /// @brief Method get_OperationalStatus, addr 0x2ad84c8, size 0x40, virtual true, abstract: false, final false
+  inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkInterface();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInterface", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkInterface(NetworkInterface&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkInterface(NetworkInterface const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkInterface();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

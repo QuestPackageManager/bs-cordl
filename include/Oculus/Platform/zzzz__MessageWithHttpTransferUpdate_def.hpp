@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithHttpTransferUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13436)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 973 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13334)) CS Name: ::Oculus.Platform::MessageWithHttpTransferUpdate*
+// CS Name: ::Oculus.Platform::MessageWithHttpTransferUpdate*
 class CORDL_TYPE MessageWithHttpTransferUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26efb88, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetHttpTransferUpdate, addr 0x26f4350, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
-
-  /// @brief Method GetDataFromMessage, addr 0x26f438c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e5c94, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(void* c_message);
 
+  /// @brief Method GetHttpTransferUpdate, addr 0x27e5c58, size 0x3c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
+
+  static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e1490, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithHttpTransferUpdate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithHttpTransferUpdate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithHttpTransferUpdate(MessageWithHttpTransferUpdate&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithHttpTransferUpdate(MessageWithHttpTransferUpdate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithHttpTransferUpdate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

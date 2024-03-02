@@ -25,29 +25,17 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::BezierShape);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12104))
 // CS Name: ::UnityEngine.ProBuilder::BezierShape*
 class CORDL_TYPE BezierShape : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field points, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* points;
-
   /// @brief Field closeLoop, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_closeLoop, put = __cordl_internal_set_closeLoop)) bool closeLoop;
-
-  /// @brief Field radius, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
-
-  /// @brief Field rows, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_rows, put = __cordl_internal_set_rows)) int32_t rows;
 
   /// @brief Field columns, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_columns, put = __cordl_internal_set_columns)) int32_t columns;
 
-  /// @brief Field smooth, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_smooth, put = __cordl_internal_set_smooth)) bool smooth;
+  __declspec(property(get = get_isEditing, put = set_isEditing)) bool isEditing;
 
   /// @brief Field m_IsEditing, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsEditing, put = __cordl_internal_set_m_IsEditing)) bool m_IsEditing;
@@ -55,81 +43,97 @@ public:
   /// @brief Field m_Mesh, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
 
-  __declspec(property(get = get_isEditing, put = set_isEditing)) bool isEditing;
-
   __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
+
+  /// @brief Field points, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* points;
+
+  /// @brief Field radius, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
+
+  /// @brief Field rows, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_rows, put = __cordl_internal_set_rows)) int32_t rows;
+
+  /// @brief Field smooth, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_smooth, put = __cordl_internal_set_smooth)) bool smooth;
+
+  /// @brief Method Init, addr 0x2c1de1c, size 0x260, virtual false, abstract: false, final false
+  inline void Init();
+
+  static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
+
+  /// @brief Method Refresh, addr 0x2c1e07c, size 0xc0, virtual false, abstract: false, final false
+  inline void Refresh();
+
+  constexpr bool const& __cordl_internal_get_closeLoop() const;
+
+  constexpr bool& __cordl_internal_get_closeLoop();
+
+  constexpr int32_t const& __cordl_internal_get_columns() const;
+
+  constexpr int32_t& __cordl_internal_get_columns();
+
+  constexpr bool const& __cordl_internal_get_m_IsEditing() const;
+
+  constexpr bool& __cordl_internal_get_m_IsEditing();
+
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_m_Mesh() const;
+
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Mesh();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*& __cordl_internal_get_points();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*> const& __cordl_internal_get_points() const;
 
-  constexpr void __cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* value);
-
-  constexpr bool& __cordl_internal_get_closeLoop();
-
-  constexpr bool const& __cordl_internal_get_closeLoop() const;
-
-  constexpr void __cordl_internal_set_closeLoop(bool value);
+  constexpr float_t const& __cordl_internal_get_radius() const;
 
   constexpr float_t& __cordl_internal_get_radius();
 
-  constexpr float_t const& __cordl_internal_get_radius() const;
-
-  constexpr void __cordl_internal_set_radius(float_t value);
+  constexpr int32_t const& __cordl_internal_get_rows() const;
 
   constexpr int32_t& __cordl_internal_get_rows();
 
-  constexpr int32_t const& __cordl_internal_get_rows() const;
-
-  constexpr void __cordl_internal_set_rows(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_columns();
-
-  constexpr int32_t const& __cordl_internal_get_columns() const;
-
-  constexpr void __cordl_internal_set_columns(int32_t value);
+  constexpr bool const& __cordl_internal_get_smooth() const;
 
   constexpr bool& __cordl_internal_get_smooth();
 
-  constexpr bool const& __cordl_internal_get_smooth() const;
+  constexpr void __cordl_internal_set_closeLoop(bool value);
 
-  constexpr void __cordl_internal_set_smooth(bool value);
-
-  constexpr bool& __cordl_internal_get_m_IsEditing();
-
-  constexpr bool const& __cordl_internal_get_m_IsEditing() const;
+  constexpr void __cordl_internal_set_columns(int32_t value);
 
   constexpr void __cordl_internal_set_m_IsEditing(bool value);
 
-  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Mesh();
-
-  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_m_Mesh() const;
-
   constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method get_isEditing, addr 0x2b3812c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isEditing();
+  constexpr void __cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* value);
 
-  /// @brief Method set_isEditing, addr 0x2b38134, size 0xc, virtual false, abstract: false, final false
-  inline void set_isEditing(bool value);
+  constexpr void __cordl_internal_set_radius(float_t value);
 
-  /// @brief Method get_mesh, addr 0x2b38140, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
+  constexpr void __cordl_internal_set_rows(int32_t value);
 
-  /// @brief Method set_mesh, addr 0x2b381d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_smooth(bool value);
 
-  /// @brief Method Init, addr 0x2b381dc, size 0x260, virtual false, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method Refresh, addr 0x2b3843c, size 0xc0, virtual false, abstract: false, final false
-  inline void Refresh();
-
-  static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b384fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1e13c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isEditing, addr 0x2c1dd6c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isEditing();
+
+  /// @brief Method get_mesh, addr 0x2c1dd80, size 0x94, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
+
+  /// @brief Method set_isEditing, addr 0x2c1dd74, size 0xc, virtual false, abstract: false, final false
+  inline void set_isEditing(bool value);
+
+  /// @brief Method set_mesh, addr 0x2c1de14, size 0x8, virtual false, abstract: false, final false
+  inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BezierShape();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierShape(BezierShape&&) = delete;
@@ -138,12 +142,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BezierShape(BezierShape const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BezierShape();
-
-public:
   /// @brief Field points, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* ___points;
 

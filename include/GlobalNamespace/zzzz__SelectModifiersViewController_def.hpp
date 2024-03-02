@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectModifiersViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5721))
 // CS Name: ::SelectModifiersViewController*
 class CORDL_TYPE SelectModifiersViewController : public ::HMUI::ViewController {
 public:
@@ -32,26 +30,32 @@ public:
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& __cordl_internal_get__gameplayModifiersPanelController();
-
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get__gameplayModifiersPanelController() const;
-
-  constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
-
-  /// @brief Method get_gameplayModifiers, addr 0x22d0164, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
-
-  /// @brief Method Setup, addr 0x22d0180, size 0x1c, virtual false, abstract: false, final false
-  inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-
-  /// @brief Method DidActivate, addr 0x22d019c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23ce60c, size 0xa0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::SelectModifiersViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d023c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x23ce5f0, size 0x1c, virtual false, abstract: false, final false
+  inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get__gameplayModifiersPanelController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& __cordl_internal_get__gameplayModifiersPanelController();
+
+  constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
+
+  /// @brief Method .ctor, addr 0x23ce6ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_gameplayModifiers, addr 0x23ce5d4, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SelectModifiersViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectModifiersViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectModifiersViewController(SelectModifiersViewController&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectModifiersViewController(SelectModifiersViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectModifiersViewController();
-
-public:
   /// @brief Field _gameplayModifiersPanelController, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> ____gameplayModifiersPanelController;
 

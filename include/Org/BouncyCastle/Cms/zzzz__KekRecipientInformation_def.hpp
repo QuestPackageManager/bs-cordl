@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KekRecipientInformation);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(672))
 // CS Name: ::Org.BouncyCastle.Cms::KekRecipientInformation*
 class CORDL_TYPE KekRecipientInformation : public ::Org::BouncyCastle::Cms::RecipientInformation {
 public:
@@ -35,20 +33,26 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info;
 
+  /// @brief Method GetContentStream, addr 0x127359c, size 0x338, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+
+  static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+
   constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*& __cordl_internal_get_info();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*> const& __cordl_internal_get_info() const;
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* value);
 
-  static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
-
-  /// @brief Method .ctor, addr 0x11e391c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x125477c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetContentStream, addr 0x120273c, size 0x338, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KekRecipientInformation();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KekRecipientInformation(KekRecipientInformation&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KekRecipientInformation(KekRecipientInformation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KekRecipientInformation();
-
-public:
   /// @brief Field info, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* ___info;
 

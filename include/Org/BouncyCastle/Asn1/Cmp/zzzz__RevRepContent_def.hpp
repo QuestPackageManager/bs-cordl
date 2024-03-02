@@ -33,59 +33,63 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevRepContent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(51))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevRepContent*
 class CORDL_TYPE RevRepContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Asn1Sequence* status;
+  /// @brief Field crls, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
 
   /// @brief Field revCerts, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_revCerts, put = __cordl_internal_set_revCerts))::Org::BouncyCastle::Asn1::Asn1Sequence* revCerts;
 
-  /// @brief Field crls, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
+  /// @brief Field status, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Asn1Sequence* status;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_status();
+  /// @brief Method GetCrls, addr 0xee0d88, size 0x100, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrls();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_status() const;
+  /// @brief Method GetInstance, addr 0xedb718, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* GetInstance(::System::Object* obj);
 
-  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  /// @brief Method GetRevCerts, addr 0xee0c88, size 0x100, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertId*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertId*>*> GetRevCerts();
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_revCerts();
+  /// @brief Method GetStatus, addr 0xee0b94, size 0xf4, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>*> GetStatus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_revCerts() const;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr void __cordl_internal_set_revCerts(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  /// @brief Method ToAsn1Object, addr 0xee0e88, size 0x12c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crls();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_crls() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_revCerts();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_revCerts() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_status();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_status() const;
+
   constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  constexpr void __cordl_internal_set_revCerts(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0xe6ec54, size 0xe0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+
+  /// @brief Method .ctor, addr 0xee0ab4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe698b8, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* GetInstance(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RevRepContent();
 
-  /// @brief Method GetStatus, addr 0xe6ed34, size 0xf4, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>*> GetStatus();
-
-  /// @brief Method GetRevCerts, addr 0xe6ee28, size 0x100, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertId*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertId*>*> GetRevCerts();
-
-  /// @brief Method GetCrls, addr 0xe6ef28, size 0x100, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrls();
-
-  /// @brief Method ToAsn1Object, addr 0xe6f028, size 0x12c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RevRepContent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevRepContent(RevRepContent&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevRepContent(RevRepContent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RevRepContent();
-
-public:
   /// @brief Field status, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___status;
 

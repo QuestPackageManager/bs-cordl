@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StackGuard);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2793))
 // CS Name: ::System.Threading.Tasks::StackGuard*
 class CORDL_TYPE StackGuard : public ::System::Object {
 public:
@@ -24,23 +22,29 @@ public:
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  constexpr int32_t& __cordl_internal_get_m_inliningDepth();
-
-  constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
-
-  constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
-
-  /// @brief Method TryBeginInliningScope, addr 0x262b39c, size 0x40, virtual false, abstract: false, final false
-  inline bool TryBeginInliningScope();
-
-  /// @brief Method EndInliningScope, addr 0x262b3dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x271fc4c, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26240c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x271fc0c, size 0x40, virtual false, abstract: false, final false
+  inline bool TryBeginInliningScope();
+
+  constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
+
+  constexpr int32_t& __cordl_internal_get_m_inliningDepth();
+
+  constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2718934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StackGuard();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StackGuard", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackGuard(StackGuard&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StackGuard(StackGuard const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StackGuard();
-
-public:
   /// @brief Field m_inliningDepth, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_inliningDepth;
 

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)()>(&::RootMotion::HumanoidBaker::Awake)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x1234900;
+  constexpr static std::size_t addrs = 0x131099c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::HumanoidBaker*>::get(), "Awake",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::RootMotion::HumanoidBaker::*)()>(
     &::RootMotion::HumanoidBaker::GetCharacterRoot)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1234db8;
+  constexpr static std::size_t addrs = 0x1310e54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)()>(&::RootMotion::HumanoidBaker::OnStartBaking)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x1234dd4;
+  constexpr static std::size_t addrs = 0x1310e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)(float_t)>(&::RootMotion::HumanoidBaker::OnSetLoopFrame)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x1234eb0;
+  constexpr static std::size_t addrs = 0x1310f4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)(ByRef<::UnityEngine::AnimationClip*>)>(
     &::RootMotion::HumanoidBaker::OnSetCurves)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x1234f6c;
+  constexpr static std::size_t addrs = 0x1311008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)(float_t, bool)>(&::RootMotion::HumanoidBaker::OnSetKeyframes)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x123510c;
+  constexpr static std::size_t addrs = 0x13111a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)()>(&::RootMotion::HumanoidBaker::UpdateHumanPose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x12353b0;
+  constexpr static std::size_t addrs = 0x131144c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::HumanoidBaker*>::get(), "UpdateHumanPose",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::HumanoidBaker::*)()>(&::RootMotion::HumanoidBaker::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x1235488;
+  constexpr static std::size_t addrs = 0x1311524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::HumanoidBaker*>::get(), ".ctor",

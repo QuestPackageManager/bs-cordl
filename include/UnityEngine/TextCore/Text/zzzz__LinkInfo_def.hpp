@@ -16,24 +16,22 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LinkInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13686))
 // CS Name: ::UnityEngine.TextCore.Text::LinkInfo
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method SetLinkId, addr 0x2d407a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x2e4c970, size 0xd4, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinkInfo();
 
   // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkId", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }]
   constexpr LinkInfo(int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength,
                      ::ArrayW<char16_t, ::Array<char16_t>*> linkId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkInfo();
 
   /// @brief Field hashCode, offset: 0x0, size: 0x4, def value: None
   int32_t hashCode;

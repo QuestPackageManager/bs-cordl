@@ -23,20 +23,18 @@ MARK_VAL_T(::UnityEngine::SkeletonBone);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14849))
 // CS Name: ::UnityEngine::SkeletonBone
 struct CORDL_TYPE SkeletonBone {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SkeletonBone();
+
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
   // "scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
   constexpr SkeletonBone(::StringW name, ::StringW parentName, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SkeletonBone();
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;

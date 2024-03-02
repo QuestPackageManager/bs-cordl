@@ -53,14 +53,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextReader);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11866)), TypeDefinitionIndex(TypeDefinitionIndex(11890))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11824))
 // CS Name: ::Newtonsoft.Json::JsonTextReader*
 class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
-  /// @brief Field _reader, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::IO::TextReader* _reader;
+  __declspec(property(get = get_ArrayPool, put = set_ArrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
+
+  __declspec(property(get = get_LineNumber)) int32_t LineNumber;
+
+  __declspec(property(get = get_LinePosition)) int32_t LinePosition;
+
+  /// @brief Field NameTable, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_NameTable, put = __cordl_internal_set_NameTable))::Newtonsoft::Json::Utilities::PropertyNameTable* NameTable;
+
+  /// @brief Field _arrayPool, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
+
+  /// @brief Field _charPos, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
 
   /// @brief Field _chars, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__chars, put = __cordl_internal_set__chars))::ArrayW<char16_t, ::Array<char16_t>*> _chars;
@@ -68,17 +78,17 @@ public:
   /// @brief Field _charsUsed, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__charsUsed, put = __cordl_internal_set__charsUsed)) int32_t _charsUsed;
 
-  /// @brief Field _charPos, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
-
-  /// @brief Field _lineStartPos, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__lineStartPos, put = __cordl_internal_set__lineStartPos)) int32_t _lineStartPos;
+  /// @brief Field _isEndOfFile, offset 0x98, size 0x1
+  __declspec(property(get = __cordl_internal_get__isEndOfFile, put = __cordl_internal_set__isEndOfFile)) bool _isEndOfFile;
 
   /// @brief Field _lineNumber, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__lineNumber, put = __cordl_internal_set__lineNumber)) int32_t _lineNumber;
 
-  /// @brief Field _isEndOfFile, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get__isEndOfFile, put = __cordl_internal_set__isEndOfFile)) bool _isEndOfFile;
+  /// @brief Field _lineStartPos, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get__lineStartPos, put = __cordl_internal_set__lineStartPos)) int32_t _lineStartPos;
+
+  /// @brief Field _reader, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::IO::TextReader* _reader;
 
   /// @brief Field _stringBuffer, offset 0xa0, size 0x10
   __declspec(property(get = __cordl_internal_get__stringBuffer, put = __cordl_internal_set__stringBuffer))::Newtonsoft::Json::Utilities::StringBuffer _stringBuffer;
@@ -86,275 +96,269 @@ public:
   /// @brief Field _stringReference, offset 0xb0, size 0x10
   __declspec(property(get = __cordl_internal_get__stringReference, put = __cordl_internal_set__stringReference))::Newtonsoft::Json::Utilities::StringReference _stringReference;
 
-  /// @brief Field _arrayPool, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
-
-  /// @brief Field NameTable, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_NameTable, put = __cordl_internal_set_NameTable))::Newtonsoft::Json::Utilities::PropertyNameTable* NameTable;
-
-  __declspec(property(get = get_ArrayPool, put = set_ArrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
-
-  __declspec(property(get = get_LineNumber)) int32_t LineNumber;
-
-  __declspec(property(get = get_LinePosition)) int32_t LinePosition;
-
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
-  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
+  /// @brief Method BlockCopyChars, addr 0x2734e24, size 0x14, virtual false, abstract: false, final false
+  static inline void BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset, int32_t count);
 
-  constexpr ::System::IO::TextReader*& __cordl_internal_get__reader();
+  /// @brief Method ClearRecentString, addr 0x273a578, size 0xc, virtual false, abstract: false, final false
+  inline void ClearRecentString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get__reader() const;
+  /// @brief Method Close, addr 0x273b2ac, size 0x60, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr void __cordl_internal_set__reader(::System::IO::TextReader* value);
+  /// @brief Method CreateUnexpectedCharacterException, addr 0x2737704, size 0xd0, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__chars();
+  /// @brief Method EatWhitespace, addr 0x2735b58, size 0x130, virtual false, abstract: false, final false
+  inline bool EatWhitespace(bool oneOrMore);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__chars() const;
+  /// @brief Method EndComment, addr 0x273aff0, size 0x60, virtual false, abstract: false, final false
+  inline void EndComment(bool setToken, int32_t initialPosition, int32_t endPosition);
 
-  constexpr void __cordl_internal_set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  /// @brief Method EnsureBuffer, addr 0x27352f8, size 0x44, virtual false, abstract: false, final false
+  inline void EnsureBuffer();
 
-  constexpr int32_t& __cordl_internal_get__charsUsed();
+  /// @brief Method EnsureBufferNotEmpty, addr 0x27342c8, size 0x54, virtual false, abstract: false, final false
+  inline void EnsureBufferNotEmpty();
 
-  constexpr int32_t const& __cordl_internal_get__charsUsed() const;
+  /// @brief Method EnsureChars, addr 0x2735050, size 0x20, virtual false, abstract: false, final false
+  inline bool EnsureChars(int32_t relativePosition, bool append);
 
-  constexpr void __cordl_internal_set__charsUsed(int32_t value);
+  /// @brief Method HandleNull, addr 0x27375dc, size 0xd0, virtual false, abstract: false, final false
+  inline void HandleNull();
 
-  constexpr int32_t& __cordl_internal_get__charPos();
+  /// @brief Method HasLineInfo, addr 0x273b320, size 0x8, virtual true, abstract: false, final true
+  inline bool HasLineInfo();
 
-  constexpr int32_t const& __cordl_internal_get__charPos() const;
+  /// @brief Method IsSeparator, addr 0x273b154, size 0x158, virtual false, abstract: false, final false
+  inline bool IsSeparator(char16_t c);
 
-  constexpr void __cordl_internal_set__charPos(int32_t value);
+  /// @brief Method MatchValue, addr 0x273b050, size 0x104, virtual false, abstract: false, final false
+  inline bool MatchValue(::StringW value);
 
-  constexpr int32_t& __cordl_internal_get__lineStartPos();
+  /// @brief Method MatchValueWithTrailingSeparator, addr 0x2738df0, size 0xa4, virtual false, abstract: false, final false
+  inline bool MatchValueWithTrailingSeparator(::StringW value);
 
-  constexpr int32_t const& __cordl_internal_get__lineStartPos() const;
+  static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
 
-  constexpr void __cordl_internal_set__lineStartPos(int32_t value);
+  /// @brief Method OnNewLine, addr 0x273431c, size 0x10, virtual false, abstract: false, final false
+  inline void OnNewLine(int32_t pos);
 
-  constexpr int32_t& __cordl_internal_get__lineNumber();
+  /// @brief Method ParseComment, addr 0x2735c94, size 0x28c, virtual false, abstract: false, final false
+  inline void ParseComment(bool setToken);
 
-  constexpr int32_t const& __cordl_internal_get__lineNumber() const;
+  /// @brief Method ParseConstructor, addr 0x273ab98, size 0x328, virtual false, abstract: false, final false
+  inline void ParseConstructor();
 
-  constexpr void __cordl_internal_set__lineNumber(int32_t value);
+  /// @brief Method ParseFalse, addr 0x273aabc, size 0xdc, virtual false, abstract: false, final false
+  inline void ParseFalse();
 
-  constexpr bool& __cordl_internal_get__isEndOfFile();
+  /// @brief Method ParseNull, addr 0x273a150, size 0xac, virtual false, abstract: false, final false
+  inline void ParseNull();
 
-  constexpr bool const& __cordl_internal_get__isEndOfFile() const;
+  /// @brief Method ParseNumber, addr 0x2738010, size 0xde0, virtual false, abstract: false, final false
+  inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
 
-  constexpr void __cordl_internal_set__isEndOfFile(bool value);
+  /// @brief Method ParseNumberNaN, addr 0x2738ffc, size 0x160, virtual false, abstract: false, final false
+  inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
 
-  constexpr ::Newtonsoft::Json::Utilities::StringBuffer& __cordl_internal_get__stringBuffer();
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x2737eb0, size 0x160, virtual false, abstract: false, final false
+  inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
 
-  constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& __cordl_internal_get__stringBuffer() const;
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x2738e9c, size 0x160, virtual false, abstract: false, final false
+  inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
 
-  constexpr void __cordl_internal_set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value);
+  /// @brief Method ParseObject, addr 0x2735758, size 0x190, virtual false, abstract: false, final false
+  inline bool ParseObject();
 
-  constexpr ::Newtonsoft::Json::Utilities::StringReference& __cordl_internal_get__stringReference();
+  /// @brief Method ParsePostValue, addr 0x27358e8, size 0x270, virtual false, abstract: false, final false
+  inline bool ParsePostValue();
 
-  constexpr ::Newtonsoft::Json::Utilities::StringReference const& __cordl_internal_get__stringReference() const;
+  /// @brief Method ParseProperty, addr 0x273a584, size 0x224, virtual false, abstract: false, final false
+  inline bool ParseProperty();
 
-  constexpr void __cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
+  /// @brief Method ParseString, addr 0x273432c, size 0x3b8, virtual false, abstract: false, final false
+  inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __cordl_internal_get__arrayPool();
+  /// @brief Method ParseTrue, addr 0x273a9dc, size 0xe0, virtual false, abstract: false, final false
+  inline void ParseTrue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __cordl_internal_get__arrayPool() const;
+  /// @brief Method ParseUndefined, addr 0x273aec0, size 0xac, virtual false, abstract: false, final false
+  inline void ParseUndefined();
 
-  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+  /// @brief Method ParseUnicode, addr 0x273a248, size 0x110, virtual false, abstract: false, final false
+  inline char16_t ParseUnicode();
+
+  /// @brief Method ParseUnquotedProperty, addr 0x273a828, size 0x1b4, virtual false, abstract: false, final false
+  inline void ParseUnquotedProperty();
+
+  /// @brief Method ParseValue, addr 0x273533c, size 0x41c, virtual false, abstract: false, final false
+  inline bool ParseValue();
+
+  /// @brief Method ProcessCarriageReturn, addr 0x27377d4, size 0x80, virtual false, abstract: false, final false
+  inline void ProcessCarriageReturn(bool append);
+
+  /// @brief Method ProcessLineFeed, addr 0x2737854, size 0x1c, virtual false, abstract: false, final false
+  inline void ProcessLineFeed();
+
+  /// @brief Method ProcessValueComma, addr 0x27376ac, size 0x58, virtual false, abstract: false, final false
+  inline void ProcessValueComma();
+
+  /// @brief Method Read, addr 0x27350e0, size 0x218, virtual true, abstract: false, final false
+  inline bool Read();
+
+  /// @brief Method ReadAsBoolean, addr 0x273915c, size 0x4e0, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<bool> ReadAsBoolean();
+
+  /// @brief Method ReadAsBytes, addr 0x2736c74, size 0x480, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
+
+  /// @brief Method ReadAsDateTime, addr 0x2736470, size 0x90, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
+
+  /// @brief Method ReadAsDateTimeOffset, addr 0x2739f04, size 0xcc, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
+
+  /// @brief Method ReadAsDecimal, addr 0x2739fd0, size 0xcc, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
+
+  /// @brief Method ReadAsDouble, addr 0x273a09c, size 0xb4, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<double_t> ReadAsDouble();
+
+  /// @brief Method ReadAsInt32, addr 0x2735f28, size 0x90, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<int32_t> ReadAsInt32();
+
+  /// @brief Method ReadAsString, addr 0x2736c10, size 0x64, virtual true, abstract: false, final false
+  inline ::StringW ReadAsString();
+
+  /// @brief Method ReadChars, addr 0x2735070, size 0x70, virtual false, abstract: false, final false
+  inline bool ReadChars(int32_t relativePosition, bool append);
+
+  /// @brief Method ReadData, addr 0x2734e38, size 0xc, virtual false, abstract: false, final false
+  inline int32_t ReadData(bool append);
+
+  /// @brief Method ReadData, addr 0x2734e44, size 0x20c, virtual false, abstract: false, final false
+  inline int32_t ReadData(bool append, int32_t charsRequired);
+
+  /// @brief Method ReadFinished, addr 0x2737870, size 0x150, virtual false, abstract: false, final false
+  inline void ReadFinished();
+
+  /// @brief Method ReadNullChar, addr 0x27370f4, size 0x50, virtual false, abstract: false, final false
+  inline bool ReadNullChar();
+
+  /// @brief Method ReadNumberIntoBuffer, addr 0x273a3a8, size 0x1d0, virtual false, abstract: false, final false
+  inline void ReadNumberIntoBuffer();
+
+  /// @brief Method ReadNumberValue, addr 0x2735fb8, size 0x4b8, virtual false, abstract: false, final false
+  inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
+
+  /// @brief Method ReadStringIntoBuffer, addr 0x273478c, size 0x498, virtual false, abstract: false, final false
+  inline void ReadStringIntoBuffer(char16_t quote);
+
+  /// @brief Method ReadStringValue, addr 0x2736500, size 0x710, virtual false, abstract: false, final false
+  inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
+
+  /// @brief Method ShiftBufferIfNeeded, addr 0x27346e4, size 0xa8, virtual false, abstract: false, final false
+  inline void ShiftBufferIfNeeded();
+
+  /// @brief Method ValidIdentifierChar, addr 0x273a7a8, size 0x80, virtual false, abstract: false, final false
+  inline bool ValidIdentifierChar(char16_t value);
+
+  /// @brief Method WriteCharToBuffer, addr 0x273a358, size 0x50, virtual false, abstract: false, final false
+  inline void WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition);
 
   constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable*& __cordl_internal_get_NameTable();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::PropertyNameTable*> const& __cordl_internal_get_NameTable() const;
 
+  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __cordl_internal_get__arrayPool();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __cordl_internal_get__arrayPool() const;
+
+  constexpr int32_t const& __cordl_internal_get__charPos() const;
+
+  constexpr int32_t& __cordl_internal_get__charPos();
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__chars() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__chars();
+
+  constexpr int32_t const& __cordl_internal_get__charsUsed() const;
+
+  constexpr int32_t& __cordl_internal_get__charsUsed();
+
+  constexpr bool const& __cordl_internal_get__isEndOfFile() const;
+
+  constexpr bool& __cordl_internal_get__isEndOfFile();
+
+  constexpr int32_t const& __cordl_internal_get__lineNumber() const;
+
+  constexpr int32_t& __cordl_internal_get__lineNumber();
+
+  constexpr int32_t const& __cordl_internal_get__lineStartPos() const;
+
+  constexpr int32_t& __cordl_internal_get__lineStartPos();
+
+  constexpr ::System::IO::TextReader*& __cordl_internal_get__reader();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get__reader() const;
+
+  constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& __cordl_internal_get__stringBuffer() const;
+
+  constexpr ::Newtonsoft::Json::Utilities::StringBuffer& __cordl_internal_get__stringBuffer();
+
+  constexpr ::Newtonsoft::Json::Utilities::StringReference const& __cordl_internal_get__stringReference() const;
+
+  constexpr ::Newtonsoft::Json::Utilities::StringReference& __cordl_internal_get__stringReference();
+
   constexpr void __cordl_internal_set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable* value);
 
-  static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
+  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method .ctor, addr 0x2640884, size 0x9c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__charPos(int32_t value);
+
+  constexpr void __cordl_internal_set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  constexpr void __cordl_internal_set__charsUsed(int32_t value);
+
+  constexpr void __cordl_internal_set__isEndOfFile(bool value);
+
+  constexpr void __cordl_internal_set__lineNumber(int32_t value);
+
+  constexpr void __cordl_internal_set__lineStartPos(int32_t value);
+
+  constexpr void __cordl_internal_set__reader(::System::IO::TextReader* value);
+
+  constexpr void __cordl_internal_set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value);
+
+  constexpr void __cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
+
+  /// @brief Method .ctor, addr 0x273418c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_ArrayPool, addr 0x2640958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayPool, addr 0x2734260, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method set_ArrayPool, addr 0x2640960, size 0x60, virtual false, abstract: false, final false
-  inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
-
-  /// @brief Method EnsureBufferNotEmpty, addr 0x26409c0, size 0x54, virtual false, abstract: false, final false
-  inline void EnsureBufferNotEmpty();
-
-  /// @brief Method OnNewLine, addr 0x2640a14, size 0x10, virtual false, abstract: false, final false
-  inline void OnNewLine(int32_t pos);
-
-  /// @brief Method ParseString, addr 0x2640a24, size 0x3b8, virtual false, abstract: false, final false
-  inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method BlockCopyChars, addr 0x264151c, size 0x14, virtual false, abstract: false, final false
-  static inline void BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset, int32_t count);
-
-  /// @brief Method ShiftBufferIfNeeded, addr 0x2640ddc, size 0xa8, virtual false, abstract: false, final false
-  inline void ShiftBufferIfNeeded();
-
-  /// @brief Method ReadData, addr 0x2641530, size 0xc, virtual false, abstract: false, final false
-  inline int32_t ReadData(bool append);
-
-  /// @brief Method ReadData, addr 0x264153c, size 0x20c, virtual false, abstract: false, final false
-  inline int32_t ReadData(bool append, int32_t charsRequired);
-
-  /// @brief Method EnsureChars, addr 0x2641748, size 0x20, virtual false, abstract: false, final false
-  inline bool EnsureChars(int32_t relativePosition, bool append);
-
-  /// @brief Method ReadChars, addr 0x2641768, size 0x70, virtual false, abstract: false, final false
-  inline bool ReadChars(int32_t relativePosition, bool append);
-
-  /// @brief Method Read, addr 0x26417d8, size 0x218, virtual true, abstract: false, final false
-  inline bool Read();
-
-  /// @brief Method ReadAsInt32, addr 0x2642620, size 0x90, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<int32_t> ReadAsInt32();
-
-  /// @brief Method ReadAsDateTime, addr 0x2642b68, size 0x90, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
-
-  /// @brief Method ReadAsString, addr 0x2643308, size 0x64, virtual true, abstract: false, final false
-  inline ::StringW ReadAsString();
-
-  /// @brief Method ReadAsBytes, addr 0x264336c, size 0x480, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
-
-  /// @brief Method ReadStringValue, addr 0x2642bf8, size 0x710, virtual false, abstract: false, final false
-  inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method CreateUnexpectedCharacterException, addr 0x2643dfc, size 0xd0, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
-
-  /// @brief Method ReadAsBoolean, addr 0x2645854, size 0x4e0, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<bool> ReadAsBoolean();
-
-  /// @brief Method ProcessValueComma, addr 0x2643da4, size 0x58, virtual false, abstract: false, final false
-  inline void ProcessValueComma();
-
-  /// @brief Method ReadNumberValue, addr 0x26426b0, size 0x4b8, virtual false, abstract: false, final false
-  inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method ReadAsDateTimeOffset, addr 0x26465fc, size 0xcc, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
-
-  /// @brief Method ReadAsDecimal, addr 0x26466c8, size 0xcc, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
-
-  /// @brief Method ReadAsDouble, addr 0x2646794, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<double_t> ReadAsDouble();
-
-  /// @brief Method HandleNull, addr 0x2643cd4, size 0xd0, virtual false, abstract: false, final false
-  inline void HandleNull();
-
-  /// @brief Method ReadFinished, addr 0x2643f68, size 0x150, virtual false, abstract: false, final false
-  inline void ReadFinished();
-
-  /// @brief Method ReadNullChar, addr 0x26437ec, size 0x50, virtual false, abstract: false, final false
-  inline bool ReadNullChar();
-
-  /// @brief Method EnsureBuffer, addr 0x26419f0, size 0x44, virtual false, abstract: false, final false
-  inline void EnsureBuffer();
-
-  /// @brief Method ReadStringIntoBuffer, addr 0x2640e84, size 0x498, virtual false, abstract: false, final false
-  inline void ReadStringIntoBuffer(char16_t quote);
-
-  /// @brief Method WriteCharToBuffer, addr 0x2646a50, size 0x50, virtual false, abstract: false, final false
-  inline void WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition);
-
-  /// @brief Method ParseUnicode, addr 0x2646940, size 0x110, virtual false, abstract: false, final false
-  inline char16_t ParseUnicode();
-
-  /// @brief Method ReadNumberIntoBuffer, addr 0x2646aa0, size 0x1d0, virtual false, abstract: false, final false
-  inline void ReadNumberIntoBuffer();
-
-  /// @brief Method ClearRecentString, addr 0x2646c70, size 0xc, virtual false, abstract: false, final false
-  inline void ClearRecentString();
-
-  /// @brief Method ParsePostValue, addr 0x2641fe0, size 0x270, virtual false, abstract: false, final false
-  inline bool ParsePostValue();
-
-  /// @brief Method ParseObject, addr 0x2641e50, size 0x190, virtual false, abstract: false, final false
-  inline bool ParseObject();
-
-  /// @brief Method ParseProperty, addr 0x2646c7c, size 0x224, virtual false, abstract: false, final false
-  inline bool ParseProperty();
-
-  /// @brief Method ValidIdentifierChar, addr 0x2646ea0, size 0x80, virtual false, abstract: false, final false
-  inline bool ValidIdentifierChar(char16_t value);
-
-  /// @brief Method ParseUnquotedProperty, addr 0x2646f20, size 0x1b4, virtual false, abstract: false, final false
-  inline void ParseUnquotedProperty();
-
-  /// @brief Method ParseValue, addr 0x2641a34, size 0x41c, virtual false, abstract: false, final false
-  inline bool ParseValue();
-
-  /// @brief Method ProcessLineFeed, addr 0x2643f4c, size 0x1c, virtual false, abstract: false, final false
-  inline void ProcessLineFeed();
-
-  /// @brief Method ProcessCarriageReturn, addr 0x2643ecc, size 0x80, virtual false, abstract: false, final false
-  inline void ProcessCarriageReturn(bool append);
-
-  /// @brief Method EatWhitespace, addr 0x2642250, size 0x130, virtual false, abstract: false, final false
-  inline bool EatWhitespace(bool oneOrMore);
-
-  /// @brief Method ParseConstructor, addr 0x2647290, size 0x328, virtual false, abstract: false, final false
-  inline void ParseConstructor();
-
-  /// @brief Method ParseNumber, addr 0x2644708, size 0xde0, virtual false, abstract: false, final false
-  inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method ParseComment, addr 0x264238c, size 0x28c, virtual false, abstract: false, final false
-  inline void ParseComment(bool setToken);
-
-  /// @brief Method EndComment, addr 0x26476e8, size 0x60, virtual false, abstract: false, final false
-  inline void EndComment(bool setToken, int32_t initialPosition, int32_t endPosition);
-
-  /// @brief Method MatchValue, addr 0x2647748, size 0x104, virtual false, abstract: false, final false
-  inline bool MatchValue(::StringW value);
-
-  /// @brief Method MatchValueWithTrailingSeparator, addr 0x26454e8, size 0xa4, virtual false, abstract: false, final false
-  inline bool MatchValueWithTrailingSeparator(::StringW value);
-
-  /// @brief Method IsSeparator, addr 0x264784c, size 0x158, virtual false, abstract: false, final false
-  inline bool IsSeparator(char16_t c);
-
-  /// @brief Method ParseTrue, addr 0x26470d4, size 0xe0, virtual false, abstract: false, final false
-  inline void ParseTrue();
-
-  /// @brief Method ParseNull, addr 0x2646848, size 0xac, virtual false, abstract: false, final false
-  inline void ParseNull();
-
-  /// @brief Method ParseUndefined, addr 0x26475b8, size 0xac, virtual false, abstract: false, final false
-  inline void ParseUndefined();
-
-  /// @brief Method ParseFalse, addr 0x26471b4, size 0xdc, virtual false, abstract: false, final false
-  inline void ParseFalse();
-
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x26445a8, size 0x160, virtual false, abstract: false, final false
-  inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x2645594, size 0x160, virtual false, abstract: false, final false
-  inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method ParseNumberNaN, addr 0x26456f4, size 0x160, virtual false, abstract: false, final false
-  inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
-
-  /// @brief Method Close, addr 0x26479a4, size 0x60, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method HasLineInfo, addr 0x2647a18, size 0x8, virtual true, abstract: false, final true
-  inline bool HasLineInfo();
-
-  /// @brief Method get_LineNumber, addr 0x2647a20, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x273b328, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2647a68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x273b370, size 0xc, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
+  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
+  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
+
+  /// @brief Method set_ArrayPool, addr 0x2734268, size 0x60, virtual false, abstract: false, final false
+  inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonTextReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTextReader(JsonTextReader&&) = delete;
@@ -363,12 +367,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonTextReader(JsonTextReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTextReader();
-
-public:
   /// @brief Field _reader, offset: 0x78, size: 0x8, def value: None
   ::System::IO::TextReader* ____reader;
 
@@ -402,11 +400,11 @@ public:
   /// @brief Field NameTable, offset: 0xc8, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::PropertyNameTable* ___NameTable;
 
-  /// @brief Field UnicodeReplacementChar offset 0xffffffff size 0x2
-  static constexpr char16_t UnicodeReplacementChar{ u'\u{fffd}' };
-
   /// @brief Field MaximumJavascriptIntegerCharacterLength offset 0xffffffff size 0x4
   static constexpr int32_t MaximumJavascriptIntegerCharacterLength{ static_cast<int32_t>(0x17c) };
+
+  /// @brief Field UnicodeReplacementChar offset 0xffffffff size 0x2
+  static constexpr char16_t UnicodeReplacementChar{ u'\u{fffd}' };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

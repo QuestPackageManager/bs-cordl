@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6450))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidInputSource
 struct CORDL_TYPE AndroidInputSource {
 public:
@@ -41,21 +39,20 @@ public:
     return static_cast<__AndroidInputSource_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AndroidInputSource(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidInputSource();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AndroidInputSource(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Keyboard value: static_cast<int32_t>(0x101)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Keyboard;
 
   /// @brief Field Dpad value: static_cast<int32_t>(0x201)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Dpad;
@@ -63,8 +60,11 @@ public:
   /// @brief Field Gamepad value: static_cast<int32_t>(0x401)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Gamepad;
 
-  /// @brief Field Touchscreen value: static_cast<int32_t>(0x1002)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchscreen;
+  /// @brief Field Joystick value: static_cast<int32_t>(0x1000010)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Joystick;
+
+  /// @brief Field Keyboard value: static_cast<int32_t>(0x101)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Keyboard;
 
   /// @brief Field Mouse value: static_cast<int32_t>(0x2002)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Mouse;
@@ -72,14 +72,17 @@ public:
   /// @brief Field Stylus value: static_cast<int32_t>(0x4002)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Stylus;
 
-  /// @brief Field Trackball value: static_cast<int32_t>(0x10004)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Trackball;
-
   /// @brief Field Touchpad value: static_cast<int32_t>(0x100008)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchpad;
 
-  /// @brief Field Joystick value: static_cast<int32_t>(0x1000010)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Joystick;
+  /// @brief Field Touchscreen value: static_cast<int32_t>(0x1002)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Touchscreen;
+
+  /// @brief Field Trackball value: static_cast<int32_t>(0x10004)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource const Trackball;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

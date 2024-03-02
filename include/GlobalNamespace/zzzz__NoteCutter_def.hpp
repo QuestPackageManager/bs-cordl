@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsCompare
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5289))
 // CS Name: ::NoteCutter::CuttableBySaberSortParams*
 class CORDL_TYPE __NoteCutter__CuttableBySaberSortParams : public ::System::Object {
 public:
@@ -62,29 +60,35 @@ public:
   /// @brief Field pos, offset 0x1c, size 0xc
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos))::UnityEngine::Vector3 pos;
 
-  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber>& __cordl_internal_get_cuttableBySaber();
+  static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get_cuttableBySaber() const;
 
-  constexpr void __cordl_internal_set_cuttableBySaber(::UnityW<::GlobalNamespace::CuttableBySaber> value);
-
-  constexpr float_t& __cordl_internal_get_distance();
+  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber>& __cordl_internal_get_cuttableBySaber();
 
   constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr void __cordl_internal_set_distance(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pos();
+  constexpr float_t& __cordl_internal_get_distance();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pos() const;
 
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pos();
+
+  constexpr void __cordl_internal_set_cuttableBySaber(::UnityW<::GlobalNamespace::CuttableBySaber> value);
+
+  constexpr void __cordl_internal_set_distance(float_t value);
+
   constexpr void __cordl_internal_set_pos(::UnityEngine::Vector3 value);
 
-  static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22631cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2490b1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NoteCutter__CuttableBySaberSortParams();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NoteCutter__CuttableBySaberSortParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NoteCutter__CuttableBySaberSortParams(__NoteCutter__CuttableBySaberSortParams&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NoteCutter__CuttableBySaberSortParams(__NoteCutter__CuttableBySaberSortParams const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NoteCutter__CuttableBySaberSortParams();
-
-public:
   /// @brief Field cuttableBySaber, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CuttableBySaber> ___cuttableBySaber;
 
@@ -124,8 +122,6 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParam
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5290))
 // CS Name: ::NoteCutter::CuttableBySaberSortParamsComparer*
 class CORDL_TYPE __NoteCutter__CuttableBySaberSortParamsComparer : public ::System::Object {
 public:
@@ -133,17 +129,23 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
-
-  /// @brief Method Compare, addr 0x22631d4, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2490b24, size 0x124, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22631c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2490b14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NoteCutter__CuttableBySaberSortParamsComparer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NoteCutter__CuttableBySaberSortParamsComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NoteCutter__CuttableBySaberSortParamsComparer(__NoteCutter__CuttableBySaberSortParamsComparer&&) = delete;
@@ -152,12 +154,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NoteCutter__CuttableBySaberSortParamsComparer(__NoteCutter__CuttableBySaberSortParamsComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NoteCutter__CuttableBySaberSortParamsComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -168,56 +164,60 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutter__C
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5291))
 // CS Name: ::NoteCutter*
 class CORDL_TYPE NoteCutter : public ::System::Object {
 public:
   // Declarations
-  using CuttableBySaberSortParamsComparer = ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer;
-
   using CuttableBySaberSortParams = ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams;
+
+  using CuttableBySaberSortParamsComparer = ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer;
 
   /// @brief Field _colliders, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__colliders, put = __cordl_internal_set__colliders))::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> _colliders;
+
+  /// @brief Field _comparer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* _comparer;
 
   /// @brief Field _cuttableBySaberSortParams, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__cuttableBySaberSortParams,
                       put = __cordl_internal_set__cuttableBySaberSortParams))::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*,
                                                                                       ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> _cuttableBySaberSortParams;
 
-  /// @brief Field _comparer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* _comparer;
+  /// @brief Method Cut, addr 0x24903ac, size 0x524, virtual false, abstract: false, final false
+  inline void Cut(::GlobalNamespace::Saber* saber);
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*>& __cordl_internal_get__colliders();
+  static inline ::GlobalNamespace::NoteCutter* New_ctor();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> const& __cordl_internal_get__colliders() const;
 
-  constexpr void __cordl_internal_set__colliders(::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*>&
-  __cordl_internal_get__cuttableBySaberSortParams();
-
-  constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> const&
-  __cordl_internal_get__cuttableBySaberSortParams() const;
-
-  constexpr void
-  __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value);
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*>& __cordl_internal_get__colliders();
 
   constexpr ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer*& __cordl_internal_get__comparer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer*> const& __cordl_internal_get__comparer() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> const&
+  __cordl_internal_get__cuttableBySaberSortParams() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*>&
+  __cordl_internal_get__cuttableBySaberSortParams();
+
+  constexpr void __cordl_internal_set__colliders(::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> value);
+
   constexpr void __cordl_internal_set__comparer(::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* value);
 
-  static inline ::GlobalNamespace::NoteCutter* New_ctor();
+  constexpr void
+  __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value);
 
-  /// @brief Method .ctor, addr 0x226308c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24909dc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Cut, addr 0x2262a5c, size 0x524, virtual false, abstract: false, final false
-  inline void Cut(::GlobalNamespace::Saber* saber);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutter(NoteCutter&&) = delete;
@@ -226,12 +226,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutter(NoteCutter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutter();
-
-public:
   /// @brief Field _colliders, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> ____colliders;
 

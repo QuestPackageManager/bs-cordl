@@ -19,19 +19,17 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_Vertex_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8647))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8712))
 // CS Name: ::OVR.OpenVR::RenderModel_Vertex_t
 struct CORDL_TYPE RenderModel_Vertex_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "vPosition", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
-  // def_value: None }, CppParam { name: "rfTextureCoord0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfTextureCoord1", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr RenderModel_Vertex_t(::OVR::OpenVR::HmdVector3_t vPosition, ::OVR::OpenVR::HmdVector3_t vNormal, float_t rfTextureCoord0, float_t rfTextureCoord1) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderModel_Vertex_t();
+
+  // Ctor Parameters [CppParam { name: "vPosition", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
+  // def_value: None }, CppParam { name: "rfTextureCoord0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfTextureCoord1", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr RenderModel_Vertex_t(::OVR::OpenVR::HmdVector3_t vPosition, ::OVR::OpenVR::HmdVector3_t vNormal, float_t rfTextureCoord0, float_t rfTextureCoord1) noexcept;
 
   /// @brief Field vPosition, offset: 0x0, size: 0xc, def value: None
   ::OVR::OpenVR::HmdVector3_t vPosition;

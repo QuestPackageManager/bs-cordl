@@ -11,6 +11,9 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class MonoInstaller;
 }
 namespace Zenject {
@@ -30,8 +33,6 @@ MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerReg
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15421))
 // CS Name: ::AsyncInstaller::IInstallerRegistry*
 class CORDL_TYPE __AsyncInstaller__IInstallerRegistry {
 public:
@@ -58,8 +59,6 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15422))
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncInstaller*
 class CORDL_TYPE AsyncInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -67,16 +66,22 @@ public:
   using IInstallerRegistry = ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry;
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe23c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8b300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncInstaller(AsyncInstaller&&) = delete;
@@ -85,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncInstaller(AsyncInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

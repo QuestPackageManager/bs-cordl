@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::KeyCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10058))
 // CS Name: ::UnityEngine::KeyCode
 struct CORDL_TYPE KeyCode {
 public:
@@ -360,168 +358,23 @@ public:
     return static_cast<__KeyCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr KeyCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr KeyCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr KeyCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::KeyCode const None;
-
-  /// @brief Field Backspace value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::KeyCode const Backspace;
-
-  /// @brief Field Delete value: static_cast<int32_t>(0x7f)
-  static ::UnityEngine::KeyCode const Delete;
-
-  /// @brief Field Tab value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::KeyCode const Tab;
-
-  /// @brief Field Clear value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::KeyCode const Clear;
-
-  /// @brief Field Return value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::KeyCode const Return;
-
-  /// @brief Field Pause value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::KeyCode const Pause;
-
-  /// @brief Field Escape value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::KeyCode const Escape;
-
-  /// @brief Field Space value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::KeyCode const Space;
-
-  /// @brief Field Keypad0 value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::KeyCode const Keypad0;
-
-  /// @brief Field Keypad1 value: static_cast<int32_t>(0x101)
-  static ::UnityEngine::KeyCode const Keypad1;
-
-  /// @brief Field Keypad2 value: static_cast<int32_t>(0x102)
-  static ::UnityEngine::KeyCode const Keypad2;
-
-  /// @brief Field Keypad3 value: static_cast<int32_t>(0x103)
-  static ::UnityEngine::KeyCode const Keypad3;
-
-  /// @brief Field Keypad4 value: static_cast<int32_t>(0x104)
-  static ::UnityEngine::KeyCode const Keypad4;
-
-  /// @brief Field Keypad5 value: static_cast<int32_t>(0x105)
-  static ::UnityEngine::KeyCode const Keypad5;
-
-  /// @brief Field Keypad6 value: static_cast<int32_t>(0x106)
-  static ::UnityEngine::KeyCode const Keypad6;
-
-  /// @brief Field Keypad7 value: static_cast<int32_t>(0x107)
-  static ::UnityEngine::KeyCode const Keypad7;
-
-  /// @brief Field Keypad8 value: static_cast<int32_t>(0x108)
-  static ::UnityEngine::KeyCode const Keypad8;
-
-  /// @brief Field Keypad9 value: static_cast<int32_t>(0x109)
-  static ::UnityEngine::KeyCode const Keypad9;
-
-  /// @brief Field KeypadPeriod value: static_cast<int32_t>(0x10a)
-  static ::UnityEngine::KeyCode const KeypadPeriod;
-
-  /// @brief Field KeypadDivide value: static_cast<int32_t>(0x10b)
-  static ::UnityEngine::KeyCode const KeypadDivide;
-
-  /// @brief Field KeypadMultiply value: static_cast<int32_t>(0x10c)
-  static ::UnityEngine::KeyCode const KeypadMultiply;
-
-  /// @brief Field KeypadMinus value: static_cast<int32_t>(0x10d)
-  static ::UnityEngine::KeyCode const KeypadMinus;
-
-  /// @brief Field KeypadPlus value: static_cast<int32_t>(0x10e)
-  static ::UnityEngine::KeyCode const KeypadPlus;
-
-  /// @brief Field KeypadEnter value: static_cast<int32_t>(0x10f)
-  static ::UnityEngine::KeyCode const KeypadEnter;
-
-  /// @brief Field KeypadEquals value: static_cast<int32_t>(0x110)
-  static ::UnityEngine::KeyCode const KeypadEquals;
-
-  /// @brief Field UpArrow value: static_cast<int32_t>(0x111)
-  static ::UnityEngine::KeyCode const UpArrow;
-
-  /// @brief Field DownArrow value: static_cast<int32_t>(0x112)
-  static ::UnityEngine::KeyCode const DownArrow;
-
-  /// @brief Field RightArrow value: static_cast<int32_t>(0x113)
-  static ::UnityEngine::KeyCode const RightArrow;
-
-  /// @brief Field LeftArrow value: static_cast<int32_t>(0x114)
-  static ::UnityEngine::KeyCode const LeftArrow;
-
-  /// @brief Field Insert value: static_cast<int32_t>(0x115)
-  static ::UnityEngine::KeyCode const Insert;
-
-  /// @brief Field Home value: static_cast<int32_t>(0x116)
-  static ::UnityEngine::KeyCode const Home;
-
-  /// @brief Field End value: static_cast<int32_t>(0x117)
-  static ::UnityEngine::KeyCode const End;
-
-  /// @brief Field PageUp value: static_cast<int32_t>(0x118)
-  static ::UnityEngine::KeyCode const PageUp;
-
-  /// @brief Field PageDown value: static_cast<int32_t>(0x119)
-  static ::UnityEngine::KeyCode const PageDown;
-
-  /// @brief Field F1 value: static_cast<int32_t>(0x11a)
-  static ::UnityEngine::KeyCode const F1;
-
-  /// @brief Field F2 value: static_cast<int32_t>(0x11b)
-  static ::UnityEngine::KeyCode const F2;
-
-  /// @brief Field F3 value: static_cast<int32_t>(0x11c)
-  static ::UnityEngine::KeyCode const F3;
-
-  /// @brief Field F4 value: static_cast<int32_t>(0x11d)
-  static ::UnityEngine::KeyCode const F4;
-
-  /// @brief Field F5 value: static_cast<int32_t>(0x11e)
-  static ::UnityEngine::KeyCode const F5;
-
-  /// @brief Field F6 value: static_cast<int32_t>(0x11f)
-  static ::UnityEngine::KeyCode const F6;
-
-  /// @brief Field F7 value: static_cast<int32_t>(0x120)
-  static ::UnityEngine::KeyCode const F7;
-
-  /// @brief Field F8 value: static_cast<int32_t>(0x121)
-  static ::UnityEngine::KeyCode const F8;
-
-  /// @brief Field F9 value: static_cast<int32_t>(0x122)
-  static ::UnityEngine::KeyCode const F9;
-
-  /// @brief Field F10 value: static_cast<int32_t>(0x123)
-  static ::UnityEngine::KeyCode const F10;
-
-  /// @brief Field F11 value: static_cast<int32_t>(0x124)
-  static ::UnityEngine::KeyCode const F11;
-
-  /// @brief Field F12 value: static_cast<int32_t>(0x125)
-  static ::UnityEngine::KeyCode const F12;
-
-  /// @brief Field F13 value: static_cast<int32_t>(0x126)
-  static ::UnityEngine::KeyCode const F13;
-
-  /// @brief Field F14 value: static_cast<int32_t>(0x127)
-  static ::UnityEngine::KeyCode const F14;
-
-  /// @brief Field F15 value: static_cast<int32_t>(0x128)
-  static ::UnityEngine::KeyCode const F15;
+  /// @brief Field A value: static_cast<int32_t>(0x61)
+  static ::UnityEngine::KeyCode const A;
 
   /// @brief Field Alpha0 value: static_cast<int32_t>(0x30)
   static ::UnityEngine::KeyCode const Alpha0;
@@ -553,359 +406,161 @@ public:
   /// @brief Field Alpha9 value: static_cast<int32_t>(0x39)
   static ::UnityEngine::KeyCode const Alpha9;
 
-  /// @brief Field Exclaim value: static_cast<int32_t>(0x21)
-  static ::UnityEngine::KeyCode const Exclaim;
-
-  /// @brief Field DoubleQuote value: static_cast<int32_t>(0x22)
-  static ::UnityEngine::KeyCode const DoubleQuote;
-
-  /// @brief Field Hash value: static_cast<int32_t>(0x23)
-  static ::UnityEngine::KeyCode const Hash;
-
-  /// @brief Field Dollar value: static_cast<int32_t>(0x24)
-  static ::UnityEngine::KeyCode const Dollar;
-
-  /// @brief Field Percent value: static_cast<int32_t>(0x25)
-  static ::UnityEngine::KeyCode const Percent;
+  /// @brief Field AltGr value: static_cast<int32_t>(0x139)
+  static ::UnityEngine::KeyCode const AltGr;
 
   /// @brief Field Ampersand value: static_cast<int32_t>(0x26)
   static ::UnityEngine::KeyCode const Ampersand;
 
-  /// @brief Field Quote value: static_cast<int32_t>(0x27)
-  static ::UnityEngine::KeyCode const Quote;
-
-  /// @brief Field LeftParen value: static_cast<int32_t>(0x28)
-  static ::UnityEngine::KeyCode const LeftParen;
-
-  /// @brief Field RightParen value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::KeyCode const RightParen;
-
   /// @brief Field Asterisk value: static_cast<int32_t>(0x2a)
   static ::UnityEngine::KeyCode const Asterisk;
-
-  /// @brief Field Plus value: static_cast<int32_t>(0x2b)
-  static ::UnityEngine::KeyCode const Plus;
-
-  /// @brief Field Comma value: static_cast<int32_t>(0x2c)
-  static ::UnityEngine::KeyCode const Comma;
-
-  /// @brief Field Minus value: static_cast<int32_t>(0x2d)
-  static ::UnityEngine::KeyCode const Minus;
-
-  /// @brief Field Period value: static_cast<int32_t>(0x2e)
-  static ::UnityEngine::KeyCode const Period;
-
-  /// @brief Field Slash value: static_cast<int32_t>(0x2f)
-  static ::UnityEngine::KeyCode const Slash;
-
-  /// @brief Field Colon value: static_cast<int32_t>(0x3a)
-  static ::UnityEngine::KeyCode const Colon;
-
-  /// @brief Field Semicolon value: static_cast<int32_t>(0x3b)
-  static ::UnityEngine::KeyCode const Semicolon;
-
-  /// @brief Field Less value: static_cast<int32_t>(0x3c)
-  static ::UnityEngine::KeyCode const Less;
-
-  /// @brief Field Equals value: static_cast<int32_t>(0x3d)
-  static ::UnityEngine::KeyCode const Equals;
-
-  /// @brief Field Greater value: static_cast<int32_t>(0x3e)
-  static ::UnityEngine::KeyCode const Greater;
-
-  /// @brief Field Question value: static_cast<int32_t>(0x3f)
-  static ::UnityEngine::KeyCode const Question;
 
   /// @brief Field At value: static_cast<int32_t>(0x40)
   static ::UnityEngine::KeyCode const At;
 
-  /// @brief Field LeftBracket value: static_cast<int32_t>(0x5b)
-  static ::UnityEngine::KeyCode const LeftBracket;
-
-  /// @brief Field Backslash value: static_cast<int32_t>(0x5c)
-  static ::UnityEngine::KeyCode const Backslash;
-
-  /// @brief Field RightBracket value: static_cast<int32_t>(0x5d)
-  static ::UnityEngine::KeyCode const RightBracket;
-
-  /// @brief Field Caret value: static_cast<int32_t>(0x5e)
-  static ::UnityEngine::KeyCode const Caret;
-
-  /// @brief Field Underscore value: static_cast<int32_t>(0x5f)
-  static ::UnityEngine::KeyCode const Underscore;
+  /// @brief Field B value: static_cast<int32_t>(0x62)
+  static ::UnityEngine::KeyCode const B;
 
   /// @brief Field BackQuote value: static_cast<int32_t>(0x60)
   static ::UnityEngine::KeyCode const BackQuote;
 
-  /// @brief Field A value: static_cast<int32_t>(0x61)
-  static ::UnityEngine::KeyCode const A;
+  /// @brief Field Backslash value: static_cast<int32_t>(0x5c)
+  static ::UnityEngine::KeyCode const Backslash;
 
-  /// @brief Field B value: static_cast<int32_t>(0x62)
-  static ::UnityEngine::KeyCode const B;
-
-  /// @brief Field C value: static_cast<int32_t>(0x63)
-  static ::UnityEngine::KeyCode const C;
-
-  /// @brief Field D value: static_cast<int32_t>(0x64)
-  static ::UnityEngine::KeyCode const D;
-
-  /// @brief Field E value: static_cast<int32_t>(0x65)
-  static ::UnityEngine::KeyCode const E;
-
-  /// @brief Field F value: static_cast<int32_t>(0x66)
-  static ::UnityEngine::KeyCode const F;
-
-  /// @brief Field G value: static_cast<int32_t>(0x67)
-  static ::UnityEngine::KeyCode const G;
-
-  /// @brief Field H value: static_cast<int32_t>(0x68)
-  static ::UnityEngine::KeyCode const H;
-
-  /// @brief Field I value: static_cast<int32_t>(0x69)
-  static ::UnityEngine::KeyCode const I;
-
-  /// @brief Field J value: static_cast<int32_t>(0x6a)
-  static ::UnityEngine::KeyCode const J;
-
-  /// @brief Field K value: static_cast<int32_t>(0x6b)
-  static ::UnityEngine::KeyCode const K;
-
-  /// @brief Field L value: static_cast<int32_t>(0x6c)
-  static ::UnityEngine::KeyCode const L;
-
-  /// @brief Field M value: static_cast<int32_t>(0x6d)
-  static ::UnityEngine::KeyCode const M;
-
-  /// @brief Field N value: static_cast<int32_t>(0x6e)
-  static ::UnityEngine::KeyCode const N;
-
-  /// @brief Field O value: static_cast<int32_t>(0x6f)
-  static ::UnityEngine::KeyCode const O;
-
-  /// @brief Field P value: static_cast<int32_t>(0x70)
-  static ::UnityEngine::KeyCode const P;
-
-  /// @brief Field Q value: static_cast<int32_t>(0x71)
-  static ::UnityEngine::KeyCode const Q;
-
-  /// @brief Field R value: static_cast<int32_t>(0x72)
-  static ::UnityEngine::KeyCode const R;
-
-  /// @brief Field S value: static_cast<int32_t>(0x73)
-  static ::UnityEngine::KeyCode const S;
-
-  /// @brief Field T value: static_cast<int32_t>(0x74)
-  static ::UnityEngine::KeyCode const T;
-
-  /// @brief Field U value: static_cast<int32_t>(0x75)
-  static ::UnityEngine::KeyCode const U;
-
-  /// @brief Field V value: static_cast<int32_t>(0x76)
-  static ::UnityEngine::KeyCode const V;
-
-  /// @brief Field W value: static_cast<int32_t>(0x77)
-  static ::UnityEngine::KeyCode const W;
-
-  /// @brief Field X value: static_cast<int32_t>(0x78)
-  static ::UnityEngine::KeyCode const X;
-
-  /// @brief Field Y value: static_cast<int32_t>(0x79)
-  static ::UnityEngine::KeyCode const Y;
-
-  /// @brief Field Z value: static_cast<int32_t>(0x7a)
-  static ::UnityEngine::KeyCode const Z;
-
-  /// @brief Field LeftCurlyBracket value: static_cast<int32_t>(0x7b)
-  static ::UnityEngine::KeyCode const LeftCurlyBracket;
-
-  /// @brief Field Pipe value: static_cast<int32_t>(0x7c)
-  static ::UnityEngine::KeyCode const Pipe;
-
-  /// @brief Field RightCurlyBracket value: static_cast<int32_t>(0x7d)
-  static ::UnityEngine::KeyCode const RightCurlyBracket;
-
-  /// @brief Field Tilde value: static_cast<int32_t>(0x7e)
-  static ::UnityEngine::KeyCode const Tilde;
-
-  /// @brief Field Numlock value: static_cast<int32_t>(0x12c)
-  static ::UnityEngine::KeyCode const Numlock;
-
-  /// @brief Field CapsLock value: static_cast<int32_t>(0x12d)
-  static ::UnityEngine::KeyCode const CapsLock;
-
-  /// @brief Field ScrollLock value: static_cast<int32_t>(0x12e)
-  static ::UnityEngine::KeyCode const ScrollLock;
-
-  /// @brief Field RightShift value: static_cast<int32_t>(0x12f)
-  static ::UnityEngine::KeyCode const RightShift;
-
-  /// @brief Field LeftShift value: static_cast<int32_t>(0x130)
-  static ::UnityEngine::KeyCode const LeftShift;
-
-  /// @brief Field RightControl value: static_cast<int32_t>(0x131)
-  static ::UnityEngine::KeyCode const RightControl;
-
-  /// @brief Field LeftControl value: static_cast<int32_t>(0x132)
-  static ::UnityEngine::KeyCode const LeftControl;
-
-  /// @brief Field RightAlt value: static_cast<int32_t>(0x133)
-  static ::UnityEngine::KeyCode const RightAlt;
-
-  /// @brief Field LeftAlt value: static_cast<int32_t>(0x134)
-  static ::UnityEngine::KeyCode const LeftAlt;
-
-  /// @brief Field LeftMeta value: static_cast<int32_t>(0x136)
-  static ::UnityEngine::KeyCode const LeftMeta;
-
-  /// @brief Field LeftCommand value: static_cast<int32_t>(0x136)
-  static ::UnityEngine::KeyCode const LeftCommand;
-
-  /// @brief Field LeftApple value: static_cast<int32_t>(0x136)
-  static ::UnityEngine::KeyCode const LeftApple;
-
-  /// @brief Field LeftWindows value: static_cast<int32_t>(0x137)
-  static ::UnityEngine::KeyCode const LeftWindows;
-
-  /// @brief Field RightMeta value: static_cast<int32_t>(0x135)
-  static ::UnityEngine::KeyCode const RightMeta;
-
-  /// @brief Field RightCommand value: static_cast<int32_t>(0x135)
-  static ::UnityEngine::KeyCode const RightCommand;
-
-  /// @brief Field RightApple value: static_cast<int32_t>(0x135)
-  static ::UnityEngine::KeyCode const RightApple;
-
-  /// @brief Field RightWindows value: static_cast<int32_t>(0x138)
-  static ::UnityEngine::KeyCode const RightWindows;
-
-  /// @brief Field AltGr value: static_cast<int32_t>(0x139)
-  static ::UnityEngine::KeyCode const AltGr;
-
-  /// @brief Field Help value: static_cast<int32_t>(0x13b)
-  static ::UnityEngine::KeyCode const Help;
-
-  /// @brief Field Print value: static_cast<int32_t>(0x13c)
-  static ::UnityEngine::KeyCode const Print;
-
-  /// @brief Field SysReq value: static_cast<int32_t>(0x13d)
-  static ::UnityEngine::KeyCode const SysReq;
+  /// @brief Field Backspace value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::KeyCode const Backspace;
 
   /// @brief Field Break value: static_cast<int32_t>(0x13e)
   static ::UnityEngine::KeyCode const Break;
 
-  /// @brief Field Menu value: static_cast<int32_t>(0x13f)
-  static ::UnityEngine::KeyCode const Menu;
+  /// @brief Field C value: static_cast<int32_t>(0x63)
+  static ::UnityEngine::KeyCode const C;
 
-  /// @brief Field Mouse0 value: static_cast<int32_t>(0x143)
-  static ::UnityEngine::KeyCode const Mouse0;
+  /// @brief Field CapsLock value: static_cast<int32_t>(0x12d)
+  static ::UnityEngine::KeyCode const CapsLock;
 
-  /// @brief Field Mouse1 value: static_cast<int32_t>(0x144)
-  static ::UnityEngine::KeyCode const Mouse1;
+  /// @brief Field Caret value: static_cast<int32_t>(0x5e)
+  static ::UnityEngine::KeyCode const Caret;
 
-  /// @brief Field Mouse2 value: static_cast<int32_t>(0x145)
-  static ::UnityEngine::KeyCode const Mouse2;
+  /// @brief Field Clear value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::KeyCode const Clear;
 
-  /// @brief Field Mouse3 value: static_cast<int32_t>(0x146)
-  static ::UnityEngine::KeyCode const Mouse3;
+  /// @brief Field Colon value: static_cast<int32_t>(0x3a)
+  static ::UnityEngine::KeyCode const Colon;
 
-  /// @brief Field Mouse4 value: static_cast<int32_t>(0x147)
-  static ::UnityEngine::KeyCode const Mouse4;
+  /// @brief Field Comma value: static_cast<int32_t>(0x2c)
+  static ::UnityEngine::KeyCode const Comma;
 
-  /// @brief Field Mouse5 value: static_cast<int32_t>(0x148)
-  static ::UnityEngine::KeyCode const Mouse5;
+  /// @brief Field D value: static_cast<int32_t>(0x64)
+  static ::UnityEngine::KeyCode const D;
 
-  /// @brief Field Mouse6 value: static_cast<int32_t>(0x149)
-  static ::UnityEngine::KeyCode const Mouse6;
+  /// @brief Field Delete value: static_cast<int32_t>(0x7f)
+  static ::UnityEngine::KeyCode const Delete;
 
-  /// @brief Field JoystickButton0 value: static_cast<int32_t>(0x14a)
-  static ::UnityEngine::KeyCode const JoystickButton0;
+  /// @brief Field Dollar value: static_cast<int32_t>(0x24)
+  static ::UnityEngine::KeyCode const Dollar;
 
-  /// @brief Field JoystickButton1 value: static_cast<int32_t>(0x14b)
-  static ::UnityEngine::KeyCode const JoystickButton1;
+  /// @brief Field DoubleQuote value: static_cast<int32_t>(0x22)
+  static ::UnityEngine::KeyCode const DoubleQuote;
 
-  /// @brief Field JoystickButton2 value: static_cast<int32_t>(0x14c)
-  static ::UnityEngine::KeyCode const JoystickButton2;
+  /// @brief Field DownArrow value: static_cast<int32_t>(0x112)
+  static ::UnityEngine::KeyCode const DownArrow;
 
-  /// @brief Field JoystickButton3 value: static_cast<int32_t>(0x14d)
-  static ::UnityEngine::KeyCode const JoystickButton3;
+  /// @brief Field E value: static_cast<int32_t>(0x65)
+  static ::UnityEngine::KeyCode const E;
 
-  /// @brief Field JoystickButton4 value: static_cast<int32_t>(0x14e)
-  static ::UnityEngine::KeyCode const JoystickButton4;
+  /// @brief Field End value: static_cast<int32_t>(0x117)
+  static ::UnityEngine::KeyCode const End;
 
-  /// @brief Field JoystickButton5 value: static_cast<int32_t>(0x14f)
-  static ::UnityEngine::KeyCode const JoystickButton5;
+  /// @brief Field Equals value: static_cast<int32_t>(0x3d)
+  static ::UnityEngine::KeyCode const Equals;
 
-  /// @brief Field JoystickButton6 value: static_cast<int32_t>(0x150)
-  static ::UnityEngine::KeyCode const JoystickButton6;
+  /// @brief Field Escape value: static_cast<int32_t>(0x1b)
+  static ::UnityEngine::KeyCode const Escape;
 
-  /// @brief Field JoystickButton7 value: static_cast<int32_t>(0x151)
-  static ::UnityEngine::KeyCode const JoystickButton7;
+  /// @brief Field Exclaim value: static_cast<int32_t>(0x21)
+  static ::UnityEngine::KeyCode const Exclaim;
 
-  /// @brief Field JoystickButton8 value: static_cast<int32_t>(0x152)
-  static ::UnityEngine::KeyCode const JoystickButton8;
+  /// @brief Field F value: static_cast<int32_t>(0x66)
+  static ::UnityEngine::KeyCode const F;
 
-  /// @brief Field JoystickButton9 value: static_cast<int32_t>(0x153)
-  static ::UnityEngine::KeyCode const JoystickButton9;
+  /// @brief Field F1 value: static_cast<int32_t>(0x11a)
+  static ::UnityEngine::KeyCode const F1;
 
-  /// @brief Field JoystickButton10 value: static_cast<int32_t>(0x154)
-  static ::UnityEngine::KeyCode const JoystickButton10;
+  /// @brief Field F10 value: static_cast<int32_t>(0x123)
+  static ::UnityEngine::KeyCode const F10;
 
-  /// @brief Field JoystickButton11 value: static_cast<int32_t>(0x155)
-  static ::UnityEngine::KeyCode const JoystickButton11;
+  /// @brief Field F11 value: static_cast<int32_t>(0x124)
+  static ::UnityEngine::KeyCode const F11;
 
-  /// @brief Field JoystickButton12 value: static_cast<int32_t>(0x156)
-  static ::UnityEngine::KeyCode const JoystickButton12;
+  /// @brief Field F12 value: static_cast<int32_t>(0x125)
+  static ::UnityEngine::KeyCode const F12;
 
-  /// @brief Field JoystickButton13 value: static_cast<int32_t>(0x157)
-  static ::UnityEngine::KeyCode const JoystickButton13;
+  /// @brief Field F13 value: static_cast<int32_t>(0x126)
+  static ::UnityEngine::KeyCode const F13;
 
-  /// @brief Field JoystickButton14 value: static_cast<int32_t>(0x158)
-  static ::UnityEngine::KeyCode const JoystickButton14;
+  /// @brief Field F14 value: static_cast<int32_t>(0x127)
+  static ::UnityEngine::KeyCode const F14;
 
-  /// @brief Field JoystickButton15 value: static_cast<int32_t>(0x159)
-  static ::UnityEngine::KeyCode const JoystickButton15;
+  /// @brief Field F15 value: static_cast<int32_t>(0x128)
+  static ::UnityEngine::KeyCode const F15;
 
-  /// @brief Field JoystickButton16 value: static_cast<int32_t>(0x15a)
-  static ::UnityEngine::KeyCode const JoystickButton16;
+  /// @brief Field F2 value: static_cast<int32_t>(0x11b)
+  static ::UnityEngine::KeyCode const F2;
 
-  /// @brief Field JoystickButton17 value: static_cast<int32_t>(0x15b)
-  static ::UnityEngine::KeyCode const JoystickButton17;
+  /// @brief Field F3 value: static_cast<int32_t>(0x11c)
+  static ::UnityEngine::KeyCode const F3;
 
-  /// @brief Field JoystickButton18 value: static_cast<int32_t>(0x15c)
-  static ::UnityEngine::KeyCode const JoystickButton18;
+  /// @brief Field F4 value: static_cast<int32_t>(0x11d)
+  static ::UnityEngine::KeyCode const F4;
 
-  /// @brief Field JoystickButton19 value: static_cast<int32_t>(0x15d)
-  static ::UnityEngine::KeyCode const JoystickButton19;
+  /// @brief Field F5 value: static_cast<int32_t>(0x11e)
+  static ::UnityEngine::KeyCode const F5;
+
+  /// @brief Field F6 value: static_cast<int32_t>(0x11f)
+  static ::UnityEngine::KeyCode const F6;
+
+  /// @brief Field F7 value: static_cast<int32_t>(0x120)
+  static ::UnityEngine::KeyCode const F7;
+
+  /// @brief Field F8 value: static_cast<int32_t>(0x121)
+  static ::UnityEngine::KeyCode const F8;
+
+  /// @brief Field F9 value: static_cast<int32_t>(0x122)
+  static ::UnityEngine::KeyCode const F9;
+
+  /// @brief Field G value: static_cast<int32_t>(0x67)
+  static ::UnityEngine::KeyCode const G;
+
+  /// @brief Field Greater value: static_cast<int32_t>(0x3e)
+  static ::UnityEngine::KeyCode const Greater;
+
+  /// @brief Field H value: static_cast<int32_t>(0x68)
+  static ::UnityEngine::KeyCode const H;
+
+  /// @brief Field Hash value: static_cast<int32_t>(0x23)
+  static ::UnityEngine::KeyCode const Hash;
+
+  /// @brief Field Help value: static_cast<int32_t>(0x13b)
+  static ::UnityEngine::KeyCode const Help;
+
+  /// @brief Field Home value: static_cast<int32_t>(0x116)
+  static ::UnityEngine::KeyCode const Home;
+
+  /// @brief Field I value: static_cast<int32_t>(0x69)
+  static ::UnityEngine::KeyCode const I;
+
+  /// @brief Field Insert value: static_cast<int32_t>(0x115)
+  static ::UnityEngine::KeyCode const Insert;
+
+  /// @brief Field J value: static_cast<int32_t>(0x6a)
+  static ::UnityEngine::KeyCode const J;
 
   /// @brief Field Joystick1Button0 value: static_cast<int32_t>(0x15e)
   static ::UnityEngine::KeyCode const Joystick1Button0;
 
   /// @brief Field Joystick1Button1 value: static_cast<int32_t>(0x15f)
   static ::UnityEngine::KeyCode const Joystick1Button1;
-
-  /// @brief Field Joystick1Button2 value: static_cast<int32_t>(0x160)
-  static ::UnityEngine::KeyCode const Joystick1Button2;
-
-  /// @brief Field Joystick1Button3 value: static_cast<int32_t>(0x161)
-  static ::UnityEngine::KeyCode const Joystick1Button3;
-
-  /// @brief Field Joystick1Button4 value: static_cast<int32_t>(0x162)
-  static ::UnityEngine::KeyCode const Joystick1Button4;
-
-  /// @brief Field Joystick1Button5 value: static_cast<int32_t>(0x163)
-  static ::UnityEngine::KeyCode const Joystick1Button5;
-
-  /// @brief Field Joystick1Button6 value: static_cast<int32_t>(0x164)
-  static ::UnityEngine::KeyCode const Joystick1Button6;
-
-  /// @brief Field Joystick1Button7 value: static_cast<int32_t>(0x165)
-  static ::UnityEngine::KeyCode const Joystick1Button7;
-
-  /// @brief Field Joystick1Button8 value: static_cast<int32_t>(0x166)
-  static ::UnityEngine::KeyCode const Joystick1Button8;
-
-  /// @brief Field Joystick1Button9 value: static_cast<int32_t>(0x167)
-  static ::UnityEngine::KeyCode const Joystick1Button9;
 
   /// @brief Field Joystick1Button10 value: static_cast<int32_t>(0x168)
   static ::UnityEngine::KeyCode const Joystick1Button10;
@@ -937,35 +592,35 @@ public:
   /// @brief Field Joystick1Button19 value: static_cast<int32_t>(0x171)
   static ::UnityEngine::KeyCode const Joystick1Button19;
 
+  /// @brief Field Joystick1Button2 value: static_cast<int32_t>(0x160)
+  static ::UnityEngine::KeyCode const Joystick1Button2;
+
+  /// @brief Field Joystick1Button3 value: static_cast<int32_t>(0x161)
+  static ::UnityEngine::KeyCode const Joystick1Button3;
+
+  /// @brief Field Joystick1Button4 value: static_cast<int32_t>(0x162)
+  static ::UnityEngine::KeyCode const Joystick1Button4;
+
+  /// @brief Field Joystick1Button5 value: static_cast<int32_t>(0x163)
+  static ::UnityEngine::KeyCode const Joystick1Button5;
+
+  /// @brief Field Joystick1Button6 value: static_cast<int32_t>(0x164)
+  static ::UnityEngine::KeyCode const Joystick1Button6;
+
+  /// @brief Field Joystick1Button7 value: static_cast<int32_t>(0x165)
+  static ::UnityEngine::KeyCode const Joystick1Button7;
+
+  /// @brief Field Joystick1Button8 value: static_cast<int32_t>(0x166)
+  static ::UnityEngine::KeyCode const Joystick1Button8;
+
+  /// @brief Field Joystick1Button9 value: static_cast<int32_t>(0x167)
+  static ::UnityEngine::KeyCode const Joystick1Button9;
+
   /// @brief Field Joystick2Button0 value: static_cast<int32_t>(0x172)
   static ::UnityEngine::KeyCode const Joystick2Button0;
 
   /// @brief Field Joystick2Button1 value: static_cast<int32_t>(0x173)
   static ::UnityEngine::KeyCode const Joystick2Button1;
-
-  /// @brief Field Joystick2Button2 value: static_cast<int32_t>(0x174)
-  static ::UnityEngine::KeyCode const Joystick2Button2;
-
-  /// @brief Field Joystick2Button3 value: static_cast<int32_t>(0x175)
-  static ::UnityEngine::KeyCode const Joystick2Button3;
-
-  /// @brief Field Joystick2Button4 value: static_cast<int32_t>(0x176)
-  static ::UnityEngine::KeyCode const Joystick2Button4;
-
-  /// @brief Field Joystick2Button5 value: static_cast<int32_t>(0x177)
-  static ::UnityEngine::KeyCode const Joystick2Button5;
-
-  /// @brief Field Joystick2Button6 value: static_cast<int32_t>(0x178)
-  static ::UnityEngine::KeyCode const Joystick2Button6;
-
-  /// @brief Field Joystick2Button7 value: static_cast<int32_t>(0x179)
-  static ::UnityEngine::KeyCode const Joystick2Button7;
-
-  /// @brief Field Joystick2Button8 value: static_cast<int32_t>(0x17a)
-  static ::UnityEngine::KeyCode const Joystick2Button8;
-
-  /// @brief Field Joystick2Button9 value: static_cast<int32_t>(0x17b)
-  static ::UnityEngine::KeyCode const Joystick2Button9;
 
   /// @brief Field Joystick2Button10 value: static_cast<int32_t>(0x17c)
   static ::UnityEngine::KeyCode const Joystick2Button10;
@@ -997,35 +652,35 @@ public:
   /// @brief Field Joystick2Button19 value: static_cast<int32_t>(0x185)
   static ::UnityEngine::KeyCode const Joystick2Button19;
 
+  /// @brief Field Joystick2Button2 value: static_cast<int32_t>(0x174)
+  static ::UnityEngine::KeyCode const Joystick2Button2;
+
+  /// @brief Field Joystick2Button3 value: static_cast<int32_t>(0x175)
+  static ::UnityEngine::KeyCode const Joystick2Button3;
+
+  /// @brief Field Joystick2Button4 value: static_cast<int32_t>(0x176)
+  static ::UnityEngine::KeyCode const Joystick2Button4;
+
+  /// @brief Field Joystick2Button5 value: static_cast<int32_t>(0x177)
+  static ::UnityEngine::KeyCode const Joystick2Button5;
+
+  /// @brief Field Joystick2Button6 value: static_cast<int32_t>(0x178)
+  static ::UnityEngine::KeyCode const Joystick2Button6;
+
+  /// @brief Field Joystick2Button7 value: static_cast<int32_t>(0x179)
+  static ::UnityEngine::KeyCode const Joystick2Button7;
+
+  /// @brief Field Joystick2Button8 value: static_cast<int32_t>(0x17a)
+  static ::UnityEngine::KeyCode const Joystick2Button8;
+
+  /// @brief Field Joystick2Button9 value: static_cast<int32_t>(0x17b)
+  static ::UnityEngine::KeyCode const Joystick2Button9;
+
   /// @brief Field Joystick3Button0 value: static_cast<int32_t>(0x186)
   static ::UnityEngine::KeyCode const Joystick3Button0;
 
   /// @brief Field Joystick3Button1 value: static_cast<int32_t>(0x187)
   static ::UnityEngine::KeyCode const Joystick3Button1;
-
-  /// @brief Field Joystick3Button2 value: static_cast<int32_t>(0x188)
-  static ::UnityEngine::KeyCode const Joystick3Button2;
-
-  /// @brief Field Joystick3Button3 value: static_cast<int32_t>(0x189)
-  static ::UnityEngine::KeyCode const Joystick3Button3;
-
-  /// @brief Field Joystick3Button4 value: static_cast<int32_t>(0x18a)
-  static ::UnityEngine::KeyCode const Joystick3Button4;
-
-  /// @brief Field Joystick3Button5 value: static_cast<int32_t>(0x18b)
-  static ::UnityEngine::KeyCode const Joystick3Button5;
-
-  /// @brief Field Joystick3Button6 value: static_cast<int32_t>(0x18c)
-  static ::UnityEngine::KeyCode const Joystick3Button6;
-
-  /// @brief Field Joystick3Button7 value: static_cast<int32_t>(0x18d)
-  static ::UnityEngine::KeyCode const Joystick3Button7;
-
-  /// @brief Field Joystick3Button8 value: static_cast<int32_t>(0x18e)
-  static ::UnityEngine::KeyCode const Joystick3Button8;
-
-  /// @brief Field Joystick3Button9 value: static_cast<int32_t>(0x18f)
-  static ::UnityEngine::KeyCode const Joystick3Button9;
 
   /// @brief Field Joystick3Button10 value: static_cast<int32_t>(0x190)
   static ::UnityEngine::KeyCode const Joystick3Button10;
@@ -1057,35 +712,35 @@ public:
   /// @brief Field Joystick3Button19 value: static_cast<int32_t>(0x199)
   static ::UnityEngine::KeyCode const Joystick3Button19;
 
+  /// @brief Field Joystick3Button2 value: static_cast<int32_t>(0x188)
+  static ::UnityEngine::KeyCode const Joystick3Button2;
+
+  /// @brief Field Joystick3Button3 value: static_cast<int32_t>(0x189)
+  static ::UnityEngine::KeyCode const Joystick3Button3;
+
+  /// @brief Field Joystick3Button4 value: static_cast<int32_t>(0x18a)
+  static ::UnityEngine::KeyCode const Joystick3Button4;
+
+  /// @brief Field Joystick3Button5 value: static_cast<int32_t>(0x18b)
+  static ::UnityEngine::KeyCode const Joystick3Button5;
+
+  /// @brief Field Joystick3Button6 value: static_cast<int32_t>(0x18c)
+  static ::UnityEngine::KeyCode const Joystick3Button6;
+
+  /// @brief Field Joystick3Button7 value: static_cast<int32_t>(0x18d)
+  static ::UnityEngine::KeyCode const Joystick3Button7;
+
+  /// @brief Field Joystick3Button8 value: static_cast<int32_t>(0x18e)
+  static ::UnityEngine::KeyCode const Joystick3Button8;
+
+  /// @brief Field Joystick3Button9 value: static_cast<int32_t>(0x18f)
+  static ::UnityEngine::KeyCode const Joystick3Button9;
+
   /// @brief Field Joystick4Button0 value: static_cast<int32_t>(0x19a)
   static ::UnityEngine::KeyCode const Joystick4Button0;
 
   /// @brief Field Joystick4Button1 value: static_cast<int32_t>(0x19b)
   static ::UnityEngine::KeyCode const Joystick4Button1;
-
-  /// @brief Field Joystick4Button2 value: static_cast<int32_t>(0x19c)
-  static ::UnityEngine::KeyCode const Joystick4Button2;
-
-  /// @brief Field Joystick4Button3 value: static_cast<int32_t>(0x19d)
-  static ::UnityEngine::KeyCode const Joystick4Button3;
-
-  /// @brief Field Joystick4Button4 value: static_cast<int32_t>(0x19e)
-  static ::UnityEngine::KeyCode const Joystick4Button4;
-
-  /// @brief Field Joystick4Button5 value: static_cast<int32_t>(0x19f)
-  static ::UnityEngine::KeyCode const Joystick4Button5;
-
-  /// @brief Field Joystick4Button6 value: static_cast<int32_t>(0x1a0)
-  static ::UnityEngine::KeyCode const Joystick4Button6;
-
-  /// @brief Field Joystick4Button7 value: static_cast<int32_t>(0x1a1)
-  static ::UnityEngine::KeyCode const Joystick4Button7;
-
-  /// @brief Field Joystick4Button8 value: static_cast<int32_t>(0x1a2)
-  static ::UnityEngine::KeyCode const Joystick4Button8;
-
-  /// @brief Field Joystick4Button9 value: static_cast<int32_t>(0x1a3)
-  static ::UnityEngine::KeyCode const Joystick4Button9;
 
   /// @brief Field Joystick4Button10 value: static_cast<int32_t>(0x1a4)
   static ::UnityEngine::KeyCode const Joystick4Button10;
@@ -1117,35 +772,35 @@ public:
   /// @brief Field Joystick4Button19 value: static_cast<int32_t>(0x1ad)
   static ::UnityEngine::KeyCode const Joystick4Button19;
 
+  /// @brief Field Joystick4Button2 value: static_cast<int32_t>(0x19c)
+  static ::UnityEngine::KeyCode const Joystick4Button2;
+
+  /// @brief Field Joystick4Button3 value: static_cast<int32_t>(0x19d)
+  static ::UnityEngine::KeyCode const Joystick4Button3;
+
+  /// @brief Field Joystick4Button4 value: static_cast<int32_t>(0x19e)
+  static ::UnityEngine::KeyCode const Joystick4Button4;
+
+  /// @brief Field Joystick4Button5 value: static_cast<int32_t>(0x19f)
+  static ::UnityEngine::KeyCode const Joystick4Button5;
+
+  /// @brief Field Joystick4Button6 value: static_cast<int32_t>(0x1a0)
+  static ::UnityEngine::KeyCode const Joystick4Button6;
+
+  /// @brief Field Joystick4Button7 value: static_cast<int32_t>(0x1a1)
+  static ::UnityEngine::KeyCode const Joystick4Button7;
+
+  /// @brief Field Joystick4Button8 value: static_cast<int32_t>(0x1a2)
+  static ::UnityEngine::KeyCode const Joystick4Button8;
+
+  /// @brief Field Joystick4Button9 value: static_cast<int32_t>(0x1a3)
+  static ::UnityEngine::KeyCode const Joystick4Button9;
+
   /// @brief Field Joystick5Button0 value: static_cast<int32_t>(0x1ae)
   static ::UnityEngine::KeyCode const Joystick5Button0;
 
   /// @brief Field Joystick5Button1 value: static_cast<int32_t>(0x1af)
   static ::UnityEngine::KeyCode const Joystick5Button1;
-
-  /// @brief Field Joystick5Button2 value: static_cast<int32_t>(0x1b0)
-  static ::UnityEngine::KeyCode const Joystick5Button2;
-
-  /// @brief Field Joystick5Button3 value: static_cast<int32_t>(0x1b1)
-  static ::UnityEngine::KeyCode const Joystick5Button3;
-
-  /// @brief Field Joystick5Button4 value: static_cast<int32_t>(0x1b2)
-  static ::UnityEngine::KeyCode const Joystick5Button4;
-
-  /// @brief Field Joystick5Button5 value: static_cast<int32_t>(0x1b3)
-  static ::UnityEngine::KeyCode const Joystick5Button5;
-
-  /// @brief Field Joystick5Button6 value: static_cast<int32_t>(0x1b4)
-  static ::UnityEngine::KeyCode const Joystick5Button6;
-
-  /// @brief Field Joystick5Button7 value: static_cast<int32_t>(0x1b5)
-  static ::UnityEngine::KeyCode const Joystick5Button7;
-
-  /// @brief Field Joystick5Button8 value: static_cast<int32_t>(0x1b6)
-  static ::UnityEngine::KeyCode const Joystick5Button8;
-
-  /// @brief Field Joystick5Button9 value: static_cast<int32_t>(0x1b7)
-  static ::UnityEngine::KeyCode const Joystick5Button9;
 
   /// @brief Field Joystick5Button10 value: static_cast<int32_t>(0x1b8)
   static ::UnityEngine::KeyCode const Joystick5Button10;
@@ -1177,35 +832,35 @@ public:
   /// @brief Field Joystick5Button19 value: static_cast<int32_t>(0x1c1)
   static ::UnityEngine::KeyCode const Joystick5Button19;
 
+  /// @brief Field Joystick5Button2 value: static_cast<int32_t>(0x1b0)
+  static ::UnityEngine::KeyCode const Joystick5Button2;
+
+  /// @brief Field Joystick5Button3 value: static_cast<int32_t>(0x1b1)
+  static ::UnityEngine::KeyCode const Joystick5Button3;
+
+  /// @brief Field Joystick5Button4 value: static_cast<int32_t>(0x1b2)
+  static ::UnityEngine::KeyCode const Joystick5Button4;
+
+  /// @brief Field Joystick5Button5 value: static_cast<int32_t>(0x1b3)
+  static ::UnityEngine::KeyCode const Joystick5Button5;
+
+  /// @brief Field Joystick5Button6 value: static_cast<int32_t>(0x1b4)
+  static ::UnityEngine::KeyCode const Joystick5Button6;
+
+  /// @brief Field Joystick5Button7 value: static_cast<int32_t>(0x1b5)
+  static ::UnityEngine::KeyCode const Joystick5Button7;
+
+  /// @brief Field Joystick5Button8 value: static_cast<int32_t>(0x1b6)
+  static ::UnityEngine::KeyCode const Joystick5Button8;
+
+  /// @brief Field Joystick5Button9 value: static_cast<int32_t>(0x1b7)
+  static ::UnityEngine::KeyCode const Joystick5Button9;
+
   /// @brief Field Joystick6Button0 value: static_cast<int32_t>(0x1c2)
   static ::UnityEngine::KeyCode const Joystick6Button0;
 
   /// @brief Field Joystick6Button1 value: static_cast<int32_t>(0x1c3)
   static ::UnityEngine::KeyCode const Joystick6Button1;
-
-  /// @brief Field Joystick6Button2 value: static_cast<int32_t>(0x1c4)
-  static ::UnityEngine::KeyCode const Joystick6Button2;
-
-  /// @brief Field Joystick6Button3 value: static_cast<int32_t>(0x1c5)
-  static ::UnityEngine::KeyCode const Joystick6Button3;
-
-  /// @brief Field Joystick6Button4 value: static_cast<int32_t>(0x1c6)
-  static ::UnityEngine::KeyCode const Joystick6Button4;
-
-  /// @brief Field Joystick6Button5 value: static_cast<int32_t>(0x1c7)
-  static ::UnityEngine::KeyCode const Joystick6Button5;
-
-  /// @brief Field Joystick6Button6 value: static_cast<int32_t>(0x1c8)
-  static ::UnityEngine::KeyCode const Joystick6Button6;
-
-  /// @brief Field Joystick6Button7 value: static_cast<int32_t>(0x1c9)
-  static ::UnityEngine::KeyCode const Joystick6Button7;
-
-  /// @brief Field Joystick6Button8 value: static_cast<int32_t>(0x1ca)
-  static ::UnityEngine::KeyCode const Joystick6Button8;
-
-  /// @brief Field Joystick6Button9 value: static_cast<int32_t>(0x1cb)
-  static ::UnityEngine::KeyCode const Joystick6Button9;
 
   /// @brief Field Joystick6Button10 value: static_cast<int32_t>(0x1cc)
   static ::UnityEngine::KeyCode const Joystick6Button10;
@@ -1237,35 +892,35 @@ public:
   /// @brief Field Joystick6Button19 value: static_cast<int32_t>(0x1d5)
   static ::UnityEngine::KeyCode const Joystick6Button19;
 
+  /// @brief Field Joystick6Button2 value: static_cast<int32_t>(0x1c4)
+  static ::UnityEngine::KeyCode const Joystick6Button2;
+
+  /// @brief Field Joystick6Button3 value: static_cast<int32_t>(0x1c5)
+  static ::UnityEngine::KeyCode const Joystick6Button3;
+
+  /// @brief Field Joystick6Button4 value: static_cast<int32_t>(0x1c6)
+  static ::UnityEngine::KeyCode const Joystick6Button4;
+
+  /// @brief Field Joystick6Button5 value: static_cast<int32_t>(0x1c7)
+  static ::UnityEngine::KeyCode const Joystick6Button5;
+
+  /// @brief Field Joystick6Button6 value: static_cast<int32_t>(0x1c8)
+  static ::UnityEngine::KeyCode const Joystick6Button6;
+
+  /// @brief Field Joystick6Button7 value: static_cast<int32_t>(0x1c9)
+  static ::UnityEngine::KeyCode const Joystick6Button7;
+
+  /// @brief Field Joystick6Button8 value: static_cast<int32_t>(0x1ca)
+  static ::UnityEngine::KeyCode const Joystick6Button8;
+
+  /// @brief Field Joystick6Button9 value: static_cast<int32_t>(0x1cb)
+  static ::UnityEngine::KeyCode const Joystick6Button9;
+
   /// @brief Field Joystick7Button0 value: static_cast<int32_t>(0x1d6)
   static ::UnityEngine::KeyCode const Joystick7Button0;
 
   /// @brief Field Joystick7Button1 value: static_cast<int32_t>(0x1d7)
   static ::UnityEngine::KeyCode const Joystick7Button1;
-
-  /// @brief Field Joystick7Button2 value: static_cast<int32_t>(0x1d8)
-  static ::UnityEngine::KeyCode const Joystick7Button2;
-
-  /// @brief Field Joystick7Button3 value: static_cast<int32_t>(0x1d9)
-  static ::UnityEngine::KeyCode const Joystick7Button3;
-
-  /// @brief Field Joystick7Button4 value: static_cast<int32_t>(0x1da)
-  static ::UnityEngine::KeyCode const Joystick7Button4;
-
-  /// @brief Field Joystick7Button5 value: static_cast<int32_t>(0x1db)
-  static ::UnityEngine::KeyCode const Joystick7Button5;
-
-  /// @brief Field Joystick7Button6 value: static_cast<int32_t>(0x1dc)
-  static ::UnityEngine::KeyCode const Joystick7Button6;
-
-  /// @brief Field Joystick7Button7 value: static_cast<int32_t>(0x1dd)
-  static ::UnityEngine::KeyCode const Joystick7Button7;
-
-  /// @brief Field Joystick7Button8 value: static_cast<int32_t>(0x1de)
-  static ::UnityEngine::KeyCode const Joystick7Button8;
-
-  /// @brief Field Joystick7Button9 value: static_cast<int32_t>(0x1df)
-  static ::UnityEngine::KeyCode const Joystick7Button9;
 
   /// @brief Field Joystick7Button10 value: static_cast<int32_t>(0x1e0)
   static ::UnityEngine::KeyCode const Joystick7Button10;
@@ -1297,35 +952,35 @@ public:
   /// @brief Field Joystick7Button19 value: static_cast<int32_t>(0x1e9)
   static ::UnityEngine::KeyCode const Joystick7Button19;
 
+  /// @brief Field Joystick7Button2 value: static_cast<int32_t>(0x1d8)
+  static ::UnityEngine::KeyCode const Joystick7Button2;
+
+  /// @brief Field Joystick7Button3 value: static_cast<int32_t>(0x1d9)
+  static ::UnityEngine::KeyCode const Joystick7Button3;
+
+  /// @brief Field Joystick7Button4 value: static_cast<int32_t>(0x1da)
+  static ::UnityEngine::KeyCode const Joystick7Button4;
+
+  /// @brief Field Joystick7Button5 value: static_cast<int32_t>(0x1db)
+  static ::UnityEngine::KeyCode const Joystick7Button5;
+
+  /// @brief Field Joystick7Button6 value: static_cast<int32_t>(0x1dc)
+  static ::UnityEngine::KeyCode const Joystick7Button6;
+
+  /// @brief Field Joystick7Button7 value: static_cast<int32_t>(0x1dd)
+  static ::UnityEngine::KeyCode const Joystick7Button7;
+
+  /// @brief Field Joystick7Button8 value: static_cast<int32_t>(0x1de)
+  static ::UnityEngine::KeyCode const Joystick7Button8;
+
+  /// @brief Field Joystick7Button9 value: static_cast<int32_t>(0x1df)
+  static ::UnityEngine::KeyCode const Joystick7Button9;
+
   /// @brief Field Joystick8Button0 value: static_cast<int32_t>(0x1ea)
   static ::UnityEngine::KeyCode const Joystick8Button0;
 
   /// @brief Field Joystick8Button1 value: static_cast<int32_t>(0x1eb)
   static ::UnityEngine::KeyCode const Joystick8Button1;
-
-  /// @brief Field Joystick8Button2 value: static_cast<int32_t>(0x1ec)
-  static ::UnityEngine::KeyCode const Joystick8Button2;
-
-  /// @brief Field Joystick8Button3 value: static_cast<int32_t>(0x1ed)
-  static ::UnityEngine::KeyCode const Joystick8Button3;
-
-  /// @brief Field Joystick8Button4 value: static_cast<int32_t>(0x1ee)
-  static ::UnityEngine::KeyCode const Joystick8Button4;
-
-  /// @brief Field Joystick8Button5 value: static_cast<int32_t>(0x1ef)
-  static ::UnityEngine::KeyCode const Joystick8Button5;
-
-  /// @brief Field Joystick8Button6 value: static_cast<int32_t>(0x1f0)
-  static ::UnityEngine::KeyCode const Joystick8Button6;
-
-  /// @brief Field Joystick8Button7 value: static_cast<int32_t>(0x1f1)
-  static ::UnityEngine::KeyCode const Joystick8Button7;
-
-  /// @brief Field Joystick8Button8 value: static_cast<int32_t>(0x1f2)
-  static ::UnityEngine::KeyCode const Joystick8Button8;
-
-  /// @brief Field Joystick8Button9 value: static_cast<int32_t>(0x1f3)
-  static ::UnityEngine::KeyCode const Joystick8Button9;
 
   /// @brief Field Joystick8Button10 value: static_cast<int32_t>(0x1f4)
   static ::UnityEngine::KeyCode const Joystick8Button10;
@@ -1356,6 +1011,354 @@ public:
 
   /// @brief Field Joystick8Button19 value: static_cast<int32_t>(0x1fd)
   static ::UnityEngine::KeyCode const Joystick8Button19;
+
+  /// @brief Field Joystick8Button2 value: static_cast<int32_t>(0x1ec)
+  static ::UnityEngine::KeyCode const Joystick8Button2;
+
+  /// @brief Field Joystick8Button3 value: static_cast<int32_t>(0x1ed)
+  static ::UnityEngine::KeyCode const Joystick8Button3;
+
+  /// @brief Field Joystick8Button4 value: static_cast<int32_t>(0x1ee)
+  static ::UnityEngine::KeyCode const Joystick8Button4;
+
+  /// @brief Field Joystick8Button5 value: static_cast<int32_t>(0x1ef)
+  static ::UnityEngine::KeyCode const Joystick8Button5;
+
+  /// @brief Field Joystick8Button6 value: static_cast<int32_t>(0x1f0)
+  static ::UnityEngine::KeyCode const Joystick8Button6;
+
+  /// @brief Field Joystick8Button7 value: static_cast<int32_t>(0x1f1)
+  static ::UnityEngine::KeyCode const Joystick8Button7;
+
+  /// @brief Field Joystick8Button8 value: static_cast<int32_t>(0x1f2)
+  static ::UnityEngine::KeyCode const Joystick8Button8;
+
+  /// @brief Field Joystick8Button9 value: static_cast<int32_t>(0x1f3)
+  static ::UnityEngine::KeyCode const Joystick8Button9;
+
+  /// @brief Field JoystickButton0 value: static_cast<int32_t>(0x14a)
+  static ::UnityEngine::KeyCode const JoystickButton0;
+
+  /// @brief Field JoystickButton1 value: static_cast<int32_t>(0x14b)
+  static ::UnityEngine::KeyCode const JoystickButton1;
+
+  /// @brief Field JoystickButton10 value: static_cast<int32_t>(0x154)
+  static ::UnityEngine::KeyCode const JoystickButton10;
+
+  /// @brief Field JoystickButton11 value: static_cast<int32_t>(0x155)
+  static ::UnityEngine::KeyCode const JoystickButton11;
+
+  /// @brief Field JoystickButton12 value: static_cast<int32_t>(0x156)
+  static ::UnityEngine::KeyCode const JoystickButton12;
+
+  /// @brief Field JoystickButton13 value: static_cast<int32_t>(0x157)
+  static ::UnityEngine::KeyCode const JoystickButton13;
+
+  /// @brief Field JoystickButton14 value: static_cast<int32_t>(0x158)
+  static ::UnityEngine::KeyCode const JoystickButton14;
+
+  /// @brief Field JoystickButton15 value: static_cast<int32_t>(0x159)
+  static ::UnityEngine::KeyCode const JoystickButton15;
+
+  /// @brief Field JoystickButton16 value: static_cast<int32_t>(0x15a)
+  static ::UnityEngine::KeyCode const JoystickButton16;
+
+  /// @brief Field JoystickButton17 value: static_cast<int32_t>(0x15b)
+  static ::UnityEngine::KeyCode const JoystickButton17;
+
+  /// @brief Field JoystickButton18 value: static_cast<int32_t>(0x15c)
+  static ::UnityEngine::KeyCode const JoystickButton18;
+
+  /// @brief Field JoystickButton19 value: static_cast<int32_t>(0x15d)
+  static ::UnityEngine::KeyCode const JoystickButton19;
+
+  /// @brief Field JoystickButton2 value: static_cast<int32_t>(0x14c)
+  static ::UnityEngine::KeyCode const JoystickButton2;
+
+  /// @brief Field JoystickButton3 value: static_cast<int32_t>(0x14d)
+  static ::UnityEngine::KeyCode const JoystickButton3;
+
+  /// @brief Field JoystickButton4 value: static_cast<int32_t>(0x14e)
+  static ::UnityEngine::KeyCode const JoystickButton4;
+
+  /// @brief Field JoystickButton5 value: static_cast<int32_t>(0x14f)
+  static ::UnityEngine::KeyCode const JoystickButton5;
+
+  /// @brief Field JoystickButton6 value: static_cast<int32_t>(0x150)
+  static ::UnityEngine::KeyCode const JoystickButton6;
+
+  /// @brief Field JoystickButton7 value: static_cast<int32_t>(0x151)
+  static ::UnityEngine::KeyCode const JoystickButton7;
+
+  /// @brief Field JoystickButton8 value: static_cast<int32_t>(0x152)
+  static ::UnityEngine::KeyCode const JoystickButton8;
+
+  /// @brief Field JoystickButton9 value: static_cast<int32_t>(0x153)
+  static ::UnityEngine::KeyCode const JoystickButton9;
+
+  /// @brief Field K value: static_cast<int32_t>(0x6b)
+  static ::UnityEngine::KeyCode const K;
+
+  /// @brief Field Keypad0 value: static_cast<int32_t>(0x100)
+  static ::UnityEngine::KeyCode const Keypad0;
+
+  /// @brief Field Keypad1 value: static_cast<int32_t>(0x101)
+  static ::UnityEngine::KeyCode const Keypad1;
+
+  /// @brief Field Keypad2 value: static_cast<int32_t>(0x102)
+  static ::UnityEngine::KeyCode const Keypad2;
+
+  /// @brief Field Keypad3 value: static_cast<int32_t>(0x103)
+  static ::UnityEngine::KeyCode const Keypad3;
+
+  /// @brief Field Keypad4 value: static_cast<int32_t>(0x104)
+  static ::UnityEngine::KeyCode const Keypad4;
+
+  /// @brief Field Keypad5 value: static_cast<int32_t>(0x105)
+  static ::UnityEngine::KeyCode const Keypad5;
+
+  /// @brief Field Keypad6 value: static_cast<int32_t>(0x106)
+  static ::UnityEngine::KeyCode const Keypad6;
+
+  /// @brief Field Keypad7 value: static_cast<int32_t>(0x107)
+  static ::UnityEngine::KeyCode const Keypad7;
+
+  /// @brief Field Keypad8 value: static_cast<int32_t>(0x108)
+  static ::UnityEngine::KeyCode const Keypad8;
+
+  /// @brief Field Keypad9 value: static_cast<int32_t>(0x109)
+  static ::UnityEngine::KeyCode const Keypad9;
+
+  /// @brief Field KeypadDivide value: static_cast<int32_t>(0x10b)
+  static ::UnityEngine::KeyCode const KeypadDivide;
+
+  /// @brief Field KeypadEnter value: static_cast<int32_t>(0x10f)
+  static ::UnityEngine::KeyCode const KeypadEnter;
+
+  /// @brief Field KeypadEquals value: static_cast<int32_t>(0x110)
+  static ::UnityEngine::KeyCode const KeypadEquals;
+
+  /// @brief Field KeypadMinus value: static_cast<int32_t>(0x10d)
+  static ::UnityEngine::KeyCode const KeypadMinus;
+
+  /// @brief Field KeypadMultiply value: static_cast<int32_t>(0x10c)
+  static ::UnityEngine::KeyCode const KeypadMultiply;
+
+  /// @brief Field KeypadPeriod value: static_cast<int32_t>(0x10a)
+  static ::UnityEngine::KeyCode const KeypadPeriod;
+
+  /// @brief Field KeypadPlus value: static_cast<int32_t>(0x10e)
+  static ::UnityEngine::KeyCode const KeypadPlus;
+
+  /// @brief Field L value: static_cast<int32_t>(0x6c)
+  static ::UnityEngine::KeyCode const L;
+
+  /// @brief Field LeftAlt value: static_cast<int32_t>(0x134)
+  static ::UnityEngine::KeyCode const LeftAlt;
+
+  /// @brief Field LeftApple value: static_cast<int32_t>(0x136)
+  static ::UnityEngine::KeyCode const LeftApple;
+
+  /// @brief Field LeftArrow value: static_cast<int32_t>(0x114)
+  static ::UnityEngine::KeyCode const LeftArrow;
+
+  /// @brief Field LeftBracket value: static_cast<int32_t>(0x5b)
+  static ::UnityEngine::KeyCode const LeftBracket;
+
+  /// @brief Field LeftCommand value: static_cast<int32_t>(0x136)
+  static ::UnityEngine::KeyCode const LeftCommand;
+
+  /// @brief Field LeftControl value: static_cast<int32_t>(0x132)
+  static ::UnityEngine::KeyCode const LeftControl;
+
+  /// @brief Field LeftCurlyBracket value: static_cast<int32_t>(0x7b)
+  static ::UnityEngine::KeyCode const LeftCurlyBracket;
+
+  /// @brief Field LeftMeta value: static_cast<int32_t>(0x136)
+  static ::UnityEngine::KeyCode const LeftMeta;
+
+  /// @brief Field LeftParen value: static_cast<int32_t>(0x28)
+  static ::UnityEngine::KeyCode const LeftParen;
+
+  /// @brief Field LeftShift value: static_cast<int32_t>(0x130)
+  static ::UnityEngine::KeyCode const LeftShift;
+
+  /// @brief Field LeftWindows value: static_cast<int32_t>(0x137)
+  static ::UnityEngine::KeyCode const LeftWindows;
+
+  /// @brief Field Less value: static_cast<int32_t>(0x3c)
+  static ::UnityEngine::KeyCode const Less;
+
+  /// @brief Field M value: static_cast<int32_t>(0x6d)
+  static ::UnityEngine::KeyCode const M;
+
+  /// @brief Field Menu value: static_cast<int32_t>(0x13f)
+  static ::UnityEngine::KeyCode const Menu;
+
+  /// @brief Field Minus value: static_cast<int32_t>(0x2d)
+  static ::UnityEngine::KeyCode const Minus;
+
+  /// @brief Field Mouse0 value: static_cast<int32_t>(0x143)
+  static ::UnityEngine::KeyCode const Mouse0;
+
+  /// @brief Field Mouse1 value: static_cast<int32_t>(0x144)
+  static ::UnityEngine::KeyCode const Mouse1;
+
+  /// @brief Field Mouse2 value: static_cast<int32_t>(0x145)
+  static ::UnityEngine::KeyCode const Mouse2;
+
+  /// @brief Field Mouse3 value: static_cast<int32_t>(0x146)
+  static ::UnityEngine::KeyCode const Mouse3;
+
+  /// @brief Field Mouse4 value: static_cast<int32_t>(0x147)
+  static ::UnityEngine::KeyCode const Mouse4;
+
+  /// @brief Field Mouse5 value: static_cast<int32_t>(0x148)
+  static ::UnityEngine::KeyCode const Mouse5;
+
+  /// @brief Field Mouse6 value: static_cast<int32_t>(0x149)
+  static ::UnityEngine::KeyCode const Mouse6;
+
+  /// @brief Field N value: static_cast<int32_t>(0x6e)
+  static ::UnityEngine::KeyCode const N;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::KeyCode const None;
+
+  /// @brief Field Numlock value: static_cast<int32_t>(0x12c)
+  static ::UnityEngine::KeyCode const Numlock;
+
+  /// @brief Field O value: static_cast<int32_t>(0x6f)
+  static ::UnityEngine::KeyCode const O;
+
+  /// @brief Field P value: static_cast<int32_t>(0x70)
+  static ::UnityEngine::KeyCode const P;
+
+  /// @brief Field PageDown value: static_cast<int32_t>(0x119)
+  static ::UnityEngine::KeyCode const PageDown;
+
+  /// @brief Field PageUp value: static_cast<int32_t>(0x118)
+  static ::UnityEngine::KeyCode const PageUp;
+
+  /// @brief Field Pause value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::KeyCode const Pause;
+
+  /// @brief Field Percent value: static_cast<int32_t>(0x25)
+  static ::UnityEngine::KeyCode const Percent;
+
+  /// @brief Field Period value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::KeyCode const Period;
+
+  /// @brief Field Pipe value: static_cast<int32_t>(0x7c)
+  static ::UnityEngine::KeyCode const Pipe;
+
+  /// @brief Field Plus value: static_cast<int32_t>(0x2b)
+  static ::UnityEngine::KeyCode const Plus;
+
+  /// @brief Field Print value: static_cast<int32_t>(0x13c)
+  static ::UnityEngine::KeyCode const Print;
+
+  /// @brief Field Q value: static_cast<int32_t>(0x71)
+  static ::UnityEngine::KeyCode const Q;
+
+  /// @brief Field Question value: static_cast<int32_t>(0x3f)
+  static ::UnityEngine::KeyCode const Question;
+
+  /// @brief Field Quote value: static_cast<int32_t>(0x27)
+  static ::UnityEngine::KeyCode const Quote;
+
+  /// @brief Field R value: static_cast<int32_t>(0x72)
+  static ::UnityEngine::KeyCode const R;
+
+  /// @brief Field Return value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::KeyCode const Return;
+
+  /// @brief Field RightAlt value: static_cast<int32_t>(0x133)
+  static ::UnityEngine::KeyCode const RightAlt;
+
+  /// @brief Field RightApple value: static_cast<int32_t>(0x135)
+  static ::UnityEngine::KeyCode const RightApple;
+
+  /// @brief Field RightArrow value: static_cast<int32_t>(0x113)
+  static ::UnityEngine::KeyCode const RightArrow;
+
+  /// @brief Field RightBracket value: static_cast<int32_t>(0x5d)
+  static ::UnityEngine::KeyCode const RightBracket;
+
+  /// @brief Field RightCommand value: static_cast<int32_t>(0x135)
+  static ::UnityEngine::KeyCode const RightCommand;
+
+  /// @brief Field RightControl value: static_cast<int32_t>(0x131)
+  static ::UnityEngine::KeyCode const RightControl;
+
+  /// @brief Field RightCurlyBracket value: static_cast<int32_t>(0x7d)
+  static ::UnityEngine::KeyCode const RightCurlyBracket;
+
+  /// @brief Field RightMeta value: static_cast<int32_t>(0x135)
+  static ::UnityEngine::KeyCode const RightMeta;
+
+  /// @brief Field RightParen value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::KeyCode const RightParen;
+
+  /// @brief Field RightShift value: static_cast<int32_t>(0x12f)
+  static ::UnityEngine::KeyCode const RightShift;
+
+  /// @brief Field RightWindows value: static_cast<int32_t>(0x138)
+  static ::UnityEngine::KeyCode const RightWindows;
+
+  /// @brief Field S value: static_cast<int32_t>(0x73)
+  static ::UnityEngine::KeyCode const S;
+
+  /// @brief Field ScrollLock value: static_cast<int32_t>(0x12e)
+  static ::UnityEngine::KeyCode const ScrollLock;
+
+  /// @brief Field Semicolon value: static_cast<int32_t>(0x3b)
+  static ::UnityEngine::KeyCode const Semicolon;
+
+  /// @brief Field Slash value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::KeyCode const Slash;
+
+  /// @brief Field Space value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::KeyCode const Space;
+
+  /// @brief Field SysReq value: static_cast<int32_t>(0x13d)
+  static ::UnityEngine::KeyCode const SysReq;
+
+  /// @brief Field T value: static_cast<int32_t>(0x74)
+  static ::UnityEngine::KeyCode const T;
+
+  /// @brief Field Tab value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::KeyCode const Tab;
+
+  /// @brief Field Tilde value: static_cast<int32_t>(0x7e)
+  static ::UnityEngine::KeyCode const Tilde;
+
+  /// @brief Field U value: static_cast<int32_t>(0x75)
+  static ::UnityEngine::KeyCode const U;
+
+  /// @brief Field Underscore value: static_cast<int32_t>(0x5f)
+  static ::UnityEngine::KeyCode const Underscore;
+
+  /// @brief Field UpArrow value: static_cast<int32_t>(0x111)
+  static ::UnityEngine::KeyCode const UpArrow;
+
+  /// @brief Field V value: static_cast<int32_t>(0x76)
+  static ::UnityEngine::KeyCode const V;
+
+  /// @brief Field W value: static_cast<int32_t>(0x77)
+  static ::UnityEngine::KeyCode const W;
+
+  /// @brief Field X value: static_cast<int32_t>(0x78)
+  static ::UnityEngine::KeyCode const X;
+
+  /// @brief Field Y value: static_cast<int32_t>(0x79)
+  static ::UnityEngine::KeyCode const Y;
+
+  /// @brief Field Z value: static_cast<int32_t>(0x7a)
+  static ::UnityEngine::KeyCode const Z;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

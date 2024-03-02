@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixIoctlRequest);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9264))
 // CS Name: ::System.Net.NetworkInformation::AixIoctlRequest
 struct CORDL_TYPE AixIoctlRequest {
 public:
@@ -37,21 +35,20 @@ public:
     return static_cast<__AixIoctlRequest_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr AixIoctlRequest(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AixIoctlRequest();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr AixIoctlRequest(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field SIOCGSIZIFCONF value: static_cast<uint32_t>(0x4696af0u)
-  static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGSIZIFCONF;
 
   /// @brief Field SIOCGIFCONF value: static_cast<uint32_t>(0x106945f0u)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFCONF;
@@ -59,11 +56,17 @@ public:
   /// @brief Field SIOCGIFFLAGS value: static_cast<uint32_t>(0x286911f0u)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFFLAGS;
 
+  /// @brief Field SIOCGIFMTU value: static_cast<uint32_t>(0x286956f0u)
+  static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFMTU;
+
   /// @brief Field SIOCGIFNETMASK value: static_cast<uint32_t>(0x286925f0u)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFNETMASK;
 
-  /// @brief Field SIOCGIFMTU value: static_cast<uint32_t>(0x286956f0u)
-  static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFMTU;
+  /// @brief Field SIOCGSIZIFCONF value: static_cast<uint32_t>(0x4696af0u)
+  static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGSIZIFCONF;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

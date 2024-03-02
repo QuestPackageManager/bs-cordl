@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::ETrackedDeviceProperty);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8587))
 // CS Name: ::OVR.OpenVR::ETrackedDeviceProperty
 struct CORDL_TYPE ETrackedDeviceProperty {
 public:
@@ -190,378 +188,32 @@ public:
     return static_cast<__ETrackedDeviceProperty_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ETrackedDeviceProperty(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ETrackedDeviceProperty();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ETrackedDeviceProperty(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Prop_Invalid value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Invalid;
-
-  /// @brief Field Prop_TrackingSystemName_String value: static_cast<int32_t>(0x3e8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingSystemName_String;
-
-  /// @brief Field Prop_ModelNumber_String value: static_cast<int32_t>(0x3e9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModelNumber_String;
-
-  /// @brief Field Prop_SerialNumber_String value: static_cast<int32_t>(0x3ea)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SerialNumber_String;
-
-  /// @brief Field Prop_RenderModelName_String value: static_cast<int32_t>(0x3eb)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RenderModelName_String;
-
-  /// @brief Field Prop_WillDriftInYaw_Bool value: static_cast<int32_t>(0x3ec)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_WillDriftInYaw_Bool;
-
-  /// @brief Field Prop_ManufacturerName_String value: static_cast<int32_t>(0x3ed)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ManufacturerName_String;
-
-  /// @brief Field Prop_TrackingFirmwareVersion_String value: static_cast<int32_t>(0x3ee)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingFirmwareVersion_String;
-
-  /// @brief Field Prop_HardwareRevision_String value: static_cast<int32_t>(0x3ef)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_String;
 
   /// @brief Field Prop_AllWirelessDongleDescriptions_String value: static_cast<int32_t>(0x3f0)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AllWirelessDongleDescriptions_String;
 
-  /// @brief Field Prop_ConnectedWirelessDongle_String value: static_cast<int32_t>(0x3f1)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConnectedWirelessDongle_String;
-
-  /// @brief Field Prop_DeviceIsWireless_Bool value: static_cast<int32_t>(0x3f2)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsWireless_Bool;
-
-  /// @brief Field Prop_DeviceIsCharging_Bool value: static_cast<int32_t>(0x3f3)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsCharging_Bool;
-
-  /// @brief Field Prop_DeviceBatteryPercentage_Float value: static_cast<int32_t>(0x3f4)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceBatteryPercentage_Float;
-
-  /// @brief Field Prop_StatusDisplayTransform_Matrix34 value: static_cast<int32_t>(0x3f5)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_StatusDisplayTransform_Matrix34;
-
-  /// @brief Field Prop_Firmware_UpdateAvailable_Bool value: static_cast<int32_t>(0x3f6)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_UpdateAvailable_Bool;
-
-  /// @brief Field Prop_Firmware_ManualUpdate_Bool value: static_cast<int32_t>(0x3f7)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdate_Bool;
-
-  /// @brief Field Prop_Firmware_ManualUpdateURL_String value: static_cast<int32_t>(0x3f8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdateURL_String;
-
-  /// @brief Field Prop_HardwareRevision_Uint64 value: static_cast<int32_t>(0x3f9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_Uint64;
-
-  /// @brief Field Prop_FirmwareVersion_Uint64 value: static_cast<int32_t>(0x3fa)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FirmwareVersion_Uint64;
-
-  /// @brief Field Prop_FPGAVersion_Uint64 value: static_cast<int32_t>(0x3fb)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FPGAVersion_Uint64;
-
-  /// @brief Field Prop_VRCVersion_Uint64 value: static_cast<int32_t>(0x3fc)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VRCVersion_Uint64;
-
-  /// @brief Field Prop_RadioVersion_Uint64 value: static_cast<int32_t>(0x3fd)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RadioVersion_Uint64;
-
-  /// @brief Field Prop_DongleVersion_Uint64 value: static_cast<int32_t>(0x3fe)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DongleVersion_Uint64;
-
-  /// @brief Field Prop_BlockServerShutdown_Bool value: static_cast<int32_t>(0x3ff)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_BlockServerShutdown_Bool;
-
-  /// @brief Field Prop_CanUnifyCoordinateSystemWithHmd_Bool value: static_cast<int32_t>(0x400)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CanUnifyCoordinateSystemWithHmd_Bool;
-
-  /// @brief Field Prop_ContainsProximitySensor_Bool value: static_cast<int32_t>(0x401)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ContainsProximitySensor_Bool;
-
-  /// @brief Field Prop_DeviceProvidesBatteryStatus_Bool value: static_cast<int32_t>(0x402)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceProvidesBatteryStatus_Bool;
-
-  /// @brief Field Prop_DeviceCanPowerOff_Bool value: static_cast<int32_t>(0x403)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceCanPowerOff_Bool;
-
-  /// @brief Field Prop_Firmware_ProgrammingTarget_String value: static_cast<int32_t>(0x404)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ProgrammingTarget_String;
-
-  /// @brief Field Prop_DeviceClass_Int32 value: static_cast<int32_t>(0x405)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceClass_Int32;
-
-  /// @brief Field Prop_HasCamera_Bool value: static_cast<int32_t>(0x406)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCamera_Bool;
-
-  /// @brief Field Prop_DriverVersion_String value: static_cast<int32_t>(0x407)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverVersion_String;
-
-  /// @brief Field Prop_Firmware_ForceUpdateRequired_Bool value: static_cast<int32_t>(0x408)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ForceUpdateRequired_Bool;
-
-  /// @brief Field Prop_ViveSystemButtonFixRequired_Bool value: static_cast<int32_t>(0x409)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ViveSystemButtonFixRequired_Bool;
-
-  /// @brief Field Prop_ParentDriver_Uint64 value: static_cast<int32_t>(0x40a)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentDriver_Uint64;
-
-  /// @brief Field Prop_ResourceRoot_String value: static_cast<int32_t>(0x40b)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ResourceRoot_String;
-
-  /// @brief Field Prop_RegisteredDeviceType_String value: static_cast<int32_t>(0x40c)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RegisteredDeviceType_String;
-
-  /// @brief Field Prop_InputProfilePath_String value: static_cast<int32_t>(0x40d)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InputProfilePath_String;
-
-  /// @brief Field Prop_NeverTracked_Bool value: static_cast<int32_t>(0x40e)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NeverTracked_Bool;
-
-  /// @brief Field Prop_NumCameras_Int32 value: static_cast<int32_t>(0x40f)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NumCameras_Int32;
-
-  /// @brief Field Prop_CameraFrameLayout_Int32 value: static_cast<int32_t>(0x410)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFrameLayout_Int32;
-
-  /// @brief Field Prop_ReportsTimeSinceVSync_Bool value: static_cast<int32_t>(0x7d0)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ReportsTimeSinceVSync_Bool;
-
-  /// @brief Field Prop_SecondsFromVsyncToPhotons_Float value: static_cast<int32_t>(0x7d1)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromVsyncToPhotons_Float;
-
-  /// @brief Field Prop_DisplayFrequency_Float value: static_cast<int32_t>(0x7d2)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFrequency_Float;
-
-  /// @brief Field Prop_UserIpdMeters_Float value: static_cast<int32_t>(0x7d3)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserIpdMeters_Float;
-
-  /// @brief Field Prop_CurrentUniverseId_Uint64 value: static_cast<int32_t>(0x7d4)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CurrentUniverseId_Uint64;
-
-  /// @brief Field Prop_PreviousUniverseId_Uint64 value: static_cast<int32_t>(0x7d5)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_PreviousUniverseId_Uint64;
-
-  /// @brief Field Prop_DisplayFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7d6)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFirmwareVersion_Uint64;
-
-  /// @brief Field Prop_IsOnDesktop_Bool value: static_cast<int32_t>(0x7d7)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IsOnDesktop_Bool;
-
-  /// @brief Field Prop_DisplayMCType_Int32 value: static_cast<int32_t>(0x7d8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCType_Int32;
-
-  /// @brief Field Prop_DisplayMCOffset_Float value: static_cast<int32_t>(0x7d9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCOffset_Float;
-
-  /// @brief Field Prop_DisplayMCScale_Float value: static_cast<int32_t>(0x7da)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCScale_Float;
-
-  /// @brief Field Prop_EdidVendorID_Int32 value: static_cast<int32_t>(0x7db)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidVendorID_Int32;
-
-  /// @brief Field Prop_DisplayMCImageLeft_String value: static_cast<int32_t>(0x7dc)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageLeft_String;
-
-  /// @brief Field Prop_DisplayMCImageRight_String value: static_cast<int32_t>(0x7dd)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageRight_String;
-
-  /// @brief Field Prop_DisplayGCBlackClamp_Float value: static_cast<int32_t>(0x7de)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCBlackClamp_Float;
-
-  /// @brief Field Prop_EdidProductID_Int32 value: static_cast<int32_t>(0x7df)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidProductID_Int32;
-
-  /// @brief Field Prop_CameraToHeadTransform_Matrix34 value: static_cast<int32_t>(0x7e0)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransform_Matrix34;
-
-  /// @brief Field Prop_DisplayGCType_Int32 value: static_cast<int32_t>(0x7e1)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCType_Int32;
-
-  /// @brief Field Prop_DisplayGCOffset_Float value: static_cast<int32_t>(0x7e2)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCOffset_Float;
-
-  /// @brief Field Prop_DisplayGCScale_Float value: static_cast<int32_t>(0x7e3)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCScale_Float;
-
-  /// @brief Field Prop_DisplayGCPrescale_Float value: static_cast<int32_t>(0x7e4)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCPrescale_Float;
-
-  /// @brief Field Prop_DisplayGCImage_String value: static_cast<int32_t>(0x7e5)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCImage_String;
-
-  /// @brief Field Prop_LensCenterLeftU_Float value: static_cast<int32_t>(0x7e6)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftU_Float;
-
-  /// @brief Field Prop_LensCenterLeftV_Float value: static_cast<int32_t>(0x7e7)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftV_Float;
-
-  /// @brief Field Prop_LensCenterRightU_Float value: static_cast<int32_t>(0x7e8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightU_Float;
-
-  /// @brief Field Prop_LensCenterRightV_Float value: static_cast<int32_t>(0x7e9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightV_Float;
-
-  /// @brief Field Prop_UserHeadToEyeDepthMeters_Float value: static_cast<int32_t>(0x7ea)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserHeadToEyeDepthMeters_Float;
-
-  /// @brief Field Prop_CameraFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7eb)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareVersion_Uint64;
-
-  /// @brief Field Prop_CameraFirmwareDescription_String value: static_cast<int32_t>(0x7ec)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareDescription_String;
-
-  /// @brief Field Prop_DisplayFPGAVersion_Uint64 value: static_cast<int32_t>(0x7ed)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFPGAVersion_Uint64;
-
-  /// @brief Field Prop_DisplayBootloaderVersion_Uint64 value: static_cast<int32_t>(0x7ee)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayBootloaderVersion_Uint64;
-
-  /// @brief Field Prop_DisplayHardwareVersion_Uint64 value: static_cast<int32_t>(0x7ef)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHardwareVersion_Uint64;
-
-  /// @brief Field Prop_AudioFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7f0)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioFirmwareVersion_Uint64;
-
-  /// @brief Field Prop_CameraCompatibilityMode_Int32 value: static_cast<int32_t>(0x7f1)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraCompatibilityMode_Int32;
-
-  /// @brief Field Prop_ScreenshotHorizontalFieldOfViewDegrees_Float value: static_cast<int32_t>(0x7f2)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotHorizontalFieldOfViewDegrees_Float;
-
-  /// @brief Field Prop_ScreenshotVerticalFieldOfViewDegrees_Float value: static_cast<int32_t>(0x7f3)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotVerticalFieldOfViewDegrees_Float;
-
-  /// @brief Field Prop_DisplaySuppressed_Bool value: static_cast<int32_t>(0x7f4)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplaySuppressed_Bool;
-
-  /// @brief Field Prop_DisplayAllowNightMode_Bool value: static_cast<int32_t>(0x7f5)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayAllowNightMode_Bool;
-
-  /// @brief Field Prop_DisplayMCImageWidth_Int32 value: static_cast<int32_t>(0x7f6)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageWidth_Int32;
-
-  /// @brief Field Prop_DisplayMCImageHeight_Int32 value: static_cast<int32_t>(0x7f7)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageHeight_Int32;
-
-  /// @brief Field Prop_DisplayMCImageNumChannels_Int32 value: static_cast<int32_t>(0x7f8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageNumChannels_Int32;
-
-  /// @brief Field Prop_DisplayMCImageData_Binary value: static_cast<int32_t>(0x7f9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageData_Binary;
-
-  /// @brief Field Prop_SecondsFromPhotonsToVblank_Float value: static_cast<int32_t>(0x7fa)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromPhotonsToVblank_Float;
-
-  /// @brief Field Prop_DriverDirectModeSendsVsyncEvents_Bool value: static_cast<int32_t>(0x7fb)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverDirectModeSendsVsyncEvents_Bool;
-
-  /// @brief Field Prop_DisplayDebugMode_Bool value: static_cast<int32_t>(0x7fc)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayDebugMode_Bool;
-
-  /// @brief Field Prop_GraphicsAdapterLuid_Uint64 value: static_cast<int32_t>(0x7fd)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_GraphicsAdapterLuid_Uint64;
-
-  /// @brief Field Prop_DriverProvidedChaperonePath_String value: static_cast<int32_t>(0x800)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverProvidedChaperonePath_String;
-
-  /// @brief Field Prop_ExpectedTrackingReferenceCount_Int32 value: static_cast<int32_t>(0x801)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedTrackingReferenceCount_Int32;
-
-  /// @brief Field Prop_ExpectedControllerCount_Int32 value: static_cast<int32_t>(0x802)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedControllerCount_Int32;
-
-  /// @brief Field Prop_NamedIconPathControllerLeftDeviceOff_String value: static_cast<int32_t>(0x803)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerLeftDeviceOff_String;
-
-  /// @brief Field Prop_NamedIconPathControllerRightDeviceOff_String value: static_cast<int32_t>(0x804)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerRightDeviceOff_String;
-
-  /// @brief Field Prop_NamedIconPathTrackingReferenceDeviceOff_String value: static_cast<int32_t>(0x805)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathTrackingReferenceDeviceOff_String;
-
-  /// @brief Field Prop_DoNotApplyPrediction_Bool value: static_cast<int32_t>(0x806)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DoNotApplyPrediction_Bool;
-
-  /// @brief Field Prop_CameraToHeadTransforms_Matrix34_Array value: static_cast<int32_t>(0x807)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransforms_Matrix34_Array;
-
-  /// @brief Field Prop_DistortionMeshResolution_Int32 value: static_cast<int32_t>(0x808)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DistortionMeshResolution_Int32;
-
-  /// @brief Field Prop_DriverIsDrawingControllers_Bool value: static_cast<int32_t>(0x809)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverIsDrawingControllers_Bool;
-
-  /// @brief Field Prop_DriverRequestsApplicationPause_Bool value: static_cast<int32_t>(0x80a)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsApplicationPause_Bool;
-
-  /// @brief Field Prop_DriverRequestsReducedRendering_Bool value: static_cast<int32_t>(0x80b)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsReducedRendering_Bool;
-
-  /// @brief Field Prop_MinimumIpdStepMeters_Float value: static_cast<int32_t>(0x80c)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_MinimumIpdStepMeters_Float;
+  /// @brief Field Prop_AttachedDeviceId_String value: static_cast<int32_t>(0xbb8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AttachedDeviceId_String;
 
   /// @brief Field Prop_AudioBridgeFirmwareVersion_Uint64 value: static_cast<int32_t>(0x80d)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioBridgeFirmwareVersion_Uint64;
 
-  /// @brief Field Prop_ImageBridgeFirmwareVersion_Uint64 value: static_cast<int32_t>(0x80e)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImageBridgeFirmwareVersion_Uint64;
-
-  /// @brief Field Prop_ImuToHeadTransform_Matrix34 value: static_cast<int32_t>(0x80f)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuToHeadTransform_Matrix34;
-
-  /// @brief Field Prop_ImuFactoryGyroBias_Vector3 value: static_cast<int32_t>(0x810)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroBias_Vector3;
-
-  /// @brief Field Prop_ImuFactoryGyroScale_Vector3 value: static_cast<int32_t>(0x811)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroScale_Vector3;
-
-  /// @brief Field Prop_ImuFactoryAccelerometerBias_Vector3 value: static_cast<int32_t>(0x812)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerBias_Vector3;
-
-  /// @brief Field Prop_ImuFactoryAccelerometerScale_Vector3 value: static_cast<int32_t>(0x813)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerScale_Vector3;
-
-  /// @brief Field Prop_ConfigurationIncludesLighthouse20Features_Bool value: static_cast<int32_t>(0x815)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConfigurationIncludesLighthouse20Features_Bool;
-
-  /// @brief Field Prop_DriverRequestedMuraCorrectionMode_Int32 value: static_cast<int32_t>(0x898)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraCorrectionMode_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_InnerLeft_Int32 value: static_cast<int32_t>(0x899)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerLeft_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_InnerRight_Int32 value: static_cast<int32_t>(0x89a)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerRight_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_InnerTop_Int32 value: static_cast<int32_t>(0x89b)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerTop_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_InnerBottom_Int32 value: static_cast<int32_t>(0x89c)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerBottom_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_OuterLeft_Int32 value: static_cast<int32_t>(0x89d)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterLeft_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_OuterRight_Int32 value: static_cast<int32_t>(0x89e)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterRight_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_OuterTop_Int32 value: static_cast<int32_t>(0x89f)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterTop_Int32;
-
-  /// @brief Field Prop_DriverRequestedMuraFeather_OuterBottom_Int32 value: static_cast<int32_t>(0x8a0)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterBottom_Int32;
-
-  /// @brief Field Prop_AttachedDeviceId_String value: static_cast<int32_t>(0xbb8)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AttachedDeviceId_String;
-
-  /// @brief Field Prop_SupportedButtons_Uint64 value: static_cast<int32_t>(0xbb9)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SupportedButtons_Uint64;
+  /// @brief Field Prop_AudioFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7f0)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_AudioFirmwareVersion_Uint64;
 
   /// @brief Field Prop_Axis0Type_Int32 value: static_cast<int32_t>(0xbba)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis0Type_Int32;
@@ -578,8 +230,212 @@ public:
   /// @brief Field Prop_Axis4Type_Int32 value: static_cast<int32_t>(0xbbe)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Axis4Type_Int32;
 
+  /// @brief Field Prop_BlockServerShutdown_Bool value: static_cast<int32_t>(0x3ff)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_BlockServerShutdown_Bool;
+
+  /// @brief Field Prop_CameraCompatibilityMode_Int32 value: static_cast<int32_t>(0x7f1)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraCompatibilityMode_Int32;
+
+  /// @brief Field Prop_CameraFirmwareDescription_String value: static_cast<int32_t>(0x7ec)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareDescription_String;
+
+  /// @brief Field Prop_CameraFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7eb)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFirmwareVersion_Uint64;
+
+  /// @brief Field Prop_CameraFrameLayout_Int32 value: static_cast<int32_t>(0x410)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraFrameLayout_Int32;
+
+  /// @brief Field Prop_CameraToHeadTransform_Matrix34 value: static_cast<int32_t>(0x7e0)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransform_Matrix34;
+
+  /// @brief Field Prop_CameraToHeadTransforms_Matrix34_Array value: static_cast<int32_t>(0x807)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CameraToHeadTransforms_Matrix34_Array;
+
+  /// @brief Field Prop_CanUnifyCoordinateSystemWithHmd_Bool value: static_cast<int32_t>(0x400)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CanUnifyCoordinateSystemWithHmd_Bool;
+
+  /// @brief Field Prop_ConfigurationIncludesLighthouse20Features_Bool value: static_cast<int32_t>(0x815)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConfigurationIncludesLighthouse20Features_Bool;
+
+  /// @brief Field Prop_ConnectedWirelessDongle_String value: static_cast<int32_t>(0x3f1)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ConnectedWirelessDongle_String;
+
+  /// @brief Field Prop_ContainsProximitySensor_Bool value: static_cast<int32_t>(0x401)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ContainsProximitySensor_Bool;
+
   /// @brief Field Prop_ControllerRoleHint_Int32 value: static_cast<int32_t>(0xbbf)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerRoleHint_Int32;
+
+  /// @brief Field Prop_ControllerType_String value: static_cast<int32_t>(0x1b58)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerType_String;
+
+  /// @brief Field Prop_CurrentUniverseId_Uint64 value: static_cast<int32_t>(0x7d4)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_CurrentUniverseId_Uint64;
+
+  /// @brief Field Prop_DeviceBatteryPercentage_Float value: static_cast<int32_t>(0x3f4)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceBatteryPercentage_Float;
+
+  /// @brief Field Prop_DeviceCanPowerOff_Bool value: static_cast<int32_t>(0x403)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceCanPowerOff_Bool;
+
+  /// @brief Field Prop_DeviceClass_Int32 value: static_cast<int32_t>(0x405)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceClass_Int32;
+
+  /// @brief Field Prop_DeviceIsCharging_Bool value: static_cast<int32_t>(0x3f3)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsCharging_Bool;
+
+  /// @brief Field Prop_DeviceIsWireless_Bool value: static_cast<int32_t>(0x3f2)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceIsWireless_Bool;
+
+  /// @brief Field Prop_DeviceProvidesBatteryStatus_Bool value: static_cast<int32_t>(0x402)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DeviceProvidesBatteryStatus_Bool;
+
+  /// @brief Field Prop_DisplayAllowNightMode_Bool value: static_cast<int32_t>(0x7f5)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayAllowNightMode_Bool;
+
+  /// @brief Field Prop_DisplayBootloaderVersion_Uint64 value: static_cast<int32_t>(0x7ee)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayBootloaderVersion_Uint64;
+
+  /// @brief Field Prop_DisplayDebugMode_Bool value: static_cast<int32_t>(0x7fc)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayDebugMode_Bool;
+
+  /// @brief Field Prop_DisplayFPGAVersion_Uint64 value: static_cast<int32_t>(0x7ed)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFPGAVersion_Uint64;
+
+  /// @brief Field Prop_DisplayFirmwareVersion_Uint64 value: static_cast<int32_t>(0x7d6)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFirmwareVersion_Uint64;
+
+  /// @brief Field Prop_DisplayFrequency_Float value: static_cast<int32_t>(0x7d2)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayFrequency_Float;
+
+  /// @brief Field Prop_DisplayGCBlackClamp_Float value: static_cast<int32_t>(0x7de)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCBlackClamp_Float;
+
+  /// @brief Field Prop_DisplayGCImage_String value: static_cast<int32_t>(0x7e5)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCImage_String;
+
+  /// @brief Field Prop_DisplayGCOffset_Float value: static_cast<int32_t>(0x7e2)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCOffset_Float;
+
+  /// @brief Field Prop_DisplayGCPrescale_Float value: static_cast<int32_t>(0x7e4)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCPrescale_Float;
+
+  /// @brief Field Prop_DisplayGCScale_Float value: static_cast<int32_t>(0x7e3)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCScale_Float;
+
+  /// @brief Field Prop_DisplayGCType_Int32 value: static_cast<int32_t>(0x7e1)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayGCType_Int32;
+
+  /// @brief Field Prop_DisplayHardwareVersion_Uint64 value: static_cast<int32_t>(0x7ef)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHardwareVersion_Uint64;
+
+  /// @brief Field Prop_DisplayHiddenArea_Binary_End value: static_cast<int32_t>(0x141e)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_End;
+
+  /// @brief Field Prop_DisplayHiddenArea_Binary_Start value: static_cast<int32_t>(0x13ec)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_Start;
+
+  /// @brief Field Prop_DisplayMCImageData_Binary value: static_cast<int32_t>(0x7f9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageData_Binary;
+
+  /// @brief Field Prop_DisplayMCImageHeight_Int32 value: static_cast<int32_t>(0x7f7)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageHeight_Int32;
+
+  /// @brief Field Prop_DisplayMCImageLeft_String value: static_cast<int32_t>(0x7dc)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageLeft_String;
+
+  /// @brief Field Prop_DisplayMCImageNumChannels_Int32 value: static_cast<int32_t>(0x7f8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageNumChannels_Int32;
+
+  /// @brief Field Prop_DisplayMCImageRight_String value: static_cast<int32_t>(0x7dd)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageRight_String;
+
+  /// @brief Field Prop_DisplayMCImageWidth_Int32 value: static_cast<int32_t>(0x7f6)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCImageWidth_Int32;
+
+  /// @brief Field Prop_DisplayMCOffset_Float value: static_cast<int32_t>(0x7d9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCOffset_Float;
+
+  /// @brief Field Prop_DisplayMCScale_Float value: static_cast<int32_t>(0x7da)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCScale_Float;
+
+  /// @brief Field Prop_DisplayMCType_Int32 value: static_cast<int32_t>(0x7d8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayMCType_Int32;
+
+  /// @brief Field Prop_DisplaySuppressed_Bool value: static_cast<int32_t>(0x7f4)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplaySuppressed_Bool;
+
+  /// @brief Field Prop_DistortionMeshResolution_Int32 value: static_cast<int32_t>(0x808)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DistortionMeshResolution_Int32;
+
+  /// @brief Field Prop_DoNotApplyPrediction_Bool value: static_cast<int32_t>(0x806)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DoNotApplyPrediction_Bool;
+
+  /// @brief Field Prop_DongleVersion_Uint64 value: static_cast<int32_t>(0x3fe)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DongleVersion_Uint64;
+
+  /// @brief Field Prop_DriverDirectModeSendsVsyncEvents_Bool value: static_cast<int32_t>(0x7fb)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverDirectModeSendsVsyncEvents_Bool;
+
+  /// @brief Field Prop_DriverIsDrawingControllers_Bool value: static_cast<int32_t>(0x809)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverIsDrawingControllers_Bool;
+
+  /// @brief Field Prop_DriverProvidedChaperonePath_String value: static_cast<int32_t>(0x800)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverProvidedChaperonePath_String;
+
+  /// @brief Field Prop_DriverRequestedMuraCorrectionMode_Int32 value: static_cast<int32_t>(0x898)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraCorrectionMode_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_InnerBottom_Int32 value: static_cast<int32_t>(0x89c)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerBottom_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_InnerLeft_Int32 value: static_cast<int32_t>(0x899)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerLeft_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_InnerRight_Int32 value: static_cast<int32_t>(0x89a)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerRight_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_InnerTop_Int32 value: static_cast<int32_t>(0x89b)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_InnerTop_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_OuterBottom_Int32 value: static_cast<int32_t>(0x8a0)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterBottom_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_OuterLeft_Int32 value: static_cast<int32_t>(0x89d)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterLeft_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_OuterRight_Int32 value: static_cast<int32_t>(0x89e)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterRight_Int32;
+
+  /// @brief Field Prop_DriverRequestedMuraFeather_OuterTop_Int32 value: static_cast<int32_t>(0x89f)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestedMuraFeather_OuterTop_Int32;
+
+  /// @brief Field Prop_DriverRequestsApplicationPause_Bool value: static_cast<int32_t>(0x80a)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsApplicationPause_Bool;
+
+  /// @brief Field Prop_DriverRequestsReducedRendering_Bool value: static_cast<int32_t>(0x80b)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverRequestsReducedRendering_Bool;
+
+  /// @brief Field Prop_DriverVersion_String value: static_cast<int32_t>(0x407)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DriverVersion_String;
+
+  /// @brief Field Prop_EdidProductID_Int32 value: static_cast<int32_t>(0x7df)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidProductID_Int32;
+
+  /// @brief Field Prop_EdidVendorID_Int32 value: static_cast<int32_t>(0x7db)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_EdidVendorID_Int32;
+
+  /// @brief Field Prop_ExpectedControllerCount_Int32 value: static_cast<int32_t>(0x802)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedControllerCount_Int32;
+
+  /// @brief Field Prop_ExpectedTrackingReferenceCount_Int32 value: static_cast<int32_t>(0x801)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ExpectedTrackingReferenceCount_Int32;
+
+  /// @brief Field Prop_FPGAVersion_Uint64 value: static_cast<int32_t>(0x3fb)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FPGAVersion_Uint64;
+
+  /// @brief Field Prop_FieldOfViewBottomDegrees_Float value: static_cast<int32_t>(0xfa3)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewBottomDegrees_Float;
 
   /// @brief Field Prop_FieldOfViewLeftDegrees_Float value: static_cast<int32_t>(0xfa0)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewLeftDegrees_Float;
@@ -590,92 +446,239 @@ public:
   /// @brief Field Prop_FieldOfViewTopDegrees_Float value: static_cast<int32_t>(0xfa2)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewTopDegrees_Float;
 
-  /// @brief Field Prop_FieldOfViewBottomDegrees_Float value: static_cast<int32_t>(0xfa3)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FieldOfViewBottomDegrees_Float;
+  /// @brief Field Prop_FirmwareVersion_Uint64 value: static_cast<int32_t>(0x3fa)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_FirmwareVersion_Uint64;
 
-  /// @brief Field Prop_TrackingRangeMinimumMeters_Float value: static_cast<int32_t>(0xfa4)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMinimumMeters_Float;
+  /// @brief Field Prop_Firmware_ForceUpdateRequired_Bool value: static_cast<int32_t>(0x408)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ForceUpdateRequired_Bool;
 
-  /// @brief Field Prop_TrackingRangeMaximumMeters_Float value: static_cast<int32_t>(0xfa5)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMaximumMeters_Float;
+  /// @brief Field Prop_Firmware_ManualUpdateURL_String value: static_cast<int32_t>(0x3f8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdateURL_String;
 
-  /// @brief Field Prop_ModeLabel_String value: static_cast<int32_t>(0xfa6)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModeLabel_String;
+  /// @brief Field Prop_Firmware_ManualUpdate_Bool value: static_cast<int32_t>(0x3f7)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ManualUpdate_Bool;
 
-  /// @brief Field Prop_IconPathName_String value: static_cast<int32_t>(0x1388)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IconPathName_String;
+  /// @brief Field Prop_Firmware_ProgrammingTarget_String value: static_cast<int32_t>(0x404)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_ProgrammingTarget_String;
 
-  /// @brief Field Prop_NamedIconPathDeviceOff_String value: static_cast<int32_t>(0x1389)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceOff_String;
+  /// @brief Field Prop_Firmware_UpdateAvailable_Bool value: static_cast<int32_t>(0x3f6)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Firmware_UpdateAvailable_Bool;
 
-  /// @brief Field Prop_NamedIconPathDeviceSearching_String value: static_cast<int32_t>(0x138a)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearching_String;
+  /// @brief Field Prop_GraphicsAdapterLuid_Uint64 value: static_cast<int32_t>(0x7fd)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_GraphicsAdapterLuid_Uint64;
 
-  /// @brief Field Prop_NamedIconPathDeviceSearchingAlert_String value: static_cast<int32_t>(0x138b)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearchingAlert_String;
+  /// @brief Field Prop_HardwareRevision_String value: static_cast<int32_t>(0x3ef)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_String;
 
-  /// @brief Field Prop_NamedIconPathDeviceReady_String value: static_cast<int32_t>(0x138c)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReady_String;
-
-  /// @brief Field Prop_NamedIconPathDeviceReadyAlert_String value: static_cast<int32_t>(0x138d)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReadyAlert_String;
-
-  /// @brief Field Prop_NamedIconPathDeviceNotReady_String value: static_cast<int32_t>(0x138e)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceNotReady_String;
-
-  /// @brief Field Prop_NamedIconPathDeviceStandby_String value: static_cast<int32_t>(0x138f)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceStandby_String;
-
-  /// @brief Field Prop_NamedIconPathDeviceAlertLow_String value: static_cast<int32_t>(0x1390)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceAlertLow_String;
-
-  /// @brief Field Prop_DisplayHiddenArea_Binary_Start value: static_cast<int32_t>(0x13ec)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_Start;
-
-  /// @brief Field Prop_DisplayHiddenArea_Binary_End value: static_cast<int32_t>(0x141e)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_DisplayHiddenArea_Binary_End;
-
-  /// @brief Field Prop_ParentContainer value: static_cast<int32_t>(0x141f)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentContainer;
-
-  /// @brief Field Prop_UserConfigPath_String value: static_cast<int32_t>(0x1770)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserConfigPath_String;
-
-  /// @brief Field Prop_InstallPath_String value: static_cast<int32_t>(0x1771)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InstallPath_String;
-
-  /// @brief Field Prop_HasDisplayComponent_Bool value: static_cast<int32_t>(0x1772)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDisplayComponent_Bool;
-
-  /// @brief Field Prop_HasControllerComponent_Bool value: static_cast<int32_t>(0x1773)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasControllerComponent_Bool;
+  /// @brief Field Prop_HardwareRevision_Uint64 value: static_cast<int32_t>(0x3f9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HardwareRevision_Uint64;
 
   /// @brief Field Prop_HasCameraComponent_Bool value: static_cast<int32_t>(0x1774)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCameraComponent_Bool;
 
+  /// @brief Field Prop_HasCamera_Bool value: static_cast<int32_t>(0x406)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasCamera_Bool;
+
+  /// @brief Field Prop_HasControllerComponent_Bool value: static_cast<int32_t>(0x1773)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasControllerComponent_Bool;
+
+  /// @brief Field Prop_HasDisplayComponent_Bool value: static_cast<int32_t>(0x1772)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDisplayComponent_Bool;
+
   /// @brief Field Prop_HasDriverDirectModeComponent_Bool value: static_cast<int32_t>(0x1775)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasDriverDirectModeComponent_Bool;
-
-  /// @brief Field Prop_HasVirtualDisplayComponent_Bool value: static_cast<int32_t>(0x1776)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasVirtualDisplayComponent_Bool;
 
   /// @brief Field Prop_HasSpatialAnchorsSupport_Bool value: static_cast<int32_t>(0x1777)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasSpatialAnchorsSupport_Bool;
 
-  /// @brief Field Prop_ControllerType_String value: static_cast<int32_t>(0x1b58)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ControllerType_String;
+  /// @brief Field Prop_HasVirtualDisplayComponent_Bool value: static_cast<int32_t>(0x1776)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_HasVirtualDisplayComponent_Bool;
+
+  /// @brief Field Prop_IconPathName_String value: static_cast<int32_t>(0x1388)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IconPathName_String;
+
+  /// @brief Field Prop_ImageBridgeFirmwareVersion_Uint64 value: static_cast<int32_t>(0x80e)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImageBridgeFirmwareVersion_Uint64;
+
+  /// @brief Field Prop_ImuFactoryAccelerometerBias_Vector3 value: static_cast<int32_t>(0x812)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerBias_Vector3;
+
+  /// @brief Field Prop_ImuFactoryAccelerometerScale_Vector3 value: static_cast<int32_t>(0x813)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryAccelerometerScale_Vector3;
+
+  /// @brief Field Prop_ImuFactoryGyroBias_Vector3 value: static_cast<int32_t>(0x810)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroBias_Vector3;
+
+  /// @brief Field Prop_ImuFactoryGyroScale_Vector3 value: static_cast<int32_t>(0x811)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuFactoryGyroScale_Vector3;
+
+  /// @brief Field Prop_ImuToHeadTransform_Matrix34 value: static_cast<int32_t>(0x80f)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ImuToHeadTransform_Matrix34;
+
+  /// @brief Field Prop_InputProfilePath_String value: static_cast<int32_t>(0x40d)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InputProfilePath_String;
+
+  /// @brief Field Prop_InstallPath_String value: static_cast<int32_t>(0x1771)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_InstallPath_String;
+
+  /// @brief Field Prop_Invalid value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_Invalid;
+
+  /// @brief Field Prop_IsOnDesktop_Bool value: static_cast<int32_t>(0x7d7)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_IsOnDesktop_Bool;
 
   /// @brief Field Prop_LegacyInputProfile_String value: static_cast<int32_t>(0x1b59)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LegacyInputProfile_String;
 
-  /// @brief Field Prop_VendorSpecific_Reserved_Start value: static_cast<int32_t>(0x2710)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_Start;
+  /// @brief Field Prop_LensCenterLeftU_Float value: static_cast<int32_t>(0x7e6)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftU_Float;
+
+  /// @brief Field Prop_LensCenterLeftV_Float value: static_cast<int32_t>(0x7e7)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterLeftV_Float;
+
+  /// @brief Field Prop_LensCenterRightU_Float value: static_cast<int32_t>(0x7e8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightU_Float;
+
+  /// @brief Field Prop_LensCenterRightV_Float value: static_cast<int32_t>(0x7e9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_LensCenterRightV_Float;
+
+  /// @brief Field Prop_ManufacturerName_String value: static_cast<int32_t>(0x3ed)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ManufacturerName_String;
+
+  /// @brief Field Prop_MinimumIpdStepMeters_Float value: static_cast<int32_t>(0x80c)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_MinimumIpdStepMeters_Float;
+
+  /// @brief Field Prop_ModeLabel_String value: static_cast<int32_t>(0xfa6)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModeLabel_String;
+
+  /// @brief Field Prop_ModelNumber_String value: static_cast<int32_t>(0x3e9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ModelNumber_String;
+
+  /// @brief Field Prop_NamedIconPathControllerLeftDeviceOff_String value: static_cast<int32_t>(0x803)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerLeftDeviceOff_String;
+
+  /// @brief Field Prop_NamedIconPathControllerRightDeviceOff_String value: static_cast<int32_t>(0x804)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathControllerRightDeviceOff_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceAlertLow_String value: static_cast<int32_t>(0x1390)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceAlertLow_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceNotReady_String value: static_cast<int32_t>(0x138e)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceNotReady_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceOff_String value: static_cast<int32_t>(0x1389)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceOff_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceReadyAlert_String value: static_cast<int32_t>(0x138d)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReadyAlert_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceReady_String value: static_cast<int32_t>(0x138c)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceReady_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceSearchingAlert_String value: static_cast<int32_t>(0x138b)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearchingAlert_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceSearching_String value: static_cast<int32_t>(0x138a)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceSearching_String;
+
+  /// @brief Field Prop_NamedIconPathDeviceStandby_String value: static_cast<int32_t>(0x138f)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathDeviceStandby_String;
+
+  /// @brief Field Prop_NamedIconPathTrackingReferenceDeviceOff_String value: static_cast<int32_t>(0x805)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NamedIconPathTrackingReferenceDeviceOff_String;
+
+  /// @brief Field Prop_NeverTracked_Bool value: static_cast<int32_t>(0x40e)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NeverTracked_Bool;
+
+  /// @brief Field Prop_NumCameras_Int32 value: static_cast<int32_t>(0x40f)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_NumCameras_Int32;
+
+  /// @brief Field Prop_ParentContainer value: static_cast<int32_t>(0x141f)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentContainer;
+
+  /// @brief Field Prop_ParentDriver_Uint64 value: static_cast<int32_t>(0x40a)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ParentDriver_Uint64;
+
+  /// @brief Field Prop_PreviousUniverseId_Uint64 value: static_cast<int32_t>(0x7d5)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_PreviousUniverseId_Uint64;
+
+  /// @brief Field Prop_RadioVersion_Uint64 value: static_cast<int32_t>(0x3fd)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RadioVersion_Uint64;
+
+  /// @brief Field Prop_RegisteredDeviceType_String value: static_cast<int32_t>(0x40c)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RegisteredDeviceType_String;
+
+  /// @brief Field Prop_RenderModelName_String value: static_cast<int32_t>(0x3eb)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_RenderModelName_String;
+
+  /// @brief Field Prop_ReportsTimeSinceVSync_Bool value: static_cast<int32_t>(0x7d0)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ReportsTimeSinceVSync_Bool;
+
+  /// @brief Field Prop_ResourceRoot_String value: static_cast<int32_t>(0x40b)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ResourceRoot_String;
+
+  /// @brief Field Prop_ScreenshotHorizontalFieldOfViewDegrees_Float value: static_cast<int32_t>(0x7f2)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotHorizontalFieldOfViewDegrees_Float;
+
+  /// @brief Field Prop_ScreenshotVerticalFieldOfViewDegrees_Float value: static_cast<int32_t>(0x7f3)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ScreenshotVerticalFieldOfViewDegrees_Float;
+
+  /// @brief Field Prop_SecondsFromPhotonsToVblank_Float value: static_cast<int32_t>(0x7fa)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromPhotonsToVblank_Float;
+
+  /// @brief Field Prop_SecondsFromVsyncToPhotons_Float value: static_cast<int32_t>(0x7d1)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SecondsFromVsyncToPhotons_Float;
+
+  /// @brief Field Prop_SerialNumber_String value: static_cast<int32_t>(0x3ea)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SerialNumber_String;
+
+  /// @brief Field Prop_StatusDisplayTransform_Matrix34 value: static_cast<int32_t>(0x3f5)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_StatusDisplayTransform_Matrix34;
+
+  /// @brief Field Prop_SupportedButtons_Uint64 value: static_cast<int32_t>(0xbb9)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_SupportedButtons_Uint64;
+
+  /// @brief Field Prop_TrackedDeviceProperty_Max value: static_cast<int32_t>(0xf4240)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackedDeviceProperty_Max;
+
+  /// @brief Field Prop_TrackingFirmwareVersion_String value: static_cast<int32_t>(0x3ee)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingFirmwareVersion_String;
+
+  /// @brief Field Prop_TrackingRangeMaximumMeters_Float value: static_cast<int32_t>(0xfa5)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMaximumMeters_Float;
+
+  /// @brief Field Prop_TrackingRangeMinimumMeters_Float value: static_cast<int32_t>(0xfa4)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingRangeMinimumMeters_Float;
+
+  /// @brief Field Prop_TrackingSystemName_String value: static_cast<int32_t>(0x3e8)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackingSystemName_String;
+
+  /// @brief Field Prop_UserConfigPath_String value: static_cast<int32_t>(0x1770)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserConfigPath_String;
+
+  /// @brief Field Prop_UserHeadToEyeDepthMeters_Float value: static_cast<int32_t>(0x7ea)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserHeadToEyeDepthMeters_Float;
+
+  /// @brief Field Prop_UserIpdMeters_Float value: static_cast<int32_t>(0x7d3)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_UserIpdMeters_Float;
+
+  /// @brief Field Prop_VRCVersion_Uint64 value: static_cast<int32_t>(0x3fc)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VRCVersion_Uint64;
 
   /// @brief Field Prop_VendorSpecific_Reserved_End value: static_cast<int32_t>(0x2af7)
   static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_End;
 
-  /// @brief Field Prop_TrackedDeviceProperty_Max value: static_cast<int32_t>(0xf4240)
-  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_TrackedDeviceProperty_Max;
+  /// @brief Field Prop_VendorSpecific_Reserved_Start value: static_cast<int32_t>(0x2710)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_VendorSpecific_Reserved_Start;
+
+  /// @brief Field Prop_ViveSystemButtonFixRequired_Bool value: static_cast<int32_t>(0x409)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_ViveSystemButtonFixRequired_Bool;
+
+  /// @brief Field Prop_WillDriftInYaw_Bool value: static_cast<int32_t>(0x3ec)
+  static ::OVR::OpenVR::ETrackedDeviceProperty const Prop_WillDriftInYaw_Bool;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

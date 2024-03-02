@@ -34,17 +34,15 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::FaceRebuildData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12125))
 // CS Name: ::UnityEngine.ProBuilder::FaceRebuildData*
 class CORDL_TYPE FaceRebuildData : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _appliedOffset, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__appliedOffset, put = __cordl_internal_set__appliedOffset)) int32_t _appliedOffset;
+
   /// @brief Field face, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face))::UnityEngine::ProBuilder::Face* face;
-
-  /// @brief Field vertices, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
 
   /// @brief Field sharedIndexes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sharedIndexes, put = __cordl_internal_set_sharedIndexes))::System::Collections::Generic::List_1<int32_t>* sharedIndexes;
@@ -52,59 +50,65 @@ public:
   /// @brief Field sharedIndexesUV, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_sharedIndexesUV, put = __cordl_internal_set_sharedIndexesUV))::System::Collections::Generic::List_1<int32_t>* sharedIndexesUV;
 
-  /// @brief Field _appliedOffset, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__appliedOffset, put = __cordl_internal_set__appliedOffset)) int32_t _appliedOffset;
+  /// @brief Field vertices, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
-
-  constexpr void __cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& __cordl_internal_get_vertices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const& __cordl_internal_get_vertices() const;
-
-  constexpr void __cordl_internal_set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
-
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexes() const;
-
-  constexpr void __cordl_internal_set_sharedIndexes(::System::Collections::Generic::List_1<int32_t>* value);
-
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexesUV();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexesUV() const;
-
-  constexpr void __cordl_internal_set_sharedIndexesUV(::System::Collections::Generic::List_1<int32_t>* value);
-
-  constexpr int32_t& __cordl_internal_get__appliedOffset();
-
-  constexpr int32_t const& __cordl_internal_get__appliedOffset() const;
-
-  constexpr void __cordl_internal_set__appliedOffset(int32_t value);
-
-  /// @brief Method Offset, addr 0x2b41c60, size 0x8, virtual false, abstract: false, final false
-  inline int32_t Offset();
-
-  /// @brief Method ToString, addr 0x2b41c68, size 0xc8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Apply, addr 0x2b41d30, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x2c27970, size 0x184, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Apply, addr 0x2b41eb4, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x2c27af4, size 0x590, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b42444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Offset, addr 0x2c278a0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t Offset();
+
+  /// @brief Method ToString, addr 0x2c278a8, size 0xc8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr int32_t const& __cordl_internal_get__appliedOffset() const;
+
+  constexpr int32_t& __cordl_internal_get__appliedOffset();
+
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexes() const;
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexesUV();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexesUV() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& __cordl_internal_get_vertices();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const& __cordl_internal_get_vertices() const;
+
+  constexpr void __cordl_internal_set__appliedOffset(int32_t value);
+
+  constexpr void __cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value);
+
+  constexpr void __cordl_internal_set_sharedIndexes(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_sharedIndexesUV(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
+
+  /// @brief Method .ctor, addr 0x2c28084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FaceRebuildData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FaceRebuildData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FaceRebuildData(FaceRebuildData&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FaceRebuildData(FaceRebuildData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FaceRebuildData();
-
-public:
   /// @brief Field face, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ___face;
 

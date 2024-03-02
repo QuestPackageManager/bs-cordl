@@ -39,35 +39,46 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::AuthenticodeDeformatter);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(13801))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13802))
 // CS Name: ::Mono.Security.Authenticode::AuthenticodeDeformatter*
 class CORDL_TYPE AuthenticodeDeformatter : public ::Mono::Security::Authenticode::AuthenticodeBase {
 public:
   // Declarations
-  /// @brief Field filename, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_filename, put = __cordl_internal_set_filename))::StringW filename;
+  __declspec(property(put = set_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
-  /// @brief Field rawdata, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawdata, put = __cordl_internal_set_rawdata))::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata;
-
-  /// @brief Field hash, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_hash, put = __cordl_internal_set_hash))::ArrayW<uint8_t, ::Array<uint8_t>*> hash;
+  __declspec(property(get = get_SigningCertificate))::Mono::Security::X509::X509Certificate* SigningCertificate;
 
   /// @brief Field coll, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_coll, put = __cordl_internal_set_coll))::Mono::Security::X509::X509CertificateCollection* coll;
 
+  /// @brief Field entry, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_entry, put = __cordl_internal_set_entry))::ArrayW<uint8_t, ::Array<uint8_t>*> entry;
+
+  /// @brief Field filename, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_filename, put = __cordl_internal_set_filename))::StringW filename;
+
+  /// @brief Field hash, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_hash, put = __cordl_internal_set_hash))::ArrayW<uint8_t, ::Array<uint8_t>*> hash;
+
+  /// @brief Field rawdata, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_rawdata, put = __cordl_internal_set_rawdata))::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata;
+
+  /// @brief Field reason, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) int32_t reason;
+
   /// @brief Field signedHash, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_signedHash, put = __cordl_internal_set_signedHash))::Mono::Security::ASN1* signedHash;
 
-  /// @brief Field timestamp, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_timestamp, put = __cordl_internal_set_timestamp))::System::DateTime timestamp;
+  /// @brief Field signerChain, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_signerChain, put = __cordl_internal_set_signerChain))::Mono::Security::X509::X509Chain* signerChain;
 
   /// @brief Field signingCertificate, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_signingCertificate, put = __cordl_internal_set_signingCertificate))::Mono::Security::X509::X509Certificate* signingCertificate;
 
-  /// @brief Field reason, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) int32_t reason;
+  /// @brief Field timestamp, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_timestamp, put = __cordl_internal_set_timestamp))::System::DateTime timestamp;
+
+  /// @brief Field timestampChain, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_timestampChain, put = __cordl_internal_set_timestampChain))::Mono::Security::X509::X509Chain* timestampChain;
 
   /// @brief Field trustedRoot, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get_trustedRoot, put = __cordl_internal_set_trustedRoot)) bool trustedRoot;
@@ -75,128 +86,121 @@ public:
   /// @brief Field trustedTimestampRoot, offset 0x7d, size 0x1
   __declspec(property(get = __cordl_internal_get_trustedTimestampRoot, put = __cordl_internal_set_trustedTimestampRoot)) bool trustedTimestampRoot;
 
-  /// @brief Field entry, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_entry, put = __cordl_internal_set_entry))::ArrayW<uint8_t, ::Array<uint8_t>*> entry;
+  /// @brief Method CheckSignature, addr 0x24fabb0, size 0x2f4, virtual false, abstract: false, final false
+  inline bool CheckSignature();
 
-  /// @brief Field signerChain, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_signerChain, put = __cordl_internal_set_signerChain))::Mono::Security::X509::X509Chain* signerChain;
+  /// @brief Method CompareIssuerSerial, addr 0x24fb8f4, size 0xf4, virtual false, abstract: false, final false
+  inline bool CompareIssuerSerial(::StringW issuer, ::ArrayW<uint8_t, ::Array<uint8_t>*> serial, ::Mono::Security::X509::X509Certificate* x509);
 
-  /// @brief Field timestampChain, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_timestampChain, put = __cordl_internal_set_timestampChain))::Mono::Security::X509::X509Chain* timestampChain;
+  static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor();
 
-  __declspec(property(put = set_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
+  static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  __declspec(property(get = get_SigningCertificate))::Mono::Security::X509::X509Certificate* SigningCertificate;
+  /// @brief Method Reset, addr 0x24fab0c, size 0xa4, virtual false, abstract: false, final false
+  inline void Reset();
 
-  constexpr ::StringW& __cordl_internal_get_filename();
+  /// @brief Method VerifyCounterSignature, addr 0x24fb9e8, size 0xa00, virtual false, abstract: false, final false
+  inline bool VerifyCounterSignature(::Mono::Security::__PKCS7__SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  constexpr ::StringW const& __cordl_internal_get_filename() const;
-
-  constexpr void __cordl_internal_set_filename(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawdata();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawdata() const;
-
-  constexpr void __cordl_internal_set_rawdata(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_hash();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hash() const;
-
-  constexpr void __cordl_internal_set_hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method VerifySignature, addr 0x24faeac, size 0xa48, virtual false, abstract: false, final false
+  inline bool VerifySignature(::Mono::Security::__PKCS7__SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_coll();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_coll() const;
 
-  constexpr void __cordl_internal_set_coll(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_entry() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_entry();
+
+  constexpr ::StringW const& __cordl_internal_get_filename() const;
+
+  constexpr ::StringW& __cordl_internal_get_filename();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hash() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_hash();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawdata() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawdata();
+
+  constexpr int32_t const& __cordl_internal_get_reason() const;
+
+  constexpr int32_t& __cordl_internal_get_reason();
 
   constexpr ::Mono::Security::ASN1*& __cordl_internal_get_signedHash();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get_signedHash() const;
 
-  constexpr void __cordl_internal_set_signedHash(::Mono::Security::ASN1* value);
+  constexpr ::Mono::Security::X509::X509Chain*& __cordl_internal_get_signerChain();
 
-  constexpr ::System::DateTime& __cordl_internal_get_timestamp();
-
-  constexpr ::System::DateTime const& __cordl_internal_get_timestamp() const;
-
-  constexpr void __cordl_internal_set_timestamp(::System::DateTime value);
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& __cordl_internal_get_signerChain() const;
 
   constexpr ::Mono::Security::X509::X509Certificate*& __cordl_internal_get_signingCertificate();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __cordl_internal_get_signingCertificate() const;
 
-  constexpr void __cordl_internal_set_signingCertificate(::Mono::Security::X509::X509Certificate* value);
+  constexpr ::System::DateTime const& __cordl_internal_get_timestamp() const;
 
-  constexpr int32_t& __cordl_internal_get_reason();
-
-  constexpr int32_t const& __cordl_internal_get_reason() const;
-
-  constexpr void __cordl_internal_set_reason(int32_t value);
-
-  constexpr bool& __cordl_internal_get_trustedRoot();
-
-  constexpr bool const& __cordl_internal_get_trustedRoot() const;
-
-  constexpr void __cordl_internal_set_trustedRoot(bool value);
-
-  constexpr bool& __cordl_internal_get_trustedTimestampRoot();
-
-  constexpr bool const& __cordl_internal_get_trustedTimestampRoot() const;
-
-  constexpr void __cordl_internal_set_trustedTimestampRoot(bool value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_entry();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_entry() const;
-
-  constexpr void __cordl_internal_set_entry(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::Mono::Security::X509::X509Chain*& __cordl_internal_get_signerChain();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& __cordl_internal_get_signerChain() const;
-
-  constexpr void __cordl_internal_set_signerChain(::Mono::Security::X509::X509Chain* value);
+  constexpr ::System::DateTime& __cordl_internal_get_timestamp();
 
   constexpr ::Mono::Security::X509::X509Chain*& __cordl_internal_get_timestampChain();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Chain*> const& __cordl_internal_get_timestampChain() const;
 
+  constexpr bool const& __cordl_internal_get_trustedRoot() const;
+
+  constexpr bool& __cordl_internal_get_trustedRoot();
+
+  constexpr bool const& __cordl_internal_get_trustedTimestampRoot() const;
+
+  constexpr bool& __cordl_internal_get_trustedTimestampRoot();
+
+  constexpr void __cordl_internal_set_coll(::Mono::Security::X509::X509CertificateCollection* value);
+
+  constexpr void __cordl_internal_set_entry(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_filename(::StringW value);
+
+  constexpr void __cordl_internal_set_hash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_rawdata(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_reason(int32_t value);
+
+  constexpr void __cordl_internal_set_signedHash(::Mono::Security::ASN1* value);
+
+  constexpr void __cordl_internal_set_signerChain(::Mono::Security::X509::X509Chain* value);
+
+  constexpr void __cordl_internal_set_signingCertificate(::Mono::Security::X509::X509Certificate* value);
+
+  constexpr void __cordl_internal_set_timestamp(::System::DateTime value);
+
   constexpr void __cordl_internal_set_timestampChain(::Mono::Security::X509::X509Chain* value);
 
-  static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor();
+  constexpr void __cordl_internal_set_trustedRoot(bool value);
 
-  /// @brief Method .ctor, addr 0x240ae30, size 0x8c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_trustedTimestampRoot(bool value);
+
+  /// @brief Method .ctor, addr 0x24fa988, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Mono::Security::Authenticode::AuthenticodeDeformatter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
-
-  /// @brief Method .ctor, addr 0x240aebc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24faa14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method set_RawData, addr 0x240aee4, size 0xd0, virtual false, abstract: false, final false
-  inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method get_SigningCertificate, addr 0x240b34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigningCertificate, addr 0x24faea4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_SigningCertificate();
 
-  /// @brief Method CheckSignature, addr 0x240b058, size 0x2f4, virtual false, abstract: false, final false
-  inline bool CheckSignature();
+  /// @brief Method set_RawData, addr 0x24faa3c, size 0xd0, virtual false, abstract: false, final false
+  inline void set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method CompareIssuerSerial, addr 0x240bd9c, size 0xf4, virtual false, abstract: false, final false
-  inline bool CompareIssuerSerial(::StringW issuer, ::ArrayW<uint8_t, ::Array<uint8_t>*> serial, ::Mono::Security::X509::X509Certificate* x509);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthenticodeDeformatter();
 
-  /// @brief Method VerifySignature, addr 0x240b354, size 0xa48, virtual false, abstract: false, final false
-  inline bool VerifySignature(::Mono::Security::__PKCS7__SignedData* sd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha);
-
-  /// @brief Method VerifyCounterSignature, addr 0x240be90, size 0xa00, virtual false, abstract: false, final false
-  inline bool VerifyCounterSignature(::Mono::Security::__PKCS7__SignerInfo* cs, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
-
-  /// @brief Method Reset, addr 0x240afb4, size 0xa4, virtual false, abstract: false, final false
-  inline void Reset();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeDeformatter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthenticodeDeformatter(AuthenticodeDeformatter&&) = delete;
@@ -205,12 +209,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthenticodeDeformatter(AuthenticodeDeformatter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticodeDeformatter();
-
-public:
   /// @brief Field filename, offset: 0x40, size: 0x8, def value: None
   ::StringW ___filename;
 

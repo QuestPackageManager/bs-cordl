@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::ComponentModel::ListChangedEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9441))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9439))
 // CS Name: ::System.ComponentModel::ListChangedEventArgs*
 class CORDL_TYPE ListChangedEventArgs : public ::System::EventArgs {
 public:
@@ -35,34 +33,40 @@ public:
   /// @brief Field <OldIndex>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__OldIndex_k__BackingField, put = __cordl_internal_set__OldIndex_k__BackingField)) int32_t _OldIndex_k__BackingField;
 
-  constexpr ::System::ComponentModel::ListChangedType& __cordl_internal_get__ListChangedType_k__BackingField();
-
-  constexpr ::System::ComponentModel::ListChangedType const& __cordl_internal_get__ListChangedType_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ListChangedType_k__BackingField(::System::ComponentModel::ListChangedType value);
-
-  constexpr int32_t& __cordl_internal_get__NewIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__NewIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__NewIndex_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__OldIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__OldIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__OldIndex_k__BackingField(int32_t value);
-
   static inline ::System::ComponentModel::ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
-
-  /// @brief Method .ctor, addr 0x29114cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
   static inline ::System::ComponentModel::ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x29114d4, size 0x80, virtual false, abstract: false, final false
+  constexpr ::System::ComponentModel::ListChangedType const& __cordl_internal_get__ListChangedType_k__BackingField() const;
+
+  constexpr ::System::ComponentModel::ListChangedType& __cordl_internal_get__ListChangedType_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__NewIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__NewIndex_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__OldIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__OldIndex_k__BackingField();
+
+  constexpr void __cordl_internal_set__ListChangedType_k__BackingField(::System::ComponentModel::ListChangedType value);
+
+  constexpr void __cordl_internal_set__NewIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__OldIndex_k__BackingField(int32_t value);
+
+  /// @brief Method .ctor, addr 0x29fafb0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
+
+  /// @brief Method .ctor, addr 0x29fafb8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListChangedEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListChangedEventArgs(ListChangedEventArgs&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListChangedEventArgs(ListChangedEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListChangedEventArgs();
-
-public:
   /// @brief Field <ListChangedType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::ListChangedType ____ListChangedType_k__BackingField;
 

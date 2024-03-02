@@ -30,68 +30,72 @@ MARK_REF_PTR_T(::System::CurrentSystemTimeZone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2485))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2366))
 // CS Name: ::System::CurrentSystemTimeZone*
 class CORDL_TYPE CurrentSystemTimeZone : public ::System::TimeZone {
 public:
   // Declarations
-  /// @brief Field m_ticksOffset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
-
-  /// @brief Field m_standardName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_standardName, put = __cordl_internal_set_m_standardName))::StringW m_standardName;
+  /// @brief Field m_CachedDaylightChanges, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CachedDaylightChanges, put = __cordl_internal_set_m_CachedDaylightChanges))::System::Collections::Hashtable* m_CachedDaylightChanges;
 
   /// @brief Field m_daylightName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_daylightName, put = __cordl_internal_set_m_daylightName))::StringW m_daylightName;
 
-  /// @brief Field m_CachedDaylightChanges, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CachedDaylightChanges, put = __cordl_internal_set_m_CachedDaylightChanges))::System::Collections::Hashtable* m_CachedDaylightChanges;
+  /// @brief Field m_standardName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_standardName, put = __cordl_internal_set_m_standardName))::StringW m_standardName;
 
-  constexpr int64_t& __cordl_internal_get_m_ticksOffset();
+  /// @brief Field m_ticksOffset, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
 
-  constexpr int64_t const& __cordl_internal_get_m_ticksOffset() const;
+  /// @brief Method CreateDaylightChanges, addr 0x26801f4, size 0x284, virtual false, abstract: false, final false
+  static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
+  /// @brief Method GetCachedDaylightChanges, addr 0x2680008, size 0x1ec, virtual false, abstract: false, final false
+  inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
-  constexpr ::StringW& __cordl_internal_get_m_standardName();
+  /// @brief Method GetDaylightChanges, addr 0x267ff38, size 0xd0, virtual true, abstract: false, final false
+  inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  constexpr ::StringW const& __cordl_internal_get_m_standardName() const;
+  /// @brief Method GetTimeZoneData, addr 0x268055c, size 0x4, virtual false, abstract: false, final false
+  static inline bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ByRef<bool> daylight_inverted);
 
-  constexpr void __cordl_internal_set_m_standardName(::StringW value);
+  /// @brief Method GetUtcOffset, addr 0x2680480, size 0xb4, virtual true, abstract: false, final false
+  inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
-  constexpr ::StringW& __cordl_internal_get_m_daylightName();
-
-  constexpr ::StringW const& __cordl_internal_get_m_daylightName() const;
-
-  constexpr void __cordl_internal_set_m_daylightName(::StringW value);
+  static inline ::System::CurrentSystemTimeZone* New_ctor();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_CachedDaylightChanges();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_CachedDaylightChanges() const;
 
+  constexpr ::StringW const& __cordl_internal_get_m_daylightName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_daylightName();
+
+  constexpr ::StringW const& __cordl_internal_get_m_standardName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_standardName();
+
+  constexpr int64_t const& __cordl_internal_get_m_ticksOffset() const;
+
+  constexpr int64_t& __cordl_internal_get_m_ticksOffset();
+
   constexpr void __cordl_internal_set_m_CachedDaylightChanges(::System::Collections::Hashtable* value);
 
-  static inline ::System::CurrentSystemTimeZone* New_ctor();
+  constexpr void __cordl_internal_set_m_daylightName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x258d878, size 0xc4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_standardName(::StringW value);
+
+  constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
+
+  /// @brief Method .ctor, addr 0x267fe74, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetDaylightChanges, addr 0x258d93c, size 0xd0, virtual true, abstract: false, final false
-  inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CurrentSystemTimeZone();
 
-  /// @brief Method CreateDaylightChanges, addr 0x258dbf8, size 0x284, virtual false, abstract: false, final false
-  static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
-
-  /// @brief Method GetUtcOffset, addr 0x258de84, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
-
-  /// @brief Method GetTimeZoneData, addr 0x258df60, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ByRef<bool> daylight_inverted);
-
-  /// @brief Method GetCachedDaylightChanges, addr 0x258da0c, size 0x1ec, virtual false, abstract: false, final false
-  inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurrentSystemTimeZone(CurrentSystemTimeZone&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CurrentSystemTimeZone(CurrentSystemTimeZone const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CurrentSystemTimeZone();
-
-public:
   /// @brief Field m_ticksOffset, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_ticksOffset;
 

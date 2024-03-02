@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_untypedAtomicType);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11625))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11626))
 // CS Name: ::System.Xml.Schema::Datatype_untypedAtomicType*
 class CORDL_TYPE Datatype_untypedAtomicType : public ::System::Xml::Schema::Datatype_anyAtomicType {
 public:
@@ -36,20 +34,26 @@ public:
 
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method CreateValueConverter, addr 0x28b7904, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x29a13e8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
-
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x28b795c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
-
-  /// @brief Method get_TypeCode, addr 0x28b7964, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline ::System::Xml::Schema::Datatype_untypedAtomicType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28b796c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a1450, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x29a1440, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
+
+  /// @brief Method get_TypeCode, addr 0x29a1448, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_untypedAtomicType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_untypedAtomicType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_untypedAtomicType(Datatype_untypedAtomicType&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_untypedAtomicType(Datatype_untypedAtomicType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_untypedAtomicType();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

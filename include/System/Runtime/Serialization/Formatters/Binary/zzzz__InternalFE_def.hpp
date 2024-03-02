@@ -18,15 +18,10 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::InternalFE)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(3241)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(3246))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3297)) CS Name:
-// ::System.Runtime.Serialization.Formatters.Binary::InternalFE*
+// CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalFE*
 class CORDL_TYPE InternalFE : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field FEtypeFormat, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_FEtypeFormat, put = __cordl_internal_set_FEtypeFormat))::System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat;
-
   /// @brief Field FEassemblyFormat, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_FEassemblyFormat, put = __cordl_internal_set_FEassemblyFormat))::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat;
 
@@ -37,35 +32,44 @@ public:
   __declspec(property(get = __cordl_internal_get_FEserializerTypeEnum,
                       put = __cordl_internal_set_FEserializerTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __cordl_internal_get_FEtypeFormat();
-
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __cordl_internal_get_FEtypeFormat() const;
-
-  constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& __cordl_internal_get_FEassemblyFormat();
-
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& __cordl_internal_get_FEassemblyFormat() const;
-
-  constexpr void __cordl_internal_set_FEassemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& __cordl_internal_get_FEsecurityLevel();
-
-  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& __cordl_internal_get_FEsecurityLevel() const;
-
-  constexpr void __cordl_internal_set_FEsecurityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& __cordl_internal_get_FEserializerTypeEnum();
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE const& __cordl_internal_get_FEserializerTypeEnum() const;
-
-  constexpr void __cordl_internal_set_FEserializerTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
+  /// @brief Field FEtypeFormat, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_FEtypeFormat, put = __cordl_internal_set_FEtypeFormat))::System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat;
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d6180, size 0x8, virtual false, abstract: false, final false
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& __cordl_internal_get_FEassemblyFormat() const;
+
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& __cordl_internal_get_FEassemblyFormat();
+
+  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& __cordl_internal_get_FEsecurityLevel() const;
+
+  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& __cordl_internal_get_FEsecurityLevel();
+
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE const& __cordl_internal_get_FEserializerTypeEnum() const;
+
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& __cordl_internal_get_FEserializerTypeEnum();
+
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __cordl_internal_get_FEtypeFormat() const;
+
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __cordl_internal_get_FEtypeFormat();
+
+  constexpr void __cordl_internal_set_FEassemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
+
+  constexpr void __cordl_internal_set_FEsecurityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value);
+
+  constexpr void __cordl_internal_set_FEserializerTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE value);
+
+  constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
+
+  /// @brief Method .ctor, addr 0x25c6eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InternalFE();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalFE", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalFE(InternalFE&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InternalFE(InternalFE const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InternalFE();
-
-public:
   /// @brief Field FEtypeFormat, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::FormatterTypeStyle ___FEtypeFormat;
 

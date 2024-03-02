@@ -31,6 +31,7 @@ module;
 #include "System/IO/FileSystem.hpp"
 #include "System/IO/FileSystemInfo.hpp"
 #include "System/IO/IOException.hpp"
+#include "System/IO/InvalidDataException.hpp"
 #include "System/IO/MatchCasing.hpp"
 #include "System/IO/MatchType.hpp"
 #include "System/IO/MemoryStream.hpp"

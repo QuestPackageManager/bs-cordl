@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4792))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: ::MultiplayerConnectedPlayerObstacleController*
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleController : public ::GlobalNamespace::ObstacleController {
 public:
@@ -44,21 +42,27 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController, put = __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController))::UnityW<
       ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> _multiplayerConnectedPlayerObstacleClippingController;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController>& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> const& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController() const;
-
-  constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
-
-  /// @brief Method Init, addr 0x23d7c4c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x246074c, size 0x1d0, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos,
                    float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d7e1c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> const& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController>& __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController();
+
+  constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
+
+  /// @brief Method .ctor, addr 0x246091c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerObstacleController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerObstacleController();
-
-public:
   /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> ____multiplayerConnectedPlayerObstacleClippingController;
 
@@ -88,16 +86,21 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleCont
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5142)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2820 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
+// CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d7e24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2460924, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerConnectedPlayerObstacleController__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerConnectedPlayerObstacleController__Pool(__MultiplayerConnectedPlayerObstacleController__Pool&&) = delete;
@@ -106,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerConnectedPlayerObstacleController__Pool(__MultiplayerConnectedPlayerObstacleController__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerConnectedPlayerObstacleController__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

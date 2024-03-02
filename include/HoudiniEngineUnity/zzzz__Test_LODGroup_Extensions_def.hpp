@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9905))
 // CS Name: ::Test_LODGroup_Extensions::<>c*
 class CORDL_TYPE __Test_LODGroup_Extensions____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* __9__2_0;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* value);
+  static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
+
+  /// @brief Method <ToTestObject>b__1_0, addr 0x23466f0, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__1_0(::UnityEngine::LODGroup* lod);
+
+  /// @brief Method <ToTestObject>b__2_0, addr 0x2346754, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__2_0(::UnityEngine::LODGroup* lod);
+
+  /// @brief Method .ctor, addr 0x23466e8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
-
   static inline ::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
 
   static inline ::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* getStaticF___9__2_0();
 
-  static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
+  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* value);
 
-  /// @brief Method .ctor, addr 0x21e4798, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e47a0, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__1_0(::UnityEngine::LODGroup* lod);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::LODGroup>, ::HoudiniEngineUnity::Test_LODGroup*>* value);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e4804, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__2_0(::UnityEngine::LODGroup* lod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Test_LODGroup_Extensions____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Test_LODGroup_Extensions____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Test_LODGroup_Extensions____c(__Test_LODGroup_Extensions____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_LODGroup_Extensions____c(__Test_LODGroup_Extensions____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_LODGroup_Extensions____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,24 +94,28 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_LODGr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9906))
 // CS Name: ::HoudiniEngineUnity::Test_LODGroup_Extensions*
 class CORDL_TYPE Test_LODGroup_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e2260, size 0x64, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
-
-  /// @brief Method ToTestObject, addr 0x21e4540, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2346490, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*, ::Array<::HoudiniEngineUnity::Test_LODGroup*>*>
   ToTestObject(::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e4638, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23441b0, size 0x64, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
+
+  /// @brief Method ToTestObject, addr 0x2346588, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_LODGroup_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_LODGroup_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_LODGroup_Extensions(Test_LODGroup_Extensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_LODGroup_Extensions(Test_LODGroup_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_LODGroup_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

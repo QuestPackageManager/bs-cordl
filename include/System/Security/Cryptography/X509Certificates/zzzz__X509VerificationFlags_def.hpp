@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509VerificationF
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8989))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509VerificationFlags
 struct CORDL_TYPE X509VerificationFlags {
 public:
@@ -46,39 +44,41 @@ public:
     return static_cast<__X509VerificationFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr X509VerificationFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr X509VerificationFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr X509VerificationFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NoFlag value: static_cast<int32_t>(0x0)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const NoFlag;
-
-  /// @brief Field IgnoreNotTimeValid value: static_cast<int32_t>(0x1)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeValid;
-
-  /// @brief Field IgnoreCtlNotTimeValid value: static_cast<int32_t>(0x2)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlNotTimeValid;
-
-  /// @brief Field IgnoreNotTimeNested value: static_cast<int32_t>(0x4)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeNested;
-
-  /// @brief Field IgnoreInvalidBasicConstraints value: static_cast<int32_t>(0x8)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidBasicConstraints;
+  /// @brief Field AllFlags value: static_cast<int32_t>(0xfff)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllFlags;
 
   /// @brief Field AllowUnknownCertificateAuthority value: static_cast<int32_t>(0x10)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllowUnknownCertificateAuthority;
 
-  /// @brief Field IgnoreWrongUsage value: static_cast<int32_t>(0x20)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreWrongUsage;
+  /// @brief Field IgnoreCertificateAuthorityRevocationUnknown value: static_cast<int32_t>(0x400)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCertificateAuthorityRevocationUnknown;
+
+  /// @brief Field IgnoreCtlNotTimeValid value: static_cast<int32_t>(0x2)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlNotTimeValid;
+
+  /// @brief Field IgnoreCtlSignerRevocationUnknown value: static_cast<int32_t>(0x200)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlSignerRevocationUnknown;
+
+  /// @brief Field IgnoreEndRevocationUnknown value: static_cast<int32_t>(0x100)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreEndRevocationUnknown;
+
+  /// @brief Field IgnoreInvalidBasicConstraints value: static_cast<int32_t>(0x8)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidBasicConstraints;
 
   /// @brief Field IgnoreInvalidName value: static_cast<int32_t>(0x40)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidName;
@@ -86,20 +86,23 @@ public:
   /// @brief Field IgnoreInvalidPolicy value: static_cast<int32_t>(0x80)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreInvalidPolicy;
 
-  /// @brief Field IgnoreEndRevocationUnknown value: static_cast<int32_t>(0x100)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreEndRevocationUnknown;
+  /// @brief Field IgnoreNotTimeNested value: static_cast<int32_t>(0x4)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeNested;
 
-  /// @brief Field IgnoreCtlSignerRevocationUnknown value: static_cast<int32_t>(0x200)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCtlSignerRevocationUnknown;
-
-  /// @brief Field IgnoreCertificateAuthorityRevocationUnknown value: static_cast<int32_t>(0x400)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreCertificateAuthorityRevocationUnknown;
+  /// @brief Field IgnoreNotTimeValid value: static_cast<int32_t>(0x1)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreNotTimeValid;
 
   /// @brief Field IgnoreRootRevocationUnknown value: static_cast<int32_t>(0x800)
   static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreRootRevocationUnknown;
 
-  /// @brief Field AllFlags value: static_cast<int32_t>(0xfff)
-  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const AllFlags;
+  /// @brief Field IgnoreWrongUsage value: static_cast<int32_t>(0x20)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const IgnoreWrongUsage;
+
+  /// @brief Field NoFlag value: static_cast<int32_t>(0x0)
+  static ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const NoFlag;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

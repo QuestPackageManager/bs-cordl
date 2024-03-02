@@ -19,41 +19,45 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ClampProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
 // CS Name: ::UnityEngine.InputSystem.Processors::ClampProcessor*
 class CORDL_TYPE ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
-  /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
-
   /// @brief Field max, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-  constexpr float_t& __cordl_internal_get_min();
-
-  constexpr float_t const& __cordl_internal_get_min() const;
-
-  constexpr void __cordl_internal_set_min(float_t value);
-
-  constexpr float_t& __cordl_internal_get_max();
-
-  constexpr float_t const& __cordl_internal_get_max() const;
-
-  constexpr void __cordl_internal_set_max(float_t value);
-
-  /// @brief Method Process, addr 0x2af8d44, size 0x18, virtual true, abstract: false, final false
-  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2af8d5c, size 0xa0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Field min, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2af8dfc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x2bde984, size 0x18, virtual true, abstract: false, final false
+  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bde99c, size 0xa0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr float_t const& __cordl_internal_get_max() const;
+
+  constexpr float_t& __cordl_internal_get_max();
+
+  constexpr float_t const& __cordl_internal_get_min() const;
+
+  constexpr float_t& __cordl_internal_get_min();
+
+  constexpr void __cordl_internal_set_max(float_t value);
+
+  constexpr void __cordl_internal_set_min(float_t value);
+
+  /// @brief Method .ctor, addr 0x2bdea3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClampProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClampProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClampProcessor(ClampProcessor&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClampProcessor(ClampProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClampProcessor();
-
-public:
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;
 

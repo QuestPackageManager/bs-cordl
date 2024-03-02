@@ -33,16 +33,10 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PanelTextSettings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13684))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7148))
 // CS Name: ::UnityEngine.UIElements::PanelTextSettings*
 class CORDL_TYPE PanelTextSettings : public ::UnityEngine::TextCore::Text::TextSettings {
 public:
   // Declarations
-  /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultPanelTextSettings,
-                             put = setStaticF_s_DefaultPanelTextSettings))::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
-
   /// @brief Field EditorGUIUtilityLoad, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EditorGUIUtilityLoad, put = setStaticF_EditorGUIUtilityLoad))::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* EditorGUIUtilityLoad;
 
@@ -52,36 +46,46 @@ public:
   /// @brief Field s_DefaultEditorPanelTextSettingPath, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DefaultEditorPanelTextSettingPath, put = setStaticF_s_DefaultEditorPanelTextSettingPath))::StringW s_DefaultEditorPanelTextSettingPath;
 
-  static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);
+  /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_DefaultPanelTextSettings,
+                             put = setStaticF_s_DefaultPanelTextSettings))::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
-
-  static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);
-
-  static inline ::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* getStaticF_EditorGUIUtilityLoad();
-
-  static inline void setStaticF_GetCurrentLanguage(::System::Func_1<::UnityEngine::SystemLanguage>* value);
-
-  static inline ::System::Func_1<::UnityEngine::SystemLanguage>* getStaticF_GetCurrentLanguage();
-
-  static inline void setStaticF_s_DefaultEditorPanelTextSettingPath(::StringW value);
-
-  static inline ::StringW getStaticF_s_DefaultEditorPanelTextSettingPath();
-
-  /// @brief Method get_defaultPanelTextSettings, addr 0x2e4740c, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
-
-  /// @brief Method UpdateLocalizationFontAsset, addr 0x2e478f4, size 0x4c0, virtual false, abstract: false, final false
-  static inline void UpdateLocalizationFontAsset();
-
-  /// @brief Method GetCachedFontAsset, addr 0x2e46f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAsset, addr 0x2f54a14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e47db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalizationFontAsset, addr 0x2f55404, size 0x4c0, virtual false, abstract: false, final false
+  static inline void UpdateLocalizationFontAsset();
+
+  /// @brief Method .ctor, addr 0x2f558c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* getStaticF_EditorGUIUtilityLoad();
+
+  static inline ::System::Func_1<::UnityEngine::SystemLanguage>* getStaticF_GetCurrentLanguage();
+
+  static inline ::StringW getStaticF_s_DefaultEditorPanelTextSettingPath();
+
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
+
+  /// @brief Method get_defaultPanelTextSettings, addr 0x2f54f1c, size 0x134, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
+
+  static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);
+
+  static inline void setStaticF_GetCurrentLanguage(::System::Func_1<::UnityEngine::SystemLanguage>* value);
+
+  static inline void setStaticF_s_DefaultEditorPanelTextSettingPath(::StringW value);
+
+  static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PanelTextSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PanelTextSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelTextSettings(PanelTextSettings&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PanelTextSettings(PanelTextSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PanelTextSettings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

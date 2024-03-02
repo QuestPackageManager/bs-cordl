@@ -17,19 +17,17 @@ MARK_VAL_T(::TMPro::TMP_FontWeightPair);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12360))
 // CS Name: ::TMPro::TMP_FontWeightPair
 struct CORDL_TYPE TMP_FontWeightPair {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty:
-  // "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }]
-  constexpr TMP_FontWeightPair(::UnityW<::TMPro::TMP_FontAsset> regularTypeface, ::UnityW<::TMPro::TMP_FontAsset> italicTypeface) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr TMP_FontWeightPair();
+
+  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty:
+  // "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }]
+  constexpr TMP_FontWeightPair(::UnityW<::TMPro::TMP_FontAsset> regularTypeface, ::UnityW<::TMPro::TMP_FontAsset> italicTypeface) noexcept;
 
   /// @brief Field regularTypeface, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> regularTypeface;

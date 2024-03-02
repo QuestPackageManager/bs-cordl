@@ -19,18 +19,16 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMessageSink);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3170))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMessageSink*
 class CORDL_TYPE IMessageSink {
 public:
   // Declarations
-  /// @brief Method SyncProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
-
   /// @brief Method AsyncProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+
+  /// @brief Method SyncProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMessageSink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

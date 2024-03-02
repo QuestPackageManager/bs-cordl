@@ -16,20 +16,18 @@ MARK_REF_PTR_T(::GlobalNamespace::LongRollingAverage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12832))
 // CS Name: ::LongRollingAverage*
 class CORDL_TYPE LongRollingAverage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _currentTotal, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentTotal, put = __cordl_internal_set__currentTotal)) int64_t _currentTotal;
+  /// @brief Field _buffer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<int64_t, ::Array<int64_t>*> _buffer;
 
   /// @brief Field _currentAverage, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__currentAverage, put = __cordl_internal_set__currentAverage)) int64_t _currentAverage;
 
-  /// @brief Field _buffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<int64_t, ::Array<int64_t>*> _buffer;
+  /// @brief Field _currentTotal, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__currentTotal, put = __cordl_internal_set__currentTotal)) int64_t _currentTotal;
 
   /// @brief Field _index, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
@@ -41,53 +39,59 @@ public:
 
   __declspec(property(get = get_hasValue)) bool hasValue;
 
-  constexpr int64_t& __cordl_internal_get__currentTotal();
+  static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  constexpr int64_t const& __cordl_internal_get__currentTotal() const;
+  /// @brief Method Reset, addr 0xeb5074, size 0xc, virtual false, abstract: false, final false
+  inline void Reset();
 
-  constexpr void __cordl_internal_set__currentTotal(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get__currentAverage();
-
-  constexpr int64_t const& __cordl_internal_get__currentAverage() const;
-
-  constexpr void __cordl_internal_set__currentAverage(int64_t value);
-
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get__buffer();
+  /// @brief Method Update, addr 0xeb4f7c, size 0xf8, virtual false, abstract: false, final false
+  inline void Update(int64_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __cordl_internal_set__buffer(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get__buffer();
 
-  constexpr int32_t& __cordl_internal_get__index();
+  constexpr int64_t const& __cordl_internal_get__currentAverage() const;
+
+  constexpr int64_t& __cordl_internal_get__currentAverage();
+
+  constexpr int64_t const& __cordl_internal_get__currentTotal() const;
+
+  constexpr int64_t& __cordl_internal_get__currentTotal();
 
   constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__length();
+  constexpr int32_t& __cordl_internal_get__index();
 
   constexpr int32_t const& __cordl_internal_get__length() const;
 
+  constexpr int32_t& __cordl_internal_get__length();
+
+  constexpr void __cordl_internal_set__buffer(::ArrayW<int64_t, ::Array<int64_t>*> value);
+
+  constexpr void __cordl_internal_set__currentAverage(int64_t value);
+
+  constexpr void __cordl_internal_set__currentTotal(int64_t value);
+
+  constexpr void __cordl_internal_set__index(int32_t value);
+
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method get_currentAverage, addr 0xe430f4, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_currentAverage();
-
-  /// @brief Method get_hasValue, addr 0xe430fc, size 0x10, virtual false, abstract: false, final false
-  inline bool get_hasValue();
-
-  static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
-
-  /// @brief Method .ctor, addr 0xe4310c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeb4f14, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method Update, addr 0xe43174, size 0xf8, virtual false, abstract: false, final false
-  inline void Update(int64_t value);
+  /// @brief Method get_currentAverage, addr 0xeb4efc, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_currentAverage();
 
-  /// @brief Method Reset, addr 0xe4326c, size 0xc, virtual false, abstract: false, final false
-  inline void Reset();
+  /// @brief Method get_hasValue, addr 0xeb4f04, size 0x10, virtual false, abstract: false, final false
+  inline bool get_hasValue();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LongRollingAverage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LongRollingAverage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LongRollingAverage(LongRollingAverage&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LongRollingAverage(LongRollingAverage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LongRollingAverage();
-
-public:
   /// @brief Field _currentTotal, offset: 0x10, size: 0x8, def value: None
   int64_t ____currentTotal;
 

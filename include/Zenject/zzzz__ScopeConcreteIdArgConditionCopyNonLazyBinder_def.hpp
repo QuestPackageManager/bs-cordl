@@ -20,26 +20,30 @@ MARK_REF_PTR_T(::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10675))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10926))
 // CS Name: ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE ScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
-  static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method .ctor, addr 0x2edb174, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method AsCached, addr 0x2edb278, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsCached, addr 0x2feaae8, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
 
-  /// @brief Method AsSingle, addr 0x2edb298, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AsSingle, addr 0x2feab08, size 0x28, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
 
-  /// @brief Method AsTransient, addr 0x2edb2c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsTransient, addr 0x2feab30, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
 
+  static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+
+  /// @brief Method .ctor, addr 0x2fea9e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::BindInfo* bindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScopeConcreteIdArgConditionCopyNonLazyBinder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScopeConcreteIdArgConditionCopyNonLazyBinder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

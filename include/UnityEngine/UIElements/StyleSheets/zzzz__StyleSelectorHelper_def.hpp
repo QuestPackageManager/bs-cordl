@@ -44,28 +44,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7470))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSelectorHelper*
 class CORDL_TYPE StyleSelectorHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatchesSelector, addr 0x2de9980, size 0x2bc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
-
-  /// @brief Method MatchRightToLeft, addr 0x2de9c3c, size 0x1c8, virtual false, abstract: false, final false
-  static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
-                                      ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
-
-  /// @brief Method FastLookup, addr 0x2de9e04, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FastLookup, addr 0x2ef8914, size 0x1c4, virtual false, abstract: false, final false
   static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                 ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
 
-  /// @brief Method FindMatches, addr 0x2de9fc8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method FindMatches, addr 0x2ef8ad8, size 0x358, virtual false, abstract: false, final false
   static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
 
+  /// @brief Method MatchRightToLeft, addr 0x2ef874c, size 0x1c8, virtual false, abstract: false, final false
+  static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
+                                      ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
+
+  /// @brief Method MatchesSelector, addr 0x2ef8490, size 0x2bc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleSelectorHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSelectorHelper(StyleSelectorHelper&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleSelectorHelper(StyleSelectorHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleSelectorHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

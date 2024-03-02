@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4972))
 // CS Name: ::VideoProjectionDataModelSO::VideoClipWithId*
 class CORDL_TYPE __VideoProjectionDataModelSO__VideoClipWithId : public ::System::Object {
 public:
@@ -43,29 +41,35 @@ public:
 
   __declspec(property(get = get_videoAssetReference))::UnityEngine::AddressableAssets::AssetReference* videoAssetReference;
 
-  constexpr int32_t& __cordl_internal_get__id();
+  static inline ::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get__id() const;
 
-  constexpr void __cordl_internal_set__id(int32_t value);
+  constexpr int32_t& __cordl_internal_get__id();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__videoAssetReference();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__videoAssetReference() const;
 
+  constexpr void __cordl_internal_set__id(int32_t value);
+
   constexpr void __cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id, addr 0x23b2e4c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
-
-  /// @brief Method get_videoAssetReference, addr 0x23b2e54, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
-
-  static inline ::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b2e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243fed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0x243fec8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+  /// @brief Method get_videoAssetReference, addr 0x243fed0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionDataModelSO__VideoClipWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionDataModelSO__VideoClipWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionDataModelSO__VideoClipWithId(__VideoProjectionDataModelSO__VideoClipWithId&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionDataModelSO__VideoClipWithId(__VideoProjectionDataModelSO__VideoClipWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionDataModelSO__VideoClipWithId();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -100,8 +98,6 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionDataModelSO__VideoCli
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4973))
 // CS Name: ::VideoProjectionDataModelSO*
 class CORDL_TYPE VideoProjectionDataModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -116,23 +112,29 @@ public:
   __declspec(property(get = get_videoClipWithIds))::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*,
                                                            ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> videoClipWithIds;
 
-  constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*>&
-  __cordl_internal_get__videoClipsWithId();
+  static inline ::GlobalNamespace::VideoProjectionDataModelSO* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> const&
   __cordl_internal_get__videoClipsWithId() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*>&
+  __cordl_internal_get__videoClipsWithId();
+
   constexpr void __cordl_internal_set__videoClipsWithId(
       ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> value);
 
-  /// @brief Method get_videoClipWithIds, addr 0x23b2e3c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> get_videoClipWithIds();
-
-  static inline ::GlobalNamespace::VideoProjectionDataModelSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b2e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243fec0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_videoClipWithIds, addr 0x243feb8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> get_videoClipWithIds();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VideoProjectionDataModelSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionDataModelSO(VideoProjectionDataModelSO&&) = delete;
@@ -141,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VideoProjectionDataModelSO(VideoProjectionDataModelSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VideoProjectionDataModelSO();
-
-public:
   /// @brief Field _videoClipsWithId, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> ____videoClipsWithId;
 

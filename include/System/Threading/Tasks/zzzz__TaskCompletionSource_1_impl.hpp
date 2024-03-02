@@ -78,6 +78,12 @@ template <typename TResult> inline bool System::Threading::Tasks::TaskCompletion
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, exception);
 }
+template <typename TResult> inline void System::Threading::Tasks::TaskCompletionSource_1<TResult>::SetException(::System::Exception* exception) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>::get(), "SetException",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exception);
+}
 template <typename TResult> inline bool System::Threading::Tasks::TaskCompletionSource_1<TResult>::TrySetResult(TResult result) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>::get(), "TrySetResult",

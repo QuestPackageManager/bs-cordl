@@ -16,21 +16,25 @@ MARK_REF_PTR_T(::System::KnownTerminals);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2604))
 // CS Name: ::System::KnownTerminals*
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_linux, addr 0x25fa304, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
-
-  /// @brief Method get_xterm, addr 0x25fa374, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
-
-  /// @brief Method get_ansi, addr 0x25fa3e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x26ed9e0, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
+  /// @brief Method get_linux, addr 0x26ed900, size 0x70, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
+
+  /// @brief Method get_xterm, addr 0x26ed970, size 0x70, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KnownTerminals();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KnownTerminals(KnownTerminals&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KnownTerminals(KnownTerminals const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KnownTerminals();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

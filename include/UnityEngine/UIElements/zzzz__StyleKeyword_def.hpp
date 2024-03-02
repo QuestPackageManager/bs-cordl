@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleKeyword);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7300))
 // CS Name: ::UnityEngine.UIElements::StyleKeyword
 struct CORDL_TYPE StyleKeyword {
 public:
@@ -37,33 +35,38 @@ public:
     return static_cast<__StyleKeyword_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StyleKeyword(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleKeyword();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr StyleKeyword(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::StyleKeyword const Undefined;
-
-  /// @brief Field Null value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::StyleKeyword const Null;
 
   /// @brief Field Auto value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::StyleKeyword const Auto;
 
+  /// @brief Field Initial value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::StyleKeyword const Initial;
+
   /// @brief Field None value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::StyleKeyword const None;
 
-  /// @brief Field Initial value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::StyleKeyword const Initial;
+  /// @brief Field Null value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::StyleKeyword const Null;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::StyleKeyword const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

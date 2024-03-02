@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Net::HttpRequestCreator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9177))
 // CS Name: ::System.Net::HttpRequestCreator*
 class CORDL_TYPE HttpRequestCreator : public ::System::Object {
 public:
@@ -32,17 +30,23 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Convert to "::System::Net::IWebRequestCreate"
-  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
+  /// @brief Method Create, addr 0x2ab7338, size 0x60, virtual true, abstract: false, final true
+  inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::HttpRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29cb7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ab7330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x29cb7c0, size 0x60, virtual true, abstract: false, final true
-  inline ::System::Net::WebRequest* Create(::System::Uri* uri);
+  /// @brief Convert to "::System::Net::IWebRequestCreate"
+  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpRequestCreator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestCreator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpRequestCreator(HttpRequestCreator&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpRequestCreator(HttpRequestCreator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpRequestCreator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,98 +19,102 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Constraints);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12513))
 // CS Name: ::RootMotion.FinalIK::Constraints*
 class CORDL_TYPE Constraints : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
-
-  /// @brief Field target, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+  /// @brief Field position, offset 0x2c, size 0xc
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
 
   /// @brief Field positionOffset, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_positionOffset, put = __cordl_internal_set_positionOffset))::UnityEngine::Vector3 positionOffset;
 
-  /// @brief Field position, offset 0x2c, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
-
   /// @brief Field positionWeight, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
-
-  /// @brief Field rotationOffset, offset 0x3c, size 0xc
-  __declspec(property(get = __cordl_internal_get_rotationOffset, put = __cordl_internal_set_rotationOffset))::UnityEngine::Vector3 rotationOffset;
 
   /// @brief Field rotation, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Vector3 rotation;
 
+  /// @brief Field rotationOffset, offset 0x3c, size 0xc
+  __declspec(property(get = __cordl_internal_get_rotationOffset, put = __cordl_internal_set_rotationOffset))::UnityEngine::Vector3 rotationOffset;
+
   /// @brief Field rotationWeight, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+  /// @brief Field target, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+  /// @brief Field transform, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
-
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_positionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_positionOffset() const;
-
-  constexpr void __cordl_internal_set_positionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_positionWeight();
-
-  constexpr float_t const& __cordl_internal_get_positionWeight() const;
-
-  constexpr void __cordl_internal_set_positionWeight(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotationOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotationOffset() const;
-
-  constexpr void __cordl_internal_set_rotationOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
-
-  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_rotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
-
-  constexpr void __cordl_internal_set_rotationWeight(float_t value);
-
-  /// @brief Method IsValid, addr 0x1242b84, size 0x60, virtual false, abstract: false, final false
-  inline bool IsValid();
-
-  /// @brief Method Initiate, addr 0x1241dcc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x131de68, size 0x50, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
-  /// @brief Method Update, addr 0x1241f90, size 0x2f8, virtual false, abstract: false, final false
-  inline void Update();
+  /// @brief Method IsValid, addr 0x131ec20, size 0x60, virtual false, abstract: false, final false
+  inline bool IsValid();
 
   static inline ::RootMotion::FinalIK::Constraints* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1242684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x131e02c, size 0x2f8, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_positionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_positionOffset();
+
+  constexpr float_t const& __cordl_internal_get_positionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_positionWeight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotationOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotationOffset();
+
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_rotationWeight();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_positionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_positionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rotationOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x131e720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Constraints();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Constraints", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Constraints(Constraints&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Constraints(Constraints const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Constraints();
-
-public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___transform;
 

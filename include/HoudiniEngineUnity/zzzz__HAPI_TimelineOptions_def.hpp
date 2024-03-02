@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TimelineOptions);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9730))
 // CS Name: ::HoudiniEngineUnity::HAPI_TimelineOptions
 struct CORDL_TYPE HAPI_TimelineOptions {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "fps", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "endTime", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HAPI_TimelineOptions(float_t fps, float_t startTime, float_t endTime) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_TimelineOptions();
+
+  // Ctor Parameters [CppParam { name: "fps", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "endTime", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HAPI_TimelineOptions(float_t fps, float_t startTime, float_t endTime) noexcept;
 
   /// @brief Field fps, offset: 0x0, size: 0x4, def value: None
   float_t fps;

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalMaterialSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5354))
 // CS Name: ::ConditionalMaterialSwitcher*
 class CORDL_TYPE ConditionalMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,44 +33,50 @@ public:
   /// @brief Field _material1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__material1, put = __cordl_internal_set__material1))::UnityW<::UnityEngine::Material> _material1;
 
-  /// @brief Field _value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
-
   /// @brief Field _renderer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
+  /// @brief Field _value, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
-
-  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
-
-  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
-
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
-
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
-
-  /// @brief Method Awake, addr 0x226c040, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224fc48, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalMaterialSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c0b8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
+
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  /// @brief Method .ctor, addr 0x224fcc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalMaterialSwitcher();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalMaterialSwitcher(ConditionalMaterialSwitcher&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalMaterialSwitcher(ConditionalMaterialSwitcher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalMaterialSwitcher();
-
-public:
   /// @brief Field _material0, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;
 

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultGroupManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6861))
 // CS Name: ::UnityEngine.UIElements::DefaultGroupManager*
 class CORDL_TYPE DefaultGroupManager : public ::System::Object {
 public:
@@ -39,35 +37,41 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
-  constexpr ::UnityEngine::UIElements::IGroupManager* i___UnityEngine__UIElements__IGroupManager() noexcept;
+  static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
+
+  /// @brief Method OnOptionSelectionChanged, addr 0x2ed5eac, size 0x1d0, virtual true, abstract: false, final true
+  inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
+
+  /// @brief Method RegisterOption, addr 0x2ed607c, size 0xd4, virtual true, abstract: false, final true
+  inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
+
+  /// @brief Method UnregisterOption, addr 0x2ed6150, size 0x58, virtual true, abstract: false, final true
+  inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*& __cordl_internal_get_m_GroupOptions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>*> const& __cordl_internal_get_m_GroupOptions() const;
 
-  constexpr void __cordl_internal_set_m_GroupOptions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* value);
-
   constexpr ::UnityEngine::UIElements::IGroupBoxOption*& __cordl_internal_get_m_SelectedOption();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IGroupBoxOption*> const& __cordl_internal_get_m_SelectedOption() const;
 
+  constexpr void __cordl_internal_set_m_GroupOptions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* value);
+
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x2dc839c, size 0x1d0, virtual true, abstract: false, final true
-  inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
-
-  /// @brief Method RegisterOption, addr 0x2dc856c, size 0xd4, virtual true, abstract: false, final true
-  inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
-
-  /// @brief Method UnregisterOption, addr 0x2dc8640, size 0x58, virtual true, abstract: false, final true
-  inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
-
-  static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dc8698, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed61a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
+  constexpr ::UnityEngine::UIElements::IGroupManager* i___UnityEngine__UIElements__IGroupManager() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultGroupManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGroupManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGroupManager(DefaultGroupManager&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultGroupManager(DefaultGroupManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultGroupManager();
-
-public:
   /// @brief Field m_GroupOptions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* ___m_GroupOptions;
 

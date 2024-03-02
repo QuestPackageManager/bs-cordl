@@ -32,8 +32,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::JoystickState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6500))
 // CS Name: ::JoystickState::Button
 struct CORDL_TYPE __JoystickState__Button {
 public:
@@ -54,21 +52,20 @@ public:
     return static_cast<____JoystickState__Button_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __JoystickState__Button(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __JoystickState__Button();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __JoystickState__Button(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HatSwitchUp value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const HatSwitchUp;
 
   /// @brief Field HatSwitchDown value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const HatSwitchDown;
@@ -79,8 +76,14 @@ public:
   /// @brief Field HatSwitchRight value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const HatSwitchRight;
 
+  /// @brief Field HatSwitchUp value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const HatSwitchUp;
+
   /// @brief Field Trigger value: static_cast<int32_t>(0x4)
   static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const Trigger;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -94,8 +97,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__JoystickState__Bu
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6501))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::JoystickState
 struct CORDL_TYPE JoystickState {
 public:
@@ -107,21 +108,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
-
-  /// @brief Method get_kFormat, addr 0x2ae8850, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
-
-  /// @brief Method get_format, addr 0x2ae8880, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2bcf4c0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  // Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr JoystickState(int32_t buttons, ::UnityEngine::Vector2 stick) noexcept;
+  /// @brief Method get_kFormat, addr 0x2bcf490, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr JoystickState();
+
+  // Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr JoystickState(int32_t buttons, ::UnityEngine::Vector2 stick) noexcept;
 
   /// @brief Field buttons, offset: 0x0, size: 0x4, def value: None
   int32_t buttons;

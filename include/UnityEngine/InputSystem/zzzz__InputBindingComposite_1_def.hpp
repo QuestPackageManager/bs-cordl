@@ -27,21 +27,15 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6189))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6190))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
   // Declarations
-  __declspec(property(get = get_valueType))::System::Type* valueType;
-
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Type* get_valueType();
+  __declspec(property(get = get_valueType))::System::Type* valueType;
 
-  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t get_valueSizeInBytes();
+  static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
@@ -52,11 +46,21 @@ public:
   /// @brief Method ReadValueAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_valueSizeInBytes();
+
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Type* get_valueType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputBindingComposite_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputBindingComposite_1(InputBindingComposite_1&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputBindingComposite_1(InputBindingComposite_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputBindingComposite_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

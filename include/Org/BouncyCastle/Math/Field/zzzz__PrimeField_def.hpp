@@ -24,24 +24,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::PrimeField);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1587))
 // CS Name: ::Org.BouncyCastle.Math.Field::PrimeField*
 class CORDL_TYPE PrimeField : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field characteristic, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::Org::BouncyCastle::Math::BigInteger* characteristic;
-
   __declspec(property(get = get_Characteristic))::Org::BouncyCastle::Math::BigInteger* Characteristic;
 
   __declspec(property(get = get_Dimension)) int32_t Dimension;
 
+  /// @brief Field characteristic, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::Org::BouncyCastle::Math::BigInteger* characteristic;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
-  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
+  /// @brief Method Equals, addr 0x10cd970, size 0xb4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x10cda24, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_characteristic();
 
@@ -49,23 +52,24 @@ public:
 
   constexpr void __cordl_internal_set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
 
-  static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
-
-  /// @brief Method .ctor, addr 0x105b47c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cd2dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method get_Characteristic, addr 0x105bb00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x10cd960, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x105bb08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x10cd968, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
-  /// @brief Method Equals, addr 0x105bb10, size 0xb4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x105bbc4, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrimeField();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrimeField", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrimeField(PrimeField&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrimeField(PrimeField const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrimeField();
-
-public:
   /// @brief Field characteristic, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___characteristic;
 

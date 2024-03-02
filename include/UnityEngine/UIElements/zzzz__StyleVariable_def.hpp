@@ -23,26 +23,24 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleVariable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7265))
 // CS Name: ::UnityEngine.UIElements::StyleVariable
 struct CORDL_TYPE StyleVariable {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2e69af8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f77614, size 0x78, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2f77608, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
-  /// @brief Method GetHashCode, addr 0x2e69b04, size 0x78, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleVariable();
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "",
   // def_value: None }, CppParam { name: "handles", ty: "::ArrayW<::UnityEngine::UIElements::StyleValueHandle,::Array<::UnityEngine::UIElements::StyleValueHandle>*>", modifiers: "", def_value: None }]
   constexpr StyleVariable(::StringW name, ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet,
                           ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleVariable();
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;

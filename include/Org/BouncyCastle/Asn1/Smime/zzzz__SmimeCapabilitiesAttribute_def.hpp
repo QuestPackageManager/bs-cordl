@@ -17,17 +17,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(293))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(294))
 // CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeCapabilitiesAttribute*
 class CORDL_TYPE SmimeCapabilitiesAttribute : public ::Org::BouncyCastle::Asn1::X509::AttributeX509 {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute* New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
-  /// @brief Method .ctor, addr 0x1074608, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e6468, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SmimeCapabilitiesAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilitiesAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmimeCapabilitiesAttribute(SmimeCapabilitiesAttribute&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmimeCapabilitiesAttribute(SmimeCapabilitiesAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmimeCapabilitiesAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

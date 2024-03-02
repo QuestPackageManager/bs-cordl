@@ -30,12 +30,14 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(10245))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
 // CS Name: ::UnityEngine.Rendering::BatchRendererCullingOutput
 struct CORDL_TYPE BatchRendererCullingOutput {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchRendererCullingOutput();
+
   // Ctor Parameters [CppParam { name: "cullingJobsFence", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "cullingMatrix", ty: "::UnityEngine::Matrix4x4",
   // modifiers: "", def_value: None }, CppParam { name: "cullingPlanes", ty: "::cordl_internals::Ptr<::UnityEngine::Plane>", modifiers: "", def_value: None }, CppParam { name: "batchVisibility", ty:
   // "::cordl_internals::Ptr<::UnityEngine::Rendering::BatchVisibility>", modifiers: "", def_value: None }, CppParam { name: "visibleIndices", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "",
@@ -46,10 +48,6 @@ public:
                                        ::cordl_internals::Ptr<::UnityEngine::Rendering::BatchVisibility> batchVisibility, ::cordl_internals::Ptr<int32_t> visibleIndices,
                                        ::cordl_internals::Ptr<int32_t> visibleIndicesY, int32_t cullingPlanesCount, int32_t batchVisibilityCount, int32_t visibleIndicesCount,
                                        float_t nearPlane) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BatchRendererCullingOutput();
 
   /// @brief Field cullingJobsFence, offset: 0x0, size: 0x10, def value: None
   ::Unity::Jobs::JobHandle cullingJobsFence;

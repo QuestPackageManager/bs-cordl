@@ -29,64 +29,68 @@ MARK_REF_PTR_T(::GlobalNamespace::HapticFeedbackManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14409))
 // CS Name: ::HapticFeedbackManager*
 class CORDL_TYPE HapticFeedbackManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _controllersRumbleEnabled, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__controllersRumbleEnabled, put = __cordl_internal_set__controllersRumbleEnabled))::UnityW<::GlobalNamespace::BoolSO> _controllersRumbleEnabled;
+  /// @brief Field _advancedHapticFeedbackPlayer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__advancedHapticFeedbackPlayer,
+                      put = __cordl_internal_set__advancedHapticFeedbackPlayer))::GlobalNamespace::IHapticFeedbackPlayer* _advancedHapticFeedbackPlayer;
 
   /// @brief Field _continuousRumblePreset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__continuousRumblePreset,
                       put = __cordl_internal_set__continuousRumblePreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _continuousRumblePreset;
 
+  /// @brief Field _controllersRumbleEnabled, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__controllersRumbleEnabled, put = __cordl_internal_set__controllersRumbleEnabled))::UnityW<::GlobalNamespace::BoolSO> _controllersRumbleEnabled;
+
   /// @brief Field _rumbleHapticFeedbackPlayer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__rumbleHapticFeedbackPlayer,
                       put = __cordl_internal_set__rumbleHapticFeedbackPlayer))::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> _rumbleHapticFeedbackPlayer;
 
-  /// @brief Field _advancedHapticFeedbackPlayer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__advancedHapticFeedbackPlayer,
-                      put = __cordl_internal_set__advancedHapticFeedbackPlayer))::GlobalNamespace::IHapticFeedbackPlayer* _advancedHapticFeedbackPlayer;
-
   __declspec(property(get = get_continuousRumblePreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> continuousRumblePreset;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__controllersRumbleEnabled();
+  static inline ::GlobalNamespace::HapticFeedbackManager* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__controllersRumbleEnabled() const;
-
-  constexpr void __cordl_internal_set__controllersRumbleEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__continuousRumblePreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__continuousRumblePreset() const;
-
-  constexpr void __cordl_internal_set__continuousRumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer>& __cordl_internal_get__rumbleHapticFeedbackPlayer();
-
-  constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> const& __cordl_internal_get__rumbleHapticFeedbackPlayer() const;
-
-  constexpr void __cordl_internal_set__rumbleHapticFeedbackPlayer(::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> value);
+  /// @brief Method PlayHapticFeedback, addr 0x2258e5c, size 0x17c, virtual false, abstract: false, final false
+  inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   constexpr ::GlobalNamespace::IHapticFeedbackPlayer*& __cordl_internal_get__advancedHapticFeedbackPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IHapticFeedbackPlayer*> const& __cordl_internal_get__advancedHapticFeedbackPlayer() const;
 
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__continuousRumblePreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__continuousRumblePreset();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__controllersRumbleEnabled() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__controllersRumbleEnabled();
+
+  constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> const& __cordl_internal_get__rumbleHapticFeedbackPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer>& __cordl_internal_get__rumbleHapticFeedbackPlayer();
+
   constexpr void __cordl_internal_set__advancedHapticFeedbackPlayer(::GlobalNamespace::IHapticFeedbackPlayer* value);
 
-  /// @brief Method get_continuousRumblePreset, addr 0x20f6dc0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> get_continuousRumblePreset();
+  constexpr void __cordl_internal_set__continuousRumblePreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  /// @brief Method PlayHapticFeedback, addr 0x20f6dc8, size 0x17c, virtual false, abstract: false, final false
-  inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
+  constexpr void __cordl_internal_set__controllersRumbleEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  static inline ::GlobalNamespace::HapticFeedbackManager* New_ctor();
+  constexpr void __cordl_internal_set__rumbleHapticFeedbackPlayer(::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> value);
 
-  /// @brief Method .ctor, addr 0x20f700c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22590a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_continuousRumblePreset, addr 0x2258e54, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> get_continuousRumblePreset();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HapticFeedbackManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HapticFeedbackManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HapticFeedbackManager(HapticFeedbackManager&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HapticFeedbackManager(HapticFeedbackManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HapticFeedbackManager();
-
-public:
   /// @brief Field _controllersRumbleEnabled, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____controllersRumbleEnabled;
 

@@ -32,75 +32,79 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(120))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::PopoSigningKeyInput*
 class CORDL_TYPE PopoSigningKeyInput : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field sender, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
+  __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* PublicKey;
 
-  /// @brief Field publicKeyMac, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyMac, put = __cordl_internal_set_publicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* publicKeyMac;
+  __declspec(property(get = get_PublicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* PublicKeyMac;
+
+  __declspec(property(get = get_Sender))::Org::BouncyCastle::Asn1::X509::GeneralName* Sender;
 
   /// @brief Field publicKey, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey;
 
-  __declspec(property(get = get_Sender))::Org::BouncyCastle::Asn1::X509::GeneralName* Sender;
+  /// @brief Field publicKeyMac, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_publicKeyMac, put = __cordl_internal_set_publicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* publicKeyMac;
 
-  __declspec(property(get = get_PublicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* PublicKeyMac;
+  /// @brief Field sender, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
 
-  __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* PublicKey;
+  /// @brief Method GetInstance, addr 0xef8de4, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* GetInstance(::System::Object* obj);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_sender();
+  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_sender() const;
+  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get_publicKeyMac();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get_publicKeyMac() const;
-
-  constexpr void __cordl_internal_set_publicKeyMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
+  /// @brief Method ToAsn1Object, addr 0xef9410, size 0x104, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get_publicKey();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get_publicKey() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get_publicKeyMac();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get_publicKeyMac() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_sender();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_sender() const;
+
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  constexpr void __cordl_internal_set_publicKeyMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
-  /// @brief Method .ctor, addr 0xe883c8, size 0x174, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method GetInstance, addr 0xe87f84, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
-
-  /// @brief Method .ctor, addr 0xe8853c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
-
-  static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
-
-  /// @brief Method .ctor, addr 0xe8856c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef93cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method get_Sender, addr 0xe88598, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
+  /// @brief Method .ctor, addr 0xef939c, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method get_PublicKeyMac, addr 0xe885a0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* get_PublicKeyMac();
+  /// @brief Method .ctor, addr 0xef9228, size 0x174, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PublicKey, addr 0xe885a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0xef9408, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_PublicKey();
 
-  /// @brief Method ToAsn1Object, addr 0xe885b0, size 0x104, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_PublicKeyMac, addr 0xef9400, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* get_PublicKeyMac();
 
+  /// @brief Method get_Sender, addr 0xef93f8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PopoSigningKeyInput();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PopoSigningKeyInput", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopoSigningKeyInput(PopoSigningKeyInput&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PopoSigningKeyInput(PopoSigningKeyInput const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PopoSigningKeyInput();
-
-public:
   /// @brief Field sender, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::GeneralName* ___sender;
 

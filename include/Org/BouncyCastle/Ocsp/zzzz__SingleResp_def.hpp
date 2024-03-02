@@ -32,20 +32,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::SingleResp);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1625))
 // CS Name: ::Org.BouncyCastle.Ocsp::SingleResp*
 class CORDL_TYPE SingleResp : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
-  /// @brief Field resp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp;
-
-  __declspec(property(get = get_ThisUpdate))::System::DateTime ThisUpdate;
-
   __declspec(property(get = get_NextUpdate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* NextUpdate;
 
   __declspec(property(get = get_SingleExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleExtensions;
+
+  __declspec(property(get = get_ThisUpdate))::System::DateTime ThisUpdate;
+
+  /// @brief Field resp, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp;
+
+  /// @brief Method GetCertID, addr 0x1115e90, size 0x6c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
+
+  /// @brief Method GetCertStatus, addr 0x1115efc, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Object* GetCertStatus();
+
+  /// @brief Method GetX509Extensions, addr 0x11160e8, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+
+  static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*& __cordl_internal_get_resp();
 
@@ -53,29 +62,24 @@ public:
 
   constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* value);
 
-  static inline ::Org::BouncyCastle::Ocsp::SingleResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
-
-  /// @brief Method .ctor, addr 0x109c070, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110ced0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* resp);
 
-  /// @brief Method GetCertID, addr 0x10a5030, size 0x6c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
-
-  /// @brief Method GetCertStatus, addr 0x10a509c, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Object* GetCertStatus();
-
-  /// @brief Method get_ThisUpdate, addr 0x10a51bc, size 0x24, virtual false, abstract: false, final false
-  inline ::System::DateTime get_ThisUpdate();
-
-  /// @brief Method get_NextUpdate, addr 0x10a51e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x1116040, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions, addr 0x10a526c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleExtensions, addr 0x11160cc, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method GetX509Extensions, addr 0x10a5288, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+  /// @brief Method get_ThisUpdate, addr 0x111601c, size 0x24, virtual false, abstract: false, final false
+  inline ::System::DateTime get_ThisUpdate();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SingleResp();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SingleResp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingleResp(SingleResp&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SingleResp(SingleResp const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingleResp();
-
-public:
   /// @brief Field resp, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* ___resp;
 

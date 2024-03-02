@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateType);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1191))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateType*
 class CORDL_TYPE CertificateType : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf60588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd03e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateType(CertificateType&&) = delete;
@@ -34,20 +38,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateType(CertificateType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateType();
-
-public:
-  /// @brief Field X509 offset 0xffffffff size 0x1
-  static constexpr uint8_t X509{ static_cast<uint8_t>(0x0u) };
-
   /// @brief Field OpenPGP offset 0xffffffff size 0x1
   static constexpr uint8_t OpenPGP{ static_cast<uint8_t>(0x1u) };
 
   /// @brief Field RawPublicKey offset 0xffffffff size 0x1
   static constexpr uint8_t RawPublicKey{ static_cast<uint8_t>(0x2u) };
+
+  /// @brief Field X509 offset 0xffffffff size 0x1
+  static constexpr uint8_t X509{ static_cast<uint8_t>(0x0u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

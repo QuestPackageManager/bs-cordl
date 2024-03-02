@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::DTSubString::*)(int32_t)>(&::System::DTSubString::get_Item)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25a5844;
+  constexpr static std::size_t addrs = 0x2697e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

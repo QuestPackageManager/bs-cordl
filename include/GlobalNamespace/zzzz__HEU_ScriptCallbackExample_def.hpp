@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptCallbackExample);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
 // CS Name: ::HEU_ScriptCallbackExample*
 class CORDL_TYPE HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
 public:
@@ -24,23 +22,29 @@ public:
   /// @brief Field _msg, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg))::StringW _msg;
 
-  constexpr ::StringW& __cordl_internal_get__msg();
-
-  constexpr ::StringW const& __cordl_internal_get__msg() const;
-
-  constexpr void __cordl_internal_set__msg(::StringW value);
-
-  /// @brief Method AssetCallbackWithMsg, addr 0x214cfc8, size 0x98, virtual false, abstract: false, final false
-  inline void AssetCallbackWithMsg(::StringW msg);
-
-  /// @brief Method AssetCallbackNoMsg, addr 0x214d060, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x22adfac, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
+
+  /// @brief Method AssetCallbackWithMsg, addr 0x22adf14, size 0x98, virtual false, abstract: false, final false
+  inline void AssetCallbackWithMsg(::StringW msg);
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214d0c8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__msg() const;
+
+  constexpr ::StringW& __cordl_internal_get__msg();
+
+  constexpr void __cordl_internal_set__msg(::StringW value);
+
+  /// @brief Method .ctor, addr 0x22ae014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ScriptCallbackExample();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptCallbackExample", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ScriptCallbackExample(HEU_ScriptCallbackExample&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptCallbackExample(HEU_ScriptCallbackExample const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ScriptCallbackExample();
-
-public:
   /// @brief Field _msg, offset: 0x18, size: 0x8, def value: None
   ::StringW ____msg;
 

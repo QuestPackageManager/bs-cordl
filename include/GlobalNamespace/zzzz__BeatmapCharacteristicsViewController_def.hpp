@@ -27,84 +27,88 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicsViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5652))
 // CS Name: ::BeatmapCharacteristicsViewController*
 class CORDL_TYPE BeatmapCharacteristicsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _beatmapCharacteristicsTableView, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicsTableView,
-                      put = __cordl_internal_set__beatmapCharacteristicsTableView))::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> _beatmapCharacteristicsTableView;
-
-  /// @brief Field didSelectBeatmapCharacteristicEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectBeatmapCharacteristicEvent,
-                      put = __cordl_internal_set_didSelectBeatmapCharacteristicEvent))::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectBeatmapCharacteristicEvent;
-
   /// @brief Field _beatmapCharacteristicCollection, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
                       put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+
+  /// @brief Field _beatmapCharacteristicsTableView, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicsTableView,
+                      put = __cordl_internal_set__beatmapCharacteristicsTableView))::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> _beatmapCharacteristicsTableView;
 
   /// @brief Field _selectedBeatmapCharacteristicNum, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedBeatmapCharacteristicNum, put = __cordl_internal_set__selectedBeatmapCharacteristicNum)) int32_t _selectedBeatmapCharacteristicNum;
 
   __declspec(property(get = get_beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection;
 
+  /// @brief Field didSelectBeatmapCharacteristicEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSelectBeatmapCharacteristicEvent,
+                      put = __cordl_internal_set_didSelectBeatmapCharacteristicEvent))::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectBeatmapCharacteristicEvent;
+
   __declspec(property(get = get_selectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> selectedBeatmapCharacteristic;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView>& __cordl_internal_get__beatmapCharacteristicsTableView();
+  /// @brief Method DidActivate, addr 0x23b8af0, size 0xb4, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> const& __cordl_internal_get__beatmapCharacteristicsTableView() const;
+  /// @brief Method DidDeactivate, addr 0x23b8ba4, size 0xa0, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicsTableView(::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> value);
+  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x23b8ca8, size 0x1c0, virtual false, abstract: false, final false
+  inline void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_didSelectBeatmapCharacteristicEvent();
+  static inline ::GlobalNamespace::BeatmapCharacteristicsViewController* New_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const& __cordl_internal_get_didSelectBeatmapCharacteristicEvent() const;
-
-  constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  /// @brief Method SetData, addr 0x23b8c44, size 0x64, virtual false, abstract: false, final false
+  inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, int32_t selectedCharacteristicNum);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> const& __cordl_internal_get__beatmapCharacteristicsTableView() const;
 
-  constexpr int32_t& __cordl_internal_get__selectedBeatmapCharacteristicNum();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView>& __cordl_internal_get__beatmapCharacteristicsTableView();
 
   constexpr int32_t const& __cordl_internal_get__selectedBeatmapCharacteristicNum() const;
 
+  constexpr int32_t& __cordl_internal_get__selectedBeatmapCharacteristicNum();
+
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_didSelectBeatmapCharacteristicEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const& __cordl_internal_get_didSelectBeatmapCharacteristicEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+
+  constexpr void __cordl_internal_set__beatmapCharacteristicsTableView(::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> value);
+
   constexpr void __cordl_internal_set__selectedBeatmapCharacteristicNum(int32_t value);
 
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22b68c4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22b6974, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
-
-  /// @brief Method get_beatmapCharacteristicCollection, addr 0x22b6a24, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapCharacteristicCollection* get_beatmapCharacteristicCollection();
-
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22b6a2c, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
-
-  /// @brief Method DidActivate, addr 0x22b6ae8, size 0xb4, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0x22b6b9c, size 0xa0, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method SetData, addr 0x22b6c3c, size 0x64, virtual false, abstract: false, final false
-  inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, int32_t selectedCharacteristicNum);
-
-  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x22b6ca0, size 0x1c0, virtual false, abstract: false, final false
-  inline void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
-
-  static inline ::GlobalNamespace::BeatmapCharacteristicsViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22b6e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8e68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x23b88cc, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+
+  /// @brief Method get_beatmapCharacteristicCollection, addr 0x23b8a2c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapCharacteristicCollection* get_beatmapCharacteristicCollection();
+
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x23b8a34, size 0xbc, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
+
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x23b897c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapCharacteristicsViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicsViewController(BeatmapCharacteristicsViewController&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicsViewController(BeatmapCharacteristicsViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicsViewController();
-
-public:
   /// @brief Field _beatmapCharacteristicsTableView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> ____beatmapCharacteristicsTableView;
 

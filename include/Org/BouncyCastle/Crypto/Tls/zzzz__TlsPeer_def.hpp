@@ -27,35 +27,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsPeer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1162))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsPeer*
 class CORDL_TYPE TlsPeer {
 public:
   // Declarations
-  /// @brief Method NotifyCloseHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void NotifyCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* closehandle);
-
   /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cancel();
 
-  /// @brief Method GetHandshakeTimeoutMillis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GetHandshakeTimeoutMillis();
-
-  /// @brief Method RequiresExtendedMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool RequiresExtendedMasterSecret();
-
-  /// @brief Method ShouldUseGmtUnixTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ShouldUseGmtUnixTime();
-
-  /// @brief Method NotifySecureRenegotiation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void NotifySecureRenegotiation(bool secureRenegotiation);
+  /// @brief Method GetCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
   /// @brief Method GetCompression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCompression* GetCompression();
 
-  /// @brief Method GetCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
+  /// @brief Method GetHandshakeTimeoutMillis, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GetHandshakeTimeoutMillis();
 
   /// @brief Method NotifyAlertRaised, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyAlertRaised(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
@@ -63,8 +49,20 @@ public:
   /// @brief Method NotifyAlertReceived, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyAlertReceived(uint8_t alertLevel, uint8_t alertDescription);
 
+  /// @brief Method NotifyCloseHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void NotifyCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* closehandle);
+
   /// @brief Method NotifyHandshakeComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyHandshakeComplete();
+
+  /// @brief Method NotifySecureRenegotiation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void NotifySecureRenegotiation(bool secureRenegotiation);
+
+  /// @brief Method RequiresExtendedMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool RequiresExtendedMasterSecret();
+
+  /// @brief Method ShouldUseGmtUnixTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool ShouldUseGmtUnixTime();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsPeer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -19,35 +19,33 @@ MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11592))
 // CS Name: ::System.Xml.Xsl.Runtime::StringConcat
 struct CORDL_TYPE StringConcat {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x28abf98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2996a7c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method get_Count, addr 0x28abfa4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+  /// @brief Method ConcatNoDelimiter, addr 0x2996b84, size 0x2b8, virtual false, abstract: false, final false
+  inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x28abfac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x2996a90, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x28ac0a0, size 0x2b8, virtual false, abstract: false, final false
-  inline void ConcatNoDelimiter(::StringW s);
+  /// @brief Method get_Count, addr 0x2996a88, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Count();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringConcat();
 
   // Ctor Parameters [CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty:
   // "::StringW", modifiers: "", def_value: None }, CppParam { name: "s4", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "delimiter", ty: "::StringW", modifiers: "", def_value:
   // None }, CppParam { name: "strList", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "idxStr", ty: "int32_t", modifiers: "", def_value:
   // None }]
   constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringConcat();
 
   /// @brief Field s1, offset: 0x0, size: 0x8, def value: None
   ::StringW s1;

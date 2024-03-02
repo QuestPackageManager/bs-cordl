@@ -21,28 +21,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1306))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsECDsaSigner*
 class CORDL_TYPE TlsECDsaSigner : public ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner {
 public:
   // Declarations
   __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
 
-  /// @brief Method IsValidPublicKey, addr 0xfabc78, size 0x78, virtual true, abstract: false, final false
-  inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
-
-  /// @brief Method CreateDsaImpl, addr 0xfabcf0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreateDsaImpl, addr 0x101cb50, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
 
-  /// @brief Method get_SignatureAlgorithm, addr 0xfabf90, size 0x8, virtual true, abstract: false, final false
-  inline uint8_t get_SignatureAlgorithm();
+  /// @brief Method IsValidPublicKey, addr 0x101cad8, size 0x78, virtual true, abstract: false, final false
+  inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfaa064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101aec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_SignatureAlgorithm, addr 0x101cdf0, size 0x8, virtual true, abstract: false, final false
+  inline uint8_t get_SignatureAlgorithm();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsECDsaSigner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsECDsaSigner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsECDsaSigner(TlsECDsaSigner&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsECDsaSigner(TlsECDsaSigner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsECDsaSigner();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

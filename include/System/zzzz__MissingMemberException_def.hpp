@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::MissingMemberException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2528))
 // CS Name: ::System::MissingMemberException*
 class CORDL_TYPE MissingMemberException : public ::System::MemberAccessException {
 public:
@@ -35,53 +33,59 @@ public:
   /// @brief Field MemberName, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_MemberName, put = __cordl_internal_set_MemberName))::StringW MemberName;
 
+  __declspec(property(get = get_Message))::StringW Message;
+
   /// @brief Field Signature, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_Signature, put = __cordl_internal_set_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  /// @brief Method FormatSignature, addr 0x26c4394, size 0x48, virtual false, abstract: false, final false
+  static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  constexpr ::StringW& __cordl_internal_get_ClassName();
-
-  constexpr ::StringW const& __cordl_internal_get_ClassName() const;
-
-  constexpr void __cordl_internal_set_ClassName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_MemberName();
-
-  constexpr ::StringW const& __cordl_internal_get_MemberName() const;
-
-  constexpr void __cordl_internal_set_MemberName(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Signature();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Signature() const;
-
-  constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetObjectData, addr 0x26c4238, size 0x15c, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MissingMemberException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d1818, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::MissingMemberException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MissingMemberException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d17a8, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  constexpr ::StringW const& __cordl_internal_get_ClassName() const;
 
-  static inline ::System::MissingMemberException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  constexpr ::StringW& __cordl_internal_get_ClassName();
 
-  /// @brief Method .ctor, addr 0x25d1878, size 0x184, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_MemberName() const;
+
+  constexpr ::StringW& __cordl_internal_get_MemberName();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Signature() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Signature();
+
+  constexpr void __cordl_internal_set_ClassName(::StringW value);
+
+  constexpr void __cordl_internal_set_MemberName(::StringW value);
+
+  constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x26c3e14, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x26c3e74, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25d1c3c, size 0x15c, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Method .ctor, addr 0x26c3da4, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x25d1b10, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x26c410c, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method FormatSignature, addr 0x25d1d98, size 0x48, virtual false, abstract: false, final false
-  static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissingMemberException();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissingMemberException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissingMemberException(MissingMemberException&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissingMemberException(MissingMemberException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissingMemberException();
-
-public:
   /// @brief Field ClassName, offset: 0x90, size: 0x8, def value: None
   ::StringW ___ClassName;
 

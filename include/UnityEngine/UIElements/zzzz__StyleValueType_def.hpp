@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleValueType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7263))
 // CS Name: ::UnityEngine.UIElements::StyleValueType
 struct CORDL_TYPE StyleValueType {
 public:
@@ -46,18 +44,41 @@ public:
     return static_cast<__StyleValueType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StyleValueType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleValueType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr StyleValueType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AssetReference value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::UIElements::StyleValueType const AssetReference;
+
+  /// @brief Field Color value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::StyleValueType const Color;
+
+  /// @brief Field CommaSeparator value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::UIElements::StyleValueType const CommaSeparator;
+
+  /// @brief Field Dimension value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::StyleValueType const Dimension;
+
+  /// @brief Field Enum value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::UIElements::StyleValueType const Enum;
+
+  /// @brief Field Float value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UIElements::StyleValueType const Float;
+
+  /// @brief Field Function value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::UIElements::StyleValueType const Function;
 
   /// @brief Field Invalid value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::StyleValueType const Invalid;
@@ -65,41 +86,23 @@ public:
   /// @brief Field Keyword value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::StyleValueType const Keyword;
 
-  /// @brief Field Float value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::StyleValueType const Float;
-
-  /// @brief Field Dimension value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::StyleValueType const Dimension;
-
-  /// @brief Field Color value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::StyleValueType const Color;
+  /// @brief Field MissingAssetReference value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::UIElements::StyleValueType const MissingAssetReference;
 
   /// @brief Field ResourcePath value: static_cast<int32_t>(0x5)
   static ::UnityEngine::UIElements::StyleValueType const ResourcePath;
 
-  /// @brief Field AssetReference value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::UIElements::StyleValueType const AssetReference;
-
-  /// @brief Field Enum value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::UIElements::StyleValueType const Enum;
-
-  /// @brief Field Variable value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::UIElements::StyleValueType const Variable;
+  /// @brief Field ScalableImage value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::UIElements::StyleValueType const ScalableImage;
 
   /// @brief Field String value: static_cast<int32_t>(0x9)
   static ::UnityEngine::UIElements::StyleValueType const String;
 
-  /// @brief Field Function value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::UIElements::StyleValueType const Function;
+  /// @brief Field Variable value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::UIElements::StyleValueType const Variable;
 
-  /// @brief Field CommaSeparator value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::UIElements::StyleValueType const CommaSeparator;
-
-  /// @brief Field ScalableImage value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::UIElements::StyleValueType const ScalableImage;
-
-  /// @brief Field MissingAssetReference value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::UIElements::StyleValueType const MissingAssetReference;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15480))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_0*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -47,17 +45,23 @@ public:
   /// @brief Field onlyAutoConnectedTerrains, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_onlyAutoConnectedTerrains, put = __cordl_internal_set_onlyAutoConnectedTerrains)) bool onlyAutoConnectedTerrains;
 
-  constexpr bool& __cordl_internal_get_onlyAutoConnectedTerrains();
+  static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* New_ctor();
 
   constexpr bool const& __cordl_internal_get_onlyAutoConnectedTerrains() const;
 
+  constexpr bool& __cordl_internal_get_onlyAutoConnectedTerrains();
+
   constexpr void __cordl_internal_set_onlyAutoConnectedTerrains(bool value);
 
-  static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d1ffd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2d1a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TerrainUtility____c__DisplayClass2_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainUtility____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TerrainUtility____c__DisplayClass2_0(__TerrainUtility____c__DisplayClass2_0&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TerrainUtility____c__DisplayClass2_0(__TerrainUtility____c__DisplayClass2_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TerrainUtility____c__DisplayClass2_0();
-
-public:
   /// @brief Field onlyAutoConnectedTerrains, offset: 0x10, size: 0x1, def value: None
   bool ___onlyAutoConnectedTerrains;
 
@@ -87,38 +85,42 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15481))
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_1*
 class CORDL_TYPE __TerrainUtility____c__DisplayClass2_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Terrain> t;
-
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* CS$__8__locals1;
 
-  constexpr ::UnityW<::UnityEngine::Terrain>& __cordl_internal_get_t();
+  /// @brief Field t, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Terrain> t;
 
-  constexpr ::UnityW<::UnityEngine::Terrain> const& __cordl_internal_get_t() const;
+  static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
-  constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
+  /// @brief Method <CollectTerrains>b__0, addr 0x2e2d538, size 0xdc, virtual false, abstract: false, final false
+  inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
 
   constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __cordl_internal_get_CS$__8__locals1();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
+  constexpr ::UnityW<::UnityEngine::Terrain> const& __cordl_internal_get_t() const;
+
+  constexpr ::UnityW<::UnityEngine::Terrain>& __cordl_internal_get_t();
+
   constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* value);
 
-  static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
+  constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
 
-  /// @brief Method .ctor, addr 0x2d1ffd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2d1a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CollectTerrains>b__0, addr 0x2d20368, size 0xdc, virtual false, abstract: false, final false
-  inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TerrainUtility____c__DisplayClass2_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainUtility____c__DisplayClass2_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TerrainUtility____c__DisplayClass2_1(__TerrainUtility____c__DisplayClass2_1&&) = delete;
@@ -127,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TerrainUtility____c__DisplayClass2_1(__TerrainUtility____c__DisplayClass2_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TerrainUtility____c__DisplayClass2_1();
-
-public:
   /// @brief Field t, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Terrain> ___t;
 
@@ -153,28 +149,32 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainUtility*
 class CORDL_TYPE TerrainUtility : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1;
-
   using __c__DisplayClass2_0 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0;
 
-  /// @brief Method ValidTerrainsExist, addr 0x2d1fb4c, size 0x68, virtual false, abstract: false, final false
-  static inline bool ValidTerrainsExist();
+  using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1;
 
-  /// @brief Method ClearConnectivity, addr 0x2d1fbb4, size 0xf8, virtual false, abstract: false, final false
-  static inline void ClearConnectivity();
-
-  /// @brief Method CollectTerrains, addr 0x2d1fcac, size 0x324, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
-
-  /// @brief Method AutoConnect, addr 0x2d1ffe0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method AutoConnect, addr 0x2e2d1b0, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
+  /// @brief Method ClearConnectivity, addr 0x2e2cd84, size 0xf8, virtual false, abstract: false, final false
+  static inline void ClearConnectivity();
+
+  /// @brief Method CollectTerrains, addr 0x2e2ce7c, size 0x324, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
+
+  /// @brief Method ValidTerrainsExist, addr 0x2e2cd1c, size 0x68, virtual false, abstract: false, final false
+  static inline bool ValidTerrainsExist();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TerrainUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainUtility(TerrainUtility&&) = delete;
@@ -183,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TerrainUtility(TerrainUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TerrainUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,81 +24,85 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferMesh);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9804))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9805))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferMesh*
 class CORDL_TYPE HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
   // Declarations
-  /// @brief Field _geoCache, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoCache, put = __cordl_internal_set__geoCache))::HoudiniEngineUnity::HEU_GenerateGeoCache* _geoCache;
-
   /// @brief Field _LODGroupMeshes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__LODGroupMeshes,
                       put = __cordl_internal_set__LODGroupMeshes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* _LODGroupMeshes;
 
-  /// @brief Field _defaultMaterialKey, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultMaterialKey, put = __cordl_internal_set__defaultMaterialKey)) int32_t _defaultMaterialKey;
-
-  /// @brief Field _bGenerateUVs, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get__bGenerateUVs, put = __cordl_internal_set__bGenerateUVs)) bool _bGenerateUVs;
+  /// @brief Field _bGenerateNormals, offset 0x46, size 0x1
+  __declspec(property(get = __cordl_internal_get__bGenerateNormals, put = __cordl_internal_set__bGenerateNormals)) bool _bGenerateNormals;
 
   /// @brief Field _bGenerateTangents, offset 0x45, size 0x1
   __declspec(property(get = __cordl_internal_get__bGenerateTangents, put = __cordl_internal_set__bGenerateTangents)) bool _bGenerateTangents;
 
-  /// @brief Field _bGenerateNormals, offset 0x46, size 0x1
-  __declspec(property(get = __cordl_internal_get__bGenerateNormals, put = __cordl_internal_set__bGenerateNormals)) bool _bGenerateNormals;
+  /// @brief Field _bGenerateUVs, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get__bGenerateUVs, put = __cordl_internal_set__bGenerateUVs)) bool _bGenerateUVs;
 
   /// @brief Field _bPartInstanced, offset 0x47, size 0x1
   __declspec(property(get = __cordl_internal_get__bPartInstanced, put = __cordl_internal_set__bPartInstanced)) bool _bPartInstanced;
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache*& __cordl_internal_get__geoCache();
+  /// @brief Field _defaultMaterialKey, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__defaultMaterialKey, put = __cordl_internal_set__defaultMaterialKey)) int32_t _defaultMaterialKey;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GenerateGeoCache*> const& __cordl_internal_get__geoCache() const;
+  /// @brief Field _geoCache, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__geoCache, put = __cordl_internal_set__geoCache))::HoudiniEngineUnity::HEU_GenerateGeoCache* _geoCache;
 
-  constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
+  static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*& __cordl_internal_get__LODGroupMeshes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> const& __cordl_internal_get__LODGroupMeshes() const;
 
-  constexpr void __cordl_internal_set__LODGroupMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* value);
-
-  constexpr int32_t& __cordl_internal_get__defaultMaterialKey();
-
-  constexpr int32_t const& __cordl_internal_get__defaultMaterialKey() const;
-
-  constexpr void __cordl_internal_set__defaultMaterialKey(int32_t value);
-
-  constexpr bool& __cordl_internal_get__bGenerateUVs();
-
-  constexpr bool const& __cordl_internal_get__bGenerateUVs() const;
-
-  constexpr void __cordl_internal_set__bGenerateUVs(bool value);
-
-  constexpr bool& __cordl_internal_get__bGenerateTangents();
-
-  constexpr bool const& __cordl_internal_get__bGenerateTangents() const;
-
-  constexpr void __cordl_internal_set__bGenerateTangents(bool value);
+  constexpr bool const& __cordl_internal_get__bGenerateNormals() const;
 
   constexpr bool& __cordl_internal_get__bGenerateNormals();
 
-  constexpr bool const& __cordl_internal_get__bGenerateNormals() const;
+  constexpr bool const& __cordl_internal_get__bGenerateTangents() const;
 
-  constexpr void __cordl_internal_set__bGenerateNormals(bool value);
+  constexpr bool& __cordl_internal_get__bGenerateTangents();
 
-  constexpr bool& __cordl_internal_get__bPartInstanced();
+  constexpr bool const& __cordl_internal_get__bGenerateUVs() const;
+
+  constexpr bool& __cordl_internal_get__bGenerateUVs();
 
   constexpr bool const& __cordl_internal_get__bPartInstanced() const;
 
+  constexpr bool& __cordl_internal_get__bPartInstanced();
+
+  constexpr int32_t const& __cordl_internal_get__defaultMaterialKey() const;
+
+  constexpr int32_t& __cordl_internal_get__defaultMaterialKey();
+
+  constexpr ::HoudiniEngineUnity::HEU_GenerateGeoCache*& __cordl_internal_get__geoCache();
+
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GenerateGeoCache*> const& __cordl_internal_get__geoCache() const;
+
+  constexpr void __cordl_internal_set__LODGroupMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* value);
+
+  constexpr void __cordl_internal_set__bGenerateNormals(bool value);
+
+  constexpr void __cordl_internal_set__bGenerateTangents(bool value);
+
+  constexpr void __cordl_internal_set__bGenerateUVs(bool value);
+
   constexpr void __cordl_internal_set__bPartInstanced(bool value);
 
-  static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
+  constexpr void __cordl_internal_set__defaultMaterialKey(int32_t value);
 
-  /// @brief Method .ctor, addr 0x21abc0c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
+
+  /// @brief Method .ctor, addr 0x230db58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_LoadBufferMesh();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferMesh", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_LoadBufferMesh(HEU_LoadBufferMesh&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferMesh(HEU_LoadBufferMesh const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_LoadBufferMesh();
-
-public:
   /// @brief Field _geoCache, offset: 0x30, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_GenerateGeoCache* ____geoCache;
 

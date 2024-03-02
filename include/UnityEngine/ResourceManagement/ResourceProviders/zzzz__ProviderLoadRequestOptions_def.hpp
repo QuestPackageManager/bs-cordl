@@ -15,54 +15,58 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14014))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProviderLoadRequestOptions*
 class CORDL_TYPE ProviderLoadRequestOptions : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IgnoreFailures, put = set_IgnoreFailures)) bool IgnoreFailures;
+
+  __declspec(property(get = get_WebRequestTimeout, put = set_WebRequestTimeout)) int32_t WebRequestTimeout;
+
   /// @brief Field m_IgnoreFailures, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IgnoreFailures, put = __cordl_internal_set_m_IgnoreFailures)) bool m_IgnoreFailures;
 
   /// @brief Field m_WebRequestTimeout, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
 
-  __declspec(property(get = get_IgnoreFailures, put = set_IgnoreFailures)) bool IgnoreFailures;
-
-  __declspec(property(get = get_WebRequestTimeout, put = set_WebRequestTimeout)) int32_t WebRequestTimeout;
-
-  constexpr bool& __cordl_internal_get_m_IgnoreFailures();
-
-  constexpr bool const& __cordl_internal_get_m_IgnoreFailures() const;
-
-  constexpr void __cordl_internal_set_m_IgnoreFailures(bool value);
-
-  constexpr int32_t& __cordl_internal_get_m_WebRequestTimeout();
-
-  constexpr int32_t const& __cordl_internal_get_m_WebRequestTimeout() const;
-
-  constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
-
-  /// @brief Method Copy, addr 0x2bd83bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2cbeffc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
-
-  /// @brief Method get_IgnoreFailures, addr 0x2bd843c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IgnoreFailures();
-
-  /// @brief Method set_IgnoreFailures, addr 0x2bd8444, size 0xc, virtual false, abstract: false, final false
-  inline void set_IgnoreFailures(bool value);
-
-  /// @brief Method get_WebRequestTimeout, addr 0x2bd8450, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_WebRequestTimeout();
-
-  /// @brief Method set_WebRequestTimeout, addr 0x2bd8458, size 0x8, virtual false, abstract: false, final false
-  inline void set_WebRequestTimeout(int32_t value);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd8460, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_m_IgnoreFailures() const;
+
+  constexpr bool& __cordl_internal_get_m_IgnoreFailures();
+
+  constexpr int32_t const& __cordl_internal_get_m_WebRequestTimeout() const;
+
+  constexpr int32_t& __cordl_internal_get_m_WebRequestTimeout();
+
+  constexpr void __cordl_internal_set_m_IgnoreFailures(bool value);
+
+  constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2cbf0a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IgnoreFailures, addr 0x2cbf07c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IgnoreFailures();
+
+  /// @brief Method get_WebRequestTimeout, addr 0x2cbf090, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_WebRequestTimeout();
+
+  /// @brief Method set_IgnoreFailures, addr 0x2cbf084, size 0xc, virtual false, abstract: false, final false
+  inline void set_IgnoreFailures(bool value);
+
+  /// @brief Method set_WebRequestTimeout, addr 0x2cbf098, size 0x8, virtual false, abstract: false, final false
+  inline void set_WebRequestTimeout(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProviderLoadRequestOptions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderLoadRequestOptions(ProviderLoadRequestOptions&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProviderLoadRequestOptions(ProviderLoadRequestOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProviderLoadRequestOptions();
-
-public:
   /// @brief Field m_IgnoreFailures, offset: 0x10, size: 0x1, def value: None
   bool ___m_IgnoreFailures;
 

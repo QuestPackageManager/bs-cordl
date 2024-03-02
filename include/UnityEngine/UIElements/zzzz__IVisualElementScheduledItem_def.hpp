@@ -14,26 +14,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementScheduledItem);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
 // CS Name: ::UnityEngine.UIElements::IVisualElementScheduledItem*
 class CORDL_TYPE IVisualElementScheduledItem {
 public:
   // Declarations
-  /// @brief Method Resume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Resume();
-
-  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Pause();
+  /// @brief Method Every, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Every(int64_t intervalMs);
 
   /// @brief Method ExecuteLater, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteLater(int64_t delayMs);
 
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Pause();
+
+  /// @brief Method Resume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Resume();
+
   /// @brief Method StartingIn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* StartingIn(int64_t delayMs);
-
-  /// @brief Method Every, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Every(int64_t intervalMs);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVisualElementScheduledItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

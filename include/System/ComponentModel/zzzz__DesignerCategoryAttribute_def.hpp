@@ -19,14 +19,11 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignerCategoryAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9390))
 // CS Name: ::System.ComponentModel::DesignerCategoryAttribute*
 class CORDL_TYPE DesignerCategoryAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <Category>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Category_k__BackingField, put = __cordl_internal_set__Category_k__BackingField))::StringW _Category_k__BackingField;
+  __declspec(property(get = get_Category))::StringW Category;
 
   /// @brief Field Component, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Component, put = setStaticF_Component))::System::ComponentModel::DesignerCategoryAttribute* Component;
@@ -40,57 +37,64 @@ public:
   /// @brief Field Generic, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Generic, put = setStaticF_Generic))::System::ComponentModel::DesignerCategoryAttribute* Generic;
 
-  __declspec(property(get = get_Category))::StringW Category;
-
   __declspec(property(get = get_TypeId))::System::Object* TypeId;
 
-  constexpr ::StringW& __cordl_internal_get__Category_k__BackingField();
+  /// @brief Field <Category>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Category_k__BackingField, put = __cordl_internal_set__Category_k__BackingField))::StringW _Category_k__BackingField;
 
-  constexpr ::StringW const& __cordl_internal_get__Category_k__BackingField() const;
+  /// @brief Method Equals, addr 0x29ee19c, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__Category_k__BackingField(::StringW value);
+  /// @brief Method GetHashCode, addr 0x29ee22c, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  static inline void setStaticF_Component(::System::ComponentModel::DesignerCategoryAttribute* value);
-
-  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Component();
-
-  static inline void setStaticF_Default(::System::ComponentModel::DesignerCategoryAttribute* value);
-
-  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Default();
-
-  static inline void setStaticF_Form(::System::ComponentModel::DesignerCategoryAttribute* value);
-
-  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Form();
-
-  static inline void setStaticF_Generic(::System::ComponentModel::DesignerCategoryAttribute* value);
-
-  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Generic();
+  /// @brief Method IsDefaultAttribute, addr 0x29ee24c, size 0x78, virtual true, abstract: false, final false
+  inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x290462c, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::ComponentModel::DesignerCategoryAttribute* New_ctor(::StringW category);
 
-  /// @brief Method .ctor, addr 0x2904688, size 0x28, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__Category_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Category_k__BackingField();
+
+  constexpr void __cordl_internal_set__Category_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x29ee110, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x29ee16c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
-  /// @brief Method get_Category, addr 0x29046b0, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Component();
+
+  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Default();
+
+  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Form();
+
+  static inline ::System::ComponentModel::DesignerCategoryAttribute* getStaticF_Generic();
+
+  /// @brief Method get_Category, addr 0x29ee194, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
-  /// @brief Method Equals, addr 0x29046b8, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2904748, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method IsDefaultAttribute, addr 0x2904768, size 0x78, virtual true, abstract: false, final false
-  inline bool IsDefaultAttribute();
-
-  /// @brief Method get_TypeId, addr 0x29047e0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x29ee2c4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
+  static inline void setStaticF_Component(::System::ComponentModel::DesignerCategoryAttribute* value);
+
+  static inline void setStaticF_Default(::System::ComponentModel::DesignerCategoryAttribute* value);
+
+  static inline void setStaticF_Form(::System::ComponentModel::DesignerCategoryAttribute* value);
+
+  static inline void setStaticF_Generic(::System::ComponentModel::DesignerCategoryAttribute* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DesignerCategoryAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerCategoryAttribute(DesignerCategoryAttribute&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DesignerCategoryAttribute(DesignerCategoryAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DesignerCategoryAttribute();
-
-public:
   /// @brief Field <Category>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Category_k__BackingField;
 

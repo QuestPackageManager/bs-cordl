@@ -30,32 +30,36 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric2FacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11686))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11688))
 // CS Name: ::System.Xml.Schema::Numeric2FacetsChecker*
 class CORDL_TYPE Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x28c1828, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x29ab30c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c1888, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x29ab36c, size 0x280, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x28c1bc0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x29ab6a4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c1bd0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x29ab6b4, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c1b08, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x29ab5ec, size 0xb8, virtual false, abstract: false, final false
   inline bool MatchEnumeration(double_t value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
   static inline ::System::Xml::Schema::Numeric2FacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c1c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ab72c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Numeric2FacetsChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Numeric2FacetsChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Numeric2FacetsChecker(Numeric2FacetsChecker&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Numeric2FacetsChecker(Numeric2FacetsChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Numeric2FacetsChecker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

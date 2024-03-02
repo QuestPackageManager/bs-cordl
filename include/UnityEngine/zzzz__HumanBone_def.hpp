@@ -19,19 +19,17 @@ MARK_VAL_T(::UnityEngine::HumanBone);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14850))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14851))
 // CS Name: ::UnityEngine::HumanBone
 struct CORDL_TYPE HumanBone {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
-  constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, ::UnityEngine::HumanLimit limit) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HumanBone();
+
+  // Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
+  // name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
+  constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, ::UnityEngine::HumanLimit limit) noexcept;
 
   /// @brief Field m_BoneName, offset: 0x0, size: 0x8, def value: None
   ::StringW m_BoneName;

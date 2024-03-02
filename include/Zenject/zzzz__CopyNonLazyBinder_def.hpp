@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Zenject::CopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10925))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10701))
 // CS Name: ::Zenject::CopyNonLazyBinder*
 class CORDL_TYPE CopyNonLazyBinder : public ::Zenject::NonLazyBinder {
 public:
@@ -35,35 +33,41 @@ public:
   /// @brief Field _secondaryBindInfos, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__secondaryBindInfos, put = __cordl_internal_set__secondaryBindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _secondaryBindInfos;
 
+  /// @brief Method AddSecondaryCopyBindInfo, addr 0x2fdb05c, size 0xf0, virtual false, abstract: false, final false
+  inline void AddSecondaryCopyBindInfo(::Zenject::BindInfo* bindInfo);
+
+  /// @brief Method CopyIntoAllSubContainers, addr 0x2fd57d0, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::NonLazyBinder* CopyIntoAllSubContainers();
+
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x2fdb290, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
+
+  /// @brief Method MoveIntoAllSubContainers, addr 0x2fdb2ac, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::NonLazyBinder* MoveIntoAllSubContainers();
+
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x2fdb2c8, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
+
+  static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+
+  /// @brief Method SetInheritanceMethod, addr 0x2fdb14c, size 0x144, virtual false, abstract: false, final false
+  inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
+
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__secondaryBindInfos();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __cordl_internal_get__secondaryBindInfos() const;
 
   constexpr void __cordl_internal_set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method .ctor, addr 0x2ec7418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd6c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method AddSecondaryCopyBindInfo, addr 0x2ecb7ec, size 0xf0, virtual false, abstract: false, final false
-  inline void AddSecondaryCopyBindInfo(::Zenject::BindInfo* bindInfo);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CopyNonLazyBinder();
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x2ec5f60, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::NonLazyBinder* CopyIntoAllSubContainers();
-
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x2ecba20, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
-
-  /// @brief Method MoveIntoAllSubContainers, addr 0x2ecba3c, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::NonLazyBinder* MoveIntoAllSubContainers();
-
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x2ecba58, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
-
-  /// @brief Method SetInheritanceMethod, addr 0x2ecb8dc, size 0x144, virtual false, abstract: false, final false
-  inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CopyNonLazyBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyNonLazyBinder(CopyNonLazyBinder&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CopyNonLazyBinder(CopyNonLazyBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CopyNonLazyBinder();
-
-public:
   /// @brief Field _secondaryBindInfos, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* ____secondaryBindInfos;
 

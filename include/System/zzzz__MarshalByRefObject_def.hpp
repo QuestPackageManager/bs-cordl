@@ -26,16 +26,22 @@ MARK_REF_PTR_T(::System::MarshalByRefObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2605))
 // CS Name: ::System::MarshalByRefObject*
 class CORDL_TYPE MarshalByRefObject : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity))::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
+
   /// @brief Field _identity, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity))::System::Object* _identity;
 
-  __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity))::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
+  /// @brief Method CreateObjRef, addr 0x26edad0, size 0x40, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
+
+  /// @brief Method InitializeLifetimeService, addr 0x26edb10, size 0x40, virtual true, abstract: false, final false
+  inline ::System::Object* InitializeLifetimeService();
+
+  static inline ::System::MarshalByRefObject* New_ctor();
 
   constexpr ::System::Object*& __cordl_internal_get__identity();
 
@@ -43,23 +49,21 @@ public:
 
   constexpr void __cordl_internal_set__identity(::System::Object* value);
 
-  static inline ::System::MarshalByRefObject* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25f3d10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e730c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x25fa454, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x26eda50, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x25fa494, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x26eda90, size 0x40, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
-  /// @brief Method CreateObjRef, addr 0x25fa4d4, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MarshalByRefObject();
 
-  /// @brief Method InitializeLifetimeService, addr 0x25fa514, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Object* InitializeLifetimeService();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MarshalByRefObject(MarshalByRefObject&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MarshalByRefObject(MarshalByRefObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MarshalByRefObject();
-
-public:
   /// @brief Field _identity, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____identity;
 

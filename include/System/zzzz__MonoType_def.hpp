@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::MonoType);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2567))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2610))
 // CS Name: ::System::MonoType*
 class CORDL_TYPE MonoType : public ::System::RuntimeType {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoType(MonoType&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoType(MonoType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoType();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

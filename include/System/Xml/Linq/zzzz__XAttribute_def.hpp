@@ -27,21 +27,10 @@ MARK_REF_PTR_T(::System::Xml::Linq::XAttribute);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15454))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15432))
 // CS Name: ::System.Xml.Linq::XAttribute*
 class CORDL_TYPE XAttribute : public ::System::Xml::Linq::XObject {
 public:
   // Declarations
-  /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::Linq::XAttribute* next;
-
-  /// @brief Field name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
-
-  /// @brief Field value, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
-
   __declspec(property(get = get_IsNamespaceDeclaration)) bool IsNamespaceDeclaration;
 
   __declspec(property(get = get_Name))::System::Xml::Linq::XName* Name;
@@ -50,58 +39,73 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::System::Xml::Linq::XAttribute*& __cordl_internal_get_next();
+  /// @brief Field name, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __cordl_internal_get_next() const;
+  /// @brief Field next, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::Linq::XAttribute* next;
 
-  constexpr void __cordl_internal_set_next(::System::Xml::Linq::XAttribute* value);
+  /// @brief Field value, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
+
+  /// @brief Method GetPrefixOfNamespace, addr 0x294433c, size 0x138, virtual false, abstract: false, final false
+  inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
+
+  static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
+
+  static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XAttribute* other);
+
+  /// @brief Method ToString, addr 0x2943f68, size 0x3d4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method ValidateAttribute, addr 0x294399c, size 0x230, virtual false, abstract: false, final false
+  static inline void ValidateAttribute(::System::Xml::Linq::XName* name, ::StringW value);
 
   constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
+  constexpr ::System::Xml::Linq::XAttribute*& __cordl_internal_get_next();
 
-  constexpr ::StringW& __cordl_internal_get_value();
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XAttribute*> const& __cordl_internal_get_next() const;
 
   constexpr ::StringW const& __cordl_internal_get_value() const;
 
+  constexpr ::StringW& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
+
+  constexpr void __cordl_internal_set_next(::System::Xml::Linq::XAttribute* value);
+
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
-
-  /// @brief Method .ctor, addr 0x285a9e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29434cc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
 
-  static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XAttribute* other);
-
-  /// @brief Method .ctor, addr 0x285b0e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2943bcc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* other);
 
-  /// @brief Method get_IsNamespaceDeclaration, addr 0x285b164, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamespaceDeclaration, addr 0x2943c48, size 0x9c, virtual false, abstract: false, final false
   inline bool get_IsNamespaceDeclaration();
 
-  /// @brief Method get_Name, addr 0x285b21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2943d00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* get_Name();
 
-  /// @brief Method get_NodeType, addr 0x285b224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2943d08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x285b22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2943d10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x285b234, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2943d18, size 0x100, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method ToString, addr 0x285b484, size 0x3d4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XAttribute();
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x285b858, size 0x138, virtual false, abstract: false, final false
-  inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
-
-  /// @brief Method ValidateAttribute, addr 0x285aeb8, size 0x230, virtual false, abstract: false, final false
-  static inline void ValidateAttribute(::System::Xml::Linq::XName* name, ::StringW value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XAttribute(XAttribute&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XAttribute(XAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XAttribute();
-
-public:
   /// @brief Field next, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Linq::XAttribute* ___next;
 

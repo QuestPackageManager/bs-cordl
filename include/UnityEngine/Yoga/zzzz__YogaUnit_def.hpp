@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaUnit);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15363))
 // CS Name: ::UnityEngine.Yoga::YogaUnit
 struct CORDL_TYPE YogaUnit {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__YogaUnit_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr YogaUnit(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr YogaUnit();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr YogaUnit(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Yoga::YogaUnit const Undefined;
-
-  /// @brief Field Point value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Yoga::YogaUnit const Point;
+  /// @brief Field Auto value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::Yoga::YogaUnit const Auto;
 
   /// @brief Field Percent value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Yoga::YogaUnit const Percent;
 
-  /// @brief Field Auto value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Yoga::YogaUnit const Auto;
+  /// @brief Field Point value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Yoga::YogaUnit const Point;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Yoga::YogaUnit const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

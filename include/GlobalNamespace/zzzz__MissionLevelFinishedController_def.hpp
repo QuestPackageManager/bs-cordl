@@ -26,15 +26,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelFinishedController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5073))
 // CS Name: ::MissionLevelFinishedController*
 class CORDL_TYPE MissionLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _prepareLevelCompletionResults, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
-                      put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
+  /// @brief Field _gameplayManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager))::GlobalNamespace::ILevelEndActions* _gameplayManager;
 
   /// @brief Field _missionLevelSceneSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__missionLevelSceneSetupData,
@@ -44,50 +41,57 @@ public:
   __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
                       put = __cordl_internal_set__missionObjectiveCheckersManager))::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> _missionObjectiveCheckersManager;
 
-  /// @brief Field _gameplayManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager))::GlobalNamespace::ILevelEndActions* _gameplayManager;
+  /// @brief Field _prepareLevelCompletionResults, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
+                      put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
 
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
+  /// @brief Method HandleLevelFinished, addr 0x24551f0, size 0x4, virtual false, abstract: false, final false
+  inline void HandleLevelFinished();
 
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
+  static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
+  /// @brief Method OnDestroy, addr 0x24550e8, size 0x108, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData();
+  /// @brief Method Start, addr 0x2454ff8, size 0xf0, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
-
-  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
-
-  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
-
-  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
+  /// @brief Method StartLevelFinished, addr 0x24551f4, size 0xb0, virtual false, abstract: false, final false
+  inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__gameplayManager() const;
 
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData();
+
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
+
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
+
   constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
 
-  /// @brief Method Start, addr 0x23c97a8, size 0xf0, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method OnDestroy, addr 0x23c9898, size 0x108, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method HandleLevelFinished, addr 0x23c99a0, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLevelFinished();
+  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method StartLevelFinished, addr 0x23c99a4, size 0xb0, virtual false, abstract: false, final false
-  inline void StartLevelFinished();
-
-  static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c9a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24552a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionLevelFinishedController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelFinishedController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelFinishedController(MissionLevelFinishedController&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionLevelFinishedController(MissionLevelFinishedController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionLevelFinishedController();
-
-public:
   /// @brief Field _prepareLevelCompletionResults, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 

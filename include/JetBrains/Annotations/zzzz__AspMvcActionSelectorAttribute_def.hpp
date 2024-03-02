@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcActionSelectorAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15779))
 // CS Name: ::JetBrains.Annotations::AspMvcActionSelectorAttribute*
 class CORDL_TYPE AspMvcActionSelectorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcActionSelectorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9ec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AspMvcActionSelectorAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcActionSelectorAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcActionSelectorAttribute(AspMvcActionSelectorAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspMvcActionSelectorAttribute(AspMvcActionSelectorAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AspMvcActionSelectorAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

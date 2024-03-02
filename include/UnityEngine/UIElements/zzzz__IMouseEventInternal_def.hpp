@@ -16,35 +16,33 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IMouseEventInternal);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7214))
 // CS Name: ::UnityEngine.UIElements::IMouseEventInternal*
 class CORDL_TYPE IMouseEventInternal {
 public:
   // Declarations
-  __declspec(property(get = get_triggeredByOS, put = set_triggeredByOS)) bool triggeredByOS;
-
   __declspec(property(get = get_recomputeTopElementUnderMouse, put = set_recomputeTopElementUnderMouse)) bool recomputeTopElementUnderMouse;
 
   __declspec(property(get = get_sourcePointerEvent, put = set_sourcePointerEvent))::UnityEngine::UIElements::IPointerEvent* sourcePointerEvent;
 
-  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_triggeredByOS();
-
-  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_triggeredByOS(bool value);
+  __declspec(property(get = get_triggeredByOS, put = set_triggeredByOS)) bool triggeredByOS;
 
   /// @brief Method get_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_recomputeTopElementUnderMouse();
 
-  /// @brief Method set_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_recomputeTopElementUnderMouse(bool value);
-
   /// @brief Method get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IPointerEvent* get_sourcePointerEvent();
 
+  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_triggeredByOS();
+
+  /// @brief Method set_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_recomputeTopElementUnderMouse(bool value);
+
   /// @brief Method set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
+
+  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_triggeredByOS(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMouseEventInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

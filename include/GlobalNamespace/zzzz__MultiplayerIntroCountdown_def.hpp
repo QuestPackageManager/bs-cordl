@@ -77,12 +77,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5209))
 // CS Name: ::MultiplayerIntroCountdown::<CountdownRoutine>d__23*
 class CORDL_TYPE __MultiplayerIntroCountdown___CountdownRoutine_d__23 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -92,102 +94,104 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
+  /// @brief Field <soundDelayAfterText>5__2, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__soundDelayAfterText_5__2, put = __cordl_internal_set__soundDelayAfterText_5__2)) float_t _soundDelayAfterText_5__2;
+
   /// @brief Field delay, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
-
-  /// @brief Field seconds, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds)) float_t seconds;
 
   /// @brief Field durationMultiplier, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_durationMultiplier, put = __cordl_internal_set_durationMultiplier)) float_t durationMultiplier;
 
-  /// @brief Field <soundDelayAfterText>5__2, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__soundDelayAfterText_5__2, put = __cordl_internal_set__soundDelayAfterText_5__2)) float_t _soundDelayAfterText_5__2;
-
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field seconds, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds)) float_t seconds;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x247b354, size 0x320, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247b680, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247b688, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247b6c8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x247b350, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
-
-  constexpr float_t& __cordl_internal_get_delay();
-
-  constexpr float_t const& __cordl_internal_get_delay() const;
-
-  constexpr void __cordl_internal_set_delay(float_t value);
-
-  constexpr float_t& __cordl_internal_get_seconds();
-
-  constexpr float_t const& __cordl_internal_get_seconds() const;
-
-  constexpr void __cordl_internal_set_seconds(float_t value);
-
-  constexpr float_t& __cordl_internal_get_durationMultiplier();
-
-  constexpr float_t const& __cordl_internal_get_durationMultiplier() const;
-
-  constexpr void __cordl_internal_set_durationMultiplier(float_t value);
+  constexpr float_t const& __cordl_internal_get__soundDelayAfterText_5__2() const;
 
   constexpr float_t& __cordl_internal_get__soundDelayAfterText_5__2();
 
-  constexpr float_t const& __cordl_internal_get__soundDelayAfterText_5__2() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
+
+  constexpr float_t& __cordl_internal_get_delay();
+
+  constexpr float_t const& __cordl_internal_get_durationMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get_durationMultiplier();
+
+  constexpr float_t const& __cordl_internal_get_seconds() const;
+
+  constexpr float_t& __cordl_internal_get_seconds();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
   constexpr void __cordl_internal_set__soundDelayAfterText_5__2(float_t value);
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x224edb8, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_durationMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set_seconds(float_t value);
+
+  /// @brief Method .ctor, addr 0x247b14c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x224efbc, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x224efc0, size 0x320, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x224f2ec, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x224f2f4, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerIntroCountdown___CountdownRoutine_d__23();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x224f334, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___CountdownRoutine_d__23", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerIntroCountdown___CountdownRoutine_d__23(__MultiplayerIntroCountdown___CountdownRoutine_d__23&&) = delete;
@@ -196,12 +200,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerIntroCountdown___CountdownRoutine_d__23(__MultiplayerIntroCountdown___CountdownRoutine_d__23 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___CountdownRoutine_d__23();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -247,20 +245,19 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___Countdow
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5210))
 // CS Name: ::MultiplayerIntroCountdown::<PlayDelayed>d__24*
 class CORDL_TYPE __MultiplayerIntroCountdown___PlayDelayed_d__24 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
-
-  /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
@@ -268,78 +265,83 @@ public:
   /// @brief Field audioClip, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_audioClip, put = __cordl_internal_set_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field delay, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x247b6d4, size 0xc4, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247b798, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247b7a0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247b7e0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x247b6d0, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
-  constexpr float_t& __cordl_internal_get_delay();
-
-  constexpr float_t const& __cordl_internal_get_delay() const;
-
-  constexpr void __cordl_internal_set_delay(float_t value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
 
   constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_audioClip();
 
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
+
+  constexpr float_t& __cordl_internal_get_delay();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
   constexpr void __cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x224ee64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247b1f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x224f33c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x224f340, size 0xc4, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x224f404, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x224f40c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerIntroCountdown___PlayDelayed_d__24();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x224f44c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PlayDelayed_d__24", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerIntroCountdown___PlayDelayed_d__24(__MultiplayerIntroCountdown___PlayDelayed_d__24&&) = delete;
@@ -348,12 +350,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerIntroCountdown___PlayDelayed_d__24(__MultiplayerIntroCountdown___PlayDelayed_d__24 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___PlayDelayed_d__24();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -389,50 +385,54 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDela
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5211))
 // CS Name: ::MultiplayerIntroCountdown::<>c__DisplayClass25_0*
 class CORDL_TYPE __MultiplayerIntroCountdown____c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field textController, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textController, put = __cordl_internal_set_textController))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> textController;
-
   /// @brief Field <>4__this, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get_textController();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get_textController() const;
-
-  constexpr void __cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
+  /// @brief Field textController, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_textController, put = __cordl_internal_set_textController))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> textController;
 
   static inline ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224f454, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <PhaseRoutine>b__0, addr 0x224f45c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__0, addr 0x247b7f0, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__0(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__1, addr 0x224f4e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__1, addr 0x247b878, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__1(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__2, addr 0x224f580, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__2, addr 0x247b914, size 0x50, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__2(::UnityEngine::Vector3 pos);
 
-  /// @brief Method <PhaseRoutine>b__3, addr 0x224f5d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__3, addr 0x247b964, size 0x28, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__3(float_t f);
 
-  /// @brief Method <PhaseRoutine>b__4, addr 0x224f680, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__4, addr 0x247ba14, size 0x18, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__4(float_t val);
 
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get_textController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get_textController();
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
+
+  constexpr void __cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
+
+  /// @brief Method .ctor, addr 0x247b7e8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerIntroCountdown____c__DisplayClass25_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown____c__DisplayClass25_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerIntroCountdown____c__DisplayClass25_0(__MultiplayerIntroCountdown____c__DisplayClass25_0&&) = delete;
@@ -441,12 +441,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerIntroCountdown____c__DisplayClass25_0(__MultiplayerIntroCountdown____c__DisplayClass25_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerIntroCountdown____c__DisplayClass25_0();
-
-public:
   /// @brief Field textController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ___textController;
 
@@ -467,12 +461,14 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown____c__Disp
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5212))
 // CS Name: ::MultiplayerIntroCountdown::<PhaseRoutine>d__25*
 class CORDL_TYPE __MultiplayerIntroCountdown___PhaseRoutine_d__25 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -482,8 +478,8 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
-  /// @brief Field text, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
+  /// @brief Field <>8__1, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* __8__1;
 
   /// @brief Field appearDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_appearDuration, put = __cordl_internal_set_appearDuration)) float_t appearDuration;
@@ -491,93 +487,95 @@ public:
   /// @brief Field disappearDuration, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_disappearDuration, put = __cordl_internal_set_disappearDuration)) float_t disappearDuration;
 
-  /// @brief Field <>8__1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* __8__1;
-
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field text, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x247ba30, size 0x578, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x247c018, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x247c020, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x247c060, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x247ba2c, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
-
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
-
-  constexpr ::StringW& __cordl_internal_get_text();
-
-  constexpr ::StringW const& __cordl_internal_get_text() const;
-
-  constexpr void __cordl_internal_set_text(::StringW value);
-
-  constexpr float_t& __cordl_internal_get_appearDuration();
-
-  constexpr float_t const& __cordl_internal_get_appearDuration() const;
-
-  constexpr void __cordl_internal_set_appearDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get_disappearDuration();
-
-  constexpr float_t const& __cordl_internal_get_disappearDuration() const;
-
-  constexpr void __cordl_internal_set_disappearDuration(float_t value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
   constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& __cordl_internal_get___8__1();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const& __cordl_internal_get___8__1() const;
 
+  constexpr float_t const& __cordl_internal_get_appearDuration() const;
+
+  constexpr float_t& __cordl_internal_get_appearDuration();
+
+  constexpr float_t const& __cordl_internal_get_disappearDuration() const;
+
+  constexpr float_t& __cordl_internal_get_disappearDuration();
+
+  constexpr ::StringW const& __cordl_internal_get_text() const;
+
+  constexpr ::StringW& __cordl_internal_get_text();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
+
   constexpr void __cordl_internal_set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value);
 
-  static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set_appearDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x224ef14, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_disappearDuration(float_t value);
+
+  constexpr void __cordl_internal_set_text(::StringW value);
+
+  /// @brief Method .ctor, addr 0x247b2a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x224f698, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x224f69c, size 0x578, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x224fc84, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x224fc8c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerIntroCountdown___PhaseRoutine_d__25();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x224fccc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerIntroCountdown___PhaseRoutine_d__25", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerIntroCountdown___PhaseRoutine_d__25(__MultiplayerIntroCountdown___PhaseRoutine_d__25&&) = delete;
@@ -586,12 +584,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerIntroCountdown___PhaseRoutine_d__25(__MultiplayerIntroCountdown___PhaseRoutine_d__25 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerIntroCountdown___PhaseRoutine_d__25();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -637,66 +629,26 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRou
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5213))
 // CS Name: ::MultiplayerIntroCountdown*
 class CORDL_TYPE MultiplayerIntroCountdown : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _PhaseRoutine_d__25 = ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25;
+  using _CountdownRoutine_d__23 = ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23;
 
-  using __c__DisplayClass25_0 = ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0;
+  using _PhaseRoutine_d__25 = ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25;
 
   using _PlayDelayed_d__24 = ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24;
 
-  using _CountdownRoutine_d__23 = ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23;
+  using __c__DisplayClass25_0 = ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0;
 
-  /// @brief Field _textAppearDuration, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__textAppearDuration, put = __cordl_internal_set__textAppearDuration)) float_t _textAppearDuration;
-
-  /// @brief Field _textDisappearDuration, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__textDisappearDuration, put = __cordl_internal_set__textDisappearDuration)) float_t _textDisappearDuration;
-
-  /// @brief Field _goDisappearDuration, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__goDisappearDuration, put = __cordl_internal_set__goDisappearDuration)) float_t _goDisappearDuration;
-
-  /// @brief Field _partsDistance, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__partsDistance, put = __cordl_internal_set__partsDistance)) float_t _partsDistance;
-
-  /// @brief Field _startLocalPosition, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get__startLocalPosition, put = __cordl_internal_set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
-
-  /// @brief Field _targetLocalPosition, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get__targetLocalPosition, put = __cordl_internal_set__targetLocalPosition))::UnityEngine::Vector3 _targetLocalPosition;
-
-  /// @brief Field _readyClip, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__readyClip, put = __cordl_internal_set__readyClip))::UnityW<::UnityEngine::AudioClip> _readyClip;
-
-  /// @brief Field _setClip, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__setClip, put = __cordl_internal_set__setClip))::UnityW<::UnityEngine::AudioClip> _setClip;
-
-  /// @brief Field _goClip, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__goClip, put = __cordl_internal_set__goClip))::UnityW<::UnityEngine::AudioClip> _goClip;
-
-  /// @brief Field _buildUpClip, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__buildUpClip, put = __cordl_internal_set__buildUpClip))::UnityW<::UnityEngine::AudioClip> _buildUpClip;
-
-  /// @brief Field _textController0, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__textController0, put = __cordl_internal_set__textController0))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController0;
-
-  /// @brief Field _textController1, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__textController1, put = __cordl_internal_set__textController1))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController1;
+  /// @brief Field _alpha, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
 
   /// @brief Field _audioSource, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset 0x78, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition,
-               put = __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition))::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> _multiplayerOffsetByLocalPlayerPosition;
-
-  /// @brief Field _tweeningManager, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+  /// @brief Field _buildUpClip, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__buildUpClip, put = __cordl_internal_set__buildUpClip))::UnityW<::UnityEngine::AudioClip> _buildUpClip;
 
   /// @brief Field _currentTextController, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__currentTextController,
@@ -705,145 +657,189 @@ public:
   /// @brief Field _fontSize, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__fontSize, put = __cordl_internal_set__fontSize)) float_t _fontSize;
 
-  /// @brief Field _alpha, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
+  /// @brief Field _goClip, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__goClip, put = __cordl_internal_set__goClip))::UnityW<::UnityEngine::AudioClip> _goClip;
+
+  /// @brief Field _goDisappearDuration, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__goDisappearDuration, put = __cordl_internal_set__goDisappearDuration)) float_t _goDisappearDuration;
+
+  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset 0x78, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition,
+               put = __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition))::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> _multiplayerOffsetByLocalPlayerPosition;
+
+  /// @brief Field _partsDistance, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__partsDistance, put = __cordl_internal_set__partsDistance)) float_t _partsDistance;
+
+  /// @brief Field _readyClip, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__readyClip, put = __cordl_internal_set__readyClip))::UnityW<::UnityEngine::AudioClip> _readyClip;
+
+  /// @brief Field _setClip, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__setClip, put = __cordl_internal_set__setClip))::UnityW<::UnityEngine::AudioClip> _setClip;
+
+  /// @brief Field _startLocalPosition, offset 0x28, size 0xc
+  __declspec(property(get = __cordl_internal_get__startLocalPosition, put = __cordl_internal_set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
+
+  /// @brief Field _targetLocalPosition, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get__targetLocalPosition, put = __cordl_internal_set__targetLocalPosition))::UnityEngine::Vector3 _targetLocalPosition;
+
+  /// @brief Field _textAppearDuration, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__textAppearDuration, put = __cordl_internal_set__textAppearDuration)) float_t _textAppearDuration;
+
+  /// @brief Field _textController0, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__textController0, put = __cordl_internal_set__textController0))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController0;
+
+  /// @brief Field _textController1, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__textController1, put = __cordl_internal_set__textController1))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController1;
+
+  /// @brief Field _textDisappearDuration, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__textDisappearDuration, put = __cordl_internal_set__textDisappearDuration)) float_t _textDisappearDuration;
+
+  /// @brief Field _tweeningManager, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   __declspec(property(get = get_textAppearDuration)) float_t textAppearDuration;
 
-  constexpr float_t& __cordl_internal_get__textAppearDuration();
-
-  constexpr float_t const& __cordl_internal_get__textAppearDuration() const;
-
-  constexpr void __cordl_internal_set__textAppearDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__textDisappearDuration();
-
-  constexpr float_t const& __cordl_internal_get__textDisappearDuration() const;
-
-  constexpr void __cordl_internal_set__textDisappearDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__goDisappearDuration();
-
-  constexpr float_t const& __cordl_internal_get__goDisappearDuration() const;
-
-  constexpr void __cordl_internal_set__goDisappearDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__partsDistance();
-
-  constexpr float_t const& __cordl_internal_get__partsDistance() const;
-
-  constexpr void __cordl_internal_set__partsDistance(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startLocalPosition() const;
-
-  constexpr void __cordl_internal_set__startLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__targetLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__targetLocalPosition() const;
-
-  constexpr void __cordl_internal_set__targetLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__readyClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__readyClip() const;
-
-  constexpr void __cordl_internal_set__readyClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__setClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__setClip() const;
-
-  constexpr void __cordl_internal_set__setClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__goClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__goClip() const;
-
-  constexpr void __cordl_internal_set__goClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__buildUpClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__buildUpClip() const;
-
-  constexpr void __cordl_internal_set__buildUpClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController0();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController0() const;
-
-  constexpr void __cordl_internal_set__textController0(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController1();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController1() const;
-
-  constexpr void __cordl_internal_set__textController1(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
-
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
-
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> const& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition() const;
-
-  constexpr void __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition(::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> value);
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
-
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__currentTextController();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__currentTextController() const;
-
-  constexpr void __cordl_internal_set__currentTextController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
-
-  constexpr float_t& __cordl_internal_get__fontSize();
-
-  constexpr float_t const& __cordl_internal_get__fontSize() const;
-
-  constexpr void __cordl_internal_set__fontSize(float_t value);
-
-  constexpr float_t& __cordl_internal_get__alpha();
-
-  constexpr float_t const& __cordl_internal_get__alpha() const;
-
-  constexpr void __cordl_internal_set__alpha(float_t value);
-
-  /// @brief Method get_textAppearDuration, addr 0x224eb34, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_textAppearDuration();
-
-  /// @brief Method Awake, addr 0x224eb3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x247aed0, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x224ec34, size 0x88, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method StartCountdown, addr 0x224ecbc, size 0x70, virtual false, abstract: false, final false
-  inline void StartCountdown(float_t seconds, float_t delay, float_t durationMultiplier);
-
-  /// @brief Method CountdownRoutine, addr 0x224ed2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CountdownRoutine, addr 0x247b0c0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CountdownRoutine(float_t seconds, float_t delay, float_t durationMultiplier);
-
-  /// @brief Method PlayDelayed, addr 0x224ede0, size 0x84, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float_t delay);
-
-  /// @brief Method PhaseRoutine, addr 0x224ee8c, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration);
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224ef3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x247afc8, size 0x88, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method PhaseRoutine, addr 0x247b220, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration);
+
+  /// @brief Method PlayDelayed, addr 0x247b174, size 0x84, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float_t delay);
+
+  /// @brief Method StartCountdown, addr 0x247b050, size 0x70, virtual false, abstract: false, final false
+  inline void StartCountdown(float_t seconds, float_t delay, float_t durationMultiplier);
+
+  constexpr float_t const& __cordl_internal_get__alpha() const;
+
+  constexpr float_t& __cordl_internal_get__alpha();
+
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__buildUpClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__buildUpClip();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__currentTextController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__currentTextController();
+
+  constexpr float_t const& __cordl_internal_get__fontSize() const;
+
+  constexpr float_t& __cordl_internal_get__fontSize();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__goClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__goClip();
+
+  constexpr float_t const& __cordl_internal_get__goDisappearDuration() const;
+
+  constexpr float_t& __cordl_internal_get__goDisappearDuration();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> const& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition();
+
+  constexpr float_t const& __cordl_internal_get__partsDistance() const;
+
+  constexpr float_t& __cordl_internal_get__partsDistance();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__readyClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__readyClip();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__setClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__setClip();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startLocalPosition();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__targetLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__targetLocalPosition();
+
+  constexpr float_t const& __cordl_internal_get__textAppearDuration() const;
+
+  constexpr float_t& __cordl_internal_get__textAppearDuration();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController0() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController0();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController1() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController1();
+
+  constexpr float_t const& __cordl_internal_get__textDisappearDuration() const;
+
+  constexpr float_t& __cordl_internal_get__textDisappearDuration();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__alpha(float_t value);
+
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+
+  constexpr void __cordl_internal_set__buildUpClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__currentTextController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
+
+  constexpr void __cordl_internal_set__fontSize(float_t value);
+
+  constexpr void __cordl_internal_set__goClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__goDisappearDuration(float_t value);
+
+  constexpr void __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition(::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> value);
+
+  constexpr void __cordl_internal_set__partsDistance(float_t value);
+
+  constexpr void __cordl_internal_set__readyClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__setClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__startLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__targetLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__textAppearDuration(float_t value);
+
+  constexpr void __cordl_internal_set__textController0(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
+
+  constexpr void __cordl_internal_set__textController1(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
+
+  constexpr void __cordl_internal_set__textDisappearDuration(float_t value);
+
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+
+  /// @brief Method .ctor, addr 0x247b2d0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_textAppearDuration, addr 0x247aec8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_textAppearDuration();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerIntroCountdown();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdown", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerIntroCountdown(MultiplayerIntroCountdown&&) = delete;
@@ -852,12 +848,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerIntroCountdown(MultiplayerIntroCountdown const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerIntroCountdown();
-
-public:
   /// @brief Field _textAppearDuration, offset: 0x18, size: 0x4, def value: None
   float_t ____textAppearDuration;
 

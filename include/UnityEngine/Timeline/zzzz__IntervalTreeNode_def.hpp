@@ -15,20 +15,18 @@ MARK_VAL_T(::UnityEngine::Timeline::IntervalTreeNode);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
 // CS Name: ::UnityEngine.Timeline::IntervalTreeNode
 struct CORDL_TYPE IntervalTreeNode {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntervalTreeNode();
+
   // Ctor Parameters [CppParam { name: "center", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "last",
   // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "int32_t", modifiers: "", def_value: None
   // }]
   constexpr IntervalTreeNode(int64_t center, int32_t first, int32_t last, int32_t left, int32_t right) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntervalTreeNode();
 
   /// @brief Field center, offset: 0x0, size: 0x8, def value: None
   int64_t center;

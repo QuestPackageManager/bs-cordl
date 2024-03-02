@@ -15,24 +15,22 @@ MARK_VAL_T(::System::Xml::LineInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11532))
 // CS Name: ::System.Xml::LineInfo
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x28923c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t lineNo, int32_t linePos);
-
-  /// @brief Method Set, addr 0x28923cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x297beb0, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t lineNo, int32_t linePos);
 
-  // Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LineInfo(int32_t lineNo, int32_t linePos) noexcept;
+  /// @brief Method .ctor, addr 0x297bea8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t lineNo, int32_t linePos);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LineInfo();
+
+  // Ctor Parameters [CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LineInfo(int32_t lineNo, int32_t linePos) noexcept;
 
   /// @brief Field lineNo, offset: 0x0, size: 0x4, def value: None
   int32_t lineNo;

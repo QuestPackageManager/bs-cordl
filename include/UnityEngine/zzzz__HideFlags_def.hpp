@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::HideFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10199))
 // CS Name: ::UnityEngine::HideFlags
 struct CORDL_TYPE HideFlags {
 public:
@@ -41,21 +39,35 @@ public:
     return static_cast<__HideFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HideFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HideFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HideFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field DontSave value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::HideFlags const DontSave;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::HideFlags const None;
+  /// @brief Field DontSaveInBuild value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::HideFlags const DontSaveInBuild;
+
+  /// @brief Field DontSaveInEditor value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::HideFlags const DontSaveInEditor;
+
+  /// @brief Field DontUnloadUnusedAsset value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::HideFlags const DontUnloadUnusedAsset;
+
+  /// @brief Field HideAndDontSave value: static_cast<int32_t>(0x3d)
+  static ::UnityEngine::HideFlags const HideAndDontSave;
 
   /// @brief Field HideInHierarchy value: static_cast<int32_t>(0x1)
   static ::UnityEngine::HideFlags const HideInHierarchy;
@@ -63,23 +75,14 @@ public:
   /// @brief Field HideInInspector value: static_cast<int32_t>(0x2)
   static ::UnityEngine::HideFlags const HideInInspector;
 
-  /// @brief Field DontSaveInEditor value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::HideFlags const DontSaveInEditor;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::HideFlags const None;
 
   /// @brief Field NotEditable value: static_cast<int32_t>(0x8)
   static ::UnityEngine::HideFlags const NotEditable;
 
-  /// @brief Field DontSaveInBuild value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::HideFlags const DontSaveInBuild;
-
-  /// @brief Field DontUnloadUnusedAsset value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::HideFlags const DontUnloadUnusedAsset;
-
-  /// @brief Field DontSave value: static_cast<int32_t>(0x34)
-  static ::UnityEngine::HideFlags const DontSave;
-
-  /// @brief Field HideAndDontSave value: static_cast<int32_t>(0x3d)
-  static ::UnityEngine::HideFlags const HideAndDontSave;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

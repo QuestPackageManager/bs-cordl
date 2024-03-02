@@ -24,26 +24,24 @@ MARK_VAL_T(::System::Threading::ExecutionContextSwitcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2712))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2710))
 // CS Name: ::System.Threading::ExecutionContextSwitcher
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method UndoNoThrow, addr 0x2616c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x270b2cc, size 0x88, virtual false, abstract: false, final false
+  inline void Undo();
+
+  /// @brief Method UndoNoThrow, addr 0x270b244, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
-  /// @brief Method Undo, addr 0x2616cd0, size 0x88, virtual false, abstract: false, final false
-  inline void Undo();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExecutionContextSwitcher();
 
   // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool",
   // modifiers: "", def_value: None }, CppParam { name: "hecsw", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "thread", ty: "::System::Threading::Thread*", modifiers:
   // "", def_value: None }]
   constexpr ExecutionContextSwitcher(::System::Threading::__ExecutionContext__Reader outerEC, bool outerECBelongsToScope, ::System::Object* hecsw, ::System::Threading::Thread* thread) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExecutionContextSwitcher();
 
   /// @brief Field outerEC, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::__ExecutionContext__Reader outerEC;

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::ProBuilder::RefreshMask);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12168))
 // CS Name: ::UnityEngine.ProBuilder::RefreshMask
 struct CORDL_TYPE RefreshMask {
 public:
@@ -39,21 +37,29 @@ public:
     return static_cast<__RefreshMask_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RefreshMask(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RefreshMask();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RefreshMask(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field All value: static_cast<int32_t>(0x1f)
+  static ::UnityEngine::ProBuilder::RefreshMask const All;
 
-  /// @brief Field UV value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ProBuilder::RefreshMask const UV;
+  /// @brief Field Bounds value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::ProBuilder::RefreshMask const Bounds;
+
+  /// @brief Field Collisions value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::ProBuilder::RefreshMask const Collisions;
 
   /// @brief Field Colors value: static_cast<int32_t>(0x2)
   static ::UnityEngine::ProBuilder::RefreshMask const Colors;
@@ -64,14 +70,11 @@ public:
   /// @brief Field Tangents value: static_cast<int32_t>(0x8)
   static ::UnityEngine::ProBuilder::RefreshMask const Tangents;
 
-  /// @brief Field Collisions value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::ProBuilder::RefreshMask const Collisions;
+  /// @brief Field UV value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::ProBuilder::RefreshMask const UV;
 
-  /// @brief Field Bounds value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::ProBuilder::RefreshMask const Bounds;
-
-  /// @brief Field All value: static_cast<int32_t>(0x1f)
-  static ::UnityEngine::ProBuilder::RefreshMask const All;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

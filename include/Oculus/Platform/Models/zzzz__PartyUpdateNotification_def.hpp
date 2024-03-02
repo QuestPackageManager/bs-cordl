@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PartyUpdateNotification);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13345))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13468))
 // CS Name: ::Oculus.Platform.Models::PartyUpdateNotification*
 class CORDL_TYPE PartyUpdateNotification : public ::System::Object {
 public:
@@ -44,53 +42,59 @@ public:
   /// @brief Field UserName, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_UserName, put = __cordl_internal_set_UserName))::StringW UserName;
 
-  constexpr ::Oculus::Platform::PartyUpdateAction& __cordl_internal_get_Action();
+  static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::PartyUpdateAction const& __cordl_internal_get_Action() const;
 
-  constexpr void __cordl_internal_set_Action(::Oculus::Platform::PartyUpdateAction value);
-
-  constexpr uint64_t& __cordl_internal_get_PartyId();
+  constexpr ::Oculus::Platform::PartyUpdateAction& __cordl_internal_get_Action();
 
   constexpr uint64_t const& __cordl_internal_get_PartyId() const;
 
-  constexpr void __cordl_internal_set_PartyId(uint64_t value);
-
-  constexpr uint64_t& __cordl_internal_get_SenderId();
+  constexpr uint64_t& __cordl_internal_get_PartyId();
 
   constexpr uint64_t const& __cordl_internal_get_SenderId() const;
 
-  constexpr void __cordl_internal_set_SenderId(uint64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_UpdateTimestamp();
+  constexpr uint64_t& __cordl_internal_get_SenderId();
 
   constexpr ::StringW const& __cordl_internal_get_UpdateTimestamp() const;
 
-  constexpr void __cordl_internal_set_UpdateTimestamp(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_UserAlias();
+  constexpr ::StringW& __cordl_internal_get_UpdateTimestamp();
 
   constexpr ::StringW const& __cordl_internal_get_UserAlias() const;
 
-  constexpr void __cordl_internal_set_UserAlias(::StringW value);
-
-  constexpr uint64_t& __cordl_internal_get_UserId();
+  constexpr ::StringW& __cordl_internal_get_UserAlias();
 
   constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
-  constexpr void __cordl_internal_set_UserId(uint64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_UserName();
+  constexpr uint64_t& __cordl_internal_get_UserId();
 
   constexpr ::StringW const& __cordl_internal_get_UserName() const;
 
+  constexpr ::StringW& __cordl_internal_get_UserName();
+
+  constexpr void __cordl_internal_set_Action(::Oculus::Platform::PartyUpdateAction value);
+
+  constexpr void __cordl_internal_set_PartyId(uint64_t value);
+
+  constexpr void __cordl_internal_set_SenderId(uint64_t value);
+
+  constexpr void __cordl_internal_set_UpdateTimestamp(::StringW value);
+
+  constexpr void __cordl_internal_set_UserAlias(::StringW value);
+
+  constexpr void __cordl_internal_set_UserId(uint64_t value);
+
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2707fa8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f98b0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PartyUpdateNotification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PartyUpdateNotification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PartyUpdateNotification(PartyUpdateNotification&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PartyUpdateNotification(PartyUpdateNotification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PartyUpdateNotification();
-
-public:
   /// @brief Field Action, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::PartyUpdateAction ___Action;
 

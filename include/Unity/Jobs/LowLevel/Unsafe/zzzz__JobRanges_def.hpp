@@ -16,20 +16,18 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::JobRanges);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9979))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobRanges
 struct CORDL_TYPE JobRanges {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JobRanges();
+
   // Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumPhases", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "StartEndIndex", ty:
   // "void*", modifiers: "", def_value: None }, CppParam { name: "PhaseData", ty: "void*", modifiers: "", def_value: None }]
   constexpr JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, int32_t NumPhases, void* StartEndIndex, void* PhaseData) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JobRanges();
 
   /// @brief Field BatchSize, offset: 0x0, size: 0x4, def value: None
   int32_t BatchSize;

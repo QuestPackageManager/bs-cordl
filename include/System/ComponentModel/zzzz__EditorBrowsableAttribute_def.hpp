@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::System::ComponentModel::EditorBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9385))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9384))
 // CS Name: ::System.ComponentModel::EditorBrowsableAttribute*
 class CORDL_TYPE EditorBrowsableAttribute : public ::System::Attribute {
 public:
@@ -31,23 +29,29 @@ public:
   /// @brief Field browsableState, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_browsableState, put = __cordl_internal_set_browsableState))::System::ComponentModel::EditorBrowsableState browsableState;
 
-  constexpr ::System::ComponentModel::EditorBrowsableState& __cordl_internal_get_browsableState();
+  /// @brief Method Equals, addr 0x29ed420, size 0x8c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::System::ComponentModel::EditorBrowsableState const& __cordl_internal_get_browsableState() const;
-
-  constexpr void __cordl_internal_set_browsableState(::System::ComponentModel::EditorBrowsableState value);
+  /// @brief Method GetHashCode, addr 0x29ed4ac, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::EditorBrowsableAttribute* New_ctor(::System::ComponentModel::EditorBrowsableState state);
 
-  /// @brief Method .ctor, addr 0x2903914, size 0x28, virtual false, abstract: false, final false
+  constexpr ::System::ComponentModel::EditorBrowsableState const& __cordl_internal_get_browsableState() const;
+
+  constexpr ::System::ComponentModel::EditorBrowsableState& __cordl_internal_get_browsableState();
+
+  constexpr void __cordl_internal_set_browsableState(::System::ComponentModel::EditorBrowsableState value);
+
+  /// @brief Method .ctor, addr 0x29ed3f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::EditorBrowsableState state);
 
-  /// @brief Method Equals, addr 0x290393c, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditorBrowsableAttribute();
 
-  /// @brief Method GetHashCode, addr 0x29039c8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditorBrowsableAttribute(EditorBrowsableAttribute&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditorBrowsableAttribute(EditorBrowsableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EditorBrowsableAttribute();
-
-public:
   /// @brief Field browsableState, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::EditorBrowsableState ___browsableState;
 

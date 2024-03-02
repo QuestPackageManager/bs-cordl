@@ -46,26 +46,30 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
 // CS Name: ::UIItemsList`1::DataCallback<T>*
 class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(int32_t idx, T item);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t idx, T item, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(int32_t idx, T item);
+
+  static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UIItemsList_1__DataCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UIItemsList_1__DataCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UIItemsList_1__DataCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -90,72 +88,76 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13674))
 // CS Name: ::HMUI::UIItemsList`1<T>*
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using DataCallback = ::HMUI::__UIItemsList_1__DataCallback<T>;
 
-  /// @brief Field _prefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefab, put = __cordl_internal_set__prefab)) T _prefab;
-
-  /// @brief Field _itemsContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__itemsContainer, put = __cordl_internal_set__itemsContainer))::UnityW<::UnityEngine::Transform> _itemsContainer;
+  /// @brief Field _container, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _insertInTheBeginning, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__insertInTheBeginning, put = __cordl_internal_set__insertInTheBeginning)) bool _insertInTheBeginning;
 
-  /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
-
   /// @brief Field _items, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::List_1<T>* _items;
 
+  /// @brief Field _itemsContainer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__itemsContainer, put = __cordl_internal_set__itemsContainer))::UnityW<::UnityEngine::Transform> _itemsContainer;
+
+  /// @brief Field _prefab, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefab, put = __cordl_internal_set__prefab)) T _prefab;
+
   __declspec(property(get = get_items))::System::Collections::Generic::IEnumerable_1<T>* items;
 
-  constexpr T& __cordl_internal_get__prefab();
+  static inline ::HMUI::UIItemsList_1<T>* New_ctor();
 
-  constexpr T const& __cordl_internal_get__prefab() const;
-
-  constexpr void __cordl_internal_set__prefab(T value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__itemsContainer();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__itemsContainer() const;
-
-  constexpr void __cordl_internal_set__itemsContainer(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr bool& __cordl_internal_get__insertInTheBeginning();
-
-  constexpr bool const& __cordl_internal_get__insertInTheBeginning() const;
-
-  constexpr void __cordl_internal_set__insertInTheBeginning(bool value);
+  /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetData(int32_t numberOfElements, ::HMUI::__UIItemsList_1__DataCallback<T>* dataCallback);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr bool const& __cordl_internal_get__insertInTheBeginning() const;
+
+  constexpr bool& __cordl_internal_get__insertInTheBeginning();
 
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__items();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__items() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__itemsContainer() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__itemsContainer();
+
+  constexpr T const& __cordl_internal_get__prefab() const;
+
+  constexpr T& __cordl_internal_get__prefab();
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__insertInTheBeginning(bool value);
+
   constexpr void __cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value);
 
-  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<T>* get_items();
+  constexpr void __cordl_internal_set__itemsContainer(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetData(int32_t numberOfElements, ::HMUI::__UIItemsList_1__DataCallback<T>* dataCallback);
-
-  static inline ::HMUI::UIItemsList_1<T>* New_ctor();
+  constexpr void __cordl_internal_set__prefab(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<T>* get_items();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIItemsList_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIItemsList_1(UIItemsList_1&&) = delete;
@@ -164,12 +166,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIItemsList_1(UIItemsList_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIItemsList_1();
-
-public:
   /// @brief Field _prefab, offset: 0x18, size: 0x8, def value: None
   T ____prefab;
 

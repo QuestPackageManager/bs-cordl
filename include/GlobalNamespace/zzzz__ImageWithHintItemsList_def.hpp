@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ImageWithHintItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13628)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
-// 5218 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5426)) CS Name: ::ImageWithHintItemsList*
+// CS Name: ::ImageWithHintItemsList*
 class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::UnityW<::HMUI::ImageWithHint>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227a9d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a44a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ImageWithHintItemsList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageWithHintItemsList(ImageWithHintItemsList&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ImageWithHintItemsList(ImageWithHintItemsList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImageWithHintItemsList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

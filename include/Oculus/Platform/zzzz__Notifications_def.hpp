@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::Oculus::Platform::Notifications);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13367))
 // CS Name: ::Oculus.Platform::Notifications*
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MarkAsRead, addr 0x26fed94, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x27f069c, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Notifications();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Notifications", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Notifications(Notifications&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Notifications(Notifications const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Notifications();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

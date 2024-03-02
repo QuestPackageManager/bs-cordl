@@ -21,22 +21,20 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceServerStats);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15251))
 // CS Name: ::IgnoranceCore::IgnoranceServerStats
 struct CORDL_TYPE IgnoranceServerStats {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IgnoranceServerStats();
+
   // Ctor Parameters [CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
   // name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeersCount", ty:
   // "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PeerStats", ty: "::System::Collections::Generic::Dictionary_2<int32_t,::IgnoranceCore::IgnoranceClientStats>*", modifiers: "",
   // def_value: None }]
   constexpr IgnoranceServerStats(uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PeersCount,
                                  ::System::Collections::Generic::Dictionary_2<int32_t, ::IgnoranceCore::IgnoranceClientStats>* PeerStats) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IgnoranceServerStats();
 
   /// @brief Field BytesReceived, offset: 0x0, size: 0x8, def value: None
   uint64_t BytesReceived;

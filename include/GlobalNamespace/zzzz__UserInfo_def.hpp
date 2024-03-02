@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::UserInfo);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15995))
 // CS Name: ::UserInfo::Platform
 struct CORDL_TYPE __UserInfo__Platform {
 public:
@@ -47,24 +45,20 @@ public:
     return static_cast<____UserInfo__Platform_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __UserInfo__Platform(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __UserInfo__Platform();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __UserInfo__Platform(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Test value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__UserInfo__Platform const Test;
-
-  /// @brief Field Steam value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__UserInfo__Platform const Steam;
 
   /// @brief Field Oculus value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__UserInfo__Platform const Oculus;
@@ -74,6 +68,15 @@ public:
 
   /// @brief Field PS5 value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__UserInfo__Platform const PS5;
+
+  /// @brief Field Steam value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__UserInfo__Platform const Steam;
+
+  /// @brief Field Test value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__UserInfo__Platform const Test;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -87,8 +90,6 @@ static_assert(offsetof(::GlobalNamespace::__UserInfo__Platform, value__) == 0x0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15996))
 // CS Name: ::UserInfo*
 class CORDL_TYPE UserInfo : public ::System::Object {
 public:
@@ -104,29 +105,35 @@ public:
   /// @brief Field userName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
 
-  constexpr ::GlobalNamespace::__UserInfo__Platform& __cordl_internal_get_platform();
+  static inline ::GlobalNamespace::UserInfo* New_ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
   constexpr ::GlobalNamespace::__UserInfo__Platform const& __cordl_internal_get_platform() const;
 
-  constexpr void __cordl_internal_set_platform(::GlobalNamespace::__UserInfo__Platform value);
-
-  constexpr ::StringW& __cordl_internal_get_platformUserId();
+  constexpr ::GlobalNamespace::__UserInfo__Platform& __cordl_internal_get_platform();
 
   constexpr ::StringW const& __cordl_internal_get_platformUserId() const;
 
-  constexpr void __cordl_internal_set_platformUserId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_userName();
+  constexpr ::StringW& __cordl_internal_get_platformUserId();
 
   constexpr ::StringW const& __cordl_internal_get_userName() const;
 
+  constexpr ::StringW& __cordl_internal_get_userName();
+
+  constexpr void __cordl_internal_set_platform(::GlobalNamespace::__UserInfo__Platform value);
+
+  constexpr void __cordl_internal_set_platformUserId(::StringW value);
+
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  static inline ::GlobalNamespace::UserInfo* New_ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
-
-  /// @brief Method .ctor, addr 0x27fe0dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ee9ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserInfo(UserInfo&&) = delete;
@@ -135,12 +142,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserInfo(UserInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserInfo();
-
-public:
   /// @brief Field platform, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__UserInfo__Platform ___platform;
 

@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultContractResolverState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11920))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultContractResolverState*
 class CORDL_TYPE DefaultContractResolverState : public ::System::Object {
 public:
@@ -40,6 +38,8 @@ public:
   /// @brief Field NameTable, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_NameTable, put = __cordl_internal_set_NameTable))::Newtonsoft::Json::Utilities::PropertyNameTable* NameTable;
 
+  static inline ::Newtonsoft::Json::Serialization::DefaultContractResolverState* New_ctor();
+
   constexpr ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>*&
   __cordl_internal_get_ContractCache();
 
@@ -47,20 +47,24 @@ public:
       ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>*> const&
   __cordl_internal_get_ContractCache() const;
 
-  constexpr void
-  __cordl_internal_set_ContractCache(::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>* value);
-
   constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable*& __cordl_internal_get_NameTable();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::PropertyNameTable*> const& __cordl_internal_get_NameTable() const;
 
+  constexpr void
+  __cordl_internal_set_ContractCache(::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>* value);
+
   constexpr void __cordl_internal_set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable* value);
 
-  static inline ::Newtonsoft::Json::Serialization::DefaultContractResolverState* New_ctor();
-
-  /// @brief Method .ctor, addr 0x266edb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27606c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultContractResolverState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolverState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultContractResolverState(DefaultContractResolverState&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultContractResolverState(DefaultContractResolverState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultContractResolverState();
-
-public:
   /// @brief Field ContractCache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::ResolverContractKey, ::Newtonsoft::Json::Serialization::JsonContract*>* ___ContractCache;
 

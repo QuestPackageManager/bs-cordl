@@ -16,37 +16,35 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifconf);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9300))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifconf
 #pragma pack(push, 0)
 struct CORDL_TYPE ifconf {
 public:
   // Declarations
-  /// @brief Field ifc_len, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_ifc_len, put = __cordl_internal_set_ifc_len)) int32_t ifc_len;
-
   /// @brief Field ifc_buf, offset 0x8, size 0x8
   __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf)) void* ifc_buf;
 
-  constexpr int32_t& __cordl_internal_get_ifc_len();
-
-  constexpr int32_t const& __cordl_internal_get_ifc_len() const;
-
-  constexpr void __cordl_internal_set_ifc_len(int32_t value);
-
-  constexpr void*& __cordl_internal_get_ifc_buf();
+  /// @brief Field ifc_len, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_ifc_len, put = __cordl_internal_set_ifc_len)) int32_t ifc_len;
 
   constexpr void* const& __cordl_internal_get_ifc_buf() const;
 
+  constexpr void*& __cordl_internal_get_ifc_buf();
+
+  constexpr int32_t const& __cordl_internal_get_ifc_len() const;
+
+  constexpr int32_t& __cordl_internal_get_ifc_len();
+
   constexpr void __cordl_internal_set_ifc_buf(void* value);
 
-  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ifconf(int32_t ifc_len, void* ifc_buf) noexcept;
+  constexpr void __cordl_internal_set_ifc_len(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ifconf();
+
+  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "void*", modifiers: "", def_value: None }]
+  constexpr ifconf(int32_t ifc_len, void* ifc_buf) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

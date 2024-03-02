@@ -26,20 +26,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::OneModifierComposite);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6189))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6717))
 // CS Name: ::UnityEngine.InputSystem.Composites::OneModifierComposite*
 class CORDL_TYPE OneModifierComposite : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
   // Declarations
-  /// @brief Field modifier, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_modifier, put = __cordl_internal_set_modifier)) int32_t modifier;
-
   /// @brief Field binding, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_binding, put = __cordl_internal_set_binding)) int32_t binding;
 
-  /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
+  /// @brief Field m_BindingIsButton, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_BindingIsButton, put = __cordl_internal_set_m_BindingIsButton)) bool m_BindingIsButton;
 
   /// @brief Field m_ValueSizeInBytes, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ValueSizeInBytes, put = __cordl_internal_set_m_ValueSizeInBytes)) int32_t m_ValueSizeInBytes;
@@ -47,79 +42,88 @@ public:
   /// @brief Field m_ValueType, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ValueType, put = __cordl_internal_set_m_ValueType))::System::Type* m_ValueType;
 
-  /// @brief Field m_BindingIsButton, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_BindingIsButton, put = __cordl_internal_set_m_BindingIsButton)) bool m_BindingIsButton;
+  /// @brief Field modifier, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_modifier, put = __cordl_internal_set_modifier)) int32_t modifier;
 
-  __declspec(property(get = get_valueType))::System::Type* valueType;
+  /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  constexpr int32_t& __cordl_internal_get_modifier();
+  __declspec(property(get = get_valueType))::System::Type* valueType;
 
-  constexpr int32_t const& __cordl_internal_get_modifier() const;
+  /// @brief Method DetermineValueTypeAndSize, addr 0x2b44e94, size 0x4d4, virtual false, abstract: false, final false
+  static inline void DetermineValueTypeAndSize(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part, ByRef<::System::Type*> valueType, ByRef<int32_t> valueSizeInBytes,
+                                               ByRef<bool> isButton);
 
-  constexpr void __cordl_internal_set_modifier(int32_t value);
+  /// @brief Method EvaluateMagnitude, addr 0x2b44cbc, size 0x40, virtual true, abstract: false, final false
+  inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  constexpr int32_t& __cordl_internal_get_binding();
+  /// @brief Method FinishSetup, addr 0x2b44de8, size 0xac, virtual true, abstract: false, final false
+  inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  /// @brief Method ModifierIsPressed, addr 0x2b44cfc, size 0x88, virtual false, abstract: false, final false
+  inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  static inline ::UnityEngine::InputSystem::Composites::OneModifierComposite* New_ctor();
+
+  /// @brief Method ReadValue, addr 0x2b44d84, size 0x64, virtual true, abstract: false, final false
+  inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+
+  /// @brief Method ReadValueAsObject, addr 0x2b45368, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_binding() const;
 
-  constexpr void __cordl_internal_set_binding(int32_t value);
+  constexpr int32_t& __cordl_internal_get_binding();
 
-  constexpr bool& __cordl_internal_get_overrideModifiersNeedToBePressedFirst();
+  constexpr bool const& __cordl_internal_get_m_BindingIsButton() const;
 
-  constexpr bool const& __cordl_internal_get_overrideModifiersNeedToBePressedFirst() const;
-
-  constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
-
-  constexpr int32_t& __cordl_internal_get_m_ValueSizeInBytes();
+  constexpr bool& __cordl_internal_get_m_BindingIsButton();
 
   constexpr int32_t const& __cordl_internal_get_m_ValueSizeInBytes() const;
 
-  constexpr void __cordl_internal_set_m_ValueSizeInBytes(int32_t value);
+  constexpr int32_t& __cordl_internal_get_m_ValueSizeInBytes();
 
   constexpr ::System::Type*& __cordl_internal_get_m_ValueType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_ValueType() const;
 
-  constexpr void __cordl_internal_set_m_ValueType(::System::Type* value);
+  constexpr int32_t const& __cordl_internal_get_modifier() const;
 
-  constexpr bool& __cordl_internal_get_m_BindingIsButton();
+  constexpr int32_t& __cordl_internal_get_modifier();
 
-  constexpr bool const& __cordl_internal_get_m_BindingIsButton() const;
+  constexpr bool const& __cordl_internal_get_overrideModifiersNeedToBePressedFirst() const;
+
+  constexpr bool& __cordl_internal_get_overrideModifiersNeedToBePressedFirst();
+
+  constexpr void __cordl_internal_set_binding(int32_t value);
 
   constexpr void __cordl_internal_set_m_BindingIsButton(bool value);
 
-  /// @brief Method get_valueType, addr 0x2a5b06c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Type* get_valueType();
+  constexpr void __cordl_internal_set_m_ValueSizeInBytes(int32_t value);
 
-  /// @brief Method get_valueSizeInBytes, addr 0x2a5b074, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_valueSizeInBytes();
+  constexpr void __cordl_internal_set_m_ValueType(::System::Type* value);
 
-  /// @brief Method EvaluateMagnitude, addr 0x2a5b07c, size 0x40, virtual true, abstract: false, final false
-  inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+  constexpr void __cordl_internal_set_modifier(int32_t value);
 
-  /// @brief Method ReadValue, addr 0x2a5b144, size 0x64, virtual true, abstract: false, final false
-  inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+  constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method ModifierIsPressed, addr 0x2a5b0bc, size 0x88, virtual false, abstract: false, final false
-  inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method FinishSetup, addr 0x2a5b1a8, size 0xac, virtual true, abstract: false, final false
-  inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method ReadValueAsObject, addr 0x2a5b728, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method DetermineValueTypeAndSize, addr 0x2a5b254, size 0x4d4, virtual false, abstract: false, final false
-  static inline void DetermineValueTypeAndSize(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part, ByRef<::System::Type*> valueType, ByRef<int32_t> valueSizeInBytes,
-                                               ByRef<bool> isButton);
-
-  static inline ::UnityEngine::InputSystem::Composites::OneModifierComposite* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2a5b778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b453b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_valueSizeInBytes, addr 0x2b44cb4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_valueSizeInBytes();
+
+  /// @brief Method get_valueType, addr 0x2b44cac, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Type* get_valueType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OneModifierComposite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OneModifierComposite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OneModifierComposite(OneModifierComposite&&) = delete;
@@ -128,12 +132,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OneModifierComposite(OneModifierComposite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OneModifierComposite();
-
-public:
   /// @brief Field modifier, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier;
 

@@ -19,19 +19,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IActivator);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3133))
 // CS Name: ::System.Runtime.Remoting.Activation::IActivator*
 class CORDL_TYPE IActivator {
 public:
   // Declarations
   __declspec(property(get = get_NextActivator))::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
-  /// @brief Method get_NextActivator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
-
   /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+
+  /// @brief Method get_NextActivator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IActivator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

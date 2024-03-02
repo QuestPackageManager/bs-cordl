@@ -15,21 +15,25 @@ MARK_REF_PTR_T(::System::Buffers::Text::FormattingHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3892))
 // CS Name: ::System.Buffers.Text::FormattingHelpers*
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x258c6c8, size 0xbc, virtual false, abstract: false, final false
-  static inline int32_t CountDigits(uint64_t value);
-
-  /// @brief Method CountDigits, addr 0x258c784, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x267fd80, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountHexDigits, addr 0x258c7f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x267fcc4, size 0xbc, virtual false, abstract: false, final false
+  static inline int32_t CountDigits(uint64_t value);
+
+  /// @brief Method CountHexDigits, addr 0x267fdec, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FormattingHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormattingHelpers(FormattingHelpers&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FormattingHelpers(FormattingHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FormattingHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

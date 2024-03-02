@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::XR::XRNode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15614))
 // CS Name: ::UnityEngine.XR::XRNode
 struct CORDL_TYPE XRNode {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__XRNode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XRNode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XRNode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XRNode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field LeftEye value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::XR::XRNode const LeftEye;
-
-  /// @brief Field RightEye value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::XR::XRNode const RightEye;
 
   /// @brief Field CenterEye value: static_cast<int32_t>(0x2)
   static ::UnityEngine::XR::XRNode const CenterEye;
 
+  /// @brief Field GameController value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::XR::XRNode const GameController;
+
+  /// @brief Field HardwareTracker value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::XR::XRNode const HardwareTracker;
+
   /// @brief Field Head value: static_cast<int32_t>(0x3)
   static ::UnityEngine::XR::XRNode const Head;
+
+  /// @brief Field LeftEye value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::XR::XRNode const LeftEye;
 
   /// @brief Field LeftHand value: static_cast<int32_t>(0x4)
   static ::UnityEngine::XR::XRNode const LeftHand;
 
+  /// @brief Field RightEye value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::XR::XRNode const RightEye;
+
   /// @brief Field RightHand value: static_cast<int32_t>(0x5)
   static ::UnityEngine::XR::XRNode const RightHand;
-
-  /// @brief Field GameController value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::XR::XRNode const GameController;
 
   /// @brief Field TrackingReference value: static_cast<int32_t>(0x7)
   static ::UnityEngine::XR::XRNode const TrackingReference;
 
-  /// @brief Field HardwareTracker value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::XR::XRNode const HardwareTracker;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

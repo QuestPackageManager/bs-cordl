@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidAmbientTemperature);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6285))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6442))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidAmbientTemperature*
 class CORDL_TYPE AndroidAmbientTemperature : public ::UnityEngine::InputSystem::AmbientTemperatureSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae5a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidAmbientTemperature();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAmbientTemperature", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAmbientTemperature(AndroidAmbientTemperature&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAmbientTemperature(AndroidAmbientTemperature const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidAmbientTemperature();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

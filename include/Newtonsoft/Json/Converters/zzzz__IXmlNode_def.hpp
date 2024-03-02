@@ -23,39 +23,43 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlNode);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12057))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlNode*
 class CORDL_TYPE IXmlNode {
 public:
   // Declarations
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
-
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_Attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
 
   __declspec(property(get = get_ChildNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ChildNodes;
 
-  __declspec(property(get = get_Attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
+  __declspec(property(get = get_LocalName))::StringW LocalName;
+
+  __declspec(property(get = get_NamespaceUri))::StringW NamespaceUri;
+
+  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
   __declspec(property(get = get_ParentNode))::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  __declspec(property(get = get_NamespaceUri))::StringW NamespaceUri;
-
   __declspec(property(get = get_WrappedNode))::System::Object* WrappedNode;
 
-  /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+  /// @brief Method AppendChild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
-  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_LocalName();
+  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
   /// @brief Method get_ChildNodes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
+  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_LocalName();
+
+  /// @brief Method get_NamespaceUri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_NamespaceUri();
+
+  /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Xml::XmlNodeType get_NodeType();
 
   /// @brief Method get_ParentNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
@@ -63,17 +67,11 @@ public:
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_Value(::StringW value);
-
-  /// @brief Method AppendChild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
-
-  /// @brief Method get_NamespaceUri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_NamespaceUri();
-
   /// @brief Method get_WrappedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_WrappedNode();
+
+  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_Value(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -45,8 +45,6 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6687))
 // CS Name: ::Observable::<>c__DisplayClass6_0`1<TValue>*
 class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -54,20 +52,26 @@ public:
   /// @brief Field subscription, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subscription, put = __cordl_internal_set_subscription))::System::IDisposable* subscription;
 
+  static inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* New_ctor();
+
+  /// @brief Method <CallOnce>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _CallOnce_b__0();
+
   constexpr ::System::IDisposable*& __cordl_internal_get_subscription();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __cordl_internal_get_subscription() const;
 
   constexpr void __cordl_internal_set_subscription(::System::IDisposable* value);
 
-  static inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* New_ctor();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CallOnce>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _CallOnce_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Observable____c__DisplayClass6_0_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Observable____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Observable____c__DisplayClass6_0_1(__Observable____c__DisplayClass6_0_1&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Observable____c__DisplayClass6_0_1(__Observable____c__DisplayClass6_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Observable____c__DisplayClass6_0_1();
-
-public:
   /// @brief Field subscription, offset: 0x10, size: 0x8, def value: None
   ::System::IDisposable* ___subscription;
 
@@ -93,16 +91,25 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6688))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
 class CORDL_TYPE Observable : public ::System::Object {
 public:
   // Declarations
   template <typename TValue> using __c__DisplayClass6_0_1 = ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>;
 
-  /// @brief Method Where, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline ::System::IObservable_1<TValue>* Where(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
+  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> static inline ::System::IDisposable* Call(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
+
+  /// @brief Method CallOnce, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> static inline ::System::IDisposable* CallOnce(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
+
+  /// @brief Method ForDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDevice>
+  static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
+
+  /// @brief Method ForDevice, addr 0x2bfbc00, size 0xbc, virtual false, abstract: false, final false
+  static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
+                                                                                                        ::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult> static inline ::System::IObservable_1<TResult>* Select(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
@@ -114,20 +121,15 @@ public:
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Take(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method ForDevice, addr 0x2b15fc0, size 0xbc, virtual false, abstract: false, final false
-  static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
-                                                                                                        ::UnityEngine::InputSystem::InputDevice* device);
+  /// @brief Method Where, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> static inline ::System::IObservable_1<TValue>* Where(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 
-  /// @brief Method ForDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice>
-  static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Observable();
 
-  /// @brief Method CallOnce, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline ::System::IDisposable* CallOnce(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
-
-  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline ::System::IDisposable* Call(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Observable(Observable&&) = delete;
@@ -136,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Observable(Observable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Observable();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

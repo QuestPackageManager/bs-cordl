@@ -19,18 +19,10 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9804))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
 class CORDL_TYPE HEU_LoadBufferBase : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _id, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
-
-  /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
-
   /// @brief Field _bInstanced, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__bInstanced, put = __cordl_internal_set__bInstanced)) bool _bInstanced;
 
@@ -40,44 +32,56 @@ public:
   /// @brief Field _generatedOutput, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__generatedOutput, put = __cordl_internal_set__generatedOutput))::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput;
 
-  constexpr int32_t& __cordl_internal_get__id();
+  /// @brief Field _id, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
-  constexpr int32_t const& __cordl_internal_get__id() const;
+  /// @brief Field _name, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
-  constexpr void __cordl_internal_set__id(int32_t value);
+  /// @brief Method InitializeBuffer, addr 0x230db34, size 0x1c, virtual false, abstract: false, final false
+  inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
-  constexpr ::StringW& __cordl_internal_get__name();
-
-  constexpr ::StringW const& __cordl_internal_get__name() const;
-
-  constexpr void __cordl_internal_set__name(::StringW value);
-
-  constexpr bool& __cordl_internal_get__bInstanced();
+  static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
 
   constexpr bool const& __cordl_internal_get__bInstanced() const;
 
-  constexpr void __cordl_internal_set__bInstanced(bool value);
-
-  constexpr bool& __cordl_internal_get__bInstancer();
+  constexpr bool& __cordl_internal_get__bInstanced();
 
   constexpr bool const& __cordl_internal_get__bInstancer() const;
 
-  constexpr void __cordl_internal_set__bInstancer(bool value);
+  constexpr bool& __cordl_internal_get__bInstancer();
 
   constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput*& __cordl_internal_get__generatedOutput();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutput*> const& __cordl_internal_get__generatedOutput() const;
 
+  constexpr int32_t const& __cordl_internal_get__id() const;
+
+  constexpr int32_t& __cordl_internal_get__id();
+
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
+
+  constexpr void __cordl_internal_set__bInstanced(bool value);
+
+  constexpr void __cordl_internal_set__bInstancer(bool value);
+
   constexpr void __cordl_internal_set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* value);
 
-  /// @brief Method InitializeBuffer, addr 0x21abbe8, size 0x1c, virtual false, abstract: false, final false
-  inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
+  constexpr void __cordl_internal_set__id(int32_t value);
 
-  static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x21abc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230db50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_LoadBufferBase();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_LoadBufferBase(HEU_LoadBufferBase&&) = delete;
@@ -86,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_LoadBufferBase(HEU_LoadBufferBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_LoadBufferBase();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 

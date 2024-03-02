@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRDevice);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16124))
 // CS Name: ::UnityEngine.XR::XRDevice*
 class CORDL_TYPE XRDevice : public ::System::Object {
 public:
@@ -33,19 +31,25 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded))::System::Action_1<::StringW>* deviceLoaded;
 
-  static inline void setStaticF_deviceLoaded(::System::Action_1<::StringW>* value);
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x2fc17dc, size 0x44, virtual false, abstract: false, final false
+  static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
+
+  /// @brief Method InvokeDeviceLoaded, addr 0x2fc1820, size 0x6c, virtual false, abstract: false, final false
+  static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
+
+  /// @brief Method SetTrackingSpaceType, addr 0x2fc17a0, size 0x3c, virtual false, abstract: false, final false
+  static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
 
-  /// @brief Method SetTrackingSpaceType, addr 0x2eb1f34, size 0x3c, virtual false, abstract: false, final false
-  static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
+  static inline void setStaticF_deviceLoaded(::System::Action_1<::StringW>* value);
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x2eb1f70, size 0x44, virtual false, abstract: false, final false
-  static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRDevice();
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x2eb1fb4, size 0x6c, virtual false, abstract: false, final false
-  static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRDevice", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDevice(XRDevice&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRDevice(XRDevice const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRDevice();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

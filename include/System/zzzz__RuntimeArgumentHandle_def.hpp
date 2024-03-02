@@ -16,18 +16,16 @@ MARK_VAL_T(::System::RuntimeArgumentHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2615))
 // CS Name: ::System::RuntimeArgumentHandle
 struct CORDL_TYPE RuntimeArgumentHandle {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "args", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimeArgumentHandle(void* args) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeArgumentHandle();
+
+  // Ctor Parameters [CppParam { name: "args", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RuntimeArgumentHandle(void* args) noexcept;
 
   /// @brief Field args, offset: 0x0, size: 0x8, def value: None
   void* args;

@@ -24,18 +24,22 @@ MARK_REF_PTR_T(::Oculus::Platform::LanguagePack);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13363))
 // CS Name: ::Oculus.Platform::LanguagePack*
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x26fe808, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x27f0110, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x26fe960, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x27f0268, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguagePack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LanguagePack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguagePack(LanguagePack&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguagePack(LanguagePack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguagePack();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

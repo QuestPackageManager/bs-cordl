@@ -30,8 +30,6 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
 struct CORDL_TYPE TextCoreSettings {
 public:
@@ -39,27 +37,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
+  /// @brief Method Equals, addr 0x2edb248, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2edb2d8, size 0xe8, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
+
+  /// @brief Method GetHashCode, addr 0x2edb3c0, size 0x198, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>* i___System__IEquatable_1___UnityEngine__UIElements__UIR__TextCoreSettings_();
 
-  /// @brief Method Equals, addr 0x2dcc738, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2dcc7c8, size 0xe8, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
-
-  /// @brief Method GetHashCode, addr 0x2dcc8b0, size 0x198, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextCoreSettings();
 
   // Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
   // None }, CppParam { name: "outlineWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "underlayColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam
   // { name: "underlayOffset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "underlaySoftness", ty: "float_t", modifiers: "", def_value: None }]
   constexpr TextCoreSettings(::UnityEngine::Color faceColor, ::UnityEngine::Color outlineColor, float_t outlineWidth, ::UnityEngine::Color underlayColor, ::UnityEngine::Vector2 underlayOffset,
                              float_t underlaySoftness) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextCoreSettings();
 
   /// @brief Field faceColor, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color faceColor;

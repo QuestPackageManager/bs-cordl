@@ -16,16 +16,21 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementDefinitionList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13407)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1166 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13408)) CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
+// CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
 class CORDL_TYPE AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x27037e8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f50f0, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AchievementDefinitionList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinitionList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AchievementDefinitionList(AchievementDefinitionList&&) = delete;
@@ -34,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AchievementDefinitionList(AchievementDefinitionList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AchievementDefinitionList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

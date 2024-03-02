@@ -20,23 +20,27 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCursor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8086))
 // CS Name: ::OVRCursor*
 class CORDL_TYPE OVRCursor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  static inline ::GlobalNamespace::OVRCursor* New_ctor();
+
   /// @brief Method SetCursorRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
   /// @brief Method SetCursorStartDest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal);
 
-  static inline ::GlobalNamespace::OVRCursor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27a8c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a58c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRCursor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRCursor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCursor(OVRCursor&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRCursor(OVRCursor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRCursor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

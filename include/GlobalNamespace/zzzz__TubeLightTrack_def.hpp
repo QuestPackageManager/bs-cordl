@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13862))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6026))
 // CS Name: ::TubeLightTrack*
 class CORDL_TYPE TubeLightTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
   static inline ::GlobalNamespace::TubeLightTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23188c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24127d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TubeLightTrack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightTrack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeLightTrack(TubeLightTrack&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TubeLightTrack(TubeLightTrack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TubeLightTrack();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,18 +23,22 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::BinaryReadWriteHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15186))
 // CS Name: ::BeatSaber.AvatarCore::BinaryReadWriteHelper*
 class CORDL_TYPE BinaryReadWriteHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Write, addr 0xe0ec54, size 0x88, virtual false, abstract: false, final false
-  static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
-
-  /// @brief Method ReadColor, addr 0xe0ecdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0xe6003c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
+  /// @brief Method Write, addr 0xe5ffb4, size 0x88, virtual false, abstract: false, final false
+  static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryReadWriteHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryReadWriteHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryReadWriteHelper(BinaryReadWriteHelper&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryReadWriteHelper(BinaryReadWriteHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryReadWriteHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -41,8 +41,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Finger);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12514))
 // CS Name: ::Finger::DOF
 struct CORDL_TYPE __Finger__DOF {
 public:
@@ -60,24 +58,29 @@ public:
     return static_cast<____Finger__DOF_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Finger__DOF(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Finger__DOF();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Finger__DOF(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field One value: static_cast<int32_t>(0x0)
   static ::RootMotion::FinalIK::__Finger__DOF const One;
 
   /// @brief Field Three value: static_cast<int32_t>(0x1)
   static ::RootMotion::FinalIK::__Finger__DOF const Three;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -91,27 +94,27 @@ static_assert(offsetof(::RootMotion::FinalIK::__Finger__DOF, value__) == 0x0, "O
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12514))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12515)) CS Name: ::RootMotion.FinalIK::Finger*
+// CS Name: ::RootMotion.FinalIK::Finger*
 class CORDL_TYPE Finger : public ::System::Object {
 public:
   // Declarations
   using DOF = ::RootMotion::FinalIK::__Finger__DOF;
 
-  /// @brief Field weight, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
+  __declspec(property(get = get_IKPosition, put = set_IKPosition))::UnityEngine::Vector3 IKPosition;
 
-  /// @brief Field rotationWeight, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
+  __declspec(property(get = get_IKRotation, put = set_IKRotation))::UnityEngine::Quaternion IKRotation;
 
-  /// @brief Field rotationDOF, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationDOF, put = __cordl_internal_set_rotationDOF))::RootMotion::FinalIK::__Finger__DOF rotationDOF;
-
-  /// @brief Field fixBone1Twist, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_fixBone1Twist, put = __cordl_internal_set_fixBone1Twist)) bool fixBone1Twist;
+  /// @brief Field <initiated>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__initiated_k__BackingField, put = __cordl_internal_set__initiated_k__BackingField)) bool _initiated_k__BackingField;
 
   /// @brief Field bone1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_bone1, put = __cordl_internal_set_bone1))::UnityW<::UnityEngine::Transform> bone1;
+
+  /// @brief Field bone1Axis, offset 0x84, size 0xc
+  __declspec(property(get = __cordl_internal_get_bone1Axis, put = __cordl_internal_set_bone1Axis))::UnityEngine::Vector3 bone1Axis;
+
+  /// @brief Field bone1TwistAxis, offset 0x9c, size 0xc
+  __declspec(property(get = __cordl_internal_get_bone1TwistAxis, put = __cordl_internal_set_bone1TwistAxis))::UnityEngine::Vector3 bone1TwistAxis;
 
   /// @brief Field bone2, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_bone2, put = __cordl_internal_set_bone2))::UnityW<::UnityEngine::Transform> bone2;
@@ -119,182 +122,187 @@ public:
   /// @brief Field bone3, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_bone3, put = __cordl_internal_set_bone3))::UnityW<::UnityEngine::Transform> bone3;
 
-  /// @brief Field tip, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_tip, put = __cordl_internal_set_tip))::UnityW<::UnityEngine::Transform> tip;
-
-  /// @brief Field target, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
-
-  /// @brief Field <initiated>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__initiated_k__BackingField, put = __cordl_internal_set__initiated_k__BackingField)) bool _initiated_k__BackingField;
-
-  /// @brief Field solver, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverLimb* solver;
-
-  /// @brief Field bone3RelativeToTarget, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_bone3RelativeToTarget, put = __cordl_internal_set_bone3RelativeToTarget))::UnityEngine::Quaternion bone3RelativeToTarget;
-
   /// @brief Field bone3DefaultLocalPosition, offset 0x68, size 0xc
   __declspec(property(get = __cordl_internal_get_bone3DefaultLocalPosition, put = __cordl_internal_set_bone3DefaultLocalPosition))::UnityEngine::Vector3 bone3DefaultLocalPosition;
 
   /// @brief Field bone3DefaultLocalRotation, offset 0x74, size 0x10
   __declspec(property(get = __cordl_internal_get_bone3DefaultLocalRotation, put = __cordl_internal_set_bone3DefaultLocalRotation))::UnityEngine::Quaternion bone3DefaultLocalRotation;
 
-  /// @brief Field bone1Axis, offset 0x84, size 0xc
-  __declspec(property(get = __cordl_internal_get_bone1Axis, put = __cordl_internal_set_bone1Axis))::UnityEngine::Vector3 bone1Axis;
+  /// @brief Field bone3RelativeToTarget, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get_bone3RelativeToTarget, put = __cordl_internal_set_bone3RelativeToTarget))::UnityEngine::Quaternion bone3RelativeToTarget;
+
+  /// @brief Field fixBone1Twist, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get_fixBone1Twist, put = __cordl_internal_set_fixBone1Twist)) bool fixBone1Twist;
+
+  __declspec(property(get = get_initiated, put = set_initiated)) bool initiated;
+
+  /// @brief Field rotationDOF, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationDOF, put = __cordl_internal_set_rotationDOF))::RootMotion::FinalIK::__Finger__DOF rotationDOF;
+
+  /// @brief Field rotationWeight, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
+
+  /// @brief Field solver, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverLimb* solver;
+
+  /// @brief Field target, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+
+  /// @brief Field tip, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_tip, put = __cordl_internal_set_tip))::UnityW<::UnityEngine::Transform> tip;
 
   /// @brief Field tipAxis, offset 0x90, size 0xc
   __declspec(property(get = __cordl_internal_get_tipAxis, put = __cordl_internal_set_tipAxis))::UnityEngine::Vector3 tipAxis;
 
-  /// @brief Field bone1TwistAxis, offset 0x9c, size 0xc
-  __declspec(property(get = __cordl_internal_get_bone1TwistAxis, put = __cordl_internal_set_bone1TwistAxis))::UnityEngine::Vector3 bone1TwistAxis;
+  /// @brief Field weight, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  __declspec(property(get = get_initiated, put = set_initiated)) bool initiated;
+  /// @brief Method FixTransforms, addr 0x131f2e0, size 0xcc, virtual false, abstract: false, final false
+  inline void FixTransforms();
 
-  __declspec(property(get = get_IKPosition, put = set_IKPosition))::UnityEngine::Vector3 IKPosition;
+  /// @brief Method Initiate, addr 0x131ee00, size 0x4e0, virtual false, abstract: false, final false
+  inline void Initiate(::UnityEngine::Transform* hand, int32_t index);
 
-  __declspec(property(get = get_IKRotation, put = set_IKRotation))::UnityEngine::Quaternion IKRotation;
+  /// @brief Method IsValid, addr 0x131ed14, size 0xec, virtual false, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> errorMessage);
 
-  constexpr float_t& __cordl_internal_get_weight();
+  static inline ::RootMotion::FinalIK::Finger* New_ctor();
 
-  constexpr float_t const& __cordl_internal_get_weight() const;
+  /// @brief Method StoreDefaultLocalState, addr 0x131f3ac, size 0xb8, virtual false, abstract: false, final false
+  inline void StoreDefaultLocalState();
 
-  constexpr void __cordl_internal_set_weight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
-
-  constexpr void __cordl_internal_set_rotationWeight(float_t value);
-
-  constexpr ::RootMotion::FinalIK::__Finger__DOF& __cordl_internal_get_rotationDOF();
-
-  constexpr ::RootMotion::FinalIK::__Finger__DOF const& __cordl_internal_get_rotationDOF() const;
-
-  constexpr void __cordl_internal_set_rotationDOF(::RootMotion::FinalIK::__Finger__DOF value);
-
-  constexpr bool& __cordl_internal_get_fixBone1Twist();
-
-  constexpr bool const& __cordl_internal_get_fixBone1Twist() const;
-
-  constexpr void __cordl_internal_set_fixBone1Twist(bool value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone1();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone1() const;
-
-  constexpr void __cordl_internal_set_bone1(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone2();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone2() const;
-
-  constexpr void __cordl_internal_set_bone2(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone3();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone3() const;
-
-  constexpr void __cordl_internal_set_bone3(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_tip();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_tip() const;
-
-  constexpr void __cordl_internal_set_tip(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
-
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
+  /// @brief Method Update, addr 0x131f464, size 0x660, virtual false, abstract: false, final false
+  inline void Update(float_t masterWeight);
 
   constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__initiated_k__BackingField(bool value);
+  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone1() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone1();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone1Axis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone1Axis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone1TwistAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone1TwistAxis();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone2() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone2();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone3() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone3();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone3DefaultLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone3DefaultLocalPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3DefaultLocalRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3DefaultLocalRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3RelativeToTarget() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3RelativeToTarget();
+
+  constexpr bool const& __cordl_internal_get_fixBone1Twist() const;
+
+  constexpr bool& __cordl_internal_get_fixBone1Twist();
+
+  constexpr ::RootMotion::FinalIK::__Finger__DOF const& __cordl_internal_get_rotationDOF() const;
+
+  constexpr ::RootMotion::FinalIK::__Finger__DOF& __cordl_internal_get_rotationDOF();
+
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_rotationWeight();
 
   constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_solver();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_solver() const;
 
-  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverLimb* value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3RelativeToTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3RelativeToTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_tip() const;
 
-  constexpr void __cordl_internal_set_bone3RelativeToTarget(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone3DefaultLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone3DefaultLocalPosition() const;
-
-  constexpr void __cordl_internal_set_bone3DefaultLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3DefaultLocalRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3DefaultLocalRotation() const;
-
-  constexpr void __cordl_internal_set_bone3DefaultLocalRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone1Axis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone1Axis() const;
-
-  constexpr void __cordl_internal_set_bone1Axis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_tipAxis();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_tip();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_tipAxis() const;
 
-  constexpr void __cordl_internal_set_tipAxis(::UnityEngine::Vector3 value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_tipAxis();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bone1TwistAxis();
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bone1TwistAxis() const;
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set__initiated_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set_bone1(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_bone1Axis(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set_bone1TwistAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_initiated, addr 0x1242be4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_initiated();
+  constexpr void __cordl_internal_set_bone2(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method set_initiated, addr 0x1242bec, size 0xc, virtual false, abstract: false, final false
-  inline void set_initiated(bool value);
+  constexpr void __cordl_internal_set_bone3(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method get_IKPosition, addr 0x1242bf8, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_IKPosition();
+  constexpr void __cordl_internal_set_bone3DefaultLocalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_IKPosition, addr 0x1242c18, size 0x20, virtual false, abstract: false, final false
-  inline void set_IKPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_bone3DefaultLocalRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_IKRotation, addr 0x1242c38, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_IKRotation();
+  constexpr void __cordl_internal_set_bone3RelativeToTarget(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_IKRotation, addr 0x1242c58, size 0x20, virtual false, abstract: false, final false
-  inline void set_IKRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_fixBone1Twist(bool value);
 
-  /// @brief Method IsValid, addr 0x1242c78, size 0xec, virtual false, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> errorMessage);
+  constexpr void __cordl_internal_set_rotationDOF(::RootMotion::FinalIK::__Finger__DOF value);
 
-  /// @brief Method Initiate, addr 0x1242d64, size 0x4e0, virtual false, abstract: false, final false
-  inline void Initiate(::UnityEngine::Transform* hand, int32_t index);
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
 
-  /// @brief Method FixTransforms, addr 0x1243244, size 0xcc, virtual false, abstract: false, final false
-  inline void FixTransforms();
+  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverLimb* value);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x1243310, size 0xb8, virtual false, abstract: false, final false
-  inline void StoreDefaultLocalState();
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Update, addr 0x12433c8, size 0x660, virtual false, abstract: false, final false
-  inline void Update(float_t masterWeight);
+  constexpr void __cordl_internal_set_tip(::UnityW<::UnityEngine::Transform> value);
 
-  static inline ::RootMotion::FinalIK::Finger* New_ctor();
+  constexpr void __cordl_internal_set_tipAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1243a28, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x131fac4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IKPosition, addr 0x131ec94, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_IKPosition();
+
+  /// @brief Method get_IKRotation, addr 0x131ecd4, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_IKRotation();
+
+  /// @brief Method get_initiated, addr 0x131ec80, size 0x8, virtual false, abstract: false, final false
+  inline bool get_initiated();
+
+  /// @brief Method set_IKPosition, addr 0x131ecb4, size 0x20, virtual false, abstract: false, final false
+  inline void set_IKPosition(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_IKRotation, addr 0x131ecf4, size 0x20, virtual false, abstract: false, final false
+  inline void set_IKRotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method set_initiated, addr 0x131ec88, size 0xc, virtual false, abstract: false, final false
+  inline void set_initiated(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Finger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Finger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Finger(Finger&&) = delete;
@@ -303,12 +311,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Finger(Finger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Finger();
-
-public:
   /// @brief Field weight, offset: 0x10, size: 0x4, def value: None
   float_t ___weight;
 

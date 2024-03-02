@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpNavigationController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13588))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5647))
 // CS Name: ::HelpNavigationController*
 class CORDL_TYPE HelpNavigationController : public ::HMUI::NavigationController {
 public:
   // Declarations
   static inline ::GlobalNamespace::HelpNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b592c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b7934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HelpNavigationController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HelpNavigationController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpNavigationController(HelpNavigationController&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpNavigationController(HelpNavigationController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HelpNavigationController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

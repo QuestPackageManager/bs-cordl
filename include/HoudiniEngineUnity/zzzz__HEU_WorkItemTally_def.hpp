@@ -16,86 +16,90 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_WorkItemTally);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9774))
 // CS Name: ::HoudiniEngineUnity::HEU_WorkItemTally*
 class CORDL_TYPE HEU_WorkItemTally : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _cookedWorkItems, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__cookedWorkItems, put = __cordl_internal_set__cookedWorkItems)) int32_t _cookedWorkItems;
+
+  /// @brief Field _cookingWorkItems, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__cookingWorkItems, put = __cordl_internal_set__cookingWorkItems)) int32_t _cookingWorkItems;
+
+  /// @brief Field _erroredWorkItems, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__erroredWorkItems, put = __cordl_internal_set__erroredWorkItems)) int32_t _erroredWorkItems;
+
+  /// @brief Field _scheduledWorkItems, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__scheduledWorkItems, put = __cordl_internal_set__scheduledWorkItems)) int32_t _scheduledWorkItems;
+
   /// @brief Field _totalWorkItems, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__totalWorkItems, put = __cordl_internal_set__totalWorkItems)) int32_t _totalWorkItems;
 
   /// @brief Field _waitingWorkItems, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__waitingWorkItems, put = __cordl_internal_set__waitingWorkItems)) int32_t _waitingWorkItems;
 
-  /// @brief Field _scheduledWorkItems, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__scheduledWorkItems, put = __cordl_internal_set__scheduledWorkItems)) int32_t _scheduledWorkItems;
-
-  /// @brief Field _cookingWorkItems, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__cookingWorkItems, put = __cordl_internal_set__cookingWorkItems)) int32_t _cookingWorkItems;
-
-  /// @brief Field _cookedWorkItems, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__cookedWorkItems, put = __cordl_internal_set__cookedWorkItems)) int32_t _cookedWorkItems;
-
-  /// @brief Field _erroredWorkItems, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__erroredWorkItems, put = __cordl_internal_set__erroredWorkItems)) int32_t _erroredWorkItems;
-
-  constexpr int32_t& __cordl_internal_get__totalWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__totalWorkItems() const;
-
-  constexpr void __cordl_internal_set__totalWorkItems(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__waitingWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__waitingWorkItems() const;
-
-  constexpr void __cordl_internal_set__waitingWorkItems(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__scheduledWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__scheduledWorkItems() const;
-
-  constexpr void __cordl_internal_set__scheduledWorkItems(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__cookingWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__cookingWorkItems() const;
-
-  constexpr void __cordl_internal_set__cookingWorkItems(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__cookedWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__cookedWorkItems() const;
-
-  constexpr void __cordl_internal_set__cookedWorkItems(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__erroredWorkItems();
-
-  constexpr int32_t const& __cordl_internal_get__erroredWorkItems() const;
-
-  constexpr void __cordl_internal_set__erroredWorkItems(int32_t value);
-
-  /// @brief Method ZeroAll, addr 0x219b8fc, size 0xc, virtual false, abstract: false, final false
-  inline void ZeroAll();
-
-  /// @brief Method AreAllWorkItemsComplete, addr 0x219c9a8, size 0x38, virtual false, abstract: false, final false
-  inline bool AreAllWorkItemsComplete();
-
-  /// @brief Method AnyWorkItemsFailed, addr 0x219c9e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x22fe92c, size 0x10, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x219ca48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x22fe994, size 0x44, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method ProgressRatio, addr 0x219ca8c, size 0xac, virtual false, abstract: false, final false
-  inline ::StringW ProgressRatio();
+  /// @brief Method AreAllWorkItemsComplete, addr 0x22fe8f4, size 0x38, virtual false, abstract: false, final false
+  inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_WorkItemTally* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ProgressRatio, addr 0x22fe9d8, size 0xac, virtual false, abstract: false, final false
+  inline ::StringW ProgressRatio();
+
+  /// @brief Method ZeroAll, addr 0x22fd848, size 0xc, virtual false, abstract: false, final false
+  inline void ZeroAll();
+
+  constexpr int32_t const& __cordl_internal_get__cookedWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__cookedWorkItems();
+
+  constexpr int32_t const& __cordl_internal_get__cookingWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__cookingWorkItems();
+
+  constexpr int32_t const& __cordl_internal_get__erroredWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__erroredWorkItems();
+
+  constexpr int32_t const& __cordl_internal_get__scheduledWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__scheduledWorkItems();
+
+  constexpr int32_t const& __cordl_internal_get__totalWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__totalWorkItems();
+
+  constexpr int32_t const& __cordl_internal_get__waitingWorkItems() const;
+
+  constexpr int32_t& __cordl_internal_get__waitingWorkItems();
+
+  constexpr void __cordl_internal_set__cookedWorkItems(int32_t value);
+
+  constexpr void __cordl_internal_set__cookingWorkItems(int32_t value);
+
+  constexpr void __cordl_internal_set__erroredWorkItems(int32_t value);
+
+  constexpr void __cordl_internal_set__scheduledWorkItems(int32_t value);
+
+  constexpr void __cordl_internal_set__totalWorkItems(int32_t value);
+
+  constexpr void __cordl_internal_set__waitingWorkItems(int32_t value);
+
+  /// @brief Method .ctor, addr 0x22fe780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_WorkItemTally();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_WorkItemTally", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_WorkItemTally(HEU_WorkItemTally&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_WorkItemTally(HEU_WorkItemTally const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_WorkItemTally();
-
-public:
   /// @brief Field _totalWorkItems, offset: 0x10, size: 0x4, def value: None
   int32_t ____totalWorkItems;
 

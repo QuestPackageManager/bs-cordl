@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5967))
 // CS Name: ::RecordingToolSettings*
 class CORDL_TYPE RecordingToolSettings : public ::System::Object {
 public:
@@ -28,17 +26,23 @@ public:
   __declspec(property(get = __cordl_internal_get_recordingSettings,
                       put = __cordl_internal_set_recordingSettings))::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings;
 
-  constexpr ::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*>& __cordl_internal_get_recordingSettings();
+  static inline ::GlobalNamespace::RecordingToolSettings* New_ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
 
   constexpr ::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> const& __cordl_internal_get_recordingSettings() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*>& __cordl_internal_get_recordingSettings();
+
   constexpr void __cordl_internal_set_recordingSettings(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> value);
 
-  static inline ::GlobalNamespace::RecordingToolSettings* New_ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
-
-  /// @brief Method .ctor, addr 0x23079e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2403e8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> recordingSettings);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordingToolSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolSettings(RecordingToolSettings&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolSettings(RecordingToolSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolSettings();
-
-public:
   /// @brief Field recordingSettings, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::RecordingSettings*, ::Array<::GlobalNamespace::RecordingSettings*>*> ___recordingSettings;
 

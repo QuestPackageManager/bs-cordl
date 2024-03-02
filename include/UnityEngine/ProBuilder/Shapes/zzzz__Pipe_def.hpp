@@ -31,62 +31,66 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Pipe);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12229))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Pipe*
 class CORDL_TYPE Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
-  /// @brief Field m_Thickness, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
+  /// @brief Field m_HeightCuts, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_HeightCuts, put = __cordl_internal_set_m_HeightCuts)) int32_t m_HeightCuts;
 
   /// @brief Field m_NumberOfSides, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NumberOfSides, put = __cordl_internal_set_m_NumberOfSides)) int32_t m_NumberOfSides;
 
-  /// @brief Field m_HeightCuts, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_HeightCuts, put = __cordl_internal_set_m_HeightCuts)) int32_t m_HeightCuts;
-
   /// @brief Field m_Smooth, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  constexpr float_t& __cordl_internal_get_m_Thickness();
+  /// @brief Field m_Thickness, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
-  constexpr float_t const& __cordl_internal_get_m_Thickness() const;
-
-  constexpr void __cordl_internal_set_m_Thickness(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_NumberOfSides();
-
-  constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
-
-  constexpr void __cordl_internal_set_m_NumberOfSides(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_HeightCuts();
-
-  constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
-
-  constexpr void __cordl_internal_set_m_HeightCuts(int32_t value);
-
-  constexpr bool& __cordl_internal_get_m_Smooth();
-
-  constexpr bool const& __cordl_internal_get_m_Smooth() const;
-
-  constexpr void __cordl_internal_set_m_Smooth(bool value);
-
-  /// @brief Method CopyShape, addr 0x2b8b54c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2c7218c, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
-
-  /// @brief Method UpdateBounds, addr 0x2b8b5d8, size 0x38, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
-
-  /// @brief Method RebuildMesh, addr 0x2b8b610, size 0xa70, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b8c080, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2c72250, size 0xa70, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method UpdateBounds, addr 0x2c72218, size 0x38, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
+
+  constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
+
+  constexpr int32_t& __cordl_internal_get_m_HeightCuts();
+
+  constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
+
+  constexpr int32_t& __cordl_internal_get_m_NumberOfSides();
+
+  constexpr bool const& __cordl_internal_get_m_Smooth() const;
+
+  constexpr bool& __cordl_internal_get_m_Smooth();
+
+  constexpr float_t const& __cordl_internal_get_m_Thickness() const;
+
+  constexpr float_t& __cordl_internal_get_m_Thickness();
+
+  constexpr void __cordl_internal_set_m_HeightCuts(int32_t value);
+
+  constexpr void __cordl_internal_set_m_NumberOfSides(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Smooth(bool value);
+
+  constexpr void __cordl_internal_set_m_Thickness(float_t value);
+
+  /// @brief Method .ctor, addr 0x2c72cc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Pipe();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pipe(Pipe&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Pipe(Pipe const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pipe();
-
-public:
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;
 

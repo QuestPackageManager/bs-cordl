@@ -90,8 +90,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9620))
 // CS Name: ::HEU_Curve::CurveEditState
 struct CORDL_TYPE __HEU_Curve__CurveEditState {
 public:
@@ -111,30 +109,35 @@ public:
     return static_cast<____HEU_Curve__CurveEditState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Curve__CurveEditState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Curve__CurveEditState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Curve__CurveEditState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field INVALID value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const INVALID;
-
-  /// @brief Field GENERATED value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const GENERATED;
 
   /// @brief Field EDITING value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const EDITING;
 
+  /// @brief Field GENERATED value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const GENERATED;
+
+  /// @brief Field INVALID value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const INVALID;
+
   /// @brief Field REQUIRES_GENERATION value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const REQUIRES_GENERATION;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -148,8 +151,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__CurveEditState, value_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9621))
 // CS Name: ::HEU_Curve::Interaction
 struct CORDL_TYPE __HEU_Curve__Interaction {
 public:
@@ -168,27 +169,32 @@ public:
     return static_cast<____HEU_Curve__Interaction_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Curve__Interaction(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Curve__Interaction();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Curve__Interaction(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field VIEW value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_Curve__Interaction const VIEW;
 
   /// @brief Field ADD value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::__HEU_Curve__Interaction const ADD;
 
   /// @brief Field EDIT value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::__HEU_Curve__Interaction const EDIT;
+
+  /// @brief Field VIEW value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::__HEU_Curve__Interaction const VIEW;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -202,8 +208,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__Interaction, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9622))
 // CS Name: ::HEU_Curve::CurveDrawCollision
 struct CORDL_TYPE __HEU_Curve__CurveDrawCollision {
 public:
@@ -221,24 +225,29 @@ public:
     return static_cast<____HEU_Curve__CurveDrawCollision_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Curve__CurveDrawCollision(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Curve__CurveDrawCollision();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Curve__CurveDrawCollision(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field COLLIDERS value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision const COLLIDERS;
 
   /// @brief Field LAYERMASK value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision const LAYERMASK;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -252,8 +261,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision, va
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9623))
 // CS Name: ::HEU_Curve::<>c__DisplayClass38_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass38_0 : public ::System::Object {
 public:
@@ -267,38 +274,44 @@ public:
   /// @brief Field scales, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_scales, put = __cordl_internal_set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
 
+  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0* New_ctor();
+
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__0, addr 0x22b622c, size 0x1c4, virtual false, abstract: false, final false
+  inline void _UpdateCurveInputForCustomAttributes_b__0(::HoudiniEngineUnity::CurveNodeData* data);
+
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__1, addr 0x22b63f0, size 0x3c8, virtual false, abstract: false, final false
+  inline void _UpdateCurveInputForCustomAttributes_b__1(int32_t nIndex1, int32_t nIndex2, float_t fCoeff, int32_t nInsertIndex);
+
+  /// @brief Method <UpdateCurveInputForCustomAttributes>b__2, addr 0x22b67b8, size 0x2d4, virtual false, abstract: false, final false
+  inline void _UpdateCurveInputForCustomAttributes_b__2(int32_t nIndex, int32_t nInsertIndex);
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_positions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_positions() const;
-
-  constexpr void __cordl_internal_set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __cordl_internal_get_rotations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const& __cordl_internal_get_rotations() const;
 
-  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_scales();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_scales() const;
 
+  constexpr void __cordl_internal_set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+
+  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
+
   constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21533d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__0, addr 0x21552e0, size 0x1c4, virtual false, abstract: false, final false
-  inline void _UpdateCurveInputForCustomAttributes_b__0(::HoudiniEngineUnity::CurveNodeData* data);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_Curve____c__DisplayClass38_0();
 
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__1, addr 0x21554a4, size 0x3c8, virtual false, abstract: false, final false
-  inline void _UpdateCurveInputForCustomAttributes_b__1(int32_t nIndex1, int32_t nIndex2, float_t fCoeff, int32_t nInsertIndex);
-
-  /// @brief Method <UpdateCurveInputForCustomAttributes>b__2, addr 0x215586c, size 0x2d4, virtual false, abstract: false, final false
-  inline void _UpdateCurveInputForCustomAttributes_b__2(int32_t nIndex, int32_t nInsertIndex);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Curve____c__DisplayClass38_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_Curve____c__DisplayClass38_0(__HEU_Curve____c__DisplayClass38_0&&) = delete;
@@ -307,12 +320,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_Curve____c__DisplayClass38_0(__HEU_Curve____c__DisplayClass38_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_Curve____c__DisplayClass38_0();
-
-public:
   /// @brief Field positions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___positions;
 
@@ -338,8 +345,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9624))
 // CS Name: ::HEU_Curve::<>c__DisplayClass40_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass40_0 : public ::System::Object {
 public:
@@ -350,26 +355,32 @@ public:
   /// @brief Field scales, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_scales, put = __cordl_internal_set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
 
+  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0* New_ctor();
+
+  /// @brief Method <UpdatePoints>b__0, addr 0x22b6a8c, size 0x120, virtual false, abstract: false, final false
+  inline void _UpdatePoints_b__0(::HoudiniEngineUnity::CurveNodeData* data);
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_rotations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_rotations() const;
-
-  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_scales();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_scales() const;
 
+  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+
   constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2153eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UpdatePoints>b__0, addr 0x2155b40, size 0x120, virtual false, abstract: false, final false
-  inline void _UpdatePoints_b__0(::HoudiniEngineUnity::CurveNodeData* data);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_Curve____c__DisplayClass40_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Curve____c__DisplayClass40_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_Curve____c__DisplayClass40_0(__HEU_Curve____c__DisplayClass40_0&&) = delete;
@@ -378,12 +389,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_Curve____c__DisplayClass40_0(__HEU_Curve____c__DisplayClass40_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_Curve____c__DisplayClass40_0();
-
-public:
   /// @brief Field rotations, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___rotations;
 
@@ -404,8 +409,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9625))
 // CS Name: ::HEU_Curve::<>c__DisplayClass48_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass48_0 : public ::System::Object {
 public:
@@ -413,20 +416,26 @@ public:
   /// @brief Field points, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points;
 
+  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0* New_ctor();
+
+  /// @brief Method <GetAllPoints>b__0, addr 0x22b6bac, size 0xb8, virtual false, abstract: false, final false
+  inline void _GetAllPoints_b__0(::HoudiniEngineUnity::CurveNodeData* transform);
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_points();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_points() const;
 
   constexpr void __cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21548a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b57f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllPoints>b__0, addr 0x2155c60, size 0xb8, virtual false, abstract: false, final false
-  inline void _GetAllPoints_b__0(::HoudiniEngineUnity::CurveNodeData* transform);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_Curve____c__DisplayClass48_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Curve____c__DisplayClass48_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_Curve____c__DisplayClass48_0(__HEU_Curve____c__DisplayClass48_0&&) = delete;
@@ -435,12 +444,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_Curve____c__DisplayClass48_0(__HEU_Curve____c__DisplayClass48_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_Curve____c__DisplayClass48_0();
-
-public:
   /// @brief Field points, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___points;
 
@@ -456,39 +459,36 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0,
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9620)), TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9626))
 // CS Name: ::HoudiniEngineUnity::HEU_Curve*
 class CORDL_TYPE HEU_Curve : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using __c__DisplayClass48_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0;
-
-  using __c__DisplayClass40_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0;
-
-  using __c__DisplayClass38_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0;
-
   using CurveDrawCollision = ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision;
-
-  using Interaction = ::HoudiniEngineUnity::__HEU_Curve__Interaction;
 
   using CurveEditState = ::HoudiniEngineUnity::__HEU_Curve__CurveEditState;
 
-  /// @brief Field _geoID, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
+  using Interaction = ::HoudiniEngineUnity::__HEU_Curve__Interaction;
 
-  /// @brief Field _curveNodeData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__curveNodeData,
-                      put = __cordl_internal_set__curveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* _curveNodeData;
+  using __c__DisplayClass38_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0;
 
-  /// @brief Field _vertices, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
+  using __c__DisplayClass40_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0;
 
-  /// @brief Field _isEditable, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__isEditable, put = __cordl_internal_set__isEditable)) bool _isEditable;
+  using __c__DisplayClass48_0 = ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0;
 
-  /// @brief Field _parameters, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> _parameters;
+  __declspec(property(get = get_CurveName))::StringW CurveName;
+
+  __declspec(property(get = get_CurveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* CurveNodeData;
+
+  __declspec(property(get = get_EditState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState EditState;
+
+  __declspec(property(get = get_GeoID)) int32_t GeoID;
+
+  __declspec(property(get = get_Parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> Parameters;
+
+  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
+
+  /// @brief Field PreferredNextInteractionMode, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_PreferredNextInteractionMode, put = setStaticF_PreferredNextInteractionMode))::HoudiniEngineUnity::__HEU_Curve__Interaction PreferredNextInteractionMode;
 
   /// @brief Field _bUploadParameterPreset, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__bUploadParameterPreset, put = __cordl_internal_set__bUploadParameterPreset)) bool _bUploadParameterPreset;
@@ -496,237 +496,244 @@ public:
   /// @brief Field _curveName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__curveName, put = __cordl_internal_set__curveName))::StringW _curveName;
 
-  /// @brief Field _targetGameObject, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__targetGameObject, put = __cordl_internal_set__targetGameObject))::UnityW<::UnityEngine::GameObject> _targetGameObject;
-
-  /// @brief Field _isGeoCurve, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get__isGeoCurve, put = __cordl_internal_set__isGeoCurve)) bool _isGeoCurve;
+  /// @brief Field _curveNodeData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__curveNodeData,
+                      put = __cordl_internal_set__curveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* _curveNodeData;
 
   /// @brief Field _editState, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__editState, put = __cordl_internal_set__editState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState _editState;
 
+  /// @brief Field _geoID, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
+
+  /// @brief Field _isEditable, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__isEditable, put = __cordl_internal_set__isEditable)) bool _isEditable;
+
+  /// @brief Field _isGeoCurve, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__isGeoCurve, put = __cordl_internal_set__isGeoCurve)) bool _isGeoCurve;
+
+  /// @brief Field _parameters, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> _parameters;
+
   /// @brief Field _parentAsset, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__parentAsset, put = __cordl_internal_set__parentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _parentAsset;
 
-  /// @brief Field PreferredNextInteractionMode, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_PreferredNextInteractionMode, put = setStaticF_PreferredNextInteractionMode))::HoudiniEngineUnity::__HEU_Curve__Interaction PreferredNextInteractionMode;
+  /// @brief Field _targetGameObject, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__targetGameObject, put = __cordl_internal_set__targetGameObject))::UnityW<::UnityEngine::GameObject> _targetGameObject;
 
-  __declspec(property(get = get_GeoID)) int32_t GeoID;
-
-  __declspec(property(get = get_CurveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* CurveNodeData;
-
-  __declspec(property(get = get_Parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> Parameters;
-
-  __declspec(property(get = get_CurveName))::StringW CurveName;
-
-  __declspec(property(get = get_EditState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState EditState;
-
-  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
+  /// @brief Field _vertices, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept;
+  /// @brief Method CreateSetupCurve, addr 0x22b2114, size 0x184, virtual false, abstract: false, final false
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
 
-  constexpr int32_t& __cordl_internal_get__geoID();
+  /// @brief Method DestroyAllData, addr 0x22b236c, size 0x14c, virtual false, abstract: false, final false
+  inline void DestroyAllData(bool bIsRebuild);
 
-  constexpr int32_t const& __cordl_internal_get__geoID() const;
+  /// @brief Method DownloadAsDefaultPresetData, addr 0x22b5b80, size 0x98, virtual false, abstract: false, final false
+  inline void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  constexpr void __cordl_internal_set__geoID(int32_t value);
+  /// @brief Method DownloadPresetData, addr 0x22b4d64, size 0x98, virtual false, abstract: false, final false
+  inline void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
+
+  /// @brief Method DuplicateCurveNodeData, addr 0x22b5c18, size 0x224, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* DuplicateCurveNodeData();
+
+  /// @brief Method GenerateMesh, addr 0x22b29c4, size 0x3b4, virtual false, abstract: false, final false
+  inline void GenerateMesh(::UnityEngine::GameObject* inGameObject);
+
+  /// @brief Method GetAllPointTransforms, addr 0x22b56c8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* GetAllPointTransforms();
+
+  /// @brief Method GetAllPoints, addr 0x22b56d0, size 0x120, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetAllPoints();
+
+  /// @brief Method GetCurvePoint, addr 0x22b55f8, size 0xd0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetCurvePoint(int32_t pointIndex);
+
+  /// @brief Method GetInvertedTransformedDirection, addr 0x22b59a8, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 inPosition);
+
+  /// @brief Method GetInvertedTransformedPosition, addr 0x22b5958, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 inPosition);
+
+  /// @brief Method GetNumPoints, addr 0x22b57f8, size 0x48, virtual false, abstract: false, final false
+  inline int32_t GetNumPoints();
+
+  /// @brief Method GetPointsString, addr 0x22b52dc, size 0x274, virtual false, abstract: false, final false
+  static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* points);
+
+  /// @brief Method GetPointsString, addr 0x22b432c, size 0x260, virtual false, abstract: false, final false
+  static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points);
+
+  /// @brief Method GetTransformedPoint, addr 0x22b5840, size 0xc8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetTransformedPoint(int32_t pointIndex);
+
+  /// @brief Method GetTransformedPosition, addr 0x22b5908, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 inPosition);
+
+  /// @brief Method GetVertices, addr 0x22b59f8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetVertices();
+
+  /// @brief Method IsEditable, addr 0x22b20d8, size 0x8, virtual false, abstract: false, final false
+  inline bool IsEditable();
+
+  /// @brief Method IsEquivalentTo, addr 0x22b5e44, size 0x36c, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Curve* other);
+
+  /// @brief Method IsGeoCurve, addr 0x22b20fc, size 0x8, virtual false, abstract: false, final false
+  inline bool IsGeoCurve();
+
+  static inline ::HoudiniEngineUnity::HEU_Curve* New_ctor();
+
+  /// @brief Method ProjectToColliders, addr 0x22b4e04, size 0x4d8, virtual false, abstract: false, final false
+  inline void ProjectToColliders(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::UnityEngine::Vector3 rayDirection, float_t rayDistance);
+
+  /// @brief Method ResetCurveParameters, addr 0x22b263c, size 0xd0, virtual false, abstract: false, final false
+  inline void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+
+  /// @brief Method SetCurveGeometryVisibility, addr 0x22b5a00, size 0xe8, virtual false, abstract: false, final false
+  inline void SetCurveGeometryVisibility(bool bVisible);
+
+  /// @brief Method SetCurveName, addr 0x22b24b8, size 0x9c, virtual false, abstract: false, final false
+  inline void SetCurveName(::StringW name);
+
+  /// @brief Method SetCurveNodeData, addr 0x22b5e3c, size 0x8, virtual false, abstract: false, final false
+  inline void SetCurveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* curveNodeData);
+
+  /// @brief Method SetCurveParameterPreset, addr 0x22b270c, size 0xd0, virtual false, abstract: false, final false
+  inline void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayW<uint8_t, ::Array<uint8_t>*> parameterPreset);
+
+  /// @brief Method SetCurvePoint, addr 0x22b5558, size 0xa0, virtual false, abstract: false, final false
+  inline void SetCurvePoint(int32_t pointIndex, ::UnityEngine::Vector3 newPosition);
+
+  /// @brief Method SetEditState, addr 0x22b5550, size 0x8, virtual false, abstract: false, final false
+  inline void SetEditState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState editState);
+
+  /// @brief Method SetUploadParameterPreset, addr 0x22b20e8, size 0xc, virtual false, abstract: false, final false
+  inline void SetUploadParameterPreset(bool bValue);
+
+  /// @brief Method SyncFromParameters, addr 0x22b458c, size 0x274, virtual false, abstract: false, final false
+  inline void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+
+  /// @brief Method UpdateCurve, addr 0x22b27dc, size 0x1e8, virtual false, abstract: false, final false
+  inline void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
+
+  /// @brief Method UpdateCurveInputForCustomAttributes, addr 0x22b2d78, size 0x15ac, virtual false, abstract: false, final false
+  inline bool UpdateCurveInputForCustomAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+
+  /// @brief Method UpdatePoints, addr 0x22b4800, size 0x564, virtual false, abstract: false, final false
+  inline void UpdatePoints(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
+
+  /// @brief Method UploadParameterPreset, addr 0x22b2554, size 0xe8, virtual false, abstract: false, final false
+  inline void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+
+  /// @brief Method UploadPresetData, addr 0x22b5ae8, size 0x98, virtual false, abstract: false, final false
+  inline void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
+
+  constexpr bool const& __cordl_internal_get__bUploadParameterPreset() const;
+
+  constexpr bool& __cordl_internal_get__bUploadParameterPreset();
+
+  constexpr ::StringW const& __cordl_internal_get__curveName() const;
+
+  constexpr ::StringW& __cordl_internal_get__curveName();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*& __cordl_internal_get__curveNodeData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*> const& __cordl_internal_get__curveNodeData() const;
 
-  constexpr void __cordl_internal_set__curveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__vertices();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__vertices() const;
-
-  constexpr void __cordl_internal_set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr bool& __cordl_internal_get__isEditable();
-
-  constexpr bool const& __cordl_internal_get__isEditable() const;
-
-  constexpr void __cordl_internal_set__isEditable(bool value);
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters>& __cordl_internal_get__parameters();
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters> const& __cordl_internal_get__parameters() const;
-
-  constexpr void __cordl_internal_set__parameters(::UnityW<::HoudiniEngineUnity::HEU_Parameters> value);
-
-  constexpr bool& __cordl_internal_get__bUploadParameterPreset();
-
-  constexpr bool const& __cordl_internal_get__bUploadParameterPreset() const;
-
-  constexpr void __cordl_internal_set__bUploadParameterPreset(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__curveName();
-
-  constexpr ::StringW const& __cordl_internal_get__curveName() const;
-
-  constexpr void __cordl_internal_set__curveName(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__targetGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__targetGameObject() const;
-
-  constexpr void __cordl_internal_set__targetGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr bool& __cordl_internal_get__isGeoCurve();
-
-  constexpr bool const& __cordl_internal_get__isGeoCurve() const;
-
-  constexpr void __cordl_internal_set__isGeoCurve(bool value);
+  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const& __cordl_internal_get__editState() const;
 
   constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState& __cordl_internal_get__editState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const& __cordl_internal_get__editState() const;
+  constexpr int32_t const& __cordl_internal_get__geoID() const;
 
-  constexpr void __cordl_internal_set__editState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState value);
+  constexpr int32_t& __cordl_internal_get__geoID();
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
+  constexpr bool const& __cordl_internal_get__isEditable() const;
+
+  constexpr bool& __cordl_internal_get__isEditable();
+
+  constexpr bool const& __cordl_internal_get__isGeoCurve() const;
+
+  constexpr bool& __cordl_internal_get__isGeoCurve();
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters> const& __cordl_internal_get__parameters() const;
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters>& __cordl_internal_get__parameters();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__parentAsset() const;
 
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__targetGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__targetGameObject();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__vertices() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__vertices();
+
+  constexpr void __cordl_internal_set__bUploadParameterPreset(bool value);
+
+  constexpr void __cordl_internal_set__curveName(::StringW value);
+
+  constexpr void __cordl_internal_set__curveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* value);
+
+  constexpr void __cordl_internal_set__editState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState value);
+
+  constexpr void __cordl_internal_set__geoID(int32_t value);
+
+  constexpr void __cordl_internal_set__isEditable(bool value);
+
+  constexpr void __cordl_internal_set__isGeoCurve(bool value);
+
+  constexpr void __cordl_internal_set__parameters(::UnityW<::HoudiniEngineUnity::HEU_Parameters> value);
+
   constexpr void __cordl_internal_set__parentAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  static inline void setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::__HEU_Curve__Interaction value);
+  constexpr void __cordl_internal_set__targetGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  /// @brief Method .ctor, addr 0x22b61b0, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__HEU_Curve__Interaction getStaticF_PreferredNextInteractionMode();
 
-  /// @brief Method get_GeoID, addr 0x215117c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_GeoID();
-
-  /// @brief Method get_CurveNodeData, addr 0x2151184, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* get_CurveNodeData();
-
-  /// @brief Method IsEditable, addr 0x215118c, size 0x8, virtual false, abstract: false, final false
-  inline bool IsEditable();
-
-  /// @brief Method get_Parameters, addr 0x2151194, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
-
-  /// @brief Method SetUploadParameterPreset, addr 0x215119c, size 0xc, virtual false, abstract: false, final false
-  inline void SetUploadParameterPreset(bool bValue);
-
-  /// @brief Method get_CurveName, addr 0x21511a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveName, addr 0x22b20f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurveName();
 
-  /// @brief Method IsGeoCurve, addr 0x21511b0, size 0x8, virtual false, abstract: false, final false
-  inline bool IsGeoCurve();
+  /// @brief Method get_CurveNodeData, addr 0x22b20d0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* get_CurveNodeData();
 
-  /// @brief Method get_EditState, addr 0x21511b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditState, addr 0x22b2104, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_Curve__CurveEditState get_EditState();
 
-  /// @brief Method get_ParentAsset, addr 0x21511c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoID, addr 0x22b20c8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_GeoID();
+
+  /// @brief Method get_Parameters, addr 0x22b20e0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
+
+  /// @brief Method get_ParentAsset, addr 0x22b210c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Method CreateSetupCurve, addr 0x21511c8, size 0x184, virtual false, abstract: false, final false
-  static inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept;
 
-  /// @brief Method DestroyAllData, addr 0x2151420, size 0x14c, virtual false, abstract: false, final false
-  inline void DestroyAllData(bool bIsRebuild);
+  static inline void setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::__HEU_Curve__Interaction value);
 
-  /// @brief Method SetCurveName, addr 0x215156c, size 0x9c, virtual false, abstract: false, final false
-  inline void SetCurveName(::StringW name);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_Curve();
 
-  /// @brief Method UploadParameterPreset, addr 0x2151608, size 0xe8, virtual false, abstract: false, final false
-  inline void UploadParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
-
-  /// @brief Method ResetCurveParameters, addr 0x21516f0, size 0xd0, virtual false, abstract: false, final false
-  inline void ResetCurveParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
-
-  /// @brief Method SetCurveParameterPreset, addr 0x21517c0, size 0xd0, virtual false, abstract: false, final false
-  inline void SetCurveParameterPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayW<uint8_t, ::Array<uint8_t>*> parameterPreset);
-
-  /// @brief Method UpdateCurve, addr 0x2151890, size 0x1e8, virtual false, abstract: false, final false
-  inline void UpdateCurve(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
-
-  /// @brief Method GenerateMesh, addr 0x2151a78, size 0x3b4, virtual false, abstract: false, final false
-  inline void GenerateMesh(::UnityEngine::GameObject* inGameObject);
-
-  /// @brief Method UpdateCurveInputForCustomAttributes, addr 0x2151e2c, size 0x15ac, virtual false, abstract: false, final false
-  inline bool UpdateCurveInputForCustomAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
-
-  /// @brief Method SyncFromParameters, addr 0x2153640, size 0x274, virtual false, abstract: false, final false
-  inline void SyncFromParameters(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
-
-  /// @brief Method UpdatePoints, addr 0x21538b4, size 0x564, virtual false, abstract: false, final false
-  inline void UpdatePoints(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID);
-
-  /// @brief Method ProjectToColliders, addr 0x2153eb8, size 0x4d8, virtual false, abstract: false, final false
-  inline void ProjectToColliders(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::UnityEngine::Vector3 rayDirection, float_t rayDistance);
-
-  /// @brief Method GetPointsString, addr 0x2154390, size 0x274, virtual false, abstract: false, final false
-  static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* points);
-
-  /// @brief Method GetPointsString, addr 0x21533e0, size 0x260, virtual false, abstract: false, final false
-  static inline ::StringW GetPointsString(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points);
-
-  /// @brief Method SetEditState, addr 0x2154604, size 0x8, virtual false, abstract: false, final false
-  inline void SetEditState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState editState);
-
-  /// @brief Method SetCurvePoint, addr 0x215460c, size 0xa0, virtual false, abstract: false, final false
-  inline void SetCurvePoint(int32_t pointIndex, ::UnityEngine::Vector3 newPosition);
-
-  /// @brief Method GetCurvePoint, addr 0x21546ac, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetCurvePoint(int32_t pointIndex);
-
-  /// @brief Method GetAllPointTransforms, addr 0x215477c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* GetAllPointTransforms();
-
-  /// @brief Method GetAllPoints, addr 0x2154784, size 0x120, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetAllPoints();
-
-  /// @brief Method GetNumPoints, addr 0x21548ac, size 0x48, virtual false, abstract: false, final false
-  inline int32_t GetNumPoints();
-
-  /// @brief Method GetTransformedPoint, addr 0x21548f4, size 0xc8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetTransformedPoint(int32_t pointIndex);
-
-  /// @brief Method GetTransformedPosition, addr 0x21549bc, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetTransformedPosition(::UnityEngine::Vector3 inPosition);
-
-  /// @brief Method GetInvertedTransformedPosition, addr 0x2154a0c, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetInvertedTransformedPosition(::UnityEngine::Vector3 inPosition);
-
-  /// @brief Method GetInvertedTransformedDirection, addr 0x2154a5c, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetInvertedTransformedDirection(::UnityEngine::Vector3 inPosition);
-
-  /// @brief Method GetVertices, addr 0x2154aac, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetVertices();
-
-  /// @brief Method SetCurveGeometryVisibility, addr 0x2154ab4, size 0xe8, virtual false, abstract: false, final false
-  inline void SetCurveGeometryVisibility(bool bVisible);
-
-  /// @brief Method DownloadPresetData, addr 0x2153e18, size 0x98, virtual false, abstract: false, final false
-  inline void DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method UploadPresetData, addr 0x2154b9c, size 0x98, virtual false, abstract: false, final false
-  inline void UploadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method DownloadAsDefaultPresetData, addr 0x2154c34, size 0x98, virtual false, abstract: false, final false
-  inline void DownloadAsDefaultPresetData(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method DuplicateCurveNodeData, addr 0x2154ccc, size 0x224, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* DuplicateCurveNodeData();
-
-  /// @brief Method SetCurveNodeData, addr 0x2154ef0, size 0x8, virtual false, abstract: false, final false
-  inline void SetCurveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* curveNodeData);
-
-  /// @brief Method IsEquivalentTo, addr 0x2154ef8, size 0x36c, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Curve* other);
-
-  static inline ::HoudiniEngineUnity::HEU_Curve* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2155264, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Curve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_Curve(HEU_Curve&&) = delete;
@@ -735,12 +742,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_Curve(HEU_Curve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_Curve();
-
-public:
   /// @brief Field _geoID, offset: 0x18, size: 0x4, def value: None
   int32_t ____geoID;
 

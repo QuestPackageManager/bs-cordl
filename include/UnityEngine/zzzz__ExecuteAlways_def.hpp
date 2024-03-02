@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::ExecuteAlways);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10219))
 // CS Name: ::UnityEngine::ExecuteAlways*
 class CORDL_TYPE ExecuteAlways : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExecuteAlways* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd28f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc4ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExecuteAlways();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteAlways", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecuteAlways(ExecuteAlways&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExecuteAlways(ExecuteAlways const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExecuteAlways();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::OrdinalComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2474))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2476))
 // CS Name: ::System::OrdinalComparer*
 class CORDL_TYPE OrdinalComparer : public ::System::StringComparer {
 public:
@@ -28,32 +26,38 @@ public:
   /// @brief Field _ignoreCase, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreCase, put = __cordl_internal_set__ignoreCase)) bool _ignoreCase;
 
-  constexpr bool& __cordl_internal_get__ignoreCase();
+  /// @brief Method Compare, addr 0x26b7fc8, size 0x58, virtual true, abstract: false, final false
+  inline int32_t Compare(::StringW x, ::StringW y);
 
-  constexpr bool const& __cordl_internal_get__ignoreCase() const;
+  /// @brief Method Equals, addr 0x26b8128, size 0x98, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__ignoreCase(bool value);
+  /// @brief Method Equals, addr 0x26b8020, size 0x80, virtual true, abstract: false, final false
+  inline bool Equals(::StringW x, ::StringW y);
+
+  /// @brief Method GetHashCode, addr 0x26b81c0, size 0x64, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetHashCode, addr 0x26b80a0, size 0x88, virtual true, abstract: false, final false
+  inline int32_t GetHashCode(::StringW obj);
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
 
-  /// @brief Method .ctor, addr 0x25c5960, size 0x6c, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__ignoreCase() const;
+
+  constexpr bool& __cordl_internal_get__ignoreCase();
+
+  constexpr void __cordl_internal_set__ignoreCase(bool value);
+
+  /// @brief Method .ctor, addr 0x26b7f5c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
-  /// @brief Method Compare, addr 0x25c59cc, size 0x58, virtual true, abstract: false, final false
-  inline int32_t Compare(::StringW x, ::StringW y);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OrdinalComparer();
 
-  /// @brief Method Equals, addr 0x25c5a24, size 0x80, virtual true, abstract: false, final false
-  inline bool Equals(::StringW x, ::StringW y);
-
-  /// @brief Method GetHashCode, addr 0x25c5aa4, size 0x88, virtual true, abstract: false, final false
-  inline int32_t GetHashCode(::StringW obj);
-
-  /// @brief Method Equals, addr 0x25c5b2c, size 0x98, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x25c5bc4, size 0x64, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OrdinalComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrdinalComparer(OrdinalComparer&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OrdinalComparer(OrdinalComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OrdinalComparer();
-
-public:
   /// @brief Field _ignoreCase, offset: 0x10, size: 0x1, def value: None
   bool ____ignoreCase;
 

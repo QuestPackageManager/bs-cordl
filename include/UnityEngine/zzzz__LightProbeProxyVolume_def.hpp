@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::UnityEngine::LightProbeProxyVolume);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10124))
 // CS Name: ::UnityEngine::LightProbeProxyVolume*
 class CORDL_TYPE LightProbeProxyVolume : public ::UnityEngine::Behaviour {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightProbeProxyVolume();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightProbeProxyVolume(LightProbeProxyVolume&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightProbeProxyVolume(LightProbeProxyVolume const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightProbeProxyVolume();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

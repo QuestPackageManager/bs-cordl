@@ -20,60 +20,64 @@ MARK_REF_PTR_T(::Oculus::Platform::Packet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13343))
 // CS Name: ::Oculus.Platform::Packet*
 class CORDL_TYPE Packet : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field size, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) uint64_t size;
-
-  /// @brief Field packetHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetHandle, put = __cordl_internal_set_packetHandle)) void* packetHandle;
-
   __declspec(property(get = get_SenderID)) uint64_t SenderID;
 
   __declspec(property(get = get_Size)) uint64_t Size;
 
+  /// @brief Field packetHandle, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_packetHandle, put = __cordl_internal_set_packetHandle)) void* packetHandle;
+
+  /// @brief Field size, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) uint64_t size;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x27e65b0, size 0x88, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Finalize, addr 0x27e651c, size 0x94, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
+
+  /// @brief Method ReadBytes, addr 0x27e6378, size 0x144, virtual false, abstract: false, final false
+  inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
+
+  constexpr void* const& __cordl_internal_get_packetHandle() const;
+
+  constexpr void*& __cordl_internal_get_packetHandle();
+
+  constexpr uint64_t const& __cordl_internal_get_size() const;
+
+  constexpr uint64_t& __cordl_internal_get_size();
+
+  constexpr void __cordl_internal_set_packetHandle(void* value);
+
+  constexpr void __cordl_internal_set_size(uint64_t value);
+
+  /// @brief Method .ctor, addr 0x27e62c8, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(void* packetHandle);
+
+  /// @brief Method get_SenderID, addr 0x27e64bc, size 0x58, virtual false, abstract: false, final false
+  inline uint64_t get_SenderID();
+
+  /// @brief Method get_Size, addr 0x27e6514, size 0x8, virtual false, abstract: false, final false
+  inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr uint64_t& __cordl_internal_get_size();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Packet();
 
-  constexpr uint64_t const& __cordl_internal_get_size() const;
-
-  constexpr void __cordl_internal_set_size(uint64_t value);
-
-  constexpr void*& __cordl_internal_get_packetHandle();
-
-  constexpr void* const& __cordl_internal_get_packetHandle() const;
-
-  constexpr void __cordl_internal_set_packetHandle(void* value);
-
-  static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
-
-  /// @brief Method .ctor, addr 0x26f49c0, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(void* packetHandle);
-
-  /// @brief Method ReadBytes, addr 0x26f4a70, size 0x144, virtual false, abstract: false, final false
-  inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
-
-  /// @brief Method get_SenderID, addr 0x26f4bb4, size 0x58, virtual false, abstract: false, final false
-  inline uint64_t get_SenderID();
-
-  /// @brief Method get_Size, addr 0x26f4c0c, size 0x8, virtual false, abstract: false, final false
-  inline uint64_t get_Size();
-
-  /// @brief Method Finalize, addr 0x26f4c14, size 0x94, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Dispose, addr 0x26f4ca8, size 0x88, virtual true, abstract: false, final true
-  inline void Dispose();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Packet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Packet(Packet&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Packet(Packet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Packet();
-
-public:
   /// @brief Field size, offset: 0x10, size: 0x8, def value: None
   uint64_t ___size;
 

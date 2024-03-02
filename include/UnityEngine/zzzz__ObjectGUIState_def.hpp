@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::UnityEngine::ObjectGUIState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14610))
 // CS Name: ::UnityEngine::ObjectGUIState*
 class CORDL_TYPE ObjectGUIState : public ::System::Object {
 public:
@@ -31,35 +29,41 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Destroy, addr 0x2dfc634, size 0xa0, virtual false, abstract: false, final false
+  inline void Destroy();
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  /// @brief Method Dispose, addr 0x2dfc5d4, size 0x60, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  /// @brief Method Finalize, addr 0x2dfc6d4, size 0x94, virtual true, abstract: false, final false
+  inline void Finalize();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  /// @brief Method Internal_Create, addr 0x2dfc5ac, size 0x28, virtual false, abstract: false, final false
+  static inline void* Internal_Create();
+
+  /// @brief Method Internal_Destroy, addr 0x2dfc768, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Destroy(void* ptr);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d04550, size 0x48, virtual false, abstract: false, final false
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
+  /// @brief Method .ctor, addr 0x2dfc564, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose, addr 0x2d045c0, size 0x60, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Finalize, addr 0x2d046c0, size 0x94, virtual true, abstract: false, final false
-  inline void Finalize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectGUIState();
 
-  /// @brief Method Destroy, addr 0x2d04620, size 0xa0, virtual false, abstract: false, final false
-  inline void Destroy();
-
-  /// @brief Method Internal_Create, addr 0x2d04598, size 0x28, virtual false, abstract: false, final false
-  static inline void* Internal_Create();
-
-  /// @brief Method Internal_Destroy, addr 0x2d04754, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(void* ptr);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectGUIState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectGUIState(ObjectGUIState&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectGUIState(ObjectGUIState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectGUIState();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

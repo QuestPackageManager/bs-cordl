@@ -17,22 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::IStartSeekSongController);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5333))
 // CS Name: ::IStartSeekSongController*
 class CORDL_TYPE IStartSeekSongController {
 public:
   // Declarations
   __declspec(property(get = get_waitUntilIsReadyToStartTheSong))::UnityEngine::WaitUntil* waitUntilIsReadyToStartTheSong;
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
+  /// @brief Method SeekTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SeekTo(float_t songTime);
 
   /// @brief Method StartSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SeekTo(float_t songTime);
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStartSeekSongController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

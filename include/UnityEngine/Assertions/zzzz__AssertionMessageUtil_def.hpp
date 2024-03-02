@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionMessageUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10315))
 // CS Name: ::UnityEngine.Assertions::AssertionMessageUtil*
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage, addr 0x2ce99b8, size 0xec, virtual false, abstract: false, final false
-  static inline ::StringW GetMessage(::StringW failureMessage);
-
-  /// @brief Method GetMessage, addr 0x2ce9aa4, size 0x158, virtual false, abstract: false, final false
-  static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
-
-  /// @brief Method GetEqualityMessage, addr 0x2ce9624, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
-
-  /// @brief Method NullFailureMessage, addr 0x2ce92c4, size 0x168, virtual false, abstract: false, final false
-  static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
-
-  /// @brief Method BooleanFailureMessage, addr 0x2ce8fd0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x2ddb88c, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
+  /// @brief Method GetEqualityMessage, addr 0x2ddbee0, size 0x1f4, virtual false, abstract: false, final false
+  static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
+
+  /// @brief Method GetMessage, addr 0x2ddc274, size 0xec, virtual false, abstract: false, final false
+  static inline ::StringW GetMessage(::StringW failureMessage);
+
+  /// @brief Method GetMessage, addr 0x2ddc360, size 0x158, virtual false, abstract: false, final false
+  static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
+
+  /// @brief Method NullFailureMessage, addr 0x2ddbb80, size 0x168, virtual false, abstract: false, final false
+  static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssertionMessageUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssertionMessageUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertionMessageUtil(AssertionMessageUtil&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssertionMessageUtil(AssertionMessageUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssertionMessageUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -21,12 +21,16 @@ MARK_REF_PTR_T(::System::ValueType);
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2639))
 // CS Name: ::System::ValueType*
 class CORDL_TYPE ValueType : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValueType() {}
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValueType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueType(ValueType&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValueType(ValueType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValueType() {}
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

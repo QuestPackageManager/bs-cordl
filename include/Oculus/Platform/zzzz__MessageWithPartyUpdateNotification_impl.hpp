@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithPartyUpdateNotification::*)(void*)>(
     &::Oculus::Platform::MessageWithPartyUpdateNotification::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26ef5b0;
+  constexpr static std::size_t addrs = 0x27e0eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyUpdateNotification* (::Oculus::Platform::MessageWithPartyUpdateNotification::*)()>(
     &::Oculus::Platform::MessageWithPartyUpdateNotification::GetPartyUpdateNotification)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26f3378;
+  constexpr static std::size_t addrs = 0x27e4c80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyUpdateNotification* (
     ::Oculus::Platform::MessageWithPartyUpdateNotification::*)(void*)>(&::Oculus::Platform::MessageWithPartyUpdateNotification::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f33b4;
+  constexpr static std::size_t addrs = 0x27e4cbc;
 
   inline static ::MethodInfo const* methodInfo() {
 

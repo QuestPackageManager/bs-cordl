@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableOnPlatform);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5365))
 // CS Name: ::DisableOnPlatform*
 class CORDL_TYPE DisableOnPlatform : public ::UnityEngine::MonoBehaviour {
 public:
@@ -28,20 +26,26 @@ public:
   __declspec(property(get = __cordl_internal_get__disabledPlatforms,
                       put = __cordl_internal_set__disabledPlatforms))::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> _disabledPlatforms;
 
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__disabledPlatforms();
-
-  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__disabledPlatforms() const;
-
-  constexpr void __cordl_internal_set__disabledPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
-
-  /// @brief Method Awake, addr 0x226c564, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x225016c, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableOnPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c5fc, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> const& __cordl_internal_get__disabledPlatforms() const;
+
+  constexpr ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>& __cordl_internal_get__disabledPlatforms();
+
+  constexpr void __cordl_internal_set__disabledPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
+
+  /// @brief Method .ctor, addr 0x2250204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisableOnPlatform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisableOnPlatform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableOnPlatform(DisableOnPlatform&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableOnPlatform(DisableOnPlatform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableOnPlatform();
-
-public:
   /// @brief Field _disabledPlatforms, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____disabledPlatforms;
 

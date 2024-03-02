@@ -23,18 +23,16 @@ MARK_VAL_T(::UnityEngine::__ScriptingUtility__TestClass);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10229))
 // CS Name: ::ScriptingUtility::TestClass
 struct CORDL_TYPE __ScriptingUtility__TestClass {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScriptingUtility__TestClass(int32_t value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ScriptingUtility__TestClass();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ScriptingUtility__TestClass(int32_t value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x4, def value: None
   int32_t value;
@@ -54,17 +52,21 @@ static_assert(offsetof(::UnityEngine::__ScriptingUtility__TestClass, value) == 0
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10230))
 // CS Name: ::UnityEngine::ScriptingUtility*
 class CORDL_TYPE ScriptingUtility : public ::System::Object {
 public:
   // Declarations
   using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x2cd3668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x2dc5c60, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptingUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptingUtility(ScriptingUtility&&) = delete;
@@ -73,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptingUtility(ScriptingUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptingUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

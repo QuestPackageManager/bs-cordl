@@ -25,68 +25,72 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4813))
 // CS Name: ::SliderHapticFeedbackInteractionEffect*
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
   // Declarations
-  /// @brief Field _hapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticPreset, put = __cordl_internal_set__hapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _hapticPreset;
+  /// @brief Field _gamePause, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _hapticFeedbackManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
-  /// @brief Field _gamePause, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  /// @brief Field _hapticPreset, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__hapticPreset, put = __cordl_internal_set__hapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _hapticPreset;
 
   /// @brief Field _saberType, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__hapticPreset();
+  /// @brief Method EndEffect, addr 0x24209f0, size 0xc, virtual true, abstract: false, final false
+  inline void EndEffect();
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__hapticPreset() const;
+  static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  constexpr void __cordl_internal_set__hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+  /// @brief Method Start, addr 0x2420730, size 0x40, virtual true, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+  /// @brief Method StartEffect, addr 0x24209a8, size 0x48, virtual true, abstract: false, final false
+  inline void StartEffect(float_t saberInteractionParam);
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+  /// @brief Method Update, addr 0x2420878, size 0xd4, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+  /// @brief Method Vibrate, addr 0x2420968, size 0x40, virtual false, abstract: false, final false
+  inline void Vibrate();
 
   constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__hapticPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__hapticPreset();
 
   constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
+
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+
+  constexpr void __cordl_internal_set__hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start, addr 0x2392c34, size 0x40, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x2392d7c, size 0xd4, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method StartEffect, addr 0x2392eac, size 0x48, virtual true, abstract: false, final false
-  inline void StartEffect(float_t saberInteractionParam);
-
-  /// @brief Method EndEffect, addr 0x2392ef4, size 0xc, virtual true, abstract: false, final false
-  inline void EndEffect();
-
-  /// @brief Method Vibrate, addr 0x2392e6c, size 0x40, virtual false, abstract: false, final false
-  inline void Vibrate();
-
-  static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2392f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24209fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderHapticFeedbackInteractionEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderHapticFeedbackInteractionEffect();
-
-public:
   /// @brief Field _hapticPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____hapticPreset;
 

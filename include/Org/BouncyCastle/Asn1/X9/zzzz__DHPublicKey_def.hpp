@@ -26,16 +26,25 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::DHPublicKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(412))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::DHPublicKey*
 class CORDL_TYPE DHPublicKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Y))::Org::BouncyCastle::Asn1::DerInteger* Y;
+
   /// @brief Field y, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Asn1::DerInteger* y;
 
-  __declspec(property(get = get_Y))::Org::BouncyCastle::Asn1::DerInteger* Y;
+  /// @brief Method GetInstance, addr 0x12184ac, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+
+  /// @brief Method GetInstance, addr 0x12184c4, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
+
+  /// @brief Method ToAsn1Object, addr 0x12186cc, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_y();
 
@@ -43,23 +52,18 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance, addr 0x11a864c, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
-
-  /// @brief Method GetInstance, addr 0x11a8664, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
-
-  /// @brief Method .ctor, addr 0x11a87ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121864c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
 
-  /// @brief Method get_Y, addr 0x11a8864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x12186c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Y();
 
-  /// @brief Method ToAsn1Object, addr 0x11a886c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DHPublicKey();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DHPublicKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DHPublicKey(DHPublicKey&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DHPublicKey(DHPublicKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHPublicKey();
-
-public:
   /// @brief Field y, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___y;
 

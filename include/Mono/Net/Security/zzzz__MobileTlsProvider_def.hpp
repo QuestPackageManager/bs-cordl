@@ -41,8 +41,6 @@ MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13782))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8838))
 // CS Name: ::Mono.Net.Security::MobileTlsProvider*
 class CORDL_TYPE MobileTlsProvider : public ::Mono::Security::Interface::MonoTlsProvider {
 public:
@@ -51,16 +49,22 @@ public:
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
+  static inline ::Mono::Net::Security::MobileTlsProvider* New_ctor();
+
   /// @brief Method ValidateCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11);
 
-  static inline ::Mono::Net::Security::MobileTlsProvider* New_ctor();
-
-  /// @brief Method .ctor, addr 0x281d6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MobileTlsProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MobileTlsProvider(MobileTlsProvider&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MobileTlsProvider(MobileTlsProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MobileTlsProvider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

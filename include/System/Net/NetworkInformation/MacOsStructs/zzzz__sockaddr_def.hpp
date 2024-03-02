@@ -15,18 +15,16 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9295))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr
 struct CORDL_TYPE sockaddr {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "sa_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sa_family", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr sockaddr(uint8_t sa_len, uint8_t sa_family) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr sockaddr();
+
+  // Ctor Parameters [CppParam { name: "sa_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sa_family", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr sockaddr(uint8_t sa_len, uint8_t sa_family) noexcept;
 
   /// @brief Field sa_len, offset: 0x0, size: 0x1, def value: None
   uint8_t sa_len;

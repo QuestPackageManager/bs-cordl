@@ -16,19 +16,17 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15913))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::IPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IPriorityQueue_2 {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Enqueue(TItem item, TPriority priority);
-
   /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem Dequeue();
+
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Enqueue(TItem item, TPriority priority);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();

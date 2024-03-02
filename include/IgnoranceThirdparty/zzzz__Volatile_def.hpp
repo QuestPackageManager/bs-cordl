@@ -24,8 +24,6 @@ MARK_VAL_T(::IgnoranceThirdparty::__Volatile__PaddedLong);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace IgnoranceThirdparty {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15211))
 // CS Name: ::Volatile::PaddedLong
 #pragma pack(push, 0)
 struct CORDL_TYPE __Volatile__PaddedLong {
@@ -34,63 +32,63 @@ public:
   /// @brief Field _value, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
 
-  constexpr int64_t& __cordl_internal_get__value();
+  /// @brief Method AtomicAddAndGet, addr 0x2350bb0, size 0xc, virtual false, abstract: false, final false
+  inline int64_t AtomicAddAndGet(int64_t delta);
+
+  /// @brief Method AtomicCompareExchange, addr 0x2350b80, size 0x24, virtual false, abstract: false, final false
+  inline bool AtomicCompareExchange(int64_t newValue, int64_t comparand);
+
+  /// @brief Method AtomicDecrementAndGet, addr 0x2350bc8, size 0xc, virtual false, abstract: false, final false
+  inline int64_t AtomicDecrementAndGet();
+
+  /// @brief Method AtomicExchange, addr 0x2350ba4, size 0xc, virtual false, abstract: false, final false
+  inline int64_t AtomicExchange(int64_t newValue);
+
+  /// @brief Method AtomicIncrementAndGet, addr 0x2350bbc, size 0xc, virtual false, abstract: false, final false
+  inline int64_t AtomicIncrementAndGet();
+
+  /// @brief Method ReadAcquireFence, addr 0x2350aa0, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t ReadAcquireFence();
+
+  /// @brief Method ReadCompilerOnlyFence, addr 0x2350ad8, size 0x24, virtual false, abstract: false, final false
+  inline int64_t ReadCompilerOnlyFence();
+
+  /// @brief Method ReadFullFence, addr 0x2350abc, size 0x1c, virtual false, abstract: false, final false
+  inline int64_t ReadFullFence();
+
+  /// @brief Method ReadUnfenced, addr 0x2350a98, size 0x8, virtual false, abstract: false, final false
+  inline int64_t ReadUnfenced();
+
+  /// @brief Method ToString, addr 0x2350bd4, size 0x34, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method WriteCompilerOnlyFence, addr 0x2350b4c, size 0x2c, virtual false, abstract: false, final false
+  inline void WriteCompilerOnlyFence(int64_t newValue);
+
+  /// @brief Method WriteFullFence, addr 0x2350b24, size 0x28, virtual false, abstract: false, final false
+  inline void WriteFullFence(int64_t newValue);
+
+  /// @brief Method WriteReleaseFence, addr 0x2350afc, size 0x28, virtual false, abstract: false, final false
+  inline void WriteReleaseFence(int64_t newValue);
+
+  /// @brief Method WriteUnfenced, addr 0x2350b78, size 0x8, virtual false, abstract: false, final false
+  inline void WriteUnfenced(int64_t newValue);
 
   constexpr int64_t const& __cordl_internal_get__value() const;
 
+  constexpr int64_t& __cordl_internal_get__value();
+
   constexpr void __cordl_internal_set__value(int64_t value);
 
-  /// @brief Method .ctor, addr 0x21eeb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2350a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
-
-  /// @brief Method ReadUnfenced, addr 0x21eeb48, size 0x8, virtual false, abstract: false, final false
-  inline int64_t ReadUnfenced();
-
-  /// @brief Method ReadAcquireFence, addr 0x21eeb50, size 0x1c, virtual false, abstract: false, final false
-  inline int64_t ReadAcquireFence();
-
-  /// @brief Method ReadFullFence, addr 0x21eeb6c, size 0x1c, virtual false, abstract: false, final false
-  inline int64_t ReadFullFence();
-
-  /// @brief Method ReadCompilerOnlyFence, addr 0x21eeb88, size 0x24, virtual false, abstract: false, final false
-  inline int64_t ReadCompilerOnlyFence();
-
-  /// @brief Method WriteReleaseFence, addr 0x21eebac, size 0x28, virtual false, abstract: false, final false
-  inline void WriteReleaseFence(int64_t newValue);
-
-  /// @brief Method WriteFullFence, addr 0x21eebd4, size 0x28, virtual false, abstract: false, final false
-  inline void WriteFullFence(int64_t newValue);
-
-  /// @brief Method WriteCompilerOnlyFence, addr 0x21eebfc, size 0x2c, virtual false, abstract: false, final false
-  inline void WriteCompilerOnlyFence(int64_t newValue);
-
-  /// @brief Method WriteUnfenced, addr 0x21eec28, size 0x8, virtual false, abstract: false, final false
-  inline void WriteUnfenced(int64_t newValue);
-
-  /// @brief Method AtomicCompareExchange, addr 0x21eec30, size 0x24, virtual false, abstract: false, final false
-  inline bool AtomicCompareExchange(int64_t newValue, int64_t comparand);
-
-  /// @brief Method AtomicExchange, addr 0x21eec54, size 0xc, virtual false, abstract: false, final false
-  inline int64_t AtomicExchange(int64_t newValue);
-
-  /// @brief Method AtomicAddAndGet, addr 0x21eec60, size 0xc, virtual false, abstract: false, final false
-  inline int64_t AtomicAddAndGet(int64_t delta);
-
-  /// @brief Method AtomicIncrementAndGet, addr 0x21eec6c, size 0xc, virtual false, abstract: false, final false
-  inline int64_t AtomicIncrementAndGet();
-
-  /// @brief Method AtomicDecrementAndGet, addr 0x21eec78, size 0xc, virtual false, abstract: false, final false
-  inline int64_t AtomicDecrementAndGet();
-
-  /// @brief Method ToString, addr 0x21eec84, size 0x34, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr __Volatile__PaddedLong(int64_t _value) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Volatile__PaddedLong();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr __Volatile__PaddedLong(int64_t _value) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -129,14 +127,18 @@ static_assert(::cordl_internals::size_check_v<::IgnoranceThirdparty::__Volatile_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace IgnoranceThirdparty {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15212))
 // CS Name: ::IgnoranceThirdparty::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
   // Declarations
   using PaddedLong = ::IgnoranceThirdparty::__Volatile__PaddedLong;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Volatile();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Volatile(Volatile&&) = delete;
@@ -145,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Volatile(Volatile const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Volatile();
-
-public:
   /// @brief Field CacheLineSize offset 0xffffffff size 0x4
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };
 

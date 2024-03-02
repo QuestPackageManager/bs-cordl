@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitAngle);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12622))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12623))
 // CS Name: ::RootMotion.FinalIK::RotationLimitAngle*
 class CORDL_TYPE RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit {
 public:
@@ -30,41 +28,47 @@ public:
   /// @brief Field twistLimit, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
-  constexpr float_t& __cordl_internal_get_limit();
-
-  constexpr float_t const& __cordl_internal_get_limit() const;
-
-  constexpr void __cordl_internal_set_limit(float_t value);
-
-  constexpr float_t& __cordl_internal_get_twistLimit();
-
-  constexpr float_t const& __cordl_internal_get_twistLimit() const;
-
-  constexpr void __cordl_internal_set_twistLimit(float_t value);
-
-  /// @brief Method OpenUserManual, addr 0x128f62c, size 0x44, virtual false, abstract: false, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x128f670, size 0x44, virtual false, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method SupportGroup, addr 0x128f6b4, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
-
-  /// @brief Method ASThread, addr 0x128f6f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1369794, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method LimitRotation, addr 0x128f73c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method LimitRotation, addr 0x13697d8, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method LimitSwing, addr 0x128f774, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method LimitSwing, addr 0x1369810, size 0x324, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
 
   static inline ::RootMotion::FinalIK::RotationLimitAngle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128fa98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x136970c, size 0x44, virtual false, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenUserManual, addr 0x13696c8, size 0x44, virtual false, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method SupportGroup, addr 0x1369750, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
+
+  constexpr float_t const& __cordl_internal_get_limit() const;
+
+  constexpr float_t& __cordl_internal_get_limit();
+
+  constexpr float_t const& __cordl_internal_get_twistLimit() const;
+
+  constexpr float_t& __cordl_internal_get_twistLimit();
+
+  constexpr void __cordl_internal_set_limit(float_t value);
+
+  constexpr void __cordl_internal_set_twistLimit(float_t value);
+
+  /// @brief Method .ctor, addr 0x1369b34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RotationLimitAngle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimitAngle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotationLimitAngle(RotationLimitAngle&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RotationLimitAngle(RotationLimitAngle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RotationLimitAngle();
-
-public:
   /// @brief Field limit, offset: 0x38, size: 0x4, def value: None
   float_t ___limit;
 

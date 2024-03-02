@@ -23,27 +23,31 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskSchedulerException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2758))
 // CS Name: ::System.Threading.Tasks::TaskSchedulerException*
 class CORDL_TYPE TaskSchedulerException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2620cfc, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2620d6c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Exception* innerException);
+  /// @brief Method .ctor, addr 0x271556c, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2620dec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271565c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x27155dc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Exception* innerException);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TaskSchedulerException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskSchedulerException(TaskSchedulerException&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TaskSchedulerException(TaskSchedulerException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskSchedulerException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAchievementDefinitions);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13408)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4570 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13268)) CS Name: ::Oculus.Platform::MessageWithAchievementDefinitions*
+// CS Name: ::Oculus.Platform::MessageWithAchievementDefinitions*
 class CORDL_TYPE MessageWithAchievementDefinitions : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementDefinitionList*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithAchievementDefinitions* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26ee8f8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetAchievementDefinitions, addr 0x26f0888, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementDefinitions, addr 0x27e2190, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f08c4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e21cc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementDefinitionList* GetDataFromMessage(void* c_message);
 
+  static inline ::Oculus::Platform::MessageWithAchievementDefinitions* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0200, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithAchievementDefinitions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAchievementDefinitions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithAchievementDefinitions(MessageWithAchievementDefinitions&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithAchievementDefinitions(MessageWithAchievementDefinitions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithAchievementDefinitions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

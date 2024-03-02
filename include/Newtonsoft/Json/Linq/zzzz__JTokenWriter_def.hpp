@@ -54,179 +54,183 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenWriter);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11843))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11995))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenWriter*
 class CORDL_TYPE JTokenWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
   // Declarations
-  /// @brief Field _token, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token))::Newtonsoft::Json::Linq::JContainer* _token;
-
-  /// @brief Field _parent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
-
-  /// @brief Field _value, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::Newtonsoft::Json::Linq::JValue* _value;
-
-  /// @brief Field _current, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
-
   __declspec(property(get = get_CurrentToken))::Newtonsoft::Json::Linq::JToken* CurrentToken;
 
   __declspec(property(get = get_Token))::Newtonsoft::Json::Linq::JToken* Token;
 
-  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__token();
+  /// @brief Field _current, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__token() const;
+  /// @brief Field _parent, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JContainer* _parent;
 
-  constexpr void __cordl_internal_set__token(::Newtonsoft::Json::Linq::JContainer* value);
+  /// @brief Field _token, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token))::Newtonsoft::Json::Linq::JContainer* _token;
 
-  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__parent();
+  /// @brief Field _value, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::Newtonsoft::Json::Linq::JValue* _value;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__parent() const;
+  /// @brief Method AddParent, addr 0x278d61c, size 0x3c, virtual false, abstract: false, final false
+  inline void AddParent(::Newtonsoft::Json::Linq::JContainer* container);
 
-  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JContainer* value);
+  /// @brief Method AddValue, addr 0x278d920, size 0x94, virtual false, abstract: false, final false
+  inline void AddValue(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::JsonToken token);
 
-  constexpr ::Newtonsoft::Json::Linq::JValue*& __cordl_internal_get__value();
+  /// @brief Method AddValue, addr 0x278d8ac, size 0x74, virtual false, abstract: false, final false
+  inline void AddValue(::System::Object* value, ::Newtonsoft::Json::JsonToken token);
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JValue*> const& __cordl_internal_get__value() const;
+  /// @brief Method Close, addr 0x278d590, size 0x8, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr void __cordl_internal_set__value(::Newtonsoft::Json::Linq::JValue* value);
+  /// @brief Method Flush, addr 0x278d58c, size 0x4, virtual true, abstract: false, final false
+  inline void Flush();
+
+  static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor();
+
+  static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor(::Newtonsoft::Json::Linq::JContainer* container);
+
+  /// @brief Method RemoveParent, addr 0x278d658, size 0x54, virtual false, abstract: false, final false
+  inline void RemoveParent();
+
+  /// @brief Method WriteComment, addr 0x278da84, size 0x38, virtual true, abstract: false, final false
+  inline void WriteComment(::StringW text);
+
+  /// @brief Method WriteEnd, addr 0x278d7c8, size 0x4, virtual true, abstract: false, final false
+  inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
+
+  /// @brief Method WriteNull, addr 0x278d9bc, size 0x20, virtual true, abstract: false, final false
+  inline void WriteNull();
+
+  /// @brief Method WritePropertyName, addr 0x278d7cc, size 0xe0, virtual true, abstract: false, final false
+  inline void WritePropertyName(::StringW name);
+
+  /// @brief Method WriteRaw, addr 0x278d9fc, size 0x88, virtual true, abstract: false, final false
+  inline void WriteRaw(::StringW json);
+
+  /// @brief Method WriteStartArray, addr 0x278d6ac, size 0x84, virtual true, abstract: false, final false
+  inline void WriteStartArray();
+
+  /// @brief Method WriteStartConstructor, addr 0x278d730, size 0x98, virtual true, abstract: false, final false
+  inline void WriteStartConstructor(::StringW name);
+
+  /// @brief Method WriteStartObject, addr 0x278d598, size 0x84, virtual true, abstract: false, final false
+  inline void WriteStartObject();
+
+  /// @brief Method WriteToken, addr 0x278e438, size 0x268, virtual true, abstract: false, final false
+  inline void WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments);
+
+  /// @brief Method WriteUndefined, addr 0x278d9dc, size 0x20, virtual true, abstract: false, final false
+  inline void WriteUndefined();
+
+  /// @brief Method WriteValue, addr 0x278e2d0, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method WriteValue, addr 0x278dabc, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(::StringW value);
+
+  /// @brief Method WriteValue, addr 0x278e18c, size 0xb8, virtual true, abstract: false, final false
+  inline void WriteValue(::System::DateTime value);
+
+  /// @brief Method WriteValue, addr 0x278e244, size 0x8c, virtual true, abstract: false, final false
+  inline void WriteValue(::System::DateTimeOffset value);
+
+  /// @brief Method WriteValue, addr 0x278e0d8, size 0xb4, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Decimal value);
+
+  /// @brief Method WriteValue, addr 0x278e37c, size 0x8c, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Guid value);
+
+  /// @brief Method WriteValue, addr 0x278d9b4, size 0x8, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Object* value);
+
+  /// @brief Method WriteValue, addr 0x278e300, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(::System::TimeSpan value);
+
+  /// @brief Method WriteValue, addr 0x278e408, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Uri* value);
+
+  /// @brief Method WriteValue, addr 0x278ddd4, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(bool value);
+
+  /// @brief Method WriteValue, addr 0x278df48, size 0x98, virtual true, abstract: false, final false
+  inline void WriteValue(char16_t value);
+
+  /// @brief Method WriteValue, addr 0x278dd58, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(double_t value);
+
+  /// @brief Method WriteValue, addr 0x278dcdc, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(float_t value);
+
+  /// @brief Method WriteValue, addr 0x278de50, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(int16_t value);
+
+  /// @brief Method WriteValue, addr 0x278daec, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(int32_t value);
+
+  /// @brief Method WriteValue, addr 0x278dbe4, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(int64_t value);
+
+  /// @brief Method WriteValue, addr 0x278e05c, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(int8_t value);
+
+  /// @brief Method WriteValue, addr 0x278decc, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(uint16_t value);
+
+  /// @brief Method WriteValue, addr 0x278db68, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(uint32_t value);
+
+  /// @brief Method WriteValue, addr 0x278dc60, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(uint64_t value);
+
+  /// @brief Method WriteValue, addr 0x278dfe0, size 0x7c, virtual true, abstract: false, final false
+  inline void WriteValue(uint8_t value);
 
   constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__current();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__current() const;
 
+  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__parent();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__parent() const;
+
+  constexpr ::Newtonsoft::Json::Linq::JContainer*& __cordl_internal_get__token();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JContainer*> const& __cordl_internal_get__token() const;
+
+  constexpr ::Newtonsoft::Json::Linq::JValue*& __cordl_internal_get__value();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JValue*> const& __cordl_internal_get__value() const;
+
   constexpr void __cordl_internal_set__current(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method get_CurrentToken, addr 0x269cc08, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JContainer* value);
 
-  /// @brief Method get_Token, addr 0x269cc10, size 0x1c, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JToken* get_Token();
+  constexpr void __cordl_internal_set__token(::Newtonsoft::Json::Linq::JContainer* value);
 
-  static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor(::Newtonsoft::Json::Linq::JContainer* container);
+  constexpr void __cordl_internal_set__value(::Newtonsoft::Json::Linq::JValue* value);
 
-  /// @brief Method .ctor, addr 0x2696698, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::Newtonsoft::Json::Linq::JContainer* container);
-
-  static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x269cc2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278d534, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Flush, addr 0x269cc84, size 0x4, virtual true, abstract: false, final false
-  inline void Flush();
+  /// @brief Method .ctor, addr 0x2786fa0, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::Newtonsoft::Json::Linq::JContainer* container);
 
-  /// @brief Method Close, addr 0x269cc88, size 0x8, virtual true, abstract: false, final false
-  inline void Close();
+  /// @brief Method get_CurrentToken, addr 0x278d510, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
 
-  /// @brief Method WriteStartObject, addr 0x269cc90, size 0x84, virtual true, abstract: false, final false
-  inline void WriteStartObject();
+  /// @brief Method get_Token, addr 0x278d518, size 0x1c, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::JToken* get_Token();
 
-  /// @brief Method AddParent, addr 0x269cd14, size 0x3c, virtual false, abstract: false, final false
-  inline void AddParent(::Newtonsoft::Json::Linq::JContainer* container);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JTokenWriter();
 
-  /// @brief Method RemoveParent, addr 0x269cd50, size 0x54, virtual false, abstract: false, final false
-  inline void RemoveParent();
-
-  /// @brief Method WriteStartArray, addr 0x269cda4, size 0x84, virtual true, abstract: false, final false
-  inline void WriteStartArray();
-
-  /// @brief Method WriteStartConstructor, addr 0x269ce28, size 0x98, virtual true, abstract: false, final false
-  inline void WriteStartConstructor(::StringW name);
-
-  /// @brief Method WriteEnd, addr 0x269cec0, size 0x4, virtual true, abstract: false, final false
-  inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
-
-  /// @brief Method WritePropertyName, addr 0x269cec4, size 0xe0, virtual true, abstract: false, final false
-  inline void WritePropertyName(::StringW name);
-
-  /// @brief Method AddValue, addr 0x269cfa4, size 0x74, virtual false, abstract: false, final false
-  inline void AddValue(::System::Object* value, ::Newtonsoft::Json::JsonToken token);
-
-  /// @brief Method AddValue, addr 0x269d018, size 0x94, virtual false, abstract: false, final false
-  inline void AddValue(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::JsonToken token);
-
-  /// @brief Method WriteValue, addr 0x269d0ac, size 0x8, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Object* value);
-
-  /// @brief Method WriteNull, addr 0x269d0b4, size 0x20, virtual true, abstract: false, final false
-  inline void WriteNull();
-
-  /// @brief Method WriteUndefined, addr 0x269d0d4, size 0x20, virtual true, abstract: false, final false
-  inline void WriteUndefined();
-
-  /// @brief Method WriteRaw, addr 0x269d0f4, size 0x88, virtual true, abstract: false, final false
-  inline void WriteRaw(::StringW json);
-
-  /// @brief Method WriteComment, addr 0x269d17c, size 0x38, virtual true, abstract: false, final false
-  inline void WriteComment(::StringW text);
-
-  /// @brief Method WriteValue, addr 0x269d1b4, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(::StringW value);
-
-  /// @brief Method WriteValue, addr 0x269d1e4, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(int32_t value);
-
-  /// @brief Method WriteValue, addr 0x269d260, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(uint32_t value);
-
-  /// @brief Method WriteValue, addr 0x269d2dc, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(int64_t value);
-
-  /// @brief Method WriteValue, addr 0x269d358, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(uint64_t value);
-
-  /// @brief Method WriteValue, addr 0x269d3d4, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(float_t value);
-
-  /// @brief Method WriteValue, addr 0x269d450, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(double_t value);
-
-  /// @brief Method WriteValue, addr 0x269d4cc, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(bool value);
-
-  /// @brief Method WriteValue, addr 0x269d548, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(int16_t value);
-
-  /// @brief Method WriteValue, addr 0x269d5c4, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(uint16_t value);
-
-  /// @brief Method WriteValue, addr 0x269d640, size 0x98, virtual true, abstract: false, final false
-  inline void WriteValue(char16_t value);
-
-  /// @brief Method WriteValue, addr 0x269d6d8, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(uint8_t value);
-
-  /// @brief Method WriteValue, addr 0x269d754, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(int8_t value);
-
-  /// @brief Method WriteValue, addr 0x269d7d0, size 0xb4, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Decimal value);
-
-  /// @brief Method WriteValue, addr 0x269d884, size 0xb8, virtual true, abstract: false, final false
-  inline void WriteValue(::System::DateTime value);
-
-  /// @brief Method WriteValue, addr 0x269d93c, size 0x8c, virtual true, abstract: false, final false
-  inline void WriteValue(::System::DateTimeOffset value);
-
-  /// @brief Method WriteValue, addr 0x269d9c8, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method WriteValue, addr 0x269d9f8, size 0x7c, virtual true, abstract: false, final false
-  inline void WriteValue(::System::TimeSpan value);
-
-  /// @brief Method WriteValue, addr 0x269da74, size 0x8c, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Guid value);
-
-  /// @brief Method WriteValue, addr 0x269db00, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Uri* value);
-
-  /// @brief Method WriteToken, addr 0x269db30, size 0x268, virtual true, abstract: false, final false
-  inline void WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JTokenWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JTokenWriter(JTokenWriter&&) = delete;
@@ -235,12 +239,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JTokenWriter(JTokenWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JTokenWriter();
-
-public:
   /// @brief Field _token, offset: 0x60, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JContainer* ____token;
 

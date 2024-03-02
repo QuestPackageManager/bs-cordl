@@ -38,8 +38,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10851)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10851), inst: 1909 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10706))
 // CS Name: ::Zenject::FactoryArgumentsToChoiceBinder`3<TParam1,TParam2,TContract>*
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_3 : public ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract> {
 public:
@@ -47,8 +45,8 @@ public:
   static inline ::Zenject::FactoryArgumentsToChoiceBinder_3<TParam1, TParam2, TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                                    ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* WithFactoryArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* WithFactoryArguments(T param);
@@ -75,12 +73,18 @@ public:
   inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* WithFactoryArguments(TFactoryParam1 param1, TFactoryParam2 param2, TFactoryParam3 param3, TFactoryParam4 param4,
                                                                                                TFactoryParam5 param5, TFactoryParam6 param6);
 
-  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* WithFactoryArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
   /// @brief Method WithFactoryArgumentsExplicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* WithFactoryArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FactoryArgumentsToChoiceBinder_3();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryArgumentsToChoiceBinder_3(FactoryArgumentsToChoiceBinder_3&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FactoryArgumentsToChoiceBinder_3(FactoryArgumentsToChoiceBinder_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FactoryArgumentsToChoiceBinder_3();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

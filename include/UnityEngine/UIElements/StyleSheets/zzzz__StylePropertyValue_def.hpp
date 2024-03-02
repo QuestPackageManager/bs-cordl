@@ -21,19 +21,17 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValue);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7277))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7462))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyValue
 struct CORDL_TYPE StylePropertyValue {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handle", ty:
-  // "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
-  constexpr StylePropertyValue(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleValueHandle handle) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr StylePropertyValue();
+
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handle", ty:
+  // "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
+  constexpr StylePropertyValue(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleValueHandle handle) noexcept;
 
   /// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet;

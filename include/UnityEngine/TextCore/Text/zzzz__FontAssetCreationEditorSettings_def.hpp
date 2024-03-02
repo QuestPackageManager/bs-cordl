@@ -17,12 +17,14 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13679))
 // CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
 struct CORDL_TYPE FontAssetCreationEditorSettings {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontAssetCreationEditorSettings();
+
   // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
   // { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "",
@@ -34,10 +36,6 @@ public:
   constexpr FontAssetCreationEditorSettings(::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding, int32_t packingMode, int32_t atlasWidth,
                                             int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence, ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID,
                                             int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode, bool includeFontFeatures) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontAssetCreationEditorSettings();
 
   /// @brief Field sourceFontFileGUID, offset: 0x0, size: 0x8, def value: None
   ::StringW sourceFontFileGUID;

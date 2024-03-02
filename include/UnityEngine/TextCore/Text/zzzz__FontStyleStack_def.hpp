@@ -18,20 +18,22 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyleStack);
 // SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 10, calculated_native_size: 26, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
 // CS Name: ::UnityEngine.TextCore.Text::FontStyleStack
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x2d4a820, size 0xc, virtual false, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Add, addr 0x2d4a82c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2e559fc, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Remove, addr 0x2d4a928, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2e559f0, size 0xc, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Remove, addr 0x2e55af8, size 0x120, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontStyleStack();
 
   // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "underline", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "strikethrough", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "highlight", ty: "uint8_t",
@@ -40,10 +42,6 @@ public:
   // "uint8_t", modifiers: "", def_value: None }]
   constexpr FontStyleStack(uint8_t bold, uint8_t italic, uint8_t underline, uint8_t strikethrough, uint8_t highlight, uint8_t superscript, uint8_t subscript, uint8_t uppercase, uint8_t lowercase,
                            uint8_t smallcaps) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontStyleStack();
 
   /// @brief Field bold, offset: 0x0, size: 0x1, def value: None
   uint8_t bold;

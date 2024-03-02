@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(926))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::X448KeyPairGenerator*
 class CORDL_TYPE X448KeyPairGenerator : public ::System::Object {
 public:
@@ -38,8 +36,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+  /// @brief Method GenerateKeyPair, addr 0xf77ea0, size 0xb0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+
+  /// @brief Method Init, addr 0xf77e84, size 0x1c, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator* New_ctor();
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
@@ -47,17 +50,18 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf07024, size 0x1c, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
-
-  /// @brief Method GenerateKeyPair, addr 0xf07040, size 0xb0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
-
-  static inline ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf070f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf77f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X448KeyPairGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X448KeyPairGenerator(X448KeyPairGenerator&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X448KeyPairGenerator(X448KeyPairGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X448KeyPairGenerator();
-
-public:
   /// @brief Field random, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 

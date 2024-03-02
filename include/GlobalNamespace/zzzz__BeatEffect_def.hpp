@@ -51,25 +51,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
 // CS Name: ::BeatEffect*
 class CORDL_TYPE BeatEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__BeatEffect__Pool;
 
+  /// @brief Field _animationDuration, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
+
+  /// @brief Field _color, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+
+  /// @brief Field _didFinishEvent, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__didFinishEvent,
+                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* _didFinishEvent;
+
+  /// @brief Field _elapsedTime, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get__elapsedTime, put = __cordl_internal_set__elapsedTime)) float_t _elapsedTime;
+
+  /// @brief Field _lightIntensityCurve, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve))::UnityEngine::AnimationCurve* _lightIntensityCurve;
+
   /// @brief Field _spriteRenderer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
   /// @brief Field _spriteTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteTransform, put = __cordl_internal_set__spriteTransform))::UnityW<::UnityEngine::Transform> _spriteTransform;
-
-  /// @brief Field _tubeBloomPrePassLight, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
-
-  /// @brief Field _lightIntensityCurve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve))::UnityEngine::AnimationCurve* _lightIntensityCurve;
 
   /// @brief Field _spriteXScaleCurve, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteXScaleCurve, put = __cordl_internal_set__spriteXScaleCurve))::UnityEngine::AnimationCurve* _spriteXScaleCurve;
@@ -80,101 +88,97 @@ public:
   /// @brief Field _transparencyCurve, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transparencyCurve, put = __cordl_internal_set__transparencyCurve))::UnityEngine::AnimationCurve* _transparencyCurve;
 
-  /// @brief Field _didFinishEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__didFinishEvent,
-                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* _didFinishEvent;
-
-  /// @brief Field _animationDuration, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
-
-  /// @brief Field _elapsedTime, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__elapsedTime, put = __cordl_internal_set__elapsedTime)) float_t _elapsedTime;
-
-  /// @brief Field _color, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _tubeBloomPrePassLight, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
+  /// @brief Method Init, addr 0x2425350, size 0xb8, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
+  /// @brief Method ManualUpdate, addr 0x2425408, size 0x2dc, virtual false, abstract: false, final false
+  inline void ManualUpdate(float_t deltaTime);
 
-  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
+  static inline ::GlobalNamespace::BeatEffect* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__spriteTransform();
+  constexpr float_t const& __cordl_internal_get__animationDuration() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__spriteTransform() const;
+  constexpr float_t& __cordl_internal_get__animationDuration();
 
-  constexpr void __cordl_internal_set__spriteTransform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
-
-  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
-
-  constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lightIntensityCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__lightIntensityCurve() const;
-
-  constexpr void __cordl_internal_set__lightIntensityCurve(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteXScaleCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteXScaleCurve() const;
-
-  constexpr void __cordl_internal_set__spriteXScaleCurve(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteYScaleCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteYScaleCurve() const;
-
-  constexpr void __cordl_internal_set__spriteYScaleCurve(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__transparencyCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__transparencyCurve() const;
-
-  constexpr void __cordl_internal_set__transparencyCurve(::UnityEngine::AnimationCurve* value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*> const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* value);
-
-  constexpr float_t& __cordl_internal_get__animationDuration();
-
-  constexpr float_t const& __cordl_internal_get__animationDuration() const;
-
-  constexpr void __cordl_internal_set__animationDuration(float_t value);
+  constexpr float_t const& __cordl_internal_get__elapsedTime() const;
 
   constexpr float_t& __cordl_internal_get__elapsedTime();
 
-  constexpr float_t const& __cordl_internal_get__elapsedTime() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lightIntensityCurve();
 
-  constexpr void __cordl_internal_set__elapsedTime(float_t value);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__lightIntensityCurve() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__spriteTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__spriteTransform();
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteXScaleCurve();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteXScaleCurve() const;
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteYScaleCurve();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteYScaleCurve() const;
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__transparencyCurve();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__transparencyCurve() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
+
+  constexpr void __cordl_internal_set__animationDuration(float_t value);
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_didFinishEvent, addr 0x23962d0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
+  constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* value);
 
-  /// @brief Method Init, addr 0x23962d8, size 0xb8, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
+  constexpr void __cordl_internal_set__elapsedTime(float_t value);
 
-  /// @brief Method ManualUpdate, addr 0x2396390, size 0x2dc, virtual false, abstract: false, final false
-  inline void ManualUpdate(float_t deltaTime);
+  constexpr void __cordl_internal_set__lightIntensityCurve(::UnityEngine::AnimationCurve* value);
 
-  static inline ::GlobalNamespace::BeatEffect* New_ctor();
+  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x239666c, size 0x7c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__spriteTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__spriteXScaleCurve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set__spriteYScaleCurve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set__transparencyCurve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
+
+  /// @brief Method .ctor, addr 0x24256e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_didFinishEvent, addr 0x2425348, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffect(BeatEffect&&) = delete;
@@ -183,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatEffect(BeatEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatEffect();
-
-public:
   /// @brief Field _spriteRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
@@ -254,16 +252,21 @@ static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offse
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4837)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2808 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
+// CS Name: ::BeatEffect::Pool*
 class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23966e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2425760, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatEffect__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatEffect__Pool(__BeatEffect__Pool&&) = delete;
@@ -272,12 +275,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatEffect__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

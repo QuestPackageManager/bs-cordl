@@ -47,144 +47,147 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePain
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9994)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 756 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7451)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
+// CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
 class CORDL_TYPE UIRTextUpdatePainter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_CurrentElement, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CurrentElement, put = __cordl_internal_set_m_CurrentElement))::UnityEngine::UIElements::VisualElement* m_CurrentElement;
-
-  /// @brief Field m_TextEntryIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_TextEntryIndex, put = __cordl_internal_set_m_TextEntryIndex)) int32_t m_TextEntryIndex;
-
-  /// @brief Field m_DudVerts, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_DudVerts, put = __cordl_internal_set_m_DudVerts))::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> m_DudVerts;
-
-  /// @brief Field m_DudIndices, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_DudIndices, put = __cordl_internal_set_m_DudIndices))::Unity::Collections::NativeArray_1<uint16_t> m_DudIndices;
-
-  /// @brief Field m_MeshDataVerts, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_MeshDataVerts, put = __cordl_internal_set_m_MeshDataVerts))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_MeshDataVerts;
-
-  /// @brief Field m_XFormClipPages, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_XFormClipPages, put = __cordl_internal_set_m_XFormClipPages))::UnityEngine::Color32 m_XFormClipPages;
-
-  /// @brief Field m_IDs, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_IDs, put = __cordl_internal_set_m_IDs))::UnityEngine::Color32 m_IDs;
-
-  /// @brief Field m_Flags, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::Color32 m_Flags;
-
-  /// @brief Field m_OpacityColorPages, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_OpacityColorPages, put = __cordl_internal_set_m_OpacityColorPages))::UnityEngine::Color32 m_OpacityColorPages;
-
   /// @brief Field <meshGenerationContext>k__BackingField, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__meshGenerationContext_k__BackingField,
                       put = __cordl_internal_set__meshGenerationContext_k__BackingField))::UnityEngine::UIElements::MeshGenerationContext* _meshGenerationContext_k__BackingField;
 
+  /// @brief Field m_CurrentElement, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CurrentElement, put = __cordl_internal_set_m_CurrentElement))::UnityEngine::UIElements::VisualElement* m_CurrentElement;
+
+  /// @brief Field m_DudIndices, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_DudIndices, put = __cordl_internal_set_m_DudIndices))::Unity::Collections::NativeArray_1<uint16_t> m_DudIndices;
+
+  /// @brief Field m_DudVerts, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_DudVerts, put = __cordl_internal_set_m_DudVerts))::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> m_DudVerts;
+
+  /// @brief Field m_Flags, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::Color32 m_Flags;
+
+  /// @brief Field m_IDs, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_IDs, put = __cordl_internal_set_m_IDs))::UnityEngine::Color32 m_IDs;
+
+  /// @brief Field m_MeshDataVerts, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_MeshDataVerts, put = __cordl_internal_set_m_MeshDataVerts))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> m_MeshDataVerts;
+
+  /// @brief Field m_OpacityColorPages, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_OpacityColorPages, put = __cordl_internal_set_m_OpacityColorPages))::UnityEngine::Color32 m_OpacityColorPages;
+
+  /// @brief Field m_TextEntryIndex, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_TextEntryIndex, put = __cordl_internal_set_m_TextEntryIndex)) int32_t m_TextEntryIndex;
+
+  /// @brief Field m_XFormClipPages, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_XFormClipPages, put = __cordl_internal_set_m_XFormClipPages))::UnityEngine::Color32 m_XFormClipPages;
+
   __declspec(property(get = get_meshGenerationContext))::UnityEngine::UIElements::MeshGenerationContext* meshGenerationContext;
-
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStylePainter"
-  constexpr operator ::UnityEngine::UIElements::IStylePainter*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::UIElements::IStylePainter"
-  constexpr ::UnityEngine::UIElements::IStylePainter* i___UnityEngine__UIElements__IStylePainter() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UIElements::IStylePainter"
+  constexpr operator ::UnityEngine::UIElements::IStylePainter*() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CurrentElement();
+  /// @brief Method Begin, addr 0x2eedd20, size 0x244, virtual false, abstract: false, final false
+  inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CurrentElement() const;
+  /// @brief Method Dispose, addr 0x2eedff0, size 0xc4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void __cordl_internal_set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value);
+  /// @brief Method DrawImmediate, addr 0x2eee0b8, size 0x4, virtual true, abstract: false, final true
+  inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  constexpr int32_t& __cordl_internal_get_m_TextEntryIndex();
+  /// @brief Method DrawRectangle, addr 0x2eee0b4, size 0x4, virtual true, abstract: false, final true
+  inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  constexpr int32_t const& __cordl_internal_get_m_TextEntryIndex() const;
+  /// @brief Method DrawText, addr 0x2eee0bc, size 0x368, virtual true, abstract: false, final true
+  inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  constexpr void __cordl_internal_set_m_TextEntryIndex(int32_t value);
+  /// @brief Method End, addr 0x2eedf64, size 0x8c, virtual false, abstract: false, final false
+  inline void End();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_DudVerts();
-
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_DudVerts() const;
-
-  constexpr void __cordl_internal_set_m_DudVerts(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value);
-
-  constexpr ::Unity::Collections::NativeArray_1<uint16_t>& __cordl_internal_get_m_DudIndices();
-
-  constexpr ::Unity::Collections::NativeArray_1<uint16_t> const& __cordl_internal_get_m_DudIndices() const;
-
-  constexpr void __cordl_internal_set_m_DudIndices(::Unity::Collections::NativeArray_1<uint16_t> value);
-
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_MeshDataVerts();
-
-  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_MeshDataVerts() const;
-
-  constexpr void __cordl_internal_set_m_MeshDataVerts(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
-
-  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_XFormClipPages();
-
-  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_XFormClipPages() const;
-
-  constexpr void __cordl_internal_set_m_XFormClipPages(::UnityEngine::Color32 value);
-
-  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_IDs();
-
-  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_IDs() const;
-
-  constexpr void __cordl_internal_set_m_IDs(::UnityEngine::Color32 value);
-
-  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_Flags();
-
-  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_Flags() const;
-
-  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::Color32 value);
-
-  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_OpacityColorPages();
-
-  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_OpacityColorPages() const;
-
-  constexpr void __cordl_internal_set_m_OpacityColorPages(::UnityEngine::Color32 value);
+  static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
 
   constexpr ::UnityEngine::UIElements::MeshGenerationContext*& __cordl_internal_get__meshGenerationContext_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::MeshGenerationContext*> const& __cordl_internal_get__meshGenerationContext_k__BackingField() const;
 
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CurrentElement();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CurrentElement() const;
+
+  constexpr ::Unity::Collections::NativeArray_1<uint16_t> const& __cordl_internal_get_m_DudIndices() const;
+
+  constexpr ::Unity::Collections::NativeArray_1<uint16_t>& __cordl_internal_get_m_DudIndices();
+
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_DudVerts() const;
+
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_DudVerts();
+
+  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_Flags() const;
+
+  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_Flags();
+
+  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_IDs() const;
+
+  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_IDs();
+
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& __cordl_internal_get_m_MeshDataVerts() const;
+
+  constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& __cordl_internal_get_m_MeshDataVerts();
+
+  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_OpacityColorPages() const;
+
+  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_OpacityColorPages();
+
+  constexpr int32_t const& __cordl_internal_get_m_TextEntryIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_TextEntryIndex();
+
+  constexpr ::UnityEngine::Color32 const& __cordl_internal_get_m_XFormClipPages() const;
+
+  constexpr ::UnityEngine::Color32& __cordl_internal_get_m_XFormClipPages();
+
   constexpr void __cordl_internal_set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value);
 
-  /// @brief Method get_meshGenerationContext, addr 0x2ddf198, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
+  constexpr void __cordl_internal_set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value);
 
-  static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
+  constexpr void __cordl_internal_set_m_DudIndices(::Unity::Collections::NativeArray_1<uint16_t> value);
 
-  /// @brief Method .ctor, addr 0x2ddf1a0, size 0x70, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_DudVerts(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value);
+
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::Color32 value);
+
+  constexpr void __cordl_internal_set_m_IDs(::UnityEngine::Color32 value);
+
+  constexpr void __cordl_internal_set_m_MeshDataVerts(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
+
+  constexpr void __cordl_internal_set_m_OpacityColorPages(::UnityEngine::Color32 value);
+
+  constexpr void __cordl_internal_set_m_TextEntryIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_XFormClipPages(::UnityEngine::Color32 value);
+
+  /// @brief Method .ctor, addr 0x2eedcb0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Begin, addr 0x2ddf210, size 0x244, virtual false, abstract: false, final false
-  inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
+  /// @brief Method get_meshGenerationContext, addr 0x2eedca8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
-  /// @brief Method End, addr 0x2ddf454, size 0x8c, virtual false, abstract: false, final false
-  inline void End();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x2ddf4e0, size 0xc4, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::UnityEngine::UIElements::IStylePainter"
+  constexpr ::UnityEngine::UIElements::IStylePainter* i___UnityEngine__UIElements__IStylePainter() noexcept;
 
-  /// @brief Method DrawRectangle, addr 0x2ddf5a4, size 0x4, virtual true, abstract: false, final true
-  inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIRTextUpdatePainter();
 
-  /// @brief Method DrawImmediate, addr 0x2ddf5a8, size 0x4, virtual true, abstract: false, final true
-  inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
-
-  /// @brief Method DrawText, addr 0x2ddf5ac, size 0x368, virtual true, abstract: false, final true
-  inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIRTextUpdatePainter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRTextUpdatePainter(UIRTextUpdatePainter&&) = delete;
@@ -193,12 +196,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIRTextUpdatePainter(UIRTextUpdatePainter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIRTextUpdatePainter();
-
-public:
   /// @brief Field m_CurrentElement, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CurrentElement;
 

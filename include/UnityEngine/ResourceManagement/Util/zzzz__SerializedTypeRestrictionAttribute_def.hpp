@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13980))
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedTypeRestrictionAttribute*
 class CORDL_TYPE SerializedTypeRestrictionAttribute : public ::System::Attribute {
 public:
@@ -26,17 +24,23 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
+  static inline ::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute* New_ctor();
+
   constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  static inline ::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2bd2450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb9090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializedTypeRestrictionAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SerializedTypeRestrictionAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializedTypeRestrictionAttribute(SerializedTypeRestrictionAttribute&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializedTypeRestrictionAttribute(SerializedTypeRestrictionAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerializedTypeRestrictionAttribute();
-
-public:
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 

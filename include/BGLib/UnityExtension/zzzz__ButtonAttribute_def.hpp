@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::ButtonAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15879))
 // CS Name: ::BGLib.UnityExtension::ButtonAttribute*
 class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field title, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
 
-  constexpr ::StringW& __cordl_internal_get_title();
+  static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
 
   constexpr ::StringW const& __cordl_internal_get_title() const;
 
+  constexpr ::StringW& __cordl_internal_get_title();
+
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
-
-  /// @brief Method .ctor, addr 0xe28e18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99b48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ButtonAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ButtonAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonAttribute(ButtonAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonAttribute(ButtonAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonAttribute();
-
-public:
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;
 

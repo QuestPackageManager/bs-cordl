@@ -32,8 +32,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent);
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6529)), TypeDefinitionIndex(TypeDefinitionIndex(6530))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6526))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE IMECompositionEvent {
@@ -50,34 +48,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
+  /// @brief Method Create, addr 0x2bd09ac, size 0xf4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString& __cordl_internal_get_compositionString();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString const& __cordl_internal_get_compositionString() const;
 
+  constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString& __cordl_internal_get_compositionString();
+
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+
   constexpr void __cordl_internal_set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
 
-  /// @brief Method get_typeStatic, addr 0x2ae9d4c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bd098c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae9d6c, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time);
-
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty:
-  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }]
-  constexpr IMECompositionEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IMECompositionEvent();
+
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty:
+  // "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }]
+  constexpr IMECompositionEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -113,14 +111,14 @@ private:
   };
 
 public:
+  /// @brief Field Type offset 0xffffffff size 0x4
+  static constexpr int32_t Type{ static_cast<int32_t>(0x494d4553) };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
 
   /// @brief Field kIMECharBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kIMECharBufferSize{ static_cast<int32_t>(0x40) };
-
-  /// @brief Field Type offset 0xffffffff size 0x4
-  static constexpr int32_t Type{ static_cast<int32_t>(0x494d4553) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::__UnhandledExceptionHandler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10226))
 // CS Name: ::UnhandledExceptionHandler::<>c*
 class CORDL_TYPE __UnhandledExceptionHandler____c : public ::System::Object {
 public:
@@ -42,22 +40,28 @@ public:
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::UnhandledExceptionEventHandler* __9__0_0;
 
-  static inline void setStaticF___9(::UnityEngine::__UnhandledExceptionHandler____c* value);
+  static inline ::UnityEngine::__UnhandledExceptionHandler____c* New_ctor();
+
+  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x2dc5b60, size 0xb4, virtual false, abstract: false, final false
+  inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
+
+  /// @brief Method .ctor, addr 0x2dc5b58, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::__UnhandledExceptionHandler____c* getStaticF___9();
 
-  static inline void setStaticF___9__0_0(::System::UnhandledExceptionEventHandler* value);
-
   static inline ::System::UnhandledExceptionEventHandler* getStaticF___9__0_0();
 
-  static inline ::UnityEngine::__UnhandledExceptionHandler____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::__UnhandledExceptionHandler____c* value);
 
-  /// @brief Method .ctor, addr 0x2cd3560, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__0_0(::System::UnhandledExceptionEventHandler* value);
 
-  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x2cd3568, size 0xb4, virtual false, abstract: false, final false
-  inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnhandledExceptionHandler____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UnhandledExceptionHandler____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UnhandledExceptionHandler____c(__UnhandledExceptionHandler____c&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnhandledExceptionHandler____c(__UnhandledExceptionHandler____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnhandledExceptionHandler____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,17 +80,21 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__UnhandledExceptio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10227))
 // CS Name: ::UnityEngine::UnhandledExceptionHandler*
 class CORDL_TYPE UnhandledExceptionHandler : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::__UnhandledExceptionHandler____c;
 
-  /// @brief Method RegisterUECatcher, addr 0x2cd3404, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RegisterUECatcher, addr 0x2dc59fc, size 0xf8, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnhandledExceptionHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnhandledExceptionHandler(UnhandledExceptionHandler&&) = delete;
@@ -101,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnhandledExceptionHandler(UnhandledExceptionHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnhandledExceptionHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

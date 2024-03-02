@@ -41,21 +41,19 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSaturationValueSlider);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13559))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16175))
 // CS Name: ::ColorSaturationValueSlider*
 class CORDL_TYPE ColorSaturationValueSlider : public ::HMUI::Slider2D {
 public:
   // Declarations
-  /// @brief Field _hue, offset 0x124, size 0x4
-  __declspec(property(get = __cordl_internal_get__hue, put = __cordl_internal_set__hue)) float_t _hue;
+  /// @brief Field _darkColor, offset 0x130, size 0x10
+  __declspec(property(get = __cordl_internal_get__darkColor, put = __cordl_internal_set__darkColor))::UnityEngine::Color _darkColor;
 
   /// @brief Field _graphics, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get__graphics,
                       put = __cordl_internal_set__graphics))::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> _graphics;
 
-  /// @brief Field _darkColor, offset 0x130, size 0x10
-  __declspec(property(get = __cordl_internal_get__darkColor, put = __cordl_internal_set__darkColor))::UnityEngine::Color _darkColor;
+  /// @brief Field _hue, offset 0x124, size 0x4
+  __declspec(property(get = __cordl_internal_get__hue, put = __cordl_internal_set__hue)) float_t _hue;
 
   /// @brief Field _lightColor, offset 0x140, size 0x10
   __declspec(property(get = __cordl_internal_get__lightColor, put = __cordl_internal_set__lightColor))::UnityEngine::Color _lightColor;
@@ -65,41 +63,47 @@ public:
                       put = __cordl_internal_set_colorSaturationOrValueDidChangeEvent))::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2,
                                                                                                           ::GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
-
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  constexpr float_t& __cordl_internal_get__hue();
+  /// @brief Method Awake, addr 0x24d09a8, size 0x90, virtual true, abstract: false, final false
+  inline void Awake();
 
-  constexpr float_t const& __cordl_internal_get__hue() const;
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x24d0c14, size 0x24, virtual false, abstract: false, final false
+  inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
 
-  constexpr void __cordl_internal_set__hue(float_t value);
+  static inline ::GlobalNamespace::ColorSaturationValueSlider* New_ctor();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__graphics();
+  /// @brief Method OnDestroy, addr 0x24d0a38, size 0x90, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__graphics() const;
+  /// @brief Method OnPointerUp, addr 0x24d0c38, size 0x44, virtual true, abstract: false, final false
+  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  constexpr void __cordl_internal_set__graphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
+  /// @brief Method SetHue, addr 0x24d0ac8, size 0x14, virtual false, abstract: false, final false
+  inline void SetHue(float_t hue);
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__darkColor();
+  /// @brief Method UpdateVisuals, addr 0x24d0adc, size 0x138, virtual true, abstract: false, final false
+  inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
 
-  constexpr void __cordl_internal_set__darkColor(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__darkColor();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__graphics() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__graphics();
+
+  constexpr float_t const& __cordl_internal_get__hue() const;
+
+  constexpr float_t& __cordl_internal_get__hue();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__lightColor() const;
 
-  constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor();
 
   constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
   __cordl_internal_get_colorSaturationOrValueDidChangeEvent();
@@ -107,40 +111,40 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*> const&
   __cordl_internal_get_colorSaturationOrValueDidChangeEvent() const;
 
+  constexpr void __cordl_internal_set__darkColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__graphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
+
+  constexpr void __cordl_internal_set__hue(float_t value);
+
+  constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color value);
+
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x23e2ce8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d0c7c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x24d0840, size 0xb4, virtual false, abstract: false, final false
   inline void
   add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x23e2d9c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
+  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x24d08f4, size 0xb4, virtual false, abstract: false, final false
   inline void
   remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method Awake, addr 0x23e2e50, size 0x90, virtual true, abstract: false, final false
-  inline void Awake();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSaturationValueSlider();
 
-  /// @brief Method OnDestroy, addr 0x23e2ee0, size 0x90, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method SetHue, addr 0x23e2f70, size 0x14, virtual false, abstract: false, final false
-  inline void SetHue(float_t hue);
-
-  /// @brief Method UpdateVisuals, addr 0x23e2f84, size 0x138, virtual true, abstract: false, final false
-  inline void UpdateVisuals();
-
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x23e30bc, size 0x24, virtual false, abstract: false, final false
-  inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
-
-  /// @brief Method OnPointerUp, addr 0x23e30e0, size 0x44, virtual true, abstract: false, final false
-  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  static inline ::GlobalNamespace::ColorSaturationValueSlider* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23e3124, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSaturationValueSlider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSaturationValueSlider(ColorSaturationValueSlider&&) = delete;
@@ -149,12 +153,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSaturationValueSlider(ColorSaturationValueSlider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSaturationValueSlider();
-
-public:
   /// @brief Field _hue, offset: 0x124, size: 0x4, def value: None
   float_t ____hue;
 

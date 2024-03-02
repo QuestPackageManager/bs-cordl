@@ -15,16 +15,18 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12901))
 // CS Name: ::NetworkStatisticsDelta
 struct CORDL_TYPE NetworkStatisticsDelta {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe4d09c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebeea4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta,
                     int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta,
                     int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkStatisticsDelta();
 
   // Ctor Parameters [CppParam { name: "packetsSentDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedDelta", ty: "int64_t", modifiers: "", def_value: None },
   // CppParam { name: "bytesSentDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesReceivedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
@@ -36,10 +38,6 @@ public:
   constexpr NetworkStatisticsDelta(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta,
                                    int64_t packetsSentEncryptedDelta, int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta,
                                    int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkStatisticsDelta();
 
   /// @brief Field packetsSentDelta, offset: 0x0, size: 0x8, def value: None
   int64_t packetsSentDelta;

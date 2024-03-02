@@ -22,69 +22,73 @@ MARK_REF_PTR_T(::System::IO::FileLoadException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3560))
 // CS Name: ::System.IO::FileLoadException*
 class CORDL_TYPE FileLoadException : public ::System::IO::IOException {
 public:
   // Declarations
+  __declspec(property(get = get_FileName))::StringW FileName;
+
+  __declspec(property(get = get_FusionLog))::StringW FusionLog;
+
+  __declspec(property(get = get_Message))::StringW Message;
+
   /// @brief Field <FileName>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__FileName_k__BackingField, put = __cordl_internal_set__FileName_k__BackingField))::StringW _FileName_k__BackingField;
 
   /// @brief Field <FusionLog>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__FusionLog_k__BackingField, put = __cordl_internal_set__FusionLog_k__BackingField))::StringW _FusionLog_k__BackingField;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  /// @brief Method FormatFileLoadExceptionMessage, addr 0x25ed0c4, size 0x74, virtual false, abstract: false, final false
+  static inline ::StringW FormatFileLoadExceptionMessage(::StringW fileName, int32_t hResult);
 
-  __declspec(property(get = get_FileName))::StringW FileName;
-
-  __declspec(property(get = get_FusionLog))::StringW FusionLog;
-
-  constexpr ::StringW& __cordl_internal_get__FileName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__FileName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__FileName_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__FusionLog_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__FusionLog_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__FusionLog_k__BackingField(::StringW value);
+  /// @brief Method GetObjectData, addr 0x25ed3dc, size 0x118, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::IO::FileLoadException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24fc2b4, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::IO::FileLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::IO::FileLoadException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24fc310, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  /// @brief Method get_Message, addr 0x24fc334, size 0x24, virtual true, abstract: false, final false
-  inline ::StringW get_Message();
-
-  /// @brief Method get_FileName, addr 0x24fc3cc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_FileName();
-
-  /// @brief Method get_FusionLog, addr 0x24fc3d4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_FusionLog();
-
-  /// @brief Method ToString, addr 0x24fc3dc, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25ed148, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  static inline ::System::IO::FileLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  constexpr ::StringW const& __cordl_internal_get__FileName_k__BackingField() const;
 
-  /// @brief Method .ctor, addr 0x24fc5c0, size 0xb0, virtual false, abstract: false, final false
+  constexpr ::StringW& __cordl_internal_get__FileName_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__FusionLog_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__FusionLog_k__BackingField();
+
+  constexpr void __cordl_internal_set__FileName_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__FusionLog_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x25ed020, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25ed32c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24fc670, size 0x118, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Method .ctor, addr 0x25ed07c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
-  /// @brief Method FormatFileLoadExceptionMessage, addr 0x24fc358, size 0x74, virtual false, abstract: false, final false
-  static inline ::StringW FormatFileLoadExceptionMessage(::StringW fileName, int32_t hResult);
+  /// @brief Method get_FileName, addr 0x25ed138, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_FileName();
 
+  /// @brief Method get_FusionLog, addr 0x25ed140, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_FusionLog();
+
+  /// @brief Method get_Message, addr 0x25ed0a0, size 0x24, virtual true, abstract: false, final false
+  inline ::StringW get_Message();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileLoadException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileLoadException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileLoadException(FileLoadException&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileLoadException(FileLoadException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileLoadException();
-
-public:
   /// @brief Field <FileName>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;
 

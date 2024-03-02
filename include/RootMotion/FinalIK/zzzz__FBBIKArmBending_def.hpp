@@ -19,15 +19,10 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FBBIKArmBending);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12545))
 // CS Name: ::RootMotion.FinalIK::FBBIKArmBending*
 class CORDL_TYPE FBBIKArmBending : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field ik, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
-
   /// @brief Field bendDirectionOffsetLeft, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_bendDirectionOffsetLeft, put = __cordl_internal_set_bendDirectionOffsetLeft))::UnityEngine::Vector3 bendDirectionOffsetLeft;
 
@@ -40,77 +35,86 @@ public:
   /// @brief Field characterSpaceBendOffsetRight, offset 0x44, size 0xc
   __declspec(property(get = __cordl_internal_get_characterSpaceBendOffsetRight, put = __cordl_internal_set_characterSpaceBendOffsetRight))::UnityEngine::Vector3 characterSpaceBendOffsetRight;
 
+  /// @brief Field ik, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
+
+  /// @brief Field initiated, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
+
   /// @brief Field leftHandTargetRotation, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get_leftHandTargetRotation, put = __cordl_internal_set_leftHandTargetRotation))::UnityEngine::Quaternion leftHandTargetRotation;
 
   /// @brief Field rightHandTargetRotation, offset 0x60, size 0x10
   __declspec(property(get = __cordl_internal_get_rightHandTargetRotation, put = __cordl_internal_set_rightHandTargetRotation))::UnityEngine::Quaternion rightHandTargetRotation;
 
-  /// @brief Field initiated, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
-
-  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirectionOffsetLeft();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirectionOffsetLeft() const;
-
-  constexpr void __cordl_internal_set_bendDirectionOffsetLeft(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirectionOffsetRight();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirectionOffsetRight() const;
-
-  constexpr void __cordl_internal_set_bendDirectionOffsetRight(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceBendOffsetLeft();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceBendOffsetLeft() const;
-
-  constexpr void __cordl_internal_set_characterSpaceBendOffsetLeft(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceBendOffsetRight();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceBendOffsetRight() const;
-
-  constexpr void __cordl_internal_set_characterSpaceBendOffsetRight(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_leftHandTargetRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_leftHandTargetRotation() const;
-
-  constexpr void __cordl_internal_set_leftHandTargetRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rightHandTargetRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rightHandTargetRotation() const;
-
-  constexpr void __cordl_internal_set_rightHandTargetRotation(::UnityEngine::Quaternion value);
-
-  constexpr bool& __cordl_internal_get_initiated();
-
-  constexpr bool const& __cordl_internal_get_initiated() const;
-
-  constexpr void __cordl_internal_set_initiated(bool value);
-
-  /// @brief Method LateUpdate, addr 0x1251204, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x132d2a0, size 0x49c, virtual false, abstract: false, final false
   inline void LateUpdate();
-
-  /// @brief Method OnPostFBBIK, addr 0x12516a0, size 0x194, virtual false, abstract: false, final false
-  inline void OnPostFBBIK();
-
-  /// @brief Method OnDestroy, addr 0x1251834, size 0x10c, virtual false, abstract: false, final false
-  inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::FBBIKArmBending* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1251940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x132d8d0, size 0x10c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnPostFBBIK, addr 0x132d73c, size 0x194, virtual false, abstract: false, final false
+  inline void OnPostFBBIK();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirectionOffsetLeft() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirectionOffsetLeft();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirectionOffsetRight() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirectionOffsetRight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceBendOffsetLeft() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceBendOffsetLeft();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceBendOffsetRight() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceBendOffsetRight();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
+
+  constexpr bool const& __cordl_internal_get_initiated() const;
+
+  constexpr bool& __cordl_internal_get_initiated();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_leftHandTargetRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_leftHandTargetRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rightHandTargetRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rightHandTargetRotation();
+
+  constexpr void __cordl_internal_set_bendDirectionOffsetLeft(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_bendDirectionOffsetRight(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_characterSpaceBendOffsetLeft(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_characterSpaceBendOffsetRight(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
+
+  constexpr void __cordl_internal_set_initiated(bool value);
+
+  constexpr void __cordl_internal_set_leftHandTargetRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_rightHandTargetRotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method .ctor, addr 0x132d9dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FBBIKArmBending();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FBBIKArmBending", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FBBIKArmBending(FBBIKArmBending&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FBBIKArmBending(FBBIKArmBending const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FBBIKArmBending();
-
-public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ___ik;
 

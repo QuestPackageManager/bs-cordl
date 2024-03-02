@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Unity::Collections::NativeLeakDetection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9996))
 // CS Name: ::Unity.Collections::NativeLeakDetection*
 class CORDL_TYPE NativeLeakDetection : public ::System::Object {
 public:
@@ -24,13 +22,19 @@ public:
   /// @brief Field s_NativeLeakDetectionMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_NativeLeakDetectionMode, put = setStaticF_s_NativeLeakDetectionMode)) int32_t s_NativeLeakDetectionMode;
 
-  static inline void setStaticF_s_NativeLeakDetectionMode(int32_t value);
+  /// @brief Method Initialize, addr 0x2d88b14, size 0x4c, virtual false, abstract: false, final false
+  static inline void Initialize();
 
   static inline int32_t getStaticF_s_NativeLeakDetectionMode();
 
-  /// @brief Method Initialize, addr 0x2c9df94, size 0x4c, virtual false, abstract: false, final false
-  static inline void Initialize();
+  static inline void setStaticF_s_NativeLeakDetectionMode(int32_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeLeakDetection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeLeakDetection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeLeakDetection(NativeLeakDetection&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeLeakDetection(NativeLeakDetection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeLeakDetection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

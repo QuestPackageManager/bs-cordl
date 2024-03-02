@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityDebugLogger);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5881))
 // CS Name: ::UnityDebugLogger*
 class CORDL_TYPE UnityDebugLogger : public ::System::Object {
 public:
@@ -33,38 +31,44 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
-  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
-
-  /// @brief Method Log, addr 0x22f9dfc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x23f5464, size 0x58, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x22f9e54, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x23f54bc, size 0xb8, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x22f9f0c, size 0x58, virtual true, abstract: false, final true
-  inline void LogWarning(::StringW message);
-
-  /// @brief Method LogWarning, addr 0x22f9f64, size 0xb8, virtual true, abstract: false, final true
-  inline void LogWarning(::StringW message, ::System::Object* context);
-
-  /// @brief Method LogError, addr 0x22fa01c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x23f5684, size 0x58, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x22fa074, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x23f56dc, size 0xb8, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x22fa12c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x23f5794, size 0x58, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x22fa184, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x23f57ec, size 0xb8, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
+
+  /// @brief Method LogWarning, addr 0x23f5574, size 0x58, virtual true, abstract: false, final true
+  inline void LogWarning(::StringW message);
+
+  /// @brief Method LogWarning, addr 0x23f55cc, size 0xb8, virtual true, abstract: false, final true
+  inline void LogWarning(::StringW message, ::System::Object* context);
 
   static inline ::GlobalNamespace::UnityDebugLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22fa23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f58a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
+  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityDebugLogger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityDebugLogger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityDebugLogger(UnityDebugLogger&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityDebugLogger(UnityDebugLogger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityDebugLogger();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

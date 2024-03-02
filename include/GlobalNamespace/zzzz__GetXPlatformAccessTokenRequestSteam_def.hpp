@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15998))
 // CS Name: ::GetXPlatformAccessTokenRequestSteam*
 class CORDL_TYPE GetXPlatformAccessTokenRequestSteam : public ::System::Object {
 public:
@@ -28,23 +26,29 @@ public:
   /// @brief Field platformUserId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId)) int64_t platformUserId;
 
-  constexpr ::StringW& __cordl_internal_get_platformToken();
+  static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam* New_ctor(::StringW platformToken, int64_t platformUserId);
 
   constexpr ::StringW const& __cordl_internal_get_platformToken() const;
 
-  constexpr void __cordl_internal_set_platformToken(::StringW value);
-
-  constexpr int64_t& __cordl_internal_get_platformUserId();
+  constexpr ::StringW& __cordl_internal_get_platformToken();
 
   constexpr int64_t const& __cordl_internal_get_platformUserId() const;
 
+  constexpr int64_t& __cordl_internal_get_platformUserId();
+
+  constexpr void __cordl_internal_set_platformToken(::StringW value);
+
   constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
-  static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam* New_ctor(::StringW platformToken, int64_t platformUserId);
-
-  /// @brief Method .ctor, addr 0x2800184, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28eedb8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetXPlatformAccessTokenRequestSteam();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenRequestSteam", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetXPlatformAccessTokenRequestSteam(GetXPlatformAccessTokenRequestSteam&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenRequestSteam(GetXPlatformAccessTokenRequestSteam const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetXPlatformAccessTokenRequestSteam();
-
-public:
   /// @brief Field platformToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___platformToken;
 

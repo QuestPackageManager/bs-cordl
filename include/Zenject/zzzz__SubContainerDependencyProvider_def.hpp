@@ -42,14 +42,13 @@ MARK_REF_PTR_T(::Zenject::SubContainerDependencyProvider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11297))
 // CS Name: ::Zenject::SubContainerDependencyProvider*
 class CORDL_TYPE SubContainerDependencyProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _subContainerCreator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__subContainerCreator, put = __cordl_internal_set__subContainerCreator))::Zenject::ISubContainerCreator* _subContainerCreator;
+  __declspec(property(get = get_IsCached)) bool IsCached;
+
+  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _dependencyType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__dependencyType, put = __cordl_internal_set__dependencyType))::System::Type* _dependencyType;
@@ -60,62 +59,67 @@ public:
   /// @brief Field _resolveAll, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__resolveAll, put = __cordl_internal_set__resolveAll)) bool _resolveAll;
 
-  __declspec(property(get = get_IsCached)) bool IsCached;
-
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+  /// @brief Field _subContainerCreator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__subContainerCreator, put = __cordl_internal_set__subContainerCreator))::Zenject::ISubContainerCreator* _subContainerCreator;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method CreateSubContext, addr 0x301cf4c, size 0x3c, virtual false, abstract: false, final false
+  inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
 
-  constexpr ::Zenject::ISubContainerCreator*& __cordl_internal_get__subContainerCreator();
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x301cf88, size 0x1a8, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __cordl_internal_get__subContainerCreator() const;
+  /// @brief Method GetInstanceType, addr 0x301cf44, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
+  static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
+                                                                    bool resolveAll);
 
   constexpr ::System::Type*& __cordl_internal_get__dependencyType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__dependencyType() const;
 
-  constexpr void __cordl_internal_set__dependencyType(::System::Type* value);
-
   constexpr ::System::Object*& __cordl_internal_get__identifier();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
 
-  constexpr void __cordl_internal_set__identifier(::System::Object* value);
+  constexpr bool const& __cordl_internal_get__resolveAll() const;
 
   constexpr bool& __cordl_internal_get__resolveAll();
 
-  constexpr bool const& __cordl_internal_get__resolveAll() const;
+  constexpr ::Zenject::ISubContainerCreator*& __cordl_internal_get__subContainerCreator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __cordl_internal_get__subContainerCreator() const;
+
+  constexpr void __cordl_internal_set__dependencyType(::System::Type* value);
+
+  constexpr void __cordl_internal_set__identifier(::System::Object* value);
 
   constexpr void __cordl_internal_set__resolveAll(bool value);
 
-  static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
-                                                                    bool resolveAll);
+  constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x2f0d680, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301cef0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
 
-  /// @brief Method get_IsCached, addr 0x2f0d6c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x301cf34, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f0d6cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x301cf3c, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f0d6d4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method CreateSubContext, addr 0x2f0d6dc, size 0x3c, virtual false, abstract: false, final false
-  inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerDependencyProvider();
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f0d718, size 0x1a8, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerDependencyProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerDependencyProvider(SubContainerDependencyProvider&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerDependencyProvider(SubContainerDependencyProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerDependencyProvider();
-
-public:
   /// @brief Field _subContainerCreator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ISubContainerCreator* ____subContainerCreator;
 

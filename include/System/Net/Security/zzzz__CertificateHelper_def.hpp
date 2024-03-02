@@ -23,23 +23,27 @@ MARK_REF_PTR_T(::System::Net::Security::CertificateHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9361))
 // CS Name: ::System.Net.Security::CertificateHelper*
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff090, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x29e8b74, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff3c0, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
-  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
-
-  /// @brief Method GetEligibleClientCertificate, addr 0x28ff23c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x29e8d20, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
+  /// @brief Method GetEligibleClientCertificate, addr 0x29e8ea4, size 0x94, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
+  GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateHelper(CertificateHelper&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateHelper(CertificateHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

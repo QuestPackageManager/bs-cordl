@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(712))
 // CS Name: ::Org.BouncyCastle.Crmf::ProofOfPossessionSigningKeyBuilder*
 class CORDL_TYPE ProofOfPossessionSigningKeyBuilder : public ::System::Object {
 public:
@@ -45,58 +43,64 @@ public:
   /// @brief Field _certRequest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__certRequest, put = __cordl_internal_set__certRequest))::Org::BouncyCastle::Asn1::Crmf::CertRequest* _certRequest;
 
-  /// @brief Field _pubKeyInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__pubKeyInfo, put = __cordl_internal_set__pubKeyInfo))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* _pubKeyInfo;
-
   /// @brief Field _name, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::Org::BouncyCastle::Asn1::X509::GeneralName* _name;
 
+  /// @brief Field _pubKeyInfo, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__pubKeyInfo, put = __cordl_internal_set__pubKeyInfo))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* _pubKeyInfo;
+
   /// @brief Field _publicKeyMAC, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__publicKeyMAC, put = __cordl_internal_set__publicKeyMAC))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _publicKeyMAC;
+
+  /// @brief Method Build, addr 0x1280ee8, size 0x5ec, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signer);
+
+  static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
+
+  static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
+
+  /// @brief Method SetPublicKeyMac, addr 0x1280a3c, size 0x4ac, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetPublicKeyMac(::Org::BouncyCastle::Crmf::PKMacBuilder* generator, ::ArrayW<char16_t, ::Array<char16_t>*> password);
+
+  /// @brief Method SetSender, addr 0x1280a34, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetSender(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest*& __cordl_internal_get__certRequest();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertRequest*> const& __cordl_internal_get__certRequest() const;
 
-  constexpr void __cordl_internal_set__certRequest(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get__name();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get__name() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get__pubKeyInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get__pubKeyInfo() const;
 
-  constexpr void __cordl_internal_set__pubKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get__name();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get__name() const;
-
-  constexpr void __cordl_internal_set__name(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get__publicKeyMAC();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get__publicKeyMAC() const;
 
+  constexpr void __cordl_internal_set__certRequest(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
+
+  constexpr void __cordl_internal_set__name(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+
+  constexpr void __cordl_internal_set__pubKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+
   constexpr void __cordl_internal_set__publicKeyMAC(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
-  static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
-
-  /// @brief Method .ctor, addr 0x1210674, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12814d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
-  static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
-
-  /// @brief Method .ctor, addr 0x120fbac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1280a0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetSender, addr 0x120fbd4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetSender(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProofOfPossessionSigningKeyBuilder();
 
-  /// @brief Method SetPublicKeyMac, addr 0x120fbdc, size 0x4ac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetPublicKeyMac(::Org::BouncyCastle::Crmf::PKMacBuilder* generator, ::ArrayW<char16_t, ::Array<char16_t>*> password);
-
-  /// @brief Method Build, addr 0x1210088, size 0x5ec, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signer);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossessionSigningKeyBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProofOfPossessionSigningKeyBuilder(ProofOfPossessionSigningKeyBuilder&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProofOfPossessionSigningKeyBuilder(ProofOfPossessionSigningKeyBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProofOfPossessionSigningKeyBuilder();
-
-public:
   /// @brief Field _certRequest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Crmf::CertRequest* ____certRequest;
 

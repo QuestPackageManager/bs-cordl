@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewControlle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5708))
 // CS Name: ::BaseMultiplayerStartGameCountdownViewController*
 class CORDL_TYPE BaseMultiplayerStartGameCountdownViewController : public ::HMUI::ViewController {
 public:
@@ -51,71 +49,77 @@ public:
   /// @brief Field _spectateToggle, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__spectateToggle, put = __cordl_internal_set__spectateToggle))::UnityW<::UnityEngine::UI::Toggle> _spectateToggle;
 
-  /// @brief Field playerActiveStateChangedEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
-
   /// @brief Field _toggleBinder, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
+  /// @brief Field playerActiveStateChangedEvent, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
+
+  /// @brief Method DidActivate, addr 0x23cae34, size 0x9c, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method DidDeactivate, addr 0x23caed0, size 0x1c, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  static inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23caeec, size 0x1c, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method SetLevelGameplaySetupData, addr 0x23cac10, size 0x164, virtual false, abstract: false, final false
+  inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
+
+  /// @brief Method SetLobbyPlayerData, addr 0x23cad74, size 0xc0, virtual true, abstract: false, final false
+  inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
+
+  /// @brief Method <DidActivate>b__9_0, addr 0x23caf70, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_0(bool value);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
 
-  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
 
   constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
 
-  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__spectateToggle() const;
 
-  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
-
-  constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
 
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
+
+  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
+
+  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x22cc348, size 0xb0, virtual false, abstract: false, final false
-  inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x22cc3f8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
-
-  /// @brief Method SetLevelGameplaySetupData, addr 0x22cc4a8, size 0x13c, virtual false, abstract: false, final false
-  inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
-
-  /// @brief Method SetLobbyPlayerData, addr 0x22cc5e4, size 0xc0, virtual true, abstract: false, final false
-  inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
-
-  /// @brief Method DidActivate, addr 0x22cc6a4, size 0x9c, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0x22cc740, size 0x1c, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method OnDestroy, addr 0x22cc75c, size 0x1c, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  static inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22cc778, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23caf08, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x22cc7e0, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__9_0(bool value);
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x23caab0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x23cab60, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseMultiplayerStartGameCountdownViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseMultiplayerStartGameCountdownViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseMultiplayerStartGameCountdownViewController(BaseMultiplayerStartGameCountdownViewController&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseMultiplayerStartGameCountdownViewController(BaseMultiplayerStartGameCountdownViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseMultiplayerStartGameCountdownViewController();
-
-public:
   /// @brief Field _beatmapSelectionView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;
 

@@ -24,24 +24,28 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16257))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16258))
 // CS Name: ::System.Configuration::ConfigurationSection*
 class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
-  /// @brief Method DeserializeSection, addr 0x280ca38, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x28f569c, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* reader);
 
-  /// @brief Method IsModified, addr 0x280ca70, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x28f56d4, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method ResetModified, addr 0x280caa8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x28f570c, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x280cae0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x28f5744, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigurationSection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationSection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigurationSection(ConfigurationSection&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigurationSection(ConfigurationSection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConfigurationSection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

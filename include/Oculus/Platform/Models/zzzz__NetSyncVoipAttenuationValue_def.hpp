@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13463))
 // CS Name: ::Oculus.Platform.Models::NetSyncVoipAttenuationValue*
 class CORDL_TYPE NetSyncVoipAttenuationValue : public ::System::Object {
 public:
@@ -28,23 +26,29 @@ public:
   /// @brief Field Distance, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_Distance, put = __cordl_internal_set_Distance)) float_t Distance;
 
-  constexpr float_t& __cordl_internal_get_Decibels();
+  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
 
   constexpr float_t const& __cordl_internal_get_Decibels() const;
 
-  constexpr void __cordl_internal_set_Decibels(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Distance();
+  constexpr float_t& __cordl_internal_get_Decibels();
 
   constexpr float_t const& __cordl_internal_get_Distance() const;
 
+  constexpr float_t& __cordl_internal_get_Distance();
+
+  constexpr void __cordl_internal_set_Decibels(float_t value);
+
   constexpr void __cordl_internal_set_Distance(float_t value);
 
-  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2707a00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f9308, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSyncVoipAttenuationValue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncVoipAttenuationValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSyncVoipAttenuationValue(NetSyncVoipAttenuationValue&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncVoipAttenuationValue(NetSyncVoipAttenuationValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSyncVoipAttenuationValue();
-
-public:
   /// @brief Field Decibels, offset: 0x10, size: 0x4, def value: None
   float_t ___Decibels;
 

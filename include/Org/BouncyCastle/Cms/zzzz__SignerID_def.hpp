@@ -18,23 +18,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerID);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(678))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(688))
 // CS Name: ::Org.BouncyCastle.Cms::SignerID*
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x1208a04, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x1208aa8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1279908, size 0x12c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x1279864, size 0xa4, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1208bd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1279a34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerID(SignerID&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerID(SignerID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerID();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

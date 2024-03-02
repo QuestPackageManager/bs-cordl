@@ -18,36 +18,40 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilationRelaxationsAttrib
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3414))
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxationsAttribute*
 class CORDL_TYPE CompilationRelaxationsAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_CompilationRelaxations)) int32_t CompilationRelaxations;
+
   /// @brief Field m_relaxations, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_relaxations, put = __cordl_internal_set_m_relaxations)) int32_t m_relaxations;
 
-  __declspec(property(get = get_CompilationRelaxations)) int32_t CompilationRelaxations;
-
-  constexpr int32_t& __cordl_internal_get_m_relaxations();
-
-  constexpr int32_t const& __cordl_internal_get_m_relaxations() const;
-
-  constexpr void __cordl_internal_set_m_relaxations(int32_t value);
+  static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
   static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(int32_t relaxations);
 
-  /// @brief Method .ctor, addr 0x24debdc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t relaxations);
+  constexpr int32_t const& __cordl_internal_get_m_relaxations() const;
 
-  static inline ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute* New_ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
+  constexpr int32_t& __cordl_internal_get_m_relaxations();
 
-  /// @brief Method .ctor, addr 0x24dec04, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_relaxations(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25cf970, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method get_CompilationRelaxations, addr 0x24dec2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cf948, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t relaxations);
+
+  /// @brief Method get_CompilationRelaxations, addr 0x25cf998, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CompilationRelaxations();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompilationRelaxationsAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompilationRelaxationsAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompilationRelaxationsAttribute(CompilationRelaxationsAttribute&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompilationRelaxationsAttribute(CompilationRelaxationsAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompilationRelaxationsAttribute();
-
-public:
   /// @brief Field m_relaxations, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_relaxations;
 

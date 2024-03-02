@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(690))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGeneratorBuilder*
 class CORDL_TYPE SignerInfoGeneratorBuilder : public ::System::Object {
 public:
@@ -46,47 +44,53 @@ public:
   /// @brief Field unsignedGen, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_unsignedGen, put = __cordl_internal_set_unsignedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
 
-  constexpr bool& __cordl_internal_get_directSignature();
+  /// @brief Method Build, addr 0x1279b5c, size 0x12c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::X509::X509Certificate* certificate);
+
+  /// @brief Method Build, addr 0x1279d98, size 0xac, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
+
+  /// @brief Method CreateGenerator, addr 0x1279c88, size 0x110, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* CreateGenerator(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId);
+
+  static inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* New_ctor();
+
+  /// @brief Method SetDirectSignature, addr 0x1279b40, size 0xc, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* SetDirectSignature(bool hasNoSignedAttributes);
+
+  /// @brief Method WithSignedAttributeGenerator, addr 0x1279b4c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithSignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen);
+
+  /// @brief Method WithUnsignedAttributeGenerator, addr 0x1279b54, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithUnsignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
   constexpr bool const& __cordl_internal_get_directSignature() const;
 
-  constexpr void __cordl_internal_set_directSignature(bool value);
+  constexpr bool& __cordl_internal_get_directSignature();
 
   constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_signedGen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_signedGen() const;
 
-  constexpr void __cordl_internal_set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
-
   constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_unsignedGen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_unsignedGen() const;
 
+  constexpr void __cordl_internal_set_directSignature(bool value);
+
+  constexpr void __cordl_internal_set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+
   constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  static inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1208cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1279b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetDirectSignature, addr 0x1208ce0, size 0xc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* SetDirectSignature(bool hasNoSignedAttributes);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerInfoGeneratorBuilder();
 
-  /// @brief Method WithSignedAttributeGenerator, addr 0x1208cec, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithSignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen);
-
-  /// @brief Method WithUnsignedAttributeGenerator, addr 0x1208cf4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* WithUnsignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
-
-  /// @brief Method Build, addr 0x1208cfc, size 0x12c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::X509::X509Certificate* certificate);
-
-  /// @brief Method Build, addr 0x1208f38, size 0xac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
-
-  /// @brief Method CreateGenerator, addr 0x1208e28, size 0x110, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* CreateGenerator(::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGeneratorBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInfoGeneratorBuilder(SignerInfoGeneratorBuilder&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerInfoGeneratorBuilder(SignerInfoGeneratorBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerInfoGeneratorBuilder();
-
-public:
   /// @brief Field directSignature, offset: 0x10, size: 0x1, def value: None
   bool ___directSignature;
 

@@ -22,22 +22,27 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::NormalizeVector3Processor
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6589)) CS Name: ::UnityEngine.InputSystem.Processors::NormalizeVector3Processor*
+// CS Name: ::UnityEngine.InputSystem.Processors::NormalizeVector3Processor*
 class CORDL_TYPE NormalizeVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x2af99b4, size 0xd0, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2af9a84, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector3Processor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2af9ac4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x2bdf5f4, size 0xd0, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdf6c4, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2bdf704, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NormalizeVector3Processor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NormalizeVector3Processor(NormalizeVector3Processor&&) = delete;
@@ -46,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NormalizeVector3Processor(NormalizeVector3Processor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NormalizeVector3Processor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

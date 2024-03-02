@@ -27,26 +27,30 @@ MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11786))
 // CS Name: ::System.ComponentModel::AddingNewEventHandler*
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x263da8c, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x263dbbc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
-
-  /// @brief Method BeginInvoke, addr 0x263dbd0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27314d8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x263dbf8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2731500, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x27314c4, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
+
+  static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2731394, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddingNewEventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AddingNewEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddingNewEventHandler(AddingNewEventHandler&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddingNewEventHandler(AddingNewEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddingNewEventHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

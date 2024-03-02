@@ -24,74 +24,78 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3743)), TypeDefinitionIndex(TypeDefinitionIndex(3744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
 // CS Name: ::System.Diagnostics.Tracing::EventAttribute*
 class CORDL_TYPE EventAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_EventId)) int32_t EventId;
+
+  __declspec(property(put = set_Keywords))::System::Diagnostics::Tracing::EventKeywords Keywords;
+
+  __declspec(property(put = set_Level))::System::Diagnostics::Tracing::EventLevel Level;
+
+  __declspec(property(put = set_Message))::StringW Message;
+
   /// @brief Field <EventId>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__EventId_k__BackingField, put = __cordl_internal_set__EventId_k__BackingField)) int32_t _EventId_k__BackingField;
-
-  /// @brief Field <Level>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__Level_k__BackingField, put = __cordl_internal_set__Level_k__BackingField))::System::Diagnostics::Tracing::EventLevel _Level_k__BackingField;
 
   /// @brief Field <Keywords>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Keywords_k__BackingField,
                       put = __cordl_internal_set__Keywords_k__BackingField))::System::Diagnostics::Tracing::EventKeywords _Keywords_k__BackingField;
 
+  /// @brief Field <Level>k__BackingField, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__Level_k__BackingField, put = __cordl_internal_set__Level_k__BackingField))::System::Diagnostics::Tracing::EventLevel _Level_k__BackingField;
+
   /// @brief Field <Message>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Message_k__BackingField, put = __cordl_internal_set__Message_k__BackingField))::StringW _Message_k__BackingField;
 
-  __declspec(property(put = set_EventId)) int32_t EventId;
-
-  __declspec(property(put = set_Level))::System::Diagnostics::Tracing::EventLevel Level;
-
-  __declspec(property(put = set_Keywords))::System::Diagnostics::Tracing::EventKeywords Keywords;
-
-  __declspec(property(put = set_Message))::StringW Message;
-
-  constexpr int32_t& __cordl_internal_get__EventId_k__BackingField();
+  static inline ::System::Diagnostics::Tracing::EventAttribute* New_ctor(int32_t eventId);
 
   constexpr int32_t const& __cordl_internal_get__EventId_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__EventId_k__BackingField(int32_t value);
-
-  constexpr ::System::Diagnostics::Tracing::EventLevel& __cordl_internal_get__Level_k__BackingField();
-
-  constexpr ::System::Diagnostics::Tracing::EventLevel const& __cordl_internal_get__Level_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Level_k__BackingField(::System::Diagnostics::Tracing::EventLevel value);
-
-  constexpr ::System::Diagnostics::Tracing::EventKeywords& __cordl_internal_get__Keywords_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__EventId_k__BackingField();
 
   constexpr ::System::Diagnostics::Tracing::EventKeywords const& __cordl_internal_get__Keywords_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Keywords_k__BackingField(::System::Diagnostics::Tracing::EventKeywords value);
+  constexpr ::System::Diagnostics::Tracing::EventKeywords& __cordl_internal_get__Keywords_k__BackingField();
 
-  constexpr ::StringW& __cordl_internal_get__Message_k__BackingField();
+  constexpr ::System::Diagnostics::Tracing::EventLevel const& __cordl_internal_get__Level_k__BackingField() const;
+
+  constexpr ::System::Diagnostics::Tracing::EventLevel& __cordl_internal_get__Level_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__Message_k__BackingField() const;
 
+  constexpr ::StringW& __cordl_internal_get__Message_k__BackingField();
+
+  constexpr void __cordl_internal_set__EventId_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Keywords_k__BackingField(::System::Diagnostics::Tracing::EventKeywords value);
+
+  constexpr void __cordl_internal_set__Level_k__BackingField(::System::Diagnostics::Tracing::EventLevel value);
+
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  static inline ::System::Diagnostics::Tracing::EventAttribute* New_ctor(int32_t eventId);
-
-  /// @brief Method .ctor, addr 0x257b8c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266ee98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x257b8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x266eec0, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Level, addr 0x257b8f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
-
-  /// @brief Method set_Keywords, addr 0x257b8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x266eed0, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Message, addr 0x257b904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x266eec8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
+
+  /// @brief Method set_Message, addr 0x266eed8, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttribute(EventAttribute&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventAttribute(EventAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventAttribute();
-
-public:
   /// @brief Field <EventId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____EventId_k__BackingField;
 

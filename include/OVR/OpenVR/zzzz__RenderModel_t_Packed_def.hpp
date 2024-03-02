@@ -20,27 +20,25 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t_Packed);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8716))
 // CS Name: ::OVR.OpenVR::RenderModel_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27f67b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x28e80f0, size 0x24, virtual false, abstract: false, final false
+  inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
+
+  /// @brief Method .ctor, addr 0x28e80c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
-  /// @brief Method Unpack, addr 0x27f67e0, size 0x24, virtual false, abstract: false, final false
-  inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderModel_t_Packed();
 
   // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "rIndexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "diffuseTextureId", ty:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr RenderModel_t_Packed(void* rVertexData, uint32_t unVertexCount, void* rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderModel_t_Packed();
 
   /// @brief Field rVertexData, offset: 0x0, size: 0x8, def value: None
   void* rVertexData;

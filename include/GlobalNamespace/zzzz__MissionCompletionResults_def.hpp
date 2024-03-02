@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionCompletionResults);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4454))
 // CS Name: ::MissionCompletionResults*
 class CORDL_TYPE MissionCompletionResults : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsMissionComplete)) bool IsMissionComplete;
+
   /// @brief Field levelCompletionResults, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
 
@@ -35,31 +35,35 @@ public:
       property(get = __cordl_internal_get_missionObjectiveResults,
                put = __cordl_internal_set_missionObjectiveResults))::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults;
 
-  __declspec(property(get = get_IsMissionComplete)) bool IsMissionComplete;
+  static inline ::GlobalNamespace::MissionCompletionResults*
+  New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
+           ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
   constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get_levelCompletionResults();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get_levelCompletionResults() const;
 
-  constexpr void __cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const& __cordl_internal_get_missionObjectiveResults() const;
 
   constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>& __cordl_internal_get_missionObjectiveResults();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const& __cordl_internal_get_missionObjectiveResults() const;
+  constexpr void __cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method get_IsMissionComplete, addr 0x2352510, size 0x68, virtual false, abstract: false, final false
-  inline bool get_IsMissionComplete();
-
-  static inline ::GlobalNamespace::MissionCompletionResults*
-  New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
-           ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
-
-  /// @brief Method .ctor, addr 0x2352578, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d5c70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
+  /// @brief Method get_IsMissionComplete, addr 0x12d5c08, size 0x68, virtual false, abstract: false, final false
+  inline bool get_IsMissionComplete();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionCompletionResults();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionCompletionResults", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionCompletionResults(MissionCompletionResults&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionCompletionResults(MissionCompletionResults const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionCompletionResults();
-
-public:
   /// @brief Field levelCompletionResults, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;
 

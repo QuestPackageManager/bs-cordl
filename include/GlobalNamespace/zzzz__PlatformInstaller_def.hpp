@@ -22,8 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4105)), TypeDefinitionIndex(TypeDefinitionIndex(11133)), TypeDefinitionIndex(TypeDefinitionIndex(15394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
+// CS Name: ::PlatformInstaller*
 class CORDL_TYPE PlatformInstaller
     : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>, ::GlobalNamespace::PlatformInstaller*> {
 public:
@@ -35,42 +34,51 @@ public:
   __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData))::UnityW<
       ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> _mockPlatformAdditionalContentModelInitialData;
 
-  constexpr bool& __cordl_internal_get__isTest();
+  /// @brief Method BindAchievementsHandler, addr 0x237f8ec, size 0x7c, virtual false, abstract: false, final false
+  inline void BindAchievementsHandler();
 
-  constexpr bool const& __cordl_internal_get__isTest() const;
+  /// @brief Method BindAdditionalContentModel, addr 0x237f968, size 0x74, virtual false, abstract: false, final false
+  inline void BindAdditionalContentModel();
 
-  constexpr void __cordl_internal_set__isTest(bool value);
+  /// @brief Method BindAnalyticsModel, addr 0x237f850, size 0x9c, virtual false, abstract: false, final false
+  inline void BindAnalyticsModel();
 
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x237f9dc, size 0x7c, virtual false, abstract: false, final false
+  inline void BindBeatmapDataAssetFileModel();
 
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x237fa58, size 0x9c, virtual false, abstract: false, final false
+  inline void BindMockPlatformAdditionalContentModel();
 
-  constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
+  /// @brief Method BindPlatformUserModel, addr 0x237f774, size 0xdc, virtual false, abstract: false, final false
+  inline void BindPlatformUserModel();
+
+  /// @brief Method InstallBindings, addr 0x237f744, size 0x30, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
                                                                ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
-  /// @brief Method .ctor, addr 0x2229acc, size 0x78, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__isTest() const;
+
+  constexpr bool& __cordl_internal_get__isTest();
+
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
+
+  constexpr void __cordl_internal_set__isTest(bool value);
+
+  constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
+
+  /// @brief Method .ctor, addr 0x237f6cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
-  /// @brief Method InstallBindings, addr 0x2229b44, size 0x28, virtual true, abstract: false, final false
-  inline void InstallBindings();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformInstaller();
 
-  /// @brief Method BindPlatformUserModel, addr 0x2229b6c, size 0xdc, virtual false, abstract: false, final false
-  inline void BindPlatformUserModel();
-
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x2229d38, size 0x7c, virtual false, abstract: false, final false
-  inline void BindBeatmapDataAssetFileModel();
-
-  /// @brief Method BindAchievementsHandler, addr 0x2229c48, size 0x7c, virtual false, abstract: false, final false
-  inline void BindAchievementsHandler();
-
-  /// @brief Method BindAdditionalContentModel, addr 0x2229cc4, size 0x74, virtual false, abstract: false, final false
-  inline void BindAdditionalContentModel();
-
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x2229db4, size 0x9c, virtual false, abstract: false, final false
-  inline void BindMockPlatformAdditionalContentModel();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInstaller(PlatformInstaller&&) = delete;
@@ -79,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformInstaller(PlatformInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstaller();
-
-public:
   /// @brief Field _isTest, offset: 0x18, size: 0x1, def value: None
   bool ____isTest;
 

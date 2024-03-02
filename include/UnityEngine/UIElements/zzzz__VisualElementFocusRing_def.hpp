@@ -53,8 +53,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRec
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6795))
 // CS Name: ::VisualElementFocusRing::DefaultFocusOrder
 struct CORDL_TYPE __VisualElementFocusRing__DefaultFocusOrder {
 public:
@@ -73,18 +71,20 @@ public:
     return static_cast<____VisualElementFocusRing__DefaultFocusOrder_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __VisualElementFocusRing__DefaultFocusOrder(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __VisualElementFocusRing__DefaultFocusOrder();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __VisualElementFocusRing__DefaultFocusOrder(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field ChildOrder value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder const ChildOrder;
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field PositionYX value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder const PositionYX;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -107,8 +110,6 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElementFocusRing__Defa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6796))
 // CS Name: ::VisualElementFocusRing::FocusRingRecord*
 class CORDL_TYPE __VisualElementFocusRing__FocusRingRecord : public ::System::Object {
 public:
@@ -127,36 +128,42 @@ public:
       property(get = __cordl_internal_get_m_ScopeNavigationOrder,
                put = __cordl_internal_set_m_ScopeNavigationOrder))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* m_ScopeNavigationOrder;
 
-  constexpr int32_t& __cordl_internal_get_m_AutoIndex();
+  static inline ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_m_AutoIndex() const;
 
-  constexpr void __cordl_internal_set_m_AutoIndex(int32_t value);
+  constexpr int32_t& __cordl_internal_get_m_AutoIndex();
 
   constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get_m_Focusable();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get_m_Focusable() const;
 
-  constexpr void __cordl_internal_set_m_Focusable(::UnityEngine::UIElements::Focusable* value);
-
-  constexpr bool& __cordl_internal_get_m_IsSlot();
-
   constexpr bool const& __cordl_internal_get_m_IsSlot() const;
 
-  constexpr void __cordl_internal_set_m_IsSlot(bool value);
+  constexpr bool& __cordl_internal_get_m_IsSlot();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*& __cordl_internal_get_m_ScopeNavigationOrder();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*> const&
   __cordl_internal_get_m_ScopeNavigationOrder() const;
 
+  constexpr void __cordl_internal_set_m_AutoIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Focusable(::UnityEngine::UIElements::Focusable* value);
+
+  constexpr void __cordl_internal_set_m_IsSlot(bool value);
+
   constexpr void __cordl_internal_set_m_ScopeNavigationOrder(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* value);
 
-  static inline ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dbc370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec9e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VisualElementFocusRing__FocusRingRecord();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VisualElementFocusRing__FocusRingRecord", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VisualElementFocusRing__FocusRingRecord(__VisualElementFocusRing__FocusRingRecord&&) = delete;
@@ -165,12 +172,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VisualElementFocusRing__FocusRingRecord(__VisualElementFocusRing__FocusRingRecord const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VisualElementFocusRing__FocusRingRecord();
-
-public:
   /// @brief Field m_AutoIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_AutoIndex;
 
@@ -201,104 +202,108 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualElementFocusRing__Focu
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6795))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6797))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusRing*
 class CORDL_TYPE VisualElementFocusRing : public ::System::Object {
 public:
   // Declarations
-  using FocusRingRecord = ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord;
-
   using DefaultFocusOrder = ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder;
 
-  /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityEngine::UIElements::VisualElement* root;
+  using FocusRingRecord = ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord;
 
   /// @brief Field <defaultFocusOrder>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__defaultFocusOrder_k__BackingField,
                       put = __cordl_internal_set__defaultFocusOrder_k__BackingField))::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder _defaultFocusOrder_k__BackingField;
 
+  __declspec(property(get = get_defaultFocusOrder, put = set_defaultFocusOrder))::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder defaultFocusOrder;
+
+  __declspec(property(get = get_focusController))::UnityEngine::UIElements::FocusController* focusController;
+
   /// @brief Field m_FocusRing, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FocusRing,
                       put = __cordl_internal_set_m_FocusRing))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* m_FocusRing;
 
-  __declspec(property(get = get_focusController))::UnityEngine::UIElements::FocusController* focusController;
-
-  __declspec(property(get = get_defaultFocusOrder, put = set_defaultFocusOrder))::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder defaultFocusOrder;
+  /// @brief Field root, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityEngine::UIElements::VisualElement* root;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IFocusRing"
   constexpr operator ::UnityEngine::UIElements::IFocusRing*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
-  constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
+  /// @brief Method BuildRingForScopeRecursive, addr 0x2ec98c0, size 0x2f8, virtual false, abstract: false, final false
+  inline void BuildRingForScopeRecursive(::UnityEngine::UIElements::VisualElement* ve, ByRef<int32_t> scopeIndex,
+                                         ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* scopeList);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_root();
+  /// @brief Method DoUpdate, addr 0x2ec97e8, size 0xd8, virtual false, abstract: false, final false
+  inline void DoUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_root() const;
+  /// @brief Method FocusRingAutoIndexSort, addr 0x2ec92a8, size 0x450, virtual false, abstract: false, final false
+  inline int32_t FocusRingAutoIndexSort(::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* a, ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* b);
 
-  constexpr void __cordl_internal_set_root(::UnityEngine::UIElements::VisualElement* value);
+  /// @brief Method FocusRingSort, addr 0x2ec96f8, size 0xf0, virtual false, abstract: false, final false
+  inline int32_t FocusRingSort(::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* a, ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* b);
 
-  constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder& __cordl_internal_get__defaultFocusOrder_k__BackingField();
+  /// @brief Method GetFocusChangeDirection, addr 0x2ec9f30, size 0x27c, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::FocusChangeDirection* GetFocusChangeDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
+
+  /// @brief Method GetFocusableInternalIndex, addr 0x2ec9e88, size 0xa8, virtual false, abstract: false, final false
+  inline int32_t GetFocusableInternalIndex(::UnityEngine::UIElements::Focusable* f);
+
+  /// @brief Method GetKeyDownFocusChangeDirection, addr 0x2eca1ac, size 0x204, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::FocusChangeDirection* GetKeyDownFocusChangeDirection(::UnityEngine::UIElements::EventBase* e);
+
+  /// @brief Method GetNextFocusable, addr 0x2eca3b0, size 0x3f0, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::Focusable* GetNextFocusable(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
+
+  /// @brief Method GetNextFocusableInTree, addr 0x2eca7a0, size 0x9c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Focusable* GetNextFocusableInTree(::UnityEngine::UIElements::VisualElement* currentFocusable);
+
+  /// @brief Method GetPreviousFocusableInTree, addr 0x2eca83c, size 0xe0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Focusable* GetPreviousFocusableInTree(::UnityEngine::UIElements::VisualElement* currentFocusable);
+
+  static inline ::UnityEngine::UIElements::VisualElementFocusRing* New_ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo);
+
+  /// @brief Method SortAndFlattenScopeLists, addr 0x2ec9bb8, size 0x2c8, virtual false, abstract: false, final false
+  inline void SortAndFlattenScopeLists(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* rootScopeList);
 
   constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder const& __cordl_internal_get__defaultFocusOrder_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__defaultFocusOrder_k__BackingField(::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder value);
+  constexpr ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder& __cordl_internal_get__defaultFocusOrder_k__BackingField();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*& __cordl_internal_get_m_FocusRing();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>*> const&
   __cordl_internal_get_m_FocusRing() const;
 
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_root();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_root() const;
+
+  constexpr void __cordl_internal_set__defaultFocusOrder_k__BackingField(::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder value);
+
   constexpr void __cordl_internal_set_m_FocusRing(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* value);
 
-  static inline ::UnityEngine::UIElements::VisualElementFocusRing* New_ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo);
+  constexpr void __cordl_internal_set_root(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2dbb6cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec91dc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder dfo);
 
-  /// @brief Method get_focusController, addr 0x2dbb764, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::FocusController* get_focusController();
-
-  /// @brief Method get_defaultFocusOrder, addr 0x2dbb788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFocusOrder, addr 0x2ec9298, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder get_defaultFocusOrder();
 
-  /// @brief Method set_defaultFocusOrder, addr 0x2dbb790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusController, addr 0x2ec9274, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::FocusController* get_focusController();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
+  constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
+
+  /// @brief Method set_defaultFocusOrder, addr 0x2ec92a0, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFocusOrder(::UnityEngine::UIElements::__VisualElementFocusRing__DefaultFocusOrder value);
 
-  /// @brief Method FocusRingAutoIndexSort, addr 0x2dbb798, size 0x450, virtual false, abstract: false, final false
-  inline int32_t FocusRingAutoIndexSort(::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* a, ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* b);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VisualElementFocusRing();
 
-  /// @brief Method FocusRingSort, addr 0x2dbbbe8, size 0xf0, virtual false, abstract: false, final false
-  inline int32_t FocusRingSort(::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* a, ::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord* b);
-
-  /// @brief Method DoUpdate, addr 0x2dbbcd8, size 0xd8, virtual false, abstract: false, final false
-  inline void DoUpdate();
-
-  /// @brief Method BuildRingForScopeRecursive, addr 0x2dbbdb0, size 0x2f8, virtual false, abstract: false, final false
-  inline void BuildRingForScopeRecursive(::UnityEngine::UIElements::VisualElement* ve, ByRef<int32_t> scopeIndex,
-                                         ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* scopeList);
-
-  /// @brief Method SortAndFlattenScopeLists, addr 0x2dbc0a8, size 0x2c8, virtual false, abstract: false, final false
-  inline void SortAndFlattenScopeLists(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualElementFocusRing__FocusRingRecord*>* rootScopeList);
-
-  /// @brief Method GetFocusableInternalIndex, addr 0x2dbc378, size 0xa8, virtual false, abstract: false, final false
-  inline int32_t GetFocusableInternalIndex(::UnityEngine::UIElements::Focusable* f);
-
-  /// @brief Method GetFocusChangeDirection, addr 0x2dbc420, size 0x27c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::FocusChangeDirection* GetFocusChangeDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
-
-  /// @brief Method GetKeyDownFocusChangeDirection, addr 0x2dbc69c, size 0x204, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::FocusChangeDirection* GetKeyDownFocusChangeDirection(::UnityEngine::UIElements::EventBase* e);
-
-  /// @brief Method GetNextFocusable, addr 0x2dbc8a0, size 0x3f0, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::Focusable* GetNextFocusable(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
-
-  /// @brief Method GetNextFocusableInTree, addr 0x2dbcc90, size 0x9c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Focusable* GetNextFocusableInTree(::UnityEngine::UIElements::VisualElement* currentFocusable);
-
-  /// @brief Method GetPreviousFocusableInTree, addr 0x2dbcd2c, size 0xe0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Focusable* GetPreviousFocusableInTree(::UnityEngine::UIElements::VisualElement* currentFocusable);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusRing(VisualElementFocusRing&&) = delete;
@@ -307,12 +312,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementFocusRing(VisualElementFocusRing const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementFocusRing();
-
-public:
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___root;
 

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Globalization::TextInfoToLowerData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3719))
 // CS Name: ::System.Globalization::TextInfoToLowerData*
 class CORDL_TYPE TextInfoToLowerData : public ::System::Object {
 public:
@@ -48,42 +46,48 @@ public:
   /// @brief Field range_a722_a78b, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_range_a722_a78b, put = setStaticF_range_a722_a78b))::ArrayW<char16_t, ::Array<char16_t>*> range_a722_a78b;
 
-  static inline void setStaticF_range_00c0_0556(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_00c0_0556();
-
-  static inline void setStaticF_range_10a0_10c5(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_10a0_10c5();
 
-  static inline void setStaticF_range_1e00_1ffc(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_1e00_1ffc();
-
-  static inline void setStaticF_range_2160_216f(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2160_216f();
 
-  static inline void setStaticF_range_24b6_24cf(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_24b6_24cf();
-
-  static inline void setStaticF_range_2c00_2c2e(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2c00_2c2e();
 
-  static inline void setStaticF_range_2c60_2ce2(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2c60_2ce2();
-
-  static inline void setStaticF_range_a640_a696(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_a640_a696();
 
-  static inline void setStaticF_range_a722_a78b(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_a722_a78b();
 
+  static inline void setStaticF_range_00c0_0556(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_10a0_10c5(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_1e00_1ffc(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2160_216f(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_24b6_24cf(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2c00_2c2e(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2c60_2ce2(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_a640_a696(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_a722_a78b(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextInfoToLowerData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextInfoToLowerData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInfoToLowerData(TextInfoToLowerData&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextInfoToLowerData(TextInfoToLowerData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextInfoToLowerData();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

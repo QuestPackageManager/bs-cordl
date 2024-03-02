@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Threading::Tasks::TaskContinuationOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2792))
 // CS Name: ::System.Threading.Tasks::TaskContinuationOptions
 struct CORDL_TYPE TaskContinuationOptions {
 public:
@@ -47,27 +45,20 @@ public:
     return static_cast<__TaskContinuationOptions_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TaskContinuationOptions(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TaskContinuationOptions();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TaskContinuationOptions(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Threading::Tasks::TaskContinuationOptions const None;
-
-  /// @brief Field PreferFairness value: static_cast<int32_t>(0x1)
-  static ::System::Threading::Tasks::TaskContinuationOptions const PreferFairness;
-
-  /// @brief Field LongRunning value: static_cast<int32_t>(0x2)
-  static ::System::Threading::Tasks::TaskContinuationOptions const LongRunning;
 
   /// @brief Field AttachedToParent value: static_cast<int32_t>(0x4)
   static ::System::Threading::Tasks::TaskContinuationOptions const AttachedToParent;
@@ -75,35 +66,47 @@ public:
   /// @brief Field DenyChildAttach value: static_cast<int32_t>(0x8)
   static ::System::Threading::Tasks::TaskContinuationOptions const DenyChildAttach;
 
+  /// @brief Field ExecuteSynchronously value: static_cast<int32_t>(0x80000)
+  static ::System::Threading::Tasks::TaskContinuationOptions const ExecuteSynchronously;
+
   /// @brief Field HideScheduler value: static_cast<int32_t>(0x10)
   static ::System::Threading::Tasks::TaskContinuationOptions const HideScheduler;
 
   /// @brief Field LazyCancellation value: static_cast<int32_t>(0x20)
   static ::System::Threading::Tasks::TaskContinuationOptions const LazyCancellation;
 
-  /// @brief Field RunContinuationsAsynchronously value: static_cast<int32_t>(0x40)
-  static ::System::Threading::Tasks::TaskContinuationOptions const RunContinuationsAsynchronously;
+  /// @brief Field LongRunning value: static_cast<int32_t>(0x2)
+  static ::System::Threading::Tasks::TaskContinuationOptions const LongRunning;
 
-  /// @brief Field NotOnRanToCompletion value: static_cast<int32_t>(0x10000)
-  static ::System::Threading::Tasks::TaskContinuationOptions const NotOnRanToCompletion;
-
-  /// @brief Field NotOnFaulted value: static_cast<int32_t>(0x20000)
-  static ::System::Threading::Tasks::TaskContinuationOptions const NotOnFaulted;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Threading::Tasks::TaskContinuationOptions const None;
 
   /// @brief Field NotOnCanceled value: static_cast<int32_t>(0x40000)
   static ::System::Threading::Tasks::TaskContinuationOptions const NotOnCanceled;
 
-  /// @brief Field OnlyOnRanToCompletion value: static_cast<int32_t>(0x60000)
-  static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnRanToCompletion;
+  /// @brief Field NotOnFaulted value: static_cast<int32_t>(0x20000)
+  static ::System::Threading::Tasks::TaskContinuationOptions const NotOnFaulted;
 
-  /// @brief Field OnlyOnFaulted value: static_cast<int32_t>(0x50000)
-  static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnFaulted;
+  /// @brief Field NotOnRanToCompletion value: static_cast<int32_t>(0x10000)
+  static ::System::Threading::Tasks::TaskContinuationOptions const NotOnRanToCompletion;
 
   /// @brief Field OnlyOnCanceled value: static_cast<int32_t>(0x30000)
   static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnCanceled;
 
-  /// @brief Field ExecuteSynchronously value: static_cast<int32_t>(0x80000)
-  static ::System::Threading::Tasks::TaskContinuationOptions const ExecuteSynchronously;
+  /// @brief Field OnlyOnFaulted value: static_cast<int32_t>(0x50000)
+  static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnFaulted;
+
+  /// @brief Field OnlyOnRanToCompletion value: static_cast<int32_t>(0x60000)
+  static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnRanToCompletion;
+
+  /// @brief Field PreferFairness value: static_cast<int32_t>(0x1)
+  static ::System::Threading::Tasks::TaskContinuationOptions const PreferFairness;
+
+  /// @brief Field RunContinuationsAsynchronously value: static_cast<int32_t>(0x40)
+  static ::System::Threading::Tasks::TaskContinuationOptions const RunContinuationsAsynchronously;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

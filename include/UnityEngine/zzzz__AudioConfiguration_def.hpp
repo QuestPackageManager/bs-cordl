@@ -19,20 +19,18 @@ MARK_VAL_T(::UnityEngine::AudioConfiguration);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15585))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15587))
 // CS Name: ::UnityEngine::AudioConfiguration
 struct CORDL_TYPE AudioConfiguration {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioConfiguration();
+
   // Ctor Parameters [CppParam { name: "speakerMode", ty: "::UnityEngine::AudioSpeakerMode", modifiers: "", def_value: None }, CppParam { name: "dspBufferSize", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "sampleRate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numRealVoices", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "numVirtualVoices", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AudioConfiguration(::UnityEngine::AudioSpeakerMode speakerMode, int32_t dspBufferSize, int32_t sampleRate, int32_t numRealVoices, int32_t numVirtualVoices) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioConfiguration();
 
   /// @brief Field speakerMode, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::AudioSpeakerMode speakerMode;

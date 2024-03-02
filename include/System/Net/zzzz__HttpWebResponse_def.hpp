@@ -53,48 +53,10 @@ MARK_REF_PTR_T(::System::Net::HttpWebResponse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9097))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
 // CS Name: ::System.Net::HttpWebResponse*
 class CORDL_TYPE HttpWebResponse : public ::System::Net::WebResponse {
 public:
   // Declarations
-  /// @brief Field uri, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
-
-  /// @brief Field webHeaders, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_webHeaders, put = __cordl_internal_set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
-
-  /// @brief Field cookieCollection, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookieCollection, put = __cordl_internal_set_cookieCollection))::System::Net::CookieCollection* cookieCollection;
-
-  /// @brief Field method, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
-
-  /// @brief Field version, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
-
-  /// @brief Field statusCode, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_statusCode, put = __cordl_internal_set_statusCode))::System::Net::HttpStatusCode statusCode;
-
-  /// @brief Field statusDescription, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_statusDescription, put = __cordl_internal_set_statusDescription))::StringW statusDescription;
-
-  /// @brief Field contentLength, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentLength, put = __cordl_internal_set_contentLength)) int64_t contentLength;
-
-  /// @brief Field contentType, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::StringW contentType;
-
-  /// @brief Field cookie_container, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookie_container, put = __cordl_internal_set_cookie_container))::System::Net::CookieContainer* cookie_container;
-
-  /// @brief Field disposed, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
-
-  /// @brief Field stream, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
-
   __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
 
   __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
@@ -103,147 +65,189 @@ public:
 
   __declspec(property(get = get_StatusDescription))::StringW StatusDescription;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+  /// @brief Field contentLength, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_contentLength, put = __cordl_internal_set_contentLength)) int64_t contentLength;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Field contentType, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::StringW contentType;
+
+  /// @brief Field cookieCollection, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_cookieCollection, put = __cordl_internal_set_cookieCollection))::System::Net::CookieCollection* cookieCollection;
+
+  /// @brief Field cookie_container, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_cookie_container, put = __cordl_internal_set_cookie_container))::System::Net::CookieContainer* cookie_container;
+
+  /// @brief Field disposed, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+
+  /// @brief Field method, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
+
+  /// @brief Field statusCode, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_statusCode, put = __cordl_internal_set_statusCode))::System::Net::HttpStatusCode statusCode;
+
+  /// @brief Field statusDescription, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_statusDescription, put = __cordl_internal_set_statusDescription))::StringW statusDescription;
+
+  /// @brief Field stream, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+
+  /// @brief Field uri, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
+
+  /// @brief Field version, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
+
+  /// @brief Field webHeaders, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_webHeaders, put = __cordl_internal_set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  constexpr ::System::Uri*& __cordl_internal_get_uri();
+  /// @brief Method CheckDisposed, addr 0x2abeed4, size 0x84, virtual false, abstract: false, final false
+  inline void CheckDisposed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
+  /// @brief Method Close, addr 0x2abf1e0, size 0x30, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr void __cordl_internal_set_uri(::System::Uri* value);
+  /// @brief Method Dispose, addr 0x2abf220, size 0x14, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_webHeaders();
+  /// @brief Method FillCookies, addr 0x2abe904, size 0x214, virtual false, abstract: false, final false
+  inline void FillCookies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_webHeaders() const;
+  /// @brief Method GetObjectData, addr 0x2abf020, size 0x1c0, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr void __cordl_internal_set_webHeaders(::System::Net::WebHeaderCollection* value);
+  /// @brief Method GetResponseStream, addr 0x2abef78, size 0x9c, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetResponseStream();
+
+  static inline ::System::Net::HttpWebResponse* New_ctor();
+
+  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+
+  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
+
+  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2abf210, size 0x10, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2abf014, size 0xc, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
+
+  constexpr int64_t const& __cordl_internal_get_contentLength() const;
+
+  constexpr int64_t& __cordl_internal_get_contentLength();
+
+  constexpr ::StringW const& __cordl_internal_get_contentType() const;
+
+  constexpr ::StringW& __cordl_internal_get_contentType();
 
   constexpr ::System::Net::CookieCollection*& __cordl_internal_get_cookieCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __cordl_internal_get_cookieCollection() const;
 
-  constexpr void __cordl_internal_set_cookieCollection(::System::Net::CookieCollection* value);
-
-  constexpr ::StringW& __cordl_internal_get_method();
-
-  constexpr ::StringW const& __cordl_internal_get_method() const;
-
-  constexpr void __cordl_internal_set_method(::StringW value);
-
-  constexpr ::System::Version*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
-
-  constexpr void __cordl_internal_set_version(::System::Version* value);
-
-  constexpr ::System::Net::HttpStatusCode& __cordl_internal_get_statusCode();
-
-  constexpr ::System::Net::HttpStatusCode const& __cordl_internal_get_statusCode() const;
-
-  constexpr void __cordl_internal_set_statusCode(::System::Net::HttpStatusCode value);
-
-  constexpr ::StringW& __cordl_internal_get_statusDescription();
-
-  constexpr ::StringW const& __cordl_internal_get_statusDescription() const;
-
-  constexpr void __cordl_internal_set_statusDescription(::StringW value);
-
-  constexpr int64_t& __cordl_internal_get_contentLength();
-
-  constexpr int64_t const& __cordl_internal_get_contentLength() const;
-
-  constexpr void __cordl_internal_set_contentLength(int64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_contentType();
-
-  constexpr ::StringW const& __cordl_internal_get_contentType() const;
-
-  constexpr void __cordl_internal_set_contentType(::StringW value);
-
   constexpr ::System::Net::CookieContainer*& __cordl_internal_get_cookie_container();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __cordl_internal_get_cookie_container() const;
 
-  constexpr void __cordl_internal_set_cookie_container(::System::Net::CookieContainer* value);
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
   constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+  constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+  constexpr ::StringW& __cordl_internal_get_method();
+
+  constexpr ::System::Net::HttpStatusCode const& __cordl_internal_get_statusCode() const;
+
+  constexpr ::System::Net::HttpStatusCode& __cordl_internal_get_statusCode();
+
+  constexpr ::StringW const& __cordl_internal_get_statusDescription() const;
+
+  constexpr ::StringW& __cordl_internal_get_statusDescription();
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
+
+  constexpr ::System::Version*& __cordl_internal_get_version();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
+
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_webHeaders();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_webHeaders() const;
+
+  constexpr void __cordl_internal_set_contentLength(int64_t value);
+
+  constexpr void __cordl_internal_set_contentType(::StringW value);
+
+  constexpr void __cordl_internal_set_cookieCollection(::System::Net::CookieCollection* value);
+
+  constexpr void __cordl_internal_set_cookie_container(::System::Net::CookieContainer* value);
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
+  constexpr void __cordl_internal_set_method(::StringW value);
+
+  constexpr void __cordl_internal_set_statusCode(::System::Net::HttpStatusCode value);
+
+  constexpr void __cordl_internal_set_statusDescription(::StringW value);
+
   constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  static inline ::System::Net::HttpWebResponse* New_ctor();
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x29d1cd0, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_version(::System::Version* value);
+
+  constexpr void __cordl_internal_set_webHeaders(::System::Net::WebHeaderCollection* value);
+
+  /// @brief Method .ctor, addr 0x2abe848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
-
-  /// @brief Method .ctor, addr 0x29d1cd8, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
-
-  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
-
-  /// @brief Method .ctor, addr 0x29d1514, size 0x2ec, virtual false, abstract: false, final false
-  inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
-
-  static inline ::System::Net::HttpWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method .ctor, addr 0x29d1fa0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2abeb18, size 0x39c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers, addr 0x29d233c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2abe850, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
+
+  /// @brief Method .ctor, addr 0x2abe08c, size 0x2ec, virtual false, abstract: false, final false
+  inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
+
+  /// @brief Method get_Headers, addr 0x2abeeb4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x29d2344, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x2abeebc, size 0x18, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x29d23e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x2abef58, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_StatusDescription, addr 0x29d23e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_StatusDescription, addr 0x2abef60, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method GetResponseStream, addr 0x29d2400, size 0x9c, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetResponseStream();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29d249c, size 0xc, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x29d24a8, size 0x1c0, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpWebResponse();
 
-  /// @brief Method Close, addr 0x29d2668, size 0x30, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x29d2698, size 0x10, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  /// @brief Method Dispose, addr 0x29d26a8, size 0x14, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method CheckDisposed, addr 0x29d235c, size 0x84, virtual false, abstract: false, final false
-  inline void CheckDisposed();
-
-  /// @brief Method FillCookies, addr 0x29d1d8c, size 0x214, virtual false, abstract: false, final false
-  inline void FillCookies();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpWebResponse(HttpWebResponse&&) = delete;
@@ -252,12 +256,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpWebResponse(HttpWebResponse const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpWebResponse();
-
-public:
   /// @brief Field uri, offset: 0x20, size: 0x8, def value: None
   ::System::Uri* ___uri;
 

@@ -19,17 +19,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IHapticFeedbackPlayer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14410))
 // CS Name: ::IHapticFeedbackPlayer*
 class CORDL_TYPE IHapticFeedbackPlayer {
 public:
   // Declarations
-  /// @brief Method PlayHapticFeedback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
-
   /// @brief Method CanPlayHapticPreset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
+
+  /// @brief Method PlayHapticFeedback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IHapticFeedbackPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadCancelResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13420))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadCancelResult*
 class CORDL_TYPE AssetFileDownloadCancelResult : public ::System::Object {
 public:
@@ -34,35 +32,41 @@ public:
   /// @brief Field Success, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_Success, put = __cordl_internal_set_Success)) bool Success;
 
-  constexpr uint64_t& __cordl_internal_get_AssetFileId();
+  static inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* New_ctor(void* o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetFileId() const;
 
-  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
-
-  constexpr uint64_t& __cordl_internal_get_AssetId();
+  constexpr uint64_t& __cordl_internal_get_AssetFileId();
 
   constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __cordl_internal_set_AssetId(uint64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_Filepath();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
   constexpr ::StringW const& __cordl_internal_get_Filepath() const;
 
-  constexpr void __cordl_internal_set_Filepath(::StringW value);
-
-  constexpr bool& __cordl_internal_get_Success();
+  constexpr ::StringW& __cordl_internal_get_Filepath();
 
   constexpr bool const& __cordl_internal_get_Success() const;
 
+  constexpr bool& __cordl_internal_get_Success();
+
+  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
+
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
+
+  constexpr void __cordl_internal_set_Filepath(::StringW value);
+
   constexpr void __cordl_internal_set_Success(bool value);
 
-  static inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2704a70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f6378, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetFileDownloadCancelResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadCancelResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetFileDownloadCancelResult(AssetFileDownloadCancelResult&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetFileDownloadCancelResult(AssetFileDownloadCancelResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetFileDownloadCancelResult();
-
-public:
   /// @brief Field AssetFileId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetFileId;
 

@@ -30,49 +30,53 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_QNameXdr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11679))
 // CS Name: ::System.Xml.Schema::Datatype_QNameXdr*
 class CORDL_TYPE Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
+  __declspec(property(get = get_ListValueType))::System::Type* ListValueType;
+
+  __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
+
+  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType))::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType))::System::Type* listValueType;
 
-  __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
+  static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  /// @brief Method ParseValue, addr 0x29a8a6c, size 0x274, virtual true, abstract: false, final false
+  inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  __declspec(property(get = get_ListValueType))::System::Type* ListValueType;
-
-  static inline void setStaticF_atomicValueType(::System::Type* value);
+  /// @brief Method .ctor, addr 0x29a8d90, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
-  static inline void setStaticF_listValueType(::System::Type* value);
-
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x28bef80, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlTokenizedType get_TokenizedType();
-
-  /// @brief Method ParseValue, addr 0x28bef88, size 0x274, virtual true, abstract: false, final false
-  inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
-
-  /// @brief Method get_ValueType, addr 0x28bf1fc, size 0x58, virtual true, abstract: false, final false
-  inline ::System::Type* get_ValueType();
-
-  /// @brief Method get_ListValueType, addr 0x28bf254, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x29a8d38, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
+  /// @brief Method get_TokenizedType, addr 0x29a8a64, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method .ctor, addr 0x28bf2ac, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method get_ValueType, addr 0x29a8ce0, size 0x58, virtual true, abstract: false, final false
+  inline ::System::Type* get_ValueType();
 
+  static inline void setStaticF_atomicValueType(::System::Type* value);
+
+  static inline void setStaticF_listValueType(::System::Type* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_QNameXdr();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_QNameXdr", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_QNameXdr(Datatype_QNameXdr&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_QNameXdr(Datatype_QNameXdr const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_QNameXdr();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

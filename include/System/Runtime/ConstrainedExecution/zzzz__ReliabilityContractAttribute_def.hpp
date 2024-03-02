@@ -22,37 +22,41 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
 // CS Name: ::System.Runtime.ConstrainedExecution::ReliabilityContractAttribute*
 class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief Field <Cer>k__BackingField, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__Cer_k__BackingField, put = __cordl_internal_set__Cer_k__BackingField))::System::Runtime::ConstrainedExecution::Cer _Cer_k__BackingField;
+
   /// @brief Field <ConsistencyGuarantee>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__ConsistencyGuarantee_k__BackingField,
                       put = __cordl_internal_set__ConsistencyGuarantee_k__BackingField))::System::Runtime::ConstrainedExecution::Consistency _ConsistencyGuarantee_k__BackingField;
 
-  /// @brief Field <Cer>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__Cer_k__BackingField, put = __cordl_internal_set__Cer_k__BackingField))::System::Runtime::ConstrainedExecution::Cer _Cer_k__BackingField;
-
-  constexpr ::System::Runtime::ConstrainedExecution::Consistency& __cordl_internal_get__ConsistencyGuarantee_k__BackingField();
-
-  constexpr ::System::Runtime::ConstrainedExecution::Consistency const& __cordl_internal_get__ConsistencyGuarantee_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value);
-
-  constexpr ::System::Runtime::ConstrainedExecution::Cer& __cordl_internal_get__Cer_k__BackingField();
-
-  constexpr ::System::Runtime::ConstrainedExecution::Cer const& __cordl_internal_get__Cer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Cer_k__BackingField(::System::Runtime::ConstrainedExecution::Cer value);
-
   static inline ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute* New_ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee,
                                                                                                 ::System::Runtime::ConstrainedExecution::Cer cer);
 
-  /// @brief Method .ctor, addr 0x24da6e0, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::System::Runtime::ConstrainedExecution::Cer const& __cordl_internal_get__Cer_k__BackingField() const;
+
+  constexpr ::System::Runtime::ConstrainedExecution::Cer& __cordl_internal_get__Cer_k__BackingField();
+
+  constexpr ::System::Runtime::ConstrainedExecution::Consistency const& __cordl_internal_get__ConsistencyGuarantee_k__BackingField() const;
+
+  constexpr ::System::Runtime::ConstrainedExecution::Consistency& __cordl_internal_get__ConsistencyGuarantee_k__BackingField();
+
+  constexpr void __cordl_internal_set__Cer_k__BackingField(::System::Runtime::ConstrainedExecution::Cer value);
+
+  constexpr void __cordl_internal_set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value);
+
+  /// @brief Method .ctor, addr 0x25cb44c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReliabilityContractAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReliabilityContractAttribute(ReliabilityContractAttribute&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReliabilityContractAttribute(ReliabilityContractAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReliabilityContractAttribute();
-
-public:
   /// @brief Field <ConsistencyGuarantee>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::ConstrainedExecution::Consistency ____ConsistencyGuarantee_k__BackingField;
 

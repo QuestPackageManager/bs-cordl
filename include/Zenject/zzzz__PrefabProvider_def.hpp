@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Zenject::PrefabProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11232))
 // CS Name: ::Zenject::PrefabProvider*
 class CORDL_TYPE PrefabProvider : public ::System::Object {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IPrefabProvider"
-  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
-
-  constexpr ::UnityW<::UnityEngine::Object>& __cordl_internal_get__prefab();
-
-  constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get__prefab() const;
-
-  constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::Object> value);
+  /// @brief Method GetPrefab, addr 0x30194a4, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProvider* New_ctor(::UnityEngine::Object* prefab);
 
-  /// @brief Method .ctor, addr 0x2f09c00, size 0x34, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get__prefab() const;
+
+  constexpr ::UnityW<::UnityEngine::Object>& __cordl_internal_get__prefab();
+
+  constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::Object> value);
+
+  /// @brief Method .ctor, addr 0x3019470, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* prefab);
 
-  /// @brief Method GetPrefab, addr 0x2f09c34, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::Object> GetPrefab();
+  /// @brief Convert to "::Zenject::IPrefabProvider"
+  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrefabProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabProvider(PrefabProvider&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrefabProvider(PrefabProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrefabProvider();
-
-public:
   /// @brief Field _prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ____prefab;
 

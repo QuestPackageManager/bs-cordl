@@ -38,17 +38,19 @@ MARK_VAL_T(::UnityEngine::UIElements::CursorPositionStylePainterParameters);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6770))
 // CS Name: ::UnityEngine.UIElements::CursorPositionStylePainterParameters
 struct CORDL_TYPE CursorPositionStylePainterParameters {
 public:
   // Declarations
-  /// @brief Method GetDefault, addr 0x2db6de0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x2ec48f0, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(::UnityEngine::UIElements::VisualElement* ve, ::StringW text);
 
-  /// @brief Method GetTextNativeSettings, addr 0x2db6f28, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTextNativeSettings, addr 0x2ec4a38, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CursorPositionStylePainterParameters();
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty:
@@ -57,10 +59,6 @@ public:
   // None }]
   constexpr CursorPositionStylePainterParameters(::UnityEngine::Rect rect, ::StringW text, ::UnityW<::UnityEngine::Font> font, int32_t fontSize, ::UnityEngine::FontStyle fontStyle,
                                                  ::UnityEngine::TextAnchor anchor, float_t wordWrapWidth, bool richText, int32_t cursorIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CursorPositionStylePainterParameters();
 
   /// @brief Field rect, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Rect rect;

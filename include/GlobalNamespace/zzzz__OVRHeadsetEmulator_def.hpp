@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHeadsetEmulator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7578))
 // CS Name: ::OVRHeadsetEmulator::OpMode
 struct CORDL_TYPE __OVRHeadsetEmulator__OpMode {
 public:
@@ -54,27 +52,32 @@ public:
     return static_cast<____OVRHeadsetEmulator__OpMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRHeadsetEmulator__OpMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRHeadsetEmulator__OpMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRHeadsetEmulator__OpMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const Off;
+  /// @brief Field AlwaysOn value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const AlwaysOn;
 
   /// @brief Field EditorOnly value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const EditorOnly;
 
-  /// @brief Field AlwaysOn value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const AlwaysOn;
+  /// @brief Field Off value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const Off;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -88,140 +91,145 @@ static_assert(offsetof(::GlobalNamespace::__OVRHeadsetEmulator__OpMode, value__)
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7578)), TypeDefinitionIndex(TypeDefinitionIndex(10060)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7579)) CS Name: ::OVRHeadsetEmulator*
+// CS Name: ::OVRHeadsetEmulator*
 class CORDL_TYPE OVRHeadsetEmulator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using OpMode = ::GlobalNamespace::__OVRHeadsetEmulator__OpMode;
 
-  /// @brief Field opMode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_opMode, put = __cordl_internal_set_opMode))::GlobalNamespace::__OVRHeadsetEmulator__OpMode opMode;
-
-  /// @brief Field resetHmdPoseOnRelease, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_resetHmdPoseOnRelease, put = __cordl_internal_set_resetHmdPoseOnRelease)) bool resetHmdPoseOnRelease;
-
-  /// @brief Field resetHmdPoseByMiddleMouseButton, offset 0x1d, size 0x1
-  __declspec(property(get = __cordl_internal_get_resetHmdPoseByMiddleMouseButton, put = __cordl_internal_set_resetHmdPoseByMiddleMouseButton)) bool resetHmdPoseByMiddleMouseButton;
-
   /// @brief Field activateKeys, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_activateKeys, put = __cordl_internal_set_activateKeys))::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> activateKeys;
 
-  /// @brief Field pitchKeys, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_pitchKeys, put = __cordl_internal_set_pitchKeys))::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> pitchKeys;
+  /// @brief Field emulatorHasInitialized, offset 0x55, size 0x1
+  __declspec(property(get = __cordl_internal_get_emulatorHasInitialized, put = __cordl_internal_set_emulatorHasInitialized)) bool emulatorHasInitialized;
 
-  /// @brief Field manager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_manager, put = __cordl_internal_set_manager))::UnityW<::GlobalNamespace::OVRManager> manager;
+  /// @brief Field hasSentEvent, offset 0x54, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasSentEvent, put = __cordl_internal_set_hasSentEvent)) bool hasSentEvent;
 
   /// @brief Field lastFrameEmulationActivated, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_lastFrameEmulationActivated, put = __cordl_internal_set_lastFrameEmulationActivated)) bool lastFrameEmulationActivated;
 
-  /// @brief Field recordedHeadPoseRelativeOffsetTranslation, offset 0x3c, size 0xc
-  __declspec(property(get = __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation,
-                      put = __cordl_internal_set_recordedHeadPoseRelativeOffsetTranslation))::UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation;
+  /// @brief Field manager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_manager, put = __cordl_internal_set_manager))::UnityW<::GlobalNamespace::OVRManager> manager;
+
+  /// @brief Field opMode, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_opMode, put = __cordl_internal_set_opMode))::GlobalNamespace::__OVRHeadsetEmulator__OpMode opMode;
+
+  /// @brief Field pitchKeys, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_pitchKeys, put = __cordl_internal_set_pitchKeys))::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> pitchKeys;
+
+  /// @brief Field previousCursorLockMode, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_previousCursorLockMode, put = __cordl_internal_set_previousCursorLockMode))::UnityEngine::CursorLockMode previousCursorLockMode;
 
   /// @brief Field recordedHeadPoseRelativeOffsetRotation, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get_recordedHeadPoseRelativeOffsetRotation,
                       put = __cordl_internal_set_recordedHeadPoseRelativeOffsetRotation))::UnityEngine::Vector3 recordedHeadPoseRelativeOffsetRotation;
 
-  /// @brief Field hasSentEvent, offset 0x54, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasSentEvent, put = __cordl_internal_set_hasSentEvent)) bool hasSentEvent;
+  /// @brief Field recordedHeadPoseRelativeOffsetTranslation, offset 0x3c, size 0xc
+  __declspec(property(get = __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation,
+                      put = __cordl_internal_set_recordedHeadPoseRelativeOffsetTranslation))::UnityEngine::Vector3 recordedHeadPoseRelativeOffsetTranslation;
 
-  /// @brief Field emulatorHasInitialized, offset 0x55, size 0x1
-  __declspec(property(get = __cordl_internal_get_emulatorHasInitialized, put = __cordl_internal_set_emulatorHasInitialized)) bool emulatorHasInitialized;
+  /// @brief Field resetHmdPoseByMiddleMouseButton, offset 0x1d, size 0x1
+  __declspec(property(get = __cordl_internal_get_resetHmdPoseByMiddleMouseButton, put = __cordl_internal_set_resetHmdPoseByMiddleMouseButton)) bool resetHmdPoseByMiddleMouseButton;
 
-  /// @brief Field previousCursorLockMode, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_previousCursorLockMode, put = __cordl_internal_set_previousCursorLockMode))::UnityEngine::CursorLockMode previousCursorLockMode;
+  /// @brief Field resetHmdPoseOnRelease, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get_resetHmdPoseOnRelease, put = __cordl_internal_set_resetHmdPoseOnRelease)) bool resetHmdPoseOnRelease;
 
-  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode& __cordl_internal_get_opMode();
-
-  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const& __cordl_internal_get_opMode() const;
-
-  constexpr void __cordl_internal_set_opMode(::GlobalNamespace::__OVRHeadsetEmulator__OpMode value);
-
-  constexpr bool& __cordl_internal_get_resetHmdPoseOnRelease();
-
-  constexpr bool const& __cordl_internal_get_resetHmdPoseOnRelease() const;
-
-  constexpr void __cordl_internal_set_resetHmdPoseOnRelease(bool value);
-
-  constexpr bool& __cordl_internal_get_resetHmdPoseByMiddleMouseButton();
-
-  constexpr bool const& __cordl_internal_get_resetHmdPoseByMiddleMouseButton() const;
-
-  constexpr void __cordl_internal_set_resetHmdPoseByMiddleMouseButton(bool value);
-
-  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& __cordl_internal_get_activateKeys();
-
-  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_activateKeys() const;
-
-  constexpr void __cordl_internal_set_activateKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& __cordl_internal_get_pitchKeys();
-
-  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_pitchKeys() const;
-
-  constexpr void __cordl_internal_set_pitchKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRManager>& __cordl_internal_get_manager();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRManager> const& __cordl_internal_get_manager() const;
-
-  constexpr void __cordl_internal_set_manager(::UnityW<::GlobalNamespace::OVRManager> value);
-
-  constexpr bool& __cordl_internal_get_lastFrameEmulationActivated();
-
-  constexpr bool const& __cordl_internal_get_lastFrameEmulationActivated() const;
-
-  constexpr void __cordl_internal_set_lastFrameEmulationActivated(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation() const;
-
-  constexpr void __cordl_internal_set_recordedHeadPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_recordedHeadPoseRelativeOffsetRotation();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_recordedHeadPoseRelativeOffsetRotation() const;
-
-  constexpr void __cordl_internal_set_recordedHeadPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get_hasSentEvent();
-
-  constexpr bool const& __cordl_internal_get_hasSentEvent() const;
-
-  constexpr void __cordl_internal_set_hasSentEvent(bool value);
-
-  constexpr bool& __cordl_internal_get_emulatorHasInitialized();
-
-  constexpr bool const& __cordl_internal_get_emulatorHasInitialized() const;
-
-  constexpr void __cordl_internal_set_emulatorHasInitialized(bool value);
-
-  constexpr ::UnityEngine::CursorLockMode& __cordl_internal_get_previousCursorLockMode();
-
-  constexpr ::UnityEngine::CursorLockMode const& __cordl_internal_get_previousCursorLockMode() const;
-
-  constexpr void __cordl_internal_set_previousCursorLockMode(::UnityEngine::CursorLockMode value);
-
-  /// @brief Method Start, addr 0x2729f60, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x2729f64, size 0x464, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method IsEmulationActivated, addr 0x272a3c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsEmulationActivated, addr 0x281ccd0, size 0x90, virtual false, abstract: false, final false
   inline bool IsEmulationActivated();
 
-  /// @brief Method IsTweakingPitch, addr 0x272a458, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsTweakingPitch, addr 0x281cd60, size 0x7c, virtual false, abstract: false, final false
   inline bool IsTweakingPitch();
 
   static inline ::GlobalNamespace::OVRHeadsetEmulator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x272a4d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x281c868, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x281c86c, size 0x464, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_activateKeys() const;
+
+  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& __cordl_internal_get_activateKeys();
+
+  constexpr bool const& __cordl_internal_get_emulatorHasInitialized() const;
+
+  constexpr bool& __cordl_internal_get_emulatorHasInitialized();
+
+  constexpr bool const& __cordl_internal_get_hasSentEvent() const;
+
+  constexpr bool& __cordl_internal_get_hasSentEvent();
+
+  constexpr bool const& __cordl_internal_get_lastFrameEmulationActivated() const;
+
+  constexpr bool& __cordl_internal_get_lastFrameEmulationActivated();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRManager> const& __cordl_internal_get_manager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRManager>& __cordl_internal_get_manager();
+
+  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const& __cordl_internal_get_opMode() const;
+
+  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode& __cordl_internal_get_opMode();
+
+  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_pitchKeys() const;
+
+  constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& __cordl_internal_get_pitchKeys();
+
+  constexpr ::UnityEngine::CursorLockMode const& __cordl_internal_get_previousCursorLockMode() const;
+
+  constexpr ::UnityEngine::CursorLockMode& __cordl_internal_get_previousCursorLockMode();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_recordedHeadPoseRelativeOffsetRotation() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_recordedHeadPoseRelativeOffsetRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_recordedHeadPoseRelativeOffsetTranslation();
+
+  constexpr bool const& __cordl_internal_get_resetHmdPoseByMiddleMouseButton() const;
+
+  constexpr bool& __cordl_internal_get_resetHmdPoseByMiddleMouseButton();
+
+  constexpr bool const& __cordl_internal_get_resetHmdPoseOnRelease() const;
+
+  constexpr bool& __cordl_internal_get_resetHmdPoseOnRelease();
+
+  constexpr void __cordl_internal_set_activateKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value);
+
+  constexpr void __cordl_internal_set_emulatorHasInitialized(bool value);
+
+  constexpr void __cordl_internal_set_hasSentEvent(bool value);
+
+  constexpr void __cordl_internal_set_lastFrameEmulationActivated(bool value);
+
+  constexpr void __cordl_internal_set_manager(::UnityW<::GlobalNamespace::OVRManager> value);
+
+  constexpr void __cordl_internal_set_opMode(::GlobalNamespace::__OVRHeadsetEmulator__OpMode value);
+
+  constexpr void __cordl_internal_set_pitchKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value);
+
+  constexpr void __cordl_internal_set_previousCursorLockMode(::UnityEngine::CursorLockMode value);
+
+  constexpr void __cordl_internal_set_recordedHeadPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_recordedHeadPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_resetHmdPoseByMiddleMouseButton(bool value);
+
+  constexpr void __cordl_internal_set_resetHmdPoseOnRelease(bool value);
+
+  /// @brief Method .ctor, addr 0x281cddc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRHeadsetEmulator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHeadsetEmulator(OVRHeadsetEmulator&&) = delete;
@@ -230,12 +238,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRHeadsetEmulator(OVRHeadsetEmulator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRHeadsetEmulator();
-
-public:
   /// @brief Field opMode, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__OVRHeadsetEmulator__OpMode ___opMode;
 
@@ -272,6 +274,12 @@ public:
   /// @brief Field previousCursorLockMode, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::CursorLockMode ___previousCursorLockMode;
 
+  /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
+  static constexpr float_t MAX_ROLL{ 85.0 };
+
+  /// @brief Field MOUSE_SCALE_HEIGHT offset 0xffffffff size 0x4
+  static constexpr float_t MOUSE_SCALE_HEIGHT{ 1.0 };
+
   /// @brief Field MOUSE_SCALE_X offset 0xffffffff size 0x4
   static constexpr float_t MOUSE_SCALE_X{ -2.0 };
 
@@ -280,12 +288,6 @@ public:
 
   /// @brief Field MOUSE_SCALE_Y offset 0xffffffff size 0x4
   static constexpr float_t MOUSE_SCALE_Y{ 2.0 };
-
-  /// @brief Field MOUSE_SCALE_HEIGHT offset 0xffffffff size 0x4
-  static constexpr float_t MOUSE_SCALE_HEIGHT{ 1.0 };
-
-  /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
-  static constexpr float_t MAX_ROLL{ 85.0 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

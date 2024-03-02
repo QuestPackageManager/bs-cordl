@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericSecurityDescriptor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3037))
 // CS Name: ::System.Security.AccessControl::GenericSecurityDescriptor*
 class CORDL_TYPE GenericSecurityDescriptor : public ::System::Object {
 public:
@@ -29,7 +27,7 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2483080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2576dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method set_Group, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -38,6 +36,12 @@ public:
   /// @brief Method set_Owner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericSecurityDescriptor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericSecurityDescriptor(GenericSecurityDescriptor&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericSecurityDescriptor(GenericSecurityDescriptor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericSecurityDescriptor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

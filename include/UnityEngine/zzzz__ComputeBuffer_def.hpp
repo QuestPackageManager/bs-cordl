@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::ComputeBuffer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10260))
 // CS Name: ::UnityEngine::ComputeBuffer*
 class CORDL_TYPE ComputeBuffer : public ::System::Object {
 public:
@@ -25,12 +23,18 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComputeBuffer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComputeBuffer(ComputeBuffer&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComputeBuffer(ComputeBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComputeBuffer();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(843))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Dstu7624WrapEngine*
 class CORDL_TYPE Dstu7624WrapEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* param;
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+
+  /// @brief Field blockSize, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field engine, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine* engine;
@@ -44,58 +44,62 @@ public:
   /// @brief Field forWrapping, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_forWrapping, put = __cordl_internal_set_forWrapping)) bool forWrapping;
 
-  /// @brief Field blockSize, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
-
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  /// @brief Field param, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* param;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
-  constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
+  /// @brief Method Init, addr 0xf40f6c, size 0x11c, virtual true, abstract: false, final true
+  inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_param();
+  static inline ::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine* New_ctor(int32_t blockSizeBits);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_param() const;
+  /// @brief Method Unwrap, addr 0xf4183c, size 0x890, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+  /// @brief Method Wrap, addr 0xf41088, size 0x7b4, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
+
+  constexpr int32_t const& __cordl_internal_get_blockSize() const;
+
+  constexpr int32_t& __cordl_internal_get_blockSize();
 
   constexpr ::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine*& __cordl_internal_get_engine();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine* value);
+  constexpr bool const& __cordl_internal_get_forWrapping() const;
 
   constexpr bool& __cordl_internal_get_forWrapping();
 
-  constexpr bool const& __cordl_internal_get_forWrapping() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_param();
 
-  constexpr void __cordl_internal_set_forWrapping(bool value);
-
-  constexpr int32_t& __cordl_internal_get_blockSize();
-
-  constexpr int32_t const& __cordl_internal_get_blockSize() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_param() const;
 
   constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine* New_ctor(int32_t blockSizeBits);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine* value);
 
-  /// @brief Method .ctor, addr 0xecf03c, size 0x90, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_forWrapping(bool value);
+
+  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+
+  /// @brief Method .ctor, addr 0xf40e9c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0xecf0cc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0xf40f2c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init, addr 0xecf10c, size 0x11c, virtual true, abstract: false, final true
-  inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
-  /// @brief Method Wrap, addr 0xecf228, size 0x7b4, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Dstu7624WrapEngine();
 
-  /// @brief Method Unwrap, addr 0xecf9dc, size 0x890, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7624WrapEngine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dstu7624WrapEngine(Dstu7624WrapEngine&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Dstu7624WrapEngine(Dstu7624WrapEngine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Dstu7624WrapEngine();
-
-public:
   /// @brief Field param, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* ___param;
 

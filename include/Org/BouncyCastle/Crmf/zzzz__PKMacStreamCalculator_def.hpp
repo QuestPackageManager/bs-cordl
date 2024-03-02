@@ -29,22 +29,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacStreamCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(706))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacStreamCalculator*
 class CORDL_TYPE PKMacStreamCalculator : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
+
   /// @brief Field _stream, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::Org::BouncyCastle::Crypto::IO::MacSink* _stream;
-
-  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
-  constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
+  /// @brief Method GetResult, addr 0x1282d90, size 0x84, virtual true, abstract: false, final true
+  inline ::System::Object* GetResult();
+
+  static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
   constexpr ::Org::BouncyCastle::Crypto::IO::MacSink*& __cordl_internal_get__stream();
 
@@ -52,17 +52,21 @@ public:
 
   constexpr void __cordl_internal_set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
 
-  static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
-
-  /// @brief Method .ctor, addr 0x1211eac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1282d0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Stream, addr 0x1211f28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x1282d88, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult, addr 0x1211f30, size 0x84, virtual true, abstract: false, final true
-  inline ::System::Object* GetResult();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PKMacStreamCalculator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PKMacStreamCalculator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKMacStreamCalculator(PKMacStreamCalculator&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PKMacStreamCalculator(PKMacStreamCalculator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PKMacStreamCalculator();
-
-public:
   /// @brief Field _stream, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IO::MacSink* ____stream;
 

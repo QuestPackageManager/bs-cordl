@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Net::HttpVersion);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9028))
 // CS Name: ::System.Net::HttpVersion*
 class CORDL_TYPE HttpVersion : public ::System::Object {
 public:
@@ -35,22 +33,28 @@ public:
   /// @brief Field Version20, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Version20, put = setStaticF_Version20))::System::Version* Version20;
 
-  static inline void setStaticF_Unknown(::System::Version* value);
-
   static inline ::System::Version* getStaticF_Unknown();
-
-  static inline void setStaticF_Version10(::System::Version* value);
 
   static inline ::System::Version* getStaticF_Version10();
 
-  static inline void setStaticF_Version11(::System::Version* value);
-
   static inline ::System::Version* getStaticF_Version11();
-
-  static inline void setStaticF_Version20(::System::Version* value);
 
   static inline ::System::Version* getStaticF_Version20();
 
+  static inline void setStaticF_Unknown(::System::Version* value);
+
+  static inline void setStaticF_Version10(::System::Version* value);
+
+  static inline void setStaticF_Version11(::System::Version* value);
+
+  static inline void setStaticF_Version20(::System::Version* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpVersion();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpVersion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpVersion(HttpVersion&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpVersion(HttpVersion const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpVersion();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,36 +24,34 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::TextureMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10414))
 // CS Name: ::UnityEngine.Experimental.Playables::TextureMixerPlayable
 struct CORDL_TYPE TextureMixerPlayable {
 public:
   // Declarations
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>*();
+
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
-  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+  /// @brief Method Equals, addr 0x2deacd0, size 0x74, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>*();
+  /// @brief Method GetHandle, addr 0x2deacc4, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
   constexpr ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>* i___System__IEquatable_1___UnityEngine__Experimental__Playables__TextureMixerPlayable_();
 
-  /// @brief Method GetHandle, addr 0x2cf48c0, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableHandle GetHandle();
-
-  /// @brief Method Equals, addr 0x2cf48cc, size 0x74, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
-
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-  constexpr TextureMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TextureMixerPlayable();
+
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  constexpr TextureMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle m_Handle;

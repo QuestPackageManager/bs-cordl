@@ -19,12 +19,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3115))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainData*
 class CORDL_TYPE CrossAppDomainData : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_DomainID)) int32_t DomainID;
+
+  __declspec(property(get = get_ProcessID))::StringW ProcessID;
+
   /// @brief Field _ContextID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ContextID, put = __cordl_internal_set__ContextID))::System::Object* _ContextID;
 
@@ -34,39 +36,41 @@ public:
   /// @brief Field _processGuid, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__processGuid, put = __cordl_internal_set__processGuid))::StringW _processGuid;
 
-  __declspec(property(get = get_DomainID)) int32_t DomainID;
-
-  __declspec(property(get = get_ProcessID))::StringW ProcessID;
+  static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 
   constexpr ::System::Object*& __cordl_internal_get__ContextID();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__ContextID() const;
 
-  constexpr void __cordl_internal_set__ContextID(::System::Object* value);
+  constexpr int32_t const& __cordl_internal_get__DomainID() const;
 
   constexpr int32_t& __cordl_internal_get__DomainID();
 
-  constexpr int32_t const& __cordl_internal_get__DomainID() const;
-
-  constexpr void __cordl_internal_set__DomainID(int32_t value);
+  constexpr ::StringW const& __cordl_internal_get__processGuid() const;
 
   constexpr ::StringW& __cordl_internal_get__processGuid();
 
-  constexpr ::StringW const& __cordl_internal_get__processGuid() const;
+  constexpr void __cordl_internal_set__ContextID(::System::Object* value);
+
+  constexpr void __cordl_internal_set__DomainID(int32_t value);
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
-
-  /// @brief Method .ctor, addr 0x24a2af0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259585c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x24a2b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x2595904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x24a2ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x259590c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CrossAppDomainData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrossAppDomainData(CrossAppDomainData&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrossAppDomainData(CrossAppDomainData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrossAppDomainData();
-
-public:
   /// @brief Field _ContextID, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____ContextID;
 

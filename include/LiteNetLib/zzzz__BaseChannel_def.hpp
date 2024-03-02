@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::LiteNetLib::BaseChannel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14127))
 // CS Name: ::LiteNetLib::BaseChannel*
 class CORDL_TYPE BaseChannel : public ::System::Object {
 public:
@@ -33,49 +31,55 @@ public:
   /// @brief Field Next, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::LiteNetLib::BaseChannel* Next;
 
-  /// @brief Field Peer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer))::LiteNetLib::NetPeer* Peer;
-
   /// @brief Field OutgoingQueue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_OutgoingQueue, put = __cordl_internal_set_OutgoingQueue))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* OutgoingQueue;
 
   __declspec(property(get = get_PacketsInQueue)) int32_t PacketsInQueue;
 
+  /// @brief Field Peer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer))::LiteNetLib::NetPeer* Peer;
+
+  /// @brief Method AddToQueue, addr 0x235a024, size 0xfc, virtual false, abstract: false, final false
+  inline void AddToQueue(::LiteNetLib::NetPacket* packet);
+
+  static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
+
+  /// @brief Method ProcessPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
+
+  /// @brief Method SendNextPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SendNextPackets();
+
   constexpr ::LiteNetLib::BaseChannel*& __cordl_internal_get_Next();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& __cordl_internal_get_Next() const;
-
-  constexpr void __cordl_internal_set_Next(::LiteNetLib::BaseChannel* value);
-
-  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_Peer();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_Peer() const;
-
-  constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
   constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& __cordl_internal_get_OutgoingQueue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get_OutgoingQueue() const;
 
+  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_Peer();
+
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_Peer() const;
+
+  constexpr void __cordl_internal_set_Next(::LiteNetLib::BaseChannel* value);
+
   constexpr void __cordl_internal_set_OutgoingQueue(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
 
-  static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
+  constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
-  /// @brief Method .ctor, addr 0x21f7ff8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2359f48, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method get_PacketsInQueue, addr 0x21f808c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsInQueue, addr 0x2359fdc, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_PacketsInQueue();
 
-  /// @brief Method AddToQueue, addr 0x21f80d4, size 0xfc, virtual false, abstract: false, final false
-  inline void AddToQueue(::LiteNetLib::NetPacket* packet);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseChannel();
 
-  /// @brief Method SendNextPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SendNextPackets();
-
-  /// @brief Method ProcessPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseChannel(BaseChannel&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseChannel(BaseChannel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseChannel();
-
-public:
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::BaseChannel* ___Next;
 

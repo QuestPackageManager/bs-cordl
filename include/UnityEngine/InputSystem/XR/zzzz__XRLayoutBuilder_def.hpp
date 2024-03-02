@@ -46,8 +46,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6330))
 // CS Name: ::XRLayoutBuilder::<>c__DisplayClass5_0*
 class CORDL_TYPE __XRLayoutBuilder____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -55,20 +53,26 @@ public:
   /// @brief Field layout, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_layout, put = __cordl_internal_set_layout))::UnityEngine::InputSystem::XR::XRLayoutBuilder* layout;
 
+  static inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* New_ctor();
+
+  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2baff50, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
+
   constexpr ::UnityEngine::InputSystem::XR::XRLayoutBuilder*& __cordl_internal_get_layout();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::XR::XRLayoutBuilder*> const& __cordl_internal_get_layout() const;
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::XR::XRLayoutBuilder* value);
 
-  static inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ac7288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2baeec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2ac8310, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XRLayoutBuilder____c__DisplayClass5_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__XRLayoutBuilder____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __XRLayoutBuilder____c__DisplayClass5_0(__XRLayoutBuilder____c__DisplayClass5_0&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XRLayoutBuilder____c__DisplayClass5_0(__XRLayoutBuilder____c__DisplayClass5_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XRLayoutBuilder____c__DisplayClass5_0();
-
-public:
   /// @brief Field layout, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::XR::XRLayoutBuilder* ___layout;
 
@@ -98,22 +96,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__D
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6331))
 // CS Name: ::UnityEngine.InputSystem.XR::XRLayoutBuilder*
 class CORDL_TYPE XRLayoutBuilder : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass5_0 = ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0;
 
-  /// @brief Field parentLayout, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parentLayout, put = __cordl_internal_set_parentLayout))::StringW parentLayout;
+  /// @brief Field descriptor, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_descriptor, put = __cordl_internal_set_descriptor))::UnityEngine::InputSystem::XR::XRDeviceDescriptor* descriptor;
 
   /// @brief Field interfaceName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_interfaceName, put = __cordl_internal_set_interfaceName))::StringW interfaceName;
 
-  /// @brief Field descriptor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_descriptor, put = __cordl_internal_set_descriptor))::UnityEngine::InputSystem::XR::XRDeviceDescriptor* descriptor;
+  /// @brief Field parentLayout, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_parentLayout, put = __cordl_internal_set_parentLayout))::StringW parentLayout;
 
   /// @brief Field poseSubControlNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_poseSubControlNames, put = setStaticF_poseSubControlNames))::ArrayW<::StringW, ::Array<::StringW>*> poseSubControlNames;
@@ -122,62 +118,68 @@ public:
   static __declspec(property(get = getStaticF_poseSubControlTypes,
                              put = setStaticF_poseSubControlTypes))::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> poseSubControlTypes;
 
-  constexpr ::StringW& __cordl_internal_get_parentLayout();
+  /// @brief Method Build, addr 0x2baf1fc, size 0xb04, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
-  constexpr ::StringW const& __cordl_internal_get_parentLayout() const;
+  /// @brief Method ConvertPotentialAliasToName, addr 0x2baeed8, size 0x17c, virtual false, abstract: false, final false
+  static inline ::StringW ConvertPotentialAliasToName(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::StringW nameOrAlias);
 
-  constexpr void __cordl_internal_set_parentLayout(::StringW value);
+  /// @brief Method GetParentControlName, addr 0x2baf070, size 0x38, virtual false, abstract: false, final false
+  inline ::StringW GetParentControlName(::StringW name);
 
-  constexpr ::StringW& __cordl_internal_get_interfaceName();
+  /// @brief Method GetSizeOfFeature, addr 0x2bae89c, size 0x78, virtual false, abstract: false, final false
+  static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
 
-  constexpr ::StringW const& __cordl_internal_get_interfaceName() const;
+  /// @brief Method IsPoseControl, addr 0x2baf0a8, size 0x154, virtual false, abstract: false, final false
+  inline bool IsPoseControl(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* features, int32_t startIndex);
 
-  constexpr void __cordl_internal_set_interfaceName(::StringW value);
+  /// @brief Method IsSubControl, addr 0x2baf054, size 0x1c, virtual false, abstract: false, final false
+  inline bool IsSubControl(::StringW name);
+
+  static inline ::UnityEngine::InputSystem::XR::XRLayoutBuilder* New_ctor();
+
+  /// @brief Method OnFindLayoutForDevice, addr 0x2baea74, size 0x454, virtual false, abstract: false, final false
+  static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
+                                                ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
+
+  /// @brief Method SanitizeString, addr 0x2bae914, size 0x160, virtual false, abstract: false, final false
+  static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
 
   constexpr ::UnityEngine::InputSystem::XR::XRDeviceDescriptor*& __cordl_internal_get_descriptor();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*> const& __cordl_internal_get_descriptor() const;
 
+  constexpr ::StringW const& __cordl_internal_get_interfaceName() const;
+
+  constexpr ::StringW& __cordl_internal_get_interfaceName();
+
+  constexpr ::StringW const& __cordl_internal_get_parentLayout() const;
+
+  constexpr ::StringW& __cordl_internal_get_parentLayout();
+
   constexpr void __cordl_internal_set_descriptor(::UnityEngine::InputSystem::XR::XRDeviceDescriptor* value);
 
-  static inline void setStaticF_poseSubControlNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_interfaceName(::StringW value);
+
+  constexpr void __cordl_internal_set_parentLayout(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2baeed0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_poseSubControlNames();
 
-  static inline void setStaticF_poseSubControlTypes(::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> value);
-
   static inline ::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> getStaticF_poseSubControlTypes();
 
-  /// @brief Method GetSizeOfFeature, addr 0x2ac6c5c, size 0x78, virtual false, abstract: false, final false
-  static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
+  static inline void setStaticF_poseSubControlNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method SanitizeString, addr 0x2ac6cd4, size 0x160, virtual false, abstract: false, final false
-  static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
+  static inline void setStaticF_poseSubControlTypes(::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> value);
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x2ac6e34, size 0x454, virtual false, abstract: false, final false
-  static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
-                                                ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRLayoutBuilder();
 
-  /// @brief Method ConvertPotentialAliasToName, addr 0x2ac7298, size 0x17c, virtual false, abstract: false, final false
-  static inline ::StringW ConvertPotentialAliasToName(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::StringW nameOrAlias);
-
-  /// @brief Method IsSubControl, addr 0x2ac7414, size 0x1c, virtual false, abstract: false, final false
-  inline bool IsSubControl(::StringW name);
-
-  /// @brief Method GetParentControlName, addr 0x2ac7430, size 0x38, virtual false, abstract: false, final false
-  inline ::StringW GetParentControlName(::StringW name);
-
-  /// @brief Method IsPoseControl, addr 0x2ac7468, size 0x154, virtual false, abstract: false, final false
-  inline bool IsPoseControl(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* features, int32_t startIndex);
-
-  /// @brief Method Build, addr 0x2ac75bc, size 0xb04, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
-
-  static inline ::UnityEngine::InputSystem::XR::XRLayoutBuilder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ac7290, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRLayoutBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLayoutBuilder(XRLayoutBuilder&&) = delete;
@@ -186,12 +188,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRLayoutBuilder(XRLayoutBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRLayoutBuilder();
-
-public:
   /// @brief Field parentLayout, offset: 0x10, size: 0x8, def value: None
   ::StringW ___parentLayout;
 

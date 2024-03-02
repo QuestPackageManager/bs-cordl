@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILevelGameplaySetupData)
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,18 +19,16 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelGameplaySetupData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4489))
 // CS Name: ::ILevelGameplaySetupData*
 class CORDL_TYPE ILevelGameplaySetupData {
 public:
   // Declarations
-  __declspec(property(get = get_beatmapLevel))::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel;
+  __declspec(property(get = get_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Method get_beatmapLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
+  /// @brief Method get_beatmapKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
   /// @brief Method get_gameplayModifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();

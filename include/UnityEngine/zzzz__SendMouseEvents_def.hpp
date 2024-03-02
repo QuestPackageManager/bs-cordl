@@ -41,28 +41,26 @@ MARK_VAL_T(::UnityEngine::__SendMouseEvents__HitInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15956))
 // CS Name: ::SendMouseEvents::HitInfo
 struct CORDL_TYPE __SendMouseEvents__HitInfo {
 public:
   // Declarations
-  /// @brief Method SendMessage, addr 0x2d0fb04, size 0x24, virtual false, abstract: false, final false
-  inline void SendMessage(::StringW name);
-
-  /// @brief Method op_Implicit, addr 0x2d0fa64, size 0xa0, virtual false, abstract: false, final false
-  static inline bool op_Implicit_bool(::UnityEngine::__SendMouseEvents__HitInfo exists);
-
-  /// @brief Method Compare, addr 0x2d0fb28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2e07b3c, size 0xb4, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::__SendMouseEvents__HitInfo lhs, ::UnityEngine::__SendMouseEvents__HitInfo rhs);
 
-  // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
-  // modifiers: "", def_value: None }]
-  constexpr __SendMouseEvents__HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept;
+  /// @brief Method SendMessage, addr 0x2e07b18, size 0x24, virtual false, abstract: false, final false
+  inline void SendMessage(::StringW name);
+
+  /// @brief Method op_Implicit, addr 0x2e07a78, size 0xa0, virtual false, abstract: false, final false
+  static inline bool op_Implicit_bool(::UnityEngine::__SendMouseEvents__HitInfo exists);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SendMouseEvents__HitInfo();
+
+  // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
+  // modifiers: "", def_value: None }]
+  constexpr __SendMouseEvents__HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   /// @brief Field target, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> target;
@@ -87,16 +85,18 @@ static_assert(offsetof(::UnityEngine::__SendMouseEvents__HitInfo, camera) == 0x8
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15957))
 // CS Name: ::UnityEngine::SendMouseEvents*
 class CORDL_TYPE SendMouseEvents : public ::System::Object {
 public:
   // Declarations
   using HitInfo = ::UnityEngine::__SendMouseEvents__HitInfo;
 
-  /// @brief Field s_MouseUsed, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_s_MouseUsed, put = setStaticF_s_MouseUsed)) bool s_MouseUsed;
+  /// @brief Field m_Cameras, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_m_Cameras, put = setStaticF_m_Cameras))::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> m_Cameras;
+
+  /// @brief Field m_CurrentHit, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_m_CurrentHit,
+                             put = setStaticF_m_CurrentHit))::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> m_CurrentHit;
 
   /// @brief Field m_LastHit, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_LastHit, put = setStaticF_m_LastHit))::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> m_LastHit;
@@ -105,74 +105,76 @@ public:
   static __declspec(property(get = getStaticF_m_MouseDownHit,
                              put = setStaticF_m_MouseDownHit))::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> m_MouseDownHit;
 
-  /// @brief Field m_CurrentHit, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_CurrentHit,
-                             put = setStaticF_m_CurrentHit))::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> m_CurrentHit;
-
-  /// @brief Field m_Cameras, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Cameras, put = setStaticF_m_Cameras))::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> m_Cameras;
-
   /// @brief Field s_GetMouseState, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GetMouseState,
                              put = setStaticF_s_GetMouseState))::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::UnityEngine::Vector2>>* s_GetMouseState;
 
-  /// @brief Field s_MousePosition, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MousePosition, put = setStaticF_s_MousePosition))::UnityEngine::Vector2 s_MousePosition;
+  /// @brief Field s_MouseButtonIsPressed, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_s_MouseButtonIsPressed, put = setStaticF_s_MouseButtonIsPressed)) bool s_MouseButtonIsPressed;
 
   /// @brief Field s_MouseButtonPressedThisFrame, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_MouseButtonPressedThisFrame, put = setStaticF_s_MouseButtonPressedThisFrame)) bool s_MouseButtonPressedThisFrame;
 
-  /// @brief Field s_MouseButtonIsPressed, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_s_MouseButtonIsPressed, put = setStaticF_s_MouseButtonIsPressed)) bool s_MouseButtonIsPressed;
+  /// @brief Field s_MousePosition, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_MousePosition, put = setStaticF_s_MousePosition))::UnityEngine::Vector2 s_MousePosition;
 
-  static inline void setStaticF_s_MouseUsed(bool value);
+  /// @brief Field s_MouseUsed, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_s_MouseUsed, put = setStaticF_s_MouseUsed)) bool s_MouseUsed;
 
-  static inline bool getStaticF_s_MouseUsed();
+  /// @brief Method DoSendMouseEvents, addr 0x2e06d0c, size 0x94c, virtual false, abstract: false, final false
+  static inline void DoSendMouseEvents(int32_t skipRTCameras);
 
-  static inline void setStaticF_m_LastHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
+  /// @brief Method SendEvents, addr 0x2e07658, size 0x420, virtual false, abstract: false, final false
+  static inline void SendEvents(int32_t i, ::UnityEngine::__SendMouseEvents__HitInfo hit);
 
-  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_LastHit();
+  /// @brief Method SetMouseMoved, addr 0x2e06cb0, size 0x5c, virtual false, abstract: false, final false
+  static inline void SetMouseMoved();
 
-  static inline void setStaticF_m_MouseDownHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
-
-  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_MouseDownHit();
-
-  static inline void setStaticF_m_CurrentHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
-
-  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_CurrentHit();
-
-  static inline void setStaticF_m_Cameras(::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> value);
+  /// @brief Method UpdateMouse, addr 0x2e06aec, size 0x1c4, virtual false, abstract: false, final false
+  static inline void UpdateMouse();
 
   static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> getStaticF_m_Cameras();
 
-  static inline void setStaticF_s_GetMouseState(::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::UnityEngine::Vector2>>* value);
+  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_CurrentHit();
+
+  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_LastHit();
+
+  static inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> getStaticF_m_MouseDownHit();
 
   static inline ::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::UnityEngine::Vector2>>* getStaticF_s_GetMouseState();
 
-  static inline void setStaticF_s_MousePosition(::UnityEngine::Vector2 value);
-
-  static inline ::UnityEngine::Vector2 getStaticF_s_MousePosition();
-
-  static inline void setStaticF_s_MouseButtonPressedThisFrame(bool value);
+  static inline bool getStaticF_s_MouseButtonIsPressed();
 
   static inline bool getStaticF_s_MouseButtonPressedThisFrame();
 
+  static inline ::UnityEngine::Vector2 getStaticF_s_MousePosition();
+
+  static inline bool getStaticF_s_MouseUsed();
+
+  static inline void setStaticF_m_Cameras(::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> value);
+
+  static inline void setStaticF_m_CurrentHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
+
+  static inline void setStaticF_m_LastHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
+
+  static inline void setStaticF_m_MouseDownHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value);
+
+  static inline void setStaticF_s_GetMouseState(::System::Func_1<::System::Collections::Generic::KeyValuePair_2<int32_t, ::UnityEngine::Vector2>>* value);
+
   static inline void setStaticF_s_MouseButtonIsPressed(bool value);
 
-  static inline bool getStaticF_s_MouseButtonIsPressed();
+  static inline void setStaticF_s_MouseButtonPressedThisFrame(bool value);
 
-  /// @brief Method UpdateMouse, addr 0x2d0ead8, size 0x1c4, virtual false, abstract: false, final false
-  static inline void UpdateMouse();
+  static inline void setStaticF_s_MousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method SetMouseMoved, addr 0x2d0ec9c, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetMouseMoved();
+  static inline void setStaticF_s_MouseUsed(bool value);
 
-  /// @brief Method DoSendMouseEvents, addr 0x2d0ecf8, size 0x94c, virtual false, abstract: false, final false
-  static inline void DoSendMouseEvents(int32_t skipRTCameras);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SendMouseEvents();
 
-  /// @brief Method SendEvents, addr 0x2d0f644, size 0x420, virtual false, abstract: false, final false
-  static inline void SendEvents(int32_t i, ::UnityEngine::__SendMouseEvents__HitInfo hit);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SendMouseEvents(SendMouseEvents&&) = delete;
@@ -181,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SendMouseEvents(SendMouseEvents const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SendMouseEvents();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -21,39 +21,43 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorBoostBeatmapEventData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
 // CS Name: ::ColorBoostBeatmapEventData*
 class CORDL_TYPE ColorBoostBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
-  /// @brief Field boostColorsAreOn, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_boostColorsAreOn, put = __cordl_internal_set_boostColorsAreOn)) bool boostColorsAreOn;
-
   /// @brief Field _defaultCopy, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy))::GlobalNamespace::ColorBoostBeatmapEventData* _defaultCopy;
 
-  constexpr bool& __cordl_internal_get_boostColorsAreOn();
+  /// @brief Field boostColorsAreOn, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_boostColorsAreOn, put = __cordl_internal_set_boostColorsAreOn)) bool boostColorsAreOn;
 
-  constexpr bool const& __cordl_internal_get_boostColorsAreOn() const;
+  /// @brief Method GetCopy, addr 0xe54210, size 0x8c, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
-
-  static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
-
-  static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy();
+  /// @brief Method GetDefault, addr 0xe5429c, size 0x58, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t time, bool boostColorsAreOn);
 
-  /// @brief Method .ctor, addr 0xdfe19c, size 0x4c, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_boostColorsAreOn() const;
+
+  constexpr bool& __cordl_internal_get_boostColorsAreOn();
+
+  constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
+
+  /// @brief Method .ctor, addr 0xe541c4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, bool boostColorsAreOn);
 
-  /// @brief Method GetCopy, addr 0xdfe1e8, size 0x8c, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
+  static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy();
 
-  /// @brief Method GetDefault, addr 0xdfe274, size 0x58, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* GetDefault();
+  static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorBoostBeatmapEventData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorBoostBeatmapEventData(ColorBoostBeatmapEventData&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorBoostBeatmapEventData(ColorBoostBeatmapEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorBoostBeatmapEventData();
-
-public:
   /// @brief Field boostColorsAreOn, offset: 0x30, size: 0x1, def value: None
   bool ___boostColorsAreOn;
 

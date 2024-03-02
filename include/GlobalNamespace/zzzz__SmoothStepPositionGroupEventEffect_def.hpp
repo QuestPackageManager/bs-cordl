@@ -41,171 +41,176 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothStepPositionGroupEventEffect);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16090))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4971)) CS Name: ::SmoothStepPositionGroupEventEffect*
+// CS Name: ::SmoothStepPositionGroupEventEffect*
 class CORDL_TYPE SmoothStepPositionGroupEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _event, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
-
-  /// @brief Field _elements, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _elements;
-
-  /// @brief Field _clampValue, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__clampValue, put = __cordl_internal_set__clampValue)) bool _clampValue;
-
-  /// @brief Field _eventValueMin, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventValueMin, put = __cordl_internal_set__eventValueMin)) int32_t _eventValueMin;
-
-  /// @brief Field _eventValueMax, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventValueMax, put = __cordl_internal_set__eventValueMax)) int32_t _eventValueMax;
-
   /// @brief Field _baseOffset, offset 0x34, size 0xc
   __declspec(property(get = __cordl_internal_get__baseOffset, put = __cordl_internal_set__baseOffset))::UnityEngine::Vector3 _baseOffset;
-
-  /// @brief Field _movementVector, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector))::UnityEngine::Vector3 _movementVector;
-
-  /// @brief Field _stepSize, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
-
-  /// @brief Field _easeType, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
   /// @brief Field _beatmapCallbacksController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _tweeningManager, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
-
-  /// @brief Field _positionTween, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__positionTween, put = __cordl_internal_set__positionTween))::Tweening::Vector3Tween* _positionTween;
-
-  /// @brief Field _transform, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
-
-  /// @brief Field _startPos, offset 0x78, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
-
   /// @brief Field _beatmapDataCallbackWrapper, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+  /// @brief Field _clampValue, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__clampValue, put = __cordl_internal_set__clampValue)) bool _clampValue;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+  /// @brief Field _easeType, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
-  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Field _elements, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _elements;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__elements();
+  /// @brief Field _event, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__elements() const;
+  /// @brief Field _eventValueMax, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__eventValueMax, put = __cordl_internal_set__eventValueMax)) int32_t _eventValueMax;
 
-  constexpr void __cordl_internal_set__elements(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+  /// @brief Field _eventValueMin, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__eventValueMin, put = __cordl_internal_set__eventValueMin)) int32_t _eventValueMin;
 
-  constexpr bool& __cordl_internal_get__clampValue();
+  /// @brief Field _movementVector, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector))::UnityEngine::Vector3 _movementVector;
 
-  constexpr bool const& __cordl_internal_get__clampValue() const;
+  /// @brief Field _positionTween, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__positionTween, put = __cordl_internal_set__positionTween))::Tweening::Vector3Tween* _positionTween;
 
-  constexpr void __cordl_internal_set__clampValue(bool value);
+  /// @brief Field _startPos, offset 0x78, size 0xc
+  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
 
-  constexpr int32_t& __cordl_internal_get__eventValueMin();
+  /// @brief Field _stepSize, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  constexpr int32_t const& __cordl_internal_get__eventValueMin() const;
+  /// @brief Field _transform, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr void __cordl_internal_set__eventValueMin(int32_t value);
+  /// @brief Field _tweeningManager, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  constexpr int32_t& __cordl_internal_get__eventValueMax();
+  /// @brief Method Awake, addr 0x243f96c, size 0x11c, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr int32_t const& __cordl_internal_get__eventValueMax() const;
+  /// @brief Method GetPositionForValue, addr 0x243fd24, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  constexpr void __cordl_internal_set__eventValueMax(int32_t value);
+  /// @brief Method HandleBeatmapEvent, addr 0x243fc48, size 0xdc, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__baseOffset();
+  static inline ::GlobalNamespace::SmoothStepPositionGroupEventEffect* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x243fbac, size 0x9c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method SetPosition, addr 0x243fd80, size 0x8c, virtual false, abstract: false, final false
+  inline void SetPosition(::UnityEngine::Vector3 position);
+
+  /// @brief Method Start, addr 0x243fa88, size 0x124, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__baseOffset() const;
 
-  constexpr void __cordl_internal_set__baseOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementVector();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementVector() const;
-
-  constexpr void __cordl_internal_set__movementVector(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get__stepSize();
-
-  constexpr float_t const& __cordl_internal_get__stepSize() const;
-
-  constexpr void __cordl_internal_set__stepSize(float_t value);
-
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
-
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
-
-  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__baseOffset();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  constexpr bool const& __cordl_internal_get__clampValue() const;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
+  constexpr bool& __cordl_internal_get__clampValue();
+
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__elements() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__elements();
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+
+  constexpr int32_t const& __cordl_internal_get__eventValueMax() const;
+
+  constexpr int32_t& __cordl_internal_get__eventValueMax();
+
+  constexpr int32_t const& __cordl_internal_get__eventValueMin() const;
+
+  constexpr int32_t& __cordl_internal_get__eventValueMin();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementVector() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementVector();
 
   constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__positionTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__positionTween() const;
 
-  constexpr void __cordl_internal_set__positionTween(::Tweening::Vector3Tween* value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
+  constexpr float_t const& __cordl_internal_get__stepSize() const;
 
-  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
+  constexpr float_t& __cordl_internal_get__stepSize();
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__baseOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Awake, addr 0x23b28f0, size 0x11c, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__clampValue(bool value);
 
-  /// @brief Method Start, addr 0x23b2a0c, size 0x124, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method OnDestroy, addr 0x23b2b30, size 0x9c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__elements(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23b2bcc, size 0xdc, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method GetPositionForValue, addr 0x23b2ca8, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
+  constexpr void __cordl_internal_set__eventValueMax(int32_t value);
 
-  /// @brief Method SetPosition, addr 0x23b2d04, size 0x8c, virtual false, abstract: false, final false
-  inline void SetPosition(::UnityEngine::Vector3 position);
+  constexpr void __cordl_internal_set__eventValueMin(int32_t value);
 
-  static inline ::GlobalNamespace::SmoothStepPositionGroupEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__movementVector(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x23b2d90, size 0xac, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__positionTween(::Tweening::Vector3Tween* value);
+
+  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__stepSize(float_t value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
+
+  /// @brief Method .ctor, addr 0x243fe0c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SmoothStepPositionGroupEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SmoothStepPositionGroupEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect&&) = delete;
@@ -214,12 +219,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmoothStepPositionGroupEventEffect();
-
-public:
   /// @brief Field _event, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 

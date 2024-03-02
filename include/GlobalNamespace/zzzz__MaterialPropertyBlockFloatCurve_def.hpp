@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14563))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14568))
 // CS Name: ::MaterialPropertyBlockFloatCurve*
 class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -27,38 +25,44 @@ public:
   /// @brief Field _curve, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__curve, put = __cordl_internal_set__curve))::UnityEngine::AnimationCurve* _curve;
 
+  /// @brief Field _speedMultiplier, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__speedMultiplier, put = __cordl_internal_set__speedMultiplier)) float_t _speedMultiplier;
+
   /// @brief Field _valueMultiplier, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__valueMultiplier, put = __cordl_internal_set__valueMultiplier)) float_t _valueMultiplier;
 
-  /// @brief Field _speedMultiplier, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__speedMultiplier, put = __cordl_internal_set__speedMultiplier)) float_t _speedMultiplier;
+  static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
+
+  /// @brief Method SetProperty, addr 0x2276fec, size 0x98, virtual true, abstract: false, final false
+  inline void SetProperty();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__curve() const;
 
-  constexpr void __cordl_internal_set__curve(::UnityEngine::AnimationCurve* value);
-
-  constexpr float_t& __cordl_internal_get__valueMultiplier();
-
-  constexpr float_t const& __cordl_internal_get__valueMultiplier() const;
-
-  constexpr void __cordl_internal_set__valueMultiplier(float_t value);
+  constexpr float_t const& __cordl_internal_get__speedMultiplier() const;
 
   constexpr float_t& __cordl_internal_get__speedMultiplier();
 
-  constexpr float_t const& __cordl_internal_get__speedMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__valueMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get__valueMultiplier();
+
+  constexpr void __cordl_internal_set__curve(::UnityEngine::AnimationCurve* value);
 
   constexpr void __cordl_internal_set__speedMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x21150a8, size 0x98, virtual true, abstract: false, final false
-  inline void SetProperty();
+  constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2115140, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2277084, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockFloatCurve();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockFloatCurve();
-
-public:
   /// @brief Field _curve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;
 

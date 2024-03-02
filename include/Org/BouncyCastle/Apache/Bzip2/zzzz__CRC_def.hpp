@@ -16,48 +16,52 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::CRC);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1878))
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::CRC*
 class CORDL_TYPE CRC : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field globalCrc, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_globalCrc, put = __cordl_internal_set_globalCrc)) int32_t globalCrc;
-
   /// @brief Field crc32Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_crc32Table, put = setStaticF_crc32Table))::ArrayW<int32_t, ::Array<int32_t>*> crc32Table;
 
-  constexpr int32_t& __cordl_internal_get_globalCrc();
+  /// @brief Field globalCrc, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_globalCrc, put = __cordl_internal_set_globalCrc)) int32_t globalCrc;
 
-  constexpr int32_t const& __cordl_internal_get_globalCrc() const;
+  /// @brief Method GetFinalCRC, addr 0x11f9cb8, size 0xc, virtual false, abstract: false, final false
+  inline int32_t GetFinalCRC();
 
-  constexpr void __cordl_internal_set_globalCrc(int32_t value);
+  /// @brief Method GetGlobalCRC, addr 0x11fa78c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t GetGlobalCRC();
 
-  static inline void setStaticF_crc32Table(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_crc32Table();
+  /// @brief Method InitialiseCRC, addr 0x11f9c80, size 0xc, virtual false, abstract: false, final false
+  inline void InitialiseCRC();
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CRC* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11878fc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method InitialiseCRC, addr 0x1188e20, size 0xc, virtual false, abstract: false, final false
-  inline void InitialiseCRC();
-
-  /// @brief Method GetFinalCRC, addr 0x1188e58, size 0xc, virtual false, abstract: false, final false
-  inline int32_t GetFinalCRC();
-
-  /// @brief Method GetGlobalCRC, addr 0x118992c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t GetGlobalCRC();
-
-  /// @brief Method SetGlobalCRC, addr 0x1189934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalCRC, addr 0x11fa794, size 0x8, virtual false, abstract: false, final false
   inline void SetGlobalCRC(int32_t newCrc);
 
-  /// @brief Method UpdateCRC, addr 0x11897a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCRC, addr 0x11fa604, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateCRC(int32_t inCh);
 
+  constexpr int32_t const& __cordl_internal_get_globalCrc() const;
+
+  constexpr int32_t& __cordl_internal_get_globalCrc();
+
+  constexpr void __cordl_internal_set_globalCrc(int32_t value);
+
+  /// @brief Method .ctor, addr 0x11f875c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_crc32Table();
+
+  static inline void setStaticF_crc32Table(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CRC();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CRC", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CRC(CRC&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CRC(CRC const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CRC();
-
-public:
   /// @brief Field globalCrc, offset: 0x10, size: 0x4, def value: None
   int32_t ___globalCrc;
 

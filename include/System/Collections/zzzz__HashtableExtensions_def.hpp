@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Collections::HashtableExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9506))
 // CS Name: ::System.Collections::HashtableExtensions*
 class CORDL_TYPE HashtableExtensions : public ::System::Object {
 public:
@@ -30,6 +28,12 @@ public:
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ByRef<T> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HashtableExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashtableExtensions(HashtableExtensions&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HashtableExtensions(HashtableExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HashtableExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

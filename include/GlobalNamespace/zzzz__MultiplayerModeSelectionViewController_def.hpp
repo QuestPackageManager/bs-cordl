@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5718))
 // CS Name: ::MultiplayerModeSelectionViewController::MenuButton
 struct CORDL_TYPE __MultiplayerModeSelectionViewController__MenuButton {
 public:
@@ -59,30 +57,35 @@ public:
     return static_cast<____MultiplayerModeSelectionViewController__MenuButton_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerModeSelectionViewController__MenuButton(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerModeSelectionViewController__MenuButton();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerModeSelectionViewController__MenuButton(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field QuickPlay value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const QuickPlay;
 
   /// @brief Field CreateServer value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const CreateServer;
 
+  /// @brief Field GameBrowser value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const GameBrowser;
+
   /// @brief Field JoinWithCode value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const JoinWithCode;
 
-  /// @brief Field GameBrowser value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const GameBrowser;
+  /// @brief Field QuickPlay value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const QuickPlay;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -96,16 +99,17 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionViewControll
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5719))
 // CS Name: ::MultiplayerModeSelectionViewController*
 class CORDL_TYPE MultiplayerModeSelectionViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   using MenuButton = ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton;
 
-  /// @brief Field _quickPlayButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__quickPlayButton, put = __cordl_internal_set__quickPlayButton))::UnityW<::UnityEngine::UI::Button> _quickPlayButton;
+  /// @brief Field _createServerButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
+
+  /// @brief Field _customServerEndPointText, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__customServerEndPointText, put = __cordl_internal_set__customServerEndPointText))::UnityW<::TMPro::TextMeshProUGUI> _customServerEndPointText;
 
   /// @brief Field _gameBrowserButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__gameBrowserButton, put = __cordl_internal_set__gameBrowserButton))::UnityW<::UnityEngine::UI::Button> _gameBrowserButton;
@@ -113,64 +117,70 @@ public:
   /// @brief Field _joinWithCodeButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__joinWithCodeButton, put = __cordl_internal_set__joinWithCodeButton))::UnityW<::UnityEngine::UI::Button> _joinWithCodeButton;
 
-  /// @brief Field _createServerButton, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
-
   /// @brief Field _maintenanceMessageText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__maintenanceMessageText, put = __cordl_internal_set__maintenanceMessageText))::UnityW<::TMPro::TextMeshProUGUI> _maintenanceMessageText;
 
-  /// @brief Field _customServerEndPointText, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__customServerEndPointText, put = __cordl_internal_set__customServerEndPointText))::UnityW<::TMPro::TextMeshProUGUI> _customServerEndPointText;
-
   /// @brief Field _networkConfig, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+
+  /// @brief Field _quickPlayButton, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__quickPlayButton, put = __cordl_internal_set__quickPlayButton))::UnityW<::UnityEngine::UI::Button> _quickPlayButton;
 
   /// @brief Field didFinishEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
                                                                                     ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quickPlayButton();
+  /// @brief Method DidActivate, addr 0x23cda1c, size 0x2dc, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quickPlayButton() const;
+  /// @brief Method HandleMenuButton, addr 0x23cdf84, size 0x28, virtual false, abstract: false, final false
+  inline void HandleMenuButton(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
 
-  constexpr void __cordl_internal_set__quickPlayButton(::UnityW<::UnityEngine::UI::Button> value);
+  static inline ::GlobalNamespace::MultiplayerModeSelectionViewController* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__gameBrowserButton();
+  /// @brief Method SetData, addr 0x23cdcf8, size 0x28c, virtual false, abstract: false, final false
+  inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__gameBrowserButton() const;
+  /// @brief Method <DidActivate>b__11_0, addr 0x23cdfb4, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__11_0();
 
-  constexpr void __cordl_internal_set__gameBrowserButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method <DidActivate>b__11_1, addr 0x23cdfd8, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__11_1();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinWithCodeButton();
+  /// @brief Method <DidActivate>b__11_2, addr 0x23cdffc, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__11_2();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinWithCodeButton() const;
-
-  constexpr void __cordl_internal_set__joinWithCodeButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createServerButton();
+  /// @brief Method <DidActivate>b__11_3, addr 0x23ce020, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__11_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createServerButton() const;
 
-  constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maintenanceMessageText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maintenanceMessageText() const;
-
-  constexpr void __cordl_internal_set__maintenanceMessageText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__customServerEndPointText();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createServerButton();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__customServerEndPointText() const;
 
-  constexpr void __cordl_internal_set__customServerEndPointText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__customServerEndPointText();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__gameBrowserButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__gameBrowserButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinWithCodeButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinWithCodeButton();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maintenanceMessageText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maintenanceMessageText();
 
   constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quickPlayButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quickPlayButton();
 
   constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*&
   __cordl_internal_get_didFinishEvent();
@@ -179,43 +189,40 @@ public:
       ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>*> const&
   __cordl_internal_get_didFinishEvent() const;
 
+  constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__customServerEndPointText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__gameBrowserButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__joinWithCodeButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__maintenanceMessageText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+
+  constexpr void __cordl_internal_set__quickPlayButton(::UnityW<::UnityEngine::UI::Button> value);
+
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22cf3b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cdfac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_didFinishEvent, addr 0x23cd8bc, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22cf464, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x23cd96c, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method DidActivate, addr 0x22cf514, size 0x2dc, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerModeSelectionViewController();
 
-  /// @brief Method SetData, addr 0x22cf7f0, size 0x26c, virtual false, abstract: false, final false
-  inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
-
-  /// @brief Method HandleMenuButton, addr 0x22cfa5c, size 0x28, virtual false, abstract: false, final false
-  inline void HandleMenuButton(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
-
-  static inline ::GlobalNamespace::MultiplayerModeSelectionViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22cfa84, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <DidActivate>b__11_0, addr 0x22cfa8c, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__11_0();
-
-  /// @brief Method <DidActivate>b__11_1, addr 0x22cfab0, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__11_1();
-
-  /// @brief Method <DidActivate>b__11_2, addr 0x22cfad4, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__11_2();
-
-  /// @brief Method <DidActivate>b__11_3, addr 0x22cfaf8, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__11_3();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController&&) = delete;
@@ -224,12 +231,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerModeSelectionViewController();
-
-public:
   /// @brief Field _quickPlayButton, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quickPlayButton;
 

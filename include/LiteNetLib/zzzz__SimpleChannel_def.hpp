@@ -20,23 +20,27 @@ MARK_REF_PTR_T(::LiteNetLib::SimpleChannel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14127))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14187))
 // CS Name: ::LiteNetLib::SimpleChannel*
 class CORDL_TYPE SimpleChannel : public ::LiteNetLib::BaseChannel {
 public:
   // Declarations
   static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method .ctor, addr 0x22080c0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::NetPeer* peer);
-
-  /// @brief Method SendNextPackets, addr 0x22080c4, size 0x170, virtual true, abstract: false, final false
-  inline void SendNextPackets();
-
-  /// @brief Method ProcessPacket, addr 0x2208234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x236a184, size 0x8, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
+  /// @brief Method SendNextPackets, addr 0x236a014, size 0x170, virtual true, abstract: false, final false
+  inline void SendNextPackets();
+
+  /// @brief Method .ctor, addr 0x236a010, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::LiteNetLib::NetPeer* peer);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleChannel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleChannel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleChannel(SimpleChannel&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleChannel(SimpleChannel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleChannel();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

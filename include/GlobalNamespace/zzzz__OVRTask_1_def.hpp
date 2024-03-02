@@ -115,26 +115,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8067))
 // CS Name: ::OVRTask`1::CallbackInvoker<TResult>*
 class CORDL_TYPE __OVRTask_1__CallbackInvoker : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::System::Guid guid, TResult result);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Guid guid, TResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(::System::Guid guid, TResult result);
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTask_1__CallbackInvoker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTask_1__CallbackInvoker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTask_1__CallbackInvoker(__OVRTask_1__CallbackInvoker&&) = delete;
@@ -143,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__CallbackInvoker(__OVRTask_1__CallbackInvoker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTask_1__CallbackInvoker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -159,26 +157,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8068))
 // CS Name: ::OVRTask`1::CallbackRemover<TResult>*
 class CORDL_TYPE __OVRTask_1__CallbackRemover : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Invoke(::System::Guid guid);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Guid guid, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Invoke(::System::Guid guid);
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTask_1__CallbackRemover();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTask_1__CallbackRemover", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTask_1__CallbackRemover(__OVRTask_1__CallbackRemover&&) = delete;
@@ -187,12 +189,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__CallbackRemover(__OVRTask_1__CallbackRemover const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTask_1__CallbackRemover();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -203,26 +199,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8069))
 // CS Name: ::OVRTask`1::InternalDataRemover<TResult>*
 class CORDL_TYPE __OVRTask_1__InternalDataRemover : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Invoke(::System::Guid guid);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Guid guid, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Invoke(::System::Guid guid);
+
+  static inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTask_1__InternalDataRemover();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTask_1__InternalDataRemover", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTask_1__InternalDataRemover(__OVRTask_1__InternalDataRemover&&) = delete;
@@ -231,12 +231,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__InternalDataRemover(__OVRTask_1__InternalDataRemover const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTask_1__InternalDataRemover();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -247,45 +241,49 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8070))
 // CS Name: ::OVRTask`1::InternalData`1<TResult,T>*
 class CORDL_TYPE __OVRTask_1__InternalData_1 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Clearer, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+
   /// @brief Field Data, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Data, put = setStaticF_Data))::System::Collections::Generic::Dictionary_2<::System::Guid, T>* Data;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* Remover;
 
-  /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Clear();
 
-  static inline void setStaticF_Data(::System::Collections::Generic::Dictionary_2<::System::Guid, T>* value);
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool Remove(::System::Guid taskId);
+
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Set(::System::Guid taskId, T data);
+
+  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool TryGet(::System::Guid taskId, ByRef<T> data);
+
+  static inline ::System::Action* getStaticF_Clearer();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, T>* getStaticF_Data();
-
-  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* value);
 
   static inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* getStaticF_Remover();
 
   static inline void setStaticF_Clearer(::System::Action* value);
 
-  static inline ::System::Action* getStaticF_Clearer();
+  static inline void setStaticF_Data(::System::Collections::Generic::Dictionary_2<::System::Guid, T>* value);
 
-  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool TryGet(::System::Guid taskId, ByRef<T> data);
+  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* value);
 
-  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Set(::System::Guid taskId, T data);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTask_1__InternalData_1();
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool Remove(::System::Guid taskId);
-
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Clear();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTask_1__InternalData_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTask_1__InternalData_1(__OVRTask_1__InternalData_1&&) = delete;
@@ -294,12 +292,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__InternalData_1(__OVRTask_1__InternalData_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTask_1__InternalData_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -310,35 +302,21 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8071))
 // CS Name: ::OVRTask`1::IncrementalResultSubscriber`1<TResult,T>*
 class CORDL_TYPE __OVRTask_1__IncrementalResultSubscriber_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Subscribers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Subscribers, put = setStaticF_Subscribers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* Subscribers;
+  /// @brief Field Clearer, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::System::Action_1<::System::Guid>* Remover;
 
-  /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  /// @brief Field Subscribers, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Subscribers, put = setStaticF_Subscribers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* Subscribers;
 
-  static inline void setStaticF_Subscribers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* getStaticF_Subscribers();
-
-  static inline void setStaticF_Remover(::System::Action_1<::System::Guid>* value);
-
-  static inline ::System::Action_1<::System::Guid>* getStaticF_Remover();
-
-  static inline void setStaticF_Clearer(::System::Action* value);
-
-  static inline ::System::Action* getStaticF_Clearer();
-
-  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Set(::System::Guid taskId, ::System::Action_1<T>* subscriber);
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Clear();
 
   /// @brief Method Notify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Notify(::System::Guid taskId, T result);
@@ -346,9 +324,27 @@ public:
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Remove(::System::Guid id);
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Clear();
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Set(::System::Guid taskId, ::System::Action_1<T>* subscriber);
 
+  static inline ::System::Action* getStaticF_Clearer();
+
+  static inline ::System::Action_1<::System::Guid>* getStaticF_Remover();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* getStaticF_Subscribers();
+
+  static inline void setStaticF_Clearer(::System::Action* value);
+
+  static inline void setStaticF_Remover(::System::Action_1<::System::Guid>* value);
+
+  static inline void setStaticF_Subscribers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTask_1__IncrementalResultSubscriber_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTask_1__IncrementalResultSubscriber_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTask_1__IncrementalResultSubscriber_1(__OVRTask_1__IncrementalResultSubscriber_1&&) = delete;
@@ -357,12 +353,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__IncrementalResultSubscriber_1(__OVRTask_1__IncrementalResultSubscriber_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTask_1__IncrementalResultSubscriber_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -373,36 +363,28 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8075))
 // CS Name: ::OVRTask`1<TResult>
 struct CORDL_TYPE OVRTask_1 {
 public:
   // Declarations
-  template <typename T> using CallbackWithState_1 = ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>;
+  using Awaiter = ::GlobalNamespace::__OVRTask_1__Awaiter<TResult>;
 
   using Callback = ::GlobalNamespace::__OVRTask_1__Callback<TResult>;
 
-  using Awaiter = ::GlobalNamespace::__OVRTask_1__Awaiter<TResult>;
-
-  template <typename T> using IncrementalResultSubscriber_1 = ::GlobalNamespace::__OVRTask_1__IncrementalResultSubscriber_1<TResult, T>;
-
-  template <typename T> using InternalData_1 = ::GlobalNamespace::__OVRTask_1__InternalData_1<TResult, T>;
-
-  using InternalDataRemover = ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>;
+  using CallbackInvoker = ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>;
 
   using CallbackRemover = ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>;
 
-  using CallbackInvoker = ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>;
+  template <typename T> using CallbackWithState_1 = ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>;
 
-  /// @brief Field Pending, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Pending, put = setStaticF_Pending))::System::Collections::Generic::HashSet_1<::System::Guid>* Pending;
+  template <typename T> using IncrementalResultSubscriber_1 = ::GlobalNamespace::__OVRTask_1__IncrementalResultSubscriber_1<TResult, T>;
 
-  /// @brief Field Results, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Results, put = setStaticF_Results))::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* Results;
+  using InternalDataRemover = ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>;
 
-  /// @brief Field Continuations, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Continuations, put = setStaticF_Continuations))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* Continuations;
+  template <typename T> using InternalData_1 = ::GlobalNamespace::__OVRTask_1__InternalData_1<TResult, T>;
+
+  /// @brief Field CallbackClearers, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_CallbackClearers, put = setStaticF_CallbackClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* CallbackClearers;
 
   /// @brief Field CallbackInvokers, offset 0xffffffff, size 0x8
   static __declspec(
@@ -414,115 +396,42 @@ public:
       property(get = getStaticF_CallbackRemovers,
                put = setStaticF_CallbackRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* CallbackRemovers;
 
-  /// @brief Field CallbackClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CallbackClearers, put = setStaticF_CallbackClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* CallbackClearers;
+  /// @brief Field Continuations, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Continuations, put = setStaticF_Continuations))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* Continuations;
+
+  /// @brief Field InternalDataClearers, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_InternalDataClearers, put = setStaticF_InternalDataClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* InternalDataClearers;
 
   /// @brief Field InternalDataRemovers, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF_InternalDataRemovers,
                put = setStaticF_InternalDataRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* InternalDataRemovers;
 
-  /// @brief Field InternalDataClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalDataClearers, put = setStaticF_InternalDataClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* InternalDataClearers;
+  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+
+  __declspec(property(get = get_IsPending)) bool IsPending;
+
+  /// @brief Field Pending, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Pending, put = setStaticF_Pending))::System::Collections::Generic::HashSet_1<::System::Guid>* Pending;
+
+  /// @brief Field Results, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Results, put = setStaticF_Results))::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* Results;
+
+  /// @brief Field SubscriberClearers, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_SubscriberClearers, put = setStaticF_SubscriberClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* SubscriberClearers;
 
   /// @brief Field SubscriberRemovers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SubscriberRemovers,
                              put = setStaticF_SubscriberRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* SubscriberRemovers;
 
-  /// @brief Field SubscriberClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubscriberClearers, put = setStaticF_SubscriberClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* SubscriberClearers;
-
-  __declspec(property(get = get_IsPending)) bool IsPending;
-
-  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*();
 
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
-  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>* i___System__IEquatable_1___GlobalNamespace__OVRTask_1_TResult__();
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*();
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
-
-  static inline void setStaticF_Pending(::System::Collections::Generic::HashSet_1<::System::Guid>* value);
-
-  static inline ::System::Collections::Generic::HashSet_1<::System::Guid>* getStaticF_Pending();
-
-  static inline void setStaticF_Results(::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* getStaticF_Results();
-
-  static inline void setStaticF_Continuations(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* getStaticF_Continuations();
-
-  static inline void setStaticF_CallbackInvokers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* getStaticF_CallbackInvokers();
-
-  static inline void setStaticF_CallbackRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* getStaticF_CallbackRemovers();
-
-  static inline void setStaticF_CallbackClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
-
-  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_CallbackClearers();
-
-  static inline void setStaticF_InternalDataRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* getStaticF_InternalDataRemovers();
-
-  static inline void setStaticF_InternalDataClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
-
-  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_InternalDataClearers();
-
-  static inline void setStaticF_SubscriberRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* getStaticF_SubscriberRemovers();
-
-  static inline void setStaticF_SubscriberClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
-
-  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_SubscriberClearers();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Guid id);
-
   /// @brief Method AddToPending, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddToPending();
-
-  /// @brief Method get_IsPending, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_IsPending();
-
-  /// @brief Method SetInternalData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetInternalData(T data);
-
-  /// @brief Method TryGetInternalData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetInternalData(ByRef<T> data);
-
-  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetResult(TResult result);
-
-  /// @brief Method SetIncrementalResultCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TIncrementalResult> inline void SetIncrementalResultCallback(::System::Action_1<TIncrementalResult>* onIncrementalResultAvailable);
-
-  /// @brief Method NotifyIncrementalResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TIncrementalResult> inline void NotifyIncrementalResult(TIncrementalResult incrementalResult);
-
-  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_IsCompleted();
-
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TResult GetResult();
-
-  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRTask_1__Awaiter<TResult> GetAwaiter();
-
-  /// @brief Method WithContinuation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void WithContinuation(::System::Action* continuation);
 
   /// @brief Method ContinueWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ContinueWith(::System::Action_1<TResult>* onCompleted);
@@ -530,17 +439,82 @@ public:
   /// @brief Method ContinueWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ContinueWith(::System::Action_2<TResult, T>* onCompleted, T state);
 
-  /// @brief Method ValidateDelegateAndThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ValidateDelegateAndThrow(::System::Object* delegate, ::StringW paramName);
-
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
+
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRTask_1<TResult> other);
 
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRTask_1__Awaiter<TResult> GetAwaiter();
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TResult GetResult();
+
+  /// @brief Method NotifyIncrementalResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TIncrementalResult> inline void NotifyIncrementalResult(TIncrementalResult incrementalResult);
+
+  /// @brief Method SetIncrementalResultCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TIncrementalResult> inline void SetIncrementalResultCallback(::System::Action_1<TIncrementalResult>* onIncrementalResultAvailable);
+
+  /// @brief Method SetInternalData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline void SetInternalData(T data);
+
+  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetResult(TResult result);
+
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method TryGetInternalData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline bool TryGetInternalData(ByRef<T> data);
+
+  /// @brief Method ValidateDelegateAndThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ValidateDelegateAndThrow(::System::Object* delegate, ::StringW paramName);
+
+  /// @brief Method WithContinuation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void WithContinuation(::System::Action* continuation);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Guid id);
+
+  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_CallbackClearers();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* getStaticF_CallbackInvokers();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* getStaticF_CallbackRemovers();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* getStaticF_Continuations();
+
+  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_InternalDataClearers();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* getStaticF_InternalDataRemovers();
+
+  static inline ::System::Collections::Generic::HashSet_1<::System::Guid>* getStaticF_Pending();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* getStaticF_Results();
+
+  static inline ::System::Collections::Generic::HashSet_1<::System::Action*>* getStaticF_SubscriberClearers();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* getStaticF_SubscriberRemovers();
+
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_IsCompleted();
+
+  /// @brief Method get_IsPending, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_IsPending();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
+
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTask_1<TResult>>* i___System__IEquatable_1___GlobalNamespace__OVRTask_1_TResult__();
 
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRTask_1<TResult> lhs, ::GlobalNamespace::OVRTask_1<TResult> rhs);
@@ -548,18 +522,32 @@ public:
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRTask_1<TResult> lhs, ::GlobalNamespace::OVRTask_1<TResult> rhs);
 
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  static inline void setStaticF_CallbackClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
 
-  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  static inline void setStaticF_CallbackInvokers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* value);
 
-  // Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: None }]
-  constexpr OVRTask_1(::System::Guid _id) noexcept;
+  static inline void setStaticF_CallbackRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* value);
+
+  static inline void setStaticF_Continuations(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* value);
+
+  static inline void setStaticF_InternalDataClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
+
+  static inline void setStaticF_InternalDataRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* value);
+
+  static inline void setStaticF_Pending(::System::Collections::Generic::HashSet_1<::System::Guid>* value);
+
+  static inline void setStaticF_Results(::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* value);
+
+  static inline void setStaticF_SubscriberClearers(::System::Collections::Generic::HashSet_1<::System::Action*>* value);
+
+  static inline void setStaticF_SubscriberRemovers(::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OVRTask_1();
+
+  // Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: None }]
+  constexpr OVRTask_1(::System::Guid _id) noexcept;
 
   /// @brief Field _id, offset: 0x0, size: 0x10, def value: None
   ::System::Guid _id;
@@ -577,8 +565,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 4789 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8072))
 // CS Name: ::OVRTask`1::Awaiter<TResult>
 struct CORDL_TYPE __OVRTask_1__Awaiter {
 public:
@@ -588,8 +574,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TResult GetResult();
+
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRTask_1<TResult> task);
@@ -597,18 +586,15 @@ public:
   /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
-
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TResult GetResult();
-
-  // Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: None }]
-  constexpr __OVRTask_1__Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept;
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTask_1__Awaiter();
+
+  // Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: None }]
+  constexpr __OVRTask_1__Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept;
 
   /// @brief Field _task, offset: 0x0, size: 0x10, def value: None
   ::GlobalNamespace::OVRTask_1<TResult> _task;
@@ -626,8 +612,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8073))
 // CS Name: ::OVRTask`1::Callback<TResult>
 struct CORDL_TYPE __OVRTask_1__Callback {
 public:
@@ -636,36 +620,17 @@ public:
   static __declspec(property(get = getStaticF_Callbacks,
                              put = setStaticF_Callbacks))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* Callbacks;
 
+  /// @brief Field Clearer, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+
   /// @brief Field Invoker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker))::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
 
-  /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
-
-  static inline void setStaticF_Callbacks(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* getStaticF_Callbacks();
-
-  static inline void setStaticF_Invoker(::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* value);
-
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* getStaticF_Invoker();
-
-  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* value);
-
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* getStaticF_Remover();
-
-  static inline void setStaticF_Clearer(::System::Action* value);
-
-  static inline ::System::Action* getStaticF_Clearer();
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Invoke(::System::Guid taskId, TResult result);
-
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool Remove(::System::Guid taskId);
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Add(::System::Guid taskId, ::System::Action_1<TResult>* delegate);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Clear();
@@ -673,18 +638,37 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invoke(TResult result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Invoke(::System::Guid taskId, TResult result);
+
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool Remove(::System::Guid taskId);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<TResult>* delegate);
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Add(::System::Guid taskId, ::System::Action_1<TResult>* delegate);
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* getStaticF_Callbacks();
 
-  // Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: None }]
-  constexpr __OVRTask_1__Callback(::System::Action_1<TResult>* _delegate) noexcept;
+  static inline ::System::Action* getStaticF_Clearer();
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* getStaticF_Invoker();
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* getStaticF_Remover();
+
+  static inline void setStaticF_Callbacks(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* value);
+
+  static inline void setStaticF_Clearer(::System::Action* value);
+
+  static inline void setStaticF_Invoker(::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* value);
+
+  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTask_1__Callback();
+
+  // Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: None }]
+  constexpr __OVRTask_1__Callback(::System::Action_1<TResult>* _delegate) noexcept;
 
   /// @brief Field _delegate, offset: 0x0, size: 0x8, def value: None
   ::System::Action_1<TResult>* _delegate;
@@ -702,8 +686,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8074))
 // CS Name: ::OVRTask`1::CallbackWithState`1<TResult,T>
 struct CORDL_TYPE __OVRTask_1__CallbackWithState_1 {
 public:
@@ -712,55 +694,55 @@ public:
   static __declspec(property(get = getStaticF_Callbacks,
                              put = setStaticF_Callbacks))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* Callbacks;
 
+  /// @brief Field Clearer, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+
   /// @brief Field Invoker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker))::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
 
-  /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
-
-  static inline void setStaticF_Callbacks(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* getStaticF_Callbacks();
-
-  static inline void setStaticF_Invoker(::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* value);
-
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* getStaticF_Invoker();
-
-  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* value);
-
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* getStaticF_Remover();
-
-  static inline void setStaticF_Clearer(::System::Action* value);
-
-  static inline ::System::Action* getStaticF_Clearer();
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Invoke(::System::Guid taskId, TResult result);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(T data, ::System::Action_2<TResult, T>* delegate);
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Add(::System::Guid taskId, T data, ::System::Action_2<TResult, T>* callback);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Clear();
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool Remove(::System::Guid taskId);
-
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invoke(TResult result);
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Add(::System::Guid taskId, T data, ::System::Action_2<TResult, T>* callback);
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Invoke(::System::Guid taskId, TResult result);
 
-  // Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "", def_value: None }]
-  constexpr __OVRTask_1__CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept;
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool Remove(::System::Guid taskId);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(T data, ::System::Action_2<TResult, T>* delegate);
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* getStaticF_Callbacks();
+
+  static inline ::System::Action* getStaticF_Clearer();
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* getStaticF_Invoker();
+
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* getStaticF_Remover();
+
+  static inline void setStaticF_Callbacks(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* value);
+
+  static inline void setStaticF_Clearer(::System::Action* value);
+
+  static inline void setStaticF_Invoker(::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* value);
+
+  static inline void setStaticF_Remover(::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTask_1__CallbackWithState_1();
+
+  // Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "", def_value: None }]
+  constexpr __OVRTask_1__CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept;
 
   /// @brief Field _data, offset: 0x0, size: 0x8, def value: None
   T _data;

@@ -27,69 +27,73 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
 // CS Name: ::System.Linq::EnumerableSorter`2<TElement,TKey>*
 class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement> {
 public:
   // Declarations
-  /// @brief Field keySelector, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
-
   /// @brief Field comparer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
-  /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::EnumerableSorter_1<TElement>* next;
+  /// @brief Field keySelector, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
 
   /// @brief Field keys, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::ArrayW<TKey, ::Array<TKey>*> keys;
 
-  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
+  /// @brief Field next, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::EnumerableSorter_1<TElement>* next;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
+  /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t CompareKeys(int32_t index1, int32_t index2);
 
-  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
+  /// @brief Method ComputeKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
+
+  static inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* New_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
+                                                                             bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);
 
   constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr bool const& __cordl_internal_get_descending() const;
 
   constexpr bool& __cordl_internal_get_descending();
 
-  constexpr bool const& __cordl_internal_get_descending() const;
+  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr void __cordl_internal_set_descending(bool value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
+
+  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get_keys() const;
+
+  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get_keys();
 
   constexpr ::System::Linq::EnumerableSorter_1<TElement>*& __cordl_internal_get_next();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Linq::EnumerableSorter_1<TElement>*> const& __cordl_internal_get_next() const;
 
-  constexpr void __cordl_internal_set_next(::System::Linq::EnumerableSorter_1<TElement>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get_keys();
+  constexpr void __cordl_internal_set_descending(bool value);
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get_keys() const;
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
 
   constexpr void __cordl_internal_set_keys(::ArrayW<TKey, ::Array<TKey>*> value);
 
-  static inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* New_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
-                                                                             bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);
+  constexpr void __cordl_internal_set_next(::System::Linq::EnumerableSorter_1<TElement>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);
 
-  /// @brief Method ComputeKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumerableSorter_2();
 
-  /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t CompareKeys(int32_t index1, int32_t index2);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableSorter_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumerableSorter_2(EnumerableSorter_2&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumerableSorter_2(EnumerableSorter_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumerableSorter_2();
-
-public:
   /// @brief Field keySelector, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TElement, TKey>* ___keySelector;
 

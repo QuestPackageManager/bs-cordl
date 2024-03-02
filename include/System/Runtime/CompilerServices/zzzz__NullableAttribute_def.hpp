@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3954))
 // CS Name: ::System.Runtime.CompilerServices::NullableAttribute*
 class CORDL_TYPE NullableAttribute : public ::System::Attribute {
 public:
@@ -25,22 +23,28 @@ public:
   /// @brief Field NullableFlags, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_NullableFlags, put = __cordl_internal_set_NullableFlags))::ArrayW<uint8_t, ::Array<uint8_t>*> NullableFlags;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_NullableFlags();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_NullableFlags() const;
-
-  constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
   static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x2216b9c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_NullableFlags() const;
 
-  static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_NullableFlags();
 
-  /// @brief Method .ctor, addr 0x2216c1c, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xe8e97c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
+  /// @brief Method .ctor, addr 0xe8e8fc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullableAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NullableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableAttribute(NullableAttribute&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableAttribute(NullableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullableAttribute();
-
-public:
   /// @brief Field NullableFlags, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___NullableFlags;
 

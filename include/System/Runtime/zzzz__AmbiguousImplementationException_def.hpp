@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::Runtime::AmbiguousImplementationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3050))
 // CS Name: ::System.Runtime::AmbiguousImplementationException*
 class CORDL_TYPE AmbiguousImplementationException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2484af4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2484b74, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x2578860, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2484bec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2578958, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x25788e0, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AmbiguousImplementationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AmbiguousImplementationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AmbiguousImplementationException(AmbiguousImplementationException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AmbiguousImplementationException(AmbiguousImplementationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AmbiguousImplementationException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

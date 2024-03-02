@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TextEditorEventHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7094))
 // CS Name: ::UnityEngine.UIElements::TextEditorEventHandler*
 class CORDL_TYPE TextEditorEventHandler : public ::System::Object {
 public:
@@ -41,41 +39,47 @@ public:
 
   __declspec(property(get = get_textInputField, put = set_textInputField))::UnityEngine::UIElements::ITextInputField* textInputField;
 
+  /// @brief Method ExecuteDefaultAction, addr 0x2f4269c, size 0x158, virtual true, abstract: false, final false
+  inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
+
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2f42698, size 0x4, virtual true, abstract: false, final false
+  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+
+  static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
+
   constexpr ::UnityEngine::UIElements::TextEditorEngine*& __cordl_internal_get__editorEngine_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextEditorEngine*> const& __cordl_internal_get__editorEngine_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__editorEngine_k__BackingField(::UnityEngine::UIElements::TextEditorEngine* value);
 
   constexpr ::UnityEngine::UIElements::ITextInputField*& __cordl_internal_get__textInputField_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITextInputField*> const& __cordl_internal_get__textInputField_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__editorEngine_k__BackingField(::UnityEngine::UIElements::TextEditorEngine* value);
+
   constexpr void __cordl_internal_set__textInputField_k__BackingField(::UnityEngine::UIElements::ITextInputField* value);
 
-  /// @brief Method get_editorEngine, addr 0x2e33aa8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
-
-  /// @brief Method set_editorEngine, addr 0x2e33ab0, size 0x8, virtual false, abstract: false, final false
-  inline void set_editorEngine(::UnityEngine::UIElements::TextEditorEngine* value);
-
-  /// @brief Method get_textInputField, addr 0x2e33ab8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ITextInputField* get_textInputField();
-
-  /// @brief Method set_textInputField, addr 0x2e33ac0, size 0x8, virtual false, abstract: false, final false
-  inline void set_textInputField(::UnityEngine::UIElements::ITextInputField* value);
-
-  static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
-
-  /// @brief Method .ctor, addr 0x2e33ac8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f425d8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e33b88, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method get_editorEngine, addr 0x2f425b8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
 
-  /// @brief Method ExecuteDefaultAction, addr 0x2e33b8c, size 0x158, virtual true, abstract: false, final false
-  inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method get_textInputField, addr 0x2f425c8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::ITextInputField* get_textInputField();
 
+  /// @brief Method set_editorEngine, addr 0x2f425c0, size 0x8, virtual false, abstract: false, final false
+  inline void set_editorEngine(::UnityEngine::UIElements::TextEditorEngine* value);
+
+  /// @brief Method set_textInputField, addr 0x2f425d0, size 0x8, virtual false, abstract: false, final false
+  inline void set_textInputField(::UnityEngine::UIElements::ITextInputField* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextEditorEventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextEditorEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextEditorEventHandler(TextEditorEventHandler&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextEditorEventHandler(TextEditorEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextEditorEventHandler();
-
-public:
   /// @brief Field <editorEngine>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextEditorEngine* ____editorEngine_k__BackingField;
 

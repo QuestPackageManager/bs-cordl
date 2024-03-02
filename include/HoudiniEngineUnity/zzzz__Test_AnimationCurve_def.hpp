@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_AnimationCurve);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9930))
 // CS Name: ::HoudiniEngineUnity::Test_AnimationCurve*
 class CORDL_TYPE Test_AnimationCurve : public ::System::Object {
 public:
@@ -35,15 +33,16 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
-  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*
-  i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_AnimationCurve__() noexcept;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_AnimationCurve__() noexcept;
+  /// @brief Method IsEquivalentTo, addr 0x2348f14, size 0xe0, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
+
+  /// @brief Method IsNull, addr 0x2348f04, size 0x10, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_self();
 
@@ -51,17 +50,22 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::AnimationCurve* value);
 
-  static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
-
-  /// @brief Method .ctor, addr 0x21e6f8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2348edc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* self);
 
-  /// @brief Method IsNull, addr 0x21e6fb4, size 0x10, virtual true, abstract: false, final true
-  inline bool IsNull();
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*
+  i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_AnimationCurve__() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x21e6fc4, size 0xe0, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_AnimationCurve__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_AnimationCurve();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_AnimationCurve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_AnimationCurve(Test_AnimationCurve&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_AnimationCurve(Test_AnimationCurve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_AnimationCurve();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___self;
 

@@ -62,12 +62,41 @@ MARK_REF_PTR_T(::System::Net::FileWebRequest);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9096))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9134))
 // CS Name: ::System.Net::FileWebRequest*
 class CORDL_TYPE FileWebRequest : public ::System::Net::WebRequest {
 public:
   // Declarations
+  __declspec(property(get = get_Aborted)) bool Aborted;
+
+  __declspec(property(put = set_ConnectionGroupName))::StringW ConnectionGroupName;
+
+  __declspec(property(get = get_ContentLength, put = set_ContentLength)) int64_t ContentLength;
+
+  __declspec(property(get = get_Credentials, put = set_Credentials))::System::Net::ICredentials* Credentials;
+
+  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
+
+  __declspec(property(get = get_Method, put = set_Method))::StringW Method;
+
+  __declspec(property(put = set_PreAuthenticate)) bool PreAuthenticate;
+
+  __declspec(property(get = get_Proxy, put = set_Proxy))::System::Net::IWebProxy* Proxy;
+
+  __declspec(property(get = get_RequestUri))::System::Uri* RequestUri;
+
+  __declspec(property(get = get_Timeout, put = set_Timeout)) int32_t Timeout;
+
+  __declspec(property(get = get_UseDefaultCredentials)) bool UseDefaultCredentials;
+
+  /// @brief Field m_Aborted, offset 0xc0, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Aborted, put = __cordl_internal_set_m_Aborted)) int32_t m_Aborted;
+
+  /// @brief Field m_ReadAResult, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ReadAResult, put = __cordl_internal_set_m_ReadAResult))::System::Net::LazyAsyncResult* m_ReadAResult;
+
+  /// @brief Field m_WriteAResult, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_WriteAResult, put = __cordl_internal_set_m_WriteAResult))::System::Net::LazyAsyncResult* m_WriteAResult;
+
   /// @brief Field m_connectionGroupName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_connectionGroupName, put = __cordl_internal_set_m_connectionGroupName))::StringW m_connectionGroupName;
 
@@ -92,11 +121,11 @@ public:
   /// @brief Field m_proxy, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_proxy, put = __cordl_internal_set_m_proxy))::System::Net::IWebProxy* m_proxy;
 
-  /// @brief Field m_readerEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_readerEvent, put = __cordl_internal_set_m_readerEvent))::System::Threading::ManualResetEvent* m_readerEvent;
-
   /// @brief Field m_readPending, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get_m_readPending, put = __cordl_internal_set_m_readPending)) bool m_readPending;
+
+  /// @brief Field m_readerEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_readerEvent, put = __cordl_internal_set_m_readerEvent))::System::Threading::ManualResetEvent* m_readerEvent;
 
   /// @brief Field m_response, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_response, put = __cordl_internal_set_m_response))::System::Net::WebResponse* m_response;
@@ -119,272 +148,247 @@ public:
   /// @brief Field m_writing, offset 0xa9, size 0x1
   __declspec(property(get = __cordl_internal_get_m_writing, put = __cordl_internal_set_m_writing)) bool m_writing;
 
-  /// @brief Field m_WriteAResult, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_WriteAResult, put = __cordl_internal_set_m_WriteAResult))::System::Net::LazyAsyncResult* m_WriteAResult;
-
-  /// @brief Field m_ReadAResult, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ReadAResult, put = __cordl_internal_set_m_ReadAResult))::System::Net::LazyAsyncResult* m_ReadAResult;
-
-  /// @brief Field m_Aborted, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Aborted, put = __cordl_internal_set_m_Aborted)) int32_t m_Aborted;
-
   /// @brief Field s_GetRequestStreamCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GetRequestStreamCallback, put = setStaticF_s_GetRequestStreamCallback))::System::Threading::WaitCallback* s_GetRequestStreamCallback;
 
   /// @brief Field s_GetResponseCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GetResponseCallback, put = setStaticF_s_GetResponseCallback))::System::Threading::WaitCallback* s_GetResponseCallback;
 
-  __declspec(property(get = get_Aborted)) bool Aborted;
-
-  __declspec(property(put = set_ConnectionGroupName))::StringW ConnectionGroupName;
-
-  __declspec(property(get = get_ContentLength, put = set_ContentLength)) int64_t ContentLength;
-
-  __declspec(property(get = get_Credentials, put = set_Credentials))::System::Net::ICredentials* Credentials;
-
-  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
-
-  __declspec(property(get = get_Method, put = set_Method))::StringW Method;
-
-  __declspec(property(put = set_PreAuthenticate)) bool PreAuthenticate;
-
-  __declspec(property(get = get_Proxy, put = set_Proxy))::System::Net::IWebProxy* Proxy;
-
-  __declspec(property(get = get_Timeout, put = set_Timeout)) int32_t Timeout;
-
-  __declspec(property(get = get_RequestUri))::System::Uri* RequestUri;
-
-  __declspec(property(get = get_UseDefaultCredentials)) bool UseDefaultCredentials;
-
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method Abort, addr 0x2aa14dc, size 0x3b4, virtual true, abstract: false, final false
+  inline void Abort();
 
-  constexpr ::StringW& __cordl_internal_get_m_connectionGroupName();
+  /// @brief Method BeginGetRequestStream, addr 0x2a9fa88, size 0x3d4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::System::Object* state);
 
-  constexpr ::StringW const& __cordl_internal_get_m_connectionGroupName() const;
+  /// @brief Method BeginGetResponse, addr 0x2a9fecc, size 0x2e0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::System::Object* state);
 
-  constexpr void __cordl_internal_set_m_connectionGroupName(::StringW value);
+  /// @brief Method CanGetRequestStream, addr 0x2a9fe5c, size 0x70, virtual false, abstract: false, final false
+  inline bool CanGetRequestStream();
 
-  constexpr int64_t& __cordl_internal_get_m_contentLength();
+  /// @brief Method EndGetRequestStream, addr 0x2aa01ac, size 0x304, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
 
-  constexpr int64_t const& __cordl_internal_get_m_contentLength() const;
+  /// @brief Method EndGetResponse, addr 0x2aa04b0, size 0x304, virtual true, abstract: false, final false
+  inline ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
 
-  constexpr void __cordl_internal_set_m_contentLength(int64_t value);
+  /// @brief Method GetObjectData, addr 0x2a9f5ac, size 0x290, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr ::System::Net::ICredentials*& __cordl_internal_get_m_credentials();
+  /// @brief Method GetRequestStreamCallback, addr 0x2aa0b24, size 0x230, virtual false, abstract: false, final false
+  static inline void GetRequestStreamCallback(::System::Object* state);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_m_credentials() const;
+  /// @brief Method GetResponse, addr 0x2aa07b4, size 0x370, virtual true, abstract: false, final false
+  inline ::System::Net::WebResponse* GetResponse();
 
-  constexpr void __cordl_internal_set_m_credentials(::System::Net::ICredentials* value);
+  /// @brief Method GetResponseCallback, addr 0x2aa0df0, size 0x324, virtual false, abstract: false, final false
+  static inline void GetResponseCallback(::System::Object* state);
 
-  constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
+  static inline ::System::Net::FileWebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr ::System::IO::FileAccess const& __cordl_internal_get_m_fileAccess() const;
+  static inline ::System::Net::FileWebRequest* New_ctor(::System::Uri* uri);
 
-  constexpr void __cordl_internal_set_m_fileAccess(::System::IO::FileAccess value);
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2a9f5a0, size 0xc, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
+  /// @brief Method UnblockReader, addr 0x2aa13e0, size 0xd8, virtual false, abstract: false, final false
+  inline void UnblockReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_m_headers() const;
+  constexpr int32_t const& __cordl_internal_get_m_Aborted() const;
 
-  constexpr void __cordl_internal_set_m_headers(::System::Net::WebHeaderCollection* value);
-
-  constexpr ::StringW& __cordl_internal_get_m_method();
-
-  constexpr ::StringW const& __cordl_internal_get_m_method() const;
-
-  constexpr void __cordl_internal_set_m_method(::StringW value);
-
-  constexpr bool& __cordl_internal_get_m_preauthenticate();
-
-  constexpr bool const& __cordl_internal_get_m_preauthenticate() const;
-
-  constexpr void __cordl_internal_set_m_preauthenticate(bool value);
-
-  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_m_proxy();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_m_proxy() const;
-
-  constexpr void __cordl_internal_set_m_proxy(::System::Net::IWebProxy* value);
-
-  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_m_readerEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_m_readerEvent() const;
-
-  constexpr void __cordl_internal_set_m_readerEvent(::System::Threading::ManualResetEvent* value);
-
-  constexpr bool& __cordl_internal_get_m_readPending();
-
-  constexpr bool const& __cordl_internal_get_m_readPending() const;
-
-  constexpr void __cordl_internal_set_m_readPending(bool value);
-
-  constexpr ::System::Net::WebResponse*& __cordl_internal_get_m_response();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& __cordl_internal_get_m_response() const;
-
-  constexpr void __cordl_internal_set_m_response(::System::Net::WebResponse* value);
-
-  constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
-
-  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
-
-  constexpr bool& __cordl_internal_get_m_syncHint();
-
-  constexpr bool const& __cordl_internal_get_m_syncHint() const;
-
-  constexpr void __cordl_internal_set_m_syncHint(bool value);
-
-  constexpr int32_t& __cordl_internal_get_m_timeout();
-
-  constexpr int32_t const& __cordl_internal_get_m_timeout() const;
-
-  constexpr void __cordl_internal_set_m_timeout(int32_t value);
-
-  constexpr ::System::Uri*& __cordl_internal_get_m_uri();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_uri() const;
-
-  constexpr void __cordl_internal_set_m_uri(::System::Uri* value);
-
-  constexpr bool& __cordl_internal_get_m_writePending();
-
-  constexpr bool const& __cordl_internal_get_m_writePending() const;
-
-  constexpr void __cordl_internal_set_m_writePending(bool value);
-
-  constexpr bool& __cordl_internal_get_m_writing();
-
-  constexpr bool const& __cordl_internal_get_m_writing() const;
-
-  constexpr void __cordl_internal_set_m_writing(bool value);
-
-  constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get_m_WriteAResult();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get_m_WriteAResult() const;
-
-  constexpr void __cordl_internal_set_m_WriteAResult(::System::Net::LazyAsyncResult* value);
+  constexpr int32_t& __cordl_internal_get_m_Aborted();
 
   constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get_m_ReadAResult();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get_m_ReadAResult() const;
 
-  constexpr void __cordl_internal_set_m_ReadAResult(::System::Net::LazyAsyncResult* value);
+  constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get_m_WriteAResult();
 
-  constexpr int32_t& __cordl_internal_get_m_Aborted();
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get_m_WriteAResult() const;
 
-  constexpr int32_t const& __cordl_internal_get_m_Aborted() const;
+  constexpr ::StringW const& __cordl_internal_get_m_connectionGroupName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_connectionGroupName();
+
+  constexpr int64_t const& __cordl_internal_get_m_contentLength() const;
+
+  constexpr int64_t& __cordl_internal_get_m_contentLength();
+
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get_m_credentials();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_m_credentials() const;
+
+  constexpr ::System::IO::FileAccess const& __cordl_internal_get_m_fileAccess() const;
+
+  constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
+
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_m_headers() const;
+
+  constexpr ::StringW const& __cordl_internal_get_m_method() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_method();
+
+  constexpr bool const& __cordl_internal_get_m_preauthenticate() const;
+
+  constexpr bool& __cordl_internal_get_m_preauthenticate();
+
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_m_proxy();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_m_proxy() const;
+
+  constexpr bool const& __cordl_internal_get_m_readPending() const;
+
+  constexpr bool& __cordl_internal_get_m_readPending();
+
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_m_readerEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_m_readerEvent() const;
+
+  constexpr ::System::Net::WebResponse*& __cordl_internal_get_m_response();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& __cordl_internal_get_m_response() const;
+
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
+
+  constexpr bool const& __cordl_internal_get_m_syncHint() const;
+
+  constexpr bool& __cordl_internal_get_m_syncHint();
+
+  constexpr int32_t const& __cordl_internal_get_m_timeout() const;
+
+  constexpr int32_t& __cordl_internal_get_m_timeout();
+
+  constexpr ::System::Uri*& __cordl_internal_get_m_uri();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_uri() const;
+
+  constexpr bool const& __cordl_internal_get_m_writePending() const;
+
+  constexpr bool& __cordl_internal_get_m_writePending();
+
+  constexpr bool const& __cordl_internal_get_m_writing() const;
+
+  constexpr bool& __cordl_internal_get_m_writing();
 
   constexpr void __cordl_internal_set_m_Aborted(int32_t value);
 
-  static inline void setStaticF_s_GetRequestStreamCallback(::System::Threading::WaitCallback* value);
+  constexpr void __cordl_internal_set_m_ReadAResult(::System::Net::LazyAsyncResult* value);
+
+  constexpr void __cordl_internal_set_m_WriteAResult(::System::Net::LazyAsyncResult* value);
+
+  constexpr void __cordl_internal_set_m_connectionGroupName(::StringW value);
+
+  constexpr void __cordl_internal_set_m_contentLength(int64_t value);
+
+  constexpr void __cordl_internal_set_m_credentials(::System::Net::ICredentials* value);
+
+  constexpr void __cordl_internal_set_m_fileAccess(::System::IO::FileAccess value);
+
+  constexpr void __cordl_internal_set_m_headers(::System::Net::WebHeaderCollection* value);
+
+  constexpr void __cordl_internal_set_m_method(::StringW value);
+
+  constexpr void __cordl_internal_set_m_preauthenticate(bool value);
+
+  constexpr void __cordl_internal_set_m_proxy(::System::Net::IWebProxy* value);
+
+  constexpr void __cordl_internal_set_m_readPending(bool value);
+
+  constexpr void __cordl_internal_set_m_readerEvent(::System::Threading::ManualResetEvent* value);
+
+  constexpr void __cordl_internal_set_m_response(::System::Net::WebResponse* value);
+
+  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
+
+  constexpr void __cordl_internal_set_m_syncHint(bool value);
+
+  constexpr void __cordl_internal_set_m_timeout(int32_t value);
+
+  constexpr void __cordl_internal_set_m_uri(::System::Uri* value);
+
+  constexpr void __cordl_internal_set_m_writePending(bool value);
+
+  constexpr void __cordl_internal_set_m_writing(bool value);
+
+  /// @brief Method .ctor, addr 0x2a9f204, size 0x39c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+
+  /// @brief Method .ctor, addr 0x2a9f08c, size 0x178, virtual false, abstract: false, final false
+  inline void _ctor(::System::Uri* uri);
 
   static inline ::System::Threading::WaitCallback* getStaticF_s_GetRequestStreamCallback();
 
-  static inline void setStaticF_s_GetResponseCallback(::System::Threading::WaitCallback* value);
-
   static inline ::System::Threading::WaitCallback* getStaticF_s_GetResponseCallback();
 
-  static inline ::System::Net::FileWebRequest* New_ctor(::System::Uri* uri);
-
-  /// @brief Method .ctor, addr 0x29b3514, size 0x178, virtual false, abstract: false, final false
-  inline void _ctor(::System::Uri* uri);
-
-  static inline ::System::Net::FileWebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method .ctor, addr 0x29b368c, size 0x39c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29b3a28, size 0xc, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method GetObjectData, addr 0x29b3a34, size 0x290, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method get_Aborted, addr 0x29b3cc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Aborted, addr 0x2a9f83c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
-  /// @brief Method set_ConnectionGroupName, addr 0x29b3cd4, size 0x8, virtual true, abstract: false, final false
-  inline void set_ConnectionGroupName(::StringW value);
-
-  /// @brief Method get_ContentLength, addr 0x29b3cdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x2a9f854, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method set_ContentLength, addr 0x29b3ce4, size 0x84, virtual true, abstract: false, final false
-  inline void set_ContentLength(int64_t value);
-
-  /// @brief Method get_Credentials, addr 0x29b3d68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Credentials, addr 0x2a9f8e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method set_Credentials, addr 0x29b3d70, size 0x8, virtual true, abstract: false, final false
-  inline void set_Credentials(::System::Net::ICredentials* value);
-
-  /// @brief Method get_Headers, addr 0x29b3d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2a9f8f0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_Method, addr 0x29b3d80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x2a9f8f8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method set_Method, addr 0x29b3d88, size 0xd4, virtual true, abstract: false, final false
-  inline void set_Method(::StringW value);
-
-  /// @brief Method set_PreAuthenticate, addr 0x29b3e5c, size 0xc, virtual true, abstract: false, final false
-  inline void set_PreAuthenticate(bool value);
-
-  /// @brief Method get_Proxy, addr 0x29b3e68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Proxy, addr 0x2a9f9e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IWebProxy* get_Proxy();
 
-  /// @brief Method set_Proxy, addr 0x29b3e70, size 0x8, virtual true, abstract: false, final false
-  inline void set_Proxy(::System::Net::IWebProxy* value);
-
-  /// @brief Method get_Timeout, addr 0x29b3e78, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Timeout();
-
-  /// @brief Method set_Timeout, addr 0x29b3e80, size 0x88, virtual true, abstract: false, final false
-  inline void set_Timeout(int32_t value);
-
-  /// @brief Method get_RequestUri, addr 0x29b3f08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestUri, addr 0x2a9fa80, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method BeginGetRequestStream, addr 0x29b3f10, size 0x3d4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::System::Object* state);
+  /// @brief Method get_Timeout, addr 0x2a9f9f0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_Timeout();
 
-  /// @brief Method BeginGetResponse, addr 0x29b4354, size 0x2e0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method CanGetRequestStream, addr 0x29b42e4, size 0x70, virtual false, abstract: false, final false
-  inline bool CanGetRequestStream();
-
-  /// @brief Method EndGetRequestStream, addr 0x29b4634, size 0x304, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method EndGetResponse, addr 0x29b4938, size 0x304, virtual true, abstract: false, final false
-  inline ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method GetResponse, addr 0x29b4c3c, size 0x370, virtual true, abstract: false, final false
-  inline ::System::Net::WebResponse* GetResponse();
-
-  /// @brief Method GetRequestStreamCallback, addr 0x29b4fac, size 0x230, virtual false, abstract: false, final false
-  static inline void GetRequestStreamCallback(::System::Object* state);
-
-  /// @brief Method GetResponseCallback, addr 0x29b5278, size 0x324, virtual false, abstract: false, final false
-  static inline void GetResponseCallback(::System::Object* state);
-
-  /// @brief Method UnblockReader, addr 0x29b5868, size 0xd8, virtual false, abstract: false, final false
-  inline void UnblockReader();
-
-  /// @brief Method get_UseDefaultCredentials, addr 0x29b5940, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x2aa14b8, size 0x24, virtual true, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
-  /// @brief Method Abort, addr 0x29b5964, size 0x3b4, virtual true, abstract: false, final false
-  inline void Abort();
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
+  static inline void setStaticF_s_GetRequestStreamCallback(::System::Threading::WaitCallback* value);
+
+  static inline void setStaticF_s_GetResponseCallback(::System::Threading::WaitCallback* value);
+
+  /// @brief Method set_ConnectionGroupName, addr 0x2a9f84c, size 0x8, virtual true, abstract: false, final false
+  inline void set_ConnectionGroupName(::StringW value);
+
+  /// @brief Method set_ContentLength, addr 0x2a9f85c, size 0x84, virtual true, abstract: false, final false
+  inline void set_ContentLength(int64_t value);
+
+  /// @brief Method set_Credentials, addr 0x2a9f8e8, size 0x8, virtual true, abstract: false, final false
+  inline void set_Credentials(::System::Net::ICredentials* value);
+
+  /// @brief Method set_Method, addr 0x2a9f900, size 0xd4, virtual true, abstract: false, final false
+  inline void set_Method(::StringW value);
+
+  /// @brief Method set_PreAuthenticate, addr 0x2a9f9d4, size 0xc, virtual true, abstract: false, final false
+  inline void set_PreAuthenticate(bool value);
+
+  /// @brief Method set_Proxy, addr 0x2a9f9e8, size 0x8, virtual true, abstract: false, final false
+  inline void set_Proxy(::System::Net::IWebProxy* value);
+
+  /// @brief Method set_Timeout, addr 0x2a9f9f8, size 0x88, virtual true, abstract: false, final false
+  inline void set_Timeout(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileWebRequest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileWebRequest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileWebRequest(FileWebRequest&&) = delete;
@@ -393,12 +397,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileWebRequest(FileWebRequest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileWebRequest();
-
-public:
   /// @brief Field m_connectionGroupName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_connectionGroupName;
 

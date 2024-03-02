@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(979))
 // CS Name: ::Org.BouncyCastle.Crypto::ICipherBuilderWithKey*
 class CORDL_TYPE ICipherBuilderWithKey {
 public:
@@ -30,11 +28,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
-  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
-
   /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilderWithKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

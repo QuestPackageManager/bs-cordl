@@ -19,44 +19,48 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADObjRef);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3153))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADObjRef*
 class CORDL_TYPE CADObjRef : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objref, put = __cordl_internal_set_objref))::System::Runtime::Remoting::ObjRef* objref;
-
   /// @brief Field SourceDomain, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_SourceDomain, put = __cordl_internal_set_SourceDomain)) int32_t SourceDomain;
 
   /// @brief Field TypeInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_TypeInfo, put = __cordl_internal_set_TypeInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> TypeInfo;
 
+  /// @brief Field objref, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_objref, put = __cordl_internal_set_objref))::System::Runtime::Remoting::ObjRef* objref;
+
+  static inline ::System::Runtime::Remoting::Messaging::CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
+
+  constexpr int32_t const& __cordl_internal_get_SourceDomain() const;
+
+  constexpr int32_t& __cordl_internal_get_SourceDomain();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_TypeInfo() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TypeInfo();
+
   constexpr ::System::Runtime::Remoting::ObjRef*& __cordl_internal_get_objref();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ObjRef*> const& __cordl_internal_get_objref() const;
 
-  constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
-
-  constexpr int32_t& __cordl_internal_get_SourceDomain();
-
-  constexpr int32_t const& __cordl_internal_get_SourceDomain() const;
-
   constexpr void __cordl_internal_set_SourceDomain(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TypeInfo();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_TypeInfo() const;
 
   constexpr void __cordl_internal_set_TypeInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::System::Runtime::Remoting::Messaging::CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
+  constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x24a7be0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259a94c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CADObjRef();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CADObjRef(CADObjRef&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CADObjRef(CADObjRef const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CADObjRef();
-
-public:
   /// @brief Field objref, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::ObjRef* ___objref;
 

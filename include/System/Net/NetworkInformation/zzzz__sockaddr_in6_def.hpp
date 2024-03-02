@@ -19,20 +19,18 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_in6);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9273))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_in6();
+
   // Ctor Parameters [CppParam { name: "sin6_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
   // "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty: "::System::Net::NetworkInformation::in6_addr", modifiers: "", def_value: None }, CppParam {
   // name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr sockaddr_in6(uint16_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, ::System::Net::NetworkInformation::in6_addr sin6_addr, uint32_t sin6_scope_id) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr sockaddr_in6();
 
   /// @brief Field sin6_family, offset: 0x0, size: 0x2, def value: None
   uint16_t sin6_family;

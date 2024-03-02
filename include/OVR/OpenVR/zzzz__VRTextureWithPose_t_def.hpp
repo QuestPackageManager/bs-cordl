@@ -18,18 +18,16 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureWithPose_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8644))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8660))
 // CS Name: ::OVR.OpenVR::VRTextureWithPose_t
 struct CORDL_TYPE VRTextureWithPose_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }]
-  constexpr VRTextureWithPose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRTextureWithPose_t();
+
+  // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }]
+  constexpr VRTextureWithPose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking) noexcept;
 
   /// @brief Field mDeviceToAbsoluteTracking, offset: 0x0, size: 0x30, def value: None
   ::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;

@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerUpEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 1734 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7202))
 // CS Name: ::UnityEngine.UIElements::PointerUpEvent*
 class CORDL_TYPE PointerUpEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e4fc30, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5d740, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e4fc80, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5d790, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4fd84, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method PostDispatch, addr 0x2e4fdd4, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2f5d8e4, size 0x32c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
+  /// @brief Method .ctor, addr 0x2f5d894, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerUpEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerUpEvent(PointerUpEvent&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerUpEvent(PointerUpEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerUpEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

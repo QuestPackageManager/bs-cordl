@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::PrimitiveTypeCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11870))
 // CS Name: ::Newtonsoft.Json.Utilities::PrimitiveTypeCode
 struct CORDL_TYPE PrimitiveTypeCode {
 public:
@@ -74,30 +72,26 @@ public:
     return static_cast<__PrimitiveTypeCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PrimitiveTypeCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PrimitiveTypeCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PrimitiveTypeCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BigInteger value: static_cast<int32_t>(0x24)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigInteger;
 
-  /// @brief Field Empty value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Empty;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Object;
-
-  /// @brief Field Char value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Char;
-
-  /// @brief Field CharNullable value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const CharNullable;
+  /// @brief Field BigIntegerNullable value: static_cast<int32_t>(0x25)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigIntegerNullable;
 
   /// @brief Field Boolean value: static_cast<int32_t>(0x4)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Boolean;
@@ -105,65 +99,23 @@ public:
   /// @brief Field BooleanNullable value: static_cast<int32_t>(0x5)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BooleanNullable;
 
-  /// @brief Field SByte value: static_cast<int32_t>(0x6)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByte;
-
-  /// @brief Field SByteNullable value: static_cast<int32_t>(0x7)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByteNullable;
-
-  /// @brief Field Int16 value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16;
-
-  /// @brief Field Int16Nullable value: static_cast<int32_t>(0x9)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16Nullable;
-
-  /// @brief Field UInt16 value: static_cast<int32_t>(0xa)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16;
-
-  /// @brief Field UInt16Nullable value: static_cast<int32_t>(0xb)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16Nullable;
-
-  /// @brief Field Int32 value: static_cast<int32_t>(0xc)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32;
-
-  /// @brief Field Int32Nullable value: static_cast<int32_t>(0xd)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32Nullable;
-
   /// @brief Field Byte value: static_cast<int32_t>(0xe)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Byte;
 
   /// @brief Field ByteNullable value: static_cast<int32_t>(0xf)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const ByteNullable;
 
-  /// @brief Field UInt32 value: static_cast<int32_t>(0x10)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32;
+  /// @brief Field Bytes value: static_cast<int32_t>(0x28)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Bytes;
 
-  /// @brief Field UInt32Nullable value: static_cast<int32_t>(0x11)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32Nullable;
+  /// @brief Field Char value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Char;
 
-  /// @brief Field Int64 value: static_cast<int32_t>(0x12)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64;
+  /// @brief Field CharNullable value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const CharNullable;
 
-  /// @brief Field Int64Nullable value: static_cast<int32_t>(0x13)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64Nullable;
-
-  /// @brief Field UInt64 value: static_cast<int32_t>(0x14)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64;
-
-  /// @brief Field UInt64Nullable value: static_cast<int32_t>(0x15)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64Nullable;
-
-  /// @brief Field Single value: static_cast<int32_t>(0x16)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Single;
-
-  /// @brief Field SingleNullable value: static_cast<int32_t>(0x17)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SingleNullable;
-
-  /// @brief Field Double value: static_cast<int32_t>(0x18)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Double;
-
-  /// @brief Field DoubleNullable value: static_cast<int32_t>(0x19)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DoubleNullable;
+  /// @brief Field DBNull value: static_cast<int32_t>(0x29)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DBNull;
 
   /// @brief Field DateTime value: static_cast<int32_t>(0x1a)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DateTime;
@@ -183,11 +135,56 @@ public:
   /// @brief Field DecimalNullable value: static_cast<int32_t>(0x1f)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DecimalNullable;
 
+  /// @brief Field Double value: static_cast<int32_t>(0x18)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Double;
+
+  /// @brief Field DoubleNullable value: static_cast<int32_t>(0x19)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DoubleNullable;
+
+  /// @brief Field Empty value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Empty;
+
   /// @brief Field Guid value: static_cast<int32_t>(0x20)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Guid;
 
   /// @brief Field GuidNullable value: static_cast<int32_t>(0x21)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const GuidNullable;
+
+  /// @brief Field Int16 value: static_cast<int32_t>(0x8)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16;
+
+  /// @brief Field Int16Nullable value: static_cast<int32_t>(0x9)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int16Nullable;
+
+  /// @brief Field Int32 value: static_cast<int32_t>(0xc)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32;
+
+  /// @brief Field Int32Nullable value: static_cast<int32_t>(0xd)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int32Nullable;
+
+  /// @brief Field Int64 value: static_cast<int32_t>(0x12)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64;
+
+  /// @brief Field Int64Nullable value: static_cast<int32_t>(0x13)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Int64Nullable;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Object;
+
+  /// @brief Field SByte value: static_cast<int32_t>(0x6)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByte;
+
+  /// @brief Field SByteNullable value: static_cast<int32_t>(0x7)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SByteNullable;
+
+  /// @brief Field Single value: static_cast<int32_t>(0x16)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Single;
+
+  /// @brief Field SingleNullable value: static_cast<int32_t>(0x17)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const SingleNullable;
+
+  /// @brief Field String value: static_cast<int32_t>(0x27)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const String;
 
   /// @brief Field TimeSpan value: static_cast<int32_t>(0x22)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpan;
@@ -195,23 +192,29 @@ public:
   /// @brief Field TimeSpanNullable value: static_cast<int32_t>(0x23)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const TimeSpanNullable;
 
-  /// @brief Field BigInteger value: static_cast<int32_t>(0x24)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigInteger;
+  /// @brief Field UInt16 value: static_cast<int32_t>(0xa)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16;
 
-  /// @brief Field BigIntegerNullable value: static_cast<int32_t>(0x25)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const BigIntegerNullable;
+  /// @brief Field UInt16Nullable value: static_cast<int32_t>(0xb)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt16Nullable;
+
+  /// @brief Field UInt32 value: static_cast<int32_t>(0x10)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32;
+
+  /// @brief Field UInt32Nullable value: static_cast<int32_t>(0x11)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt32Nullable;
+
+  /// @brief Field UInt64 value: static_cast<int32_t>(0x14)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64;
+
+  /// @brief Field UInt64Nullable value: static_cast<int32_t>(0x15)
+  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const UInt64Nullable;
 
   /// @brief Field Uri value: static_cast<int32_t>(0x26)
   static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Uri;
 
-  /// @brief Field String value: static_cast<int32_t>(0x27)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const String;
-
-  /// @brief Field Bytes value: static_cast<int32_t>(0x28)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const Bytes;
-
-  /// @brief Field DBNull value: static_cast<int32_t>(0x29)
-  static ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const DBNull;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

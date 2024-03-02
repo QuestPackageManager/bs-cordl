@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5419)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
-// 5216 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5420)) CS Name: ::GameplayModifierInfoListItemsList*
+// CS Name: ::GameplayModifierInfoListItemsList*
 class CORDL_TYPE GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GameplayModifierInfoListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GameplayModifierInfoListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2278cc8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2778, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameplayModifierInfoListItemsList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItemsList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierInfoListItemsList(GameplayModifierInfoListItemsList&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifierInfoListItemsList(GameplayModifierInfoListItemsList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayModifierInfoListItemsList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

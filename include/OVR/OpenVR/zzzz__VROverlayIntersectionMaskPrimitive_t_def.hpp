@@ -22,20 +22,18 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8631)), TypeDefinitionIndex(TypeDefinitionIndex(8643))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8710))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionMaskPrimitive_t
 struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VROverlayIntersectionMaskPrimitive_t();
+
   // Ctor Parameters [CppParam { name: "m_nPrimitiveType", ty: "::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType", modifiers: "", def_value: None }, CppParam { name: "m_Primitive", ty:
   // "::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t", modifiers: "", def_value: None }]
   constexpr VROverlayIntersectionMaskPrimitive_t(::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType,
                                                  ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VROverlayIntersectionMaskPrimitive_t();
 
   /// @brief Field m_nPrimitiveType, offset: 0x0, size: 0x4, def value: None
   ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType;

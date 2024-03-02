@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::NoteCutDirection);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14755))
 // CS Name: ::NoteCutDirection
 struct CORDL_TYPE NoteCutDirection {
 public:
@@ -42,36 +40,26 @@ public:
     return static_cast<__NoteCutDirection_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NoteCutDirection(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NoteCutDirection();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NoteCutDirection(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Up value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::NoteCutDirection const Up;
+  /// @brief Field Any value: static_cast<int32_t>(0x8)
+  static ::GlobalNamespace::NoteCutDirection const Any;
 
   /// @brief Field Down value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::NoteCutDirection const Down;
-
-  /// @brief Field Left value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::NoteCutDirection const Left;
-
-  /// @brief Field Right value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::NoteCutDirection const Right;
-
-  /// @brief Field UpLeft value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::NoteCutDirection const UpLeft;
-
-  /// @brief Field UpRight value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::NoteCutDirection const UpRight;
 
   /// @brief Field DownLeft value: static_cast<int32_t>(0x6)
   static ::GlobalNamespace::NoteCutDirection const DownLeft;
@@ -79,11 +67,26 @@ public:
   /// @brief Field DownRight value: static_cast<int32_t>(0x7)
   static ::GlobalNamespace::NoteCutDirection const DownRight;
 
-  /// @brief Field Any value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::NoteCutDirection const Any;
+  /// @brief Field Left value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::NoteCutDirection const Left;
 
   /// @brief Field None value: static_cast<int32_t>(0x9)
   static ::GlobalNamespace::NoteCutDirection const None;
+
+  /// @brief Field Right value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::NoteCutDirection const Right;
+
+  /// @brief Field Up value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::NoteCutDirection const Up;
+
+  /// @brief Field UpLeft value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::NoteCutDirection const UpLeft;
+
+  /// @brief Field UpRight value: static_cast<int32_t>(0x5)
+  static ::GlobalNamespace::NoteCutDirection const UpRight;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

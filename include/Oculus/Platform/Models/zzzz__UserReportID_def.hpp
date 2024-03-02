@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserReportID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13491))
 // CS Name: ::Oculus.Platform.Models::UserReportID*
 class CORDL_TYPE UserReportID : public ::System::Object {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field ID, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  constexpr bool& __cordl_internal_get_DidCancel();
+  static inline ::Oculus::Platform::Models::UserReportID* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_DidCancel() const;
 
-  constexpr void __cordl_internal_set_DidCancel(bool value);
-
-  constexpr uint64_t& __cordl_internal_get__cordl_ID();
+  constexpr bool& __cordl_internal_get_DidCancel();
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
+
+  constexpr void __cordl_internal_set_DidCancel(bool value);
+
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  static inline ::Oculus::Platform::Models::UserReportID* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2709434, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fad3c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserReportID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserReportID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserReportID(UserReportID&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserReportID(UserReportID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserReportID();
-
-public:
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;
 

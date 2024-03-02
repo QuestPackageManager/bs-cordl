@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::IO::DirectoryNotFoundException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3556))
 // CS Name: ::System.IO::DirectoryNotFoundException*
 class CORDL_TYPE DirectoryNotFoundException : public ::System::IO::IOException {
 public:
   // Declarations
   static inline ::System::IO::DirectoryNotFoundException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24fbf98, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::IO::DirectoryNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::IO::DirectoryNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24fc018, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x25ecd04, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::IO::DirectoryNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x24fc03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ecda8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x25ecd84, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectoryNotFoundException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectoryNotFoundException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectoryNotFoundException(DirectoryNotFoundException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectoryNotFoundException(DirectoryNotFoundException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectoryNotFoundException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

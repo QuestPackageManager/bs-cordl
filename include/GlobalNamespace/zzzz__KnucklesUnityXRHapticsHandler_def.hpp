@@ -52,12 +52,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -73,78 +75,80 @@ public:
   /// @brief Field <waiter>5__3, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__waiter_5__3, put = __cordl_internal_set__waiter_5__3))::UnityEngine::WaitForSecondsRealtime* _waiter_5__3;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x22592fc, size 0x110, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x225940c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2259414, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2259454, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x22592f8, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
   constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KnucklesUnityXRHapticsHandler*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value);
-
-  constexpr ::UnityEngine::XR::InputDevice& __cordl_internal_get__device_5__2();
-
   constexpr ::UnityEngine::XR::InputDevice const& __cordl_internal_get__device_5__2() const;
 
-  constexpr void __cordl_internal_set__device_5__2(::UnityEngine::XR::InputDevice value);
+  constexpr ::UnityEngine::XR::InputDevice& __cordl_internal_get__device_5__2();
 
   constexpr ::UnityEngine::WaitForSecondsRealtime*& __cordl_internal_get__waiter_5__3();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& __cordl_internal_get__waiter_5__3() const;
 
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value);
+
+  constexpr void __cordl_internal_set__device_5__2(::UnityEngine::XR::InputDevice value);
+
   constexpr void __cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
 
-  static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x20f71b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225924c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x20f7264, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x20f7268, size 0x110, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f7378, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f7380, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f73c0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9(__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9&&) = delete;
@@ -153,12 +157,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9(__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -194,13 +192,14 @@ static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___Hapt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {
 public:
   // Declarations
   using _HapticsCoroutine_d__9 = ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
+
+  /// @brief Field _amplitude, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__amplitude, put = __cordl_internal_set__amplitude)) float_t _amplitude;
 
   /// @brief Field _coroutineRunner, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__coroutineRunner, put = __cordl_internal_set__coroutineRunner))::UnityW<::UnityEngine::MonoBehaviour> _coroutineRunner;
@@ -214,68 +213,71 @@ public:
   /// @brief Field _remainingTime, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__remainingTime, put = __cordl_internal_set__remainingTime)) float_t _remainingTime;
 
-  /// @brief Field _amplitude, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__amplitude, put = __cordl_internal_set__amplitude)) float_t _amplitude;
-
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
-
-  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
-  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0x2259274, size 0x84, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr ::UnityW<::UnityEngine::MonoBehaviour>& __cordl_internal_get__coroutineRunner();
+  /// @brief Method HapticsCoroutine, addr 0x22591ac, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* HapticsCoroutine();
+
+  static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
+
+  /// @brief Method StopHaptics, addr 0x2259234, size 0x18, virtual true, abstract: false, final true
+  inline void StopHaptics();
+
+  /// @brief Method TriggerHapticPulse, addr 0x2259214, size 0x20, virtual true, abstract: false, final true
+  inline void TriggerHapticPulse(float_t strength, float_t duration);
+
+  constexpr float_t const& __cordl_internal_get__amplitude() const;
+
+  constexpr float_t& __cordl_internal_get__amplitude();
 
   constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& __cordl_internal_get__coroutineRunner() const;
 
-  constexpr void __cordl_internal_set__coroutineRunner(::UnityW<::UnityEngine::MonoBehaviour> value);
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour>& __cordl_internal_get__coroutineRunner();
 
   constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__hapticsCoroutine();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__hapticsCoroutine() const;
 
-  constexpr void __cordl_internal_set__hapticsCoroutine(::UnityEngine::Coroutine* value);
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
 
   constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get__node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
-
-  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
+  constexpr float_t const& __cordl_internal_get__remainingTime() const;
 
   constexpr float_t& __cordl_internal_get__remainingTime();
 
-  constexpr float_t const& __cordl_internal_get__remainingTime() const;
+  constexpr void __cordl_internal_set__amplitude(float_t value);
+
+  constexpr void __cordl_internal_set__coroutineRunner(::UnityW<::UnityEngine::MonoBehaviour> value);
+
+  constexpr void __cordl_internal_set__hapticsCoroutine(::UnityEngine::Coroutine* value);
+
+  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
   constexpr void __cordl_internal_set__remainingTime(float_t value);
 
-  constexpr float_t& __cordl_internal_get__amplitude();
-
-  constexpr float_t const& __cordl_internal_get__amplitude() const;
-
-  constexpr void __cordl_internal_set__amplitude(float_t value);
-
-  static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
-
-  /// @brief Method .ctor, addr 0x20f70c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259154, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TriggerHapticPulse, addr 0x20f7180, size 0x20, virtual true, abstract: false, final true
-  inline void TriggerHapticPulse(float_t strength, float_t duration);
+  /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
+  constexpr ::GlobalNamespace::IUnityXRHapticsHandler* i___GlobalNamespace__IUnityXRHapticsHandler() noexcept;
 
-  /// @brief Method StopHaptics, addr 0x20f71a0, size 0x18, virtual true, abstract: false, final true
-  inline void StopHaptics();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method HapticsCoroutine, addr 0x20f7118, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HapticsCoroutine();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KnucklesUnityXRHapticsHandler();
 
-  /// @brief Method Dispose, addr 0x20f71e0, size 0x84, virtual true, abstract: false, final true
-  inline void Dispose();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KnucklesUnityXRHapticsHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KnucklesUnityXRHapticsHandler(KnucklesUnityXRHapticsHandler&&) = delete;
@@ -284,12 +286,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KnucklesUnityXRHapticsHandler(KnucklesUnityXRHapticsHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KnucklesUnityXRHapticsHandler();
-
-public:
   /// @brief Field _coroutineRunner, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MonoBehaviour> ____coroutineRunner;
 

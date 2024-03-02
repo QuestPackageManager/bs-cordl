@@ -15,8 +15,6 @@ MARK_VAL_T(::Oculus::Platform::AppStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13230))
 // CS Name: ::Oculus.Platform::AppStatus
 struct CORDL_TYPE AppStatus {
 public:
@@ -39,24 +37,20 @@ public:
     return static_cast<__AppStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AppStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AppStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AppStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::Oculus::Platform::AppStatus const Unknown;
-
-  /// @brief Field Entitled value: static_cast<int32_t>(0x1)
-  static ::Oculus::Platform::AppStatus const Entitled;
 
   /// @brief Field DownloadQueued value: static_cast<int32_t>(0x2)
   static ::Oculus::Platform::AppStatus const DownloadQueued;
@@ -64,14 +58,23 @@ public:
   /// @brief Field Downloading value: static_cast<int32_t>(0x3)
   static ::Oculus::Platform::AppStatus const Downloading;
 
-  /// @brief Field Installing value: static_cast<int32_t>(0x4)
-  static ::Oculus::Platform::AppStatus const Installing;
+  /// @brief Field Entitled value: static_cast<int32_t>(0x1)
+  static ::Oculus::Platform::AppStatus const Entitled;
 
   /// @brief Field Installed value: static_cast<int32_t>(0x5)
   static ::Oculus::Platform::AppStatus const Installed;
 
+  /// @brief Field Installing value: static_cast<int32_t>(0x4)
+  static ::Oculus::Platform::AppStatus const Installing;
+
   /// @brief Field Uninstalling value: static_cast<int32_t>(0x6)
   static ::Oculus::Platform::AppStatus const Uninstalling;
+
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::Oculus::Platform::AppStatus const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

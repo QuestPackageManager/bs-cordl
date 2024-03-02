@@ -16,19 +16,17 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8713))
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t
 struct CORDL_TYPE RenderModel_TextureMap_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rubTextureMapData", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RenderModel_TextureMap_t(uint16_t unWidth, uint16_t unHeight, void* rubTextureMapData) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderModel_TextureMap_t();
+
+  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
+  // "rubTextureMapData", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RenderModel_TextureMap_t(uint16_t unWidth, uint16_t unHeight, void* rubTextureMapData) noexcept;
 
   /// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
   uint16_t unWidth;

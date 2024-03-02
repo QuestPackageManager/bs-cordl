@@ -30,35 +30,39 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixIPInterfaceProperties);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9290))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9259))
 // CS Name: ::System.Net.NetworkInformation::AixIPInterfaceProperties*
 class CORDL_TYPE AixIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
   // Declarations
-  /// @brief Field _mtu, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__mtu, put = __cordl_internal_set__mtu)) int32_t _mtu;
-
   __declspec(property(get = get_GatewayAddresses))::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* GatewayAddresses;
 
-  constexpr int32_t& __cordl_internal_get__mtu();
-
-  constexpr int32_t const& __cordl_internal_get__mtu() const;
-
-  constexpr void __cordl_internal_set__mtu(int32_t value);
+  /// @brief Field _mtu, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__mtu, put = __cordl_internal_set__mtu)) int32_t _mtu;
 
   static inline ::System::Net::NetworkInformation::AixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface,
                                                                                       ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method .ctor, addr 0x29ec064, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
-
-  /// @brief Method ParseRouteInfo_icall, addr 0x29ec110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x2ad8c88, size 0x44, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method get_GatewayAddresses, addr 0x29ec154, size 0x254, virtual true, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__mtu() const;
+
+  constexpr int32_t& __cordl_internal_get__mtu();
+
+  constexpr void __cordl_internal_set__mtu(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2ad8bdc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
+
+  /// @brief Method get_GatewayAddresses, addr 0x2ad8ccc, size 0x254, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AixIPInterfaceProperties();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AixIPInterfaceProperties", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AixIPInterfaceProperties(AixIPInterfaceProperties&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AixIPInterfaceProperties(AixIPInterfaceProperties const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AixIPInterfaceProperties();
-
-public:
   /// @brief Field _mtu, offset: 0x20, size: 0x4, def value: None
   int32_t ____mtu;
 

@@ -19,21 +19,19 @@ MARK_VAL_T(::UnityEngine::GradientColorKey);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10254))
 // CS Name: ::UnityEngine::GradientColorKey
 struct CORDL_TYPE GradientColorKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2cdd60c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcfdc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color col, float_t time);
-
-  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr GradientColorKey(::UnityEngine::Color color, float_t time) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GradientColorKey();
+
+  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr GradientColorKey(::UnityEngine::Color color, float_t time) noexcept;
 
   /// @brief Field color, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color color;

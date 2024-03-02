@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1716))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilder*
 class CORDL_TYPE PkixCertPathBuilder : public ::System::Object {
 public:
@@ -38,24 +36,30 @@ public:
   /// @brief Field certPathException, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certPathException, put = __cordl_internal_set_certPathException))::System::Exception* certPathException;
 
+  /// @brief Method Build, addr 0x1163834, size 0x8dc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
+
+  /// @brief Method Build, addr 0x1164110, size 0xbb4, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::X509Certificate* tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams,
+                                                                     ::System::Collections::IList* tbvPath);
+
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilder* New_ctor();
+
   constexpr ::System::Exception*& __cordl_internal_get_certPathException();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_certPathException() const;
 
   constexpr void __cordl_internal_set_certPathException(::System::Exception* value);
 
-  /// @brief Method Build, addr 0x10f29d4, size 0x8dc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
-
-  /// @brief Method Build, addr 0x10f32b0, size 0xbb4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::X509Certificate* tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams,
-                                                                     ::System::Collections::IList* tbvPath);
-
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x10f3e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1164ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixCertPathBuilder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixCertPathBuilder(PkixCertPathBuilder&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPathBuilder(PkixCertPathBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixCertPathBuilder();
-
-public:
   /// @brief Field certPathException, offset: 0x10, size: 0x8, def value: None
   ::System::Exception* ___certPathException;
 

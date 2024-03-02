@@ -16,18 +16,16 @@ MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
 // CS Name: ::UnityEngine::AnimatorClipInfo
 struct CORDL_TYPE AnimatorClipInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_ClipInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr AnimatorClipInfo(int32_t m_ClipInstanceID, float_t m_Weight) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr AnimatorClipInfo();
+
+  // Ctor Parameters [CppParam { name: "m_ClipInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr AnimatorClipInfo(int32_t m_ClipInstanceID, float_t m_Weight) noexcept;
 
   /// @brief Field m_ClipInstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_ClipInstanceID;

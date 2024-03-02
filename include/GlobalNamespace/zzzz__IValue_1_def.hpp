@@ -15,8 +15,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15867))
 // CS Name: ::IValue`1<T>*
 class CORDL_TYPE IValue_1 {
 public:

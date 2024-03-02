@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CommandEventDispatchingStrategy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7255))
 // CS Name: ::UnityEngine.UIElements::CommandEventDispatchingStrategy*
 class CORDL_TYPE CommandEventDispatchingStrategy : public ::System::Object {
 public:
@@ -32,20 +30,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
-  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
-
-  /// @brief Method CanDispatchEvent, addr 0x2e532c8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2f60dd8, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e5331c, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2f60e2c, size 0x35c, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::CommandEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e53678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f61188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandEventDispatchingStrategy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CommandEventDispatchingStrategy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandEventDispatchingStrategy(CommandEventDispatchingStrategy&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandEventDispatchingStrategy(CommandEventDispatchingStrategy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CommandEventDispatchingStrategy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

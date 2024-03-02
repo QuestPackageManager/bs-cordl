@@ -21,20 +21,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6561))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateCallbackReceiver*
 class CORDL_TYPE IInputStateCallbackReceiver {
 public:
   // Declarations
+  /// @brief Method GetStateOffsetForEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool GetStateOffsetForEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ByRef<uint32_t> offset);
+
   /// @brief Method OnNextUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNextUpdate();
 
   /// @brief Method OnStateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
-
-  /// @brief Method GetStateOffsetForEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool GetStateOffsetForEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ByRef<uint32_t> offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputStateCallbackReceiver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

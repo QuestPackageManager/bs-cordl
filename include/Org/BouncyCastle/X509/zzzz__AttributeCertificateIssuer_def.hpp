@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::AttributeCertificateIssuer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1853))
 // CS Name: ::Org.BouncyCastle.X509::AttributeCertificateIssuer*
 class CORDL_TYPE AttributeCertificateIssuer : public ::System::Object {
 public:
@@ -52,14 +50,36 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
-
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Method Clone, addr 0x11e558c, size 0x80, virtual true, abstract: false, final true
+  inline ::System::Object* Clone();
+
+  /// @brief Method Equals, addr 0x11e5798, size 0xa8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x11e5840, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetNames, addr 0x11e5050, size 0x1fc, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetNames();
+
+  /// @brief Method GetPrincipals, addr 0x11e524c, size 0x1c0, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetPrincipals();
+
+  /// @brief Method Match, addr 0x11e585c, size 0x8c, virtual true, abstract: false, final true
+  inline bool Match(::System::Object* obj);
+
+  /// @brief Method Match, addr 0x11e560c, size 0x18c, virtual false, abstract: false, final false
+  inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
+
+  /// @brief Method MatchesDN, addr 0x11e540c, size 0x180, virtual false, abstract: false, final false
+  inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
+
+  static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
+
+  static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_form();
 
@@ -67,40 +87,24 @@ public:
 
   constexpr void __cordl_internal_set_form(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
-
-  /// @brief Method .ctor, addr 0x11740e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4f40, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
-
-  /// @brief Method .ctor, addr 0x1174114, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e4f74, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
-  /// @brief Method GetNames, addr 0x11741f0, size 0x1fc, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetNames();
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
 
-  /// @brief Method GetPrincipals, addr 0x11743ec, size 0x1c0, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetPrincipals();
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method MatchesDN, addr 0x11745ac, size 0x180, virtual false, abstract: false, final false
-  inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AttributeCertificateIssuer();
 
-  /// @brief Method Clone, addr 0x117472c, size 0x80, virtual true, abstract: false, final true
-  inline ::System::Object* Clone();
-
-  /// @brief Method Match, addr 0x11747ac, size 0x18c, virtual false, abstract: false, final false
-  inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
-
-  /// @brief Method Equals, addr 0x1174938, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x11749e0, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Match, addr 0x11749fc, size 0x8c, virtual true, abstract: false, final true
-  inline bool Match(::System::Object* obj);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AttributeCertificateIssuer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeCertificateIssuer(AttributeCertificateIssuer&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeCertificateIssuer(AttributeCertificateIssuer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AttributeCertificateIssuer();
-
-public:
   /// @brief Field form, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___form;
 

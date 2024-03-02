@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10436))
 // CS Name: ::UnityEngine.Playables::IPlayable*
 class CORDL_TYPE IPlayable {
 public:

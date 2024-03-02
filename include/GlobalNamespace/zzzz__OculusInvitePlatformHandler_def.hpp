@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusInvitePlatformHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4496))
 // CS Name: ::OculusInvitePlatformHandler*
 class CORDL_TYPE OculusInvitePlatformHandler : public ::System::Object {
 public:
@@ -28,20 +26,26 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr operator ::GlobalNamespace::IInvitePlatformHandler*() noexcept;
 
+  static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
+
+  /// @brief Method OpenInvitePanel, addr 0x12dbbfc, size 0x60, virtual true, abstract: false, final true
+  inline void OpenInvitePanel();
+
+  /// @brief Method .ctor, addr 0x12dbc5c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_isSupported, addr 0x12dbbf4, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isSupported();
+
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
   constexpr ::GlobalNamespace::IInvitePlatformHandler* i___GlobalNamespace__IInvitePlatformHandler() noexcept;
 
-  /// @brief Method get_isSupported, addr 0x2355c4c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isSupported();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusInvitePlatformHandler();
 
-  /// @brief Method OpenInvitePanel, addr 0x2355c54, size 0x60, virtual true, abstract: false, final true
-  inline void OpenInvitePanel();
-
-  static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2355cb4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusInvitePlatformHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusInvitePlatformHandler(OculusInvitePlatformHandler&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusInvitePlatformHandler(OculusInvitePlatformHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusInvitePlatformHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -26,86 +26,90 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryMetho
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3300))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3262))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryMethodCall*
 class CORDL_TYPE BinaryMethodCall : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field argTypes, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_argTypes, put = __cordl_internal_set_argTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes;
+
+  /// @brief Field args, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> args;
+
+  /// @brief Field bArgsPrimitive, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_bArgsPrimitive, put = __cordl_internal_set_bArgsPrimitive)) bool bArgsPrimitive;
+
+  /// @brief Field callContext, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_callContext, put = __cordl_internal_set_callContext))::System::Object* callContext;
+
+  /// @brief Field messageEnum, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_messageEnum, put = __cordl_internal_set_messageEnum))::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
+
   /// @brief Field methodName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_methodName, put = __cordl_internal_set_methodName))::StringW methodName;
 
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
-  /// @brief Field args, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> args;
+  /// @brief Method Dump, addr 0x25b3e60, size 0x4, virtual false, abstract: false, final false
+  inline void Dump();
 
-  /// @brief Field callContext, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_callContext, put = __cordl_internal_set_callContext))::System::Object* callContext;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
 
-  /// @brief Field argTypes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_argTypes, put = __cordl_internal_set_argTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes;
+  /// @brief Method Write, addr 0x25b3d18, size 0x148, virtual false, abstract: false, final false
+  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Field bArgsPrimitive, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_bArgsPrimitive, put = __cordl_internal_set_bArgsPrimitive)) bool bArgsPrimitive;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
 
-  /// @brief Field messageEnum, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_messageEnum, put = __cordl_internal_set_messageEnum))::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
-
-  constexpr ::StringW& __cordl_internal_get_methodName();
-
-  constexpr ::StringW const& __cordl_internal_get_methodName() const;
-
-  constexpr void __cordl_internal_set_methodName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_typeName();
-
-  constexpr ::StringW const& __cordl_internal_get_typeName() const;
-
-  constexpr void __cordl_internal_set_typeName(::StringW value);
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_args();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_argTypes();
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_args() const;
 
-  constexpr void __cordl_internal_set_args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_args();
+
+  constexpr bool const& __cordl_internal_get_bArgsPrimitive() const;
+
+  constexpr bool& __cordl_internal_get_bArgsPrimitive();
 
   constexpr ::System::Object*& __cordl_internal_get_callContext();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_callContext() const;
 
-  constexpr void __cordl_internal_set_callContext(::System::Object* value);
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_argTypes();
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
-
-  constexpr void __cordl_internal_set_argTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
-
-  constexpr bool& __cordl_internal_get_bArgsPrimitive();
-
-  constexpr bool const& __cordl_internal_get_bArgsPrimitive() const;
-
-  constexpr void __cordl_internal_set_bArgsPrimitive(bool value);
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const& __cordl_internal_get_messageEnum() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& __cordl_internal_get_messageEnum();
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const& __cordl_internal_get_messageEnum() const;
+  constexpr ::StringW const& __cordl_internal_get_methodName() const;
+
+  constexpr ::StringW& __cordl_internal_get_methodName();
+
+  constexpr ::StringW const& __cordl_internal_get_typeName() const;
+
+  constexpr ::StringW& __cordl_internal_get_typeName();
+
+  constexpr void __cordl_internal_set_argTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+
+  constexpr void __cordl_internal_set_args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+  constexpr void __cordl_internal_set_bArgsPrimitive(bool value);
+
+  constexpr void __cordl_internal_set_callContext(::System::Object* value);
 
   constexpr void __cordl_internal_set_messageEnum(::System::Runtime::Serialization::Formatters::Binary::MessageEnum value);
 
-  /// @brief Method Write, addr 0x24c1fac, size 0x148, virtual false, abstract: false, final false
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+  constexpr void __cordl_internal_set_methodName(::StringW value);
 
-  /// @brief Method Dump, addr 0x24c20f4, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+  constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24c20f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b3e64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryMethodCall();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryMethodCall", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryMethodCall(BinaryMethodCall&&) = delete;
@@ -114,12 +118,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryMethodCall(BinaryMethodCall const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryMethodCall();
-
-public:
   /// @brief Field methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___methodName;
 

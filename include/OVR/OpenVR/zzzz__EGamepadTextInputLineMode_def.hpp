@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EGamepadTextInputLineMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8629))
 // CS Name: ::OVR.OpenVR::EGamepadTextInputLineMode
 struct CORDL_TYPE EGamepadTextInputLineMode {
 public:
@@ -34,12 +32,17 @@ public:
     return static_cast<__EGamepadTextInputLineMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EGamepadTextInputLineMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EGamepadTextInputLineMode();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EGamepadTextInputLineMode(int32_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
@@ -47,11 +50,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field k_EGamepadTextInputLineModeSingleLine value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::EGamepadTextInputLineMode const k_EGamepadTextInputLineModeSingleLine;
-
   /// @brief Field k_EGamepadTextInputLineModeMultipleLines value: static_cast<int32_t>(0x1)
   static ::OVR::OpenVR::EGamepadTextInputLineMode const k_EGamepadTextInputLineModeMultipleLines;
+
+  /// @brief Field k_EGamepadTextInputLineModeSingleLine value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::EGamepadTextInputLineMode const k_EGamepadTextInputLineModeSingleLine;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

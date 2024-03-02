@@ -32,20 +32,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__Deflat
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1297))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1295))
 // CS Name: ::TlsDeflateCompression::DeflateOutputStream*
 class CORDL_TYPE __TlsDeflateCompression__DeflateOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__DeflateOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
-
-  /// @brief Method .ctor, addr 0xfa3038, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
-
-  /// @brief Method Flush, addr 0xfa3214, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x1014074, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
+  static inline ::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__DeflateOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
+
+  /// @brief Method .ctor, addr 0x1013e98, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TlsDeflateCompression__DeflateOutputStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TlsDeflateCompression__DeflateOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TlsDeflateCompression__DeflateOutputStream(__TlsDeflateCompression__DeflateOutputStream&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TlsDeflateCompression__DeflateOutputStream(__TlsDeflateCompression__DeflateOutputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TlsDeflateCompression__DeflateOutputStream();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -70,8 +68,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1296))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsDeflateCompression*
 class CORDL_TYPE TlsDeflateCompression : public ::System::Object {
 public:
@@ -87,37 +83,43 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
+  /// @brief Method Compress, addr 0x1013e04, size 0x94, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
+
+  /// @brief Method Decompress, addr 0x1013ed0, size 0x90, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor(int32_t level);
 
   constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_zIn();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_zIn() const;
 
-  constexpr void __cordl_internal_set_zIn(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
-
   constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_zOut();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_zOut() const;
 
+  constexpr void __cordl_internal_set_zIn(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+
   constexpr void __cordl_internal_set_zOut(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
-
-  /// @brief Method .ctor, addr 0xfa2ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1013d50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor(int32_t level);
-
-  /// @brief Method .ctor, addr 0xfa2ef8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1013d58, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t level);
 
-  /// @brief Method Compress, addr 0xfa2fa4, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
 
-  /// @brief Method Decompress, addr 0xfa3070, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsDeflateCompression();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDeflateCompression(TlsDeflateCompression&&) = delete;
@@ -126,29 +128,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsDeflateCompression(TlsDeflateCompression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsDeflateCompression();
-
-public:
   /// @brief Field zIn, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Zlib::ZStream* ___zIn;
 
   /// @brief Field zOut, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Zlib::ZStream* ___zOut;
 
-  /// @brief Field LEVEL_NONE offset 0xffffffff size 0x4
-  static constexpr int32_t LEVEL_NONE{ static_cast<int32_t>(0x0) };
+  /// @brief Field LEVEL_DEFAULT offset 0xffffffff size 0x4
+  static constexpr int32_t LEVEL_DEFAULT{ static_cast<int32_t>(0xffffffff) };
 
   /// @brief Field LEVEL_FASTEST offset 0xffffffff size 0x4
   static constexpr int32_t LEVEL_FASTEST{ static_cast<int32_t>(0x1) };
 
+  /// @brief Field LEVEL_NONE offset 0xffffffff size 0x4
+  static constexpr int32_t LEVEL_NONE{ static_cast<int32_t>(0x0) };
+
   /// @brief Field LEVEL_SMALLEST offset 0xffffffff size 0x4
   static constexpr int32_t LEVEL_SMALLEST{ static_cast<int32_t>(0x9) };
-
-  /// @brief Field LEVEL_DEFAULT offset 0xffffffff size 0x4
-  static constexpr int32_t LEVEL_DEFAULT{ static_cast<int32_t>(0xffffffff) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,14 +23,25 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15578))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
 // CS Name: ::UnityEngine.ResourceManagement.Util::UnityWebRequestResult*
 class CORDL_TYPE UnityWebRequestResult : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Error, put = set_Error))::StringW Error;
+
+  __declspec(property(get = get_Method))::StringW Method;
+
+  __declspec(property(get = get_ResponseCode)) int64_t ResponseCode;
+
+  __declspec(property(get = get_Result))::UnityEngine::Networking::__UnityWebRequest__Result Result;
+
+  __declspec(property(get = get_Url))::StringW Url;
+
   /// @brief Field <Error>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Error_k__BackingField, put = __cordl_internal_set__Error_k__BackingField))::StringW _Error_k__BackingField;
+
+  /// @brief Field <Method>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField))::StringW _Method_k__BackingField;
 
   /// @brief Field <ResponseCode>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ResponseCode_k__BackingField, put = __cordl_internal_set__ResponseCode_k__BackingField)) int64_t _ResponseCode_k__BackingField;
@@ -39,81 +50,74 @@ public:
   __declspec(property(get = __cordl_internal_get__Result_k__BackingField,
                       put = __cordl_internal_set__Result_k__BackingField))::UnityEngine::Networking::__UnityWebRequest__Result _Result_k__BackingField;
 
-  /// @brief Field <Method>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField))::StringW _Method_k__BackingField;
-
   /// @brief Field <Url>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__Url_k__BackingField, put = __cordl_internal_set__Url_k__BackingField))::StringW _Url_k__BackingField;
 
-  __declspec(property(get = get_Error, put = set_Error))::StringW Error;
+  static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  __declspec(property(get = get_ResponseCode)) int64_t ResponseCode;
+  /// @brief Method ShouldRetryDownloadError, addr 0x2cba1a8, size 0x2d0, virtual false, abstract: false, final false
+  inline bool ShouldRetryDownloadError();
 
-  __declspec(property(get = get_Result))::UnityEngine::Networking::__UnityWebRequest__Result Result;
-
-  __declspec(property(get = get_Method))::StringW Method;
-
-  __declspec(property(get = get_Url))::StringW Url;
-
-  constexpr ::StringW& __cordl_internal_get__Error_k__BackingField();
+  /// @brief Method ToString, addr 0x2cb9ff8, size 0x180, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Error_k__BackingField(::StringW value);
-
-  constexpr int64_t& __cordl_internal_get__ResponseCode_k__BackingField();
-
-  constexpr int64_t const& __cordl_internal_get__ResponseCode_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ResponseCode_k__BackingField(int64_t value);
-
-  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& __cordl_internal_get__Result_k__BackingField();
-
-  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& __cordl_internal_get__Result_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value);
-
-  constexpr ::StringW& __cordl_internal_get__Method_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Error_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__Method_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__Method_k__BackingField();
 
-  constexpr ::StringW& __cordl_internal_get__Url_k__BackingField();
+  constexpr int64_t const& __cordl_internal_get__ResponseCode_k__BackingField() const;
+
+  constexpr int64_t& __cordl_internal_get__ResponseCode_k__BackingField();
+
+  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& __cordl_internal_get__Result_k__BackingField() const;
+
+  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& __cordl_internal_get__Result_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__Url_k__BackingField() const;
 
+  constexpr ::StringW& __cordl_internal_get__Url_k__BackingField();
+
+  constexpr void __cordl_internal_set__Error_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__ResponseCode_k__BackingField(int64_t value);
+
+  constexpr void __cordl_internal_set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value);
+
   constexpr void __cordl_internal_set__Url_k__BackingField(::StringW value);
 
-  static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
-
-  /// @brief Method .ctor, addr 0x2bd32a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb9ee8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method ToString, addr 0x2bd33b8, size 0x180, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method get_Error, addr 0x2bd3538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x2cba178, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Error();
 
-  /// @brief Method set_Error, addr 0x2bd3540, size 0x8, virtual false, abstract: false, final false
-  inline void set_Error(::StringW value);
-
-  /// @brief Method get_ResponseCode, addr 0x2bd3548, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_ResponseCode();
-
-  /// @brief Method get_Result, addr 0x2bd3550, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__Result get_Result();
-
-  /// @brief Method get_Method, addr 0x2bd3558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x2cba198, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_Url, addr 0x2bd3560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseCode, addr 0x2cba188, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_ResponseCode();
+
+  /// @brief Method get_Result, addr 0x2cba190, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Networking::__UnityWebRequest__Result get_Result();
+
+  /// @brief Method get_Url, addr 0x2cba1a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method ShouldRetryDownloadError, addr 0x2bd3568, size 0x2d0, virtual false, abstract: false, final false
-  inline bool ShouldRetryDownloadError();
+  /// @brief Method set_Error, addr 0x2cba180, size 0x8, virtual false, abstract: false, final false
+  inline void set_Error(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityWebRequestResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestResult(UnityWebRequestResult&&) = delete;
@@ -122,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestResult(UnityWebRequestResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestResult();
-
-public:
   /// @brief Field <Error>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Error_k__BackingField;
 

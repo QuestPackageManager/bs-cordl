@@ -37,54 +37,52 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6127))
 // CS Name: ::UnityEngine.InputSystem::IInputActionCollection*
 class CORDL_TYPE IInputActionCollection {
 public:
   // Declarations
   __declspec(property(get = get_bindingMask, put = set_bindingMask))::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask;
 
-  __declspec(property(get = get_devices, put = set_devices))::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> devices;
-
   __declspec(property(get = get_controlSchemes))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> controlSchemes;
+
+  __declspec(property(get = get_devices, put = set_devices))::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> devices;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*() noexcept;
+
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
+
+  /// @brief Method Disable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Disable();
+
+  /// @brief Method Enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Enable();
+
+  /// @brief Method get_bindingMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
+
+  /// @brief Method get_controlSchemes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
+
+  /// @brief Method get_devices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>*
   i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputAction__() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Method get_bindingMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
   /// @brief Method set_bindingMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  /// @brief Method get_devices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
-
   /// @brief Method set_devices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> value);
-
-  /// @brief Method get_controlSchemes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
-
-  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
-
-  /// @brief Method Enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Enable();
-
-  /// @brief Method Disable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Disable();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputActionCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

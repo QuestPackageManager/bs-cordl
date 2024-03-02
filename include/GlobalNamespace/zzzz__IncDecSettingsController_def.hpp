@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::IncDecSettingsController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16147))
 // CS Name: ::IncDecSettingsController*
 class CORDL_TYPE IncDecSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,38 +31,44 @@ public:
 
   __declspec(property(put = set_text))::StringW text;
 
-  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__stepValuePicker();
-
-  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
-
-  constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
-
-  /// @brief Method set_enableDec, addr 0x23e49f8, size 0x28, virtual false, abstract: false, final false
-  inline void set_enableDec(bool value);
-
-  /// @brief Method set_enableInc, addr 0x23e4a40, size 0x28, virtual false, abstract: false, final false
-  inline void set_enableInc(bool value);
-
-  /// @brief Method set_text, addr 0x23e4a88, size 0x2c, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
-
-  /// @brief Method Awake, addr 0x23e4ad8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x24d2630, size 0xb8, virtual true, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x23e4cc8, size 0x104, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method IncButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void IncButtonPressed();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DecButtonPressed();
 
+  /// @brief Method IncButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void IncButtonPressed();
+
   static inline ::GlobalNamespace::IncDecSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e4f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24d2820, size 0x104, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
+
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__stepValuePicker();
+
+  constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
+
+  /// @brief Method .ctor, addr 0x24d2a5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_enableDec, addr 0x24d2550, size 0x28, virtual false, abstract: false, final false
+  inline void set_enableDec(bool value);
+
+  /// @brief Method set_enableInc, addr 0x24d2598, size 0x28, virtual false, abstract: false, final false
+  inline void set_enableInc(bool value);
+
+  /// @brief Method set_text, addr 0x24d25e0, size 0x2c, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IncDecSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IncDecSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncDecSettingsController(IncDecSettingsController&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IncDecSettingsController(IncDecSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IncDecSettingsController();
-
-public:
   /// @brief Field _stepValuePicker, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;
 

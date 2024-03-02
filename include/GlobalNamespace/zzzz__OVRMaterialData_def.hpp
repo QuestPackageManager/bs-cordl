@@ -26,20 +26,18 @@ MARK_VAL_T(::GlobalNamespace::OVRMaterialData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7568)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7566))
 // CS Name: ::OVRMaterialData
 struct CORDL_TYPE OVRMaterialData {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRMaterialData();
+
   // Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "texture", ty: "::GlobalNamespace::OVRTextureData", modifiers: "", def_value: None }, CppParam { name: "baseColorFactor", ty: "::UnityEngine::Color", modifiers: "", def_value:
   // None }]
   constexpr OVRMaterialData(::UnityW<::UnityEngine::Shader> shader, int32_t textureId, ::GlobalNamespace::OVRTextureData texture, ::UnityEngine::Color baseColorFactor) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRMaterialData();
 
   /// @brief Field shader, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> shader;

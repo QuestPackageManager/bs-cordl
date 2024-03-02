@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextClickEvent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4639 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7219))
 // CS Name: ::UnityEngine.UIElements::ContextClickEvent*
 class CORDL_TYPE ContextClickEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::ContextClickEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ContextClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e51368, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5ee78, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextClickEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextClickEvent(ContextClickEvent&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContextClickEvent(ContextClickEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContextClickEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

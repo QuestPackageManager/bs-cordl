@@ -15,26 +15,24 @@ MARK_VAL_T(::UnityEngine::RangeInt);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10197))
 // CS Name: ::UnityEngine::RangeInt
 struct CORDL_TYPE RangeInt {
 public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method get_end, addr 0x2ccef64, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_end();
-
-  /// @brief Method .ctor, addr 0x2ccef70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc1644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t length);
 
-  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RangeInt(int32_t start, int32_t length) noexcept;
+  /// @brief Method get_end, addr 0x2dc1638, size 0xc, virtual false, abstract: false, final false
+  inline int32_t get_end();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RangeInt();
+
+  // Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RangeInt(int32_t start, int32_t length) noexcept;
 
   /// @brief Field start, offset: 0x0, size: 0x4, def value: None
   int32_t start;

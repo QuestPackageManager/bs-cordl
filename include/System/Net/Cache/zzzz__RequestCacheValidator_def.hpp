@@ -17,15 +17,19 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9318))
 // CS Name: ::System.Net.Cache::RequestCacheValidator*
 class CORDL_TYPE RequestCacheValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateValidator, addr 0x29f142c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateValidator, addr 0x2addfa4, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* CreateValidator();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RequestCacheValidator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheValidator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequestCacheValidator(RequestCacheValidator&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCacheValidator(RequestCacheValidator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RequestCacheValidator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

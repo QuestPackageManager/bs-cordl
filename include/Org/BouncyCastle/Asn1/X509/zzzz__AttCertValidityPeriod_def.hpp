@@ -29,60 +29,64 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(340))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttCertValidityPeriod*
 class CORDL_TYPE AttCertValidityPeriod : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field notBeforeTime, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_notBeforeTime, put = __cordl_internal_set_notBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime;
+  __declspec(property(get = get_NotAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfterTime;
+
+  __declspec(property(get = get_NotBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBeforeTime;
 
   /// @brief Field notAfterTime, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_notAfterTime, put = __cordl_internal_set_notAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
 
-  __declspec(property(get = get_NotBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBeforeTime;
+  /// @brief Field notBeforeTime, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_notBeforeTime, put = __cordl_internal_set_notBeforeTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime;
 
-  __declspec(property(get = get_NotAfterTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfterTime;
+  /// @brief Method GetInstance, addr 0x10f6060, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_notBeforeTime();
+  /// @brief Method GetInstance, addr 0x10f5dc8, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::System::Object* obj);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_notBeforeTime() const;
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime,
+                                                                                 ::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime);
 
-  constexpr void __cordl_internal_set_notBeforeTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x10f60b4, size 0xf0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_notAfterTime();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_notAfterTime() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_notBeforeTime();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_notBeforeTime() const;
+
   constexpr void __cordl_internal_set_notAfterTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method GetInstance, addr 0x1083f68, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set_notBeforeTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method GetInstance, addr 0x1084200, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x10840f0, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime,
-                                                                                 ::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime);
-
-  /// @brief Method .ctor, addr 0x1084218, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6078, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime);
 
-  /// @brief Method get_NotBeforeTime, addr 0x1084244, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();
+  /// @brief Method .ctor, addr 0x10f5f50, size 0x110, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfterTime, addr 0x108424c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfterTime, addr 0x10f60ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfterTime();
 
-  /// @brief Method ToAsn1Object, addr 0x1084254, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_NotBeforeTime, addr 0x10f60a4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AttCertValidityPeriod();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AttCertValidityPeriod", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttCertValidityPeriod(AttCertValidityPeriod&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttCertValidityPeriod(AttCertValidityPeriod const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AttCertValidityPeriod();
-
-public:
   /// @brief Field notBeforeTime, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___notBeforeTime;
 

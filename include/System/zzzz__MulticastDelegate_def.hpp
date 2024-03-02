@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::System::MulticastDelegate);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2589))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2611))
 // CS Name: ::System::MulticastDelegate*
 class CORDL_TYPE MulticastDelegate : public ::System::Delegate {
 public:
@@ -40,39 +38,45 @@ public:
   /// @brief Field delegates, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates))::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> delegates;
 
-  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>& __cordl_internal_get_delegates();
+  /// @brief Method CombineImpl, addr 0x26f1bf4, size 0x268, virtual true, abstract: false, final true
+  inline ::System::Delegate* CombineImpl(::System::Delegate* follow);
+
+  /// @brief Method DynamicInvokeImpl, addr 0x26f1908, size 0x90, virtual true, abstract: false, final true
+  inline ::System::Object* DynamicInvokeImpl(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method Equals, addr 0x26f1998, size 0x144, virtual true, abstract: false, final true
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x26f1adc, size 0x4, virtual true, abstract: false, final true
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetInvocationList, addr 0x26f1b28, size 0xcc, virtual true, abstract: false, final true
+  inline ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> GetInvocationList();
+
+  /// @brief Method GetMethodImpl, addr 0x26f1ae0, size 0x48, virtual true, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* GetMethodImpl();
+
+  /// @brief Method GetObjectData, addr 0x26f1904, size 0x4, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method LastIndexOf, addr 0x26f1e5c, size 0x12c, virtual false, abstract: false, final false
+  inline int32_t LastIndexOf(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> haystack, ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> needle);
+
+  /// @brief Method RemoveImpl, addr 0x26f1f88, size 0x2e0, virtual true, abstract: false, final true
+  inline ::System::Delegate* RemoveImpl(::System::Delegate* value);
 
   constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> const& __cordl_internal_get_delegates() const;
 
+  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>& __cordl_internal_get_delegates();
+
   constexpr void __cordl_internal_set_delegates(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> value);
 
-  /// @brief Method GetObjectData, addr 0x25fe308, size 0x4, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MulticastDelegate();
 
-  /// @brief Method DynamicInvokeImpl, addr 0x25fe30c, size 0x90, virtual true, abstract: false, final true
-  inline ::System::Object* DynamicInvokeImpl(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method Equals, addr 0x25fe39c, size 0x144, virtual true, abstract: false, final true
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x25fe4e0, size 0x4, virtual true, abstract: false, final true
-  inline int32_t GetHashCode();
-
-  /// @brief Method GetMethodImpl, addr 0x25fe4e4, size 0x48, virtual true, abstract: false, final false
-  inline ::System::Reflection::MethodInfo* GetMethodImpl();
-
-  /// @brief Method GetInvocationList, addr 0x25fe52c, size 0xcc, virtual true, abstract: false, final true
-  inline ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> GetInvocationList();
-
-  /// @brief Method CombineImpl, addr 0x25fe5f8, size 0x268, virtual true, abstract: false, final true
-  inline ::System::Delegate* CombineImpl(::System::Delegate* follow);
-
-  /// @brief Method LastIndexOf, addr 0x25fe860, size 0x12c, virtual false, abstract: false, final false
-  inline int32_t LastIndexOf(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> haystack, ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> needle);
-
-  /// @brief Method RemoveImpl, addr 0x25fe98c, size 0x2e0, virtual true, abstract: false, final true
-  inline ::System::Delegate* RemoveImpl(::System::Delegate* value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MulticastDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulticastDelegate(MulticastDelegate&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MulticastDelegate(MulticastDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MulticastDelegate();
-
-public:
   /// @brief Field delegates, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> ___delegates;
 

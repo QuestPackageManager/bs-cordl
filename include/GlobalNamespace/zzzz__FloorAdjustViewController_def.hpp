@@ -27,83 +27,87 @@ MARK_REF_PTR_T(::GlobalNamespace::FloorAdjustViewController);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5633))
 // CS Name: ::FloorAdjustViewController*
 class CORDL_TYPE FloorAdjustViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _roomCenter, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
-
-  /// @brief Field _yIncButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__yIncButton, put = __cordl_internal_set__yIncButton))::UnityW<::UnityEngine::UI::Button> _yIncButton;
-
-  /// @brief Field _yDecButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__yDecButton, put = __cordl_internal_set__yDecButton))::UnityW<::UnityEngine::UI::Button> _yDecButton;
+  /// @brief Field _playerHeight, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get__playerHeight, put = __cordl_internal_set__playerHeight)) float_t _playerHeight;
 
   /// @brief Field _playerHeightText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeightText, put = __cordl_internal_set__playerHeightText))::UnityW<::TMPro::TextMeshProUGUI> _playerHeightText;
 
+  /// @brief Field _roomCenter, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
+
   /// @brief Field _vrPlatformHelper, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field _playerHeight, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get__playerHeight, put = __cordl_internal_set__playerHeight)) float_t _playerHeight;
+  /// @brief Field _yDecButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__yDecButton, put = __cordl_internal_set__yDecButton))::UnityW<::UnityEngine::UI::Button> _yDecButton;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
+  /// @brief Field _yIncButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__yIncButton, put = __cordl_internal_set__yIncButton))::UnityW<::UnityEngine::UI::Button> _yIncButton;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
+  /// @brief Method DidActivate, addr 0x23b2c6c, size 0x108, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
+  static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__yIncButton();
+  /// @brief Method Update, addr 0x23b2d74, size 0x240, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__yIncButton() const;
+  /// @brief Method <DidActivate>b__9_0, addr 0x23b2fbc, size 0x7c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_0();
 
-  constexpr void __cordl_internal_set__yIncButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method <DidActivate>b__9_1, addr 0x23b3038, size 0x7c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_1();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__yDecButton();
+  constexpr float_t const& __cordl_internal_get__playerHeight() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__yDecButton() const;
-
-  constexpr void __cordl_internal_set__yDecButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerHeightText();
+  constexpr float_t& __cordl_internal_get__playerHeight();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerHeightText() const;
 
-  constexpr void __cordl_internal_set__playerHeightText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerHeightText();
+
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__yDecButton() const;
 
-  constexpr float_t& __cordl_internal_get__playerHeight();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__yDecButton();
 
-  constexpr float_t const& __cordl_internal_get__playerHeight() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__yIncButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__yIncButton();
 
   constexpr void __cordl_internal_set__playerHeight(float_t value);
 
-  /// @brief Method DidActivate, addr 0x22b0cf4, size 0x108, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__playerHeightText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method Update, addr 0x22b0dfc, size 0x240, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x22b103c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__yDecButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__yIncButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  /// @brief Method .ctor, addr 0x23b2fb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x22b1044, size 0x7c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__9_0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloorAdjustViewController();
 
-  /// @brief Method <DidActivate>b__9_1, addr 0x22b10c0, size 0x7c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__9_1();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorAdjustViewController(FloorAdjustViewController&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloorAdjustViewController(FloorAdjustViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloorAdjustViewController();
-
-public:
   /// @brief Field _roomCenter, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Vector3SO> ____roomCenter;
 
@@ -136,14 +134,14 @@ public:
   /// @brief Field _playerHeight, offset: 0x98, size: 0x4, def value: None
   float_t ____playerHeight;
 
-  /// @brief Field kMoveStep offset 0xffffffff size 0x4
-  static constexpr float_t kMoveStep{ 0.05 };
+  /// @brief Field kMaxPlayerHeight offset 0xffffffff size 0x4
+  static constexpr float_t kMaxPlayerHeight{ 3.0 };
 
   /// @brief Field kMinPlayerHeight offset 0xffffffff size 0x4
   static constexpr float_t kMinPlayerHeight{ 0.5 };
 
-  /// @brief Field kMaxPlayerHeight offset 0xffffffff size 0x4
-  static constexpr float_t kMaxPlayerHeight{ 3.0 };
+  /// @brief Field kMoveStep offset 0xffffffff size 0x4
+  static constexpr float_t kMoveStep{ 0.05 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,62 +28,66 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4927))
 // CS Name: ::WhiteColorOrAlphaGroupEffectManager*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _lightGroup, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightGroup,
-                      put = __cordl_internal_set__lightGroup))::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> _lightGroup;
-
   /// @brief Field _color, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _container, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
+  /// @brief Field _lightGroup, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightGroup,
+                      put = __cordl_internal_set__lightGroup))::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> _lightGroup;
+
   /// @brief Field _whiteColorOrAlphaEffects, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__whiteColorOrAlphaEffects,
                       put = __cordl_internal_set__whiteColorOrAlphaEffects))::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* _whiteColorOrAlphaEffects;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>& __cordl_internal_get__lightGroup();
+  static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroup() const;
+  /// @brief Method OnDestroy, addr 0x24376e8, size 0x148, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set__lightGroup(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+  /// @brief Method Start, addr 0x2437468, size 0x280, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroup() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>& __cordl_internal_get__lightGroup();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>*& __cordl_internal_get__whiteColorOrAlphaEffects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>*> const&
   __cordl_internal_get__whiteColorOrAlphaEffects() const;
 
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__lightGroup(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
+
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method Start, addr 0x23a93ec, size 0x280, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23a966c, size 0x148, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a97b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2437830, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WhiteColorOrAlphaGroupEffectManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffectManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WhiteColorOrAlphaGroupEffectManager();
-
-public:
   /// @brief Field _lightGroup, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroup;
 

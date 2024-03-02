@@ -25,20 +25,28 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::GeneralPkiMessage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(605))
 // CS Name: ::Org.BouncyCastle.Cmp::GeneralPkiMessage*
 class CORDL_TYPE GeneralPkiMessage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field pkiMessage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
-
-  __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
-
   __declspec(property(get = get_Body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* Body;
 
   __declspec(property(get = get_HasProtection)) bool HasProtection;
+
+  __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
+
+  /// @brief Field pkiMessage, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
+
+  static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
+
+  static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
+
+  /// @brief Method ParseBytes, addr 0x1246e78, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
+
+  /// @brief Method ToAsn1Structure, addr 0x1246f64, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __cordl_internal_get_pkiMessage();
 
@@ -46,31 +54,27 @@ public:
 
   constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method ParseBytes, addr 0x11d6018, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
-
-  static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
-
-  /// @brief Method .ctor, addr 0x11d6030, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
-
-  static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
-
-  /// @brief Method .ctor, addr 0x11d6058, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1246eb8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method get_Header, addr 0x11d6098, size 0x20, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
+  /// @brief Method .ctor, addr 0x1246e90, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method get_Body, addr 0x11d60b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x1246f18, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasProtection, addr 0x11d60d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasProtection, addr 0x1246f38, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasProtection();
 
-  /// @brief Method ToAsn1Structure, addr 0x11d6104, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Structure();
+  /// @brief Method get_Header, addr 0x1246ef8, size 0x20, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GeneralPkiMessage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GeneralPkiMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeneralPkiMessage(GeneralPkiMessage&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GeneralPkiMessage(GeneralPkiMessage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GeneralPkiMessage();
-
-public:
   /// @brief Field pkiMessage, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ___pkiMessage;
 

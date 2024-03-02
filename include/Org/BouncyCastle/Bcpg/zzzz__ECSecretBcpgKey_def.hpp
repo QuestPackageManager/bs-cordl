@@ -32,24 +32,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECSecretBcpgKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(568))
 // CS Name: ::Org.BouncyCastle.Bcpg::ECSecretBcpgKey*
 class CORDL_TYPE ECSecretBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Bcpg::MPInteger* x;
-
   __declspec(property(get = get_Format))::StringW Format;
 
   __declspec(property(get = get_X))::Org::BouncyCastle::Math::BigInteger* X;
 
+  /// @brief Field x, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Bcpg::MPInteger* x;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
-  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
+  /// @brief Method Encode, addr 0x1242488, size 0x24, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+
+  /// @brief Method GetEncoded, addr 0x1242404, size 0x84, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+
+  static inline ::Org::BouncyCastle::Bcpg::ECSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
+  static inline ::Org::BouncyCastle::Bcpg::ECSecretBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_x();
 
@@ -57,28 +62,27 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::ECSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
-  /// @brief Method .ctor, addr 0x11d1474, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12422d4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  static inline ::Org::BouncyCastle::Bcpg::ECSecretBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
-
-  /// @brief Method .ctor, addr 0x11d14ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124234c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_Format, addr 0x11d1564, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x12423c4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded, addr 0x11d15a4, size 0x84, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
-
-  /// @brief Method Encode, addr 0x11d1628, size 0x24, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
-
-  /// @brief Method get_X, addr 0x11d164c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_X, addr 0x12424ac, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
+  /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
+  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECSecretBcpgKey();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECSecretBcpgKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECSecretBcpgKey(ECSecretBcpgKey&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECSecretBcpgKey(ECSecretBcpgKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECSecretBcpgKey();
-
-public:
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::MPInteger* ___x;
 

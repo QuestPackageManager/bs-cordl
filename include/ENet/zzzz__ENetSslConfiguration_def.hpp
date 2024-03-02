@@ -20,12 +20,14 @@ MARK_VAL_T(::ENet::ENetSslConfiguration);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15216))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15218))
 // CS Name: ::ENet::ENetSslConfiguration
 struct CORDL_TYPE ENetSslConfiguration {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ENetSslConfiguration();
+
   // Ctor Parameters [CppParam { name: "mode", ty: "::ENet::SslMode", modifiers: "", def_value: None }, CppParam { name: "certificatePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam
   // { name: "certificate", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKeyPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty:
   // "::StringW", modifiers: "", def_value: None }, CppParam { name: "validateCertificate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rootCertificatePath", ty: "::StringW",
@@ -33,10 +35,6 @@ public:
   // None }]
   constexpr ENetSslConfiguration(::ENet::SslMode mode, ::StringW certificatePath, ::StringW certificate, ::StringW privateKeyPath, ::StringW privateKey, int32_t validateCertificate,
                                  ::StringW rootCertificatePath, ::StringW rootCertificate, ::StringW hostName) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ENetSslConfiguration();
 
   /// @brief Field mode, offset: 0x0, size: 0x4, def value: None
   ::ENet::SslMode mode;

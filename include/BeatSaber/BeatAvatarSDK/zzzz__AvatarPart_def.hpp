@@ -15,8 +15,6 @@ MARK_VAL_T(::BeatSaber::BeatAvatarSDK::AvatarPart);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15683))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPart
 struct CORDL_TYPE AvatarPart {
 public:
@@ -46,27 +44,47 @@ public:
     return static_cast<__AvatarPart_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AvatarPart(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AvatarPart();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AvatarPart(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const Unknown;
 
   /// @brief Field All value: static_cast<int32_t>(0x1)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const All;
 
-  /// @brief Field SkinColor value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const SkinColor;
+  /// @brief Field ClothesModel value: static_cast<int32_t>(0xa)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModel;
+
+  /// @brief Field ClothesModelDetailColor value: static_cast<int32_t>(0xd)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelDetailColor;
+
+  /// @brief Field ClothesModelPrimaryColor value: static_cast<int32_t>(0xb)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelPrimaryColor;
+
+  /// @brief Field ClothesModelSecondaryColor value: static_cast<int32_t>(0xc)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelSecondaryColor;
+
+  /// @brief Field FacialHairColor value: static_cast<int32_t>(0x7)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const FacialHairColor;
+
+  /// @brief Field GlassesColor value: static_cast<int32_t>(0x6)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const GlassesColor;
+
+  /// @brief Field HandsColor value: static_cast<int32_t>(0x9)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsColor;
+
+  /// @brief Field HandsModel value: static_cast<int32_t>(0x8)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsModel;
 
   /// @brief Field HeadTopModel value: static_cast<int32_t>(0x3)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HeadTopModel;
@@ -77,29 +95,14 @@ public:
   /// @brief Field HeadTopSecondaryColor value: static_cast<int32_t>(0x5)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HeadTopSecondaryColor;
 
-  /// @brief Field GlassesColor value: static_cast<int32_t>(0x6)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const GlassesColor;
+  /// @brief Field SkinColor value: static_cast<int32_t>(0x2)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const SkinColor;
 
-  /// @brief Field FacialHairColor value: static_cast<int32_t>(0x7)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const FacialHairColor;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::BeatSaber::BeatAvatarSDK::AvatarPart const Unknown;
 
-  /// @brief Field HandsModel value: static_cast<int32_t>(0x8)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsModel;
-
-  /// @brief Field HandsColor value: static_cast<int32_t>(0x9)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsColor;
-
-  /// @brief Field ClothesModel value: static_cast<int32_t>(0xa)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModel;
-
-  /// @brief Field ClothesModelPrimaryColor value: static_cast<int32_t>(0xb)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelPrimaryColor;
-
-  /// @brief Field ClothesModelSecondaryColor value: static_cast<int32_t>(0xc)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelSecondaryColor;
-
-  /// @brief Field ClothesModelDetailColor value: static_cast<int32_t>(0xd)
-  static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelDetailColor;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

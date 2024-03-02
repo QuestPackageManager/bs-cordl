@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::RootMotion::TriggerEventBroadcaster);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12500))
 // CS Name: ::RootMotion::TriggerEventBroadcaster*
 class CORDL_TYPE TriggerEventBroadcaster : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,26 +27,32 @@ public:
   /// @brief Field target, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::GameObject> target;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_target();
+  static inline ::RootMotion::TriggerEventBroadcaster* New_ctor();
+
+  /// @brief Method OnTriggerEnter, addr 0x131b898, size 0xb4, virtual false, abstract: false, final false
+  inline void OnTriggerEnter(::UnityEngine::Collider* collider);
+
+  /// @brief Method OnTriggerExit, addr 0x131ba00, size 0xb4, virtual false, abstract: false, final false
+  inline void OnTriggerExit(::UnityEngine::Collider* collider);
+
+  /// @brief Method OnTriggerStay, addr 0x131b94c, size 0xb4, virtual false, abstract: false, final false
+  inline void OnTriggerStay(::UnityEngine::Collider* collider);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_target() const;
 
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_target();
+
   constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method OnTriggerEnter, addr 0x123f7fc, size 0xb4, virtual false, abstract: false, final false
-  inline void OnTriggerEnter(::UnityEngine::Collider* collider);
-
-  /// @brief Method OnTriggerStay, addr 0x123f8b0, size 0xb4, virtual false, abstract: false, final false
-  inline void OnTriggerStay(::UnityEngine::Collider* collider);
-
-  /// @brief Method OnTriggerExit, addr 0x123f964, size 0xb4, virtual false, abstract: false, final false
-  inline void OnTriggerExit(::UnityEngine::Collider* collider);
-
-  static inline ::RootMotion::TriggerEventBroadcaster* New_ctor();
-
-  /// @brief Method .ctor, addr 0x123fa18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x131bab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TriggerEventBroadcaster();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TriggerEventBroadcaster", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriggerEventBroadcaster(TriggerEventBroadcaster&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TriggerEventBroadcaster(TriggerEventBroadcaster const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TriggerEventBroadcaster();
-
-public:
   /// @brief Field target, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___target;
 

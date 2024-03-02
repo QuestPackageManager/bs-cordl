@@ -27,8 +27,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TDerived>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11154))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11151))
 // CS Name: ::Zenject::ScriptableObjectInstaller`4<TParam1,TParam2,TParam3,TDerived>*
 class CORDL_TYPE ScriptableObjectInstaller_4 : public ::Zenject::ScriptableObjectInstallerBase {
 public:
@@ -41,15 +39,21 @@ public:
 
   static inline ::Zenject::ScriptableObjectInstaller_4<TParam1, TParam2, TParam3, TDerived>* New_ctor();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptableObjectInstaller_4();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectInstaller_4(ScriptableObjectInstaller_4&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptableObjectInstaller_4(ScriptableObjectInstaller_4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableObjectInstaller_4();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

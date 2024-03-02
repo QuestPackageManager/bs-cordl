@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::Reflection::TypeFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3501))
 // CS Name: ::System.Reflection::TypeFilter*
 class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x24e9094, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x24ec808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25dd574, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Type* m, ::System::Object* filterCriteria);
 
+  static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x25d9e00, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeFilter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeFilter(TypeFilter&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeFilter(TypeFilter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeFilter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

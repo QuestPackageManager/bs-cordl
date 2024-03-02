@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverCCD);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12574))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12567))
 // CS Name: ::RootMotion.FinalIK::IKSolverCCD*
 class CORDL_TYPE IKSolverCCD : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
@@ -29,29 +27,35 @@ public:
   /// @brief Field OnPreIteration, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
 
+  /// @brief Method FadeOutBoneWeights, addr 0x133ce48, size 0x70, virtual false, abstract: false, final false
+  inline void FadeOutBoneWeights();
+
+  static inline ::RootMotion::FinalIK::IKSolverCCD* New_ctor();
+
+  /// @brief Method OnInitiate, addr 0x133ceb8, size 0x6c, virtual true, abstract: false, final false
+  inline void OnInitiate();
+
+  /// @brief Method OnUpdate, addr 0x133d3ac, size 0x2e0, virtual true, abstract: false, final false
+  inline void OnUpdate();
+
+  /// @brief Method Solve, addr 0x133da80, size 0x690, virtual false, abstract: false, final false
+  inline void Solve(::UnityEngine::Vector3 targetPosition);
+
   constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __cordl_internal_get_OnPreIteration() const;
 
   constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  /// @brief Method FadeOutBoneWeights, addr 0x1261dac, size 0x70, virtual false, abstract: false, final false
-  inline void FadeOutBoneWeights();
-
-  /// @brief Method OnInitiate, addr 0x1261e1c, size 0x6c, virtual true, abstract: false, final false
-  inline void OnInitiate();
-
-  /// @brief Method OnUpdate, addr 0x1262310, size 0x2e0, virtual true, abstract: false, final false
-  inline void OnUpdate();
-
-  /// @brief Method Solve, addr 0x12629e4, size 0x690, virtual false, abstract: false, final false
-  inline void Solve(::UnityEngine::Vector3 targetPosition);
-
-  static inline ::RootMotion::FinalIK::IKSolverCCD* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1263074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133e110, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverCCD();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverCCD", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverCCD(IKSolverCCD&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverCCD(IKSolverCCD const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverCCD();
-
-public:
   /// @brief Field OnPreIteration, offset: 0x88, size: 0x8, def value: None
   ::RootMotion::FinalIK::__IKSolver__IterationDelegate* ___OnPreIteration;
 

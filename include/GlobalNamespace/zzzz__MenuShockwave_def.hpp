@@ -28,69 +28,73 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuShockwave);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5478))
 // CS Name: ::MenuShockwave*
 class CORDL_TYPE MenuShockwave : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _shockwavePS, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__shockwavePS, put = __cordl_internal_set__shockwavePS))::UnityW<::UnityEngine::ParticleSystem> _shockwavePS;
-
-  /// @brief Field _vrPointer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer))::UnityW<::VRUIControls::VRPointer> _vrPointer;
-
   /// @brief Field _buttonClickEvents, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonClickEvents,
                       put = __cordl_internal_set__buttonClickEvents))::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> _buttonClickEvents;
 
+  /// @brief Field _shockwavePS, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__shockwavePS, put = __cordl_internal_set__shockwavePS))::UnityW<::UnityEngine::ParticleSystem> _shockwavePS;
+
   /// @brief Field _shockwavePSEmitParams, offset 0x30, size 0x90
   __declspec(property(get = __cordl_internal_get__shockwavePSEmitParams, put = __cordl_internal_set__shockwavePSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _shockwavePSEmitParams;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__shockwavePS();
+  /// @brief Field _vrPointer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer))::UnityW<::VRUIControls::VRPointer> _vrPointer;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__shockwavePS() const;
-
-  constexpr void __cordl_internal_set__shockwavePS(::UnityW<::UnityEngine::ParticleSystem> value);
-
-  constexpr ::UnityW<::VRUIControls::VRPointer>& __cordl_internal_get__vrPointer();
-
-  constexpr ::UnityW<::VRUIControls::VRPointer> const& __cordl_internal_get__vrPointer() const;
-
-  constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*>& __cordl_internal_get__buttonClickEvents();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
-
-  constexpr void __cordl_internal_set__buttonClickEvents(::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> value);
-
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__shockwavePSEmitParams();
-
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
-
-  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
-
-  /// @brief Method Awake, addr 0x2283630, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24ad290, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x2283640, size 0xd4, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x2283714, size 0xd4, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method HandleButtonClickEvent, addr 0x22837e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x24ad448, size 0x28, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
-
-  /// @brief Method SpawnShockwave, addr 0x2283810, size 0xa4, virtual false, abstract: false, final false
-  inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::MenuShockwave* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22838b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24ad374, size 0xd4, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x24ad2a0, size 0xd4, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method SpawnShockwave, addr 0x24ad470, size 0xa4, virtual false, abstract: false, final false
+  inline void SpawnShockwave(::UnityEngine::Vector3 pos);
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*>& __cordl_internal_get__buttonClickEvents();
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__shockwavePS() const;
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__shockwavePS();
+
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
+
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__shockwavePSEmitParams();
+
+  constexpr ::UnityW<::VRUIControls::VRPointer> const& __cordl_internal_get__vrPointer() const;
+
+  constexpr ::UnityW<::VRUIControls::VRPointer>& __cordl_internal_get__vrPointer();
+
+  constexpr void __cordl_internal_set__buttonClickEvents(::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> value);
+
+  constexpr void __cordl_internal_set__shockwavePS(::UnityW<::UnityEngine::ParticleSystem> value);
+
+  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+
+  constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
+
+  /// @brief Method .ctor, addr 0x24ad514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MenuShockwave();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MenuShockwave", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuShockwave(MenuShockwave&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuShockwave(MenuShockwave const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MenuShockwave();
-
-public:
   /// @brief Field _shockwavePS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;
 

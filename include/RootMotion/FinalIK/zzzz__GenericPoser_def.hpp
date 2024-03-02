@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__GenericPoser__Map);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12614))
 // CS Name: ::GenericPoser::Map*
 class CORDL_TYPE __GenericPoser__Map : public ::System::Object {
 public:
@@ -39,53 +37,59 @@ public:
   /// @brief Field bone, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bone, put = __cordl_internal_set_bone))::UnityW<::UnityEngine::Transform> bone;
 
-  /// @brief Field target, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
-
   /// @brief Field defaultLocalPosition, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_defaultLocalPosition, put = __cordl_internal_set_defaultLocalPosition))::UnityEngine::Vector3 defaultLocalPosition;
 
   /// @brief Field defaultLocalRotation, offset 0x2c, size 0x10
   __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone();
+  /// @brief Field target, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
-
-  constexpr void __cordl_internal_set_bone(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
-
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
-
-  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
-
-  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  /// @brief Method FixTransform, addr 0x1366dec, size 0x40, virtual false, abstract: false, final false
+  inline void FixTransform();
 
   static inline ::RootMotion::FinalIK::__GenericPoser__Map* New_ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target);
 
-  /// @brief Method .ctor, addr 0x128ca54, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target);
-
-  /// @brief Method StoreDefaultState, addr 0x128cd90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1366e2c, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultState();
 
-  /// @brief Method FixTransform, addr 0x128cd50, size 0x40, virtual false, abstract: false, final false
-  inline void FixTransform();
-
-  /// @brief Method Update, addr 0x128cbd4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1366c70, size 0x120, virtual false, abstract: false, final false
   inline void Update(float_t localRotationWeight, float_t localPositionWeight);
 
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+
+  constexpr void __cordl_internal_set_bone(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x1366af0, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GenericPoser__Map();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__GenericPoser__Map", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __GenericPoser__Map(__GenericPoser__Map&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GenericPoser__Map(__GenericPoser__Map const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GenericPoser__Map();
-
-public:
   /// @brief Field bone, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___bone;
 
@@ -130,8 +128,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__GenericPoser__Map, ___defaultLoc
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12615))
 // CS Name: ::RootMotion.FinalIK::GenericPoser*
 class CORDL_TYPE GenericPoser : public ::RootMotion::FinalIK::Poser {
 public:
@@ -142,35 +138,41 @@ public:
   __declspec(property(get = __cordl_internal_get_maps,
                       put = __cordl_internal_set_maps))::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> maps;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*>& __cordl_internal_get_maps();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> const& __cordl_internal_get_maps() const;
-
-  constexpr void __cordl_internal_set_maps(::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> value);
-
-  /// @brief Method AutoMapping, addr 0x128c768, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method AutoMapping, addr 0x1366804, size 0x258, virtual true, abstract: false, final false
   inline void AutoMapping();
 
-  /// @brief Method InitiatePoser, addr 0x128cae0, size 0x4, virtual true, abstract: false, final false
-  inline void InitiatePoser();
-
-  /// @brief Method UpdatePoser, addr 0x128cae4, size 0xf0, virtual true, abstract: false, final false
-  inline void UpdatePoser();
-
-  /// @brief Method FixPoserTransforms, addr 0x128ccf4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method FixPoserTransforms, addr 0x1366d90, size 0x5c, virtual true, abstract: false, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method StoreDefaultState, addr 0x128ca84, size 0x5c, virtual false, abstract: false, final false
-  inline void StoreDefaultState();
-
-  /// @brief Method GetTargetNamed, addr 0x128c9c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTargetNamed, addr 0x1366a5c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetTargetNamed(::StringW tName, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array);
+
+  /// @brief Method InitiatePoser, addr 0x1366b7c, size 0x4, virtual true, abstract: false, final false
+  inline void InitiatePoser();
 
   static inline ::RootMotion::FinalIK::GenericPoser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128cdd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1366b20, size 0x5c, virtual false, abstract: false, final false
+  inline void StoreDefaultState();
+
+  /// @brief Method UpdatePoser, addr 0x1366b80, size 0xf0, virtual true, abstract: false, final false
+  inline void UpdatePoser();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> const& __cordl_internal_get_maps() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*>& __cordl_internal_get_maps();
+
+  constexpr void __cordl_internal_set_maps(::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> value);
+
+  /// @brief Method .ctor, addr 0x1366e70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericPoser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericPoser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPoser(GenericPoser&&) = delete;
@@ -179,12 +181,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericPoser(GenericPoser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericPoser();
-
-public:
   /// @brief Field maps, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::RootMotion::FinalIK::__GenericPoser__Map*, ::Array<::RootMotion::FinalIK::__GenericPoser__Map*>*> ___maps;
 

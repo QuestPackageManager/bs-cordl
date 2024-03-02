@@ -18,19 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPlatformManager);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4573))
 // CS Name: ::ISonyPlatformManager*
 class CORDL_TYPE ISonyPlatformManager {
 public:
   // Declarations
+  __declspec(property(get = get_initializationTask))::System::Threading::Tasks::Task* initializationTask;
+
   __declspec(property(get = get_userAccountId)) uint64_t userAccountId;
 
   __declspec(property(get = get_userId)) int32_t userId;
 
   __declspec(property(get = get_userName))::StringW userName;
 
-  __declspec(property(get = get_initializationTask))::System::Threading::Tasks::Task* initializationTask;
+  /// @brief Method get_initializationTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task* get_initializationTask();
 
   /// @brief Method get_userAccountId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t get_userAccountId();
@@ -40,9 +41,6 @@ public:
 
   /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
-
-  /// @brief Method get_initializationTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task* get_initializationTask();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISonyPlatformManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

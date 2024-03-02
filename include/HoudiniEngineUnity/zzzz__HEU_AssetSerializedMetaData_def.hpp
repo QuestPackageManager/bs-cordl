@@ -27,62 +27,66 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetSerializedMetaData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9617))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*
 class CORDL_TYPE HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Field _softDeleted, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__softDeleted, put = __cordl_internal_set__softDeleted)) bool _softDeleted;
+  __declspec(
+      property(get = get_SavedCurveNodeData))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* SavedCurveNodeData;
+
+  __declspec(property(get = get_SoftDeleted, put = set_SoftDeleted)) bool SoftDeleted;
 
   /// @brief Field _savedCurveNodeData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__savedCurveNodeData, put = __cordl_internal_set__savedCurveNodeData))::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* _savedCurveNodeData;
 
-  __declspec(property(get = get_SoftDeleted, put = set_SoftDeleted)) bool SoftDeleted;
-
-  __declspec(
-      property(get = get_SavedCurveNodeData))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* SavedCurveNodeData;
+  /// @brief Field _softDeleted, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__softDeleted, put = __cordl_internal_set__softDeleted)) bool _softDeleted;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
-  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
+  /// @brief Method IsEquivalentTo, addr 0x22b1880, size 0xbc, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
 
-  constexpr bool& __cordl_internal_get__softDeleted();
-
-  constexpr bool const& __cordl_internal_get__softDeleted() const;
-
-  constexpr void __cordl_internal_set__softDeleted(bool value);
+  static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*& __cordl_internal_get__savedCurveNodeData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>*> const&
   __cordl_internal_get__savedCurveNodeData() const;
 
+  constexpr bool const& __cordl_internal_get__softDeleted() const;
+
+  constexpr bool& __cordl_internal_get__softDeleted();
+
   constexpr void
   __cordl_internal_set__savedCurveNodeData(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* value);
 
-  /// @brief Method get_SoftDeleted, addr 0x2150918, size 0x8, virtual false, abstract: false, final false
-  inline bool get_SoftDeleted();
+  constexpr void __cordl_internal_set__softDeleted(bool value);
 
-  /// @brief Method set_SoftDeleted, addr 0x2150920, size 0xc, virtual false, abstract: false, final false
-  inline void set_SoftDeleted(bool value);
-
-  /// @brief Method get_SavedCurveNodeData, addr 0x215092c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
-
-  /// @brief Method IsEquivalentTo, addr 0x2150934, size 0xbc, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
-
-  static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21509f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b193c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_SavedCurveNodeData, addr 0x22b1878, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
+
+  /// @brief Method get_SoftDeleted, addr 0x22b1864, size 0x8, virtual false, abstract: false, final false
+  inline bool get_SoftDeleted();
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
+
+  /// @brief Method set_SoftDeleted, addr 0x22b186c, size 0xc, virtual false, abstract: false, final false
+  inline void set_SoftDeleted(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_AssetSerializedMetaData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSerializedMetaData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_AssetSerializedMetaData(HEU_AssetSerializedMetaData&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AssetSerializedMetaData(HEU_AssetSerializedMetaData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_AssetSerializedMetaData();
-
-public:
   /// @brief Field _softDeleted, offset: 0x18, size: 0x1, def value: None
   bool ____softDeleted;
 

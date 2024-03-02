@@ -16,12 +16,14 @@ MARK_VAL_T(::OVR::OpenVR::VRVulkanTextureData_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8664))
 // CS Name: ::OVR.OpenVR::VRVulkanTextureData_t
 struct CORDL_TYPE VRVulkanTextureData_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRVulkanTextureData_t();
+
   // Ctor Parameters [CppParam { name: "m_nImage", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_pDevice", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
   // "m_pPhysicalDevice", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pQueue", ty: "void*",
   // modifiers: "", def_value: None }, CppParam { name: "m_nQueueFamilyIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "uint32_t", modifiers: "", def_value:
@@ -29,10 +31,6 @@ public:
   // "m_nSampleCount", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr VRVulkanTextureData_t(uint64_t m_nImage, void* m_pDevice, void* m_pPhysicalDevice, void* m_pInstance, void* m_pQueue, uint32_t m_nQueueFamilyIndex, uint32_t m_nWidth, uint32_t m_nHeight,
                                   uint32_t m_nFormat, uint32_t m_nSampleCount) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRVulkanTextureData_t();
 
   /// @brief Field m_nImage, offset: 0x0, size: 0x8, def value: None
   uint64_t m_nImage;

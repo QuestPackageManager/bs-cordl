@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapLevel;
 }
 namespace GlobalNamespace {
 class LevelBar;
@@ -41,12 +41,19 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5720))
 // CS Name: ::MultiplayerResultsViewController*
 class CORDL_TYPE MultiplayerResultsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
+  /// @brief Field _backToLobbyButton, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__backToLobbyButton, put = __cordl_internal_set__backToLobbyButton))::UnityW<::UnityEngine::UI::Button> _backToLobbyButton;
+
+  /// @brief Field _backToMenuButton, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__backToMenuButton, put = __cordl_internal_set__backToMenuButton))::UnityW<::UnityEngine::UI::Button> _backToMenuButton;
+
+  /// @brief Field _levelBar, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
+
   /// @brief Field _levelClearedGO, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__levelClearedGO, put = __cordl_internal_set__levelClearedGO))::UnityW<::UnityEngine::GameObject> _levelClearedGO;
 
@@ -56,17 +63,8 @@ public:
   /// @brief Field _levelResultsGO, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__levelResultsGO, put = __cordl_internal_set__levelResultsGO))::UnityW<::UnityEngine::GameObject> _levelResultsGO;
 
-  /// @brief Field _levelBar, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
-
   /// @brief Field _resultsTableView, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsTableView, put = __cordl_internal_set__resultsTableView))::UnityW<::GlobalNamespace::ResultsTableView> _resultsTableView;
-
-  /// @brief Field _backToLobbyButton, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__backToLobbyButton, put = __cordl_internal_set__backToLobbyButton))::UnityW<::UnityEngine::UI::Button> _backToLobbyButton;
-
-  /// @brief Field _backToMenuButton, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__backToMenuButton, put = __cordl_internal_set__backToMenuButton))::UnityW<::UnityEngine::UI::Button> _backToMenuButton;
 
   /// @brief Field backToLobbyPressedEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_backToLobbyPressedEvent,
@@ -76,90 +74,96 @@ public:
   __declspec(property(get = __cordl_internal_get_backToMenuPressedEvent,
                       put = __cordl_internal_set_backToMenuPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* backToMenuPressedEvent;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelClearedGO();
+  /// @brief Method BackToLobbyPressed, addr 0x23ce58c, size 0x20, virtual false, abstract: false, final false
+  inline void BackToLobbyPressed();
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelClearedGO() const;
+  /// @brief Method BackToMenuPressed, addr 0x23ce5ac, size 0x20, virtual false, abstract: false, final false
+  inline void BackToMenuPressed();
 
-  constexpr void __cordl_internal_set__levelClearedGO(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method DidActivate, addr 0x23ce484, size 0x108, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelFailedGO();
+  /// @brief Method Init, addr 0x23ce304, size 0x180, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelFailedGO() const;
-
-  constexpr void __cordl_internal_set__levelFailedGO(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelResultsGO();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelResultsGO() const;
-
-  constexpr void __cordl_internal_set__levelResultsGO(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
-
-  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
-
-  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ResultsTableView>& __cordl_internal_get__resultsTableView();
-
-  constexpr ::UnityW<::GlobalNamespace::ResultsTableView> const& __cordl_internal_get__resultsTableView() const;
-
-  constexpr void __cordl_internal_set__resultsTableView(::UnityW<::GlobalNamespace::ResultsTableView> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__backToLobbyButton();
+  static inline ::GlobalNamespace::MultiplayerResultsViewController* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backToLobbyButton() const;
 
-  constexpr void __cordl_internal_set__backToLobbyButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__backToMenuButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__backToLobbyButton();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backToMenuButton() const;
 
-  constexpr void __cordl_internal_set__backToMenuButton(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__backToMenuButton();
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelClearedGO() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelClearedGO();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelFailedGO() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelFailedGO();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__levelResultsGO() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__levelResultsGO();
+
+  constexpr ::UnityW<::GlobalNamespace::ResultsTableView> const& __cordl_internal_get__resultsTableView() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ResultsTableView>& __cordl_internal_get__resultsTableView();
 
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*& __cordl_internal_get_backToLobbyPressedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*> const& __cordl_internal_get_backToLobbyPressedEvent() const;
 
-  constexpr void __cordl_internal_set_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
-
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*& __cordl_internal_get_backToMenuPressedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*> const& __cordl_internal_get_backToMenuPressedEvent() const;
 
+  constexpr void __cordl_internal_set__backToLobbyButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__backToMenuButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
+
+  constexpr void __cordl_internal_set__levelClearedGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__levelFailedGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__levelResultsGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__resultsTableView(::UnityW<::GlobalNamespace::ResultsTableView> value);
+
+  constexpr void __cordl_internal_set_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
+
   constexpr void __cordl_internal_set_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
-  /// @brief Method add_backToLobbyPressedEvent, addr 0x22cfb1c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
-
-  /// @brief Method remove_backToLobbyPressedEvent, addr 0x22cfbcc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
-
-  /// @brief Method add_backToMenuPressedEvent, addr 0x22cfc7c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
-
-  /// @brief Method remove_backToMenuPressedEvent, addr 0x22cfd2c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
-
-  /// @brief Method Init, addr 0x22cfddc, size 0x17c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                   ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
-
-  /// @brief Method DidActivate, addr 0x22d0014, size 0x108, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method BackToLobbyPressed, addr 0x22d011c, size 0x20, virtual false, abstract: false, final false
-  inline void BackToLobbyPressed();
-
-  /// @brief Method BackToMenuPressed, addr 0x22d013c, size 0x20, virtual false, abstract: false, final false
-  inline void BackToMenuPressed();
-
-  static inline ::GlobalNamespace::MultiplayerResultsViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22d015c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ce5cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_backToLobbyPressedEvent, addr 0x23ce044, size 0xb0, virtual false, abstract: false, final false
+  inline void add_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
+
+  /// @brief Method add_backToMenuPressedEvent, addr 0x23ce1a4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
+
+  /// @brief Method remove_backToLobbyPressedEvent, addr 0x23ce0f4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
+
+  /// @brief Method remove_backToMenuPressedEvent, addr 0x23ce254, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerResultsViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerResultsViewController(MultiplayerResultsViewController&&) = delete;
@@ -168,12 +172,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerResultsViewController(MultiplayerResultsViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerResultsViewController();
-
-public:
   /// @brief Field _levelClearedGO, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____levelClearedGO;
 

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithInstalledApplicationList::*)(void*)>(
     &::Oculus::Platform::MessageWithInstalledApplicationList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26f1b70;
+  constexpr static std::size_t addrs = 0x27e3478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::MessageWithInstalledApplicationList::*)()>(
     &::Oculus::Platform::MessageWithInstalledApplicationList::GetInstalledApplicationList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26f1bc8;
+  constexpr static std::size_t addrs = 0x27e34d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (
     ::Oculus::Platform::MessageWithInstalledApplicationList::*)(void*)>(&::Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f1c04;
+  constexpr static std::size_t addrs = 0x27e350c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -19,19 +19,17 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceCommandPacket);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15250))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15248))
 // CS Name: ::IgnoranceCore::IgnoranceCommandPacket
 struct CORDL_TYPE IgnoranceCommandPacket {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Type", ty: "::IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "", def_value: None
-  // }]
-  constexpr IgnoranceCommandPacket(::IgnoranceCore::IgnoranceCommandType Type, uint32_t PeerId) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr IgnoranceCommandPacket();
+
+  // Ctor Parameters [CppParam { name: "Type", ty: "::IgnoranceCore::IgnoranceCommandType", modifiers: "", def_value: None }, CppParam { name: "PeerId", ty: "uint32_t", modifiers: "", def_value: None
+  // }]
+  constexpr IgnoranceCommandPacket(::IgnoranceCore::IgnoranceCommandType Type, uint32_t PeerId) noexcept;
 
   /// @brief Field Type, offset: 0x0, size: 0x4, def value: None
   ::IgnoranceCore::IgnoranceCommandType Type;

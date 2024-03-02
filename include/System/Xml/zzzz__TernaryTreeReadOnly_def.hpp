@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Xml::TernaryTreeReadOnly);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11439))
 // CS Name: ::System.Xml::TernaryTreeReadOnly*
 class CORDL_TYPE TernaryTreeReadOnly : public ::System::Object {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field nodeBuffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nodeBuffer, put = __cordl_internal_set_nodeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_nodeBuffer();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_nodeBuffer() const;
-
-  constexpr void __cordl_internal_set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method FindCaseInsensitiveString, addr 0x2938464, size 0x12c, virtual false, abstract: false, final false
+  inline uint8_t FindCaseInsensitiveString(::StringW stringToFind);
 
   static inline ::System::Xml::TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
-  /// @brief Method .ctor, addr 0x2851124, size 0x28, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_nodeBuffer() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_nodeBuffer();
+
+  constexpr void __cordl_internal_set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x2939c08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
-  /// @brief Method FindCaseInsensitiveString, addr 0x284f980, size 0x12c, virtual false, abstract: false, final false
-  inline uint8_t FindCaseInsensitiveString(::StringW stringToFind);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TernaryTreeReadOnly();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TernaryTreeReadOnly", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TernaryTreeReadOnly(TernaryTreeReadOnly&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TernaryTreeReadOnly(TernaryTreeReadOnly const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TernaryTreeReadOnly();
-
-public:
   /// @brief Field nodeBuffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___nodeBuffer;
 

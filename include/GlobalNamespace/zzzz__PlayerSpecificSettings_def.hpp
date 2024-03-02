@@ -33,62 +33,27 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettings);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(4621)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4622))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS Name: ::PlayerSpecificSettings*
+// CS Name: ::PlayerSpecificSettings*
 class CORDL_TYPE PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _leftHanded, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__leftHanded, put = __cordl_internal_set__leftHanded)) bool _leftHanded;
-
-  /// @brief Field _playerHeight, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__playerHeight, put = __cordl_internal_set__playerHeight)) float_t _playerHeight;
-
-  /// @brief Field _automaticPlayerHeight, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__automaticPlayerHeight, put = __cordl_internal_set__automaticPlayerHeight)) bool _automaticPlayerHeight;
-
-  /// @brief Field _sfxVolume, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__sfxVolume, put = __cordl_internal_set__sfxVolume)) float_t _sfxVolume;
-
-  /// @brief Field _reduceDebris, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__reduceDebris, put = __cordl_internal_set__reduceDebris)) bool _reduceDebris;
-
-  /// @brief Field _noTextsAndHuds, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get__noTextsAndHuds, put = __cordl_internal_set__noTextsAndHuds)) bool _noTextsAndHuds;
-
-  /// @brief Field _noFailEffects, offset 0x22, size 0x1
-  __declspec(property(get = __cordl_internal_get__noFailEffects, put = __cordl_internal_set__noFailEffects)) bool _noFailEffects;
+  /// @brief Field _adaptiveSfx, offset 0x39, size 0x1
+  __declspec(property(get = __cordl_internal_get__adaptiveSfx, put = __cordl_internal_set__adaptiveSfx)) bool _adaptiveSfx;
 
   /// @brief Field _advancedHud, offset 0x23, size 0x1
   __declspec(property(get = __cordl_internal_get__advancedHud, put = __cordl_internal_set__advancedHud)) bool _advancedHud;
-
-  /// @brief Field _autoRestart, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__autoRestart, put = __cordl_internal_set__autoRestart)) bool _autoRestart;
-
-  /// @brief Field _saberTrailIntensity, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__saberTrailIntensity, put = __cordl_internal_set__saberTrailIntensity)) float_t _saberTrailIntensity;
-
-  /// @brief Field _noteJumpDurationTypeSettings, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettings,
-                      put = __cordl_internal_set__noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings;
-
-  /// @brief Field _noteJumpFixedDuration, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteJumpFixedDuration, put = __cordl_internal_set__noteJumpFixedDuration)) float_t _noteJumpFixedDuration;
-
-  /// @brief Field _noteJumpStartBeatOffset, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffset, put = __cordl_internal_set__noteJumpStartBeatOffset)) float_t _noteJumpStartBeatOffset;
-
-  /// @brief Field _hideNoteSpawnEffect, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__hideNoteSpawnEffect, put = __cordl_internal_set__hideNoteSpawnEffect)) bool _hideNoteSpawnEffect;
-
-  /// @brief Field _adaptiveSfx, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get__adaptiveSfx, put = __cordl_internal_set__adaptiveSfx)) bool _adaptiveSfx;
 
   /// @brief Field _arcsHapticFeedback, offset 0x3a, size 0x1
   __declspec(property(get = __cordl_internal_get__arcsHapticFeedback, put = __cordl_internal_set__arcsHapticFeedback)) bool _arcsHapticFeedback;
 
   /// @brief Field _arcsVisible, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__arcsVisible, put = __cordl_internal_set__arcsVisible))::GlobalNamespace::ArcVisibilityType _arcsVisible;
+
+  /// @brief Field _autoRestart, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__autoRestart, put = __cordl_internal_set__autoRestart)) bool _autoRestart;
+
+  /// @brief Field _automaticPlayerHeight, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__automaticPlayerHeight, put = __cordl_internal_set__automaticPlayerHeight)) bool _automaticPlayerHeight;
 
   /// @brief Field _environmentEffectsFilterDefaultPreset, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentEffectsFilterDefaultPreset,
@@ -101,39 +66,51 @@ public:
   /// @brief Field _headsetHapticIntensity, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__headsetHapticIntensity, put = __cordl_internal_set__headsetHapticIntensity)) float_t _headsetHapticIntensity;
 
-  __declspec(property(get = get_leftHanded)) bool leftHanded;
+  /// @brief Field _hideNoteSpawnEffect, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__hideNoteSpawnEffect, put = __cordl_internal_set__hideNoteSpawnEffect)) bool _hideNoteSpawnEffect;
 
-  __declspec(property(get = get_playerHeight)) float_t playerHeight;
+  /// @brief Field _leftHanded, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__leftHanded, put = __cordl_internal_set__leftHanded)) bool _leftHanded;
 
-  __declspec(property(get = get_automaticPlayerHeight)) bool automaticPlayerHeight;
+  /// @brief Field _noFailEffects, offset 0x22, size 0x1
+  __declspec(property(get = __cordl_internal_get__noFailEffects, put = __cordl_internal_set__noFailEffects)) bool _noFailEffects;
 
-  __declspec(property(get = get_sfxVolume)) float_t sfxVolume;
+  /// @brief Field _noTextsAndHuds, offset 0x21, size 0x1
+  __declspec(property(get = __cordl_internal_get__noTextsAndHuds, put = __cordl_internal_set__noTextsAndHuds)) bool _noTextsAndHuds;
 
-  __declspec(property(get = get_reduceDebris)) bool reduceDebris;
+  /// @brief Field _noteJumpDurationTypeSettings, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettings,
+                      put = __cordl_internal_set__noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings;
 
-  __declspec(property(get = get_noTextsAndHuds)) bool noTextsAndHuds;
+  /// @brief Field _noteJumpFixedDuration, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__noteJumpFixedDuration, put = __cordl_internal_set__noteJumpFixedDuration)) float_t _noteJumpFixedDuration;
 
-  __declspec(property(get = get_noFailEffects)) bool noFailEffects;
+  /// @brief Field _noteJumpStartBeatOffset, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffset, put = __cordl_internal_set__noteJumpStartBeatOffset)) float_t _noteJumpStartBeatOffset;
 
-  __declspec(property(get = get_advancedHud)) bool advancedHud;
+  /// @brief Field _playerHeight, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__playerHeight, put = __cordl_internal_set__playerHeight)) float_t _playerHeight;
 
-  __declspec(property(get = get_autoRestart)) bool autoRestart;
+  /// @brief Field _reduceDebris, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__reduceDebris, put = __cordl_internal_set__reduceDebris)) bool _reduceDebris;
 
-  __declspec(property(get = get_saberTrailIntensity)) float_t saberTrailIntensity;
+  /// @brief Field _saberTrailIntensity, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__saberTrailIntensity, put = __cordl_internal_set__saberTrailIntensity)) float_t _saberTrailIntensity;
 
-  __declspec(property(get = get_noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
-
-  __declspec(property(get = get_noteJumpFixedDuration)) float_t noteJumpFixedDuration;
-
-  __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
-
-  __declspec(property(get = get_hideNoteSpawnEffect)) bool hideNoteSpawnEffect;
+  /// @brief Field _sfxVolume, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__sfxVolume, put = __cordl_internal_set__sfxVolume)) float_t _sfxVolume;
 
   __declspec(property(get = get_adaptiveSfx)) bool adaptiveSfx;
 
-  __declspec(property(get = get_arcsHapticFeedback)) bool arcsHapticFeedback;
+  __declspec(property(get = get_advancedHud)) bool advancedHud;
 
   __declspec(property(get = get_arcVisibility))::GlobalNamespace::ArcVisibilityType arcVisibility;
+
+  __declspec(property(get = get_arcsHapticFeedback)) bool arcsHapticFeedback;
+
+  __declspec(property(get = get_autoRestart)) bool autoRestart;
+
+  __declspec(property(get = get_automaticPlayerHeight)) bool automaticPlayerHeight;
 
   __declspec(property(get = get_environmentEffectsFilterDefaultPreset))::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset;
 
@@ -141,207 +118,32 @@ public:
 
   __declspec(property(get = get_headsetHapticIntensity)) float_t headsetHapticIntensity;
 
-  constexpr bool& __cordl_internal_get__leftHanded();
+  __declspec(property(get = get_hideNoteSpawnEffect)) bool hideNoteSpawnEffect;
 
-  constexpr bool const& __cordl_internal_get__leftHanded() const;
+  __declspec(property(get = get_leftHanded)) bool leftHanded;
 
-  constexpr void __cordl_internal_set__leftHanded(bool value);
+  __declspec(property(get = get_noFailEffects)) bool noFailEffects;
 
-  constexpr float_t& __cordl_internal_get__playerHeight();
+  __declspec(property(get = get_noTextsAndHuds)) bool noTextsAndHuds;
 
-  constexpr float_t const& __cordl_internal_get__playerHeight() const;
+  __declspec(property(get = get_noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
 
-  constexpr void __cordl_internal_set__playerHeight(float_t value);
+  __declspec(property(get = get_noteJumpFixedDuration)) float_t noteJumpFixedDuration;
 
-  constexpr bool& __cordl_internal_get__automaticPlayerHeight();
+  __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
 
-  constexpr bool const& __cordl_internal_get__automaticPlayerHeight() const;
+  __declspec(property(get = get_playerHeight)) float_t playerHeight;
 
-  constexpr void __cordl_internal_set__automaticPlayerHeight(bool value);
+  __declspec(property(get = get_reduceDebris)) bool reduceDebris;
 
-  constexpr float_t& __cordl_internal_get__sfxVolume();
+  __declspec(property(get = get_saberTrailIntensity)) float_t saberTrailIntensity;
 
-  constexpr float_t const& __cordl_internal_get__sfxVolume() const;
+  __declspec(property(get = get_sfxVolume)) float_t sfxVolume;
 
-  constexpr void __cordl_internal_set__sfxVolume(float_t value);
+  /// @brief Method AreValuesEqual, addr 0x12f6ac0, size 0x318, virtual false, abstract: false, final false
+  inline bool AreValuesEqual(::GlobalNamespace::PlayerSpecificSettings* other);
 
-  constexpr bool& __cordl_internal_get__reduceDebris();
-
-  constexpr bool const& __cordl_internal_get__reduceDebris() const;
-
-  constexpr void __cordl_internal_set__reduceDebris(bool value);
-
-  constexpr bool& __cordl_internal_get__noTextsAndHuds();
-
-  constexpr bool const& __cordl_internal_get__noTextsAndHuds() const;
-
-  constexpr void __cordl_internal_set__noTextsAndHuds(bool value);
-
-  constexpr bool& __cordl_internal_get__noFailEffects();
-
-  constexpr bool const& __cordl_internal_get__noFailEffects() const;
-
-  constexpr void __cordl_internal_set__noFailEffects(bool value);
-
-  constexpr bool& __cordl_internal_get__advancedHud();
-
-  constexpr bool const& __cordl_internal_get__advancedHud() const;
-
-  constexpr void __cordl_internal_set__advancedHud(bool value);
-
-  constexpr bool& __cordl_internal_get__autoRestart();
-
-  constexpr bool const& __cordl_internal_get__autoRestart() const;
-
-  constexpr void __cordl_internal_set__autoRestart(bool value);
-
-  constexpr float_t& __cordl_internal_get__saberTrailIntensity();
-
-  constexpr float_t const& __cordl_internal_get__saberTrailIntensity() const;
-
-  constexpr void __cordl_internal_set__saberTrailIntensity(float_t value);
-
-  constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings& __cordl_internal_get__noteJumpDurationTypeSettings();
-
-  constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings const& __cordl_internal_get__noteJumpDurationTypeSettings() const;
-
-  constexpr void __cordl_internal_set__noteJumpDurationTypeSettings(::GlobalNamespace::NoteJumpDurationTypeSettings value);
-
-  constexpr float_t& __cordl_internal_get__noteJumpFixedDuration();
-
-  constexpr float_t const& __cordl_internal_get__noteJumpFixedDuration() const;
-
-  constexpr void __cordl_internal_set__noteJumpFixedDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__noteJumpStartBeatOffset();
-
-  constexpr float_t const& __cordl_internal_get__noteJumpStartBeatOffset() const;
-
-  constexpr void __cordl_internal_set__noteJumpStartBeatOffset(float_t value);
-
-  constexpr bool& __cordl_internal_get__hideNoteSpawnEffect();
-
-  constexpr bool const& __cordl_internal_get__hideNoteSpawnEffect() const;
-
-  constexpr void __cordl_internal_set__hideNoteSpawnEffect(bool value);
-
-  constexpr bool& __cordl_internal_get__adaptiveSfx();
-
-  constexpr bool const& __cordl_internal_get__adaptiveSfx() const;
-
-  constexpr void __cordl_internal_set__adaptiveSfx(bool value);
-
-  constexpr bool& __cordl_internal_get__arcsHapticFeedback();
-
-  constexpr bool const& __cordl_internal_get__arcsHapticFeedback() const;
-
-  constexpr void __cordl_internal_set__arcsHapticFeedback(bool value);
-
-  constexpr ::GlobalNamespace::ArcVisibilityType& __cordl_internal_get__arcsVisible();
-
-  constexpr ::GlobalNamespace::ArcVisibilityType const& __cordl_internal_get__arcsVisible() const;
-
-  constexpr void __cordl_internal_set__arcsVisible(::GlobalNamespace::ArcVisibilityType value);
-
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset& __cordl_internal_get__environmentEffectsFilterDefaultPreset();
-
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset const& __cordl_internal_get__environmentEffectsFilterDefaultPreset() const;
-
-  constexpr void __cordl_internal_set__environmentEffectsFilterDefaultPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value);
-
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset& __cordl_internal_get__environmentEffectsFilterExpertPlusPreset();
-
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset const& __cordl_internal_get__environmentEffectsFilterExpertPlusPreset() const;
-
-  constexpr void __cordl_internal_set__environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value);
-
-  constexpr float_t& __cordl_internal_get__headsetHapticIntensity();
-
-  constexpr float_t const& __cordl_internal_get__headsetHapticIntensity() const;
-
-  constexpr void __cordl_internal_set__headsetHapticIntensity(float_t value);
-
-  /// @brief Method get_leftHanded, addr 0x2372acc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_leftHanded();
-
-  /// @brief Method get_playerHeight, addr 0x2372ad4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_playerHeight();
-
-  /// @brief Method get_automaticPlayerHeight, addr 0x2372adc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_automaticPlayerHeight();
-
-  /// @brief Method get_sfxVolume, addr 0x2372ae4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_sfxVolume();
-
-  /// @brief Method get_reduceDebris, addr 0x2372aec, size 0x8, virtual false, abstract: false, final false
-  inline bool get_reduceDebris();
-
-  /// @brief Method get_noTextsAndHuds, addr 0x2372af4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_noTextsAndHuds();
-
-  /// @brief Method get_noFailEffects, addr 0x2372afc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_noFailEffects();
-
-  /// @brief Method get_advancedHud, addr 0x2372b04, size 0x8, virtual false, abstract: false, final false
-  inline bool get_advancedHud();
-
-  /// @brief Method get_autoRestart, addr 0x2372b0c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_autoRestart();
-
-  /// @brief Method get_saberTrailIntensity, addr 0x2372b14, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_saberTrailIntensity();
-
-  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x2372b1c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
-
-  /// @brief Method get_noteJumpFixedDuration, addr 0x2372b24, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_noteJumpFixedDuration();
-
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x2372b2c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_noteJumpStartBeatOffset();
-
-  /// @brief Method get_hideNoteSpawnEffect, addr 0x2372b34, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hideNoteSpawnEffect();
-
-  /// @brief Method get_adaptiveSfx, addr 0x2372b3c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_adaptiveSfx();
-
-  /// @brief Method get_arcsHapticFeedback, addr 0x2372b44, size 0x8, virtual false, abstract: false, final false
-  inline bool get_arcsHapticFeedback();
-
-  /// @brief Method get_arcVisibility, addr 0x2372b4c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ArcVisibilityType get_arcVisibility();
-
-  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x2372b54, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
-
-  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x2372b5c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
-
-  /// @brief Method get_headsetHapticIntensity, addr 0x2372b64, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_headsetHapticIntensity();
-
-  static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2372b6c, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds,
-                                                                    bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity,
-                                                                    ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
-                                                                    float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback,
-                                                                    ::GlobalNamespace::ArcVisibilityType arcsVisible,
-                                                                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset,
-                                                                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset, float_t headsetHapticIntensity);
-
-  /// @brief Method .ctor, addr 0x2372be4, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud,
-                    bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
-                    float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible,
-                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset,
-                    float_t headsetHapticIntensity);
-
-  /// @brief Method CopyWith, addr 0x2372d0c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x12f56c8, size 0x3d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings*
   CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float_t> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float_t> sfxVolume,
            ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud,
@@ -351,9 +153,215 @@ public:
            ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset,
            ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset, ::System::Nullable_1<float_t> headsetHapticIntensity);
 
-  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x23730e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x12f6aa8, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor();
+
+  static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds,
+                                                                    bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity,
+                                                                    ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
+                                                                    float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback,
+                                                                    ::GlobalNamespace::ArcVisibilityType arcsVisible,
+                                                                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset,
+                                                                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset, float_t headsetHapticIntensity);
+
+  constexpr bool const& __cordl_internal_get__adaptiveSfx() const;
+
+  constexpr bool& __cordl_internal_get__adaptiveSfx();
+
+  constexpr bool const& __cordl_internal_get__advancedHud() const;
+
+  constexpr bool& __cordl_internal_get__advancedHud();
+
+  constexpr bool const& __cordl_internal_get__arcsHapticFeedback() const;
+
+  constexpr bool& __cordl_internal_get__arcsHapticFeedback();
+
+  constexpr ::GlobalNamespace::ArcVisibilityType const& __cordl_internal_get__arcsVisible() const;
+
+  constexpr ::GlobalNamespace::ArcVisibilityType& __cordl_internal_get__arcsVisible();
+
+  constexpr bool const& __cordl_internal_get__autoRestart() const;
+
+  constexpr bool& __cordl_internal_get__autoRestart();
+
+  constexpr bool const& __cordl_internal_get__automaticPlayerHeight() const;
+
+  constexpr bool& __cordl_internal_get__automaticPlayerHeight();
+
+  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset const& __cordl_internal_get__environmentEffectsFilterDefaultPreset() const;
+
+  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset& __cordl_internal_get__environmentEffectsFilterDefaultPreset();
+
+  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset const& __cordl_internal_get__environmentEffectsFilterExpertPlusPreset() const;
+
+  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset& __cordl_internal_get__environmentEffectsFilterExpertPlusPreset();
+
+  constexpr float_t const& __cordl_internal_get__headsetHapticIntensity() const;
+
+  constexpr float_t& __cordl_internal_get__headsetHapticIntensity();
+
+  constexpr bool const& __cordl_internal_get__hideNoteSpawnEffect() const;
+
+  constexpr bool& __cordl_internal_get__hideNoteSpawnEffect();
+
+  constexpr bool const& __cordl_internal_get__leftHanded() const;
+
+  constexpr bool& __cordl_internal_get__leftHanded();
+
+  constexpr bool const& __cordl_internal_get__noFailEffects() const;
+
+  constexpr bool& __cordl_internal_get__noFailEffects();
+
+  constexpr bool const& __cordl_internal_get__noTextsAndHuds() const;
+
+  constexpr bool& __cordl_internal_get__noTextsAndHuds();
+
+  constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings const& __cordl_internal_get__noteJumpDurationTypeSettings() const;
+
+  constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings& __cordl_internal_get__noteJumpDurationTypeSettings();
+
+  constexpr float_t const& __cordl_internal_get__noteJumpFixedDuration() const;
+
+  constexpr float_t& __cordl_internal_get__noteJumpFixedDuration();
+
+  constexpr float_t const& __cordl_internal_get__noteJumpStartBeatOffset() const;
+
+  constexpr float_t& __cordl_internal_get__noteJumpStartBeatOffset();
+
+  constexpr float_t const& __cordl_internal_get__playerHeight() const;
+
+  constexpr float_t& __cordl_internal_get__playerHeight();
+
+  constexpr bool const& __cordl_internal_get__reduceDebris() const;
+
+  constexpr bool& __cordl_internal_get__reduceDebris();
+
+  constexpr float_t const& __cordl_internal_get__saberTrailIntensity() const;
+
+  constexpr float_t& __cordl_internal_get__saberTrailIntensity();
+
+  constexpr float_t const& __cordl_internal_get__sfxVolume() const;
+
+  constexpr float_t& __cordl_internal_get__sfxVolume();
+
+  constexpr void __cordl_internal_set__adaptiveSfx(bool value);
+
+  constexpr void __cordl_internal_set__advancedHud(bool value);
+
+  constexpr void __cordl_internal_set__arcsHapticFeedback(bool value);
+
+  constexpr void __cordl_internal_set__arcsVisible(::GlobalNamespace::ArcVisibilityType value);
+
+  constexpr void __cordl_internal_set__autoRestart(bool value);
+
+  constexpr void __cordl_internal_set__automaticPlayerHeight(bool value);
+
+  constexpr void __cordl_internal_set__environmentEffectsFilterDefaultPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value);
+
+  constexpr void __cordl_internal_set__environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::EnvironmentEffectsFilterPreset value);
+
+  constexpr void __cordl_internal_set__headsetHapticIntensity(float_t value);
+
+  constexpr void __cordl_internal_set__hideNoteSpawnEffect(bool value);
+
+  constexpr void __cordl_internal_set__leftHanded(bool value);
+
+  constexpr void __cordl_internal_set__noFailEffects(bool value);
+
+  constexpr void __cordl_internal_set__noTextsAndHuds(bool value);
+
+  constexpr void __cordl_internal_set__noteJumpDurationTypeSettings(::GlobalNamespace::NoteJumpDurationTypeSettings value);
+
+  constexpr void __cordl_internal_set__noteJumpFixedDuration(float_t value);
+
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffset(float_t value);
+
+  constexpr void __cordl_internal_set__playerHeight(float_t value);
+
+  constexpr void __cordl_internal_set__reduceDebris(bool value);
+
+  constexpr void __cordl_internal_set__saberTrailIntensity(float_t value);
+
+  constexpr void __cordl_internal_set__sfxVolume(float_t value);
+
+  /// @brief Method .ctor, addr 0x12f0dcc, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12f52d0, size 0x128, virtual false, abstract: false, final false
+  inline void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud,
+                    bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
+                    float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible,
+                    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset,
+                    float_t headsetHapticIntensity);
+
+  /// @brief Method get_adaptiveSfx, addr 0x12f6a78, size 0x8, virtual false, abstract: false, final false
+  inline bool get_adaptiveSfx();
+
+  /// @brief Method get_advancedHud, addr 0x12f6a40, size 0x8, virtual false, abstract: false, final false
+  inline bool get_advancedHud();
+
+  /// @brief Method get_arcVisibility, addr 0x12f6a88, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ArcVisibilityType get_arcVisibility();
+
+  /// @brief Method get_arcsHapticFeedback, addr 0x12f6a80, size 0x8, virtual false, abstract: false, final false
+  inline bool get_arcsHapticFeedback();
+
+  /// @brief Method get_autoRestart, addr 0x12f6a48, size 0x8, virtual false, abstract: false, final false
+  inline bool get_autoRestart();
+
+  /// @brief Method get_automaticPlayerHeight, addr 0x12f6a18, size 0x8, virtual false, abstract: false, final false
+  inline bool get_automaticPlayerHeight();
+
+  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x12f6a90, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
+
+  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x12f6a98, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
+
+  /// @brief Method get_headsetHapticIntensity, addr 0x12f6aa0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_headsetHapticIntensity();
+
+  /// @brief Method get_hideNoteSpawnEffect, addr 0x12f6a70, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hideNoteSpawnEffect();
+
+  /// @brief Method get_leftHanded, addr 0x12f6a08, size 0x8, virtual false, abstract: false, final false
+  inline bool get_leftHanded();
+
+  /// @brief Method get_noFailEffects, addr 0x12f6a38, size 0x8, virtual false, abstract: false, final false
+  inline bool get_noFailEffects();
+
+  /// @brief Method get_noTextsAndHuds, addr 0x12f6a30, size 0x8, virtual false, abstract: false, final false
+  inline bool get_noTextsAndHuds();
+
+  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x12f6a58, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
+
+  /// @brief Method get_noteJumpFixedDuration, addr 0x12f6a60, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteJumpFixedDuration();
+
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x12f6a68, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteJumpStartBeatOffset();
+
+  /// @brief Method get_playerHeight, addr 0x12f6a10, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_playerHeight();
+
+  /// @brief Method get_reduceDebris, addr 0x12f6a28, size 0x8, virtual false, abstract: false, final false
+  inline bool get_reduceDebris();
+
+  /// @brief Method get_saberTrailIntensity, addr 0x12f6a50, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_saberTrailIntensity();
+
+  /// @brief Method get_sfxVolume, addr 0x12f6a20, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_sfxVolume();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerSpecificSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSpecificSettings(PlayerSpecificSettings&&) = delete;
@@ -362,12 +370,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerSpecificSettings(PlayerSpecificSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerSpecificSettings();
-
-public:
   /// @brief Field _leftHanded, offset: 0x10, size: 0x1, def value: None
   bool ____leftHanded;
 

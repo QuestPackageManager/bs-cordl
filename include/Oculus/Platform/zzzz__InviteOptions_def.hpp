@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::InviteOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13248))
 // CS Name: ::Oculus.Platform::InviteOptions*
 class CORDL_TYPE InviteOptions : public ::System::Object {
 public:
@@ -25,29 +23,35 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  /// @brief Method AddSuggestedUser, addr 0x27bc378, size 0x68, virtual false, abstract: false, final false
+  inline void AddSuggestedUser(uint64_t userID);
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  /// @brief Method ClearSuggestedUsers, addr 0x27de2a8, size 0x58, virtual false, abstract: false, final false
+  inline void ClearSuggestedUsers();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  /// @brief Method Finalize, addr 0x27de358, size 0xd4, virtual true, abstract: false, final false
+  inline void Finalize();
 
   static inline ::Oculus::Platform::InviteOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26caa0c, size 0x64, virtual false, abstract: false, final false
+  constexpr void* const& __cordl_internal_get_Handle() const;
+
+  constexpr void*& __cordl_internal_get_Handle();
+
+  constexpr void __cordl_internal_set_Handle(void* value);
+
+  /// @brief Method .ctor, addr 0x27bc314, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSuggestedUser, addr 0x26caa70, size 0x68, virtual false, abstract: false, final false
-  inline void AddSuggestedUser(uint64_t userID);
-
-  /// @brief Method ClearSuggestedUsers, addr 0x26ec9a0, size 0x58, virtual false, abstract: false, final false
-  inline void ClearSuggestedUsers();
-
-  /// @brief Method op_Explicit, addr 0x26ec9f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x27de300, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::InviteOptions* options);
 
-  /// @brief Method Finalize, addr 0x26eca50, size 0xd4, virtual true, abstract: false, final false
-  inline void Finalize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InviteOptions();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InviteOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InviteOptions(InviteOptions&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InviteOptions(InviteOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InviteOptions();
-
-public:
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   void* ___Handle;
 

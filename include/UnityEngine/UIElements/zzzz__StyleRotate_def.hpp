@@ -33,65 +33,63 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleRotate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7300))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7320))
 // CS Name: ::UnityEngine.UIElements::StyleRotate
 struct CORDL_TYPE StyleRotate {
 public:
   // Declarations
-  __declspec(property(get = get_value))::UnityEngine::UIElements::Rotate value;
-
   __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
-  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>*();
-
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
-  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Rotate_();
+  __declspec(property(get = get_value))::UnityEngine::UIElements::Rotate value;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>*();
 
+  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
+  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>*();
+
+  /// @brief Method Equals, addr 0x2f83c00, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f83b84, size 0x7c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::StyleRotate other);
+
+  /// @brief Method GetHashCode, addr 0x2f83c90, size 0x24, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToString, addr 0x2f83cb4, size 0x88, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2f83b00, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method .ctor, addr 0x2f83b10, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::Rotate v, ::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method get_keyword, addr 0x2f83af8, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
+
+  /// @brief Method get_value, addr 0x2f80b74, size 0x44, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::Rotate get_value();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>* i___System__IEquatable_1___UnityEngine__UIElements__StyleRotate_();
 
-  /// @brief Method get_value, addr 0x2e73064, size 0x44, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::Rotate get_value();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method get_keyword, addr 0x2e75fe8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
-
-  /// @brief Method .ctor, addr 0x2e75ff0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method .ctor, addr 0x2e76000, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::Rotate v, ::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method op_Equality, addr 0x2e76018, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f83b28, size 0x5c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleRotate lhs, ::UnityEngine::UIElements::StyleRotate rhs);
 
-  /// @brief Method op_Implicit, addr 0x2e734bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2f80fcc, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRotate op_Implicit___UnityEngine__UIElements__StyleRotate(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method Equals, addr 0x2e76074, size 0x7c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleRotate other);
-
-  /// @brief Method Equals, addr 0x2e760f0, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e76180, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2e761a4, size 0x88, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
-  constexpr StyleRotate(::UnityEngine::UIElements::Rotate m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleRotate();
+
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+  constexpr StyleRotate(::UnityEngine::UIElements::Rotate m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief Field m_Value, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::UIElements::Rotate m_Value;

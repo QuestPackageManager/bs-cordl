@@ -19,28 +19,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(889))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(890))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DesEdeKeyGenerator*
 class CORDL_TYPE DesEdeKeyGenerator : public ::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef6f34, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Crypto::Generators::DesEdeKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor, addr 0xef6f44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf67d94, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0xf67da4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method engineInit, addr 0xef6f48, size 0x230, virtual true, abstract: false, final false
-  inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
-
-  /// @brief Method engineGenerateKey, addr 0xef7178, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0xf67fd8, size 0xdc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
+  /// @brief Method engineInit, addr 0xf67da8, size 0x230, virtual true, abstract: false, final false
+  inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DesEdeKeyGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeKeyGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesEdeKeyGenerator(DesEdeKeyGenerator&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DesEdeKeyGenerator(DesEdeKeyGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DesEdeKeyGenerator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

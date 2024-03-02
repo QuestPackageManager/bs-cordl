@@ -23,58 +23,62 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisRigidbodyPhysics);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4774))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
 // CS Name: ::NoteDebrisRigidbodyPhysics*
 class CORDL_TYPE NoteDebrisRigidbodyPhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
   // Declarations
+  /// @brief Field _firstUpdate, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
+
   /// @brief Field _rigidbody, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody))::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
   /// @brief Field _simplePhysics, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__simplePhysics, put = __cordl_internal_set__simplePhysics))::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> _simplePhysics;
 
-  /// @brief Field _firstUpdate, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
-
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
+  /// @brief Method AddVelocity, addr 0x239d6c8, size 0x60, virtual true, abstract: false, final false
+  inline void AddVelocity(::UnityEngine::Vector3 force);
 
-  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
-
-  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
-
-  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics>& __cordl_internal_get__simplePhysics();
-
-  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> const& __cordl_internal_get__simplePhysics() const;
-
-  constexpr void __cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value);
-
-  constexpr bool& __cordl_internal_get__firstUpdate();
-
-  constexpr bool const& __cordl_internal_get__firstUpdate() const;
-
-  constexpr void __cordl_internal_set__firstUpdate(bool value);
-
-  /// @brief Method get_position, addr 0x23883f8, size 0x1c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
-
-  /// @brief Method FixedUpdate, addr 0x2388414, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x239d5bc, size 0x48, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Init, addr 0x238845c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239d604, size 0xc4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
-
-  /// @brief Method AddVelocity, addr 0x2388520, size 0x60, virtual true, abstract: false, final false
-  inline void AddVelocity(::UnityEngine::Vector3 force);
 
   static inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2388580, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__firstUpdate() const;
+
+  constexpr bool& __cordl_internal_get__firstUpdate();
+
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
+
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
+
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> const& __cordl_internal_get__simplePhysics() const;
+
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics>& __cordl_internal_get__simplePhysics();
+
+  constexpr void __cordl_internal_set__firstUpdate(bool value);
+
+  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
+
+  constexpr void __cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value);
+
+  /// @brief Method .ctor, addr 0x239d728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_position, addr 0x239d5a0, size 0x1c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_position();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteDebrisRigidbodyPhysics();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisRigidbodyPhysics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebrisRigidbodyPhysics(NoteDebrisRigidbodyPhysics&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteDebrisRigidbodyPhysics(NoteDebrisRigidbodyPhysics const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteDebrisRigidbodyPhysics();
-
-public:
   /// @brief Field _rigidbody, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
 

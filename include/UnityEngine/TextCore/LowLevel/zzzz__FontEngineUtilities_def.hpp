@@ -15,14 +15,12 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontEngineUtilities);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15538))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontEngineUtilities
 #pragma pack(push, 0)
 struct CORDL_TYPE FontEngineUtilities {
 public:
   // Declarations
-  /// @brief Method MaxValue, addr 0x2d2231c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MaxValue, addr 0x2e2f4ec, size 0x20, virtual false, abstract: false, final false
   static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
   // Ctor Parameters []

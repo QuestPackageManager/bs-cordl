@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingUIController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5040))
 // CS Name: ::RecordingUIController::InitData*
 class CORDL_TYPE __RecordingUIController__InitData : public ::System::Object {
 public:
@@ -35,17 +33,23 @@ public:
   /// @brief Field recordingEnabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_recordingEnabled, put = __cordl_internal_set_recordingEnabled)) bool recordingEnabled;
 
-  constexpr bool& __cordl_internal_get_recordingEnabled();
+  static inline ::GlobalNamespace::__RecordingUIController__InitData* New_ctor(bool recordingEnabled);
 
   constexpr bool const& __cordl_internal_get_recordingEnabled() const;
 
+  constexpr bool& __cordl_internal_get_recordingEnabled();
+
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  static inline ::GlobalNamespace::__RecordingUIController__InitData* New_ctor(bool recordingEnabled);
-
-  /// @brief Method .ctor, addr 0x23c2334, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244dbb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordingUIController__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingUIController__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordingUIController__InitData(__RecordingUIController__InitData&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingUIController__InitData(__RecordingUIController__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordingUIController__InitData();
-
-public:
   /// @brief Field recordingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___recordingEnabled;
 
@@ -75,8 +73,6 @@ static_assert(offsetof(::GlobalNamespace::__RecordingUIController__InitData, ___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5041))
 // CS Name: ::RecordingUIController*
 class CORDL_TYPE RecordingUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -86,50 +82,56 @@ public:
   /// @brief Field _circle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__circle, put = __cordl_internal_set__circle))::UnityW<::UnityEngine::GameObject> _circle;
 
-  /// @brief Field _updateTimeSpan, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
-
   /// @brief Field _initData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__RecordingUIController__InitData* _initData;
 
   /// @brief Field _lastUpdateTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__lastUpdateTime, put = __cordl_internal_set__lastUpdateTime)) float_t _lastUpdateTime;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__circle();
+  /// @brief Field _updateTimeSpan, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
+
+  /// @brief Method Init, addr 0x244dab8, size 0x80, virtual false, abstract: false, final false
+  inline void Init();
+
+  static inline ::GlobalNamespace::RecordingUIController* New_ctor();
+
+  /// @brief Method Update, addr 0x244db38, size 0x6c, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
 
-  constexpr void __cordl_internal_set__circle(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr float_t& __cordl_internal_get__updateTimeSpan();
-
-  constexpr float_t const& __cordl_internal_get__updateTimeSpan() const;
-
-  constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__circle();
 
   constexpr ::GlobalNamespace::__RecordingUIController__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingUIController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__RecordingUIController__InitData* value);
+  constexpr float_t const& __cordl_internal_get__lastUpdateTime() const;
 
   constexpr float_t& __cordl_internal_get__lastUpdateTime();
 
-  constexpr float_t const& __cordl_internal_get__lastUpdateTime() const;
+  constexpr float_t const& __cordl_internal_get__updateTimeSpan() const;
+
+  constexpr float_t& __cordl_internal_get__updateTimeSpan();
+
+  constexpr void __cordl_internal_set__circle(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__RecordingUIController__InitData* value);
 
   constexpr void __cordl_internal_set__lastUpdateTime(float_t value);
 
-  /// @brief Method Init, addr 0x23c2238, size 0x80, virtual false, abstract: false, final false
-  inline void Init();
+  constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method Update, addr 0x23c22b8, size 0x6c, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::RecordingUIController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c2324, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244dba4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordingUIController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingUIController(RecordingUIController&&) = delete;
@@ -138,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingUIController(RecordingUIController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingUIController();
-
-public:
   /// @brief Field _circle, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____circle;
 

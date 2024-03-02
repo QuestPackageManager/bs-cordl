@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseManipulator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6783)), TypeDefinitionIndex(TypeDefinitionIndex(6905))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6792))
 // CS Name: ::UnityEngine.UIElements::MouseManipulator*
 class CORDL_TYPE MouseManipulator : public ::UnityEngine::UIElements::Manipulator {
 public:
@@ -35,41 +33,47 @@ public:
       property(get = __cordl_internal_get__activators_k__BackingField,
                put = __cordl_internal_set__activators_k__BackingField))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* _activators_k__BackingField;
 
+  __declspec(property(get = get_activators, put = set_activators))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* activators;
+
   /// @brief Field m_currentActivator, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_m_currentActivator, put = __cordl_internal_set_m_currentActivator))::UnityEngine::UIElements::ManipulatorActivationFilter m_currentActivator;
 
-  __declspec(property(get = get_activators, put = set_activators))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* activators;
+  /// @brief Method CanStartManipulation, addr 0x2ec8ad8, size 0x17c, virtual false, abstract: false, final false
+  inline bool CanStartManipulation(::UnityEngine::UIElements::IMouseEvent* e);
+
+  /// @brief Method CanStopManipulation, addr 0x2ec8c54, size 0xb8, virtual false, abstract: false, final false
+  inline bool CanStopManipulation(::UnityEngine::UIElements::IMouseEvent* e);
+
+  static inline ::UnityEngine::UIElements::MouseManipulator* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*& __cordl_internal_get__activators_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*> const&
   __cordl_internal_get__activators_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__activators_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
+  constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter const& __cordl_internal_get_m_currentActivator() const;
 
   constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter& __cordl_internal_get_m_currentActivator();
 
-  constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter const& __cordl_internal_get_m_currentActivator() const;
+  constexpr void __cordl_internal_set__activators_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
   constexpr void __cordl_internal_set_m_currentActivator(::UnityEngine::UIElements::ManipulatorActivationFilter value);
 
-  /// @brief Method get_activators, addr 0x2dbaf38, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
-
-  /// @brief Method set_activators, addr 0x2dbaf40, size 0x8, virtual false, abstract: false, final false
-  inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
-
-  static inline ::UnityEngine::UIElements::MouseManipulator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dbaf48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec8a58, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CanStartManipulation, addr 0x2dbafc8, size 0x17c, virtual false, abstract: false, final false
-  inline bool CanStartManipulation(::UnityEngine::UIElements::IMouseEvent* e);
+  /// @brief Method get_activators, addr 0x2ec8a48, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
-  /// @brief Method CanStopManipulation, addr 0x2dbb144, size 0xb8, virtual false, abstract: false, final false
-  inline bool CanStopManipulation(::UnityEngine::UIElements::IMouseEvent* e);
+  /// @brief Method set_activators, addr 0x2ec8a50, size 0x8, virtual false, abstract: false, final false
+  inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseManipulator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseManipulator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseManipulator(MouseManipulator&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseManipulator(MouseManipulator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseManipulator();
-
-public:
   /// @brief Field <activators>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* ____activators_k__BackingField;
 

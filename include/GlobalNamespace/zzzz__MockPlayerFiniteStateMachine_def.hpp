@@ -38,29 +38,27 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerFiniteStateMachine);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15514))
 // CS Name: ::MockPlayerFiniteStateMachine*
 class CORDL_TYPE MockPlayerFiniteStateMachine : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_gamePoseGenerator))::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator;
+
+  __declspec(property(get = get_inactiveByDefault, put = set_inactiveByDefault)) bool inactiveByDefault;
+
+  __declspec(property(get = get_leftHanded, put = set_leftHanded)) bool leftHanded;
+
+  __declspec(property(get = get_obstaclesColor, put = set_obstaclesColor))::UnityEngine::Color obstaclesColor;
+
   __declspec(property(get = get_saberAColor, put = set_saberAColor))::UnityEngine::Color saberAColor;
 
   __declspec(property(get = get_saberBColor, put = set_saberBColor))::UnityEngine::Color saberBColor;
 
-  __declspec(property(get = get_obstaclesColor, put = set_obstaclesColor))::UnityEngine::Color obstaclesColor;
-
-  __declspec(property(get = get_leftHanded, put = set_leftHanded)) bool leftHanded;
-
-  __declspec(property(get = get_inactiveByDefault, put = set_inactiveByDefault)) bool inactiveByDefault;
-
-  __declspec(property(get = get_gamePoseGenerator))::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0x24d5c58, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
   static inline ::GlobalNamespace::MockPlayerFiniteStateMachine* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                           ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager,
@@ -68,53 +66,59 @@ public:
                                                                           ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator,
                                                                           ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator);
 
-  /// @brief Method .ctor, addr 0x23e708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIsReady, addr 0x24d5c5c, size 0x4, virtual false, abstract: false, final false
+  inline void SetIsReady(bool isReady);
+
+  /// @brief Method Tick, addr 0x24d5c54, size 0x4, virtual false, abstract: false, final false
+  inline void Tick();
+
+  /// @brief Method .ctor, addr 0x24d5be4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator, ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator);
 
-  /// @brief Method get_saberAColor, addr 0x23e7094, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_saberAColor();
-
-  /// @brief Method set_saberAColor, addr 0x23e70a8, size 0x4, virtual false, abstract: false, final false
-  inline void set_saberAColor(::UnityEngine::Color value);
-
-  /// @brief Method get_saberBColor, addr 0x23e70ac, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_saberBColor();
-
-  /// @brief Method set_saberBColor, addr 0x23e70c0, size 0x4, virtual false, abstract: false, final false
-  inline void set_saberBColor(::UnityEngine::Color value);
-
-  /// @brief Method get_obstaclesColor, addr 0x23e70c4, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_obstaclesColor();
-
-  /// @brief Method set_obstaclesColor, addr 0x23e70d8, size 0x4, virtual false, abstract: false, final false
-  inline void set_obstaclesColor(::UnityEngine::Color value);
-
-  /// @brief Method get_leftHanded, addr 0x23e70dc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_leftHanded();
-
-  /// @brief Method set_leftHanded, addr 0x23e70e4, size 0x4, virtual false, abstract: false, final false
-  inline void set_leftHanded(bool value);
-
-  /// @brief Method get_inactiveByDefault, addr 0x23e70e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_inactiveByDefault();
-
-  /// @brief Method set_inactiveByDefault, addr 0x23e70f0, size 0x4, virtual false, abstract: false, final false
-  inline void set_inactiveByDefault(bool value);
-
-  /// @brief Method get_gamePoseGenerator, addr 0x23e70f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePoseGenerator, addr 0x24d5c4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerGamePoseGenerator* get_gamePoseGenerator();
 
-  /// @brief Method Tick, addr 0x23e70fc, size 0x4, virtual false, abstract: false, final false
-  inline void Tick();
+  /// @brief Method get_inactiveByDefault, addr 0x24d5c40, size 0x8, virtual false, abstract: false, final false
+  inline bool get_inactiveByDefault();
 
-  /// @brief Method Dispose, addr 0x23e7100, size 0x4, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Method get_leftHanded, addr 0x24d5c34, size 0x8, virtual false, abstract: false, final false
+  inline bool get_leftHanded();
 
-  /// @brief Method SetIsReady, addr 0x23e7104, size 0x4, virtual false, abstract: false, final false
-  inline void SetIsReady(bool isReady);
+  /// @brief Method get_obstaclesColor, addr 0x24d5c1c, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_obstaclesColor();
 
+  /// @brief Method get_saberAColor, addr 0x24d5bec, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_saberAColor();
+
+  /// @brief Method get_saberBColor, addr 0x24d5c04, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_saberBColor();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Method set_inactiveByDefault, addr 0x24d5c48, size 0x4, virtual false, abstract: false, final false
+  inline void set_inactiveByDefault(bool value);
+
+  /// @brief Method set_leftHanded, addr 0x24d5c3c, size 0x4, virtual false, abstract: false, final false
+  inline void set_leftHanded(bool value);
+
+  /// @brief Method set_obstaclesColor, addr 0x24d5c30, size 0x4, virtual false, abstract: false, final false
+  inline void set_obstaclesColor(::UnityEngine::Color value);
+
+  /// @brief Method set_saberAColor, addr 0x24d5c00, size 0x4, virtual false, abstract: false, final false
+  inline void set_saberAColor(::UnityEngine::Color value);
+
+  /// @brief Method set_saberBColor, addr 0x24d5c18, size 0x4, virtual false, abstract: false, final false
+  inline void set_saberBColor(::UnityEngine::Color value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPlayerFiniteStateMachine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerFiniteStateMachine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerFiniteStateMachine(MockPlayerFiniteStateMachine&&) = delete;
@@ -123,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerFiniteStateMachine(MockPlayerFiniteStateMachine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerFiniteStateMachine();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

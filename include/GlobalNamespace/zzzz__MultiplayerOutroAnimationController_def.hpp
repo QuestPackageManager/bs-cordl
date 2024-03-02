@@ -53,238 +53,242 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: ::MultiplayerOutroAnimationController*
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
+  /// @brief Field _badgeMidTransform, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__badgeMidTransform, put = __cordl_internal_set__badgeMidTransform))::UnityW<::UnityEngine::Transform> _badgeMidTransform;
 
-  /// @brief Field _playerTimelineTrackNames, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTimelineTrackNames, put = __cordl_internal_set__playerTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _playerTimelineTrackNames;
-
-  /// @brief Field _ringTimelineTrackNames, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ringTimelineTrackNames, put = __cordl_internal_set__ringTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _ringTimelineTrackNames;
-
-  /// @brief Field _resultsTimelineTrackNames, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsTimelineTrackNames, put = __cordl_internal_set__resultsTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _resultsTimelineTrackNames;
-
-  /// @brief Field _playerTimelinePropertyNames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTimelinePropertyNames,
-                      put = __cordl_internal_set__playerTimelinePropertyNames))::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> _playerTimelinePropertyNames;
-
-  /// @brief Field _resultsTimelinePropertyNames, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsTimelinePropertyNames,
-                      put = __cordl_internal_set__resultsTimelinePropertyNames))::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> _resultsTimelinePropertyNames;
-
-  /// @brief Field _localPlayerTrackName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__localPlayerTrackName, put = __cordl_internal_set__localPlayerTrackName))::StringW _localPlayerTrackName;
-
-  /// @brief Field _localPlayerTimelinePropertyName, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__localPlayerTimelinePropertyName,
-                      put = __cordl_internal_set__localPlayerTimelinePropertyName))::UnityEngine::PropertyName _localPlayerTimelinePropertyName;
-
-  /// @brief Field _badgeTimelineTrackNames, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__badgeTimelineTrackNames, put = __cordl_internal_set__badgeTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _badgeTimelineTrackNames;
+  /// @brief Field _badgeStartTransform, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__badgeStartTransform, put = __cordl_internal_set__badgeStartTransform))::UnityW<::UnityEngine::Transform> _badgeStartTransform;
 
   /// @brief Field _badgeTimelinePropertyNames, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeTimelinePropertyNames,
                       put = __cordl_internal_set__badgeTimelinePropertyNames))::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> _badgeTimelinePropertyNames;
 
-  /// @brief Field _badgeStartTransform, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__badgeStartTransform, put = __cordl_internal_set__badgeStartTransform))::UnityW<::UnityEngine::Transform> _badgeStartTransform;
+  /// @brief Field _badgeTimelineTrackNames, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__badgeTimelineTrackNames, put = __cordl_internal_set__badgeTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _badgeTimelineTrackNames;
 
-  /// @brief Field _badgeMidTransform, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__badgeMidTransform, put = __cordl_internal_set__badgeMidTransform))::UnityW<::UnityEngine::Transform> _badgeMidTransform;
+  /// @brief Field _layoutProvider, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Field _songPreviewTrackName, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewTrackName, put = __cordl_internal_set__songPreviewTrackName))::StringW _songPreviewTrackName;
+  /// @brief Field _localPlayerTimelinePropertyName, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__localPlayerTimelinePropertyName,
+                      put = __cordl_internal_set__localPlayerTimelinePropertyName))::UnityEngine::PropertyName _localPlayerTimelinePropertyName;
 
-  /// @brief Field _resultsMocksActivationTrack, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsMocksActivationTrack, put = __cordl_internal_set__resultsMocksActivationTrack))::StringW _resultsMocksActivationTrack;
-
-  /// @brief Field _multiplayerScoreRingManager, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerScoreRingManager,
-                      put = __cordl_internal_set__multiplayerScoreRingManager))::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> _multiplayerScoreRingManager;
-
-  /// @brief Field _multiplayerResultsPyramidView, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerResultsPyramidView,
-                      put = __cordl_internal_set__multiplayerResultsPyramidView))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> _multiplayerResultsPyramidView;
+  /// @brief Field _localPlayerTrackName, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__localPlayerTrackName, put = __cordl_internal_set__localPlayerTrackName))::StringW _localPlayerTrackName;
 
   /// @brief Field _multiplayerPlayersManager, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager,
                       put = __cordl_internal_set__multiplayerPlayersManager))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _multiplayerPlayersManager;
 
+  /// @brief Field _multiplayerResultsPyramidView, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerResultsPyramidView,
+                      put = __cordl_internal_set__multiplayerResultsPyramidView))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> _multiplayerResultsPyramidView;
+
+  /// @brief Field _multiplayerScoreRingManager, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerScoreRingManager,
+                      put = __cordl_internal_set__multiplayerScoreRingManager))::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> _multiplayerScoreRingManager;
+
   /// @brief Field _multiplayerSessionManager, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _sceneSetupData, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
-
-  /// @brief Field _layoutProvider, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
-
   /// @brief Field _onCompleted, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__onCompleted, put = __cordl_internal_set__onCompleted))::System::Action* _onCompleted;
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__outroPlayableDirector();
+  /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
+  /// @brief Field _playerTimelinePropertyNames, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerTimelinePropertyNames,
+                      put = __cordl_internal_set__playerTimelinePropertyNames))::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> _playerTimelinePropertyNames;
 
-  constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
+  /// @brief Field _playerTimelineTrackNames, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerTimelineTrackNames, put = __cordl_internal_set__playerTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _playerTimelineTrackNames;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__playerTimelineTrackNames();
+  /// @brief Field _resultsMocksActivationTrack, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsMocksActivationTrack, put = __cordl_internal_set__resultsMocksActivationTrack))::StringW _resultsMocksActivationTrack;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__playerTimelineTrackNames() const;
+  /// @brief Field _resultsTimelinePropertyNames, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsTimelinePropertyNames,
+                      put = __cordl_internal_set__resultsTimelinePropertyNames))::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> _resultsTimelinePropertyNames;
 
-  constexpr void __cordl_internal_set__playerTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Field _resultsTimelineTrackNames, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsTimelineTrackNames, put = __cordl_internal_set__resultsTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _resultsTimelineTrackNames;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__ringTimelineTrackNames();
+  /// @brief Field _ringTimelineTrackNames, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__ringTimelineTrackNames, put = __cordl_internal_set__ringTimelineTrackNames))::ArrayW<::StringW, ::Array<::StringW>*> _ringTimelineTrackNames;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__ringTimelineTrackNames() const;
+  /// @brief Field _sceneSetupData, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  constexpr void __cordl_internal_set__ringTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Field _songPreviewTrackName, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewTrackName, put = __cordl_internal_set__songPreviewTrackName))::StringW _songPreviewTrackName;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__resultsTimelineTrackNames();
+  /// @brief Method AnimateOutro, addr 0x2475fcc, size 0x1c0, virtual false, abstract: false, final false
+  inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__resultsTimelineTrackNames() const;
+  /// @brief Method BindOutroTimeline, addr 0x2482750, size 0x6b4, virtual false, abstract: false, final false
+  inline void BindOutroTimeline();
 
-  constexpr void __cordl_internal_set__resultsTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method BindRingsAndAudio, addr 0x2483024, size 0x724, virtual false, abstract: false, final false
+  inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__playerTimelinePropertyNames();
+  /// @brief Method Completed, addr 0x2483d5c, size 0x24, virtual false, abstract: false, final false
+  inline void Completed();
 
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__playerTimelinePropertyNames() const;
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2481d80, size 0x24, virtual false, abstract: false, final false
+  inline void HandlePlayerSpawningDidFinish();
 
-  constexpr void __cordl_internal_set__playerTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
+  static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__resultsTimelinePropertyNames();
+  /// @brief Method OnDestroy, addr 0x24825e4, size 0xd0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__resultsTimelinePropertyNames() const;
+  /// @brief Method OnValidate, addr 0x2481e40, size 0x7a4, virtual false, abstract: false, final false
+  inline void OnValidate();
 
-  constexpr void __cordl_internal_set__resultsTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
-
-  constexpr ::StringW& __cordl_internal_get__localPlayerTrackName();
-
-  constexpr ::StringW const& __cordl_internal_get__localPlayerTrackName() const;
-
-  constexpr void __cordl_internal_set__localPlayerTrackName(::StringW value);
-
-  constexpr ::UnityEngine::PropertyName& __cordl_internal_get__localPlayerTimelinePropertyName();
-
-  constexpr ::UnityEngine::PropertyName const& __cordl_internal_get__localPlayerTimelinePropertyName() const;
-
-  constexpr void __cordl_internal_set__localPlayerTimelinePropertyName(::UnityEngine::PropertyName value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__badgeTimelineTrackNames();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__badgeTimelineTrackNames() const;
-
-  constexpr void __cordl_internal_set__badgeTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__badgeTimelinePropertyNames();
-
-  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__badgeTimelinePropertyNames() const;
-
-  constexpr void __cordl_internal_set__badgeTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__badgeStartTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeStartTransform() const;
-
-  constexpr void __cordl_internal_set__badgeStartTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__badgeMidTransform();
+  /// @brief Method Start, addr 0x2481ce0, size 0xa0, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeMidTransform() const;
 
-  constexpr void __cordl_internal_set__badgeMidTransform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__badgeMidTransform();
 
-  constexpr ::StringW& __cordl_internal_get__songPreviewTrackName();
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeStartTransform() const;
 
-  constexpr ::StringW const& __cordl_internal_get__songPreviewTrackName() const;
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__badgeStartTransform();
 
-  constexpr void __cordl_internal_set__songPreviewTrackName(::StringW value);
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__badgeTimelinePropertyNames() const;
 
-  constexpr ::StringW& __cordl_internal_get__resultsMocksActivationTrack();
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__badgeTimelinePropertyNames();
 
-  constexpr ::StringW const& __cordl_internal_get__resultsMocksActivationTrack() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__badgeTimelineTrackNames() const;
 
-  constexpr void __cordl_internal_set__resultsMocksActivationTrack(::StringW value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager>& __cordl_internal_get__multiplayerScoreRingManager();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> const& __cordl_internal_get__multiplayerScoreRingManager() const;
-
-  constexpr void __cordl_internal_set__multiplayerScoreRingManager(::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView>& __cordl_internal_get__multiplayerResultsPyramidView();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> const& __cordl_internal_get__multiplayerResultsPyramidView() const;
-
-  constexpr void __cordl_internal_set__multiplayerResultsPyramidView(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
-
-  constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
-
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
-
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
-
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
-
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__badgeTimelineTrackNames();
 
   constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+  constexpr ::UnityEngine::PropertyName const& __cordl_internal_get__localPlayerTimelinePropertyName() const;
+
+  constexpr ::UnityEngine::PropertyName& __cordl_internal_get__localPlayerTimelinePropertyName();
+
+  constexpr ::StringW const& __cordl_internal_get__localPlayerTrackName() const;
+
+  constexpr ::StringW& __cordl_internal_get__localPlayerTrackName();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> const& __cordl_internal_get__multiplayerResultsPyramidView() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView>& __cordl_internal_get__multiplayerResultsPyramidView();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> const& __cordl_internal_get__multiplayerScoreRingManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager>& __cordl_internal_get__multiplayerScoreRingManager();
+
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr ::System::Action*& __cordl_internal_get__onCompleted();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onCompleted() const;
 
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
+
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__outroPlayableDirector();
+
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__playerTimelinePropertyNames() const;
+
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__playerTimelinePropertyNames();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__playerTimelineTrackNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__playerTimelineTrackNames();
+
+  constexpr ::StringW const& __cordl_internal_get__resultsMocksActivationTrack() const;
+
+  constexpr ::StringW& __cordl_internal_get__resultsMocksActivationTrack();
+
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__resultsTimelinePropertyNames() const;
+
+  constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& __cordl_internal_get__resultsTimelinePropertyNames();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__resultsTimelineTrackNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__resultsTimelineTrackNames();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__ringTimelineTrackNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__ringTimelineTrackNames();
+
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+
+  constexpr ::StringW const& __cordl_internal_get__songPreviewTrackName() const;
+
+  constexpr ::StringW& __cordl_internal_get__songPreviewTrackName();
+
+  constexpr void __cordl_internal_set__badgeMidTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__badgeStartTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__badgeTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
+
+  constexpr void __cordl_internal_set__badgeTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+
+  constexpr void __cordl_internal_set__localPlayerTimelinePropertyName(::UnityEngine::PropertyName value);
+
+  constexpr void __cordl_internal_set__localPlayerTrackName(::StringW value);
+
+  constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
+
+  constexpr void __cordl_internal_set__multiplayerResultsPyramidView(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> value);
+
+  constexpr void __cordl_internal_set__multiplayerScoreRingManager(::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
   constexpr void __cordl_internal_set__onCompleted(::System::Action* value);
 
-  /// @brief Method Start, addr 0x2253df4, size 0xa0, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method OnValidate, addr 0x2253f54, size 0x7a4, virtual false, abstract: false, final false
-  inline void OnValidate();
+  constexpr void __cordl_internal_set__playerTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
 
-  /// @brief Method OnDestroy, addr 0x22546f8, size 0xd0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__playerTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method AnimateOutro, addr 0x2249c54, size 0x1c0, virtual false, abstract: false, final false
-  inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
+  constexpr void __cordl_internal_set__resultsMocksActivationTrack(::StringW value);
 
-  /// @brief Method BindOutroTimeline, addr 0x2254864, size 0x6b4, virtual false, abstract: false, final false
-  inline void BindOutroTimeline();
+  constexpr void __cordl_internal_set__resultsTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value);
 
-  /// @brief Method BindRingsAndAudio, addr 0x2255138, size 0x968, virtual false, abstract: false, final false
-  inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
+  constexpr void __cordl_internal_set__resultsTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method Completed, addr 0x22560b4, size 0x24, virtual false, abstract: false, final false
-  inline void Completed();
+  constexpr void __cordl_internal_set__ringTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2253e94, size 0x24, virtual false, abstract: false, final false
-  inline void HandlePlayerSpawningDidFinish();
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
+  constexpr void __cordl_internal_set__songPreviewTrackName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22564d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2484180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerOutroAnimationController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerOutroAnimationController(MultiplayerOutroAnimationController&&) = delete;
@@ -293,12 +297,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerOutroAnimationController(MultiplayerOutroAnimationController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerOutroAnimationController();
-
-public:
   /// @brief Field _outroPlayableDirector, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
 

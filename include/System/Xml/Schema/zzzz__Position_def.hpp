@@ -18,21 +18,19 @@ MARK_VAL_T(::System::Xml::Schema::Position);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11597))
 // CS Name: ::System.Xml.Schema::Position
 struct CORDL_TYPE Position {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x28ada14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29984f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t symbol, ::System::Object* particle);
-
-  // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr Position(int32_t symbol, ::System::Object* particle) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Position();
+
+  // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr Position(int32_t symbol, ::System::Object* particle) noexcept;
 
   /// @brief Field symbol, offset: 0x0, size: 0x4, def value: None
   int32_t symbol;

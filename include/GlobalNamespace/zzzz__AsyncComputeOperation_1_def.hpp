@@ -26,8 +26,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12679))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12680))
 // CS Name: ::AsyncComputeOperation`1<T>*
 class CORDL_TYPE AsyncComputeOperation_1 : public ::GlobalNamespace::AsyncComputeOperation {
 public:
@@ -37,41 +35,47 @@ public:
 
   __declspec(property(get = get_task))::System::Threading::Tasks::Task_1<T>* task;
 
+  /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Cancel();
+
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Complete(T computeResult);
+
+  /// @brief Method Compute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T Compute();
+
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Execute(bool disposed);
+
+  /// @brief Method Fail, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Fail(::System::Exception* ex);
+
+  /// @brief Method Finally, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Finally();
+
+  /// @brief Method IsValidRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool IsValidRequest();
+
+  static inline ::GlobalNamespace::AsyncComputeOperation_1<T>* New_ctor(int32_t timeoutMs);
+
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get__tcs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get__tcs() const;
 
   constexpr void __cordl_internal_set__tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
 
-  /// @brief Method get_task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<T>* get_task();
-
-  static inline ::GlobalNamespace::AsyncComputeOperation_1<T>* New_ctor(int32_t timeoutMs);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Execute(bool disposed);
+  /// @brief Method get_task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<T>* get_task();
 
-  /// @brief Method IsValidRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool IsValidRequest();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncComputeOperation_1();
 
-  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Complete(T computeResult);
-
-  /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Cancel();
-
-  /// @brief Method Fail, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Fail(::System::Exception* ex);
-
-  /// @brief Method Compute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T Compute();
-
-  /// @brief Method Finally, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Finally();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncComputeOperation_1(AsyncComputeOperation_1&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncComputeOperation_1(AsyncComputeOperation_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncComputeOperation_1();
-
-public:
   /// @brief Field _tcs, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____tcs;
 

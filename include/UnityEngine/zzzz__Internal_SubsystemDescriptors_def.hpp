@@ -17,15 +17,19 @@ MARK_REF_PTR_T(::UnityEngine::Internal_SubsystemDescriptors);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15963))
 // CS Name: ::UnityEngine::Internal_SubsystemDescriptors*
 class CORDL_TYPE Internal_SubsystemDescriptors : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Internal_AddDescriptor, addr 0x2d1a1f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_AddDescriptor, addr 0x2e273c0, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Internal_SubsystemDescriptors();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Internal_SubsystemDescriptors", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Internal_SubsystemDescriptors(Internal_SubsystemDescriptors&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Internal_SubsystemDescriptors(Internal_SubsystemDescriptors const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Internal_SubsystemDescriptors();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

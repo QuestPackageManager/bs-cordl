@@ -28,8 +28,6 @@ namespace TMPro {
 // cpp template
 template <typename A>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12298))
 // CS Name: ::TMPro::FastAction`1<A>*
 class CORDL_TYPE FastAction_1 : public ::System::Object {
 public:
@@ -42,33 +40,39 @@ public:
       get = __cordl_internal_get_lookup,
       put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* lookup;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*& __cordl_internal_get_delegates();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*> const& __cordl_internal_get_delegates() const;
-
-  constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*& __cordl_internal_get_lookup();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*> const&
-  __cordl_internal_get_lookup() const;
-
-  constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* value);
-
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_1<A>* rhs);
-
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Remove(::System::Action_1<A>* rhs);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Call(A a);
 
   static inline ::TMPro::FastAction_1<A>* New_ctor();
 
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Remove(::System::Action_1<A>* rhs);
+
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*& __cordl_internal_get_delegates();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*> const& __cordl_internal_get_delegates() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*& __cordl_internal_get_lookup();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*> const&
+  __cordl_internal_get_lookup() const;
+
+  constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* value);
+
+  constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FastAction_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FastAction_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastAction_1(FastAction_1&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastAction_1(FastAction_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FastAction_1();
-
-public:
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* ___delegates;
 

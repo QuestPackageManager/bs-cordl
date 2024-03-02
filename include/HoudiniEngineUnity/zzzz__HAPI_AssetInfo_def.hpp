@@ -15,12 +15,14 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AssetInfo);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 78, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9731))
 // CS Name: ::HoudiniEngineUnity::HAPI_AssetInfo
 struct CORDL_TYPE HAPI_AssetInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_AssetInfo();
+
   // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "objectNodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "hasEverCooked", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "labelSH", ty: "int32_t", modifiers:
   // "", def_value: None }, CppParam { name: "filePathSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "versionSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
@@ -32,10 +34,6 @@ public:
   constexpr HAPI_AssetInfo(int32_t nodeId, int32_t objectNodeId, bool hasEverCooked, int32_t nameSH, int32_t labelSH, int32_t filePathSH, int32_t versionSH, int32_t fullOpNameSH, int32_t helpTextSH,
                            int32_t helpURLSH, int32_t objectCount, int32_t handleCount, int32_t transformInputCount, int32_t geoInputCount, int32_t geoOutputCount, bool haveObjectsChanged,
                            bool haveMaterialsChanged) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_AssetInfo();
 
   /// @brief Field nodeId, offset: 0x0, size: 0x4, def value: None
   int32_t nodeId;

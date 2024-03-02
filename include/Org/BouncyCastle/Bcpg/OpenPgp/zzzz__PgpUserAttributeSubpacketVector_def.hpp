@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVect
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1671))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpUserAttributeSubpacketVector*
 class CORDL_TYPE PgpUserAttributeSubpacketVector : public ::System::Object {
 public:
@@ -38,33 +36,39 @@ public:
   __declspec(property(get = __cordl_internal_get_packets,
                       put = __cordl_internal_set_packets))::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>& __cordl_internal_get_packets();
+  /// @brief Method Equals, addr 0x113e430, size 0x124, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> const& __cordl_internal_get_packets() const;
+  /// @brief Method GetHashCode, addr 0x113e554, size 0x78, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  constexpr void __cordl_internal_set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> value);
+  /// @brief Method GetImageAttribute, addr 0x113e3a8, size 0x80, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* GetImageAttribute();
+
+  /// @brief Method GetSubpacket, addr 0x113e308, size 0xa0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets);
 
-  /// @brief Method .ctor, addr 0x10cd480, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets);
-
-  /// @brief Method GetSubpacket, addr 0x10cd4a8, size 0xa0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type);
-
-  /// @brief Method GetImageAttribute, addr 0x10cd548, size 0x80, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* GetImageAttribute();
-
-  /// @brief Method ToSubpacketArray, addr 0x10cd5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSubpacketArray, addr 0x113e428, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> ToSubpacketArray();
 
-  /// @brief Method Equals, addr 0x10cd5d0, size 0x124, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> const& __cordl_internal_get_packets() const;
 
-  /// @brief Method GetHashCode, addr 0x10cd6f4, size 0x78, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>& __cordl_internal_get_packets();
 
+  constexpr void __cordl_internal_set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> value);
+
+  /// @brief Method .ctor, addr 0x113e2e0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> packets);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpUserAttributeSubpacketVector();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpUserAttributeSubpacketVector(PgpUserAttributeSubpacketVector&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpUserAttributeSubpacketVector(PgpUserAttributeSubpacketVector const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpUserAttributeSubpacketVector();
-
-public:
   /// @brief Field packets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> ___packets;
 

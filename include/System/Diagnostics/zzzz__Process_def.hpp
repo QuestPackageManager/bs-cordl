@@ -87,8 +87,6 @@ MARK_VAL_T(::System::Diagnostics::__Process__ProcInfo);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8948))
 // CS Name: ::Process::StreamReadMode
 struct CORDL_TYPE __Process__StreamReadMode {
 public:
@@ -107,12 +105,17 @@ public:
     return static_cast<____Process__StreamReadMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Process__StreamReadMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Process__StreamReadMode();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Process__StreamReadMode(int32_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
@@ -120,14 +123,14 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field undefined value: static_cast<int32_t>(0x0)
-  static ::System::Diagnostics::__Process__StreamReadMode const undefined;
+  /// @brief Field asyncMode value: static_cast<int32_t>(0x2)
+  static ::System::Diagnostics::__Process__StreamReadMode const asyncMode;
 
   /// @brief Field syncMode value: static_cast<int32_t>(0x1)
   static ::System::Diagnostics::__Process__StreamReadMode const syncMode;
 
-  /// @brief Field asyncMode value: static_cast<int32_t>(0x2)
-  static ::System::Diagnostics::__Process__StreamReadMode const asyncMode;
+  /// @brief Field undefined value: static_cast<int32_t>(0x0)
+  static ::System::Diagnostics::__Process__StreamReadMode const undefined;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -141,8 +144,6 @@ static_assert(offsetof(::System::Diagnostics::__Process__StreamReadMode, value__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8949))
 // CS Name: ::Process::State
 struct CORDL_TYPE __Process__State {
 public:
@@ -166,21 +167,35 @@ public:
     return static_cast<____Process__State_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Process__State(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Process__State();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Process__State(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Associated value: static_cast<int32_t>(0x20)
+  static ::System::Diagnostics::__Process__State const Associated;
+
+  /// @brief Field Exited value: static_cast<int32_t>(0x10)
+  static ::System::Diagnostics::__Process__State const Exited;
 
   /// @brief Field HaveId value: static_cast<int32_t>(0x1)
   static ::System::Diagnostics::__Process__State const HaveId;
+
+  /// @brief Field HaveNtProcessInfo value: static_cast<int32_t>(0xc)
+  static ::System::Diagnostics::__Process__State const HaveNtProcessInfo;
+
+  /// @brief Field HaveProcessInfo value: static_cast<int32_t>(0x8)
+  static ::System::Diagnostics::__Process__State const HaveProcessInfo;
 
   /// @brief Field IsLocal value: static_cast<int32_t>(0x2)
   static ::System::Diagnostics::__Process__State const IsLocal;
@@ -188,20 +203,11 @@ public:
   /// @brief Field IsNt value: static_cast<int32_t>(0x4)
   static ::System::Diagnostics::__Process__State const IsNt;
 
-  /// @brief Field HaveProcessInfo value: static_cast<int32_t>(0x8)
-  static ::System::Diagnostics::__Process__State const HaveProcessInfo;
-
-  /// @brief Field Exited value: static_cast<int32_t>(0x10)
-  static ::System::Diagnostics::__Process__State const Exited;
-
-  /// @brief Field Associated value: static_cast<int32_t>(0x20)
-  static ::System::Diagnostics::__Process__State const Associated;
-
   /// @brief Field IsWin2k value: static_cast<int32_t>(0x40)
   static ::System::Diagnostics::__Process__State const IsWin2k;
 
-  /// @brief Field HaveNtProcessInfo value: static_cast<int32_t>(0xc)
-  static ::System::Diagnostics::__Process__State const HaveNtProcessInfo;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -215,22 +221,20 @@ static_assert(offsetof(::System::Diagnostics::__Process__State, value__) == 0x0,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8950))
 // CS Name: ::Process::ProcInfo
 struct CORDL_TYPE __Process__ProcInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Process__ProcInfo();
+
   // Ctor Parameters [CppParam { name: "process_handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "envVariables", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "UserName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "Domain", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Password", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "LoadUserProfile", ty: "bool", modifiers:
   // "", def_value: None }]
   constexpr __Process__ProcInfo(void* process_handle, int32_t pid, ::ArrayW<::StringW, ::Array<::StringW>*> envVariables, ::StringW UserName, ::StringW Domain, void* Password,
                                 bool LoadUserProfile) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Process__ProcInfo();
 
   /// @brief Field process_handle, offset: 0x0, size: 0x8, def value: None
   void* process_handle;
@@ -280,8 +284,6 @@ static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, LoadUserProfi
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(9469))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
 // CS Name: ::System.Diagnostics::Process*
 class CORDL_TYPE Process : public ::System::ComponentModel::Component {
 public:
@@ -292,114 +294,21 @@ public:
 
   using StreamReadMode = ::System::Diagnostics::__Process__StreamReadMode;
 
-  /// @brief Field haveProcessId, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_haveProcessId, put = __cordl_internal_set_haveProcessId)) bool haveProcessId;
-
-  /// @brief Field processId, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_processId, put = __cordl_internal_set_processId)) int32_t processId;
-
-  /// @brief Field haveProcessHandle, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_haveProcessHandle, put = __cordl_internal_set_haveProcessHandle)) bool haveProcessHandle;
-
-  /// @brief Field m_processHandle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_processHandle, put = __cordl_internal_set_m_processHandle))::Microsoft::Win32::SafeHandles::SafeProcessHandle* m_processHandle;
-
-  /// @brief Field isRemoteMachine, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_isRemoteMachine, put = __cordl_internal_set_isRemoteMachine)) bool isRemoteMachine;
-
-  /// @brief Field machineName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_machineName, put = __cordl_internal_set_machineName))::StringW machineName;
-
-  /// @brief Field m_processAccess, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_processAccess, put = __cordl_internal_set_m_processAccess)) int32_t m_processAccess;
-
-  /// @brief Field threads, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_threads, put = __cordl_internal_set_threads))::System::Diagnostics::ProcessThreadCollection* threads;
-
-  /// @brief Field modules, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_modules, put = __cordl_internal_set_modules))::System::Diagnostics::ProcessModuleCollection* modules;
-
-  /// @brief Field haveWorkingSetLimits, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get_haveWorkingSetLimits, put = __cordl_internal_set_haveWorkingSetLimits)) bool haveWorkingSetLimits;
-
-  /// @brief Field havePriorityClass, offset 0x69, size 0x1
-  __declspec(property(get = __cordl_internal_get_havePriorityClass, put = __cordl_internal_set_havePriorityClass)) bool havePriorityClass;
-
-  /// @brief Field startInfo, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_startInfo, put = __cordl_internal_set_startInfo))::System::Diagnostics::ProcessStartInfo* startInfo;
-
-  /// @brief Field watchForExit, offset 0x78, size 0x1
-  __declspec(property(get = __cordl_internal_get_watchForExit, put = __cordl_internal_set_watchForExit)) bool watchForExit;
-
-  /// @brief Field watchingForExit, offset 0x79, size 0x1
-  __declspec(property(get = __cordl_internal_get_watchingForExit, put = __cordl_internal_set_watchingForExit)) bool watchingForExit;
-
-  /// @brief Field onExited, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_onExited, put = __cordl_internal_set_onExited))::System::EventHandler* onExited;
-
-  /// @brief Field exited, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get_exited, put = __cordl_internal_set_exited)) bool exited;
-
-  /// @brief Field exitCode, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_exitCode, put = __cordl_internal_set_exitCode)) int32_t exitCode;
-
-  /// @brief Field signaled, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get_signaled, put = __cordl_internal_set_signaled)) bool signaled;
-
-  /// @brief Field haveExitTime, offset 0x91, size 0x1
-  __declspec(property(get = __cordl_internal_get_haveExitTime, put = __cordl_internal_set_haveExitTime)) bool haveExitTime;
-
-  /// @brief Field raisedOnExited, offset 0x92, size 0x1
-  __declspec(property(get = __cordl_internal_get_raisedOnExited, put = __cordl_internal_set_raisedOnExited)) bool raisedOnExited;
-
-  /// @brief Field registeredWaitHandle, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_registeredWaitHandle, put = __cordl_internal_set_registeredWaitHandle))::System::Threading::RegisteredWaitHandle* registeredWaitHandle;
-
-  /// @brief Field waitHandle, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_waitHandle, put = __cordl_internal_set_waitHandle))::System::Threading::WaitHandle* waitHandle;
-
-  /// @brief Field synchronizingObject, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_synchronizingObject, put = __cordl_internal_set_synchronizingObject))::System::ComponentModel::ISynchronizeInvoke* synchronizingObject;
-
-  /// @brief Field standardOutput, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardOutput, put = __cordl_internal_set_standardOutput))::System::IO::StreamReader* standardOutput;
-
-  /// @brief Field standardInput, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardInput, put = __cordl_internal_set_standardInput))::System::IO::StreamWriter* standardInput;
-
-  /// @brief Field standardError, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardError, put = __cordl_internal_set_standardError))::System::IO::StreamReader* standardError;
-
-  /// @brief Field disposed, offset 0xc8, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
-
-  /// @brief Field outputStreamReadMode, offset 0xcc, size 0x4
-  __declspec(property(get = __cordl_internal_get_outputStreamReadMode, put = __cordl_internal_set_outputStreamReadMode))::System::Diagnostics::__Process__StreamReadMode outputStreamReadMode;
-
-  /// @brief Field errorStreamReadMode, offset 0xd0, size 0x4
-  __declspec(property(get = __cordl_internal_get_errorStreamReadMode, put = __cordl_internal_set_errorStreamReadMode))::System::Diagnostics::__Process__StreamReadMode errorStreamReadMode;
-
-  /// @brief Field inputStreamReadMode, offset 0xd4, size 0x4
-  __declspec(property(get = __cordl_internal_get_inputStreamReadMode, put = __cordl_internal_set_inputStreamReadMode))::System::Diagnostics::__Process__StreamReadMode inputStreamReadMode;
-
-  /// @brief Field output, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output))::System::Diagnostics::AsyncStreamReader* output;
-
-  /// @brief Field error, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::System::Diagnostics::AsyncStreamReader* error;
-
-  /// @brief Field process_name, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_process_name, put = __cordl_internal_set_process_name))::StringW process_name;
-
   __declspec(property(get = get_Associated)) bool Associated;
 
   __declspec(property(get = get_ExitCode)) int32_t ExitCode;
 
-  __declspec(property(get = get_HasExited)) bool HasExited;
-
   __declspec(property(get = get_Handle)) void* Handle;
 
+  __declspec(property(get = get_HasExited)) bool HasExited;
+
   __declspec(property(get = get_Id)) int32_t Id;
+
+  __declspec(property(get = get_ProcessName))::StringW ProcessName;
+
+  __declspec(property(get = get_StandardError))::System::IO::StreamReader* StandardError;
+
+  __declspec(property(get = get_StandardOutput))::System::IO::StreamReader* StandardOutput;
 
   __declspec(property(get = get_StartInfo, put = set_StartInfo))::System::Diagnostics::ProcessStartInfo* StartInfo;
 
@@ -407,357 +316,456 @@ public:
 
   __declspec(property(get = get_TotalProcessorTime))::System::TimeSpan TotalProcessorTime;
 
-  __declspec(property(get = get_StandardOutput))::System::IO::StreamReader* StandardOutput;
+  /// @brief Field disposed, offset 0xc8, size 0x1
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
-  __declspec(property(get = get_StandardError))::System::IO::StreamReader* StandardError;
+  /// @brief Field error, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::System::Diagnostics::AsyncStreamReader* error;
 
-  __declspec(property(get = get_ProcessName))::StringW ProcessName;
+  /// @brief Field errorStreamReadMode, offset 0xd0, size 0x4
+  __declspec(property(get = __cordl_internal_get_errorStreamReadMode, put = __cordl_internal_set_errorStreamReadMode))::System::Diagnostics::__Process__StreamReadMode errorStreamReadMode;
 
-  constexpr bool& __cordl_internal_get_haveProcessId();
+  /// @brief Field exitCode, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_exitCode, put = __cordl_internal_set_exitCode)) int32_t exitCode;
 
-  constexpr bool const& __cordl_internal_get_haveProcessId() const;
+  /// @brief Field exited, offset 0x88, size 0x1
+  __declspec(property(get = __cordl_internal_get_exited, put = __cordl_internal_set_exited)) bool exited;
 
-  constexpr void __cordl_internal_set_haveProcessId(bool value);
+  /// @brief Field haveExitTime, offset 0x91, size 0x1
+  __declspec(property(get = __cordl_internal_get_haveExitTime, put = __cordl_internal_set_haveExitTime)) bool haveExitTime;
 
-  constexpr int32_t& __cordl_internal_get_processId();
+  /// @brief Field havePriorityClass, offset 0x69, size 0x1
+  __declspec(property(get = __cordl_internal_get_havePriorityClass, put = __cordl_internal_set_havePriorityClass)) bool havePriorityClass;
 
-  constexpr int32_t const& __cordl_internal_get_processId() const;
+  /// @brief Field haveProcessHandle, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_haveProcessHandle, put = __cordl_internal_set_haveProcessHandle)) bool haveProcessHandle;
 
-  constexpr void __cordl_internal_set_processId(int32_t value);
+  /// @brief Field haveProcessId, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_haveProcessId, put = __cordl_internal_set_haveProcessId)) bool haveProcessId;
 
-  constexpr bool& __cordl_internal_get_haveProcessHandle();
+  /// @brief Field haveWorkingSetLimits, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get_haveWorkingSetLimits, put = __cordl_internal_set_haveWorkingSetLimits)) bool haveWorkingSetLimits;
 
-  constexpr bool const& __cordl_internal_get_haveProcessHandle() const;
+  /// @brief Field inputStreamReadMode, offset 0xd4, size 0x4
+  __declspec(property(get = __cordl_internal_get_inputStreamReadMode, put = __cordl_internal_set_inputStreamReadMode))::System::Diagnostics::__Process__StreamReadMode inputStreamReadMode;
 
-  constexpr void __cordl_internal_set_haveProcessHandle(bool value);
+  /// @brief Field isRemoteMachine, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_isRemoteMachine, put = __cordl_internal_set_isRemoteMachine)) bool isRemoteMachine;
 
-  constexpr ::Microsoft::Win32::SafeHandles::SafeProcessHandle*& __cordl_internal_get_m_processHandle();
+  /// @brief Field m_processAccess, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_processAccess, put = __cordl_internal_set_m_processAccess)) int32_t m_processAccess;
 
-  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> const& __cordl_internal_get_m_processHandle() const;
+  /// @brief Field m_processHandle, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_processHandle, put = __cordl_internal_set_m_processHandle))::Microsoft::Win32::SafeHandles::SafeProcessHandle* m_processHandle;
 
-  constexpr void __cordl_internal_set_m_processHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
+  /// @brief Field machineName, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_machineName, put = __cordl_internal_set_machineName))::StringW machineName;
 
-  constexpr bool& __cordl_internal_get_isRemoteMachine();
+  /// @brief Field modules, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_modules, put = __cordl_internal_set_modules))::System::Diagnostics::ProcessModuleCollection* modules;
 
-  constexpr bool const& __cordl_internal_get_isRemoteMachine() const;
+  /// @brief Field onExited, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_onExited, put = __cordl_internal_set_onExited))::System::EventHandler* onExited;
 
-  constexpr void __cordl_internal_set_isRemoteMachine(bool value);
+  /// @brief Field output, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output))::System::Diagnostics::AsyncStreamReader* output;
 
-  constexpr ::StringW& __cordl_internal_get_machineName();
+  /// @brief Field outputStreamReadMode, offset 0xcc, size 0x4
+  __declspec(property(get = __cordl_internal_get_outputStreamReadMode, put = __cordl_internal_set_outputStreamReadMode))::System::Diagnostics::__Process__StreamReadMode outputStreamReadMode;
 
-  constexpr ::StringW const& __cordl_internal_get_machineName() const;
+  /// @brief Field processId, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_processId, put = __cordl_internal_set_processId)) int32_t processId;
 
-  constexpr void __cordl_internal_set_machineName(::StringW value);
+  /// @brief Field process_name, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_process_name, put = __cordl_internal_set_process_name))::StringW process_name;
 
-  constexpr int32_t& __cordl_internal_get_m_processAccess();
+  /// @brief Field raisedOnExited, offset 0x92, size 0x1
+  __declspec(property(get = __cordl_internal_get_raisedOnExited, put = __cordl_internal_set_raisedOnExited)) bool raisedOnExited;
 
-  constexpr int32_t const& __cordl_internal_get_m_processAccess() const;
+  /// @brief Field registeredWaitHandle, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_registeredWaitHandle, put = __cordl_internal_set_registeredWaitHandle))::System::Threading::RegisteredWaitHandle* registeredWaitHandle;
 
-  constexpr void __cordl_internal_set_m_processAccess(int32_t value);
+  /// @brief Field signaled, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_signaled, put = __cordl_internal_set_signaled)) bool signaled;
 
-  constexpr ::System::Diagnostics::ProcessThreadCollection*& __cordl_internal_get_threads();
+  /// @brief Field standardError, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_standardError, put = __cordl_internal_set_standardError))::System::IO::StreamReader* standardError;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessThreadCollection*> const& __cordl_internal_get_threads() const;
+  /// @brief Field standardInput, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_standardInput, put = __cordl_internal_set_standardInput))::System::IO::StreamWriter* standardInput;
 
-  constexpr void __cordl_internal_set_threads(::System::Diagnostics::ProcessThreadCollection* value);
+  /// @brief Field standardOutput, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_standardOutput, put = __cordl_internal_set_standardOutput))::System::IO::StreamReader* standardOutput;
 
-  constexpr ::System::Diagnostics::ProcessModuleCollection*& __cordl_internal_get_modules();
+  /// @brief Field startInfo, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_startInfo, put = __cordl_internal_set_startInfo))::System::Diagnostics::ProcessStartInfo* startInfo;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessModuleCollection*> const& __cordl_internal_get_modules() const;
+  /// @brief Field synchronizingObject, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_synchronizingObject, put = __cordl_internal_set_synchronizingObject))::System::ComponentModel::ISynchronizeInvoke* synchronizingObject;
 
-  constexpr void __cordl_internal_set_modules(::System::Diagnostics::ProcessModuleCollection* value);
+  /// @brief Field threads, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_threads, put = __cordl_internal_set_threads))::System::Diagnostics::ProcessThreadCollection* threads;
 
-  constexpr bool& __cordl_internal_get_haveWorkingSetLimits();
+  /// @brief Field waitHandle, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_waitHandle, put = __cordl_internal_set_waitHandle))::System::Threading::WaitHandle* waitHandle;
 
-  constexpr bool const& __cordl_internal_get_haveWorkingSetLimits() const;
+  /// @brief Field watchForExit, offset 0x78, size 0x1
+  __declspec(property(get = __cordl_internal_get_watchForExit, put = __cordl_internal_set_watchForExit)) bool watchForExit;
 
-  constexpr void __cordl_internal_set_haveWorkingSetLimits(bool value);
+  /// @brief Field watchingForExit, offset 0x79, size 0x1
+  __declspec(property(get = __cordl_internal_get_watchingForExit, put = __cordl_internal_set_watchingForExit)) bool watchingForExit;
 
-  constexpr bool& __cordl_internal_get_havePriorityClass();
+  /// @brief Method Close, addr 0x2a59f94, size 0x158, virtual false, abstract: false, final false
+  inline void Close();
 
-  constexpr bool const& __cordl_internal_get_havePriorityClass() const;
+  /// @brief Method CompletionCallback, addr 0x2a59e18, size 0x18, virtual false, abstract: false, final false
+  inline void CompletionCallback(::System::Object* context, bool wasSignaled);
 
-  constexpr void __cordl_internal_set_havePriorityClass(bool value);
+  /// @brief Method CreatePipe, addr 0x2a5c5c8, size 0x19c, virtual false, abstract: false, final false
+  static inline void CreatePipe(ByRef<void*> read, ByRef<void*> write, bool writeDirection);
 
-  constexpr ::System::Diagnostics::ProcessStartInfo*& __cordl_internal_get_startInfo();
+  /// @brief Method CreateProcess_internal, addr 0x2a5c430, size 0x4, virtual false, abstract: false, final false
+  static inline bool CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* startInfo, void* stdin, void* stdout, void* stderr, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessStartInfo*> const& __cordl_internal_get_startInfo() const;
+  /// @brief Method Dispose, addr 0x2a59f44, size 0x50, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr void __cordl_internal_set_startInfo(::System::Diagnostics::ProcessStartInfo* value);
+  /// @brief Method EnsureState, addr 0x2a58a40, size 0x138, virtual false, abstract: false, final false
+  inline void EnsureState(::System::Diagnostics::__Process__State state);
 
-  constexpr bool& __cordl_internal_get_watchForExit();
+  /// @brief Method EnsureWatchingForExit, addr 0x2a5a100, size 0x234, virtual false, abstract: false, final false
+  inline void EnsureWatchingForExit();
 
-  constexpr bool const& __cordl_internal_get_watchForExit() const;
+  /// @brief Method FillUserInfo, addr 0x2a5c488, size 0x140, virtual false, abstract: false, final false
+  static inline void FillUserInfo(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  constexpr void __cordl_internal_set_watchForExit(bool value);
+  /// @brief Method GetCurrentProcess, addr 0x2a568bc, size 0x88, virtual false, abstract: false, final false
+  static inline ::System::Diagnostics::Process* GetCurrentProcess();
 
-  constexpr bool& __cordl_internal_get_watchingForExit();
+  /// @brief Method GetProcessById, addr 0x2a5a334, size 0x48, virtual false, abstract: false, final false
+  static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId);
 
-  constexpr bool const& __cordl_internal_get_watchingForExit() const;
+  /// @brief Method GetProcessById, addr 0x2a5a37c, size 0x1d8, virtual false, abstract: false, final false
+  static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId, ::StringW machineName);
 
-  constexpr void __cordl_internal_set_watchingForExit(bool value);
+  /// @brief Method GetProcessHandle, addr 0x2a5a794, size 0x8, virtual false, abstract: false, final false
+  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access);
 
-  constexpr ::System::EventHandler*& __cordl_internal_get_onExited();
+  /// @brief Method GetProcessHandle, addr 0x2a58ee8, size 0x4c4, virtual false, abstract: false, final false
+  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access, bool throwIfExited);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __cordl_internal_get_onExited() const;
+  /// @brief Method GetProcessTimes, addr 0x2a595e0, size 0x2c8, virtual false, abstract: false, final false
+  inline ::System::Diagnostics::ProcessThreadTimes* GetProcessTimes();
 
-  constexpr void __cordl_internal_set_onExited(::System::EventHandler* value);
+  /// @brief Method GetProcess_internal, addr 0x2a5c398, size 0x4, virtual false, abstract: false, final false
+  static inline void* GetProcess_internal(int32_t pid);
 
-  constexpr bool& __cordl_internal_get_exited();
+  /// @brief Method IsLocalMachine, addr 0x2a5c39c, size 0x90, virtual false, abstract: false, final false
+  static inline bool IsLocalMachine(::StringW machineName);
 
-  constexpr bool const& __cordl_internal_get_exited() const;
+  static inline ::System::Diagnostics::Process* New_ctor();
 
-  constexpr void __cordl_internal_set_exited(bool value);
+  static inline ::System::Diagnostics::Process* New_ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
 
-  constexpr int32_t& __cordl_internal_get_exitCode();
+  static inline ::System::Diagnostics::Process* New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  constexpr int32_t const& __cordl_internal_get_exitCode() const;
+  /// @brief Method OnExited, addr 0x2a5a554, size 0x240, virtual false, abstract: false, final false
+  inline void OnExited();
 
-  constexpr void __cordl_internal_set_exitCode(int32_t value);
+  /// @brief Method OpenProcessHandle, addr 0x2a598e0, size 0xbc, virtual false, abstract: false, final false
+  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* OpenProcessHandle(int32_t access);
 
-  constexpr bool& __cordl_internal_get_signaled();
+  /// @brief Method ProcessName_icall, addr 0x2a5c2b4, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW ProcessName_icall(void* handle);
 
-  constexpr bool const& __cordl_internal_get_signaled() const;
+  /// @brief Method ProcessName_internal, addr 0x2a5c2b8, size 0xe0, virtual false, abstract: false, final false
+  static inline ::StringW ProcessName_internal(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  constexpr void __cordl_internal_set_signaled(bool value);
+  /// @brief Method RaiseOnExited, addr 0x2a59500, size 0xe0, virtual false, abstract: false, final false
+  inline void RaiseOnExited();
 
-  constexpr bool& __cordl_internal_get_haveExitTime();
+  /// @brief Method Refresh, addr 0x2a5a0ec, size 0x14, virtual false, abstract: false, final false
+  inline void Refresh();
 
-  constexpr bool const& __cordl_internal_get_haveExitTime() const;
+  /// @brief Method ReleaseProcessHandle, addr 0x2a59df0, size 0x28, virtual false, abstract: false, final false
+  inline void ReleaseProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  constexpr void __cordl_internal_set_haveExitTime(bool value);
+  /// @brief Method SetProcessHandle, addr 0x2a5a79c, size 0x1c, virtual false, abstract: false, final false
+  inline void SetProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
-  constexpr bool& __cordl_internal_get_raisedOnExited();
+  /// @brief Method SetProcessId, addr 0x2a5a7b8, size 0x10, virtual false, abstract: false, final false
+  inline void SetProcessId(int32_t processId);
 
-  constexpr bool const& __cordl_internal_get_raisedOnExited() const;
+  /// @brief Method ShellExecuteEx_internal, addr 0x2a5c42c, size 0x4, virtual false, abstract: false, final false
+  static inline bool ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  constexpr void __cordl_internal_set_raisedOnExited(bool value);
+  /// @brief Method Start, addr 0x2a5a7c8, size 0xfc, virtual false, abstract: false, final false
+  inline bool Start();
 
-  constexpr ::System::Threading::RegisteredWaitHandle*& __cordl_internal_get_registeredWaitHandle();
+  /// @brief Method StartWithCreateProcess, addr 0x2a5ace0, size 0x13d8, virtual false, abstract: false, final false
+  inline bool StartWithCreateProcess(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::RegisteredWaitHandle*> const& __cordl_internal_get_registeredWaitHandle() const;
+  /// @brief Method StartWithShellExecuteEx, addr 0x2a5a918, size 0x3c8, virtual false, abstract: false, final false
+  inline bool StartWithShellExecuteEx(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  constexpr void __cordl_internal_set_registeredWaitHandle(::System::Threading::RegisteredWaitHandle* value);
+  /// @brief Method StopWatchingForExit, addr 0x2a59e30, size 0x114, virtual false, abstract: false, final false
+  inline void StopWatchingForExit();
 
-  constexpr ::System::Threading::WaitHandle*& __cordl_internal_get_waitHandle();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get_waitHandle() const;
-
-  constexpr void __cordl_internal_set_waitHandle(::System::Threading::WaitHandle* value);
-
-  constexpr ::System::ComponentModel::ISynchronizeInvoke*& __cordl_internal_get_synchronizingObject();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISynchronizeInvoke*> const& __cordl_internal_get_synchronizingObject() const;
-
-  constexpr void __cordl_internal_set_synchronizingObject(::System::ComponentModel::ISynchronizeInvoke* value);
-
-  constexpr ::System::IO::StreamReader*& __cordl_internal_get_standardOutput();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_standardOutput() const;
-
-  constexpr void __cordl_internal_set_standardOutput(::System::IO::StreamReader* value);
-
-  constexpr ::System::IO::StreamWriter*& __cordl_internal_get_standardInput();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamWriter*> const& __cordl_internal_get_standardInput() const;
-
-  constexpr void __cordl_internal_set_standardInput(::System::IO::StreamWriter* value);
-
-  constexpr ::System::IO::StreamReader*& __cordl_internal_get_standardError();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_standardError() const;
-
-  constexpr void __cordl_internal_set_standardError(::System::IO::StreamReader* value);
-
-  constexpr bool& __cordl_internal_get_disposed();
+  /// @brief Method ToString, addr 0x2a5c0b8, size 0x16c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_outputStreamReadMode();
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_outputStreamReadMode() const;
-
-  constexpr void __cordl_internal_set_outputStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_errorStreamReadMode();
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_errorStreamReadMode() const;
-
-  constexpr void __cordl_internal_set_errorStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_inputStreamReadMode();
-
-  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_inputStreamReadMode() const;
-
-  constexpr void __cordl_internal_set_inputStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
-
-  constexpr ::System::Diagnostics::AsyncStreamReader*& __cordl_internal_get_output();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::AsyncStreamReader*> const& __cordl_internal_get_output() const;
-
-  constexpr void __cordl_internal_set_output(::System::Diagnostics::AsyncStreamReader* value);
+  constexpr bool& __cordl_internal_get_disposed();
 
   constexpr ::System::Diagnostics::AsyncStreamReader*& __cordl_internal_get_error();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::AsyncStreamReader*> const& __cordl_internal_get_error() const;
 
-  constexpr void __cordl_internal_set_error(::System::Diagnostics::AsyncStreamReader* value);
+  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_errorStreamReadMode() const;
 
-  constexpr ::StringW& __cordl_internal_get_process_name();
+  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_errorStreamReadMode();
+
+  constexpr int32_t const& __cordl_internal_get_exitCode() const;
+
+  constexpr int32_t& __cordl_internal_get_exitCode();
+
+  constexpr bool const& __cordl_internal_get_exited() const;
+
+  constexpr bool& __cordl_internal_get_exited();
+
+  constexpr bool const& __cordl_internal_get_haveExitTime() const;
+
+  constexpr bool& __cordl_internal_get_haveExitTime();
+
+  constexpr bool const& __cordl_internal_get_havePriorityClass() const;
+
+  constexpr bool& __cordl_internal_get_havePriorityClass();
+
+  constexpr bool const& __cordl_internal_get_haveProcessHandle() const;
+
+  constexpr bool& __cordl_internal_get_haveProcessHandle();
+
+  constexpr bool const& __cordl_internal_get_haveProcessId() const;
+
+  constexpr bool& __cordl_internal_get_haveProcessId();
+
+  constexpr bool const& __cordl_internal_get_haveWorkingSetLimits() const;
+
+  constexpr bool& __cordl_internal_get_haveWorkingSetLimits();
+
+  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_inputStreamReadMode() const;
+
+  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_inputStreamReadMode();
+
+  constexpr bool const& __cordl_internal_get_isRemoteMachine() const;
+
+  constexpr bool& __cordl_internal_get_isRemoteMachine();
+
+  constexpr int32_t const& __cordl_internal_get_m_processAccess() const;
+
+  constexpr int32_t& __cordl_internal_get_m_processAccess();
+
+  constexpr ::Microsoft::Win32::SafeHandles::SafeProcessHandle*& __cordl_internal_get_m_processHandle();
+
+  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> const& __cordl_internal_get_m_processHandle() const;
+
+  constexpr ::StringW const& __cordl_internal_get_machineName() const;
+
+  constexpr ::StringW& __cordl_internal_get_machineName();
+
+  constexpr ::System::Diagnostics::ProcessModuleCollection*& __cordl_internal_get_modules();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessModuleCollection*> const& __cordl_internal_get_modules() const;
+
+  constexpr ::System::EventHandler*& __cordl_internal_get_onExited();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __cordl_internal_get_onExited() const;
+
+  constexpr ::System::Diagnostics::AsyncStreamReader*& __cordl_internal_get_output();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::AsyncStreamReader*> const& __cordl_internal_get_output() const;
+
+  constexpr ::System::Diagnostics::__Process__StreamReadMode const& __cordl_internal_get_outputStreamReadMode() const;
+
+  constexpr ::System::Diagnostics::__Process__StreamReadMode& __cordl_internal_get_outputStreamReadMode();
+
+  constexpr int32_t const& __cordl_internal_get_processId() const;
+
+  constexpr int32_t& __cordl_internal_get_processId();
 
   constexpr ::StringW const& __cordl_internal_get_process_name() const;
 
+  constexpr ::StringW& __cordl_internal_get_process_name();
+
+  constexpr bool const& __cordl_internal_get_raisedOnExited() const;
+
+  constexpr bool& __cordl_internal_get_raisedOnExited();
+
+  constexpr ::System::Threading::RegisteredWaitHandle*& __cordl_internal_get_registeredWaitHandle();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::RegisteredWaitHandle*> const& __cordl_internal_get_registeredWaitHandle() const;
+
+  constexpr bool const& __cordl_internal_get_signaled() const;
+
+  constexpr bool& __cordl_internal_get_signaled();
+
+  constexpr ::System::IO::StreamReader*& __cordl_internal_get_standardError();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_standardError() const;
+
+  constexpr ::System::IO::StreamWriter*& __cordl_internal_get_standardInput();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamWriter*> const& __cordl_internal_get_standardInput() const;
+
+  constexpr ::System::IO::StreamReader*& __cordl_internal_get_standardOutput();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_standardOutput() const;
+
+  constexpr ::System::Diagnostics::ProcessStartInfo*& __cordl_internal_get_startInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessStartInfo*> const& __cordl_internal_get_startInfo() const;
+
+  constexpr ::System::ComponentModel::ISynchronizeInvoke*& __cordl_internal_get_synchronizingObject();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISynchronizeInvoke*> const& __cordl_internal_get_synchronizingObject() const;
+
+  constexpr ::System::Diagnostics::ProcessThreadCollection*& __cordl_internal_get_threads();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::ProcessThreadCollection*> const& __cordl_internal_get_threads() const;
+
+  constexpr ::System::Threading::WaitHandle*& __cordl_internal_get_waitHandle();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get_waitHandle() const;
+
+  constexpr bool const& __cordl_internal_get_watchForExit() const;
+
+  constexpr bool& __cordl_internal_get_watchForExit();
+
+  constexpr bool const& __cordl_internal_get_watchingForExit() const;
+
+  constexpr bool& __cordl_internal_get_watchingForExit();
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
+  constexpr void __cordl_internal_set_error(::System::Diagnostics::AsyncStreamReader* value);
+
+  constexpr void __cordl_internal_set_errorStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
+
+  constexpr void __cordl_internal_set_exitCode(int32_t value);
+
+  constexpr void __cordl_internal_set_exited(bool value);
+
+  constexpr void __cordl_internal_set_haveExitTime(bool value);
+
+  constexpr void __cordl_internal_set_havePriorityClass(bool value);
+
+  constexpr void __cordl_internal_set_haveProcessHandle(bool value);
+
+  constexpr void __cordl_internal_set_haveProcessId(bool value);
+
+  constexpr void __cordl_internal_set_haveWorkingSetLimits(bool value);
+
+  constexpr void __cordl_internal_set_inputStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
+
+  constexpr void __cordl_internal_set_isRemoteMachine(bool value);
+
+  constexpr void __cordl_internal_set_m_processAccess(int32_t value);
+
+  constexpr void __cordl_internal_set_m_processHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
+
+  constexpr void __cordl_internal_set_machineName(::StringW value);
+
+  constexpr void __cordl_internal_set_modules(::System::Diagnostics::ProcessModuleCollection* value);
+
+  constexpr void __cordl_internal_set_onExited(::System::EventHandler* value);
+
+  constexpr void __cordl_internal_set_output(::System::Diagnostics::AsyncStreamReader* value);
+
+  constexpr void __cordl_internal_set_outputStreamReadMode(::System::Diagnostics::__Process__StreamReadMode value);
+
+  constexpr void __cordl_internal_set_processId(int32_t value);
+
   constexpr void __cordl_internal_set_process_name(::StringW value);
 
-  static inline ::System::Diagnostics::Process* New_ctor();
+  constexpr void __cordl_internal_set_raisedOnExited(bool value);
 
-  /// @brief Method .ctor, addr 0x296ec58, size 0x88, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_registeredWaitHandle(::System::Threading::RegisteredWaitHandle* value);
+
+  constexpr void __cordl_internal_set_signaled(bool value);
+
+  constexpr void __cordl_internal_set_standardError(::System::IO::StreamReader* value);
+
+  constexpr void __cordl_internal_set_standardInput(::System::IO::StreamWriter* value);
+
+  constexpr void __cordl_internal_set_standardOutput(::System::IO::StreamReader* value);
+
+  constexpr void __cordl_internal_set_startInfo(::System::Diagnostics::ProcessStartInfo* value);
+
+  constexpr void __cordl_internal_set_synchronizingObject(::System::ComponentModel::ISynchronizeInvoke* value);
+
+  constexpr void __cordl_internal_set_threads(::System::Diagnostics::ProcessThreadCollection* value);
+
+  constexpr void __cordl_internal_set_waitHandle(::System::Threading::WaitHandle* value);
+
+  constexpr void __cordl_internal_set_watchForExit(bool value);
+
+  constexpr void __cordl_internal_set_watchingForExit(bool value);
+
+  /// @brief Method .ctor, addr 0x2a587d0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Diagnostics::Process* New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
-
-  /// @brief Method .ctor, addr 0x296ece0, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
-
-  /// @brief Method get_Associated, addr 0x296ed7c, size 0x20, virtual false, abstract: false, final false
-  inline bool get_Associated();
-
-  /// @brief Method get_ExitCode, addr 0x296ed9c, size 0x12c, virtual false, abstract: false, final false
-  inline int32_t get_ExitCode();
-
-  /// @brief Method get_HasExited, addr 0x296f000, size 0x370, virtual false, abstract: false, final false
-  inline bool get_HasExited();
-
-  /// @brief Method GetProcessTimes, addr 0x296fa68, size 0x2c8, virtual false, abstract: false, final false
-  inline ::System::Diagnostics::ProcessThreadTimes* GetProcessTimes();
-
-  /// @brief Method get_Handle, addr 0x296fd38, size 0x30, virtual false, abstract: false, final false
-  inline void* get_Handle();
-
-  /// @brief Method get_Id, addr 0x296cdcc, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_Id();
-
-  /// @brief Method get_StartInfo, addr 0x296fe24, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Diagnostics::ProcessStartInfo* get_StartInfo();
-
-  /// @brief Method set_StartInfo, addr 0x296ff14, size 0x60, virtual false, abstract: false, final false
-  inline void set_StartInfo(::System::Diagnostics::ProcessStartInfo* value);
-
-  /// @brief Method get_SynchronizingObject, addr 0x296ff74, size 0x1a0, virtual false, abstract: false, final false
-  inline ::System::ComponentModel::ISynchronizeInvoke* get_SynchronizingObject();
-
-  /// @brief Method get_TotalProcessorTime, addr 0x2970114, size 0x20, virtual false, abstract: false, final false
-  inline ::System::TimeSpan get_TotalProcessorTime();
-
-  /// @brief Method get_StandardOutput, addr 0x2970140, size 0x9c, virtual false, abstract: false, final false
-  inline ::System::IO::StreamReader* get_StandardOutput();
-
-  /// @brief Method get_StandardError, addr 0x29701dc, size 0x9c, virtual false, abstract: false, final false
-  inline ::System::IO::StreamReader* get_StandardError();
-
-  /// @brief Method ReleaseProcessHandle, addr 0x2970278, size 0x28, virtual false, abstract: false, final false
-  inline void ReleaseProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
-
-  /// @brief Method CompletionCallback, addr 0x29702a0, size 0x18, virtual false, abstract: false, final false
-  inline void CompletionCallback(::System::Object* context, bool wasSignaled);
-
-  /// @brief Method Dispose, addr 0x29703cc, size 0x50, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Close, addr 0x297041c, size 0x158, virtual false, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method EnsureState, addr 0x296eec8, size 0x138, virtual false, abstract: false, final false
-  inline void EnsureState(::System::Diagnostics::__Process__State state);
-
-  /// @brief Method EnsureWatchingForExit, addr 0x2970588, size 0x234, virtual false, abstract: false, final false
-  inline void EnsureWatchingForExit();
-
-  /// @brief Method GetProcessById, addr 0x29707bc, size 0x48, virtual false, abstract: false, final false
-  static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId);
-
-  /// @brief Method GetCurrentProcess, addr 0x296cd44, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Diagnostics::Process* GetCurrentProcess();
-
-  /// @brief Method OnExited, addr 0x29709dc, size 0x240, virtual false, abstract: false, final false
-  inline void OnExited();
-
-  /// @brief Method GetProcessHandle, addr 0x296f370, size 0x4c4, virtual false, abstract: false, final false
-  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access, bool throwIfExited);
-
-  /// @brief Method GetProcessHandle, addr 0x2970c1c, size 0x8, virtual false, abstract: false, final false
-  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access);
-
-  /// @brief Method OpenProcessHandle, addr 0x296fd68, size 0xbc, virtual false, abstract: false, final false
-  inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* OpenProcessHandle(int32_t access);
-
-  /// @brief Method Refresh, addr 0x2970574, size 0x14, virtual false, abstract: false, final false
-  inline void Refresh();
-
-  /// @brief Method SetProcessHandle, addr 0x2970c24, size 0x1c, virtual false, abstract: false, final false
-  inline void SetProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
-
-  /// @brief Method SetProcessId, addr 0x2970c40, size 0x10, virtual false, abstract: false, final false
-  inline void SetProcessId(int32_t processId);
-
-  /// @brief Method Start, addr 0x2970c50, size 0xfc, virtual false, abstract: false, final false
-  inline bool Start();
-
-  /// @brief Method StopWatchingForExit, addr 0x29702b8, size 0x114, virtual false, abstract: false, final false
-  inline void StopWatchingForExit();
-
-  /// @brief Method ToString, addr 0x2972540, size 0x16c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::System::Diagnostics::Process* New_ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
-
-  /// @brief Method .ctor, addr 0x29726ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5c224, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
 
-  /// @brief Method ProcessName_icall, addr 0x297273c, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW ProcessName_icall(void* handle);
+  /// @brief Method .ctor, addr 0x2a58858, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  /// @brief Method ProcessName_internal, addr 0x2972740, size 0xe0, virtual false, abstract: false, final false
-  static inline ::StringW ProcessName_internal(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
+  /// @brief Method get_Associated, addr 0x2a588f4, size 0x20, virtual false, abstract: false, final false
+  inline bool get_Associated();
 
-  /// @brief Method get_ProcessName, addr 0x296cde8, size 0x230, virtual false, abstract: false, final false
-  inline ::StringW get_ProcessName();
+  /// @brief Method get_ExitCode, addr 0x2a58914, size 0x12c, virtual false, abstract: false, final false
+  inline int32_t get_ExitCode();
 
-  /// @brief Method GetProcess_internal, addr 0x2972820, size 0x4, virtual false, abstract: false, final false
-  static inline void* GetProcess_internal(int32_t pid);
+  /// @brief Method get_Handle, addr 0x2a598b0, size 0x30, virtual false, abstract: false, final false
+  inline void* get_Handle();
 
-  /// @brief Method GetProcessById, addr 0x2970804, size 0x1d8, virtual false, abstract: false, final false
-  static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId, ::StringW machineName);
+  /// @brief Method get_HasExited, addr 0x2a58b78, size 0x370, virtual false, abstract: false, final false
+  inline bool get_HasExited();
 
-  /// @brief Method IsLocalMachine, addr 0x2972824, size 0x90, virtual false, abstract: false, final false
-  static inline bool IsLocalMachine(::StringW machineName);
+  /// @brief Method get_Id, addr 0x2a56944, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t get_Id();
 
-  /// @brief Method ShellExecuteEx_internal, addr 0x29728b4, size 0x4, virtual false, abstract: false, final false
-  static inline bool ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
-
-  /// @brief Method CreateProcess_internal, addr 0x29728b8, size 0x4, virtual false, abstract: false, final false
-  static inline bool CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* startInfo, void* stdin, void* stdout, void* stderr, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
-
-  /// @brief Method StartWithShellExecuteEx, addr 0x2970da0, size 0x3c8, virtual false, abstract: false, final false
-  inline bool StartWithShellExecuteEx(::System::Diagnostics::ProcessStartInfo* startInfo);
-
-  /// @brief Method CreatePipe, addr 0x2972a50, size 0x19c, virtual false, abstract: false, final false
-  static inline void CreatePipe(ByRef<void*> read, ByRef<void*> write, bool writeDirection);
-
-  /// @brief Method get_IsWindows, addr 0x2972bec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_IsWindows, addr 0x2a5c764, size 0x34, virtual false, abstract: false, final false
   static inline bool get_IsWindows();
 
-  /// @brief Method StartWithCreateProcess, addr 0x2971168, size 0x13d8, virtual false, abstract: false, final false
-  inline bool StartWithCreateProcess(::System::Diagnostics::ProcessStartInfo* startInfo);
+  /// @brief Method get_ProcessName, addr 0x2a56960, size 0x230, virtual false, abstract: false, final false
+  inline ::StringW get_ProcessName();
 
-  /// @brief Method FillUserInfo, addr 0x2972910, size 0x140, virtual false, abstract: false, final false
-  static inline void FillUserInfo(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
+  /// @brief Method get_StandardError, addr 0x2a59d54, size 0x9c, virtual false, abstract: false, final false
+  inline ::System::IO::StreamReader* get_StandardError();
 
-  /// @brief Method RaiseOnExited, addr 0x296f988, size 0xe0, virtual false, abstract: false, final false
-  inline void RaiseOnExited();
+  /// @brief Method get_StandardOutput, addr 0x2a59cb8, size 0x9c, virtual false, abstract: false, final false
+  inline ::System::IO::StreamReader* get_StandardOutput();
 
+  /// @brief Method get_StartInfo, addr 0x2a5999c, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Diagnostics::ProcessStartInfo* get_StartInfo();
+
+  /// @brief Method get_SynchronizingObject, addr 0x2a59aec, size 0x1a0, virtual false, abstract: false, final false
+  inline ::System::ComponentModel::ISynchronizeInvoke* get_SynchronizingObject();
+
+  /// @brief Method get_TotalProcessorTime, addr 0x2a59c8c, size 0x20, virtual false, abstract: false, final false
+  inline ::System::TimeSpan get_TotalProcessorTime();
+
+  /// @brief Method set_StartInfo, addr 0x2a59a8c, size 0x60, virtual false, abstract: false, final false
+  inline void set_StartInfo(::System::Diagnostics::ProcessStartInfo* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Process();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Process(Process&&) = delete;
@@ -766,12 +774,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Process(Process const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Process();
-
-public:
   /// @brief Field haveProcessId, offset: 0x28, size: 0x1, def value: None
   bool ___haveProcessId;
 

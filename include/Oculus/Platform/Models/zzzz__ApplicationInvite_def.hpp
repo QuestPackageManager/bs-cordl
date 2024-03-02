@@ -22,20 +22,15 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DestinationOptional, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
-
   /// @brief Field Destination, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::Oculus::Platform::Models::Destination* Destination;
 
-  /// @brief Field ID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
+  /// @brief Field DestinationOptional, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
 
   /// @brief Field IsActive, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_IsActive, put = __cordl_internal_set_IsActive)) bool IsActive;
@@ -46,65 +41,74 @@ public:
   /// @brief Field MatchSessionId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
 
-  /// @brief Field RecipientOptional, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_RecipientOptional, put = __cordl_internal_set_RecipientOptional))::Oculus::Platform::Models::User* RecipientOptional;
-
   /// @brief Field Recipient, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_Recipient, put = __cordl_internal_set_Recipient))::Oculus::Platform::Models::User* Recipient;
 
-  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
+  /// @brief Field RecipientOptional, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_RecipientOptional, put = __cordl_internal_set_RecipientOptional))::Oculus::Platform::Models::User* RecipientOptional;
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
+  /// @brief Field ID, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  constexpr void __cordl_internal_set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
+  static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_Destination() const;
 
-  constexpr void __cordl_internal_set_Destination(::Oculus::Platform::Models::Destination* value);
+  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
 
-  constexpr uint64_t& __cordl_internal_get__cordl_ID();
-
-  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
-
-  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
-
-  constexpr bool& __cordl_internal_get_IsActive();
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
 
   constexpr bool const& __cordl_internal_get_IsActive() const;
 
-  constexpr void __cordl_internal_set_IsActive(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
+  constexpr bool& __cordl_internal_get_IsActive();
 
   constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
 
-  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
+  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
 
   constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
 
-  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
-
-  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_RecipientOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_RecipientOptional() const;
-
-  constexpr void __cordl_internal_set_RecipientOptional(::Oculus::Platform::Models::User* value);
+  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
 
   constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_Recipient();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_Recipient() const;
 
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_RecipientOptional();
+
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_RecipientOptional() const;
+
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
+
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
+
+  constexpr void __cordl_internal_set_Destination(::Oculus::Platform::Models::Destination* value);
+
+  constexpr void __cordl_internal_set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
+
+  constexpr void __cordl_internal_set_IsActive(bool value);
+
+  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
+
+  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
+
   constexpr void __cordl_internal_set_Recipient(::Oculus::Platform::Models::User* value);
 
-  static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
+  constexpr void __cordl_internal_set_RecipientOptional(::Oculus::Platform::Models::User* value);
 
-  /// @brief Method .ctor, addr 0x2703ef8, size 0x1bc, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
+
+  /// @brief Method .ctor, addr 0x27f5800, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ApplicationInvite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ApplicationInvite(ApplicationInvite&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationInvite(ApplicationInvite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ApplicationInvite();
-
-public:
   /// @brief Field DestinationOptional, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___DestinationOptional;
 

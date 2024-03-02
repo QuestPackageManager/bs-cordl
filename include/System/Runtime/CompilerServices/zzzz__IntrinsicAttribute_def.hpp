@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IntrinsicAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3376))
 // CS Name: ::System.Runtime.CompilerServices::IntrinsicAttribute*
 class CORDL_TYPE IntrinsicAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IntrinsicAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24db200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cbf6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntrinsicAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IntrinsicAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntrinsicAttribute(IntrinsicAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntrinsicAttribute(IntrinsicAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntrinsicAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

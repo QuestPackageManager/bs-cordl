@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Xml::Schema::XsdDateTimeFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11759))
 // CS Name: ::System.Xml.Schema::XsdDateTimeFlags
 struct CORDL_TYPE XsdDateTimeFlags {
 public:
@@ -44,36 +42,29 @@ public:
     return static_cast<__XsdDateTimeFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XsdDateTimeFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XsdDateTimeFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XsdDateTimeFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DateTime value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::XsdDateTimeFlags const DateTime;
-
-  /// @brief Field Time value: static_cast<int32_t>(0x2)
-  static ::System::Xml::Schema::XsdDateTimeFlags const Time;
+  /// @brief Field AllXsd value: static_cast<int32_t>(0xff)
+  static ::System::Xml::Schema::XsdDateTimeFlags const AllXsd;
 
   /// @brief Field Date value: static_cast<int32_t>(0x4)
   static ::System::Xml::Schema::XsdDateTimeFlags const Date;
 
-  /// @brief Field GYearMonth value: static_cast<int32_t>(0x8)
-  static ::System::Xml::Schema::XsdDateTimeFlags const GYearMonth;
-
-  /// @brief Field GYear value: static_cast<int32_t>(0x10)
-  static ::System::Xml::Schema::XsdDateTimeFlags const GYear;
-
-  /// @brief Field GMonthDay value: static_cast<int32_t>(0x20)
-  static ::System::Xml::Schema::XsdDateTimeFlags const GMonthDay;
+  /// @brief Field DateTime value: static_cast<int32_t>(0x1)
+  static ::System::Xml::Schema::XsdDateTimeFlags const DateTime;
 
   /// @brief Field GDay value: static_cast<int32_t>(0x40)
   static ::System::Xml::Schema::XsdDateTimeFlags const GDay;
@@ -81,17 +72,29 @@ public:
   /// @brief Field GMonth value: static_cast<int32_t>(0x80)
   static ::System::Xml::Schema::XsdDateTimeFlags const GMonth;
 
-  /// @brief Field XdrDateTimeNoTz value: static_cast<int32_t>(0x100)
-  static ::System::Xml::Schema::XsdDateTimeFlags const XdrDateTimeNoTz;
+  /// @brief Field GMonthDay value: static_cast<int32_t>(0x20)
+  static ::System::Xml::Schema::XsdDateTimeFlags const GMonthDay;
+
+  /// @brief Field GYear value: static_cast<int32_t>(0x10)
+  static ::System::Xml::Schema::XsdDateTimeFlags const GYear;
+
+  /// @brief Field GYearMonth value: static_cast<int32_t>(0x8)
+  static ::System::Xml::Schema::XsdDateTimeFlags const GYearMonth;
+
+  /// @brief Field Time value: static_cast<int32_t>(0x2)
+  static ::System::Xml::Schema::XsdDateTimeFlags const Time;
 
   /// @brief Field XdrDateTime value: static_cast<int32_t>(0x200)
   static ::System::Xml::Schema::XsdDateTimeFlags const XdrDateTime;
 
+  /// @brief Field XdrDateTimeNoTz value: static_cast<int32_t>(0x100)
+  static ::System::Xml::Schema::XsdDateTimeFlags const XdrDateTimeNoTz;
+
   /// @brief Field XdrTimeNoTz value: static_cast<int32_t>(0x400)
   static ::System::Xml::Schema::XsdDateTimeFlags const XdrTimeNoTz;
 
-  /// @brief Field AllXsd value: static_cast<int32_t>(0xff)
-  static ::System::Xml::Schema::XsdDateTimeFlags const AllXsd;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

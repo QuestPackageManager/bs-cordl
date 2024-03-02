@@ -34,35 +34,39 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5304))
 // CS Name: ::SetSaberBladeParams::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberBladeParams__PropertyTintColorPair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field tintColor, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_tintColor, put = __cordl_internal_set_tintColor))::UnityEngine::Color tintColor;
-
   /// @brief Field property, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::StringW property;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_tintColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_tintColor() const;
-
-  constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
-
-  constexpr ::StringW& __cordl_internal_get_property();
-
-  constexpr ::StringW const& __cordl_internal_get_property() const;
-
-  constexpr void __cordl_internal_set_property(::StringW value);
+  /// @brief Field tintColor, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_tintColor, put = __cordl_internal_set_tintColor))::UnityEngine::Color tintColor;
 
   static inline ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2264988, size 0x8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_property() const;
+
+  constexpr ::StringW& __cordl_internal_get_property();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_tintColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_tintColor();
+
+  constexpr void __cordl_internal_set_property(::StringW value);
+
+  constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
+
+  /// @brief Method .ctor, addr 0x2492738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SetSaberBladeParams__PropertyTintColorPair();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SetSaberBladeParams__PropertyTintColorPair", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SetSaberBladeParams__PropertyTintColorPair(__SetSaberBladeParams__PropertyTintColorPair&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SetSaberBladeParams__PropertyTintColorPair(__SetSaberBladeParams__PropertyTintColorPair const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SetSaberBladeParams__PropertyTintColorPair();
-
-public:
   /// @brief Field tintColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___tintColor;
 
@@ -97,16 +95,14 @@ static_assert(offsetof(::GlobalNamespace::__SetSaberBladeParams__PropertyTintCol
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5305))
 // CS Name: ::SetSaberBladeParams*
 class CORDL_TYPE SetSaberBladeParams : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using PropertyTintColorPair = ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair;
 
-  /// @brief Field _saber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
+  /// @brief Field _colorManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _meshRenderer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
@@ -116,44 +112,50 @@ public:
                       put = __cordl_internal_set__propertyTintColorPairs))::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*,
                                                                                    ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> _propertyTintColorPairs;
 
-  /// @brief Field _colorManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _saber, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saber();
+  static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saber() const;
-
-  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
-
-  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*>&
-  __cordl_internal_get__propertyTintColorPairs();
-
-  constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> const&
-  __cordl_internal_get__propertyTintColorPairs() const;
-
-  constexpr void __cordl_internal_set__propertyTintColorPairs(
-      ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> value);
+  /// @brief Method Start, addr 0x249262c, size 0x104, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
+
+  constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> const&
+  __cordl_internal_get__propertyTintColorPairs() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*>&
+  __cordl_internal_get__propertyTintColorPairs();
+
+  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saber() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saber();
+
   constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Start, addr 0x226487c, size 0x104, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
+  constexpr void __cordl_internal_set__propertyTintColorPairs(
+      ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> value);
 
-  /// @brief Method .ctor, addr 0x2264980, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
+
+  /// @brief Method .ctor, addr 0x2492730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SetSaberBladeParams();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetSaberBladeParams(SetSaberBladeParams&&) = delete;
@@ -162,12 +164,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetSaberBladeParams(SetSaberBladeParams const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetSaberBladeParams();
-
-public:
   /// @brief Field _saber, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 

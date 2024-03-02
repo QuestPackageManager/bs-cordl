@@ -15,22 +15,20 @@ MARK_VAL_T(::System::InputRecord);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
 // CS Name: ::System::InputRecord
 struct CORDL_TYPE InputRecord {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputRecord();
+
   // Ctor Parameters [CppParam { name: "EventType", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "KeyDown", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "RepeatCount", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "VirtualKeyCode", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "VirtualScanCode", ty:
   // "int16_t", modifiers: "", def_value: None }, CppParam { name: "Character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "ControlKeyState", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "pad1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pad2", ty: "bool", modifiers: "", def_value: None }]
   constexpr InputRecord(int16_t EventType, bool KeyDown, int16_t RepeatCount, int16_t VirtualKeyCode, int16_t VirtualScanCode, char16_t Character, int32_t ControlKeyState, int32_t pad1,
                         bool pad2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputRecord();
 
   /// @brief Field EventType, offset: 0x0, size: 0x2, def value: None
   int16_t EventType;

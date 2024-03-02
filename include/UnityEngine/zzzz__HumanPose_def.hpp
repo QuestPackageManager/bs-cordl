@@ -24,22 +24,20 @@ MARK_VAL_T(::UnityEngine::HumanPose);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14884))
 // CS Name: ::UnityEngine::HumanPose
 struct CORDL_TYPE HumanPose {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2c96338, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2d7cf78, size 0x138, virtual false, abstract: false, final false
   inline void Init();
-
-  // Ctor Parameters [CppParam { name: "bodyPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "muscles", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }]
-  constexpr HumanPose(::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation, ::ArrayW<float_t, ::Array<float_t>*> muscles) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HumanPose();
+
+  // Ctor Parameters [CppParam { name: "bodyPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None }, CppParam { name: "muscles", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }]
+  constexpr HumanPose(::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation, ::ArrayW<float_t, ::Array<float_t>*> muscles) noexcept;
 
   /// @brief Field bodyPosition, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 bodyPosition;

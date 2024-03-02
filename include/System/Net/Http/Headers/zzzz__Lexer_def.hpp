@@ -31,115 +31,119 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::Lexer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14683))
 // CS Name: ::System.Net.Http.Headers::Lexer*
 class CORDL_TYPE Lexer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::StringW s;
-
-  /// @brief Field pos, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
-
-  /// @brief Field token_chars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_token_chars, put = setStaticF_token_chars))::ArrayW<bool, ::Array<bool>*> token_chars;
-
-  /// @brief Field last_token_char, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_last_token_char, put = setStaticF_last_token_char)) int32_t last_token_char;
+  __declspec(property(get = get_Position, put = set_Position)) int32_t Position;
 
   /// @brief Field dt_formats, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_dt_formats, put = setStaticF_dt_formats))::ArrayW<::StringW, ::Array<::StringW>*> dt_formats;
 
-  __declspec(property(get = get_Position, put = set_Position)) int32_t Position;
+  /// @brief Field last_token_char, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_last_token_char, put = setStaticF_last_token_char)) int32_t last_token_char;
 
-  constexpr ::StringW& __cordl_internal_get_s();
+  /// @brief Field pos, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-  constexpr ::StringW const& __cordl_internal_get_s() const;
+  /// @brief Field s, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::StringW s;
 
-  constexpr void __cordl_internal_set_s(::StringW value);
+  /// @brief Field token_chars, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_token_chars, put = setStaticF_token_chars))::ArrayW<bool, ::Array<bool>*> token_chars;
 
-  constexpr int32_t& __cordl_internal_get_pos();
+  /// @brief Method EatChar, addr 0x2922884, size 0x10, virtual false, abstract: false, final false
+  inline void EatChar();
 
-  constexpr int32_t const& __cordl_internal_get_pos() const;
+  /// @brief Method GetQuotedStringValue, addr 0x2920480, size 0x2c, virtual false, abstract: false, final false
+  inline ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
 
-  constexpr void __cordl_internal_set_pos(int32_t value);
+  /// @brief Method GetRemainingStringValue, addr 0x291ebd4, size 0x34, virtual false, abstract: false, final false
+  inline ::StringW GetRemainingStringValue(int32_t position);
 
-  static inline void setStaticF_token_chars(::ArrayW<bool, ::Array<bool>*> value);
+  /// @brief Method GetStringValue, addr 0x29263d0, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
 
-  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_token_chars();
+  /// @brief Method GetStringValue, addr 0x291ebb0, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
 
-  static inline void setStaticF_last_token_char(int32_t value);
+  /// @brief Method IsStarStringValue, addr 0x29220f0, size 0x44, virtual false, abstract: false, final false
+  inline bool IsStarStringValue(::System::Net::Http::Headers::Token token);
 
-  static inline int32_t getStaticF_last_token_char();
+  /// @brief Method IsValidCharacter, addr 0x292679c, size 0xb0, virtual false, abstract: false, final false
+  static inline bool IsValidCharacter(char16_t input);
 
-  static inline void setStaticF_dt_formats(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_dt_formats();
+  /// @brief Method IsValidToken, addr 0x29266ec, size 0xb0, virtual false, abstract: false, final false
+  static inline bool IsValidToken(::StringW input);
 
   static inline ::System::Net::Http::Headers::Lexer* New_ctor(::StringW stream);
 
-  /// @brief Method .ctor, addr 0x2834b60, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW stream);
-
-  /// @brief Method get_Position, addr 0x283c870, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Position();
-
-  /// @brief Method set_Position, addr 0x283c878, size 0x8, virtual false, abstract: false, final false
-  inline void set_Position(int32_t value);
-
-  /// @brief Method GetStringValue, addr 0x2835060, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
-
-  /// @brief Method GetStringValue, addr 0x283c880, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
-
-  /// @brief Method GetQuotedStringValue, addr 0x2836930, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
-
-  /// @brief Method GetRemainingStringValue, addr 0x2835084, size 0x34, virtual false, abstract: false, final false
-  inline ::StringW GetRemainingStringValue(int32_t position);
-
-  /// @brief Method IsStarStringValue, addr 0x28385a0, size 0x44, virtual false, abstract: false, final false
-  inline bool IsStarStringValue(::System::Net::Http::Headers::Token token);
-
-  /// @brief Method TryGetNumericValue, addr 0x283c8a4, size 0xa0, virtual false, abstract: false, final false
-  inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int32_t> value);
-
-  /// @brief Method TryGetNumericValue, addr 0x28385e4, size 0xa0, virtual false, abstract: false, final false
-  inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value);
-
-  /// @brief Method TryGetTimeSpanValue, addr 0x2836868, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
-
-  /// @brief Method TryGetDateValue, addr 0x283c944, size 0xdc, virtual false, abstract: false, final false
-  inline bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value);
-
-  /// @brief Method TryGetDateValue, addr 0x283ca20, size 0xdc, virtual false, abstract: false, final false
-  static inline bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value);
-
-  /// @brief Method TryGetDoubleValue, addr 0x283cafc, size 0xa0, virtual false, abstract: false, final false
-  inline bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double_t> value);
-
-  /// @brief Method IsValidToken, addr 0x283cb9c, size 0xb0, virtual false, abstract: false, final false
-  static inline bool IsValidToken(::StringW input);
-
-  /// @brief Method IsValidCharacter, addr 0x283cc4c, size 0xb0, virtual false, abstract: false, final false
-  static inline bool IsValidCharacter(char16_t input);
-
-  /// @brief Method EatChar, addr 0x2838d34, size 0x10, virtual false, abstract: false, final false
-  inline void EatChar();
-
-  /// @brief Method PeekChar, addr 0x2838cf4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method PeekChar, addr 0x2922844, size 0x40, virtual false, abstract: false, final false
   inline int32_t PeekChar();
 
-  /// @brief Method ScanCommentOptional, addr 0x283ccfc, size 0x150, virtual false, abstract: false, final false
-  inline bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
-
-  /// @brief Method Scan, addr 0x2834d6c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x291e8bc, size 0x2f4, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
 
+  /// @brief Method ScanCommentOptional, addr 0x292684c, size 0x150, virtual false, abstract: false, final false
+  inline bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken);
+
+  /// @brief Method TryGetDateValue, addr 0x2926570, size 0xdc, virtual false, abstract: false, final false
+  static inline bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value);
+
+  /// @brief Method TryGetDateValue, addr 0x2926494, size 0xdc, virtual false, abstract: false, final false
+  inline bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value);
+
+  /// @brief Method TryGetDoubleValue, addr 0x292664c, size 0xa0, virtual false, abstract: false, final false
+  inline bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double_t> value);
+
+  /// @brief Method TryGetNumericValue, addr 0x29263f4, size 0xa0, virtual false, abstract: false, final false
+  inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int32_t> value);
+
+  /// @brief Method TryGetNumericValue, addr 0x2922134, size 0xa0, virtual false, abstract: false, final false
+  inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value);
+
+  /// @brief Method TryGetTimeSpanValue, addr 0x29203b8, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
+
+  constexpr int32_t const& __cordl_internal_get_pos() const;
+
+  constexpr int32_t& __cordl_internal_get_pos();
+
+  constexpr ::StringW const& __cordl_internal_get_s() const;
+
+  constexpr ::StringW& __cordl_internal_get_s();
+
+  constexpr void __cordl_internal_set_pos(int32_t value);
+
+  constexpr void __cordl_internal_set_s(::StringW value);
+
+  /// @brief Method .ctor, addr 0x291e6b0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW stream);
+
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_dt_formats();
+
+  static inline int32_t getStaticF_last_token_char();
+
+  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_token_chars();
+
+  /// @brief Method get_Position, addr 0x29263c0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Position();
+
+  static inline void setStaticF_dt_formats(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  static inline void setStaticF_last_token_char(int32_t value);
+
+  static inline void setStaticF_token_chars(::ArrayW<bool, ::Array<bool>*> value);
+
+  /// @brief Method set_Position, addr 0x29263c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Position(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Lexer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Lexer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lexer(Lexer&&) = delete;
@@ -148,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Lexer(Lexer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Lexer();
-
-public:
   /// @brief Field s, offset: 0x10, size: 0x8, def value: None
   ::StringW ___s;
 

@@ -25,8 +25,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TArgs>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::UnityEngine.UIElements::IDragAndDropController`1<TArgs>*
 class CORDL_TYPE IDragAndDropController_1 {
 public:
@@ -34,14 +32,14 @@ public:
   /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
-  /// @brief Method SetupDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
-
   /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(TArgs args);
 
   /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(TArgs args);
+
+  /// @brief Method SetupDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDragAndDropController_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -33,17 +33,25 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15195))
 // CS Name: ::LimitAvatarPoseRestriction::Parameters*
 class CORDL_TYPE __LimitAvatarPoseRestriction__Parameters : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field centerHeadOffset, offset 0x30, size 0xc
+  __declspec(property(get = __cordl_internal_get_centerHeadOffset, put = __cordl_internal_set_centerHeadOffset))::UnityEngine::Vector3 centerHeadOffset;
+
+  /// @brief Field forceHeadPosition, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_forceHeadPosition, put = __cordl_internal_set_forceHeadPosition)) bool forceHeadPosition;
+
+  /// @brief Field maxHandXZSquareDistanceFromHeadCenter, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter,
+                      put = __cordl_internal_set_maxHandXZSquareDistanceFromHeadCenter)) float_t maxHandXZSquareDistanceFromHeadCenter;
+
+  /// @brief Field maxHandYDistanceFromHeadCenter, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxHandYDistanceFromHeadCenter, put = __cordl_internal_set_maxHandYDistanceFromHeadCenter)) float_t maxHandYDistanceFromHeadCenter;
+
   /// @brief Field maxHeadSquareDistanceFromCenter, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_maxHeadSquareDistanceFromCenter, put = __cordl_internal_set_maxHeadSquareDistanceFromCenter)) float_t maxHeadSquareDistanceFromCenter;
-
-  /// @brief Field minHeadYPos, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_minHeadYPos, put = __cordl_internal_set_minHeadYPos)) float_t minHeadYPos;
 
   /// @brief Field maxHeadYPos, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_maxHeadYPos, put = __cordl_internal_set_maxHeadYPos)) float_t maxHeadYPos;
@@ -52,81 +60,77 @@ public:
   __declspec(property(get = __cordl_internal_get_minHandXZSquareDistanceFromHeadCenter,
                       put = __cordl_internal_set_minHandXZSquareDistanceFromHeadCenter)) float_t minHandXZSquareDistanceFromHeadCenter;
 
-  /// @brief Field maxHandXZSquareDistanceFromHeadCenter, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter,
-                      put = __cordl_internal_set_maxHandXZSquareDistanceFromHeadCenter)) float_t maxHandXZSquareDistanceFromHeadCenter;
-
   /// @brief Field minHandYDistanceFromHeadCenter, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_minHandYDistanceFromHeadCenter, put = __cordl_internal_set_minHandYDistanceFromHeadCenter)) float_t minHandYDistanceFromHeadCenter;
 
-  /// @brief Field maxHandYDistanceFromHeadCenter, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxHandYDistanceFromHeadCenter, put = __cordl_internal_set_maxHandYDistanceFromHeadCenter)) float_t maxHandYDistanceFromHeadCenter;
-
-  /// @brief Field forceHeadPosition, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get_forceHeadPosition, put = __cordl_internal_set_forceHeadPosition)) bool forceHeadPosition;
-
-  /// @brief Field centerHeadOffset, offset 0x30, size 0xc
-  __declspec(property(get = __cordl_internal_get_centerHeadOffset, put = __cordl_internal_set_centerHeadOffset))::UnityEngine::Vector3 centerHeadOffset;
-
-  constexpr float_t& __cordl_internal_get_maxHeadSquareDistanceFromCenter();
-
-  constexpr float_t const& __cordl_internal_get_maxHeadSquareDistanceFromCenter() const;
-
-  constexpr void __cordl_internal_set_maxHeadSquareDistanceFromCenter(float_t value);
-
-  constexpr float_t& __cordl_internal_get_minHeadYPos();
-
-  constexpr float_t const& __cordl_internal_get_minHeadYPos() const;
-
-  constexpr void __cordl_internal_set_minHeadYPos(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxHeadYPos();
-
-  constexpr float_t const& __cordl_internal_get_maxHeadYPos() const;
-
-  constexpr void __cordl_internal_set_maxHeadYPos(float_t value);
-
-  constexpr float_t& __cordl_internal_get_minHandXZSquareDistanceFromHeadCenter();
-
-  constexpr float_t const& __cordl_internal_get_minHandXZSquareDistanceFromHeadCenter() const;
-
-  constexpr void __cordl_internal_set_minHandXZSquareDistanceFromHeadCenter(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter();
-
-  constexpr float_t const& __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter() const;
-
-  constexpr void __cordl_internal_set_maxHandXZSquareDistanceFromHeadCenter(float_t value);
-
-  constexpr float_t& __cordl_internal_get_minHandYDistanceFromHeadCenter();
-
-  constexpr float_t const& __cordl_internal_get_minHandYDistanceFromHeadCenter() const;
-
-  constexpr void __cordl_internal_set_minHandYDistanceFromHeadCenter(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxHandYDistanceFromHeadCenter();
-
-  constexpr float_t const& __cordl_internal_get_maxHandYDistanceFromHeadCenter() const;
-
-  constexpr void __cordl_internal_set_maxHandYDistanceFromHeadCenter(float_t value);
-
-  constexpr bool& __cordl_internal_get_forceHeadPosition();
-
-  constexpr bool const& __cordl_internal_get_forceHeadPosition() const;
-
-  constexpr void __cordl_internal_set_forceHeadPosition(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_centerHeadOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_centerHeadOffset() const;
-
-  constexpr void __cordl_internal_set_centerHeadOffset(::UnityEngine::Vector3 value);
+  /// @brief Field minHeadYPos, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_minHeadYPos, put = __cordl_internal_set_minHeadYPos)) float_t minHeadYPos;
 
   static inline ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0f8d8, size 0x44, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_centerHeadOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_centerHeadOffset();
+
+  constexpr bool const& __cordl_internal_get_forceHeadPosition() const;
+
+  constexpr bool& __cordl_internal_get_forceHeadPosition();
+
+  constexpr float_t const& __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter() const;
+
+  constexpr float_t& __cordl_internal_get_maxHandXZSquareDistanceFromHeadCenter();
+
+  constexpr float_t const& __cordl_internal_get_maxHandYDistanceFromHeadCenter() const;
+
+  constexpr float_t& __cordl_internal_get_maxHandYDistanceFromHeadCenter();
+
+  constexpr float_t const& __cordl_internal_get_maxHeadSquareDistanceFromCenter() const;
+
+  constexpr float_t& __cordl_internal_get_maxHeadSquareDistanceFromCenter();
+
+  constexpr float_t const& __cordl_internal_get_maxHeadYPos() const;
+
+  constexpr float_t& __cordl_internal_get_maxHeadYPos();
+
+  constexpr float_t const& __cordl_internal_get_minHandXZSquareDistanceFromHeadCenter() const;
+
+  constexpr float_t& __cordl_internal_get_minHandXZSquareDistanceFromHeadCenter();
+
+  constexpr float_t const& __cordl_internal_get_minHandYDistanceFromHeadCenter() const;
+
+  constexpr float_t& __cordl_internal_get_minHandYDistanceFromHeadCenter();
+
+  constexpr float_t const& __cordl_internal_get_minHeadYPos() const;
+
+  constexpr float_t& __cordl_internal_get_minHeadYPos();
+
+  constexpr void __cordl_internal_set_centerHeadOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_forceHeadPosition(bool value);
+
+  constexpr void __cordl_internal_set_maxHandXZSquareDistanceFromHeadCenter(float_t value);
+
+  constexpr void __cordl_internal_set_maxHandYDistanceFromHeadCenter(float_t value);
+
+  constexpr void __cordl_internal_set_maxHeadSquareDistanceFromCenter(float_t value);
+
+  constexpr void __cordl_internal_set_maxHeadYPos(float_t value);
+
+  constexpr void __cordl_internal_set_minHandXZSquareDistanceFromHeadCenter(float_t value);
+
+  constexpr void __cordl_internal_set_minHandYDistanceFromHeadCenter(float_t value);
+
+  constexpr void __cordl_internal_set_minHeadYPos(float_t value);
+
+  /// @brief Method .ctor, addr 0xe60c38, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LimitAvatarPoseRestriction__Parameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LimitAvatarPoseRestriction__Parameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LimitAvatarPoseRestriction__Parameters(__LimitAvatarPoseRestriction__Parameters&&) = delete;
@@ -135,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LimitAvatarPoseRestriction__Parameters(__LimitAvatarPoseRestriction__Parameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LimitAvatarPoseRestriction__Parameters();
-
-public:
   /// @brief Field maxHeadSquareDistanceFromCenter, offset: 0x10, size: 0x4, def value: None
   float_t ___maxHeadSquareDistanceFromCenter;
 
@@ -196,8 +194,6 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Pa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
 // CS Name: ::BeatSaber.AvatarCore::LimitAvatarPoseRestriction*
 class CORDL_TYPE LimitAvatarPoseRestriction : public ::System::Object {
 public:
@@ -210,8 +206,14 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
 
-  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
-  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
+  /// @brief Method LimitHandPositionRelativeToHead, addr 0xe60b8c, size 0xa4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
+
+  static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
+
+  /// @brief Method RestrictPose, addr 0xe60998, size 0x1f4, virtual true, abstract: false, final true
+  inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
+                           ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
   constexpr ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters*& __cordl_internal_get__parameters();
 
@@ -219,18 +221,18 @@ public:
 
   constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* value);
 
-  /// @brief Method RestrictPose, addr 0xe0f638, size 0x1f4, virtual true, abstract: false, final true
-  inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
-                           ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
-
-  /// @brief Method LimitHandPositionRelativeToHead, addr 0xe0f82c, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
-
-  static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe0f8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe60c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LimitAvatarPoseRestriction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LimitAvatarPoseRestriction(LimitAvatarPoseRestriction&&) = delete;
@@ -239,12 +241,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LimitAvatarPoseRestriction(LimitAvatarPoseRestriction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LimitAvatarPoseRestriction();
-
-public:
   /// @brief Field _parameters, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters* ____parameters;
 

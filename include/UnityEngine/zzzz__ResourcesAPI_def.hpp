@@ -28,55 +28,59 @@ MARK_REF_PTR_T(::UnityEngine::ResourcesAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10264))
 // CS Name: ::UnityEngine::ResourcesAPI*
 class CORDL_TYPE ResourcesAPI : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI))::UnityEngine::ResourcesAPI* s_DefaultAPI;
-
   /// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__overrideAPI_k__BackingField, put = setStaticF__overrideAPI_k__BackingField))::UnityEngine::ResourcesAPI* _overrideAPI_k__BackingField;
 
-  static inline void setStaticF_s_DefaultAPI(::UnityEngine::ResourcesAPI* value);
+  /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI))::UnityEngine::ResourcesAPI* s_DefaultAPI;
 
-  static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI();
+  /// @brief Method FindObjectsOfTypeAll, addr 0x2dd0ac8, size 0x3c, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
-  static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI* value);
+  /// @brief Method FindShaderByName, addr 0x2dd0b04, size 0x3c, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
+  /// @brief Method Load, addr 0x2dd0b40, size 0x44, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method get_ActiveAPI, addr 0x2cde204, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
+  /// @brief Method LoadAll, addr 0x2dd0b84, size 0x44, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method get_overrideAPI, addr 0x2cde2ac, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
+  /// @brief Method LoadAsync, addr 0x2dd0bc8, size 0x54, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* systemTypeInstance);
 
   static inline ::UnityEngine::ResourcesAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cde304, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method FindObjectsOfTypeAll, addr 0x2cde30c, size 0x3c, virtual true, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
-
-  /// @brief Method FindShaderByName, addr 0x2cde348, size 0x3c, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
-
-  /// @brief Method Load, addr 0x2cde384, size 0x44, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
-
-  /// @brief Method LoadAll, addr 0x2cde3c8, size 0x44, virtual true, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
-
-  /// @brief Method LoadAsync, addr 0x2cde40c, size 0x54, virtual true, abstract: false, final false
-  inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* systemTypeInstance);
-
-  /// @brief Method UnloadAsset, addr 0x2cde460, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x2dd0c1c, size 0x3c, virtual true, abstract: false, final false
   inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
+  /// @brief Method .ctor, addr 0x2dd0ac0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::ResourcesAPI* getStaticF__overrideAPI_k__BackingField();
+
+  static inline ::UnityEngine::ResourcesAPI* getStaticF_s_DefaultAPI();
+
+  /// @brief Method get_ActiveAPI, addr 0x2dd09c0, size 0xa8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ResourcesAPI* get_ActiveAPI();
+
+  /// @brief Method get_overrideAPI, addr 0x2dd0a68, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ResourcesAPI* get_overrideAPI();
+
+  static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::ResourcesAPI* value);
+
+  static inline void setStaticF_s_DefaultAPI(::UnityEngine::ResourcesAPI* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourcesAPI();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPI", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourcesAPI(ResourcesAPI&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourcesAPI(ResourcesAPI const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourcesAPI();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

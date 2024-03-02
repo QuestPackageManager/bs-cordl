@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::Xml::BitStack);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11408))
 // CS Name: ::System.Xml::BitStack*
 class CORDL_TYPE BitStack : public ::System::Object {
 public:
@@ -25,50 +23,56 @@ public:
   /// @brief Field bitStack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bitStack, put = __cordl_internal_set_bitStack))::ArrayW<uint32_t, ::Array<uint32_t>*> bitStack;
 
-  /// @brief Field stackPos, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_stackPos, put = __cordl_internal_set_stackPos)) int32_t stackPos;
-
   /// @brief Field curr, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_curr, put = __cordl_internal_set_curr)) uint32_t curr;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_bitStack();
-
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
-
-  constexpr void __cordl_internal_set_bitStack(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_stackPos();
-
-  constexpr int32_t const& __cordl_internal_get_stackPos() const;
-
-  constexpr void __cordl_internal_set_stackPos(int32_t value);
-
-  constexpr uint32_t& __cordl_internal_get_curr();
-
-  constexpr uint32_t const& __cordl_internal_get_curr() const;
-
-  constexpr void __cordl_internal_set_curr(uint32_t value);
+  /// @brief Field stackPos, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_stackPos, put = __cordl_internal_set_stackPos)) int32_t stackPos;
 
   static inline ::System::Xml::BitStack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x284e538, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method PushBit, addr 0x284e558, size 0x38, virtual false, abstract: false, final false
-  inline void PushBit(bool bit);
-
-  /// @brief Method PopBit, addr 0x284e658, size 0x28, virtual false, abstract: false, final false
-  inline bool PopBit();
-
-  /// @brief Method PeekBit, addr 0x284e6c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PeekBit, addr 0x29371a8, size 0xc, virtual false, abstract: false, final false
   inline bool PeekBit();
 
-  /// @brief Method PushCurr, addr 0x284e590, size 0xc8, virtual false, abstract: false, final false
-  inline void PushCurr();
+  /// @brief Method PopBit, addr 0x293713c, size 0x28, virtual false, abstract: false, final false
+  inline bool PopBit();
 
-  /// @brief Method PopCurr, addr 0x284e680, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PopCurr, addr 0x2937164, size 0x44, virtual false, abstract: false, final false
   inline void PopCurr();
 
+  /// @brief Method PushBit, addr 0x293703c, size 0x38, virtual false, abstract: false, final false
+  inline void PushBit(bool bit);
+
+  /// @brief Method PushCurr, addr 0x2937074, size 0xc8, virtual false, abstract: false, final false
+  inline void PushCurr();
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_bitStack();
+
+  constexpr uint32_t const& __cordl_internal_get_curr() const;
+
+  constexpr uint32_t& __cordl_internal_get_curr();
+
+  constexpr int32_t const& __cordl_internal_get_stackPos() const;
+
+  constexpr int32_t& __cordl_internal_get_stackPos();
+
+  constexpr void __cordl_internal_set_bitStack(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+
+  constexpr void __cordl_internal_set_curr(uint32_t value);
+
+  constexpr void __cordl_internal_set_stackPos(int32_t value);
+
+  /// @brief Method .ctor, addr 0x293701c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BitStack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BitStack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitStack(BitStack&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BitStack(BitStack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitStack();
-
-public:
   /// @brief Field bitStack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___bitStack;
 

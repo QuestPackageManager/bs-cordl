@@ -46,17 +46,15 @@ MARK_REF_PTR_T(::System::Net::__ChunkedInputStream__ReadBufferState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9153))
 // CS Name: ::ChunkedInputStream::ReadBufferState*
 class CORDL_TYPE __ChunkedInputStream__ReadBufferState : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Ares, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_Ares, put = __cordl_internal_set_Ares))::System::Net::HttpStreamAsyncResult* Ares;
+
   /// @brief Field Buffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
-
-  /// @brief Field Offset, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
   /// @brief Field Count, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) int32_t Count;
@@ -64,44 +62,50 @@ public:
   /// @brief Field InitialCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_InitialCount, put = __cordl_internal_set_InitialCount)) int32_t InitialCount;
 
-  /// @brief Field Ares, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ares, put = __cordl_internal_set_Ares))::System::Net::HttpStreamAsyncResult* Ares;
+  /// @brief Field Offset, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
-
-  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_Offset();
-
-  constexpr int32_t const& __cordl_internal_get_Offset() const;
-
-  constexpr void __cordl_internal_set_Offset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_Count();
-
-  constexpr int32_t const& __cordl_internal_get_Count() const;
-
-  constexpr void __cordl_internal_set_Count(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_InitialCount();
-
-  constexpr int32_t const& __cordl_internal_get_InitialCount() const;
-
-  constexpr void __cordl_internal_set_InitialCount(int32_t value);
+  static inline ::System::Net::__ChunkedInputStream__ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
   constexpr ::System::Net::HttpStreamAsyncResult*& __cordl_internal_get_Ares();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpStreamAsyncResult*> const& __cordl_internal_get_Ares() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
+
+  constexpr int32_t const& __cordl_internal_get_Count() const;
+
+  constexpr int32_t& __cordl_internal_get_Count();
+
+  constexpr int32_t const& __cordl_internal_get_InitialCount() const;
+
+  constexpr int32_t& __cordl_internal_get_InitialCount();
+
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
+
+  constexpr int32_t& __cordl_internal_get_Offset();
+
   constexpr void __cordl_internal_set_Ares(::System::Net::HttpStreamAsyncResult* value);
 
-  static inline ::System::Net::__ChunkedInputStream__ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x29bca94, size 0x48, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_Count(int32_t value);
+
+  constexpr void __cordl_internal_set_InitialCount(int32_t value);
+
+  constexpr void __cordl_internal_set_Offset(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2aa860c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ChunkedInputStream__ReadBufferState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ChunkedInputStream__ReadBufferState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ChunkedInputStream__ReadBufferState(__ChunkedInputStream__ReadBufferState&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ChunkedInputStream__ReadBufferState(__ChunkedInputStream__ReadBufferState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ChunkedInputStream__ReadBufferState();
-
-public:
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;
 
@@ -151,71 +149,75 @@ static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9198))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9154))
 // CS Name: ::System.Net::ChunkedInputStream*
 class CORDL_TYPE ChunkedInputStream : public ::System::Net::RequestStream {
 public:
   // Declarations
   using ReadBufferState = ::System::Net::__ChunkedInputStream__ReadBufferState;
 
-  /// @brief Field disposed, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+  /// @brief Field context, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
 
   /// @brief Field decoder, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::Net::MonoChunkParser* decoder;
 
-  /// @brief Field context, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
+  /// @brief Field disposed, offset 0x50, size 0x1
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field no_more_data, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  constexpr bool& __cordl_internal_get_disposed();
+  /// @brief Method BeginRead, addr 0x2aa819c, size 0x308, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+  /// @brief Method Close, addr 0x2aa8e78, size 0x1c, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+  /// @brief Method EndRead, addr 0x2aa8bd8, size 0x2a0, virtual true, abstract: false, final false
+  inline int32_t EndRead(::System::IAsyncResult* ares);
 
-  constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get_decoder();
+  static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
+                                                            int32_t length);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __cordl_internal_get_decoder() const;
+  /// @brief Method OnRead, addr 0x2aa8654, size 0x3a4, virtual false, abstract: false, final false
+  inline void OnRead(::System::IAsyncResult* base_ares);
 
-  constexpr void __cordl_internal_set_decoder(::System::Net::MonoChunkParser* value);
+  /// @brief Method Read, addr 0x2aa8160, size 0x3c, virtual true, abstract: false, final false
+  inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
+  constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get_decoder();
 
-  constexpr bool& __cordl_internal_get_no_more_data();
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __cordl_internal_get_decoder() const;
+
+  constexpr bool const& __cordl_internal_get_disposed() const;
+
+  constexpr bool& __cordl_internal_get_disposed();
 
   constexpr bool const& __cordl_internal_get_no_more_data() const;
 
+  constexpr bool& __cordl_internal_get_no_more_data();
+
+  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
+
+  constexpr void __cordl_internal_set_decoder(::System::Net::MonoChunkParser* value);
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
   constexpr void __cordl_internal_set_no_more_data(bool value);
 
-  static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
-                                                            int32_t length);
-
-  /// @brief Method .ctor, addr 0x29bc4e4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa805c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method Read, addr 0x29bc5e8, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChunkedInputStream();
 
-  /// @brief Method BeginRead, addr 0x29bc624, size 0x308, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
-
-  /// @brief Method OnRead, addr 0x29bcadc, size 0x3a4, virtual false, abstract: false, final false
-  inline void OnRead(::System::IAsyncResult* base_ares);
-
-  /// @brief Method EndRead, addr 0x29bd060, size 0x2a0, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* ares);
-
-  /// @brief Method Close, addr 0x29bd300, size 0x1c, virtual true, abstract: false, final false
-  inline void Close();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ChunkedInputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChunkedInputStream(ChunkedInputStream&&) = delete;
@@ -224,12 +226,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChunkedInputStream(ChunkedInputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ChunkedInputStream();
-
-public:
   /// @brief Field disposed, offset: 0x50, size: 0x1, def value: None
   bool ___disposed;
 

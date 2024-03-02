@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::IEncryptedValuePadder);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(702))
 // CS Name: ::Org.BouncyCastle.Crmf::IEncryptedValuePadder*
 class CORDL_TYPE IEncryptedValuePadder {
 public:

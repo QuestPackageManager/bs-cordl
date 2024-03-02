@@ -23,25 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_BoundingVolume);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9586))
 // CS Name: ::HEU_BoundingVolume*
 class CORDL_TYPE HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   __declspec(property(get = get_BoundingCollider))::UnityW<::UnityEngine::Collider> BoundingCollider;
 
-  /// @brief Method get_BoundingCollider, addr 0x214ac6c, size 0x48, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Collider> get_BoundingCollider();
-
-  /// @brief Method GetAllIntersectingObjects, addr 0x214acb4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetAllIntersectingObjects, addr 0x22abc00, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetAllIntersectingObjects();
 
   static inline ::GlobalNamespace::HEU_BoundingVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214af68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22abeb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_BoundingCollider, addr 0x22abbb8, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider> get_BoundingCollider();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_BoundingVolume();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BoundingVolume", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_BoundingVolume(HEU_BoundingVolume&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_BoundingVolume(HEU_BoundingVolume const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_BoundingVolume();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

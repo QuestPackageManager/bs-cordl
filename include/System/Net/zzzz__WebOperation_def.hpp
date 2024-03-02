@@ -94,23 +94,25 @@ MARK_VAL_T(::System::Net::__WebOperation___Run_d__58);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 899 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9225)) CS Name: ::WebOperation::<GetRequestStream>d__50
+// CS Name: ::WebOperation::<GetRequestStream>d__50
 struct CORDL_TYPE __WebOperation___GetRequestStream_d__50 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2acf6d8, size 0x21c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2acf8f4, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e2b60, size 0x21c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x29e2d7c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __WebOperation___GetRequestStream_d__50();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebOperation*",
@@ -119,10 +121,6 @@ public:
   constexpr __WebOperation___GetRequestStream_d__50(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
                                                     ::System::Net::WebOperation* __4__this,
                                                     ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebRequestStream*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebOperation___GetRequestStream_d__50();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -157,23 +155,25 @@ static_assert(offsetof(::System::Net::__WebOperation___GetRequestStream_d__50, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9226)) CS
-// Name: ::WebOperation::<Run>d__58
+// CS Name: ::WebOperation::<Run>d__58
 struct CORDL_TYPE __WebOperation___Run_d__58 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2acf94c, size 0x58c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2acffb4, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e2dd4, size 0x58c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x29e343c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __WebOperation___Run_d__58();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None
@@ -184,10 +184,6 @@ public:
                                        ::System::Net::WebRequestStream* _requestStream_5__2, ::System::Net::WebResponseStream* _stream_5__3,
                                        ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebRequestStream*> __u__1,
                                        ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebOperation___Run_d__58();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -237,21 +233,40 @@ static_assert(offsetof(::System::Net::__WebOperation___Run_d__58, __u__2) == 0x5
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9227))
 // CS Name: ::System.Net::WebOperation*
 class CORDL_TYPE WebOperation : public ::System::Object {
 public:
   // Declarations
-  using _Run_d__58 = ::System::Net::__WebOperation___Run_d__58;
-
   using _GetRequestStream_d__50 = ::System::Net::__WebOperation___GetRequestStream_d__50;
 
-  /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+  using _Run_d__58 = ::System::Net::__WebOperation___Run_d__58;
+
+  __declspec(property(get = get_Aborted)) bool Aborted;
+
+  __declspec(property(get = get_Closed)) bool Closed;
+
+  __declspec(property(get = get_Connection, put = set_Connection))::System::Net::WebConnection* Connection;
+
+  __declspec(property(get = get_Finished))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* Finished;
+
+  __declspec(property(get = get_IsNtlmChallenge)) bool IsNtlmChallenge;
+
+  __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
+
+  __declspec(property(get = get_ServicePoint, put = set_ServicePoint))::System::Net::ServicePoint* ServicePoint;
+
+  __declspec(property(get = get_WriteBuffer))::System::Net::BufferOffsetSize* WriteBuffer;
+
+  __declspec(property(get = get_WriteStream))::System::Net::WebRequestStream* WriteStream;
 
   /// @brief Field <Connection>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Connection_k__BackingField, put = __cordl_internal_set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
+
+  /// @brief Field <IsNtlmChallenge>k__BackingField, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsNtlmChallenge_k__BackingField, put = __cordl_internal_set__IsNtlmChallenge_k__BackingField)) bool _IsNtlmChallenge_k__BackingField;
+
+  /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
 
   /// @brief Field <ServicePoint>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
@@ -259,11 +274,27 @@ public:
   /// @brief Field <WriteBuffer>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__WriteBuffer_k__BackingField, put = __cordl_internal_set__WriteBuffer_k__BackingField))::System::Net::BufferOffsetSize* _WriteBuffer_k__BackingField;
 
-  /// @brief Field <IsNtlmChallenge>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsNtlmChallenge_k__BackingField, put = __cordl_internal_set__IsNtlmChallenge_k__BackingField)) bool _IsNtlmChallenge_k__BackingField;
+  /// @brief Field closedInfo, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_closedInfo, put = __cordl_internal_set_closedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* closedInfo;
 
   /// @brief Field cts, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
+
+  /// @brief Field disposedInfo, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_disposedInfo, put = __cordl_internal_set_disposedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* disposedInfo;
+
+  /// @brief Field finished, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_finished, put = __cordl_internal_set_finished)) int32_t finished;
+
+  /// @brief Field finishedTask, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_finishedTask,
+                      put = __cordl_internal_set_finishedTask))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* finishedTask;
+
+  /// @brief Field priorityRequest, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_priorityRequest, put = __cordl_internal_set_priorityRequest))::System::Net::WebOperation* priorityRequest;
+
+  /// @brief Field requestSent, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_requestSent, put = __cordl_internal_set_requestSent)) int32_t requestSent;
 
   /// @brief Field requestTask, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_requestTask, put = __cordl_internal_set_requestTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestTask;
@@ -272,253 +303,222 @@ public:
   __declspec(property(get = __cordl_internal_get_requestWrittenTask,
                       put = __cordl_internal_set_requestWrittenTask))::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* requestWrittenTask;
 
+  /// @brief Field responseStream, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_responseStream, put = __cordl_internal_set_responseStream))::System::Net::WebResponseStream* responseStream;
+
   /// @brief Field responseTask, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_responseTask, put = __cordl_internal_set_responseTask))::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* responseTask;
-
-  /// @brief Field finishedTask, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_finishedTask,
-                      put = __cordl_internal_set_finishedTask))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* finishedTask;
 
   /// @brief Field writeStream, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_writeStream, put = __cordl_internal_set_writeStream))::System::Net::WebRequestStream* writeStream;
 
-  /// @brief Field responseStream, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_responseStream, put = __cordl_internal_set_responseStream))::System::Net::WebResponseStream* responseStream;
+  /// @brief Method Abort, addr 0x2ac7b74, size 0x40, virtual false, abstract: false, final false
+  inline void Abort();
 
-  /// @brief Field disposedInfo, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_disposedInfo, put = __cordl_internal_set_disposedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* disposedInfo;
+  /// @brief Method CheckDisposed, addr 0x2acf1f4, size 0x4c, virtual false, abstract: false, final false
+  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckDisposed(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Field closedInfo, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_closedInfo, put = __cordl_internal_set_closedInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* closedInfo;
+  /// @brief Method CheckThrowDisposed, addr 0x2acf240, size 0x58, virtual false, abstract: false, final false
+  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckThrowDisposed(bool throwIt, ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  /// @brief Field priorityRequest, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_priorityRequest, put = __cordl_internal_set_priorityRequest))::System::Net::WebOperation* priorityRequest;
+  /// @brief Method Close, addr 0x2acee60, size 0xac, virtual false, abstract: false, final false
+  inline void Close();
 
-  /// @brief Field requestSent, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_requestSent, put = __cordl_internal_set_requestSent)) int32_t requestSent;
+  /// @brief Method CompleteRequestWritten, addr 0x2acf634, size 0x80, virtual false, abstract: false, final false
+  inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error);
 
-  /// @brief Field finished, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_finished, put = __cordl_internal_set_finished)) int32_t finished;
+  /// @brief Method Finish, addr 0x2acef0c, size 0x244, virtual false, abstract: false, final false
+  inline void Finish(bool ok, ::System::Exception* error);
 
-  __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
+  /// @brief Method GetRequestStream, addr 0x2acf484, size 0xf0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStream();
 
-  __declspec(property(get = get_Connection, put = set_Connection))::System::Net::WebConnection* Connection;
+  /// @brief Method GetRequestStreamInternal, addr 0x2acf574, size 0x50, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* GetRequestStreamInternal();
 
-  __declspec(property(get = get_ServicePoint, put = set_ServicePoint))::System::Net::ServicePoint* ServicePoint;
+  /// @brief Method GetResponseStream, addr 0x2acf5dc, size 0x50, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::WebResponseStream*>* GetResponseStream();
 
-  __declspec(property(get = get_WriteBuffer))::System::Net::BufferOffsetSize* WriteBuffer;
+  static inline ::System::Net::WebOperation* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge,
+                                                      ::System::Threading::CancellationToken cancellationToken);
 
-  __declspec(property(get = get_IsNtlmChallenge)) bool IsNtlmChallenge;
+  /// @brief Method RegisterRequest, addr 0x2aca514, size 0x254, virtual false, abstract: false, final false
+  inline void RegisterRequest(::System::Net::ServicePoint* servicePoint, ::System::Net::WebConnection* connection);
 
-  __declspec(property(get = get_Aborted)) bool Aborted;
+  /// @brief Method Run, addr 0x2aca768, size 0x94, virtual false, abstract: false, final false
+  inline void Run();
 
-  __declspec(property(get = get_Closed)) bool Closed;
+  /// @brief Method SetCanceled, addr 0x2aced94, size 0xcc, virtual false, abstract: false, final false
+  inline void SetCanceled();
 
-  __declspec(property(get = get_WriteStream))::System::Net::WebRequestStream* WriteStream;
+  /// @brief Method SetDisposed, addr 0x2aceca4, size 0xf0, virtual false, abstract: false, final false
+  inline ::System::ValueTuple_2<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*, bool> SetDisposed(ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
 
-  __declspec(property(get = get_Finished))::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* Finished;
+  /// @brief Method SetError, addr 0x2acf150, size 0xa4, virtual false, abstract: false, final false
+  inline void SetError(::System::Exception* error);
 
-  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
+  /// @brief Method SetPriorityRequest, addr 0x2acf2f8, size 0x18c, virtual false, abstract: false, final false
+  inline void SetPriorityRequest(::System::Net::WebOperation* operation);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
+  /// @brief Method ThrowIfClosedOrDisposed, addr 0x2acc7fc, size 0x60, virtual false, abstract: false, final false
+  inline void ThrowIfClosedOrDisposed();
 
-  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+  /// @brief Method ThrowIfClosedOrDisposed, addr 0x2acc01c, size 0x4c, virtual false, abstract: false, final false
+  inline void ThrowIfClosedOrDisposed(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method ThrowIfDisposed, addr 0x2acf298, size 0x60, virtual false, abstract: false, final false
+  inline void ThrowIfDisposed();
+
+  /// @brief Method ThrowIfDisposed, addr 0x2acb32c, size 0x44, virtual false, abstract: false, final false
+  inline void ThrowIfDisposed(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method <RegisterRequest>b__48_0, addr 0x2acf6b4, size 0x24, virtual false, abstract: false, final false
+  inline void _RegisterRequest_b__48_0();
 
   constexpr ::System::Net::WebConnection*& __cordl_internal_get__Connection_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __cordl_internal_get__Connection_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection* value);
+  constexpr bool const& __cordl_internal_get__IsNtlmChallenge_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__IsNtlmChallenge_k__BackingField();
+
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
   constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
-
   constexpr ::System::Net::BufferOffsetSize*& __cordl_internal_get__WriteBuffer_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& __cordl_internal_get__WriteBuffer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__WriteBuffer_k__BackingField(::System::Net::BufferOffsetSize* value);
-
-  constexpr bool& __cordl_internal_get__IsNtlmChallenge_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__IsNtlmChallenge_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__IsNtlmChallenge_k__BackingField(bool value);
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
-
-  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
-
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestTask() const;
-
-  constexpr void __cordl_internal_set_requestTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
-
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestWrittenTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestWrittenTask() const;
-
-  constexpr void __cordl_internal_set_requestWrittenTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
-
-  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*& __cordl_internal_get_responseTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*> const& __cordl_internal_get_responseTask() const;
-
-  constexpr void __cordl_internal_set_responseTask(::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* value);
-
-  constexpr ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*& __cordl_internal_get_finishedTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*> const& __cordl_internal_get_finishedTask() const;
-
-  constexpr void __cordl_internal_set_finishedTask(::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* value);
-
-  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get_writeStream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get_writeStream() const;
-
-  constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
-
-  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get_responseStream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __cordl_internal_get_responseStream() const;
-
-  constexpr void __cordl_internal_set_responseStream(::System::Net::WebResponseStream* value);
-
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_disposedInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_disposedInfo() const;
-
-  constexpr void __cordl_internal_set_disposedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
   constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_closedInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_closedInfo() const;
 
-  constexpr void __cordl_internal_set_closedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
+
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_disposedInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_disposedInfo() const;
+
+  constexpr int32_t const& __cordl_internal_get_finished() const;
+
+  constexpr int32_t& __cordl_internal_get_finished();
+
+  constexpr ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*& __cordl_internal_get_finishedTask();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>*> const& __cordl_internal_get_finishedTask() const;
 
   constexpr ::System::Net::WebOperation*& __cordl_internal_get_priorityRequest();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_priorityRequest() const;
 
-  constexpr void __cordl_internal_set_priorityRequest(::System::Net::WebOperation* value);
+  constexpr int32_t const& __cordl_internal_get_requestSent() const;
 
   constexpr int32_t& __cordl_internal_get_requestSent();
 
-  constexpr int32_t const& __cordl_internal_get_requestSent() const;
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestTask();
 
-  constexpr void __cordl_internal_set_requestSent(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestTask() const;
 
-  constexpr int32_t& __cordl_internal_get_finished();
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*& __cordl_internal_get_requestWrittenTask();
 
-  constexpr int32_t const& __cordl_internal_get_finished() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>*> const& __cordl_internal_get_requestWrittenTask() const;
+
+  constexpr ::System::Net::WebResponseStream*& __cordl_internal_get_responseStream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& __cordl_internal_get_responseStream() const;
+
+  constexpr ::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*& __cordl_internal_get_responseTask();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>*> const& __cordl_internal_get_responseTask() const;
+
+  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get_writeStream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get_writeStream() const;
+
+  constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection* value);
+
+  constexpr void __cordl_internal_set__IsNtlmChallenge_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+
+  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
+
+  constexpr void __cordl_internal_set__WriteBuffer_k__BackingField(::System::Net::BufferOffsetSize* value);
+
+  constexpr void __cordl_internal_set_closedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+
+  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set_disposedInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
   constexpr void __cordl_internal_set_finished(int32_t value);
 
-  /// @brief Method get_Request, addr 0x29e1f34, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::HttpWebRequest* get_Request();
+  constexpr void __cordl_internal_set_finishedTask(::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* value);
 
-  /// @brief Method get_Connection, addr 0x29e1f3c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::WebConnection* get_Connection();
+  constexpr void __cordl_internal_set_priorityRequest(::System::Net::WebOperation* value);
 
-  /// @brief Method set_Connection, addr 0x29e1f44, size 0x8, virtual false, abstract: false, final false
-  inline void set_Connection(::System::Net::WebConnection* value);
+  constexpr void __cordl_internal_set_requestSent(int32_t value);
 
-  /// @brief Method get_ServicePoint, addr 0x29e1f4c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::ServicePoint* get_ServicePoint();
+  constexpr void __cordl_internal_set_requestTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
 
-  /// @brief Method set_ServicePoint, addr 0x29e1f54, size 0x8, virtual false, abstract: false, final false
-  inline void set_ServicePoint(::System::Net::ServicePoint* value);
+  constexpr void __cordl_internal_set_requestWrittenTask(::System::Net::WebCompletionSource_1<::System::Net::WebRequestStream*>* value);
 
-  /// @brief Method get_WriteBuffer, addr 0x29e1f5c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::BufferOffsetSize* get_WriteBuffer();
+  constexpr void __cordl_internal_set_responseStream(::System::Net::WebResponseStream* value);
 
-  /// @brief Method get_IsNtlmChallenge, addr 0x29e1f64, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsNtlmChallenge();
+  constexpr void __cordl_internal_set_responseTask(::System::Net::WebCompletionSource_1<::System::Net::WebResponseStream*>* value);
 
-  static inline ::System::Net::WebOperation* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge,
-                                                      ::System::Threading::CancellationToken cancellationToken);
+  constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
 
-  /// @brief Method .ctor, addr 0x29e1f6c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aceae4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::BufferOffsetSize* writeBuffer, bool isNtlmChallenge, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_Aborted, addr 0x29db03c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Aborted, addr 0x2ac7bb4, size 0x50, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
-  /// @brief Method get_Closed, addr 0x29e2100, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x2acec78, size 0x2c, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method Abort, addr 0x29daffc, size 0x40, virtual false, abstract: false, final false
-  inline void Abort();
+  /// @brief Method get_Connection, addr 0x2aceab4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::WebConnection* get_Connection();
 
-  /// @brief Method Close, addr 0x29e22e8, size 0xac, virtual false, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method SetCanceled, addr 0x29e221c, size 0xcc, virtual false, abstract: false, final false
-  inline void SetCanceled();
-
-  /// @brief Method SetError, addr 0x29e25d8, size 0xa4, virtual false, abstract: false, final false
-  inline void SetError(::System::Exception* error);
-
-  /// @brief Method SetDisposed, addr 0x29e212c, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::ValueTuple_2<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*, bool> SetDisposed(ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
-
-  /// @brief Method CheckDisposed, addr 0x29e267c, size 0x4c, virtual false, abstract: false, final false
-  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckDisposed(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method ThrowIfDisposed, addr 0x29e2720, size 0x60, virtual false, abstract: false, final false
-  inline void ThrowIfDisposed();
-
-  /// @brief Method ThrowIfDisposed, addr 0x29de7b4, size 0x44, virtual false, abstract: false, final false
-  inline void ThrowIfDisposed(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method ThrowIfClosedOrDisposed, addr 0x29dfc84, size 0x60, virtual false, abstract: false, final false
-  inline void ThrowIfClosedOrDisposed();
-
-  /// @brief Method ThrowIfClosedOrDisposed, addr 0x29df4a4, size 0x4c, virtual false, abstract: false, final false
-  inline void ThrowIfClosedOrDisposed(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method CheckThrowDisposed, addr 0x29e26c8, size 0x58, virtual false, abstract: false, final false
-  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* CheckThrowDisposed(bool throwIt, ByRef<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> field);
-
-  /// @brief Method RegisterRequest, addr 0x29dd99c, size 0x254, virtual false, abstract: false, final false
-  inline void RegisterRequest(::System::Net::ServicePoint* servicePoint, ::System::Net::WebConnection* connection);
-
-  /// @brief Method SetPriorityRequest, addr 0x29e2780, size 0x18c, virtual false, abstract: false, final false
-  inline void SetPriorityRequest(::System::Net::WebOperation* operation);
-
-  /// @brief Method GetRequestStream, addr 0x29e290c, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetRequestStream();
-
-  /// @brief Method GetRequestStreamInternal, addr 0x29e29fc, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* GetRequestStreamInternal();
-
-  /// @brief Method get_WriteStream, addr 0x29e2a4c, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Net::WebRequestStream* get_WriteStream();
-
-  /// @brief Method GetResponseStream, addr 0x29e2a64, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::WebResponseStream*>* GetResponseStream();
-
-  /// @brief Method get_Finished, addr 0x29e2ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Finished, addr 0x2acf62c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebCompletionSource_1<::System::ValueTuple_2<bool, ::System::Net::WebOperation*>>* get_Finished();
 
-  /// @brief Method Run, addr 0x29ddbf0, size 0x94, virtual false, abstract: false, final false
-  inline void Run();
+  /// @brief Method get_IsNtlmChallenge, addr 0x2aceadc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsNtlmChallenge();
 
-  /// @brief Method CompleteRequestWritten, addr 0x29e2abc, size 0x80, virtual false, abstract: false, final false
-  inline void CompleteRequestWritten(::System::Net::WebRequestStream* stream, ::System::Exception* error);
+  /// @brief Method get_Request, addr 0x2aceaac, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method Finish, addr 0x29e2394, size 0x244, virtual false, abstract: false, final false
-  inline void Finish(bool ok, ::System::Exception* error);
+  /// @brief Method get_ServicePoint, addr 0x2aceac4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method <RegisterRequest>b__48_0, addr 0x29e2b3c, size 0x24, virtual false, abstract: false, final false
-  inline void _RegisterRequest_b__48_0();
+  /// @brief Method get_WriteBuffer, addr 0x2acead4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::BufferOffsetSize* get_WriteBuffer();
 
+  /// @brief Method get_WriteStream, addr 0x2acf5c4, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Net::WebRequestStream* get_WriteStream();
+
+  /// @brief Method set_Connection, addr 0x2aceabc, size 0x8, virtual false, abstract: false, final false
+  inline void set_Connection(::System::Net::WebConnection* value);
+
+  /// @brief Method set_ServicePoint, addr 0x2aceacc, size 0x8, virtual false, abstract: false, final false
+  inline void set_ServicePoint(::System::Net::ServicePoint* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WebOperation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WebOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebOperation(WebOperation&&) = delete;
@@ -527,12 +527,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebOperation(WebOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebOperation();
-
-public:
   /// @brief Field <Request>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;
 

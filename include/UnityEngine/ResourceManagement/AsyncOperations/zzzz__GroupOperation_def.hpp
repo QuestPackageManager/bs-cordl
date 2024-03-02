@@ -55,8 +55,6 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperatio
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14037))
 // CS Name: ::GroupOperation::GroupOperationSettings
 struct CORDL_TYPE __GroupOperation__GroupOperationSettings {
 public:
@@ -75,18 +73,23 @@ public:
     return static_cast<____GroupOperation__GroupOperationSettings_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GroupOperation__GroupOperationSettings(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __GroupOperation__GroupOperationSettings();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __GroupOperation__GroupOperationSettings(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AllowFailedDependencies value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const AllowFailedDependencies;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const None;
@@ -94,8 +97,8 @@ public:
   /// @brief Field ReleaseDependenciesOnFailure value: static_cast<int32_t>(0x1)
   static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const ReleaseDependenciesOnFailure;
 
-  /// @brief Field AllowFailedDependencies value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const AllowFailedDependencies;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -109,14 +112,32 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::__Gro
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 792 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14038)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
+// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
 class CORDL_TYPE GroupOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> {
 public:
   // Declarations
   using GroupOperationSettings = ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings;
+
+  __declspec(property(get = get_DebugName))::StringW DebugName;
+
+  __declspec(property(get = get_Progress)) float_t Progress;
+
+  __declspec(property(
+      get = UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key,
+      put = UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key))::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key;
+
+  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField,
+                      put = __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField))::UnityEngine::ResourceManagement::Util::
+      IOperationCacheKey* _UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
+
+  /// @brief Field debugName, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_debugName, put = __cordl_internal_set_debugName))::StringW debugName;
+
+  /// @brief Field m_CachedDependencyLocations, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CachedDependencyLocations,
+                      put = __cordl_internal_set_m_CachedDependencyLocations))::System::Collections::Generic::HashSet_1<::StringW>* m_CachedDependencyLocations;
 
   /// @brief Field m_InternalOnComplete, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InternalOnComplete,
@@ -129,124 +150,110 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Settings,
                       put = __cordl_internal_set_m_Settings))::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings m_Settings;
 
-  /// @brief Field debugName, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_debugName, put = __cordl_internal_set_debugName))::StringW debugName;
-
-  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField))::UnityEngine::ResourceManagement::Util::
-      IOperationCacheKey* _UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
-
-  /// @brief Field m_CachedDependencyLocations, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CachedDependencyLocations,
-                      put = __cordl_internal_set_m_CachedDependencyLocations))::System::Collections::Generic::HashSet_1<::StringW>* m_CachedDependencyLocations;
-
-  __declspec(property(
-      get = UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key,
-      put = UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key))::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key;
-
-  __declspec(property(get = get_DebugName))::StringW DebugName;
-
-  __declspec(property(get = get_Progress)) float_t Progress;
-
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
   constexpr operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable* i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept;
+  /// @brief Method CompleteIfDependenciesComplete, addr 0x2cc5420, size 0x308, virtual false, abstract: false, final false
+  inline void CompleteIfDependenciesComplete();
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_InternalOnComplete();
+  /// @brief Method DependenciesAreUnchanged, addr 0x2cc4d68, size 0x1cc, virtual false, abstract: false, final false
+  inline bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __cordl_internal_get_m_InternalOnComplete() const;
+  /// @brief Method Destroy, addr 0x2cc5728, size 0x10, virtual true, abstract: false, final false
+  inline void Destroy();
 
-  constexpr void __cordl_internal_set_m_InternalOnComplete(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  /// @brief Method Execute, addr 0x2cc5208, size 0x218, virtual true, abstract: false, final false
+  inline void Execute();
 
-  constexpr int32_t& __cordl_internal_get_m_LoadedCount();
+  /// @brief Method GetDependencies, addr 0x2cc4850, size 0x64, virtual true, abstract: false, final false
+  inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  constexpr int32_t const& __cordl_internal_get_m_LoadedCount() const;
+  /// @brief Method GetDependentOps, addr 0x2cb3e80, size 0x3c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
 
-  constexpr void __cordl_internal_set_m_LoadedCount(int32_t value);
+  /// @brief Method GetDownloadStatus, addr 0x2cc4b08, size 0x260, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings& __cordl_internal_get_m_Settings();
+  /// @brief Method Init, addr 0x2cb3d94, size 0xbc, virtual false, abstract: false, final false
+  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
+                   bool allowFailedDependencies);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const& __cordl_internal_get_m_Settings() const;
+  /// @brief Method Init, addr 0x2cc5930, size 0x98, virtual false, abstract: false, final false
+  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,
+                   ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings settings);
 
-  constexpr void __cordl_internal_set_m_Settings(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings value);
+  /// @brief Method InvokeWaitForCompletion, addr 0x2cc4468, size 0x3d8, virtual true, abstract: false, final false
+  inline bool InvokeWaitForCompletion();
 
-  constexpr ::StringW& __cordl_internal_get_debugName();
+  static inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* New_ctor();
 
-  constexpr ::StringW const& __cordl_internal_get_debugName() const;
+  /// @brief Method OnOperationCompleted, addr 0x2cc59c8, size 0x1010, virtual false, abstract: false, final false
+  inline void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
-  constexpr void __cordl_internal_set_debugName(::StringW value);
+  /// @brief Method ReleaseDependencies, addr 0x2cc48b4, size 0x254, virtual true, abstract: false, final false
+  inline void ReleaseDependencies();
+
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x2cc4840, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
+
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x2cc4848, size 0x8, virtual true, abstract: false, final true
+  inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
   constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
   __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
+  constexpr ::StringW const& __cordl_internal_get_debugName() const;
+
+  constexpr ::StringW& __cordl_internal_get_debugName();
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_m_CachedDependencyLocations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get_m_CachedDependencyLocations() const;
 
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_InternalOnComplete();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __cordl_internal_get_m_InternalOnComplete() const;
+
+  constexpr int32_t const& __cordl_internal_get_m_LoadedCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_LoadedCount();
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const& __cordl_internal_get_m_Settings() const;
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings& __cordl_internal_get_m_Settings();
+
+  constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
+
+  constexpr void __cordl_internal_set_debugName(::StringW value);
+
   constexpr void __cordl_internal_set_m_CachedDependencyLocations(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  static inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* New_ctor();
+  constexpr void __cordl_internal_set_m_InternalOnComplete(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method .ctor, addr 0x2bdd6f0, size 0x138, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_LoadedCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Settings(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings value);
+
+  /// @brief Method .ctor, addr 0x2cc4330, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2bdd828, size 0x3d8, virtual true, abstract: false, final false
-  inline bool InvokeWaitForCompletion();
-
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x2bddc00, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
-
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x2bddc08, size 0x8, virtual true, abstract: false, final true
-  inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
-
-  /// @brief Method GetDependentOps, addr 0x2bcd240, size 0x3c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
-
-  /// @brief Method GetDependencies, addr 0x2bddc10, size 0x64, virtual true, abstract: false, final false
-  inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
-
-  /// @brief Method ReleaseDependencies, addr 0x2bddc74, size 0x254, virtual true, abstract: false, final false
-  inline void ReleaseDependencies();
-
-  /// @brief Method GetDownloadStatus, addr 0x2bddec8, size 0x260, virtual true, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
-
-  /// @brief Method DependenciesAreUnchanged, addr 0x2bde128, size 0x1cc, virtual false, abstract: false, final false
-  inline bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
-
-  /// @brief Method get_DebugName, addr 0x2bde2f4, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x2cc4f34, size 0x2d4, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method Execute, addr 0x2bde5c8, size 0x218, virtual true, abstract: false, final false
-  inline void Execute();
-
-  /// @brief Method CompleteIfDependenciesComplete, addr 0x2bde7e0, size 0x308, virtual false, abstract: false, final false
-  inline void CompleteIfDependenciesComplete();
-
-  /// @brief Method Destroy, addr 0x2bdeae8, size 0x10, virtual true, abstract: false, final false
-  inline void Destroy();
-
-  /// @brief Method get_Progress, addr 0x2bdeaf8, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x2cc5738, size 0x1f8, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
-  /// @brief Method Init, addr 0x2bcd154, size 0xbc, virtual false, abstract: false, final false
-  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
-                   bool allowFailedDependencies);
+  /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable* i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept;
 
-  /// @brief Method Init, addr 0x2bdecf0, size 0x98, virtual false, abstract: false, final false
-  inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,
-                   ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings settings);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GroupOperation();
 
-  /// @brief Method OnOperationCompleted, addr 0x2bded88, size 0x1010, virtual false, abstract: false, final false
-  inline void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GroupOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupOperation(GroupOperation&&) = delete;
@@ -255,12 +262,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GroupOperation(GroupOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GroupOperation();
-
-public:
   /// @brief Field m_InternalOnComplete, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___m_InternalOnComplete;
 

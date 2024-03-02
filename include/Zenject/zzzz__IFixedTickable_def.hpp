@@ -13,8 +13,6 @@ MARK_REF_PTR_T(::Zenject::IFixedTickable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15733))
 // CS Name: ::Zenject::IFixedTickable*
 class CORDL_TYPE IFixedTickable {
 public:

@@ -20,19 +20,17 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ITraceWriter);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
 // CS Name: ::Newtonsoft.Json.Serialization::ITraceWriter*
 class CORDL_TYPE ITraceWriter {
 public:
   // Declarations
   __declspec(property(get = get_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
 
-  /// @brief Method get_LevelFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Diagnostics::TraceLevel get_LevelFilter();
-
   /// @brief Method Trace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
+
+  /// @brief Method get_LevelFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITraceWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

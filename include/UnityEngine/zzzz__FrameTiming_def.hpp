@@ -16,22 +16,20 @@ MARK_VAL_T(::UnityEngine::FrameTiming);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10132))
 // CS Name: ::UnityEngine::FrameTiming
 struct CORDL_TYPE FrameTiming {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FrameTiming();
+
   // Ctor Parameters [CppParam { name: "cpuTimePresentCalled", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "cpuFrameTime", ty: "double_t", modifiers: "", def_value: None },
   // CppParam { name: "cpuTimeFrameComplete", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "gpuFrameTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
   // "heightScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "widthScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "syncInterval", ty: "uint32_t",
   // modifiers: "", def_value: None }]
   constexpr FrameTiming(uint64_t cpuTimePresentCalled, double_t cpuFrameTime, uint64_t cpuTimeFrameComplete, double_t gpuFrameTime, float_t heightScale, float_t widthScale,
                         uint32_t syncInterval) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FrameTiming();
 
   /// @brief Field cpuTimePresentCalled, offset: 0x0, size: 0x8, def value: None
   uint64_t cpuTimePresentCalled;

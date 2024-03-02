@@ -56,62 +56,64 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 155, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(13213))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6379))
 // CS Name: ::PointerModel::ButtonState
 struct CORDL_TYPE __PointerModel__ButtonState {
 public:
   // Declarations
-  __declspec(property(get = get_isPressed, put = set_isPressed)) bool isPressed;
+  __declspec(property(get = get_clickedOnSameGameObject, put = set_clickedOnSameGameObject)) bool clickedOnSameGameObject;
 
   __declspec(property(get = get_ignoreNextClick, put = set_ignoreNextClick)) bool ignoreNextClick;
 
-  __declspec(property(get = get_pressTime, put = set_pressTime)) float_t pressTime;
+  __declspec(property(get = get_isPressed, put = set_isPressed)) bool isPressed;
 
-  __declspec(property(get = get_clickedOnSameGameObject, put = set_clickedOnSameGameObject)) bool clickedOnSameGameObject;
+  __declspec(property(get = get_pressTime, put = set_pressTime)) float_t pressTime;
 
   __declspec(property(get = get_wasPressedThisFrame)) bool wasPressedThisFrame;
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method get_isPressed, addr 0x2ad688c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isPressed();
-
-  /// @brief Method set_isPressed, addr 0x2ad59f0, size 0x54, virtual false, abstract: false, final false
-  inline void set_isPressed(bool value);
-
-  /// @brief Method get_ignoreNextClick, addr 0x2ad6894, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ignoreNextClick();
-
-  /// @brief Method set_ignoreNextClick, addr 0x2ad689c, size 0xc, virtual false, abstract: false, final false
-  inline void set_ignoreNextClick(bool value);
-
-  /// @brief Method get_pressTime, addr 0x2ad68a8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_pressTime();
-
-  /// @brief Method set_pressTime, addr 0x2ad68b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_pressTime(float_t value);
-
-  /// @brief Method get_clickedOnSameGameObject, addr 0x2ad68b8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_clickedOnSameGameObject();
-
-  /// @brief Method set_clickedOnSameGameObject, addr 0x2ad68c0, size 0xc, virtual false, abstract: false, final false
-  inline void set_clickedOnSameGameObject(bool value);
-
-  /// @brief Method get_wasPressedThisFrame, addr 0x2ad2774, size 0x10, virtual false, abstract: false, final false
-  inline bool get_wasPressedThisFrame();
-
-  /// @brief Method get_wasReleasedThisFrame, addr 0x2ad20cc, size 0x14, virtual false, abstract: false, final false
-  inline bool get_wasReleasedThisFrame();
-
-  /// @brief Method CopyPressStateTo, addr 0x2ad1244, size 0xa0, virtual false, abstract: false, final false
-  inline void CopyPressStateTo(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  /// @brief Method CopyPressStateFrom, addr 0x2ad2784, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyPressStateFrom, addr 0x2bb93c4, size 0x68, virtual false, abstract: false, final false
   inline void CopyPressStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndFrame, addr 0x2ad6880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CopyPressStateTo, addr 0x2bb7e84, size 0xa0, virtual false, abstract: false, final false
+  inline void CopyPressStateTo(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method OnEndFrame, addr 0x2bbd4c0, size 0xc, virtual false, abstract: false, final false
   inline void OnEndFrame();
+
+  /// @brief Method get_clickedOnSameGameObject, addr 0x2bbd4f8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_clickedOnSameGameObject();
+
+  /// @brief Method get_ignoreNextClick, addr 0x2bbd4d4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ignoreNextClick();
+
+  /// @brief Method get_isPressed, addr 0x2bbd4cc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isPressed();
+
+  /// @brief Method get_pressTime, addr 0x2bbd4e8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_pressTime();
+
+  /// @brief Method get_wasPressedThisFrame, addr 0x2bb93b4, size 0x10, virtual false, abstract: false, final false
+  inline bool get_wasPressedThisFrame();
+
+  /// @brief Method get_wasReleasedThisFrame, addr 0x2bb8d0c, size 0x14, virtual false, abstract: false, final false
+  inline bool get_wasReleasedThisFrame();
+
+  /// @brief Method set_clickedOnSameGameObject, addr 0x2bbd500, size 0xc, virtual false, abstract: false, final false
+  inline void set_clickedOnSameGameObject(bool value);
+
+  /// @brief Method set_ignoreNextClick, addr 0x2bbd4dc, size 0xc, virtual false, abstract: false, final false
+  inline void set_ignoreNextClick(bool value);
+
+  /// @brief Method set_isPressed, addr 0x2bbc630, size 0x54, virtual false, abstract: false, final false
+  inline void set_isPressed(bool value);
+
+  /// @brief Method set_pressTime, addr 0x2bbd4f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_pressTime(float_t value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PointerModel__ButtonState();
 
   // Ctor Parameters [CppParam { name: "m_IsPressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FramePressState", ty:
   // "::UnityEngine::EventSystems::__PointerEventData__FramePressState", modifiers: "", def_value: None }, CppParam { name: "m_PressTime", ty: "float_t", modifiers: "", def_value: None }, CppParam {
@@ -126,10 +128,6 @@ public:
                                         ::UnityW<::UnityEngine::GameObject> m_RawPressObject, ::UnityW<::UnityEngine::GameObject> m_LastPressObject, ::UnityW<::UnityEngine::GameObject> m_DragObject,
                                         ::UnityEngine::Vector2 m_PressPosition, float_t m_ClickTime, int32_t m_ClickCount, bool m_Dragging, bool m_ClickedOnSameGameObject,
                                         bool m_IgnoreNextClick) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PointerModel__ButtonState();
 
   /// @brief Field m_IsPressed, offset: 0x0, size: 0x1, def value: None
   bool m_IsPressed;
@@ -214,98 +212,101 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonSta
 // SizeInfo { instance_size: 520, native_size: -1, calculated_instance_size: 520, calculated_native_size: 532, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6379)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
+// CS Name: ::UnityEngine.InputSystem.UI::PointerModel
 struct CORDL_TYPE PointerModel {
 public:
   // Declarations
   using ButtonState = ::UnityEngine::InputSystem::UI::__PointerModel__ButtonState;
 
-  __declspec(property(get = get_pointerType))::UnityEngine::InputSystem::UI::UIPointerType pointerType;
-
-  __declspec(property(get = get_screenPosition, put = set_screenPosition))::UnityEngine::Vector2 screenPosition;
-
-  __declspec(property(get = get_worldPosition, put = set_worldPosition))::UnityEngine::Vector3 worldPosition;
-
-  __declspec(property(get = get_worldOrientation, put = set_worldOrientation))::UnityEngine::Quaternion worldOrientation;
-
-  __declspec(property(get = get_scrollDelta, put = set_scrollDelta))::UnityEngine::Vector2 scrollDelta;
-
-  __declspec(property(get = get_pressure, put = set_pressure)) float_t pressure;
+  __declspec(property(get = get_altitudeAngle, put = set_altitudeAngle)) float_t altitudeAngle;
 
   __declspec(property(get = get_azimuthAngle, put = set_azimuthAngle)) float_t azimuthAngle;
 
-  __declspec(property(get = get_altitudeAngle, put = set_altitudeAngle)) float_t altitudeAngle;
+  __declspec(property(get = get_pointerType))::UnityEngine::InputSystem::UI::UIPointerType pointerType;
 
-  __declspec(property(get = get_twist, put = set_twist)) float_t twist;
+  __declspec(property(get = get_pressure, put = set_pressure)) float_t pressure;
 
   __declspec(property(get = get_radius, put = set_radius))::UnityEngine::Vector2 radius;
 
-  /// @brief Method get_pointerType, addr 0x2ad1330, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
+  __declspec(property(get = get_screenPosition, put = set_screenPosition))::UnityEngine::Vector2 screenPosition;
 
-  /// @brief Method get_screenPosition, addr 0x2ad6768, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_screenPosition();
+  __declspec(property(get = get_scrollDelta, put = set_scrollDelta))::UnityEngine::Vector2 scrollDelta;
 
-  /// @brief Method set_screenPosition, addr 0x2ad53b8, size 0x40, virtual false, abstract: false, final false
-  inline void set_screenPosition(::UnityEngine::Vector2 value);
+  __declspec(property(get = get_twist, put = set_twist)) float_t twist;
 
-  /// @brief Method get_worldPosition, addr 0x2ad6774, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_worldPosition();
+  __declspec(property(get = get_worldOrientation, put = set_worldOrientation))::UnityEngine::Quaternion worldOrientation;
 
-  /// @brief Method set_worldPosition, addr 0x2ad5e0c, size 0x54, virtual false, abstract: false, final false
-  inline void set_worldPosition(::UnityEngine::Vector3 value);
+  __declspec(property(get = get_worldPosition, put = set_worldPosition))::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Method get_worldOrientation, addr 0x2ad6784, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_worldOrientation();
+  /// @brief Method CopyTouchOrPenStateFrom, addr 0x2bbcca0, size 0xc8, virtual false, abstract: false, final false
+  inline void CopyTouchOrPenStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method set_worldOrientation, addr 0x2ad5d30, size 0x58, virtual false, abstract: false, final false
-  inline void set_worldOrientation(::UnityEngine::Quaternion value);
-
-  /// @brief Method get_scrollDelta, addr 0x2ad6798, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_scrollDelta();
-
-  /// @brief Method set_scrollDelta, addr 0x2ad5c0c, size 0x40, virtual false, abstract: false, final false
-  inline void set_scrollDelta(::UnityEngine::Vector2 value);
-
-  /// @brief Method get_pressure, addr 0x2ad67a4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_pressure();
-
-  /// @brief Method set_pressure, addr 0x2ad67ac, size 0x1c, virtual false, abstract: false, final false
-  inline void set_pressure(float_t value);
-
-  /// @brief Method get_azimuthAngle, addr 0x2ad67c8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_azimuthAngle();
-
-  /// @brief Method set_azimuthAngle, addr 0x2ad67d0, size 0x1c, virtual false, abstract: false, final false
-  inline void set_azimuthAngle(float_t value);
-
-  /// @brief Method get_altitudeAngle, addr 0x2ad67ec, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_altitudeAngle();
-
-  /// @brief Method set_altitudeAngle, addr 0x2ad67f4, size 0x1c, virtual false, abstract: false, final false
-  inline void set_altitudeAngle(float_t value);
-
-  /// @brief Method get_twist, addr 0x2ad6810, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_twist();
-
-  /// @brief Method set_twist, addr 0x2ad6818, size 0x1c, virtual false, abstract: false, final false
-  inline void set_twist(float_t value);
-
-  /// @brief Method get_radius, addr 0x2ad6834, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_radius();
-
-  /// @brief Method set_radius, addr 0x2ad6840, size 0x40, virtual false, abstract: false, final false
-  inline void set_radius(::UnityEngine::Vector2 value);
-
-  /// @brief Method .ctor, addr 0x2ad53f8, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
-
-  /// @brief Method OnFrameFinished, addr 0x2ad6018, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnFrameFinished, addr 0x2bbcc58, size 0x48, virtual false, abstract: false, final false
   inline void OnFrameFinished();
 
-  /// @brief Method CopyTouchOrPenStateFrom, addr 0x2ad6060, size 0xc8, virtual false, abstract: false, final false
-  inline void CopyTouchOrPenStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
+  /// @brief Method .ctor, addr 0x2bbc038, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
+
+  /// @brief Method get_altitudeAngle, addr 0x2bbd42c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_altitudeAngle();
+
+  /// @brief Method get_azimuthAngle, addr 0x2bbd408, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_azimuthAngle();
+
+  /// @brief Method get_pointerType, addr 0x2bb7f70, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
+
+  /// @brief Method get_pressure, addr 0x2bbd3e4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_pressure();
+
+  /// @brief Method get_radius, addr 0x2bbd474, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_radius();
+
+  /// @brief Method get_screenPosition, addr 0x2bbd3a8, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_screenPosition();
+
+  /// @brief Method get_scrollDelta, addr 0x2bbd3d8, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_scrollDelta();
+
+  /// @brief Method get_twist, addr 0x2bbd450, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_twist();
+
+  /// @brief Method get_worldOrientation, addr 0x2bbd3c4, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_worldOrientation();
+
+  /// @brief Method get_worldPosition, addr 0x2bbd3b4, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_worldPosition();
+
+  /// @brief Method set_altitudeAngle, addr 0x2bbd434, size 0x1c, virtual false, abstract: false, final false
+  inline void set_altitudeAngle(float_t value);
+
+  /// @brief Method set_azimuthAngle, addr 0x2bbd410, size 0x1c, virtual false, abstract: false, final false
+  inline void set_azimuthAngle(float_t value);
+
+  /// @brief Method set_pressure, addr 0x2bbd3ec, size 0x1c, virtual false, abstract: false, final false
+  inline void set_pressure(float_t value);
+
+  /// @brief Method set_radius, addr 0x2bbd480, size 0x40, virtual false, abstract: false, final false
+  inline void set_radius(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_screenPosition, addr 0x2bbbff8, size 0x40, virtual false, abstract: false, final false
+  inline void set_screenPosition(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_scrollDelta, addr 0x2bbc84c, size 0x40, virtual false, abstract: false, final false
+  inline void set_scrollDelta(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_twist, addr 0x2bbd458, size 0x1c, virtual false, abstract: false, final false
+  inline void set_twist(float_t value);
+
+  /// @brief Method set_worldOrientation, addr 0x2bbc970, size 0x58, virtual false, abstract: false, final false
+  inline void set_worldOrientation(::UnityEngine::Quaternion value);
+
+  /// @brief Method set_worldPosition, addr 0x2bbca4c, size 0x54, virtual false, abstract: false, final false
+  inline void set_worldPosition(::UnityEngine::Vector3 value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerModel();
 
   // Ctor Parameters [CppParam { name: "changedThisFrame", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftButton", ty:
   // "::UnityEngine::InputSystem::UI::__PointerModel__ButtonState", modifiers: "", def_value: None }, CppParam { name: "rightButton", ty: "::UnityEngine::InputSystem::UI::__PointerModel__ButtonState",
@@ -319,10 +320,6 @@ public:
                          ::UnityEngine::InputSystem::UI::__PointerModel__ButtonState middleButton, ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData,
                          ::UnityEngine::Vector2 m_ScreenPosition, ::UnityEngine::Vector2 m_ScrollDelta, ::UnityEngine::Vector3 m_WorldPosition, ::UnityEngine::Quaternion m_WorldOrientation,
                          float_t m_Pressure, float_t m_AzimuthAngle, float_t m_AltitudeAngle, float_t m_Twist, ::UnityEngine::Vector2 m_Radius) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerModel();
 
   /// @brief Field changedThisFrame, offset: 0x0, size: 0x1, def value: None
   bool changedThisFrame;

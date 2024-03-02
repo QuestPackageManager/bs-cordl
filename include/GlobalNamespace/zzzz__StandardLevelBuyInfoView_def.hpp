@@ -21,71 +21,75 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyInfoView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5812))
 // CS Name: ::StandardLevelBuyInfoView*
 class CORDL_TYPE StandardLevelBuyInfoView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
-
   /// @brief Field _buyLevelButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__buyLevelButton, put = __cordl_internal_set__buyLevelButton))::UnityW<::UnityEngine::UI::Button> _buyLevelButton;
-
-  /// @brief Field _openPackButton, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__openPackButton, put = __cordl_internal_set__openPackButton))::UnityW<::UnityEngine::UI::Button> _openPackButton;
 
   /// @brief Field _buyPackButton, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__buyPackButton, put = __cordl_internal_set__buyPackButton))::UnityW<::UnityEngine::UI::Button> _buyPackButton;
 
-  __declspec(property(get = get_buyLevelButton))::UnityW<::UnityEngine::UI::Button> buyLevelButton;
+  /// @brief Field _openPackButton, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__openPackButton, put = __cordl_internal_set__openPackButton))::UnityW<::UnityEngine::UI::Button> _openPackButton;
 
-  __declspec(property(get = get_openPackButton))::UnityW<::UnityEngine::UI::Button> openPackButton;
+  /// @brief Field _text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+
+  __declspec(property(get = get_buyLevelButton))::UnityW<::UnityEngine::UI::Button> buyLevelButton;
 
   __declspec(property(get = get_buyPackButton))::UnityW<::UnityEngine::UI::Button> buyPackButton;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
-
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyLevelButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
-
-  constexpr void __cordl_internal_set__buyLevelButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__openPackButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__openPackButton() const;
-
-  constexpr void __cordl_internal_set__openPackButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyPackButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyPackButton() const;
-
-  constexpr void __cordl_internal_set__buyPackButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  /// @brief Method get_buyLevelButton, addr 0x22e9a10, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
-
-  /// @brief Method get_openPackButton, addr 0x22e9a18, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
-
-  /// @brief Method get_buyPackButton, addr 0x22e9a20, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
-
-  /// @brief Method RefreshView, addr 0x22e9a28, size 0x78, virtual false, abstract: false, final false
-  inline void RefreshView(::StringW infoText, bool canBuyPack);
+  __declspec(property(get = get_openPackButton))::UnityW<::UnityEngine::UI::Button> openPackButton;
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e9aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x23e5cd4, size 0x78, virtual false, abstract: false, final false
+  inline void RefreshView(::StringW infoText, bool canBuyPack);
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyLevelButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyPackButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyPackButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__openPackButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__openPackButton();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__buyLevelButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__buyPackButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__openPackButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  /// @brief Method .ctor, addr 0x23e5d4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_buyLevelButton, addr 0x23e5cbc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
+
+  /// @brief Method get_buyPackButton, addr 0x23e5ccc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
+
+  /// @brief Method get_openPackButton, addr 0x23e5cc4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardLevelBuyInfoView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelBuyInfoView(StandardLevelBuyInfoView&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelBuyInfoView(StandardLevelBuyInfoView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelBuyInfoView();
-
-public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

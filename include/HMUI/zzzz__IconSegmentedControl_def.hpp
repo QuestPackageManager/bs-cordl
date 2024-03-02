@@ -44,51 +44,55 @@ MARK_REF_PTR_T(::HMUI::__IconSegmentedControl__DataItem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13546))
 // CS Name: ::IconSegmentedControl::DataItem*
 class CORDL_TYPE __IconSegmentedControl__DataItem : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <icon>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon_k__BackingField, put = __cordl_internal_set__icon_k__BackingField))::UnityW<::UnityEngine::Sprite> _icon_k__BackingField;
-
   /// @brief Field <hintText>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__hintText_k__BackingField, put = __cordl_internal_set__hintText_k__BackingField))::StringW _hintText_k__BackingField;
 
-  __declspec(property(get = get_icon, put = set_icon))::UnityW<::UnityEngine::Sprite> icon;
+  /// @brief Field <icon>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__icon_k__BackingField, put = __cordl_internal_set__icon_k__BackingField))::UnityW<::UnityEngine::Sprite> _icon_k__BackingField;
 
   __declspec(property(get = get_hintText, put = set_hintText))::StringW hintText;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon_k__BackingField();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__icon_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::StringW& __cordl_internal_get__hintText_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__hintText_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hintText_k__BackingField(::StringW value);
-
-  /// @brief Method get_icon, addr 0x211f950, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_icon();
-
-  /// @brief Method set_icon, addr 0x211f958, size 0x8, virtual false, abstract: false, final false
-  inline void set_icon(::UnityEngine::Sprite* value);
-
-  /// @brief Method get_hintText, addr 0x211f960, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_hintText();
-
-  /// @brief Method set_hintText, addr 0x211f968, size 0x8, virtual false, abstract: false, final false
-  inline void set_hintText(::StringW value);
+  __declspec(property(get = get_icon, put = set_icon))::UnityW<::UnityEngine::Sprite> icon;
 
   static inline ::HMUI::__IconSegmentedControl__DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
-  /// @brief Method .ctor, addr 0x211f970, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__hintText_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__hintText_k__BackingField();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon_k__BackingField() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon_k__BackingField();
+
+  constexpr void __cordl_internal_set__hintText_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__icon_k__BackingField(::UnityW<::UnityEngine::Sprite> value);
+
+  /// @brief Method .ctor, addr 0x22818b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText);
 
+  /// @brief Method get_hintText, addr 0x22818a4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_hintText();
+
+  /// @brief Method get_icon, addr 0x2281894, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_icon();
+
+  /// @brief Method set_hintText, addr 0x22818ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_hintText(::StringW value);
+
+  /// @brief Method set_icon, addr 0x228189c, size 0x8, virtual false, abstract: false, final false
+  inline void set_icon(::UnityEngine::Sprite* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IconSegmentedControl__DataItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IconSegmentedControl__DataItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IconSegmentedControl__DataItem(__IconSegmentedControl__DataItem&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IconSegmentedControl__DataItem(__IconSegmentedControl__DataItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IconSegmentedControl__DataItem();
-
-public:
   /// @brief Field <icon>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon_k__BackingField;
 
@@ -123,37 +121,11 @@ static_assert(offsetof(::HMUI::__IconSegmentedControl__DataItem, ____hintText_k_
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13550))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13547))
 // CS Name: ::HMUI::IconSegmentedControl*
 class CORDL_TYPE IconSegmentedControl : public ::HMUI::SegmentedControl {
 public:
   // Declarations
   using DataItem = ::HMUI::__IconSegmentedControl__DataItem;
-
-  /// @brief Field _iconSize, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__iconSize, put = __cordl_internal_set__iconSize)) float_t _iconSize;
-
-  /// @brief Field _overrideCellSize, offset 0x5c, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideCellSize, put = __cordl_internal_set__overrideCellSize)) bool _overrideCellSize;
-
-  /// @brief Field _padding, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
-
-  /// @brief Field _hideCellBackground, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get__hideCellBackground, put = __cordl_internal_set__hideCellBackground)) bool _hideCellBackground;
-
-  /// @brief Field _firstCellPrefab, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _firstCellPrefab;
-
-  /// @brief Field _lastCellPrefab, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastCellPrefab, put = __cordl_internal_set__lastCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _lastCellPrefab;
-
-  /// @brief Field _middleCellPrefab, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__middleCellPrefab, put = __cordl_internal_set__middleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _middleCellPrefab;
-
-  /// @brief Field _singleCellPrefab, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _singleCellPrefab;
 
   /// @brief Field _container, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
@@ -162,101 +134,131 @@ public:
   __declspec(property(get = __cordl_internal_get__dataItems,
                       put = __cordl_internal_set__dataItems))::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> _dataItems;
 
+  /// @brief Field _firstCellPrefab, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _firstCellPrefab;
+
+  /// @brief Field _hideCellBackground, offset 0x64, size 0x1
+  __declspec(property(get = __cordl_internal_get__hideCellBackground, put = __cordl_internal_set__hideCellBackground)) bool _hideCellBackground;
+
+  /// @brief Field _iconSize, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__iconSize, put = __cordl_internal_set__iconSize)) float_t _iconSize;
+
   /// @brief Field _isInitialized, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+
+  /// @brief Field _lastCellPrefab, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastCellPrefab, put = __cordl_internal_set__lastCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _lastCellPrefab;
+
+  /// @brief Field _middleCellPrefab, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__middleCellPrefab, put = __cordl_internal_set__middleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _middleCellPrefab;
+
+  /// @brief Field _overrideCellSize, offset 0x5c, size 0x1
+  __declspec(property(get = __cordl_internal_get__overrideCellSize, put = __cordl_internal_set__overrideCellSize)) bool _overrideCellSize;
+
+  /// @brief Field _padding, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
+
+  /// @brief Field _singleCellPrefab, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab))::UnityW<::HMUI::IconSegmentedControlCell> _singleCellPrefab;
 
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+  /// @brief Method CellForCellNumber, addr 0x2281368, size 0x180, virtual true, abstract: false, final true
+  inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  constexpr float_t& __cordl_internal_get__iconSize();
+  /// @brief Method Init, addr 0x2280ee4, size 0x1c, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr float_t const& __cordl_internal_get__iconSize() const;
+  /// @brief Method InstantiateCell, addr 0x22814e8, size 0x180, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::IconSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
 
-  constexpr void __cordl_internal_set__iconSize(float_t value);
+  static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  constexpr bool& __cordl_internal_get__overrideCellSize();
+  /// @brief Method NumberOfCells, addr 0x2281350, size 0x18, virtual true, abstract: false, final true
+  inline int32_t NumberOfCells();
 
-  constexpr bool const& __cordl_internal_get__overrideCellSize() const;
-
-  constexpr void __cordl_internal_set__overrideCellSize(bool value);
-
-  constexpr float_t& __cordl_internal_get__padding();
-
-  constexpr float_t const& __cordl_internal_get__padding() const;
-
-  constexpr void __cordl_internal_set__padding(float_t value);
-
-  constexpr bool& __cordl_internal_get__hideCellBackground();
-
-  constexpr bool const& __cordl_internal_get__hideCellBackground() const;
-
-  constexpr void __cordl_internal_set__hideCellBackground(bool value);
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__firstCellPrefab();
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
-
-  constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__lastCellPrefab();
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__lastCellPrefab() const;
-
-  constexpr void __cordl_internal_set__lastCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__middleCellPrefab();
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__middleCellPrefab() const;
-
-  constexpr void __cordl_internal_set__middleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
-
-  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__singleCellPrefab() const;
-
-  constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
+  /// @brief Method SetData, addr 0x2280f08, size 0x40, virtual false, abstract: false, final false
+  inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
 
   constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*>& __cordl_internal_get__dataItems();
 
-  constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
 
-  constexpr void __cordl_internal_set__dataItems(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> value);
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__firstCellPrefab();
 
-  constexpr bool& __cordl_internal_get__isInitialized();
+  constexpr bool const& __cordl_internal_get__hideCellBackground() const;
+
+  constexpr bool& __cordl_internal_get__hideCellBackground();
+
+  constexpr float_t const& __cordl_internal_get__iconSize() const;
+
+  constexpr float_t& __cordl_internal_get__iconSize();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
 
+  constexpr bool& __cordl_internal_get__isInitialized();
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__lastCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__lastCellPrefab();
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__middleCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__middleCellPrefab();
+
+  constexpr bool const& __cordl_internal_get__overrideCellSize() const;
+
+  constexpr bool& __cordl_internal_get__overrideCellSize();
+
+  constexpr float_t const& __cordl_internal_get__padding() const;
+
+  constexpr float_t& __cordl_internal_get__padding();
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell> const& __cordl_internal_get__singleCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::IconSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__dataItems(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> value);
+
+  constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
+
+  constexpr void __cordl_internal_set__hideCellBackground(bool value);
+
+  constexpr void __cordl_internal_set__iconSize(float_t value);
+
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method Init, addr 0x211efa0, size 0x1c, virtual false, abstract: false, final false
-  inline void Init();
+  constexpr void __cordl_internal_set__lastCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method SetData, addr 0x211efc4, size 0x40, virtual false, abstract: false, final false
-  inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
+  constexpr void __cordl_internal_set__middleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method NumberOfCells, addr 0x211f40c, size 0x18, virtual true, abstract: false, final true
-  inline int32_t NumberOfCells();
+  constexpr void __cordl_internal_set__overrideCellSize(bool value);
 
-  /// @brief Method CellForCellNumber, addr 0x211f424, size 0x180, virtual true, abstract: false, final true
-  inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
+  constexpr void __cordl_internal_set__padding(float_t value);
 
-  /// @brief Method InstantiateCell, addr 0x211f5a4, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityW<::HMUI::IconSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
+  constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  static inline ::HMUI::IconSegmentedControl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x211f834, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281778, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
+  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IconSegmentedControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IconSegmentedControl(IconSegmentedControl&&) = delete;
@@ -265,12 +267,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IconSegmentedControl(IconSegmentedControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IconSegmentedControl();
-
-public:
   /// @brief Field _iconSize, offset: 0x58, size: 0x4, def value: None
   float_t ____iconSize;
 

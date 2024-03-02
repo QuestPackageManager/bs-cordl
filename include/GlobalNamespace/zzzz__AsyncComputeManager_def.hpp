@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12678))
 // CS Name: ::AsyncComputeManager*
 class CORDL_TYPE AsyncComputeManager : public ::System::Object {
 public:
@@ -54,51 +52,57 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAsyncComputeManager"
   constexpr operator ::GlobalNamespace::IAsyncComputeManager*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
-  constexpr ::GlobalNamespace::IAsyncComputeManager* i___GlobalNamespace__IAsyncComputeManager() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
+
+  /// @brief Method BeginOperation, addr 0xe99f08, size 0x58, virtual true, abstract: false, final true
+  inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
+
+  /// @brief Method ComputeThreadRun, addr 0xe99f60, size 0x160, virtual false, abstract: false, final false
+  inline void ComputeThreadRun();
+
+  /// @brief Method Dispose, addr 0xe99ea0, size 0x68, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
 
   constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& __cordl_internal_get__asyncComputeRequests();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const&
   __cordl_internal_get__asyncComputeRequests() const;
 
-  constexpr void __cordl_internal_set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* value);
-
   constexpr ::System::Threading::Thread*& __cordl_internal_get__computeThread();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__computeThread() const;
 
-  constexpr void __cordl_internal_set__computeThread(::System::Threading::Thread* value);
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
   constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __cordl_internal_get__disposed() const;
+  constexpr void __cordl_internal_set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* value);
+
+  constexpr void __cordl_internal_set__computeThread(::System::Threading::Thread* value);
 
   constexpr void __cordl_internal_set__disposed(bool value);
 
-  static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe28f58, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99d60, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose, addr 0xe29098, size 0x68, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
+  constexpr ::GlobalNamespace::IAsyncComputeManager* i___GlobalNamespace__IAsyncComputeManager() noexcept;
 
-  /// @brief Method BeginOperation, addr 0xe29100, size 0x58, virtual true, abstract: false, final true
-  inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncComputeManager();
 
-  /// @brief Method ComputeThreadRun, addr 0xe29158, size 0x160, virtual false, abstract: false, final false
-  inline void ComputeThreadRun();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncComputeManager(AsyncComputeManager&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncComputeManager(AsyncComputeManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncComputeManager();
-
-public:
   /// @brief Field _asyncComputeRequests, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* ____asyncComputeRequests;
 

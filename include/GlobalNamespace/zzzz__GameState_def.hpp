@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::GameState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12764))
 // CS Name: ::GameState*
 class CORDL_TYPE GameState : public ::System::Object {
 public:
@@ -32,8 +30,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Dispose();
+
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Init();
+
+  static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
   constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __cordl_internal_get_fsm();
 
@@ -41,17 +44,18 @@ public:
 
   constexpr void __cordl_internal_set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
 
-  static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
-
-  /// @brief Method .ctor, addr 0xe3c22c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xead034, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Init();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameState();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameState(GameState&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameState(GameState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameState();
-
-public:
   /// @brief Field fsm, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayServerFiniteStateMachine* ___fsm;
 

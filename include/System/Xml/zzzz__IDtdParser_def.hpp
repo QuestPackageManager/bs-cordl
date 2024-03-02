@@ -20,18 +20,16 @@ MARK_REF_PTR_T(::System::Xml::IDtdParser);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11426))
 // CS Name: ::System.Xml::IDtdParser*
 class CORDL_TYPE IDtdParser {
 public:
   // Declarations
-  /// @brief Method ParseInternalDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Xml::IDtdInfo* ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
-
   /// @brief Method ParseFreeFloatingDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdInfo* ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset,
                                                        ::System::Xml::IDtdParserAdapter* adapter);
+
+  /// @brief Method ParseInternalDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Xml::IDtdInfo* ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

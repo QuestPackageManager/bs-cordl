@@ -19,14 +19,16 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2973))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2947))
 // CS Name: ::System.Security.Cryptography::RC2*
 class CORDL_TYPE RC2 : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
+  __declspec(property(get = get_EffectiveKeySize)) int32_t EffectiveKeySize;
+
   /// @brief Field EffectiveKeySizeValue, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_EffectiveKeySizeValue, put = __cordl_internal_set_EffectiveKeySizeValue)) int32_t EffectiveKeySizeValue;
+
+  __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
 
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
@@ -36,38 +38,40 @@ public:
   static __declspec(property(get = getStaticF_s_legalKeySizes,
                              put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
 
-  __declspec(property(get = get_EffectiveKeySize)) int32_t EffectiveKeySize;
-
-  __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
-
-  constexpr int32_t& __cordl_internal_get_EffectiveKeySizeValue();
+  static inline ::System::Security::Cryptography::RC2* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_EffectiveKeySizeValue() const;
 
+  constexpr int32_t& __cordl_internal_get_EffectiveKeySizeValue();
+
   constexpr void __cordl_internal_set_EffectiveKeySizeValue(int32_t value);
 
-  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+  /// @brief Method .ctor, addr 0x2553d9c, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
-  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  static inline ::System::Security::Cryptography::RC2* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2460030, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_EffectiveKeySize, addr 0x24600ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x2553e18, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method get_KeySize, addr 0x24600c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x2553e34, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method set_KeySize, addr 0x24600d0, size 0x7c, virtual true, abstract: false, final false
+  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  /// @brief Method set_KeySize, addr 0x2553e3c, size 0x7c, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RC2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RC2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RC2(RC2&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RC2(RC2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RC2();
-
-public:
   /// @brief Field EffectiveKeySizeValue, offset: 0x44, size: 0x4, def value: None
   int32_t ___EffectiveKeySizeValue;
 

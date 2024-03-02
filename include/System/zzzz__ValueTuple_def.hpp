@@ -46,8 +46,6 @@ MARK_VAL_T(::System::ValueTuple);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2505))
 // CS Name: ::System::ValueTuple
 #pragma pack(push, 0)
 struct CORDL_TYPE ValueTuple {
@@ -55,104 +53,104 @@ public:
   // Declarations
   __declspec(property(get = System_Runtime_CompilerServices_ITuple_get_Length)) int32_t System_Runtime_CompilerServices_ITuple_Length;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple>"
-  constexpr operator ::System::IEquatable_1<::System::ValueTuple>*();
-
-  /// @brief Convert to "::System::IEquatable_1<::System::ValueTuple>"
-  constexpr ::System::IEquatable_1<::System::ValueTuple>* i___System__IEquatable_1___System__ValueTuple_();
+  /// @brief Convert operator to "::System::Collections::IStructuralComparable"
+  constexpr operator ::System::Collections::IStructuralComparable*();
 
   /// @brief Convert operator to "::System::Collections::IStructuralEquatable"
   constexpr operator ::System::Collections::IStructuralEquatable*();
 
-  /// @brief Convert to "::System::Collections::IStructuralEquatable"
-  constexpr ::System::Collections::IStructuralEquatable* i___System__Collections__IStructuralEquatable();
-
-  /// @brief Convert operator to "::System::Collections::IStructuralComparable"
-  constexpr operator ::System::Collections::IStructuralComparable*();
-
-  /// @brief Convert to "::System::Collections::IStructuralComparable"
-  constexpr ::System::Collections::IStructuralComparable* i___System__Collections__IStructuralComparable();
-
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
-
-  /// @brief Convert to "::System::IComparable"
-  constexpr ::System::IComparable* i___System__IComparable();
 
   /// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple>"
   constexpr operator ::System::IComparable_1<::System::ValueTuple>*();
 
-  /// @brief Convert to "::System::IComparable_1<::System::ValueTuple>"
-  constexpr ::System::IComparable_1<::System::ValueTuple>* i___System__IComparable_1___System__ValueTuple_();
+  /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple>"
+  constexpr operator ::System::IEquatable_1<::System::ValueTuple>*();
 
   /// @brief Convert operator to "::System::IValueTupleInternal"
   constexpr operator ::System::IValueTupleInternal*();
 
-  /// @brief Convert to "::System::IValueTupleInternal"
-  constexpr ::System::IValueTupleInternal* i___System__IValueTupleInternal();
-
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
-  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple();
-
-  /// @brief Method Equals, addr 0x25ce100, size 0x5c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x25ce15c, size 0x8, virtual true, abstract: false, final true
-  inline bool Equals(::System::ValueTuple other);
-
-  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x25ce164, size 0x5c, virtual true, abstract: false, final true
-  inline bool System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
-
-  /// @brief Method System.IComparable.CompareTo, addr 0x25ce1c0, size 0x118, virtual true, abstract: false, final true
-  inline int32_t System_IComparable_CompareTo(::System::Object* other);
-
-  /// @brief Method CompareTo, addr 0x25ce2d8, size 0x8, virtual true, abstract: false, final true
-  inline int32_t CompareTo(::System::ValueTuple other);
-
-  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x25ce2e0, size 0x118, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer);
-
-  /// @brief Method GetHashCode, addr 0x25ce3f8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x25ce400, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
-
-  /// @brief Method System.IValueTupleInternal.GetHashCode, addr 0x25ce408, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer* comparer);
-
-  /// @brief Method ToString, addr 0x25ce410, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method System.IValueTupleInternal.ToStringEnd, addr 0x25ce450, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW System_IValueTupleInternal_ToStringEnd();
-
-  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length, addr 0x25ce490, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_Runtime_CompilerServices_ITuple_get_Length();
-
-  /// @brief Method CombineHashCodes, addr 0x25ce498, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0a94, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce514, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0b10, size 0x80, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce594, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0b90, size 0x90, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce624, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0c20, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce6bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0cb8, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce764, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0d60, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7);
 
-  /// @brief Method CombineHashCodes, addr 0x25ce814, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x26c0e10, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7, int32_t h8);
+
+  /// @brief Method CompareTo, addr 0x26c08d4, size 0x8, virtual true, abstract: false, final true
+  inline int32_t CompareTo(::System::ValueTuple other);
+
+  /// @brief Method Equals, addr 0x26c06fc, size 0x5c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x26c0758, size 0x8, virtual true, abstract: false, final true
+  inline bool Equals(::System::ValueTuple other);
+
+  /// @brief Method GetHashCode, addr 0x26c09f4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x26c08dc, size 0x118, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer);
+
+  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x26c0760, size 0x5c, virtual true, abstract: false, final true
+  inline bool System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
+
+  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x26c09fc, size 0x8, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
+
+  /// @brief Method System.IComparable.CompareTo, addr 0x26c07bc, size 0x118, virtual true, abstract: false, final true
+  inline int32_t System_IComparable_CompareTo(::System::Object* other);
+
+  /// @brief Method System.IValueTupleInternal.GetHashCode, addr 0x26c0a04, size 0x8, virtual true, abstract: false, final true
+  inline int32_t System_IValueTupleInternal_GetHashCode(::System::Collections::IEqualityComparer* comparer);
+
+  /// @brief Method System.IValueTupleInternal.ToStringEnd, addr 0x26c0a4c, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW System_IValueTupleInternal_ToStringEnd();
+
+  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length, addr 0x26c0a8c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t System_Runtime_CompilerServices_ITuple_get_Length();
+
+  /// @brief Method ToString, addr 0x26c0a0c, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Convert to "::System::Collections::IStructuralComparable"
+  constexpr ::System::Collections::IStructuralComparable* i___System__Collections__IStructuralComparable();
+
+  /// @brief Convert to "::System::Collections::IStructuralEquatable"
+  constexpr ::System::Collections::IStructuralEquatable* i___System__Collections__IStructuralEquatable();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable();
+
+  /// @brief Convert to "::System::IComparable_1<::System::ValueTuple>"
+  constexpr ::System::IComparable_1<::System::ValueTuple>* i___System__IComparable_1___System__ValueTuple_();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::ValueTuple>"
+  constexpr ::System::IEquatable_1<::System::ValueTuple>* i___System__IEquatable_1___System__ValueTuple_();
+
+  /// @brief Convert to "::System::IValueTupleInternal"
+  constexpr ::System::IValueTupleInternal* i___System__IValueTupleInternal();
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple();
 
   // Ctor Parameters []
   // @brief default ctor

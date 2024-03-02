@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7417))
 // CS Name: ::VectorImageRenderInfoPool::<>c*
 class CORDL_TYPE __VectorImageRenderInfoPool____c : public ::System::Object {
 public:
@@ -47,29 +45,35 @@ public:
   /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1))::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* __9__0_1;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* value);
+  static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* New_ctor();
+
+  /// @brief Method <.ctor>b__0_0, addr 0x2edb8f8, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
+
+  /// @brief Method <.ctor>b__0_1, addr 0x2edb998, size 0x20, virtual false, abstract: false, final false
+  inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
+
+  /// @brief Method .ctor, addr 0x2edb8f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* getStaticF___9();
 
-  static inline void setStaticF___9__0_0(::System::Func_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value);
-
   static inline ::System::Func_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* getStaticF___9__0_0();
-
-  static inline void setStaticF___9__0_1(::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value);
 
   static inline ::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* getStaticF___9__0_1();
 
-  static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* value);
 
-  /// @brief Method .ctor, addr 0x2dccde0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__0_0(::System::Func_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value);
 
-  /// @brief Method <.ctor>b__0_0, addr 0x2dccde8, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
+  static inline void setStaticF___9__0_1(::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x2dcce88, size 0x20, virtual false, abstract: false, final false
-  inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VectorImageRenderInfoPool____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VectorImageRenderInfoPool____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VectorImageRenderInfoPool____c(__VectorImageRenderInfoPool____c&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VectorImageRenderInfoPool____c(__VectorImageRenderInfoPool____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VectorImageRenderInfoPool____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,8 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7400)), TypeDefinitionIndex(TypeDefinitionIndex(7419)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 413
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7418)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
+// CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
 class CORDL_TYPE VectorImageRenderInfoPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations
@@ -103,9 +100,15 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dccbf4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edb704, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VectorImageRenderInfoPool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageRenderInfoPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VectorImageRenderInfoPool(VectorImageRenderInfoPool&&) = delete;
@@ -114,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VectorImageRenderInfoPool(VectorImageRenderInfoPool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VectorImageRenderInfoPool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -17,20 +17,29 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::GravitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6277))
 // CS Name: ::UnityEngine.InputSystem::GravitySensor*
 class CORDL_TYPE GravitySensor : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
+  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::GravitySensor* _current_k__BackingField;
+
   /// @brief Field <gravity>k__BackingField, offset 0x158, size 0x8
   __declspec(property(get = __cordl_internal_get__gravity_k__BackingField,
                       put = __cordl_internal_set__gravity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _gravity_k__BackingField;
 
-  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::GravitySensor* _current_k__BackingField;
-
   __declspec(property(get = get_gravity, put = set_gravity))::UnityEngine::InputSystem::Controls::Vector3Control* gravity;
+
+  /// @brief Method FinishSetup, addr 0x2b90cb0, size 0x78, virtual true, abstract: false, final false
+  inline void FinishSetup();
+
+  /// @brief Method MakeCurrent, addr 0x2b90d28, size 0x54, virtual true, abstract: false, final false
+  inline void MakeCurrent();
+
+  static inline ::UnityEngine::InputSystem::GravitySensor* New_ctor();
+
+  /// @brief Method OnRemoved, addr 0x2b90d7c, size 0x84, virtual true, abstract: false, final false
+  inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__gravity_k__BackingField();
 
@@ -38,36 +47,31 @@ public:
 
   constexpr void __cordl_internal_set__gravity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::GravitySensor* value);
+  /// @brief Method .ctor, addr 0x2b90e00, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::GravitySensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_gravity, addr 0x2aa7fcc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_gravity();
-
-  /// @brief Method set_gravity, addr 0x2aa7fd4, size 0x8, virtual false, abstract: false, final false
-  inline void set_gravity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
-
-  /// @brief Method get_current, addr 0x2aa7fdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2b90c1c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::GravitySensor* get_current();
 
-  /// @brief Method set_current, addr 0x2aa8024, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_gravity, addr 0x2b90c0c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_gravity();
+
+  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::GravitySensor* value);
+
+  /// @brief Method set_current, addr 0x2b90c64, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::GravitySensor* value);
 
-  /// @brief Method FinishSetup, addr 0x2aa8070, size 0x78, virtual true, abstract: false, final false
-  inline void FinishSetup();
+  /// @brief Method set_gravity, addr 0x2b90c14, size 0x8, virtual false, abstract: false, final false
+  inline void set_gravity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method MakeCurrent, addr 0x2aa80e8, size 0x54, virtual true, abstract: false, final false
-  inline void MakeCurrent();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GravitySensor();
 
-  /// @brief Method OnRemoved, addr 0x2aa813c, size 0x84, virtual true, abstract: false, final false
-  inline void OnRemoved();
-
-  static inline ::UnityEngine::InputSystem::GravitySensor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2aa81c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GravitySensor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GravitySensor(GravitySensor&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GravitySensor(GravitySensor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GravitySensor();
-
-public:
   /// @brief Field <gravity>k__BackingField, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____gravity_k__BackingField;
 

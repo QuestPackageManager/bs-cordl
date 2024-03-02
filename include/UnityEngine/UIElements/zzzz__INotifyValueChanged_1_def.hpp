@@ -15,22 +15,20 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7127))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChanged`1<T>*
 class CORDL_TYPE INotifyValueChanged_1 {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) T value;
 
+  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetValueWithoutNotify(T newValue);
+
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_value();
 
   /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_value(T value);
-
-  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetValueWithoutNotify(T newValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "INotifyValueChanged_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

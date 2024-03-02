@@ -88,53 +88,57 @@ MARK_REF_PTR_T(::GlobalNamespace::__BasicBeatmapObjectManager__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4702))
 // CS Name: ::BasicBeatmapObjectManager::InitData*
 class CORDL_TYPE __BasicBeatmapObjectManager__InitData : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field cutAngleTolerance, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_cutAngleTolerance, put = __cordl_internal_set_cutAngleTolerance)) float_t cutAngleTolerance;
+
   /// @brief Field disappearingArrows, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_disappearingArrows, put = __cordl_internal_set_disappearingArrows)) bool disappearingArrows;
 
   /// @brief Field ghostNotes, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_ghostNotes, put = __cordl_internal_set_ghostNotes)) bool ghostNotes;
 
-  /// @brief Field cutAngleTolerance, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_cutAngleTolerance, put = __cordl_internal_set_cutAngleTolerance)) float_t cutAngleTolerance;
-
   /// @brief Field notesUniformScale, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_notesUniformScale, put = __cordl_internal_set_notesUniformScale)) float_t notesUniformScale;
 
-  constexpr bool& __cordl_internal_get_disappearingArrows();
-
-  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
-
-  constexpr void __cordl_internal_set_disappearingArrows(bool value);
-
-  constexpr bool& __cordl_internal_get_ghostNotes();
-
-  constexpr bool const& __cordl_internal_get_ghostNotes() const;
-
-  constexpr void __cordl_internal_set_ghostNotes(bool value);
-
-  constexpr float_t& __cordl_internal_get_cutAngleTolerance();
+  static inline ::GlobalNamespace::__BasicBeatmapObjectManager__InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
 
   constexpr float_t const& __cordl_internal_get_cutAngleTolerance() const;
 
-  constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
+  constexpr float_t& __cordl_internal_get_cutAngleTolerance();
 
-  constexpr float_t& __cordl_internal_get_notesUniformScale();
+  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
+
+  constexpr bool& __cordl_internal_get_disappearingArrows();
+
+  constexpr bool const& __cordl_internal_get_ghostNotes() const;
+
+  constexpr bool& __cordl_internal_get_ghostNotes();
 
   constexpr float_t const& __cordl_internal_get_notesUniformScale() const;
 
+  constexpr float_t& __cordl_internal_get_notesUniformScale();
+
+  constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
+
+  constexpr void __cordl_internal_set_disappearingArrows(bool value);
+
+  constexpr void __cordl_internal_set_ghostNotes(bool value);
+
   constexpr void __cordl_internal_set_notesUniformScale(float_t value);
 
-  static inline ::GlobalNamespace::__BasicBeatmapObjectManager__InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
-
-  /// @brief Method .ctor, addr 0x2379a48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238c8d4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BasicBeatmapObjectManager__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BasicBeatmapObjectManager__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BasicBeatmapObjectManager__InitData(__BasicBeatmapObjectManager__InitData&&) = delete;
@@ -143,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BasicBeatmapObjectManager__InitData(__BasicBeatmapObjectManager__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BasicBeatmapObjectManager__InitData();
-
-public:
   /// @brief Field disappearingArrows, offset: 0x10, size: 0x1, def value: None
   bool ___disappearingArrows;
 
@@ -179,39 +177,38 @@ static_assert(offsetof(::GlobalNamespace::__BasicBeatmapObjectManager__InitData,
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(4716)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4703)) CS Name: ::BasicBeatmapObjectManager*
+// CS Name: ::BasicBeatmapObjectManager*
 class CORDL_TYPE BasicBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
   // Declarations
   using InitData = ::GlobalNamespace::__BasicBeatmapObjectManager__InitData;
 
-  /// @brief Field _firstBasicNoteTime, offset 0x94, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstBasicNoteTime, put = __cordl_internal_set__firstBasicNoteTime))::System::Nullable_1<float_t> _firstBasicNoteTime;
-
-  /// @brief Field _initData, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__BasicBeatmapObjectManager__InitData* _initData;
-
   /// @brief Field _basicGameNotePoolContainer, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__basicGameNotePoolContainer,
                       put = __cordl_internal_set__basicGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* _basicGameNotePoolContainer;
 
-  /// @brief Field _burstSliderHeadGameNotePoolContainer, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderHeadGameNotePoolContainer, put = __cordl_internal_set__burstSliderHeadGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
-      ::UnityW<::GlobalNamespace::GameNoteController>>* _burstSliderHeadGameNotePoolContainer;
-
-  /// @brief Field _burstSliderGameNotePoolContainer, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderGameNotePoolContainer, put = __cordl_internal_set__burstSliderGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
-      ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* _burstSliderGameNotePoolContainer;
+  /// @brief Field _bombNotePoolContainer, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__bombNotePoolContainer,
+                      put = __cordl_internal_set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* _bombNotePoolContainer;
 
   /// @brief Field _burstSliderFillPoolContainer, offset 0xc0, size 0x8
   __declspec(property(
       get = __cordl_internal_get__burstSliderFillPoolContainer,
       put = __cordl_internal_set__burstSliderFillPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* _burstSliderFillPoolContainer;
 
-  /// @brief Field _bombNotePoolContainer, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombNotePoolContainer,
-                      put = __cordl_internal_set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* _bombNotePoolContainer;
+  /// @brief Field _burstSliderGameNotePoolContainer, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__burstSliderGameNotePoolContainer, put = __cordl_internal_set__burstSliderGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
+      ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* _burstSliderGameNotePoolContainer;
+
+  /// @brief Field _burstSliderHeadGameNotePoolContainer, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__burstSliderHeadGameNotePoolContainer, put = __cordl_internal_set__burstSliderHeadGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
+      ::UnityW<::GlobalNamespace::GameNoteController>>* _burstSliderHeadGameNotePoolContainer;
+
+  /// @brief Field _firstBasicNoteTime, offset 0x94, size 0x8
+  __declspec(property(get = __cordl_internal_get__firstBasicNoteTime, put = __cordl_internal_set__firstBasicNoteTime))::System::Nullable_1<float_t> _firstBasicNoteTime;
+
+  /// @brief Field _initData, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__BasicBeatmapObjectManager__InitData* _initData;
 
   /// @brief Field _obstaclePoolContainer, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__obstaclePoolContainer,
@@ -223,57 +220,68 @@ public:
 
   __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  constexpr ::System::Nullable_1<float_t>& __cordl_internal_get__firstBasicNoteTime();
+  /// @brief Method DespawnInternal, addr 0x238b3ec, size 0x1f4, virtual true, abstract: false, final false
+  inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get__firstBasicNoteTime() const;
+  /// @brief Method DespawnInternal, addr 0x238af8c, size 0x58, virtual true, abstract: false, final false
+  inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  constexpr void __cordl_internal_set__firstBasicNoteTime(::System::Nullable_1<float_t> value);
+  /// @brief Method DespawnInternal, addr 0x238b830, size 0x9c, virtual true, abstract: false, final false
+  inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  constexpr ::GlobalNamespace::__BasicBeatmapObjectManager__InitData*& __cordl_internal_get__initData();
+  /// @brief Method Init, addr 0x238a8d4, size 0x5c0, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__GameNoteController__Pool* basicGameNotePool,
+                   ::GlobalNamespace::__GameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderGameNotePool,
+                   ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderFillPool, ::GlobalNamespace::__BombNoteController__Pool* bombNotePool,
+                   ::GlobalNamespace::__ObstacleController__Pool* obstaclePool, ::GlobalNamespace::__SliderController__Pool* sliderPools);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BasicBeatmapObjectManager__InitData*> const& __cordl_internal_get__initData() const;
+  static inline ::GlobalNamespace::BasicBeatmapObjectManager* New_ctor();
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* value);
+  /// @brief Method ProcessNoteData, addr 0x238afe4, size 0x408, virtual true, abstract: false, final false
+  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
+                              bool forceIsFirstNoteBehaviour);
+
+  /// @brief Method ProcessObstacleData, addr 0x238ae94, size 0xf8, virtual true, abstract: false, final false
+  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
+
+  /// @brief Method ProcessSliderData, addr 0x238b5e0, size 0x250, virtual true, abstract: false, final false
+  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& __cordl_internal_get__basicGameNotePoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*> const&
   __cordl_internal_get__basicGameNotePoolContainer() const;
 
-  constexpr void __cordl_internal_set__basicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& __cordl_internal_get__bombNotePoolContainer();
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& __cordl_internal_get__burstSliderHeadGameNotePoolContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*> const&
-  __cordl_internal_get__burstSliderHeadGameNotePoolContainer() const;
-
-  constexpr void __cordl_internal_set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
-
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& __cordl_internal_get__burstSliderGameNotePoolContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*> const&
-  __cordl_internal_get__burstSliderGameNotePoolContainer() const;
-
-  constexpr void __cordl_internal_set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*> const& __cordl_internal_get__bombNotePoolContainer() const;
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& __cordl_internal_get__burstSliderFillPoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*> const&
   __cordl_internal_get__burstSliderFillPoolContainer() const;
 
-  constexpr void __cordl_internal_set__burstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*& __cordl_internal_get__burstSliderGameNotePoolContainer();
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& __cordl_internal_get__bombNotePoolContainer();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*> const&
+  __cordl_internal_get__burstSliderGameNotePoolContainer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*> const& __cordl_internal_get__bombNotePoolContainer() const;
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& __cordl_internal_get__burstSliderHeadGameNotePoolContainer();
 
-  constexpr void __cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*> const&
+  __cordl_internal_get__burstSliderHeadGameNotePoolContainer() const;
+
+  constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get__firstBasicNoteTime() const;
+
+  constexpr ::System::Nullable_1<float_t>& __cordl_internal_get__firstBasicNoteTime();
+
+  constexpr ::GlobalNamespace::__BasicBeatmapObjectManager__InitData*& __cordl_internal_get__initData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BasicBeatmapObjectManager__InitData*> const& __cordl_internal_get__initData() const;
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get__obstaclePoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get__obstaclePoolContainer() const;
-
-  constexpr void __cordl_internal_set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__SliderController__LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>*&
   __cordl_internal_get__sliderNotePoolContainersDictionary();
@@ -282,42 +290,37 @@ public:
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__SliderController__LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>*> const&
   __cordl_internal_get__sliderNotePoolContainersDictionary() const;
 
+  constexpr void __cordl_internal_set__basicGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
+
+  constexpr void __cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* value);
+
+  constexpr void __cordl_internal_set__burstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+
+  constexpr void __cordl_internal_set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>* value);
+
+  constexpr void __cordl_internal_set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
+
+  constexpr void __cordl_internal_set__firstBasicNoteTime(::System::Nullable_1<float_t> value);
+
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* value);
+
+  constexpr void __cordl_internal_set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
+
   constexpr void __cordl_internal_set__sliderNotePoolContainersDictionary(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__SliderController__LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* value);
 
-  /// @brief Method get_activeObstacleControllers, addr 0x2377964, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
-
-  /// @brief Method Init, addr 0x23779b4, size 0x5c0, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__GameNoteController__Pool* basicGameNotePool,
-                   ::GlobalNamespace::__GameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderGameNotePool,
-                   ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderFillPool, ::GlobalNamespace::__BombNoteController__Pool* bombNotePool,
-                   ::GlobalNamespace::__ObstacleController__Pool* obstaclePool, ::GlobalNamespace::__SliderController__Pool* sliderPools);
-
-  /// @brief Method ProcessObstacleData, addr 0x2377f74, size 0xf4, virtual true, abstract: false, final false
-  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
-
-  /// @brief Method DespawnInternal, addr 0x2378200, size 0x58, virtual true, abstract: false, final false
-  inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
-
-  /// @brief Method ProcessNoteData, addr 0x2378258, size 0x3f0, virtual true, abstract: false, final false
-  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
-                              bool forceIsFirstNoteBehaviour);
-
-  /// @brief Method DespawnInternal, addr 0x2378e2c, size 0x1f4, virtual true, abstract: false, final false
-  inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
-
-  /// @brief Method ProcessSliderData, addr 0x2379020, size 0x244, virtual true, abstract: false, final false
-  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
-
-  /// @brief Method DespawnInternal, addr 0x237992c, size 0x9c, virtual true, abstract: false, final false
-  inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
-
-  static inline ::GlobalNamespace::BasicBeatmapObjectManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23799c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238b8cc, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_activeObstacleControllers, addr 0x238a884, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicBeatmapObjectManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicBeatmapObjectManager(BasicBeatmapObjectManager&&) = delete;
@@ -326,12 +329,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicBeatmapObjectManager(BasicBeatmapObjectManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicBeatmapObjectManager();
-
-public:
   /// @brief Field _firstBasicNoteTime, offset: 0x94, size: 0x8, def value: None
   ::System::Nullable_1<float_t> ____firstBasicNoteTime;
 

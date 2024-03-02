@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_MaterialInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 22, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9742))
 // CS Name: ::HoudiniEngineUnity::HAPI_MaterialInfo
 struct CORDL_TYPE HAPI_MaterialInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "hasChanged", ty: "bool", modifiers: "", def_value: None }]
-  constexpr HAPI_MaterialInfo(int32_t nodeId, bool exists, bool hasChanged) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_MaterialInfo();
+
+  // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "hasChanged", ty: "bool", modifiers: "", def_value: None }]
+  constexpr HAPI_MaterialInfo(int32_t nodeId, bool exists, bool hasChanged) noexcept;
 
   /// @brief Field nodeId, offset: 0x0, size: 0x4, def value: None
   int32_t nodeId;

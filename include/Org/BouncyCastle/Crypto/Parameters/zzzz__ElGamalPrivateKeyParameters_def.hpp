@@ -24,16 +24,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParamet
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1047))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1049))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalPrivateKeyParameters*
 class CORDL_TYPE ElGamalPrivateKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters {
 public:
   // Declarations
+  __declspec(property(get = get_X))::Org::BouncyCastle::Math::BigInteger* X;
+
   /// @brief Field x, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::BigInteger* x;
 
-  __declspec(property(get = get_X))::Org::BouncyCastle::Math::BigInteger* X;
+  /// @brief Method Equals, addr 0xfa58f4, size 0x9c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0xfa5990, size 0x58, virtual false, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
+
+  /// @brief Method GetHashCode, addr 0xfa59e8, size 0x40, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
+                                                                                               ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_x();
 
@@ -41,24 +51,18 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
-                                                                                               ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
-
-  /// @brief Method .ctor, addr 0xf35a04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa5864, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_X, addr 0xf35a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0xfa58ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
-  /// @brief Method Equals, addr 0xf35a94, size 0x9c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ElGamalPrivateKeyParameters();
 
-  /// @brief Method Equals, addr 0xf35b30, size 0x58, virtual false, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
-
-  /// @brief Method GetHashCode, addr 0xf35b88, size 0x40, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalPrivateKeyParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElGamalPrivateKeyParameters(ElGamalPrivateKeyParameters&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalPrivateKeyParameters(ElGamalPrivateKeyParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalPrivateKeyParameters();
-
-public:
   /// @brief Field x, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___x;
 

@@ -16,20 +16,24 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14716))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14751))
 // CS Name: ::BeatmapObjectData*
 class CORDL_TYPE BeatmapObjectData : public ::GlobalNamespace::BeatmapDataItem {
 public:
   // Declarations
-  static inline ::GlobalNamespace::BeatmapObjectData* New_ctor(float_t time, int32_t subtypeIdentifier);
-
-  /// @brief Method .ctor, addr 0xe0069c, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, int32_t subtypeIdentifier);
-
   /// @brief Method Mirror, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Mirror(int32_t lineCount);
 
+  static inline ::GlobalNamespace::BeatmapObjectData* New_ctor(float_t time, int32_t subtypeIdentifier);
+
+  /// @brief Method .ctor, addr 0xe566e8, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, int32_t subtypeIdentifier);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapObjectData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectData(BeatmapObjectData&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapObjectData(BeatmapObjectData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapObjectData();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -48,23 +48,25 @@ MARK_VAL_T(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9166)) CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
+// CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
 struct CORDL_TYPE __FixedSizeReadStream___ProcessReadAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2ab064c, size 0x2b0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2ab08fc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29c4ad4, size 0x2b0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x29c4d84, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FixedSizeReadStream___ProcessReadAsync_d__5();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
@@ -75,10 +77,6 @@ public:
                                                           ::System::Threading::CancellationToken cancellationToken, ::System::Net::FixedSizeReadStream* __4__this, int32_t size,
                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                           ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FixedSizeReadStream___ProcessReadAsync_d__5();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -133,13 +131,13 @@ static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9167))
 // CS Name: ::System.Net::FixedSizeReadStream*
 class CORDL_TYPE FixedSizeReadStream : public ::System::Net::WebReadStream {
 public:
   // Declarations
   using _ProcessReadAsync_d__5 = ::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5;
+
+  __declspec(property(get = get_ContentLength)) int64_t ContentLength;
 
   /// @brief Field <ContentLength>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__ContentLength_k__BackingField, put = __cordl_internal_set__ContentLength_k__BackingField)) int64_t _ContentLength_k__BackingField;
@@ -147,32 +145,36 @@ public:
   /// @brief Field position, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int64_t position;
 
-  __declspec(property(get = get_ContentLength)) int64_t ContentLength;
-
-  constexpr int64_t& __cordl_internal_get__ContentLength_k__BackingField();
-
-  constexpr int64_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ContentLength_k__BackingField(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get_position();
-
-  constexpr int64_t const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(int64_t value);
-
-  /// @brief Method get_ContentLength, addr 0x29c497c, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_ContentLength();
-
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method .ctor, addr 0x29c4984, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
-
-  /// @brief Method ProcessReadAsync, addr 0x29c49ac, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x2ab0524, size 0x128, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
+  constexpr int64_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
+
+  constexpr int64_t& __cordl_internal_get__ContentLength_k__BackingField();
+
+  constexpr int64_t const& __cordl_internal_get_position() const;
+
+  constexpr int64_t& __cordl_internal_get_position();
+
+  constexpr void __cordl_internal_set__ContentLength_k__BackingField(int64_t value);
+
+  constexpr void __cordl_internal_set_position(int64_t value);
+
+  /// @brief Method .ctor, addr 0x2ab04fc, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
+
+  /// @brief Method get_ContentLength, addr 0x2ab04f4, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_ContentLength();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedSizeReadStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedSizeReadStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedSizeReadStream(FixedSizeReadStream&&) = delete;
@@ -181,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedSizeReadStream(FixedSizeReadStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedSizeReadStream();
-
-public:
   /// @brief Field <ContentLength>k__BackingField, offset: 0x40, size: 0x8, def value: None
   int64_t ____ContentLength_k__BackingField;
 

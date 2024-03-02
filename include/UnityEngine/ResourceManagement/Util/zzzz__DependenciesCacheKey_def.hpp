@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13971))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DependenciesCacheKey*
 class CORDL_TYPE DependenciesCacheKey : public ::System::Object {
 public:
@@ -43,49 +41,55 @@ public:
   /// @brief Field m_DependenciesHash, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DependenciesHash, put = __cordl_internal_set_m_DependenciesHash)) int32_t m_DependenciesHash;
 
-  /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
-  constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
-  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept;
-
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
-  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
+  /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+  constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
+
+  /// @brief Method Equals, addr 0x2cb8724, size 0x8c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2cb87b0, size 0x28, virtual false, abstract: false, final false
+  inline bool Equals(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey* other);
+
+  /// @brief Method Equals, addr 0x2cb87d8, size 0x8c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
+
+  /// @brief Method GetHashCode, addr 0x2cb871c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
+  New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
   constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_m_Dependencies();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
   __cordl_internal_get_m_Dependencies() const;
 
-  constexpr void __cordl_internal_set_m_Dependencies(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr int32_t const& __cordl_internal_get_m_DependenciesHash() const;
 
   constexpr int32_t& __cordl_internal_get_m_DependenciesHash();
 
-  constexpr int32_t const& __cordl_internal_get_m_DependenciesHash() const;
+  constexpr void __cordl_internal_set_m_Dependencies(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
   constexpr void __cordl_internal_set_m_DependenciesHash(int32_t value);
 
-  static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
-  New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
-
-  /// @brief Method .ctor, addr 0x2bcd210, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb3e50, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
-  /// @brief Method GetHashCode, addr 0x2bd1adc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
 
-  /// @brief Method Equals, addr 0x2bd1ae4, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept;
 
-  /// @brief Method Equals, addr 0x2bd1b98, size 0x8c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DependenciesCacheKey();
 
-  /// @brief Method Equals, addr 0x2bd1b70, size 0x28, virtual false, abstract: false, final false
-  inline bool Equals(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DependenciesCacheKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DependenciesCacheKey(DependenciesCacheKey&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DependenciesCacheKey(DependenciesCacheKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DependenciesCacheKey();
-
-public:
   /// @brief Field m_Dependencies, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* ___m_Dependencies;
 

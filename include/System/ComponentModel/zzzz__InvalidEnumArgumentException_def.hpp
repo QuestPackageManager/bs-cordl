@@ -25,32 +25,36 @@ MARK_REF_PTR_T(::System::ComponentModel::InvalidEnumArgumentException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9399))
 // CS Name: ::System.ComponentModel::InvalidEnumArgumentException*
 class CORDL_TYPE InvalidEnumArgumentException : public ::System::ArgumentException {
 public:
   // Declarations
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2904e34, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x2904e40, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
-
-  /// @brief Method .ctor, addr 0x2904e48, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
 
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2904f2c, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x29ee918, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x29ee92c, size 0xe4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
+
+  /// @brief Method .ctor, addr 0x29eea10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x29ee924, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidEnumArgumentException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidEnumArgumentException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidEnumArgumentException(InvalidEnumArgumentException&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidEnumArgumentException(InvalidEnumArgumentException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidEnumArgumentException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(::System::Type*)>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::CanConvert)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2321e48;
+  constexpr static std::size_t addrs = 0x241cc8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::ReadJson)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2321ef4;
+  constexpr static std::size_t addrs = 0x241cd38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::WriteJson)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2321f78;
+  constexpr static std::size_t addrs = 0x241cdbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::*)()>(
     &::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2322074;
+  constexpr static std::size_t addrs = 0x241ceb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

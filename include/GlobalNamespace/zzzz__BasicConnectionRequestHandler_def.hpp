@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicConnectionRequestHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12683))
 // CS Name: ::BasicConnectionRequestHandler*
 class CORDL_TYPE BasicConnectionRequestHandler : public ::System::Object {
 public:
@@ -39,32 +37,38 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
-  constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__secret_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__secret_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
-
-  /// @brief Method get_secret, addr 0xe29860, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_secret();
-
-  /// @brief Method set_secret, addr 0xe29868, size 0x8, virtual false, abstract: false, final false
-  inline void set_secret(::StringW value);
-
-  /// @brief Method GetConnectionMessage, addr 0xe29870, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0xe9a678, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
-
-  /// @brief Method ValidateConnectionMessage, addr 0xe298e0, size 0xbc, virtual true, abstract: false, final true
-  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2999c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateConnectionMessage, addr 0xe9a6e8, size 0xbc, virtual true, abstract: false, final true
+  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
+
+  constexpr ::StringW const& __cordl_internal_get__secret_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__secret_k__BackingField();
+
+  constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0xe9a7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_secret, addr 0xe9a668, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_secret();
+
+  /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
+  constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
+
+  /// @brief Method set_secret, addr 0xe9a670, size 0x8, virtual false, abstract: false, final false
+  inline void set_secret(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicConnectionRequestHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicConnectionRequestHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicConnectionRequestHandler(BasicConnectionRequestHandler&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicConnectionRequestHandler(BasicConnectionRequestHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicConnectionRequestHandler();
-
-public:
   /// @brief Field <secret>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____secret_k__BackingField;
 

@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AbuseReportRecording);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
 // CS Name: ::Oculus.Platform.Models::AbuseReportRecording*
 class CORDL_TYPE AbuseReportRecording : public ::System::Object {
 public:
@@ -25,17 +23,23 @@ public:
   /// @brief Field RecordingUuid, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_RecordingUuid, put = __cordl_internal_set_RecordingUuid))::StringW RecordingUuid;
 
-  constexpr ::StringW& __cordl_internal_get_RecordingUuid();
+  static inline ::Oculus::Platform::Models::AbuseReportRecording* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_RecordingUuid() const;
 
+  constexpr ::StringW& __cordl_internal_get_RecordingUuid();
+
   constexpr void __cordl_internal_set_RecordingUuid(::StringW value);
 
-  static inline ::Oculus::Platform::Models::AbuseReportRecording* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27036c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f4fd0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbuseReportRecording();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AbuseReportRecording", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbuseReportRecording(AbuseReportRecording&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbuseReportRecording(AbuseReportRecording const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbuseReportRecording();
-
-public:
   /// @brief Field RecordingUuid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___RecordingUuid;
 

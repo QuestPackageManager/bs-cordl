@@ -44,18 +44,10 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeDropdown);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5410))
 // CS Name: ::ColorSchemeDropdown*
 class CORDL_TYPE ColorSchemeDropdown : public ::HMUI::DropdownWithTableView {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
-
-  /// @brief Field _colorSchemeView, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorSchemeView, put = __cordl_internal_set__colorSchemeView))::UnityW<::GlobalNamespace::ColorSchemeView> _colorSchemeView;
-
   /// @brief Field _cellPrefab, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::ColorSchemeTableCell> _cellPrefab;
 
@@ -65,6 +57,9 @@ public:
   /// @brief Field _cellSize, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__cellSize, put = __cordl_internal_set__cellSize)) float_t _cellSize;
 
+  /// @brief Field _colorSchemeView, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorSchemeView, put = __cordl_internal_set__colorSchemeView))::UnityW<::GlobalNamespace::ColorSchemeView> _colorSchemeView;
+
   /// @brief Field _colorSchemes, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__colorSchemes,
                       put = __cordl_internal_set__colorSchemes))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* _colorSchemes;
@@ -72,89 +67,98 @@ public:
   /// @brief Field _initialized, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
+  /// @brief Field _text, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Convert to "::HMUI::__TableView__IDataSource"
-  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
+  /// @brief Method CellForIdx, addr 0x249fed0, size 0x26c, virtual true, abstract: false, final true
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+  /// @brief Method CellSize, addr 0x249fe1c, size 0x8, virtual true, abstract: false, final true
+  inline float_t CellSize();
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+  /// @brief Method HandleDidSelectCellWithIdx, addr 0x24a0200, size 0x138, virtual false, abstract: false, final false
+  inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method Init, addr 0x249fb8c, size 0x40, virtual false, abstract: false, final false
+  inline void Init(::HMUI::__TableView__IDataSource* initTableViewDataSource);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView>& __cordl_internal_get__colorSchemeView();
+  /// @brief Method LazyInit, addr 0x249fa4c, size 0xb0, virtual false, abstract: false, final false
+  inline void LazyInit();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView> const& __cordl_internal_get__colorSchemeView() const;
+  static inline ::GlobalNamespace::ColorSchemeDropdown* New_ctor();
 
-  constexpr void __cordl_internal_set__colorSchemeView(::UnityW<::GlobalNamespace::ColorSchemeView> value);
+  /// @brief Method NumberOfCells, addr 0x249fe24, size 0xac, virtual true, abstract: false, final true
+  inline int32_t NumberOfCells();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell>& __cordl_internal_get__cellPrefab();
+  /// @brief Method OnDestroy, addr 0x249fafc, size 0x90, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RefreshUI, addr 0x249fd24, size 0xf8, virtual false, abstract: false, final false
+  inline void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
+
+  /// @brief Method SelectCellWithIdx, addr 0x24a013c, size 0xc4, virtual true, abstract: false, final false
+  inline void SelectCellWithIdx(int32_t idx);
+
+  /// @brief Method SetData, addr 0x249fbcc, size 0x158, virtual false, abstract: false, final false
+  inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::ColorSchemeTableCell> value);
-
-  constexpr ::StringW& __cordl_internal_get__cellReuseIdentifier();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell>& __cordl_internal_get__cellPrefab();
 
   constexpr ::StringW const& __cordl_internal_get__cellReuseIdentifier() const;
 
-  constexpr void __cordl_internal_set__cellReuseIdentifier(::StringW value);
-
-  constexpr float_t& __cordl_internal_get__cellSize();
+  constexpr ::StringW& __cordl_internal_get__cellReuseIdentifier();
 
   constexpr float_t const& __cordl_internal_get__cellSize() const;
 
-  constexpr void __cordl_internal_set__cellSize(float_t value);
+  constexpr float_t& __cordl_internal_get__cellSize();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView> const& __cordl_internal_get__colorSchemeView() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView>& __cordl_internal_get__colorSchemeView();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get__colorSchemes() const;
 
-  constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* value);
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
   constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __cordl_internal_get__initialized() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::ColorSchemeTableCell> value);
+
+  constexpr void __cordl_internal_set__cellReuseIdentifier(::StringW value);
+
+  constexpr void __cordl_internal_set__cellSize(float_t value);
+
+  constexpr void __cordl_internal_set__colorSchemeView(::UnityW<::GlobalNamespace::ColorSchemeView> value);
+
+  constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* value);
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method LazyInit, addr 0x2275428, size 0xb0, virtual false, abstract: false, final false
-  inline void LazyInit();
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method OnDestroy, addr 0x22754d8, size 0x90, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method Init, addr 0x2275568, size 0x40, virtual false, abstract: false, final false
-  inline void Init(::HMUI::__TableView__IDataSource* initTableViewDataSource);
-
-  /// @brief Method SetData, addr 0x22755a8, size 0x158, virtual false, abstract: false, final false
-  inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
-
-  /// @brief Method CellSize, addr 0x22757f8, size 0x8, virtual true, abstract: false, final true
-  inline float_t CellSize();
-
-  /// @brief Method NumberOfCells, addr 0x2275800, size 0xac, virtual true, abstract: false, final true
-  inline int32_t NumberOfCells();
-
-  /// @brief Method CellForIdx, addr 0x22758ac, size 0x298, virtual true, abstract: false, final true
-  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
-
-  /// @brief Method SelectCellWithIdx, addr 0x2275c04, size 0xc4, virtual true, abstract: false, final false
-  inline void SelectCellWithIdx(int32_t idx);
-
-  /// @brief Method HandleDidSelectCellWithIdx, addr 0x2275cc8, size 0x138, virtual false, abstract: false, final false
-  inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
-
-  /// @brief Method RefreshUI, addr 0x2275700, size 0xf8, virtual false, abstract: false, final false
-  inline void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
-
-  static inline ::GlobalNamespace::ColorSchemeDropdown* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2275e00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a0338, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HMUI::__TableView__IDataSource"
+  constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeDropdown();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeDropdown(ColorSchemeDropdown&&) = delete;
@@ -163,12 +167,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeDropdown(ColorSchemeDropdown const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemeDropdown();
-
-public:
   /// @brief Field _text, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

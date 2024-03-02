@@ -30,17 +30,15 @@ MARK_REF_PTR_T(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEf
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5006))
 // CS Name: ::TrackLaneRingsRotationEffect::RingRotationEffect*
 class CORDL_TYPE __TrackLaneRingsRotationEffect__RingRotationEffect : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field progressPos, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_progressPos, put = __cordl_internal_set_progressPos)) int32_t progressPos;
+
   /// @brief Field rotationAngle, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationAngle, put = __cordl_internal_set_rotationAngle)) float_t rotationAngle;
-
-  /// @brief Field rotationStep, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationStep, put = __cordl_internal_set_rotationStep)) float_t rotationStep;
 
   /// @brief Field rotationFlexySpeed, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationFlexySpeed, put = __cordl_internal_set_rotationFlexySpeed)) float_t rotationFlexySpeed;
@@ -48,44 +46,50 @@ public:
   /// @brief Field rotationPropagationSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationPropagationSpeed, put = __cordl_internal_set_rotationPropagationSpeed)) int32_t rotationPropagationSpeed;
 
-  /// @brief Field progressPos, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_progressPos, put = __cordl_internal_set_progressPos)) int32_t progressPos;
-
-  constexpr float_t& __cordl_internal_get_rotationAngle();
-
-  constexpr float_t const& __cordl_internal_get_rotationAngle() const;
-
-  constexpr void __cordl_internal_set_rotationAngle(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationStep();
-
-  constexpr float_t const& __cordl_internal_get_rotationStep() const;
-
-  constexpr void __cordl_internal_set_rotationStep(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationFlexySpeed();
-
-  constexpr float_t const& __cordl_internal_get_rotationFlexySpeed() const;
-
-  constexpr void __cordl_internal_set_rotationFlexySpeed(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_rotationPropagationSpeed();
-
-  constexpr int32_t const& __cordl_internal_get_rotationPropagationSpeed() const;
-
-  constexpr void __cordl_internal_set_rotationPropagationSpeed(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_progressPos();
-
-  constexpr int32_t const& __cordl_internal_get_progressPos() const;
-
-  constexpr void __cordl_internal_set_progressPos(int32_t value);
+  /// @brief Field rotationStep, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationStep, put = __cordl_internal_set_rotationStep)) float_t rotationStep;
 
   static inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b8300, size 0x8, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_progressPos() const;
+
+  constexpr int32_t& __cordl_internal_get_progressPos();
+
+  constexpr float_t const& __cordl_internal_get_rotationAngle() const;
+
+  constexpr float_t& __cordl_internal_get_rotationAngle();
+
+  constexpr float_t const& __cordl_internal_get_rotationFlexySpeed() const;
+
+  constexpr float_t& __cordl_internal_get_rotationFlexySpeed();
+
+  constexpr int32_t const& __cordl_internal_get_rotationPropagationSpeed() const;
+
+  constexpr int32_t& __cordl_internal_get_rotationPropagationSpeed();
+
+  constexpr float_t const& __cordl_internal_get_rotationStep() const;
+
+  constexpr float_t& __cordl_internal_get_rotationStep();
+
+  constexpr void __cordl_internal_set_progressPos(int32_t value);
+
+  constexpr void __cordl_internal_set_rotationAngle(float_t value);
+
+  constexpr void __cordl_internal_set_rotationFlexySpeed(float_t value);
+
+  constexpr void __cordl_internal_set_rotationPropagationSpeed(int32_t value);
+
+  constexpr void __cordl_internal_set_rotationStep(float_t value);
+
+  /// @brief Method .ctor, addr 0x244538c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TrackLaneRingsRotationEffect__RingRotationEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TrackLaneRingsRotationEffect__RingRotationEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TrackLaneRingsRotationEffect__RingRotationEffect(__TrackLaneRingsRotationEffect__RingRotationEffect&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TrackLaneRingsRotationEffect__RingRotationEffect(__TrackLaneRingsRotationEffect__RingRotationEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TrackLaneRingsRotationEffect__RingRotationEffect();
-
-public:
   /// @brief Field rotationAngle, offset: 0x10, size: 0x4, def value: None
   float_t ___rotationAngle;
 
@@ -135,28 +133,11 @@ static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5007))
 // CS Name: ::TrackLaneRingsRotationEffect*
 class CORDL_TYPE TrackLaneRingsRotationEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using RingRotationEffect = ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect;
-
-  /// @brief Field _trackLaneRingsManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__trackLaneRingsManager, put = __cordl_internal_set__trackLaneRingsManager))::UnityW<::GlobalNamespace::TrackLaneRingsManager> _trackLaneRingsManager;
-
-  /// @brief Field _startupRotationAngle, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__startupRotationAngle, put = __cordl_internal_set__startupRotationAngle)) float_t _startupRotationAngle;
-
-  /// @brief Field _startupRotationStep, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__startupRotationStep, put = __cordl_internal_set__startupRotationStep)) float_t _startupRotationStep;
-
-  /// @brief Field _startupRotationPropagationSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__startupRotationPropagationSpeed, put = __cordl_internal_set__startupRotationPropagationSpeed)) int32_t _startupRotationPropagationSpeed;
-
-  /// @brief Field _startupRotationFlexySpeed, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__startupRotationFlexySpeed, put = __cordl_internal_set__startupRotationFlexySpeed)) float_t _startupRotationFlexySpeed;
 
   /// @brief Field _activeRingRotationEffects, offset 0x30, size 0x8
   __declspec(property(
@@ -168,89 +149,110 @@ public:
       get = __cordl_internal_get__ringRotationEffectsPool,
       put = __cordl_internal_set__ringRotationEffectsPool))::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* _ringRotationEffectsPool;
 
+  /// @brief Field _startupRotationAngle, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__startupRotationAngle, put = __cordl_internal_set__startupRotationAngle)) float_t _startupRotationAngle;
+
+  /// @brief Field _startupRotationFlexySpeed, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__startupRotationFlexySpeed, put = __cordl_internal_set__startupRotationFlexySpeed)) float_t _startupRotationFlexySpeed;
+
+  /// @brief Field _startupRotationPropagationSpeed, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__startupRotationPropagationSpeed, put = __cordl_internal_set__startupRotationPropagationSpeed)) int32_t _startupRotationPropagationSpeed;
+
+  /// @brief Field _startupRotationStep, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__startupRotationStep, put = __cordl_internal_set__startupRotationStep)) float_t _startupRotationStep;
+
+  /// @brief Field _trackLaneRingsManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackLaneRingsManager, put = __cordl_internal_set__trackLaneRingsManager))::UnityW<::GlobalNamespace::TrackLaneRingsManager> _trackLaneRingsManager;
+
   /// @brief Field ringRotationEffectsToDelete, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_ringRotationEffectsToDelete,
                       put = __cordl_internal_set_ringRotationEffectsToDelete))::System::Collections::Generic::List_1<int32_t>* ringRotationEffectsToDelete;
 
-  constexpr ::UnityW<::GlobalNamespace::TrackLaneRingsManager>& __cordl_internal_get__trackLaneRingsManager();
+  /// @brief Method AddRingRotationEffect, addr 0x24453a4, size 0xe4, virtual false, abstract: false, final false
+  inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  constexpr ::UnityW<::GlobalNamespace::TrackLaneRingsManager> const& __cordl_internal_get__trackLaneRingsManager() const;
+  /// @brief Method Awake, addr 0x244520c, size 0x180, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set__trackLaneRingsManager(::UnityW<::GlobalNamespace::TrackLaneRingsManager> value);
+  /// @brief Method FixedUpdate, addr 0x2445488, size 0x164, virtual false, abstract: false, final false
+  inline void FixedUpdate();
 
-  constexpr float_t& __cordl_internal_get__startupRotationAngle();
+  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x24457a0, size 0x38, virtual false, abstract: false, final false
+  inline float_t GetFirstRingDestinationRotationAngle();
 
-  constexpr float_t const& __cordl_internal_get__startupRotationAngle() const;
+  /// @brief Method GetFirstRingRotationAngle, addr 0x2445768, size 0x38, virtual false, abstract: false, final false
+  inline float_t GetFirstRingRotationAngle();
 
-  constexpr void __cordl_internal_set__startupRotationAngle(float_t value);
+  static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  constexpr float_t& __cordl_internal_get__startupRotationStep();
+  /// @brief Method RecycleRingRotationEffect, addr 0x24455ec, size 0xa8, virtual false, abstract: false, final false
+  inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
 
-  constexpr float_t const& __cordl_internal_get__startupRotationStep() const;
+  /// @brief Method SpawnRingRotationEffect, addr 0x2445694, size 0xd4, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
 
-  constexpr void __cordl_internal_set__startupRotationStep(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__startupRotationPropagationSpeed();
-
-  constexpr int32_t const& __cordl_internal_get__startupRotationPropagationSpeed() const;
-
-  constexpr void __cordl_internal_set__startupRotationPropagationSpeed(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__startupRotationFlexySpeed();
-
-  constexpr float_t const& __cordl_internal_get__startupRotationFlexySpeed() const;
-
-  constexpr void __cordl_internal_set__startupRotationFlexySpeed(float_t value);
+  /// @brief Method Start, addr 0x2445394, size 0x10, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*& __cordl_internal_get__activeRingRotationEffects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*> const&
   __cordl_internal_get__activeRingRotationEffects() const;
 
-  constexpr void __cordl_internal_set__activeRingRotationEffects(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value);
-
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*& __cordl_internal_get__ringRotationEffectsPool();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*> const&
   __cordl_internal_get__ringRotationEffectsPool() const;
 
-  constexpr void __cordl_internal_set__ringRotationEffectsPool(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value);
+  constexpr float_t const& __cordl_internal_get__startupRotationAngle() const;
+
+  constexpr float_t& __cordl_internal_get__startupRotationAngle();
+
+  constexpr float_t const& __cordl_internal_get__startupRotationFlexySpeed() const;
+
+  constexpr float_t& __cordl_internal_get__startupRotationFlexySpeed();
+
+  constexpr int32_t const& __cordl_internal_get__startupRotationPropagationSpeed() const;
+
+  constexpr int32_t& __cordl_internal_get__startupRotationPropagationSpeed();
+
+  constexpr float_t const& __cordl_internal_get__startupRotationStep() const;
+
+  constexpr float_t& __cordl_internal_get__startupRotationStep();
+
+  constexpr ::UnityW<::GlobalNamespace::TrackLaneRingsManager> const& __cordl_internal_get__trackLaneRingsManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TrackLaneRingsManager>& __cordl_internal_get__trackLaneRingsManager();
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_ringRotationEffectsToDelete();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_ringRotationEffectsToDelete() const;
 
+  constexpr void __cordl_internal_set__activeRingRotationEffects(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value);
+
+  constexpr void __cordl_internal_set__ringRotationEffectsPool(::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>* value);
+
+  constexpr void __cordl_internal_set__startupRotationAngle(float_t value);
+
+  constexpr void __cordl_internal_set__startupRotationFlexySpeed(float_t value);
+
+  constexpr void __cordl_internal_set__startupRotationPropagationSpeed(int32_t value);
+
+  constexpr void __cordl_internal_set__startupRotationStep(float_t value);
+
+  constexpr void __cordl_internal_set__trackLaneRingsManager(::UnityW<::GlobalNamespace::TrackLaneRingsManager> value);
+
   constexpr void __cordl_internal_set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method Awake, addr 0x23b8180, size 0x180, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method Start, addr 0x23b8308, size 0x10, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method FixedUpdate, addr 0x23b83fc, size 0x164, virtual false, abstract: false, final false
-  inline void FixedUpdate();
-
-  /// @brief Method AddRingRotationEffect, addr 0x23b8318, size 0xe4, virtual false, abstract: false, final false
-  inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
-
-  /// @brief Method GetFirstRingRotationAngle, addr 0x23b86dc, size 0x38, virtual false, abstract: false, final false
-  inline float_t GetFirstRingRotationAngle();
-
-  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x23b8714, size 0x38, virtual false, abstract: false, final false
-  inline float_t GetFirstRingDestinationRotationAngle();
-
-  /// @brief Method SpawnRingRotationEffect, addr 0x23b8608, size 0xd4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
-
-  /// @brief Method RecycleRingRotationEffect, addr 0x23b8560, size 0xa8, virtual false, abstract: false, final false
-  inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
-
-  static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b874c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24457d8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackLaneRingsRotationEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect&&) = delete;
@@ -259,12 +261,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackLaneRingsRotationEffect();
-
-public:
   /// @brief Field _trackLaneRingsManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;
 

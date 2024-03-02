@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::MaxBytesExceededException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1347))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1351))
 // CS Name: ::Org.BouncyCastle.Crypto::MaxBytesExceededException*
 class CORDL_TYPE MaxBytesExceededException : public ::Org::BouncyCastle::Crypto::CryptoException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc599c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0xfc59a0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0xfc59a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10367fc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1036800, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x1036804, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaxBytesExceededException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaxBytesExceededException(MaxBytesExceededException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaxBytesExceededException(MaxBytesExceededException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaxBytesExceededException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

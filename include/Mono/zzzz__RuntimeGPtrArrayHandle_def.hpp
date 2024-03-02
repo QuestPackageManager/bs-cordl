@@ -19,40 +19,38 @@ MARK_VAL_T(::Mono::RuntimeGPtrArrayHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2233))
 // CS Name: ::Mono::RuntimeGPtrArrayHandle
 struct CORDL_TYPE RuntimeGPtrArrayHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Length)) int32_t Length;
-
   __declspec(property(get = get_Item)) void* Item[];
 
-  /// @brief Method .ctor, addr 0x2412a6c, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method get_Length, addr 0x2412a8c, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_Length();
-
-  /// @brief Method get_Item, addr 0x2412aa8, size 0x4, virtual false, abstract: false, final false
-  inline void* get_Item(int32_t i);
-
-  /// @brief Method Lookup, addr 0x2412aac, size 0x6c, virtual false, abstract: false, final false
-  inline void* Lookup(int32_t i);
-
-  /// @brief Method GPtrArrayFree, addr 0x2412b18, size 0x4, virtual false, abstract: false, final false
-  static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value);
-
-  /// @brief Method DestroyAndFree, addr 0x2412b1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAndFree, addr 0x2503674, size 0x1c, virtual false, abstract: false, final false
   static inline void DestroyAndFree(ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray>", modifiers: "", def_value: None }]
-  constexpr RuntimeGPtrArrayHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value) noexcept;
+  /// @brief Method GPtrArrayFree, addr 0x2503670, size 0x4, virtual false, abstract: false, final false
+  static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value);
+
+  /// @brief Method Lookup, addr 0x2503604, size 0x6c, virtual false, abstract: false, final false
+  inline void* Lookup(int32_t i);
+
+  /// @brief Method .ctor, addr 0x25035c4, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(void* ptr);
+
+  /// @brief Method get_Item, addr 0x2503600, size 0x4, virtual false, abstract: false, final false
+  inline void* get_Item(int32_t i);
+
+  /// @brief Method get_Length, addr 0x25035e4, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeGPtrArrayHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray>", modifiers: "", def_value: None }]
+  constexpr RuntimeGPtrArrayHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value;

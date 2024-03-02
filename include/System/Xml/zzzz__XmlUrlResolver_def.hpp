@@ -64,23 +64,25 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 2 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
+// CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2994480, size 0x37c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x29947fc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x28a999c, size 0x37c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x28a9d18, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XmlUrlResolver___GetEntityAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "ofObjectToReturn", ty: "::System::Type*", modifiers: "",
@@ -90,10 +92,6 @@ public:
   constexpr __XmlUrlResolver___GetEntityAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::System::Type* ofObjectToReturn,
                                                     ::System::Uri* absoluteUri, ::System::Xml::XmlUrlResolver* __4__this,
                                                     ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XmlUrlResolver___GetEntityAsync_d__15();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -138,13 +136,14 @@ static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11574))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11576))
 // CS Name: ::System.Xml::XmlUrlResolver*
 class CORDL_TYPE XmlUrlResolver : public ::System::Xml::XmlResolver {
 public:
   // Declarations
   using _GetEntityAsync_d__15 = ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15;
+
+  /// @brief Field _cachePolicy, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__cachePolicy, put = __cordl_internal_set__cachePolicy))::System::Net::Cache::RequestCachePolicy* _cachePolicy;
 
   /// @brief Field _credentials, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials))::System::Net::ICredentials* _credentials;
@@ -152,51 +151,54 @@ public:
   /// @brief Field _proxy, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy))::System::Net::IWebProxy* _proxy;
 
-  /// @brief Field _cachePolicy, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachePolicy, put = __cordl_internal_set__cachePolicy))::System::Net::Cache::RequestCachePolicy* _cachePolicy;
-
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager))::System::Object* s_DownloadManager;
 
-  constexpr ::System::Net::ICredentials*& __cordl_internal_get__credentials();
+  /// @brief Method GetEntity, addr 0x29941f4, size 0x17c, virtual true, abstract: false, final false
+  inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get__credentials() const;
+  /// @brief Method GetEntityAsync, addr 0x2994374, size 0x10c, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  constexpr void __cordl_internal_set__credentials(::System::Net::ICredentials* value);
+  static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  constexpr ::System::Net::IWebProxy*& __cordl_internal_get__proxy();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get__proxy() const;
-
-  constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
+  /// @brief Method ResolveUri, addr 0x2994370, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
   constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get__cachePolicy();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get__cachePolicy() const;
 
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get__credentials();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get__credentials() const;
+
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get__proxy();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get__proxy() const;
+
   constexpr void __cordl_internal_set__cachePolicy(::System::Net::Cache::RequestCachePolicy* value);
 
-  static inline void setStaticF_s_DownloadManager(::System::Object* value);
+  constexpr void __cordl_internal_set__credentials(::System::Net::ICredentials* value);
+
+  constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
+
+  /// @brief Method .ctor, addr 0x29941ec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x28a9634, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x2994118, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
-  static inline ::System::Xml::XmlUrlResolver* New_ctor();
+  static inline void setStaticF_s_DownloadManager(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x28a9708, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlUrlResolver();
 
-  /// @brief Method GetEntity, addr 0x28a9710, size 0x17c, virtual true, abstract: false, final false
-  inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
-
-  /// @brief Method ResolveUri, addr 0x28a988c, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
-
-  /// @brief Method GetEntityAsync, addr 0x28a9890, size 0x10c, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlUrlResolver(XmlUrlResolver&&) = delete;
@@ -205,12 +207,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlUrlResolver(XmlUrlResolver const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlUrlResolver();
-
-public:
   /// @brief Field _credentials, offset: 0x10, size: 0x8, def value: None
   ::System::Net::ICredentials* ____credentials;
 

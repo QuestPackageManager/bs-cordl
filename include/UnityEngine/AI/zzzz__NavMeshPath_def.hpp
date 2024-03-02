@@ -23,66 +23,70 @@ MARK_REF_PTR_T(::UnityEngine::AI::NavMeshPath);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16115))
 // CS Name: ::UnityEngine.AI::NavMeshPath*
 class CORDL_TYPE NavMeshPath : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = get_corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> corners;
 
   /// @brief Field m_Corners, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Corners, put = __cordl_internal_set_m_Corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Corners;
 
-  __declspec(property(get = get_corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> corners;
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   __declspec(property(get = get_status))::UnityEngine::AI::NavMeshPathStatus status;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  /// @brief Method CalculateCorners, addr 0x2d6344c, size 0x4c, virtual false, abstract: false, final false
+  inline void CalculateCorners();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  /// @brief Method CalculateCornersInternal, addr 0x2d63390, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> CalculateCornersInternal();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  /// @brief Method ClearCorners, addr 0x2d63408, size 0x44, virtual false, abstract: false, final false
+  inline void ClearCorners();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Corners();
+  /// @brief Method ClearCornersInternal, addr 0x2d633cc, size 0x3c, virtual false, abstract: false, final false
+  inline void ClearCornersInternal();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
+  /// @brief Method DestroyNavMeshPath, addr 0x2d63354, size 0x3c, virtual false, abstract: false, final false
+  static inline void DestroyNavMeshPath(void* ptr);
 
-  constexpr void __cordl_internal_set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  /// @brief Method Finalize, addr 0x2d63260, size 0xf4, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method InitializeNavMeshPath, addr 0x2d63238, size 0x28, virtual false, abstract: false, final false
+  static inline void* InitializeNavMeshPath();
 
   static inline ::UnityEngine::AI::NavMeshPath* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7d5b0, size 0x48, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Corners();
+
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
+  constexpr void __cordl_internal_set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
+  /// @brief Method .ctor, addr 0x2d631f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize, addr 0x2c7d620, size 0xf4, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method InitializeNavMeshPath, addr 0x2c7d5f8, size 0x28, virtual false, abstract: false, final false
-  static inline void* InitializeNavMeshPath();
-
-  /// @brief Method DestroyNavMeshPath, addr 0x2c7d714, size 0x3c, virtual false, abstract: false, final false
-  static inline void DestroyNavMeshPath(void* ptr);
-
-  /// @brief Method CalculateCornersInternal, addr 0x2c7d750, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> CalculateCornersInternal();
-
-  /// @brief Method ClearCornersInternal, addr 0x2c7d78c, size 0x3c, virtual false, abstract: false, final false
-  inline void ClearCornersInternal();
-
-  /// @brief Method ClearCorners, addr 0x2c7d7c8, size 0x44, virtual false, abstract: false, final false
-  inline void ClearCorners();
-
-  /// @brief Method CalculateCorners, addr 0x2c7d80c, size 0x4c, virtual false, abstract: false, final false
-  inline void CalculateCorners();
-
-  /// @brief Method get_corners, addr 0x2c7d858, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_corners, addr 0x2d63498, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_corners();
 
-  /// @brief Method get_status, addr 0x2c7d8a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x2d634e4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AI::NavMeshPathStatus get_status();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavMeshPath();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NavMeshPath", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavMeshPath(NavMeshPath&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NavMeshPath(NavMeshPath const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavMeshPath();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

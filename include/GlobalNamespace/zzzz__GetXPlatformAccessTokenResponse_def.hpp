@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
 // CS Name: ::GetXPlatformAccessTokenResponse*
 class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field accessToken, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken))::StringW accessToken;
 
-  constexpr ::StringW& __cordl_internal_get_accessToken();
+  static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
 
   constexpr ::StringW const& __cordl_internal_get_accessToken() const;
 
+  constexpr ::StringW& __cordl_internal_get_accessToken();
+
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
-
-  /// @brief Method .ctor, addr 0x28001b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28eede4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetXPlatformAccessTokenResponse();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetXPlatformAccessTokenResponse();
-
-public:
   /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___accessToken;
 

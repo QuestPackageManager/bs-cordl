@@ -36,104 +36,108 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarAnimator);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
 // CS Name: ::MultiplayerBigAvatarAnimator*
 class CORDL_TYPE MultiplayerBigAvatarAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _avatarTransform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarTransform, put = __cordl_internal_set__avatarTransform))::UnityW<::UnityEngine::Transform> _avatarTransform;
+
   /// @brief Field _displayedScale, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__displayedScale, put = __cordl_internal_set__displayedScale)) float_t _displayedScale;
 
   /// @brief Field _hologramRays, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hologramRays, put = __cordl_internal_set__hologramRays))::UnityW<::GlobalNamespace::HologramRays> _hologramRays;
 
-  /// @brief Field _avatarTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarTransform, put = __cordl_internal_set__avatarTransform))::UnityW<::UnityEngine::Transform> _avatarTransform;
-
-  /// @brief Field _tweeningManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
-
-  /// @brief Field _scaleUpTween, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleUpTween, put = __cordl_internal_set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
+  /// @brief Field _initialized, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _scaleDownTween, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__scaleDownTween, put = __cordl_internal_set__scaleDownTween))::Tweening::Tween_1<float_t>* _scaleDownTween;
 
-  /// @brief Field _initialized, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+  /// @brief Field _scaleUpTween, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__scaleUpTween, put = __cordl_internal_set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
 
-  constexpr float_t& __cordl_internal_get__displayedScale();
+  /// @brief Field _tweeningManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  constexpr float_t const& __cordl_internal_get__displayedScale() const;
+  /// @brief Method Animate, addr 0x245d9bc, size 0x1d0, virtual false, abstract: false, final false
+  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr void __cordl_internal_set__displayedScale(float_t value);
+  /// @brief Method HideInstant, addr 0x245dcd8, size 0xa8, virtual false, abstract: false, final false
+  inline void HideInstant();
 
-  constexpr ::UnityW<::GlobalNamespace::HologramRays>& __cordl_internal_get__hologramRays();
+  /// @brief Method InitIfNeeded, addr 0x2471850, size 0x1d8, virtual false, abstract: false, final false
+  inline void InitIfNeeded();
 
-  constexpr ::UnityW<::GlobalNamespace::HologramRays> const& __cordl_internal_get__hologramRays() const;
+  static inline ::GlobalNamespace::MultiplayerBigAvatarAnimator* New_ctor();
 
-  constexpr void __cordl_internal_set__hologramRays(::UnityW<::GlobalNamespace::HologramRays> value);
+  /// @brief Method OnDestroy, addr 0x24717c8, size 0x88, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__avatarTransform();
+  /// @brief Method SetPositionAndRotation, addr 0x2471a28, size 0x78, virtual false, abstract: false, final false
+  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method <InitIfNeeded>b__8_0, addr 0x2471ab0, size 0x78, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__8_0(float_t val);
+
+  /// @brief Method <InitIfNeeded>b__8_1, addr 0x2471b28, size 0x78, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__8_1(float_t val);
+
+  /// @brief Method <InitIfNeeded>b__8_2, addr 0x2471ba0, size 0x2c, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__8_2();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__avatarTransform() const;
 
-  constexpr void __cordl_internal_set__avatarTransform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__avatarTransform();
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  constexpr float_t const& __cordl_internal_get__displayedScale() const;
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  constexpr float_t& __cordl_internal_get__displayedScale();
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+  constexpr ::UnityW<::GlobalNamespace::HologramRays> const& __cordl_internal_get__hologramRays() const;
 
-  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
+  constexpr ::UnityW<::GlobalNamespace::HologramRays>& __cordl_internal_get__hologramRays();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __cordl_internal_set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
+  constexpr bool& __cordl_internal_get__initialized();
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleDownTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleDownTween() const;
 
-  constexpr void __cordl_internal_set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
 
-  constexpr bool& __cordl_internal_get__initialized();
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
 
-  constexpr bool const& __cordl_internal_get__initialized() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__avatarTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__displayedScale(float_t value);
+
+  constexpr void __cordl_internal_set__hologramRays(::UnityW<::GlobalNamespace::HologramRays> value);
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method OnDestroy, addr 0x2244a88, size 0x88, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
 
-  /// @brief Method InitIfNeeded, addr 0x2244b10, size 0x1d8, virtual false, abstract: false, final false
-  inline void InitIfNeeded();
+  constexpr void __cordl_internal_set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
 
-  /// @brief Method SetPositionAndRotation, addr 0x2244ce8, size 0x78, virtual false, abstract: false, final false
-  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method HideInstant, addr 0x2244d60, size 0xa8, virtual false, abstract: false, final false
-  inline void HideInstant();
-
-  /// @brief Method Animate, addr 0x2244e08, size 0x1d4, virtual false, abstract: false, final false
-  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType);
-
-  static inline ::GlobalNamespace::MultiplayerBigAvatarAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2244fdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2471aa0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitIfNeeded>b__8_0, addr 0x2244fec, size 0x78, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__8_0(float_t val);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBigAvatarAnimator();
 
-  /// @brief Method <InitIfNeeded>b__8_1, addr 0x2245064, size 0x78, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__8_1(float_t val);
-
-  /// @brief Method <InitIfNeeded>b__8_2, addr 0x22450dc, size 0x2c, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__8_2();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator&&) = delete;
@@ -142,12 +146,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBigAvatarAnimator();
-
-public:
   /// @brief Field _displayedScale, offset: 0x18, size: 0x4, def value: None
   float_t ____displayedScale;
 

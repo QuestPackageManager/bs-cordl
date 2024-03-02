@@ -19,21 +19,25 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BufferUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11888))
 // CS Name: ::Newtonsoft.Json.Utilities::BufferUtils*
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RentBuffer, addr 0x26628b4, size 0xc8, virtual false, abstract: false, final false
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
-
-  /// @brief Method ReturnBuffer, addr 0x266297c, size 0xb0, virtual false, abstract: false, final false
-  static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
-
-  /// @brief Method EnsureBufferSize, addr 0x2662a2c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x2755334, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
+  /// @brief Method RentBuffer, addr 0x27551bc, size 0xc8, virtual false, abstract: false, final false
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
+
+  /// @brief Method ReturnBuffer, addr 0x2755284, size 0xb0, virtual false, abstract: false, final false
+  static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferUtils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferUtils(BufferUtils&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferUtils(BufferUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferUtils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

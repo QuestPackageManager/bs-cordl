@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::NumString::G_IntString);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15073))
 // CS Name: ::Tayx.Graphy.Utils.NumString::G_IntString*
 class CORDL_TYPE G_IntString : public ::System::Object {
 public:
@@ -29,29 +27,35 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer))::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
 
-  static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method Dispose, addr 0x2aef8c4, size 0x98, virtual false, abstract: false, final false
+  static inline void Dispose();
+
+  /// @brief Method Init, addr 0x2af3dac, size 0x280, virtual false, abstract: false, final false
+  static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
+
+  /// @brief Method ToStringNonAlloc, addr 0x2af402c, size 0x120, virtual false, abstract: false, final false
+  static inline ::StringW ToStringNonAlloc(int32_t value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_negativeBuffer();
 
-  static inline void setStaticF_m_positiveBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MinValue, addr 0x2a07164, size 0x6c, virtual false, abstract: false, final false
-  static inline int32_t get_MinValue();
-
-  /// @brief Method get_MaxValue, addr 0x2a071d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x2af3d48, size 0x64, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method Init, addr 0x2a07234, size 0x280, virtual false, abstract: false, final false
-  static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
+  /// @brief Method get_MinValue, addr 0x2af3cdc, size 0x6c, virtual false, abstract: false, final false
+  static inline int32_t get_MinValue();
 
-  /// @brief Method Dispose, addr 0x2a02d4c, size 0x98, virtual false, abstract: false, final false
-  static inline void Dispose();
+  static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method ToStringNonAlloc, addr 0x2a074b4, size 0x120, virtual false, abstract: false, final false
-  static inline ::StringW ToStringNonAlloc(int32_t value);
+  static inline void setStaticF_m_positiveBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_IntString();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_IntString(G_IntString&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_IntString(G_IntString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_IntString();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

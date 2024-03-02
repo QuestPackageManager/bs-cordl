@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SystemVoipState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13391)), TypeDefinitionIndex(TypeDefinitionIndex(13400))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13483))
 // CS Name: ::Oculus.Platform.Models::SystemVoipState*
 class CORDL_TYPE SystemVoipState : public ::System::Object {
 public:
@@ -29,23 +27,29 @@ public:
   /// @brief Field Status, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status))::Oculus::Platform::SystemVoipStatus Status;
 
-  constexpr ::Oculus::Platform::VoipMuteState& __cordl_internal_get_MicrophoneMuted();
+  static inline ::Oculus::Platform::Models::SystemVoipState* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::VoipMuteState const& __cordl_internal_get_MicrophoneMuted() const;
 
-  constexpr void __cordl_internal_set_MicrophoneMuted(::Oculus::Platform::VoipMuteState value);
-
-  constexpr ::Oculus::Platform::SystemVoipStatus& __cordl_internal_get_Status();
+  constexpr ::Oculus::Platform::VoipMuteState& __cordl_internal_get_MicrophoneMuted();
 
   constexpr ::Oculus::Platform::SystemVoipStatus const& __cordl_internal_get_Status() const;
 
+  constexpr ::Oculus::Platform::SystemVoipStatus& __cordl_internal_get_Status();
+
+  constexpr void __cordl_internal_set_MicrophoneMuted(::Oculus::Platform::VoipMuteState value);
+
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  static inline ::Oculus::Platform::Models::SystemVoipState* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2708f38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa840, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SystemVoipState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemVoipState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemVoipState(SystemVoipState&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemVoipState(SystemVoipState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemVoipState();
-
-public:
   /// @brief Field MicrophoneMuted, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::VoipMuteState ___MicrophoneMuted;
 

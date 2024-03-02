@@ -34,49 +34,54 @@ MARK_REF_PTR_T(::GlobalNamespace::SinglePositionTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10046)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(10422)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst: 405 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6017)) CS Name: ::SinglePositionTween*
+// CS Name: ::SinglePositionTween*
 class CORDL_TYPE SinglePositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
-  /// @brief Field transformReference, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_transformReference,
-                      put = __cordl_internal_set_transformReference))::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> transformReference;
-
   /// @brief Field template, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_template, put = __cordl_internal_set__cordl_template))::GlobalNamespace::CustomTweenBehaviour* _cordl_template;
 
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
+  /// @brief Field transformReference, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get_transformReference,
+                      put = __cordl_internal_set_transformReference))::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> transformReference;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
-  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+  /// @brief Method CreatePlayable, addr 0x2411a44, size 0x1c4, virtual true, abstract: false, final false
+  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
-  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>& __cordl_internal_get_transformReference();
-
-  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> const& __cordl_internal_get_transformReference() const;
-
-  constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> value);
+  static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
 
   constexpr ::GlobalNamespace::CustomTweenBehaviour*& __cordl_internal_get__cordl_template();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CustomTweenBehaviour*> const& __cordl_internal_get__cordl_template() const;
 
+  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> const& __cordl_internal_get_transformReference() const;
+
+  constexpr ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>>& __cordl_internal_get_transformReference();
+
   constexpr void __cordl_internal_set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value);
 
-  /// @brief Method get_clipCaps, addr 0x2317b2c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
+  constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> value);
 
-  /// @brief Method CreatePlayable, addr 0x2317b34, size 0x1c4, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
-
-  static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2317cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2411c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_clipCaps, addr 0x2411a3c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
+
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
+  constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SinglePositionTween();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SinglePositionTween(SinglePositionTween&&) = delete;
@@ -85,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SinglePositionTween(SinglePositionTween const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SinglePositionTween();
-
-public:
   /// @brief Field transformReference, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> ___transformReference;
 

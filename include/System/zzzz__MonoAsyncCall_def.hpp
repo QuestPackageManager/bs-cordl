@@ -19,71 +19,75 @@ MARK_REF_PTR_T(::System::MonoAsyncCall);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2606))
 // CS Name: ::System::MonoAsyncCall*
 class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field msg, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::System::Object* msg;
-
   /// @brief Field cb_method, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method)) void* cb_method;
 
   /// @brief Field cb_target, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_cb_target, put = __cordl_internal_set_cb_target))::System::Object* cb_target;
 
-  /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
-
-  /// @brief Field res, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::System::Object* res;
+  /// @brief Field msg, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::System::Object* msg;
 
   /// @brief Field out_args, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_out_args, put = __cordl_internal_set_out_args))::System::Object* out_args;
 
-  constexpr ::System::Object*& __cordl_internal_get_msg();
+  /// @brief Field res, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::System::Object* res;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_msg() const;
+  /// @brief Field state, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
-  constexpr void __cordl_internal_set_msg(::System::Object* value);
-
-  constexpr void*& __cordl_internal_get_cb_method();
+  static inline ::System::MonoAsyncCall* New_ctor();
 
   constexpr void* const& __cordl_internal_get_cb_method() const;
 
-  constexpr void __cordl_internal_set_cb_method(void* value);
+  constexpr void*& __cordl_internal_get_cb_method();
 
   constexpr ::System::Object*& __cordl_internal_get_cb_target();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_cb_target() const;
 
-  constexpr void __cordl_internal_set_cb_target(::System::Object* value);
+  constexpr ::System::Object*& __cordl_internal_get_msg();
 
-  constexpr ::System::Object*& __cordl_internal_get_state();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
-
-  constexpr void __cordl_internal_set_state(::System::Object* value);
-
-  constexpr ::System::Object*& __cordl_internal_get_res();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_res() const;
-
-  constexpr void __cordl_internal_set_res(::System::Object* value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_msg() const;
 
   constexpr ::System::Object*& __cordl_internal_get_out_args();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_out_args() const;
 
+  constexpr ::System::Object*& __cordl_internal_get_res();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_res() const;
+
+  constexpr ::System::Object*& __cordl_internal_get_state();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
+
+  constexpr void __cordl_internal_set_cb_method(void* value);
+
+  constexpr void __cordl_internal_set_cb_target(::System::Object* value);
+
+  constexpr void __cordl_internal_set_msg(::System::Object* value);
+
   constexpr void __cordl_internal_set_out_args(::System::Object* value);
 
-  static inline ::System::MonoAsyncCall* New_ctor();
+  constexpr void __cordl_internal_set_res(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x25fa554, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_state(::System::Object* value);
+
+  /// @brief Method .ctor, addr 0x26edb50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoAsyncCall();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoAsyncCall", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoAsyncCall(MonoAsyncCall&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoAsyncCall(MonoAsyncCall const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoAsyncCall();
-
-public:
   /// @brief Field msg, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___msg;
 

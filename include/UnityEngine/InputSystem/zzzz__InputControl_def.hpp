@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputControl);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6214))
 // CS Name: ::InputControl::ControlFlags
 struct CORDL_TYPE __InputControl__ControlFlags {
 public:
@@ -71,21 +69,29 @@ public:
     return static_cast<____InputControl__ControlFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputControl__ControlFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputControl__ControlFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputControl__ControlFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field ConfigUpToDate value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::__InputControl__ControlFlags const ConfigUpToDate;
+
+  /// @brief Field DontReset value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::InputSystem::__InputControl__ControlFlags const DontReset;
+
+  /// @brief Field IsButton value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::InputSystem::__InputControl__ControlFlags const IsButton;
 
   /// @brief Field IsNoisy value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::__InputControl__ControlFlags const IsNoisy;
@@ -93,17 +99,14 @@ public:
   /// @brief Field IsSynthetic value: static_cast<int32_t>(0x4)
   static ::UnityEngine::InputSystem::__InputControl__ControlFlags const IsSynthetic;
 
-  /// @brief Field IsButton value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::__InputControl__ControlFlags const IsButton;
-
-  /// @brief Field DontReset value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::InputSystem::__InputControl__ControlFlags const DontReset;
-
   /// @brief Field SetupFinished value: static_cast<int32_t>(0x20)
   static ::UnityEngine::InputSystem::__InputControl__ControlFlags const SetupFinished;
 
   /// @brief Field UsesStateFromOtherControl value: static_cast<int32_t>(0x40)
   static ::UnityEngine::InputSystem::__InputControl__ControlFlags const UsesStateFromOtherControl;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -117,52 +120,37 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControl__ControlFlags,
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6214)), TypeDefinitionIndex(TypeDefinitionIndex(6566)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6699))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6215)) CS Name:
-// ::UnityEngine.InputSystem::InputControl*
+// CS Name: ::UnityEngine.InputSystem::InputControl*
 class CORDL_TYPE InputControl : public ::System::Object {
 public:
   // Declarations
   using ControlFlags = ::UnityEngine::InputSystem::__InputControl__ControlFlags;
 
-  /// @brief Field m_StateBlock, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_StateBlock, put = __cordl_internal_set_m_StateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock m_StateBlock;
+  __declspec(property(get = get_Item))::UnityEngine::InputSystem::InputControl* Item[];
 
-  /// @brief Field m_Name, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
+  __declspec(property(get = get_aliases))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> aliases;
 
-  /// @brief Field m_Path, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::StringW m_Path;
+  __declspec(property(get = get_children))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> children;
 
-  /// @brief Field m_DisplayName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName))::StringW m_DisplayName;
+  __declspec(property(get = get_currentStatePtr))::cordl_internals::Ptr<void> currentStatePtr;
 
-  /// @brief Field m_DisplayNameFromLayout, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DisplayNameFromLayout, put = __cordl_internal_set_m_DisplayNameFromLayout))::StringW m_DisplayNameFromLayout;
+  __declspec(property(get = get_defaultStatePtr))::cordl_internals::Ptr<void> defaultStatePtr;
 
-  /// @brief Field m_ShortDisplayName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ShortDisplayName, put = __cordl_internal_set_m_ShortDisplayName))::StringW m_ShortDisplayName;
+  __declspec(property(get = get_device))::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Field m_ShortDisplayNameFromLayout, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ShortDisplayNameFromLayout, put = __cordl_internal_set_m_ShortDisplayNameFromLayout))::StringW m_ShortDisplayNameFromLayout;
+  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
 
-  /// @brief Field m_Layout, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Layout, put = __cordl_internal_set_m_Layout))::UnityEngine::InputSystem::Utilities::InternedString m_Layout;
+  __declspec(property(get = get_dontReset, put = set_dontReset)) bool dontReset;
 
-  /// @brief Field m_Variants, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Variants, put = __cordl_internal_set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
+  __declspec(property(get = get_hasDefaultState)) bool hasDefaultState;
 
-  /// @brief Field m_Device, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = get_isButton, put = set_isButton)) bool isButton;
 
-  /// @brief Field m_Parent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Parent, put = __cordl_internal_set_m_Parent))::UnityEngine::InputSystem::InputControl* m_Parent;
+  __declspec(property(get = get_isConfigUpToDate, put = set_isConfigUpToDate)) bool isConfigUpToDate;
 
-  /// @brief Field m_UsageCount, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UsageCount, put = __cordl_internal_set_m_UsageCount)) int32_t m_UsageCount;
+  __declspec(property(get = get_isSetupFinished, put = set_isSetupFinished)) bool isSetupFinished;
 
-  /// @brief Field m_UsageStartIndex, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UsageStartIndex, put = __cordl_internal_set_m_UsageStartIndex)) int32_t m_UsageStartIndex;
+  __declspec(property(get = get_layout))::StringW layout;
 
   /// @brief Field m_AliasCount, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AliasCount, put = __cordl_internal_set_m_AliasCount)) int32_t m_AliasCount;
@@ -182,268 +170,121 @@ public:
   /// @brief Field m_DefaultState, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get_m_DefaultState, put = __cordl_internal_set_m_DefaultState))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_DefaultState;
 
-  /// @brief Field m_MinValue, offset 0xb8, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MinValue;
+  /// @brief Field m_Device, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+
+  /// @brief Field m_DisplayName, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName))::StringW m_DisplayName;
+
+  /// @brief Field m_DisplayNameFromLayout, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DisplayNameFromLayout, put = __cordl_internal_set_m_DisplayNameFromLayout))::StringW m_DisplayNameFromLayout;
+
+  /// @brief Field m_Layout, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Layout, put = __cordl_internal_set_m_Layout))::UnityEngine::InputSystem::Utilities::InternedString m_Layout;
 
   /// @brief Field m_MaxValue, offset 0xc8, size 0x10
   __declspec(property(get = __cordl_internal_get_m_MaxValue, put = __cordl_internal_set_m_MaxValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MaxValue;
 
+  /// @brief Field m_MinValue, offset 0xb8, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MinValue;
+
+  /// @brief Field m_Name, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
+
+  /// @brief Field m_Parent, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Parent, put = __cordl_internal_set_m_Parent))::UnityEngine::InputSystem::InputControl* m_Parent;
+
+  /// @brief Field m_Path, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::StringW m_Path;
+
+  /// @brief Field m_ShortDisplayName, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ShortDisplayName, put = __cordl_internal_set_m_ShortDisplayName))::StringW m_ShortDisplayName;
+
+  /// @brief Field m_ShortDisplayNameFromLayout, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ShortDisplayNameFromLayout, put = __cordl_internal_set_m_ShortDisplayNameFromLayout))::StringW m_ShortDisplayNameFromLayout;
+
+  /// @brief Field m_StateBlock, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_StateBlock, put = __cordl_internal_set_m_StateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock m_StateBlock;
+
+  /// @brief Field m_UsageCount, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UsageCount, put = __cordl_internal_set_m_UsageCount)) int32_t m_UsageCount;
+
+  /// @brief Field m_UsageStartIndex, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UsageStartIndex, put = __cordl_internal_set_m_UsageStartIndex)) int32_t m_UsageStartIndex;
+
+  /// @brief Field m_Variants, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Variants, put = __cordl_internal_set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
+
   __declspec(property(get = get_name))::StringW name;
-
-  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
-
-  __declspec(property(get = get_shortDisplayName, put = set_shortDisplayName))::StringW shortDisplayName;
-
-  __declspec(property(get = get_path))::StringW path;
-
-  __declspec(property(get = get_layout))::StringW layout;
-
-  __declspec(property(get = get_variants))::StringW variants;
-
-  __declspec(property(get = get_device))::UnityEngine::InputSystem::InputDevice* device;
-
-  __declspec(property(get = get_parent))::UnityEngine::InputSystem::InputControl* parent;
-
-  __declspec(property(get = get_children))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> children;
-
-  __declspec(property(get = get_usages))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> usages;
-
-  __declspec(property(get = get_aliases))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> aliases;
-
-  __declspec(property(get = get_stateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock stateBlock;
-
-  __declspec(property(get = get_noisy, put = set_noisy)) bool noisy;
-
-  __declspec(property(get = get_synthetic, put = set_synthetic)) bool synthetic;
-
-  __declspec(property(get = get_Item))::UnityEngine::InputSystem::InputControl* Item[];
-
-  __declspec(property(get = get_valueType))::System::Type* valueType;
-
-  __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
-
-  __declspec(property(get = get_currentStatePtr))::cordl_internals::Ptr<void> currentStatePtr;
-
-  __declspec(property(get = get_previousFrameStatePtr))::cordl_internals::Ptr<void> previousFrameStatePtr;
-
-  __declspec(property(get = get_defaultStatePtr))::cordl_internals::Ptr<void> defaultStatePtr;
 
   __declspec(property(get = get_noiseMaskPtr))::cordl_internals::Ptr<void> noiseMaskPtr;
 
+  __declspec(property(get = get_noisy, put = set_noisy)) bool noisy;
+
+  __declspec(property(get = get_parent))::UnityEngine::InputSystem::InputControl* parent;
+
+  __declspec(property(get = get_path))::StringW path;
+
+  __declspec(property(get = get_previousFrameStatePtr))::cordl_internals::Ptr<void> previousFrameStatePtr;
+
+  __declspec(property(get = get_shortDisplayName, put = set_shortDisplayName))::StringW shortDisplayName;
+
+  __declspec(property(get = get_stateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock stateBlock;
+
   __declspec(property(get = get_stateOffsetRelativeToDeviceRoot)) uint32_t stateOffsetRelativeToDeviceRoot;
 
-  __declspec(property(get = get_isSetupFinished, put = set_isSetupFinished)) bool isSetupFinished;
+  __declspec(property(get = get_synthetic, put = set_synthetic)) bool synthetic;
 
-  __declspec(property(get = get_isButton, put = set_isButton)) bool isButton;
-
-  __declspec(property(get = get_isConfigUpToDate, put = set_isConfigUpToDate)) bool isConfigUpToDate;
-
-  __declspec(property(get = get_dontReset, put = set_dontReset)) bool dontReset;
+  __declspec(property(get = get_usages))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> usages;
 
   __declspec(property(get = get_usesStateFromOtherControl, put = set_usesStateFromOtherControl)) bool usesStateFromOtherControl;
 
-  __declspec(property(get = get_hasDefaultState)) bool hasDefaultState;
+  __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock& __cordl_internal_get_m_StateBlock();
+  __declspec(property(get = get_valueType))::System::Type* valueType;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock const& __cordl_internal_get_m_StateBlock() const;
+  __declspec(property(get = get_variants))::StringW variants;
 
-  constexpr void __cordl_internal_set_m_StateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock value);
+  /// @brief Method AddProcessor, addr 0x2b4d084, size 0x4, virtual true, abstract: false, final false
+  inline void AddProcessor(::System::Object* first);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Name();
+  /// @brief Method BakeOffsetIntoStateBlockRecursive, addr 0x2b4cf1c, size 0xb0, virtual false, abstract: false, final false
+  inline void BakeOffsetIntoStateBlockRecursive(uint32_t offset);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Name() const;
+  /// @brief Method CallFinishSetupRecursive, addr 0x2b4ce6c, size 0xb0, virtual false, abstract: false, final false
+  inline void CallFinishSetupRecursive();
 
-  constexpr void __cordl_internal_set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
+  /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  constexpr ::StringW& __cordl_internal_get_m_Path();
-
-  constexpr ::StringW const& __cordl_internal_get_m_Path() const;
-
-  constexpr void __cordl_internal_set_m_Path(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_DisplayName();
-
-  constexpr ::StringW const& __cordl_internal_get_m_DisplayName() const;
-
-  constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_DisplayNameFromLayout();
-
-  constexpr ::StringW const& __cordl_internal_get_m_DisplayNameFromLayout() const;
-
-  constexpr void __cordl_internal_set_m_DisplayNameFromLayout(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayName();
-
-  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayName() const;
-
-  constexpr void __cordl_internal_set_m_ShortDisplayName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayNameFromLayout();
-
-  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayNameFromLayout() const;
-
-  constexpr void __cordl_internal_set_m_ShortDisplayNameFromLayout(::StringW value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Layout();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Layout() const;
-
-  constexpr void __cordl_internal_set_m_Layout(::UnityEngine::InputSystem::Utilities::InternedString value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Variants();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Variants() const;
-
-  constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
-
-  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_Device() const;
-
-  constexpr void __cordl_internal_set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
-
-  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Parent();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get_m_Parent() const;
-
-  constexpr void __cordl_internal_set_m_Parent(::UnityEngine::InputSystem::InputControl* value);
-
-  constexpr int32_t& __cordl_internal_get_m_UsageCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_UsageCount() const;
-
-  constexpr void __cordl_internal_set_m_UsageCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_UsageStartIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_UsageStartIndex() const;
-
-  constexpr void __cordl_internal_set_m_UsageStartIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_AliasCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_AliasCount() const;
-
-  constexpr void __cordl_internal_set_m_AliasCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_AliasStartIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_AliasStartIndex() const;
-
-  constexpr void __cordl_internal_set_m_AliasStartIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_ChildCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_ChildCount() const;
-
-  constexpr void __cordl_internal_set_m_ChildCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_ChildStartIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_ChildStartIndex() const;
-
-  constexpr void __cordl_internal_set_m_ChildStartIndex(int32_t value);
-
-  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags& __cordl_internal_get_m_ControlFlags();
-
-  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags const& __cordl_internal_get_m_ControlFlags() const;
-
-  constexpr void __cordl_internal_set_m_ControlFlags(::UnityEngine::InputSystem::__InputControl__ControlFlags value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_DefaultState();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_DefaultState() const;
-
-  constexpr void __cordl_internal_set_m_DefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MinValue();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MinValue() const;
-
-  constexpr void __cordl_internal_set_m_MinValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MaxValue();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MaxValue() const;
-
-  constexpr void __cordl_internal_set_m_MaxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
-
-  /// @brief Method get_name, addr 0x2a63388, size 0x10, virtual false, abstract: false, final false
-  inline ::StringW get_name();
-
-  /// @brief Method get_displayName, addr 0x2a63398, size 0x58, virtual false, abstract: false, final false
-  inline ::StringW get_displayName();
-
-  /// @brief Method set_displayName, addr 0x2a63424, size 0x8, virtual false, abstract: false, final false
-  inline void set_displayName(::StringW value);
-
-  /// @brief Method get_shortDisplayName, addr 0x2a6342c, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW get_shortDisplayName();
-
-  /// @brief Method set_shortDisplayName, addr 0x2a63470, size 0x8, virtual false, abstract: false, final false
-  inline void set_shortDisplayName(::StringW value);
-
-  /// @brief Method get_path, addr 0x2a63478, size 0x40, virtual false, abstract: false, final false
-  inline ::StringW get_path();
-
-  /// @brief Method get_layout, addr 0x2a635ac, size 0x10, virtual false, abstract: false, final false
-  inline ::StringW get_layout();
-
-  /// @brief Method get_variants, addr 0x2a635bc, size 0x10, virtual false, abstract: false, final false
-  inline ::StringW get_variants();
-
-  /// @brief Method get_device, addr 0x2a635cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* get_device();
-
-  /// @brief Method get_parent, addr 0x2a635d4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* get_parent();
-
-  /// @brief Method get_children, addr 0x2a635dc, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_children();
-
-  /// @brief Method get_usages, addr 0x2a6364c, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_usages();
-
-  /// @brief Method get_aliases, addr 0x2a636bc, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_aliases();
-
-  /// @brief Method get_stateBlock, addr 0x2a6372c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputStateBlock get_stateBlock();
-
-  /// @brief Method get_noisy, addr 0x2a63738, size 0xc, virtual false, abstract: false, final false
-  inline bool get_noisy();
-
-  /// @brief Method set_noisy, addr 0x2a63744, size 0xd8, virtual false, abstract: false, final false
-  inline void set_noisy(bool value);
-
-  /// @brief Method get_synthetic, addr 0x2a6381c, size 0xc, virtual false, abstract: false, final false
-  inline bool get_synthetic();
-
-  /// @brief Method set_synthetic, addr 0x2a63828, size 0x1c, virtual false, abstract: false, final false
-  inline void set_synthetic(bool value);
-
-  /// @brief Method get_Item, addr 0x2a63844, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* get_Item(::StringW path);
-
-  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Type* get_valueType();
-
-  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_valueSizeInBytes();
-
-  /// @brief Method ToString, addr 0x2a6392c, size 0x68, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method DebuggerDisplay, addr 0x2a63994, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DebuggerDisplay, addr 0x2b4c5d4, size 0x124, virtual false, abstract: false, final false
   inline ::StringW DebuggerDisplay();
 
-  /// @brief Method EvaluateMagnitude, addr 0x2a63b34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b4c774, size 0x2c, virtual false, abstract: false, final false
   inline float_t EvaluateMagnitude();
 
-  /// @brief Method EvaluateMagnitude, addr 0x2a63b74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b4c7b4, size 0x8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
+
+  /// @brief Method FinishSetup, addr 0x2b4caf8, size 0x4, virtual true, abstract: false, final false
+  inline void FinishSetup();
+
+  /// @brief Method GetChildControl, addr 0x2b4c910, size 0x11c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputControl* GetChildControl(::StringW path);
+
+  /// @brief Method GetChildControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TControl> inline TControl GetChildControl(::StringW path);
+
+  /// @brief Method GetDeviceIndex, addr 0x2b4cb28, size 0x1bc, virtual false, abstract: false, final false
+  inline int32_t GetDeviceIndex();
+
+  /// @brief Method IsValueConsideredPressed, addr 0x2b4cfcc, size 0xb8, virtual false, abstract: false, final false
+  inline bool IsValueConsideredPressed(float_t value);
+
+  /// @brief Method MakeChildPath, addr 0x2b4ca2c, size 0xac, virtual false, abstract: false, final false
+  inline ::StringW MakeChildPath(::StringW path);
+
+  static inline ::UnityEngine::InputSystem::InputControl* New_ctor();
 
   /// @brief Method ReadValueFromBufferAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
@@ -454,107 +295,273 @@ public:
   /// @brief Method ReadValueFromStateIntoBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
 
-  /// @brief Method WriteValueFromBufferIntoState, addr 0x2a63b7c, size 0x68, virtual true, abstract: false, final false
-  inline void WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method RefreshConfiguration, addr 0x2b4cb24, size 0x4, virtual true, abstract: false, final false
+  inline void RefreshConfiguration();
 
-  /// @brief Method WriteValueFromObjectIntoState, addr 0x2a63be4, size 0x68, virtual true, abstract: false, final false
-  inline void WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method RefreshConfigurationIfNeeded, addr 0x2b4c030, size 0x34, virtual false, abstract: false, final false
+  inline void RefreshConfigurationIfNeeded();
 
-  /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
+  /// @brief Method ToString, addr 0x2b4c56c, size 0x68, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-  /// @brief Method TryGetChildControl, addr 0x2a63c4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryGetChildControl, addr 0x2b4c88c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* TryGetChildControl(::StringW path);
 
   /// @brief Method TryGetChildControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline TControl TryGetChildControl(::StringW path);
 
-  /// @brief Method GetChildControl, addr 0x2a63cd0, size 0x11c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* GetChildControl(::StringW path);
+  /// @brief Method WriteValueFromBufferIntoState, addr 0x2b4c7bc, size 0x68, virtual true, abstract: false, final false
+  inline void WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method GetChildControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TControl> inline TControl GetChildControl(::StringW path);
+  /// @brief Method WriteValueFromObjectIntoState, addr 0x2b4c824, size 0x68, virtual true, abstract: false, final false
+  inline void WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr);
 
-  static inline ::UnityEngine::InputSystem::InputControl* New_ctor();
+  constexpr int32_t const& __cordl_internal_get_m_AliasCount() const;
 
-  /// @brief Method .ctor, addr 0x2a63e98, size 0x20, virtual false, abstract: false, final false
+  constexpr int32_t& __cordl_internal_get_m_AliasCount();
+
+  constexpr int32_t const& __cordl_internal_get_m_AliasStartIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_AliasStartIndex();
+
+  constexpr int32_t const& __cordl_internal_get_m_ChildCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_ChildCount();
+
+  constexpr int32_t const& __cordl_internal_get_m_ChildStartIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_ChildStartIndex();
+
+  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags const& __cordl_internal_get_m_ControlFlags() const;
+
+  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags& __cordl_internal_get_m_ControlFlags();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_DefaultState() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_DefaultState();
+
+  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_Device() const;
+
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_DisplayName();
+
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayNameFromLayout() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_DisplayNameFromLayout();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Layout() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Layout();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MaxValue() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MaxValue();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MinValue() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MinValue();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Name() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Name();
+
+  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Parent();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get_m_Parent() const;
+
+  constexpr ::StringW const& __cordl_internal_get_m_Path() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_Path();
+
+  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayName();
+
+  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayNameFromLayout() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayNameFromLayout();
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock const& __cordl_internal_get_m_StateBlock() const;
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock& __cordl_internal_get_m_StateBlock();
+
+  constexpr int32_t const& __cordl_internal_get_m_UsageCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_UsageCount();
+
+  constexpr int32_t const& __cordl_internal_get_m_UsageStartIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_UsageStartIndex();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Variants() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Variants();
+
+  constexpr void __cordl_internal_set_m_AliasCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_AliasStartIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_ChildCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_ChildStartIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_ControlFlags(::UnityEngine::InputSystem::__InputControl__ControlFlags value);
+
+  constexpr void __cordl_internal_set_m_DefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+
+  constexpr void __cordl_internal_set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
+
+  constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
+
+  constexpr void __cordl_internal_set_m_DisplayNameFromLayout(::StringW value);
+
+  constexpr void __cordl_internal_set_m_Layout(::UnityEngine::InputSystem::Utilities::InternedString value);
+
+  constexpr void __cordl_internal_set_m_MaxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+
+  constexpr void __cordl_internal_set_m_MinValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
+
+  constexpr void __cordl_internal_set_m_Parent(::UnityEngine::InputSystem::InputControl* value);
+
+  constexpr void __cordl_internal_set_m_Path(::StringW value);
+
+  constexpr void __cordl_internal_set_m_ShortDisplayName(::StringW value);
+
+  constexpr void __cordl_internal_set_m_ShortDisplayNameFromLayout(::StringW value);
+
+  constexpr void __cordl_internal_set_m_StateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock value);
+
+  constexpr void __cordl_internal_set_m_UsageCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_UsageStartIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
+
+  /// @brief Method .ctor, addr 0x2b4cad8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup, addr 0x2a63eb8, size 0x4, virtual true, abstract: false, final false
-  inline void FinishSetup();
+  /// @brief Method get_Item, addr 0x2b4c484, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputControl* get_Item(::StringW path);
 
-  /// @brief Method RefreshConfigurationIfNeeded, addr 0x2a633f0, size 0x34, virtual false, abstract: false, final false
-  inline void RefreshConfigurationIfNeeded();
+  /// @brief Method get_aliases, addr 0x2b4c2fc, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_aliases();
 
-  /// @brief Method RefreshConfiguration, addr 0x2a63ee4, size 0x4, virtual true, abstract: false, final false
-  inline void RefreshConfiguration();
+  /// @brief Method get_children, addr 0x2b4c21c, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_children();
 
-  /// @brief Method get_currentStatePtr, addr 0x2a63b60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentStatePtr, addr 0x2b4c7a0, size 0x14, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_currentStatePtr();
 
-  /// @brief Method get_previousFrameStatePtr, addr 0x2a640a4, size 0x14, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<void> get_previousFrameStatePtr();
-
-  /// @brief Method get_defaultStatePtr, addr 0x2a640b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStatePtr, addr 0x2b4ccf8, size 0x48, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_defaultStatePtr();
 
-  /// @brief Method get_noiseMaskPtr, addr 0x2a64100, size 0x48, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<void> get_noiseMaskPtr();
+  /// @brief Method get_device, addr 0x2b4c20c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method get_stateOffsetRelativeToDeviceRoot, addr 0x2a64148, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t get_stateOffsetRelativeToDeviceRoot();
+  /// @brief Method get_displayName, addr 0x2b4bfd8, size 0x58, virtual false, abstract: false, final false
+  inline ::StringW get_displayName();
 
-  /// @brief Method get_isSetupFinished, addr 0x2a6416c, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isSetupFinished();
-
-  /// @brief Method set_isSetupFinished, addr 0x2a64178, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isSetupFinished(bool value);
-
-  /// @brief Method get_isButton, addr 0x2a64194, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isButton();
-
-  /// @brief Method set_isButton, addr 0x2a641a0, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isButton(bool value);
-
-  /// @brief Method get_isConfigUpToDate, addr 0x2a63ebc, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isConfigUpToDate();
-
-  /// @brief Method set_isConfigUpToDate, addr 0x2a63ec8, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isConfigUpToDate(bool value);
-
-  /// @brief Method get_dontReset, addr 0x2a641bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x2b4cdfc, size 0xc, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method set_dontReset, addr 0x2a641c8, size 0x1c, virtual false, abstract: false, final false
-  inline void set_dontReset(bool value);
-
-  /// @brief Method get_usesStateFromOtherControl, addr 0x2a641e4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_usesStateFromOtherControl();
-
-  /// @brief Method set_usesStateFromOtherControl, addr 0x2a641f0, size 0x1c, virtual false, abstract: false, final false
-  inline void set_usesStateFromOtherControl(bool value);
-
-  /// @brief Method get_hasDefaultState, addr 0x2a6420c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasDefaultState, addr 0x2b4ce4c, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasDefaultState();
 
-  /// @brief Method CallFinishSetupRecursive, addr 0x2a6422c, size 0xb0, virtual false, abstract: false, final false
-  inline void CallFinishSetupRecursive();
+  /// @brief Method get_isButton, addr 0x2b4cdd4, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isButton();
 
-  /// @brief Method MakeChildPath, addr 0x2a63dec, size 0xac, virtual false, abstract: false, final false
-  inline ::StringW MakeChildPath(::StringW path);
+  /// @brief Method get_isConfigUpToDate, addr 0x2b4cafc, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isConfigUpToDate();
 
-  /// @brief Method BakeOffsetIntoStateBlockRecursive, addr 0x2a642dc, size 0xb0, virtual false, abstract: false, final false
-  inline void BakeOffsetIntoStateBlockRecursive(uint32_t offset);
+  /// @brief Method get_isSetupFinished, addr 0x2b4cdac, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isSetupFinished();
 
-  /// @brief Method GetDeviceIndex, addr 0x2a63ee8, size 0x1bc, virtual false, abstract: false, final false
-  inline int32_t GetDeviceIndex();
+  /// @brief Method get_layout, addr 0x2b4c1ec, size 0x10, virtual false, abstract: false, final false
+  inline ::StringW get_layout();
 
-  /// @brief Method IsValueConsideredPressed, addr 0x2a6438c, size 0xb8, virtual false, abstract: false, final false
-  inline bool IsValueConsideredPressed(float_t value);
+  /// @brief Method get_name, addr 0x2b4bfc8, size 0x10, virtual false, abstract: false, final false
+  inline ::StringW get_name();
 
-  /// @brief Method AddProcessor, addr 0x2a64444, size 0x4, virtual true, abstract: false, final false
-  inline void AddProcessor(::System::Object* first);
+  /// @brief Method get_noiseMaskPtr, addr 0x2b4cd40, size 0x48, virtual false, abstract: false, final false
+  inline ::cordl_internals::Ptr<void> get_noiseMaskPtr();
 
+  /// @brief Method get_noisy, addr 0x2b4c378, size 0xc, virtual false, abstract: false, final false
+  inline bool get_noisy();
+
+  /// @brief Method get_parent, addr 0x2b4c214, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputControl* get_parent();
+
+  /// @brief Method get_path, addr 0x2b4c0b8, size 0x40, virtual false, abstract: false, final false
+  inline ::StringW get_path();
+
+  /// @brief Method get_previousFrameStatePtr, addr 0x2b4cce4, size 0x14, virtual false, abstract: false, final false
+  inline ::cordl_internals::Ptr<void> get_previousFrameStatePtr();
+
+  /// @brief Method get_shortDisplayName, addr 0x2b4c06c, size 0x44, virtual false, abstract: false, final false
+  inline ::StringW get_shortDisplayName();
+
+  /// @brief Method get_stateBlock, addr 0x2b4c36c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputStateBlock get_stateBlock();
+
+  /// @brief Method get_stateOffsetRelativeToDeviceRoot, addr 0x2b4cd88, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t get_stateOffsetRelativeToDeviceRoot();
+
+  /// @brief Method get_synthetic, addr 0x2b4c45c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_synthetic();
+
+  /// @brief Method get_usages, addr 0x2b4c28c, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_usages();
+
+  /// @brief Method get_usesStateFromOtherControl, addr 0x2b4ce24, size 0xc, virtual false, abstract: false, final false
+  inline bool get_usesStateFromOtherControl();
+
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_valueSizeInBytes();
+
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Type* get_valueType();
+
+  /// @brief Method get_variants, addr 0x2b4c1fc, size 0x10, virtual false, abstract: false, final false
+  inline ::StringW get_variants();
+
+  /// @brief Method set_displayName, addr 0x2b4c064, size 0x8, virtual false, abstract: false, final false
+  inline void set_displayName(::StringW value);
+
+  /// @brief Method set_dontReset, addr 0x2b4ce08, size 0x1c, virtual false, abstract: false, final false
+  inline void set_dontReset(bool value);
+
+  /// @brief Method set_isButton, addr 0x2b4cde0, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isButton(bool value);
+
+  /// @brief Method set_isConfigUpToDate, addr 0x2b4cb08, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isConfigUpToDate(bool value);
+
+  /// @brief Method set_isSetupFinished, addr 0x2b4cdb8, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isSetupFinished(bool value);
+
+  /// @brief Method set_noisy, addr 0x2b4c384, size 0xd8, virtual false, abstract: false, final false
+  inline void set_noisy(bool value);
+
+  /// @brief Method set_shortDisplayName, addr 0x2b4c0b0, size 0x8, virtual false, abstract: false, final false
+  inline void set_shortDisplayName(::StringW value);
+
+  /// @brief Method set_synthetic, addr 0x2b4c468, size 0x1c, virtual false, abstract: false, final false
+  inline void set_synthetic(bool value);
+
+  /// @brief Method set_usesStateFromOtherControl, addr 0x2b4ce30, size 0x1c, virtual false, abstract: false, final false
+  inline void set_usesStateFromOtherControl(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControl(InputControl&&) = delete;
@@ -563,12 +570,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputControl(InputControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputControl();
-
-public:
   /// @brief Field m_StateBlock, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputStateBlock ___m_StateBlock;
 

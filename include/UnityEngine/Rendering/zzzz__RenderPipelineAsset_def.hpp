@@ -25,45 +25,25 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::RenderPipelineAsset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10357))
 // CS Name: ::UnityEngine.Rendering::RenderPipelineAsset*
 class CORDL_TYPE RenderPipelineAsset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  __declspec(property(get = get_renderingLayerMaskNames))::ArrayW<::StringW, ::Array<::StringW>*> renderingLayerMaskNames;
-
-  __declspec(property(get = get_prefixedRenderingLayerMaskNames))::ArrayW<::StringW, ::Array<::StringW>*> prefixedRenderingLayerMaskNames;
-
-  __declspec(property(get = get_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
+  __declspec(property(get = get_autodeskInteractiveMaskedShader))::UnityW<::UnityEngine::Shader> autodeskInteractiveMaskedShader;
 
   __declspec(property(get = get_autodeskInteractiveShader))::UnityW<::UnityEngine::Shader> autodeskInteractiveShader;
 
   __declspec(property(get = get_autodeskInteractiveTransparentShader))::UnityW<::UnityEngine::Shader> autodeskInteractiveTransparentShader;
 
-  __declspec(property(get = get_autodeskInteractiveMaskedShader))::UnityW<::UnityEngine::Shader> autodeskInteractiveMaskedShader;
-
-  __declspec(property(get = get_terrainDetailLitShader))::UnityW<::UnityEngine::Shader> terrainDetailLitShader;
-
-  __declspec(property(get = get_terrainDetailGrassShader))::UnityW<::UnityEngine::Shader> terrainDetailGrassShader;
-
-  __declspec(property(get = get_terrainDetailGrassBillboardShader))::UnityW<::UnityEngine::Shader> terrainDetailGrassBillboardShader;
-
-  __declspec(property(get = get_defaultParticleMaterial))::UnityW<::UnityEngine::Material> defaultParticleMaterial;
-
-  __declspec(property(get = get_defaultLineMaterial))::UnityW<::UnityEngine::Material> defaultLineMaterial;
-
-  __declspec(property(get = get_defaultTerrainMaterial))::UnityW<::UnityEngine::Material> defaultTerrainMaterial;
-
-  __declspec(property(get = get_defaultUIMaterial))::UnityW<::UnityEngine::Material> defaultUIMaterial;
-
-  __declspec(property(get = get_defaultUIOverdrawMaterial))::UnityW<::UnityEngine::Material> defaultUIOverdrawMaterial;
-
-  __declspec(property(get = get_defaultUIETC1SupportedMaterial))::UnityW<::UnityEngine::Material> defaultUIETC1SupportedMaterial;
+  __declspec(property(get = get_default2DMaskMaterial))::UnityW<::UnityEngine::Material> default2DMaskMaterial;
 
   __declspec(property(get = get_default2DMaterial))::UnityW<::UnityEngine::Material> default2DMaterial;
 
-  __declspec(property(get = get_default2DMaskMaterial))::UnityW<::UnityEngine::Material> default2DMaskMaterial;
+  __declspec(property(get = get_defaultLineMaterial))::UnityW<::UnityEngine::Material> defaultLineMaterial;
+
+  __declspec(property(get = get_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
+
+  __declspec(property(get = get_defaultParticleMaterial))::UnityW<::UnityEngine::Material> defaultParticleMaterial;
 
   __declspec(property(get = get_defaultShader))::UnityW<::UnityEngine::Shader> defaultShader;
 
@@ -71,83 +51,107 @@ public:
 
   __declspec(property(get = get_defaultSpeedTree8Shader))::UnityW<::UnityEngine::Shader> defaultSpeedTree8Shader;
 
-  /// @brief Method InternalCreatePipeline, addr 0x2ced728, size 0x2f8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
+  __declspec(property(get = get_defaultTerrainMaterial))::UnityW<::UnityEngine::Material> defaultTerrainMaterial;
 
-  /// @brief Method get_renderingLayerMaskNames, addr 0x2cedd60, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_renderingLayerMaskNames();
+  __declspec(property(get = get_defaultUIETC1SupportedMaterial))::UnityW<::UnityEngine::Material> defaultUIETC1SupportedMaterial;
 
-  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x2cedd68, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_prefixedRenderingLayerMaskNames();
+  __declspec(property(get = get_defaultUIMaterial))::UnityW<::UnityEngine::Material> defaultUIMaterial;
 
-  /// @brief Method get_defaultMaterial, addr 0x2cedd70, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
+  __declspec(property(get = get_defaultUIOverdrawMaterial))::UnityW<::UnityEngine::Material> defaultUIOverdrawMaterial;
 
-  /// @brief Method get_autodeskInteractiveShader, addr 0x2cedd78, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveShader();
+  __declspec(property(get = get_prefixedRenderingLayerMaskNames))::ArrayW<::StringW, ::Array<::StringW>*> prefixedRenderingLayerMaskNames;
 
-  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x2cedd80, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveTransparentShader();
+  __declspec(property(get = get_renderingLayerMaskNames))::ArrayW<::StringW, ::Array<::StringW>*> renderingLayerMaskNames;
 
-  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x2cedd88, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveMaskedShader();
+  __declspec(property(get = get_terrainDetailGrassBillboardShader))::UnityW<::UnityEngine::Shader> terrainDetailGrassBillboardShader;
 
-  /// @brief Method get_terrainDetailLitShader, addr 0x2cedd90, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
+  __declspec(property(get = get_terrainDetailGrassShader))::UnityW<::UnityEngine::Shader> terrainDetailGrassShader;
 
-  /// @brief Method get_terrainDetailGrassShader, addr 0x2cedd98, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
-
-  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x2cedda0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
-
-  /// @brief Method get_defaultParticleMaterial, addr 0x2cedda8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultParticleMaterial();
-
-  /// @brief Method get_defaultLineMaterial, addr 0x2ceddb0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultLineMaterial();
-
-  /// @brief Method get_defaultTerrainMaterial, addr 0x2ceddb8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultTerrainMaterial();
-
-  /// @brief Method get_defaultUIMaterial, addr 0x2ceddc0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultUIMaterial();
-
-  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x2ceddc8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultUIOverdrawMaterial();
-
-  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x2ceddd0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_defaultUIETC1SupportedMaterial();
-
-  /// @brief Method get_default2DMaterial, addr 0x2ceddd8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_default2DMaterial();
-
-  /// @brief Method get_default2DMaskMaterial, addr 0x2cedde0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_default2DMaskMaterial();
-
-  /// @brief Method get_defaultShader, addr 0x2cedde8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_defaultShader();
-
-  /// @brief Method get_defaultSpeedTree7Shader, addr 0x2ceddf0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree7Shader();
-
-  /// @brief Method get_defaultSpeedTree8Shader, addr 0x2ceddf8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree8Shader();
+  __declspec(property(get = get_terrainDetailLitShader))::UnityW<::UnityEngine::Shader> terrainDetailLitShader;
 
   /// @brief Method CreatePipeline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::RenderPipeline* CreatePipeline();
 
-  /// @brief Method OnValidate, addr 0x2cede00, size 0xbc, virtual true, abstract: false, final false
-  inline void OnValidate();
-
-  /// @brief Method OnDisable, addr 0x2cedebc, size 0x4c, virtual true, abstract: false, final false
-  inline void OnDisable();
+  /// @brief Method InternalCreatePipeline, addr 0x2ddff38, size 0x2f8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
 
   static inline ::UnityEngine::Rendering::RenderPipelineAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cedf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2de06cc, size 0x4c, virtual true, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnValidate, addr 0x2de0610, size 0xbc, virtual true, abstract: false, final false
+  inline void OnValidate();
+
+  /// @brief Method .ctor, addr 0x2de0718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x2de0598, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveMaskedShader();
+
+  /// @brief Method get_autodeskInteractiveShader, addr 0x2de0588, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveShader();
+
+  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x2de0590, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveTransparentShader();
+
+  /// @brief Method get_default2DMaskMaterial, addr 0x2de05f0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_default2DMaskMaterial();
+
+  /// @brief Method get_default2DMaterial, addr 0x2de05e8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_default2DMaterial();
+
+  /// @brief Method get_defaultLineMaterial, addr 0x2de05c0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultLineMaterial();
+
+  /// @brief Method get_defaultMaterial, addr 0x2de0580, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
+
+  /// @brief Method get_defaultParticleMaterial, addr 0x2de05b8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultParticleMaterial();
+
+  /// @brief Method get_defaultShader, addr 0x2de05f8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_defaultShader();
+
+  /// @brief Method get_defaultSpeedTree7Shader, addr 0x2de0600, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree7Shader();
+
+  /// @brief Method get_defaultSpeedTree8Shader, addr 0x2de0608, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree8Shader();
+
+  /// @brief Method get_defaultTerrainMaterial, addr 0x2de05c8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultTerrainMaterial();
+
+  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x2de05e0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultUIETC1SupportedMaterial();
+
+  /// @brief Method get_defaultUIMaterial, addr 0x2de05d0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultUIMaterial();
+
+  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x2de05d8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_defaultUIOverdrawMaterial();
+
+  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x2de0578, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_prefixedRenderingLayerMaskNames();
+
+  /// @brief Method get_renderingLayerMaskNames, addr 0x2de0570, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_renderingLayerMaskNames();
+
+  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x2de05b0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
+
+  /// @brief Method get_terrainDetailGrassShader, addr 0x2de05a8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
+
+  /// @brief Method get_terrainDetailLitShader, addr 0x2de05a0, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderPipelineAsset();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineAsset(RenderPipelineAsset&&) = delete;
@@ -156,12 +160,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RenderPipelineAsset(RenderPipelineAsset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderPipelineAsset();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

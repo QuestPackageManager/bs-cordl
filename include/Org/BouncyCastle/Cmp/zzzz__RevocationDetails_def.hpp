@@ -23,20 +23,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::RevocationDetails);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(608))
 // CS Name: ::Org.BouncyCastle.Cmp::RevocationDetails*
 class CORDL_TYPE RevocationDetails : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field revDetails, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_revDetails, put = __cordl_internal_set_revDetails))::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
-
-  __declspec(property(get = get_Subject))::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
-
   __declspec(property(get = get_Issuer))::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+
+  __declspec(property(get = get_Subject))::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
+
+  /// @brief Field revDetails, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_revDetails, put = __cordl_internal_set_revDetails))::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
+
+  static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
+
+  /// @brief Method ToASN1Structure, addr 0x1248dc8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& __cordl_internal_get_revDetails();
 
@@ -44,23 +47,24 @@ public:
 
   constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
-  static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
-
-  /// @brief Method .ctor, addr 0x11d7ea4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1248d04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Subject, addr 0x11d7ecc, size 0x30, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
-
-  /// @brief Method get_Issuer, addr 0x11d7efc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x1248d5c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x11d7f2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x1248d8c, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method ToASN1Structure, addr 0x11d7f68, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
+  /// @brief Method get_Subject, addr 0x1248d2c, size 0x30, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RevocationDetails();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RevocationDetails", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevocationDetails(RevocationDetails&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevocationDetails(RevocationDetails const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RevocationDetails();
-
-public:
   /// @brief Field revDetails, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ___revDetails;
 

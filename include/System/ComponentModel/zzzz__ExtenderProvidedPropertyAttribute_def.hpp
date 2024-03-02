@@ -27,12 +27,16 @@ MARK_REF_PTR_T(::System::ComponentModel::ExtenderProvidedPropertyAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9428))
 // CS Name: ::System.ComponentModel::ExtenderProvidedPropertyAttribute*
 class CORDL_TYPE ExtenderProvidedPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_ExtenderProperty, put = set_ExtenderProperty))::System::ComponentModel::PropertyDescriptor* ExtenderProperty;
+
+  __declspec(property(get = get_Provider, put = set_Provider))::System::ComponentModel::IExtenderProvider* Provider;
+
+  __declspec(property(get = get_ReceiverType, put = set_ReceiverType))::System::Type* ReceiverType;
+
   /// @brief Field <ExtenderProperty>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ExtenderProperty_k__BackingField,
                       put = __cordl_internal_set__ExtenderProperty_k__BackingField))::System::ComponentModel::PropertyDescriptor* _ExtenderProperty_k__BackingField;
@@ -44,66 +48,66 @@ public:
   /// @brief Field <ReceiverType>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__ReceiverType_k__BackingField, put = __cordl_internal_set__ReceiverType_k__BackingField))::System::Type* _ReceiverType_k__BackingField;
 
-  __declspec(property(get = get_ExtenderProperty, put = set_ExtenderProperty))::System::ComponentModel::PropertyDescriptor* ExtenderProperty;
+  /// @brief Method Create, addr 0x29f9db8, size 0x78, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* Create(::System::ComponentModel::PropertyDescriptor* extenderProperty, ::System::Type* receiverType,
+                                                                                    ::System::ComponentModel::IExtenderProvider* provider);
 
-  __declspec(property(get = get_Provider, put = set_Provider))::System::ComponentModel::IExtenderProvider* Provider;
+  /// @brief Method Equals, addr 0x29fa250, size 0xd4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  __declspec(property(get = get_ReceiverType, put = set_ReceiverType))::System::Type* ReceiverType;
+  /// @brief Method GetHashCode, addr 0x29fa324, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method IsDefaultAttribute, addr 0x29fa32c, size 0x60, virtual true, abstract: false, final false
+  inline bool IsDefaultAttribute();
+
+  static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* New_ctor();
 
   constexpr ::System::ComponentModel::PropertyDescriptor*& __cordl_internal_get__ExtenderProperty_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptor*> const& __cordl_internal_get__ExtenderProperty_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ExtenderProperty_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
-
   constexpr ::System::ComponentModel::IExtenderProvider*& __cordl_internal_get__Provider_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __cordl_internal_get__Provider_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Provider_k__BackingField(::System::ComponentModel::IExtenderProvider* value);
 
   constexpr ::System::Type*& __cordl_internal_get__ReceiverType_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ReceiverType_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__ExtenderProperty_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
+
+  constexpr void __cordl_internal_set__Provider_k__BackingField(::System::ComponentModel::IExtenderProvider* value);
+
   constexpr void __cordl_internal_set__ReceiverType_k__BackingField(::System::Type* value);
 
-  /// @brief Method Create, addr 0x29102d4, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* Create(::System::ComponentModel::PropertyDescriptor* extenderProperty, ::System::Type* receiverType,
-                                                                                    ::System::ComponentModel::IExtenderProvider* provider);
-
-  static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2910734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fa218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtenderProperty, addr 0x291073c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtenderProperty, addr 0x29fa220, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* get_ExtenderProperty();
 
-  /// @brief Method set_ExtenderProperty, addr 0x2910744, size 0x8, virtual false, abstract: false, final false
-  inline void set_ExtenderProperty(::System::ComponentModel::PropertyDescriptor* value);
-
-  /// @brief Method get_Provider, addr 0x291074c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x29fa230, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::IExtenderProvider* get_Provider();
 
-  /// @brief Method set_Provider, addr 0x2910754, size 0x8, virtual false, abstract: false, final false
-  inline void set_Provider(::System::ComponentModel::IExtenderProvider* value);
-
-  /// @brief Method get_ReceiverType, addr 0x291075c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverType, addr 0x29fa240, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ReceiverType();
 
-  /// @brief Method set_ReceiverType, addr 0x2910764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExtenderProperty, addr 0x29fa228, size 0x8, virtual false, abstract: false, final false
+  inline void set_ExtenderProperty(::System::ComponentModel::PropertyDescriptor* value);
+
+  /// @brief Method set_Provider, addr 0x29fa238, size 0x8, virtual false, abstract: false, final false
+  inline void set_Provider(::System::ComponentModel::IExtenderProvider* value);
+
+  /// @brief Method set_ReceiverType, addr 0x29fa248, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceiverType(::System::Type* value);
 
-  /// @brief Method Equals, addr 0x291076c, size 0xd4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExtenderProvidedPropertyAttribute();
 
-  /// @brief Method GetHashCode, addr 0x2910840, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method IsDefaultAttribute, addr 0x2910848, size 0x60, virtual true, abstract: false, final false
-  inline bool IsDefaultAttribute();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ExtenderProvidedPropertyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExtenderProvidedPropertyAttribute(ExtenderProvidedPropertyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExtenderProvidedPropertyAttribute();
-
-public:
   /// @brief Field <ExtenderProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptor* ____ExtenderProperty_k__BackingField;
 

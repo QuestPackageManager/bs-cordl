@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14469))
 // CS Name: ::BloomPrePassEffectContainerSO*
 class CORDL_TYPE BloomPrePassEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -28,23 +26,29 @@ public:
 
   __declspec(property(get = get_bloomPrePassEffect))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get__bloomPrePassEffect();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__bloomPrePassEffect() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
-
-  /// @brief Method get_bloomPrePassEffect, addr 0x21068cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
-
-  /// @brief Method Init, addr 0x21068d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22696e4, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
 
   static inline ::GlobalNamespace::BloomPrePassEffectContainerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21068dc, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__bloomPrePassEffect() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get__bloomPrePassEffect();
+
+  constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
+
+  /// @brief Method .ctor, addr 0x22696ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_bloomPrePassEffect, addr 0x22696dc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassEffectContainerSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassEffectContainerSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassEffectContainerSO(BloomPrePassEffectContainerSO&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassEffectContainerSO(BloomPrePassEffectContainerSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassEffectContainerSO();
-
-public:
   /// @brief Field _bloomPrePassEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____bloomPrePassEffect;
 

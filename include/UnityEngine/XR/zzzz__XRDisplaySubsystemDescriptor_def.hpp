@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15960)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15960), inst: 3914 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15640))
 // CS Name: ::UnityEngine.XR::XRDisplaySubsystemDescriptor*
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<Il2CppObject*> {
 public:
   // Declarations
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eb3eac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc3718, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRDisplaySubsystemDescriptor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRDisplaySubsystemDescriptor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRDisplaySubsystemDescriptor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

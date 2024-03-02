@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::PropertyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10170))
 // CS Name: ::UnityEngine::PropertyAttribute*
 class CORDL_TYPE PropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::PropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccc0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbe7a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyAttribute(PropertyAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyAttribute(PropertyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

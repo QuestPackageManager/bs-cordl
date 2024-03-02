@@ -21,54 +21,58 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11817))
 // CS Name: ::Newtonsoft.Json::JsonConverterAttribute*
 class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field _converterType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__converterType, put = __cordl_internal_set__converterType))::System::Type* _converterType;
+  __declspec(property(get = get_ConverterParameters, put = set_ConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ConverterParameters;
+
+  __declspec(property(get = get_ConverterType))::System::Type* ConverterType;
 
   /// @brief Field <ConverterParameters>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ConverterParameters_k__BackingField,
                       put = __cordl_internal_set__ConverterParameters_k__BackingField))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _ConverterParameters_k__BackingField;
 
-  __declspec(property(get = get_ConverterType))::System::Type* ConverterType;
+  /// @brief Field _converterType, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__converterType, put = __cordl_internal_set__converterType))::System::Type* _converterType;
 
-  __declspec(property(get = get_ConverterParameters, put = set_ConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ConverterParameters;
+  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType);
+
+  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__ConverterParameters_k__BackingField() const;
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__ConverterParameters_k__BackingField();
 
   constexpr ::System::Type*& __cordl_internal_get__converterType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__converterType() const;
 
-  constexpr void __cordl_internal_set__converterType(::System::Type* value);
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__ConverterParameters_k__BackingField();
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__ConverterParameters_k__BackingField() const;
-
   constexpr void __cordl_internal_set__ConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method get_ConverterType, addr 0x263f364, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_ConverterType();
+  constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method get_ConverterParameters, addr 0x263f36c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
-
-  /// @brief Method set_ConverterParameters, addr 0x263f374, size 0x8, virtual false, abstract: false, final false
-  inline void set_ConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
-
-  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType);
-
-  /// @brief Method .ctor, addr 0x263f37c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2732c84, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
-
-  /// @brief Method .ctor, addr 0x263f3f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2732cfc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
+  /// @brief Method get_ConverterParameters, addr 0x2732c74, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
+
+  /// @brief Method get_ConverterType, addr 0x2732c6c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_ConverterType();
+
+  /// @brief Method set_ConverterParameters, addr 0x2732c7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonConverterAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonConverterAttribute(JsonConverterAttribute&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonConverterAttribute(JsonConverterAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonConverterAttribute();
-
-public:
   /// @brief Field _converterType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____converterType;
 

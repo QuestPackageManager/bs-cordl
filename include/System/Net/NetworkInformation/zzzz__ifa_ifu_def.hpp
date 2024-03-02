@@ -16,8 +16,6 @@ MARK_VAL_T(::System::Net::NetworkInformation::ifa_ifu);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9270))
 // CS Name: ::System.Net.NetworkInformation::ifa_ifu
 struct CORDL_TYPE ifa_ifu {
 public:
@@ -28,24 +26,24 @@ public:
   /// @brief Field ifu_dstaddr, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_ifu_dstaddr, put = __cordl_internal_set_ifu_dstaddr)) void* ifu_dstaddr;
 
-  constexpr void*& __cordl_internal_get_ifu_broadaddr();
-
   constexpr void* const& __cordl_internal_get_ifu_broadaddr() const;
 
-  constexpr void __cordl_internal_set_ifu_broadaddr(void* value);
-
-  constexpr void*& __cordl_internal_get_ifu_dstaddr();
+  constexpr void*& __cordl_internal_get_ifu_broadaddr();
 
   constexpr void* const& __cordl_internal_get_ifu_dstaddr() const;
 
-  constexpr void __cordl_internal_set_ifu_dstaddr(void* value);
+  constexpr void*& __cordl_internal_get_ifu_dstaddr();
 
-  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "ifu_dstaddr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ifa_ifu(void* ifu_broadaddr, void* ifu_dstaddr) noexcept;
+  constexpr void __cordl_internal_set_ifu_broadaddr(void* value);
+
+  constexpr void __cordl_internal_set_ifu_dstaddr(void* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ifa_ifu();
+
+  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "ifu_dstaddr", ty: "void*", modifiers: "", def_value: None }]
+  constexpr ifa_ifu(void* ifu_broadaddr, void* ifu_dstaddr) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -18,51 +18,55 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::CertStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1709))
 // CS Name: ::Org.BouncyCastle.Pkix::CertStatus*
 class CORDL_TYPE CertStatus : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field status, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) int32_t status;
-
-  /// @brief Field revocationDate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
-
   __declspec(property(get = get_RevocationDate, put = set_RevocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* RevocationDate;
 
   __declspec(property(get = get_Status, put = set_Status)) int32_t Status;
 
-  constexpr int32_t& __cordl_internal_get_status();
+  /// @brief Field revocationDate, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
 
-  constexpr int32_t const& __cordl_internal_get_status() const;
+  /// @brief Field status, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) int32_t status;
 
-  constexpr void __cordl_internal_set_status(int32_t value);
+  static inline ::Org::BouncyCastle::Pkix::CertStatus* New_ctor();
 
   constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_revocationDate();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_revocationDate() const;
 
+  constexpr int32_t const& __cordl_internal_get_status() const;
+
+  constexpr int32_t& __cordl_internal_get_status();
+
   constexpr void __cordl_internal_set_revocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_RevocationDate, addr 0x10e8730, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
+  constexpr void __cordl_internal_set_status(int32_t value);
 
-  /// @brief Method set_RevocationDate, addr 0x10e8738, size 0x8, virtual false, abstract: false, final false
-  inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
-
-  /// @brief Method get_Status, addr 0x10e8740, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Status();
-
-  /// @brief Method set_Status, addr 0x10e8748, size 0x8, virtual false, abstract: false, final false
-  inline void set_Status(int32_t value);
-
-  static inline ::Org::BouncyCastle::Pkix::CertStatus* New_ctor();
-
-  /// @brief Method .ctor, addr 0x10e8750, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11595b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_RevocationDate, addr 0x1159590, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
+
+  /// @brief Method get_Status, addr 0x11595a0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Status();
+
+  /// @brief Method set_RevocationDate, addr 0x1159598, size 0x8, virtual false, abstract: false, final false
+  inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+
+  /// @brief Method set_Status, addr 0x11595a8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Status(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertStatus(CertStatus&&) = delete;
@@ -71,23 +75,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertStatus(CertStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertStatus();
-
-public:
   /// @brief Field status, offset: 0x10, size: 0x4, def value: None
   int32_t ___status;
 
   /// @brief Field revocationDate, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Date::DateTimeObject* ___revocationDate;
 
-  /// @brief Field Unrevoked offset 0xffffffff size 0x4
-  static constexpr int32_t Unrevoked{ static_cast<int32_t>(0xb) };
-
   /// @brief Field Undetermined offset 0xffffffff size 0x4
   static constexpr int32_t Undetermined{ static_cast<int32_t>(0xc) };
+
+  /// @brief Field Unrevoked offset 0xffffffff size 0x4
+  static constexpr int32_t Unrevoked{ static_cast<int32_t>(0xb) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

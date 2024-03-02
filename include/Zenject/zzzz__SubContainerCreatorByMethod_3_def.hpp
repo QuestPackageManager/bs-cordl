@@ -34,8 +34,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11246))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11250))
 // CS Name: ::Zenject::SubContainerCreatorByMethod`3<TParam1,TParam2,TParam3>*
 class CORDL_TYPE SubContainerCreatorByMethod_3 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
@@ -43,22 +41,28 @@ public:
   /// @brief Field _installMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod))::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* _installMethod;
 
+  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+
+  static inline ::Zenject::SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
+                                                                                              ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod);
+
   constexpr ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>*& __cordl_internal_get__installMethod();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>*> const& __cordl_internal_get__installMethod() const;
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* value);
 
-  static inline ::Zenject::SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
-                                                                                              ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
                     ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installMethod);
 
-  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorByMethod_3();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethod_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByMethod_3(SubContainerCreatorByMethod_3&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByMethod_3(SubContainerCreatorByMethod_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByMethod_3();
-
-public:
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* ____installMethod;
 

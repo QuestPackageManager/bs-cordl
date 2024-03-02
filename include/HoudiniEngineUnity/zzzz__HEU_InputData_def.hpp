@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9838))
 // CS Name: ::HoudiniEngineUnity::HEU_InputData*
 class CORDL_TYPE HEU_InputData : public ::System::Object {
 public:
@@ -26,17 +24,23 @@ public:
   /// @brief Field _inputObject, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__inputObject, put = __cordl_internal_set__inputObject))::UnityW<::UnityEngine::GameObject> _inputObject;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__inputObject();
+  static inline ::HoudiniEngineUnity::HEU_InputData* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__inputObject() const;
 
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__inputObject();
+
   constexpr void __cordl_internal_set__inputObject(::UnityW<::UnityEngine::GameObject> value);
 
-  static inline ::HoudiniEngineUnity::HEU_InputData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21c5274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23271c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_InputData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_InputData(HEU_InputData&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputData(HEU_InputData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_InputData();
-
-public:
   /// @brief Field _inputObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____inputObject;
 

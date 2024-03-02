@@ -31,120 +31,124 @@ MARK_REF_PTR_T(::GlobalNamespace::GameEnergyUIPanel);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5033))
 // CS Name: ::GameEnergyUIPanel*
 class CORDL_TYPE GameEnergyUIPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _energyBar, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__energyBar, put = __cordl_internal_set__energyBar))::UnityW<::UnityEngine::UI::Image> _energyBar;
-
-  /// @brief Field _playableDirector, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playableDirector, put = __cordl_internal_set__playableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _playableDirector;
+  /// @brief Field _activeBatteryLifeSegmentsCount, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__activeBatteryLifeSegmentsCount, put = __cordl_internal_set__activeBatteryLifeSegmentsCount)) int32_t _activeBatteryLifeSegmentsCount;
 
   /// @brief Field _batteryLifeSegmentPrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__batteryLifeSegmentPrefab, put = __cordl_internal_set__batteryLifeSegmentPrefab))::UnityW<::UnityEngine::UI::Image> _batteryLifeSegmentPrefab;
-
-  /// @brief Field _batterySegmentSeparatorWidth, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__batterySegmentSeparatorWidth, put = __cordl_internal_set__batterySegmentSeparatorWidth)) float_t _batterySegmentSeparatorWidth;
-
-  /// @brief Field _batterySegmentHorizontalPadding, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__batterySegmentHorizontalPadding, put = __cordl_internal_set__batterySegmentHorizontalPadding)) float_t _batterySegmentHorizontalPadding;
-
-  /// @brief Field _gameEnergyCounter, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::GlobalNamespace::IGameEnergyCounter* _gameEnergyCounter;
 
   /// @brief Field _batteryLifeSegments, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__batteryLifeSegments,
                       put = __cordl_internal_set__batteryLifeSegments))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* _batteryLifeSegments;
 
-  /// @brief Field _activeBatteryLifeSegmentsCount, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__activeBatteryLifeSegmentsCount, put = __cordl_internal_set__activeBatteryLifeSegmentsCount)) int32_t _activeBatteryLifeSegmentsCount;
+  /// @brief Field _batterySegmentHorizontalPadding, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__batterySegmentHorizontalPadding, put = __cordl_internal_set__batterySegmentHorizontalPadding)) float_t _batterySegmentHorizontalPadding;
+
+  /// @brief Field _batterySegmentSeparatorWidth, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__batterySegmentSeparatorWidth, put = __cordl_internal_set__batterySegmentSeparatorWidth)) float_t _batterySegmentSeparatorWidth;
+
+  /// @brief Field _energyBar, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__energyBar, put = __cordl_internal_set__energyBar))::UnityW<::UnityEngine::UI::Image> _energyBar;
 
   /// @brief Field _energyBarRectTransform, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__energyBarRectTransform, put = __cordl_internal_set__energyBarRectTransform))::UnityW<::UnityEngine::RectTransform> _energyBarRectTransform;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__energyBar();
+  /// @brief Field _gameEnergyCounter, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::GlobalNamespace::IGameEnergyCounter* _gameEnergyCounter;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__energyBar() const;
+  /// @brief Field _playableDirector, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__playableDirector, put = __cordl_internal_set__playableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _playableDirector;
 
-  constexpr void __cordl_internal_set__energyBar(::UnityW<::UnityEngine::UI::Image> value);
+  /// @brief Method CreateUIForBatteryEnergyType, addr 0x244bbc4, size 0x2e4, virtual false, abstract: false, final false
+  inline void CreateUIForBatteryEnergyType(int32_t batteryLives);
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__playableDirector();
+  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x244c330, size 0x4, virtual false, abstract: false, final false
+  inline void HandleGameEnergyCounterDidInit();
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__playableDirector() const;
+  /// @brief Method HandleGameEnergyDidChange, addr 0x244c334, size 0x4, virtual false, abstract: false, final false
+  inline void HandleGameEnergyDidChange(float_t energy);
 
-  constexpr void __cordl_internal_set__playableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
+  /// @brief Method Init, addr 0x244b824, size 0x3a0, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__batteryLifeSegmentPrefab();
+  static inline ::GlobalNamespace::GameEnergyUIPanel* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x244c178, size 0x1b8, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RefreshEnergyUI, addr 0x244bea8, size 0x2d0, virtual false, abstract: false, final false
+  inline void RefreshEnergyUI(float_t energy);
+
+  /// @brief Method Start, addr 0x244b6a0, size 0x184, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr int32_t const& __cordl_internal_get__activeBatteryLifeSegmentsCount() const;
+
+  constexpr int32_t& __cordl_internal_get__activeBatteryLifeSegmentsCount();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__batteryLifeSegmentPrefab() const;
 
-  constexpr void __cordl_internal_set__batteryLifeSegmentPrefab(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr float_t& __cordl_internal_get__batterySegmentSeparatorWidth();
-
-  constexpr float_t const& __cordl_internal_get__batterySegmentSeparatorWidth() const;
-
-  constexpr void __cordl_internal_set__batterySegmentSeparatorWidth(float_t value);
-
-  constexpr float_t& __cordl_internal_get__batterySegmentHorizontalPadding();
-
-  constexpr float_t const& __cordl_internal_get__batterySegmentHorizontalPadding() const;
-
-  constexpr void __cordl_internal_set__batterySegmentHorizontalPadding(float_t value);
-
-  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& __cordl_internal_get__gameEnergyCounter() const;
-
-  constexpr void __cordl_internal_set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter* value);
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__batteryLifeSegmentPrefab();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get__batteryLifeSegments();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__batteryLifeSegments() const;
 
-  constexpr void __cordl_internal_set__batteryLifeSegments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
+  constexpr float_t const& __cordl_internal_get__batterySegmentHorizontalPadding() const;
 
-  constexpr int32_t& __cordl_internal_get__activeBatteryLifeSegmentsCount();
+  constexpr float_t& __cordl_internal_get__batterySegmentHorizontalPadding();
 
-  constexpr int32_t const& __cordl_internal_get__activeBatteryLifeSegmentsCount() const;
+  constexpr float_t const& __cordl_internal_get__batterySegmentSeparatorWidth() const;
 
-  constexpr void __cordl_internal_set__activeBatteryLifeSegmentsCount(int32_t value);
+  constexpr float_t& __cordl_internal_get__batterySegmentSeparatorWidth();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__energyBarRectTransform();
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__energyBar() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__energyBar();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__energyBarRectTransform() const;
 
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__energyBarRectTransform();
+
+  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& __cordl_internal_get__gameEnergyCounter() const;
+
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__playableDirector() const;
+
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__playableDirector();
+
+  constexpr void __cordl_internal_set__activeBatteryLifeSegmentsCount(int32_t value);
+
+  constexpr void __cordl_internal_set__batteryLifeSegmentPrefab(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__batteryLifeSegments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
+
+  constexpr void __cordl_internal_set__batterySegmentHorizontalPadding(float_t value);
+
+  constexpr void __cordl_internal_set__batterySegmentSeparatorWidth(float_t value);
+
+  constexpr void __cordl_internal_set__energyBar(::UnityW<::UnityEngine::UI::Image> value);
+
   constexpr void __cordl_internal_set__energyBarRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method Start, addr 0x23c00a8, size 0x184, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter* value);
 
-  /// @brief Method Init, addr 0x23c022c, size 0x3a0, virtual false, abstract: false, final false
-  inline void Init();
+  constexpr void __cordl_internal_set__playableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method OnDestroy, addr 0x23c0b80, size 0x1b8, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method CreateUIForBatteryEnergyType, addr 0x23c05cc, size 0x2e4, virtual false, abstract: false, final false
-  inline void CreateUIForBatteryEnergyType(int32_t batteryLives);
-
-  /// @brief Method RefreshEnergyUI, addr 0x23c08b0, size 0x2d0, virtual false, abstract: false, final false
-  inline void RefreshEnergyUI(float_t energy);
-
-  /// @brief Method HandleGameEnergyCounterDidInit, addr 0x23c0d38, size 0x4, virtual false, abstract: false, final false
-  inline void HandleGameEnergyCounterDidInit();
-
-  /// @brief Method HandleGameEnergyDidChange, addr 0x23c0d3c, size 0x4, virtual false, abstract: false, final false
-  inline void HandleGameEnergyDidChange(float_t energy);
-
-  static inline ::GlobalNamespace::GameEnergyUIPanel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c0d40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244c338, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameEnergyUIPanel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameEnergyUIPanel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameEnergyUIPanel(GameEnergyUIPanel&&) = delete;
@@ -153,12 +157,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameEnergyUIPanel(GameEnergyUIPanel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameEnergyUIPanel();
-
-public:
   /// @brief Field _energyBar, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____energyBar;
 

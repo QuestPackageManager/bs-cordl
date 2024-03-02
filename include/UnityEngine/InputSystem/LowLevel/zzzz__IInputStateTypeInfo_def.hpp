@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6563))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateTypeInfo*
 class CORDL_TYPE IInputStateTypeInfo {
 public:

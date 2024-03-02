@@ -49,27 +49,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate)
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4727))
 // CS Name: ::BurstSliderSpawner::ProcessNoteDataDelegate*
 class CORDL_TYPE __BurstSliderSpawner__ProcessNoteDataDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2379264, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2380f00, size 0x18, virtual true, abstract: false, final false
-  inline void Invoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNote);
-
-  /// @brief Method BeginInvoke, addr 0x2380f18, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2395020, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                                              bool forceIsFirstNote, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2381010, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2395118, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x2395008, size 0x18, virtual true, abstract: false, final false
+  inline void Invoke(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation, bool forceIsFirstNote);
+
+  static inline ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2394ed8, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BurstSliderSpawner__ProcessNoteDataDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BurstSliderSpawner__ProcessNoteDataDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BurstSliderSpawner__ProcessNoteDataDelegate(__BurstSliderSpawner__ProcessNoteDataDelegate&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BurstSliderSpawner__ProcessNoteDataDelegate(__BurstSliderSpawner__ProcessNoteDataDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BurstSliderSpawner__ProcessNoteDataDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,21 +92,25 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BurstSliderSp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4728))
 // CS Name: ::BurstSliderSpawner*
 class CORDL_TYPE BurstSliderSpawner : public ::System::Object {
 public:
   // Declarations
   using ProcessNoteDataDelegate = ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate;
 
-  /// @brief Method BezierCurve, addr 0x2380e88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BezierCurve, addr 0x2394a68, size 0x78, virtual false, abstract: false, final false
   static inline void BezierCurve(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t t, ByRef<::UnityEngine::Vector2> pos, ByRef<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method ProcessSliderData, addr 0x2379394, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x2394ae0, size 0x3f8, virtual false, abstract: false, final false
   static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation,
                                        bool forceIsFirstNote, ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* processNoteData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BurstSliderSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderSpawner(BurstSliderSpawner&&) = delete;
@@ -117,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BurstSliderSpawner(BurstSliderSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BurstSliderSpawner();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

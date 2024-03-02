@@ -24,12 +24,14 @@ MARK_VAL_T(::TMPro::TMP_LineInfo);
 // SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12430))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
 // CS Name: ::TMPro::TMP_LineInfo
 struct CORDL_TYPE TMP_LineInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_LineInfo();
+
   // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -44,10 +46,6 @@ public:
                          int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight, float_t ascender, float_t baseline,
                          float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight, ::TMPro::HorizontalAlignmentOptions alignment,
                          ::TMPro::Extents lineExtents) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_LineInfo();
 
   /// @brief Field controlCharacterCount, offset: 0x0, size: 0x4, def value: None
   int32_t controlCharacterCount;

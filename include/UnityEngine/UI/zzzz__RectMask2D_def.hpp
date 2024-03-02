@@ -63,203 +63,208 @@ MARK_REF_PTR_T(::UnityEngine::UI::RectMask2D);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13214))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13107)) CS Name: ::UnityEngine.UI::RectMask2D*
+// CS Name: ::UnityEngine.UI::RectMask2D*
 class CORDL_TYPE RectMask2D : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
-  /// @brief Field m_VertexClipper, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VertexClipper, put = __cordl_internal_set_m_VertexClipper))::UnityEngine::UI::RectangularVertexClipper* m_VertexClipper;
+  __declspec(property(get = get_Canvas))::UnityW<::UnityEngine::Canvas> Canvas;
 
-  /// @brief Field m_RectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
+  __declspec(property(get = get_canvasRect))::UnityEngine::Rect canvasRect;
+
+  /// @brief Field m_Canvas, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
+
+  /// @brief Field m_ClipTargets, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ClipTargets, put = __cordl_internal_set_m_ClipTargets))::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* m_ClipTargets;
+
+  /// @brief Field m_Clippers, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Clippers, put = __cordl_internal_set_m_Clippers))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* m_Clippers;
+
+  /// @brief Field m_Corners, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Corners, put = __cordl_internal_set_m_Corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Corners;
+
+  /// @brief Field m_ForceClip, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_ForceClip, put = __cordl_internal_set_m_ForceClip)) bool m_ForceClip;
+
+  /// @brief Field m_LastClipRectCanvasSpace, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_LastClipRectCanvasSpace, put = __cordl_internal_set_m_LastClipRectCanvasSpace))::UnityEngine::Rect m_LastClipRectCanvasSpace;
 
   /// @brief Field m_MaskableTargets, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MaskableTargets,
                       put = __cordl_internal_set_m_MaskableTargets))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>* m_MaskableTargets;
 
-  /// @brief Field m_ClipTargets, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClipTargets, put = __cordl_internal_set_m_ClipTargets))::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* m_ClipTargets;
+  /// @brief Field m_Padding, offset 0x5c, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding))::UnityEngine::Vector4 m_Padding;
+
+  /// @brief Field m_RectTransform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
 
   /// @brief Field m_ShouldRecalculateClipRects, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShouldRecalculateClipRects, put = __cordl_internal_set_m_ShouldRecalculateClipRects)) bool m_ShouldRecalculateClipRects;
 
-  /// @brief Field m_Clippers, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Clippers, put = __cordl_internal_set_m_Clippers))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* m_Clippers;
-
-  /// @brief Field m_LastClipRectCanvasSpace, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_LastClipRectCanvasSpace, put = __cordl_internal_set_m_LastClipRectCanvasSpace))::UnityEngine::Rect m_LastClipRectCanvasSpace;
-
-  /// @brief Field m_ForceClip, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ForceClip, put = __cordl_internal_set_m_ForceClip)) bool m_ForceClip;
-
-  /// @brief Field m_Padding, offset 0x5c, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding))::UnityEngine::Vector4 m_Padding;
-
   /// @brief Field m_Softness, offset 0x6c, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Softness, put = __cordl_internal_set_m_Softness))::UnityEngine::Vector2Int m_Softness;
 
-  /// @brief Field m_Canvas, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
-
-  /// @brief Field m_Corners, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Corners, put = __cordl_internal_set_m_Corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Corners;
+  /// @brief Field m_VertexClipper, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_VertexClipper, put = __cordl_internal_set_m_VertexClipper))::UnityEngine::UI::RectangularVertexClipper* m_VertexClipper;
 
   __declspec(property(get = get_padding, put = set_padding))::UnityEngine::Vector4 padding;
-
-  __declspec(property(get = get_softness, put = set_softness))::UnityEngine::Vector2Int softness;
-
-  __declspec(property(get = get_Canvas))::UnityW<::UnityEngine::Canvas> Canvas;
-
-  __declspec(property(get = get_canvasRect))::UnityEngine::Rect canvasRect;
 
   __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   __declspec(property(get = get_rootCanvasRect))::UnityEngine::Rect rootCanvasRect;
 
-  /// @brief Convert operator to "::UnityEngine::UI::IClipper"
-  constexpr operator ::UnityEngine::UI::IClipper*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::UI::IClipper"
-  constexpr ::UnityEngine::UI::IClipper* i___UnityEngine__UI__IClipper() noexcept;
+  __declspec(property(get = get_softness, put = set_softness))::UnityEngine::Vector2Int softness;
 
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
-  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UI::IClipper"
+  constexpr operator ::UnityEngine::UI::IClipper*() noexcept;
 
-  constexpr ::UnityEngine::UI::RectangularVertexClipper*& __cordl_internal_get_m_VertexClipper();
+  /// @brief Method AddClippable, addr 0x2e8c484, size 0x114, virtual false, abstract: false, final false
+  inline void AddClippable(::UnityEngine::UI::IClippable* clippable);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectangularVertexClipper*> const& __cordl_internal_get_m_VertexClipper() const;
+  /// @brief Method IsRaycastLocationValid, addr 0x2e8b874, size 0xdc, virtual true, abstract: false, final false
+  inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  constexpr void __cordl_internal_set_m_VertexClipper(::UnityEngine::UI::RectangularVertexClipper* value);
+  static inline ::UnityEngine::UI::RectMask2D* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_RectTransform();
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x2e8c75c, size 0x24, virtual true, abstract: false, final false
+  inline void OnCanvasHierarchyChanged();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_RectTransform() const;
+  /// @brief Method OnDestroy, addr 0x2e8b854, size 0x20, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set_m_RectTransform(::UnityW<::UnityEngine::RectTransform> value);
+  /// @brief Method OnDisable, addr 0x2e8b784, size 0xd0, virtual true, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>*& __cordl_internal_get_m_MaskableTargets();
+  /// @brief Method OnEnable, addr 0x2e8b750, size 0x34, virtual true, abstract: false, final false
+  inline void OnEnable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>*> const& __cordl_internal_get_m_MaskableTargets() const;
+  /// @brief Method OnTransformParentChanged, addr 0x2e8c738, size 0x24, virtual true, abstract: false, final false
+  inline void OnTransformParentChanged();
 
-  constexpr void __cordl_internal_set_m_MaskableTargets(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>* value);
+  /// @brief Method PerformClipping, addr 0x2e8ba6c, size 0x724, virtual true, abstract: false, final false
+  inline void PerformClipping();
+
+  /// @brief Method RemoveClippable, addr 0x2e8c598, size 0x1a0, virtual false, abstract: false, final false
+  inline void RemoveClippable(::UnityEngine::UI::IClippable* clippable);
+
+  /// @brief Method UpdateClipSoftness, addr 0x2e8c190, size 0x2f4, virtual true, abstract: false, final false
+  inline void UpdateClipSoftness();
+
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
+
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*& __cordl_internal_get_m_ClipTargets();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*> const& __cordl_internal_get_m_ClipTargets() const;
 
-  constexpr void __cordl_internal_set_m_ClipTargets(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* value);
-
-  constexpr bool& __cordl_internal_get_m_ShouldRecalculateClipRects();
-
-  constexpr bool const& __cordl_internal_get_m_ShouldRecalculateClipRects() const;
-
-  constexpr void __cordl_internal_set_m_ShouldRecalculateClipRects(bool value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*& __cordl_internal_get_m_Clippers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*> const& __cordl_internal_get_m_Clippers() const;
 
-  constexpr void __cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_LastClipRectCanvasSpace();
-
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_LastClipRectCanvasSpace() const;
-
-  constexpr void __cordl_internal_set_m_LastClipRectCanvasSpace(::UnityEngine::Rect value);
-
-  constexpr bool& __cordl_internal_get_m_ForceClip();
-
-  constexpr bool const& __cordl_internal_get_m_ForceClip() const;
-
-  constexpr void __cordl_internal_set_m_ForceClip(bool value);
-
-  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_Padding();
-
-  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_Padding() const;
-
-  constexpr void __cordl_internal_set_m_Padding(::UnityEngine::Vector4 value);
-
-  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get_m_Softness();
-
-  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get_m_Softness() const;
-
-  constexpr void __cordl_internal_set_m_Softness(::UnityEngine::Vector2Int value);
-
-  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
-
-  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
-
-  constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Corners();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
+  constexpr bool const& __cordl_internal_get_m_ForceClip() const;
+
+  constexpr bool& __cordl_internal_get_m_ForceClip();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_LastClipRectCanvasSpace() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_LastClipRectCanvasSpace();
+
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>*& __cordl_internal_get_m_MaskableTargets();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>*> const& __cordl_internal_get_m_MaskableTargets() const;
+
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_Padding() const;
+
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_Padding();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_RectTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_RectTransform();
+
+  constexpr bool const& __cordl_internal_get_m_ShouldRecalculateClipRects() const;
+
+  constexpr bool& __cordl_internal_get_m_ShouldRecalculateClipRects();
+
+  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get_m_Softness() const;
+
+  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get_m_Softness();
+
+  constexpr ::UnityEngine::UI::RectangularVertexClipper*& __cordl_internal_get_m_VertexClipper();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::RectangularVertexClipper*> const& __cordl_internal_get_m_VertexClipper() const;
+
+  constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
+
+  constexpr void __cordl_internal_set_m_ClipTargets(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* value);
+
+  constexpr void __cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* value);
 
   constexpr void __cordl_internal_set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_padding, addr 0x2d7f8ac, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 get_padding();
+  constexpr void __cordl_internal_set_m_ForceClip(bool value);
 
-  /// @brief Method set_padding, addr 0x2d7f8b8, size 0x10, virtual false, abstract: false, final false
-  inline void set_padding(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_LastClipRectCanvasSpace(::UnityEngine::Rect value);
 
-  /// @brief Method get_softness, addr 0x2d7f8c8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2Int get_softness();
+  constexpr void __cordl_internal_set_m_MaskableTargets(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::MaskableGraphic>>* value);
 
-  /// @brief Method set_softness, addr 0x2d7f8d0, size 0x1c, virtual false, abstract: false, final false
-  inline void set_softness(::UnityEngine::Vector2Int value);
+  constexpr void __cordl_internal_set_m_Padding(::UnityEngine::Vector4 value);
 
-  /// @brief Method get_Canvas, addr 0x2d7f8ec, size 0x160, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Canvas> get_Canvas();
+  constexpr void __cordl_internal_set_m_RectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method get_canvasRect, addr 0x2d7fa4c, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_canvasRect();
+  constexpr void __cordl_internal_set_m_ShouldRecalculateClipRects(bool value);
 
-  /// @brief Method get_rectTransform, addr 0x2d7fa90, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
+  constexpr void __cordl_internal_set_m_Softness(::UnityEngine::Vector2Int value);
 
-  static inline ::UnityEngine::UI::RectMask2D* New_ctor();
+  constexpr void __cordl_internal_set_m_VertexClipper(::UnityEngine::UI::RectangularVertexClipper* value);
 
-  /// @brief Method .ctor, addr 0x2d7fae8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8b5f8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnEnable, addr 0x2d7fc40, size 0x34, virtual true, abstract: false, final false
-  inline void OnEnable();
+  /// @brief Method get_Canvas, addr 0x2e8b3fc, size 0x160, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Canvas> get_Canvas();
 
-  /// @brief Method OnDisable, addr 0x2d7fc74, size 0xd0, virtual true, abstract: false, final false
-  inline void OnDisable();
+  /// @brief Method get_canvasRect, addr 0x2e8b55c, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_canvasRect();
 
-  /// @brief Method OnDestroy, addr 0x2d7fd44, size 0x20, virtual true, abstract: false, final false
-  inline void OnDestroy();
+  /// @brief Method get_padding, addr 0x2e8b3bc, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector4 get_padding();
 
-  /// @brief Method IsRaycastLocationValid, addr 0x2d7fd64, size 0xdc, virtual true, abstract: false, final false
-  inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
+  /// @brief Method get_rectTransform, addr 0x2e8b5a0, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_rootCanvasRect, addr 0x2d7fe40, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCanvasRect, addr 0x2e8b950, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rootCanvasRect();
 
-  /// @brief Method PerformClipping, addr 0x2d7ff5c, size 0x724, virtual true, abstract: false, final false
-  inline void PerformClipping();
+  /// @brief Method get_softness, addr 0x2e8b3d8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2Int get_softness();
 
-  /// @brief Method UpdateClipSoftness, addr 0x2d80680, size 0x2f4, virtual true, abstract: false, final false
-  inline void UpdateClipSoftness();
+  /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
+  constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
-  /// @brief Method AddClippable, addr 0x2d80974, size 0x114, virtual false, abstract: false, final false
-  inline void AddClippable(::UnityEngine::UI::IClippable* clippable);
+  /// @brief Convert to "::UnityEngine::UI::IClipper"
+  constexpr ::UnityEngine::UI::IClipper* i___UnityEngine__UI__IClipper() noexcept;
 
-  /// @brief Method RemoveClippable, addr 0x2d80a88, size 0x1a0, virtual false, abstract: false, final false
-  inline void RemoveClippable(::UnityEngine::UI::IClippable* clippable);
+  /// @brief Method set_padding, addr 0x2e8b3c8, size 0x10, virtual false, abstract: false, final false
+  inline void set_padding(::UnityEngine::Vector4 value);
 
-  /// @brief Method OnTransformParentChanged, addr 0x2d80c28, size 0x24, virtual true, abstract: false, final false
-  inline void OnTransformParentChanged();
+  /// @brief Method set_softness, addr 0x2e8b3e0, size 0x1c, virtual false, abstract: false, final false
+  inline void set_softness(::UnityEngine::Vector2Int value);
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x2d80c4c, size 0x24, virtual true, abstract: false, final false
-  inline void OnCanvasHierarchyChanged();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RectMask2D();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectMask2D(RectMask2D&&) = delete;
@@ -268,12 +273,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RectMask2D(RectMask2D const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RectMask2D();
-
-public:
   /// @brief Field m_VertexClipper, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UI::RectangularVertexClipper* ___m_VertexClipper;
 

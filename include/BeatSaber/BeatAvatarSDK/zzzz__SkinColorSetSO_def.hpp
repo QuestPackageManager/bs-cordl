@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::SkinColorSetSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15701))
 // CS Name: ::BeatSaber.BeatAvatarSDK::SkinColorSetSO*
 class CORDL_TYPE SkinColorSetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -30,20 +28,26 @@ public:
 
   __declspec(property(get = get_colors))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> colors;
 
-  constexpr ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*>& __cordl_internal_get__colors();
+  static inline ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* New_ctor();
 
   constexpr ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> const& __cordl_internal_get__colors() const;
 
+  constexpr ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*>& __cordl_internal_get__colors();
+
   constexpr void __cordl_internal_set__colors(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> value);
 
-  /// @brief Method get_colors, addr 0xe1c550, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_colors();
-
-  static inline ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe1c558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6e708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_colors, addr 0xe6e700, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_colors();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SkinColorSetSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SkinColorSetSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkinColorSetSO(SkinColorSetSO&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SkinColorSetSO(SkinColorSetSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SkinColorSetSO();
-
-public:
   /// @brief Field _colors, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> ____colors;
 

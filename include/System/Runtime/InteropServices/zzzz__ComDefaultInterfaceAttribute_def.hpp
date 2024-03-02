@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComDefaultInterfaceAttribute)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3316))
 // CS Name: ::System.Runtime.InteropServices::ComDefaultInterfaceAttribute*
 class CORDL_TYPE ComDefaultInterfaceAttribute : public ::System::Attribute {
 public:
@@ -26,17 +24,23 @@ public:
   /// @brief Field _val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::System::Type* _val;
 
+  static inline ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute* New_ctor(::System::Type* defaultInterface);
+
   constexpr ::System::Type*& __cordl_internal_get__val();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__val() const;
 
   constexpr void __cordl_internal_set__val(::System::Type* value);
 
-  static inline ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute* New_ctor(::System::Type* defaultInterface);
-
-  /// @brief Method .ctor, addr 0x24d7220, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7f8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* defaultInterface);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComDefaultInterfaceAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ComDefaultInterfaceAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComDefaultInterfaceAttribute(ComDefaultInterfaceAttribute&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComDefaultInterfaceAttribute(ComDefaultInterfaceAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComDefaultInterfaceAttribute();
-
-public:
   /// @brief Field _val, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____val;
 

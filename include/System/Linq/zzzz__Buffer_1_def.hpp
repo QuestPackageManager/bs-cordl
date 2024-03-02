@@ -21,25 +21,23 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
 // CS Name: ::System.Linq::Buffer`1<TElement>
 struct CORDL_TYPE Buffer_1 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source);
-
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<TElement, ::Array<TElement>*> ToArray();
 
-  // Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement,::Array<TElement>*>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None
-  // }]
-  constexpr Buffer_1(::ArrayW<TElement, ::Array<TElement>*> items, int32_t count) noexcept;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Buffer_1();
+
+  // Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement,::Array<TElement>*>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None
+  // }]
+  constexpr Buffer_1(::ArrayW<TElement, ::Array<TElement>*> items, int32_t count) noexcept;
 
   /// @brief Field items, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<TElement, ::Array<TElement>*> items;

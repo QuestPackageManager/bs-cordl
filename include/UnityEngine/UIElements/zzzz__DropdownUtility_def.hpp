@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6757))
 // CS Name: ::UnityEngine.UIElements::DropdownUtility*
 class CORDL_TYPE DropdownUtility : public ::System::Object {
 public:
@@ -29,13 +27,19 @@ public:
   /// @brief Field MakeDropdownFunc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc))::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
 
-  static inline void setStaticF_MakeDropdownFunc(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value);
+  /// @brief Method CreateDropdown, addr 0x2ec0a28, size 0x98, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();
 
-  /// @brief Method CreateDropdown, addr 0x2db3f18, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
+  static inline void setStaticF_MakeDropdownFunc(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DropdownUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DropdownUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownUtility(DropdownUtility&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownUtility(DropdownUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DropdownUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

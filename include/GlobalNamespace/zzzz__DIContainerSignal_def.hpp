@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::DIContainerSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11166)), TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst:
-// 301 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14392)) CS Name: ::DIContainerSignal*
+// CS Name: ::DIContainerSignal*
 class CORDL_TYPE DIContainerSignal : public ::GlobalNamespace::GenericSignal_1<::Zenject::DiContainer*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::DIContainerSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f55b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257648, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DIContainerSignal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DIContainerSignal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DIContainerSignal(DIContainerSignal&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DIContainerSignal(DIContainerSignal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DIContainerSignal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

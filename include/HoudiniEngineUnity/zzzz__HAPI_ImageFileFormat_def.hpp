@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImageFileFormat);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9743))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImageFileFormat
 struct CORDL_TYPE HAPI_ImageFileFormat {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "descriptionSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "defaultExtensionSH", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ImageFileFormat(int32_t nameSH, int32_t descriptionSH, int32_t defaultExtensionSH) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ImageFileFormat();
+
+  // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "descriptionSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "defaultExtensionSH", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ImageFileFormat(int32_t nameSH, int32_t descriptionSH, int32_t defaultExtensionSH) noexcept;
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;

@@ -26,12 +26,16 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::OtherInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(416))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::OtherInfo*
 class CORDL_TYPE OtherInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_KeyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* KeyInfo;
+
+  __declspec(property(get = get_PartyAInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* PartyAInfo;
+
+  __declspec(property(get = get_SuppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* SuppPubInfo;
+
   /// @brief Field keyInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyInfo, put = __cordl_internal_set_keyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo;
 
@@ -41,53 +45,53 @@ public:
   /// @brief Field suppPubInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_suppPubInfo, put = __cordl_internal_set_suppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo;
 
-  __declspec(property(get = get_KeyInfo))::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* KeyInfo;
+  static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo,
+                                                                   ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
-  __declspec(property(get = get_PartyAInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* PartyAInfo;
+  static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  __declspec(property(get = get_SuppPubInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* SuppPubInfo;
+  /// @brief Method ToAsn1Object, addr 0x121aa40, size 0x168, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*& __cordl_internal_get_keyInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*> const& __cordl_internal_get_keyInfo() const;
 
-  constexpr void __cordl_internal_set_keyInfo(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_partyAInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_partyAInfo() const;
-
-  constexpr void __cordl_internal_set_partyAInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_suppPubInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_suppPubInfo() const;
 
+  constexpr void __cordl_internal_set_keyInfo(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* value);
+
+  constexpr void __cordl_internal_set_partyAInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
   constexpr void __cordl_internal_set_suppPubInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo,
-                                                                   ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
-
-  /// @brief Method .ctor, addr 0x11aa7cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121a62c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
-  static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x11aa808, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121a668, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyInfo, addr 0x11aabc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyInfo, addr 0x121aa28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* get_KeyInfo();
 
-  /// @brief Method get_PartyAInfo, addr 0x11aabd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartyAInfo, addr 0x121aa30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_PartyAInfo();
 
-  /// @brief Method get_SuppPubInfo, addr 0x11aabd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SuppPubInfo, addr 0x121aa38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SuppPubInfo();
 
-  /// @brief Method ToAsn1Object, addr 0x11aabe0, size 0x168, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OtherInfo();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OtherInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherInfo(OtherInfo&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OtherInfo(OtherInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OtherInfo();
-
-public:
   /// @brief Field keyInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* ___keyInfo;
 

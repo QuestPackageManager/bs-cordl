@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSin
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3188))
 // CS Name: ::System.Runtime.Remoting.Messaging::ServerObjectTerminatorSink*
 class CORDL_TYPE ServerObjectTerminatorSink : public ::System::Object {
 public:
@@ -35,8 +33,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
+  /// @brief Method AsyncProcessMessage, addr 0x25a5494, size 0x1cc, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
+                                                                                   ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+
+  static inline ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
+
+  /// @brief Method SyncProcessMessage, addr 0x25a5320, size 0x174, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__nextSink();
 
@@ -44,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  static inline ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
-
-  /// @brief Method .ctor, addr 0x24b358c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a52f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method SyncProcessMessage, addr 0x24b35b4, size 0x174, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x24b3728, size 0x1cc, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
-                                                                                   ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerObjectTerminatorSink();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServerObjectTerminatorSink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerObjectTerminatorSink(ServerObjectTerminatorSink&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerObjectTerminatorSink(ServerObjectTerminatorSink const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerObjectTerminatorSink();
-
-public:
   /// @brief Field _nextSink, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ____nextSink;
 

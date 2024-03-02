@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPlatformInit);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15981))
 // CS Name: ::NoPlatformInit*
 class CORDL_TYPE NoPlatformInit : public ::System::Object {
 public:
@@ -34,29 +32,35 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
   constexpr operator ::GlobalNamespace::IPlatformInit*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPlatformInit"
-  constexpr ::GlobalNamespace::IPlatformInit* i___GlobalNamespace__IPlatformInit() noexcept;
-
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Convert to "::Zenject::IInitializable"
-  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
-
-  /// @brief Method Initialize, addr 0x27fddd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x28ee6e0, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method get_IsInitialized, addr 0x27fddd4, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsInitialized();
-
-  /// @brief Method InitializeAsync, addr 0x27fdddc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x28ee6ec, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::NoPlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27fde44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ee754, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsInitialized, addr 0x28ee6e4, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsInitialized();
+
+  /// @brief Convert to "::GlobalNamespace::IPlatformInit"
+  constexpr ::GlobalNamespace::IPlatformInit* i___GlobalNamespace__IPlatformInit() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoPlatformInit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoPlatformInit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoPlatformInit(NoPlatformInit&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoPlatformInit(NoPlatformInit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoPlatformInit();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

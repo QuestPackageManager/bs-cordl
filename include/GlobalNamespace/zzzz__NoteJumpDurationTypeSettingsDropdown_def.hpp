@@ -25,19 +25,24 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4622)), TypeDefinitionIndex(TypeDefinitionIndex(5602)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5602), inst: 4748
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5606)) CS Name: ::NoteJumpDurationTypeSettingsDropdown*
+// CS Name: ::NoteJumpDurationTypeSettingsDropdown*
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x22ab764, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x23ad934, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ab858, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ada28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteJumpDurationTypeSettingsDropdown();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteJumpDurationTypeSettingsDropdown", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown&&) = delete;
@@ -46,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteJumpDurationTypeSettingsDropdown();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

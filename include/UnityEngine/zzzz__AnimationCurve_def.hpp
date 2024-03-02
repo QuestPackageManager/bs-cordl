@@ -27,89 +27,93 @@ MARK_REF_PTR_T(::UnityEngine::AnimationCurve);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
 // CS Name: ::UnityEngine::AnimationCurve*
 class CORDL_TYPE AnimationCurve : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
-
   __declspec(property(get = get_keys, put = set_keys))::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys;
 
   __declspec(property(get = get_length)) int32_t length;
 
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
+
+  /// @brief Method AddKey, addr 0x2d89830, size 0x54, virtual false, abstract: false, final false
+  inline int32_t AddKey(float_t time, float_t value);
+
+  /// @brief Method EaseInOut, addr 0x2d89a50, size 0x134, virtual false, abstract: false, final false
+  static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
+
+  /// @brief Method Equals, addr 0x2d89bd0, size 0xc8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* o);
+
+  /// @brief Method Equals, addr 0x2d89c98, size 0xc8, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::AnimationCurve* other);
+
+  /// @brief Method Evaluate, addr 0x2d896e4, size 0x4c, virtual false, abstract: false, final false
+  inline float_t Evaluate(float_t time);
+
+  /// @brief Method Finalize, addr 0x2d89628, size 0xbc, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetHashCode, addr 0x2d89d60, size 0xc, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetKeys, addr 0x2d8976c, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetKeys();
+
+  /// @brief Method Internal_Create, addr 0x2d895a8, size 0x3c, virtual false, abstract: false, final false
+  static inline void* Internal_Create(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+
+  /// @brief Method Internal_Destroy, addr 0x2d8956c, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Destroy(void* ptr);
+
+  /// @brief Method Internal_Equals, addr 0x2d895e4, size 0x44, virtual false, abstract: false, final false
+  inline bool Internal_Equals(void* other);
+
+  /// @brief Method Linear, addr 0x2d898c0, size 0x140, virtual false, abstract: false, final false
+  static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
+
+  static inline ::UnityEngine::AnimationCurve* New_ctor();
+
+  static inline ::UnityEngine::AnimationCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+
+  /// @brief Method SetKeys, addr 0x2d897ec, size 0x44, virtual false, abstract: false, final false
+  inline void SetKeys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
+  /// @brief Method .ctor, addr 0x2d89b84, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2d89a00, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
+
+  /// @brief Method get_keys, addr 0x2d89730, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> get_keys();
+
+  /// @brief Method get_length, addr 0x2d89884, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_length();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr ::System::IEquatable_1<::UnityEngine::AnimationCurve*>* i___System__IEquatable_1___UnityEngine__AnimationCurve__() noexcept;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
-
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
-
-  /// @brief Method Internal_Destroy, addr 0x2c9ead8, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(void* ptr);
-
-  /// @brief Method Internal_Create, addr 0x2c9eb14, size 0x3c, virtual false, abstract: false, final false
-  static inline void* Internal_Create(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
-
-  /// @brief Method Internal_Equals, addr 0x2c9eb50, size 0x44, virtual false, abstract: false, final false
-  inline bool Internal_Equals(void* other);
-
-  /// @brief Method Finalize, addr 0x2c9eb94, size 0xbc, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Evaluate, addr 0x2c9ec50, size 0x4c, virtual false, abstract: false, final false
-  inline float_t Evaluate(float_t time);
-
-  /// @brief Method get_keys, addr 0x2c9ec9c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> get_keys();
-
-  /// @brief Method set_keys, addr 0x2c9ed14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_keys, addr 0x2d897a8, size 0x44, virtual false, abstract: false, final false
   inline void set_keys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> value);
 
-  /// @brief Method AddKey, addr 0x2c9ed9c, size 0x54, virtual false, abstract: false, final false
-  inline int32_t AddKey(float_t time, float_t value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationCurve();
 
-  /// @brief Method get_length, addr 0x2c9edf0, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_length();
-
-  /// @brief Method SetKeys, addr 0x2c9ed58, size 0x44, virtual false, abstract: false, final false
-  inline void SetKeys(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
-
-  /// @brief Method GetKeys, addr 0x2c9ecd8, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetKeys();
-
-  /// @brief Method Linear, addr 0x2c9ee2c, size 0x140, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
-
-  /// @brief Method EaseInOut, addr 0x2c9efbc, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
-
-  static inline ::UnityEngine::AnimationCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
-
-  /// @brief Method .ctor, addr 0x2c9ef6c, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
-
-  static inline ::UnityEngine::AnimationCurve* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c9f0f0, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Equals, addr 0x2c9f13c, size 0xc8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
-
-  /// @brief Method Equals, addr 0x2c9f204, size 0xc8, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::AnimationCurve* other);
-
-  /// @brief Method GetHashCode, addr 0x2c9f2cc, size 0xc, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationCurve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationCurve(AnimationCurve&&) = delete;
@@ -118,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationCurve(AnimationCurve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationCurve();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

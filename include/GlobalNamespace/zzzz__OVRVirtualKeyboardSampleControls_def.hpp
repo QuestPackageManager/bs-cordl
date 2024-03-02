@@ -53,17 +53,19 @@ MARK_VAL_T(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyb
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8060))
 // CS Name: ::OVRVirtualKeyboardSampleControls::OVRVirtualKeyboardBackup
 struct CORDL_TYPE __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x279f9bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RestoreTo, addr 0x2891da4, size 0xc8, virtual false, abstract: false, final false
+  inline void RestoreTo(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
+
+  /// @brief Method .ctor, addr 0x28922c4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
 
-  /// @brief Method RestoreTo, addr 0x279f49c, size 0xc8, virtual false, abstract: false, final false
-  inline void RestoreTo(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup();
 
   // Ctor Parameters [CppParam { name: "_textCommitField", ty: "::UnityW<::UnityEngine::UI::InputField>", modifiers: "", def_value: None }, CppParam { name: "_position", ty: "::UnityEngine::Vector3",
   // modifiers: "", def_value: None }, CppParam { name: "_rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "_scale", ty: "::UnityEngine::Vector3",
@@ -81,10 +83,6 @@ public:
       ::UnityW<::UnityEngine::Transform> _leftControllerDirectTransform, ::UnityW<::UnityEngine::Transform> _leftControllerRootTransform, bool _controllerRayInteraction,
       bool _controllerDirectInteraction, ::UnityW<::GlobalNamespace::OVRHand> _handLeft, ::UnityW<::GlobalNamespace::OVRHand> _handRight, bool _handRayInteraction, bool _handDirectInteraction,
       ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> _controllerRaycaster, ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> _handRaycaster) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup();
 
   /// @brief Field _textCommitField, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::InputField> _textCommitField;
@@ -179,43 +177,45 @@ static_assert(offsetof(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OV
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8060)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8061))
 // CS Name: ::OVRVirtualKeyboardSampleControls*
 class CORDL_TYPE OVRVirtualKeyboardSampleControls : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using OVRVirtualKeyboardBackup = ::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup;
 
-  /// @brief Field ShowButton, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ShowButton, put = __cordl_internal_set_ShowButton))::UnityW<::UnityEngine::UI::Button> ShowButton;
-
-  /// @brief Field MoveButton, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_MoveButton, put = __cordl_internal_set_MoveButton))::UnityW<::UnityEngine::UI::Button> MoveButton;
+  /// @brief Field DestroyKeyboardButton, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_DestroyKeyboardButton, put = __cordl_internal_set_DestroyKeyboardButton))::UnityW<::UnityEngine::UI::Button> DestroyKeyboardButton;
 
   /// @brief Field HideButton, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_HideButton, put = __cordl_internal_set_HideButton))::UnityW<::UnityEngine::UI::Button> HideButton;
 
-  /// @brief Field MoveNearButton, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_MoveNearButton, put = __cordl_internal_set_MoveNearButton))::UnityW<::UnityEngine::UI::Button> MoveNearButton;
+  /// @brief Field MoveButton, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_MoveButton, put = __cordl_internal_set_MoveButton))::UnityW<::UnityEngine::UI::Button> MoveButton;
 
   /// @brief Field MoveFarButton, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_MoveFarButton, put = __cordl_internal_set_MoveFarButton))::UnityW<::UnityEngine::UI::Button> MoveFarButton;
 
-  /// @brief Field DestroyKeyboardButton, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestroyKeyboardButton, put = __cordl_internal_set_DestroyKeyboardButton))::UnityW<::UnityEngine::UI::Button> DestroyKeyboardButton;
+  /// @brief Field MoveNearButton, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_MoveNearButton, put = __cordl_internal_set_MoveNearButton))::UnityW<::UnityEngine::UI::Button> MoveNearButton;
 
-  /// @brief Field keyboard, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyboard, put = __cordl_internal_set_keyboard))::UnityW<::GlobalNamespace::OVRVirtualKeyboard> keyboard;
+  /// @brief Field ShowButton, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ShowButton, put = __cordl_internal_set_ShowButton))::UnityW<::UnityEngine::UI::Button> ShowButton;
 
   /// @brief Field inputHandler, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_inputHandler, put = __cordl_internal_set_inputHandler))::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler> inputHandler;
 
+  /// @brief Field isMovingKeyboardFinished_, offset 0x59, size 0x1
+  __declspec(property(get = __cordl_internal_get_isMovingKeyboardFinished_, put = __cordl_internal_set_isMovingKeyboardFinished_)) bool isMovingKeyboardFinished_;
+
   /// @brief Field isMovingKeyboard_, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_isMovingKeyboard_, put = __cordl_internal_set_isMovingKeyboard_)) bool isMovingKeyboard_;
 
-  /// @brief Field isMovingKeyboardFinished_, offset 0x59, size 0x1
-  __declspec(property(get = __cordl_internal_get_isMovingKeyboardFinished_, put = __cordl_internal_set_isMovingKeyboardFinished_)) bool isMovingKeyboardFinished_;
+  /// @brief Field keyboard, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyboard, put = __cordl_internal_set_keyboard))::UnityW<::GlobalNamespace::OVRVirtualKeyboard> keyboard;
+
+  /// @brief Field keyboardBackup, offset 0x68, size 0x80
+  __declspec(property(get = __cordl_internal_get_keyboardBackup,
+                      put = __cordl_internal_set_keyboardBackup))::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup keyboardBackup;
 
   /// @brief Field keyboardMoveDistance_, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_keyboardMoveDistance_, put = __cordl_internal_set_keyboardMoveDistance_)) float_t keyboardMoveDistance_;
@@ -223,126 +223,128 @@ public:
   /// @brief Field keyboardScale_, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_keyboardScale_, put = __cordl_internal_set_keyboardScale_)) float_t keyboardScale_;
 
-  /// @brief Field keyboardBackup, offset 0x68, size 0x80
-  __declspec(property(get = __cordl_internal_get_keyboardBackup,
-                      put = __cordl_internal_set_keyboardBackup))::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup keyboardBackup;
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_ShowButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_ShowButton() const;
-
-  constexpr void __cordl_internal_set_ShowButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveButton() const;
-
-  constexpr void __cordl_internal_set_MoveButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_HideButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_HideButton() const;
-
-  constexpr void __cordl_internal_set_HideButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveNearButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveNearButton() const;
-
-  constexpr void __cordl_internal_set_MoveNearButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveFarButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveFarButton() const;
-
-  constexpr void __cordl_internal_set_MoveFarButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_DestroyKeyboardButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_DestroyKeyboardButton() const;
-
-  constexpr void __cordl_internal_set_DestroyKeyboardButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get_keyboard();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get_keyboard() const;
-
-  constexpr void __cordl_internal_set_keyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler>& __cordl_internal_get_inputHandler();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler> const& __cordl_internal_get_inputHandler() const;
-
-  constexpr void __cordl_internal_set_inputHandler(::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler> value);
-
-  constexpr bool& __cordl_internal_get_isMovingKeyboard_();
-
-  constexpr bool const& __cordl_internal_get_isMovingKeyboard_() const;
-
-  constexpr void __cordl_internal_set_isMovingKeyboard_(bool value);
-
-  constexpr bool& __cordl_internal_get_isMovingKeyboardFinished_();
-
-  constexpr bool const& __cordl_internal_get_isMovingKeyboardFinished_() const;
-
-  constexpr void __cordl_internal_set_isMovingKeyboardFinished_(bool value);
-
-  constexpr float_t& __cordl_internal_get_keyboardMoveDistance_();
-
-  constexpr float_t const& __cordl_internal_get_keyboardMoveDistance_() const;
-
-  constexpr void __cordl_internal_set_keyboardMoveDistance_(float_t value);
-
-  constexpr float_t& __cordl_internal_get_keyboardScale_();
-
-  constexpr float_t const& __cordl_internal_get_keyboardScale_() const;
-
-  constexpr void __cordl_internal_set_keyboardScale_(float_t value);
-
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup& __cordl_internal_get_keyboardBackup();
-
-  constexpr ::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup const& __cordl_internal_get_keyboardBackup() const;
-
-  constexpr void __cordl_internal_set_keyboardBackup(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup value);
-
-  /// @brief Method Start, addr 0x279efe0, size 0x1cc, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x279f2b0, size 0x1ec, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method ShowKeyboard, addr 0x279f1ac, size 0x104, virtual false, abstract: false, final false
-  inline void ShowKeyboard();
-
-  /// @brief Method MoveKeyboard, addr 0x279f6bc, size 0x12c, virtual false, abstract: false, final false
-  inline void MoveKeyboard();
-
-  /// @brief Method MoveKeyboardNear, addr 0x279f80c, size 0x48, virtual false, abstract: false, final false
-  inline void MoveKeyboardNear();
-
-  /// @brief Method MoveKeyboardFar, addr 0x279f854, size 0x48, virtual false, abstract: false, final false
-  inline void MoveKeyboardFar();
-
-  /// @brief Method HideKeyboard, addr 0x279f89c, size 0x3c, virtual false, abstract: false, final false
-  inline void HideKeyboard();
-
-  /// @brief Method DestroyKeyboard, addr 0x279f8d8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DestroyKeyboard, addr 0x28921e0, size 0xe4, virtual false, abstract: false, final false
   inline void DestroyKeyboard();
 
-  /// @brief Method OnHideKeyboard, addr 0x279fa98, size 0x4, virtual false, abstract: false, final false
-  inline void OnHideKeyboard();
+  /// @brief Method HideKeyboard, addr 0x28921a4, size 0x3c, virtual false, abstract: false, final false
+  inline void HideKeyboard();
 
-  /// @brief Method UpdateButtonInteractable, addr 0x279f564, size 0x158, virtual false, abstract: false, final false
-  inline void UpdateButtonInteractable();
+  /// @brief Method MoveKeyboard, addr 0x2891fc4, size 0x12c, virtual false, abstract: false, final false
+  inline void MoveKeyboard();
 
-  /// @brief Method Update, addr 0x279fa9c, size 0x274, virtual false, abstract: false, final false
-  inline void Update();
+  /// @brief Method MoveKeyboardFar, addr 0x289215c, size 0x48, virtual false, abstract: false, final false
+  inline void MoveKeyboardFar();
+
+  /// @brief Method MoveKeyboardNear, addr 0x2892114, size 0x48, virtual false, abstract: false, final false
+  inline void MoveKeyboardNear();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleControls* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27a0030, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2891bb8, size 0x1ec, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnHideKeyboard, addr 0x28923a0, size 0x4, virtual false, abstract: false, final false
+  inline void OnHideKeyboard();
+
+  /// @brief Method ShowKeyboard, addr 0x2891ab4, size 0x104, virtual false, abstract: false, final false
+  inline void ShowKeyboard();
+
+  /// @brief Method Start, addr 0x28918e8, size 0x1cc, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x28923a4, size 0x274, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateButtonInteractable, addr 0x2891e6c, size 0x158, virtual false, abstract: false, final false
+  inline void UpdateButtonInteractable();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_DestroyKeyboardButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_DestroyKeyboardButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_HideButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_HideButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveFarButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveFarButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_MoveNearButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_MoveNearButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_ShowButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_ShowButton();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler> const& __cordl_internal_get_inputHandler() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler>& __cordl_internal_get_inputHandler();
+
+  constexpr bool const& __cordl_internal_get_isMovingKeyboardFinished_() const;
+
+  constexpr bool& __cordl_internal_get_isMovingKeyboardFinished_();
+
+  constexpr bool const& __cordl_internal_get_isMovingKeyboard_() const;
+
+  constexpr bool& __cordl_internal_get_isMovingKeyboard_();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get_keyboard() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard>& __cordl_internal_get_keyboard();
+
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup const& __cordl_internal_get_keyboardBackup() const;
+
+  constexpr ::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup& __cordl_internal_get_keyboardBackup();
+
+  constexpr float_t const& __cordl_internal_get_keyboardMoveDistance_() const;
+
+  constexpr float_t& __cordl_internal_get_keyboardMoveDistance_();
+
+  constexpr float_t const& __cordl_internal_get_keyboardScale_() const;
+
+  constexpr float_t& __cordl_internal_get_keyboardScale_();
+
+  constexpr void __cordl_internal_set_DestroyKeyboardButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_HideButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_MoveButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_MoveFarButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_MoveNearButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_ShowButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set_inputHandler(::UnityW<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler> value);
+
+  constexpr void __cordl_internal_set_isMovingKeyboardFinished_(bool value);
+
+  constexpr void __cordl_internal_set_isMovingKeyboard_(bool value);
+
+  constexpr void __cordl_internal_set_keyboard(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
+
+  constexpr void __cordl_internal_set_keyboardBackup(::GlobalNamespace::__OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup value);
+
+  constexpr void __cordl_internal_set_keyboardMoveDistance_(float_t value);
+
+  constexpr void __cordl_internal_set_keyboardScale_(float_t value);
+
+  /// @brief Method .ctor, addr 0x2892938, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRVirtualKeyboardSampleControls();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleControls", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControls&&) = delete;
@@ -351,12 +353,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRVirtualKeyboardSampleControls(OVRVirtualKeyboardSampleControls const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRVirtualKeyboardSampleControls();
-
-public:
   /// @brief Field ShowButton, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___ShowButton;
 

@@ -85,8 +85,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8145))
 // CS Name: ::OVRObjectPool::Storage`1<T>*
 class CORDL_TYPE __OVRObjectPool__Storage_1 : public ::System::Object {
 public:
@@ -94,10 +92,16 @@ public:
   /// @brief Field HashSet, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HashSet, put = setStaticF_HashSet))::System::Collections::Generic::HashSet_1<T>* HashSet;
 
-  static inline void setStaticF_HashSet(::System::Collections::Generic::HashSet_1<T>* value);
-
   static inline ::System::Collections::Generic::HashSet_1<T>* getStaticF_HashSet();
 
+  static inline void setStaticF_HashSet(::System::Collections::Generic::HashSet_1<T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRObjectPool__Storage_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRObjectPool__Storage_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRObjectPool__Storage_1(__OVRObjectPool__Storage_1&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRObjectPool__Storage_1(__OVRObjectPool__Storage_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRObjectPool__Storage_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -122,8 +120,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8146))
 // CS Name: ::OVRObjectPool::ListScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__ListScope_1 {
 public:
@@ -131,21 +127,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::List_1<T>*> list);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__ListScope_1(::System::Collections::Generic::List_1<T>* _list) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__ListScope_1();
+
+  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__ListScope_1(::System::Collections::Generic::List_1<T>* _list) noexcept;
 
   /// @brief Field _list, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* _list;
@@ -163,8 +159,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8147))
 // CS Name: ::OVRObjectPool::DictionaryScope`2<TKey,TValue>
 struct CORDL_TYPE __OVRObjectPool__DictionaryScope_2 {
 public:
@@ -172,21 +166,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> dictionary);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__DictionaryScope_2(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__DictionaryScope_2();
+
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__DictionaryScope_2(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary) noexcept;
 
   /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
@@ -204,8 +198,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8148))
 // CS Name: ::OVRObjectPool::HashSetScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__HashSetScope_1 {
 public:
@@ -213,21 +205,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::HashSet_1<T>*> set);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__HashSetScope_1(::System::Collections::Generic::HashSet_1<T>* _set) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__HashSetScope_1();
+
+  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__HashSetScope_1(::System::Collections::Generic::HashSet_1<T>* _set) noexcept;
 
   /// @brief Field _set, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<T>* _set;
@@ -245,8 +237,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8149))
 // CS Name: ::OVRObjectPool::StackScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__StackScope_1 {
 public:
@@ -254,21 +244,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Stack_1<T>*> stack);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__StackScope_1(::System::Collections::Generic::Stack_1<T>* _stack) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__StackScope_1();
+
+  // Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__StackScope_1(::System::Collections::Generic::Stack_1<T>* _stack) noexcept;
 
   /// @brief Field _stack, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<T>* _stack;
@@ -286,8 +276,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8150))
 // CS Name: ::OVRObjectPool::QueueScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__QueueScope_1 {
 public:
@@ -295,21 +283,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Collections::Generic::Queue_1<T>*> queue);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_queue", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__QueueScope_1(::System::Collections::Generic::Queue_1<T>* _queue) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__QueueScope_1();
+
+  // Ctor Parameters [CppParam { name: "_queue", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__QueueScope_1(::System::Collections::Generic::Queue_1<T>* _queue) noexcept;
 
   /// @brief Field _queue, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<T>* _queue;
@@ -327,8 +315,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8151))
 // CS Name: ::OVRObjectPool::ItemScope`1<T>
 struct CORDL_TYPE __OVRObjectPool__ItemScope_1 {
 public:
@@ -336,21 +322,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<T> item);
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  // Ctor Parameters [CppParam { name: "_item", ty: "T", modifiers: "", def_value: None }]
-  constexpr __OVRObjectPool__ItemScope_1(T _item) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRObjectPool__ItemScope_1();
+
+  // Ctor Parameters [CppParam { name: "_item", ty: "T", modifiers: "", def_value: None }]
+  constexpr __OVRObjectPool__ItemScope_1(T _item) noexcept;
 
   /// @brief Field _item, offset: 0x0, size: 0x8, def value: None
   T _item;
@@ -366,40 +352,35 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8152))
 // CS Name: ::OVRObjectPool*
 class CORDL_TYPE OVRObjectPool : public ::System::Object {
 public:
   // Declarations
+  template <typename TKey, typename TValue> using DictionaryScope_2 = ::GlobalNamespace::__OVRObjectPool__DictionaryScope_2<TKey, TValue>;
+
+  template <typename T> using HashSetScope_1 = ::GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>;
+
   template <typename T> using ItemScope_1 = ::GlobalNamespace::__OVRObjectPool__ItemScope_1<T>;
+
+  template <typename T> using ListScope_1 = ::GlobalNamespace::__OVRObjectPool__ListScope_1<T>;
 
   template <typename T> using QueueScope_1 = ::GlobalNamespace::__OVRObjectPool__QueueScope_1<T>;
 
   template <typename T> using StackScope_1 = ::GlobalNamespace::__OVRObjectPool__StackScope_1<T>;
 
-  template <typename T> using HashSetScope_1 = ::GlobalNamespace::__OVRObjectPool__HashSetScope_1<T>;
-
-  template <typename TKey, typename TValue> using DictionaryScope_2 = ::GlobalNamespace::__OVRObjectPool__DictionaryScope_2<TKey, TValue>;
-
-  template <typename T> using ListScope_1 = ::GlobalNamespace::__OVRObjectPool__ListScope_1<T>;
-
   template <typename T> using Storage_1 = ::GlobalNamespace::__OVRObjectPool__Storage_1<T>;
-
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Get();
-
-  /// @brief Method List, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::List_1<T>* List();
 
   /// @brief Method Dictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* Dictionary();
 
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T Get();
+
   /// @brief Method HashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::HashSet_1<T>* HashSet();
 
-  /// @brief Method Stack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::Stack_1<T>* Stack();
+  /// @brief Method List, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Collections::Generic::List_1<T>* List();
 
   /// @brief Method Queue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::Queue_1<T>* Queue();
@@ -408,14 +389,23 @@ public:
   template <typename T> static inline void Return(T obj);
 
   /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void Return(::System::Collections::Generic::Queue_1<T>* queue);
+
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Return(::System::Collections::Generic::HashSet_1<T>* set);
 
   /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Return(::System::Collections::Generic::Stack_1<T>* stack);
 
-  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Return(::System::Collections::Generic::Queue_1<T>* queue);
+  /// @brief Method Stack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Collections::Generic::Stack_1<T>* Stack();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRObjectPool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRObjectPool(OVRObjectPool&&) = delete;
@@ -424,12 +414,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRObjectPool(OVRObjectPool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRObjectPool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

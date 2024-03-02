@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::UnityEngine::PlayerPrefsException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10039))
 // CS Name: ::UnityEngine::PlayerPrefsException*
 class CORDL_TYPE PlayerPrefsException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x2c9e688, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d89258, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerPrefsException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefsException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerPrefsException(PlayerPrefsException&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerPrefsException(PlayerPrefsException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerPrefsException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

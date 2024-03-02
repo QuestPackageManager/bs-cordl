@@ -21,29 +21,33 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContext);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3143))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContext*
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
   // Declarations
-  static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24a616c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method SetCurrentCallContext, addr 0x24a6174, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
-
-  /// @brief Method SetLogicalCallContext, addr 0x24a617c, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
-
-  /// @brief Method LogicalGetData, addr 0x24a61c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LogicalGetData, addr 0x2598f2c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData, addr 0x24a6220, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogicalSetData, addr 0x2598f8c, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
+  static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
+
+  /// @brief Method SetCurrentCallContext, addr 0x2598ee0, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
+
+  /// @brief Method SetLogicalCallContext, addr 0x2598ee8, size 0x44, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
+
+  /// @brief Method .ctor, addr 0x2598ed8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallContext(CallContext&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallContext(CallContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallContext();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

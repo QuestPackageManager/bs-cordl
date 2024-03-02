@@ -15,18 +15,16 @@ MARK_VAL_T(::System::Reflection::ParameterModifier);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3484))
 // CS Name: ::System.Reflection::ParameterModifier
 struct CORDL_TYPE ParameterModifier {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "_byRef", ty: "::ArrayW<bool,::Array<bool>*>", modifiers: "", def_value: None }]
-  constexpr ParameterModifier(::ArrayW<bool, ::Array<bool>*> _byRef) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ParameterModifier();
+
+  // Ctor Parameters [CppParam { name: "_byRef", ty: "::ArrayW<bool,::Array<bool>*>", modifiers: "", def_value: None }]
+  constexpr ParameterModifier(::ArrayW<bool, ::Array<bool>*> _byRef) noexcept;
 
   /// @brief Field _byRef, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> _byRef;

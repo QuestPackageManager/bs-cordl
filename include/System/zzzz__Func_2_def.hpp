@@ -20,20 +20,24 @@ namespace System {
 // cpp template
 template <typename T, typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2332))
 // CS Name: ::System::Func`2<T,TResult>*
 class CORDL_TYPE Func_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TResult Invoke(T arg);
+
   static inline ::System::Func_2<T, TResult>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TResult Invoke(T arg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Func_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Func_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Func_2(Func_2&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Func_2(Func_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Func_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

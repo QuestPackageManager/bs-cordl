@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
 // CS Name: ::BGNet.Core.GameLift::IGameLiftPlayerSessionProvider*
 class CORDL_TYPE IGameLiftPlayerSessionProvider {
 public:
@@ -44,13 +42,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPollable"
-  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
-
   /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IGameLiftPlayerSessionProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

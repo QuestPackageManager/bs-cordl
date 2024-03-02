@@ -37,8 +37,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::DebuggerSupport);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2770))
 // CS Name: ::System.Threading.Tasks::DebuggerSupport*
 class CORDL_TYPE DebuggerSupport : public ::System::Object {
 public:
@@ -50,45 +48,51 @@ public:
   /// @brief Field s_activeTasksLock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_activeTasksLock, put = setStaticF_s_activeTasksLock))::System::Object* s_activeTasksLock;
 
-  static inline void setStaticF_s_activeTasks(::System::Collections::Generic::LowLevelDictionary_2<int32_t, ::System::Threading::Tasks::Task*>* value);
+  /// @brief Method AddToActiveTasks, addr 0x2716b34, size 0x94, virtual false, abstract: false, final false
+  static inline void AddToActiveTasks(::System::Threading::Tasks::Task* task);
 
-  static inline ::System::Collections::Generic::LowLevelDictionary_2<int32_t, ::System::Threading::Tasks::Task*>* getStaticF_s_activeTasks();
+  /// @brief Method AddToActiveTasksNonInlined, addr 0x2716bc8, size 0x15c, virtual false, abstract: false, final false
+  static inline void AddToActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
-  static inline void setStaticF_s_activeTasksLock(::System::Object* value);
+  /// @brief Method RemoveFromActiveTasks, addr 0x2716db4, size 0x94, virtual false, abstract: false, final false
+  static inline void RemoveFromActiveTasks(::System::Threading::Tasks::Task* task);
 
-  static inline ::System::Object* getStaticF_s_activeTasksLock();
+  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x2716e48, size 0x15c, virtual false, abstract: false, final false
+  static inline void RemoveFromActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method get_LoggingOn, addr 0x26222a8, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_LoggingOn();
-
-  /// @brief Method TraceOperationCreation, addr 0x26222b0, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::StringW operationName, uint64_t relatedContext);
-
-  /// @brief Method TraceOperationCompletion, addr 0x26222b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x2716b24, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::Internal::Runtime::Augments::AsyncStatus status);
 
-  /// @brief Method TraceOperationRelation, addr 0x26222b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x2716b20, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::StringW operationName, uint64_t relatedContext);
+
+  /// @brief Method TraceOperationRelation, addr 0x2716b28, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationRelation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::CausalityRelation relation);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x26222bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x2716b30, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
+
+  /// @brief Method TraceSynchronousWorkStart, addr 0x2716b2c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::Task* task,
                                                ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x26222c0, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
+  static inline ::System::Collections::Generic::LowLevelDictionary_2<int32_t, ::System::Threading::Tasks::Task*>* getStaticF_s_activeTasks();
 
-  /// @brief Method AddToActiveTasks, addr 0x26222c4, size 0x94, virtual false, abstract: false, final false
-  static inline void AddToActiveTasks(::System::Threading::Tasks::Task* task);
+  static inline ::System::Object* getStaticF_s_activeTasksLock();
 
-  /// @brief Method AddToActiveTasksNonInlined, addr 0x2622358, size 0x15c, virtual false, abstract: false, final false
-  static inline void AddToActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
+  /// @brief Method get_LoggingOn, addr 0x2716b18, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_LoggingOn();
 
-  /// @brief Method RemoveFromActiveTasks, addr 0x2622544, size 0x94, virtual false, abstract: false, final false
-  static inline void RemoveFromActiveTasks(::System::Threading::Tasks::Task* task);
+  static inline void setStaticF_s_activeTasks(::System::Collections::Generic::LowLevelDictionary_2<int32_t, ::System::Threading::Tasks::Task*>* value);
 
-  /// @brief Method RemoveFromActiveTasksNonInlined, addr 0x26225d8, size 0x15c, virtual false, abstract: false, final false
-  static inline void RemoveFromActiveTasksNonInlined(::System::Threading::Tasks::Task* task);
+  static inline void setStaticF_s_activeTasksLock(::System::Object* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebuggerSupport();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerSupport", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggerSupport(DebuggerSupport&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggerSupport(DebuggerSupport const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebuggerSupport();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

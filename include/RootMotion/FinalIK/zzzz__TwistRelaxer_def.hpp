@@ -22,23 +22,27 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::TwistRelaxer);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12594))
 // CS Name: ::RootMotion.FinalIK::TwistRelaxer*
 class CORDL_TYPE TwistRelaxer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field axis, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
+
+  /// @brief Field axisRelativeToChildDefault, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get_axisRelativeToChildDefault, put = __cordl_internal_set_axisRelativeToChildDefault))::UnityEngine::Vector3 axisRelativeToChildDefault;
+
+  /// @brief Field axisRelativeToParentDefault, offset 0x54, size 0xc
+  __declspec(property(get = __cordl_internal_get_axisRelativeToParentDefault, put = __cordl_internal_set_axisRelativeToParentDefault))::UnityEngine::Vector3 axisRelativeToParentDefault;
+
+  /// @brief Field child, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_child, put = __cordl_internal_set_child))::UnityW<::UnityEngine::Transform> child;
+
   /// @brief Field ik, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::IK> ik;
 
   /// @brief Field parent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::UnityW<::UnityEngine::Transform> parent;
-
-  /// @brief Field child, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_child, put = __cordl_internal_set_child))::UnityW<::UnityEngine::Transform> child;
-
-  /// @brief Field weight, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field parentChildCrossfade, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_parentChildCrossfade, put = __cordl_internal_set_parentChildCrossfade)) float_t parentChildCrossfade;
@@ -49,95 +53,95 @@ public:
   /// @brief Field twistAxis, offset 0x3c, size 0xc
   __declspec(property(get = __cordl_internal_get_twistAxis, put = __cordl_internal_set_twistAxis))::UnityEngine::Vector3 twistAxis;
 
-  /// @brief Field axis, offset 0x48, size 0xc
-  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
+  /// @brief Field weight, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  /// @brief Field axisRelativeToParentDefault, offset 0x54, size 0xc
-  __declspec(property(get = __cordl_internal_get_axisRelativeToParentDefault, put = __cordl_internal_set_axisRelativeToParentDefault))::UnityEngine::Vector3 axisRelativeToParentDefault;
-
-  /// @brief Field axisRelativeToChildDefault, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get_axisRelativeToChildDefault, put = __cordl_internal_set_axisRelativeToChildDefault))::UnityEngine::Vector3 axisRelativeToChildDefault;
-
-  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
-
-  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_parent();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_parent() const;
-
-  constexpr void __cordl_internal_set_parent(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_child();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_child() const;
-
-  constexpr void __cordl_internal_set_child(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_weight();
-
-  constexpr float_t const& __cordl_internal_get_weight() const;
-
-  constexpr void __cordl_internal_set_weight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_parentChildCrossfade();
-
-  constexpr float_t const& __cordl_internal_get_parentChildCrossfade() const;
-
-  constexpr void __cordl_internal_set_parentChildCrossfade(float_t value);
-
-  constexpr float_t& __cordl_internal_get_twistAngleOffset();
-
-  constexpr float_t const& __cordl_internal_get_twistAngleOffset() const;
-
-  constexpr void __cordl_internal_set_twistAngleOffset(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_twistAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_twistAxis() const;
-
-  constexpr void __cordl_internal_set_twistAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
-
-  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axisRelativeToParentDefault();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axisRelativeToParentDefault() const;
-
-  constexpr void __cordl_internal_set_axisRelativeToParentDefault(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axisRelativeToChildDefault();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axisRelativeToChildDefault() const;
-
-  constexpr void __cordl_internal_set_axisRelativeToChildDefault(::UnityEngine::Vector3 value);
-
-  /// @brief Method Relax, addr 0x1282e50, size 0x444, virtual false, abstract: false, final false
-  inline void Relax();
-
-  /// @brief Method Start, addr 0x1283294, size 0x3a0, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnPostUpdate, addr 0x1283634, size 0x78, virtual false, abstract: false, final false
-  inline void OnPostUpdate();
-
-  /// @brief Method LateUpdate, addr 0x12836ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x135d748, size 0x78, virtual false, abstract: false, final false
   inline void LateUpdate();
-
-  /// @brief Method OnDestroy, addr 0x1283724, size 0x118, virtual false, abstract: false, final false
-  inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::TwistRelaxer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x128383c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x135d7c0, size 0x118, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnPostUpdate, addr 0x135d6d0, size 0x78, virtual false, abstract: false, final false
+  inline void OnPostUpdate();
+
+  /// @brief Method Relax, addr 0x135ceec, size 0x444, virtual false, abstract: false, final false
+  inline void Relax();
+
+  /// @brief Method Start, addr 0x135d330, size 0x3a0, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axisRelativeToChildDefault() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axisRelativeToChildDefault();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axisRelativeToParentDefault() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axisRelativeToParentDefault();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_child() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_child();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_parent() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_parent();
+
+  constexpr float_t const& __cordl_internal_get_parentChildCrossfade() const;
+
+  constexpr float_t& __cordl_internal_get_parentChildCrossfade();
+
+  constexpr float_t const& __cordl_internal_get_twistAngleOffset() const;
+
+  constexpr float_t& __cordl_internal_get_twistAngleOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_twistAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_twistAxis();
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_axisRelativeToChildDefault(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_axisRelativeToParentDefault(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_child(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
+
+  constexpr void __cordl_internal_set_parent(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_parentChildCrossfade(float_t value);
+
+  constexpr void __cordl_internal_set_twistAngleOffset(float_t value);
+
+  constexpr void __cordl_internal_set_twistAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x135d8d8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TwistRelaxer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TwistRelaxer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwistRelaxer(TwistRelaxer&&) = delete;
@@ -146,12 +150,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TwistRelaxer(TwistRelaxer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TwistRelaxer();
-
-public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::IK> ___ik;
 

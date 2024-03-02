@@ -16,22 +16,20 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SphereInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9751))
 // CS Name: ::HoudiniEngineUnity::HAPI_SphereInfo
 struct CORDL_TYPE HAPI_SphereInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2191f20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f3e6c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
-
-  // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None
-  // }]
-  constexpr HAPI_SphereInfo(::ArrayW<float_t, ::Array<float_t>*> center, float_t radius) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_SphereInfo();
+
+  // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None
+  // }]
+  constexpr HAPI_SphereInfo(::ArrayW<float_t, ::Array<float_t>*> center, float_t radius) noexcept;
 
   /// @brief Field center, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> center;

@@ -19,18 +19,16 @@ MARK_VAL_T(::UnityEngine::UICharInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15905))
 // CS Name: ::UnityEngine::UICharInfo
 struct CORDL_TYPE UICharInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr UICharInfo(::UnityEngine::Vector2 cursorPos, float_t charWidth) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr UICharInfo();
+
+  // Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr UICharInfo(::UnityEngine::Vector2 cursorPos, float_t charWidth) noexcept;
 
   /// @brief Field cursorPos, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 cursorPos;

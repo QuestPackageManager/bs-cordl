@@ -19,27 +19,25 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilit
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6454))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6455))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorCapabilities
 struct CORDL_TYPE AndroidSensorCapabilities {
 public:
   // Declarations
-  /// @brief Method ToJson, addr 0x2ae6c10, size 0x64, virtual false, abstract: false, final false
-  inline ::StringW ToJson();
-
-  /// @brief Method FromJson, addr 0x2ae6c74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2bcd8b4, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToString, addr 0x2ae6d14, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method ToJson, addr 0x2bcd850, size 0x64, virtual false, abstract: false, final false
+  inline ::StringW ToJson();
 
-  // Ctor Parameters [CppParam { name: "sensorType", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType", modifiers: "", def_value: None }]
-  constexpr AndroidSensorCapabilities(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType) noexcept;
+  /// @brief Method ToString, addr 0x2bcd954, size 0x98, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidSensorCapabilities();
+
+  // Ctor Parameters [CppParam { name: "sensorType", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType", modifiers: "", def_value: None }]
+  constexpr AndroidSensorCapabilities(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType) noexcept;
 
   /// @brief Field sensorType, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType;

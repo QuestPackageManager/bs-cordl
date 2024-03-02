@@ -19,35 +19,33 @@ MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNodeRef);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeRef
 struct CORDL_TYPE XPathNodeRef {
 public:
   // Declarations
-  __declspec(property(get = get_Page))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> Page;
-
   __declspec(property(get = get_Index)) int32_t Index;
 
-  /// @brief Method .ctor, addr 0x28eb7a4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
+  __declspec(property(get = get_Page))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> Page;
 
-  /// @brief Method get_Page, addr 0x28eb7b0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
-
-  /// @brief Method get_Index, addr 0x28eb7b8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Index();
-
-  /// @brief Method GetHashCode, addr 0x28eb7c0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29d52a4, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam {
-  // name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _page, int32_t _idx) noexcept;
+  /// @brief Method .ctor, addr 0x29d5288, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
+
+  /// @brief Method get_Index, addr 0x29d529c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Index();
+
+  /// @brief Method get_Page, addr 0x29d5294, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XPathNodeRef();
+
+  // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode,::Array<::MS::Internal::Xml::Cache::XPathNode>*>", modifiers: "", def_value: None }, CppParam {
+  // name: "_idx", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _page, int32_t _idx) noexcept;
 
   /// @brief Field _page, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _page;

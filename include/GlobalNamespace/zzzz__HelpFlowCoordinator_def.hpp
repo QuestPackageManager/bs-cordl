@@ -61,12 +61,18 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpFlowCoordinator);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5499))
 // CS Name: ::HelpFlowCoordinator*
 class CORDL_TYPE HelpFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
+  /// @brief Field _eulaDisplayViewController, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__eulaDisplayViewController,
+                      put = __cordl_internal_set__eulaDisplayViewController))::UnityW<::GlobalNamespace::EulaDisplayViewController> _eulaDisplayViewController;
+
+  /// @brief Field _healthWarningDisplayViewController, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__healthWarningDisplayViewController,
+                      put = __cordl_internal_set__healthWarningDisplayViewController))::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> _healthWarningDisplayViewController;
+
   /// @brief Field _helpMenuViewController, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__helpMenuViewController,
                       put = __cordl_internal_set__helpMenuViewController))::UnityW<::GlobalNamespace::HelpMenuViewController> _helpMenuViewController;
@@ -79,141 +85,139 @@ public:
   __declspec(property(get = __cordl_internal_get__howToPlayViewController,
                       put = __cordl_internal_set__howToPlayViewController))::UnityW<::GlobalNamespace::HowToPlayViewController> _howToPlayViewController;
 
-  /// @brief Field _healthWarningDisplayViewController, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthWarningDisplayViewController,
-                      put = __cordl_internal_set__healthWarningDisplayViewController))::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> _healthWarningDisplayViewController;
-
-  /// @brief Field _privacyPolicyDisplayViewController, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__privacyPolicyDisplayViewController,
-                      put = __cordl_internal_set__privacyPolicyDisplayViewController))::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> _privacyPolicyDisplayViewController;
-
-  /// @brief Field _eulaDisplayViewController, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__eulaDisplayViewController,
-                      put = __cordl_internal_set__eulaDisplayViewController))::UnityW<::GlobalNamespace::EulaDisplayViewController> _eulaDisplayViewController;
-
   /// @brief Field _licensesDisplayViewController, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__licensesDisplayViewController,
                       put = __cordl_internal_set__licensesDisplayViewController))::UnityW<::GlobalNamespace::LicensesDisplayViewController> _licensesDisplayViewController;
+
+  /// @brief Field _menuTransitionsHelper, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
+
+  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _playerStatisticsViewController, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__playerStatisticsViewController,
                       put = __cordl_internal_set__playerStatisticsViewController))::UnityW<::GlobalNamespace::PlayerStatisticsViewController> _playerStatisticsViewController;
 
-  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
-  /// @brief Field _menuTransitionsHelper, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
-
-  /// @brief Field didFinishEvent, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* didFinishEvent;
+  /// @brief Field _privacyPolicyDisplayViewController, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__privacyPolicyDisplayViewController,
+                      put = __cordl_internal_set__privacyPolicyDisplayViewController))::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> _privacyPolicyDisplayViewController;
 
   /// @brief Field _viewControllers, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__viewControllers,
                       put = __cordl_internal_set__viewControllers))::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* _viewControllers;
 
-  constexpr ::UnityW<::GlobalNamespace::HelpMenuViewController>& __cordl_internal_get__helpMenuViewController();
+  /// @brief Field didFinishEvent, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* didFinishEvent;
 
-  constexpr ::UnityW<::GlobalNamespace::HelpMenuViewController> const& __cordl_internal_get__helpMenuViewController() const;
+  /// @brief Method BackButtonWasPressed, addr 0x24b3c0c, size 0x20, virtual true, abstract: false, final false
+  inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  constexpr void __cordl_internal_set__helpMenuViewController(::UnityW<::GlobalNamespace::HelpMenuViewController> value);
+  /// @brief Method DidActivate, addr 0x24b3414, size 0x50c, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::GlobalNamespace::HelpNavigationController>& __cordl_internal_get__helpNavigationController();
+  /// @brief Method DidDeactivate, addr 0x24b3920, size 0x10c, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr ::UnityW<::GlobalNamespace::HelpNavigationController> const& __cordl_internal_get__helpNavigationController() const;
+  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x24b3a2c, size 0x64, virtual false, abstract: false, final false
+  inline void HandleDidSelectHelpSubMenu(int32_t idx);
 
-  constexpr void __cordl_internal_set__helpNavigationController(::UnityW<::GlobalNamespace::HelpNavigationController> value);
+  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x24b3b94, size 0x78, virtual false, abstract: false, final false
+  inline void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions howToPlayOptions);
 
-  constexpr ::UnityW<::GlobalNamespace::HowToPlayViewController>& __cordl_internal_get__howToPlayViewController();
+  static inline ::GlobalNamespace::HelpFlowCoordinator* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::HowToPlayViewController> const& __cordl_internal_get__howToPlayViewController() const;
-
-  constexpr void __cordl_internal_set__howToPlayViewController(::UnityW<::GlobalNamespace::HowToPlayViewController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::HealthWarningDisplayViewController>& __cordl_internal_get__healthWarningDisplayViewController();
-
-  constexpr ::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> const& __cordl_internal_get__healthWarningDisplayViewController() const;
-
-  constexpr void __cordl_internal_set__healthWarningDisplayViewController(::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController>& __cordl_internal_get__privacyPolicyDisplayViewController();
-
-  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> const& __cordl_internal_get__privacyPolicyDisplayViewController() const;
-
-  constexpr void __cordl_internal_set__privacyPolicyDisplayViewController(::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::EulaDisplayViewController>& __cordl_internal_get__eulaDisplayViewController();
+  /// @brief Method ReplaceViewController, addr 0x24b3a90, size 0x104, virtual false, abstract: false, final false
+  inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
   constexpr ::UnityW<::GlobalNamespace::EulaDisplayViewController> const& __cordl_internal_get__eulaDisplayViewController() const;
 
-  constexpr void __cordl_internal_set__eulaDisplayViewController(::UnityW<::GlobalNamespace::EulaDisplayViewController> value);
+  constexpr ::UnityW<::GlobalNamespace::EulaDisplayViewController>& __cordl_internal_get__eulaDisplayViewController();
 
-  constexpr ::UnityW<::GlobalNamespace::LicensesDisplayViewController>& __cordl_internal_get__licensesDisplayViewController();
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> const& __cordl_internal_get__healthWarningDisplayViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningDisplayViewController>& __cordl_internal_get__healthWarningDisplayViewController();
+
+  constexpr ::UnityW<::GlobalNamespace::HelpMenuViewController> const& __cordl_internal_get__helpMenuViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HelpMenuViewController>& __cordl_internal_get__helpMenuViewController();
+
+  constexpr ::UnityW<::GlobalNamespace::HelpNavigationController> const& __cordl_internal_get__helpNavigationController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HelpNavigationController>& __cordl_internal_get__helpNavigationController();
+
+  constexpr ::UnityW<::GlobalNamespace::HowToPlayViewController> const& __cordl_internal_get__howToPlayViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HowToPlayViewController>& __cordl_internal_get__howToPlayViewController();
 
   constexpr ::UnityW<::GlobalNamespace::LicensesDisplayViewController> const& __cordl_internal_get__licensesDisplayViewController() const;
 
-  constexpr void __cordl_internal_set__licensesDisplayViewController(::UnityW<::GlobalNamespace::LicensesDisplayViewController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerStatisticsViewController>& __cordl_internal_get__playerStatisticsViewController();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerStatisticsViewController> const& __cordl_internal_get__playerStatisticsViewController() const;
-
-  constexpr void __cordl_internal_set__playerStatisticsViewController(::UnityW<::GlobalNamespace::PlayerStatisticsViewController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
-
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
+  constexpr ::UnityW<::GlobalNamespace::LicensesDisplayViewController>& __cordl_internal_get__licensesDisplayViewController();
 
   constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
+  constexpr ::UnityW<::GlobalNamespace::PlayerStatisticsViewController> const& __cordl_internal_get__playerStatisticsViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerStatisticsViewController>& __cordl_internal_get__playerStatisticsViewController();
+
+  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> const& __cordl_internal_get__privacyPolicyDisplayViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController>& __cordl_internal_get__privacyPolicyDisplayViewController();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*& __cordl_internal_get__viewControllers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*> const&
   __cordl_internal_get__viewControllers() const;
 
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*> const& __cordl_internal_get_didFinishEvent() const;
+
+  constexpr void __cordl_internal_set__eulaDisplayViewController(::UnityW<::GlobalNamespace::EulaDisplayViewController> value);
+
+  constexpr void __cordl_internal_set__healthWarningDisplayViewController(::UnityW<::GlobalNamespace::HealthWarningDisplayViewController> value);
+
+  constexpr void __cordl_internal_set__helpMenuViewController(::UnityW<::GlobalNamespace::HelpMenuViewController> value);
+
+  constexpr void __cordl_internal_set__helpNavigationController(::UnityW<::GlobalNamespace::HelpNavigationController> value);
+
+  constexpr void __cordl_internal_set__howToPlayViewController(::UnityW<::GlobalNamespace::HowToPlayViewController> value);
+
+  constexpr void __cordl_internal_set__licensesDisplayViewController(::UnityW<::GlobalNamespace::LicensesDisplayViewController> value);
+
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
+
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+
+  constexpr void __cordl_internal_set__playerStatisticsViewController(::UnityW<::GlobalNamespace::PlayerStatisticsViewController> value);
+
+  constexpr void __cordl_internal_set__privacyPolicyDisplayViewController(::UnityW<::GlobalNamespace::PrivacyPolicyDisplayViewController> value);
+
   constexpr void __cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x2289ca8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2289d58, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
-
-  /// @brief Method DidActivate, addr 0x2289e08, size 0x50c, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0x228a314, size 0x10c, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x228a420, size 0x64, virtual false, abstract: false, final false
-  inline void HandleDidSelectHelpSubMenu(int32_t idx);
-
-  /// @brief Method ReplaceViewController, addr 0x228a484, size 0x104, virtual false, abstract: false, final false
-  inline void ReplaceViewController(::HMUI::ViewController* viewController);
-
-  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x228a588, size 0x78, virtual false, abstract: false, final false
-  inline void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions howToPlayOptions);
-
-  /// @brief Method BackButtonWasPressed, addr 0x228a600, size 0x20, virtual true, abstract: false, final false
-  inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
-
-  static inline ::GlobalNamespace::HelpFlowCoordinator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x228a620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b3c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didFinishEvent, addr 0x24b32b4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
+
+  /// @brief Method remove_didFinishEvent, addr 0x24b3364, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HelpFlowCoordinator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpFlowCoordinator(HelpFlowCoordinator&&) = delete;
@@ -222,12 +226,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpFlowCoordinator(HelpFlowCoordinator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HelpFlowCoordinator();
-
-public:
   /// @brief Field _helpMenuViewController, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HelpMenuViewController> ____helpMenuViewController;
 
@@ -264,20 +262,20 @@ public:
   /// @brief Field _viewControllers, offset: 0x100, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* ____viewControllers;
 
-  /// @brief Field kHowToPlayMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHowToPlayMenu{ u"LABEL_HOW_TO_PLAY" };
-
-  /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
-
   /// @brief Field kEulaMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kEulaMenu{ u"EULA_MENU" };
+
+  /// @brief Field kHealthWarningMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kHealthWarningMenu{ u"HEALTH_AND_SAFETY_MENU" };
+
+  /// @brief Field kHowToPlayMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kHowToPlayMenu{ u"LABEL_HOW_TO_PLAY" };
 
   /// @brief Field kLicensesMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kLicensesMenu{ u"SOFTWARE_LICENSES" };
 
-  /// @brief Field kHealthWarningMenu offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHealthWarningMenu{ u"HEALTH_AND_SAFETY_MENU" };
+  /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
+  static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

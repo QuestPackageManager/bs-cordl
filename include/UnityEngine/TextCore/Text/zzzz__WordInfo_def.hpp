@@ -15,19 +15,17 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13712))
 // CS Name: ::UnityEngine.TextCore.Text::WordInfo
 struct CORDL_TYPE WordInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr WordInfo(int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr WordInfo();
+
+  // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr WordInfo(int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
 
   /// @brief Field firstCharacterIndex, offset: 0x0, size: 0x4, def value: None
   int32_t firstCharacterIndex;

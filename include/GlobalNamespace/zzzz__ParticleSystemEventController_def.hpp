@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__ParticleSystemEventController__Pool);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4966))
 // CS Name: ::ParticleSystemEventController*
 class CORDL_TYPE ParticleSystemEventController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -43,60 +41,66 @@ public:
   /// @brief Field <startTime>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__startTime_k__BackingField, put = __cordl_internal_set__startTime_k__BackingField)) float_t _startTime_k__BackingField;
 
-  __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
-
   __declspec(property(get = get_endTime)) float_t endTime;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+  __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
-
-  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
-
-  constexpr float_t& __cordl_internal_get__particleSystemFullDuration();
-
-  constexpr float_t const& __cordl_internal_get__particleSystemFullDuration() const;
-
-  constexpr void __cordl_internal_set__particleSystemFullDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__startTime_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__startTime_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
-
-  /// @brief Method get_startTime, addr 0x23b02c4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_startTime();
-
-  /// @brief Method set_startTime, addr 0x23b02cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_startTime(float_t value);
-
-  /// @brief Method get_endTime, addr 0x23afae4, size 0xc, virtual false, abstract: false, final false
-  inline float_t get_endTime();
-
-  /// @brief Method Init, addr 0x23af748, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x243d7c4, size 0x30, virtual false, abstract: false, final false
   inline void Init(float_t startTime);
 
-  /// @brief Method InitSpeed, addr 0x23b01c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InitSpeed, addr 0x243e244, size 0x4c, virtual false, abstract: false, final false
   inline void InitSpeed(float_t simulationSpeedMultiplier);
 
-  /// @brief Method Play, addr 0x23b00f0, size 0x1c, virtual false, abstract: false, final false
-  inline void Play();
-
-  /// @brief Method Pause, addr 0x23aff5c, size 0x1c, virtual false, abstract: false, final false
-  inline void Pause();
-
-  /// @brief Method Stop, addr 0x23af45c, size 0x1c, virtual false, abstract: false, final false
-  inline void Stop();
-
-  /// @brief Method ManualUpdate, addr 0x23afaf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x243db6c, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t time, float_t deltaTime);
 
   static inline ::GlobalNamespace::ParticleSystemEventController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b02d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x243dfd8, size 0x1c, virtual false, abstract: false, final false
+  inline void Pause();
+
+  /// @brief Method Play, addr 0x243e16c, size 0x1c, virtual false, abstract: false, final false
+  inline void Play();
+
+  /// @brief Method Stop, addr 0x243d4d8, size 0x1c, virtual false, abstract: false, final false
+  inline void Stop();
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+
+  constexpr float_t const& __cordl_internal_get__particleSystemFullDuration() const;
+
+  constexpr float_t& __cordl_internal_get__particleSystemFullDuration();
+
+  constexpr float_t const& __cordl_internal_get__startTime_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__startTime_k__BackingField();
+
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
+
+  constexpr void __cordl_internal_set__particleSystemFullDuration(float_t value);
+
+  constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
+
+  /// @brief Method .ctor, addr 0x243e350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_endTime, addr 0x243db60, size 0xc, virtual false, abstract: false, final false
+  inline float_t get_endTime();
+
+  /// @brief Method get_startTime, addr 0x243e340, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_startTime();
+
+  /// @brief Method set_startTime, addr 0x243e348, size 0x8, virtual false, abstract: false, final false
+  inline void set_startTime(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParticleSystemEventController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEventController(ParticleSystemEventController&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleSystemEventController(ParticleSystemEventController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParticleSystemEventController();
-
-public:
   /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
@@ -139,16 +137,21 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____sta
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4966)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2825 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
+// CS Name: ::ParticleSystemEventController::Pool*
 class CORDL_TYPE __ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ParticleSystemEventController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b02dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243e358, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ParticleSystemEventController__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ParticleSystemEventController__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ParticleSystemEventController__Pool(__ParticleSystemEventController__Pool&&) = delete;
@@ -157,12 +160,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ParticleSystemEventController__Pool(__ParticleSystemEventController__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ParticleSystemEventController__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

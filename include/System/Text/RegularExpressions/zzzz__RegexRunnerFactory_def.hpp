@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunnerFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8930))
 // CS Name: ::System.Text.RegularExpressions::RegexRunnerFactory*
 class CORDL_TYPE RegexRunnerFactory : public ::System::Object {
 public:
@@ -26,6 +24,12 @@ public:
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::RegularExpressions::RegexRunner* CreateInstance();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RegexRunnerFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexRunnerFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexRunnerFactory(RegexRunnerFactory&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RegexRunnerFactory(RegexRunnerFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexRunnerFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

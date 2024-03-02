@@ -24,47 +24,51 @@ MARK_REF_PTR_T(::GlobalNamespace::ReportingCallbackSample);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13219))
 // CS Name: ::ReportingCallbackSample*
 class CORDL_TYPE ReportingCallbackSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field InVRConsole, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole))::UnityW<::UnityEngine::UI::Text> InVRConsole;
-
   /// @brief Field DestinationsConsole, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_DestinationsConsole, put = __cordl_internal_set_DestinationsConsole))::UnityW<::UnityEngine::UI::Text> DestinationsConsole;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_InVRConsole();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_InVRConsole() const;
-
-  constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_DestinationsConsole();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
-
-  constexpr void __cordl_internal_set_DestinationsConsole(::UnityW<::UnityEngine::UI::Text> value);
-
-  /// @brief Method Start, addr 0x26cce5c, size 0xf8, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnReportButtonIntentNotif, addr 0x26cd000, size 0xa0, virtual false, abstract: false, final false
-  inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
-
-  /// @brief Method UpdateConsole, addr 0x26ccf54, size 0xac, virtual false, abstract: false, final false
-  inline void UpdateConsole(::StringW value);
+  /// @brief Field InVRConsole, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole))::UnityW<::UnityEngine::UI::Text> InVRConsole;
 
   static inline ::GlobalNamespace::ReportingCallbackSample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26cd1ec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method OnReportButtonIntentNotif, addr 0x27be908, size 0xa0, virtual false, abstract: false, final false
+  inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method <Start>b__2_0, addr 0x26cd1f4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27be764, size 0xf8, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method UpdateConsole, addr 0x27be85c, size 0xac, virtual false, abstract: false, final false
+  inline void UpdateConsole(::StringW value);
+
+  /// @brief Method <Start>b__2_0, addr 0x27beafc, size 0xe8, virtual false, abstract: false, final false
   inline void _Start_b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_DestinationsConsole();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_InVRConsole() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_InVRConsole();
+
+  constexpr void __cordl_internal_set_DestinationsConsole(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
+
+  /// @brief Method .ctor, addr 0x27beaf4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReportingCallbackSample();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ReportingCallbackSample", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReportingCallbackSample(ReportingCallbackSample&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReportingCallbackSample(ReportingCallbackSample const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReportingCallbackSample();
-
-public:
   /// @brief Field InVRConsole, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___InVRConsole;
 

@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD4);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2279))
 // CS Name: ::Mono.Security.Cryptography::MD4*
 class CORDL_TYPE MD4 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  static inline ::Mono::Security::Cryptography::MD4* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2420efc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Create, addr 0x2420f1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x24f4a68, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD4* Create();
 
+  static inline ::Mono::Security::Cryptography::MD4* New_ctor();
+
+  /// @brief Method .ctor, addr 0x24f4a48, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MD4();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MD4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MD4(MD4&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MD4(MD4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MD4();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

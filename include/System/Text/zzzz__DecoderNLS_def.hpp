@@ -20,12 +20,17 @@ MARK_REF_PTR_T(::System::Text::DecoderNLS);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2835))
 // CS Name: ::System.Text::DecoderNLS*
 class CORDL_TYPE DecoderNLS : public ::System::Text::Decoder {
 public:
   // Declarations
+  __declspec(property(get = get_HasState)) bool HasState;
+
+  __declspec(property(get = get_MustFlush)) bool MustFlush;
+
+  /// @brief Field _bytesUsed, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__bytesUsed, put = __cordl_internal_set__bytesUsed)) int32_t _bytesUsed;
+
   /// @brief Field _encoding, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
@@ -35,80 +40,79 @@ public:
   /// @brief Field _throwOnOverflow, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__throwOnOverflow, put = __cordl_internal_set__throwOnOverflow)) bool _throwOnOverflow;
 
-  /// @brief Field _bytesUsed, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bytesUsed, put = __cordl_internal_set__bytesUsed)) int32_t _bytesUsed;
+  /// @brief Method ClearMustFlush, addr 0x2726d48, size 0x8, virtual false, abstract: false, final false
+  inline void ClearMustFlush();
 
-  __declspec(property(get = get_MustFlush)) bool MustFlush;
+  /// @brief Method Convert, addr 0x27268bc, size 0x2d0, virtual true, abstract: false, final false
+  inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
+                      ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
 
-  __declspec(property(get = get_HasState)) bool HasState;
+  /// @brief Method Convert, addr 0x2726b8c, size 0x1ac, virtual true, abstract: false, final false
+  inline void Convert(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush, ByRef<int32_t> bytesUsed,
+                      ByRef<int32_t> charsUsed, ByRef<bool> completed);
+
+  /// @brief Method GetCharCount, addr 0x2726214, size 0x10, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
+
+  /// @brief Method GetCharCount, addr 0x2726224, size 0x1d8, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count, bool flush);
+
+  /// @brief Method GetCharCount, addr 0x27263fc, size 0xf8, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, bool flush);
+
+  /// @brief Method GetChars, addr 0x27264f4, size 0x10, virtual true, abstract: false, final false
+  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
+
+  /// @brief Method GetChars, addr 0x2726504, size 0x298, virtual true, abstract: false, final false
+  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, bool flush);
+
+  /// @brief Method GetChars, addr 0x272679c, size 0x120, virtual true, abstract: false, final false
+  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush);
+
+  static inline ::System::Text::DecoderNLS* New_ctor(::System::Text::Encoding* encoding);
+
+  /// @brief Method Reset, addr 0x27261fc, size 0x18, virtual true, abstract: false, final false
+  inline void Reset();
+
+  constexpr int32_t const& __cordl_internal_get__bytesUsed() const;
+
+  constexpr int32_t& __cordl_internal_get__bytesUsed();
 
   constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+  constexpr bool const& __cordl_internal_get__mustFlush() const;
 
   constexpr bool& __cordl_internal_get__mustFlush();
 
-  constexpr bool const& __cordl_internal_get__mustFlush() const;
-
-  constexpr void __cordl_internal_set__mustFlush(bool value);
+  constexpr bool const& __cordl_internal_get__throwOnOverflow() const;
 
   constexpr bool& __cordl_internal_get__throwOnOverflow();
 
-  constexpr bool const& __cordl_internal_get__throwOnOverflow() const;
+  constexpr void __cordl_internal_set__bytesUsed(int32_t value);
+
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+
+  constexpr void __cordl_internal_set__mustFlush(bool value);
 
   constexpr void __cordl_internal_set__throwOnOverflow(bool value);
 
-  constexpr int32_t& __cordl_internal_get__bytesUsed();
-
-  constexpr int32_t const& __cordl_internal_get__bytesUsed() const;
-
-  constexpr void __cordl_internal_set__bytesUsed(int32_t value);
-
-  static inline ::System::Text::DecoderNLS* New_ctor(::System::Text::Encoding* encoding);
-
-  /// @brief Method .ctor, addr 0x262ff08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724778, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method Reset, addr 0x263198c, size 0x18, virtual true, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method GetCharCount, addr 0x26319a4, size 0x10, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
-
-  /// @brief Method GetCharCount, addr 0x26319b4, size 0x1d8, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count, bool flush);
-
-  /// @brief Method GetCharCount, addr 0x2631b8c, size 0xf8, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, bool flush);
-
-  /// @brief Method GetChars, addr 0x2631c84, size 0x10, virtual true, abstract: false, final false
-  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
-
-  /// @brief Method GetChars, addr 0x2631c94, size 0x298, virtual true, abstract: false, final false
-  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, bool flush);
-
-  /// @brief Method GetChars, addr 0x2631f2c, size 0x120, virtual true, abstract: false, final false
-  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush);
-
-  /// @brief Method Convert, addr 0x263204c, size 0x2d0, virtual true, abstract: false, final false
-  inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
-                      ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
-
-  /// @brief Method Convert, addr 0x263231c, size 0x1ac, virtual true, abstract: false, final false
-  inline void Convert(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush, ByRef<int32_t> bytesUsed,
-                      ByRef<int32_t> charsUsed, ByRef<bool> completed);
-
-  /// @brief Method get_MustFlush, addr 0x26324c8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_MustFlush();
-
-  /// @brief Method get_HasState, addr 0x26324d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasState, addr 0x2726d40, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasState();
 
-  /// @brief Method ClearMustFlush, addr 0x26324d8, size 0x8, virtual false, abstract: false, final false
-  inline void ClearMustFlush();
+  /// @brief Method get_MustFlush, addr 0x2726d38, size 0x8, virtual false, abstract: false, final false
+  inline bool get_MustFlush();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecoderNLS();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DecoderNLS", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecoderNLS(DecoderNLS&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoderNLS(DecoderNLS const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecoderNLS();
-
-public:
   /// @brief Field _encoding, offset: 0x20, size: 0x8, def value: None
   ::System::Text::Encoding* ____encoding;
 

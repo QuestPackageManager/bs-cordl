@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::System::Resources::FileBasedResourceGroveler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3433))
 // CS Name: ::System.Resources::FileBasedResourceGroveler*
 class CORDL_TYPE FileBasedResourceGroveler : public ::System::Object {
 public:
@@ -32,8 +30,7 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Convert to "::System::Resources::IResourceGroveler"
-  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
+  static inline ::System::Resources::FileBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& __cordl_internal_get__mediator();
 
@@ -41,11 +38,18 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value);
 
-  static inline ::System::Resources::FileBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
-
-  /// @brief Method .ctor, addr 0x24e0f64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1cd0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
+  /// @brief Convert to "::System::Resources::IResourceGroveler"
+  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileBasedResourceGroveler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileBasedResourceGroveler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileBasedResourceGroveler(FileBasedResourceGroveler&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileBasedResourceGroveler(FileBasedResourceGroveler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileBasedResourceGroveler();
-
-public:
   /// @brief Field _mediator, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::__ResourceManager__ResourceManagerMediator* ____mediator;
 

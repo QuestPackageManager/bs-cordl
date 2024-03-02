@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
 // CS Name: ::System.Net.Http::HttpMessageHandler*
 class CORDL_TYPE HttpMessageHandler : public ::System::Object {
 public:
@@ -38,24 +36,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  /// @brief Method Dispose, addr 0x2833428, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x291d018, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x282cbfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2916860, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
+
+  static inline ::System::Net::Http::HttpMessageHandler* New_ctor();
 
   /// @brief Method SendAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  static inline ::System::Net::Http::HttpMessageHandler* New_ctor();
-
-  /// @brief Method .ctor, addr 0x282c8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2916524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpMessageHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpMessageHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpMessageHandler(HttpMessageHandler&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpMessageHandler(HttpMessageHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpMessageHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

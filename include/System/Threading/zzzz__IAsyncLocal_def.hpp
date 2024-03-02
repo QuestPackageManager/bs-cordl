@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::Threading::IAsyncLocal);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2658))
 // CS Name: ::System.Threading::IAsyncLocal*
 class CORDL_TYPE IAsyncLocal {
 public:

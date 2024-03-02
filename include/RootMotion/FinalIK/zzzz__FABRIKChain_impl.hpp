@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::FABRIKChain::*)(ByRef<::StringW>)>(&::RootMotion::FinalIK::FABRIKChain::IsValid)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1250d88;
+  constexpr static std::size_t addrs = 0x132ce24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FABRIKChain::*)()>(&::RootMotion::FinalIK::FABRIKChain::Initiate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1250e4c;
+  constexpr static std::size_t addrs = 0x132cee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FABRIKChain*>::get(), "Initiate",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FABRIKChain::*)(
     ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>)>(&::RootMotion::FinalIK::FABRIKChain::Stage1)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1250e6c;
+  constexpr static std::size_t addrs = 0x132cf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FABRIKChain::*)(
     ::UnityEngine::Vector3, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>)>(&::RootMotion::FinalIK::FABRIKChain::Stage2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x12510c0;
+  constexpr static std::size_t addrs = 0x132d15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::FABRIKChain::*)(
     ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>)>(&::RootMotion::FinalIK::FABRIKChain::GetCentroid)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x1250f2c;
+  constexpr static std::size_t addrs = 0x132cfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::FABRIKChain::*)()>(&::RootMotion::FinalIK::FABRIKChain::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x12511a4;
+  constexpr static std::size_t addrs = 0x132d240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::FABRIKChain*>::get(), ".ctor",

@@ -15,20 +15,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1250))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatMessageType*
 class CORDL_TYPE HeartbeatMessageType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0xf91a0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x100286c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t heartbeatMessageType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1002cf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HeartbeatMessageType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessageType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeartbeatMessageType(HeartbeatMessageType&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeartbeatMessageType(HeartbeatMessageType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HeartbeatMessageType();
-
-public:
   /// @brief Field heartbeat_request offset 0xffffffff size 0x1
   static constexpr uint8_t heartbeat_request{ static_cast<uint8_t>(0x1u) };
 

@@ -24,15 +24,10 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5562))
 // CS Name: ::MultiplayerLobbyCenterStageLayoutAnimator*
 class CORDL_TYPE MultiplayerLobbyCenterStageLayoutAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _nextLevelTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextLevelTransform, put = __cordl_internal_set__nextLevelTransform))::UnityW<::UnityEngine::RectTransform> _nextLevelTransform;
-
   /// @brief Field _nextLevelBasePosition, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nextLevelBasePosition, put = __cordl_internal_set__nextLevelBasePosition))::UnityW<::UnityEngine::RectTransform> _nextLevelBasePosition;
 
@@ -40,59 +35,68 @@ public:
   __declspec(property(get = __cordl_internal_get__nextLevelCountdownPosition,
                       put = __cordl_internal_set__nextLevelCountdownPosition))::UnityW<::UnityEngine::RectTransform> _nextLevelCountdownPosition;
 
+  /// @brief Field _nextLevelTransform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__nextLevelTransform, put = __cordl_internal_set__nextLevelTransform))::UnityW<::UnityEngine::RectTransform> _nextLevelTransform;
+
   /// @brief Field _transitionDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
 
   /// @brief Field _tweeningManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelTransform();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelTransform() const;
-
-  constexpr void __cordl_internal_set__nextLevelTransform(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelBasePosition();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
-
-  constexpr void __cordl_internal_set__nextLevelBasePosition(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelCountdownPosition();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelCountdownPosition() const;
-
-  constexpr void __cordl_internal_set__nextLevelCountdownPosition(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr float_t& __cordl_internal_get__transitionDuration();
-
-  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
-
-  constexpr void __cordl_internal_set__transitionDuration(float_t value);
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
-
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
-
-  /// @brief Method StartCountdown, addr 0x22a36bc, size 0x84, virtual false, abstract: false, final false
-  inline void StartCountdown();
-
-  /// @brief Method StopCountdown, addr 0x22a387c, size 0xa0, virtual false, abstract: false, final false
-  inline void StopCountdown(bool instant);
-
-  /// @brief Method Move, addr 0x22a3740, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x23a599c, size 0x13c, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a391c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method StartCountdown, addr 0x23a5918, size 0x84, virtual false, abstract: false, final false
+  inline void StartCountdown();
 
-  /// @brief Method <Move>b__7_0, addr 0x22a3924, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x23a5ad8, size 0xa0, virtual false, abstract: false, final false
+  inline void StopCountdown(bool instant);
+
+  /// @brief Method <Move>b__7_0, addr 0x23a5b80, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelBasePosition();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelCountdownPosition() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelCountdownPosition();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__nextLevelTransform();
+
+  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
+
+  constexpr float_t& __cordl_internal_get__transitionDuration();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__nextLevelBasePosition(::UnityW<::UnityEngine::RectTransform> value);
+
+  constexpr void __cordl_internal_set__nextLevelCountdownPosition(::UnityW<::UnityEngine::RectTransform> value);
+
+  constexpr void __cordl_internal_set__nextLevelTransform(::UnityW<::UnityEngine::RectTransform> value);
+
+  constexpr void __cordl_internal_set__transitionDuration(float_t value);
+
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+
+  /// @brief Method .ctor, addr 0x23a5b78, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLobbyCenterStageLayoutAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageLayoutAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyCenterStageLayoutAnimator(MultiplayerLobbyCenterStageLayoutAnimator&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyCenterStageLayoutAnimator(MultiplayerLobbyCenterStageLayoutAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLobbyCenterStageLayoutAnimator();
-
-public:
   /// @brief Field _nextLevelTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelTransform;
 

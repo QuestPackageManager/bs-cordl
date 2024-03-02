@@ -23,21 +23,25 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventDispatchUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7258))
 // CS Name: ::UnityEngine.UIElements::EventDispatchUtilities*
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropagateEvent, addr 0x2e4bd94, size 0x74c, virtual false, abstract: false, final false
-  static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
-
-  /// @brief Method PropagateToIMGUIContainer, addr 0x2e4c4ec, size 0x224, virtual false, abstract: false, final false
-  static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
-
-  /// @brief Method ExecuteDefaultAction, addr 0x2e53680, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2f61190, size 0x1a8, virtual false, abstract: false, final false
   static inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
+  /// @brief Method PropagateEvent, addr 0x2f598a4, size 0x74c, virtual false, abstract: false, final false
+  static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
+
+  /// @brief Method PropagateToIMGUIContainer, addr 0x2f59ffc, size 0x224, virtual false, abstract: false, final false
+  static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventDispatchUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventDispatchUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventDispatchUtilities(EventDispatchUtilities&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventDispatchUtilities(EventDispatchUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventDispatchUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

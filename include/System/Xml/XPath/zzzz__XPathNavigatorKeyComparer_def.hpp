@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathNavigatorKeyComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11583))
 // CS Name: ::System.Xml.XPath::XPathNavigatorKeyComparer*
 class CORDL_TYPE XPathNavigatorKeyComparer : public ::System::Object {
 public:
@@ -30,20 +28,26 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
+  static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
+
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x29966d8, size 0xdc, virtual true, abstract: false, final true
+  inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
+
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x29967b4, size 0x1d0, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
+
+  /// @brief Method .ctor, addr 0x29966d0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   /// @brief Convert to "::System::Collections::IEqualityComparer"
   constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x28abbf4, size 0xdc, virtual true, abstract: false, final true
-  inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathNavigatorKeyComparer();
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x28abcd0, size 0x1d0, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
-
-  static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28abbec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathNavigatorKeyComparer(XPathNavigatorKeyComparer&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XPathNavigatorKeyComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

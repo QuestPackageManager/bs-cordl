@@ -22,12 +22,16 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableBehaviour);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10441))
 // CS Name: ::UnityEngine.Playables::IPlayableBehaviour*
 class CORDL_TYPE IPlayableBehaviour {
 public:
   // Declarations
+  /// @brief Method OnBehaviourPause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
+  /// @brief Method OnBehaviourPlay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
   /// @brief Method OnGraphStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
@@ -39,12 +43,6 @@ public:
 
   /// @brief Method OnPlayableDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
-
-  /// @brief Method OnBehaviourPlay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
-
-  /// @brief Method OnBehaviourPause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   /// @brief Method PrepareFrame, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

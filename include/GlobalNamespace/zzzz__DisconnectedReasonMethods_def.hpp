@@ -18,18 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedReasonMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4486))
 // CS Name: ::DisconnectedReasonMethods*
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x2355a4c, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
-
-  /// @brief Method ErrorCode, addr 0x2355af4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x12dba9c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
+  /// @brief Method LocalizedKey, addr 0x12db9f4, size 0xa8, virtual false, abstract: false, final false
+  static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisconnectedReasonMethods();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedReasonMethods", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectedReasonMethods(DisconnectedReasonMethods&&) = delete;
@@ -38,23 +42,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisconnectedReasonMethods(DisconnectedReasonMethods const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisconnectedReasonMethods();
-
-public:
-  /// @brief Field kDisconnectedUnknown offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisconnectedUnknown{ u"DISCONNECTED_UNKNOWN" };
-
-  /// @brief Field kDisconnectedUserInitiated offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisconnectedUserInitiated{ u"DISCONNECTED_USER_INITIATED" };
-
-  /// @brief Field kDisconnectedTimeout offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisconnectedTimeout{ u"DISCONNECTED_TIMEOUT" };
-
   /// @brief Field kDisconnectedKicked offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedKicked{ u"DISCONNECTED_KICKED" };
+
+  /// @brief Field kDisconnectedMasterServerUnreachable offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDisconnectedMasterServerUnreachable{ u"DISCONNECTED_MASTER_SERVER_UNREACHABLE" };
 
   /// @brief Field kDisconnectedServerAtCapacity offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedServerAtCapacity{ u"DISCONNECTED_SERVER_AT_CAPACITY" };
@@ -62,11 +54,17 @@ public:
   /// @brief Field kDisconnectedServerConnectionClosed offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedServerConnectionClosed{ u"DISCONNECTED_SERVER_SHUT_DOWN" };
 
-  /// @brief Field kDisconnectedMasterServerUnreachable offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisconnectedMasterServerUnreachable{ u"DISCONNECTED_MASTER_SERVER_UNREACHABLE" };
-
   /// @brief Field kDisconnectedServerTerminated offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedServerTerminated{ u"DISCONNECTED_SERVER_SHUT_DOWN" };
+
+  /// @brief Field kDisconnectedTimeout offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDisconnectedTimeout{ u"DISCONNECTED_TIMEOUT" };
+
+  /// @brief Field kDisconnectedUnknown offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDisconnectedUnknown{ u"DISCONNECTED_UNKNOWN" };
+
+  /// @brief Field kDisconnectedUserInitiated offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDisconnectedUserInitiated{ u"DISCONNECTED_USER_INITIATED" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

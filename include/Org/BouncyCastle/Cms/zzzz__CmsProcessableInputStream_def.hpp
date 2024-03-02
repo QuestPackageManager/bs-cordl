@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableInputStream);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(647))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableInputStream*
 class CORDL_TYPE CmsProcessableInputStream : public ::System::Object {
 public:
@@ -41,44 +39,50 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
-  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
+  /// @brief Method CheckSingleUsage, addr 0x1256224, size 0xf8, virtual true, abstract: false, final false
+  inline void CheckSingleUsage();
+
+  /// @brief Method GetContent, addr 0x1256218, size 0xc, virtual true, abstract: false, final false
+  inline ::System::Object* GetContent();
+
+  /// @brief Method GetInputStream, addr 0x1256170, size 0x20, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetInputStream();
+
+  static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
+
+  /// @brief Method Write, addr 0x1256190, size 0x88, virtual true, abstract: false, final false
+  inline void Write(::System::IO::Stream* output);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
 
-  constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
+  constexpr bool const& __cordl_internal_get_used() const;
 
   constexpr bool& __cordl_internal_get_used();
 
-  constexpr bool const& __cordl_internal_get_used() const;
+  constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
-
-  /// @brief Method .ctor, addr 0x11e444c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12552ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method GetInputStream, addr 0x11e5310, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetInputStream();
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable* i___Org__BouncyCastle__Cms__CmsProcessable() noexcept;
 
-  /// @brief Method Write, addr 0x11e5330, size 0x88, virtual true, abstract: false, final false
-  inline void Write(::System::IO::Stream* output);
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
+  constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
-  /// @brief Method GetContent, addr 0x11e53b8, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* GetContent();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsProcessableInputStream();
 
-  /// @brief Method CheckSingleUsage, addr 0x11e53c4, size 0xf8, virtual true, abstract: false, final false
-  inline void CheckSingleUsage();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableInputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsProcessableInputStream(CmsProcessableInputStream&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsProcessableInputStream(CmsProcessableInputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsProcessableInputStream();
-
-public:
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___input;
 

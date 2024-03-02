@@ -21,8 +21,6 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11084)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 2805 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11094))
 // CS Name: ::Zenject::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T, ::Array<T>*>> {
 public:
@@ -33,20 +31,13 @@ public:
   /// @brief Field _pools, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__pools, put = setStaticF__pools))::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
 
-  constexpr int32_t& __cordl_internal_get__length();
+  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> Alloc();
 
-  constexpr int32_t const& __cordl_internal_get__length() const;
-
-  constexpr void __cordl_internal_set__length(int32_t value);
-
-  static inline void setStaticF__pools(::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* getStaticF__pools();
+  /// @brief Method GetPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::ArrayPool_1<T>* GetPool(int32_t length);
 
   static inline ::Zenject::ArrayPool_1<T>* New_ctor(int32_t length);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t length);
 
   /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::ArrayW<T, ::Array<T>*> arr);
@@ -54,12 +45,25 @@ public:
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Spawn();
 
-  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> Alloc();
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  /// @brief Method GetPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::ArrayPool_1<T>* GetPool(int32_t length);
+  constexpr int32_t& __cordl_internal_get__length();
 
+  constexpr void __cordl_internal_set__length(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t length);
+
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* getStaticF__pools();
+
+  static inline void setStaticF__pools(::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArrayPool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayPool_1(ArrayPool_1&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayPool_1(ArrayPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArrayPool_1();
-
-public:
   /// @brief Field _length, offset: 0x24, size: 0x4, def value: None
   int32_t ____length;
 

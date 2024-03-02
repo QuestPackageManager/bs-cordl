@@ -15,21 +15,19 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10182))
 // CS Name: ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 struct CORDL_TYPE TouchScreenKeyboard_InternalConstructorHelperArguments {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TouchScreenKeyboard_InternalConstructorHelperArguments();
+
   // Ctor Parameters [CppParam { name: "keyboardType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "autocorrection", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "multiline", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "alert", ty: "uint32_t",
   // modifiers: "", def_value: None }, CppParam { name: "characterLimit", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TouchScreenKeyboard_InternalConstructorHelperArguments(uint32_t keyboardType, uint32_t autocorrection, uint32_t multiline, uint32_t secure, uint32_t alert,
                                                                    int32_t characterLimit) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchScreenKeyboard_InternalConstructorHelperArguments();
 
   /// @brief Field keyboardType, offset: 0x0, size: 0x4, def value: None
   uint32_t keyboardType;

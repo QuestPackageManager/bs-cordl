@@ -17,21 +17,25 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureController);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6910))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureController*
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasMouseCapture, addr 0x2e01ae4, size 0xb0, virtual false, abstract: false, final false
-  static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
-
-  /// @brief Method CaptureMouse, addr 0x2dfd1fc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x2f0bd0c, size 0xe0, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x2e0246c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x2f105f4, size 0xb0, virtual false, abstract: false, final false
+  static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
+
+  /// @brief Method ReleaseMouse, addr 0x2f10f7c, size 0xe0, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseCaptureController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseCaptureController(MouseCaptureController&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseCaptureController(MouseCaptureController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseCaptureController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

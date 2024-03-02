@@ -46,56 +46,24 @@ MARK_REF_PTR_T(::System::TermInfoDriver);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2518)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2619))
 // CS Name: ::System::TermInfoDriver*
 class CORDL_TYPE TermInfoDriver : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field reader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::TermInfoReader* reader;
+  __declspec(property(get = get_Initialized)) bool Initialized;
 
-  /// @brief Field cursorLeft, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_cursorLeft, put = __cordl_internal_set_cursorLeft)) int32_t cursorLeft;
+  __declspec(property(get = get_WindowHeight)) int32_t WindowHeight;
 
-  /// @brief Field cursorTop, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_cursorTop, put = __cordl_internal_set_cursorTop)) int32_t cursorTop;
+  __declspec(property(get = get_WindowWidth)) int32_t WindowWidth;
 
-  /// @brief Field title, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
-
-  /// @brief Field titleFormat, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_titleFormat, put = __cordl_internal_set_titleFormat))::StringW titleFormat;
-
-  /// @brief Field cursorVisible, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_cursorVisible, put = __cordl_internal_set_cursorVisible)) bool cursorVisible;
-
-  /// @brief Field csrVisible, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_csrVisible, put = __cordl_internal_set_csrVisible))::StringW csrVisible;
-
-  /// @brief Field csrInvisible, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_csrInvisible, put = __cordl_internal_set_csrInvisible))::StringW csrInvisible;
-
-  /// @brief Field clear, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_clear, put = __cordl_internal_set_clear))::StringW clear;
+  /// @brief Field _consoleColorToAnsiCode, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__consoleColorToAnsiCode, put = setStaticF__consoleColorToAnsiCode))::ArrayW<int32_t, ::Array<int32_t>*> _consoleColorToAnsiCode;
 
   /// @brief Field bell, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_bell, put = __cordl_internal_set_bell))::StringW bell;
 
-  /// @brief Field term, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_term, put = __cordl_internal_set_term))::StringW term;
-
-  /// @brief Field stdin, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_stdin, put = __cordl_internal_set_stdin))::System::IO::StreamReader* stdin;
-
-  /// @brief Field stdout, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_stdout, put = __cordl_internal_set_stdout))::System::IO::CStreamWriter* stdout;
-
-  /// @brief Field windowWidth, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowWidth, put = __cordl_internal_set_windowWidth)) int32_t windowWidth;
-
-  /// @brief Field windowHeight, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowHeight, put = __cordl_internal_set_windowHeight)) int32_t windowHeight;
+  /// @brief Field buffer, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<char16_t, ::Array<char16_t>*> buffer;
 
   /// @brief Field bufferHeight, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_bufferHeight, put = __cordl_internal_set_bufferHeight)) int32_t bufferHeight;
@@ -103,68 +71,29 @@ public:
   /// @brief Field bufferWidth, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_bufferWidth, put = __cordl_internal_set_bufferWidth)) int32_t bufferWidth;
 
-  /// @brief Field buffer, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<char16_t, ::Array<char16_t>*> buffer;
+  /// @brief Field clear, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_clear, put = __cordl_internal_set_clear))::StringW clear;
 
-  /// @brief Field readpos, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_readpos, put = __cordl_internal_set_readpos)) int32_t readpos;
+  /// @brief Field control_characters, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get_control_characters, put = __cordl_internal_set_control_characters))::ArrayW<uint8_t, ::Array<uint8_t>*> control_characters;
 
-  /// @brief Field writepos, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_writepos, put = __cordl_internal_set_writepos)) int32_t writepos;
+  /// @brief Field csrInvisible, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_csrInvisible, put = __cordl_internal_set_csrInvisible))::StringW csrInvisible;
 
-  /// @brief Field keypadXmit, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_keypadXmit, put = __cordl_internal_set_keypadXmit))::StringW keypadXmit;
-
-  /// @brief Field keypadLocal, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_keypadLocal, put = __cordl_internal_set_keypadLocal))::StringW keypadLocal;
-
-  /// @brief Field inited, offset 0xa0, size 0x1
-  __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
-
-  /// @brief Field initLock, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_initLock, put = __cordl_internal_set_initLock))::System::Object* initLock;
-
-  /// @brief Field initKeys, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get_initKeys, put = __cordl_internal_set_initKeys)) bool initKeys;
-
-  /// @brief Field origPair, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_origPair, put = __cordl_internal_set_origPair))::StringW origPair;
-
-  /// @brief Field origColors, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_origColors, put = __cordl_internal_set_origColors))::StringW origColors;
+  /// @brief Field csrVisible, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_csrVisible, put = __cordl_internal_set_csrVisible))::StringW csrVisible;
 
   /// @brief Field cursorAddress, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_cursorAddress, put = __cordl_internal_set_cursorAddress))::StringW cursorAddress;
 
-  /// @brief Field fgcolor, offset 0xd0, size 0x4
-  __declspec(property(get = __cordl_internal_get_fgcolor, put = __cordl_internal_set_fgcolor))::System::ConsoleColor fgcolor;
+  /// @brief Field cursorLeft, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_cursorLeft, put = __cordl_internal_set_cursorLeft)) int32_t cursorLeft;
 
-  /// @brief Field setfgcolor, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_setfgcolor, put = __cordl_internal_set_setfgcolor))::StringW setfgcolor;
+  /// @brief Field cursorTop, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_cursorTop, put = __cordl_internal_set_cursorTop)) int32_t cursorTop;
 
-  /// @brief Field setbgcolor, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_setbgcolor, put = __cordl_internal_set_setbgcolor))::StringW setbgcolor;
-
-  /// @brief Field maxColors, offset 0xe8, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxColors, put = __cordl_internal_set_maxColors)) int32_t maxColors;
-
-  /// @brief Field noGetPosition, offset 0xec, size 0x1
-  __declspec(property(get = __cordl_internal_get_noGetPosition, put = __cordl_internal_set_noGetPosition)) bool noGetPosition;
-
-  /// @brief Field keymap, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_keymap, put = __cordl_internal_set_keymap))::System::Collections::Hashtable* keymap;
-
-  /// @brief Field rootmap, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_rootmap, put = __cordl_internal_set_rootmap))::System::ByteMatcher* rootmap;
-
-  /// @brief Field rl_startx, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get_rl_startx, put = __cordl_internal_set_rl_startx)) int32_t rl_startx;
-
-  /// @brief Field rl_starty, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_rl_starty, put = __cordl_internal_set_rl_starty)) int32_t rl_starty;
-
-  /// @brief Field control_characters, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_control_characters, put = __cordl_internal_set_control_characters))::ArrayW<uint8_t, ::Array<uint8_t>*> control_characters;
+  /// @brief Field cursorVisible, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_cursorVisible, put = __cordl_internal_set_cursorVisible)) bool cursorVisible;
 
   /// @brief Field echobuf, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_echobuf, put = __cordl_internal_set_echobuf))::ArrayW<char16_t, ::Array<char16_t>*> echobuf;
@@ -172,387 +101,462 @@ public:
   /// @brief Field echon, offset 0x118, size 0x4
   __declspec(property(get = __cordl_internal_get_echon, put = __cordl_internal_set_echon)) int32_t echon;
 
-  /// @brief Field native_terminal_size, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_native_terminal_size, put = setStaticF_native_terminal_size))::cordl_internals::Ptr<int32_t> native_terminal_size;
+  /// @brief Field fgcolor, offset 0xd0, size 0x4
+  __declspec(property(get = __cordl_internal_get_fgcolor, put = __cordl_internal_set_fgcolor))::System::ConsoleColor fgcolor;
 
-  /// @brief Field terminal_size, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_terminal_size, put = setStaticF_terminal_size)) int32_t terminal_size;
+  /// @brief Field initKeys, offset 0xb0, size 0x1
+  __declspec(property(get = __cordl_internal_get_initKeys, put = __cordl_internal_set_initKeys)) bool initKeys;
+
+  /// @brief Field initLock, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_initLock, put = __cordl_internal_set_initLock))::System::Object* initLock;
+
+  /// @brief Field inited, offset 0xa0, size 0x1
+  __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
+
+  /// @brief Field keymap, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_keymap, put = __cordl_internal_set_keymap))::System::Collections::Hashtable* keymap;
+
+  /// @brief Field keypadLocal, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_keypadLocal, put = __cordl_internal_set_keypadLocal))::StringW keypadLocal;
+
+  /// @brief Field keypadXmit, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_keypadXmit, put = __cordl_internal_set_keypadXmit))::StringW keypadXmit;
 
   /// @brief Field locations, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_locations, put = setStaticF_locations))::ArrayW<::StringW, ::Array<::StringW>*> locations;
 
-  /// @brief Field _consoleColorToAnsiCode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__consoleColorToAnsiCode, put = setStaticF__consoleColorToAnsiCode))::ArrayW<int32_t, ::Array<int32_t>*> _consoleColorToAnsiCode;
+  /// @brief Field maxColors, offset 0xe8, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxColors, put = __cordl_internal_set_maxColors)) int32_t maxColors;
 
-  __declspec(property(get = get_Initialized)) bool Initialized;
+  /// @brief Field native_terminal_size, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_native_terminal_size, put = setStaticF_native_terminal_size))::cordl_internals::Ptr<int32_t> native_terminal_size;
 
-  __declspec(property(get = get_WindowHeight)) int32_t WindowHeight;
+  /// @brief Field noGetPosition, offset 0xec, size 0x1
+  __declspec(property(get = __cordl_internal_get_noGetPosition, put = __cordl_internal_set_noGetPosition)) bool noGetPosition;
 
-  __declspec(property(get = get_WindowWidth)) int32_t WindowWidth;
+  /// @brief Field origColors, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_origColors, put = __cordl_internal_set_origColors))::StringW origColors;
+
+  /// @brief Field origPair, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_origPair, put = __cordl_internal_set_origPair))::StringW origPair;
+
+  /// @brief Field reader, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::TermInfoReader* reader;
+
+  /// @brief Field readpos, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_readpos, put = __cordl_internal_set_readpos)) int32_t readpos;
+
+  /// @brief Field rl_startx, offset 0x100, size 0x4
+  __declspec(property(get = __cordl_internal_get_rl_startx, put = __cordl_internal_set_rl_startx)) int32_t rl_startx;
+
+  /// @brief Field rl_starty, offset 0x104, size 0x4
+  __declspec(property(get = __cordl_internal_get_rl_starty, put = __cordl_internal_set_rl_starty)) int32_t rl_starty;
+
+  /// @brief Field rootmap, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_rootmap, put = __cordl_internal_set_rootmap))::System::ByteMatcher* rootmap;
+
+  /// @brief Field setbgcolor, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_setbgcolor, put = __cordl_internal_set_setbgcolor))::StringW setbgcolor;
+
+  /// @brief Field setfgcolor, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_setfgcolor, put = __cordl_internal_set_setfgcolor))::StringW setfgcolor;
+
+  /// @brief Field stdin, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_stdin, put = __cordl_internal_set_stdin))::System::IO::StreamReader* stdin;
+
+  /// @brief Field stdout, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_stdout, put = __cordl_internal_set_stdout))::System::IO::CStreamWriter* stdout;
+
+  /// @brief Field term, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_term, put = __cordl_internal_set_term))::StringW term;
+
+  /// @brief Field terminal_size, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_terminal_size, put = setStaticF_terminal_size)) int32_t terminal_size;
+
+  /// @brief Field title, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
+
+  /// @brief Field titleFormat, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_titleFormat, put = __cordl_internal_set_titleFormat))::StringW titleFormat;
+
+  /// @brief Field windowHeight, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get_windowHeight, put = __cordl_internal_set_windowHeight)) int32_t windowHeight;
+
+  /// @brief Field windowWidth, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_windowWidth, put = __cordl_internal_set_windowWidth)) int32_t windowWidth;
+
+  /// @brief Field writepos, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_writepos, put = __cordl_internal_set_writepos)) int32_t writepos;
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
-  /// @brief Convert to "::System::IConsoleDriver"
-  constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
+  /// @brief Method AddStringMapping, addr 0x26f8530, size 0x4c, virtual false, abstract: false, final false
+  inline void AddStringMapping(::System::TermInfoStrings s);
 
-  constexpr ::System::TermInfoReader*& __cordl_internal_get_reader();
+  /// @brief Method AddToBuffer, addr 0x26f50bc, size 0xe4, virtual false, abstract: false, final false
+  inline void AddToBuffer(int32_t b);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::TermInfoReader*> const& __cordl_internal_get_reader() const;
+  /// @brief Method AdjustBuffer, addr 0x26f52c0, size 0x14, virtual false, abstract: false, final false
+  inline void AdjustBuffer();
 
-  constexpr void __cordl_internal_set_reader(::System::TermInfoReader* value);
+  /// @brief Method CheckWindowDimensions, addr 0x26f51a0, size 0x120, virtual false, abstract: false, final false
+  inline void CheckWindowDimensions();
 
-  constexpr int32_t& __cordl_internal_get_cursorLeft();
+  /// @brief Method CreateKeyInfoFromInt, addr 0x26f4e8c, size 0x184, virtual false, abstract: false, final false
+  inline ::System::ConsoleKeyInfo CreateKeyInfoFromInt(int32_t n, bool alt);
 
-  constexpr int32_t const& __cordl_internal_get_cursorLeft() const;
+  /// @brief Method CreateKeyMap, addr 0x26f661c, size 0x1e98, virtual false, abstract: false, final false
+  inline void CreateKeyMap();
 
-  constexpr void __cordl_internal_set_cursorLeft(int32_t value);
+  /// @brief Method Echo, addr 0x26f5edc, size 0x54, virtual false, abstract: false, final false
+  inline void Echo(::System::ConsoleKeyInfo key);
 
-  constexpr int32_t& __cordl_internal_get_cursorTop();
+  /// @brief Method EchoFlush, addr 0x26f5f30, size 0x34, virtual false, abstract: false, final false
+  inline void EchoFlush();
 
-  constexpr int32_t const& __cordl_internal_get_cursorTop() const;
+  /// @brief Method GetCursorPosition, addr 0x26f484c, size 0x290, virtual false, abstract: false, final false
+  inline void GetCursorPosition();
 
-  constexpr void __cordl_internal_set_cursorTop(int32_t value);
+  /// @brief Method GetKeyFromBuffer, addr 0x26f52d4, size 0x2cc, virtual false, abstract: false, final false
+  inline ::System::Object* GetKeyFromBuffer(bool cooked);
 
-  constexpr ::StringW& __cordl_internal_get_title();
+  /// @brief Method IncrementX, addr 0x26f4adc, size 0x6c, virtual false, abstract: false, final false
+  inline void IncrementX();
 
-  constexpr ::StringW const& __cordl_internal_get_title() const;
+  /// @brief Method Init, addr 0x26f3ef8, size 0x864, virtual true, abstract: false, final true
+  inline void Init();
 
-  constexpr void __cordl_internal_set_title(::StringW value);
+  /// @brief Method InitKeys, addr 0x26f5c74, size 0x16c, virtual false, abstract: false, final false
+  inline void InitKeys();
 
-  constexpr ::StringW& __cordl_internal_get_titleFormat();
+  /// @brief Method InputPending, addr 0x26f5de0, size 0x34, virtual false, abstract: false, final false
+  inline bool InputPending();
 
-  constexpr ::StringW const& __cordl_internal_get_titleFormat() const;
+  /// @brief Method IsSpecialKey, addr 0x26f5094, size 0x28, virtual false, abstract: false, final false
+  inline bool IsSpecialKey(char16_t c);
 
-  constexpr void __cordl_internal_set_titleFormat(::StringW value);
+  /// @brief Method IsSpecialKey, addr 0x26f5010, size 0x84, virtual false, abstract: false, final false
+  inline bool IsSpecialKey(::System::ConsoleKeyInfo key);
 
-  constexpr bool& __cordl_internal_get_cursorVisible();
+  static inline ::System::TermInfoDriver* New_ctor(::StringW term);
 
-  constexpr bool const& __cordl_internal_get_cursorVisible() const;
+  /// @brief Method QueueEcho, addr 0x26f5e14, size 0xc8, virtual false, abstract: false, final false
+  inline void QueueEcho(char16_t c);
 
-  constexpr void __cordl_internal_set_cursorVisible(bool value);
+  /// @brief Method Read, addr 0x26f5f64, size 0x304, virtual false, abstract: false, final false
+  inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest, int32_t index, int32_t count);
 
-  constexpr ::StringW& __cordl_internal_get_csrVisible();
+  /// @brief Method ReadKey, addr 0x26f6268, size 0x64, virtual true, abstract: false, final true
+  inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  constexpr ::StringW const& __cordl_internal_get_csrVisible() const;
+  /// @brief Method ReadKeyInternal, addr 0x26f5ab4, size 0x1c0, virtual false, abstract: false, final false
+  inline ::System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
 
-  constexpr void __cordl_internal_set_csrVisible(::StringW value);
+  /// @brief Method ReadLine, addr 0x26f62cc, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW ReadLine();
 
-  constexpr ::StringW& __cordl_internal_get_csrInvisible();
+  /// @brief Method ReadToEnd, addr 0x26f649c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW ReadToEnd();
 
-  constexpr ::StringW const& __cordl_internal_get_csrInvisible() const;
+  /// @brief Method ReadUntilConditionInternal, addr 0x26f62d4, size 0x1c8, virtual false, abstract: false, final false
+  inline ::StringW ReadUntilConditionInternal(bool haltOnNewLine);
 
-  constexpr void __cordl_internal_set_csrInvisible(::StringW value);
+  /// @brief Method SearchTerminfo, addr 0x26f39f8, size 0x16c, virtual false, abstract: false, final false
+  static inline ::StringW SearchTerminfo(::StringW term);
 
-  constexpr ::StringW& __cordl_internal_get_clear();
+  /// @brief Method SetCursorPosition, addr 0x26f4cb4, size 0x1b0, virtual true, abstract: false, final true
+  inline void SetCursorPosition(int32_t left, int32_t top);
 
-  constexpr ::StringW const& __cordl_internal_get_clear() const;
+  /// @brief Method TryTermInfoDir, addr 0x26f38cc, size 0x12c, virtual false, abstract: false, final false
+  static inline ::StringW TryTermInfoDir(::StringW dir, ::StringW term);
 
-  constexpr void __cordl_internal_set_clear(::StringW value);
+  /// @brief Method WriteConsole, addr 0x26f3b64, size 0x28, virtual false, abstract: false, final false
+  inline void WriteConsole(::StringW str);
 
-  constexpr ::StringW& __cordl_internal_get_bell();
+  /// @brief Method WriteSpecialKey, addr 0x26f4e64, size 0x28, virtual false, abstract: false, final false
+  inline void WriteSpecialKey(char16_t c);
+
+  /// @brief Method WriteSpecialKey, addr 0x26f4ba0, size 0x114, virtual false, abstract: false, final false
+  inline void WriteSpecialKey(::System::ConsoleKeyInfo key);
 
   constexpr ::StringW const& __cordl_internal_get_bell() const;
 
-  constexpr void __cordl_internal_set_bell(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_term();
-
-  constexpr ::StringW const& __cordl_internal_get_term() const;
-
-  constexpr void __cordl_internal_set_term(::StringW value);
-
-  constexpr ::System::IO::StreamReader*& __cordl_internal_get_stdin();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_stdin() const;
-
-  constexpr void __cordl_internal_set_stdin(::System::IO::StreamReader* value);
-
-  constexpr ::System::IO::CStreamWriter*& __cordl_internal_get_stdout();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::CStreamWriter*> const& __cordl_internal_get_stdout() const;
-
-  constexpr void __cordl_internal_set_stdout(::System::IO::CStreamWriter* value);
-
-  constexpr int32_t& __cordl_internal_get_windowWidth();
-
-  constexpr int32_t const& __cordl_internal_get_windowWidth() const;
-
-  constexpr void __cordl_internal_set_windowWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_windowHeight();
-
-  constexpr int32_t const& __cordl_internal_get_windowHeight() const;
-
-  constexpr void __cordl_internal_set_windowHeight(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_bufferHeight();
-
-  constexpr int32_t const& __cordl_internal_get_bufferHeight() const;
-
-  constexpr void __cordl_internal_set_bufferHeight(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_bufferWidth();
-
-  constexpr int32_t const& __cordl_internal_get_bufferWidth() const;
-
-  constexpr void __cordl_internal_set_bufferWidth(int32_t value);
-
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buffer();
+  constexpr ::StringW& __cordl_internal_get_bell();
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __cordl_internal_set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buffer();
 
-  constexpr int32_t& __cordl_internal_get_readpos();
+  constexpr int32_t const& __cordl_internal_get_bufferHeight() const;
 
-  constexpr int32_t const& __cordl_internal_get_readpos() const;
+  constexpr int32_t& __cordl_internal_get_bufferHeight();
 
-  constexpr void __cordl_internal_set_readpos(int32_t value);
+  constexpr int32_t const& __cordl_internal_get_bufferWidth() const;
 
-  constexpr int32_t& __cordl_internal_get_writepos();
+  constexpr int32_t& __cordl_internal_get_bufferWidth();
 
-  constexpr int32_t const& __cordl_internal_get_writepos() const;
+  constexpr ::StringW const& __cordl_internal_get_clear() const;
 
-  constexpr void __cordl_internal_set_writepos(int32_t value);
+  constexpr ::StringW& __cordl_internal_get_clear();
 
-  constexpr ::StringW& __cordl_internal_get_keypadXmit();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_control_characters() const;
 
-  constexpr ::StringW const& __cordl_internal_get_keypadXmit() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_control_characters();
 
-  constexpr void __cordl_internal_set_keypadXmit(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get_csrInvisible() const;
 
-  constexpr ::StringW& __cordl_internal_get_keypadLocal();
+  constexpr ::StringW& __cordl_internal_get_csrInvisible();
 
-  constexpr ::StringW const& __cordl_internal_get_keypadLocal() const;
+  constexpr ::StringW const& __cordl_internal_get_csrVisible() const;
 
-  constexpr void __cordl_internal_set_keypadLocal(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_csrVisible();
 
-  constexpr bool& __cordl_internal_get_inited();
+  constexpr ::StringW const& __cordl_internal_get_cursorAddress() const;
 
-  constexpr bool const& __cordl_internal_get_inited() const;
+  constexpr ::StringW& __cordl_internal_get_cursorAddress();
 
-  constexpr void __cordl_internal_set_inited(bool value);
+  constexpr int32_t const& __cordl_internal_get_cursorLeft() const;
+
+  constexpr int32_t& __cordl_internal_get_cursorLeft();
+
+  constexpr int32_t const& __cordl_internal_get_cursorTop() const;
+
+  constexpr int32_t& __cordl_internal_get_cursorTop();
+
+  constexpr bool const& __cordl_internal_get_cursorVisible() const;
+
+  constexpr bool& __cordl_internal_get_cursorVisible();
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_echobuf() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_echobuf();
+
+  constexpr int32_t const& __cordl_internal_get_echon() const;
+
+  constexpr int32_t& __cordl_internal_get_echon();
+
+  constexpr ::System::ConsoleColor const& __cordl_internal_get_fgcolor() const;
+
+  constexpr ::System::ConsoleColor& __cordl_internal_get_fgcolor();
+
+  constexpr bool const& __cordl_internal_get_initKeys() const;
+
+  constexpr bool& __cordl_internal_get_initKeys();
 
   constexpr ::System::Object*& __cordl_internal_get_initLock();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_initLock() const;
 
-  constexpr void __cordl_internal_set_initLock(::System::Object* value);
+  constexpr bool const& __cordl_internal_get_inited() const;
 
-  constexpr bool& __cordl_internal_get_initKeys();
-
-  constexpr bool const& __cordl_internal_get_initKeys() const;
-
-  constexpr void __cordl_internal_set_initKeys(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_origPair();
-
-  constexpr ::StringW const& __cordl_internal_get_origPair() const;
-
-  constexpr void __cordl_internal_set_origPair(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_origColors();
-
-  constexpr ::StringW const& __cordl_internal_get_origColors() const;
-
-  constexpr void __cordl_internal_set_origColors(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_cursorAddress();
-
-  constexpr ::StringW const& __cordl_internal_get_cursorAddress() const;
-
-  constexpr void __cordl_internal_set_cursorAddress(::StringW value);
-
-  constexpr ::System::ConsoleColor& __cordl_internal_get_fgcolor();
-
-  constexpr ::System::ConsoleColor const& __cordl_internal_get_fgcolor() const;
-
-  constexpr void __cordl_internal_set_fgcolor(::System::ConsoleColor value);
-
-  constexpr ::StringW& __cordl_internal_get_setfgcolor();
-
-  constexpr ::StringW const& __cordl_internal_get_setfgcolor() const;
-
-  constexpr void __cordl_internal_set_setfgcolor(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_setbgcolor();
-
-  constexpr ::StringW const& __cordl_internal_get_setbgcolor() const;
-
-  constexpr void __cordl_internal_set_setbgcolor(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_maxColors();
-
-  constexpr int32_t const& __cordl_internal_get_maxColors() const;
-
-  constexpr void __cordl_internal_set_maxColors(int32_t value);
-
-  constexpr bool& __cordl_internal_get_noGetPosition();
-
-  constexpr bool const& __cordl_internal_get_noGetPosition() const;
-
-  constexpr void __cordl_internal_set_noGetPosition(bool value);
+  constexpr bool& __cordl_internal_get_inited();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_keymap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_keymap() const;
 
-  constexpr void __cordl_internal_set_keymap(::System::Collections::Hashtable* value);
+  constexpr ::StringW const& __cordl_internal_get_keypadLocal() const;
+
+  constexpr ::StringW& __cordl_internal_get_keypadLocal();
+
+  constexpr ::StringW const& __cordl_internal_get_keypadXmit() const;
+
+  constexpr ::StringW& __cordl_internal_get_keypadXmit();
+
+  constexpr int32_t const& __cordl_internal_get_maxColors() const;
+
+  constexpr int32_t& __cordl_internal_get_maxColors();
+
+  constexpr bool const& __cordl_internal_get_noGetPosition() const;
+
+  constexpr bool& __cordl_internal_get_noGetPosition();
+
+  constexpr ::StringW const& __cordl_internal_get_origColors() const;
+
+  constexpr ::StringW& __cordl_internal_get_origColors();
+
+  constexpr ::StringW const& __cordl_internal_get_origPair() const;
+
+  constexpr ::StringW& __cordl_internal_get_origPair();
+
+  constexpr ::System::TermInfoReader*& __cordl_internal_get_reader();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::TermInfoReader*> const& __cordl_internal_get_reader() const;
+
+  constexpr int32_t const& __cordl_internal_get_readpos() const;
+
+  constexpr int32_t& __cordl_internal_get_readpos();
+
+  constexpr int32_t const& __cordl_internal_get_rl_startx() const;
+
+  constexpr int32_t& __cordl_internal_get_rl_startx();
+
+  constexpr int32_t const& __cordl_internal_get_rl_starty() const;
+
+  constexpr int32_t& __cordl_internal_get_rl_starty();
 
   constexpr ::System::ByteMatcher*& __cordl_internal_get_rootmap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::ByteMatcher*> const& __cordl_internal_get_rootmap() const;
 
-  constexpr void __cordl_internal_set_rootmap(::System::ByteMatcher* value);
+  constexpr ::StringW const& __cordl_internal_get_setbgcolor() const;
 
-  constexpr int32_t& __cordl_internal_get_rl_startx();
+  constexpr ::StringW& __cordl_internal_get_setbgcolor();
 
-  constexpr int32_t const& __cordl_internal_get_rl_startx() const;
+  constexpr ::StringW const& __cordl_internal_get_setfgcolor() const;
 
-  constexpr void __cordl_internal_set_rl_startx(int32_t value);
+  constexpr ::StringW& __cordl_internal_get_setfgcolor();
 
-  constexpr int32_t& __cordl_internal_get_rl_starty();
+  constexpr ::System::IO::StreamReader*& __cordl_internal_get_stdin();
 
-  constexpr int32_t const& __cordl_internal_get_rl_starty() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::StreamReader*> const& __cordl_internal_get_stdin() const;
 
-  constexpr void __cordl_internal_set_rl_starty(int32_t value);
+  constexpr ::System::IO::CStreamWriter*& __cordl_internal_get_stdout();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_control_characters();
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::CStreamWriter*> const& __cordl_internal_get_stdout() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_control_characters() const;
+  constexpr ::StringW const& __cordl_internal_get_term() const;
+
+  constexpr ::StringW& __cordl_internal_get_term();
+
+  constexpr ::StringW const& __cordl_internal_get_title() const;
+
+  constexpr ::StringW& __cordl_internal_get_title();
+
+  constexpr ::StringW const& __cordl_internal_get_titleFormat() const;
+
+  constexpr ::StringW& __cordl_internal_get_titleFormat();
+
+  constexpr int32_t const& __cordl_internal_get_windowHeight() const;
+
+  constexpr int32_t& __cordl_internal_get_windowHeight();
+
+  constexpr int32_t const& __cordl_internal_get_windowWidth() const;
+
+  constexpr int32_t& __cordl_internal_get_windowWidth();
+
+  constexpr int32_t const& __cordl_internal_get_writepos() const;
+
+  constexpr int32_t& __cordl_internal_get_writepos();
+
+  constexpr void __cordl_internal_set_bell(::StringW value);
+
+  constexpr void __cordl_internal_set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  constexpr void __cordl_internal_set_bufferHeight(int32_t value);
+
+  constexpr void __cordl_internal_set_bufferWidth(int32_t value);
+
+  constexpr void __cordl_internal_set_clear(::StringW value);
 
   constexpr void __cordl_internal_set_control_characters(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_echobuf();
+  constexpr void __cordl_internal_set_csrInvisible(::StringW value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_echobuf() const;
+  constexpr void __cordl_internal_set_csrVisible(::StringW value);
+
+  constexpr void __cordl_internal_set_cursorAddress(::StringW value);
+
+  constexpr void __cordl_internal_set_cursorLeft(int32_t value);
+
+  constexpr void __cordl_internal_set_cursorTop(int32_t value);
+
+  constexpr void __cordl_internal_set_cursorVisible(bool value);
 
   constexpr void __cordl_internal_set_echobuf(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __cordl_internal_get_echon();
-
-  constexpr int32_t const& __cordl_internal_get_echon() const;
-
   constexpr void __cordl_internal_set_echon(int32_t value);
 
-  static inline void setStaticF_native_terminal_size(::cordl_internals::Ptr<int32_t> value);
+  constexpr void __cordl_internal_set_fgcolor(::System::ConsoleColor value);
 
-  static inline ::cordl_internals::Ptr<int32_t> getStaticF_native_terminal_size();
+  constexpr void __cordl_internal_set_initKeys(bool value);
 
-  static inline void setStaticF_terminal_size(int32_t value);
+  constexpr void __cordl_internal_set_initLock(::System::Object* value);
 
-  static inline int32_t getStaticF_terminal_size();
+  constexpr void __cordl_internal_set_inited(bool value);
 
-  static inline void setStaticF_locations(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_keymap(::System::Collections::Hashtable* value);
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_locations();
+  constexpr void __cordl_internal_set_keypadLocal(::StringW value);
 
-  static inline void setStaticF__consoleColorToAnsiCode(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_keypadXmit(::StringW value);
+
+  constexpr void __cordl_internal_set_maxColors(int32_t value);
+
+  constexpr void __cordl_internal_set_noGetPosition(bool value);
+
+  constexpr void __cordl_internal_set_origColors(::StringW value);
+
+  constexpr void __cordl_internal_set_origPair(::StringW value);
+
+  constexpr void __cordl_internal_set_reader(::System::TermInfoReader* value);
+
+  constexpr void __cordl_internal_set_readpos(int32_t value);
+
+  constexpr void __cordl_internal_set_rl_startx(int32_t value);
+
+  constexpr void __cordl_internal_set_rl_starty(int32_t value);
+
+  constexpr void __cordl_internal_set_rootmap(::System::ByteMatcher* value);
+
+  constexpr void __cordl_internal_set_setbgcolor(::StringW value);
+
+  constexpr void __cordl_internal_set_setfgcolor(::StringW value);
+
+  constexpr void __cordl_internal_set_stdin(::System::IO::StreamReader* value);
+
+  constexpr void __cordl_internal_set_stdout(::System::IO::CStreamWriter* value);
+
+  constexpr void __cordl_internal_set_term(::StringW value);
+
+  constexpr void __cordl_internal_set_title(::StringW value);
+
+  constexpr void __cordl_internal_set_titleFormat(::StringW value);
+
+  constexpr void __cordl_internal_set_windowHeight(int32_t value);
+
+  constexpr void __cordl_internal_set_windowWidth(int32_t value);
+
+  constexpr void __cordl_internal_set_writepos(int32_t value);
+
+  /// @brief Method .ctor, addr 0x26eae90, size 0x348, virtual false, abstract: false, final false
+  inline void _ctor(::StringW term);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF__consoleColorToAnsiCode();
 
-  /// @brief Method TryTermInfoDir, addr 0x26002d0, size 0x12c, virtual false, abstract: false, final false
-  static inline ::StringW TryTermInfoDir(::StringW dir, ::StringW term);
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_locations();
 
-  /// @brief Method SearchTerminfo, addr 0x26003fc, size 0x16c, virtual false, abstract: false, final false
-  static inline ::StringW SearchTerminfo(::StringW term);
+  static inline ::cordl_internals::Ptr<int32_t> getStaticF_native_terminal_size();
 
-  /// @brief Method WriteConsole, addr 0x2600568, size 0x28, virtual false, abstract: false, final false
-  inline void WriteConsole(::StringW str);
+  static inline int32_t getStaticF_terminal_size();
 
-  static inline ::System::TermInfoDriver* New_ctor(::StringW term);
-
-  /// @brief Method .ctor, addr 0x25f7894, size 0x348, virtual false, abstract: false, final false
-  inline void _ctor(::StringW term);
-
-  /// @brief Method get_Initialized, addr 0x26008f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Initialized, addr 0x26f3ef0, size 0x8, virtual true, abstract: false, final true
   inline bool get_Initialized();
 
-  /// @brief Method Init, addr 0x26008fc, size 0x864, virtual true, abstract: false, final true
-  inline void Init();
-
-  /// @brief Method IncrementX, addr 0x26014e0, size 0x6c, virtual false, abstract: false, final false
-  inline void IncrementX();
-
-  /// @brief Method WriteSpecialKey, addr 0x26015a4, size 0x114, virtual false, abstract: false, final false
-  inline void WriteSpecialKey(::System::ConsoleKeyInfo key);
-
-  /// @brief Method WriteSpecialKey, addr 0x2601868, size 0x28, virtual false, abstract: false, final false
-  inline void WriteSpecialKey(char16_t c);
-
-  /// @brief Method IsSpecialKey, addr 0x2601a14, size 0x84, virtual false, abstract: false, final false
-  inline bool IsSpecialKey(::System::ConsoleKeyInfo key);
-
-  /// @brief Method IsSpecialKey, addr 0x2601a98, size 0x28, virtual false, abstract: false, final false
-  inline bool IsSpecialKey(char16_t c);
-
-  /// @brief Method GetCursorPosition, addr 0x2601250, size 0x290, virtual false, abstract: false, final false
-  inline void GetCursorPosition();
-
-  /// @brief Method CheckWindowDimensions, addr 0x2601ba4, size 0x120, virtual false, abstract: false, final false
-  inline void CheckWindowDimensions();
-
-  /// @brief Method get_WindowHeight, addr 0x2601578, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_WindowHeight, addr 0x26f4b74, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_WindowHeight();
 
-  /// @brief Method get_WindowWidth, addr 0x260154c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_WindowWidth, addr 0x26f4b48, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_WindowWidth();
 
-  /// @brief Method AddToBuffer, addr 0x2601ac0, size 0xe4, virtual false, abstract: false, final false
-  inline void AddToBuffer(int32_t b);
+  /// @brief Convert to "::System::IConsoleDriver"
+  constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
-  /// @brief Method AdjustBuffer, addr 0x2601cc4, size 0x14, virtual false, abstract: false, final false
-  inline void AdjustBuffer();
+  static inline void setStaticF__consoleColorToAnsiCode(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method CreateKeyInfoFromInt, addr 0x2601890, size 0x184, virtual false, abstract: false, final false
-  inline ::System::ConsoleKeyInfo CreateKeyInfoFromInt(int32_t n, bool alt);
+  static inline void setStaticF_locations(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method GetKeyFromBuffer, addr 0x2601cd8, size 0x2cc, virtual false, abstract: false, final false
-  inline ::System::Object* GetKeyFromBuffer(bool cooked);
+  static inline void setStaticF_native_terminal_size(::cordl_internals::Ptr<int32_t> value);
 
-  /// @brief Method ReadKeyInternal, addr 0x26024b8, size 0x1c0, virtual false, abstract: false, final false
-  inline ::System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
+  static inline void setStaticF_terminal_size(int32_t value);
 
-  /// @brief Method InputPending, addr 0x26027e4, size 0x34, virtual false, abstract: false, final false
-  inline bool InputPending();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TermInfoDriver();
 
-  /// @brief Method QueueEcho, addr 0x2602818, size 0xc8, virtual false, abstract: false, final false
-  inline void QueueEcho(char16_t c);
-
-  /// @brief Method Echo, addr 0x26028e0, size 0x54, virtual false, abstract: false, final false
-  inline void Echo(::System::ConsoleKeyInfo key);
-
-  /// @brief Method EchoFlush, addr 0x2602934, size 0x34, virtual false, abstract: false, final false
-  inline void EchoFlush();
-
-  /// @brief Method Read, addr 0x2602968, size 0x304, virtual false, abstract: false, final false
-  inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest, int32_t index, int32_t count);
-
-  /// @brief Method ReadKey, addr 0x2602c6c, size 0x64, virtual true, abstract: false, final true
-  inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
-
-  /// @brief Method ReadLine, addr 0x2602cd0, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW ReadLine();
-
-  /// @brief Method ReadToEnd, addr 0x2602ea0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW ReadToEnd();
-
-  /// @brief Method ReadUntilConditionInternal, addr 0x2602cd8, size 0x1c8, virtual false, abstract: false, final false
-  inline ::StringW ReadUntilConditionInternal(bool haltOnNewLine);
-
-  /// @brief Method SetCursorPosition, addr 0x26016b8, size 0x1b0, virtual true, abstract: false, final true
-  inline void SetCursorPosition(int32_t left, int32_t top);
-
-  /// @brief Method CreateKeyMap, addr 0x2603020, size 0x1e98, virtual false, abstract: false, final false
-  inline void CreateKeyMap();
-
-  /// @brief Method InitKeys, addr 0x2602678, size 0x16c, virtual false, abstract: false, final false
-  inline void InitKeys();
-
-  /// @brief Method AddStringMapping, addr 0x2604f34, size 0x4c, virtual false, abstract: false, final false
-  inline void AddStringMapping(::System::TermInfoStrings s);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TermInfoDriver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TermInfoDriver(TermInfoDriver&&) = delete;
@@ -561,12 +565,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TermInfoDriver(TermInfoDriver const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TermInfoDriver();
-
-public:
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::TermInfoReader* ___reader;
 

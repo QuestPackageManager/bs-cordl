@@ -24,16 +24,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSy
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(182))
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::AdditionalInformationSyntax*
 class CORDL_TYPE AdditionalInformationSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Information))::Org::BouncyCastle::Asn1::X500::DirectoryString* Information;
+
   /// @brief Field information, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_information, put = __cordl_internal_set_information))::Org::BouncyCastle::Asn1::X500::DirectoryString* information;
 
-  __declspec(property(get = get_Information))::Org::BouncyCastle::Asn1::X500::DirectoryString* Information;
+  /// @brief Method GetInstance, addr 0xfe7614, size 0x158, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
+
+  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW information);
+
+  /// @brief Method ToAsn1Object, addr 0xfe7818, size 0x20, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_information();
 
@@ -41,25 +49,21 @@ public:
 
   constexpr void __cordl_internal_set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method GetInstance, addr 0xf767b4, size 0x158, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
-
-  /// @brief Method .ctor, addr 0xf7690c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe776c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW information);
-
-  /// @brief Method .ctor, addr 0xf76934, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe7794, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW information);
 
-  /// @brief Method get_Information, addr 0xf769b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Information, addr 0xfe7810, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Information();
 
-  /// @brief Method ToAsn1Object, addr 0xf769b8, size 0x20, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AdditionalInformationSyntax();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AdditionalInformationSyntax(AdditionalInformationSyntax&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AdditionalInformationSyntax(AdditionalInformationSyntax const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AdditionalInformationSyntax();
-
-public:
   /// @brief Field information, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X500::DirectoryString* ___information;
 

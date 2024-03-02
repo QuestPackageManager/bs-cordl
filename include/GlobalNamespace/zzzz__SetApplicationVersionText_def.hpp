@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SetApplicationVersionText);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5047))
 // CS Name: ::SetApplicationVersionText*
 class CORDL_TYPE SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _versionText, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__versionText, put = __cordl_internal_set__versionText))::UnityW<::TMPro::TextMeshPro> _versionText;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__versionText();
+  static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
+
+  /// @brief Method Start, addr 0x244eb28, size 0x48, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__versionText() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__versionText();
+
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method Start, addr 0x23c32a8, size 0x48, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c32f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244eb70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SetApplicationVersionText();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetApplicationVersionText(SetApplicationVersionText&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetApplicationVersionText(SetApplicationVersionText const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetApplicationVersionText();
-
-public:
   /// @brief Field _versionText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____versionText;
 

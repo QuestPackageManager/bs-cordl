@@ -29,19 +29,12 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14490))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14479)) CS Name: ::BloomPrePassRenderDataSO::Data*
+// CS Name: ::BloomPrePassRenderDataSO::Data*
 class CORDL_TYPE __BloomPrePassRenderDataSO__Data : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bloomPrePassRenderTexture, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bloomPrePassRenderTexture, put = __cordl_internal_set_bloomPrePassRenderTexture))::UnityW<::UnityEngine::RenderTexture> bloomPrePassRenderTexture;
-
-  /// @brief Field textureToScreenRatio, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_textureToScreenRatio, put = __cordl_internal_set_textureToScreenRatio))::UnityEngine::Vector2 textureToScreenRatio;
-
-  /// @brief Field viewMatrix, offset 0x20, size 0x40
-  __declspec(property(get = __cordl_internal_get_viewMatrix, put = __cordl_internal_set_viewMatrix))::UnityEngine::Matrix4x4 viewMatrix;
 
   /// @brief Field projectionMatrix, offset 0x60, size 0x40
   __declspec(property(get = __cordl_internal_get_projectionMatrix, put = __cordl_internal_set_projectionMatrix))::UnityEngine::Matrix4x4 projectionMatrix;
@@ -49,50 +42,62 @@ public:
   /// @brief Field stereoCameraEyeOffset, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_stereoCameraEyeOffset, put = __cordl_internal_set_stereoCameraEyeOffset)) float_t stereoCameraEyeOffset;
 
+  /// @brief Field textureToScreenRatio, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_textureToScreenRatio, put = __cordl_internal_set_textureToScreenRatio))::UnityEngine::Vector2 textureToScreenRatio;
+
   /// @brief Field toneMapping, offset 0xa4, size 0x4
   __declspec(property(get = __cordl_internal_get_toneMapping, put = __cordl_internal_set_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_bloomPrePassRenderTexture();
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_bloomPrePassRenderTexture() const;
-
-  constexpr void __cordl_internal_set_bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_textureToScreenRatio();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_textureToScreenRatio() const;
-
-  constexpr void __cordl_internal_set_textureToScreenRatio(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_viewMatrix();
-
-  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_viewMatrix() const;
-
-  constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
-
-  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_projectionMatrix();
-
-  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_projectionMatrix() const;
-
-  constexpr void __cordl_internal_set_projectionMatrix(::UnityEngine::Matrix4x4 value);
-
-  constexpr float_t& __cordl_internal_get_stereoCameraEyeOffset();
-
-  constexpr float_t const& __cordl_internal_get_stereoCameraEyeOffset() const;
-
-  constexpr void __cordl_internal_set_stereoCameraEyeOffset(float_t value);
-
-  constexpr ::GlobalNamespace::ToneMapping& __cordl_internal_get_toneMapping();
-
-  constexpr ::GlobalNamespace::ToneMapping const& __cordl_internal_get_toneMapping() const;
-
-  constexpr void __cordl_internal_set_toneMapping(::GlobalNamespace::ToneMapping value);
+  /// @brief Field viewMatrix, offset 0x20, size 0x40
+  __declspec(property(get = __cordl_internal_get_viewMatrix, put = __cordl_internal_set_viewMatrix))::UnityEngine::Matrix4x4 viewMatrix;
 
   static inline ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210290c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_bloomPrePassRenderTexture() const;
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_bloomPrePassRenderTexture();
+
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_projectionMatrix() const;
+
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_projectionMatrix();
+
+  constexpr float_t const& __cordl_internal_get_stereoCameraEyeOffset() const;
+
+  constexpr float_t& __cordl_internal_get_stereoCameraEyeOffset();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_textureToScreenRatio() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_textureToScreenRatio();
+
+  constexpr ::GlobalNamespace::ToneMapping const& __cordl_internal_get_toneMapping() const;
+
+  constexpr ::GlobalNamespace::ToneMapping& __cordl_internal_get_toneMapping();
+
+  constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get_viewMatrix() const;
+
+  constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_viewMatrix();
+
+  constexpr void __cordl_internal_set_bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+
+  constexpr void __cordl_internal_set_projectionMatrix(::UnityEngine::Matrix4x4 value);
+
+  constexpr void __cordl_internal_set_stereoCameraEyeOffset(float_t value);
+
+  constexpr void __cordl_internal_set_textureToScreenRatio(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_toneMapping(::GlobalNamespace::ToneMapping value);
+
+  constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
+
+  /// @brief Method .ctor, addr 0x226571c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BloomPrePassRenderDataSO__Data();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRenderDataSO__Data", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BloomPrePassRenderDataSO__Data(__BloomPrePassRenderDataSO__Data&&) = delete;
@@ -101,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BloomPrePassRenderDataSO__Data(__BloomPrePassRenderDataSO__Data const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BloomPrePassRenderDataSO__Data();
-
-public:
   /// @brief Field bloomPrePassRenderTexture, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___bloomPrePassRenderTexture;
 
@@ -147,8 +146,6 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___t
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14480))
 // CS Name: ::BloomPrePassRenderDataSO*
 class CORDL_TYPE BloomPrePassRenderDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -158,17 +155,23 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::GlobalNamespace::__BloomPrePassRenderDataSO__Data* data;
 
+  static inline ::GlobalNamespace::BloomPrePassRenderDataSO* New_ctor();
+
   constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& __cordl_internal_get_data();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& __cordl_internal_get_data() const;
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  static inline ::GlobalNamespace::BloomPrePassRenderDataSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21072fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226a10c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassRenderDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO&&) = delete;
@@ -177,12 +180,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassRenderDataSO();
-
-public:
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* ___data;
 

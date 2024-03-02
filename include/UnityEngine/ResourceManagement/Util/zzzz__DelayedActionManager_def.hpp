@@ -45,45 +45,43 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__Dele
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13967))
 // CS Name: ::DelayedActionManager::DelegateInfo
 struct CORDL_TYPE __DelayedActionManager__DelegateInfo {
 public:
   // Declarations
+  __declspec(property(get = get_InvocationTime, put = set_InvocationTime)) float_t InvocationTime;
+
   /// @brief Field s_Id, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_Id, put = setStaticF_s_Id)) int32_t s_Id;
 
-  __declspec(property(get = get_InvocationTime, put = set_InvocationTime)) float_t InvocationTime;
+  /// @brief Method Invoke, addr 0x2cb7a2c, size 0x17c, virtual false, abstract: false, final false
+  inline void Invoke();
 
-  static inline void setStaticF_s_Id(int32_t value);
+  /// @brief Method ToString, addr 0x2cb7e28, size 0x430, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2cb7428, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
 
   static inline int32_t getStaticF_s_Id();
 
-  /// @brief Method .ctor, addr 0x2bd07e8, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
-
-  /// @brief Method get_InvocationTime, addr 0x2bd11d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InvocationTime, addr 0x2cb7e18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InvocationTime();
 
-  /// @brief Method set_InvocationTime, addr 0x2bd11e0, size 0x8, virtual false, abstract: false, final false
+  static inline void setStaticF_s_Id(int32_t value);
+
+  /// @brief Method set_InvocationTime, addr 0x2cb7e20, size 0x8, virtual false, abstract: false, final false
   inline void set_InvocationTime(float_t value);
 
-  /// @brief Method ToString, addr 0x2bd11e8, size 0x430, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Invoke, addr 0x2bd0dec, size 0x17c, virtual false, abstract: false, final false
-  inline void Invoke();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DelayedActionManager__DelegateInfo();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: None }, CppParam {
   // name: "m_Target", ty: "::ArrayW<::System::Object*,::Array<::System::Object*>*>", modifiers: "", def_value: None }, CppParam { name: "_InvocationTime_k__BackingField", ty: "float_t", modifiers:
   // "", def_value: None }]
   constexpr __DelayedActionManager__DelegateInfo(int32_t m_Id, ::System::Delegate* m_Delegate, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_Target,
                                                  float_t _InvocationTime_k__BackingField) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DelayedActionManager__DelegateInfo();
 
   /// @brief Field m_Id, offset: 0x0, size: 0x4, def value: None
   int32_t m_Id;
@@ -118,8 +116,6 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionM
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13968))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DelayedActionManager*
 class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::UnityEngine::ResourceManagement::Util::DelayedActionManager>> {
 public:
@@ -132,39 +128,71 @@ public:
       put = __cordl_internal_set_m_Actions))::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
                                                      ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*> m_Actions;
 
+  /// @brief Field m_CollectionIndex, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_CollectionIndex, put = __cordl_internal_set_m_CollectionIndex)) int32_t m_CollectionIndex;
+
   /// @brief Field m_DelayedActions, offset 0x20, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_DelayedActions,
       put = __cordl_internal_set_m_DelayedActions))::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>* m_DelayedActions;
 
+  /// @brief Field m_DestroyOnCompletion, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_DestroyOnCompletion, put = __cordl_internal_set_m_DestroyOnCompletion)) bool m_DestroyOnCompletion;
+
   /// @brief Field m_NodeCache, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache))::System::Collections::Generic::Stack_1<
       ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* m_NodeCache;
 
-  /// @brief Field m_CollectionIndex, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CollectionIndex, put = __cordl_internal_set_m_CollectionIndex)) int32_t m_CollectionIndex;
+  /// @brief Method AddAction, addr 0x2cb7130, size 0x74, virtual false, abstract: false, final false
+  static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Field m_DestroyOnCompletion, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DestroyOnCompletion, put = __cordl_internal_set_m_DestroyOnCompletion)) bool m_DestroyOnCompletion;
+  /// @brief Method AddActionInternal, addr 0x2cb71a4, size 0x284, virtual false, abstract: false, final false
+  inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
-                     ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>&
-  __cordl_internal_get_m_Actions();
+  /// @brief Method Clear, addr 0x2cb70b0, size 0x74, virtual false, abstract: false, final false
+  static inline void Clear();
+
+  /// @brief Method DestroyWhenComplete, addr 0x2cb7124, size 0xc, virtual false, abstract: false, final false
+  inline void DestroyWhenComplete();
+
+  /// @brief Method GetNode, addr 0x2cb6fb4, size 0xfc, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*
+  GetNode(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo> del);
+
+  /// @brief Method InternalLateUpdate, addr 0x2cb76ec, size 0x324, virtual false, abstract: false, final false
+  inline void InternalLateUpdate(float_t t);
+
+  /// @brief Method LateUpdate, addr 0x2cb7a10, size 0x1c, virtual false, abstract: false, final false
+  inline void LateUpdate();
+
+  static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
+
+  /// @brief Method OnApplicationQuit, addr 0x2cb7ba8, size 0xb4, virtual false, abstract: false, final false
+  inline void OnApplicationQuit();
+
+  /// @brief Method Wait, addr 0x2cb75bc, size 0x130, virtual false, abstract: false, final false
+  static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
                      ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*> const&
   __cordl_internal_get_m_Actions() const;
 
-  constexpr void __cordl_internal_set_m_Actions(::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
-                                                         ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>
-                                                    value);
+  constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
+                     ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>&
+  __cordl_internal_get_m_Actions();
+
+  constexpr int32_t const& __cordl_internal_get_m_CollectionIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_CollectionIndex();
 
   constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*& __cordl_internal_get_m_DelayedActions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*> const&
   __cordl_internal_get_m_DelayedActions() const;
 
-  constexpr void __cordl_internal_set_m_DelayedActions(::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>* value);
+  constexpr bool const& __cordl_internal_get_m_DestroyOnCompletion() const;
+
+  constexpr bool& __cordl_internal_get_m_DestroyOnCompletion();
 
   constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*&
   __cordl_internal_get_m_NodeCache();
@@ -173,57 +201,31 @@ public:
       ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*> const&
   __cordl_internal_get_m_NodeCache() const;
 
-  constexpr void __cordl_internal_set_m_NodeCache(
-      ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* value);
-
-  constexpr int32_t& __cordl_internal_get_m_CollectionIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_CollectionIndex() const;
+  constexpr void __cordl_internal_set_m_Actions(::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
+                                                         ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>
+                                                    value);
 
   constexpr void __cordl_internal_set_m_CollectionIndex(int32_t value);
 
-  constexpr bool& __cordl_internal_get_m_DestroyOnCompletion();
-
-  constexpr bool const& __cordl_internal_get_m_DestroyOnCompletion() const;
+  constexpr void __cordl_internal_set_m_DelayedActions(::System::Collections::Generic::LinkedList_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>* value);
 
   constexpr void __cordl_internal_set_m_DestroyOnCompletion(bool value);
 
-  /// @brief Method GetNode, addr 0x2bd0374, size 0xfc, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*
-  GetNode(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo> del);
+  constexpr void __cordl_internal_set_m_NodeCache(
+      ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* value);
 
-  /// @brief Method Clear, addr 0x2bd0470, size 0x74, virtual false, abstract: false, final false
-  static inline void Clear();
-
-  /// @brief Method DestroyWhenComplete, addr 0x2bd04e4, size 0xc, virtual false, abstract: false, final false
-  inline void DestroyWhenComplete();
-
-  /// @brief Method AddAction, addr 0x2bd04f0, size 0x74, virtual false, abstract: false, final false
-  static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
-
-  /// @brief Method AddActionInternal, addr 0x2bd0564, size 0x284, virtual false, abstract: false, final false
-  inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
-
-  /// @brief Method get_IsActive, addr 0x2bd0868, size 0x114, virtual false, abstract: false, final false
-  static inline bool get_IsActive();
-
-  /// @brief Method Wait, addr 0x2bd097c, size 0x130, virtual false, abstract: false, final false
-  static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
-
-  /// @brief Method LateUpdate, addr 0x2bd0dd0, size 0x1c, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method InternalLateUpdate, addr 0x2bd0aac, size 0x324, virtual false, abstract: false, final false
-  inline void InternalLateUpdate(float_t t);
-
-  /// @brief Method OnApplicationQuit, addr 0x2bd0f68, size 0xb4, virtual false, abstract: false, final false
-  inline void OnApplicationQuit();
-
-  static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2bd101c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb7c5c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsActive, addr 0x2cb74a8, size 0x114, virtual false, abstract: false, final false
+  static inline bool get_IsActive();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DelayedActionManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayedActionManager(DelayedActionManager&&) = delete;
@@ -232,12 +234,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelayedActionManager(DelayedActionManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelayedActionManager();
-
-public:
   /// @brief Field m_Actions, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
            ::Array<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>*>

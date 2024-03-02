@@ -16,36 +16,40 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Profiler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10297))
 // CS Name: ::UnityEngine.Profiling::Profiler*
 class CORDL_TYPE Profiler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method set_logFile, addr 0x2ce6b40, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_logFile(::StringW value);
-
-  /// @brief Method set_enableBinaryLog, addr 0x2ce6b7c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_enableBinaryLog(bool value);
-
-  /// @brief Method set_maxUsedMemory, addr 0x2ce6bb8, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_maxUsedMemory(int32_t value);
-
-  /// @brief Method get_enabled, addr 0x2ce6bf4, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_enabled();
-
-  /// @brief Method set_enabled, addr 0x2ce6c1c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_enabled(bool value);
-
-  /// @brief Method GetMonoUsedSizeLong, addr 0x2ce6c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoUsedSizeLong, addr 0x2dd9514, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoUsedSizeLong();
 
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x2ce6c80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x2dd953c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalAllocatedMemoryLong();
 
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x2ce6ca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalReservedMemoryLong, addr 0x2dd9564, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalReservedMemoryLong();
 
+  /// @brief Method get_enabled, addr 0x2dd94b0, size 0x28, virtual false, abstract: false, final false
+  static inline bool get_enabled();
+
+  /// @brief Method set_enableBinaryLog, addr 0x2dd9438, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_enableBinaryLog(bool value);
+
+  /// @brief Method set_enabled, addr 0x2dd94d8, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_enabled(bool value);
+
+  /// @brief Method set_logFile, addr 0x2dd93fc, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_logFile(::StringW value);
+
+  /// @brief Method set_maxUsedMemory, addr 0x2dd9474, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_maxUsedMemory(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Profiler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Profiler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Profiler(Profiler&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Profiler(Profiler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Profiler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

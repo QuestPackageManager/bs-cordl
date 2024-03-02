@@ -17,25 +17,29 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Encoding3412);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11557))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11561))
 // CS Name: ::System.Xml::Ucs4Encoding3412*
 class CORDL_TYPE Ucs4Encoding3412 : public ::System::Xml::Ucs4Encoding {
 public:
   // Declarations
   __declspec(property(get = get_EncodingName))::StringW EncodingName;
 
-  static inline ::System::Xml::Ucs4Encoding3412* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28a5f54, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_EncodingName, addr 0x28a61f8, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_EncodingName();
-
-  /// @brief Method GetPreamble, addr 0x28a6238, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x2990d1c, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
+  static inline ::System::Xml::Ucs4Encoding3412* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2990a38, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_EncodingName, addr 0x2990cdc, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_EncodingName();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ucs4Encoding3412();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding3412", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ucs4Encoding3412(Ucs4Encoding3412&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Ucs4Encoding3412(Ucs4Encoding3412 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ucs4Encoding3412();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

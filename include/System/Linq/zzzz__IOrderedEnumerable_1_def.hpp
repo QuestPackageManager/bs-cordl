@@ -27,8 +27,6 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14281))
 // CS Name: ::System.Linq::IOrderedEnumerable`1<TElement>*
 class CORDL_TYPE IOrderedEnumerable_1 {
 public:
@@ -36,19 +34,19 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method CreateOrderedEnumerable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename TKey>
   inline ::System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                                                                                  bool descending);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TElement>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>* i___System__Collections__Generic__IEnumerable_1_TElement_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IOrderedEnumerable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

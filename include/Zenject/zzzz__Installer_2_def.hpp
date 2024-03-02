@@ -22,8 +22,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TDerived>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11137))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11132))
 // CS Name: ::Zenject::Installer`2<TParam1,TDerived>*
 class CORDL_TYPE Installer_2 : public ::Zenject::InstallerBase {
 public:
@@ -33,12 +31,18 @@ public:
 
   static inline ::Zenject::Installer_2<TParam1, TDerived>* New_ctor();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Installer_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Installer_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Installer_2(Installer_2&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Installer_2(Installer_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Installer_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

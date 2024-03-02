@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::System::Net::Http::IMonoHttpClientHandler);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
 // CS Name: ::System.Net.Http::IMonoHttpClientHandler*
 class CORDL_TYPE IMonoHttpClientHandler {
 public:
@@ -45,21 +43,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  /// @brief Method get_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
-
-  /// @brief Method set_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
-
   /// @brief Method SendAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method SetWebRequestTimeout, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
+
+  /// @brief Method get_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Method set_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMonoHttpClientHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -25,31 +25,35 @@ MARK_REF_PTR_T(::System::ComponentModel::SByteConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9407))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9453))
 // CS Name: ::System.ComponentModel::SByteConverter*
 class CORDL_TYPE SByteConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_TargetType, addr 0x2917fe0, size 0x6c, virtual true, abstract: false, final false
-  inline ::System::Type* get_TargetType();
-
-  /// @brief Method FromString, addr 0x291804c, size 0x94, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, int32_t radix);
-
-  /// @brief Method FromString, addr 0x29180e0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2a01bc4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method ToString, addr 0x2918154, size 0xb0, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+  /// @brief Method FromString, addr 0x2a01b30, size 0x94, virtual true, abstract: false, final false
+  inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::SByteConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2918204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a01c38, size 0xb0, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+
+  /// @brief Method .ctor, addr 0x2a01ce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_TargetType, addr 0x2a01ac4, size 0x6c, virtual true, abstract: false, final false
+  inline ::System::Type* get_TargetType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SByteConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SByteConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SByteConverter(SByteConverter&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SByteConverter(SByteConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SByteConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

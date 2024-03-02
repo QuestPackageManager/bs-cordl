@@ -20,20 +20,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerOutputStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(486))
 // CS Name: ::Org.BouncyCastle.Asn1::BerOutputStream*
 class CORDL_TYPE BerOutputStream : public ::Org::BouncyCastle::Asn1::DerOutputStream {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method .ctor, addr 0x11bbf2c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* os);
-
-  /// @brief Method WriteObject, addr 0x11bd8a4, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x122d704, size 0x15c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
+  /// @brief Method .ctor, addr 0x122bd8c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* os);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerOutputStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerOutputStream(BerOutputStream&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerOutputStream(BerOutputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerOutputStream();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

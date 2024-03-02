@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::PRIORITY);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15100))
 // CS Name: ::LIV.SDK.Unity::PRIORITY
 struct CORDL_TYPE PRIORITY {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__PRIORITY_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
-  constexpr PRIORITY(int8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int8_t() const noexcept {
+    return static_cast<int8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PRIORITY();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
+  constexpr PRIORITY(int8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   int8_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+  /// @brief Field GAME value: static_cast<int8_t>(0x3f)
+  static ::LIV::SDK::Unity::PRIORITY const GAME;
 
   /// @brief Field NONE value: static_cast<int8_t>(0x0)
   static ::LIV::SDK::Unity::PRIORITY const NONE;
 
-  /// @brief Field GAME value: static_cast<int8_t>(0x3f)
-  static ::LIV::SDK::Unity::PRIORITY const GAME;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::BuiltinRenderTextureType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10339))
 // CS Name: ::UnityEngine.Rendering::BuiltinRenderTextureType
 struct CORDL_TYPE BuiltinRenderTextureType {
 public:
@@ -55,57 +53,38 @@ public:
     return static_cast<__BuiltinRenderTextureType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BuiltinRenderTextureType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BuiltinRenderTextureType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BuiltinRenderTextureType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field PropertyName value: static_cast<int32_t>(0xfffffffc)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PropertyName;
-
-  /// @brief Field BufferPtr value: static_cast<int32_t>(0xfffffffd)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const BufferPtr;
-
-  /// @brief Field RenderTexture value: static_cast<int32_t>(0xfffffffe)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const RenderTexture;
 
   /// @brief Field BindableTexture value: static_cast<int32_t>(0xffffffff)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const BindableTexture;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const None;
-
-  /// @brief Field CurrentActive value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const CurrentActive;
+  /// @brief Field BufferPtr value: static_cast<int32_t>(0xfffffffd)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const BufferPtr;
 
   /// @brief Field CameraTarget value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const CameraTarget;
+
+  /// @brief Field CurrentActive value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const CurrentActive;
 
   /// @brief Field Depth value: static_cast<int32_t>(0x3)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const Depth;
 
   /// @brief Field DepthNormals value: static_cast<int32_t>(0x4)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const DepthNormals;
-
-  /// @brief Field ResolvedDepth value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const ResolvedDepth;
-
-  /// @brief Field PrepassNormalsSpec value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassNormalsSpec;
-
-  /// @brief Field PrepassLight value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLight;
-
-  /// @brief Field PrepassLightSpec value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLightSpec;
 
   /// @brief Field GBuffer0 value: static_cast<int32_t>(0xa)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer0;
@@ -119,12 +98,6 @@ public:
   /// @brief Field GBuffer3 value: static_cast<int32_t>(0xd)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer3;
 
-  /// @brief Field Reflections value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const Reflections;
-
-  /// @brief Field MotionVectors value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::Rendering::BuiltinRenderTextureType const MotionVectors;
-
   /// @brief Field GBuffer4 value: static_cast<int32_t>(0x10)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer4;
 
@@ -136,6 +109,36 @@ public:
 
   /// @brief Field GBuffer7 value: static_cast<int32_t>(0x13)
   static ::UnityEngine::Rendering::BuiltinRenderTextureType const GBuffer7;
+
+  /// @brief Field MotionVectors value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const MotionVectors;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const None;
+
+  /// @brief Field PrepassLight value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLight;
+
+  /// @brief Field PrepassLightSpec value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassLightSpec;
+
+  /// @brief Field PrepassNormalsSpec value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PrepassNormalsSpec;
+
+  /// @brief Field PropertyName value: static_cast<int32_t>(0xfffffffc)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const PropertyName;
+
+  /// @brief Field Reflections value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const Reflections;
+
+  /// @brief Field RenderTexture value: static_cast<int32_t>(0xfffffffe)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const RenderTexture;
+
+  /// @brief Field ResolvedDepth value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::Rendering::BuiltinRenderTextureType const ResolvedDepth;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

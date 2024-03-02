@@ -30,15 +30,10 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
 // CS Name: ::BTSCharacter*
 class CORDL_TYPE BTSCharacter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _characterName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__characterName, put = __cordl_internal_set__characterName))::StringW _characterName;
-
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
@@ -46,71 +41,80 @@ public:
   __declspec(property(get = __cordl_internal_get__btsCharacterMaterialSwitcher,
                       put = __cordl_internal_set__btsCharacterMaterialSwitcher))::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> _btsCharacterMaterialSwitcher;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+  /// @brief Field _characterName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__characterName, put = __cordl_internal_set__characterName))::StringW _characterName;
 
   /// @brief Field _headTransform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
 
-  __declspec(property(get = get_characterName))::StringW characterName;
-
-  __declspec(property(get = get_materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> materialPropertyBlockController;
+  /// @brief Field _materialPropertyBlockController, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   __declspec(property(get = get_animator))::UnityW<::UnityEngine::Animator> animator;
 
+  __declspec(property(get = get_characterName))::StringW characterName;
+
   __declspec(property(get = get_headTransform))::UnityW<::UnityEngine::Transform> headTransform;
 
-  constexpr ::StringW& __cordl_internal_get__characterName();
-
-  constexpr ::StringW const& __cordl_internal_get__characterName() const;
-
-  constexpr void __cordl_internal_set__characterName(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
-
-  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
-
-  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher>& __cordl_internal_get__btsCharacterMaterialSwitcher();
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> const& __cordl_internal_get__btsCharacterMaterialSwitcher() const;
-
-  constexpr void __cordl_internal_set__btsCharacterMaterialSwitcher(::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
-
-  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
-
-  /// @brief Method get_characterName, addr 0x221963c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_characterName();
-
-  /// @brief Method get_materialPropertyBlockController, addr 0x2219644, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
-
-  /// @brief Method get_animator, addr 0x221964c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Animator> get_animator();
-
-  /// @brief Method get_headTransform, addr 0x2219654, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_headTransform();
-
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x221965c, size 0x1f4, virtual false, abstract: false, final false
-  inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
+  __declspec(property(get = get_materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> materialPropertyBlockController;
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0xe70c14, size 0x1f4, virtual false, abstract: false, final false
+  inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
+
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
+
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> const& __cordl_internal_get__btsCharacterMaterialSwitcher() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher>& __cordl_internal_get__btsCharacterMaterialSwitcher();
+
+  constexpr ::StringW const& __cordl_internal_get__characterName() const;
+
+  constexpr ::StringW& __cordl_internal_get__characterName();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
+
+  constexpr void __cordl_internal_set__btsCharacterMaterialSwitcher(::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> value);
+
+  constexpr void __cordl_internal_set__characterName(::StringW value);
+
+  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+
+  /// @brief Method .ctor, addr 0xe7105c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_animator, addr 0xe70c04, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Animator> get_animator();
+
+  /// @brief Method get_characterName, addr 0xe70bf4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_characterName();
+
+  /// @brief Method get_headTransform, addr 0xe70c0c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_headTransform();
+
+  /// @brief Method get_materialPropertyBlockController, addr 0xe70bfc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSCharacter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacter(BTSCharacter&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacter(BTSCharacter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSCharacter();
-
-public:
   /// @brief Field _characterName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____characterName;
 

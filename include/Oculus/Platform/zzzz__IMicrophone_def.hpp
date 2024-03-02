@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::IMicrophone);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13246))
 // CS Name: ::Oculus.Platform::IMicrophone*
 class CORDL_TYPE IMicrophone {
 public:

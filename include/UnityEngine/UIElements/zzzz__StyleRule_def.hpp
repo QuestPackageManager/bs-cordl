@@ -19,50 +19,54 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleRule);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
 // CS Name: ::UnityEngine.UIElements::StyleRule*
 class CORDL_TYPE StyleRule : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Properties, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Properties,
-                      put = __cordl_internal_set_m_Properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> m_Properties;
+  /// @brief Field customPropertiesCount, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_customPropertiesCount, put = __cordl_internal_set_customPropertiesCount)) int32_t customPropertiesCount;
 
   /// @brief Field line, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_line, put = __cordl_internal_set_line)) int32_t line;
 
-  /// @brief Field customPropertiesCount, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_customPropertiesCount, put = __cordl_internal_set_customPropertiesCount)) int32_t customPropertiesCount;
+  /// @brief Field m_Properties, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Properties,
+                      put = __cordl_internal_set_m_Properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> m_Properties;
 
   __declspec(property(get = get_properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> properties;
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*>& __cordl_internal_get_m_Properties();
-
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> const& __cordl_internal_get_m_Properties() const;
-
-  constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
-
-  constexpr int32_t& __cordl_internal_get_line();
-
-  constexpr int32_t const& __cordl_internal_get_line() const;
-
-  constexpr void __cordl_internal_set_line(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_customPropertiesCount();
+  static inline ::UnityEngine::UIElements::StyleRule* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_customPropertiesCount() const;
 
+  constexpr int32_t& __cordl_internal_get_customPropertiesCount();
+
+  constexpr int32_t const& __cordl_internal_get_line() const;
+
+  constexpr int32_t& __cordl_internal_get_line();
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> const& __cordl_internal_get_m_Properties() const;
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*>& __cordl_internal_get_m_Properties();
+
   constexpr void __cordl_internal_set_customPropertiesCount(int32_t value);
 
-  /// @brief Method get_properties, addr 0x2e6b52c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
+  constexpr void __cordl_internal_set_line(int32_t value);
 
-  static inline ::UnityEngine::UIElements::StyleRule* New_ctor();
+  constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
 
-  /// @brief Method .ctor, addr 0x2e6b534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f79044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_properties, addr 0x2f7903c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleRule();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleRule", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleRule(StyleRule&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleRule(StyleRule const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleRule();
-
-public:
   /// @brief Field m_Properties, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> ___m_Properties;
 

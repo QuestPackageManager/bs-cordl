@@ -68,8 +68,6 @@ MARK_REF_PTR_T(::Zenject::__PrefabInstantiator____c__DisplayClass15_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11228))
 // CS Name: ::PrefabInstantiator::<>c__DisplayClass15_0*
 class CORDL_TYPE __PrefabInstantiator____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -80,59 +78,65 @@ public:
   /// @brief Field args, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
-  /// @brief Field gameObject, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
-
   /// @brief Field context, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Zenject::InjectContext* context;
 
+  /// @brief Field gameObject, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+
   /// @brief Field shouldMakeActive, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_shouldMakeActive, put = __cordl_internal_set_shouldMakeActive)) bool shouldMakeActive;
+
+  static inline ::Zenject::__PrefabInstantiator____c__DisplayClass15_0* New_ctor();
+
+  /// @brief Method <Instantiate>b__0, addr 0x301887c, size 0x5a8, virtual false, abstract: false, final false
+  inline void _Instantiate_b__0();
 
   constexpr ::Zenject::PrefabInstantiator*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiator*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::Zenject::PrefabInstantiator* value);
-
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
-
-  constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_gameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
-
-  constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
 
   constexpr ::Zenject::InjectContext*& __cordl_internal_get_context();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __cordl_internal_set_context(::Zenject::InjectContext* value);
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
 
-  constexpr bool& __cordl_internal_get_shouldMakeActive();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_gameObject();
 
   constexpr bool const& __cordl_internal_get_shouldMakeActive() const;
 
+  constexpr bool& __cordl_internal_get_shouldMakeActive();
+
+  constexpr void __cordl_internal_set___4__this(::Zenject::PrefabInstantiator* value);
+
+  constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+
+  constexpr void __cordl_internal_set_context(::Zenject::InjectContext* value);
+
+  constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
+
   constexpr void __cordl_internal_set_shouldMakeActive(bool value);
 
-  static inline ::Zenject::__PrefabInstantiator____c__DisplayClass15_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f09004, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <Instantiate>b__0, addr 0x2f0900c, size 0x5a8, virtual false, abstract: false, final false
-  inline void _Instantiate_b__0();
-
-  /// @brief Method __zenCreate, addr 0x2f095b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3018e24, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f09610, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3018e80, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3018874, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PrefabInstantiator____c__DisplayClass15_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabInstantiator____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PrefabInstantiator____c__DisplayClass15_0(__PrefabInstantiator____c__DisplayClass15_0&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PrefabInstantiator____c__DisplayClass15_0(__PrefabInstantiator____c__DisplayClass15_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PrefabInstantiator____c__DisplayClass15_0();
-
-public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::PrefabInstantiator* _____4__this;
 
@@ -182,16 +180,20 @@ static_assert(offsetof(::Zenject::__PrefabInstantiator____c__DisplayClass15_0, _
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11229))
 // CS Name: ::Zenject::PrefabInstantiator*
 class CORDL_TYPE PrefabInstantiator : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass15_0 = ::Zenject::__PrefabInstantiator____c__DisplayClass15_0;
 
-  /// @brief Field _prefabProvider, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
+  __declspec(property(get = get_ArgumentTarget))::System::Type* ArgumentTarget;
+
+  __declspec(property(get = get_ExtraArguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ExtraArguments;
+
+  __declspec(property(get = get_GameObjectCreationParameters))::Zenject::GameObjectCreationParameters* GameObjectCreationParameters;
+
+  /// @brief Field _argumentTarget, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__argumentTarget, put = __cordl_internal_set__argumentTarget))::System::Type* _argumentTarget;
 
   /// @brief Field _container, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
@@ -202,97 +204,97 @@ public:
   /// @brief Field _gameObjectBindInfo, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Field _argumentTarget, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__argumentTarget, put = __cordl_internal_set__argumentTarget))::System::Type* _argumentTarget;
+  /// @brief Field _instantiateCallback, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__instantiateCallback,
+                      put = __cordl_internal_set__instantiateCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
 
   /// @brief Field _instantiateCallbackTypes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__instantiateCallbackTypes,
                       put = __cordl_internal_set__instantiateCallbackTypes))::System::Collections::Generic::List_1<::System::Type*>* _instantiateCallbackTypes;
 
-  /// @brief Field _instantiateCallback, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__instantiateCallback,
-                      put = __cordl_internal_set__instantiateCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
-
-  __declspec(property(get = get_GameObjectCreationParameters))::Zenject::GameObjectCreationParameters* GameObjectCreationParameters;
-
-  __declspec(property(get = get_ArgumentTarget))::System::Type* ArgumentTarget;
-
-  __declspec(property(get = get_ExtraArguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ExtraArguments;
+  /// @brief Field _prefabProvider, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
 
   /// @brief Convert operator to "::Zenject::IPrefabInstantiator"
   constexpr operator ::Zenject::IPrefabInstantiator*() noexcept;
 
-  /// @brief Convert to "::Zenject::IPrefabInstantiator"
-  constexpr ::Zenject::IPrefabInstantiator* i___Zenject__IPrefabInstantiator() noexcept;
+  /// @brief Method GetPrefab, addr 0x301862c, size 0xa0, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
-  constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
-
-  constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArguments();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArguments() const;
-
-  constexpr void __cordl_internal_set__extraArguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
-
-  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
-
-  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
-
-  constexpr ::System::Type*& __cordl_internal_get__argumentTarget();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__argumentTarget() const;
-
-  constexpr void __cordl_internal_set__argumentTarget(::System::Type* value);
-
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__instantiateCallbackTypes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__instantiateCallbackTypes() const;
-
-  constexpr void __cordl_internal_set__instantiateCallbackTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
-
-  constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& __cordl_internal_get__instantiateCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const& __cordl_internal_get__instantiateCallback() const;
-
-  constexpr void __cordl_internal_set__instantiateCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
+  /// @brief Method Instantiate, addr 0x30186cc, size 0x1a8, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
+                                                         ByRef<::System::Action*> injectAction);
 
   static inline ::Zenject::PrefabInstantiator* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget,
                                                         ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes,
                                                         ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::Zenject::IPrefabProvider* prefabProvider,
                                                         ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f08ce0, size 0xc4, virtual false, abstract: false, final false
+  constexpr ::System::Type*& __cordl_internal_get__argumentTarget();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__argumentTarget() const;
+
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArguments();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArguments() const;
+
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
+
+  constexpr ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*& __cordl_internal_get__instantiateCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*> const& __cordl_internal_get__instantiateCallback() const;
+
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__instantiateCallbackTypes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__instantiateCallbackTypes() const;
+
+  constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
+
+  constexpr void __cordl_internal_set__argumentTarget(::System::Type* value);
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__extraArguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+
+  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
+
+  constexpr void __cordl_internal_set__instantiateCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
+
+  constexpr void __cordl_internal_set__instantiateCallbackTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
+
+  constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
+
+  /// @brief Method .ctor, addr 0x3018550, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget,
                     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::IPrefabProvider* prefabProvider, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_GameObjectCreationParameters, addr 0x2f08da4, size 0x8, virtual true, abstract: false, final true
-  inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
-
-  /// @brief Method get_ArgumentTarget, addr 0x2f08dac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentTarget, addr 0x301861c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments, addr 0x2f08db4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ExtraArguments, addr 0x3018624, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method GetPrefab, addr 0x2f08dbc, size 0xa0, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::Object> GetPrefab();
+  /// @brief Method get_GameObjectCreationParameters, addr 0x3018614, size 0x8, virtual true, abstract: false, final true
+  inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method Instantiate, addr 0x2f08e5c, size 0x1a8, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                         ByRef<::System::Action*> injectAction);
+  /// @brief Convert to "::Zenject::IPrefabInstantiator"
+  constexpr ::Zenject::IPrefabInstantiator* i___Zenject__IPrefabInstantiator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrefabInstantiator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabInstantiator(PrefabInstantiator&&) = delete;
@@ -301,12 +303,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrefabInstantiator(PrefabInstantiator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrefabInstantiator();
-
-public:
   /// @brief Field _prefabProvider, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPrefabProvider* ____prefabProvider;
 

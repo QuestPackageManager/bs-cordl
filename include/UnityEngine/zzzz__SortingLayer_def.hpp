@@ -15,21 +15,19 @@ MARK_VAL_T(::UnityEngine::SortingLayer);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10266))
 // CS Name: ::UnityEngine::SortingLayer
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID, addr 0x2cde834, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x2dd0ff0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
-
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SortingLayer(int32_t m_Id) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SortingLayer();
+
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SortingLayer(int32_t m_Id) noexcept;
 
   /// @brief Field m_Id, offset: 0x0, size: 0x4, def value: None
   int32_t m_Id;

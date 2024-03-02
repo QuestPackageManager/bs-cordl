@@ -32,71 +32,80 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2992))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509CertificateImpl*
 class CORDL_TYPE X509CertificateImpl : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_HasPrivateKey)) bool HasPrivateKey;
+
   __declspec(property(get = get_IsValid)) bool IsValid;
 
   __declspec(property(get = get_Issuer))::StringW Issuer;
-
-  __declspec(property(get = get_Subject))::StringW Subject;
-
-  __declspec(property(get = get_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
-
-  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
-
-  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
-
-  __declspec(property(get = get_Thumbprint))::ArrayW<uint8_t, ::Array<uint8_t>*> Thumbprint;
 
   __declspec(property(get = get_KeyAlgorithm))::StringW KeyAlgorithm;
 
   __declspec(property(get = get_KeyAlgorithmParameters))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyAlgorithmParameters;
 
+  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+
+  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+
   __declspec(property(get = get_PublicKeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKeyValue;
+
+  __declspec(property(get = get_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
   __declspec(property(get = get_SerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
 
-  __declspec(property(get = get_HasPrivateKey)) bool HasPrivateKey;
+  __declspec(property(get = get_Subject))::StringW Subject;
+
+  __declspec(property(get = get_Thumbprint))::ArrayW<uint8_t, ::Array<uint8_t>*> Thumbprint;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
+
+  /// @brief Method CopyWithPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
+
+  /// @brief Method Dispose, addr 0x2569e40, size 0x70, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x2569eb0, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method Equals, addr 0x2569cc0, size 0x180, virtual true, abstract: false, final true
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Finalize, addr 0x2569eb4, size 0xa4, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetDSAPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
+
+  /// @brief Method GetHashCode, addr 0x2569c30, size 0x90, virtual true, abstract: false, final true
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetRSAPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Cryptography::RSA* GetRSAPrivateKey();
+
+  static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
+
+  /// @brief Method ThrowIfContextInvalid, addr 0x2569b6c, size 0x3c, virtual false, abstract: false, final false
+  inline void ThrowIfContextInvalid();
+
+  /// @brief Method .ctor, addr 0x2569f58, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_HasPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_HasPrivateKey();
 
   /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x2475e00, size 0x3c, virtual false, abstract: false, final false
-  inline void ThrowIfContextInvalid();
-
-  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
-
   /// @brief Method get_Issuer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Issuer();
-
-  /// @brief Method get_Subject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_Subject();
-
-  /// @brief Method get_RawData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
-
-  /// @brief Method get_NotAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::DateTime get_NotAfter();
-
-  /// @brief Method get_NotBefore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::DateTime get_NotBefore();
-
-  /// @brief Method get_Thumbprint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
-
-  /// @brief Method GetHashCode, addr 0x2475ec4, size 0x90, virtual true, abstract: false, final true
-  inline int32_t GetHashCode();
 
   /// @brief Method get_KeyAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_KeyAlgorithm();
@@ -104,41 +113,36 @@ public:
   /// @brief Method get_KeyAlgorithmParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
 
+  /// @brief Method get_NotAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::DateTime get_NotAfter();
+
+  /// @brief Method get_NotBefore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::DateTime get_NotBefore();
+
   /// @brief Method get_PublicKeyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKeyValue();
+
+  /// @brief Method get_RawData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
 
   /// @brief Method get_SerialNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_HasPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_HasPrivateKey();
+  /// @brief Method get_Subject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_Subject();
 
-  /// @brief Method GetRSAPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Cryptography::RSA* GetRSAPrivateKey();
+  /// @brief Method get_Thumbprint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
 
-  /// @brief Method GetDSAPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method CopyWithPrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509CertificateImpl();
 
-  /// @brief Method Equals, addr 0x2475f54, size 0x180, virtual true, abstract: false, final true
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Dispose, addr 0x24760d4, size 0x70, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Dispose, addr 0x2476144, size 0x4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Finalize, addr 0x2476148, size 0xa4, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24761ec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateImpl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateImpl(X509CertificateImpl&&) = delete;
@@ -147,12 +151,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509CertificateImpl(X509CertificateImpl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509CertificateImpl();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

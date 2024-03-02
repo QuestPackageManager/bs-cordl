@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::EditorIK);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12637))
 // CS Name: ::RootMotion.FinalIK::EditorIK*
 class CORDL_TYPE EditorIK : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,23 +24,29 @@ public:
   /// @brief Field ik, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::IK> ik;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
+  static inline ::RootMotion::FinalIK::EditorIK* New_ctor();
+
+  /// @brief Method Start, addr 0x136ddec, size 0x8c, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x136de78, size 0xc0, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
 
+  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
+
   constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
 
-  /// @brief Method Start, addr 0x1294d50, size 0x8c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x1294ddc, size 0xc0, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::RootMotion::FinalIK::EditorIK* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1294e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136df38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditorIK();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EditorIK", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditorIK(EditorIK&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditorIK(EditorIK const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EditorIK();
-
-public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::IK> ___ik;
 

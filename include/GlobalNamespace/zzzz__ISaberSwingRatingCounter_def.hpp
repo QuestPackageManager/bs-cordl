@@ -20,21 +20,13 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberSwingRatingCounter);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15016))
 // CS Name: ::ISaberSwingRatingCounter*
 class CORDL_TYPE ISaberSwingRatingCounter {
 public:
   // Declarations
-  __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
-
   __declspec(property(get = get_afterCutRating)) float_t afterCutRating;
 
-  /// @brief Method get_beforeCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_beforeCutRating();
-
-  /// @brief Method get_afterCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_afterCutRating();
+  __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
 
   /// @brief Method RegisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
@@ -47,6 +39,12 @@ public:
 
   /// @brief Method UnregisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+
+  /// @brief Method get_afterCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_afterCutRating();
+
+  /// @brief Method get_beforeCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_beforeCutRating();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

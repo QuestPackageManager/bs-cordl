@@ -40,12 +40,14 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::SpotLight);
 // SizeInfo { instance_size: 88, native_size: 92, calculated_instance_size: 88, calculated_native_size: 102, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10387)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10389)), TypeDefinitionIndex(TypeDefinitionIndex(10390))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10393)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
+// CS Name: ::UnityEngine.Experimental.GlobalIllumination::SpotLight
 struct CORDL_TYPE SpotLight {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpotLight();
+
   // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode",
   // ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
   // CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor",
@@ -58,10 +60,6 @@ public:
                       ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range,
                       float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff,
                       ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpotLight();
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;

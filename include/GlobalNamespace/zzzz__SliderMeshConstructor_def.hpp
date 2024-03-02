@@ -31,20 +31,17 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4821))
 // CS Name: ::SliderMeshConstructor*
 class CORDL_TYPE SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _mesh, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+
   /// @brief Field _meshFilter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field reusableVerts, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
-
-  /// @brief Field reusableUvs, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableUvs, put = __cordl_internal_set_reusableUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
+  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
   /// @brief Field reusableNormals, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableNormals, put = __cordl_internal_set_reusableNormals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableNormals;
@@ -52,70 +49,77 @@ public:
   /// @brief Field reusableTriangles, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableTriangles, put = __cordl_internal_set_reusableTriangles))::ArrayW<int32_t, ::Array<int32_t>*> reusableTriangles;
 
-  /// @brief Field _mesh, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  /// @brief Field reusableUvs, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableUvs, put = __cordl_internal_set_reusableUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
 
-  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  /// @brief Field reusableVerts, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
-
-  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableVerts();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableVerts() const;
-
-  constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_reusableUvs();
-
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_reusableUvs() const;
-
-  constexpr void __cordl_internal_set_reusableUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableNormals();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableNormals() const;
-
-  constexpr void __cordl_internal_set_reusableNormals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_reusableTriangles();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_reusableTriangles() const;
-
-  constexpr void __cordl_internal_set_reusableTriangles(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
-
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
-
-  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
-
-  /// @brief Method get_mesh, addr 0x23944f8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
-
-  /// @brief Method CreateMeshIfNonExisting, addr 0x2394500, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x2421ffc, size 0xb8, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x23945b8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x24220b4, size 0x190, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
 
   /// @brief Method CreateSliderMeshInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
-
   /// @brief Method GetTrianglesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
+  /// @brief Method GetVertexCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
+
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2394748, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
+
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableNormals() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableNormals();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_reusableTriangles() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_reusableTriangles();
+
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_reusableUvs() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_reusableUvs();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_reusableVerts() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_reusableVerts();
+
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
+
+  constexpr void __cordl_internal_set_reusableNormals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_reusableTriangles(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_reusableUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+
+  constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  /// @brief Method .ctor, addr 0x2422244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_mesh, addr 0x2421ff4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderMeshConstructor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMeshConstructor(SliderMeshConstructor&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderMeshConstructor(SliderMeshConstructor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderMeshConstructor();
-
-public:
   /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::System::Security::Util::TokenizerStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2899))
 // CS Name: ::System.Security.Util::TokenizerStream*
 class CORDL_TYPE TokenizerStream : public ::System::Object {
 public:
@@ -31,110 +29,116 @@ public:
   /// @brief Field m_countTokens, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_countTokens, put = __cordl_internal_set_m_countTokens)) int32_t m_countTokens;
 
-  /// @brief Field m_headTokens, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_headTokens, put = __cordl_internal_set_m_headTokens))::System::Security::Util::TokenizerShortBlock* m_headTokens;
-
-  /// @brief Field m_lastTokens, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_lastTokens, put = __cordl_internal_set_m_lastTokens))::System::Security::Util::TokenizerShortBlock* m_lastTokens;
+  /// @brief Field m_currentStrings, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_currentStrings, put = __cordl_internal_set_m_currentStrings))::System::Security::Util::TokenizerStringBlock* m_currentStrings;
 
   /// @brief Field m_currentTokens, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_currentTokens, put = __cordl_internal_set_m_currentTokens))::System::Security::Util::TokenizerShortBlock* m_currentTokens;
 
-  /// @brief Field m_indexTokens, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_indexTokens, put = __cordl_internal_set_m_indexTokens)) int32_t m_indexTokens;
-
   /// @brief Field m_headStrings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_headStrings, put = __cordl_internal_set_m_headStrings))::System::Security::Util::TokenizerStringBlock* m_headStrings;
 
-  /// @brief Field m_currentStrings, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_currentStrings, put = __cordl_internal_set_m_currentStrings))::System::Security::Util::TokenizerStringBlock* m_currentStrings;
+  /// @brief Field m_headTokens, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_headTokens, put = __cordl_internal_set_m_headTokens))::System::Security::Util::TokenizerShortBlock* m_headTokens;
 
   /// @brief Field m_indexStrings, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_indexStrings, put = __cordl_internal_set_m_indexStrings)) int32_t m_indexStrings;
 
-  constexpr int32_t& __cordl_internal_get_m_countTokens();
+  /// @brief Field m_indexTokens, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_indexTokens, put = __cordl_internal_set_m_indexTokens)) int32_t m_indexTokens;
+
+  /// @brief Field m_lastTokens, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_lastTokens, put = __cordl_internal_set_m_lastTokens))::System::Security::Util::TokenizerShortBlock* m_lastTokens;
+
+  /// @brief Method AddString, addr 0x2549d34, size 0xf0, virtual false, abstract: false, final false
+  inline void AddString(::StringW str);
+
+  /// @brief Method AddToken, addr 0x2549c34, size 0xe8, virtual false, abstract: false, final false
+  inline void AddToken(int16_t token);
+
+  /// @brief Method GetNextFullToken, addr 0x2549968, size 0x70, virtual false, abstract: false, final false
+  inline int16_t GetNextFullToken();
+
+  /// @brief Method GetNextString, addr 0x254891c, size 0x6c, virtual false, abstract: false, final false
+  inline ::StringW GetNextString();
+
+  /// @brief Method GetNextToken, addr 0x2548890, size 0x14, virtual false, abstract: false, final false
+  inline int16_t GetNextToken();
+
+  /// @brief Method GetTokenCount, addr 0x254a108, size 0x8, virtual false, abstract: false, final false
+  inline int32_t GetTokenCount();
+
+  /// @brief Method GoToPosition, addr 0x2549318, size 0x60, virtual false, abstract: false, final false
+  inline void GoToPosition(int32_t position);
+
+  static inline ::System::Security::Util::TokenizerStream* New_ctor();
+
+  /// @brief Method Reset, addr 0x254994c, size 0x1c, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method TagLastToken, addr 0x25488a8, size 0x74, virtual false, abstract: false, final false
+  inline void TagLastToken(int16_t tag);
+
+  /// @brief Method ThrowAwayNextString, addr 0x25488a4, size 0x4, virtual false, abstract: false, final false
+  inline void ThrowAwayNextString();
 
   constexpr int32_t const& __cordl_internal_get_m_countTokens() const;
 
-  constexpr void __cordl_internal_set_m_countTokens(int32_t value);
-
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_headTokens();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_headTokens() const;
-
-  constexpr void __cordl_internal_set_m_headTokens(::System::Security::Util::TokenizerShortBlock* value);
-
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_lastTokens();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_lastTokens() const;
-
-  constexpr void __cordl_internal_set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value);
-
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_currentTokens();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_currentTokens() const;
-
-  constexpr void __cordl_internal_set_m_currentTokens(::System::Security::Util::TokenizerShortBlock* value);
-
-  constexpr int32_t& __cordl_internal_get_m_indexTokens();
-
-  constexpr int32_t const& __cordl_internal_get_m_indexTokens() const;
-
-  constexpr void __cordl_internal_set_m_indexTokens(int32_t value);
-
-  constexpr ::System::Security::Util::TokenizerStringBlock*& __cordl_internal_get_m_headStrings();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __cordl_internal_get_m_headStrings() const;
-
-  constexpr void __cordl_internal_set_m_headStrings(::System::Security::Util::TokenizerStringBlock* value);
+  constexpr int32_t& __cordl_internal_get_m_countTokens();
 
   constexpr ::System::Security::Util::TokenizerStringBlock*& __cordl_internal_get_m_currentStrings();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __cordl_internal_get_m_currentStrings() const;
 
-  constexpr void __cordl_internal_set_m_currentStrings(::System::Security::Util::TokenizerStringBlock* value);
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_currentTokens();
 
-  constexpr int32_t& __cordl_internal_get_m_indexStrings();
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_currentTokens() const;
+
+  constexpr ::System::Security::Util::TokenizerStringBlock*& __cordl_internal_get_m_headStrings();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __cordl_internal_get_m_headStrings() const;
+
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_headTokens();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_headTokens() const;
 
   constexpr int32_t const& __cordl_internal_get_m_indexStrings() const;
 
+  constexpr int32_t& __cordl_internal_get_m_indexStrings();
+
+  constexpr int32_t const& __cordl_internal_get_m_indexTokens() const;
+
+  constexpr int32_t& __cordl_internal_get_m_indexTokens();
+
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_lastTokens();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_lastTokens() const;
+
+  constexpr void __cordl_internal_set_m_countTokens(int32_t value);
+
+  constexpr void __cordl_internal_set_m_currentStrings(::System::Security::Util::TokenizerStringBlock* value);
+
+  constexpr void __cordl_internal_set_m_currentTokens(::System::Security::Util::TokenizerShortBlock* value);
+
+  constexpr void __cordl_internal_set_m_headStrings(::System::Security::Util::TokenizerStringBlock* value);
+
+  constexpr void __cordl_internal_set_m_headTokens(::System::Security::Util::TokenizerShortBlock* value);
+
   constexpr void __cordl_internal_set_m_indexStrings(int32_t value);
 
-  static inline ::System::Security::Util::TokenizerStream* New_ctor();
+  constexpr void __cordl_internal_set_m_indexTokens(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2455d48, size 0xa8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value);
+
+  /// @brief Method .ctor, addr 0x25498a4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddToken, addr 0x24560d8, size 0xe8, virtual false, abstract: false, final false
-  inline void AddToken(int16_t token);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TokenizerStream();
 
-  /// @brief Method AddString, addr 0x24561d8, size 0xf0, virtual false, abstract: false, final false
-  inline void AddString(::StringW str);
-
-  /// @brief Method Reset, addr 0x2455df0, size 0x1c, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method GetNextFullToken, addr 0x2455e0c, size 0x70, virtual false, abstract: false, final false
-  inline int16_t GetNextFullToken();
-
-  /// @brief Method GetNextToken, addr 0x2454d34, size 0x14, virtual false, abstract: false, final false
-  inline int16_t GetNextToken();
-
-  /// @brief Method GetNextString, addr 0x2454dc0, size 0x6c, virtual false, abstract: false, final false
-  inline ::StringW GetNextString();
-
-  /// @brief Method ThrowAwayNextString, addr 0x2454d48, size 0x4, virtual false, abstract: false, final false
-  inline void ThrowAwayNextString();
-
-  /// @brief Method TagLastToken, addr 0x2454d4c, size 0x74, virtual false, abstract: false, final false
-  inline void TagLastToken(int16_t tag);
-
-  /// @brief Method GetTokenCount, addr 0x24565ac, size 0x8, virtual false, abstract: false, final false
-  inline int32_t GetTokenCount();
-
-  /// @brief Method GoToPosition, addr 0x24557bc, size 0x60, virtual false, abstract: false, final false
-  inline void GoToPosition(int32_t position);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TokenizerStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TokenizerStream(TokenizerStream&&) = delete;
@@ -143,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TokenizerStream(TokenizerStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TokenizerStream();
-
-public:
   /// @brief Field m_countTokens, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_countTokens;
 

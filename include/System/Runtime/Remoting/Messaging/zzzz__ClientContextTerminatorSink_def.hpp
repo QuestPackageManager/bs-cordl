@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ClientContextTerminatorSi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3158))
 // CS Name: ::System.Runtime.Remoting.Messaging::ClientContextTerminatorSink*
 class CORDL_TYPE ClientContextTerminatorSink : public ::System::Object {
 public:
@@ -38,8 +36,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
+  /// @brief Method AsyncProcessMessage, addr 0x259da60, size 0x228, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
+                                                                                   ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+
+  static inline ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
+
+  /// @brief Method SyncProcessMessage, addr 0x259d888, size 0x1d8, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
 
@@ -47,18 +51,18 @@ public:
 
   constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
 
-  static inline ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
-
-  /// @brief Method .ctor, addr 0x249dfa0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2590d0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 
-  /// @brief Method SyncProcessMessage, addr 0x24aab1c, size 0x1d8, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x24aacf4, size 0x228, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
-                                                                                   ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClientContextTerminatorSink();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClientContextTerminatorSink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClientContextTerminatorSink(ClientContextTerminatorSink&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClientContextTerminatorSink(ClientContextTerminatorSink const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClientContextTerminatorSink();
-
-public:
   /// @brief Field _context, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Contexts::Context* ____context;
 

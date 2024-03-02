@@ -15,8 +15,6 @@ MARK_VAL_T(::System::ConsoleKey);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2519))
 // CS Name: ::System::ConsoleKey
 struct CORDL_TYPE ConsoleKey {
 public:
@@ -176,84 +174,71 @@ public:
     return static_cast<__ConsoleKey_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ConsoleKey(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ConsoleKey();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ConsoleKey(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field A value: static_cast<int32_t>(0x41)
+  static ::System::ConsoleKey const A;
+
+  /// @brief Field Add value: static_cast<int32_t>(0x6b)
+  static ::System::ConsoleKey const Add;
+
+  /// @brief Field Applications value: static_cast<int32_t>(0x5d)
+  static ::System::ConsoleKey const Applications;
+
+  /// @brief Field Attention value: static_cast<int32_t>(0xf6)
+  static ::System::ConsoleKey const Attention;
+
+  /// @brief Field B value: static_cast<int32_t>(0x42)
+  static ::System::ConsoleKey const B;
 
   /// @brief Field Backspace value: static_cast<int32_t>(0x8)
   static ::System::ConsoleKey const Backspace;
 
-  /// @brief Field Tab value: static_cast<int32_t>(0x9)
-  static ::System::ConsoleKey const Tab;
+  /// @brief Field BrowserBack value: static_cast<int32_t>(0xa6)
+  static ::System::ConsoleKey const BrowserBack;
+
+  /// @brief Field BrowserFavorites value: static_cast<int32_t>(0xab)
+  static ::System::ConsoleKey const BrowserFavorites;
+
+  /// @brief Field BrowserForward value: static_cast<int32_t>(0xa7)
+  static ::System::ConsoleKey const BrowserForward;
+
+  /// @brief Field BrowserHome value: static_cast<int32_t>(0xac)
+  static ::System::ConsoleKey const BrowserHome;
+
+  /// @brief Field BrowserRefresh value: static_cast<int32_t>(0xa8)
+  static ::System::ConsoleKey const BrowserRefresh;
+
+  /// @brief Field BrowserSearch value: static_cast<int32_t>(0xaa)
+  static ::System::ConsoleKey const BrowserSearch;
+
+  /// @brief Field BrowserStop value: static_cast<int32_t>(0xa9)
+  static ::System::ConsoleKey const BrowserStop;
+
+  /// @brief Field C value: static_cast<int32_t>(0x43)
+  static ::System::ConsoleKey const C;
 
   /// @brief Field Clear value: static_cast<int32_t>(0xc)
   static ::System::ConsoleKey const Clear;
 
-  /// @brief Field Enter value: static_cast<int32_t>(0xd)
-  static ::System::ConsoleKey const Enter;
+  /// @brief Field CrSel value: static_cast<int32_t>(0xf7)
+  static ::System::ConsoleKey const CrSel;
 
-  /// @brief Field Pause value: static_cast<int32_t>(0x13)
-  static ::System::ConsoleKey const Pause;
-
-  /// @brief Field Escape value: static_cast<int32_t>(0x1b)
-  static ::System::ConsoleKey const Escape;
-
-  /// @brief Field Spacebar value: static_cast<int32_t>(0x20)
-  static ::System::ConsoleKey const Spacebar;
-
-  /// @brief Field PageUp value: static_cast<int32_t>(0x21)
-  static ::System::ConsoleKey const PageUp;
-
-  /// @brief Field PageDown value: static_cast<int32_t>(0x22)
-  static ::System::ConsoleKey const PageDown;
-
-  /// @brief Field End value: static_cast<int32_t>(0x23)
-  static ::System::ConsoleKey const End;
-
-  /// @brief Field Home value: static_cast<int32_t>(0x24)
-  static ::System::ConsoleKey const Home;
-
-  /// @brief Field LeftArrow value: static_cast<int32_t>(0x25)
-  static ::System::ConsoleKey const LeftArrow;
-
-  /// @brief Field UpArrow value: static_cast<int32_t>(0x26)
-  static ::System::ConsoleKey const UpArrow;
-
-  /// @brief Field RightArrow value: static_cast<int32_t>(0x27)
-  static ::System::ConsoleKey const RightArrow;
-
-  /// @brief Field DownArrow value: static_cast<int32_t>(0x28)
-  static ::System::ConsoleKey const DownArrow;
-
-  /// @brief Field Select value: static_cast<int32_t>(0x29)
-  static ::System::ConsoleKey const Select;
-
-  /// @brief Field Print value: static_cast<int32_t>(0x2a)
-  static ::System::ConsoleKey const Print;
-
-  /// @brief Field Execute value: static_cast<int32_t>(0x2b)
-  static ::System::ConsoleKey const Execute;
-
-  /// @brief Field PrintScreen value: static_cast<int32_t>(0x2c)
-  static ::System::ConsoleKey const PrintScreen;
-
-  /// @brief Field Insert value: static_cast<int32_t>(0x2d)
-  static ::System::ConsoleKey const Insert;
-
-  /// @brief Field Delete value: static_cast<int32_t>(0x2e)
-  static ::System::ConsoleKey const Delete;
-
-  /// @brief Field Help value: static_cast<int32_t>(0x2f)
-  static ::System::ConsoleKey const Help;
+  /// @brief Field D value: static_cast<int32_t>(0x44)
+  static ::System::ConsoleKey const D;
 
   /// @brief Field D0 value: static_cast<int32_t>(0x30)
   static ::System::ConsoleKey const D0;
@@ -285,170 +270,44 @@ public:
   /// @brief Field D9 value: static_cast<int32_t>(0x39)
   static ::System::ConsoleKey const D9;
 
-  /// @brief Field A value: static_cast<int32_t>(0x41)
-  static ::System::ConsoleKey const A;
-
-  /// @brief Field B value: static_cast<int32_t>(0x42)
-  static ::System::ConsoleKey const B;
-
-  /// @brief Field C value: static_cast<int32_t>(0x43)
-  static ::System::ConsoleKey const C;
-
-  /// @brief Field D value: static_cast<int32_t>(0x44)
-  static ::System::ConsoleKey const D;
-
-  /// @brief Field E value: static_cast<int32_t>(0x45)
-  static ::System::ConsoleKey const E;
-
-  /// @brief Field F value: static_cast<int32_t>(0x46)
-  static ::System::ConsoleKey const F;
-
-  /// @brief Field G value: static_cast<int32_t>(0x47)
-  static ::System::ConsoleKey const G;
-
-  /// @brief Field H value: static_cast<int32_t>(0x48)
-  static ::System::ConsoleKey const H;
-
-  /// @brief Field I value: static_cast<int32_t>(0x49)
-  static ::System::ConsoleKey const I;
-
-  /// @brief Field J value: static_cast<int32_t>(0x4a)
-  static ::System::ConsoleKey const J;
-
-  /// @brief Field K value: static_cast<int32_t>(0x4b)
-  static ::System::ConsoleKey const K;
-
-  /// @brief Field L value: static_cast<int32_t>(0x4c)
-  static ::System::ConsoleKey const L;
-
-  /// @brief Field M value: static_cast<int32_t>(0x4d)
-  static ::System::ConsoleKey const M;
-
-  /// @brief Field N value: static_cast<int32_t>(0x4e)
-  static ::System::ConsoleKey const N;
-
-  /// @brief Field O value: static_cast<int32_t>(0x4f)
-  static ::System::ConsoleKey const O;
-
-  /// @brief Field P value: static_cast<int32_t>(0x50)
-  static ::System::ConsoleKey const P;
-
-  /// @brief Field Q value: static_cast<int32_t>(0x51)
-  static ::System::ConsoleKey const Q;
-
-  /// @brief Field R value: static_cast<int32_t>(0x52)
-  static ::System::ConsoleKey const R;
-
-  /// @brief Field S value: static_cast<int32_t>(0x53)
-  static ::System::ConsoleKey const S;
-
-  /// @brief Field T value: static_cast<int32_t>(0x54)
-  static ::System::ConsoleKey const T;
-
-  /// @brief Field U value: static_cast<int32_t>(0x55)
-  static ::System::ConsoleKey const U;
-
-  /// @brief Field V value: static_cast<int32_t>(0x56)
-  static ::System::ConsoleKey const V;
-
-  /// @brief Field W value: static_cast<int32_t>(0x57)
-  static ::System::ConsoleKey const W;
-
-  /// @brief Field X value: static_cast<int32_t>(0x58)
-  static ::System::ConsoleKey const X;
-
-  /// @brief Field Y value: static_cast<int32_t>(0x59)
-  static ::System::ConsoleKey const Y;
-
-  /// @brief Field Z value: static_cast<int32_t>(0x5a)
-  static ::System::ConsoleKey const Z;
-
-  /// @brief Field LeftWindows value: static_cast<int32_t>(0x5b)
-  static ::System::ConsoleKey const LeftWindows;
-
-  /// @brief Field RightWindows value: static_cast<int32_t>(0x5c)
-  static ::System::ConsoleKey const RightWindows;
-
-  /// @brief Field Applications value: static_cast<int32_t>(0x5d)
-  static ::System::ConsoleKey const Applications;
-
-  /// @brief Field Sleep value: static_cast<int32_t>(0x5f)
-  static ::System::ConsoleKey const Sleep;
-
-  /// @brief Field NumPad0 value: static_cast<int32_t>(0x60)
-  static ::System::ConsoleKey const NumPad0;
-
-  /// @brief Field NumPad1 value: static_cast<int32_t>(0x61)
-  static ::System::ConsoleKey const NumPad1;
-
-  /// @brief Field NumPad2 value: static_cast<int32_t>(0x62)
-  static ::System::ConsoleKey const NumPad2;
-
-  /// @brief Field NumPad3 value: static_cast<int32_t>(0x63)
-  static ::System::ConsoleKey const NumPad3;
-
-  /// @brief Field NumPad4 value: static_cast<int32_t>(0x64)
-  static ::System::ConsoleKey const NumPad4;
-
-  /// @brief Field NumPad5 value: static_cast<int32_t>(0x65)
-  static ::System::ConsoleKey const NumPad5;
-
-  /// @brief Field NumPad6 value: static_cast<int32_t>(0x66)
-  static ::System::ConsoleKey const NumPad6;
-
-  /// @brief Field NumPad7 value: static_cast<int32_t>(0x67)
-  static ::System::ConsoleKey const NumPad7;
-
-  /// @brief Field NumPad8 value: static_cast<int32_t>(0x68)
-  static ::System::ConsoleKey const NumPad8;
-
-  /// @brief Field NumPad9 value: static_cast<int32_t>(0x69)
-  static ::System::ConsoleKey const NumPad9;
-
-  /// @brief Field Multiply value: static_cast<int32_t>(0x6a)
-  static ::System::ConsoleKey const Multiply;
-
-  /// @brief Field Add value: static_cast<int32_t>(0x6b)
-  static ::System::ConsoleKey const Add;
-
-  /// @brief Field Separator value: static_cast<int32_t>(0x6c)
-  static ::System::ConsoleKey const Separator;
-
-  /// @brief Field Subtract value: static_cast<int32_t>(0x6d)
-  static ::System::ConsoleKey const Subtract;
-
   /// @brief Field Decimal value: static_cast<int32_t>(0x6e)
   static ::System::ConsoleKey const Decimal;
+
+  /// @brief Field Delete value: static_cast<int32_t>(0x2e)
+  static ::System::ConsoleKey const Delete;
 
   /// @brief Field Divide value: static_cast<int32_t>(0x6f)
   static ::System::ConsoleKey const Divide;
 
+  /// @brief Field DownArrow value: static_cast<int32_t>(0x28)
+  static ::System::ConsoleKey const DownArrow;
+
+  /// @brief Field E value: static_cast<int32_t>(0x45)
+  static ::System::ConsoleKey const E;
+
+  /// @brief Field End value: static_cast<int32_t>(0x23)
+  static ::System::ConsoleKey const End;
+
+  /// @brief Field Enter value: static_cast<int32_t>(0xd)
+  static ::System::ConsoleKey const Enter;
+
+  /// @brief Field EraseEndOfFile value: static_cast<int32_t>(0xf9)
+  static ::System::ConsoleKey const EraseEndOfFile;
+
+  /// @brief Field Escape value: static_cast<int32_t>(0x1b)
+  static ::System::ConsoleKey const Escape;
+
+  /// @brief Field ExSel value: static_cast<int32_t>(0xf8)
+  static ::System::ConsoleKey const ExSel;
+
+  /// @brief Field Execute value: static_cast<int32_t>(0x2b)
+  static ::System::ConsoleKey const Execute;
+
+  /// @brief Field F value: static_cast<int32_t>(0x46)
+  static ::System::ConsoleKey const F;
+
   /// @brief Field F1 value: static_cast<int32_t>(0x70)
   static ::System::ConsoleKey const F1;
-
-  /// @brief Field F2 value: static_cast<int32_t>(0x71)
-  static ::System::ConsoleKey const F2;
-
-  /// @brief Field F3 value: static_cast<int32_t>(0x72)
-  static ::System::ConsoleKey const F3;
-
-  /// @brief Field F4 value: static_cast<int32_t>(0x73)
-  static ::System::ConsoleKey const F4;
-
-  /// @brief Field F5 value: static_cast<int32_t>(0x74)
-  static ::System::ConsoleKey const F5;
-
-  /// @brief Field F6 value: static_cast<int32_t>(0x75)
-  static ::System::ConsoleKey const F6;
-
-  /// @brief Field F7 value: static_cast<int32_t>(0x76)
-  static ::System::ConsoleKey const F7;
-
-  /// @brief Field F8 value: static_cast<int32_t>(0x77)
-  static ::System::ConsoleKey const F8;
-
-  /// @brief Field F9 value: static_cast<int32_t>(0x78)
-  static ::System::ConsoleKey const F9;
 
   /// @brief Field F10 value: static_cast<int32_t>(0x79)
   static ::System::ConsoleKey const F10;
@@ -480,6 +339,9 @@ public:
   /// @brief Field F19 value: static_cast<int32_t>(0x82)
   static ::System::ConsoleKey const F19;
 
+  /// @brief Field F2 value: static_cast<int32_t>(0x71)
+  static ::System::ConsoleKey const F2;
+
   /// @brief Field F20 value: static_cast<int32_t>(0x83)
   static ::System::ConsoleKey const F20;
 
@@ -495,53 +357,53 @@ public:
   /// @brief Field F24 value: static_cast<int32_t>(0x87)
   static ::System::ConsoleKey const F24;
 
-  /// @brief Field BrowserBack value: static_cast<int32_t>(0xa6)
-  static ::System::ConsoleKey const BrowserBack;
+  /// @brief Field F3 value: static_cast<int32_t>(0x72)
+  static ::System::ConsoleKey const F3;
 
-  /// @brief Field BrowserForward value: static_cast<int32_t>(0xa7)
-  static ::System::ConsoleKey const BrowserForward;
+  /// @brief Field F4 value: static_cast<int32_t>(0x73)
+  static ::System::ConsoleKey const F4;
 
-  /// @brief Field BrowserRefresh value: static_cast<int32_t>(0xa8)
-  static ::System::ConsoleKey const BrowserRefresh;
+  /// @brief Field F5 value: static_cast<int32_t>(0x74)
+  static ::System::ConsoleKey const F5;
 
-  /// @brief Field BrowserStop value: static_cast<int32_t>(0xa9)
-  static ::System::ConsoleKey const BrowserStop;
+  /// @brief Field F6 value: static_cast<int32_t>(0x75)
+  static ::System::ConsoleKey const F6;
 
-  /// @brief Field BrowserSearch value: static_cast<int32_t>(0xaa)
-  static ::System::ConsoleKey const BrowserSearch;
+  /// @brief Field F7 value: static_cast<int32_t>(0x76)
+  static ::System::ConsoleKey const F7;
 
-  /// @brief Field BrowserFavorites value: static_cast<int32_t>(0xab)
-  static ::System::ConsoleKey const BrowserFavorites;
+  /// @brief Field F8 value: static_cast<int32_t>(0x77)
+  static ::System::ConsoleKey const F8;
 
-  /// @brief Field BrowserHome value: static_cast<int32_t>(0xac)
-  static ::System::ConsoleKey const BrowserHome;
+  /// @brief Field F9 value: static_cast<int32_t>(0x78)
+  static ::System::ConsoleKey const F9;
 
-  /// @brief Field VolumeMute value: static_cast<int32_t>(0xad)
-  static ::System::ConsoleKey const VolumeMute;
+  /// @brief Field G value: static_cast<int32_t>(0x47)
+  static ::System::ConsoleKey const G;
 
-  /// @brief Field VolumeDown value: static_cast<int32_t>(0xae)
-  static ::System::ConsoleKey const VolumeDown;
+  /// @brief Field H value: static_cast<int32_t>(0x48)
+  static ::System::ConsoleKey const H;
 
-  /// @brief Field VolumeUp value: static_cast<int32_t>(0xaf)
-  static ::System::ConsoleKey const VolumeUp;
+  /// @brief Field Help value: static_cast<int32_t>(0x2f)
+  static ::System::ConsoleKey const Help;
 
-  /// @brief Field MediaNext value: static_cast<int32_t>(0xb0)
-  static ::System::ConsoleKey const MediaNext;
+  /// @brief Field Home value: static_cast<int32_t>(0x24)
+  static ::System::ConsoleKey const Home;
 
-  /// @brief Field MediaPrevious value: static_cast<int32_t>(0xb1)
-  static ::System::ConsoleKey const MediaPrevious;
+  /// @brief Field I value: static_cast<int32_t>(0x49)
+  static ::System::ConsoleKey const I;
 
-  /// @brief Field MediaStop value: static_cast<int32_t>(0xb2)
-  static ::System::ConsoleKey const MediaStop;
+  /// @brief Field Insert value: static_cast<int32_t>(0x2d)
+  static ::System::ConsoleKey const Insert;
 
-  /// @brief Field MediaPlay value: static_cast<int32_t>(0xb3)
-  static ::System::ConsoleKey const MediaPlay;
+  /// @brief Field J value: static_cast<int32_t>(0x4a)
+  static ::System::ConsoleKey const J;
 
-  /// @brief Field LaunchMail value: static_cast<int32_t>(0xb4)
-  static ::System::ConsoleKey const LaunchMail;
+  /// @brief Field K value: static_cast<int32_t>(0x4b)
+  static ::System::ConsoleKey const K;
 
-  /// @brief Field LaunchMediaSelect value: static_cast<int32_t>(0xb5)
-  static ::System::ConsoleKey const LaunchMediaSelect;
+  /// @brief Field L value: static_cast<int32_t>(0x4c)
+  static ::System::ConsoleKey const L;
 
   /// @brief Field LaunchApp1 value: static_cast<int32_t>(0xb6)
   static ::System::ConsoleKey const LaunchApp1;
@@ -549,20 +411,80 @@ public:
   /// @brief Field LaunchApp2 value: static_cast<int32_t>(0xb7)
   static ::System::ConsoleKey const LaunchApp2;
 
+  /// @brief Field LaunchMail value: static_cast<int32_t>(0xb4)
+  static ::System::ConsoleKey const LaunchMail;
+
+  /// @brief Field LaunchMediaSelect value: static_cast<int32_t>(0xb5)
+  static ::System::ConsoleKey const LaunchMediaSelect;
+
+  /// @brief Field LeftArrow value: static_cast<int32_t>(0x25)
+  static ::System::ConsoleKey const LeftArrow;
+
+  /// @brief Field LeftWindows value: static_cast<int32_t>(0x5b)
+  static ::System::ConsoleKey const LeftWindows;
+
+  /// @brief Field M value: static_cast<int32_t>(0x4d)
+  static ::System::ConsoleKey const M;
+
+  /// @brief Field MediaNext value: static_cast<int32_t>(0xb0)
+  static ::System::ConsoleKey const MediaNext;
+
+  /// @brief Field MediaPlay value: static_cast<int32_t>(0xb3)
+  static ::System::ConsoleKey const MediaPlay;
+
+  /// @brief Field MediaPrevious value: static_cast<int32_t>(0xb1)
+  static ::System::ConsoleKey const MediaPrevious;
+
+  /// @brief Field MediaStop value: static_cast<int32_t>(0xb2)
+  static ::System::ConsoleKey const MediaStop;
+
+  /// @brief Field Multiply value: static_cast<int32_t>(0x6a)
+  static ::System::ConsoleKey const Multiply;
+
+  /// @brief Field N value: static_cast<int32_t>(0x4e)
+  static ::System::ConsoleKey const N;
+
+  /// @brief Field NoName value: static_cast<int32_t>(0xfc)
+  static ::System::ConsoleKey const NoName;
+
+  /// @brief Field NumPad0 value: static_cast<int32_t>(0x60)
+  static ::System::ConsoleKey const NumPad0;
+
+  /// @brief Field NumPad1 value: static_cast<int32_t>(0x61)
+  static ::System::ConsoleKey const NumPad1;
+
+  /// @brief Field NumPad2 value: static_cast<int32_t>(0x62)
+  static ::System::ConsoleKey const NumPad2;
+
+  /// @brief Field NumPad3 value: static_cast<int32_t>(0x63)
+  static ::System::ConsoleKey const NumPad3;
+
+  /// @brief Field NumPad4 value: static_cast<int32_t>(0x64)
+  static ::System::ConsoleKey const NumPad4;
+
+  /// @brief Field NumPad5 value: static_cast<int32_t>(0x65)
+  static ::System::ConsoleKey const NumPad5;
+
+  /// @brief Field NumPad6 value: static_cast<int32_t>(0x66)
+  static ::System::ConsoleKey const NumPad6;
+
+  /// @brief Field NumPad7 value: static_cast<int32_t>(0x67)
+  static ::System::ConsoleKey const NumPad7;
+
+  /// @brief Field NumPad8 value: static_cast<int32_t>(0x68)
+  static ::System::ConsoleKey const NumPad8;
+
+  /// @brief Field NumPad9 value: static_cast<int32_t>(0x69)
+  static ::System::ConsoleKey const NumPad9;
+
+  /// @brief Field O value: static_cast<int32_t>(0x4f)
+  static ::System::ConsoleKey const O;
+
   /// @brief Field Oem1 value: static_cast<int32_t>(0xba)
   static ::System::ConsoleKey const Oem1;
 
-  /// @brief Field OemPlus value: static_cast<int32_t>(0xbb)
-  static ::System::ConsoleKey const OemPlus;
-
-  /// @brief Field OemComma value: static_cast<int32_t>(0xbc)
-  static ::System::ConsoleKey const OemComma;
-
-  /// @brief Field OemMinus value: static_cast<int32_t>(0xbd)
-  static ::System::ConsoleKey const OemMinus;
-
-  /// @brief Field OemPeriod value: static_cast<int32_t>(0xbe)
-  static ::System::ConsoleKey const OemPeriod;
+  /// @brief Field Oem102 value: static_cast<int32_t>(0xe2)
+  static ::System::ConsoleKey const Oem102;
 
   /// @brief Field Oem2 value: static_cast<int32_t>(0xbf)
   static ::System::ConsoleKey const Oem2;
@@ -585,41 +507,122 @@ public:
   /// @brief Field Oem8 value: static_cast<int32_t>(0xdf)
   static ::System::ConsoleKey const Oem8;
 
-  /// @brief Field Oem102 value: static_cast<int32_t>(0xe2)
-  static ::System::ConsoleKey const Oem102;
+  /// @brief Field OemClear value: static_cast<int32_t>(0xfe)
+  static ::System::ConsoleKey const OemClear;
 
-  /// @brief Field Process value: static_cast<int32_t>(0xe5)
-  static ::System::ConsoleKey const Process;
+  /// @brief Field OemComma value: static_cast<int32_t>(0xbc)
+  static ::System::ConsoleKey const OemComma;
 
-  /// @brief Field Packet value: static_cast<int32_t>(0xe7)
-  static ::System::ConsoleKey const Packet;
+  /// @brief Field OemMinus value: static_cast<int32_t>(0xbd)
+  static ::System::ConsoleKey const OemMinus;
 
-  /// @brief Field Attention value: static_cast<int32_t>(0xf6)
-  static ::System::ConsoleKey const Attention;
+  /// @brief Field OemPeriod value: static_cast<int32_t>(0xbe)
+  static ::System::ConsoleKey const OemPeriod;
 
-  /// @brief Field CrSel value: static_cast<int32_t>(0xf7)
-  static ::System::ConsoleKey const CrSel;
+  /// @brief Field OemPlus value: static_cast<int32_t>(0xbb)
+  static ::System::ConsoleKey const OemPlus;
 
-  /// @brief Field ExSel value: static_cast<int32_t>(0xf8)
-  static ::System::ConsoleKey const ExSel;
-
-  /// @brief Field EraseEndOfFile value: static_cast<int32_t>(0xf9)
-  static ::System::ConsoleKey const EraseEndOfFile;
-
-  /// @brief Field Play value: static_cast<int32_t>(0xfa)
-  static ::System::ConsoleKey const Play;
-
-  /// @brief Field Zoom value: static_cast<int32_t>(0xfb)
-  static ::System::ConsoleKey const Zoom;
-
-  /// @brief Field NoName value: static_cast<int32_t>(0xfc)
-  static ::System::ConsoleKey const NoName;
+  /// @brief Field P value: static_cast<int32_t>(0x50)
+  static ::System::ConsoleKey const P;
 
   /// @brief Field Pa1 value: static_cast<int32_t>(0xfd)
   static ::System::ConsoleKey const Pa1;
 
-  /// @brief Field OemClear value: static_cast<int32_t>(0xfe)
-  static ::System::ConsoleKey const OemClear;
+  /// @brief Field Packet value: static_cast<int32_t>(0xe7)
+  static ::System::ConsoleKey const Packet;
+
+  /// @brief Field PageDown value: static_cast<int32_t>(0x22)
+  static ::System::ConsoleKey const PageDown;
+
+  /// @brief Field PageUp value: static_cast<int32_t>(0x21)
+  static ::System::ConsoleKey const PageUp;
+
+  /// @brief Field Pause value: static_cast<int32_t>(0x13)
+  static ::System::ConsoleKey const Pause;
+
+  /// @brief Field Play value: static_cast<int32_t>(0xfa)
+  static ::System::ConsoleKey const Play;
+
+  /// @brief Field Print value: static_cast<int32_t>(0x2a)
+  static ::System::ConsoleKey const Print;
+
+  /// @brief Field PrintScreen value: static_cast<int32_t>(0x2c)
+  static ::System::ConsoleKey const PrintScreen;
+
+  /// @brief Field Process value: static_cast<int32_t>(0xe5)
+  static ::System::ConsoleKey const Process;
+
+  /// @brief Field Q value: static_cast<int32_t>(0x51)
+  static ::System::ConsoleKey const Q;
+
+  /// @brief Field R value: static_cast<int32_t>(0x52)
+  static ::System::ConsoleKey const R;
+
+  /// @brief Field RightArrow value: static_cast<int32_t>(0x27)
+  static ::System::ConsoleKey const RightArrow;
+
+  /// @brief Field RightWindows value: static_cast<int32_t>(0x5c)
+  static ::System::ConsoleKey const RightWindows;
+
+  /// @brief Field S value: static_cast<int32_t>(0x53)
+  static ::System::ConsoleKey const S;
+
+  /// @brief Field Select value: static_cast<int32_t>(0x29)
+  static ::System::ConsoleKey const Select;
+
+  /// @brief Field Separator value: static_cast<int32_t>(0x6c)
+  static ::System::ConsoleKey const Separator;
+
+  /// @brief Field Sleep value: static_cast<int32_t>(0x5f)
+  static ::System::ConsoleKey const Sleep;
+
+  /// @brief Field Spacebar value: static_cast<int32_t>(0x20)
+  static ::System::ConsoleKey const Spacebar;
+
+  /// @brief Field Subtract value: static_cast<int32_t>(0x6d)
+  static ::System::ConsoleKey const Subtract;
+
+  /// @brief Field T value: static_cast<int32_t>(0x54)
+  static ::System::ConsoleKey const T;
+
+  /// @brief Field Tab value: static_cast<int32_t>(0x9)
+  static ::System::ConsoleKey const Tab;
+
+  /// @brief Field U value: static_cast<int32_t>(0x55)
+  static ::System::ConsoleKey const U;
+
+  /// @brief Field UpArrow value: static_cast<int32_t>(0x26)
+  static ::System::ConsoleKey const UpArrow;
+
+  /// @brief Field V value: static_cast<int32_t>(0x56)
+  static ::System::ConsoleKey const V;
+
+  /// @brief Field VolumeDown value: static_cast<int32_t>(0xae)
+  static ::System::ConsoleKey const VolumeDown;
+
+  /// @brief Field VolumeMute value: static_cast<int32_t>(0xad)
+  static ::System::ConsoleKey const VolumeMute;
+
+  /// @brief Field VolumeUp value: static_cast<int32_t>(0xaf)
+  static ::System::ConsoleKey const VolumeUp;
+
+  /// @brief Field W value: static_cast<int32_t>(0x57)
+  static ::System::ConsoleKey const W;
+
+  /// @brief Field X value: static_cast<int32_t>(0x58)
+  static ::System::ConsoleKey const X;
+
+  /// @brief Field Y value: static_cast<int32_t>(0x59)
+  static ::System::ConsoleKey const Y;
+
+  /// @brief Field Z value: static_cast<int32_t>(0x5a)
+  static ::System::ConsoleKey const Z;
+
+  /// @brief Field Zoom value: static_cast<int32_t>(0xfb)
+  static ::System::ConsoleKey const Zoom;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

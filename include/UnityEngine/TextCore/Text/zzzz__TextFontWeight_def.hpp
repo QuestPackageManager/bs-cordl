@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextFontWeight);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13677))
 // CS Name: ::UnityEngine.TextCore.Text::TextFontWeight
 struct CORDL_TYPE TextFontWeight {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__TextFontWeight_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextFontWeight(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TextFontWeight();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TextFontWeight(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Thin value: static_cast<int32_t>(0x64)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const Thin;
-
-  /// @brief Field ExtraLight value: static_cast<int32_t>(0xc8)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const ExtraLight;
-
-  /// @brief Field Light value: static_cast<int32_t>(0x12c)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const Light;
-
-  /// @brief Field Regular value: static_cast<int32_t>(0x190)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const Regular;
-
-  /// @brief Field Medium value: static_cast<int32_t>(0x1f4)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const Medium;
-
-  /// @brief Field SemiBold value: static_cast<int32_t>(0x258)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const SemiBold;
+  /// @brief Field Black value: static_cast<int32_t>(0x384)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const Black;
 
   /// @brief Field Bold value: static_cast<int32_t>(0x2bc)
   static ::UnityEngine::TextCore::Text::TextFontWeight const Bold;
 
+  /// @brief Field ExtraLight value: static_cast<int32_t>(0xc8)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const ExtraLight;
+
   /// @brief Field Heavy value: static_cast<int32_t>(0x320)
   static ::UnityEngine::TextCore::Text::TextFontWeight const Heavy;
 
-  /// @brief Field Black value: static_cast<int32_t>(0x384)
-  static ::UnityEngine::TextCore::Text::TextFontWeight const Black;
+  /// @brief Field Light value: static_cast<int32_t>(0x12c)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const Light;
+
+  /// @brief Field Medium value: static_cast<int32_t>(0x1f4)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const Medium;
+
+  /// @brief Field Regular value: static_cast<int32_t>(0x190)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const Regular;
+
+  /// @brief Field SemiBold value: static_cast<int32_t>(0x258)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const SemiBold;
+
+  /// @brief Field Thin value: static_cast<int32_t>(0x64)
+  static ::UnityEngine::TextCore::Text::TextFontWeight const Thin;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

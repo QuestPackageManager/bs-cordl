@@ -15,12 +15,14 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::ChainBuilderStats);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7388))
 // CS Name: ::UnityEngine.UIElements.UIR::ChainBuilderStats
 struct CORDL_TYPE ChainBuilderStats {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChainBuilderStats();
+
   // Ctor Parameters [CppParam { name: "elementsAdded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "elementsRemoved", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
   // { name: "recursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveClipUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "nonRecursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveTransformUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -38,10 +40,6 @@ public:
                               uint32_t colorUpdates, uint32_t colorUpdatesExpanded, uint32_t recursiveVisualUpdates, uint32_t recursiveVisualUpdatesExpanded, uint32_t nonRecursiveVisualUpdates,
                               uint32_t dirtyProcessed, uint32_t nudgeTransformed, uint32_t boneTransformed, uint32_t skipTransformed, uint32_t visualUpdateTransformed, uint32_t updatedMeshAllocations,
                               uint32_t newMeshAllocations, uint32_t groupTransformElementsChanged, uint32_t immedateRenderersActive, uint32_t textUpdates) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ChainBuilderStats();
 
   /// @brief Field elementsAdded, offset: 0x0, size: 0x4, def value: None
   uint32_t elementsAdded;

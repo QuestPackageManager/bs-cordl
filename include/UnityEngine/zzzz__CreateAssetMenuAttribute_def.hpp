@@ -15,45 +15,49 @@ MARK_REF_PTR_T(::UnityEngine::CreateAssetMenuAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10216))
 // CS Name: ::UnityEngine::CreateAssetMenuAttribute*
 class CORDL_TYPE CreateAssetMenuAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <menuName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuName_k__BackingField, put = __cordl_internal_set__menuName_k__BackingField))::StringW _menuName_k__BackingField;
-
   /// @brief Field <fileName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__fileName_k__BackingField, put = __cordl_internal_set__fileName_k__BackingField))::StringW _fileName_k__BackingField;
 
-  __declspec(property(put = set_menuName))::StringW menuName;
+  /// @brief Field <menuName>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuName_k__BackingField, put = __cordl_internal_set__menuName_k__BackingField))::StringW _menuName_k__BackingField;
 
   __declspec(property(put = set_fileName))::StringW fileName;
 
-  constexpr ::StringW& __cordl_internal_get__menuName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__menuName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__fileName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__fileName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__fileName_k__BackingField(::StringW value);
-
-  /// @brief Method set_menuName, addr 0x2cd281c, size 0x8, virtual false, abstract: false, final false
-  inline void set_menuName(::StringW value);
-
-  /// @brief Method set_fileName, addr 0x2cd2824, size 0x8, virtual false, abstract: false, final false
-  inline void set_fileName(::StringW value);
+  __declspec(property(put = set_menuName))::StringW menuName;
 
   static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cd282c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__fileName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__fileName_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__menuName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__menuName_k__BackingField();
+
+  constexpr void __cordl_internal_set__fileName_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2dc4e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_fileName, addr 0x2dc4e1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_fileName(::StringW value);
+
+  /// @brief Method set_menuName, addr 0x2dc4e14, size 0x8, virtual false, abstract: false, final false
+  inline void set_menuName(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CreateAssetMenuAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreateAssetMenuAttribute(CreateAssetMenuAttribute&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreateAssetMenuAttribute(CreateAssetMenuAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreateAssetMenuAttribute();
-
-public:
   /// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____menuName_k__BackingField;
 

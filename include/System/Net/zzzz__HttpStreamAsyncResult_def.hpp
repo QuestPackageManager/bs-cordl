@@ -34,32 +34,32 @@ MARK_REF_PTR_T(::System::Net::HttpStreamAsyncResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9178))
 // CS Name: ::System.Net::HttpStreamAsyncResult*
 class CORDL_TYPE HttpStreamAsyncResult : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field locker, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
+  __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
 
-  /// @brief Field handle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Threading::ManualResetEvent* handle;
-
-  /// @brief Field completed, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
+  __declspec(property(get = get_AsyncWaitHandle))::System::Threading::WaitHandle* AsyncWaitHandle;
 
   /// @brief Field Buffer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
-  /// @brief Field Offset, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
+  /// @brief Field Callback, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback))::System::AsyncCallback* Callback;
+
+  __declspec(property(get = get_CompletedSynchronously)) bool CompletedSynchronously;
 
   /// @brief Field Count, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) int32_t Count;
 
-  /// @brief Field Callback, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback))::System::AsyncCallback* Callback;
+  /// @brief Field Error, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_Error, put = __cordl_internal_set_Error))::System::Exception* Error;
+
+  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+
+  /// @brief Field Offset, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
   /// @brief Field State, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_State, put = __cordl_internal_set_State))::System::Object* State;
@@ -67,106 +67,110 @@ public:
   /// @brief Field SynchRead, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_SynchRead, put = __cordl_internal_set_SynchRead)) int32_t SynchRead;
 
-  /// @brief Field Error, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_Error, put = __cordl_internal_set_Error))::System::Exception* Error;
+  /// @brief Field completed, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
 
-  __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
+  /// @brief Field handle, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Threading::ManualResetEvent* handle;
 
-  __declspec(property(get = get_AsyncWaitHandle))::System::Threading::WaitHandle* AsyncWaitHandle;
-
-  __declspec(property(get = get_CompletedSynchronously)) bool CompletedSynchronously;
-
-  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+  /// @brief Field locker, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Convert to "::System::IAsyncResult"
-  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
+  /// @brief Method Complete, addr 0x2aa850c, size 0x100, virtual false, abstract: false, final false
+  inline void Complete();
 
-  constexpr ::System::Object*& __cordl_internal_get_locker();
+  /// @brief Method Complete, addr 0x2aa8bd0, size 0x8, virtual false, abstract: false, final false
+  inline void Complete(::System::Exception* e);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
-
-  constexpr void __cordl_internal_set_locker(::System::Object* value);
-
-  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_handle();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_handle() const;
-
-  constexpr void __cordl_internal_set_handle(::System::Threading::ManualResetEvent* value);
-
-  constexpr bool& __cordl_internal_get_completed();
-
-  constexpr bool const& __cordl_internal_get_completed() const;
-
-  constexpr void __cordl_internal_set_completed(bool value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
+  static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_Offset();
-
-  constexpr int32_t const& __cordl_internal_get_Offset() const;
-
-  constexpr void __cordl_internal_set_Offset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_Count();
-
-  constexpr int32_t const& __cordl_internal_get_Count() const;
-
-  constexpr void __cordl_internal_set_Count(int32_t value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
   constexpr ::System::AsyncCallback*& __cordl_internal_get_Callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_Callback() const;
 
-  constexpr void __cordl_internal_set_Callback(::System::AsyncCallback* value);
+  constexpr int32_t const& __cordl_internal_get_Count() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_State();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_State() const;
-
-  constexpr void __cordl_internal_set_State(::System::Object* value);
-
-  constexpr int32_t& __cordl_internal_get_SynchRead();
-
-  constexpr int32_t const& __cordl_internal_get_SynchRead() const;
-
-  constexpr void __cordl_internal_set_SynchRead(int32_t value);
+  constexpr int32_t& __cordl_internal_get_Count();
 
   constexpr ::System::Exception*& __cordl_internal_get_Error();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_Error() const;
 
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
+
+  constexpr int32_t& __cordl_internal_get_Offset();
+
+  constexpr ::System::Object*& __cordl_internal_get_State();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_State() const;
+
+  constexpr int32_t const& __cordl_internal_get_SynchRead() const;
+
+  constexpr int32_t& __cordl_internal_get_SynchRead();
+
+  constexpr bool const& __cordl_internal_get_completed() const;
+
+  constexpr bool& __cordl_internal_get_completed();
+
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_handle();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_handle() const;
+
+  constexpr ::System::Object*& __cordl_internal_get_locker();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
+
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_Callback(::System::AsyncCallback* value);
+
+  constexpr void __cordl_internal_set_Count(int32_t value);
+
   constexpr void __cordl_internal_set_Error(::System::Exception* value);
 
-  /// @brief Method Complete, addr 0x29bd058, size 0x8, virtual false, abstract: false, final false
-  inline void Complete(::System::Exception* e);
+  constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method Complete, addr 0x29bc994, size 0x100, virtual false, abstract: false, final false
-  inline void Complete();
+  constexpr void __cordl_internal_set_State(::System::Object* value);
 
-  /// @brief Method get_AsyncState, addr 0x29cb9c8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* get_AsyncState();
+  constexpr void __cordl_internal_set_SynchRead(int32_t value);
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x29cb9d0, size 0x13c, virtual true, abstract: false, final true
-  inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
+  constexpr void __cordl_internal_set_completed(bool value);
 
-  /// @brief Method get_CompletedSynchronously, addr 0x29cbb0c, size 0x14, virtual true, abstract: false, final true
-  inline bool get_CompletedSynchronously();
+  constexpr void __cordl_internal_set_handle(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method get_IsCompleted, addr 0x29cbb20, size 0xc8, virtual true, abstract: false, final true
-  inline bool get_IsCompleted();
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29bc92c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa84a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_AsyncState, addr 0x2ab7540, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* get_AsyncState();
+
+  /// @brief Method get_AsyncWaitHandle, addr 0x2ab7548, size 0x13c, virtual true, abstract: false, final true
+  inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
+
+  /// @brief Method get_CompletedSynchronously, addr 0x2ab7684, size 0x14, virtual true, abstract: false, final true
+  inline bool get_CompletedSynchronously();
+
+  /// @brief Method get_IsCompleted, addr 0x2ab7698, size 0xc8, virtual true, abstract: false, final true
+  inline bool get_IsCompleted();
+
+  /// @brief Convert to "::System::IAsyncResult"
+  constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpStreamAsyncResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpStreamAsyncResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpStreamAsyncResult(HttpStreamAsyncResult&&) = delete;
@@ -175,12 +179,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpStreamAsyncResult(HttpStreamAsyncResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpStreamAsyncResult();
-
-public:
   /// @brief Field locker, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___locker;
 

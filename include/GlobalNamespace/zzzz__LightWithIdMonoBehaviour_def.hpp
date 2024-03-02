@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LightWithIdMonoBehaviour);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14542))
 // CS Name: ::LightWithIdMonoBehaviour*
 class CORDL_TYPE LightWithIdMonoBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,75 +31,81 @@ public:
   /// @brief Field _ID, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__ID, put = __cordl_internal_set__ID)) int32_t _ID;
 
-  /// @brief Field _lightManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
-
   /// @brief Field _isRegistered, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
 
-  __declspec(property(get = get_lightId)) int32_t lightId;
+  /// @brief Field _lightManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
   __declspec(property(get = get_isRegistered)) bool isRegistered;
+
+  __declspec(property(get = get_lightId)) int32_t lightId;
 
   /// @brief Convert operator to "::GlobalNamespace::ILightWithId"
   constexpr operator ::GlobalNamespace::ILightWithId*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILightWithId"
-  constexpr ::GlobalNamespace::ILightWithId* i___GlobalNamespace__ILightWithId() noexcept;
-
-  constexpr int32_t& __cordl_internal_get__ID();
-
-  constexpr int32_t const& __cordl_internal_get__ID() const;
-
-  constexpr void __cordl_internal_set__ID(int32_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
-
-  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
-
-  constexpr bool& __cordl_internal_get__isRegistered();
-
-  constexpr bool const& __cordl_internal_get__isRegistered() const;
-
-  constexpr void __cordl_internal_set__isRegistered(bool value);
-
-  /// @brief Method get_lightId, addr 0x2111000, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_lightId();
-
-  /// @brief Method get_isRegistered, addr 0x2111008, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isRegistered();
-
-  /// @brief Method __SetIsRegistered, addr 0x2111010, size 0xc, virtual true, abstract: false, final true
-  inline void __SetIsRegistered();
-
-  /// @brief Method __SetIsUnRegistered, addr 0x211101c, size 0x8, virtual true, abstract: false, final true
-  inline void __SetIsUnRegistered();
-
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method OnEnable, addr 0x2111024, size 0x4, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method Start, addr 0x21110ac, size 0x4, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDisable, addr 0x21110b0, size 0x84, virtual true, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method RegisterLight, addr 0x2111028, size 0x84, virtual false, abstract: false, final false
-  inline void RegisterLight();
-
-  /// @brief Method SetLightId, addr 0x2111134, size 0xa8, virtual false, abstract: false, final false
-  inline void SetLightId(int32_t newLightId);
-
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210e898, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2273ec0, size 0x84, virtual true, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x2273e34, size 0x4, virtual true, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method RegisterLight, addr 0x2273e38, size 0x84, virtual false, abstract: false, final false
+  inline void RegisterLight();
+
+  /// @brief Method SetLightId, addr 0x2273f44, size 0xa8, virtual false, abstract: false, final false
+  inline void SetLightId(int32_t newLightId);
+
+  /// @brief Method Start, addr 0x2273ebc, size 0x4, virtual true, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method __SetIsRegistered, addr 0x2273e20, size 0xc, virtual true, abstract: false, final true
+  inline void __SetIsRegistered();
+
+  /// @brief Method __SetIsUnRegistered, addr 0x2273e2c, size 0x8, virtual true, abstract: false, final true
+  inline void __SetIsUnRegistered();
+
+  constexpr int32_t const& __cordl_internal_get__ID() const;
+
+  constexpr int32_t& __cordl_internal_get__ID();
+
+  constexpr bool const& __cordl_internal_get__isRegistered() const;
+
+  constexpr bool& __cordl_internal_get__isRegistered();
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
+
+  constexpr void __cordl_internal_set__ID(int32_t value);
+
+  constexpr void __cordl_internal_set__isRegistered(bool value);
+
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
+
+  /// @brief Method .ctor, addr 0x22716a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isRegistered, addr 0x2273e18, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isRegistered();
+
+  /// @brief Method get_lightId, addr 0x2273e10, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_lightId();
+
+  /// @brief Convert to "::GlobalNamespace::ILightWithId"
+  constexpr ::GlobalNamespace::ILightWithId* i___GlobalNamespace__ILightWithId() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightWithIdMonoBehaviour();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIdMonoBehaviour(LightWithIdMonoBehaviour&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightWithIdMonoBehaviour(LightWithIdMonoBehaviour const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightWithIdMonoBehaviour();
-
-public:
   /// @brief Field _ID, offset: 0x18, size: 0x4, def value: None
   int32_t ____ID;
 

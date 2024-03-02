@@ -22,33 +22,19 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6098))
 // CS Name: ::Priority_Queue::IPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IPriorityQueue_2 {
 public:
   // Declarations
-  __declspec(property(get = get_First)) TItem First;
-
   __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_First)) TItem First;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TItem>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TItem>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Enqueue(TItem node, TPriority priority);
-
-  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TItem Dequeue();
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
@@ -56,17 +42,29 @@ public:
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Contains(TItem node);
 
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline TItem Dequeue();
+
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Enqueue(TItem node, TPriority priority);
+
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(TItem node);
 
   /// @brief Method UpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePriority(TItem node, TPriority priority);
 
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_Count();
+
   /// @brief Method get_First, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem get_First();
 
-  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_Count();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TItem>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TItem>* i___System__Collections__Generic__IEnumerable_1_TItem_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPriorityQueue_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

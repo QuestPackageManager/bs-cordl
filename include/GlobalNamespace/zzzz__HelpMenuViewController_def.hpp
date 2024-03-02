@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpMenuViewController);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5646))
 // CS Name: ::HelpMenuViewController*
 class CORDL_TYPE HelpMenuViewController : public ::HMUI::ViewController {
 public:
@@ -43,52 +41,58 @@ public:
   /// @brief Field _helpMenuSegmentedControl, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__helpMenuSegmentedControl, put = __cordl_internal_set__helpMenuSegmentedControl))::UnityW<::HMUI::TextSegmentedControl> _helpMenuSegmentedControl;
 
-  /// @brief Field didSelectHelpSubMenuEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectHelpSubMenuEvent, put = __cordl_internal_set_didSelectHelpSubMenuEvent))::System::Action_1<int32_t>* didSelectHelpSubMenuEvent;
-
   /// @brief Field _viewControllers, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__viewControllers,
                       put = __cordl_internal_set__viewControllers))::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* _viewControllers;
 
-  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__helpMenuSegmentedControl();
+  /// @brief Field didSelectHelpSubMenuEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSelectHelpSubMenuEvent, put = __cordl_internal_set_didSelectHelpSubMenuEvent))::System::Action_1<int32_t>* didSelectHelpSubMenuEvent;
+
+  /// @brief Method DidActivate, addr 0x23b7650, size 0x2b8, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x23b7908, size 0x24, virtual false, abstract: false, final false
+  inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
+
+  /// @brief Method Init, addr 0x23b7648, size 0x8, virtual false, abstract: false, final false
+  inline void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* viewControllers);
+
+  static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
 
   constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__helpMenuSegmentedControl() const;
 
-  constexpr void __cordl_internal_set__helpMenuSegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
-
-  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectHelpSubMenuEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_didSelectHelpSubMenuEvent() const;
-
-  constexpr void __cordl_internal_set_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
+  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__helpMenuSegmentedControl();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*& __cordl_internal_get__viewControllers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>*> const&
   __cordl_internal_get__viewControllers() const;
 
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectHelpSubMenuEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_didSelectHelpSubMenuEvent() const;
+
+  constexpr void __cordl_internal_set__helpMenuSegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
+
   constexpr void __cordl_internal_set__viewControllers(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* value);
 
-  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x22b54e0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x22b5590, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
-
-  /// @brief Method Init, addr 0x22b5640, size 0x8, virtual false, abstract: false, final false
-  inline void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* viewControllers);
-
-  /// @brief Method DidActivate, addr 0x22b5648, size 0x2b8, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x22b5900, size 0x24, virtual false, abstract: false, final false
-  inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
-
-  static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22b5924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b792c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x23b74e8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
+
+  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x23b7598, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HelpMenuViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HelpMenuViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpMenuViewController(HelpMenuViewController&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpMenuViewController(HelpMenuViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HelpMenuViewController();
-
-public:
   /// @brief Field _helpMenuSegmentedControl, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____helpMenuSegmentedControl;
 

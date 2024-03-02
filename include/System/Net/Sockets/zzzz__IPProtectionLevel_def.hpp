@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::Sockets::IPProtectionLevel);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9340))
 // CS Name: ::System.Net.Sockets::IPProtectionLevel
 struct CORDL_TYPE IPProtectionLevel {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__IPProtectionLevel_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr IPProtectionLevel(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IPProtectionLevel();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr IPProtectionLevel(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unspecified value: static_cast<int32_t>(0xffffffff)
-  static ::System::Net::Sockets::IPProtectionLevel const Unspecified;
-
-  /// @brief Field Unrestricted value: static_cast<int32_t>(0xa)
-  static ::System::Net::Sockets::IPProtectionLevel const Unrestricted;
 
   /// @brief Field EdgeRestricted value: static_cast<int32_t>(0x14)
   static ::System::Net::Sockets::IPProtectionLevel const EdgeRestricted;
 
   /// @brief Field Restricted value: static_cast<int32_t>(0x1e)
   static ::System::Net::Sockets::IPProtectionLevel const Restricted;
+
+  /// @brief Field Unrestricted value: static_cast<int32_t>(0xa)
+  static ::System::Net::Sockets::IPProtectionLevel const Unrestricted;
+
+  /// @brief Field Unspecified value: static_cast<int32_t>(0xffffffff)
+  static ::System::Net::Sockets::IPProtectionLevel const Unspecified;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -77,8 +77,6 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10531))
 // CS Name: ::PreUpdate::PhysicsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__PhysicsUpdate {
@@ -105,8 +103,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10532))
 // CS Name: ::PreUpdate::Physics2DUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__Physics2DUpdate {
@@ -133,8 +129,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10533))
 // CS Name: ::PreUpdate::CheckTexFieldInput
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__CheckTexFieldInput {
@@ -161,8 +155,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10534))
 // CS Name: ::PreUpdate::IMGUISendQueuedEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__IMGUISendQueuedEvents {
@@ -189,8 +181,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10535))
 // CS Name: ::PreUpdate::SendMouseEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__SendMouseEvents {
@@ -217,8 +207,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10536))
 // CS Name: ::PreUpdate::AIUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__AIUpdate {
@@ -245,8 +233,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10537))
 // CS Name: ::PreUpdate::WindUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__WindUpdate {
@@ -273,8 +259,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
 // CS Name: ::PreUpdate::UpdateVideo
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__UpdateVideo {
@@ -301,8 +285,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
 // CS Name: ::PreUpdate::NewInputUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreUpdate__NewInputUpdate {
@@ -329,30 +311,28 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
 // CS Name: ::UnityEngine.PlayerLoop::PreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreUpdate {
 public:
   // Declarations
-  using NewInputUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__NewInputUpdate;
-
-  using UpdateVideo = ::UnityEngine::PlayerLoop::__PreUpdate__UpdateVideo;
-
-  using WindUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate;
-
   using AIUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__AIUpdate;
 
-  using SendMouseEvents = ::UnityEngine::PlayerLoop::__PreUpdate__SendMouseEvents;
+  using CheckTexFieldInput = ::UnityEngine::PlayerLoop::__PreUpdate__CheckTexFieldInput;
 
   using IMGUISendQueuedEvents = ::UnityEngine::PlayerLoop::__PreUpdate__IMGUISendQueuedEvents;
 
-  using CheckTexFieldInput = ::UnityEngine::PlayerLoop::__PreUpdate__CheckTexFieldInput;
+  using NewInputUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__NewInputUpdate;
 
   using Physics2DUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate;
 
   using PhysicsUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__PhysicsUpdate;
+
+  using SendMouseEvents = ::UnityEngine::PlayerLoop::__PreUpdate__SendMouseEvents;
+
+  using UpdateVideo = ::UnityEngine::PlayerLoop::__PreUpdate__UpdateVideo;
+
+  using WindUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate;
 
   // Ctor Parameters []
   // @brief default ctor

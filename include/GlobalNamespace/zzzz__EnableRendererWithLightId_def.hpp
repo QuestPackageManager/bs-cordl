@@ -21,47 +21,51 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableRendererWithLightId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14529))
 // CS Name: ::EnableRendererWithLightId*
 class CORDL_TYPE EnableRendererWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _renderer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
+  /// @brief Field _hideAlphaRangeMax, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__hideAlphaRangeMax, put = __cordl_internal_set__hideAlphaRangeMax)) float_t _hideAlphaRangeMax;
 
   /// @brief Field _hideAlphaRangeMin, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__hideAlphaRangeMin, put = __cordl_internal_set__hideAlphaRangeMin)) float_t _hideAlphaRangeMin;
 
-  /// @brief Field _hideAlphaRangeMax, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__hideAlphaRangeMax, put = __cordl_internal_set__hideAlphaRangeMax)) float_t _hideAlphaRangeMax;
+  /// @brief Field _renderer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
-
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
-
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
-
-  constexpr float_t& __cordl_internal_get__hideAlphaRangeMin();
-
-  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMin() const;
-
-  constexpr void __cordl_internal_set__hideAlphaRangeMin(float_t value);
-
-  constexpr float_t& __cordl_internal_get__hideAlphaRangeMax();
-
-  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMax() const;
-
-  constexpr void __cordl_internal_set__hideAlphaRangeMax(float_t value);
-
-  /// @brief Method ColorWasSet, addr 0x210f21c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x227202c, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::EnableRendererWithLightId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f260, size 0x1c, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMax() const;
+
+  constexpr float_t& __cordl_internal_get__hideAlphaRangeMax();
+
+  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMin() const;
+
+  constexpr float_t& __cordl_internal_get__hideAlphaRangeMin();
+
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+
+  constexpr void __cordl_internal_set__hideAlphaRangeMax(float_t value);
+
+  constexpr void __cordl_internal_set__hideAlphaRangeMin(float_t value);
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+
+  /// @brief Method .ctor, addr 0x2272070, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnableRendererWithLightId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnableRendererWithLightId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnableRendererWithLightId(EnableRendererWithLightId&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnableRendererWithLightId(EnableRendererWithLightId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnableRendererWithLightId();
-
-public:
   /// @brief Field _renderer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 

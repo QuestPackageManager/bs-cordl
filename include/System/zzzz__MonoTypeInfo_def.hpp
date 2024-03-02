@@ -18,35 +18,39 @@ MARK_REF_PTR_T(::System::MonoTypeInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2580))
 // CS Name: ::System::MonoTypeInfo*
 class CORDL_TYPE MonoTypeInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field full_name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_full_name, put = __cordl_internal_set_full_name))::StringW full_name;
-
   /// @brief Field default_ctor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_default_ctor, put = __cordl_internal_set_default_ctor))::System::Reflection::RuntimeConstructorInfo* default_ctor;
 
-  constexpr ::StringW& __cordl_internal_get_full_name();
+  /// @brief Field full_name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_full_name, put = __cordl_internal_set_full_name))::StringW full_name;
 
-  constexpr ::StringW const& __cordl_internal_get_full_name() const;
-
-  constexpr void __cordl_internal_set_full_name(::StringW value);
+  static inline ::System::MonoTypeInfo* New_ctor();
 
   constexpr ::System::Reflection::RuntimeConstructorInfo*& __cordl_internal_get_default_ctor();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __cordl_internal_get_default_ctor() const;
 
+  constexpr ::StringW const& __cordl_internal_get_full_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_full_name();
+
   constexpr void __cordl_internal_set_default_ctor(::System::Reflection::RuntimeConstructorInfo* value);
 
-  static inline ::System::MonoTypeInfo* New_ctor();
+  constexpr void __cordl_internal_set_full_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25f6248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9844, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoTypeInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTypeInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTypeInfo(MonoTypeInfo&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTypeInfo(MonoTypeInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoTypeInfo();
-
-public:
   /// @brief Field full_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___full_name;
 

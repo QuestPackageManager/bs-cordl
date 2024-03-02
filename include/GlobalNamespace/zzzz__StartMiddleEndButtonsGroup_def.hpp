@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StartMiddleEndButtonsGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5437))
 // CS Name: ::StartMiddleEndButtonsGroup*
 class CORDL_TYPE StartMiddleEndButtonsGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
 
+  static inline ::GlobalNamespace::StartMiddleEndButtonsGroup* New_ctor();
+
+  /// @brief Method SetLayoutHorizontal, addr 0x24a5f28, size 0xe8, virtual true, abstract: false, final true
+  inline void SetLayoutHorizontal();
+
+  /// @brief Method SetLayoutVertical, addr 0x24a6010, size 0x4, virtual true, abstract: false, final true
+  inline void SetLayoutVertical();
+
+  /// @brief Method .ctor, addr 0x24a6014, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
   constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
-  /// @brief Method SetLayoutHorizontal, addr 0x227c728, size 0xe8, virtual true, abstract: false, final true
-  inline void SetLayoutHorizontal();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StartMiddleEndButtonsGroup();
 
-  /// @brief Method SetLayoutVertical, addr 0x227c810, size 0x4, virtual true, abstract: false, final true
-  inline void SetLayoutVertical();
-
-  static inline ::GlobalNamespace::StartMiddleEndButtonsGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x227c814, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonsGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StartMiddleEndButtonsGroup(StartMiddleEndButtonsGroup&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StartMiddleEndButtonsGroup(StartMiddleEndButtonsGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StartMiddleEndButtonsGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

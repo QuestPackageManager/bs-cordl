@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGenerator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(689))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGenerator*
 class CORDL_TYPE SignerInfoGenerator : public ::System::Object {
 public:
@@ -38,6 +36,9 @@ public:
   /// @brief Field contentSigner, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_contentSigner, put = __cordl_internal_set_contentSigner))::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner;
 
+  /// @brief Field isDirectSignature, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_isDirectSignature, put = __cordl_internal_set_isDirectSignature)) bool isDirectSignature;
+
   /// @brief Field sigId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sigId, put = __cordl_internal_set_sigId))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId;
 
@@ -47,67 +48,70 @@ public:
   /// @brief Field unsignedGen, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_unsignedGen, put = __cordl_internal_set_unsignedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
 
-  /// @brief Field isDirectSignature, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_isDirectSignature, put = __cordl_internal_set_isDirectSignature)) bool isDirectSignature;
+  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
+                                                                        ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
+                                                                        ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
+
+  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
+
+  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory,
+                                                                        bool isDirectSignature);
 
   constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_certificate();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_certificate() const;
 
-  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::X509::X509Certificate* value);
-
   constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& __cordl_internal_get_contentSigner();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& __cordl_internal_get_contentSigner() const;
 
-  constexpr void __cordl_internal_set_contentSigner(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
+  constexpr bool const& __cordl_internal_get_isDirectSignature() const;
+
+  constexpr bool& __cordl_internal_get_isDirectSignature();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& __cordl_internal_get_sigId();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& __cordl_internal_get_sigId() const;
 
-  constexpr void __cordl_internal_set_sigId(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_signedGen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_signedGen() const;
-
-  constexpr void __cordl_internal_set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
   constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_unsignedGen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_unsignedGen() const;
 
-  constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  constexpr bool& __cordl_internal_get_isDirectSignature();
-
-  constexpr bool const& __cordl_internal_get_isDirectSignature() const;
+  constexpr void __cordl_internal_set_contentSigner(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
 
   constexpr void __cordl_internal_set_isDirectSignature(bool value);
 
-  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
+  constexpr void __cordl_internal_set_sigId(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x1208be4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
+  constexpr void __cordl_internal_set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory,
-                                                                        bool isDirectSignature);
+  constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x1208bec, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
-
-  static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
-                                                                        ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
-                                                                        ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
-
-  /// @brief Method .ctor, addr 0x1208c8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1279aec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method setAssociatedCertificate, addr 0x1208cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1279a44, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
+
+  /// @brief Method .ctor, addr 0x1279a4c, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
+
+  /// @brief Method setAssociatedCertificate, addr 0x1279b30, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerInfoGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInfoGenerator(SignerInfoGenerator&&) = delete;
@@ -116,12 +120,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerInfoGenerator(SignerInfoGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerInfoGenerator();
-
-public:
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::X509::X509Certificate* ___certificate;
 

@@ -24,149 +24,153 @@ MARK_REF_PTR_T(::GlobalNamespace::ContinuousFireEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4007))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4006))
 // CS Name: ::ContinuousFireEffect*
 class CORDL_TYPE ContinuousFireEffect : public ::GlobalNamespace::FireEffect {
 public:
   // Declarations
-  /// @brief Field _fadeInDuration, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeInDuration, put = __cordl_internal_set__fadeInDuration)) float_t _fadeInDuration;
-
-  /// @brief Field _fadeOutDuration, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
-
-  /// @brief Field _sustainDuration, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__sustainDuration, put = __cordl_internal_set__sustainDuration)) float_t _sustainDuration;
-
-  /// @brief Field _flipbookSustainCurve, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__flipbookSustainCurve, put = __cordl_internal_set__flipbookSustainCurve))::UnityEngine::AnimationCurve* _flipbookSustainCurve;
+  /// @brief Field _audioTimeSource, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _bloomSustainCurve, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomSustainCurve, put = __cordl_internal_set__bloomSustainCurve))::UnityEngine::AnimationCurve* _bloomSustainCurve;
 
-  /// @brief Field _audioTimeSource, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
-
-  /// @brief Field _fadeInEndTime, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeInEndTime, put = __cordl_internal_set__fadeInEndTime)) float_t _fadeInEndTime;
-
-  /// @brief Field _fadeOutStartTime, offset 0xac, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeOutStartTime, put = __cordl_internal_set__fadeOutStartTime)) float_t _fadeOutStartTime;
+  /// @brief Field _effectEndTime, offset 0xb4, size 0x4
+  __declspec(property(get = __cordl_internal_get__effectEndTime, put = __cordl_internal_set__effectEndTime)) float_t _effectEndTime;
 
   /// @brief Field _effectStartTime, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get__effectStartTime, put = __cordl_internal_set__effectStartTime)) float_t _effectStartTime;
 
-  /// @brief Field _effectEndTime, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get__effectEndTime, put = __cordl_internal_set__effectEndTime)) float_t _effectEndTime;
+  /// @brief Field _fadeInDuration, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeInDuration, put = __cordl_internal_set__fadeInDuration)) float_t _fadeInDuration;
 
-  /// @brief Field _lastSustainProgress, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastSustainProgress, put = __cordl_internal_set__lastSustainProgress)) float_t _lastSustainProgress;
+  /// @brief Field _fadeInEndTime, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeInEndTime, put = __cordl_internal_set__fadeInEndTime)) float_t _fadeInEndTime;
+
+  /// @brief Field _fadeOutDuration, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
+
+  /// @brief Field _fadeOutStartTime, offset 0xac, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeOutStartTime, put = __cordl_internal_set__fadeOutStartTime)) float_t _fadeOutStartTime;
+
+  /// @brief Field _flipbookSustainCurve, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__flipbookSustainCurve, put = __cordl_internal_set__flipbookSustainCurve))::UnityEngine::AnimationCurve* _flipbookSustainCurve;
 
   /// @brief Field _lastFadeOutProgress, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get__lastFadeOutProgress, put = __cordl_internal_set__lastFadeOutProgress)) float_t _lastFadeOutProgress;
 
-  constexpr float_t& __cordl_internal_get__fadeInDuration();
+  /// @brief Field _lastSustainProgress, offset 0xb8, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastSustainProgress, put = __cordl_internal_set__lastSustainProgress)) float_t _lastSustainProgress;
 
-  constexpr float_t const& __cordl_internal_get__fadeInDuration() const;
+  /// @brief Field _sustainDuration, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__sustainDuration, put = __cordl_internal_set__sustainDuration)) float_t _sustainDuration;
 
-  constexpr void __cordl_internal_set__fadeInDuration(float_t value);
+  /// @brief Method EndEffect, addr 0xe7c158, size 0x24, virtual false, abstract: false, final false
+  inline void EndEffect();
 
-  constexpr float_t& __cordl_internal_get__fadeOutDuration();
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xe7c01c, size 0x13c, virtual true, abstract: false, final false
+  inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
+  static inline ::GlobalNamespace::ContinuousFireEffect* New_ctor();
 
-  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
+  /// @brief Method SetInitialValues, addr 0xe7bdc8, size 0xa8, virtual false, abstract: false, final false
+  inline void SetInitialValues();
 
-  constexpr float_t& __cordl_internal_get__sustainDuration();
+  /// @brief Method Start, addr 0xe7bda0, size 0x28, virtual true, abstract: false, final false
+  inline void Start();
 
-  constexpr float_t const& __cordl_internal_get__sustainDuration() const;
+  /// @brief Method StartEffect, addr 0xe7c17c, size 0xe0, virtual false, abstract: false, final false
+  inline void StartEffect(float_t startTime, float_t endTime);
 
-  constexpr void __cordl_internal_set__sustainDuration(float_t value);
+  /// @brief Method Update, addr 0xe7be70, size 0x4, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__flipbookSustainCurve();
+  /// @brief Method UpdateEffect, addr 0xe7be74, size 0x1a8, virtual false, abstract: false, final false
+  inline void UpdateEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__flipbookSustainCurve() const;
-
-  constexpr void __cordl_internal_set__flipbookSustainCurve(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__bloomSustainCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__bloomSustainCurve() const;
-
-  constexpr void __cordl_internal_set__bloomSustainCurve(::UnityEngine::AnimationCurve* value);
+  /// @brief Method UpdateRenderers, addr 0xe7c25c, size 0x15c, virtual false, abstract: false, final false
+  inline void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__bloomSustainCurve();
 
-  constexpr float_t& __cordl_internal_get__fadeInEndTime();
-
-  constexpr float_t const& __cordl_internal_get__fadeInEndTime() const;
-
-  constexpr void __cordl_internal_set__fadeInEndTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__fadeOutStartTime();
-
-  constexpr float_t const& __cordl_internal_get__fadeOutStartTime() const;
-
-  constexpr void __cordl_internal_set__fadeOutStartTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__effectStartTime();
-
-  constexpr float_t const& __cordl_internal_get__effectStartTime() const;
-
-  constexpr void __cordl_internal_set__effectStartTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__effectEndTime();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__bloomSustainCurve() const;
 
   constexpr float_t const& __cordl_internal_get__effectEndTime() const;
 
-  constexpr void __cordl_internal_set__effectEndTime(float_t value);
+  constexpr float_t& __cordl_internal_get__effectEndTime();
 
-  constexpr float_t& __cordl_internal_get__lastSustainProgress();
+  constexpr float_t const& __cordl_internal_get__effectStartTime() const;
 
-  constexpr float_t const& __cordl_internal_get__lastSustainProgress() const;
+  constexpr float_t& __cordl_internal_get__effectStartTime();
 
-  constexpr void __cordl_internal_set__lastSustainProgress(float_t value);
+  constexpr float_t const& __cordl_internal_get__fadeInDuration() const;
 
-  constexpr float_t& __cordl_internal_get__lastFadeOutProgress();
+  constexpr float_t& __cordl_internal_get__fadeInDuration();
+
+  constexpr float_t const& __cordl_internal_get__fadeInEndTime() const;
+
+  constexpr float_t& __cordl_internal_get__fadeInEndTime();
+
+  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
+
+  constexpr float_t& __cordl_internal_get__fadeOutDuration();
+
+  constexpr float_t const& __cordl_internal_get__fadeOutStartTime() const;
+
+  constexpr float_t& __cordl_internal_get__fadeOutStartTime();
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__flipbookSustainCurve();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__flipbookSustainCurve() const;
 
   constexpr float_t const& __cordl_internal_get__lastFadeOutProgress() const;
 
+  constexpr float_t& __cordl_internal_get__lastFadeOutProgress();
+
+  constexpr float_t const& __cordl_internal_get__lastSustainProgress() const;
+
+  constexpr float_t& __cordl_internal_get__lastSustainProgress();
+
+  constexpr float_t const& __cordl_internal_get__sustainDuration() const;
+
+  constexpr float_t& __cordl_internal_get__sustainDuration();
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
+  constexpr void __cordl_internal_set__bloomSustainCurve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set__effectEndTime(float_t value);
+
+  constexpr void __cordl_internal_set__effectStartTime(float_t value);
+
+  constexpr void __cordl_internal_set__fadeInDuration(float_t value);
+
+  constexpr void __cordl_internal_set__fadeInEndTime(float_t value);
+
+  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
+
+  constexpr void __cordl_internal_set__fadeOutStartTime(float_t value);
+
+  constexpr void __cordl_internal_set__flipbookSustainCurve(::UnityEngine::AnimationCurve* value);
+
   constexpr void __cordl_internal_set__lastFadeOutProgress(float_t value);
 
-  /// @brief Method Start, addr 0x222195c, size 0x28, virtual true, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__lastSustainProgress(float_t value);
 
-  /// @brief Method Update, addr 0x2221a2c, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__sustainDuration(float_t value);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x2221bd8, size 0x13c, virtual true, abstract: false, final false
-  inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
-
-  /// @brief Method SetInitialValues, addr 0x2221984, size 0xa8, virtual false, abstract: false, final false
-  inline void SetInitialValues();
-
-  /// @brief Method StartEffect, addr 0x2221d38, size 0xe0, virtual false, abstract: false, final false
-  inline void StartEffect(float_t startTime, float_t endTime);
-
-  /// @brief Method EndEffect, addr 0x2221d14, size 0x24, virtual false, abstract: false, final false
-  inline void EndEffect();
-
-  /// @brief Method UpdateEffect, addr 0x2221a30, size 0x1a8, virtual false, abstract: false, final false
-  inline void UpdateEffect();
-
-  /// @brief Method UpdateRenderers, addr 0x2221e18, size 0x15c, virtual false, abstract: false, final false
-  inline void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha);
-
-  static inline ::GlobalNamespace::ContinuousFireEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2221f74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7c3b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContinuousFireEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContinuousFireEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContinuousFireEffect(ContinuousFireEffect&&) = delete;
@@ -175,12 +179,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContinuousFireEffect(ContinuousFireEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContinuousFireEffect();
-
-public:
   /// @brief Field _fadeInDuration, offset: 0x80, size: 0x4, def value: None
   float_t ____fadeInDuration;
 

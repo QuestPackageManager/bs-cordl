@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::System::LocalDataStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2543))
 // CS Name: ::System::LocalDataStore*
 class CORDL_TYPE LocalDataStore : public ::System::Object {
 public:
@@ -41,38 +39,44 @@ public:
   /// @brief Field m_Manager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Manager, put = __cordl_internal_set_m_Manager))::System::LocalDataStoreMgr* m_Manager;
 
-  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*>& __cordl_internal_get_m_DataTable();
+  /// @brief Method Dispose, addr 0x26ca1dc, size 0x1c, virtual false, abstract: false, final false
+  inline void Dispose();
+
+  /// @brief Method FreeData, addr 0x26ca898, size 0x48, virtual false, abstract: false, final false
+  inline void FreeData(int32_t slot, int64_t cookie);
+
+  /// @brief Method GetData, addr 0x26ca3b4, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
+
+  static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
+
+  /// @brief Method PopulateElement, addr 0x26ca5ec, size 0x2ac, virtual false, abstract: false, final false
+  inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
+
+  /// @brief Method SetData, addr 0x26ca508, size 0xe4, virtual false, abstract: false, final false
+  inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
 
   constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> const& __cordl_internal_get_m_DataTable() const;
 
-  constexpr void __cordl_internal_set_m_DataTable(::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> value);
+  constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*>& __cordl_internal_get_m_DataTable();
 
   constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_Manager();
 
   constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __cordl_internal_get_m_Manager() const;
 
+  constexpr void __cordl_internal_set_m_DataTable(::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> value);
+
   constexpr void __cordl_internal_set_m_Manager(::System::LocalDataStoreMgr* value);
 
-  static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
-
-  /// @brief Method .ctor, addr 0x25d7c44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ca240, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method Dispose, addr 0x25d7be0, size 0x1c, virtual false, abstract: false, final false
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalDataStore();
 
-  /// @brief Method GetData, addr 0x25d7db8, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
-
-  /// @brief Method SetData, addr 0x25d7f0c, size 0xe4, virtual false, abstract: false, final false
-  inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
-
-  /// @brief Method FreeData, addr 0x25d829c, size 0x48, virtual false, abstract: false, final false
-  inline void FreeData(int32_t slot, int64_t cookie);
-
-  /// @brief Method PopulateElement, addr 0x25d7ff0, size 0x2ac, virtual false, abstract: false, final false
-  inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStore", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalDataStore(LocalDataStore&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStore(LocalDataStore const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalDataStore();
-
-public:
   /// @brief Field m_DataTable, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> ___m_DataTable;
 

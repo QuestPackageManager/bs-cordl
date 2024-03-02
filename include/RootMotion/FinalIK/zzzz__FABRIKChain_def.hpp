@@ -25,68 +25,72 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKChain);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12544))
 // CS Name: ::RootMotion.FinalIK::FABRIKChain*
 class CORDL_TYPE FABRIKChain : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field children, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
+
   /// @brief Field ik, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FABRIK> ik;
-
-  /// @brief Field pull, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_pull, put = __cordl_internal_set_pull)) float_t pull;
 
   /// @brief Field pin, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_pin, put = __cordl_internal_set_pin)) float_t pin;
 
-  /// @brief Field children, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
+  /// @brief Field pull, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_pull, put = __cordl_internal_set_pull)) float_t pull;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK>& __cordl_internal_get_ik();
+  /// @brief Method GetCentroid, addr 0x132cfc8, size 0x194, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
-  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK> const& __cordl_internal_get_ik() const;
-
-  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FABRIK> value);
-
-  constexpr float_t& __cordl_internal_get_pull();
-
-  constexpr float_t const& __cordl_internal_get_pull() const;
-
-  constexpr void __cordl_internal_set_pull(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pin();
-
-  constexpr float_t const& __cordl_internal_get_pin() const;
-
-  constexpr void __cordl_internal_set_pin(float_t value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_children();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_children() const;
-
-  constexpr void __cordl_internal_set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  /// @brief Method IsValid, addr 0x1250d88, size 0xc4, virtual false, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> message);
-
-  /// @brief Method Initiate, addr 0x1250e4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x132cee8, size 0x20, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method Stage1, addr 0x1250e6c, size 0xc0, virtual false, abstract: false, final false
-  inline void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
-
-  /// @brief Method Stage2, addr 0x12510c0, size 0xe4, virtual false, abstract: false, final false
-  inline void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
-
-  /// @brief Method GetCentroid, addr 0x1250f2c, size 0x194, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
+  /// @brief Method IsValid, addr 0x132ce24, size 0xc4, virtual false, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::FABRIKChain* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12511a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Stage1, addr 0x132cf08, size 0xc0, virtual false, abstract: false, final false
+  inline void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
+
+  /// @brief Method Stage2, addr 0x132d15c, size 0xe4, virtual false, abstract: false, final false
+  inline void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_children() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_children();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK> const& __cordl_internal_get_ik() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK>& __cordl_internal_get_ik();
+
+  constexpr float_t const& __cordl_internal_get_pin() const;
+
+  constexpr float_t& __cordl_internal_get_pin();
+
+  constexpr float_t const& __cordl_internal_get_pull() const;
+
+  constexpr float_t& __cordl_internal_get_pull();
+
+  constexpr void __cordl_internal_set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FABRIK> value);
+
+  constexpr void __cordl_internal_set_pin(float_t value);
+
+  constexpr void __cordl_internal_set_pull(float_t value);
+
+  /// @brief Method .ctor, addr 0x132d240, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FABRIKChain();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FABRIKChain", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FABRIKChain(FABRIKChain&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FABRIKChain(FABRIKChain const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FABRIKChain();
-
-public:
   /// @brief Field ik, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::FABRIK> ___ik;
 

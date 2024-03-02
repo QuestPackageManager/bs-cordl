@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::OnDemandRendering);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10325))
 // CS Name: ::UnityEngine.Rendering::OnDemandRendering*
 class CORDL_TYPE OnDemandRendering : public ::System::Object {
 public:
@@ -25,16 +23,22 @@ public:
   /// @brief Field m_RenderFrameInterval, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_RenderFrameInterval, put = setStaticF_m_RenderFrameInterval)) int32_t m_RenderFrameInterval;
 
-  static inline void setStaticF_m_RenderFrameInterval(int32_t value);
+  /// @brief Method GetRenderFrameInterval, addr 0x2dde30c, size 0x58, virtual false, abstract: false, final false
+  static inline void GetRenderFrameInterval(ByRef<int32_t> frameInterval);
 
   static inline int32_t getStaticF_m_RenderFrameInterval();
 
-  /// @brief Method get_renderFrameInterval, addr 0x2ceb9f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_renderFrameInterval, addr 0x2dde2b4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_renderFrameInterval();
 
-  /// @brief Method GetRenderFrameInterval, addr 0x2ceba50, size 0x58, virtual false, abstract: false, final false
-  static inline void GetRenderFrameInterval(ByRef<int32_t> frameInterval);
+  static inline void setStaticF_m_RenderFrameInterval(int32_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OnDemandRendering();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OnDemandRendering", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnDemandRendering(OnDemandRendering&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OnDemandRendering(OnDemandRendering const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnDemandRendering();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

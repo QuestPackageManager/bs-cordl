@@ -39,34 +39,40 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8973))
 // CS Name: ::System.Security.Cryptography::OidCollection*
 class CORDL_TYPE OidCollection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
-
-  __declspec(property(get = get_Item))::System::Security::Cryptography::Oid* Item[];
-
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
+  __declspec(property(get = get_Item))::System::Security::Cryptography::Oid* Item[];
+
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+
+  /// @brief Field _list, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method Add, addr 0x2a5fa88, size 0xb4, virtual false, abstract: false, final false
+  inline int32_t Add(::System::Security::Cryptography::Oid* oid);
+
+  /// @brief Method GetEnumerator, addr 0x2a5fbdc, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::OidEnumerator* GetEnumerator();
+
+  static inline ::System::Security::Cryptography::OidCollection* New_ctor();
+
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2a5fc7c, size 0x1bc, virtual true, abstract: false, final true
+  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2a5fc78, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*& __cordl_internal_get__list();
 
@@ -74,35 +80,33 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value);
 
-  static inline ::System::Security::Cryptography::OidCollection* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2975e90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5fa08, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x2975f10, size 0xb4, virtual false, abstract: false, final false
-  inline int32_t Add(::System::Security::Cryptography::Oid* oid);
-
-  /// @brief Method get_Item, addr 0x2975fc4, size 0x58, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::Oid* get_Item(int32_t index);
-
-  /// @brief Method get_Count, addr 0x297601c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2a5fb94, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator, addr 0x2976064, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::OidEnumerator* GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2976100, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2976104, size 0x1bc, virtual true, abstract: false, final true
-  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
-
-  /// @brief Method get_IsSynchronized, addr 0x29762c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x2a5fe38, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x29762c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x2a5fb3c, size 0x58, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::Oid* get_Item(int32_t index);
+
+  /// @brief Method get_SyncRoot, addr 0x2a5fe40, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OidCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OidCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OidCollection(OidCollection&&) = delete;
@@ -111,12 +115,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OidCollection(OidCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OidCollection();
-
-public:
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* ____list;
 

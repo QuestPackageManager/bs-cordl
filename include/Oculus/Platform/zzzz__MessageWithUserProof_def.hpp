@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithUserProof);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13490)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4615 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13331)) CS Name: ::Oculus.Platform::MessageWithUserProof*
+// CS Name: ::Oculus.Platform::MessageWithUserProof*
 class CORDL_TYPE MessageWithUserProof : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithUserProof* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26efb30, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetUserProof, addr 0x26f40b0, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::UserProof* GetUserProof();
-
-  /// @brief Method GetDataFromMessage, addr 0x26f40ec, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e59f4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserProof* GetDataFromMessage(void* c_message);
 
+  /// @brief Method GetUserProof, addr 0x27e59b8, size 0x3c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::UserProof* GetUserProof();
+
+  static inline ::Oculus::Platform::MessageWithUserProof* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e1438, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithUserProof();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithUserProof", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithUserProof(MessageWithUserProof&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithUserProof(MessageWithUserProof const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithUserProof();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

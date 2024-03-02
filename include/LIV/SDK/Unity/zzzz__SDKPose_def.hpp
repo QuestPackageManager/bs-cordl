@@ -29,17 +29,19 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPose);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15111))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15122))
 // CS Name: ::LIV.SDK.Unity::SDKPose
 struct CORDL_TYPE SDKPose {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x220ffb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2378288, size 0x278, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x2371f04, size 0x70, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPose get_empty();
 
-  /// @brief Method ToString, addr 0x2216338, size 0x278, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKPose();
 
   // Ctor Parameters [CppParam { name: "projectionMatrix", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "localPosition", ty:
   // "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "::LIV::SDK::Unity::SDKQuaternion", modifiers: "", def_value: None }, CppParam { name:
@@ -48,10 +50,6 @@ public:
   // }]
   constexpr SDKPose(::LIV::SDK::Unity::SDKMatrix4x4 projectionMatrix, ::LIV::SDK::Unity::SDKVector3 localPosition, ::LIV::SDK::Unity::SDKQuaternion localRotation, float_t verticalFieldOfView,
                     float_t nearClipPlane, float_t farClipPlane, int32_t unused0, int32_t unused1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKPose();
 
   /// @brief Field projectionMatrix, offset: 0x0, size: 0x40, def value: None
   ::LIV::SDK::Unity::SDKMatrix4x4 projectionMatrix;

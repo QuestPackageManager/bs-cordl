@@ -23,12 +23,13 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberModelContainer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5297))
 // CS Name: ::SaberModelContainer*
 class CORDL_TYPE SaberModelContainer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _container, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
   /// @brief Field _saber, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
 
@@ -36,35 +37,38 @@ public:
   __declspec(property(get = __cordl_internal_get__saberModelControllerPrefab,
                       put = __cordl_internal_set__saberModelControllerPrefab))::UnityW<::GlobalNamespace::SaberModelController> _saberModelControllerPrefab;
 
-  /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
-
-  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
-
-  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SaberModelController>& __cordl_internal_get__saberModelControllerPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::SaberModelController> const& __cordl_internal_get__saberModelControllerPrefab() const;
-
-  constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
+  /// @brief Method Start, addr 0x2491ed8, size 0x84, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
+
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
+
+  constexpr ::UnityW<::GlobalNamespace::SaberModelController> const& __cordl_internal_get__saberModelControllerPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberModelController>& __cordl_internal_get__saberModelControllerPrefab();
+
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method Start, addr 0x2264128, size 0x84, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
+  constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  /// @brief Method .ctor, addr 0x226449c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249224c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SaberModelContainer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberModelContainer(SaberModelContainer&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberModelContainer(SaberModelContainer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SaberModelContainer();
-
-public:
   /// @brief Field _saber, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____saber;
 

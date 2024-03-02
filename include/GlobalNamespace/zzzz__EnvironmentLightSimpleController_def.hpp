@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentLightSimpleController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
 // CS Name: ::EnvironmentLightSimpleController*
 class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,32 +32,38 @@ public:
   /// @brief Field _lightManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
-
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
-
-  constexpr int32_t& __cordl_internal_get__colorId();
-
-  constexpr int32_t const& __cordl_internal_get__colorId() const;
-
-  constexpr void __cordl_internal_set__colorId(int32_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
-
-  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
-
-  /// @brief Method LateUpdate, addr 0x239a28c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2429304, size 0x2c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239a2b8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
+  constexpr int32_t const& __cordl_internal_get__colorId() const;
+
+  constexpr int32_t& __cordl_internal_get__colorId();
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
+
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__colorId(int32_t value);
+
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
+
+  /// @brief Method .ctor, addr 0x2429330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentLightSimpleController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentLightSimpleController(EnvironmentLightSimpleController&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentLightSimpleController(EnvironmentLightSimpleController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentLightSimpleController();
-
-public:
   /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15204))
 // CS Name: ::BeatSaber.AvatarCore::IOptionalAvatarDataProvider*
 class CORDL_TYPE IOptionalAvatarDataProvider {
 public:
@@ -37,20 +35,20 @@ public:
 
   __declspec(property(get = get_playbackDelaySeconds)) float_t playbackDelaySeconds;
 
+  /// @brief Method SetDisplayContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
+
+  /// @brief Method add_dataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
+
   /// @brief Method get_currentData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* get_currentData();
 
   /// @brief Method get_playbackDelaySeconds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_playbackDelaySeconds();
 
-  /// @brief Method add_dataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
-
   /// @brief Method remove_dataDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
-
-  /// @brief Method SetDisplayContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "IOptionalAvatarDataProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

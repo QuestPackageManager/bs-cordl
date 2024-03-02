@@ -27,8 +27,6 @@ MARK_VAL_T(::Unity::Profiling::__ProfilerMarker__AutoScope);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Profiling {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9965))
 // CS Name: ::ProfilerMarker::AutoScope
 struct CORDL_TYPE __ProfilerMarker__AutoScope {
 public:
@@ -36,21 +34,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
-
-  /// @brief Method .ctor, addr 0x2c9d788, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(void* markerPtr);
-
-  /// @brief Method Dispose, addr 0x2c9d864, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2d883e4, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr __ProfilerMarker__AutoScope(void* m_Ptr) noexcept;
+  /// @brief Method .ctor, addr 0x2d88308, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(void* markerPtr);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ProfilerMarker__AutoScope();
+
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
+  constexpr __ProfilerMarker__AutoScope(void* m_Ptr) noexcept;
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   void* m_Ptr;
@@ -70,26 +68,24 @@ static_assert(offsetof(::Unity::Profiling::__ProfilerMarker__AutoScope, m_Ptr) =
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Profiling {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9966))
 // CS Name: ::Unity.Profiling::ProfilerMarker
 struct CORDL_TYPE ProfilerMarker {
 public:
   // Declarations
   using AutoScope = ::Unity::Profiling::__ProfilerMarker__AutoScope;
 
-  /// @brief Method .ctor, addr 0x2c9d650, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
-
-  /// @brief Method Auto, addr 0x2c9d700, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x2d88280, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Profiling::__ProfilerMarker__AutoScope Auto();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ProfilerMarker(void* m_Ptr) noexcept;
+  /// @brief Method .ctor, addr 0x2d881d0, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ProfilerMarker();
+
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
+  constexpr ProfilerMarker(void* m_Ptr) noexcept;
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   void* m_Ptr;

@@ -19,22 +19,20 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveInfo);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 41, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9704))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
 // CS Name: ::HoudiniEngineUnity::HAPI_CurveInfo
 struct CORDL_TYPE HAPI_CurveInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_CurveInfo();
+
   // Ctor Parameters [CppParam { name: "curveType", ty: "::HoudiniEngineUnity::HAPI_CurveType", modifiers: "", def_value: None }, CppParam { name: "curveCount", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "knotCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "isPeriodic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRational", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "hasKnots", ty: "bool", modifiers: "", def_value: None }]
   constexpr HAPI_CurveInfo(::HoudiniEngineUnity::HAPI_CurveType curveType, int32_t curveCount, int32_t vertexCount, int32_t knotCount, bool isPeriodic, bool isRational, int32_t order,
                            bool hasKnots) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_CurveInfo();
 
   /// @brief Field curveType, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_CurveType curveType;

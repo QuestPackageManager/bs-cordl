@@ -17,29 +17,33 @@ MARK_REF_PTR_T(::UnityEngine::ScriptableObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10210))
 // CS Name: ::UnityEngine::ScriptableObject*
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
-  static inline ::UnityEngine::ScriptableObject* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2cd1874, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CreateInstance, addr 0x2cd1930, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2dc3f28, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
-  /// @brief Method CreateScriptableObject, addr 0x2cd18f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObject, addr 0x2dc3eec, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
-  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x2cd1970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x2dc3f68, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
+  static inline ::UnityEngine::ScriptableObject* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2dc3e6c, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptableObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObject(ScriptableObject&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptableObject(ScriptableObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -88,53 +88,57 @@ MARK_VAL_T(::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7073))
 // CS Name: ::GenericDropdownMenu::MenuItem*
 class CORDL_TYPE __GenericDropdownMenu__MenuItem : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
-
-  /// @brief Field element, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_element, put = __cordl_internal_set_element))::UnityEngine::UIElements::VisualElement* element;
-
   /// @brief Field action, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
 
   /// @brief Field actionUserData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_actionUserData, put = __cordl_internal_set_actionUserData))::System::Action_1<::System::Object*>* actionUserData;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+  /// @brief Field element, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_element, put = __cordl_internal_set_element))::UnityEngine::UIElements::VisualElement* element;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+  /// @brief Field name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
-
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_element();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_element() const;
-
-  constexpr void __cordl_internal_set_element(::UnityEngine::UIElements::VisualElement* value);
+  static inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* New_ctor();
 
   constexpr ::System::Action*& __cordl_internal_get_action();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_action() const;
 
-  constexpr void __cordl_internal_set_action(::System::Action* value);
-
   constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get_actionUserData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __cordl_internal_get_actionUserData() const;
 
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_element();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_element() const;
+
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr void __cordl_internal_set_action(::System::Action* value);
+
   constexpr void __cordl_internal_set_actionUserData(::System::Action_1<::System::Object*>* value);
 
-  static inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* New_ctor();
+  constexpr void __cordl_internal_set_element(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2e2fcf8, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_name(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2f3e808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GenericDropdownMenu__MenuItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__GenericDropdownMenu__MenuItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __GenericDropdownMenu__MenuItem(__GenericDropdownMenu__MenuItem&&) = delete;
@@ -143,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GenericDropdownMenu__MenuItem(__GenericDropdownMenu__MenuItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GenericDropdownMenu__MenuItem();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -179,19 +177,17 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu__MenuIte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7074))
 // CS Name: ::GenericDropdownMenu::<>c__DisplayClass25_0
 struct CORDL_TYPE __GenericDropdownMenu____c__DisplayClass25_0 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: None }, CppParam { name: "selectedIndex", ty: "int32_t", modifiers:
-  // "", def_value: None }]
-  constexpr __GenericDropdownMenu____c__DisplayClass25_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this, int32_t selectedIndex) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __GenericDropdownMenu____c__DisplayClass25_0();
+
+  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: None }, CppParam { name: "selectedIndex", ty: "int32_t", modifiers:
+  // "", def_value: None }]
+  constexpr __GenericDropdownMenu____c__DisplayClass25_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this, int32_t selectedIndex) noexcept;
 
   /// @brief Field <>4__this, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::GenericDropdownMenu* __4__this;
@@ -216,15 +212,33 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu____c__Di
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UnityEngine.UIElements::GenericDropdownMenu*
 class CORDL_TYPE GenericDropdownMenu : public ::System::Object {
 public:
   // Declarations
+  using MenuItem = ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem;
+
   using __c__DisplayClass25_0 = ::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0;
 
-  using MenuItem = ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem;
+  /// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName))::StringW checkmarkUssClassName;
+
+  /// @brief Field containerInnerUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_containerInnerUssClassName, put = setStaticF_containerInnerUssClassName))::StringW containerInnerUssClassName;
+
+  /// @brief Field containerOuterUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_containerOuterUssClassName, put = setStaticF_containerOuterUssClassName))::StringW containerOuterUssClassName;
+
+  __declspec(property(get = get_contentContainer))::UnityEngine::UIElements::VisualElement* contentContainer;
+
+  /// @brief Field itemUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_itemUssClassName, put = setStaticF_itemUssClassName))::StringW itemUssClassName;
+
+  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
+
+  /// @brief Field m_DesiredRect, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_DesiredRect, put = __cordl_internal_set_m_DesiredRect))::UnityEngine::Rect m_DesiredRect;
 
   /// @brief Field m_Items, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Items,
@@ -233,214 +247,200 @@ public:
   /// @brief Field m_MenuContainer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MenuContainer, put = __cordl_internal_set_m_MenuContainer))::UnityEngine::UIElements::VisualElement* m_MenuContainer;
 
-  /// @brief Field m_OuterContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OuterContainer, put = __cordl_internal_set_m_OuterContainer))::UnityEngine::UIElements::VisualElement* m_OuterContainer;
-
-  /// @brief Field m_ScrollView, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
-
-  /// @brief Field m_PanelRootVisualContainer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PanelRootVisualContainer,
-                      put = __cordl_internal_set_m_PanelRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_PanelRootVisualContainer;
-
-  /// @brief Field m_TargetElement, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TargetElement, put = __cordl_internal_set_m_TargetElement))::UnityEngine::UIElements::VisualElement* m_TargetElement;
-
-  /// @brief Field m_DesiredRect, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_DesiredRect, put = __cordl_internal_set_m_DesiredRect))::UnityEngine::Rect m_DesiredRect;
+  /// @brief Field m_MousePosition, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field m_NavigationManipulator, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NavigationManipulator,
                       put = __cordl_internal_set_m_NavigationManipulator))::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
 
-  /// @brief Field m_MousePosition, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  /// @brief Field m_OuterContainer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_OuterContainer, put = __cordl_internal_set_m_OuterContainer))::UnityEngine::UIElements::VisualElement* m_OuterContainer;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+  /// @brief Field m_PanelRootVisualContainer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PanelRootVisualContainer,
+                      put = __cordl_internal_set_m_PanelRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_PanelRootVisualContainer;
 
-  /// @brief Field itemUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_itemUssClassName, put = setStaticF_itemUssClassName))::StringW itemUssClassName;
+  /// @brief Field m_ScrollView, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
 
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
-
-  /// @brief Field containerInnerUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_containerInnerUssClassName, put = setStaticF_containerInnerUssClassName))::StringW containerInnerUssClassName;
-
-  /// @brief Field containerOuterUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_containerOuterUssClassName, put = setStaticF_containerOuterUssClassName))::StringW containerOuterUssClassName;
-
-  /// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName))::StringW checkmarkUssClassName;
+  /// @brief Field m_TargetElement, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TargetElement, put = __cordl_internal_set_m_TargetElement))::UnityEngine::UIElements::VisualElement* m_TargetElement;
 
   /// @brief Field separatorUssClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_separatorUssClassName, put = setStaticF_separatorUssClassName))::StringW separatorUssClassName;
 
-  __declspec(property(get = get_contentContainer))::UnityEngine::UIElements::VisualElement* contentContainer;
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IGenericMenu"
   constexpr operator ::UnityEngine::UIElements::IGenericMenu*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
-  constexpr ::UnityEngine::UIElements::IGenericMenu* i___UnityEngine__UIElements__IGenericMenu() noexcept;
+  /// @brief Method AddItem, addr 0x2f3e418, size 0x340, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
+
+  /// @brief Method AddItem, addr 0x2f3e3f0, size 0x28, virtual true, abstract: false, final true
+  inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
+
+  /// @brief Method AddSeparator, addr 0x2f3e758, size 0xb0, virtual true, abstract: false, final true
+  inline void AddSeparator(::StringW path);
+
+  /// @brief Method Apply, addr 0x2f3d92c, size 0x184, virtual false, abstract: false, final false
+  inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
+
+  /// @brief Method Apply, addr 0x2f3d8f0, size 0x3c, virtual false, abstract: false, final false
+  inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
+
+  /// @brief Method ChangeSelectedIndex, addr 0x2f3e2bc, size 0x134, virtual false, abstract: false, final false
+  inline void ChangeSelectedIndex(int32_t newIndex, int32_t previousIndex);
+
+  /// @brief Method DropDown, addr 0x2f3e810, size 0x75c, virtual true, abstract: false, final true
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
+
+  /// @brief Method EnsureVisibilityInParent, addr 0x2f3ef6c, size 0x6e4, virtual false, abstract: false, final false
+  inline void EnsureVisibilityInParent();
+
+  /// @brief Method GetSelectedIndex, addr 0x2f3dab0, size 0xa0, virtual false, abstract: false, final false
+  inline int32_t GetSelectedIndex();
+
+  /// @brief Method Hide, addr 0x2f3d808, size 0xe8, virtual false, abstract: false, final false
+  inline void Hide();
+
+  static inline ::UnityEngine::UIElements::GenericDropdownMenu* New_ctor();
+
+  /// @brief Method OnAttachToPanel, addr 0x2f3cf3c, size 0x438, virtual false, abstract: false, final false
+  inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
+
+  /// @brief Method OnContainerGeometryChanged, addr 0x2f3f654, size 0x4, virtual false, abstract: false, final false
+  inline void OnContainerGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
+
+  /// @brief Method OnDetachFromPanel, addr 0x2f3d374, size 0x494, virtual false, abstract: false, final false
+  inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
+
+  /// @brief Method OnFocusOut, addr 0x2f3e170, size 0x148, virtual false, abstract: false, final false
+  inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
+
+  /// @brief Method OnParentResized, addr 0x2f3e2b8, size 0x4, virtual false, abstract: false, final false
+  inline void OnParentResized(::UnityEngine::UIElements::GeometryChangedEvent* evt);
+
+  /// @brief Method OnPointerDown, addr 0x2f3dcb4, size 0x12c, virtual false, abstract: false, final false
+  inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
+
+  /// @brief Method OnPointerMove, addr 0x2f3df08, size 0x12c, virtual false, abstract: false, final false
+  inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
+
+  /// @brief Method OnPointerUp, addr 0x2f3e034, size 0x13c, virtual false, abstract: false, final false
+  inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
+
+  /// @brief Method OnTargetElementDetachFromPanel, addr 0x2f3f650, size 0x4, virtual false, abstract: false, final false
+  inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
+
+  /// @brief Method UpdateSelection, addr 0x2f3dde0, size 0x128, virtual false, abstract: false, final false
+  inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
+
+  /// @brief Method <Apply>g__UpdateSelectionDown|25_0, addr 0x2f3dbf8, size 0xbc, virtual false, abstract: false, final false
+  inline void _Apply_g__UpdateSelectionDown_25_0(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
+
+  /// @brief Method <Apply>g__UpdateSelectionUp|25_1, addr 0x2f3db50, size 0xa8, virtual false, abstract: false, final false
+  inline void _Apply_g__UpdateSelectionUp_25_1(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DesiredRect() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DesiredRect();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*& __cordl_internal_get_m_Items();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*> const& __cordl_internal_get_m_Items() const;
 
-  constexpr void __cordl_internal_set_m_Items(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* value);
-
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_MenuContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_MenuContainer() const;
 
-  constexpr void __cordl_internal_set_m_MenuContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_OuterContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_OuterContainer() const;
-
-  constexpr void __cordl_internal_set_m_OuterContainer(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
-
-  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
-
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_PanelRootVisualContainer();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_PanelRootVisualContainer() const;
-
-  constexpr void __cordl_internal_set_m_PanelRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_TargetElement();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_TargetElement() const;
-
-  constexpr void __cordl_internal_set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DesiredRect();
-
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DesiredRect() const;
-
-  constexpr void __cordl_internal_set_m_DesiredRect(::UnityEngine::Rect value);
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
 
   constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& __cordl_internal_get_m_NavigationManipulator();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const& __cordl_internal_get_m_NavigationManipulator() const;
 
-  constexpr void __cordl_internal_set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_OuterContainer();
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_OuterContainer() const;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_PanelRootVisualContainer();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_PanelRootVisualContainer() const;
+
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
+
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_TargetElement();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_TargetElement() const;
+
+  constexpr void __cordl_internal_set_m_DesiredRect(::UnityEngine::Rect value);
+
+  constexpr void __cordl_internal_set_m_Items(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* value);
+
+  constexpr void __cordl_internal_set_m_MenuContainer(::UnityEngine::UIElements::VisualElement* value);
 
   constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
-  static inline void setStaticF_ussClassName(::StringW value);
+  constexpr void __cordl_internal_set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
 
-  static inline ::StringW getStaticF_ussClassName();
+  constexpr void __cordl_internal_set_m_OuterContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  static inline void setStaticF_itemUssClassName(::StringW value);
+  constexpr void __cordl_internal_set_m_PanelRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  static inline ::StringW getStaticF_itemUssClassName();
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  static inline void setStaticF_labelUssClassName(::StringW value);
+  constexpr void __cordl_internal_set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
 
-  static inline ::StringW getStaticF_labelUssClassName();
-
-  static inline void setStaticF_containerInnerUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_containerInnerUssClassName();
-
-  static inline void setStaticF_containerOuterUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_containerOuterUssClassName();
-
-  static inline void setStaticF_checkmarkUssClassName(::StringW value);
+  /// @brief Method .ctor, addr 0x2f36e88, size 0x2d4, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
 
-  static inline void setStaticF_separatorUssClassName(::StringW value);
+  static inline ::StringW getStaticF_containerInnerUssClassName();
+
+  static inline ::StringW getStaticF_containerOuterUssClassName();
+
+  static inline ::StringW getStaticF_itemUssClassName();
+
+  static inline ::StringW getStaticF_labelUssClassName();
 
   static inline ::StringW getStaticF_separatorUssClassName();
 
-  /// @brief Method get_contentContainer, addr 0x2e2e408, size 0x24, virtual false, abstract: false, final false
+  static inline ::StringW getStaticF_ussClassName();
+
+  /// @brief Method get_contentContainer, addr 0x2f3cf18, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  static inline ::UnityEngine::UIElements::GenericDropdownMenu* New_ctor();
+  /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
+  constexpr ::UnityEngine::UIElements::IGenericMenu* i___UnityEngine__UIElements__IGenericMenu() noexcept;
 
-  /// @brief Method .ctor, addr 0x2e28378, size 0x2d4, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_checkmarkUssClassName(::StringW value);
 
-  /// @brief Method OnAttachToPanel, addr 0x2e2e42c, size 0x438, virtual false, abstract: false, final false
-  inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
+  static inline void setStaticF_containerInnerUssClassName(::StringW value);
 
-  /// @brief Method OnDetachFromPanel, addr 0x2e2e864, size 0x494, virtual false, abstract: false, final false
-  inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
+  static inline void setStaticF_containerOuterUssClassName(::StringW value);
 
-  /// @brief Method Hide, addr 0x2e2ecf8, size 0xe8, virtual false, abstract: false, final false
-  inline void Hide();
+  static inline void setStaticF_itemUssClassName(::StringW value);
 
-  /// @brief Method Apply, addr 0x2e2ede0, size 0x3c, virtual false, abstract: false, final false
-  inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
+  static inline void setStaticF_labelUssClassName(::StringW value);
 
-  /// @brief Method Apply, addr 0x2e2ee1c, size 0x184, virtual false, abstract: false, final false
-  inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
+  static inline void setStaticF_separatorUssClassName(::StringW value);
 
-  /// @brief Method OnPointerDown, addr 0x2e2f1a4, size 0x12c, virtual false, abstract: false, final false
-  inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
+  static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method OnPointerMove, addr 0x2e2f3f8, size 0x12c, virtual false, abstract: false, final false
-  inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericDropdownMenu();
 
-  /// @brief Method OnPointerUp, addr 0x2e2f524, size 0x13c, virtual false, abstract: false, final false
-  inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
-
-  /// @brief Method OnFocusOut, addr 0x2e2f660, size 0x148, virtual false, abstract: false, final false
-  inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
-
-  /// @brief Method OnParentResized, addr 0x2e2f7a8, size 0x4, virtual false, abstract: false, final false
-  inline void OnParentResized(::UnityEngine::UIElements::GeometryChangedEvent* evt);
-
-  /// @brief Method UpdateSelection, addr 0x2e2f2d0, size 0x128, virtual false, abstract: false, final false
-  inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
-
-  /// @brief Method ChangeSelectedIndex, addr 0x2e2f7ac, size 0x134, virtual false, abstract: false, final false
-  inline void ChangeSelectedIndex(int32_t newIndex, int32_t previousIndex);
-
-  /// @brief Method GetSelectedIndex, addr 0x2e2efa0, size 0xa0, virtual false, abstract: false, final false
-  inline int32_t GetSelectedIndex();
-
-  /// @brief Method AddItem, addr 0x2e2f8e0, size 0x28, virtual true, abstract: false, final true
-  inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
-
-  /// @brief Method AddSeparator, addr 0x2e2fc48, size 0xb0, virtual true, abstract: false, final true
-  inline void AddSeparator(::StringW path);
-
-  /// @brief Method AddItem, addr 0x2e2f908, size 0x340, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
-
-  /// @brief Method DropDown, addr 0x2e2fd00, size 0x75c, virtual true, abstract: false, final true
-  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
-
-  /// @brief Method OnTargetElementDetachFromPanel, addr 0x2e30b40, size 0x4, virtual false, abstract: false, final false
-  inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
-
-  /// @brief Method OnContainerGeometryChanged, addr 0x2e30b44, size 0x4, virtual false, abstract: false, final false
-  inline void OnContainerGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
-
-  /// @brief Method EnsureVisibilityInParent, addr 0x2e3045c, size 0x6e4, virtual false, abstract: false, final false
-  inline void EnsureVisibilityInParent();
-
-  /// @brief Method <Apply>g__UpdateSelectionDown|25_0, addr 0x2e2f0e8, size 0xbc, virtual false, abstract: false, final false
-  inline void _Apply_g__UpdateSelectionDown_25_0(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
-
-  /// @brief Method <Apply>g__UpdateSelectionUp|25_1, addr 0x2e2f040, size 0xa8, virtual false, abstract: false, final false
-  inline void _Apply_g__UpdateSelectionUp_25_1(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericDropdownMenu(GenericDropdownMenu&&) = delete;
@@ -449,12 +449,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericDropdownMenu(GenericDropdownMenu const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericDropdownMenu();
-
-public:
   /// @brief Field m_Items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* ___m_Items;
 

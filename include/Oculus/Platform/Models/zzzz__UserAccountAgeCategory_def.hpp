@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserAccountAgeCategory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13224))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13486))
 // CS Name: ::Oculus.Platform.Models::UserAccountAgeCategory*
 class CORDL_TYPE UserAccountAgeCategory : public ::System::Object {
 public:
@@ -25,17 +23,23 @@ public:
   /// @brief Field AgeCategory, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_AgeCategory, put = __cordl_internal_set_AgeCategory))::Oculus::Platform::AccountAgeCategory AgeCategory;
 
-  constexpr ::Oculus::Platform::AccountAgeCategory& __cordl_internal_get_AgeCategory();
+  static inline ::Oculus::Platform::Models::UserAccountAgeCategory* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::AccountAgeCategory const& __cordl_internal_get_AgeCategory() const;
 
+  constexpr ::Oculus::Platform::AccountAgeCategory& __cordl_internal_get_AgeCategory();
+
   constexpr void __cordl_internal_set_AgeCategory(::Oculus::Platform::AccountAgeCategory value);
 
-  static inline ::Oculus::Platform::Models::UserAccountAgeCategory* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2708fc0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa8c8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserAccountAgeCategory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserAccountAgeCategory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserAccountAgeCategory(UserAccountAgeCategory&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserAccountAgeCategory(UserAccountAgeCategory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserAccountAgeCategory();
-
-public:
   /// @brief Field AgeCategory, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::AccountAgeCategory ___AgeCategory;
 

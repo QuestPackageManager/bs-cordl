@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Transform);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9907))
 // CS Name: ::HoudiniEngineUnity::Test_Transform*
 class CORDL_TYPE Test_Transform : public ::System::Object {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>"
-  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Transform__() noexcept;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>*() noexcept;
+
+  /// @brief Method IsEquivalentTo, addr 0x2346840, size 0x1cc, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
+
+  /// @brief Method IsNull, addr 0x23467e0, size 0x60, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x23467b8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Transform* self);
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Transform__() noexcept;
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_Transform__() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_self();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_Transform();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Transform> value);
-
-  static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
-
-  /// @brief Method .ctor, addr 0x21e4868, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Transform* self);
-
-  /// @brief Method IsNull, addr 0x21e4890, size 0x60, virtual true, abstract: false, final true
-  inline bool IsNull();
-
-  /// @brief Method IsEquivalentTo, addr 0x21e48f0, size 0x1cc, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_Transform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_Transform(Test_Transform&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_Transform(Test_Transform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_Transform();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___self;
 

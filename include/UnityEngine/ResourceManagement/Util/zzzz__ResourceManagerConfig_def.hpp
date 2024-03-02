@@ -32,42 +32,46 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13985))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ResourceManagerConfig*
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtractKeyAndSubKey, addr 0x2bd2ae4, size 0xe4, virtual false, abstract: false, final false
-  static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
-
-  /// @brief Method IsPathRemote, addr 0x2bd2bc8, size 0x60, virtual false, abstract: false, final false
-  static inline bool IsPathRemote(::StringW path);
-
-  /// @brief Method StripQueryParameters, addr 0x2bd2c28, size 0x44, virtual false, abstract: false, final false
-  static inline ::StringW StripQueryParameters(::StringW path);
-
-  /// @brief Method ShouldPathUseWebRequest, addr 0x2bd2c6c, size 0x7c, virtual false, abstract: false, final false
-  static inline bool ShouldPathUseWebRequest(::StringW path);
-
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x2bd2ce8, size 0x104, virtual false, abstract: false, final false
-  static inline bool PlatformCanLoadLocallyFromUrlPath();
-
-  /// @brief Method CreateArrayResult, addr 0x2bd2dec, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayResult, addr 0x2cb9a2c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method CreateListResult, addr 0x2bd2fa4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CreateListResult, addr 0x2cb9be4, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
+  /// @brief Method ExtractKeyAndSubKey, addr 0x2cb9724, size 0xe4, virtual false, abstract: false, final false
+  static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
+
   /// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline bool IsInstance();
 
+  /// @brief Method IsPathRemote, addr 0x2cb9808, size 0x60, virtual false, abstract: false, final false
+  static inline bool IsPathRemote(::StringW path);
+
+  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x2cb9928, size 0x104, virtual false, abstract: false, final false
+  static inline bool PlatformCanLoadLocallyFromUrlPath();
+
+  /// @brief Method ShouldPathUseWebRequest, addr 0x2cb98ac, size 0x7c, virtual false, abstract: false, final false
+  static inline bool ShouldPathUseWebRequest(::StringW path);
+
+  /// @brief Method StripQueryParameters, addr 0x2cb9868, size 0x44, virtual false, abstract: false, final false
+  static inline ::StringW StripQueryParameters(::StringW path);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceManagerConfig();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManagerConfig(ResourceManagerConfig&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceManagerConfig(ResourceManagerConfig const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceManagerConfig();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

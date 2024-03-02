@@ -38,91 +38,93 @@ MARK_VAL_T(::UnityEngine::UIElements::TextCoreHandle);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7145))
 // CS Name: ::UnityEngine.UIElements::TextCoreHandle
 struct CORDL_TYPE TextCoreHandle {
 public:
   // Declarations
+  __declspec(property(get = get_MeasuredSizes, put = set_MeasuredSizes))::UnityEngine::Vector2 MeasuredSizes;
+
+  __declspec(property(get = get_RoundedSizes, put = set_RoundedSizes))::UnityEngine::Vector2 RoundedSizes;
+
   /// @brief Field s_LayoutSettings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_LayoutSettings, put = setStaticF_s_LayoutSettings))::UnityEngine::TextCore::Text::TextGenerationSettings* s_LayoutSettings;
 
   /// @brief Field s_TextInfoLayout, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TextInfoLayout, put = setStaticF_s_TextInfoLayout))::UnityEngine::TextCore::Text::TextInfo* s_TextInfoLayout;
 
-  __declspec(property(get = get_MeasuredSizes, put = set_MeasuredSizes))::UnityEngine::Vector2 MeasuredSizes;
-
-  __declspec(property(get = get_RoundedSizes, put = set_RoundedSizes))::UnityEngine::Vector2 RoundedSizes;
-
   __declspec(property(get = get_textInfoMesh))::UnityEngine::TextCore::Text::TextInfo* textInfoMesh;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextHandle"
   constexpr operator ::UnityEngine::UIElements::ITextHandle*();
+
+  /// @brief Method ComputeTextHeight, addr 0x2f536ec, size 0x34, virtual true, abstract: false, final true
+  inline float_t ComputeTextHeight(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
+
+  /// @brief Method ComputeTextWidth, addr 0x2f53588, size 0x34, virtual true, abstract: false, final true
+  inline float_t ComputeTextWidth(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
+
+  /// @brief Method GetCursorPosition, addr 0x2f53560, size 0x28, virtual true, abstract: false, final true
+  inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::CursorPositionStylePainterParameters parms, float_t scaling);
+
+  /// @brief Method GetLineHeight, addr 0x2f53720, size 0x68, virtual true, abstract: false, final true
+  inline float_t GetLineHeight(int32_t characterIndex, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t textScaling, float_t pixelPerPoint);
+
+  /// @brief Method GetTextOverflowMode, addr 0x2f53c3c, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::Text::TextOverflowMode GetTextOverflowMode(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
+
+  /// @brief Method IsDirty, addr 0x2f5351c, size 0x44, virtual false, abstract: false, final false
+  inline bool IsDirty(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
+
+  /// @brief Method IsElided, addr 0x2f53e58, size 0x64, virtual true, abstract: false, final true
+  inline bool IsElided();
+
+  /// @brief Method IsLegacy, addr 0x2f53514, size 0x8, virtual true, abstract: false, final true
+  inline bool IsLegacy();
+
+  /// @brief Method New, addr 0x2f53328, size 0xc0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ITextHandle* New();
+
+  /// @brief Method Update, addr 0x2f53788, size 0x208, virtual true, abstract: false, final true
+  inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t pixelsPerPoint);
+
+  /// @brief Method UpdateGenerationSettingsCommon, addr 0x2f53990, size 0x2ac, virtual false, abstract: false, final false
+  static inline void UpdateGenerationSettingsCommon(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams painterParams, ::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
+
+  /// @brief Method UpdatePreferredValues, addr 0x2f535bc, size 0x130, virtual false, abstract: false, final false
+  inline void UpdatePreferredValues(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
+
+  static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* getStaticF_s_LayoutSettings();
+
+  static inline ::UnityEngine::TextCore::Text::TextInfo* getStaticF_s_TextInfoLayout();
+
+  /// @brief Method get_MeasuredSizes, addr 0x2f53308, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Vector2 get_MeasuredSizes();
+
+  /// @brief Method get_RoundedSizes, addr 0x2f53318, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Vector2 get_RoundedSizes();
+
+  /// @brief Method get_textInfoLayout, addr 0x2f53454, size 0xc0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoLayout();
+
+  /// @brief Method get_textInfoMesh, addr 0x2f533e8, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoMesh();
 
   /// @brief Convert to "::UnityEngine::UIElements::ITextHandle"
   constexpr ::UnityEngine::UIElements::ITextHandle* i___UnityEngine__UIElements__ITextHandle();
 
   static inline void setStaticF_s_LayoutSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* value);
 
-  static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* getStaticF_s_LayoutSettings();
-
   static inline void setStaticF_s_TextInfoLayout(::UnityEngine::TextCore::Text::TextInfo* value);
 
-  static inline ::UnityEngine::TextCore::Text::TextInfo* getStaticF_s_TextInfoLayout();
-
-  /// @brief Method get_MeasuredSizes, addr 0x2e457f8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Vector2 get_MeasuredSizes();
-
-  /// @brief Method set_MeasuredSizes, addr 0x2e45800, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_MeasuredSizes, addr 0x2f53310, size 0x8, virtual true, abstract: false, final true
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_RoundedSizes, addr 0x2e45808, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Vector2 get_RoundedSizes();
-
-  /// @brief Method set_RoundedSizes, addr 0x2e45810, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_RoundedSizes, addr 0x2f53320, size 0x8, virtual true, abstract: false, final true
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method New, addr 0x2e45818, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::ITextHandle* New();
-
-  /// @brief Method get_textInfoMesh, addr 0x2e458d8, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoMesh();
-
-  /// @brief Method get_textInfoLayout, addr 0x2e45944, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoLayout();
-
-  /// @brief Method IsLegacy, addr 0x2e45a04, size 0x8, virtual true, abstract: false, final true
-  inline bool IsLegacy();
-
-  /// @brief Method IsDirty, addr 0x2e45a0c, size 0x44, virtual false, abstract: false, final false
-  inline bool IsDirty(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
-
-  /// @brief Method GetCursorPosition, addr 0x2e45a50, size 0x28, virtual true, abstract: false, final true
-  inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::CursorPositionStylePainterParameters parms, float_t scaling);
-
-  /// @brief Method ComputeTextWidth, addr 0x2e45a78, size 0x34, virtual true, abstract: false, final true
-  inline float_t ComputeTextWidth(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
-
-  /// @brief Method ComputeTextHeight, addr 0x2e45bdc, size 0x34, virtual true, abstract: false, final true
-  inline float_t ComputeTextHeight(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
-
-  /// @brief Method GetLineHeight, addr 0x2e45c10, size 0x68, virtual true, abstract: false, final true
-  inline float_t GetLineHeight(int32_t characterIndex, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t textScaling, float_t pixelPerPoint);
-
-  /// @brief Method Update, addr 0x2e45c78, size 0x208, virtual true, abstract: false, final true
-  inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t pixelsPerPoint);
-
-  /// @brief Method UpdatePreferredValues, addr 0x2e45aac, size 0x130, virtual false, abstract: false, final false
-  inline void UpdatePreferredValues(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
-
-  /// @brief Method GetTextOverflowMode, addr 0x2e4612c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::TextOverflowMode GetTextOverflowMode(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
-
-  /// @brief Method UpdateGenerationSettingsCommon, addr 0x2e45e80, size 0x2ac, virtual false, abstract: false, final false
-  static inline void UpdateGenerationSettingsCommon(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams painterParams, ::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
-
-  /// @brief Method IsElided, addr 0x2e46348, size 0x64, virtual true, abstract: false, final true
-  inline bool IsElided();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextCoreHandle();
 
   // Ctor Parameters [CppParam { name: "_MeasuredSizes_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_RoundedSizes_k__BackingField", ty:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_PreferredSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
@@ -132,10 +134,6 @@ public:
   constexpr TextCoreHandle(::UnityEngine::Vector2 _MeasuredSizes_k__BackingField, ::UnityEngine::Vector2 _RoundedSizes_k__BackingField, ::UnityEngine::Vector2 m_PreferredSize,
                            int32_t m_PreviousGenerationSettingsHash, ::UnityEngine::TextCore::Text::TextGenerationSettings* m_CurrentGenerationSettings,
                            ::UnityEngine::TextCore::Text::TextInfo* m_TextInfoMesh, bool isDirty) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextCoreHandle();
 
   /// @brief Field <MeasuredSizes>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 _MeasuredSizes_k__BackingField;

@@ -23,12 +23,13 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalImageMaterialSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
 // CS Name: ::ConditionalImageMaterialSwitcher*
 class CORDL_TYPE ConditionalImageMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _image, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
+
   /// @brief Field _material0, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__material0, put = __cordl_internal_set__material0))::UnityW<::UnityEngine::Material> _material0;
 
@@ -38,41 +39,44 @@ public:
   /// @brief Field _value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Field _image, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
-
-  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
-
-  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
-
-  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
-
-  /// @brief Method Awake, addr 0x226bfb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224fbc0, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalImageMaterialSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c038, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  /// @brief Method .ctor, addr 0x224fc40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalImageMaterialSwitcher();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalImageMaterialSwitcher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcher&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalImageMaterialSwitcher();
-
-public:
   /// @brief Field _material0, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;
 

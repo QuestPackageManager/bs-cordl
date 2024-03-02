@@ -27,25 +27,10 @@ MARK_REF_PTR_T(::RootMotion::GenericBaker);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12472))
 // CS Name: ::RootMotion::GenericBaker*
 class CORDL_TYPE GenericBaker : public ::RootMotion::Baker {
 public:
   // Declarations
-  /// @brief Field markAsLegacy, offset 0x74, size 0x1
-  __declspec(property(get = __cordl_internal_get_markAsLegacy, put = __cordl_internal_set_markAsLegacy)) bool markAsLegacy;
-
-  /// @brief Field root, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityW<::UnityEngine::Transform> root;
-
-  /// @brief Field rootNode, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_rootNode, put = __cordl_internal_set_rootNode))::UnityW<::UnityEngine::Transform> rootNode;
-
-  /// @brief Field ignoreList, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_ignoreList,
-                      put = __cordl_internal_set_ignoreList))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ignoreList;
-
   /// @brief Field bakePositionList, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_bakePositionList,
                       put = __cordl_internal_set_bakePositionList))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> bakePositionList;
@@ -53,89 +38,108 @@ public:
   /// @brief Field children, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> children;
 
+  /// @brief Field ignoreList, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_ignoreList,
+                      put = __cordl_internal_set_ignoreList))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ignoreList;
+
+  /// @brief Field markAsLegacy, offset 0x74, size 0x1
+  __declspec(property(get = __cordl_internal_get_markAsLegacy, put = __cordl_internal_set_markAsLegacy)) bool markAsLegacy;
+
+  /// @brief Field root, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityW<::UnityEngine::Transform> root;
+
   /// @brief Field rootChild, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_rootChild, put = __cordl_internal_set_rootChild))::RootMotion::BakerTransform* rootChild;
 
   /// @brief Field rootChildIndex, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get_rootChildIndex, put = __cordl_internal_set_rootChildIndex)) int32_t rootChildIndex;
 
-  constexpr bool& __cordl_internal_get_markAsLegacy();
+  /// @brief Field rootNode, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_rootNode, put = __cordl_internal_set_rootNode))::UnityW<::UnityEngine::Transform> rootNode;
 
-  constexpr bool const& __cordl_internal_get_markAsLegacy() const;
+  /// @brief Method Awake, addr 0x130cebc, size 0x218, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set_markAsLegacy(bool value);
+  /// @brief Method BakePosition, addr 0x130d18c, size 0xb8, virtual false, abstract: false, final false
+  inline bool BakePosition(::UnityEngine::Transform* t);
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_root();
+  /// @brief Method GetCharacterRoot, addr 0x130d2d8, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_root() const;
+  /// @brief Method IsIgnored, addr 0x130d0d4, size 0xb8, virtual false, abstract: false, final false
+  inline bool IsIgnored(::UnityEngine::Transform* t);
 
-  constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value);
+  static inline ::RootMotion::GenericBaker* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rootNode();
+  /// @brief Method OnSetCurves, addr 0x130d730, size 0x64, virtual true, abstract: false, final false
+  inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rootNode() const;
+  /// @brief Method OnSetKeyframes, addr 0x130da48, size 0x6c, virtual true, abstract: false, final false
+  inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  constexpr void __cordl_internal_set_rootNode(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method OnSetLoopFrame, addr 0x130d4cc, size 0x6c, virtual true, abstract: false, final false
+  inline void OnSetLoopFrame(float_t time);
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_ignoreList();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_ignoreList() const;
-
-  constexpr void __cordl_internal_set_ignoreList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_bakePositionList();
+  /// @brief Method OnStartBaking, addr 0x130d2e0, size 0xd0, virtual true, abstract: false, final false
+  inline void OnStartBaking();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_bakePositionList() const;
 
-  constexpr void __cordl_internal_set_bakePositionList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*>& __cordl_internal_get_children();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_bakePositionList();
 
   constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> const& __cordl_internal_get_children() const;
 
-  constexpr void __cordl_internal_set_children(::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> value);
+  constexpr ::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*>& __cordl_internal_get_children();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_ignoreList() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_ignoreList();
+
+  constexpr bool const& __cordl_internal_get_markAsLegacy() const;
+
+  constexpr bool& __cordl_internal_get_markAsLegacy();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_root() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_root();
 
   constexpr ::RootMotion::BakerTransform*& __cordl_internal_get_rootChild();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerTransform*> const& __cordl_internal_get_rootChild() const;
 
-  constexpr void __cordl_internal_set_rootChild(::RootMotion::BakerTransform* value);
+  constexpr int32_t const& __cordl_internal_get_rootChildIndex() const;
 
   constexpr int32_t& __cordl_internal_get_rootChildIndex();
 
-  constexpr int32_t const& __cordl_internal_get_rootChildIndex() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rootNode() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rootNode();
+
+  constexpr void __cordl_internal_set_bakePositionList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set_children(::ArrayW<::RootMotion::BakerTransform*, ::Array<::RootMotion::BakerTransform*>*> value);
+
+  constexpr void __cordl_internal_set_ignoreList(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set_markAsLegacy(bool value);
+
+  constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_rootChild(::RootMotion::BakerTransform* value);
 
   constexpr void __cordl_internal_set_rootChildIndex(int32_t value);
 
-  /// @brief Method Awake, addr 0x1230e20, size 0x218, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_rootNode(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method GetCharacterRoot, addr 0x123123c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
-
-  /// @brief Method OnStartBaking, addr 0x1231244, size 0xd0, virtual true, abstract: false, final false
-  inline void OnStartBaking();
-
-  /// @brief Method OnSetLoopFrame, addr 0x1231430, size 0x6c, virtual true, abstract: false, final false
-  inline void OnSetLoopFrame(float_t time);
-
-  /// @brief Method OnSetCurves, addr 0x1231694, size 0x64, virtual true, abstract: false, final false
-  inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
-
-  /// @brief Method OnSetKeyframes, addr 0x12319ac, size 0x6c, virtual true, abstract: false, final false
-  inline void OnSetKeyframes(float_t time, bool lastFrame);
-
-  /// @brief Method IsIgnored, addr 0x1231038, size 0xb8, virtual false, abstract: false, final false
-  inline bool IsIgnored(::UnityEngine::Transform* t);
-
-  /// @brief Method BakePosition, addr 0x12310f0, size 0xb8, virtual false, abstract: false, final false
-  inline bool BakePosition(::UnityEngine::Transform* t);
-
-  static inline ::RootMotion::GenericBaker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1231c0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130dca8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericBaker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericBaker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericBaker(GenericBaker&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericBaker(GenericBaker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericBaker();
-
-public:
   /// @brief Field markAsLegacy, offset: 0x74, size: 0x1, def value: None
   bool ___markAsLegacy;
 

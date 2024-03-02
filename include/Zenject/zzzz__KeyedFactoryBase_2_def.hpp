@@ -60,8 +60,6 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10994))
 // CS Name: ::KeyedFactoryBase`2::<>c<TBase,TKey>*
 class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
 public:
@@ -75,22 +73,7 @@ public:
   /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* __9__12_1;
 
-  static inline void setStaticF___9(::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* value);
-
-  static inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* getStaticF___9();
-
-  static inline void setStaticF___9__12_0(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* value);
-
-  static inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* getStaticF___9__12_0();
-
-  static inline void setStaticF___9__12_1(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* value);
-
-  static inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* getStaticF___9__12_1();
-
   static inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <Initialize>b__12_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _Initialize_b__12_0(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x);
@@ -104,6 +87,27 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* getStaticF___9();
+
+  static inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* getStaticF___9__12_0();
+
+  static inline ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* getStaticF___9__12_1();
+
+  static inline void setStaticF___9(::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* value);
+
+  static inline void setStaticF___9__12_0(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* value);
+
+  static inline void setStaticF___9__12_1(::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __KeyedFactoryBase_2____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__KeyedFactoryBase_2____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __KeyedFactoryBase_2____c(__KeyedFactoryBase_2____c&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __KeyedFactoryBase_2____c(__KeyedFactoryBase_2____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __KeyedFactoryBase_2____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -128,96 +126,79 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
 // CS Name: ::Zenject::KeyedFactoryBase`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactoryBase_2 : public ::System::Object {
 public:
   // Declarations
   using __c = ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>;
 
+  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+
+  __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
+
+  __declspec(property(get = get_ProvidedTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
+
+  __declspec(property(get = get_TypeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* TypeMap;
+
   /// @brief Field _container, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
+  /// @brief Field _fallbackType, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__fallbackType, put = __cordl_internal_set__fallbackType))::System::Type* _fallbackType;
+
+  /// @brief Field _typeMap, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
 
   /// @brief Field _typePairs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__typePairs,
                       put = __cordl_internal_set__typePairs))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* _typePairs;
 
-  /// @brief Field _typeMap, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
-
-  /// @brief Field _fallbackType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fallbackType, put = __cordl_internal_set__fallbackType))::System::Type* _fallbackType;
-
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
-
-  __declspec(property(get = get_ProvidedTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
-
-  __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
-
-  __declspec(property(get = get_TypeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* TypeMap;
-
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
-  /// @brief Convert to "::Zenject::IValidatable"
-  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
+  /// @brief Method AddBindingInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDerived> static inline ::Zenject::ConditionCopyNonLazyBinder* AddBindingInternal(::Zenject::DiContainer* container, TKey key);
+
+  /// @brief Method GetTypeForKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Type* GetTypeForKey(TKey key);
+
+  /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool HasKey(TKey key);
+
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Initialize();
+
+  static inline ::Zenject::KeyedFactoryBase_2<TBase, TKey>* New_ctor();
+
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Validate();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr ::System::Type*& __cordl_internal_get__fallbackType();
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*& __cordl_internal_get__typePairs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*> const& __cordl_internal_get__typePairs() const;
-
-  constexpr void __cordl_internal_set__typePairs(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__fallbackType() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*& __cordl_internal_get__typeMap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*> const& __cordl_internal_get__typeMap() const;
 
-  constexpr void __cordl_internal_set__typeMap(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* value);
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*& __cordl_internal_get__typePairs();
 
-  constexpr ::System::Type*& __cordl_internal_get__fallbackType();
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*> const& __cordl_internal_get__typePairs() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__fallbackType() const;
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   constexpr void __cordl_internal_set__fallbackType(::System::Type* value);
 
-  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* get_Container();
+  constexpr void __cordl_internal_set__typeMap(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* value);
 
-  /// @brief Method get_ProvidedTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ProvidedTypes();
+  constexpr void __cordl_internal_set__typePairs(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* value);
 
-  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
-
-  /// @brief Method get_TypeMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* get_TypeMap();
-
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Initialize();
-
-  /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool HasKey(TKey key);
-
-  /// @brief Method GetTypeForKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Type* GetTypeForKey(TKey key);
-
-  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Validate();
-
-  /// @brief Method AddBindingInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDerived> static inline ::Zenject::ConditionCopyNonLazyBinder* AddBindingInternal(::Zenject::DiContainer* container, TKey key);
-
-  static inline ::Zenject::KeyedFactoryBase_2<TBase, TKey>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method __zenFieldSetter0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
@@ -231,9 +212,30 @@ public:
   /// @brief Method __zenInjectMethod0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* get_Container();
+
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
+
+  /// @brief Method get_ProvidedTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ProvidedTypes();
+
+  /// @brief Method get_TypeMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* get_TypeMap();
+
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyedFactoryBase_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactoryBase_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyedFactoryBase_2(KeyedFactoryBase_2&&) = delete;
@@ -242,12 +244,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyedFactoryBase_2(KeyedFactoryBase_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyedFactoryBase_2();
-
-public:
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

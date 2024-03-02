@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6060))
 // CS Name: ::AppInitScenesTransitionSetupDataContainerSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -27,17 +25,23 @@ public:
   __declspec(property(get = __cordl_internal_get_appInitScenesTransitionSetupData,
                       put = __cordl_internal_set_appInitScenesTransitionSetupData))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> appInitScenesTransitionSetupData;
 
-  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO>& __cordl_internal_get_appInitScenesTransitionSetupData();
+  static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> const& __cordl_internal_get_appInitScenesTransitionSetupData() const;
 
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO>& __cordl_internal_get_appInitScenesTransitionSetupData();
+
   constexpr void __cordl_internal_set_appInitScenesTransitionSetupData(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
-  static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x231ce94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2416f1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppInitScenesTransitionSetupDataContainerSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupDataContainerSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInitScenesTransitionSetupDataContainerSO(AppInitScenesTransitionSetupDataContainerSO&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AppInitScenesTransitionSetupDataContainerSO(AppInitScenesTransitionSetupDataContainerSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppInitScenesTransitionSetupDataContainerSO();
-
-public:
   /// @brief Field appInitScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> ___appInitScenesTransitionSetupData;
 

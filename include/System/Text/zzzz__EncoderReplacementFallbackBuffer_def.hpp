@@ -19,14 +19,11 @@ MARK_REF_PTR_T(::System::Text::EncoderReplacementFallbackBuffer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2848))
 // CS Name: ::System.Text::EncoderReplacementFallbackBuffer*
 class CORDL_TYPE EncoderReplacementFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
-  /// @brief Field _strDefault, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
+  __declspec(property(get = get_Remaining)) int32_t Remaining;
 
   /// @brief Field _fallbackCount, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__fallbackCount, put = __cordl_internal_set__fallbackCount)) int32_t _fallbackCount;
@@ -34,49 +31,56 @@ public:
   /// @brief Field _fallbackIndex, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__fallbackIndex, put = __cordl_internal_set__fallbackIndex)) int32_t _fallbackIndex;
 
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+  /// @brief Field _strDefault, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
 
-  constexpr ::StringW& __cordl_internal_get__strDefault();
+  /// @brief Method Fallback, addr 0x2529a1c, size 0x150, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  constexpr ::StringW const& __cordl_internal_get__strDefault() const;
+  /// @brief Method Fallback, addr 0x2529b6c, size 0x228, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  constexpr void __cordl_internal_set__strDefault(::StringW value);
+  /// @brief Method GetNextChar, addr 0x2529d94, size 0x50, virtual true, abstract: false, final false
+  inline char16_t GetNextChar();
 
-  constexpr int32_t& __cordl_internal_get__fallbackCount();
-
-  constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
-
-  constexpr void __cordl_internal_set__fallbackCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__fallbackIndex();
-
-  constexpr int32_t const& __cordl_internal_get__fallbackIndex() const;
-
-  constexpr void __cordl_internal_set__fallbackIndex(int32_t value);
+  /// @brief Method MovePrevious, addr 0x2529de4, size 0x30, virtual true, abstract: false, final false
+  inline bool MovePrevious();
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method .ctor, addr 0x2436dbc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
-
-  /// @brief Method Fallback, addr 0x2436ec0, size 0x150, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknown, int32_t index);
-
-  /// @brief Method Fallback, addr 0x2437010, size 0x228, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
-
-  /// @brief Method GetNextChar, addr 0x2437238, size 0x50, virtual true, abstract: false, final false
-  inline char16_t GetNextChar();
-
-  /// @brief Method MovePrevious, addr 0x2437288, size 0x30, virtual true, abstract: false, final false
-  inline bool MovePrevious();
-
-  /// @brief Method get_Remaining, addr 0x24372b8, size 0xc, virtual true, abstract: false, final false
-  inline int32_t get_Remaining();
-
-  /// @brief Method Reset, addr 0x24372c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2529e20, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
+  constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
+
+  constexpr int32_t& __cordl_internal_get__fallbackCount();
+
+  constexpr int32_t const& __cordl_internal_get__fallbackIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__fallbackIndex();
+
+  constexpr ::StringW const& __cordl_internal_get__strDefault() const;
+
+  constexpr ::StringW& __cordl_internal_get__strDefault();
+
+  constexpr void __cordl_internal_set__fallbackCount(int32_t value);
+
+  constexpr void __cordl_internal_set__fallbackIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__strDefault(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2529918, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
+
+  /// @brief Method get_Remaining, addr 0x2529e14, size 0xc, virtual true, abstract: false, final false
+  inline int32_t get_Remaining();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EncoderReplacementFallbackBuffer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EncoderReplacementFallbackBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncoderReplacementFallbackBuffer(EncoderReplacementFallbackBuffer&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncoderReplacementFallbackBuffer(EncoderReplacementFallbackBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderReplacementFallbackBuffer();
-
-public:
   /// @brief Field _strDefault, offset: 0x30, size: 0x8, def value: None
   ::StringW ____strDefault;
 

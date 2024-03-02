@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::BeatmapEventTransitionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14728))
 // CS Name: ::BeatmapEventTransitionType
 struct CORDL_TYPE BeatmapEventTransitionType {
 public:
@@ -35,18 +33,23 @@ public:
     return static_cast<__BeatmapEventTransitionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BeatmapEventTransitionType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BeatmapEventTransitionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BeatmapEventTransitionType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Extend value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::BeatmapEventTransitionType const Extend;
 
   /// @brief Field Instant value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::BeatmapEventTransitionType const Instant;
@@ -54,8 +57,8 @@ public:
   /// @brief Field Interpolate value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::BeatmapEventTransitionType const Interpolate;
 
-  /// @brief Field Extend value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::BeatmapEventTransitionType const Extend;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

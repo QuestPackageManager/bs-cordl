@@ -29,65 +29,63 @@ MARK_VAL_T(::System::Reflection::CustomAttributeNamedArgument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3504))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3503))
 // CS Name: ::System.Reflection::CustomAttributeNamedArgument
 struct CORDL_TYPE CustomAttributeNamedArgument {
 public:
   // Declarations
-  __declspec(property(get = get_TypedValue))::System::Reflection::CustomAttributeTypedArgument TypedValue;
-
   __declspec(property(get = get_IsField)) bool IsField;
-
-  __declspec(property(get = get_MemberName))::StringW MemberName;
 
   __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
 
-  /// @brief Method .ctor, addr 0x24ec874, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
+  __declspec(property(get = get_MemberName))::StringW MemberName;
 
-  /// @brief Method .ctor, addr 0x24ec89c, size 0x22c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
+  __declspec(property(get = get_TypedValue))::System::Reflection::CustomAttributeTypedArgument TypedValue;
 
-  /// @brief Method .ctor, addr 0x24ecac8, size 0x124, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
-
-  /// @brief Method get_TypedValue, addr 0x24ecbec, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
-
-  /// @brief Method get_IsField, addr 0x24ecbf8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsField();
-
-  /// @brief Method get_MemberName, addr 0x24ecc00, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_MemberName();
-
-  /// @brief Method get_MemberInfo, addr 0x24ecc08, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* get_MemberInfo();
-
-  /// @brief Method Equals, addr 0x24ecd20, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25dda8c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x24ecd98, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25ddb04, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x24ece04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x25ddc74, size 0x38c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x25dd5e0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
+
+  /// @brief Method .ctor, addr 0x25dd834, size 0x124, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
+
+  /// @brief Method .ctor, addr 0x25dd608, size 0x22c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
+
+  /// @brief Method get_IsField, addr 0x25dd964, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsField();
+
+  /// @brief Method get_MemberInfo, addr 0x25dd974, size 0x118, virtual false, abstract: false, final false
+  inline ::System::Reflection::MemberInfo* get_MemberInfo();
+
+  /// @brief Method get_MemberName, addr 0x25dd96c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_MemberName();
+
+  /// @brief Method get_TypedValue, addr 0x25dd958, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
+
+  /// @brief Method op_Equality, addr 0x25ddb70, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
-  /// @brief Method op_Inequality, addr 0x24ece84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x25ddbf0, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
-  /// @brief Method ToString, addr 0x24ecf08, size 0x38c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomAttributeNamedArgument();
 
   // Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name:
   // "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "_attributeType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "", def_value: None }]
   constexpr CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField, bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField,
                                          ::System::Type* _attributeType, ::System::Reflection::MemberInfo* _lazyMemberInfo) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomAttributeNamedArgument();
 
   /// @brief Field <TypedValue>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField;

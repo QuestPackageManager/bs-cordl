@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::DrivenTransformProperties);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10277))
 // CS Name: ::UnityEngine::DrivenTransformProperties
 struct CORDL_TYPE DrivenTransformProperties {
 public:
@@ -57,24 +55,47 @@ public:
     return static_cast<__DrivenTransformProperties_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DrivenTransformProperties(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DrivenTransformProperties();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr DrivenTransformProperties(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::DrivenTransformProperties const None;
-
   /// @brief Field All value: static_cast<int32_t>(0xffffffff)
   static ::UnityEngine::DrivenTransformProperties const All;
+
+  /// @brief Field AnchorMax value: static_cast<int32_t>(0xc00)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMax;
+
+  /// @brief Field AnchorMaxX value: static_cast<int32_t>(0x400)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMaxX;
+
+  /// @brief Field AnchorMaxY value: static_cast<int32_t>(0x800)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMaxY;
+
+  /// @brief Field AnchorMin value: static_cast<int32_t>(0x300)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMin;
+
+  /// @brief Field AnchorMinX value: static_cast<int32_t>(0x100)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMinX;
+
+  /// @brief Field AnchorMinY value: static_cast<int32_t>(0x200)
+  static ::UnityEngine::DrivenTransformProperties const AnchorMinY;
+
+  /// @brief Field AnchoredPosition value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::DrivenTransformProperties const AnchoredPosition;
+
+  /// @brief Field AnchoredPosition3D value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::DrivenTransformProperties const AnchoredPosition3D;
 
   /// @brief Field AnchoredPositionX value: static_cast<int32_t>(0x2)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPositionX;
@@ -85,8 +106,26 @@ public:
   /// @brief Field AnchoredPositionZ value: static_cast<int32_t>(0x8)
   static ::UnityEngine::DrivenTransformProperties const AnchoredPositionZ;
 
+  /// @brief Field Anchors value: static_cast<int32_t>(0xf00)
+  static ::UnityEngine::DrivenTransformProperties const Anchors;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::DrivenTransformProperties const None;
+
+  /// @brief Field Pivot value: static_cast<int32_t>(0xc000)
+  static ::UnityEngine::DrivenTransformProperties const Pivot;
+
+  /// @brief Field PivotX value: static_cast<int32_t>(0x4000)
+  static ::UnityEngine::DrivenTransformProperties const PivotX;
+
+  /// @brief Field PivotY value: static_cast<int32_t>(0x8000)
+  static ::UnityEngine::DrivenTransformProperties const PivotY;
+
   /// @brief Field Rotation value: static_cast<int32_t>(0x10)
   static ::UnityEngine::DrivenTransformProperties const Rotation;
+
+  /// @brief Field Scale value: static_cast<int32_t>(0xe0)
+  static ::UnityEngine::DrivenTransformProperties const Scale;
 
   /// @brief Field ScaleX value: static_cast<int32_t>(0x20)
   static ::UnityEngine::DrivenTransformProperties const ScaleX;
@@ -97,17 +136,8 @@ public:
   /// @brief Field ScaleZ value: static_cast<int32_t>(0x80)
   static ::UnityEngine::DrivenTransformProperties const ScaleZ;
 
-  /// @brief Field AnchorMinX value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMinX;
-
-  /// @brief Field AnchorMinY value: static_cast<int32_t>(0x200)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMinY;
-
-  /// @brief Field AnchorMaxX value: static_cast<int32_t>(0x400)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMaxX;
-
-  /// @brief Field AnchorMaxY value: static_cast<int32_t>(0x800)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMaxY;
+  /// @brief Field SizeDelta value: static_cast<int32_t>(0x3000)
+  static ::UnityEngine::DrivenTransformProperties const SizeDelta;
 
   /// @brief Field SizeDeltaX value: static_cast<int32_t>(0x1000)
   static ::UnityEngine::DrivenTransformProperties const SizeDeltaX;
@@ -115,35 +145,8 @@ public:
   /// @brief Field SizeDeltaY value: static_cast<int32_t>(0x2000)
   static ::UnityEngine::DrivenTransformProperties const SizeDeltaY;
 
-  /// @brief Field PivotX value: static_cast<int32_t>(0x4000)
-  static ::UnityEngine::DrivenTransformProperties const PivotX;
-
-  /// @brief Field PivotY value: static_cast<int32_t>(0x8000)
-  static ::UnityEngine::DrivenTransformProperties const PivotY;
-
-  /// @brief Field AnchoredPosition value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::DrivenTransformProperties const AnchoredPosition;
-
-  /// @brief Field AnchoredPosition3D value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::DrivenTransformProperties const AnchoredPosition3D;
-
-  /// @brief Field Scale value: static_cast<int32_t>(0xe0)
-  static ::UnityEngine::DrivenTransformProperties const Scale;
-
-  /// @brief Field AnchorMin value: static_cast<int32_t>(0x300)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMin;
-
-  /// @brief Field AnchorMax value: static_cast<int32_t>(0xc00)
-  static ::UnityEngine::DrivenTransformProperties const AnchorMax;
-
-  /// @brief Field Anchors value: static_cast<int32_t>(0xf00)
-  static ::UnityEngine::DrivenTransformProperties const Anchors;
-
-  /// @brief Field SizeDelta value: static_cast<int32_t>(0x3000)
-  static ::UnityEngine::DrivenTransformProperties const SizeDelta;
-
-  /// @brief Field Pivot value: static_cast<int32_t>(0xc000)
-  static ::UnityEngine::DrivenTransformProperties const Pivot;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

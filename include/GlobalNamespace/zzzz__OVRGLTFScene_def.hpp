@@ -34,12 +34,14 @@ MARK_VAL_T(::GlobalNamespace::OVRGLTFScene);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7567))
 // CS Name: ::OVRGLTFScene
 struct CORDL_TYPE OVRGLTFScene {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRGLTFScene();
+
   // Ctor Parameters [CppParam { name: "root", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "nodes", ty:
   // "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*", modifiers: "", def_value: None }, CppParam { name: "animationNodes", ty:
   // "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode*>*", modifiers: "", def_value: None }, CppParam { name:
@@ -51,10 +53,6 @@ public:
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* animationNodes,
       ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* animationNodeLookup,
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* morphTargetHandlers) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRGLTFScene();
 
   /// @brief Field root, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> root;

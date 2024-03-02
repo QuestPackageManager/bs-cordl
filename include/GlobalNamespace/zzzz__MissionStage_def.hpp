@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionStage);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4464))
 // CS Name: ::MissionStage*
 class CORDL_TYPE MissionStage : public ::UnityEngine::MonoBehaviour {
 public:
@@ -37,29 +35,35 @@ public:
 
   __declspec(property(get = get_position))::UnityEngine::Vector2 position;
 
-  constexpr int32_t& __cordl_internal_get__minimumMissionsToUnlock();
+  static inline ::GlobalNamespace::MissionStage* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get__minimumMissionsToUnlock() const;
 
-  constexpr void __cordl_internal_set__minimumMissionsToUnlock(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+  constexpr int32_t& __cordl_internal_get__minimumMissionsToUnlock();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+
+  constexpr void __cordl_internal_set__minimumMissionsToUnlock(int32_t value);
+
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method get_minimumMissionsToUnlock, addr 0x2352e84, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_minimumMissionsToUnlock();
-
-  /// @brief Method get_position, addr 0x2352e8c, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_position();
-
-  static inline ::GlobalNamespace::MissionStage* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2352ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d6534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_minimumMissionsToUnlock, addr 0x12d6510, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_minimumMissionsToUnlock();
+
+  /// @brief Method get_position, addr 0x12d6518, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_position();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionStage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionStage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionStage(MissionStage&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionStage(MissionStage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionStage();
-
-public:
   /// @brief Field _minimumMissionsToUnlock, offset: 0x18, size: 0x4, def value: None
   int32_t ____minimumMissionsToUnlock;
 

@@ -60,54 +60,58 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1769))
 // CS Name: ::TimeStampToken::CertID*
 class CORDL_TYPE __TimeStampToken__CertID : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IssuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* IssuerSerial;
+
   /// @brief Field certID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Asn1::Ess::EssCertID* certID;
 
   /// @brief Field certIDv2, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_certIDv2, put = __cordl_internal_set_certIDv2))::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certIDv2;
 
-  __declspec(property(get = get_IssuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* IssuerSerial;
+  /// @brief Method GetCertHash, addr 0x11c3208, size 0x34, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
+
+  /// @brief Method GetHashAlgorithm, addr 0x11c3658, size 0xac, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetHashAlgorithm();
+
+  /// @brief Method GetHashAlgorithmName, addr 0x11c3110, size 0xf8, virtual false, abstract: false, final false
+  inline ::StringW GetHashAlgorithmName();
+
+  static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
+
+  static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
 
   constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID*& __cordl_internal_get_certID();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertID*> const& __cordl_internal_get_certID() const;
 
-  constexpr void __cordl_internal_set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*& __cordl_internal_get_certIDv2();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*> const& __cordl_internal_get_certIDv2() const;
 
+  constexpr void __cordl_internal_set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value);
+
   constexpr void __cordl_internal_set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value);
 
-  static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
-
-  /// @brief Method .ctor, addr 0x1152b58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c29b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID);
 
-  static inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
-
-  /// @brief Method .ctor, addr 0x1152b80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c29e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID);
 
-  /// @brief Method GetHashAlgorithmName, addr 0x11532b0, size 0xf8, virtual false, abstract: false, final false
-  inline ::StringW GetHashAlgorithmName();
-
-  /// @brief Method GetHashAlgorithm, addr 0x11537f8, size 0xac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetHashAlgorithm();
-
-  /// @brief Method GetCertHash, addr 0x11533a8, size 0x34, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
-
-  /// @brief Method get_IssuerSerial, addr 0x11533dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x11c323c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TimeStampToken__CertID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TimeStampToken__CertID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TimeStampToken__CertID(__TimeStampToken__CertID&&) = delete;
@@ -116,12 +120,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TimeStampToken__CertID(__TimeStampToken__CertID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TimeStampToken__CertID();
-
-public:
   /// @brief Field certID, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ess::EssCertID* ___certID;
 
@@ -142,13 +140,22 @@ static_assert(offsetof(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID, ___ce
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1770))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampToken*
 class CORDL_TYPE TimeStampToken : public ::System::Object {
 public:
   // Declarations
   using CertID = ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID;
+
+  __declspec(property(get = get_SignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* SignedAttributes;
+
+  __declspec(property(get = get_SignerID))::Org::BouncyCastle::Cms::SignerID* SignerID;
+
+  __declspec(property(get = get_TimeStampInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* TimeStampInfo;
+
+  __declspec(property(get = get_UnsignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* UnsignedAttributes;
+
+  /// @brief Field certID, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* certID;
 
   /// @brief Field tsToken, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tsToken, put = __cordl_internal_set_tsToken))::Org::BouncyCastle::Cms::CmsSignedData* tsToken;
@@ -159,84 +166,79 @@ public:
   /// @brief Field tstInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tstInfo, put = __cordl_internal_set_tstInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* tstInfo;
 
-  /// @brief Field certID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* certID;
+  /// @brief Method GetAttributeCertificates, addr 0x11c2a80, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  __declspec(property(get = get_TimeStampInfo))::Org::BouncyCastle::Tsp::TimeStampTokenInfo* TimeStampInfo;
+  /// @brief Method GetCertificates, addr 0x11c2a48, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  __declspec(property(get = get_SignerID))::Org::BouncyCastle::Cms::SignerID* SignerID;
+  /// @brief Method GetCrls, addr 0x11c2a64, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  __declspec(property(get = get_SignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* SignedAttributes;
+  /// @brief Method GetEncoded, addr 0x11c35e8, size 0x54, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  __declspec(property(get = get_UnsignedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* UnsignedAttributes;
+  /// @brief Method GetEncoded, addr 0x11c363c, size 0x1c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsSignedData*& __cordl_internal_get_tsToken();
+  static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedData*> const& __cordl_internal_get_tsToken() const;
+  static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  constexpr void __cordl_internal_set_tsToken(::Org::BouncyCastle::Cms::CmsSignedData* value);
+  /// @brief Method ToCmsSignedData, addr 0x11c35e0, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsSignedData* ToCmsSignedData();
 
-  constexpr ::Org::BouncyCastle::Cms::SignerInformation*& __cordl_internal_get_tsaSignerInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformation*> const& __cordl_internal_get_tsaSignerInfo() const;
-
-  constexpr void __cordl_internal_set_tsaSignerInfo(::Org::BouncyCastle::Cms::SignerInformation* value);
-
-  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo*& __cordl_internal_get_tstInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*> const& __cordl_internal_get_tstInfo() const;
-
-  constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Tsp::TimeStampTokenInfo* value);
+  /// @brief Method Validate, addr 0x11c2a9c, size 0x674, virtual false, abstract: false, final false
+  inline void Validate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   constexpr ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*& __cordl_internal_get_certID();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*> const& __cordl_internal_get_certID() const;
 
+  constexpr ::Org::BouncyCastle::Cms::CmsSignedData*& __cordl_internal_get_tsToken();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedData*> const& __cordl_internal_get_tsToken() const;
+
+  constexpr ::Org::BouncyCastle::Cms::SignerInformation*& __cordl_internal_get_tsaSignerInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformation*> const& __cordl_internal_get_tsaSignerInfo() const;
+
+  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo*& __cordl_internal_get_tstInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*> const& __cordl_internal_get_tstInfo() const;
+
   constexpr void __cordl_internal_set_certID(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* value);
 
-  static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
+  constexpr void __cordl_internal_set_tsToken(::Org::BouncyCastle::Cms::CmsSignedData* value);
 
-  /// @brief Method .ctor, addr 0x11507d0, size 0x74, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_tsaSignerInfo(::Org::BouncyCastle::Cms::SignerInformation* value);
+
+  constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Tsp::TimeStampTokenInfo* value);
+
+  /// @brief Method .ctor, addr 0x11c0630, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  static inline ::Org::BouncyCastle::Tsp::TimeStampToken* New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
-
-  /// @brief Method .ctor, addr 0x1152194, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c1ff4, size 0x890, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData);
 
-  /// @brief Method get_TimeStampInfo, addr 0x1152ba8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* get_TimeStampInfo();
-
-  /// @brief Method get_SignerID, addr 0x1152bb0, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerID* get_SignerID();
-
-  /// @brief Method get_SignedAttributes, addr 0x1151058, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SignedAttributes, addr 0x11c0eb8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_SignedAttributes();
 
-  /// @brief Method get_UnsignedAttributes, addr 0x1152bcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SignerID, addr 0x11c2a10, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerID* get_SignerID();
+
+  /// @brief Method get_TimeStampInfo, addr 0x11c2a08, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* get_TimeStampInfo();
+
+  /// @brief Method get_UnsignedAttributes, addr 0x11c2a2c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* get_UnsignedAttributes();
 
-  /// @brief Method GetCertificates, addr 0x1152be8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeStampToken();
 
-  /// @brief Method GetCrls, addr 0x1152c04, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
-
-  /// @brief Method GetAttributeCertificates, addr 0x1152c20, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
-
-  /// @brief Method Validate, addr 0x1152c3c, size 0x674, virtual false, abstract: false, final false
-  inline void Validate(::Org::BouncyCastle::X509::X509Certificate* cert);
-
-  /// @brief Method ToCmsSignedData, addr 0x1153780, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsSignedData* ToCmsSignedData();
-
-  /// @brief Method GetEncoded, addr 0x1153788, size 0x54, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
-
-  /// @brief Method GetEncoded, addr 0x11537dc, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampToken(TimeStampToken&&) = delete;
@@ -245,12 +247,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimeStampToken(TimeStampToken const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeStampToken();
-
-public:
   /// @brief Field tsToken, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::CmsSignedData* ___tsToken;
 

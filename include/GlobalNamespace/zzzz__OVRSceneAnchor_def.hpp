@@ -39,33 +39,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSceneAnchor);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7510)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4773 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7955)) CS Name: ::OVRSceneAnchor*
+// CS Name: ::OVRSceneAnchor*
 class CORDL_TYPE OVRSceneAnchor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field <Space>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Space_k__BackingField, put = __cordl_internal_set__Space_k__BackingField))::GlobalNamespace::OVRSpace _Space_k__BackingField;
-
-  /// @brief Field <Uuid>k__BackingField, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__Uuid_k__BackingField, put = __cordl_internal_set__Uuid_k__BackingField))::System::Guid _Uuid_k__BackingField;
-
-  /// @brief Field <Anchor>k__BackingField, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get__Anchor_k__BackingField, put = __cordl_internal_set__Anchor_k__BackingField))::GlobalNamespace::OVRAnchor _Anchor_k__BackingField;
-
-  /// @brief Field <IsTracked>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsTracked_k__BackingField, put = __cordl_internal_set__IsTracked_k__BackingField)) bool _IsTracked_k__BackingField;
-
-  /// @brief Field _pose, offset 0x4c, size 0x20
-  __declspec(property(get = __cordl_internal_get__pose, put = __cordl_internal_set__pose))::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> _pose;
-
-  /// @brief Field RotateY180, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_RotateY180, put = setStaticF_RotateY180))::UnityEngine::Quaternion RotateY180;
+  __declspec(property(get = get_Anchor, put = set_Anchor))::GlobalNamespace::OVRAnchor Anchor;
 
   /// @brief Field AnchorReferenceCountDictionary, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AnchorReferenceCountDictionary,
                              put = setStaticF_AnchorReferenceCountDictionary))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* AnchorReferenceCountDictionary;
+
+  __declspec(property(get = get_IsTracked, put = set_IsTracked)) bool IsTracked;
+
+  /// @brief Field RotateY180, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_RotateY180, put = setStaticF_RotateY180))::UnityEngine::Quaternion RotateY180;
 
   /// @brief Field SceneAnchors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SceneAnchors,
@@ -79,109 +66,126 @@ public:
 
   __declspec(property(get = get_Uuid, put = set_Uuid))::System::Guid Uuid;
 
-  __declspec(property(get = get_Anchor, put = set_Anchor))::GlobalNamespace::OVRAnchor Anchor;
+  /// @brief Field <Anchor>k__BackingField, offset 0x30, size 0x18
+  __declspec(property(get = __cordl_internal_get__Anchor_k__BackingField, put = __cordl_internal_set__Anchor_k__BackingField))::GlobalNamespace::OVRAnchor _Anchor_k__BackingField;
 
-  __declspec(property(get = get_IsTracked, put = set_IsTracked)) bool IsTracked;
+  /// @brief Field <IsTracked>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsTracked_k__BackingField, put = __cordl_internal_set__IsTracked_k__BackingField)) bool _IsTracked_k__BackingField;
 
-  constexpr ::GlobalNamespace::OVRSpace& __cordl_internal_get__Space_k__BackingField();
+  /// @brief Field <Space>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Space_k__BackingField, put = __cordl_internal_set__Space_k__BackingField))::GlobalNamespace::OVRSpace _Space_k__BackingField;
 
-  constexpr ::GlobalNamespace::OVRSpace const& __cordl_internal_get__Space_k__BackingField() const;
+  /// @brief Field <Uuid>k__BackingField, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get__Uuid_k__BackingField, put = __cordl_internal_set__Uuid_k__BackingField))::System::Guid _Uuid_k__BackingField;
 
-  constexpr void __cordl_internal_set__Space_k__BackingField(::GlobalNamespace::OVRSpace value);
+  /// @brief Field _pose, offset 0x4c, size 0x20
+  __declspec(property(get = __cordl_internal_get__pose, put = __cordl_internal_set__pose))::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> _pose;
 
-  constexpr ::System::Guid& __cordl_internal_get__Uuid_k__BackingField();
+  /// @brief Method ClearPoseCache, addr 0x28720ec, size 0x10, virtual false, abstract: false, final false
+  inline void ClearPoseCache();
 
-  constexpr ::System::Guid const& __cordl_internal_get__Uuid_k__BackingField() const;
+  /// @brief Method GetSceneAnchors, addr 0x2872874, size 0xf8, virtual false, abstract: false, final false
+  static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors);
 
-  constexpr void __cordl_internal_set__Uuid_k__BackingField(::System::Guid value);
+  /// @brief Method Initialize, addr 0x28720fc, size 0x36c, virtual false, abstract: false, final false
+  inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
 
-  constexpr ::GlobalNamespace::OVRAnchor& __cordl_internal_get__Anchor_k__BackingField();
+  /// @brief Method InitializeFrom, addr 0x287278c, size 0xe8, virtual false, abstract: false, final false
+  inline void InitializeFrom(::GlobalNamespace::OVRSceneAnchor* other);
 
-  constexpr ::GlobalNamespace::OVRAnchor const& __cordl_internal_get__Anchor_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Anchor_k__BackingField(::GlobalNamespace::OVRAnchor value);
-
-  constexpr bool& __cordl_internal_get__IsTracked_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__IsTracked_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__IsTracked_k__BackingField(bool value);
-
-  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef>& __cordl_internal_get__pose();
-
-  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> const& __cordl_internal_get__pose() const;
-
-  constexpr void __cordl_internal_set__pose(::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> value);
-
-  static inline void setStaticF_RotateY180(::UnityEngine::Quaternion value);
-
-  static inline ::UnityEngine::Quaternion getStaticF_RotateY180();
-
-  static inline void setStaticF_AnchorReferenceCountDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* getStaticF_AnchorReferenceCountDictionary();
-
-  static inline void setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchors();
-
-  static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
-
-  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchorsList();
-
-  /// @brief Method get_Space, addr 0x277f6f4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRSpace get_Space();
-
-  /// @brief Method set_Space, addr 0x277f6fc, size 0x8, virtual false, abstract: false, final false
-  inline void set_Space(::GlobalNamespace::OVRSpace value);
-
-  /// @brief Method get_Uuid, addr 0x277f704, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Guid get_Uuid();
-
-  /// @brief Method set_Uuid, addr 0x277f710, size 0x8, virtual false, abstract: false, final false
-  inline void set_Uuid(::System::Guid value);
-
-  /// @brief Method get_Anchor, addr 0x277f718, size 0x14, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRAnchor get_Anchor();
-
-  /// @brief Method set_Anchor, addr 0x277f72c, size 0x14, virtual false, abstract: false, final false
-  inline void set_Anchor(::GlobalNamespace::OVRAnchor value);
-
-  /// @brief Method get_IsTracked, addr 0x277f740, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsTracked();
-
-  /// @brief Method set_IsTracked, addr 0x277f748, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsTracked(bool value);
-
-  /// @brief Method IsComponentEnabled, addr 0x277f754, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsComponentEnabled, addr 0x287205c, size 0x8c, virtual false, abstract: false, final false
   inline bool IsComponentEnabled(::GlobalNamespace::__OVRPlugin__SpaceComponentType spaceComponentType);
+
+  static inline ::GlobalNamespace::OVRSceneAnchor* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x287296c, size 0x1e0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
   /// @brief Method SyncComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SyncComponent(::GlobalNamespace::__OVRPlugin__SpaceComponentType spaceComponentType);
 
-  /// @brief Method ClearPoseCache, addr 0x277f7e4, size 0x10, virtual false, abstract: false, final false
-  inline void ClearPoseCache();
-
-  /// @brief Method Initialize, addr 0x277f7f4, size 0x36c, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
-
-  /// @brief Method InitializeFrom, addr 0x277fe84, size 0xe8, virtual false, abstract: false, final false
-  inline void InitializeFrom(::GlobalNamespace::OVRSceneAnchor* other);
-
-  /// @brief Method GetSceneAnchors, addr 0x277ff6c, size 0xf8, virtual false, abstract: false, final false
-  static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors);
-
-  /// @brief Method TryUpdateTransform, addr 0x277fb74, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateTransform, addr 0x287247c, size 0x310, virtual false, abstract: false, final false
   inline bool TryUpdateTransform(bool useCache);
 
-  /// @brief Method OnDestroy, addr 0x2780064, size 0x1e0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr ::GlobalNamespace::OVRAnchor const& __cordl_internal_get__Anchor_k__BackingField() const;
 
-  static inline ::GlobalNamespace::OVRSceneAnchor* New_ctor();
+  constexpr ::GlobalNamespace::OVRAnchor& __cordl_internal_get__Anchor_k__BackingField();
 
-  /// @brief Method .ctor, addr 0x2780244, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__IsTracked_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__IsTracked_k__BackingField();
+
+  constexpr ::GlobalNamespace::OVRSpace const& __cordl_internal_get__Space_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::OVRSpace& __cordl_internal_get__Space_k__BackingField();
+
+  constexpr ::System::Guid const& __cordl_internal_get__Uuid_k__BackingField() const;
+
+  constexpr ::System::Guid& __cordl_internal_get__Uuid_k__BackingField();
+
+  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> const& __cordl_internal_get__pose() const;
+
+  constexpr ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef>& __cordl_internal_get__pose();
+
+  constexpr void __cordl_internal_set__Anchor_k__BackingField(::GlobalNamespace::OVRAnchor value);
+
+  constexpr void __cordl_internal_set__IsTracked_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__Space_k__BackingField(::GlobalNamespace::OVRSpace value);
+
+  constexpr void __cordl_internal_set__Uuid_k__BackingField(::System::Guid value);
+
+  constexpr void __cordl_internal_set__pose(::System::Nullable_1<::GlobalNamespace::__OVRPlugin__Posef> value);
+
+  /// @brief Method .ctor, addr 0x2872b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* getStaticF_AnchorReferenceCountDictionary();
+
+  static inline ::UnityEngine::Quaternion getStaticF_RotateY180();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchors();
+
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchorsList();
+
+  /// @brief Method get_Anchor, addr 0x2872020, size 0x14, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRAnchor get_Anchor();
+
+  /// @brief Method get_IsTracked, addr 0x2872048, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsTracked();
+
+  /// @brief Method get_Space, addr 0x2871ffc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRSpace get_Space();
+
+  /// @brief Method get_Uuid, addr 0x287200c, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Guid get_Uuid();
+
+  static inline void setStaticF_AnchorReferenceCountDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* value);
+
+  static inline void setStaticF_RotateY180(::UnityEngine::Quaternion value);
+
+  static inline void setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
+
+  static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
+
+  /// @brief Method set_Anchor, addr 0x2872034, size 0x14, virtual false, abstract: false, final false
+  inline void set_Anchor(::GlobalNamespace::OVRAnchor value);
+
+  /// @brief Method set_IsTracked, addr 0x2872050, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsTracked(bool value);
+
+  /// @brief Method set_Space, addr 0x2872004, size 0x8, virtual false, abstract: false, final false
+  inline void set_Space(::GlobalNamespace::OVRSpace value);
+
+  /// @brief Method set_Uuid, addr 0x2872018, size 0x8, virtual false, abstract: false, final false
+  inline void set_Uuid(::System::Guid value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRSceneAnchor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneAnchor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneAnchor(OVRSceneAnchor&&) = delete;
@@ -190,12 +194,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneAnchor(OVRSceneAnchor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSceneAnchor();
-
-public:
   /// @brief Field <Space>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace ____Space_k__BackingField;
 

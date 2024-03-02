@@ -21,12 +21,13 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRTask);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8066))
 // CS Name: ::OVRTask*
 class CORDL_TYPE OVRTask : public ::System::Object {
 public:
   // Declarations
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> Create(::System::Guid id);
+
   /// @brief Method FromGuid, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> FromGuid(::System::Guid id);
 
@@ -36,11 +37,17 @@ public:
   /// @brief Method FromResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> FromResult(TResult result);
 
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> Get(::System::Guid id);
+
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(::System::Guid id);
 
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
+
+  /// @brief Method GetId, addr 0x2894680, size 0x30, virtual false, abstract: false, final false
+  static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline void SetResult(::System::Guid id, TResult result);
@@ -48,15 +55,12 @@ public:
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline void SetResult(uint64_t id, TResult result);
 
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> Get(::System::Guid id);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRTask();
 
-  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> Create(::System::Guid id);
-
-  /// @brief Method GetId, addr 0x27a1d70, size 0x30, virtual false, abstract: false, final false
-  static inline ::System::Guid GetId(uint64_t value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask(OVRTask&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRTask(OVRTask const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTask();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

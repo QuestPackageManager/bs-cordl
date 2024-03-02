@@ -18,62 +18,66 @@ MARK_REF_PTR_T(::System::LocalDataStoreSlot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2544))
 // CS Name: ::System::LocalDataStoreSlot*
 class CORDL_TYPE LocalDataStoreSlot : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Cookie)) int64_t Cookie;
+
+  __declspec(property(get = get_Manager))::System::LocalDataStoreMgr* Manager;
+
+  __declspec(property(get = get_Slot)) int32_t Slot;
+
+  /// @brief Field m_cookie, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
+
   /// @brief Field m_mgr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_mgr, put = __cordl_internal_set_m_mgr))::System::LocalDataStoreMgr* m_mgr;
 
   /// @brief Field m_slot, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
-  /// @brief Field m_cookie, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
+  /// @brief Method Finalize, addr 0x26ca954, size 0xac, virtual true, abstract: false, final false
+  inline void Finalize();
 
-  __declspec(property(get = get_Manager))::System::LocalDataStoreMgr* Manager;
+  static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  __declspec(property(get = get_Slot)) int32_t Slot;
+  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
 
-  __declspec(property(get = get_Cookie)) int64_t Cookie;
+  constexpr int64_t& __cordl_internal_get_m_cookie();
 
   constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_mgr();
 
   constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __cordl_internal_get_m_mgr() const;
 
-  constexpr void __cordl_internal_set_m_mgr(::System::LocalDataStoreMgr* value);
+  constexpr int32_t const& __cordl_internal_get_m_slot() const;
 
   constexpr int32_t& __cordl_internal_get_m_slot();
 
-  constexpr int32_t const& __cordl_internal_get_m_slot() const;
+  constexpr void __cordl_internal_set_m_cookie(int64_t value);
+
+  constexpr void __cordl_internal_set_m_mgr(::System::LocalDataStoreMgr* value);
 
   constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  constexpr int64_t& __cordl_internal_get_m_cookie();
-
-  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
-
-  constexpr void __cordl_internal_set_m_cookie(int64_t value);
-
-  static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
-
-  /// @brief Method .ctor, addr 0x25d8300, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ca8fc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Manager, addr 0x25d8340, size 0x8, virtual false, abstract: false, final false
-  inline ::System::LocalDataStoreMgr* get_Manager();
-
-  /// @brief Method get_Slot, addr 0x25d8348, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Slot();
-
-  /// @brief Method get_Cookie, addr 0x25d8350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x26ca94c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method Finalize, addr 0x25d8358, size 0xac, virtual true, abstract: false, final false
-  inline void Finalize();
+  /// @brief Method get_Manager, addr 0x26ca93c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::LocalDataStoreMgr* get_Manager();
 
+  /// @brief Method get_Slot, addr 0x26ca944, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Slot();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalDataStoreSlot();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreSlot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalDataStoreSlot(LocalDataStoreSlot&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStoreSlot(LocalDataStoreSlot const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalDataStoreSlot();
-
-public:
   /// @brief Field m_mgr, offset: 0x10, size: 0x8, def value: None
   ::System::LocalDataStoreMgr* ___m_mgr;
 

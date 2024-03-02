@@ -15,39 +15,43 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcControllerAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15768))
 // CS Name: ::JetBrains.Annotations::AspMvcControllerAttribute*
 class CORDL_TYPE AspMvcControllerAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty))::StringW AnonymousProperty;
+
   /// @brief Field <AnonymousProperty>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__AnonymousProperty_k__BackingField, put = __cordl_internal_set__AnonymousProperty_k__BackingField))::StringW _AnonymousProperty_k__BackingField;
 
-  __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty))::StringW AnonymousProperty;
-
-  constexpr ::StringW& __cordl_internal_get__AnonymousProperty_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__AnonymousProperty_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
-
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2eba5c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::JetBrains::Annotations::AspMvcControllerAttribute* New_ctor(::StringW anonymousProperty);
 
-  /// @brief Method .ctor, addr 0x2eba5cc, size 0x28, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__AnonymousProperty_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__AnonymousProperty_k__BackingField();
+
+  constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2fc9e34, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2fc9e3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x2eba5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x2fc9e64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x2eba5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x2fc9e6c, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AspMvcControllerAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcControllerAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcControllerAttribute(AspMvcControllerAttribute&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspMvcControllerAttribute(AspMvcControllerAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AspMvcControllerAttribute();
-
-public:
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;
 

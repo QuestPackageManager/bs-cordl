@@ -39,8 +39,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12935))
 // CS Name: ::RemoteProcedureCall::TypeWrapper`1<T>*
 class CORDL_TYPE __RemoteProcedureCall__TypeWrapper_1 : public ::System::Object {
 public:
@@ -52,23 +50,13 @@ public:
 
   __declspec(property(get = get_value)) T value;
 
-  constexpr T& __cordl_internal_get__v();
-
-  constexpr T const& __cordl_internal_get__v() const;
-
-  constexpr void __cordl_internal_set__v(T value);
-
-  /// @brief Method get_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_hasValue();
-
-  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_value();
-
-  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Set(T v);
-
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
+
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+
+  static inline ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>* New_ctor();
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release();
@@ -76,14 +64,30 @@ public:
   /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Set(T v);
 
-  static inline ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>* New_ctor();
+  constexpr T const& __cordl_internal_get__v() const;
+
+  constexpr T& __cordl_internal_get__v();
+
+  constexpr void __cordl_internal_set__v(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_hasValue();
+
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_value();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RemoteProcedureCall__TypeWrapper_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RemoteProcedureCall__TypeWrapper_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RemoteProcedureCall__TypeWrapper_1(__RemoteProcedureCall__TypeWrapper_1&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RemoteProcedureCall__TypeWrapper_1(__RemoteProcedureCall__TypeWrapper_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RemoteProcedureCall__TypeWrapper_1();
-
-public:
   /// @brief Field _v, offset: 0x10, size: 0x8, def value: None
   T ____v;
 
@@ -109,8 +107,6 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12936))
 // CS Name: ::RemoteProcedureCall*
 class CORDL_TYPE RemoteProcedureCall : public ::System::Object {
 public:
@@ -122,59 +118,65 @@ public:
 
   __declspec(property(get = get_syncTime, put = set_syncTime)) int64_t syncTime;
 
+  /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
+  constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+
   /// @brief Convert operator to "::GlobalNamespace::IRemoteProcedureCall"
   constexpr operator ::GlobalNamespace::IRemoteProcedureCall*() noexcept;
-
-  /// @brief Convert to "::GlobalNamespace::IRemoteProcedureCall"
-  constexpr ::GlobalNamespace::IRemoteProcedureCall* i___GlobalNamespace__IRemoteProcedureCall() noexcept;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+  /// @brief Method DeserializeData, addr 0xec6210, size 0x4, virtual true, abstract: false, final false
+  inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
-  /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
-  constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
+  /// @brief Method Init, addr 0xec6398, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime);
+
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0xec6258, size 0x40, virtual true, abstract: false, final true
+  inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+
+  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0xec6214, size 0x44, virtual true, abstract: false, final true
+  inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  static inline ::GlobalNamespace::RemoteProcedureCall* New_ctor();
+
+  /// @brief Method Release, addr 0xec6298, size 0x4, virtual true, abstract: false, final false
+  inline void Release();
+
+  /// @brief Method SerializeData, addr 0xec620c, size 0x4, virtual true, abstract: false, final false
+  inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
+
+  constexpr int64_t const& __cordl_internal_get__syncTime_k__BackingField() const;
+
+  constexpr int64_t& __cordl_internal_get__syncTime_k__BackingField();
+
+  constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
+
+  /// @brief Method .ctor, addr 0xebb04c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_syncTime, addr 0xec61fc, size 0x8, virtual true, abstract: false, final true
+  inline int64_t get_syncTime();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
   constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-  constexpr int64_t& __cordl_internal_get__syncTime_k__BackingField();
+  /// @brief Convert to "::GlobalNamespace::IRemoteProcedureCall"
+  constexpr ::GlobalNamespace::IRemoteProcedureCall* i___GlobalNamespace__IRemoteProcedureCall() noexcept;
 
-  constexpr int64_t const& __cordl_internal_get__syncTime_k__BackingField() const;
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
-
-  /// @brief Method get_syncTime, addr 0xe543f4, size 0x8, virtual true, abstract: false, final true
-  inline int64_t get_syncTime();
-
-  /// @brief Method set_syncTime, addr 0xe543fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_syncTime, addr 0xec6204, size 0x8, virtual false, abstract: false, final false
   inline void set_syncTime(int64_t value);
 
-  /// @brief Method SerializeData, addr 0xe54404, size 0x4, virtual true, abstract: false, final false
-  inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemoteProcedureCall();
 
-  /// @brief Method DeserializeData, addr 0xe54408, size 0x4, virtual true, abstract: false, final false
-  inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
-
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Serialize, addr 0xe5440c, size 0x44, virtual true, abstract: false, final true
-  inline void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method LiteNetLib.Utils.INetSerializable.Deserialize, addr 0xe54450, size 0x40, virtual true, abstract: false, final true
-  inline void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-
-  /// @brief Method Release, addr 0xe54490, size 0x4, virtual true, abstract: false, final false
-  inline void Release();
-
-  /// @brief Method Init, addr 0xe54590, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime);
-
-  static inline ::GlobalNamespace::RemoteProcedureCall* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe49244, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteProcedureCall(RemoteProcedureCall&&) = delete;
@@ -183,12 +185,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RemoteProcedureCall(RemoteProcedureCall const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemoteProcedureCall();
-
-public:
   /// @brief Field <syncTime>k__BackingField, offset: 0x10, size: 0x8, def value: None
   int64_t ____syncTime_k__BackingField;
 

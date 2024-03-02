@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6991))
 // CS Name: ::UxmlBoolAttributeDescription::<>c*
 class CORDL_TYPE __UxmlBoolAttributeDescription____c : public ::System::Object {
 public:
@@ -48,29 +46,35 @@ public:
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_3<::StringW, bool, bool>* __9__4_0;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* value);
+  static inline ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* New_ctor();
+
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2f1f9dc, size 0x10, virtual false, abstract: false, final false
+  inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
+
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x2f1f9ec, size 0x10, virtual false, abstract: false, final false
+  inline bool _TryGetValueFromBag_b__4_0(::StringW s, bool b);
+
+  /// @brief Method .ctor, addr 0x2f1f9d4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, bool, bool>* value);
-
   static inline ::System::Func_3<::StringW, bool, bool>* getStaticF___9__3_0();
-
-  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, bool, bool>* value);
 
   static inline ::System::Func_3<::StringW, bool, bool>* getStaticF___9__4_0();
 
-  static inline ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c* value);
 
-  /// @brief Method .ctor, addr 0x2e0fec4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, bool, bool>* value);
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2e0fecc, size 0x10, virtual false, abstract: false, final false
-  inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
+  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, bool, bool>* value);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x2e0fedc, size 0x10, virtual false, abstract: false, final false
-  inline bool _TryGetValueFromBag_b__4_0(::StringW s, bool b);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UxmlBoolAttributeDescription____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlBoolAttributeDescription____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UxmlBoolAttributeDescription____c(__UxmlBoolAttributeDescription____c&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UxmlBoolAttributeDescription____c(__UxmlBoolAttributeDescription____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UxmlBoolAttributeDescription____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -95,28 +93,32 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlB
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 105 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6992))
 // CS Name: ::UnityEngine.UIElements::UxmlBoolAttributeDescription*
 class CORDL_TYPE UxmlBoolAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool> {
 public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c;
 
-  static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e0fa5c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method GetValueFromBag, addr 0x2e0faf8, size 0x168, virtual true, abstract: false, final false
-  inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
-
-  /// @brief Method TryGetValueFromBag, addr 0x2e0fc60, size 0x178, virtual false, abstract: false, final false
-  inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<bool> value);
-
-  /// @brief Method ConvertValueToBool, addr 0x2e0fdd8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToBool, addr 0x2f1f8e8, size 0x88, virtual false, abstract: false, final false
   static inline bool ConvertValueToBool(::StringW v, bool defaultValue);
 
+  /// @brief Method GetValueFromBag, addr 0x2f1f608, size 0x168, virtual true, abstract: false, final false
+  inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
+
+  /// @brief Method TryGetValueFromBag, addr 0x2f1f770, size 0x178, virtual false, abstract: false, final false
+  inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<bool> value);
+
+  /// @brief Method .ctor, addr 0x2f1f56c, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlBoolAttributeDescription();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlBoolAttributeDescription(UxmlBoolAttributeDescription&&) = delete;
@@ -125,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlBoolAttributeDescription(UxmlBoolAttributeDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlBoolAttributeDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ExternalException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3302))
 // CS Name: ::System.Runtime.InteropServices::ExternalException*
 class CORDL_TYPE ExternalException : public ::System::SystemException {
 public:
@@ -32,30 +30,36 @@ public:
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24d64e8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24d6544, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x24d6568, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, int32_t errorCode);
-
-  static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x24d6590, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_ErrorCode, addr 0x24d6598, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ErrorCode();
-
-  /// @brief Method ToString, addr 0x24d65a0, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25c730c, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// @brief Method .ctor, addr 0x25c7254, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25c72fc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x25c72b0, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x25c72d4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, int32_t errorCode);
+
+  /// @brief Method get_ErrorCode, addr 0x25c7304, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_ErrorCode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExternalException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ExternalException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExternalException(ExternalException&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExternalException(ExternalException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExternalException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

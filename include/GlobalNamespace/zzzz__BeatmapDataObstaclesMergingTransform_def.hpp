@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4129))
 // CS Name: ::BeatmapDataObstaclesMergingTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -41,20 +39,26 @@ public:
   __declspec(property(get = __cordl_internal_get_prevObstacleDataInLines,
                       put = __cordl_internal_set_prevObstacleDataInLines))::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> prevObstacleDataInLines;
 
-  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>& __cordl_internal_get_prevObstacleDataInLines();
+  static inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* New_ctor();
+
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x12a6c10, size 0x238, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const& __cordl_internal_get_prevObstacleDataInLines() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>& __cordl_internal_get_prevObstacleDataInLines();
+
   constexpr void __cordl_internal_set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value);
 
-  static inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x223a968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a6b88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x223a9f0, size 0x238, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0(__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0(__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0();
-
-public:
   /// @brief Field prevObstacleDataInLines, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> ___prevObstacleDataInLines;
 
@@ -84,20 +82,24 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4130))
 // CS Name: ::BeatmapDataObstaclesMergingTransform*
 class CORDL_TYPE BeatmapDataObstaclesMergingTransform : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x223a7b4, size 0x1b4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
-
-  /// @brief Method CanBeMerged, addr 0x223a970, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CanBeMerged, addr 0x12a6b90, size 0x80, virtual false, abstract: false, final false
   static inline bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
 
+  /// @brief Method CreateTransformedData, addr 0x12a69e8, size 0x1a0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataObstaclesMergingTransform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform&&) = delete;
@@ -106,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataObstaclesMergingTransform();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

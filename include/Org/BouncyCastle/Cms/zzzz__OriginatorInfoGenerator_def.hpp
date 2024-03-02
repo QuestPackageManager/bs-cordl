@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(680))
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInfoGenerator*
 class CORDL_TYPE OriginatorInfoGenerator : public ::System::Object {
 public:
@@ -38,36 +36,42 @@ public:
   /// @brief Field origCrls, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls))::System::Collections::IList* origCrls;
 
+  /// @brief Method Generate, addr 0x1277914, size 0x90, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
+
+  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
+
+  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
+
+  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
+
   constexpr ::System::Collections::IList*& __cordl_internal_get_origCerts();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCerts() const;
-
-  constexpr void __cordl_internal_set_origCerts(::System::Collections::IList* value);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_origCrls();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCrls() const;
 
+  constexpr void __cordl_internal_set_origCerts(::System::Collections::IList* value);
+
   constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
-  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
-
-  /// @brief Method .ctor, addr 0x1206928, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1277788, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
-
-  /// @brief Method .ctor, addr 0x1206a38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1277898, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
-
-  /// @brief Method .ctor, addr 0x1206a68, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12778c8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
-  /// @brief Method Generate, addr 0x1206ab4, size 0x90, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OriginatorInfoGenerator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInfoGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OriginatorInfoGenerator(OriginatorInfoGenerator&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OriginatorInfoGenerator(OriginatorInfoGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OriginatorInfoGenerator();
-
-public:
   /// @brief Field origCerts, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___origCerts;
 

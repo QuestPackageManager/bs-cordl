@@ -39,160 +39,164 @@ MARK_REF_PTR_T(::GlobalNamespace::CenterStageScreenController);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5710))
 // CS Name: ::CenterStageScreenController*
 class CORDL_TYPE CenterStageScreenController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _defaultMenuLightsPreset, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultMenuLightsPreset,
-                      put = __cordl_internal_set__defaultMenuLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultMenuLightsPreset;
+  /// @brief Field _beatmapSelectionView, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapSelectionView, put = __cordl_internal_set__beatmapSelectionView))::UnityW<::GlobalNamespace::BeatmapSelectionView> _beatmapSelectionView;
 
-  /// @brief Field _lobbyLightsPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyLightsPreset, put = __cordl_internal_set__lobbyLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _lobbyLightsPreset;
+  /// @brief Field _countdownController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__countdownController, put = __cordl_internal_set__countdownController))::UnityW<::GlobalNamespace::CountdownController> _countdownController;
+
+  /// @brief Field _countdownEndTime, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__countdownEndTime, put = __cordl_internal_set__countdownEndTime)) int64_t _countdownEndTime;
 
   /// @brief Field _countdownMenuLightsPreset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__countdownMenuLightsPreset,
                       put = __cordl_internal_set__countdownMenuLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _countdownMenuLightsPreset;
 
-  /// @brief Field _beatmapSelectionView, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapSelectionView, put = __cordl_internal_set__beatmapSelectionView))::UnityW<::GlobalNamespace::BeatmapSelectionView> _beatmapSelectionView;
+  /// @brief Field <countdownShown>k__BackingField, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get__countdownShown_k__BackingField, put = __cordl_internal_set__countdownShown_k__BackingField)) bool _countdownShown_k__BackingField;
+
+  /// @brief Field _defaultMenuLightsPreset, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultMenuLightsPreset,
+                      put = __cordl_internal_set__defaultMenuLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultMenuLightsPreset;
+
+  /// @brief Field _lobbyGameStateController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
+                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
+
+  /// @brief Field _lobbyLightsPreset, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyLightsPreset, put = __cordl_internal_set__lobbyLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _lobbyLightsPreset;
+
+  /// @brief Field _menuLightsManager, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager))::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
   /// @brief Field _modifiersSelectionView, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__modifiersSelectionView,
                       put = __cordl_internal_set__modifiersSelectionView))::UnityW<::GlobalNamespace::ModifiersSelectionView> _modifiersSelectionView;
-
-  /// @brief Field _countdownController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__countdownController, put = __cordl_internal_set__countdownController))::UnityW<::GlobalNamespace::CountdownController> _countdownController;
 
   /// @brief Field _multiplayerLobbyCenterScreenLayoutAnimator, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get__multiplayerLobbyCenterScreenLayoutAnimator,
       put = __cordl_internal_set__multiplayerLobbyCenterScreenLayoutAnimator))::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> _multiplayerLobbyCenterScreenLayoutAnimator;
 
-  /// @brief Field _lobbyGameStateController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
-                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
-
-  /// @brief Field _menuLightsManager, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager))::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
-
-  /// @brief Field <countdownShown>k__BackingField, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__countdownShown_k__BackingField, put = __cordl_internal_set__countdownShown_k__BackingField)) bool _countdownShown_k__BackingField;
-
-  /// @brief Field _countdownEndTime, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__countdownEndTime, put = __cordl_internal_set__countdownEndTime)) int64_t _countdownEndTime;
-
   __declspec(property(get = get_countdownShown, put = set_countdownShown)) bool countdownShown;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__defaultMenuLightsPreset();
+  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x23cb694, size 0x4, virtual false, abstract: false, final false
+  inline void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultMenuLightsPreset() const;
+  /// @brief Method Hide, addr 0x23cb460, size 0x130, virtual false, abstract: false, final false
+  inline void Hide();
 
-  constexpr void __cordl_internal_set__defaultMenuLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
+  /// @brief Method HideCountdown, addr 0x23cb590, size 0x44, virtual false, abstract: false, final false
+  inline void HideCountdown(bool instant);
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__lobbyLightsPreset();
+  static inline ::GlobalNamespace::CenterStageScreenController* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__lobbyLightsPreset() const;
+  /// @brief Method SetCountdownEndTime, addr 0x23cb610, size 0x58, virtual false, abstract: false, final false
+  inline void SetCountdownEndTime(int64_t countdownEndTime);
 
-  constexpr void __cordl_internal_set__lobbyLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
+  /// @brief Method SetNextGameplaySetupData, addr 0x23cb2fc, size 0x164, virtual false, abstract: false, final false
+  inline void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__countdownMenuLightsPreset();
+  /// @brief Method Setup, addr 0x23cb114, size 0x30, virtual false, abstract: false, final false
+  inline void Setup(bool showModifiers);
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__countdownMenuLightsPreset() const;
+  /// @brief Method Show, addr 0x23cb144, size 0x18c, virtual false, abstract: false, final false
+  inline void Show();
 
-  constexpr void __cordl_internal_set__countdownMenuLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
+  /// @brief Method ShowCountdown, addr 0x23cb5d4, size 0x3c, virtual false, abstract: false, final false
+  inline void ShowCountdown(int64_t countdownEndTime);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
+  /// @brief Method ShowCountdownColorPreset, addr 0x23cb668, size 0x2c, virtual false, abstract: false, final false
+  inline void ShowCountdownColorPreset(bool animated);
+
+  /// @brief Method ShowLobbyColorPreset, addr 0x23cb2d0, size 0x2c, virtual false, abstract: false, final false
+  inline void ShowLobbyColorPreset(bool animated);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
 
-  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
-
-  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
-
-  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::CountdownController>& __cordl_internal_get__countdownController();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
 
   constexpr ::UnityW<::GlobalNamespace::CountdownController> const& __cordl_internal_get__countdownController() const;
 
-  constexpr void __cordl_internal_set__countdownController(::UnityW<::GlobalNamespace::CountdownController> value);
+  constexpr ::UnityW<::GlobalNamespace::CountdownController>& __cordl_internal_get__countdownController();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator>& __cordl_internal_get__multiplayerLobbyCenterScreenLayoutAnimator();
+  constexpr int64_t const& __cordl_internal_get__countdownEndTime() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> const& __cordl_internal_get__multiplayerLobbyCenterScreenLayoutAnimator() const;
+  constexpr int64_t& __cordl_internal_get__countdownEndTime();
 
-  constexpr void __cordl_internal_set__multiplayerLobbyCenterScreenLayoutAnimator(::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> value);
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__countdownMenuLightsPreset() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__countdownMenuLightsPreset();
+
+  constexpr bool const& __cordl_internal_get__countdownShown_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__countdownShown_k__BackingField();
+
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultMenuLightsPreset() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__defaultMenuLightsPreset();
 
   constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __cordl_internal_get__lobbyGameStateController() const;
 
-  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__lobbyLightsPreset() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager>& __cordl_internal_get__menuLightsManager();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__lobbyLightsPreset();
 
   constexpr ::UnityW<::GlobalNamespace::MenuLightsManager> const& __cordl_internal_get__menuLightsManager() const;
 
-  constexpr void __cordl_internal_set__menuLightsManager(::UnityW<::GlobalNamespace::MenuLightsManager> value);
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager>& __cordl_internal_get__menuLightsManager();
 
-  constexpr bool& __cordl_internal_get__countdownShown_k__BackingField();
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
 
-  constexpr bool const& __cordl_internal_get__countdownShown_k__BackingField() const;
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
 
-  constexpr void __cordl_internal_set__countdownShown_k__BackingField(bool value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> const& __cordl_internal_get__multiplayerLobbyCenterScreenLayoutAnimator() const;
 
-  constexpr int64_t& __cordl_internal_get__countdownEndTime();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator>& __cordl_internal_get__multiplayerLobbyCenterScreenLayoutAnimator();
 
-  constexpr int64_t const& __cordl_internal_get__countdownEndTime() const;
+  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
+
+  constexpr void __cordl_internal_set__countdownController(::UnityW<::GlobalNamespace::CountdownController> value);
 
   constexpr void __cordl_internal_set__countdownEndTime(int64_t value);
 
-  /// @brief Method get_countdownShown, addr 0x22cc948, size 0x8, virtual false, abstract: false, final false
-  inline bool get_countdownShown();
+  constexpr void __cordl_internal_set__countdownMenuLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  /// @brief Method set_countdownShown, addr 0x22cc950, size 0xc, virtual false, abstract: false, final false
-  inline void set_countdownShown(bool value);
+  constexpr void __cordl_internal_set__countdownShown_k__BackingField(bool value);
 
-  /// @brief Method Setup, addr 0x22cc95c, size 0x30, virtual false, abstract: false, final false
-  inline void Setup(bool showModifiers);
+  constexpr void __cordl_internal_set__defaultMenuLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  /// @brief Method Show, addr 0x22cc98c, size 0x18c, virtual false, abstract: false, final false
-  inline void Show();
+  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
 
-  /// @brief Method Hide, addr 0x22ccc80, size 0x130, virtual false, abstract: false, final false
-  inline void Hide();
+  constexpr void __cordl_internal_set__lobbyLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  /// @brief Method ShowCountdown, addr 0x22ccdf4, size 0x3c, virtual false, abstract: false, final false
-  inline void ShowCountdown(int64_t countdownEndTime);
+  constexpr void __cordl_internal_set__menuLightsManager(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
-  /// @brief Method HideCountdown, addr 0x22ccdb0, size 0x44, virtual false, abstract: false, final false
-  inline void HideCountdown(bool instant);
+  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
-  /// @brief Method SetCountdownEndTime, addr 0x22cce30, size 0x58, virtual false, abstract: false, final false
-  inline void SetCountdownEndTime(int64_t countdownEndTime);
+  constexpr void __cordl_internal_set__multiplayerLobbyCenterScreenLayoutAnimator(::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> value);
 
-  /// @brief Method ShowCountdownColorPreset, addr 0x22cce88, size 0x2c, virtual false, abstract: false, final false
-  inline void ShowCountdownColorPreset(bool animated);
-
-  /// @brief Method ShowLobbyColorPreset, addr 0x22ccb18, size 0x2c, virtual false, abstract: false, final false
-  inline void ShowLobbyColorPreset(bool animated);
-
-  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x22cceb4, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
-
-  /// @brief Method SetNextGameplaySetupData, addr 0x22ccb44, size 0x13c, virtual false, abstract: false, final false
-  inline void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
-
-  static inline ::GlobalNamespace::CenterStageScreenController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22cceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cb698, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_countdownShown, addr 0x23cb100, size 0x8, virtual false, abstract: false, final false
+  inline bool get_countdownShown();
+
+  /// @brief Method set_countdownShown, addr 0x23cb108, size 0xc, virtual false, abstract: false, final false
+  inline void set_countdownShown(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CenterStageScreenController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CenterStageScreenController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CenterStageScreenController(CenterStageScreenController&&) = delete;
@@ -201,12 +205,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CenterStageScreenController(CenterStageScreenController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CenterStageScreenController();
-
-public:
   /// @brief Field _defaultMenuLightsPreset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultMenuLightsPreset;
 

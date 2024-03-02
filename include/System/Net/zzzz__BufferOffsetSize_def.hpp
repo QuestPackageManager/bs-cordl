@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::Net::BufferOffsetSize);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9100))
 // CS Name: ::System.Net::BufferOffsetSize*
 class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
@@ -31,34 +29,40 @@ public:
   /// @brief Field Size, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size)) int32_t Size;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
-
-  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_Offset();
-
-  constexpr int32_t const& __cordl_internal_get_Offset() const;
-
-  constexpr void __cordl_internal_set_Offset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_Size();
-
-  constexpr int32_t const& __cordl_internal_get_Size() const;
-
-  constexpr void __cordl_internal_set_Size(int32_t value);
+  static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
   static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x29a5d50, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
-  /// @brief Method .ctor, addr 0x29a5dfc, size 0x20, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
+
+  constexpr int32_t& __cordl_internal_get_Offset();
+
+  constexpr int32_t const& __cordl_internal_get_Size() const;
+
+  constexpr int32_t& __cordl_internal_get_Size();
+
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_Offset(int32_t value);
+
+  constexpr void __cordl_internal_set_Size(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2a91974, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
+  /// @brief Method .ctor, addr 0x2a918c8, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferOffsetSize();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferOffsetSize(BufferOffsetSize&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferOffsetSize(BufferOffsetSize const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferOffsetSize();
-
-public:
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;
 

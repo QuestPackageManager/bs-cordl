@@ -24,38 +24,36 @@ MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14484))
 // CS Name: ::IBloomPrePassParams*
 class CORDL_TYPE IBloomPrePassParams {
 public:
   // Declarations
-  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
-
-  __declspec(property(get = get_textureWidth)) int32_t textureWidth;
-
-  __declspec(property(get = get_textureHeight)) int32_t textureHeight;
-
   __declspec(property(get = get_fov))::UnityEngine::Vector2 fov;
 
   __declspec(property(get = get_linesWidth)) float_t linesWidth;
 
+  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
+
+  __declspec(property(get = get_textureHeight)) int32_t textureHeight;
+
+  __declspec(property(get = get_textureWidth)) int32_t textureWidth;
+
   __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
-
-  /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
-
-  /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_textureWidth();
-
-  /// @brief Method get_textureHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_textureHeight();
 
   /// @brief Method get_fov, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_fov();
 
   /// @brief Method get_linesWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_linesWidth();
+
+  /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
+
+  /// @brief Method get_textureHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_textureHeight();
+
+  /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_textureWidth();
 
   /// @brief Method get_toneMapping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();

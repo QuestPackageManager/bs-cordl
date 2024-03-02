@@ -59,14 +59,54 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Certificate);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1860))
 // CS Name: ::Org.BouncyCastle.X509::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
+  __declspec(property(get = get_CertificateStructure))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* CertificateStructure;
+
+  __declspec(property(get = get_IsValidNow)) bool IsValidNow;
+
+  __declspec(property(get = get_IssuerDN))::Org::BouncyCastle::Asn1::X509::X509Name* IssuerDN;
+
+  __declspec(property(get = get_IssuerUniqueID))::Org::BouncyCastle::Asn1::DerBitString* IssuerUniqueID;
+
+  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+
+  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+
+  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+
+  __declspec(property(get = get_SigAlgName))::StringW SigAlgName;
+
+  __declspec(property(get = get_SigAlgOid))::StringW SigAlgOid;
+
+  __declspec(property(get = get_SubjectDN))::Org::BouncyCastle::Asn1::X509::X509Name* SubjectDN;
+
+  __declspec(property(get = get_SubjectUniqueID))::Org::BouncyCastle::Asn1::DerBitString* SubjectUniqueID;
+
+  __declspec(property(get = get_Version)) int32_t Version;
+
+  /// @brief Field basicConstraints, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_basicConstraints, put = __cordl_internal_set_basicConstraints))::Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints;
+
   /// @brief Field c, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c;
+
+  /// @brief Field cacheLock, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_cacheLock, put = __cordl_internal_set_cacheLock))::System::Object* cacheLock;
+
+  /// @brief Field hashValue, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_hashValue, put = __cordl_internal_set_hashValue)) int32_t hashValue;
+
+  /// @brief Field hashValueSet, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get_hashValueSet, put = __cordl_internal_set_hashValueSet)) bool hashValueSet;
+
+  /// @brief Field keyUsage, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyUsage, put = __cordl_internal_set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
+
+  /// @brief Field publicKeyValue, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_publicKeyValue, put = __cordl_internal_set_publicKeyValue))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue;
 
   /// @brief Field sigAlgName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_sigAlgName, put = __cordl_internal_set_sigAlgName))::StringW sigAlgName;
@@ -74,214 +114,178 @@ public:
   /// @brief Field sigAlgParams, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sigAlgParams, put = __cordl_internal_set_sigAlgParams))::ArrayW<uint8_t, ::Array<uint8_t>*> sigAlgParams;
 
-  /// @brief Field basicConstraints, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_basicConstraints, put = __cordl_internal_set_basicConstraints))::Org::BouncyCastle::Asn1::X509::BasicConstraints* basicConstraints;
+  /// @brief Method CheckSignature, addr 0x11ea634, size 0x3e4, virtual true, abstract: false, final false
+  inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
 
-  /// @brief Field keyUsage, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyUsage, put = __cordl_internal_set_keyUsage))::ArrayW<bool, ::Array<bool>*> keyUsage;
+  /// @brief Method CheckValidity, addr 0x11e87ec, size 0x6c, virtual true, abstract: false, final false
+  inline void CheckValidity();
 
-  /// @brief Field cacheLock, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_cacheLock, put = __cordl_internal_set_cacheLock))::System::Object* cacheLock;
+  /// @brief Method CheckValidity, addr 0x11e8858, size 0x1cc, virtual true, abstract: false, final false
+  inline void CheckValidity(::System::DateTime time);
 
-  /// @brief Field publicKeyValue, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyValue, put = __cordl_internal_set_publicKeyValue))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKeyValue;
+  /// @brief Method Equals, addr 0x11e9620, size 0x118, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
 
-  /// @brief Field hashValueSet, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get_hashValueSet, put = __cordl_internal_set_hashValueSet)) bool hashValueSet;
+  /// @brief Method GetAlternativeNames, addr 0x11e9250, size 0x2dc, virtual true, abstract: false, final false
+  inline ::System::Collections::ICollection* GetAlternativeNames(::StringW oid);
 
-  /// @brief Field hashValue, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashValue, put = __cordl_internal_set_hashValue)) int32_t hashValue;
+  /// @brief Method GetBasicConstraints, addr 0x11e9140, size 0x68, virtual true, abstract: false, final false
+  inline int32_t GetBasicConstraints();
 
-  __declspec(property(get = get_CertificateStructure))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* CertificateStructure;
+  /// @brief Method GetEncoded, addr 0x11e9604, size 0x1c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  __declspec(property(get = get_IsValidNow)) bool IsValidNow;
+  /// @brief Method GetExtendedKeyUsage, addr 0x11e8c6c, size 0x4d4, virtual true, abstract: false, final false
+  inline ::System::Collections::IList* GetExtendedKeyUsage();
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  /// @brief Method GetHashCode, addr 0x11e9738, size 0x5c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+  /// @brief Method GetIssuerAlternativeNames, addr 0x11e91fc, size 0x54, virtual true, abstract: false, final false
+  inline ::System::Collections::ICollection* GetIssuerAlternativeNames();
 
-  __declspec(property(get = get_IssuerDN))::Org::BouncyCastle::Asn1::X509::X509Name* IssuerDN;
+  /// @brief Method GetKeyUsage, addr 0x11e8c10, size 0x5c, virtual true, abstract: false, final false
+  inline ::ArrayW<bool, ::Array<bool>*> GetKeyUsage();
 
-  __declspec(property(get = get_SubjectDN))::Org::BouncyCastle::Asn1::X509::X509Name* SubjectDN;
+  /// @brief Method GetPublicKey, addr 0x11e9570, size 0x94, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
 
-  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+  /// @brief Method GetSigAlgParams, addr 0x11e8b6c, size 0x5c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSigAlgParams();
 
-  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+  /// @brief Method GetSignature, addr 0x11e8b14, size 0x1c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
 
-  __declspec(property(get = get_SigAlgName))::StringW SigAlgName;
+  /// @brief Method GetSubjectAlternativeNames, addr 0x11e91a8, size 0x54, virtual true, abstract: false, final false
+  inline ::System::Collections::ICollection* GetSubjectAlternativeNames();
 
-  __declspec(property(get = get_SigAlgOid))::StringW SigAlgOid;
+  /// @brief Method GetTbsCertificate, addr 0x11e8af0, size 0x24, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetTbsCertificate();
 
-  __declspec(property(get = get_IssuerUniqueID))::Org::BouncyCastle::Asn1::DerBitString* IssuerUniqueID;
+  /// @brief Method GetX509Extensions, addr 0x11e952c, size 0x44, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  __declspec(property(get = get_SubjectUniqueID))::Org::BouncyCastle::Asn1::DerBitString* SubjectUniqueID;
+  /// @brief Method IsAlgIDEqual, addr 0x11eaa18, size 0x14c, virtual false, abstract: false, final false
+  static inline bool IsAlgIDEqual(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id1, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id2);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& __cordl_internal_get_c();
+  /// @brief Method IsValid, addr 0x11e871c, size 0xd0, virtual true, abstract: false, final false
+  inline bool IsValid(::System::DateTime time);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> const& __cordl_internal_get_c() const;
+  static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor();
 
-  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
+  static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
 
-  constexpr ::StringW& __cordl_internal_get_sigAlgName();
+  /// @brief Method ToString, addr 0x11e9794, size 0xd48, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-  constexpr ::StringW const& __cordl_internal_get_sigAlgName() const;
+  /// @brief Method Verify, addr 0x11ea4dc, size 0x90, virtual true, abstract: false, final false
+  inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  constexpr void __cordl_internal_set_sigAlgName(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sigAlgParams();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sigAlgParams() const;
-
-  constexpr void __cordl_internal_set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method Verify, addr 0x11ea56c, size 0xc8, virtual true, abstract: false, final false
+  inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::BasicConstraints*& __cordl_internal_get_basicConstraints();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::BasicConstraints*> const& __cordl_internal_get_basicConstraints() const;
 
-  constexpr void __cordl_internal_set_basicConstraints(::Org::BouncyCastle::Asn1::X509::BasicConstraints* value);
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& __cordl_internal_get_c();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_keyUsage();
-
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_keyUsage() const;
-
-  constexpr void __cordl_internal_set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> const& __cordl_internal_get_c() const;
 
   constexpr ::System::Object*& __cordl_internal_get_cacheLock();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_cacheLock() const;
 
-  constexpr void __cordl_internal_set_cacheLock(::System::Object* value);
+  constexpr int32_t const& __cordl_internal_get_hashValue() const;
+
+  constexpr int32_t& __cordl_internal_get_hashValue();
+
+  constexpr bool const& __cordl_internal_get_hashValueSet() const;
+
+  constexpr bool& __cordl_internal_get_hashValueSet();
+
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_keyUsage() const;
+
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_keyUsage();
 
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_publicKeyValue();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_publicKeyValue() const;
 
-  constexpr void __cordl_internal_set_publicKeyValue(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr ::StringW const& __cordl_internal_get_sigAlgName() const;
 
-  constexpr bool& __cordl_internal_get_hashValueSet();
+  constexpr ::StringW& __cordl_internal_get_sigAlgName();
 
-  constexpr bool const& __cordl_internal_get_hashValueSet() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sigAlgParams() const;
 
-  constexpr void __cordl_internal_set_hashValueSet(bool value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sigAlgParams();
 
-  constexpr int32_t& __cordl_internal_get_hashValue();
+  constexpr void __cordl_internal_set_basicConstraints(::Org::BouncyCastle::Asn1::X509::BasicConstraints* value);
 
-  constexpr int32_t const& __cordl_internal_get_hashValue() const;
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
+
+  constexpr void __cordl_internal_set_cacheLock(::System::Object* value);
 
   constexpr void __cordl_internal_set_hashValue(int32_t value);
 
-  static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor();
+  constexpr void __cordl_internal_set_hashValueSet(bool value);
 
-  /// @brief Method .ctor, addr 0x1176fcc, size 0x68, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_keyUsage(::ArrayW<bool, ::Array<bool>*> value);
+
+  constexpr void __cordl_internal_set_publicKeyValue(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+
+  constexpr void __cordl_internal_set_sigAlgName(::StringW value);
+
+  constexpr void __cordl_internal_set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x11e7e2c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::X509::X509Certificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
-
-  /// @brief Method .ctor, addr 0x1177034, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7e94, size 0x530, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
 
-  /// @brief Method get_CertificateStructure, addr 0x1177848, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateStructure, addr 0x11e86a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_CertificateStructure();
 
-  /// @brief Method get_IsValidNow, addr 0x1177850, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_IsValidNow, addr 0x11e86b0, size 0x6c, virtual true, abstract: false, final false
   inline bool get_IsValidNow();
 
-  /// @brief Method IsValid, addr 0x11778bc, size 0xd0, virtual true, abstract: false, final false
-  inline bool IsValid(::System::DateTime time);
-
-  /// @brief Method CheckValidity, addr 0x117798c, size 0x6c, virtual true, abstract: false, final false
-  inline void CheckValidity();
-
-  /// @brief Method CheckValidity, addr 0x11779f8, size 0x1cc, virtual true, abstract: false, final false
-  inline void CheckValidity(::System::DateTime time);
-
-  /// @brief Method get_Version, addr 0x1177bc4, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t get_Version();
-
-  /// @brief Method get_SerialNumber, addr 0x1177be0, size 0x28, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
-
-  /// @brief Method get_IssuerDN, addr 0x1177c08, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IssuerDN, addr 0x11e8a68, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
 
-  /// @brief Method get_SubjectDN, addr 0x1177c24, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
-
-  /// @brief Method get_NotBefore, addr 0x1177c40, size 0x28, virtual true, abstract: false, final false
-  inline ::System::DateTime get_NotBefore();
-
-  /// @brief Method get_NotAfter, addr 0x1177c68, size 0x28, virtual true, abstract: false, final false
-  inline ::System::DateTime get_NotAfter();
-
-  /// @brief Method GetTbsCertificate, addr 0x1177c90, size 0x24, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetTbsCertificate();
-
-  /// @brief Method GetSignature, addr 0x1177cb4, size 0x1c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
-
-  /// @brief Method get_SigAlgName, addr 0x1177cd0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_SigAlgName();
-
-  /// @brief Method get_SigAlgOid, addr 0x1177cd8, size 0x34, virtual true, abstract: false, final false
-  inline ::StringW get_SigAlgOid();
-
-  /// @brief Method GetSigAlgParams, addr 0x1177d0c, size 0x5c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSigAlgParams();
-
-  /// @brief Method get_IssuerUniqueID, addr 0x1177d68, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IssuerUniqueID, addr 0x11e8bc8, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUniqueID();
 
-  /// @brief Method get_SubjectUniqueID, addr 0x1177d8c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x11e8ac8, size 0x28, virtual true, abstract: false, final false
+  inline ::System::DateTime get_NotAfter();
+
+  /// @brief Method get_NotBefore, addr 0x11e8aa0, size 0x28, virtual true, abstract: false, final false
+  inline ::System::DateTime get_NotBefore();
+
+  /// @brief Method get_SerialNumber, addr 0x11e8a40, size 0x28, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
+
+  /// @brief Method get_SigAlgName, addr 0x11e8b30, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_SigAlgName();
+
+  /// @brief Method get_SigAlgOid, addr 0x11e8b38, size 0x34, virtual true, abstract: false, final false
+  inline ::StringW get_SigAlgOid();
+
+  /// @brief Method get_SubjectDN, addr 0x11e8a84, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_SubjectDN();
+
+  /// @brief Method get_SubjectUniqueID, addr 0x11e8bec, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUniqueID();
 
-  /// @brief Method GetKeyUsage, addr 0x1177db0, size 0x5c, virtual true, abstract: false, final false
-  inline ::ArrayW<bool, ::Array<bool>*> GetKeyUsage();
+  /// @brief Method get_Version, addr 0x11e8a24, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t get_Version();
 
-  /// @brief Method GetExtendedKeyUsage, addr 0x1177e0c, size 0x4d4, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* GetExtendedKeyUsage();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Certificate();
 
-  /// @brief Method GetBasicConstraints, addr 0x11782e0, size 0x68, virtual true, abstract: false, final false
-  inline int32_t GetBasicConstraints();
-
-  /// @brief Method GetSubjectAlternativeNames, addr 0x1178348, size 0x54, virtual true, abstract: false, final false
-  inline ::System::Collections::ICollection* GetSubjectAlternativeNames();
-
-  /// @brief Method GetIssuerAlternativeNames, addr 0x117839c, size 0x54, virtual true, abstract: false, final false
-  inline ::System::Collections::ICollection* GetIssuerAlternativeNames();
-
-  /// @brief Method GetAlternativeNames, addr 0x11783f0, size 0x2dc, virtual true, abstract: false, final false
-  inline ::System::Collections::ICollection* GetAlternativeNames(::StringW oid);
-
-  /// @brief Method GetX509Extensions, addr 0x11786cc, size 0x44, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
-
-  /// @brief Method GetPublicKey, addr 0x1178710, size 0x94, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
-
-  /// @brief Method GetEncoded, addr 0x11787a4, size 0x1c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
-
-  /// @brief Method Equals, addr 0x11787c0, size 0x118, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
-
-  /// @brief Method GetHashCode, addr 0x11788d8, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x1178934, size 0xd48, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Verify, addr 0x117967c, size 0x90, virtual true, abstract: false, final false
-  inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
-
-  /// @brief Method Verify, addr 0x117970c, size 0xc8, virtual true, abstract: false, final false
-  inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
-
-  /// @brief Method CheckSignature, addr 0x11797d4, size 0x3e4, virtual true, abstract: false, final false
-  inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
-
-  /// @brief Method IsAlgIDEqual, addr 0x1179bb8, size 0x14c, virtual false, abstract: false, final false
-  static inline bool IsAlgIDEqual(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id1, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* id2);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Certificate(X509Certificate&&) = delete;
@@ -290,12 +294,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Certificate(X509Certificate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Certificate();
-
-public:
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* ___c;
 

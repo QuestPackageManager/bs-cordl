@@ -20,73 +20,77 @@ MARK_REF_PTR_T(::UnityEngine::AsyncOperation);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10191))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10201))
 // CS Name: ::UnityEngine::AsyncOperation*
 class CORDL_TYPE AsyncOperation : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
+  __declspec(property(get = get_allowSceneActivation, put = set_allowSceneActivation)) bool allowSceneActivation;
+
+  __declspec(property(get = get_isDone)) bool isDone;
+
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_completeCallback, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_completeCallback, put = __cordl_internal_set_m_completeCallback))::System::Action_1<::UnityEngine::AsyncOperation*>* m_completeCallback;
 
-  __declspec(property(get = get_isDone)) bool isDone;
+  __declspec(property(put = set_priority)) int32_t priority;
 
   __declspec(property(get = get_progress)) float_t progress;
 
-  __declspec(property(put = set_priority)) int32_t priority;
+  /// @brief Method Finalize, addr 0x2dc2c30, size 0xbc, virtual true, abstract: false, final false
+  inline void Finalize();
 
-  __declspec(property(get = get_allowSceneActivation, put = set_allowSceneActivation)) bool allowSceneActivation;
+  /// @brief Method InternalDestroy, addr 0x2dc2cec, size 0x3c, virtual false, abstract: false, final false
+  static inline void InternalDestroy(void* ptr);
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  /// @brief Method InvokeCompletionEvent, addr 0x2dc2d28, size 0x30, virtual false, abstract: false, final false
+  inline void InvokeCompletionEvent();
+
+  static inline ::UnityEngine::AsyncOperation* New_ctor();
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
   constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>*& __cordl_internal_get_m_completeCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::AsyncOperation*>*> const& __cordl_internal_get_m_completeCallback() const;
 
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method Finalize, addr 0x2cd0638, size 0xbc, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method InvokeCompletionEvent, addr 0x2cd0730, size 0x30, virtual false, abstract: false, final false
-  inline void InvokeCompletionEvent();
-
-  /// @brief Method add_completed, addr 0x2cd0760, size 0xfc, virtual false, abstract: false, final false
-  inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
-
-  /// @brief Method remove_completed, addr 0x2cd0898, size 0xa8, virtual false, abstract: false, final false
-  inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
-
-  /// @brief Method InternalDestroy, addr 0x2cd06f4, size 0x3c, virtual false, abstract: false, final false
-  static inline void InternalDestroy(void* ptr);
-
-  /// @brief Method get_isDone, addr 0x2cd085c, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_isDone();
-
-  /// @brief Method get_progress, addr 0x2cd0940, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_progress();
-
-  /// @brief Method set_priority, addr 0x2cd097c, size 0x44, virtual false, abstract: false, final false
-  inline void set_priority(int32_t value);
-
-  /// @brief Method get_allowSceneActivation, addr 0x2cd09c0, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_allowSceneActivation();
-
-  /// @brief Method set_allowSceneActivation, addr 0x2cd09fc, size 0x44, virtual false, abstract: false, final false
-  inline void set_allowSceneActivation(bool value);
-
-  static inline ::UnityEngine::AsyncOperation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2cd0a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dc3038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_completed, addr 0x2dc2d58, size 0xfc, virtual false, abstract: false, final false
+  inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
+
+  /// @brief Method get_allowSceneActivation, addr 0x2dc2fb8, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_allowSceneActivation();
+
+  /// @brief Method get_isDone, addr 0x2dc2e54, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_isDone();
+
+  /// @brief Method get_progress, addr 0x2dc2f38, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_progress();
+
+  /// @brief Method remove_completed, addr 0x2dc2e90, size 0xa8, virtual false, abstract: false, final false
+  inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
+
+  /// @brief Method set_allowSceneActivation, addr 0x2dc2ff4, size 0x44, virtual false, abstract: false, final false
+  inline void set_allowSceneActivation(bool value);
+
+  /// @brief Method set_priority, addr 0x2dc2f74, size 0x44, virtual false, abstract: false, final false
+  inline void set_priority(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncOperation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperation(AsyncOperation&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncOperation(AsyncOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncOperation();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

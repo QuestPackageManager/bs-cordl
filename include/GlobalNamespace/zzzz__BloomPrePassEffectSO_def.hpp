@@ -29,89 +29,93 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14579))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::BloomPrePassEffectSO*
 class CORDL_TYPE BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO {
 public:
   // Declarations
-  /// @brief Field _textureWidth, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
-
-  /// @brief Field _textureHeight, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__textureHeight, put = __cordl_internal_set__textureHeight)) int32_t _textureHeight;
-
   /// @brief Field _fov, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__fov, put = __cordl_internal_set__fov))::UnityEngine::Vector2 _fov;
 
   /// @brief Field _linesWidth, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__linesWidth, put = __cordl_internal_set__linesWidth)) float_t _linesWidth;
 
-  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
+  /// @brief Field _textureHeight, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__textureHeight, put = __cordl_internal_set__textureHeight)) int32_t _textureHeight;
 
-  __declspec(property(get = get_textureWidth)) int32_t textureWidth;
-
-  __declspec(property(get = get_textureHeight)) int32_t textureHeight;
+  /// @brief Field _textureWidth, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
 
   __declspec(property(get = get_fov))::UnityEngine::Vector2 fov;
 
   __declspec(property(get = get_linesWidth)) float_t linesWidth;
+
+  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
+
+  __declspec(property(get = get_textureHeight)) int32_t textureHeight;
+
+  __declspec(property(get = get_textureWidth)) int32_t textureWidth;
 
   __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
 
   /// @brief Convert operator to "::GlobalNamespace::IBloomPrePassParams"
   constexpr operator ::GlobalNamespace::IBloomPrePassParams*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"
-  constexpr ::GlobalNamespace::IBloomPrePassParams* i___GlobalNamespace__IBloomPrePassParams() noexcept;
-
-  constexpr int32_t& __cordl_internal_get__textureWidth();
-
-  constexpr int32_t const& __cordl_internal_get__textureWidth() const;
-
-  constexpr void __cordl_internal_set__textureWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__textureHeight();
-
-  constexpr int32_t const& __cordl_internal_get__textureHeight() const;
-
-  constexpr void __cordl_internal_set__textureHeight(int32_t value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__fov();
+  static inline ::GlobalNamespace::BloomPrePassEffectSO* New_ctor();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__fov() const;
 
-  constexpr void __cordl_internal_set__fov(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get__linesWidth();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__fov();
 
   constexpr float_t const& __cordl_internal_get__linesWidth() const;
 
+  constexpr float_t& __cordl_internal_get__linesWidth();
+
+  constexpr int32_t const& __cordl_internal_get__textureHeight() const;
+
+  constexpr int32_t& __cordl_internal_get__textureHeight();
+
+  constexpr int32_t const& __cordl_internal_get__textureWidth() const;
+
+  constexpr int32_t& __cordl_internal_get__textureWidth();
+
+  constexpr void __cordl_internal_set__fov(::UnityEngine::Vector2 value);
+
   constexpr void __cordl_internal_set__linesWidth(float_t value);
 
-  /// @brief Method get_textureEffect, addr 0x21068e4, size 0x4, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
+  constexpr void __cordl_internal_set__textureHeight(int32_t value);
 
-  /// @brief Method get_textureWidth, addr 0x21068e8, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_textureWidth();
+  constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  /// @brief Method get_textureHeight, addr 0x21068f0, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_textureHeight();
-
-  /// @brief Method get_fov, addr 0x21068f8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Vector2 get_fov();
-
-  /// @brief Method get_linesWidth, addr 0x2106900, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_linesWidth();
-
-  /// @brief Method get_toneMapping, addr 0x2106908, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::ToneMapping get_toneMapping();
-
-  static inline ::GlobalNamespace::BloomPrePassEffectSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2106910, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269720, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_fov, addr 0x2269708, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::Vector2 get_fov();
+
+  /// @brief Method get_linesWidth, addr 0x2269710, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_linesWidth();
+
+  /// @brief Method get_textureEffect, addr 0x22696f4, size 0x4, virtual true, abstract: false, final true
+  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
+
+  /// @brief Method get_textureHeight, addr 0x2269700, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_textureHeight();
+
+  /// @brief Method get_textureWidth, addr 0x22696f8, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_textureWidth();
+
+  /// @brief Method get_toneMapping, addr 0x2269718, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::ToneMapping get_toneMapping();
+
+  /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"
+  constexpr ::GlobalNamespace::IBloomPrePassParams* i___GlobalNamespace__IBloomPrePassParams() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassEffectSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassEffectSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassEffectSO(BloomPrePassEffectSO&&) = delete;
@@ -120,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassEffectSO(BloomPrePassEffectSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassEffectSO();
-
-public:
   /// @brief Field _textureWidth, offset: 0x18, size: 0x4, def value: None
   int32_t ____textureWidth;
 

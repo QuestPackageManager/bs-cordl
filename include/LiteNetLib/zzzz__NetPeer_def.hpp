@@ -82,12 +82,13 @@ MARK_REF_PTR_T(::LiteNetLib::__NetPeer__IncomingFragments);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14177))
 // CS Name: ::NetPeer::IncomingFragments*
 class CORDL_TYPE __NetPeer__IncomingFragments : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field ChannelId, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_ChannelId, put = __cordl_internal_set_ChannelId)) uint8_t ChannelId;
+
   /// @brief Field Fragments, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Fragments, put = __cordl_internal_set_Fragments))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> Fragments;
 
@@ -97,38 +98,41 @@ public:
   /// @brief Field TotalSize, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_TotalSize, put = __cordl_internal_set_TotalSize)) int32_t TotalSize;
 
-  /// @brief Field ChannelId, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_ChannelId, put = __cordl_internal_set_ChannelId)) uint8_t ChannelId;
-
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get_Fragments();
-
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get_Fragments() const;
-
-  constexpr void __cordl_internal_set_Fragments(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
-
-  constexpr int32_t& __cordl_internal_get_ReceivedCount();
-
-  constexpr int32_t const& __cordl_internal_get_ReceivedCount() const;
-
-  constexpr void __cordl_internal_set_ReceivedCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_TotalSize();
-
-  constexpr int32_t const& __cordl_internal_get_TotalSize() const;
-
-  constexpr void __cordl_internal_set_TotalSize(int32_t value);
-
-  constexpr uint8_t& __cordl_internal_get_ChannelId();
+  static inline ::LiteNetLib::__NetPeer__IncomingFragments* New_ctor();
 
   constexpr uint8_t const& __cordl_internal_get_ChannelId() const;
 
+  constexpr uint8_t& __cordl_internal_get_ChannelId();
+
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get_Fragments() const;
+
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get_Fragments();
+
+  constexpr int32_t const& __cordl_internal_get_ReceivedCount() const;
+
+  constexpr int32_t& __cordl_internal_get_ReceivedCount();
+
+  constexpr int32_t const& __cordl_internal_get_TotalSize() const;
+
+  constexpr int32_t& __cordl_internal_get_TotalSize();
+
   constexpr void __cordl_internal_set_ChannelId(uint8_t value);
 
-  static inline ::LiteNetLib::__NetPeer__IncomingFragments* New_ctor();
+  constexpr void __cordl_internal_set_Fragments(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-  /// @brief Method .ctor, addr 0x220455c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_ReceivedCount(int32_t value);
+
+  constexpr void __cordl_internal_set_TotalSize(int32_t value);
+
+  /// @brief Method .ctor, addr 0x23664ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NetPeer__IncomingFragments();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NetPeer__IncomingFragments", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NetPeer__IncomingFragments(__NetPeer__IncomingFragments&&) = delete;
@@ -137,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetPeer__IncomingFragments(__NetPeer__IncomingFragments const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NetPeer__IncomingFragments();
-
-public:
   /// @brief Field Fragments, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> ___Fragments;
 
@@ -173,97 +171,100 @@ static_assert(offsetof(::LiteNetLib::__NetPeer__IncomingFragments, ___ChannelId)
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14173))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14178))
 // CS Name: ::LiteNetLib::NetPeer*
 class CORDL_TYPE NetPeer : public ::System::Object {
 public:
   // Declarations
   using IncomingFragments = ::LiteNetLib::__NetPeer__IncomingFragments;
 
-  /// @brief Field _rtt, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__rtt, put = __cordl_internal_set__rtt)) int32_t _rtt;
+  __declspec(property(get = get_ConnectTime)) int64_t ConnectTime;
 
-  /// @brief Field _avgRtt, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__avgRtt, put = __cordl_internal_set__avgRtt)) int32_t _avgRtt;
+  __declspec(property(get = get_ConnectionNum, put = set_ConnectionNum)) uint8_t ConnectionNum;
 
-  /// @brief Field _rttCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__rttCount, put = __cordl_internal_set__rttCount)) int32_t _rttCount;
+  __declspec(property(get = get_ConnectionState))::LiteNetLib::ConnectionState ConnectionState;
 
-  /// @brief Field _resendDelay, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__resendDelay, put = __cordl_internal_set__resendDelay)) double_t _resendDelay;
+  /// @brief Field EndPoint, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get_EndPoint, put = __cordl_internal_set_EndPoint))::System::Net::IPEndPoint* EndPoint;
 
-  /// @brief Field _pingSendTimer, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__pingSendTimer, put = __cordl_internal_set__pingSendTimer)) int32_t _pingSendTimer;
+  /// @brief Field Id, offset 0x130, size 0x4
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) int32_t Id;
 
-  /// @brief Field _rttResetTimer, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__rttResetTimer, put = __cordl_internal_set__rttResetTimer)) int32_t _rttResetTimer;
+  __declspec(property(get = get_Mtu)) int32_t Mtu;
 
-  /// @brief Field _pingTimer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__pingTimer, put = __cordl_internal_set__pingTimer))::System::Diagnostics::Stopwatch* _pingTimer;
-
-  /// @brief Field _timeSinceLastPacket, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeSinceLastPacket, put = __cordl_internal_set__timeSinceLastPacket)) int32_t _timeSinceLastPacket;
-
-  /// @brief Field _remoteDelta, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__remoteDelta, put = __cordl_internal_set__remoteDelta)) int64_t _remoteDelta;
-
-  /// @brief Field _packetPool, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__packetPool, put = __cordl_internal_set__packetPool))::LiteNetLib::NetPacketPool* _packetPool;
-
-  /// @brief Field _flushLock, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__flushLock, put = __cordl_internal_set__flushLock))::System::Object* _flushLock;
-
-  /// @brief Field _sendLock, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__sendLock, put = __cordl_internal_set__sendLock))::System::Object* _sendLock;
-
-  /// @brief Field _shutdownLock, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__shutdownLock, put = __cordl_internal_set__shutdownLock))::System::Object* _shutdownLock;
+  /// @brief Field NetManager, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get_NetManager, put = __cordl_internal_set_NetManager))::LiteNetLib::NetManager* NetManager;
 
   /// @brief Field NextPeer, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_NextPeer, put = __cordl_internal_set_NextPeer))::LiteNetLib::NetPeer* NextPeer;
 
+  __declspec(property(get = get_Ping)) int32_t Ping;
+
   /// @brief Field PrevPeer, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_PrevPeer, put = __cordl_internal_set_PrevPeer))::LiteNetLib::NetPeer* PrevPeer;
 
-  /// @brief Field _unreliableChannel, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__unreliableChannel,
-                      put = __cordl_internal_set__unreliableChannel))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* _unreliableChannel;
+  __declspec(property(get = get_RemoteTimeDelta)) int64_t RemoteTimeDelta;
+
+  __declspec(property(get = get_RemoteUtcTime))::System::DateTime RemoteUtcTime;
+
+  __declspec(property(get = get_ResendDelay)) double_t ResendDelay;
+
+  /// @brief Field Statistics, offset 0x140, size 0x8
+  __declspec(property(get = __cordl_internal_get_Statistics, put = __cordl_internal_set_Statistics))::LiteNetLib::NetStatistics* Statistics;
+
+  /// @brief Field Tag, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag))::System::Object* Tag;
+
+  __declspec(property(get = get_TimeSinceLastPacket)) int32_t TimeSinceLastPacket;
+
+  /// @brief Field _avgRtt, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__avgRtt, put = __cordl_internal_set__avgRtt)) int32_t _avgRtt;
 
   /// @brief Field _channels, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__channels, put = __cordl_internal_set__channels))::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> _channels;
 
-  /// @brief Field _headChannel, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__headChannel, put = __cordl_internal_set__headChannel))::LiteNetLib::BaseChannel* _headChannel;
+  /// @brief Field _connectAcceptPacket, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectAcceptPacket, put = __cordl_internal_set__connectAcceptPacket))::LiteNetLib::NetPacket* _connectAcceptPacket;
 
-  /// @brief Field _mtu, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__mtu, put = __cordl_internal_set__mtu)) int32_t _mtu;
+  /// @brief Field _connectAttempts, offset 0xd8, size 0x4
+  __declspec(property(get = __cordl_internal_get__connectAttempts, put = __cordl_internal_set__connectAttempts)) int32_t _connectAttempts;
 
-  /// @brief Field _mtuIdx, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__mtuIdx, put = __cordl_internal_set__mtuIdx)) int32_t _mtuIdx;
+  /// @brief Field _connectNum, offset 0xe8, size 0x1
+  __declspec(property(get = __cordl_internal_get__connectNum, put = __cordl_internal_set__connectNum)) uint8_t _connectNum;
+
+  /// @brief Field _connectRequestPacket, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectRequestPacket, put = __cordl_internal_set__connectRequestPacket))::LiteNetLib::NetPacket* _connectRequestPacket;
+
+  /// @brief Field _connectTime, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectTime, put = __cordl_internal_set__connectTime)) int64_t _connectTime;
+
+  /// @brief Field _connectTimer, offset 0xdc, size 0x4
+  __declspec(property(get = __cordl_internal_get__connectTimer, put = __cordl_internal_set__connectTimer)) int32_t _connectTimer;
+
+  /// @brief Field _connectionState, offset 0xe9, size 0x1
+  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::LiteNetLib::ConnectionState _connectionState;
+
+  /// @brief Field _deliveredFramgnets, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__deliveredFramgnets,
+                      put = __cordl_internal_set__deliveredFramgnets))::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* _deliveredFramgnets;
 
   /// @brief Field _finishMtu, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__finishMtu, put = __cordl_internal_set__finishMtu)) bool _finishMtu;
 
-  /// @brief Field _mtuCheckTimer, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__mtuCheckTimer, put = __cordl_internal_set__mtuCheckTimer)) int32_t _mtuCheckTimer;
-
-  /// @brief Field _mtuCheckAttempts, offset 0xa0, size 0x4
-  __declspec(property(get = __cordl_internal_get__mtuCheckAttempts, put = __cordl_internal_set__mtuCheckAttempts)) int32_t _mtuCheckAttempts;
-
-  /// @brief Field _mtuMutex, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__mtuMutex, put = __cordl_internal_set__mtuMutex))::System::Object* _mtuMutex;
+  /// @brief Field _flushLock, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__flushLock, put = __cordl_internal_set__flushLock))::System::Object* _flushLock;
 
   /// @brief Field _fragmentId, offset 0xb0, size 0x2
   __declspec(property(get = __cordl_internal_get__fragmentId, put = __cordl_internal_set__fragmentId)) uint16_t _fragmentId;
+
+  /// @brief Field _headChannel, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__headChannel, put = __cordl_internal_set__headChannel))::LiteNetLib::BaseChannel* _headChannel;
 
   /// @brief Field _holdedFragments, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__holdedFragments,
                       put = __cordl_internal_set__holdedFragments))::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>* _holdedFragments;
 
-  /// @brief Field _deliveredFramgnets, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__deliveredFramgnets,
-                      put = __cordl_internal_set__deliveredFramgnets))::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* _deliveredFramgnets;
+  /// @brief Field _mergeCount, offset 0xd4, size 0x4
+  __declspec(property(get = __cordl_internal_get__mergeCount, put = __cordl_internal_set__mergeCount)) int32_t _mergeCount;
 
   /// @brief Field _mergeData, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__mergeData, put = __cordl_internal_set__mergeData))::LiteNetLib::NetPacket* _mergeData;
@@ -271,23 +272,56 @@ public:
   /// @brief Field _mergePos, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get__mergePos, put = __cordl_internal_set__mergePos)) int32_t _mergePos;
 
-  /// @brief Field _mergeCount, offset 0xd4, size 0x4
-  __declspec(property(get = __cordl_internal_get__mergeCount, put = __cordl_internal_set__mergeCount)) int32_t _mergeCount;
+  /// @brief Field _mtu, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get__mtu, put = __cordl_internal_set__mtu)) int32_t _mtu;
 
-  /// @brief Field _connectAttempts, offset 0xd8, size 0x4
-  __declspec(property(get = __cordl_internal_get__connectAttempts, put = __cordl_internal_set__connectAttempts)) int32_t _connectAttempts;
+  /// @brief Field _mtuCheckAttempts, offset 0xa0, size 0x4
+  __declspec(property(get = __cordl_internal_get__mtuCheckAttempts, put = __cordl_internal_set__mtuCheckAttempts)) int32_t _mtuCheckAttempts;
 
-  /// @brief Field _connectTimer, offset 0xdc, size 0x4
-  __declspec(property(get = __cordl_internal_get__connectTimer, put = __cordl_internal_set__connectTimer)) int32_t _connectTimer;
+  /// @brief Field _mtuCheckTimer, offset 0x9c, size 0x4
+  __declspec(property(get = __cordl_internal_get__mtuCheckTimer, put = __cordl_internal_set__mtuCheckTimer)) int32_t _mtuCheckTimer;
 
-  /// @brief Field _connectTime, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectTime, put = __cordl_internal_set__connectTime)) int64_t _connectTime;
+  /// @brief Field _mtuIdx, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__mtuIdx, put = __cordl_internal_set__mtuIdx)) int32_t _mtuIdx;
 
-  /// @brief Field _connectNum, offset 0xe8, size 0x1
-  __declspec(property(get = __cordl_internal_get__connectNum, put = __cordl_internal_set__connectNum)) uint8_t _connectNum;
+  /// @brief Field _mtuMutex, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__mtuMutex, put = __cordl_internal_set__mtuMutex))::System::Object* _mtuMutex;
 
-  /// @brief Field _connectionState, offset 0xe9, size 0x1
-  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::LiteNetLib::ConnectionState _connectionState;
+  /// @brief Field _packetPool, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__packetPool, put = __cordl_internal_set__packetPool))::LiteNetLib::NetPacketPool* _packetPool;
+
+  /// @brief Field _pingPacket, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get__pingPacket, put = __cordl_internal_set__pingPacket))::LiteNetLib::NetPacket* _pingPacket;
+
+  /// @brief Field _pingSendTimer, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__pingSendTimer, put = __cordl_internal_set__pingSendTimer)) int32_t _pingSendTimer;
+
+  /// @brief Field _pingTimer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__pingTimer, put = __cordl_internal_set__pingTimer))::System::Diagnostics::Stopwatch* _pingTimer;
+
+  /// @brief Field _pongPacket, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__pongPacket, put = __cordl_internal_set__pongPacket))::LiteNetLib::NetPacket* _pongPacket;
+
+  /// @brief Field _remoteDelta, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__remoteDelta, put = __cordl_internal_set__remoteDelta)) int64_t _remoteDelta;
+
+  /// @brief Field _resendDelay, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__resendDelay, put = __cordl_internal_set__resendDelay)) double_t _resendDelay;
+
+  /// @brief Field _rtt, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__rtt, put = __cordl_internal_set__rtt)) int32_t _rtt;
+
+  /// @brief Field _rttCount, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__rttCount, put = __cordl_internal_set__rttCount)) int32_t _rttCount;
+
+  /// @brief Field _rttResetTimer, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__rttResetTimer, put = __cordl_internal_set__rttResetTimer)) int32_t _rttResetTimer;
+
+  /// @brief Field _sendLock, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__sendLock, put = __cordl_internal_set__sendLock))::System::Object* _sendLock;
+
+  /// @brief Field _shutdownLock, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__shutdownLock, put = __cordl_internal_set__shutdownLock))::System::Object* _shutdownLock;
 
   /// @brief Field _shutdownPacket, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__shutdownPacket, put = __cordl_internal_set__shutdownPacket))::LiteNetLib::NetPacket* _shutdownPacket;
@@ -295,474 +329,442 @@ public:
   /// @brief Field _shutdownTimer, offset 0xf8, size 0x4
   __declspec(property(get = __cordl_internal_get__shutdownTimer, put = __cordl_internal_set__shutdownTimer)) int32_t _shutdownTimer;
 
-  /// @brief Field _pingPacket, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get__pingPacket, put = __cordl_internal_set__pingPacket))::LiteNetLib::NetPacket* _pingPacket;
+  /// @brief Field _timeSinceLastPacket, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeSinceLastPacket, put = __cordl_internal_set__timeSinceLastPacket)) int32_t _timeSinceLastPacket;
 
-  /// @brief Field _pongPacket, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__pongPacket, put = __cordl_internal_set__pongPacket))::LiteNetLib::NetPacket* _pongPacket;
+  /// @brief Field _unreliableChannel, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__unreliableChannel,
+                      put = __cordl_internal_set__unreliableChannel))::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* _unreliableChannel;
 
-  /// @brief Field _connectRequestPacket, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectRequestPacket, put = __cordl_internal_set__connectRequestPacket))::LiteNetLib::NetPacket* _connectRequestPacket;
+  /// @brief Method AddReliablePacket, addr 0x23660cc, size 0x3e0, virtual false, abstract: false, final false
+  inline void AddReliablePacket(::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPacket* p);
 
-  /// @brief Field _connectAcceptPacket, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectAcceptPacket, put = __cordl_internal_set__connectAcceptPacket))::LiteNetLib::NetPacket* _connectAcceptPacket;
+  /// @brief Method CreateChannel, addr 0x23654b8, size 0x174, virtual false, abstract: false, final false
+  inline ::LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
 
-  /// @brief Field EndPoint, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_EndPoint, put = __cordl_internal_set_EndPoint))::System::Net::IPEndPoint* EndPoint;
+  /// @brief Method Disconnect, addr 0x236604c, size 0x44, virtual false, abstract: false, final false
+  inline void Disconnect();
 
-  /// @brief Field NetManager, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get_NetManager, put = __cordl_internal_set_NetManager))::LiteNetLib::NetManager* NetManager;
+  /// @brief Method Disconnect, addr 0x2365fbc, size 0x24, virtual false, abstract: false, final false
+  inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Field Id, offset 0x130, size 0x4
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) int32_t Id;
+  /// @brief Method Disconnect, addr 0x2366004, size 0x48, virtual false, abstract: false, final false
+  inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t count);
 
-  /// @brief Field Tag, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag))::System::Object* Tag;
+  /// @brief Method Disconnect, addr 0x2365fe0, size 0x24, virtual false, abstract: false, final false
+  inline void Disconnect(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Field Statistics, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get_Statistics, put = __cordl_internal_set_Statistics))::LiteNetLib::NetStatistics* Statistics;
+  /// @brief Method Flush, addr 0x2363a90, size 0x250, virtual false, abstract: false, final false
+  inline void Flush();
 
-  __declspec(property(get = get_ConnectionNum, put = set_ConnectionNum)) uint8_t ConnectionNum;
+  /// @brief Method GetMaxSinglePacketSize, addr 0x236585c, size 0x74, virtual false, abstract: false, final false
+  inline int32_t GetMaxSinglePacketSize(::LiteNetLib::DeliveryMethod options);
 
-  __declspec(property(get = get_ConnectionState))::LiteNetLib::ConnectionState ConnectionState;
+  /// @brief Method GetPacketsCountInReliableQueue, addr 0x2365408, size 0xb0, virtual false, abstract: false, final false
+  inline int32_t GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
 
-  __declspec(property(get = get_ConnectTime)) int64_t ConnectTime;
+  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id);
 
-  __declspec(property(get = get_Ping)) int32_t Ping;
+  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum);
 
-  __declspec(property(get = get_Mtu)) int32_t Mtu;
+  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum,
+                                                ::LiteNetLib::Utils::NetDataWriter* connectData);
 
-  __declspec(property(get = get_RemoteTimeDelta)) int64_t RemoteTimeDelta;
+  /// @brief Method ProcessConnectAccept, addr 0x2361fc8, size 0x64, virtual false, abstract: false, final false
+  inline bool ProcessConnectAccept(::LiteNetLib::NetConnectAcceptPacket* packet);
 
-  __declspec(property(get = get_RemoteUtcTime))::System::DateTime RemoteUtcTime;
+  /// @brief Method ProcessConnectRequest, addr 0x23618a4, size 0x12c, virtual false, abstract: false, final false
+  inline ::LiteNetLib::ConnectRequestResult ProcessConnectRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
 
-  __declspec(property(get = get_TimeSinceLastPacket)) int32_t TimeSinceLastPacket;
+  /// @brief Method ProcessDisconnect, addr 0x2361df8, size 0xc8, virtual false, abstract: false, final false
+  inline ::LiteNetLib::DisconnectResult ProcessDisconnect(::LiteNetLib::NetPacket* packet);
 
-  __declspec(property(get = get_ResendDelay)) double_t ResendDelay;
+  /// @brief Method ProcessMtuPacket, addr 0x23664b4, size 0x3e8, virtual false, abstract: false, final false
+  inline void ProcessMtuPacket(::LiteNetLib::NetPacket* packet);
 
-  constexpr int32_t& __cordl_internal_get__rtt();
+  /// @brief Method ProcessPacket, addr 0x236202c, size 0x574, virtual false, abstract: false, final false
+  inline void ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  constexpr int32_t const& __cordl_internal_get__rtt() const;
+  /// @brief Method RecycleAndDeliver, addr 0x2366cc8, size 0x160, virtual false, abstract: false, final false
+  inline void RecycleAndDeliver(::LiteNetLib::NetPacket* packet);
 
-  constexpr void __cordl_internal_set__rtt(int32_t value);
+  /// @brief Method Reject, addr 0x2361538, size 0x1c, virtual false, abstract: false, final false
+  inline void Reject(int64_t connectionId, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  constexpr int32_t& __cordl_internal_get__avgRtt();
+  /// @brief Method Send, addr 0x2365f64, size 0x28, virtual false, abstract: false, final false
+  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  constexpr int32_t const& __cordl_internal_get__avgRtt() const;
+  /// @brief Method Send, addr 0x2365efc, size 0x28, virtual false, abstract: false, final false
+  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  constexpr void __cordl_internal_set__avgRtt(int32_t value);
+  /// @brief Method Send, addr 0x23629e4, size 0x8, virtual false, abstract: false, final false
+  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  constexpr int32_t& __cordl_internal_get__rttCount();
+  /// @brief Method Send, addr 0x2365f54, size 0x10, virtual false, abstract: false, final false
+  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, ::LiteNetLib::DeliveryMethod options);
 
-  constexpr int32_t const& __cordl_internal_get__rttCount() const;
+  /// @brief Method Send, addr 0x2365f8c, size 0x30, virtual false, abstract: false, final false
+  inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  constexpr void __cordl_internal_set__rttCount(int32_t value);
+  /// @brief Method Send, addr 0x2365f24, size 0x30, virtual false, abstract: false, final false
+  inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  constexpr double_t& __cordl_internal_get__resendDelay();
+  /// @brief Method SendInternal, addr 0x2365954, size 0x4b8, virtual false, abstract: false, final false
+  inline void SendInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  constexpr double_t const& __cordl_internal_get__resendDelay() const;
+  /// @brief Method SendMerged, addr 0x2366b0c, size 0xa0, virtual false, abstract: false, final false
+  inline void SendMerged();
 
-  constexpr void __cordl_internal_set__resendDelay(double_t value);
+  /// @brief Method SendUserData, addr 0x2366bac, size 0x11c, virtual false, abstract: false, final false
+  inline void SendUserData(::LiteNetLib::NetPacket* packet);
 
-  constexpr int32_t& __cordl_internal_get__pingSendTimer();
+  /// @brief Method SendWithDeliveryEvent, addr 0x23658d0, size 0x84, virtual false, abstract: false, final false
+  inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  constexpr int32_t const& __cordl_internal_get__pingSendTimer() const;
+  /// @brief Method SendWithDeliveryEvent, addr 0x2365e0c, size 0x64, virtual false, abstract: false, final false
+  inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod,
+                                    ::System::Object* userData);
 
-  constexpr void __cordl_internal_set__pingSendTimer(int32_t value);
+  /// @brief Method SendWithDeliveryEvent, addr 0x2365e70, size 0x8c, virtual false, abstract: false, final false
+  inline void SendWithDeliveryEvent(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
 
-  constexpr int32_t& __cordl_internal_get__rttResetTimer();
+  /// @brief Method SetMtu, addr 0x236535c, size 0xac, virtual false, abstract: false, final false
+  inline void SetMtu(int32_t mtuIdx);
 
-  constexpr int32_t const& __cordl_internal_get__rttResetTimer() const;
+  /// @brief Method Shutdown, addr 0x235fb10, size 0x2bc, virtual false, abstract: false, final false
+  inline ::LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, bool force);
 
-  constexpr void __cordl_internal_set__rttResetTimer(int32_t value);
+  /// @brief Method Update, addr 0x2360540, size 0x284, virtual false, abstract: false, final false
+  inline void Update(int32_t deltaTime);
 
-  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__pingTimer();
+  /// @brief Method UpdateMtuLogic, addr 0x236689c, size 0x244, virtual false, abstract: false, final false
+  inline void UpdateMtuLogic(int32_t deltaTime);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__pingTimer() const;
+  /// @brief Method UpdateRoundTripTime, addr 0x2366090, size 0x3c, virtual false, abstract: false, final false
+  inline void UpdateRoundTripTime(int32_t roundTripTime);
 
-  constexpr void __cordl_internal_set__pingTimer(::System::Diagnostics::Stopwatch* value);
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_EndPoint();
 
-  constexpr int32_t& __cordl_internal_get__timeSinceLastPacket();
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_EndPoint() const;
 
-  constexpr int32_t const& __cordl_internal_get__timeSinceLastPacket() const;
+  constexpr int32_t const& __cordl_internal_get_Id() const;
 
-  constexpr void __cordl_internal_set__timeSinceLastPacket(int32_t value);
+  constexpr int32_t& __cordl_internal_get_Id();
 
-  constexpr int64_t& __cordl_internal_get__remoteDelta();
+  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get_NetManager();
 
-  constexpr int64_t const& __cordl_internal_get__remoteDelta() const;
-
-  constexpr void __cordl_internal_set__remoteDelta(int64_t value);
-
-  constexpr ::LiteNetLib::NetPacketPool*& __cordl_internal_get__packetPool();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketPool*> const& __cordl_internal_get__packetPool() const;
-
-  constexpr void __cordl_internal_set__packetPool(::LiteNetLib::NetPacketPool* value);
-
-  constexpr ::System::Object*& __cordl_internal_get__flushLock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__flushLock() const;
-
-  constexpr void __cordl_internal_set__flushLock(::System::Object* value);
-
-  constexpr ::System::Object*& __cordl_internal_get__sendLock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__sendLock() const;
-
-  constexpr void __cordl_internal_set__sendLock(::System::Object* value);
-
-  constexpr ::System::Object*& __cordl_internal_get__shutdownLock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__shutdownLock() const;
-
-  constexpr void __cordl_internal_set__shutdownLock(::System::Object* value);
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get_NetManager() const;
 
   constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_NextPeer();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_NextPeer() const;
 
-  constexpr void __cordl_internal_set_NextPeer(::LiteNetLib::NetPeer* value);
-
   constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_PrevPeer();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_PrevPeer() const;
 
-  constexpr void __cordl_internal_set_PrevPeer(::LiteNetLib::NetPeer* value);
+  constexpr ::LiteNetLib::NetStatistics*& __cordl_internal_get_Statistics();
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& __cordl_internal_get__unreliableChannel();
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetStatistics*> const& __cordl_internal_get_Statistics() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__unreliableChannel() const;
+  constexpr ::System::Object*& __cordl_internal_get_Tag();
 
-  constexpr void __cordl_internal_set__unreliableChannel(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Tag() const;
 
-  constexpr ::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*>& __cordl_internal_get__channels();
+  constexpr int32_t const& __cordl_internal_get__avgRtt() const;
+
+  constexpr int32_t& __cordl_internal_get__avgRtt();
 
   constexpr ::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> const& __cordl_internal_get__channels() const;
 
-  constexpr void __cordl_internal_set__channels(::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> value);
+  constexpr ::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*>& __cordl_internal_get__channels();
+
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__connectAcceptPacket();
+
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__connectAcceptPacket() const;
+
+  constexpr int32_t const& __cordl_internal_get__connectAttempts() const;
+
+  constexpr int32_t& __cordl_internal_get__connectAttempts();
+
+  constexpr uint8_t const& __cordl_internal_get__connectNum() const;
+
+  constexpr uint8_t& __cordl_internal_get__connectNum();
+
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__connectRequestPacket();
+
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__connectRequestPacket() const;
+
+  constexpr int64_t const& __cordl_internal_get__connectTime() const;
+
+  constexpr int64_t& __cordl_internal_get__connectTime();
+
+  constexpr int32_t const& __cordl_internal_get__connectTimer() const;
+
+  constexpr int32_t& __cordl_internal_get__connectTimer();
+
+  constexpr ::LiteNetLib::ConnectionState const& __cordl_internal_get__connectionState() const;
+
+  constexpr ::LiteNetLib::ConnectionState& __cordl_internal_get__connectionState();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& __cordl_internal_get__deliveredFramgnets();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*> const& __cordl_internal_get__deliveredFramgnets() const;
+
+  constexpr bool const& __cordl_internal_get__finishMtu() const;
+
+  constexpr bool& __cordl_internal_get__finishMtu();
+
+  constexpr ::System::Object*& __cordl_internal_get__flushLock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__flushLock() const;
+
+  constexpr uint16_t const& __cordl_internal_get__fragmentId() const;
+
+  constexpr uint16_t& __cordl_internal_get__fragmentId();
 
   constexpr ::LiteNetLib::BaseChannel*& __cordl_internal_get__headChannel();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::BaseChannel*> const& __cordl_internal_get__headChannel() const;
-
-  constexpr void __cordl_internal_set__headChannel(::LiteNetLib::BaseChannel* value);
-
-  constexpr int32_t& __cordl_internal_get__mtu();
-
-  constexpr int32_t const& __cordl_internal_get__mtu() const;
-
-  constexpr void __cordl_internal_set__mtu(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__mtuIdx();
-
-  constexpr int32_t const& __cordl_internal_get__mtuIdx() const;
-
-  constexpr void __cordl_internal_set__mtuIdx(int32_t value);
-
-  constexpr bool& __cordl_internal_get__finishMtu();
-
-  constexpr bool const& __cordl_internal_get__finishMtu() const;
-
-  constexpr void __cordl_internal_set__finishMtu(bool value);
-
-  constexpr int32_t& __cordl_internal_get__mtuCheckTimer();
-
-  constexpr int32_t const& __cordl_internal_get__mtuCheckTimer() const;
-
-  constexpr void __cordl_internal_set__mtuCheckTimer(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__mtuCheckAttempts();
-
-  constexpr int32_t const& __cordl_internal_get__mtuCheckAttempts() const;
-
-  constexpr void __cordl_internal_set__mtuCheckAttempts(int32_t value);
-
-  constexpr ::System::Object*& __cordl_internal_get__mtuMutex();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__mtuMutex() const;
-
-  constexpr void __cordl_internal_set__mtuMutex(::System::Object* value);
-
-  constexpr uint16_t& __cordl_internal_get__fragmentId();
-
-  constexpr uint16_t const& __cordl_internal_get__fragmentId() const;
-
-  constexpr void __cordl_internal_set__fragmentId(uint16_t value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>*& __cordl_internal_get__holdedFragments();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>*> const&
   __cordl_internal_get__holdedFragments() const;
 
-  constexpr void __cordl_internal_set__holdedFragments(::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>* value);
+  constexpr int32_t const& __cordl_internal_get__mergeCount() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& __cordl_internal_get__deliveredFramgnets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*> const& __cordl_internal_get__deliveredFramgnets() const;
-
-  constexpr void __cordl_internal_set__deliveredFramgnets(::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* value);
+  constexpr int32_t& __cordl_internal_get__mergeCount();
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__mergeData();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__mergeData() const;
 
-  constexpr void __cordl_internal_set__mergeData(::LiteNetLib::NetPacket* value);
+  constexpr int32_t const& __cordl_internal_get__mergePos() const;
 
   constexpr int32_t& __cordl_internal_get__mergePos();
 
-  constexpr int32_t const& __cordl_internal_get__mergePos() const;
+  constexpr int32_t const& __cordl_internal_get__mtu() const;
 
-  constexpr void __cordl_internal_set__mergePos(int32_t value);
+  constexpr int32_t& __cordl_internal_get__mtu();
 
-  constexpr int32_t& __cordl_internal_get__mergeCount();
+  constexpr int32_t const& __cordl_internal_get__mtuCheckAttempts() const;
 
-  constexpr int32_t const& __cordl_internal_get__mergeCount() const;
+  constexpr int32_t& __cordl_internal_get__mtuCheckAttempts();
 
-  constexpr void __cordl_internal_set__mergeCount(int32_t value);
+  constexpr int32_t const& __cordl_internal_get__mtuCheckTimer() const;
 
-  constexpr int32_t& __cordl_internal_get__connectAttempts();
+  constexpr int32_t& __cordl_internal_get__mtuCheckTimer();
 
-  constexpr int32_t const& __cordl_internal_get__connectAttempts() const;
+  constexpr int32_t const& __cordl_internal_get__mtuIdx() const;
 
-  constexpr void __cordl_internal_set__connectAttempts(int32_t value);
+  constexpr int32_t& __cordl_internal_get__mtuIdx();
 
-  constexpr int32_t& __cordl_internal_get__connectTimer();
+  constexpr ::System::Object*& __cordl_internal_get__mtuMutex();
 
-  constexpr int32_t const& __cordl_internal_get__connectTimer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__mtuMutex() const;
 
-  constexpr void __cordl_internal_set__connectTimer(int32_t value);
+  constexpr ::LiteNetLib::NetPacketPool*& __cordl_internal_get__packetPool();
 
-  constexpr int64_t& __cordl_internal_get__connectTime();
-
-  constexpr int64_t const& __cordl_internal_get__connectTime() const;
-
-  constexpr void __cordl_internal_set__connectTime(int64_t value);
-
-  constexpr uint8_t& __cordl_internal_get__connectNum();
-
-  constexpr uint8_t const& __cordl_internal_get__connectNum() const;
-
-  constexpr void __cordl_internal_set__connectNum(uint8_t value);
-
-  constexpr ::LiteNetLib::ConnectionState& __cordl_internal_get__connectionState();
-
-  constexpr ::LiteNetLib::ConnectionState const& __cordl_internal_get__connectionState() const;
-
-  constexpr void __cordl_internal_set__connectionState(::LiteNetLib::ConnectionState value);
-
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__shutdownPacket();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__shutdownPacket() const;
-
-  constexpr void __cordl_internal_set__shutdownPacket(::LiteNetLib::NetPacket* value);
-
-  constexpr int32_t& __cordl_internal_get__shutdownTimer();
-
-  constexpr int32_t const& __cordl_internal_get__shutdownTimer() const;
-
-  constexpr void __cordl_internal_set__shutdownTimer(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketPool*> const& __cordl_internal_get__packetPool() const;
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__pingPacket();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__pingPacket() const;
 
-  constexpr void __cordl_internal_set__pingPacket(::LiteNetLib::NetPacket* value);
+  constexpr int32_t const& __cordl_internal_get__pingSendTimer() const;
+
+  constexpr int32_t& __cordl_internal_get__pingSendTimer();
+
+  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__pingTimer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__pingTimer() const;
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__pongPacket();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__pongPacket() const;
 
-  constexpr void __cordl_internal_set__pongPacket(::LiteNetLib::NetPacket* value);
+  constexpr int64_t const& __cordl_internal_get__remoteDelta() const;
 
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__connectRequestPacket();
+  constexpr int64_t& __cordl_internal_get__remoteDelta();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__connectRequestPacket() const;
+  constexpr double_t const& __cordl_internal_get__resendDelay() const;
 
-  constexpr void __cordl_internal_set__connectRequestPacket(::LiteNetLib::NetPacket* value);
+  constexpr double_t& __cordl_internal_get__resendDelay();
 
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__connectAcceptPacket();
+  constexpr int32_t const& __cordl_internal_get__rtt() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__connectAcceptPacket() const;
+  constexpr int32_t& __cordl_internal_get__rtt();
 
-  constexpr void __cordl_internal_set__connectAcceptPacket(::LiteNetLib::NetPacket* value);
+  constexpr int32_t const& __cordl_internal_get__rttCount() const;
 
-  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_EndPoint();
+  constexpr int32_t& __cordl_internal_get__rttCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_EndPoint() const;
+  constexpr int32_t const& __cordl_internal_get__rttResetTimer() const;
+
+  constexpr int32_t& __cordl_internal_get__rttResetTimer();
+
+  constexpr ::System::Object*& __cordl_internal_get__sendLock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__sendLock() const;
+
+  constexpr ::System::Object*& __cordl_internal_get__shutdownLock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__shutdownLock() const;
+
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__shutdownPacket();
+
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__shutdownPacket() const;
+
+  constexpr int32_t const& __cordl_internal_get__shutdownTimer() const;
+
+  constexpr int32_t& __cordl_internal_get__shutdownTimer();
+
+  constexpr int32_t const& __cordl_internal_get__timeSinceLastPacket() const;
+
+  constexpr int32_t& __cordl_internal_get__timeSinceLastPacket();
+
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& __cordl_internal_get__unreliableChannel();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__unreliableChannel() const;
 
   constexpr void __cordl_internal_set_EndPoint(::System::Net::IPEndPoint* value);
 
-  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get_NetManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get_NetManager() const;
+  constexpr void __cordl_internal_set_Id(int32_t value);
 
   constexpr void __cordl_internal_set_NetManager(::LiteNetLib::NetManager* value);
 
-  constexpr int32_t& __cordl_internal_get_Id();
+  constexpr void __cordl_internal_set_NextPeer(::LiteNetLib::NetPeer* value);
 
-  constexpr int32_t const& __cordl_internal_get_Id() const;
-
-  constexpr void __cordl_internal_set_Id(int32_t value);
-
-  constexpr ::System::Object*& __cordl_internal_get_Tag();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Tag() const;
-
-  constexpr void __cordl_internal_set_Tag(::System::Object* value);
-
-  constexpr ::LiteNetLib::NetStatistics*& __cordl_internal_get_Statistics();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetStatistics*> const& __cordl_internal_get_Statistics() const;
+  constexpr void __cordl_internal_set_PrevPeer(::LiteNetLib::NetPeer* value);
 
   constexpr void __cordl_internal_set_Statistics(::LiteNetLib::NetStatistics* value);
 
-  /// @brief Method get_ConnectionNum, addr 0x22032e4, size 0x8, virtual false, abstract: false, final false
-  inline uint8_t get_ConnectionNum();
+  constexpr void __cordl_internal_set_Tag(::System::Object* value);
 
-  /// @brief Method set_ConnectionNum, addr 0x22032ec, size 0x4c, virtual false, abstract: false, final false
-  inline void set_ConnectionNum(uint8_t value);
+  constexpr void __cordl_internal_set__avgRtt(int32_t value);
 
-  /// @brief Method get_ConnectionState, addr 0x2203338, size 0x8, virtual false, abstract: false, final false
-  inline ::LiteNetLib::ConnectionState get_ConnectionState();
+  constexpr void __cordl_internal_set__channels(::ArrayW<::LiteNetLib::BaseChannel*, ::Array<::LiteNetLib::BaseChannel*>*> value);
 
-  /// @brief Method get_ConnectTime, addr 0x2203340, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_ConnectTime();
+  constexpr void __cordl_internal_set__connectAcceptPacket(::LiteNetLib::NetPacket* value);
 
-  /// @brief Method get_Ping, addr 0x2203348, size 0x14, virtual false, abstract: false, final false
-  inline int32_t get_Ping();
+  constexpr void __cordl_internal_set__connectAttempts(int32_t value);
 
-  /// @brief Method get_Mtu, addr 0x220335c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Mtu();
+  constexpr void __cordl_internal_set__connectNum(uint8_t value);
 
-  /// @brief Method get_RemoteTimeDelta, addr 0x2203364, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_RemoteTimeDelta();
+  constexpr void __cordl_internal_set__connectRequestPacket(::LiteNetLib::NetPacket* value);
 
-  /// @brief Method get_RemoteUtcTime, addr 0x220336c, size 0x90, virtual false, abstract: false, final false
-  inline ::System::DateTime get_RemoteUtcTime();
+  constexpr void __cordl_internal_set__connectTime(int64_t value);
 
-  /// @brief Method get_TimeSinceLastPacket, addr 0x22033fc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_TimeSinceLastPacket();
+  constexpr void __cordl_internal_set__connectTimer(int32_t value);
 
-  /// @brief Method get_ResendDelay, addr 0x2203404, size 0x8, virtual false, abstract: false, final false
-  inline double_t get_ResendDelay();
+  constexpr void __cordl_internal_set__connectionState(::LiteNetLib::ConnectionState value);
 
-  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id);
+  constexpr void __cordl_internal_set__deliveredFramgnets(::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* value);
 
-  /// @brief Method .ctor, addr 0x21ff2c8, size 0x320, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__finishMtu(bool value);
+
+  constexpr void __cordl_internal_set__flushLock(::System::Object* value);
+
+  constexpr void __cordl_internal_set__fragmentId(uint16_t value);
+
+  constexpr void __cordl_internal_set__headChannel(::LiteNetLib::BaseChannel* value);
+
+  constexpr void __cordl_internal_set__holdedFragments(::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::__NetPeer__IncomingFragments*>* value);
+
+  constexpr void __cordl_internal_set__mergeCount(int32_t value);
+
+  constexpr void __cordl_internal_set__mergeData(::LiteNetLib::NetPacket* value);
+
+  constexpr void __cordl_internal_set__mergePos(int32_t value);
+
+  constexpr void __cordl_internal_set__mtu(int32_t value);
+
+  constexpr void __cordl_internal_set__mtuCheckAttempts(int32_t value);
+
+  constexpr void __cordl_internal_set__mtuCheckTimer(int32_t value);
+
+  constexpr void __cordl_internal_set__mtuIdx(int32_t value);
+
+  constexpr void __cordl_internal_set__mtuMutex(::System::Object* value);
+
+  constexpr void __cordl_internal_set__packetPool(::LiteNetLib::NetPacketPool* value);
+
+  constexpr void __cordl_internal_set__pingPacket(::LiteNetLib::NetPacket* value);
+
+  constexpr void __cordl_internal_set__pingSendTimer(int32_t value);
+
+  constexpr void __cordl_internal_set__pingTimer(::System::Diagnostics::Stopwatch* value);
+
+  constexpr void __cordl_internal_set__pongPacket(::LiteNetLib::NetPacket* value);
+
+  constexpr void __cordl_internal_set__remoteDelta(int64_t value);
+
+  constexpr void __cordl_internal_set__resendDelay(double_t value);
+
+  constexpr void __cordl_internal_set__rtt(int32_t value);
+
+  constexpr void __cordl_internal_set__rttCount(int32_t value);
+
+  constexpr void __cordl_internal_set__rttResetTimer(int32_t value);
+
+  constexpr void __cordl_internal_set__sendLock(::System::Object* value);
+
+  constexpr void __cordl_internal_set__shutdownLock(::System::Object* value);
+
+  constexpr void __cordl_internal_set__shutdownPacket(::LiteNetLib::NetPacket* value);
+
+  constexpr void __cordl_internal_set__shutdownTimer(int32_t value);
+
+  constexpr void __cordl_internal_set__timeSinceLastPacket(int32_t value);
+
+  constexpr void __cordl_internal_set__unreliableChannel(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* value);
+
+  /// @brief Method .ctor, addr 0x2361218, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id);
 
-  /// @brief Method SetMtu, addr 0x220340c, size 0xac, virtual false, abstract: false, final false
-  inline void SetMtu(int32_t mtuIdx);
-
-  /// @brief Method GetPacketsCountInReliableQueue, addr 0x22034b8, size 0xb0, virtual false, abstract: false, final false
-  inline int32_t GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
-
-  /// @brief Method CreateChannel, addr 0x2203568, size 0x174, virtual false, abstract: false, final false
-  inline ::LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
-
-  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum,
-                                                ::LiteNetLib::Utils::NetDataWriter* connectData);
-
-  /// @brief Method .ctor, addr 0x22022d8, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum, ::LiteNetLib::Utils::NetDataWriter* connectData);
-
-  static inline ::LiteNetLib::NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum);
-
-  /// @brief Method .ctor, addr 0x21ff604, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2361554, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, int64_t connectId, uint8_t connectNum);
 
-  /// @brief Method Reject, addr 0x21ff5e8, size 0x1c, virtual false, abstract: false, final false
-  inline void Reject(int64_t connectionId, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
+  /// @brief Method .ctor, addr 0x2364228, size 0x110, virtual false, abstract: false, final false
+  inline void _ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int32_t id, uint8_t connectNum, ::LiteNetLib::Utils::NetDataWriter* connectData);
 
-  /// @brief Method ProcessConnectAccept, addr 0x2200078, size 0x64, virtual false, abstract: false, final false
-  inline bool ProcessConnectAccept(::LiteNetLib::NetConnectAcceptPacket* packet);
+  /// @brief Method get_ConnectTime, addr 0x2365290, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_ConnectTime();
 
-  /// @brief Method GetMaxSinglePacketSize, addr 0x220390c, size 0x74, virtual false, abstract: false, final false
-  inline int32_t GetMaxSinglePacketSize(::LiteNetLib::DeliveryMethod options);
+  /// @brief Method get_ConnectionNum, addr 0x2365234, size 0x8, virtual false, abstract: false, final false
+  inline uint8_t get_ConnectionNum();
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x2203980, size 0x84, virtual false, abstract: false, final false
-  inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
+  /// @brief Method get_ConnectionState, addr 0x2365288, size 0x8, virtual false, abstract: false, final false
+  inline ::LiteNetLib::ConnectionState get_ConnectionState();
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x2203ebc, size 0x64, virtual false, abstract: false, final false
-  inline void SendWithDeliveryEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod,
-                                    ::System::Object* userData);
+  /// @brief Method get_Mtu, addr 0x23652ac, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Mtu();
 
-  /// @brief Method SendWithDeliveryEvent, addr 0x2203f20, size 0x8c, virtual false, abstract: false, final false
-  inline void SendWithDeliveryEvent(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
+  /// @brief Method get_Ping, addr 0x2365298, size 0x14, virtual false, abstract: false, final false
+  inline int32_t get_Ping();
 
-  /// @brief Method Send, addr 0x2203fac, size 0x28, virtual false, abstract: false, final false
-  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::LiteNetLib::DeliveryMethod deliveryMethod);
+  /// @brief Method get_RemoteTimeDelta, addr 0x23652b4, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_RemoteTimeDelta();
 
-  /// @brief Method Send, addr 0x2203fd4, size 0x30, virtual false, abstract: false, final false
-  inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, ::LiteNetLib::DeliveryMethod deliveryMethod);
+  /// @brief Method get_RemoteUtcTime, addr 0x23652bc, size 0x90, virtual false, abstract: false, final false
+  inline ::System::DateTime get_RemoteUtcTime();
 
-  /// @brief Method Send, addr 0x2204004, size 0x10, virtual false, abstract: false, final false
-  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, ::LiteNetLib::DeliveryMethod options);
+  /// @brief Method get_ResendDelay, addr 0x2365354, size 0x8, virtual false, abstract: false, final false
+  inline double_t get_ResendDelay();
 
-  /// @brief Method Send, addr 0x2204014, size 0x28, virtual false, abstract: false, final false
-  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
+  /// @brief Method get_TimeSinceLastPacket, addr 0x236534c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_TimeSinceLastPacket();
 
-  /// @brief Method Send, addr 0x220403c, size 0x30, virtual false, abstract: false, final false
-  inline void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
+  /// @brief Method set_ConnectionNum, addr 0x236523c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_ConnectionNum(uint8_t value);
 
-  /// @brief Method Send, addr 0x2200a94, size 0x8, virtual false, abstract: false, final false
-  inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetPeer();
 
-  /// @brief Method SendInternal, addr 0x2203a04, size 0x4b8, virtual false, abstract: false, final false
-  inline void SendInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::Object* userData);
-
-  /// @brief Method Disconnect, addr 0x220406c, size 0x24, virtual false, abstract: false, final false
-  inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method Disconnect, addr 0x2204090, size 0x24, virtual false, abstract: false, final false
-  inline void Disconnect(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method Disconnect, addr 0x22040b4, size 0x48, virtual false, abstract: false, final false
-  inline void Disconnect(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t count);
-
-  /// @brief Method Disconnect, addr 0x22040fc, size 0x44, virtual false, abstract: false, final false
-  inline void Disconnect();
-
-  /// @brief Method ProcessDisconnect, addr 0x21ffea8, size 0xc8, virtual false, abstract: false, final false
-  inline ::LiteNetLib::DisconnectResult ProcessDisconnect(::LiteNetLib::NetPacket* packet);
-
-  /// @brief Method Shutdown, addr 0x21fdbc0, size 0x2bc, virtual false, abstract: false, final false
-  inline ::LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length, bool force);
-
-  /// @brief Method UpdateRoundTripTime, addr 0x2204140, size 0x3c, virtual false, abstract: false, final false
-  inline void UpdateRoundTripTime(int32_t roundTripTime);
-
-  /// @brief Method AddReliablePacket, addr 0x220417c, size 0x3e0, virtual false, abstract: false, final false
-  inline void AddReliablePacket(::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPacket* p);
-
-  /// @brief Method ProcessMtuPacket, addr 0x2204564, size 0x3e8, virtual false, abstract: false, final false
-  inline void ProcessMtuPacket(::LiteNetLib::NetPacket* packet);
-
-  /// @brief Method UpdateMtuLogic, addr 0x220494c, size 0x244, virtual false, abstract: false, final false
-  inline void UpdateMtuLogic(int32_t deltaTime);
-
-  /// @brief Method ProcessConnectRequest, addr 0x21ff954, size 0x12c, virtual false, abstract: false, final false
-  inline ::LiteNetLib::ConnectRequestResult ProcessConnectRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
-
-  /// @brief Method ProcessPacket, addr 0x22000dc, size 0x574, virtual false, abstract: false, final false
-  inline void ProcessPacket(::LiteNetLib::NetPacket* packet);
-
-  /// @brief Method SendMerged, addr 0x2204bbc, size 0xa0, virtual false, abstract: false, final false
-  inline void SendMerged();
-
-  /// @brief Method SendUserData, addr 0x2204c5c, size 0x11c, virtual false, abstract: false, final false
-  inline void SendUserData(::LiteNetLib::NetPacket* packet);
-
-  /// @brief Method Flush, addr 0x2201b40, size 0x250, virtual false, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method Update, addr 0x21fe5f0, size 0x284, virtual false, abstract: false, final false
-  inline void Update(int32_t deltaTime);
-
-  /// @brief Method RecycleAndDeliver, addr 0x2204d78, size 0x160, virtual false, abstract: false, final false
-  inline void RecycleAndDeliver(::LiteNetLib::NetPacket* packet);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPeer(NetPeer&&) = delete;
@@ -771,12 +773,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetPeer(NetPeer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetPeer();
-
-public:
   /// @brief Field _rtt, offset: 0x10, size: 0x4, def value: None
   int32_t ____rtt;
 
@@ -915,11 +911,11 @@ public:
   /// @brief Field Statistics, offset: 0x140, size: 0x8, def value: None
   ::LiteNetLib::NetStatistics* ___Statistics;
 
-  /// @brief Field MtuCheckDelay offset 0xffffffff size 0x4
-  static constexpr int32_t MtuCheckDelay{ static_cast<int32_t>(0x3e8) };
-
   /// @brief Field MaxMtuCheckAttempts offset 0xffffffff size 0x4
   static constexpr int32_t MaxMtuCheckAttempts{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field MtuCheckDelay offset 0xffffffff size 0x4
+  static constexpr int32_t MtuCheckDelay{ static_cast<int32_t>(0x3e8) };
 
   /// @brief Field ShutdownDelay offset 0xffffffff size 0x4
   static constexpr int32_t ShutdownDelay{ static_cast<int32_t>(0x12c) };

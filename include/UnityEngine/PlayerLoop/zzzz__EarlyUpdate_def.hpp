@@ -231,8 +231,6 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10485))
 // CS Name: ::EarlyUpdate::PollPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollPlayerConnection {
@@ -259,8 +257,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10486))
 // CS Name: ::EarlyUpdate::PollHtcsPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollHtcsPlayerConnection {
@@ -287,8 +283,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10487))
 // CS Name: ::EarlyUpdate::GpuTimestamp
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__GpuTimestamp {
@@ -315,8 +309,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10488))
 // CS Name: ::EarlyUpdate::AnalyticsCoreStatsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__AnalyticsCoreStatsUpdate {
@@ -343,8 +335,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10489))
 // CS Name: ::EarlyUpdate::UnityWebRequestUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UnityWebRequestUpdate {
@@ -371,8 +361,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10490))
 // CS Name: ::EarlyUpdate::UpdateStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateStreamingManager {
@@ -399,8 +387,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10491))
 // CS Name: ::EarlyUpdate::ExecuteMainThreadJobs
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ExecuteMainThreadJobs {
@@ -427,8 +413,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10492))
 // CS Name: ::EarlyUpdate::ProcessMouseInWindow
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessMouseInWindow {
@@ -455,8 +439,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10493))
 // CS Name: ::EarlyUpdate::ClearIntermediateRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearIntermediateRenderers {
@@ -483,8 +465,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10494))
 // CS Name: ::EarlyUpdate::ClearLines
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearLines {
@@ -511,8 +491,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10495))
 // CS Name: ::EarlyUpdate::PresentBeforeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PresentBeforeUpdate {
@@ -539,8 +517,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10496))
 // CS Name: ::EarlyUpdate::ResetFrameStatsAfterPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ResetFrameStatsAfterPresent {
@@ -567,8 +543,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10497))
 // CS Name: ::EarlyUpdate::UpdateAsyncReadbackManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateAsyncReadbackManager {
@@ -595,8 +569,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10498))
 // CS Name: ::EarlyUpdate::UpdateTextureStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateTextureStreamingManager {
@@ -623,8 +595,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10499))
 // CS Name: ::EarlyUpdate::UpdatePreloading
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdatePreloading {
@@ -651,8 +621,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10500))
 // CS Name: ::EarlyUpdate::RendererNotifyInvisible
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__RendererNotifyInvisible {
@@ -679,8 +647,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10501))
 // CS Name: ::EarlyUpdate::PlayerCleanupCachedData
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PlayerCleanupCachedData {
@@ -707,8 +673,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10502))
 // CS Name: ::EarlyUpdate::UpdateMainGameViewRect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateMainGameViewRect {
@@ -735,8 +699,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10503))
 // CS Name: ::EarlyUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateCanvasRectTransform {
@@ -763,8 +725,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10504))
 // CS Name: ::EarlyUpdate::UpdateInputManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateInputManager {
@@ -791,8 +751,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10505))
 // CS Name: ::EarlyUpdate::ProcessRemoteInput
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessRemoteInput {
@@ -819,8 +777,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10506))
 // CS Name: ::EarlyUpdate::XRUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__XRUpdate {
@@ -847,8 +803,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10507))
 // CS Name: ::EarlyUpdate::ScriptRunDelayedStartupFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ScriptRunDelayedStartupFrame {
@@ -875,8 +829,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10508))
 // CS Name: ::EarlyUpdate::UpdateKinect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateKinect {
@@ -903,8 +855,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10509))
 // CS Name: ::EarlyUpdate::DeliverIosPlatformEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DeliverIosPlatformEvents {
@@ -931,8 +881,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10510))
 // CS Name: ::EarlyUpdate::DispatchEventQueueEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DispatchEventQueueEvents {
@@ -959,8 +907,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10511))
 // CS Name: ::EarlyUpdate::PhysicsResetInterpolatedTransformPosition
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PhysicsResetInterpolatedTransformPosition {
@@ -987,8 +933,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10512))
 // CS Name: ::EarlyUpdate::SpriteAtlasManagerUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__SpriteAtlasManagerUpdate {
@@ -1015,8 +959,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10513))
 // CS Name: ::EarlyUpdate::TangoUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__TangoUpdate {
@@ -1043,8 +985,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10514))
 // CS Name: ::EarlyUpdate::ARCoreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ARCoreUpdate {
@@ -1071,8 +1011,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10515))
 // CS Name: ::EarlyUpdate::PerformanceAnalyticsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PerformanceAnalyticsUpdate {
@@ -1099,74 +1037,72 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Early
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10516))
 // CS Name: ::UnityEngine.PlayerLoop::EarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE EarlyUpdate {
 public:
   // Declarations
-  using PerformanceAnalyticsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate;
-
   using ARCoreUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate;
-
-  using TangoUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate;
-
-  using SpriteAtlasManagerUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate;
-
-  using PhysicsResetInterpolatedTransformPosition = ::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
-
-  using DispatchEventQueueEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents;
-
-  using DeliverIosPlatformEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents;
-
-  using UpdateKinect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect;
-
-  using ScriptRunDelayedStartupFrame = ::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFrame;
-
-  using XRUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate;
-
-  using ProcessRemoteInput = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessRemoteInput;
-
-  using UpdateInputManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager;
-
-  using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform;
-
-  using UpdateMainGameViewRect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect;
-
-  using PlayerCleanupCachedData = ::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData;
-
-  using RendererNotifyInvisible = ::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible;
-
-  using UpdatePreloading = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading;
-
-  using UpdateTextureStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager;
-
-  using UpdateAsyncReadbackManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager;
-
-  using ResetFrameStatsAfterPresent = ::UnityEngine::PlayerLoop::__EarlyUpdate__ResetFrameStatsAfterPresent;
-
-  using PresentBeforeUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PresentBeforeUpdate;
-
-  using ClearLines = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearLines;
-
-  using ClearIntermediateRenderers = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearIntermediateRenderers;
-
-  using ProcessMouseInWindow = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessMouseInWindow;
-
-  using ExecuteMainThreadJobs = ::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs;
-
-  using UpdateStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager;
-
-  using UnityWebRequestUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate;
 
   using AnalyticsCoreStatsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__AnalyticsCoreStatsUpdate;
 
+  using ClearIntermediateRenderers = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearIntermediateRenderers;
+
+  using ClearLines = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearLines;
+
+  using DeliverIosPlatformEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents;
+
+  using DispatchEventQueueEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents;
+
+  using ExecuteMainThreadJobs = ::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs;
+
   using GpuTimestamp = ::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp;
+
+  using PerformanceAnalyticsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate;
+
+  using PhysicsResetInterpolatedTransformPosition = ::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
+
+  using PlayerCleanupCachedData = ::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData;
 
   using PollHtcsPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection;
 
   using PollPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollPlayerConnection;
+
+  using PresentBeforeUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PresentBeforeUpdate;
+
+  using ProcessMouseInWindow = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessMouseInWindow;
+
+  using ProcessRemoteInput = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessRemoteInput;
+
+  using RendererNotifyInvisible = ::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible;
+
+  using ResetFrameStatsAfterPresent = ::UnityEngine::PlayerLoop::__EarlyUpdate__ResetFrameStatsAfterPresent;
+
+  using ScriptRunDelayedStartupFrame = ::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFrame;
+
+  using SpriteAtlasManagerUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate;
+
+  using TangoUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate;
+
+  using UnityWebRequestUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate;
+
+  using UpdateAsyncReadbackManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager;
+
+  using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform;
+
+  using UpdateInputManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager;
+
+  using UpdateKinect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect;
+
+  using UpdateMainGameViewRect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect;
+
+  using UpdatePreloading = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading;
+
+  using UpdateStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager;
+
+  using UpdateTextureStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager;
+
+  using XRUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate;
 
   // Ctor Parameters []
   // @brief default ctor

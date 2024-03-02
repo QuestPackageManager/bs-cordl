@@ -32,12 +32,14 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::EntityTagHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14665))
 // CS Name: ::System.Net.Http.Headers::EntityTagHeaderValue*
 class CORDL_TYPE EntityTagHeaderValue : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsWeak, put = set_IsWeak)) bool IsWeak;
+
+  __declspec(property(get = get_Tag, put = set_Tag))::StringW Tag;
+
   /// @brief Field <IsWeak>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsWeak_k__BackingField, put = __cordl_internal_set__IsWeak_k__BackingField)) bool _IsWeak_k__BackingField;
 
@@ -47,70 +49,72 @@ public:
   /// @brief Field any, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_any, put = setStaticF_any))::System::Net::Http::Headers::EntityTagHeaderValue* any;
 
-  __declspec(property(get = get_IsWeak, put = set_IsWeak)) bool IsWeak;
-
-  __declspec(property(get = get_Tag, put = set_Tag))::StringW Tag;
-
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
+
+  /// @brief Method Equals, addr 0x2922468, size 0xb4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x292251c, size 0x50, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
+
+  /// @brief Method System.ICloneable.Clone, addr 0x2922460, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_ICloneable_Clone();
+
+  /// @brief Method ToString, addr 0x2922944, size 0x64, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method TryParse, addr 0x2922894, size 0xb0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
+
+  /// @brief Method TryParse, addr 0x292256c, size 0xf4, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
+
+  /// @brief Method TryParseElement, addr 0x2922660, size 0x1e4, virtual false, abstract: false, final false
+  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
+
+  constexpr bool const& __cordl_internal_get__IsWeak_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__IsWeak_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__Tag_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Tag_k__BackingField();
+
+  constexpr void __cordl_internal_set__IsWeak_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2922434, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
+
+  /// @brief Method get_IsWeak, addr 0x292243c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsWeak();
+
+  /// @brief Method get_Tag, addr 0x2922450, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Tag();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr bool& __cordl_internal_get__IsWeak_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__IsWeak_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__IsWeak_k__BackingField(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__Tag_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__Tag_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
-
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
-
-  static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28388e4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_IsWeak, addr 0x28388ec, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsWeak();
-
-  /// @brief Method set_IsWeak, addr 0x28388f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x2922444, size 0xc, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method get_Tag, addr 0x2838900, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Tag();
-
-  /// @brief Method set_Tag, addr 0x2838908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x2922458, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2838910, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_ICloneable_Clone();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EntityTagHeaderValue();
 
-  /// @brief Method Equals, addr 0x2838918, size 0xb4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x28389cc, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method TryParse, addr 0x2838a1c, size 0xf4, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
-
-  /// @brief Method TryParseElement, addr 0x2838b10, size 0x1e4, virtual false, abstract: false, final false
-  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
-
-  /// @brief Method TryParse, addr 0x2838d44, size 0xb0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
-
-  /// @brief Method ToString, addr 0x2838df4, size 0x64, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EntityTagHeaderValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntityTagHeaderValue(EntityTagHeaderValue&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EntityTagHeaderValue(EntityTagHeaderValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EntityTagHeaderValue();
-
-public:
   /// @brief Field <IsWeak>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsWeak_k__BackingField;
 

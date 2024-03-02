@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5022))
 // CS Name: ::MockLevelEndActions*
 class CORDL_TYPE MockLevelEndActions : public ::System::Object {
 public:
@@ -35,38 +33,44 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelEndActions"
   constexpr operator ::GlobalNamespace::ILevelEndActions*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
-  constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
+  static inline ::GlobalNamespace::MockLevelEndActions* New_ctor();
 
   constexpr ::System::Action*& __cordl_internal_get_levelFailedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFailedEvent() const;
 
-  constexpr void __cordl_internal_set_levelFailedEvent(::System::Action* value);
-
   constexpr ::System::Action*& __cordl_internal_get_levelFinishedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_levelFinishedEvent() const;
 
+  constexpr void __cordl_internal_set_levelFailedEvent(::System::Action* value);
+
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent, addr 0x23bcbbc, size 0x9c, virtual true, abstract: false, final true
-  inline void add_levelFailedEvent(::System::Action* value);
-
-  /// @brief Method remove_levelFailedEvent, addr 0x23bcc58, size 0x9c, virtual true, abstract: false, final true
-  inline void remove_levelFailedEvent(::System::Action* value);
-
-  /// @brief Method add_levelFinishedEvent, addr 0x23bccf4, size 0x9c, virtual true, abstract: false, final true
-  inline void add_levelFinishedEvent(::System::Action* value);
-
-  /// @brief Method remove_levelFinishedEvent, addr 0x23bcd90, size 0x9c, virtual true, abstract: false, final true
-  inline void remove_levelFinishedEvent(::System::Action* value);
-
-  static inline ::GlobalNamespace::MockLevelEndActions* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23bce2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244a010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_levelFailedEvent, addr 0x2449da0, size 0x9c, virtual true, abstract: false, final true
+  inline void add_levelFailedEvent(::System::Action* value);
+
+  /// @brief Method add_levelFinishedEvent, addr 0x2449ed8, size 0x9c, virtual true, abstract: false, final true
+  inline void add_levelFinishedEvent(::System::Action* value);
+
+  /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
+  constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
+
+  /// @brief Method remove_levelFailedEvent, addr 0x2449e3c, size 0x9c, virtual true, abstract: false, final true
+  inline void remove_levelFailedEvent(::System::Action* value);
+
+  /// @brief Method remove_levelFinishedEvent, addr 0x2449f74, size 0x9c, virtual true, abstract: false, final true
+  inline void remove_levelFinishedEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockLevelEndActions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockLevelEndActions(MockLevelEndActions&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockLevelEndActions(MockLevelEndActions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockLevelEndActions();
-
-public:
   /// @brief Field levelFailedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___levelFailedEvent;
 

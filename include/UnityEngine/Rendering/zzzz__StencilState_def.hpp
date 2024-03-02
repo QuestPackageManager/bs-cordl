@@ -27,81 +27,83 @@ MARK_VAL_T(::UnityEngine::Rendering::StencilState);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10359))
 // CS Name: ::UnityEngine.Rendering::StencilState
 struct CORDL_TYPE StencilState {
 public:
   // Declarations
+  __declspec(property(put = set_compareFunctionBack))::UnityEngine::Rendering::CompareFunction compareFunctionBack;
+
+  __declspec(property(put = set_compareFunctionFront))::UnityEngine::Rendering::CompareFunction compareFunctionFront;
+
   __declspec(property(put = set_enabled)) bool enabled;
+
+  __declspec(property(put = set_failOperationBack))::UnityEngine::Rendering::StencilOp failOperationBack;
+
+  __declspec(property(put = set_failOperationFront))::UnityEngine::Rendering::StencilOp failOperationFront;
+
+  __declspec(property(put = set_passOperationBack))::UnityEngine::Rendering::StencilOp passOperationBack;
+
+  __declspec(property(put = set_passOperationFront))::UnityEngine::Rendering::StencilOp passOperationFront;
 
   __declspec(property(put = set_readMask)) uint8_t readMask;
 
   __declspec(property(put = set_writeMask)) uint8_t writeMask;
 
-  __declspec(property(put = set_compareFunctionFront))::UnityEngine::Rendering::CompareFunction compareFunctionFront;
-
-  __declspec(property(put = set_passOperationFront))::UnityEngine::Rendering::StencilOp passOperationFront;
-
-  __declspec(property(put = set_failOperationFront))::UnityEngine::Rendering::StencilOp failOperationFront;
+  __declspec(property(put = set_zFailOperationBack))::UnityEngine::Rendering::StencilOp zFailOperationBack;
 
   __declspec(property(put = set_zFailOperationFront))::UnityEngine::Rendering::StencilOp zFailOperationFront;
-
-  __declspec(property(put = set_compareFunctionBack))::UnityEngine::Rendering::CompareFunction compareFunctionBack;
-
-  __declspec(property(put = set_passOperationBack))::UnityEngine::Rendering::StencilOp passOperationBack;
-
-  __declspec(property(put = set_failOperationBack))::UnityEngine::Rendering::StencilOp failOperationBack;
-
-  __declspec(property(put = set_zFailOperationBack))::UnityEngine::Rendering::StencilOp zFailOperationBack;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>*();
 
+  /// @brief Method Equals, addr 0x2de1920, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2de1870, size 0xb0, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::StencilState other);
+
+  /// @brief Method GetHashCode, addr 0x2de199c, size 0xf0, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>* i___System__IEquatable_1___UnityEngine__Rendering__StencilState_();
 
-  /// @brief Method set_enabled, addr 0x2cedfa4, size 0x6c, virtual false, abstract: false, final false
-  inline void set_enabled(bool value);
-
-  /// @brief Method set_readMask, addr 0x2cee010, size 0x8, virtual false, abstract: false, final false
-  inline void set_readMask(uint8_t value);
-
-  /// @brief Method set_writeMask, addr 0x2cee018, size 0x8, virtual false, abstract: false, final false
-  inline void set_writeMask(uint8_t value);
-
-  /// @brief Method set_compareFunctionFront, addr 0x2cee020, size 0x8, virtual false, abstract: false, final false
-  inline void set_compareFunctionFront(::UnityEngine::Rendering::CompareFunction value);
-
-  /// @brief Method set_passOperationFront, addr 0x2cee028, size 0x8, virtual false, abstract: false, final false
-  inline void set_passOperationFront(::UnityEngine::Rendering::StencilOp value);
-
-  /// @brief Method set_failOperationFront, addr 0x2cee030, size 0x8, virtual false, abstract: false, final false
-  inline void set_failOperationFront(::UnityEngine::Rendering::StencilOp value);
-
-  /// @brief Method set_zFailOperationFront, addr 0x2cee038, size 0x8, virtual false, abstract: false, final false
-  inline void set_zFailOperationFront(::UnityEngine::Rendering::StencilOp value);
-
-  /// @brief Method set_compareFunctionBack, addr 0x2cee040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compareFunctionBack, addr 0x2de1850, size 0x8, virtual false, abstract: false, final false
   inline void set_compareFunctionBack(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_passOperationBack, addr 0x2cee048, size 0x8, virtual false, abstract: false, final false
-  inline void set_passOperationBack(::UnityEngine::Rendering::StencilOp value);
+  /// @brief Method set_compareFunctionFront, addr 0x2de1830, size 0x8, virtual false, abstract: false, final false
+  inline void set_compareFunctionFront(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_failOperationBack, addr 0x2cee050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x2de17b4, size 0x6c, virtual false, abstract: false, final false
+  inline void set_enabled(bool value);
+
+  /// @brief Method set_failOperationBack, addr 0x2de1860, size 0x8, virtual false, abstract: false, final false
   inline void set_failOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_zFailOperationBack, addr 0x2cee058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOperationFront, addr 0x2de1840, size 0x8, virtual false, abstract: false, final false
+  inline void set_failOperationFront(::UnityEngine::Rendering::StencilOp value);
+
+  /// @brief Method set_passOperationBack, addr 0x2de1858, size 0x8, virtual false, abstract: false, final false
+  inline void set_passOperationBack(::UnityEngine::Rendering::StencilOp value);
+
+  /// @brief Method set_passOperationFront, addr 0x2de1838, size 0x8, virtual false, abstract: false, final false
+  inline void set_passOperationFront(::UnityEngine::Rendering::StencilOp value);
+
+  /// @brief Method set_readMask, addr 0x2de1820, size 0x8, virtual false, abstract: false, final false
+  inline void set_readMask(uint8_t value);
+
+  /// @brief Method set_writeMask, addr 0x2de1828, size 0x8, virtual false, abstract: false, final false
+  inline void set_writeMask(uint8_t value);
+
+  /// @brief Method set_zFailOperationBack, addr 0x2de1868, size 0x8, virtual false, abstract: false, final false
   inline void set_zFailOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method Equals, addr 0x2cee060, size 0xb0, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::StencilState other);
+  /// @brief Method set_zFailOperationFront, addr 0x2de1848, size 0x8, virtual false, abstract: false, final false
+  inline void set_zFailOperationFront(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method Equals, addr 0x2cee110, size 0x7c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2cee18c, size 0xf0, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StencilState();
 
   // Ctor Parameters [CppParam { name: "m_Enabled", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_ReadMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_CompareFunctionFront", ty:
@@ -111,10 +113,6 @@ public:
   // None }, CppParam { name: "m_ZFailOperationBack", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr StencilState(uint8_t m_Enabled, uint8_t m_ReadMask, uint8_t m_WriteMask, uint8_t m_Padding, uint8_t m_CompareFunctionFront, uint8_t m_PassOperationFront, uint8_t m_FailOperationFront,
                          uint8_t m_ZFailOperationFront, uint8_t m_CompareFunctionBack, uint8_t m_PassOperationBack, uint8_t m_FailOperationBack, uint8_t m_ZFailOperationBack) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StencilState();
 
   /// @brief Field m_Enabled, offset: 0x0, size: 0x1, def value: None
   uint8_t m_Enabled;

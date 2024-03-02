@@ -15,20 +15,18 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_TouchPadMove_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8669))
 // CS Name: ::OVR.OpenVR::VREvent_TouchPadMove_t
 struct CORDL_TYPE VREvent_TouchPadMove_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VREvent_TouchPadMove_t();
+
   // Ctor Parameters [CppParam { name: "bFingerDown", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flSecondsFingerDown", ty: "float_t", modifiers: "", def_value: None }, CppParam {
   // name: "fValueXFirst", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueYFirst", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueXRaw", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueYRaw", ty: "float_t", modifiers: "", def_value: None }]
   constexpr VREvent_TouchPadMove_t(bool bFingerDown, float_t flSecondsFingerDown, float_t fValueXFirst, float_t fValueYFirst, float_t fValueXRaw, float_t fValueYRaw) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VREvent_TouchPadMove_t();
 
   /// @brief Field bFingerDown, offset: 0x0, size: 0x1, def value: None
   bool bFingerDown;

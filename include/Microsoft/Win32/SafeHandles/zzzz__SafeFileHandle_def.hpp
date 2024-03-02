@@ -15,20 +15,24 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeFileHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2299))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeFileHandle*
 class CORDL_TYPE SafeFileHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x242c11c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(void* preexistingHandle, bool ownsHandle);
-
-  /// @brief Method ReleaseHandle, addr 0x242c1a8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x251dd04, size 0x7c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
+  /// @brief Method .ctor, addr 0x251dc78, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(void* preexistingHandle, bool ownsHandle);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeFileHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeFileHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeFileHandle(SafeFileHandle&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeFileHandle(SafeFileHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeFileHandle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

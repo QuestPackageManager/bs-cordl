@@ -18,8 +18,6 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3845))
 // CS Name: ::System.Collections.Generic::ArrayBuilder`1<T>
 struct CORDL_TYPE ArrayBuilder_1 {
 public:
@@ -30,6 +28,15 @@ public:
 
   __declspec(property(get = get_Item)) T Item[];
 
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(T item);
+
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void EnsureCapacity(int32_t minimum);
+
+  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UncheckedAdd(T item);
+
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
@@ -39,21 +46,12 @@ public:
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(T item);
-
-  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UncheckedAdd(T item);
-
-  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void EnsureCapacity(int32_t minimum);
-
-  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ArrayBuilder_1(::ArrayW<T, ::Array<T>*> _array, int32_t _count) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ArrayBuilder_1();
+
+  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ArrayBuilder_1(::ArrayW<T, ::Array<T>*> _array, int32_t _count) noexcept;
 
   /// @brief Field _array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> _array;

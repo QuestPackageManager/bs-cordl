@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorArrayLightWithIdsGroupEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14521))
 // CS Name: ::ColorArrayLightWithIdsGroupEntry*
 class CORDL_TYPE ColorArrayLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,41 +30,47 @@ public:
   __declspec(property(get = __cordl_internal_get__colorArrayLightWithIds,
                       put = __cordl_internal_set__colorArrayLightWithIds))::UnityW<::GlobalNamespace::ColorArrayLightWithIds> _colorArrayLightWithIds;
 
+  /// @brief Field _excludedLightIds, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__excludedLightIds, put = __cordl_internal_set__excludedLightIds))::ArrayW<int32_t, ::Array<int32_t>*> _excludedLightIds;
+
   /// @brief Field _lightGroups, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups,
                       put = __cordl_internal_set__lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> _lightGroups;
 
-  /// @brief Field _excludedLightIds, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__excludedLightIds, put = __cordl_internal_set__excludedLightIds))::ArrayW<int32_t, ::Array<int32_t>*> _excludedLightIds;
-
   __declspec(property(get = get_lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> lightGroups;
-
-  constexpr ::UnityW<::GlobalNamespace::ColorArrayLightWithIds>& __cordl_internal_get__colorArrayLightWithIds();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorArrayLightWithIds> const& __cordl_internal_get__colorArrayLightWithIds() const;
-
-  constexpr void __cordl_internal_set__colorArrayLightWithIds(::UnityW<::GlobalNamespace::ColorArrayLightWithIds> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>& __cordl_internal_get__lightGroups();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> const& __cordl_internal_get__lightGroups() const;
-
-  constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__excludedLightIds();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__excludedLightIds() const;
-
-  constexpr void __cordl_internal_set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  /// @brief Method get_lightGroups, addr 0x210f088, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
   static inline ::GlobalNamespace::ColorArrayLightWithIdsGroupEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f090, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::ColorArrayLightWithIds> const& __cordl_internal_get__colorArrayLightWithIds() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorArrayLightWithIds>& __cordl_internal_get__colorArrayLightWithIds();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__excludedLightIds() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__excludedLightIds();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> const& __cordl_internal_get__lightGroups() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>& __cordl_internal_get__lightGroups();
+
+  constexpr void __cordl_internal_set__colorArrayLightWithIds(::UnityW<::GlobalNamespace::ColorArrayLightWithIds> value);
+
+  constexpr void __cordl_internal_set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
+
+  /// @brief Method .ctor, addr 0x2271ea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_lightGroups, addr 0x2271e98, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorArrayLightWithIdsGroupEntry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorArrayLightWithIdsGroupEntry(ColorArrayLightWithIdsGroupEntry&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorArrayLightWithIdsGroupEntry(ColorArrayLightWithIdsGroupEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorArrayLightWithIdsGroupEntry();
-
-public:
   /// @brief Field _colorArrayLightWithIds, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorArrayLightWithIds> ____colorArrayLightWithIds;
 

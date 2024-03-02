@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::EntitlementsStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12727))
 // CS Name: ::EntitlementsStatus
 struct CORDL_TYPE EntitlementsStatus {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__EntitlementsStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EntitlementsStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EntitlementsStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EntitlementsStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::EntitlementsStatus const Unknown;
-
-  /// @brief Field NotOwned value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::EntitlementsStatus const NotOwned;
 
   /// @brief Field NotDownloaded value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::EntitlementsStatus const NotDownloaded;
 
+  /// @brief Field NotOwned value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::EntitlementsStatus const NotOwned;
+
   /// @brief Field Ok value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::EntitlementsStatus const Ok;
+
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::EntitlementsStatus const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

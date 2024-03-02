@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::IPolynomialExtensionField);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1583))
 // CS Name: ::Org.BouncyCastle.Math.Field::IPolynomialExtensionField*
 class CORDL_TYPE IPolynomialExtensionField {
 public:
@@ -33,17 +31,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IExtensionField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IExtensionField*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"
-  constexpr ::Org::BouncyCastle::Math::Field::IExtensionField* i___Org__BouncyCastle__Math__Field__IExtensionField() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
-  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
-
   /// @brief Method get_MinimalPolynomial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"
+  constexpr ::Org::BouncyCastle::Math::Field::IExtensionField* i___Org__BouncyCastle__Math__Field__IExtensionField() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"
+  constexpr ::Org::BouncyCastle::Math::Field::IFiniteField* i___Org__BouncyCastle__Math__Field__IFiniteField() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPolynomialExtensionField", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

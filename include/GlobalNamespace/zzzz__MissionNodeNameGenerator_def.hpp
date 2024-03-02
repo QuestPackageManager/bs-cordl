@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeNameGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
 // CS Name: ::MissionNodeNameGenerator*
 class CORDL_TYPE MissionNodeNameGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,17 +24,23 @@ public:
   /// @brief Field _missionNodesManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager))::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
+  static inline ::GlobalNamespace::MissionNodeNameGenerator* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
+
   constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-  static inline ::GlobalNamespace::MissionNodeNameGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22a088c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ca468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionNodeNameGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeNameGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeNameGenerator(MissionNodeNameGenerator&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionNodeNameGenerator(MissionNodeNameGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionNodeNameGenerator();
-
-public:
   /// @brief Field _missionNodesManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraSmoothnessSettingsController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5610))
 // CS Name: ::SmoothCameraSmoothnessSettingsController*
 class CORDL_TYPE SmoothCameraSmoothnessSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -37,38 +35,44 @@ public:
   /// @brief Field _smoothnesses, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothnesses, put = __cordl_internal_set__smoothnesses))::ArrayW<float_t, ::Array<float_t>*> _smoothnesses;
 
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraPositionSmooth();
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraPositionSmooth() const;
-
-  constexpr void __cordl_internal_set__smoothCameraPositionSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraRotationSmooth();
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraRotationSmooth() const;
-
-  constexpr void __cordl_internal_set__smoothCameraRotationSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__smoothnesses();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__smoothnesses() const;
-
-  constexpr void __cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  /// @brief Method GetInitValues, addr 0x22abff4, size 0x114, virtual true, abstract: false, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
-
-  /// @brief Method ApplyValue, addr 0x22ac108, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x23ae2d8, size 0xac, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue, addr 0x22ac1b4, size 0xcc, virtual true, abstract: false, final false
-  inline ::StringW TextForValue(int32_t idx);
+  /// @brief Method GetInitValues, addr 0x23ae1c4, size 0x114, virtual true, abstract: false, final false
+  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::SmoothCameraSmoothnessSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ac280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x23ae384, size 0xcc, virtual true, abstract: false, final false
+  inline ::StringW TextForValue(int32_t idx);
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraPositionSmooth() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraPositionSmooth();
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__smoothCameraRotationSmooth() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__smoothCameraRotationSmooth();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__smoothnesses() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__smoothnesses();
+
+  constexpr void __cordl_internal_set__smoothCameraPositionSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
+
+  constexpr void __cordl_internal_set__smoothCameraRotationSmooth(::UnityW<::GlobalNamespace::FloatSO> value);
+
+  constexpr void __cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  /// @brief Method .ctor, addr 0x23ae450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SmoothCameraSmoothnessSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraSmoothnessSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmoothCameraSmoothnessSettingsController(SmoothCameraSmoothnessSettingsController&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmoothCameraSmoothnessSettingsController(SmoothCameraSmoothnessSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmoothCameraSmoothnessSettingsController();
-
-public:
   /// @brief Field _smoothCameraPositionSmooth, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____smoothCameraPositionSmooth;
 

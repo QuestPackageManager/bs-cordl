@@ -21,26 +21,27 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3066))
 // CS Name: ::System.Runtime.Remoting::ChannelData*
 class CORDL_TYPE ChannelData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Ref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref))::StringW Ref;
+  __declspec(property(get = get_ClientProviders))::System::Collections::ArrayList* ClientProviders;
 
-  /// @brief Field Type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
-
-  /// @brief Field Id, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+  __declspec(property(get = get_CustomProperties))::System::Collections::Hashtable* CustomProperties;
 
   /// @brief Field DelayLoadAsClientChannel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_DelayLoadAsClientChannel, put = __cordl_internal_set_DelayLoadAsClientChannel))::StringW DelayLoadAsClientChannel;
 
-  /// @brief Field _serverProviders, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders))::System::Collections::ArrayList* _serverProviders;
+  /// @brief Field Id, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+
+  /// @brief Field Ref, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref))::StringW Ref;
+
+  __declspec(property(get = get_ServerProviders))::System::Collections::ArrayList* ServerProviders;
+
+  /// @brief Field Type, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
 
   /// @brief Field _clientProviders, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__clientProviders, put = __cordl_internal_set__clientProviders))::System::Collections::ArrayList* _clientProviders;
@@ -48,71 +49,74 @@ public:
   /// @brief Field _customProperties, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__customProperties, put = __cordl_internal_set__customProperties))::System::Collections::Hashtable* _customProperties;
 
-  __declspec(property(get = get_ServerProviders))::System::Collections::ArrayList* ServerProviders;
+  /// @brief Field _serverProviders, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders))::System::Collections::ArrayList* _serverProviders;
 
-  __declspec(property(get = get_ClientProviders))::System::Collections::ArrayList* ClientProviders;
+  /// @brief Method CopyFrom, addr 0x257c608, size 0x940, virtual false, abstract: false, final false
+  inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
-  __declspec(property(get = get_CustomProperties))::System::Collections::Hashtable* CustomProperties;
-
-  constexpr ::StringW& __cordl_internal_get_Ref();
-
-  constexpr ::StringW const& __cordl_internal_get_Ref() const;
-
-  constexpr void __cordl_internal_set_Ref(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Type();
-
-  constexpr ::StringW const& __cordl_internal_get_Type() const;
-
-  constexpr void __cordl_internal_set_Type(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Id();
-
-  constexpr ::StringW const& __cordl_internal_get_Id() const;
-
-  constexpr void __cordl_internal_set_Id(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_DelayLoadAsClientChannel();
+  static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_DelayLoadAsClientChannel() const;
 
-  constexpr void __cordl_internal_set_DelayLoadAsClientChannel(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_DelayLoadAsClientChannel();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__serverProviders();
+  constexpr ::StringW const& __cordl_internal_get_Id() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__serverProviders() const;
+  constexpr ::StringW& __cordl_internal_get_Id();
 
-  constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
+  constexpr ::StringW const& __cordl_internal_get_Ref() const;
+
+  constexpr ::StringW& __cordl_internal_get_Ref();
+
+  constexpr ::StringW const& __cordl_internal_get_Type() const;
+
+  constexpr ::StringW& __cordl_internal_get_Type();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__clientProviders();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__clientProviders() const;
 
-  constexpr void __cordl_internal_set__clientProviders(::System::Collections::ArrayList* value);
-
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__customProperties();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__customProperties() const;
 
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__serverProviders();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__serverProviders() const;
+
+  constexpr void __cordl_internal_set_DelayLoadAsClientChannel(::StringW value);
+
+  constexpr void __cordl_internal_set_Id(::StringW value);
+
+  constexpr void __cordl_internal_set_Ref(::StringW value);
+
+  constexpr void __cordl_internal_set_Type(::StringW value);
+
+  constexpr void __cordl_internal_set__clientProviders(::System::Collections::ArrayList* value);
+
   constexpr void __cordl_internal_set__customProperties(::System::Collections::Hashtable* value);
 
-  /// @brief Method get_ServerProviders, addr 0x24891dc, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* get_ServerProviders();
+  constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
 
-  /// @brief Method get_ClientProviders, addr 0x248994c, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* get_ClientProviders();
-
-  /// @brief Method get_CustomProperties, addr 0x248d578, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::Hashtable* get_CustomProperties();
-
-  /// @brief Method CopyFrom, addr 0x248889c, size 0x940, virtual false, abstract: false, final false
-  inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
-
-  static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x248d4c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2581230, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ClientProviders, addr 0x257d6b8, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Collections::ArrayList* get_ClientProviders();
+
+  /// @brief Method get_CustomProperties, addr 0x25812e4, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Collections::Hashtable* get_CustomProperties();
+
+  /// @brief Method get_ServerProviders, addr 0x257cf48, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Collections::ArrayList* get_ServerProviders();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChannelData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ChannelData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChannelData(ChannelData&&) = delete;
@@ -121,12 +125,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChannelData(ChannelData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ChannelData();
-
-public:
   /// @brief Field Ref, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Ref;
 

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6082))
 // CS Name: ::ShaderWarmupSceneSetup*
 class CORDL_TYPE ShaderWarmupSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _sharedWarmupColorScheme, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sharedWarmupColorScheme, put = __cordl_internal_set__sharedWarmupColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _sharedWarmupColorScheme;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__sharedWarmupColorScheme();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__sharedWarmupColorScheme() const;
-
-  constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
-
-  /// @brief Method InstallBindings, addr 0x2320098, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x241ace0, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2320150, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__sharedWarmupColorScheme() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__sharedWarmupColorScheme();
+
+  constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+
+  /// @brief Method .ctor, addr 0x241ad98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShaderWarmupSceneSetup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderWarmupSceneSetup(ShaderWarmupSceneSetup&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderWarmupSceneSetup(ShaderWarmupSceneSetup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderWarmupSceneSetup();
-
-public:
   /// @brief Field _sharedWarmupColorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____sharedWarmupColorScheme;
 

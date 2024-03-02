@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult {
 public:
@@ -54,24 +52,29 @@ public:
     return static_cast<____ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Failed value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const Failed;
 
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const OK;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -85,8 +88,6 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPre
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__GetPremiumStatusResult {
 public:
@@ -105,27 +106,32 @@ public:
     return static_cast<____ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyPSPremiumHelper__GetPremiumStatusResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ISonyPSPremiumHelper__GetPremiumStatusResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ISonyPSPremiumHelper__GetPremiumStatusResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Authorized value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Authorized;
 
+  /// @brief Field Failed value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Failed;
+
   /// @brief Field Unauthorized value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Unauthorized;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -139,15 +145,13 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStat
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
 // CS Name: ::ISonyPSPremiumHelper*
 class CORDL_TYPE ISonyPSPremiumHelper {
 public:
   // Declarations
-  using GetPremiumStatusResult = ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult;
-
   using DisplayJoinPremiumDialogResult = ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+
+  using GetPremiumStatusResult = ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult;
 
   /// @brief Method DisplayJoinPremiumDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult>* DisplayJoinPremiumDialogAsync(::System::Threading::CancellationToken token);

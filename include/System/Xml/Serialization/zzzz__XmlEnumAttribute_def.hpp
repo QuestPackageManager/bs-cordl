@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlEnumAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11588))
 // CS Name: ::System.Xml.Serialization::XmlEnumAttribute*
 class CORDL_TYPE XmlEnumAttribute : public ::System::Attribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+  static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
+  constexpr ::StringW& __cordl_internal_get_name();
+
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
-
-  /// @brief Method .ctor, addr 0x28abf2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2996a10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlEnumAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlEnumAttribute(XmlEnumAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlEnumAttribute(XmlEnumAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlEnumAttribute();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 

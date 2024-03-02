@@ -32,12 +32,14 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeSettings);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15376))
 // CS Name: ::UnityEngine.UIElements::TextNativeSettings
 struct CORDL_TYPE TextNativeSettings {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextNativeSettings();
+
   // Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None },
   // CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scaling", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "style", ty:
   // "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "anchor", ty:
@@ -45,10 +47,6 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }]
   constexpr TextNativeSettings(::StringW text, ::UnityW<::UnityEngine::Font> font, int32_t size, float_t scaling, ::UnityEngine::FontStyle style, ::UnityEngine::Color color,
                                ::UnityEngine::TextAnchor anchor, bool wordWrap, float_t wordWrapWidth, bool richText) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextNativeSettings();
 
   /// @brief Field text, offset: 0x0, size: 0x8, def value: None
   ::StringW text;

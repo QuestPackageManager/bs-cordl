@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3271))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveUnTyped*
 class CORDL_TYPE MemberPrimitiveUnTyped : public ::System::Object {
 public:
@@ -40,38 +38,44 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_typeInformation();
+  /// @brief Method Dump, addr 0x25b50d4, size 0x4, virtual false, abstract: false, final false
+  inline void Dump();
+
+  static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* New_ctor();
+
+  /// @brief Method Read, addr 0x25b50a4, size 0x30, virtual true, abstract: false, final true
+  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+
+  /// @brief Method Set, addr 0x25b5078, size 0x8, virtual false, abstract: false, final false
+  inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
+
+  /// @brief Method Set, addr 0x25b506c, size 0xc, virtual false, abstract: false, final false
+  inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::System::Object* value);
+
+  /// @brief Method Write, addr 0x25b5080, size 0x24, virtual true, abstract: false, final true
+  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_typeInformation() const;
 
-  constexpr void __cordl_internal_set_typeInformation(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_typeInformation();
 
   constexpr ::System::Object*& __cordl_internal_get_value();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
+  constexpr void __cordl_internal_set_typeInformation(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24c32f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b5064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set, addr 0x24c3300, size 0xc, virtual false, abstract: false, final false
-  inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::System::Object* value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemberPrimitiveUnTyped();
 
-  /// @brief Method Set, addr 0x24c330c, size 0x8, virtual false, abstract: false, final false
-  inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
-
-  /// @brief Method Write, addr 0x24c3314, size 0x24, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
-
-  /// @brief Method Read, addr 0x24c3338, size 0x30, virtual true, abstract: false, final true
-  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
-
-  /// @brief Method Dump, addr 0x24c3368, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveUnTyped", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberPrimitiveUnTyped(MemberPrimitiveUnTyped&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberPrimitiveUnTyped(MemberPrimitiveUnTyped const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberPrimitiveUnTyped();
-
-public:
   /// @brief Field typeInformation, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___typeInformation;
 

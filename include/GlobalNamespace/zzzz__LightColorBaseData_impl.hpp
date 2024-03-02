@@ -1,23 +1,23 @@
 #pragma once
-#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_impl.hpp"
+#include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorBaseData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBaseData::*)(
-    float_t, ::GlobalNamespace::BeatmapEventTransitionType, ::GlobalNamespace::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LightColorBaseData::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x233cd24;
+    float_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LightColorBaseData::_ctor)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x12c01dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventTransitionType>::get(),
+        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -36,17 +36,29 @@ constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_beat(fl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beat = value;
 }
-constexpr ::GlobalNamespace::BeatmapEventTransitionType& GlobalNamespace::LightColorBaseData::__cordl_internal_get_transitionType() {
+constexpr bool& GlobalNamespace::LightColorBaseData::__cordl_internal_get_usePreviousValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___transitionType;
+  return this->___usePreviousValue;
 }
-constexpr ::GlobalNamespace::BeatmapEventTransitionType const& GlobalNamespace::LightColorBaseData::__cordl_internal_get_transitionType() const {
+constexpr bool const& GlobalNamespace::LightColorBaseData::__cordl_internal_get_usePreviousValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___transitionType;
+  return this->___usePreviousValue;
 }
-constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_transitionType(::GlobalNamespace::BeatmapEventTransitionType value) {
+constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_usePreviousValue(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___transitionType = value;
+  this->___usePreviousValue = value;
+}
+constexpr ::GlobalNamespace::EaseType& GlobalNamespace::LightColorBaseData::__cordl_internal_get_easeType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___easeType;
+}
+constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::LightColorBaseData::__cordl_internal_get_easeType() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___easeType;
+}
+constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_easeType(::GlobalNamespace::EaseType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___easeType = value;
 }
 constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::LightColorBaseData::__cordl_internal_get_colorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -108,21 +120,21 @@ constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_strobeF
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strobeFade = value;
 }
-inline ::GlobalNamespace::LightColorBaseData* GlobalNamespace::LightColorBaseData::New_ctor(float_t beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType,
+inline ::GlobalNamespace::LightColorBaseData* GlobalNamespace::LightColorBaseData::New_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
                                                                                             ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
                                                                                             float_t strobeBrightness, bool strobeFade) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBaseData*>(beat, transitionType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBaseData*>(beat, usePreviousValue, easeType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade));
 }
-inline void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType,
-                                                       float_t brightness, int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade) {
+inline void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness,
+                                                       int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventTransitionType>::get(),
+      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, transitionType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousValue, easeType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBaseData::LightColorBaseData() {}

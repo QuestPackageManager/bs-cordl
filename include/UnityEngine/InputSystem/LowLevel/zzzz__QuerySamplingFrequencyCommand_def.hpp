@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6483))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QuerySamplingFrequencyCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QuerySamplingFrequencyCommand {
@@ -44,37 +42,37 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bcedf4, size 0x38, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr float_t& __cordl_internal_get_frequency();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr float_t const& __cordl_internal_get_frequency() const;
 
+  constexpr float_t& __cordl_internal_get_frequency();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
   constexpr void __cordl_internal_set_frequency(float_t value);
 
-  /// @brief Method get_Type, addr 0x2ae8154, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2bced94, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ae8184, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bcedc4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae81b4, size 0x38, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand Create();
-
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "frequency", ty: "float_t",
-  // modifiers: "", def_value: None }]
-  constexpr QuerySamplingFrequencyCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, float_t frequency) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr QuerySamplingFrequencyCommand();
+
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "frequency", ty: "float_t",
+  // modifiers: "", def_value: None }]
+  constexpr QuerySamplingFrequencyCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, float_t frequency) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

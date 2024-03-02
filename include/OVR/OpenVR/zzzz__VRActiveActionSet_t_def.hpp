@@ -15,20 +15,18 @@ MARK_VAL_T(::OVR::OpenVR::VRActiveActionSet_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8725))
 // CS Name: ::OVR.OpenVR::VRActiveActionSet_t
 struct CORDL_TYPE VRActiveActionSet_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRActiveActionSet_t();
+
   // Ctor Parameters [CppParam { name: "ulActionSet", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ulRestrictedToDevice", ty: "uint64_t", modifiers: "", def_value: None },
   // CppParam { name: "ulSecondaryActionSet", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "unPadding", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "nPriority", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VRActiveActionSet_t(uint64_t ulActionSet, uint64_t ulRestrictedToDevice, uint64_t ulSecondaryActionSet, uint32_t unPadding, int32_t nPriority) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRActiveActionSet_t();
 
   /// @brief Field ulActionSet, offset: 0x0, size: 0x8, def value: None
   uint64_t ulActionSet;

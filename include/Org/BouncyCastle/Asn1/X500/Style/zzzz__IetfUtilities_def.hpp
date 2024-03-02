@@ -27,38 +27,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X500::Style {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(323))
 // CS Name: ::Org.BouncyCastle.Asn1.X500.Style::IetfUtilities*
 class CORDL_TYPE IetfUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValueToString, addr 0x107ea78, size 0x4fc, virtual false, abstract: false, final false
-  static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  /// @brief Method AtvAreEqual, addr 0x10f13ec, size 0xcc, virtual false, abstract: false, final false
+  static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
-  /// @brief Method Canonicalize, addr 0x107ef74, size 0x2a4, virtual false, abstract: false, final false
-  static inline ::StringW Canonicalize(::StringW s);
-
-  /// @brief Method CanonicalString, addr 0x107f494, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanonicalString, addr 0x10f12f4, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW CanonicalString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method DecodeObject, addr 0x107f218, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x10f0dd4, size 0x2a4, virtual false, abstract: false, final false
+  static inline ::StringW Canonicalize(::StringW s);
+
+  /// @brief Method DecodeObject, addr 0x10f1078, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* DecodeObject(::StringW oValue);
-
-  /// @brief Method StripInternalSpaces, addr 0x107f368, size 0x12c, virtual false, abstract: false, final false
-  static inline ::StringW StripInternalSpaces(::StringW str);
-
-  /// @brief Method RdnAreEqual, addr 0x107f4a4, size 0xe8, virtual false, abstract: false, final false
-  static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
-
-  /// @brief Method AtvAreEqual, addr 0x107f58c, size 0xcc, virtual false, abstract: false, final false
-  static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107f658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RdnAreEqual, addr 0x10f1304, size 0xe8, virtual false, abstract: false, final false
+  static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
+
+  /// @brief Method StripInternalSpaces, addr 0x10f11c8, size 0x12c, virtual false, abstract: false, final false
+  static inline ::StringW StripInternalSpaces(::StringW str);
+
+  /// @brief Method ValueToString, addr 0x10f08d8, size 0x4fc, virtual false, abstract: false, final false
+  static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+
+  /// @brief Method .ctor, addr 0x10f14b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IetfUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IetfUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IetfUtilities(IetfUtilities&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IetfUtilities(IetfUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IetfUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

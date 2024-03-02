@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::JetBrains::Annotations::InstantHandleAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15753))
 // CS Name: ::JetBrains.Annotations::InstantHandleAttribute*
 class CORDL_TYPE InstantHandleAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::InstantHandleAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eba31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstantHandleAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstantHandleAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantHandleAttribute(InstantHandleAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstantHandleAttribute(InstantHandleAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstantHandleAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

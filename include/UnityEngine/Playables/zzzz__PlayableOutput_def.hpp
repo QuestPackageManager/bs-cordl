@@ -24,8 +24,6 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10415))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10438))
 // CS Name: ::UnityEngine.Playables::PlayableOutput
 struct CORDL_TYPE PlayableOutput {
 public:
@@ -33,43 +31,43 @@ public:
   /// @brief Field m_NullPlayableOutput, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_m_NullPlayableOutput, put = setStaticF_m_NullPlayableOutput))::UnityEngine::Playables::PlayableOutput m_NullPlayableOutput;
 
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
-
-  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
-
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>* i___System__IEquatable_1___UnityEngine__Playables__PlayableOutput_();
+  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
+  constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  static inline void setStaticF_m_NullPlayableOutput(::UnityEngine::Playables::PlayableOutput value);
+  /// @brief Method Equals, addr 0x2decd08, size 0x74, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Playables::PlayableOutput other);
 
-  static inline ::UnityEngine::Playables::PlayableOutput getStaticF_m_NullPlayableOutput();
-
-  /// @brief Method get_Null, addr 0x2cf5f8c, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::PlayableOutput get_Null();
-
-  /// @brief Method .ctor, addr 0x2cf5c08, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
-
-  /// @brief Method GetHandle, addr 0x2cf68f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2deccfc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOutputOfType();
 
-  /// @brief Method Equals, addr 0x2cf6904, size 0x74, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Playables::PlayableOutput other);
+  /// @brief Method .ctor, addr 0x2dec00c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-  constexpr PlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+  static inline ::UnityEngine::Playables::PlayableOutput getStaticF_m_NullPlayableOutput();
+
+  /// @brief Method get_Null, addr 0x2dec390, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::PlayableOutput get_Null();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>* i___System__IEquatable_1___UnityEngine__Playables__PlayableOutput_();
+
+  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+
+  static inline void setStaticF_m_NullPlayableOutput(::UnityEngine::Playables::PlayableOutput value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PlayableOutput();
+
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  constexpr PlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableOutputHandle m_Handle;

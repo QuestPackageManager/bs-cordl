@@ -46,13 +46,13 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2992))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8996))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2Impl*
 class CORDL_TYPE X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl {
 public:
   // Declarations
   __declspec(property(get = get_Extensions))::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* Extensions;
+
+  __declspec(property(get = get_IntermediateCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* IntermediateCertificates;
 
   __declspec(property(get = get_IssuerName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* IssuerName;
 
@@ -64,19 +64,34 @@ public:
 
   __declspec(property(get = get_Version)) int32_t Version;
 
-  __declspec(property(get = get_IntermediateCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* IntermediateCertificates;
+  /// @brief Method AppendPrivateKeyInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
+
+  /// @brief Method CopyWithPrivateKey, addr 0x2a66da0, size 0xac, virtual true, abstract: false, final true
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
+
+  /// @brief Method GetNameInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
+
+  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* New_ctor();
+
+  /// @brief Method Verify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
+
+  /// @brief Method .ctor, addr 0x2a66e4c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_Extensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* get_Extensions();
+
+  /// @brief Method get_IntermediateCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
 
   /// @brief Method get_IssuerName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
 
   /// @brief Method get_PrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
-
-  /// @brief Method set_PrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
   /// @brief Method get_SignatureAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_SignatureAlgorithm();
@@ -87,26 +102,15 @@ public:
   /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_IntermediateCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
+  /// @brief Method set_PrivateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
-  /// @brief Method GetNameInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Certificate2Impl();
 
-  /// @brief Method Verify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
-
-  /// @brief Method AppendPrivateKeyInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
-
-  /// @brief Method CopyWithPrivateKey, addr 0x297d228, size 0xac, virtual true, abstract: false, final true
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
-
-  static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x297d2d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2Impl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Certificate2Impl(X509Certificate2Impl&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Certificate2Impl(X509Certificate2Impl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Certificate2Impl();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

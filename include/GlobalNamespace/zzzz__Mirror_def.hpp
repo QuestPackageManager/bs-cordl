@@ -27,112 +27,116 @@ MARK_REF_PTR_T(::GlobalNamespace::Mirror);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15296))
 // CS Name: ::Mirror*
 class CORDL_TYPE Mirror : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _mirrorRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer))::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
-
-  /// @brief Field _renderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
+  /// @brief Field <isEnabled>k__BackingField, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__isEnabled_k__BackingField, put = __cordl_internal_set__isEnabled_k__BackingField)) bool _isEnabled_k__BackingField;
 
   /// @brief Field _mirrorMaterial, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorMaterial, put = __cordl_internal_set__mirrorMaterial))::UnityW<::UnityEngine::Material> _mirrorMaterial;
 
+  /// @brief Field _mirrorRenderer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer))::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
+
   /// @brief Field _noMirrorMaterial, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__noMirrorMaterial, put = __cordl_internal_set__noMirrorMaterial))::UnityW<::UnityEngine::Material> _noMirrorMaterial;
 
-  /// @brief Field <isEnabled>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__isEnabled_k__BackingField, put = __cordl_internal_set__isEnabled_k__BackingField)) bool _isEnabled_k__BackingField;
+  /// @brief Field _renderer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
+
+  /// @brief Field _texturePropertyID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__texturePropertyID, put = setStaticF__texturePropertyID)) int32_t _texturePropertyID;
+
+  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
 
   /// @brief Field mirrorDidChangeEnabledStateEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_mirrorDidChangeEnabledStateEvent,
                       put = __cordl_internal_set_mirrorDidChangeEnabledStateEvent))::System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
 
-  /// @brief Field _texturePropertyID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__texturePropertyID, put = setStaticF__texturePropertyID)) int32_t _texturePropertyID;
-
   __declspec(property(get = get_mirrorMaterial))::UnityW<::UnityEngine::Material> mirrorMaterial;
 
   __declspec(property(get = get_noMirrorMaterial))::UnityW<::UnityEngine::Material> noMirrorMaterial;
 
-  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
+  /// @brief Method ChangeMirrorEnabledState, addr 0x28f2328, size 0x38, virtual false, abstract: false, final false
+  inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
+  static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
+  /// @brief Method OnWillRenderObject, addr 0x28f20cc, size 0x25c, virtual false, abstract: false, final false
+  inline void OnWillRenderObject();
 
-  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
-
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mirrorMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mirrorMaterial() const;
-
-  constexpr void __cordl_internal_set__mirrorMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__noMirrorMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__noMirrorMaterial() const;
-
-  constexpr void __cordl_internal_set__noMirrorMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr bool& __cordl_internal_get__isEnabled_k__BackingField();
+  /// @brief Method Update, addr 0x28f1f28, size 0x18, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__isEnabled_k__BackingField(bool value);
+  constexpr bool& __cordl_internal_get__isEnabled_k__BackingField();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mirrorMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mirrorMaterial();
+
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__noMirrorMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__noMirrorMaterial();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_mirrorDidChangeEnabledStateEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_mirrorDidChangeEnabledStateEvent() const;
 
+  constexpr void __cordl_internal_set__isEnabled_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__mirrorMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
+
+  constexpr void __cordl_internal_set__noMirrorMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
   constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  static inline void setStaticF__texturePropertyID(int32_t value);
+  /// @brief Method .ctor, addr 0x28f2b68, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x28f1dc8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_mirrorMaterial, addr 0x2809140, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
-
-  /// @brief Method get_noMirrorMaterial, addr 0x2809148, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
-
-  /// @brief Method get_isEnabled, addr 0x2809150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x28f1db4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method set_isEnabled, addr 0x2809158, size 0xc, virtual false, abstract: false, final false
-  inline void set_isEnabled(bool value);
+  /// @brief Method get_mirrorMaterial, addr 0x28f1da4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x2809164, size 0xb0, virtual false, abstract: false, final false
-  inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
+  /// @brief Method get_noMirrorMaterial, addr 0x28f1dac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x2809214, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x28f1e78, size 0xb0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method Update, addr 0x28092c4, size 0x18, virtual false, abstract: false, final false
-  inline void Update();
+  static inline void setStaticF__texturePropertyID(int32_t value);
 
-  /// @brief Method OnWillRenderObject, addr 0x2809468, size 0x25c, virtual false, abstract: false, final false
-  inline void OnWillRenderObject();
+  /// @brief Method set_isEnabled, addr 0x28f1dbc, size 0xc, virtual false, abstract: false, final false
+  inline void set_isEnabled(bool value);
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x28096c4, size 0x38, virtual false, abstract: false, final false
-  inline void ChangeMirrorEnabledState(bool newIsEnabled);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Mirror();
 
-  static inline ::GlobalNamespace::Mirror* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2809f04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mirror(Mirror&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Mirror(Mirror const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Mirror();
-
-public:
   /// @brief Field _mirrorRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 

@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::HMUI::DropdownWithTableView);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13624))
 // CS Name: ::HMUI::DropdownWithTableView*
 class CORDL_TYPE DropdownWithTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,118 +37,124 @@ public:
   /// @brief Field _button, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
-  /// @brief Field _tableView, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
-
   /// @brief Field _modalView, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__modalView, put = __cordl_internal_set__modalView))::UnityW<::HMUI::ModalView> _modalView;
 
   /// @brief Field _numberOfVisibleCells, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfVisibleCells, put = __cordl_internal_set__numberOfVisibleCells)) int32_t _numberOfVisibleCells;
 
+  /// @brief Field <selectedIndex>k__BackingField, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__selectedIndex_k__BackingField, put = __cordl_internal_set__selectedIndex_k__BackingField)) int32_t _selectedIndex_k__BackingField;
+
+  /// @brief Field _tableView, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
+
   /// @brief Field didSelectCellWithIdxEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
                       put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* didSelectCellWithIdxEvent;
 
-  /// @brief Field <selectedIndex>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__selectedIndex_k__BackingField, put = __cordl_internal_set__selectedIndex_k__BackingField)) int32_t _selectedIndex_k__BackingField;
+  __declspec(property(get = get_selectedIndex, put = set_selectedIndex)) int32_t selectedIndex;
 
   __declspec(property(get = get_tableViewDataSource))::HMUI::__TableView__IDataSource* tableViewDataSource;
 
-  __declspec(property(get = get_selectedIndex, put = set_selectedIndex)) int32_t selectedIndex;
+  /// @brief Method Awake, addr 0x2291e08, size 0x17c, virtual true, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+  /// @brief Method HandleModalViewBlockerClicked, addr 0x2292280, size 0x8, virtual false, abstract: false, final false
+  inline void HandleModalViewBlockerClicked();
+
+  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x2292248, size 0x38, virtual false, abstract: false, final false
+  inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t idx);
+
+  /// @brief Method Hide, addr 0x2291f8c, size 0x3c, virtual false, abstract: false, final false
+  inline void Hide(bool animated);
+
+  /// @brief Method Init, addr 0x2291c08, size 0x20, virtual false, abstract: false, final false
+  inline void Init(::HMUI::__TableView__IDataSource* tableViewDataSource);
+
+  static inline ::HMUI::DropdownWithTableView* New_ctor();
+
+  /// @brief Method OnButtonClick, addr 0x22921c0, size 0x8, virtual false, abstract: false, final false
+  inline void OnButtonClick();
+
+  /// @brief Method OnDestroy, addr 0x2291fc8, size 0x1f8, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDisable, addr 0x2291f84, size 0x8, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method RefreshSize, addr 0x2291c60, size 0x180, virtual false, abstract: false, final false
+  inline void RefreshSize(::HMUI::__TableView__IDataSource* dataSource);
+
+  /// @brief Method ReloadData, addr 0x2291c28, size 0x38, virtual false, abstract: false, final false
+  inline void ReloadData();
+
+  /// @brief Method SelectCellWithIdx, addr 0x2291de0, size 0x28, virtual true, abstract: false, final false
+  inline void SelectCellWithIdx(int32_t idx);
+
+  /// @brief Method Show, addr 0x22921c8, size 0x80, virtual false, abstract: false, final false
+  inline void Show(bool animated);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
-
-  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
-
-  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
-
-  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get__modalView();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get__modalView() const;
 
-  constexpr void __cordl_internal_set__modalView(::UnityW<::HMUI::ModalView> value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfVisibleCells();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get__modalView();
 
   constexpr int32_t const& __cordl_internal_get__numberOfVisibleCells() const;
 
-  constexpr void __cordl_internal_set__numberOfVisibleCells(int32_t value);
+  constexpr int32_t& __cordl_internal_get__numberOfVisibleCells();
+
+  constexpr int32_t const& __cordl_internal_get__selectedIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__selectedIndex_k__BackingField();
+
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
+
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
   constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr int32_t& __cordl_internal_get__selectedIndex_k__BackingField();
+  constexpr void __cordl_internal_set__modalView(::UnityW<::HMUI::ModalView> value);
 
-  constexpr int32_t const& __cordl_internal_get__selectedIndex_k__BackingField() const;
+  constexpr void __cordl_internal_set__numberOfVisibleCells(int32_t value);
 
   constexpr void __cordl_internal_set__selectedIndex_k__BackingField(int32_t value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2130b30, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x2130be0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method get_tableViewDataSource, addr 0x2130c90, size 0x1c, virtual false, abstract: false, final false
-  inline ::HMUI::__TableView__IDataSource* get_tableViewDataSource();
-
-  /// @brief Method get_selectedIndex, addr 0x2130cac, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_selectedIndex();
-
-  /// @brief Method set_selectedIndex, addr 0x2130cb4, size 0x8, virtual false, abstract: false, final false
-  inline void set_selectedIndex(int32_t value);
-
-  /// @brief Method Init, addr 0x2130cbc, size 0x20, virtual false, abstract: false, final false
-  inline void Init(::HMUI::__TableView__IDataSource* tableViewDataSource);
-
-  /// @brief Method ReloadData, addr 0x2130cdc, size 0x38, virtual false, abstract: false, final false
-  inline void ReloadData();
-
-  /// @brief Method SelectCellWithIdx, addr 0x2130e94, size 0x28, virtual true, abstract: false, final false
-  inline void SelectCellWithIdx(int32_t idx);
-
-  /// @brief Method Awake, addr 0x2130ebc, size 0x17c, virtual true, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDisable, addr 0x2131038, size 0x8, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnDestroy, addr 0x213107c, size 0x1f8, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method RefreshSize, addr 0x2130d14, size 0x180, virtual false, abstract: false, final false
-  inline void RefreshSize(::HMUI::__TableView__IDataSource* dataSource);
-
-  /// @brief Method OnButtonClick, addr 0x2131274, size 0x8, virtual false, abstract: false, final false
-  inline void OnButtonClick();
-
-  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x21312fc, size 0x38, virtual false, abstract: false, final false
-  inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t idx);
-
-  /// @brief Method Hide, addr 0x2131040, size 0x3c, virtual false, abstract: false, final false
-  inline void Hide(bool animated);
-
-  /// @brief Method Show, addr 0x213127c, size 0x80, virtual false, abstract: false, final false
-  inline void Show(bool animated);
-
-  /// @brief Method HandleModalViewBlockerClicked, addr 0x2131334, size 0x8, virtual false, abstract: false, final false
-  inline void HandleModalViewBlockerClicked();
-
-  static inline ::HMUI::DropdownWithTableView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x213133c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2292288, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2291a7c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
+
+  /// @brief Method get_selectedIndex, addr 0x2291bf8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_selectedIndex();
+
+  /// @brief Method get_tableViewDataSource, addr 0x2291bdc, size 0x1c, virtual false, abstract: false, final false
+  inline ::HMUI::__TableView__IDataSource* get_tableViewDataSource();
+
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x2291b2c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
+
+  /// @brief Method set_selectedIndex, addr 0x2291c00, size 0x8, virtual false, abstract: false, final false
+  inline void set_selectedIndex(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DropdownWithTableView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTableView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownWithTableView(DropdownWithTableView&&) = delete;
@@ -159,12 +163,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownWithTableView(DropdownWithTableView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DropdownWithTableView();
-
-public:
   /// @brief Field _button, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 

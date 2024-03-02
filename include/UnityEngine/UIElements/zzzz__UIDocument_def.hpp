@@ -31,24 +31,11 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocument);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7015))
 // CS Name: ::UnityEngine.UIElements::UIDocument*
 class CORDL_TYPE UIDocument : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field m_UIDocumentCreationIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UIDocumentCreationIndex, put = __cordl_internal_set_m_UIDocumentCreationIndex)) int32_t m_UIDocumentCreationIndex;
-
-  /// @brief Field m_PanelSettings, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PanelSettings, put = __cordl_internal_set_m_PanelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> m_PanelSettings;
-
-  /// @brief Field m_PreviousPanelSettings, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousPanelSettings,
-                      put = __cordl_internal_set_m_PreviousPanelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> m_PreviousPanelSettings;
-
-  /// @brief Field m_ParentUI, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ParentUI, put = __cordl_internal_set_m_ParentUI))::UnityW<::UnityEngine::UIElements::UIDocument> m_ParentUI;
+  __declspec(property(get = get_firstChildInserIndex)) int32_t firstChildInserIndex;
 
   /// @brief Field m_ChildrenContent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ChildrenContent, put = __cordl_internal_set_m_ChildrenContent))::UnityEngine::UIElements::UIDocumentList* m_ChildrenContent;
@@ -57,180 +44,197 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ChildrenContentCopy,
                       put = __cordl_internal_set_m_ChildrenContentCopy))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_ChildrenContentCopy;
 
-  /// @brief Field sourceAsset, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_sourceAsset, put = __cordl_internal_set_sourceAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset;
+  /// @brief Field m_FirstChildInsertIndex, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_FirstChildInsertIndex, put = __cordl_internal_set_m_FirstChildInsertIndex)) int32_t m_FirstChildInsertIndex;
+
+  /// @brief Field m_PanelSettings, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PanelSettings, put = __cordl_internal_set_m_PanelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> m_PanelSettings;
+
+  /// @brief Field m_ParentUI, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ParentUI, put = __cordl_internal_set_m_ParentUI))::UnityW<::UnityEngine::UIElements::UIDocument> m_ParentUI;
+
+  /// @brief Field m_PreviousPanelSettings, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PreviousPanelSettings,
+                      put = __cordl_internal_set_m_PreviousPanelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> m_PreviousPanelSettings;
 
   /// @brief Field m_RootVisualElement, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RootVisualElement, put = __cordl_internal_set_m_RootVisualElement))::UnityEngine::UIElements::VisualElement* m_RootVisualElement;
 
-  /// @brief Field m_FirstChildInsertIndex, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FirstChildInsertIndex, put = __cordl_internal_set_m_FirstChildInsertIndex)) int32_t m_FirstChildInsertIndex;
-
   /// @brief Field m_SortingOrder, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SortingOrder, put = __cordl_internal_set_m_SortingOrder)) float_t m_SortingOrder;
 
-  /// @brief Field s_CurrentUIDocumentCounter, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_CurrentUIDocumentCounter, put = setStaticF_s_CurrentUIDocumentCounter)) int32_t s_CurrentUIDocumentCounter;
+  /// @brief Field m_UIDocumentCreationIndex, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UIDocumentCreationIndex, put = __cordl_internal_set_m_UIDocumentCreationIndex)) int32_t m_UIDocumentCreationIndex;
 
   __declspec(property(get = get_panelSettings, put = set_panelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> panelSettings;
 
   __declspec(property(get = get_parentUI, put = set_parentUI))::UnityW<::UnityEngine::UIElements::UIDocument> parentUI;
 
-  __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAsset;
-
   __declspec(property(get = get_rootVisualElement))::UnityEngine::UIElements::VisualElement* rootVisualElement;
 
-  __declspec(property(get = get_firstChildInserIndex)) int32_t firstChildInserIndex;
+  /// @brief Field s_CurrentUIDocumentCounter, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_CurrentUIDocumentCounter, put = setStaticF_s_CurrentUIDocumentCounter)) int32_t s_CurrentUIDocumentCounter;
 
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) float_t sortingOrder;
 
-  constexpr int32_t& __cordl_internal_get_m_UIDocumentCreationIndex();
+  /// @brief Field sourceAsset, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_sourceAsset, put = __cordl_internal_set_sourceAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset;
 
-  constexpr int32_t const& __cordl_internal_get_m_UIDocumentCreationIndex() const;
+  __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAsset;
 
-  constexpr void __cordl_internal_set_m_UIDocumentCreationIndex(int32_t value);
+  /// @brief Method AddChildAndInsertContentToVisualTree, addr 0x2f25b24, size 0x90, virtual false, abstract: false, final false
+  inline void AddChildAndInsertContentToVisualTree(::UnityEngine::UIElements::UIDocument* child);
 
-  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PanelSettings();
+  /// @brief Method AddRootVisualElementToTree, addr 0x2f256a8, size 0xd4, virtual false, abstract: false, final false
+  inline void AddRootVisualElementToTree();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
+  /// @brief Method ApplySortingOrder, addr 0x2f256a4, size 0x4, virtual false, abstract: false, final false
+  inline void ApplySortingOrder();
 
-  constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
+  /// @brief Method Awake, addr 0x2f257ec, size 0x4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PreviousPanelSettings();
+  /// @brief Method FindUIDocumentParent, addr 0x2f25950, size 0xd0, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UIElements::UIDocument> FindUIDocumentParent();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PreviousPanelSettings() const;
+  static inline ::UnityEngine::UIElements::UIDocument* New_ctor();
 
-  constexpr void __cordl_internal_set_m_PreviousPanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
+  /// @brief Method OnDisable, addr 0x2f25d1c, size 0x20, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument>& __cordl_internal_get_m_ParentUI();
+  /// @brief Method OnEnable, addr 0x2f25880, size 0xc0, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument> const& __cordl_internal_get_m_ParentUI() const;
+  /// @brief Method OnTransformChildrenChanged, addr 0x2f25d3c, size 0x210, virtual false, abstract: false, final false
+  inline void OnTransformChildrenChanged();
 
-  constexpr void __cordl_internal_set_m_ParentUI(::UnityW<::UnityEngine::UIElements::UIDocument> value);
+  /// @brief Method OnTransformParentChanged, addr 0x2f25ff0, size 0x4, virtual false, abstract: false, final false
+  inline void OnTransformParentChanged();
+
+  /// @brief Method ReactToHierarchyChanged, addr 0x2f25f4c, size 0xa4, virtual false, abstract: false, final false
+  inline void ReactToHierarchyChanged();
+
+  /// @brief Method RecreateUI, addr 0x2f25278, size 0x404, virtual false, abstract: false, final false
+  inline void RecreateUI();
+
+  /// @brief Method RemoveChild, addr 0x2f25940, size 0x10, virtual false, abstract: false, final false
+  inline void RemoveChild(::UnityEngine::UIElements::UIDocument* child);
+
+  /// @brief Method RemoveFromHierarchy, addr 0x2f25bb4, size 0xcc, virtual false, abstract: false, final false
+  inline void RemoveFromHierarchy();
+
+  /// @brief Method Reset, addr 0x2f25a20, size 0x104, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetupFromHierarchy, addr 0x2f257f0, size 0x90, virtual false, abstract: false, final false
+  inline void SetupFromHierarchy();
+
+  /// @brief Method SetupRootClassList, addr 0x2f25c80, size 0x9c, virtual false, abstract: false, final false
+  inline void SetupRootClassList();
 
   constexpr ::UnityEngine::UIElements::UIDocumentList*& __cordl_internal_get_m_ChildrenContent();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIDocumentList*> const& __cordl_internal_get_m_ChildrenContent() const;
 
-  constexpr void __cordl_internal_set_m_ChildrenContent(::UnityEngine::UIElements::UIDocumentList* value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& __cordl_internal_get_m_ChildrenContentCopy();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*> const& __cordl_internal_get_m_ChildrenContentCopy() const;
 
-  constexpr void __cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
+  constexpr int32_t const& __cordl_internal_get_m_FirstChildInsertIndex() const;
 
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_sourceAsset();
+  constexpr int32_t& __cordl_internal_get_m_FirstChildInsertIndex();
 
-  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_sourceAsset() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
 
-  constexpr void __cordl_internal_set_sourceAsset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PanelSettings();
+
+  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument> const& __cordl_internal_get_m_ParentUI() const;
+
+  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument>& __cordl_internal_get_m_ParentUI();
+
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PreviousPanelSettings() const;
+
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PreviousPanelSettings();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_RootVisualElement();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_RootVisualElement() const;
 
-  constexpr void __cordl_internal_set_m_RootVisualElement(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr int32_t& __cordl_internal_get_m_FirstChildInsertIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_FirstChildInsertIndex() const;
-
-  constexpr void __cordl_internal_set_m_FirstChildInsertIndex(int32_t value);
+  constexpr float_t const& __cordl_internal_get_m_SortingOrder() const;
 
   constexpr float_t& __cordl_internal_get_m_SortingOrder();
 
-  constexpr float_t const& __cordl_internal_get_m_SortingOrder() const;
+  constexpr int32_t const& __cordl_internal_get_m_UIDocumentCreationIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_UIDocumentCreationIndex();
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get_sourceAsset() const;
+
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get_sourceAsset();
+
+  constexpr void __cordl_internal_set_m_ChildrenContent(::UnityEngine::UIElements::UIDocumentList* value);
+
+  constexpr void __cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
+
+  constexpr void __cordl_internal_set_m_FirstChildInsertIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
+
+  constexpr void __cordl_internal_set_m_ParentUI(::UnityW<::UnityEngine::UIElements::UIDocument> value);
+
+  constexpr void __cordl_internal_set_m_PreviousPanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
+
+  constexpr void __cordl_internal_set_m_RootVisualElement(::UnityEngine::UIElements::VisualElement* value);
 
   constexpr void __cordl_internal_set_m_SortingOrder(float_t value);
 
-  static inline void setStaticF_s_CurrentUIDocumentCounter(int32_t value);
+  constexpr void __cordl_internal_set_m_UIDocumentCreationIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_sourceAsset(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
+
+  /// @brief Method .ctor, addr 0x2f2577c, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF_s_CurrentUIDocumentCounter();
 
-  /// @brief Method get_panelSettings, addr 0x2e15394, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
-
-  /// @brief Method set_panelSettings, addr 0x2e1539c, size 0x29c, virtual false, abstract: false, final false
-  inline void set_panelSettings(::UnityEngine::UIElements::PanelSettings* value);
-
-  /// @brief Method get_parentUI, addr 0x2e15748, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UIElements::UIDocument> get_parentUI();
-
-  /// @brief Method set_parentUI, addr 0x2e15750, size 0x8, virtual false, abstract: false, final false
-  inline void set_parentUI(::UnityEngine::UIElements::UIDocument* value);
-
-  /// @brief Method get_visualTreeAsset, addr 0x2e15758, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
-
-  /// @brief Method set_visualTreeAsset, addr 0x2e15760, size 0x8, virtual false, abstract: false, final false
-  inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
-
-  /// @brief Method get_rootVisualElement, addr 0x2e14fbc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_rootVisualElement();
-
-  /// @brief Method get_firstChildInserIndex, addr 0x2e15b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstChildInserIndex, addr 0x2f2567c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_firstChildInserIndex();
 
-  /// @brief Method get_sortingOrder, addr 0x2e15b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panelSettings, addr 0x2f24ea4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
+
+  /// @brief Method get_parentUI, addr 0x2f25258, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UIElements::UIDocument> get_parentUI();
+
+  /// @brief Method get_rootVisualElement, addr 0x2f24acc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_rootVisualElement();
+
+  /// @brief Method get_sortingOrder, addr 0x2f25684, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingOrder();
 
-  /// @brief Method set_sortingOrder, addr 0x2e15b7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_visualTreeAsset, addr 0x2f25268, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
+
+  static inline void setStaticF_s_CurrentUIDocumentCounter(int32_t value);
+
+  /// @brief Method set_panelSettings, addr 0x2f24eac, size 0x29c, virtual false, abstract: false, final false
+  inline void set_panelSettings(::UnityEngine::UIElements::PanelSettings* value);
+
+  /// @brief Method set_parentUI, addr 0x2f25260, size 0x8, virtual false, abstract: false, final false
+  inline void set_parentUI(::UnityEngine::UIElements::UIDocument* value);
+
+  /// @brief Method set_sortingOrder, addr 0x2f2568c, size 0x18, virtual false, abstract: false, final false
   inline void set_sortingOrder(float_t value);
 
-  /// @brief Method ApplySortingOrder, addr 0x2e15b94, size 0x4, virtual false, abstract: false, final false
-  inline void ApplySortingOrder();
+  /// @brief Method set_visualTreeAsset, addr 0x2f25270, size 0x8, virtual false, abstract: false, final false
+  inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
 
-  static inline ::UnityEngine::UIElements::UIDocument* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIDocument();
 
-  /// @brief Method .ctor, addr 0x2e15c6c, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Awake, addr 0x2e15cdc, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnEnable, addr 0x2e15d70, size 0xc0, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method SetupFromHierarchy, addr 0x2e15ce0, size 0x90, virtual false, abstract: false, final false
-  inline void SetupFromHierarchy();
-
-  /// @brief Method FindUIDocumentParent, addr 0x2e15e40, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UIElements::UIDocument> FindUIDocumentParent();
-
-  /// @brief Method Reset, addr 0x2e15f10, size 0x104, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method AddChildAndInsertContentToVisualTree, addr 0x2e16014, size 0x90, virtual false, abstract: false, final false
-  inline void AddChildAndInsertContentToVisualTree(::UnityEngine::UIElements::UIDocument* child);
-
-  /// @brief Method RemoveChild, addr 0x2e15e30, size 0x10, virtual false, abstract: false, final false
-  inline void RemoveChild(::UnityEngine::UIElements::UIDocument* child);
-
-  /// @brief Method RecreateUI, addr 0x2e15768, size 0x404, virtual false, abstract: false, final false
-  inline void RecreateUI();
-
-  /// @brief Method SetupRootClassList, addr 0x2e16170, size 0x9c, virtual false, abstract: false, final false
-  inline void SetupRootClassList();
-
-  /// @brief Method AddRootVisualElementToTree, addr 0x2e15b98, size 0xd4, virtual false, abstract: false, final false
-  inline void AddRootVisualElementToTree();
-
-  /// @brief Method RemoveFromHierarchy, addr 0x2e160a4, size 0xcc, virtual false, abstract: false, final false
-  inline void RemoveFromHierarchy();
-
-  /// @brief Method OnDisable, addr 0x2e1620c, size 0x20, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnTransformChildrenChanged, addr 0x2e1622c, size 0x210, virtual false, abstract: false, final false
-  inline void OnTransformChildrenChanged();
-
-  /// @brief Method OnTransformParentChanged, addr 0x2e164e0, size 0x4, virtual false, abstract: false, final false
-  inline void OnTransformParentChanged();
-
-  /// @brief Method ReactToHierarchyChanged, addr 0x2e1643c, size 0xa4, virtual false, abstract: false, final false
-  inline void ReactToHierarchyChanged();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIDocument", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIDocument(UIDocument&&) = delete;
@@ -239,12 +243,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIDocument(UIDocument const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIDocument();
-
-public:
   /// @brief Field m_UIDocumentCreationIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_UIDocumentCreationIndex;
 
@@ -275,14 +273,14 @@ public:
   /// @brief Field m_SortingOrder, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_SortingOrder;
 
+  /// @brief Field k_DefaultSortingOrder offset 0xffffffff size 0x4
+  static constexpr int32_t k_DefaultSortingOrder{ static_cast<int32_t>(0x0) };
+
   /// @brief Field k_RootStyleClassName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_RootStyleClassName{ u"unity-ui-document__root" };
 
   /// @brief Field k_VisualElementNameSuffix offset 0xffffffff size 0x8
   static constexpr ::ConstString k_VisualElementNameSuffix{ u"-container" };
-
-  /// @brief Field k_DefaultSortingOrder offset 0xffffffff size 0x4
-  static constexpr int32_t k_DefaultSortingOrder{ static_cast<int32_t>(0x0) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

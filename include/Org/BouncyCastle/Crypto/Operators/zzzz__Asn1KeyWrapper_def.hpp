@@ -29,49 +29,53 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(984))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1KeyWrapper*
 class CORDL_TYPE Asn1KeyWrapper : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
+
   /// @brief Field algorithm, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
 
   /// @brief Field wrapper, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_wrapper, put = __cordl_internal_set_wrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper;
 
-  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IKeyWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IKeyWrapper*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyWrapper"
-  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* i___Org__BouncyCastle__Crypto__IKeyWrapper() noexcept;
+  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper* New_ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  constexpr ::StringW& __cordl_internal_get_algorithm();
+  /// @brief Method Wrap, addr 0xf989b0, size 0xac, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __cordl_internal_set_algorithm(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_algorithm();
 
   constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_wrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& __cordl_internal_get_wrapper() const;
 
+  constexpr void __cordl_internal_set_algorithm(::StringW value);
+
   constexpr void __cordl_internal_set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper* New_ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
-
-  /// @brief Method .ctor, addr 0xf287d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf98634, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf28ab0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf98910, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Wrap, addr 0xf28b50, size 0xac, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyWrapper"
+  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* i___Org__BouncyCastle__Crypto__IKeyWrapper() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1KeyWrapper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1KeyWrapper(Asn1KeyWrapper&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1KeyWrapper(Asn1KeyWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1KeyWrapper();
-
-public:
   /// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
   ::StringW ___algorithm;
 

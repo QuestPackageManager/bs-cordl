@@ -15,8 +15,6 @@ MARK_VAL_T(::TMPro::TMP_VertexDataUpdateFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12316))
 // CS Name: ::TMPro::TMP_VertexDataUpdateFlags
 struct CORDL_TYPE TMP_VertexDataUpdateFlags {
 public:
@@ -39,24 +37,29 @@ public:
     return static_cast<__TMP_VertexDataUpdateFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TMP_VertexDataUpdateFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TMP_VertexDataUpdateFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TMP_VertexDataUpdateFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field All value: static_cast<int32_t>(0xff)
+  static ::TMPro::TMP_VertexDataUpdateFlags const All;
+
+  /// @brief Field Colors32 value: static_cast<int32_t>(0x10)
+  static ::TMPro::TMP_VertexDataUpdateFlags const Colors32;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::TMPro::TMP_VertexDataUpdateFlags const None;
-
-  /// @brief Field Vertices value: static_cast<int32_t>(0x1)
-  static ::TMPro::TMP_VertexDataUpdateFlags const Vertices;
 
   /// @brief Field Uv0 value: static_cast<int32_t>(0x2)
   static ::TMPro::TMP_VertexDataUpdateFlags const Uv0;
@@ -67,11 +70,11 @@ public:
   /// @brief Field Uv4 value: static_cast<int32_t>(0x8)
   static ::TMPro::TMP_VertexDataUpdateFlags const Uv4;
 
-  /// @brief Field Colors32 value: static_cast<int32_t>(0x10)
-  static ::TMPro::TMP_VertexDataUpdateFlags const Colors32;
+  /// @brief Field Vertices value: static_cast<int32_t>(0x1)
+  static ::TMPro::TMP_VertexDataUpdateFlags const Vertices;
 
-  /// @brief Field All value: static_cast<int32_t>(0xff)
-  static ::TMPro::TMP_VertexDataUpdateFlags const All;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

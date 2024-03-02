@@ -23,32 +23,36 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseDownEvent);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4641 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7216))
 // CS Name: ::UnityEngine.UIElements::MouseDownEvent*
 class CORDL_TYPE MouseDownEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseDownEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e50e34, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2f5cd80, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerDownEvent* pointerEvent);
+
+  /// @brief Method GetPooled, addr 0x2f5d54c, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
+
+  /// @brief Method Init, addr 0x2f5e944, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e50e88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5e998, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
+
+  /// @brief Method MakeFromPointerEvent, addr 0x2f5e9f8, size 0x18c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::MouseDownEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e50e94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e9a4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x2e50ee8, size 0x18c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::MouseDownEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseDownEvent();
 
-  /// @brief Method GetPooled, addr 0x2e4f270, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerDownEvent* pointerEvent);
-
-  /// @brief Method GetPooled, addr 0x2e4fa3c, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseDownEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseDownEvent(MouseDownEvent&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseDownEvent(MouseDownEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseDownEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

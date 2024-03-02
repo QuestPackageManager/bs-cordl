@@ -21,32 +21,36 @@ MARK_REF_PTR_T(::System::ArgumentNullException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2345))
 // CS Name: ::System::ArgumentNullException*
 class CORDL_TYPE ArgumentNullException : public ::System::ArgumentException {
 public:
   // Declarations
   static inline ::System::ArgumentNullException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2520c94, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::ArgumentNullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x2519434, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW paramName);
-
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2520cf0, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::StringW paramName, ::StringW message);
+  /// @brief Method .ctor, addr 0x2610968, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::ArgumentNullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2520d28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26109fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x2609108, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW paramName);
+
+  /// @brief Method .ctor, addr 0x26109c4, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::StringW paramName, ::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArgumentNullException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentNullException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArgumentNullException(ArgumentNullException&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArgumentNullException(ArgumentNullException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArgumentNullException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

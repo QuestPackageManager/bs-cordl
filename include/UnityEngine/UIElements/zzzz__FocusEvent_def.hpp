@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7232)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7232), inst: 1985 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7236))
 // CS Name: ::UnityEngine.UIElements::FocusEvent*
 class CORDL_TYPE FocusEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusEvent*> {
 public:
   // Declarations
-  /// @brief Method PreDispatch, addr 0x2e52198, size 0xa8, virtual true, abstract: false, final false
-  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
-
   static inline ::UnityEngine::UIElements::FocusEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e52240, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x2f5fca8, size 0xa8, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x2f5fd50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FocusEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FocusEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusEvent(FocusEvent&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FocusEvent(FocusEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FocusEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

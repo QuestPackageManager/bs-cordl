@@ -29,8 +29,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
 // CS Name: ::SortedList`2<T,TBase>*
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
@@ -38,12 +36,12 @@ public:
   /// @brief Field _items, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::LinkedList_1<TBase>* _items;
 
+  /// @brief Field _lastUsedNode, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastUsedNode, put = __cordl_internal_set__lastUsedNode))::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
+
   /// @brief Field _sortedListDataProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sortedListDataProcessor,
                       put = __cordl_internal_set__sortedListDataProcessor))::GlobalNamespace::ISortedListItemProcessor_1<TBase>* _sortedListDataProcessor;
-
-  /// @brief Field _lastUsedNode, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastUsedNode, put = __cordl_internal_set__lastUsedNode))::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
 
   __declspec(property(get = get_count)) int32_t count;
 
@@ -52,43 +50,16 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
   constexpr operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
-  constexpr ::GlobalNamespace::ISortedList_1<TBase>* i___GlobalNamespace__ISortedList_1_TBase_() noexcept;
-
-  constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __cordl_internal_get__items();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& __cordl_internal_get__items() const;
-
-  constexpr void __cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value);
-
-  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& __cordl_internal_get__sortedListDataProcessor();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const& __cordl_internal_get__sortedListDataProcessor() const;
-
-  constexpr void __cordl_internal_set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value);
-
-  constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& __cordl_internal_get__lastUsedNode();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& __cordl_internal_get__lastUsedNode() const;
-
-  constexpr void __cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value);
-
-  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline int32_t get_count();
-
-  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::LinkedList_1<TBase>* get_items();
-
-  static inline ::GlobalNamespace::SortedList_2<T, TBase>* New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
-
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::LinkedListNode_1<TBase>* Insert(TBase newItem);
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Insert(::System::Collections::Generic::LinkedListNode_1<TBase>* newNode);
+
+  /// @brief Method InsertInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem);
+
+  static inline ::GlobalNamespace::SortedList_2<T, TBase>* New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
@@ -96,9 +67,42 @@ public:
   /// @brief Method TouchLastUsedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
-  /// @brief Method InsertInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem);
+  constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __cordl_internal_get__items();
 
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& __cordl_internal_get__items() const;
+
+  constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& __cordl_internal_get__lastUsedNode();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& __cordl_internal_get__lastUsedNode() const;
+
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& __cordl_internal_get__sortedListDataProcessor();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const& __cordl_internal_get__sortedListDataProcessor() const;
+
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value);
+
+  constexpr void __cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value);
+
+  constexpr void __cordl_internal_set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
+
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_count();
+
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::LinkedList_1<TBase>* get_items();
+
+  /// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
+  constexpr ::GlobalNamespace::ISortedList_1<TBase>* i___GlobalNamespace__ISortedList_1_TBase_() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortedList_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_2(SortedList_2&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortedList_2(SortedList_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortedList_2();
-
-public:
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<TBase>* ____items;
 

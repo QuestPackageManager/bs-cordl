@@ -4,10 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeMinMax_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataMinMaxFloatSO)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+struct BeatmapKey;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
@@ -31,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5108)), TypeDefinitionIndex(TypeDefinitionIndex(5109))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5103))
 // CS Name: ::MultiplayerBadgeDataMinMaxFloatSO*
 class CORDL_TYPE MultiplayerBadgeDataMinMaxFloatSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
@@ -43,39 +42,45 @@ public:
   /// @brief Field _weightMultiplier, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__weightMultiplier, put = __cordl_internal_set__weightMultiplier)) float_t _weightMultiplier;
 
-  constexpr ::GlobalNamespace::MultiplayerBadgeMinMax& __cordl_internal_get__minMax();
-
-  constexpr ::GlobalNamespace::MultiplayerBadgeMinMax const& __cordl_internal_get__minMax() const;
-
-  constexpr void __cordl_internal_set__minMax(::GlobalNamespace::MultiplayerBadgeMinMax value);
-
-  constexpr float_t& __cordl_internal_get__weightMultiplier();
-
-  constexpr float_t const& __cordl_internal_get__weightMultiplier() const;
-
-  constexpr void __cordl_internal_set__weightMultiplier(float_t value);
-
-  /// @brief Method CalculateBadgeData, addr 0x23cdcf8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x12d8498, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
+
+  /// @brief Method CalculateMax, addr 0x12d84ac, size 0x584, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
+                                                                    float_t randomMultiplier);
+
+  /// @brief Method CalculateMin, addr 0x12d8a30, size 0x590, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
+                                                                    float_t randomMultiplier);
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method CalculateMax, addr 0x23cdd0c, size 0x570, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                    float_t randomMultiplier);
-
-  /// @brief Method CalculateMin, addr 0x23ce27c, size 0x57c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                    float_t randomMultiplier);
-
   static inline ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cdce8, size 0x10, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::MultiplayerBadgeMinMax const& __cordl_internal_get__minMax() const;
+
+  constexpr ::GlobalNamespace::MultiplayerBadgeMinMax& __cordl_internal_get__minMax();
+
+  constexpr float_t const& __cordl_internal_get__weightMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get__weightMultiplier();
+
+  constexpr void __cordl_internal_set__minMax(::GlobalNamespace::MultiplayerBadgeMinMax value);
+
+  constexpr void __cordl_internal_set__weightMultiplier(float_t value);
+
+  /// @brief Method .ctor, addr 0x12d8488, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeDataMinMaxFloatSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSO&&) = delete;
@@ -84,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataMinMaxFloatSO();
-
-public:
   /// @brief Field _minMax, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerBadgeMinMax ____minMax;
 

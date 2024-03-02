@@ -22,17 +22,15 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3284))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoCache*
 class CORDL_TYPE SerObjectInfoCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field fullTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName))::StringW fullTypeName;
-
   /// @brief Field assemblyString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
+
+  /// @brief Field fullTypeName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName))::StringW fullTypeName;
 
   /// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_hasTypeForwardedFrom, put = __cordl_internal_set_hasTypeForwardedFrom)) bool hasTypeForwardedFrom;
@@ -47,52 +45,58 @@ public:
   /// @brief Field memberTypes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
 
-  constexpr ::StringW& __cordl_internal_get_fullTypeName();
-
-  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
-
-  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_assemblyString();
-
-  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
-
-  constexpr void __cordl_internal_set_assemblyString(::StringW value);
-
-  constexpr bool& __cordl_internal_get_hasTypeForwardedFrom();
-
-  constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
-
-  constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
-
-  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>& __cordl_internal_get_memberInfos();
-
-  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get_memberInfos() const;
-
-  constexpr void __cordl_internal_set_memberInfos(::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
-
-  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
-
-  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor, addr 0x24cb308, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
+  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
+  constexpr ::StringW& __cordl_internal_get_assemblyString();
 
-  /// @brief Method .ctor, addr 0x24cb344, size 0x8c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
+
+  constexpr ::StringW& __cordl_internal_get_fullTypeName();
+
+  constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
+
+  constexpr bool& __cordl_internal_get_hasTypeForwardedFrom();
+
+  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get_memberInfos() const;
+
+  constexpr ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>& __cordl_internal_get_memberInfos();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
+
+  constexpr void __cordl_internal_set_assemblyString(::StringW value);
+
+  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
+
+  constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
+
+  constexpr void __cordl_internal_set_memberInfos(::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> value);
+
+  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+
+  /// @brief Method .ctor, addr 0x25bc0b0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
+  /// @brief Method .ctor, addr 0x25bc074, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerObjectInfoCache();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerObjectInfoCache(SerObjectInfoCache&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerObjectInfoCache(SerObjectInfoCache const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerObjectInfoCache();
-
-public:
   /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___fullTypeName;
 

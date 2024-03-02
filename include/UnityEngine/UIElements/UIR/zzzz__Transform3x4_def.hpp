@@ -18,19 +18,17 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Transform3x4);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7424))
 // CS Name: ::UnityEngine.UIElements.UIR::Transform3x4
 struct CORDL_TYPE Transform3x4 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "v0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "v2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
-  constexpr Transform3x4(::UnityEngine::Vector4 v0, ::UnityEngine::Vector4 v1, ::UnityEngine::Vector4 v2) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Transform3x4();
+
+  // Ctor Parameters [CppParam { name: "v0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
+  // CppParam { name: "v2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  constexpr Transform3x4(::UnityEngine::Vector4 v0, ::UnityEngine::Vector4 v1, ::UnityEngine::Vector4 v2) noexcept;
 
   /// @brief Field v0, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Vector4 v0;

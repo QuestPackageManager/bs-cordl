@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::VRControllerTransformOffset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14439))
 // CS Name: ::VRControllerTransformOffset*
 class CORDL_TYPE VRControllerTransformOffset : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,7 +30,12 @@ public:
 
   __declspec(property(get = get_rotationOffset))::UnityEngine::Vector3 rotationOffset;
 
-  /// @brief Method get_poseOffset, addr 0x20ffd98, size 0xb0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
+
+  /// @brief Method .ctor, addr 0x226242c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_poseOffset, addr 0x2261e10, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_poseOffset();
 
   /// @brief Method get_positionOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -41,11 +44,12 @@ public:
   /// @brief Method get_rotationOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
-  static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRControllerTransformOffset();
 
-  /// @brief Method .ctor, addr 0x21003b4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRControllerTransformOffset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllerTransformOffset(VRControllerTransformOffset&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRControllerTransformOffset(VRControllerTransformOffset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRControllerTransformOffset();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

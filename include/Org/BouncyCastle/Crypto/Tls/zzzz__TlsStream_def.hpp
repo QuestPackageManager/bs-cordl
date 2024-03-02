@@ -22,15 +22,10 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1330))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsStream*
 class CORDL_TYPE TlsStream : public ::System::IO::Stream {
 public:
   // Declarations
-  /// @brief Field handler, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler;
-
   __declspec(property(get = get_CanRead)) bool CanRead;
 
   __declspec(property(get = get_CanSeek)) bool CanSeek;
@@ -41,59 +36,68 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
+  /// @brief Field handler, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler;
+
+  /// @brief Method Close, addr 0x102a300, size 0x34, virtual true, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method Flush, addr 0x102a334, size 0x24, virtual true, abstract: false, final false
+  inline void Flush();
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
+
+  /// @brief Method Read, addr 0x102a418, size 0x24, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+
+  /// @brief Method ReadByte, addr 0x102a43c, size 0x98, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
+
+  /// @brief Method Seek, addr 0x102a4d4, size 0x40, virtual true, abstract: false, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+
+  /// @brief Method SetLength, addr 0x102a514, size 0x40, virtual true, abstract: false, final false
+  inline void SetLength(int64_t value);
+
+  /// @brief Method Write, addr 0x102a554, size 0x24, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+
+  /// @brief Method WriteByte, addr 0x102a578, size 0x94, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t b);
+
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_handler();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsProtocol*> const& __cordl_internal_get_handler() const;
 
   constexpr void __cordl_internal_set_handler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
-
-  /// @brief Method .ctor, addr 0xfb93cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x102a22c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 
-  /// @brief Method get_CanRead, addr 0xfb9438, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x102a298, size 0x30, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0xfb9468, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x102a2c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0xfb9470, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x102a2d0, size 0x30, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method Close, addr 0xfb94a0, size 0x34, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method Flush, addr 0xfb94d4, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method get_Length, addr 0xfb94f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x102a358, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0xfb9538, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x102a398, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0xfb9578, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x102a3d8, size 0x40, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Read, addr 0xfb95b8, size 0x24, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsStream();
 
-  /// @brief Method ReadByte, addr 0xfb95dc, size 0x98, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
-
-  /// @brief Method Seek, addr 0xfb9674, size 0x40, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
-
-  /// @brief Method SetLength, addr 0xfb96b4, size 0x40, virtual true, abstract: false, final false
-  inline void SetLength(int64_t value);
-
-  /// @brief Method Write, addr 0xfb96f4, size 0x24, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
-
-  /// @brief Method WriteByte, addr 0xfb9718, size 0x94, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t b);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsStream(TlsStream&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsStream(TlsStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsStream();
-
-public:
   /// @brief Field handler, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* ___handler;
 

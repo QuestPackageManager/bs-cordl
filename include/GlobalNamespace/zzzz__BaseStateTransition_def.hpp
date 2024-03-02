@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseStateTransition);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5441))
 // CS Name: ::BaseStateTransition*
 class CORDL_TYPE BaseStateTransition : public ::UnityEngine::MonoBehaviour {
 public:
@@ -36,78 +34,84 @@ public:
   __declspec(property(get = __cordl_internal_get__selectableStateController,
                       put = __cordl_internal_set__selectableStateController))::UnityW<::GlobalNamespace::SelectableStateController> _selectableStateController;
 
-  __declspec(property(get = get_tweeningManager))::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
-
   __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::UnityW<::GlobalNamespace::SelectableStateController>& __cordl_internal_get__selectableStateController();
+  __declspec(property(get = get_tweeningManager))::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
+
+  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x24a6538, size 0x6c, virtual false, abstract: false, final false
+  inline void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::__SelectableStateController__ViewState state, bool animated);
+
+  static inline ::GlobalNamespace::BaseStateTransition* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x24a64a0, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDisable, addr 0x24a6368, size 0x88, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x24a6214, size 0x9c, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method SetDisabledState, addr 0x24a65c8, size 0x4, virtual true, abstract: false, final false
+  inline void SetDisabledState();
+
+  /// @brief Method SetHighlightedState, addr 0x24a65c0, size 0x4, virtual true, abstract: false, final false
+  inline void SetHighlightedState();
+
+  /// @brief Method SetNormalState, addr 0x24a65bc, size 0x4, virtual true, abstract: false, final false
+  inline void SetNormalState();
+
+  /// @brief Method SetPressedState, addr 0x24a65c4, size 0x4, virtual true, abstract: false, final false
+  inline void SetPressedState();
+
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x24a65d0, size 0x4, virtual true, abstract: false, final false
+  inline void SetSelectedAndHighlightedState();
+
+  /// @brief Method SetSelectedState, addr 0x24a65cc, size 0x4, virtual true, abstract: false, final false
+  inline void SetSelectedState();
+
+  /// @brief Method SetState, addr 0x24a6198, size 0x7c, virtual false, abstract: false, final false
+  inline void SetState(::GlobalNamespace::__SelectableStateController__ViewState viewState);
+
+  /// @brief Method TransitionToDisabledState, addr 0x24a65b0, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToDisabledState();
+
+  /// @brief Method TransitionToHighlightedState, addr 0x24a65a8, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToHighlightedState();
+
+  /// @brief Method TransitionToNormalState, addr 0x24a65a4, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToNormalState();
+
+  /// @brief Method TransitionToPressedState, addr 0x24a65ac, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToPressedState();
+
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x24a65b8, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToSelectedAndHighlightedState();
+
+  /// @brief Method TransitionToSelectedState, addr 0x24a65b4, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToSelectedState();
 
   constexpr ::UnityW<::GlobalNamespace::SelectableStateController> const& __cordl_internal_get__selectableStateController() const;
 
+  constexpr ::UnityW<::GlobalNamespace::SelectableStateController>& __cordl_internal_get__selectableStateController();
+
   constexpr void __cordl_internal_set__selectableStateController(::UnityW<::GlobalNamespace::SelectableStateController> value);
 
-  /// @brief Method get_tweeningManager, addr 0x227c97c, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
+  /// @brief Method .ctor, addr 0x24a65d4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_transition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method SetState, addr 0x227c998, size 0x7c, virtual false, abstract: false, final false
-  inline void SetState(::GlobalNamespace::__SelectableStateController__ViewState viewState);
+  /// @brief Method get_tweeningManager, addr 0x24a617c, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
-  /// @brief Method OnEnable, addr 0x227ca14, size 0x9c, virtual false, abstract: false, final false
-  inline void OnEnable();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseStateTransition();
 
-  /// @brief Method OnDisable, addr 0x227cb68, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnDestroy, addr 0x227cca0, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x227cd38, size 0x6c, virtual false, abstract: false, final false
-  inline void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::__SelectableStateController__ViewState state, bool animated);
-
-  /// @brief Method TransitionToNormalState, addr 0x227cda4, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToNormalState();
-
-  /// @brief Method TransitionToHighlightedState, addr 0x227cda8, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState();
-
-  /// @brief Method TransitionToPressedState, addr 0x227cdac, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToPressedState();
-
-  /// @brief Method TransitionToDisabledState, addr 0x227cdb0, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState();
-
-  /// @brief Method TransitionToSelectedState, addr 0x227cdb4, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState();
-
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x227cdb8, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState();
-
-  /// @brief Method SetNormalState, addr 0x227cdbc, size 0x4, virtual true, abstract: false, final false
-  inline void SetNormalState();
-
-  /// @brief Method SetHighlightedState, addr 0x227cdc0, size 0x4, virtual true, abstract: false, final false
-  inline void SetHighlightedState();
-
-  /// @brief Method SetPressedState, addr 0x227cdc4, size 0x4, virtual true, abstract: false, final false
-  inline void SetPressedState();
-
-  /// @brief Method SetDisabledState, addr 0x227cdc8, size 0x4, virtual true, abstract: false, final false
-  inline void SetDisabledState();
-
-  /// @brief Method SetSelectedState, addr 0x227cdcc, size 0x4, virtual true, abstract: false, final false
-  inline void SetSelectedState();
-
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x227cdd0, size 0x4, virtual true, abstract: false, final false
-  inline void SetSelectedAndHighlightedState();
-
-  static inline ::GlobalNamespace::BaseStateTransition* New_ctor();
-
-  /// @brief Method .ctor, addr 0x227cdd4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseStateTransition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseStateTransition(BaseStateTransition&&) = delete;
@@ -116,12 +120,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseStateTransition(BaseStateTransition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseStateTransition();
-
-public:
   /// @brief Field _selectableStateController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectableStateController> ____selectableStateController;
 

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AudioClipProperties);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13865))
 // CS Name: ::UnityEngine.Timeline::AudioClipProperties*
 class CORDL_TYPE AudioClipProperties : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field volume, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_volume, put = __cordl_internal_set_volume)) float_t volume;
 
-  constexpr float_t& __cordl_internal_get_volume();
+  static inline ::UnityEngine::Timeline::AudioClipProperties* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_volume() const;
 
+  constexpr float_t& __cordl_internal_get_volume();
+
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  static inline ::UnityEngine::Timeline::AudioClipProperties* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c61ac0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d49700, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioClipProperties();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipProperties", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipProperties(AudioClipProperties&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioClipProperties(AudioClipProperties const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioClipProperties();
-
-public:
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
 

@@ -2,128 +2,17 @@
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_packID
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::get_packID)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420a0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_packID",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_packName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::get_packName)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_packName",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_shortPackName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::get_shortPackName)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420b0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_shortPackName",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_collectionName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelPack::*)()>(&::GlobalNamespace::BeatmapLevelPack::get_collectionName)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420b8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                                                               "get_collectionName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_coverImage
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::BeatmapLevelPack::*)()>(
-    &::GlobalNamespace::BeatmapLevelPack::get_coverImage)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420c0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_coverImage",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_smallCoverImage
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::BeatmapLevelPack::*)()>(
-    &::GlobalNamespace::BeatmapLevelPack::get_smallCoverImage)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420c8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                                                               "get_smallCoverImage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_beatmapLevelCollection
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatmapLevelCollection* (::GlobalNamespace::BeatmapLevelPack::*)()>(
-    &::GlobalNamespace::BeatmapLevelPack::get_beatmapLevelCollection)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420d0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                                                               "get_beatmapLevelCollection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.get_contentRating
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSensitivityFlag (::GlobalNamespace::BeatmapLevelPack::*)()>(
-    &::GlobalNamespace::BeatmapLevelPack::get_contentRating)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23420d8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_contentRating",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelPack::*)(
-    ::StringW, ::StringW, ::StringW, ::UnityEngine::Sprite*, ::UnityEngine::Sprite*, ::GlobalNamespace::IBeatmapLevelCollection*, ::GlobalNamespace::PlayerSensitivityFlag)>(
-    &::GlobalNamespace::BeatmapLevelPack::_ctor)> {
+    ::StringW, ::StringW, ::StringW, ::UnityEngine::Sprite*, ::UnityEngine::Sprite*, ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>,
+    ::GlobalNamespace::PlayerSensitivityFlag)>(&::GlobalNamespace::BeatmapLevelPack::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23420e0;
+  constexpr static std::size_t addrs = 0x12c8c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,194 +21,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelCollection*>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSensitivityFlag>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPack.CreateLevelPackForFiltering
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::BeatmapLevelPack* (*)(::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
-        &::GlobalNamespace::BeatmapLevelPack::CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x2342144;
+    static_cast<::GlobalNamespace::BeatmapLevelPack* (*)(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>)>(
+        &::GlobalNamespace::BeatmapLevelPack::CreateLevelPackForFiltering)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x12c8cd4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                                 "CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelPack*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "CreateLevelPackForFiltering", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelPack"
-constexpr GlobalNamespace::BeatmapLevelPack::operator ::GlobalNamespace::IBeatmapLevelPack*() noexcept {
-  return static_cast<::GlobalNamespace::IBeatmapLevelPack*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IBeatmapLevelPack"
-constexpr ::GlobalNamespace::IBeatmapLevelPack* GlobalNamespace::BeatmapLevelPack::i___GlobalNamespace__IBeatmapLevelPack() noexcept {
-  return static_cast<::GlobalNamespace::IBeatmapLevelPack*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
-constexpr GlobalNamespace::BeatmapLevelPack::operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept {
-  return static_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
-constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* GlobalNamespace::BeatmapLevelPack::i___GlobalNamespace__IAnnotatedBeatmapLevelCollection() noexcept {
-  return static_cast<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(static_cast<void*>(this));
-}
-constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__levelPackID() {
+constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_packID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackID;
+  return this->___packID;
 }
-constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__levelPackID() const {
+constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_packID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackID;
+  return this->___packID;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__levelPackID(::StringW value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_packID(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__packName() {
+constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_packName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____packName;
+  return this->___packName;
 }
-constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__packName() const {
+constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_packName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____packName;
+  return this->___packName;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__packName(::StringW value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_packName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____packName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__shortPackName() {
+constexpr ::StringW& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_shortPackName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shortPackName;
+  return this->___shortPackName;
 }
-constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__shortPackName() const {
+constexpr ::StringW const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_shortPackName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shortPackName;
+  return this->___shortPackName;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__shortPackName(::StringW value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_shortPackName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shortPackName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___shortPackName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__coverImage() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_coverImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coverImage;
+  return this->___coverImage;
 }
-constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__coverImage() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_coverImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coverImage;
+  return this->___coverImage;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__coverImage(::UnityW<::UnityEngine::Sprite> value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_coverImage(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___coverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__smallCoverImage() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_smallCoverImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smallCoverImage;
+  return this->___smallCoverImage;
 }
-constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__smallCoverImage() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_smallCoverImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smallCoverImage;
+  return this->___smallCoverImage;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__smallCoverImage(::UnityW<::UnityEngine::Sprite> value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_smallCoverImage(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smallCoverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___smallCoverImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatmapLevelCollection*& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__beatmapLevelCollection() {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_beatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelCollection;
+  return this->___beatmapLevels;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelCollection*> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__beatmapLevelCollection() const {
+constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_beatmapLevels() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelCollection;
+  return this->___beatmapLevels;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__beatmapLevelCollection(::GlobalNamespace::IBeatmapLevelCollection* value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_beatmapLevels(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapLevels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__contentRating() {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_contentRating() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____contentRating;
+  return this->___contentRating;
 }
-constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get__contentRating() const {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::BeatmapLevelPack::__cordl_internal_get_contentRating() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____contentRating;
+  return this->___contentRating;
 }
-constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value) {
+constexpr void GlobalNamespace::BeatmapLevelPack::__cordl_internal_set_contentRating(::GlobalNamespace::PlayerSensitivityFlag value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____contentRating = value;
+  this->___contentRating = value;
 }
-inline ::StringW GlobalNamespace::BeatmapLevelPack::get_packID() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_packID",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW GlobalNamespace::BeatmapLevelPack::get_packName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_packName",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW GlobalNamespace::BeatmapLevelPack::get_shortPackName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_shortPackName",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::StringW GlobalNamespace::BeatmapLevelPack::get_collectionName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_collectionName",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Sprite> GlobalNamespace::BeatmapLevelPack::get_coverImage() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_coverImage",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Sprite> GlobalNamespace::BeatmapLevelPack::get_smallCoverImage() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_smallCoverImage",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::IBeatmapLevelCollection* GlobalNamespace::BeatmapLevelPack::get_beatmapLevelCollection() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                                                             "get_beatmapLevelCollection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IBeatmapLevelCollection*, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::BeatmapLevelPack::get_contentRating() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "get_contentRating",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerSensitivityFlag, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::BeatmapLevelPack* GlobalNamespace::BeatmapLevelPack::New_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage,
-                                                                                        ::UnityEngine::Sprite* smallCoverImage, ::GlobalNamespace::IBeatmapLevelCollection* levelCollection,
+inline ::GlobalNamespace::BeatmapLevelPack* GlobalNamespace::BeatmapLevelPack::New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage,
+                                                                                        ::UnityEngine::Sprite* smallCoverImage,
+                                                                                        ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels,
                                                                                         ::GlobalNamespace::PlayerSensitivityFlag contentRating) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelPack*>(levelPackID, packName, shortPackName, coverImage, smallCoverImage, levelCollection, contentRating));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelPack*>(packID, packName, shortPackName, coverImage, smallCoverImage, beatmapLevels, contentRating));
 }
-inline void GlobalNamespace::BeatmapLevelPack::_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
-                                                     ::GlobalNamespace::IBeatmapLevelCollection* levelCollection, ::GlobalNamespace::PlayerSensitivityFlag contentRating) {
+inline void GlobalNamespace::BeatmapLevelPack::_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
+                                                     ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels,
+                                                     ::GlobalNamespace::PlayerSensitivityFlag contentRating) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelCollection*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSensitivityFlag>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelPackID, packName, shortPackName, coverImage, smallCoverImage, levelCollection, contentRating);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, packID, packName, shortPackName, coverImage, smallCoverImage, beatmapLevels, contentRating);
 }
 inline ::GlobalNamespace::BeatmapLevelPack*
-GlobalNamespace::BeatmapLevelPack::CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
-                                                                                               ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(),
-                                               "CreateBeatmapLevelPackByUsingBeatmapCharacteristicFiltering", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelPack*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelPack*, false>(nullptr, ___internal_method, beatmapLevelPack, beatmapCharacteristic);
+GlobalNamespace::BeatmapLevelPack::CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPack*>::get(), "CreateLevelPackForFiltering", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelPack*, false>(nullptr, ___internal_method, beatmapLevels);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelPack::BeatmapLevelPack() {}

@@ -23,8 +23,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
 // CS Name: ::LightTransformGroup`3<TX,TY,TZ>*
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -47,6 +45,8 @@ public:
   /// @brief Field _zTransforms, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zTransforms, put = __cordl_internal_set__zTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _zTransforms;
 
+  __declspec(property(get = get_count)) int32_t count;
+
   __declspec(property(get = get_mirrorX)) bool mirrorX;
 
   __declspec(property(get = get_mirrorY)) bool mirrorY;
@@ -59,43 +59,49 @@ public:
 
   __declspec(property(get = get_zTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* zTransforms;
 
-  __declspec(property(get = get_count)) int32_t count;
-
-  constexpr bool& __cordl_internal_get__mirrorX();
+  static inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* New_ctor();
 
   constexpr bool const& __cordl_internal_get__mirrorX() const;
 
-  constexpr void __cordl_internal_set__mirrorX(bool value);
-
-  constexpr bool& __cordl_internal_get__mirrorY();
+  constexpr bool& __cordl_internal_get__mirrorX();
 
   constexpr bool const& __cordl_internal_get__mirrorY() const;
 
-  constexpr void __cordl_internal_set__mirrorY(bool value);
-
-  constexpr bool& __cordl_internal_get__mirrorZ();
+  constexpr bool& __cordl_internal_get__mirrorY();
 
   constexpr bool const& __cordl_internal_get__mirrorZ() const;
 
-  constexpr void __cordl_internal_set__mirrorZ(bool value);
+  constexpr bool& __cordl_internal_get__mirrorZ();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__xTransforms();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__xTransforms() const;
 
-  constexpr void __cordl_internal_set__xTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__yTransforms();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__yTransforms() const;
-
-  constexpr void __cordl_internal_set__yTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__zTransforms();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__zTransforms() const;
 
+  constexpr void __cordl_internal_set__mirrorX(bool value);
+
+  constexpr void __cordl_internal_set__mirrorY(bool value);
+
+  constexpr void __cordl_internal_set__mirrorZ(bool value);
+
+  constexpr void __cordl_internal_set__xTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
+
+  constexpr void __cordl_internal_set__yTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
+
   constexpr void __cordl_internal_set__zTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_count();
 
   /// @brief Method get_mirrorX, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_mirrorX();
@@ -115,14 +121,12 @@ public:
   /// @brief Method get_zTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_zTransforms();
 
-  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_count();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTransformGroup_3();
 
-  static inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTransformGroup_3(LightTransformGroup_3&&) = delete;
@@ -131,12 +135,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTransformGroup_3();
-
-public:
   /// @brief Field _mirrorX, offset: 0x20, size: 0x1, def value: None
   bool ____mirrorX;
 

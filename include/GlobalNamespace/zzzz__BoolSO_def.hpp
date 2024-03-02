@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 105 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15861))
 // CS Name: ::BoolSO*
 class CORDL_TYPE BoolSO : public ::GlobalNamespace::ObservableVariableSO_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BoolSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe288ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98b68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BoolSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BoolSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolSO(BoolSO&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BoolSO(BoolSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BoolSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

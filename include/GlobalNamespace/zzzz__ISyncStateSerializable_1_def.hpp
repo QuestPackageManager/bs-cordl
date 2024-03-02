@@ -19,35 +19,33 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12971))
 // CS Name: ::ISyncStateSerializable`1<T>*
 class CORDL_TYPE ISyncStateSerializable_1 {
 public:
   // Declarations
   __declspec(property(get = get_id, put = set_id))::GlobalNamespace::SyncStateId id;
 
-  __declspec(property(get = get_time, put = set_time)) int64_t time;
-
   __declspec(property(get = get_state, put = set_state)) T state;
+
+  __declspec(property(get = get_time, put = set_time)) int64_t time;
 
   /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method set_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_id(::GlobalNamespace::SyncStateId value);
+  /// @brief Method get_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T get_state();
 
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_time();
 
-  /// @brief Method set_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_time(int64_t value);
-
-  /// @brief Method get_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T get_state();
+  /// @brief Method set_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_id(::GlobalNamespace::SyncStateId value);
 
   /// @brief Method set_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_state(T value);
+
+  /// @brief Method set_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_time(int64_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISyncStateSerializable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

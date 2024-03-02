@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::HMUI::ToggleWithCallbacks);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13671))
 // CS Name: ::ToggleWithCallbacks::SelectionState
 struct CORDL_TYPE __ToggleWithCallbacks__SelectionState {
 public:
@@ -51,24 +49,29 @@ public:
     return static_cast<____ToggleWithCallbacks__SelectionState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ToggleWithCallbacks__SelectionState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ToggleWithCallbacks__SelectionState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ToggleWithCallbacks__SelectionState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
-  static ::HMUI::__ToggleWithCallbacks__SelectionState const Normal;
+  /// @brief Field Disabled value: static_cast<int32_t>(0x4)
+  static ::HMUI::__ToggleWithCallbacks__SelectionState const Disabled;
 
   /// @brief Field Highlighted value: static_cast<int32_t>(0x1)
   static ::HMUI::__ToggleWithCallbacks__SelectionState const Highlighted;
+
+  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  static ::HMUI::__ToggleWithCallbacks__SelectionState const Normal;
 
   /// @brief Field Pressed value: static_cast<int32_t>(0x2)
   static ::HMUI::__ToggleWithCallbacks__SelectionState const Pressed;
@@ -76,8 +79,8 @@ public:
   /// @brief Field Selected value: static_cast<int32_t>(0x3)
   static ::HMUI::__ToggleWithCallbacks__SelectionState const Selected;
 
-  /// @brief Field Disabled value: static_cast<int32_t>(0x4)
-  static ::HMUI::__ToggleWithCallbacks__SelectionState const Disabled;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -91,19 +94,22 @@ static_assert(offsetof(::HMUI::__ToggleWithCallbacks__SelectionState, value__) =
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13131))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13672))
 // CS Name: ::HMUI::ToggleWithCallbacks*
 class CORDL_TYPE ToggleWithCallbacks : public ::UnityEngine::UI::Toggle {
 public:
   // Declarations
   using SelectionState = ::HMUI::__ToggleWithCallbacks__SelectionState;
 
+  __declspec(property(get = get_selectionState))::HMUI::__ToggleWithCallbacks__SelectionState selectionState;
+
   /// @brief Field stateDidChangeEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_stateDidChangeEvent,
                       put = __cordl_internal_set_stateDidChangeEvent))::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
 
-  __declspec(property(get = get_selectionState))::HMUI::__ToggleWithCallbacks__SelectionState selectionState;
+  /// @brief Method DoStateTransition, addr 0x22aba10, size 0x4c, virtual true, abstract: false, final false
+  inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
+
+  static inline ::HMUI::ToggleWithCallbacks* New_ctor();
 
   constexpr ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*& __cordl_internal_get_stateDidChangeEvent();
 
@@ -111,23 +117,24 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x2146be0, size 0xb4, virtual false, abstract: false, final false
-  inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
-
-  /// @brief Method remove_stateDidChangeEvent, addr 0x2146ec4, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
-
-  /// @brief Method get_selectionState, addr 0x2146f80, size 0x54, virtual false, abstract: false, final false
-  inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
-
-  /// @brief Method DoStateTransition, addr 0x214aac4, size 0x4c, virtual true, abstract: false, final false
-  inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
-
-  static inline ::HMUI::ToggleWithCallbacks* New_ctor();
-
-  /// @brief Method .ctor, addr 0x214ab10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aba5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_stateDidChangeEvent, addr 0x22a7b2c, size 0xb4, virtual false, abstract: false, final false
+  inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
+
+  /// @brief Method get_selectionState, addr 0x22a7ecc, size 0x54, virtual false, abstract: false, final false
+  inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
+
+  /// @brief Method remove_stateDidChangeEvent, addr 0x22a7e10, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ToggleWithCallbacks();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleWithCallbacks(ToggleWithCallbacks&&) = delete;
@@ -136,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ToggleWithCallbacks(ToggleWithCallbacks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ToggleWithCallbacks();
-
-public:
   /// @brief Field stateDidChangeEvent, offset: 0x120, size: 0x8, def value: None
   ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* ___stateDidChangeEvent;
 

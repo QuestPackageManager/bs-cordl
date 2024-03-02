@@ -26,20 +26,18 @@ MARK_REF_PTR_T(::System::Threading::Tasks::Sources::IValueTaskSource);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks::Sources {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2823))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource*
 class CORDL_TYPE IValueTaskSource {
 public:
   // Declarations
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void GetResult(int16_t token);
+
   /// @brief Method GetStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token);
 
   /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
-
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void GetResult(int16_t token);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueTaskSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -18,21 +18,26 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(15687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15687), inst:
-// 777 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15692)) CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSpritePartSO*
+// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSpritePartSO*
 class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   __declspec(property(get = get_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  /// @brief Method get_sprite, addr 0xe1afc8, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
-
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe1b004, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6d1b4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_sprite, addr 0xe6d178, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSpritePartSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSpritePartSO(AvatarSpritePartSO&&) = delete;
@@ -41,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSpritePartSO(AvatarSpritePartSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSpritePartSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -16,18 +16,16 @@ MARK_VAL_T(::OVR::OpenVR::HiddenAreaMesh_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8694))
 // CS Name: ::OVR.OpenVR::HiddenAreaMesh_t
 struct CORDL_TYPE HiddenAreaMesh_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "pVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr HiddenAreaMesh_t(void* pVertexData, uint32_t unTriangleCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HiddenAreaMesh_t();
+
+  // Ctor Parameters [CppParam { name: "pVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr HiddenAreaMesh_t(void* pVertexData, uint32_t unTriangleCount) noexcept;
 
   /// @brief Field pVertexData, offset: 0x0, size: 0x8, def value: None
   void* pVertexData;

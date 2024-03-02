@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::AudioType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10052))
 // CS Name: ::UnityEngine::AudioType
 struct CORDL_TYPE AudioType {
 public:
@@ -45,27 +43,29 @@ public:
     return static_cast<__AudioType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AudioType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AudioType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AudioType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UNKNOWN value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::AudioType const UNKNOWN;
 
   /// @brief Field ACC value: static_cast<int32_t>(0x1)
   static ::UnityEngine::AudioType const ACC;
 
   /// @brief Field AIFF value: static_cast<int32_t>(0x2)
   static ::UnityEngine::AudioType const AIFF;
+
+  /// @brief Field AUDIOQUEUE value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::AudioType const AUDIOQUEUE;
 
   /// @brief Field IT value: static_cast<int32_t>(0xa)
   static ::UnityEngine::AudioType const IT;
@@ -82,6 +82,12 @@ public:
   /// @brief Field S3M value: static_cast<int32_t>(0x11)
   static ::UnityEngine::AudioType const S3M;
 
+  /// @brief Field UNKNOWN value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::AudioType const UNKNOWN;
+
+  /// @brief Field VAG value: static_cast<int32_t>(0x17)
+  static ::UnityEngine::AudioType const VAG;
+
   /// @brief Field WAV value: static_cast<int32_t>(0x14)
   static ::UnityEngine::AudioType const WAV;
 
@@ -91,11 +97,8 @@ public:
   /// @brief Field XMA value: static_cast<int32_t>(0x16)
   static ::UnityEngine::AudioType const XMA;
 
-  /// @brief Field VAG value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::AudioType const VAG;
-
-  /// @brief Field AUDIOQUEUE value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::AudioType const AUDIOQUEUE;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -17,38 +17,42 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3978
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7401), inst: 930 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7401)) CS Name:
-// ::UnityEngine.UIElements.UIR::BasicNode`1<T>*
+// CS Name: ::UnityEngine.UIElements.UIR::BasicNode`1<T>*
 class CORDL_TYPE BasicNode_1 : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> {
 public:
   // Declarations
-  /// @brief Field next, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::BasicNode_1<T>* next;
-
   /// @brief Field data, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) T data;
 
-  constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>*& __cordl_internal_get_next();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> const& __cordl_internal_get_next() const;
-
-  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::BasicNode_1<T>* value);
-
-  constexpr T& __cordl_internal_get_data();
-
-  constexpr T const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(T value);
+  /// @brief Field next, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::BasicNode_1<T>* next;
 
   /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendTo(ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first);
 
   static inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* New_ctor();
 
+  constexpr T const& __cordl_internal_get_data() const;
+
+  constexpr T& __cordl_internal_get_data();
+
+  constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>*& __cordl_internal_get_next();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> const& __cordl_internal_get_next() const;
+
+  constexpr void __cordl_internal_set_data(T value);
+
+  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::BasicNode_1<T>* value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicNode_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicNode_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicNode_1(BasicNode_1&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicNode_1(BasicNode_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicNode_1();
-
-public:
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BasicNode_1<T>* ___next;
 

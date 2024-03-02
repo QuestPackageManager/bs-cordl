@@ -22,8 +22,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6981))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
 // CS Name: ::UnityEngine.UIElements::TypedUxmlAttributeDescription`1<T>*
 class CORDL_TYPE TypedUxmlAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlAttributeDescription {
 public:
@@ -33,14 +31,19 @@ public:
 
   __declspec(property(get = get_defaultValue, put = set_defaultValue)) T defaultValue;
 
-  constexpr T& __cordl_internal_get__defaultValue_k__BackingField();
+  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>* New_ctor();
 
   constexpr T const& __cordl_internal_get__defaultValue_k__BackingField() const;
 
+  constexpr T& __cordl_internal_get__defaultValue_k__BackingField();
+
   constexpr void __cordl_internal_set__defaultValue_k__BackingField(T value);
 
-  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_defaultValue();
@@ -48,11 +51,12 @@ public:
   /// @brief Method set_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_defaultValue(T value);
 
-  static inline ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypedUxmlAttributeDescription_1();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypedUxmlAttributeDescription_1();
-
-public:
   /// @brief Field <defaultValue>k__BackingField, offset: 0x40, size: 0x8, def value: None
   T ____defaultValue_k__BackingField;
 

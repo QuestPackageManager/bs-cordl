@@ -28,92 +28,90 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::MouseState);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 30, calculated_native_size: 46, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6504))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::MouseState
 #pragma pack(push, 0)
 struct CORDL_TYPE MouseState {
 public:
   // Declarations
-  /// @brief Field position, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
-
-  /// @brief Field delta, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
-
-  /// @brief Field scroll, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll))::UnityEngine::Vector2 scroll;
-
   /// @brief Field buttons, offset 0x18, size 0x2
   __declspec(property(get = __cordl_internal_get_buttons, put = __cordl_internal_set_buttons)) uint16_t buttons;
-
-  /// @brief Field displayIndex, offset 0x1a, size 0x2
-  __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint16_t displayIndex;
 
   /// @brief Field clickCount, offset 0x1c, size 0x2
   __declspec(property(get = __cordl_internal_get_clickCount, put = __cordl_internal_set_clickCount)) uint16_t clickCount;
 
+  /// @brief Field delta, offset 0x8, size 0x8
+  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
+
+  /// @brief Field displayIndex, offset 0x1a, size 0x2
+  __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint16_t displayIndex;
+
   __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+
+  /// @brief Field position, offset 0x0, size 0x8
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
+
+  /// @brief Field scroll, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll))::UnityEngine::Vector2 scroll;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
-
-  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_scroll();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_scroll() const;
-
-  constexpr void __cordl_internal_set_scroll(::UnityEngine::Vector2 value);
-
-  constexpr uint16_t& __cordl_internal_get_buttons();
+  /// @brief Method WithButton, addr 0x2bcf66c, size 0x2c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
 
-  constexpr void __cordl_internal_set_buttons(uint16_t value);
-
-  constexpr uint16_t& __cordl_internal_get_displayIndex();
-
-  constexpr uint16_t const& __cordl_internal_get_displayIndex() const;
-
-  constexpr void __cordl_internal_set_displayIndex(uint16_t value);
-
-  constexpr uint16_t& __cordl_internal_get_clickCount();
+  constexpr uint16_t& __cordl_internal_get_buttons();
 
   constexpr uint16_t const& __cordl_internal_get_clickCount() const;
 
+  constexpr uint16_t& __cordl_internal_get_clickCount();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
+
+  constexpr uint16_t const& __cordl_internal_get_displayIndex() const;
+
+  constexpr uint16_t& __cordl_internal_get_displayIndex();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_scroll() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_scroll();
+
+  constexpr void __cordl_internal_set_buttons(uint16_t value);
+
   constexpr void __cordl_internal_set_clickCount(uint16_t value);
 
-  /// @brief Method get_Format, addr 0x2ae89fc, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_displayIndex(uint16_t value);
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_scroll(::UnityEngine::Vector2 value);
+
+  /// @brief Method get_Format, addr 0x2bcf63c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method WithButton, addr 0x2ae8a2c, size 0x2c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
-
-  /// @brief Method get_format, addr 0x2ae8a58, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2bcf698, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseState();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
   // None }, CppParam { name: "scroll", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
   // "displayIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "clickCount", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr MouseState(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, ::UnityEngine::Vector2 scroll, uint16_t buttons, uint16_t displayIndex, uint16_t clickCount) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseState();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

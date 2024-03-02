@@ -66,8 +66,6 @@ MARK_VAL_T(::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySetupInternal_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4481))
 // CS Name: ::QuickPlaySetupModel::QuickPlaySetupDataFB*
 class CORDL_TYPE __QuickPlaySetupModel__QuickPlaySetupDataFB : public ::System::Object {
 public:
@@ -75,17 +73,23 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> data;
 
-  constexpr ::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*>& __cordl_internal_get_data();
+  static inline ::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupDataFB* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> const& __cordl_internal_get_data() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*>& __cordl_internal_get_data();
+
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> value);
 
-  static inline ::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupDataFB* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2353fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d7670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __QuickPlaySetupModel__QuickPlaySetupDataFB();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__QuickPlaySetupModel__QuickPlaySetupDataFB", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __QuickPlaySetupModel__QuickPlaySetupDataFB(__QuickPlaySetupModel__QuickPlaySetupDataFB&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __QuickPlaySetupModel__QuickPlaySetupDataFB(__QuickPlaySetupModel__QuickPlaySetupDataFB const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __QuickPlaySetupModel__QuickPlaySetupDataFB();
-
-public:
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> ___data;
 
@@ -115,23 +113,25 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4480)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4482)) CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
+// CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
 struct CORDL_TYPE __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12d7678, size 0x7fc, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12d7e74, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2353fec, size 0x7fc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x23547e8, size 0x1058, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -141,10 +141,6 @@ public:
                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::QuickPlaySetupData*> __t__builder,
                                                                     ::GlobalNamespace::QuickPlaySetupModel* __4__this, ::System::UriBuilder* _uriBuilder_5__2,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -184,81 +180,85 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4483))
 // CS Name: ::QuickPlaySetupModel*
 class CORDL_TYPE QuickPlaySetupModel : public ::System::Object {
 public:
   // Declarations
-  using _GetQuickPlaySetupInternal_d__10 = ::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
-
   using QuickPlaySetupDataFB = ::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupDataFB;
 
-  /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  using _GetQuickPlaySetupInternal_d__10 = ::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
 
   /// @brief Field _client, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__client, put = __cordl_internal_set__client))::System::Net::Http::HttpClient* _client;
 
-  /// @brief Field _request, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* _request;
-
   /// @brief Field _lastRequestTime, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__lastRequestTime, put = __cordl_internal_set__lastRequestTime))::System::DateTime _lastRequestTime;
+
+  /// @brief Field _networkConfig, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+
+  /// @brief Field _request, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* _request;
 
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
-  constexpr ::GlobalNamespace::IQuickPlaySetupModel* i___GlobalNamespace__IQuickPlaySetupModel() noexcept;
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x12d72f0, size 0x64, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+  /// @brief Method GetQuickPlaySetupInternal, addr 0x12d74b8, size 0xf4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
+  /// @brief Method Init, addr 0x12d74b4, size 0x4, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x12d7354, size 0xf8, virtual false, abstract: false, final false
+  inline bool IsQuickPlaySetupTaskValid();
+
+  /// @brief Method IsUrlValid, addr 0x12d75ac, size 0x5c, virtual false, abstract: false, final false
+  inline bool IsUrlValid(::StringW url);
+
+  static inline ::GlobalNamespace::QuickPlaySetupModel* New_ctor();
+
+  /// @brief Method StartRequest, addr 0x12d744c, size 0x68, virtual false, abstract: false, final false
+  inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __cordl_internal_get__client() const;
 
-  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
+  constexpr ::System::DateTime const& __cordl_internal_get__lastRequestTime() const;
+
+  constexpr ::System::DateTime& __cordl_internal_get__lastRequestTime();
+
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*& __cordl_internal_get__request();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>*> const& __cordl_internal_get__request() const;
 
-  constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* value);
-
-  constexpr ::System::DateTime& __cordl_internal_get__lastRequestTime();
-
-  constexpr ::System::DateTime const& __cordl_internal_get__lastRequestTime() const;
+  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
 
   constexpr void __cordl_internal_set__lastRequestTime(::System::DateTime value);
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x2353c64, size 0x64, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  /// @brief Method Init, addr 0x2353e28, size 0x4, virtual false, abstract: false, final false
-  inline void Init();
+  constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* value);
 
-  /// @brief Method StartRequest, addr 0x2353dc0, size 0x68, virtual false, abstract: false, final false
-  inline void StartRequest();
-
-  /// @brief Method GetQuickPlaySetupInternal, addr 0x2353e2c, size 0xf4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
-
-  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x2353cc8, size 0xf8, virtual false, abstract: false, final false
-  inline bool IsQuickPlaySetupTaskValid();
-
-  /// @brief Method IsUrlValid, addr 0x2353f20, size 0x5c, virtual false, abstract: false, final false
-  inline bool IsUrlValid(::StringW url);
-
-  static inline ::GlobalNamespace::QuickPlaySetupModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2353f7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d7608, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
+  constexpr ::GlobalNamespace::IQuickPlaySetupModel* i___GlobalNamespace__IQuickPlaySetupModel() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuickPlaySetupModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySetupModel(QuickPlaySetupModel&&) = delete;
@@ -267,12 +267,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuickPlaySetupModel(QuickPlaySetupModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuickPlaySetupModel();
-
-public:
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 

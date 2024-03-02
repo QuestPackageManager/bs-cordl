@@ -23,12 +23,14 @@ MARK_VAL_T(::UnityEngine::HumanDescription);
 // SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
 // CS Name: ::UnityEngine::HumanDescription
 struct CORDL_TYPE HumanDescription {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HumanDescription();
+
   // Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone,::Array<::UnityEngine::HumanBone>*>", modifiers: "", def_value: None }, CppParam { name: "skeleton", ty:
   // "::ArrayW<::UnityEngine::SkeletonBone,::Array<::UnityEngine::SkeletonBone>*>", modifiers: "", def_value: None }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
@@ -39,10 +41,6 @@ public:
   constexpr HumanDescription(::ArrayW<::UnityEngine::HumanBone, ::Array<::UnityEngine::HumanBone>*> human, ::ArrayW<::UnityEngine::SkeletonBone, ::Array<::UnityEngine::SkeletonBone>*> skeleton,
                              float_t m_ArmTwist, float_t m_ForeArmTwist, float_t m_UpperLegTwist, float_t m_LegTwist, float_t m_ArmStretch, float_t m_LegStretch, float_t m_FeetSpacing,
                              float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF, bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HumanDescription();
 
   /// @brief Field human, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::HumanBone, ::Array<::UnityEngine::HumanBone>*> human;

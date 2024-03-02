@@ -33,17 +33,12 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteMissInfoNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15027))
 // CS Name: ::NoteMissInfoNetSerializable*
 class CORDL_TYPE NoteMissInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
   /// @brief Field <colorType>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
-
-  /// @brief Field <noteTime>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteTime_k__BackingField, put = __cordl_internal_set__noteTime_k__BackingField)) float_t _noteTime_k__BackingField;
 
   /// @brief Field <noteLineIndex>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__noteLineIndex_k__BackingField, put = __cordl_internal_set__noteLineIndex_k__BackingField)) int32_t _noteLineIndex_k__BackingField;
@@ -52,82 +47,91 @@ public:
   __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
                       put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
-  __declspec(property(get = get_colorType, put = set_colorType))::GlobalNamespace::ColorType colorType;
+  /// @brief Field <noteTime>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__noteTime_k__BackingField, put = __cordl_internal_set__noteTime_k__BackingField)) float_t _noteTime_k__BackingField;
 
-  __declspec(property(get = get_noteTime, put = set_noteTime)) float_t noteTime;
+  __declspec(property(get = get_colorType, put = set_colorType))::GlobalNamespace::ColorType colorType;
 
   __declspec(property(get = get_noteLineIndex, put = set_noteLineIndex)) int32_t noteLineIndex;
 
   __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
 
-  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
+  __declspec(property(get = get_noteTime, put = set_noteTime)) float_t noteTime;
 
-  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
-
-  constexpr float_t& __cordl_internal_get__noteTime_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__noteTime_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__noteTime_k__BackingField(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__noteLineIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__noteLineIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__noteLineIndex_k__BackingField(int32_t value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method get_colorType, addr 0x12a4a38, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorType get_colorType();
-
-  /// @brief Method set_colorType, addr 0x12a4a40, size 0x8, virtual false, abstract: false, final false
-  inline void set_colorType(::GlobalNamespace::ColorType value);
-
-  /// @brief Method get_noteTime, addr 0x12a4a48, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_noteTime();
-
-  /// @brief Method set_noteTime, addr 0x12a4a50, size 0x8, virtual false, abstract: false, final false
-  inline void set_noteTime(float_t value);
-
-  /// @brief Method get_noteLineIndex, addr 0x12a4a58, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_noteLineIndex();
-
-  /// @brief Method set_noteLineIndex, addr 0x12a4a60, size 0x8, virtual false, abstract: false, final false
-  inline void set_noteLineIndex(int32_t value);
-
-  /// @brief Method get_noteLineLayer, addr 0x12a4a68, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
-
-  /// @brief Method set_noteLineLayer, addr 0x12a4a70, size 0x8, virtual false, abstract: false, final false
-  inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method Obtain, addr 0x12a4a78, size 0x64, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteMissInfoNetSerializable* Obtain();
-
-  /// @brief Method Deserialize, addr 0x12a4adc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x137b9a0, size 0x7c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x12a4b58, size 0x6c, virtual true, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+  /// @brief Method Init, addr 0x137bb08, size 0x10, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime);
+
+  /// @brief Method Init, addr 0x137bae0, size 0x28, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::NoteMissInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a4bc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x137b93c, size 0x64, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteMissInfoNetSerializable* Obtain();
+
+  /// @brief Method Serialize, addr 0x137ba1c, size 0x6c, virtual true, abstract: false, final false
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__noteLineIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__noteLineIndex_k__BackingField();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__noteTime_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__noteTime_k__BackingField();
+
+  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+
+  constexpr void __cordl_internal_set__noteLineIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__noteTime_k__BackingField(float_t value);
+
+  /// @brief Method .ctor, addr 0x137ba88, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init, addr 0x12a4c1c, size 0x28, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::NoteData* noteData);
+  /// @brief Method get_colorType, addr 0x137b8fc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method Init, addr 0x12a4c44, size 0x10, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime);
+  /// @brief Method get_noteLineIndex, addr 0x137b91c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_noteLineIndex();
 
+  /// @brief Method get_noteLineLayer, addr 0x137b92c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
+
+  /// @brief Method get_noteTime, addr 0x137b90c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteTime();
+
+  /// @brief Method set_colorType, addr 0x137b904, size 0x8, virtual false, abstract: false, final false
+  inline void set_colorType(::GlobalNamespace::ColorType value);
+
+  /// @brief Method set_noteLineIndex, addr 0x137b924, size 0x8, virtual false, abstract: false, final false
+  inline void set_noteLineIndex(int32_t value);
+
+  /// @brief Method set_noteLineLayer, addr 0x137b934, size 0x8, virtual false, abstract: false, final false
+  inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  /// @brief Method set_noteTime, addr 0x137b914, size 0x8, virtual false, abstract: false, final false
+  inline void set_noteTime(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteMissInfoNetSerializable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteMissInfoNetSerializable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteMissInfoNetSerializable(NoteMissInfoNetSerializable&&) = delete;
@@ -136,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteMissInfoNetSerializable(NoteMissInfoNetSerializable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteMissInfoNetSerializable();
-
-public:
   /// @brief Field <colorType>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ____colorType_k__BackingField;
 

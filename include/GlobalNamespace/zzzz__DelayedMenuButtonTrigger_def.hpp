@@ -27,83 +27,87 @@ MARK_REF_PTR_T(::GlobalNamespace::DelayedMenuButtonTrigger);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5052))
 // CS Name: ::DelayedMenuButtonTrigger*
 class CORDL_TYPE DelayedMenuButtonTrigger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field menuButtonTriggeredEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent))::System::Action* menuButtonTriggeredEvent;
-
   /// @brief Field _pressDuration, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__pressDuration, put = __cordl_internal_set__pressDuration)) float_t _pressDuration;
 
   /// @brief Field _timer, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) float_t _timer;
 
-  /// @brief Field _waitingForButtonRelease, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__waitingForButtonRelease, put = __cordl_internal_set__waitingForButtonRelease)) bool _waitingForButtonRelease;
-
   /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Convert operator to "::Zenject::ITickable"
-  constexpr operator ::Zenject::ITickable*() noexcept;
+  /// @brief Field _waitingForButtonRelease, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__waitingForButtonRelease, put = __cordl_internal_set__waitingForButtonRelease)) bool _waitingForButtonRelease;
 
-  /// @brief Convert to "::Zenject::ITickable"
-  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+  /// @brief Field menuButtonTriggeredEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent))::System::Action* menuButtonTriggeredEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
   constexpr operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
-  constexpr ::GlobalNamespace::IMenuButtonTrigger* i___GlobalNamespace__IMenuButtonTrigger() noexcept;
+  /// @brief Convert operator to "::Zenject::ITickable"
+  constexpr operator ::Zenject::ITickable*() noexcept;
 
-  constexpr ::System::Action*& __cordl_internal_get_menuButtonTriggeredEvent();
+  static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_menuButtonTriggeredEvent() const;
-
-  constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
-
-  constexpr float_t& __cordl_internal_get__pressDuration();
+  /// @brief Method Tick, addr 0x244f7e4, size 0x110, virtual true, abstract: false, final true
+  inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
 
-  constexpr void __cordl_internal_set__pressDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__timer();
+  constexpr float_t& __cordl_internal_get__pressDuration();
 
   constexpr float_t const& __cordl_internal_get__timer() const;
 
-  constexpr void __cordl_internal_set__timer(float_t value);
-
-  constexpr bool& __cordl_internal_get__waitingForButtonRelease();
-
-  constexpr bool const& __cordl_internal_get__waitingForButtonRelease() const;
-
-  constexpr void __cordl_internal_set__waitingForButtonRelease(bool value);
+  constexpr float_t& __cordl_internal_get__timer();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
+  constexpr bool const& __cordl_internal_get__waitingForButtonRelease() const;
+
+  constexpr bool& __cordl_internal_get__waitingForButtonRelease();
+
+  constexpr ::System::Action*& __cordl_internal_get_menuButtonTriggeredEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_menuButtonTriggeredEvent() const;
+
+  constexpr void __cordl_internal_set__pressDuration(float_t value);
+
+  constexpr void __cordl_internal_set__timer(float_t value);
+
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x23c3e2c, size 0x9c, virtual true, abstract: false, final true
-  inline void add_menuButtonTriggeredEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__waitingForButtonRelease(bool value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x23c3ec8, size 0x9c, virtual true, abstract: false, final true
-  inline void remove_menuButtonTriggeredEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method Tick, addr 0x23c3f64, size 0x110, virtual true, abstract: false, final true
-  inline void Tick();
-
-  static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c4074, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244f8f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x244f6ac, size 0x9c, virtual true, abstract: false, final true
+  inline void add_menuButtonTriggeredEvent(::System::Action* value);
+
+  /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
+  constexpr ::GlobalNamespace::IMenuButtonTrigger* i___GlobalNamespace__IMenuButtonTrigger() noexcept;
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x244f748, size 0x9c, virtual true, abstract: false, final true
+  inline void remove_menuButtonTriggeredEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DelayedMenuButtonTrigger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelayedMenuButtonTrigger();
-
-public:
   /// @brief Field menuButtonTriggeredEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___menuButtonTriggeredEvent;
 

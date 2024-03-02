@@ -20,45 +20,49 @@ MARK_REF_PTR_T(::GlobalNamespace::TextButton);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5438))
 // CS Name: ::TextButton*
 class CORDL_TYPE TextButton : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::UnityEngine::UI::Text> _text;
-
   /// @brief Field _button, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
-  __declspec(property(get = get_text))::UnityW<::UnityEngine::UI::Text> text;
+  /// @brief Field _text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::UnityEngine::UI::Text> _text;
 
   __declspec(property(get = get_button))::UnityW<::UnityEngine::UI::Button> button;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get__text();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get__text() const;
-
-  constexpr void __cordl_internal_set__text(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
-
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
-
-  /// @brief Method get_text, addr 0x227c81c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Text> get_text();
-
-  /// @brief Method get_button, addr 0x227c824, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Button> get_button();
+  __declspec(property(get = get_text))::UnityW<::UnityEngine::UI::Text> text;
 
   static inline ::GlobalNamespace::TextButton* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227c82c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__text(::UnityW<::UnityEngine::UI::Text> value);
+
+  /// @brief Method .ctor, addr 0x24a602c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_button, addr 0x24a6024, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Button> get_button();
+
+  /// @brief Method get_text, addr 0x24a601c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Text> get_text();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextButton();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextButton", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextButton(TextButton&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextButton(TextButton const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextButton();
-
-public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ____text;
 

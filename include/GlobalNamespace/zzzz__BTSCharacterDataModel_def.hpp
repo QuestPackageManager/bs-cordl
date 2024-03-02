@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3963))
 // CS Name: ::BTSCharacterDataModel::PrefabWithId*
 class CORDL_TYPE __BTSCharacterDataModel__PrefabWithId : public ::System::Object {
 public:
@@ -50,29 +48,35 @@ public:
 
   __declspec(property(get = get_prefabAssetReference))::UnityEngine::AddressableAssets::AssetReference* prefabAssetReference;
 
-  constexpr int32_t& __cordl_internal_get__id();
+  static inline ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get__id() const;
 
-  constexpr void __cordl_internal_set__id(int32_t value);
+  constexpr int32_t& __cordl_internal_get__id();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__prefabAssetReference();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__prefabAssetReference() const;
 
+  constexpr void __cordl_internal_set__id(int32_t value);
+
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id, addr 0x2219ac4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
-
-  /// @brief Method get_prefabAssetReference, addr 0x2219acc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
-
-  static inline ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2219ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe7108c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0xe7107c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+  /// @brief Method get_prefabAssetReference, addr 0xe71084, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BTSCharacterDataModel__PrefabWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__PrefabWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BTSCharacterDataModel__PrefabWithId(__BTSCharacterDataModel__PrefabWithId&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BTSCharacterDataModel__PrefabWithId(__BTSCharacterDataModel__PrefabWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BTSCharacterDataModel__PrefabWithId();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -107,46 +105,50 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3964))
 // CS Name: ::BTSCharacterDataModel::AnimationClipWithId*
 class CORDL_TYPE __BTSCharacterDataModel__AnimationClipWithId : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _id, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
-
   /// @brief Field _animationClipAssetReference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animationClipAssetReference,
                       put = __cordl_internal_set__animationClipAssetReference))::UnityEngine::AddressableAssets::AssetReference* _animationClipAssetReference;
 
-  __declspec(property(get = get_id)) int32_t id;
+  /// @brief Field _id, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   __declspec(property(get = get_animationClipAssetReference))::UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
 
-  constexpr int32_t& __cordl_internal_get__id();
+  __declspec(property(get = get_id)) int32_t id;
 
-  constexpr int32_t const& __cordl_internal_get__id() const;
-
-  constexpr void __cordl_internal_set__id(int32_t value);
+  static inline ::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId* New_ctor();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__animationClipAssetReference();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__animationClipAssetReference() const;
 
+  constexpr int32_t const& __cordl_internal_get__id() const;
+
+  constexpr int32_t& __cordl_internal_get__id();
+
   constexpr void __cordl_internal_set__animationClipAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_id, addr 0x2219adc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
+  constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method get_animationClipAssetReference, addr 0x2219ae4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
-
-  static inline ::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2219aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe710a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_animationClipAssetReference, addr 0xe7109c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
+
+  /// @brief Method get_id, addr 0xe71094, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BTSCharacterDataModel__AnimationClipWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BTSCharacterDataModel__AnimationClipWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BTSCharacterDataModel__AnimationClipWithId(__BTSCharacterDataModel__AnimationClipWithId&&) = delete;
@@ -155,12 +157,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BTSCharacterDataModel__AnimationClipWithId(__BTSCharacterDataModel__AnimationClipWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BTSCharacterDataModel__AnimationClipWithId();
-
-public:
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
@@ -181,8 +177,6 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__AnimationClip
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
 // CS Name: ::BTSCharacterDataModel*
 class CORDL_TYPE BTSCharacterDataModel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -191,48 +185,54 @@ public:
 
   using PrefabWithId = ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId;
 
-  /// @brief Field _prefabsWithIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabsWithIds,
-                      put = __cordl_internal_set__prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*,
-                                                                           ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> _prefabsWithIds;
-
   /// @brief Field _animationClipsWithIds, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animationClipsWithIds,
                       put = __cordl_internal_set__animationClipsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*,
                                                                                   ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> _animationClipsWithIds;
 
-  __declspec(property(get = get_prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> prefabsWithIds;
+  /// @brief Field _prefabsWithIds, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefabsWithIds,
+                      put = __cordl_internal_set__prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*,
+                                                                           ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> _prefabsWithIds;
 
   __declspec(property(get = get_animationClipsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*,
                                                                 ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> animationClipsWithIds;
 
-  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*>& __cordl_internal_get__prefabsWithIds();
+  __declspec(property(get = get_prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> prefabsWithIds;
 
-  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> const&
-  __cordl_internal_get__prefabsWithIds() const;
-
-  constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*>&
-  __cordl_internal_get__animationClipsWithIds();
+  static inline ::GlobalNamespace::BTSCharacterDataModel* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> const&
   __cordl_internal_get__animationClipsWithIds() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*>&
+  __cordl_internal_get__animationClipsWithIds();
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> const&
+  __cordl_internal_get__prefabsWithIds() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*>& __cordl_internal_get__prefabsWithIds();
+
   constexpr void __cordl_internal_set__animationClipsWithIds(
       ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> value);
 
-  /// @brief Method get_prefabsWithIds, addr 0x2219aac, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
+  constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> value);
 
-  /// @brief Method get_animationClipsWithIds, addr 0x2219ab4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
-
-  static inline ::GlobalNamespace::BTSCharacterDataModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2219abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe71074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_animationClipsWithIds, addr 0xe7106c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
+
+  /// @brief Method get_prefabsWithIds, addr 0xe71064, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSCharacterDataModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterDataModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterDataModel(BTSCharacterDataModel&&) = delete;
@@ -241,12 +241,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSCharacterDataModel();
-
-public:
   /// @brief Field _prefabsWithIds, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> ____prefabsWithIds;
 

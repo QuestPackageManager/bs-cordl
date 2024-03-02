@@ -23,71 +23,75 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(591)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(531))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacket*
 class CORDL_TYPE SignatureSubpacket : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type;
+  __declspec(property(get = get_SubpacketType))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag SubpacketType;
 
   /// @brief Field critical, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_critical, put = __cordl_internal_set_critical)) bool critical;
 
-  /// @brief Field isLongLength, offset 0x15, size 0x1
-  __declspec(property(get = __cordl_internal_get_isLongLength, put = __cordl_internal_set_isLongLength)) bool isLongLength;
-
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  __declspec(property(get = get_SubpacketType))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag SubpacketType;
+  /// @brief Field isLongLength, offset 0x15, size 0x1
+  __declspec(property(get = __cordl_internal_get_isLongLength, put = __cordl_internal_set_isLongLength)) bool isLongLength;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag& __cordl_internal_get_type();
+  /// @brief Field type, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const& __cordl_internal_get_type() const;
+  /// @brief Method Encode, addr 0x1238134, size 0x144, virtual false, abstract: false, final false
+  inline void Encode(::System::IO::Stream* os);
 
-  constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value);
+  /// @brief Method GetData, addr 0x12380bc, size 0x78, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  constexpr bool& __cordl_internal_get_critical();
+  /// @brief Method IsCritical, addr 0x12380ac, size 0x8, virtual false, abstract: false, final false
+  inline bool IsCritical();
 
-  constexpr bool const& __cordl_internal_get_critical() const;
-
-  constexpr void __cordl_internal_set_critical(bool value);
-
-  constexpr bool& __cordl_internal_get_isLongLength();
-
-  constexpr bool const& __cordl_internal_get_isLongLength() const;
-
-  constexpr void __cordl_internal_set_isLongLength(bool value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method IsLongLength, addr 0x12380b4, size 0x8, virtual false, abstract: false, final false
+  inline bool IsLongLength();
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c71fc, size 0x48, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_critical() const;
+
+  constexpr bool& __cordl_internal_get_critical();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+
+  constexpr bool const& __cordl_internal_get_isLongLength() const;
+
+  constexpr bool& __cordl_internal_get_isLongLength();
+
+  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const& __cordl_internal_get_type() const;
+
+  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag& __cordl_internal_get_type();
+
+  constexpr void __cordl_internal_set_critical(bool value);
+
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_isLongLength(bool value);
+
+  constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value);
+
+  /// @brief Method .ctor, addr 0x123805c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x11c7244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x12380a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType();
 
-  /// @brief Method IsCritical, addr 0x11c724c, size 0x8, virtual false, abstract: false, final false
-  inline bool IsCritical();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignatureSubpacket();
 
-  /// @brief Method IsLongLength, addr 0x11c7254, size 0x8, virtual false, abstract: false, final false
-  inline bool IsLongLength();
-
-  /// @brief Method GetData, addr 0x11c725c, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
-
-  /// @brief Method Encode, addr 0x11c72d4, size 0x144, virtual false, abstract: false, final false
-  inline void Encode(::System::IO::Stream* os);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignatureSubpacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignatureSubpacket(SignatureSubpacket&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureSubpacket(SignatureSubpacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignatureSubpacket();
-
-public:
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag ___type;
 

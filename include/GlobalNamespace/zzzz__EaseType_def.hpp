@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::EaseType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16090))
 // CS Name: ::EaseType
 struct CORDL_TYPE EaseType {
 public:
@@ -67,30 +65,74 @@ public:
     return static_cast<__EaseType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EaseType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EaseType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EaseType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BeatSaberInOutBack value: static_cast<int32_t>(0x20)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutBack;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::EaseType const None;
+  /// @brief Field BeatSaberInOutBounce value: static_cast<int32_t>(0x22)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutBounce;
 
-  /// @brief Field Linear value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::EaseType const Linear;
+  /// @brief Field BeatSaberInOutElastic value: static_cast<int32_t>(0x21)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutElastic;
 
-  /// @brief Field InSine value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::EaseType const InSine;
+  /// @brief Field InBack value: static_cast<int32_t>(0x17)
+  static ::GlobalNamespace::EaseType const InBack;
 
-  /// @brief Field OutSine value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::EaseType const OutSine;
+  /// @brief Field InBounce value: static_cast<int32_t>(0x1d)
+  static ::GlobalNamespace::EaseType const InBounce;
+
+  /// @brief Field InCirc value: static_cast<int32_t>(0x14)
+  static ::GlobalNamespace::EaseType const InCirc;
+
+  /// @brief Field InCubic value: static_cast<int32_t>(0x8)
+  static ::GlobalNamespace::EaseType const InCubic;
+
+  /// @brief Field InElastic value: static_cast<int32_t>(0x1a)
+  static ::GlobalNamespace::EaseType const InElastic;
+
+  /// @brief Field InExpo value: static_cast<int32_t>(0x11)
+  static ::GlobalNamespace::EaseType const InExpo;
+
+  /// @brief Field InOutBack value: static_cast<int32_t>(0x19)
+  static ::GlobalNamespace::EaseType const InOutBack;
+
+  /// @brief Field InOutBounce value: static_cast<int32_t>(0x1f)
+  static ::GlobalNamespace::EaseType const InOutBounce;
+
+  /// @brief Field InOutCirc value: static_cast<int32_t>(0x16)
+  static ::GlobalNamespace::EaseType const InOutCirc;
+
+  /// @brief Field InOutCubic value: static_cast<int32_t>(0xa)
+  static ::GlobalNamespace::EaseType const InOutCubic;
+
+  /// @brief Field InOutElastic value: static_cast<int32_t>(0x1c)
+  static ::GlobalNamespace::EaseType const InOutElastic;
+
+  /// @brief Field InOutExpo value: static_cast<int32_t>(0x13)
+  static ::GlobalNamespace::EaseType const InOutExpo;
+
+  /// @brief Field InOutQuad value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::EaseType const InOutQuad;
+
+  /// @brief Field InOutQuart value: static_cast<int32_t>(0xd)
+  static ::GlobalNamespace::EaseType const InOutQuart;
+
+  /// @brief Field InOutQuint value: static_cast<int32_t>(0x10)
+  static ::GlobalNamespace::EaseType const InOutQuint;
 
   /// @brief Field InOutSine value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::EaseType const InOutSine;
@@ -98,92 +140,53 @@ public:
   /// @brief Field InQuad value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::EaseType const InQuad;
 
-  /// @brief Field OutQuad value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::EaseType const OutQuad;
-
-  /// @brief Field InOutQuad value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::EaseType const InOutQuad;
-
-  /// @brief Field InCubic value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::EaseType const InCubic;
-
-  /// @brief Field OutCubic value: static_cast<int32_t>(0x9)
-  static ::GlobalNamespace::EaseType const OutCubic;
-
-  /// @brief Field InOutCubic value: static_cast<int32_t>(0xa)
-  static ::GlobalNamespace::EaseType const InOutCubic;
-
   /// @brief Field InQuart value: static_cast<int32_t>(0xb)
   static ::GlobalNamespace::EaseType const InQuart;
-
-  /// @brief Field OutQuart value: static_cast<int32_t>(0xc)
-  static ::GlobalNamespace::EaseType const OutQuart;
-
-  /// @brief Field InOutQuart value: static_cast<int32_t>(0xd)
-  static ::GlobalNamespace::EaseType const InOutQuart;
 
   /// @brief Field InQuint value: static_cast<int32_t>(0xe)
   static ::GlobalNamespace::EaseType const InQuint;
 
-  /// @brief Field OutQuint value: static_cast<int32_t>(0xf)
-  static ::GlobalNamespace::EaseType const OutQuint;
+  /// @brief Field InSine value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::EaseType const InSine;
 
-  /// @brief Field InOutQuint value: static_cast<int32_t>(0x10)
-  static ::GlobalNamespace::EaseType const InOutQuint;
+  /// @brief Field Linear value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::EaseType const Linear;
 
-  /// @brief Field InExpo value: static_cast<int32_t>(0x11)
-  static ::GlobalNamespace::EaseType const InExpo;
-
-  /// @brief Field OutExpo value: static_cast<int32_t>(0x12)
-  static ::GlobalNamespace::EaseType const OutExpo;
-
-  /// @brief Field InOutExpo value: static_cast<int32_t>(0x13)
-  static ::GlobalNamespace::EaseType const InOutExpo;
-
-  /// @brief Field InCirc value: static_cast<int32_t>(0x14)
-  static ::GlobalNamespace::EaseType const InCirc;
-
-  /// @brief Field OutCirc value: static_cast<int32_t>(0x15)
-  static ::GlobalNamespace::EaseType const OutCirc;
-
-  /// @brief Field InOutCirc value: static_cast<int32_t>(0x16)
-  static ::GlobalNamespace::EaseType const InOutCirc;
-
-  /// @brief Field InBack value: static_cast<int32_t>(0x17)
-  static ::GlobalNamespace::EaseType const InBack;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::EaseType const None;
 
   /// @brief Field OutBack value: static_cast<int32_t>(0x18)
   static ::GlobalNamespace::EaseType const OutBack;
 
-  /// @brief Field InOutBack value: static_cast<int32_t>(0x19)
-  static ::GlobalNamespace::EaseType const InOutBack;
+  /// @brief Field OutBounce value: static_cast<int32_t>(0x1e)
+  static ::GlobalNamespace::EaseType const OutBounce;
 
-  /// @brief Field InElastic value: static_cast<int32_t>(0x1a)
-  static ::GlobalNamespace::EaseType const InElastic;
+  /// @brief Field OutCirc value: static_cast<int32_t>(0x15)
+  static ::GlobalNamespace::EaseType const OutCirc;
+
+  /// @brief Field OutCubic value: static_cast<int32_t>(0x9)
+  static ::GlobalNamespace::EaseType const OutCubic;
 
   /// @brief Field OutElastic value: static_cast<int32_t>(0x1b)
   static ::GlobalNamespace::EaseType const OutElastic;
 
-  /// @brief Field InOutElastic value: static_cast<int32_t>(0x1c)
-  static ::GlobalNamespace::EaseType const InOutElastic;
+  /// @brief Field OutExpo value: static_cast<int32_t>(0x12)
+  static ::GlobalNamespace::EaseType const OutExpo;
 
-  /// @brief Field InBounce value: static_cast<int32_t>(0x1d)
-  static ::GlobalNamespace::EaseType const InBounce;
+  /// @brief Field OutQuad value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::EaseType const OutQuad;
 
-  /// @brief Field OutBounce value: static_cast<int32_t>(0x1e)
-  static ::GlobalNamespace::EaseType const OutBounce;
+  /// @brief Field OutQuart value: static_cast<int32_t>(0xc)
+  static ::GlobalNamespace::EaseType const OutQuart;
 
-  /// @brief Field InOutBounce value: static_cast<int32_t>(0x1f)
-  static ::GlobalNamespace::EaseType const InOutBounce;
+  /// @brief Field OutQuint value: static_cast<int32_t>(0xf)
+  static ::GlobalNamespace::EaseType const OutQuint;
 
-  /// @brief Field BeatSaberInOutBack value: static_cast<int32_t>(0x20)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutBack;
+  /// @brief Field OutSine value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::EaseType const OutSine;
 
-  /// @brief Field BeatSaberInOutElastic value: static_cast<int32_t>(0x21)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutElastic;
-
-  /// @brief Field BeatSaberInOutBounce value: static_cast<int32_t>(0x22)
-  static ::GlobalNamespace::EaseType const BeatSaberInOutBounce;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

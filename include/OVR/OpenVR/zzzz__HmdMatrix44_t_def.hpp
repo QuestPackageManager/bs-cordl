@@ -15,12 +15,14 @@ MARK_VAL_T(::OVR::OpenVR::HmdMatrix44_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8646))
 // CS Name: ::OVR.OpenVR::HmdMatrix44_t
 struct CORDL_TYPE HmdMatrix44_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HmdMatrix44_t();
+
   // Ctor Parameters [CppParam { name: "m0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m2", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "m3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m4", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "m5", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m6", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m7", ty: "float_t", modifiers:
@@ -30,10 +32,6 @@ public:
   // "", def_value: None }]
   constexpr HmdMatrix44_t(float_t m0, float_t m1, float_t m2, float_t m3, float_t m4, float_t m5, float_t m6, float_t m7, float_t m8, float_t m9, float_t m10, float_t m11, float_t m12, float_t m13,
                           float_t m14, float_t m15) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HmdMatrix44_t();
 
   /// @brief Field m0, offset: 0x0, size: 0x4, def value: None
   float_t m0;

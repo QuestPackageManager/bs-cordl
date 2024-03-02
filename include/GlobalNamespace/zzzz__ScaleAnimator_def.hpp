@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ScaleAnimator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5257))
 // CS Name: ::ScaleAnimator*
 class CORDL_TYPE ScaleAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,92 +40,98 @@ public:
   /// @brief Field _displayedScale, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__displayedScale, put = __cordl_internal_set__displayedScale)) float_t _displayedScale;
 
+  /// @brief Field _initialized, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+
+  /// @brief Field _scaleDownTween, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__scaleDownTween, put = __cordl_internal_set__scaleDownTween))::Tweening::Tween_1<float_t>* _scaleDownTween;
+
+  /// @brief Field _scaleUpTween, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__scaleUpTween, put = __cordl_internal_set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
+
   /// @brief Field _targetTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Field _scaleUpTween, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleUpTween, put = __cordl_internal_set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
+  /// @brief Method Animate, addr 0x2489c44, size 0xfc, virtual false, abstract: false, final false
+  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Field _scaleDownTween, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleDownTween, put = __cordl_internal_set__scaleDownTween))::Tweening::Tween_1<float_t>* _scaleDownTween;
+  /// @brief Method HideInstant, addr 0x2489b2c, size 0xa8, virtual false, abstract: false, final false
+  inline void HideInstant();
 
-  /// @brief Field _initialized, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+  /// @brief Method InitIfNeeded, addr 0x2489860, size 0x254, virtual false, abstract: false, final false
+  inline void InitIfNeeded();
 
-  constexpr float_t& __cordl_internal_get__displayedScale();
+  static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x24897d8, size 0x88, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method SetPositionAndRotation, addr 0x2489ab4, size 0x78, virtual false, abstract: false, final false
+  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method ShowInstant, addr 0x2489bd4, size 0x70, virtual false, abstract: false, final false
+  inline void ShowInstant();
+
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x2489d50, size 0x24, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__7_0(float_t val);
+
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x2489da0, size 0x24, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__7_1(float_t val);
+
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x2489d74, size 0x2c, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__7_2();
+
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x2489dc4, size 0x2c, virtual false, abstract: false, final false
+  inline void _InitIfNeeded_b__7_3();
 
   constexpr float_t const& __cordl_internal_get__displayedScale() const;
 
-  constexpr void __cordl_internal_set__displayedScale(float_t value);
+  constexpr float_t& __cordl_internal_get__displayedScale();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
-
-  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
-
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
-
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
-
-  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
-
-  constexpr void __cordl_internal_set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
+  constexpr bool& __cordl_internal_get__initialized();
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleDownTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleDownTween() const;
 
-  constexpr void __cordl_internal_set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
 
-  constexpr bool& __cordl_internal_get__initialized();
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
 
-  constexpr bool const& __cordl_internal_get__initialized() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__displayedScale(float_t value);
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method OnDestroy, addr 0x225cd04, size 0x88, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
 
-  /// @brief Method InitIfNeeded, addr 0x225cd8c, size 0x254, virtual false, abstract: false, final false
-  inline void InitIfNeeded();
+  constexpr void __cordl_internal_set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
 
-  /// @brief Method SetPositionAndRotation, addr 0x225cfe0, size 0x78, virtual false, abstract: false, final false
-  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method HideInstant, addr 0x225d058, size 0xa8, virtual false, abstract: false, final false
-  inline void HideInstant();
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method ShowInstant, addr 0x225d100, size 0x70, virtual false, abstract: false, final false
-  inline void ShowInstant();
-
-  /// @brief Method Animate, addr 0x225d170, size 0xfc, virtual false, abstract: false, final false
-  inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
-
-  static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x225d26c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2489d40, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x225d27c, size 0x24, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__7_0(float_t val);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScaleAnimator();
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x225d2a0, size 0x2c, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__7_2();
-
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x225d2cc, size 0x24, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__7_1(float_t val);
-
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x225d2f0, size 0x2c, virtual false, abstract: false, final false
-  inline void _InitIfNeeded_b__7_3();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleAnimator(ScaleAnimator&&) = delete;
@@ -136,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleAnimator(ScaleAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleAnimator();
-
-public:
   /// @brief Field _displayedScale, offset: 0x18, size: 0x4, def value: None
   float_t ____displayedScale;
 

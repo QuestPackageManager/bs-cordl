@@ -21,95 +21,99 @@ MARK_REF_PTR_T(::LiteNetLib::SequencedChannel);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14127))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14186))
 // CS Name: ::LiteNetLib::SequencedChannel*
 class CORDL_TYPE SequencedChannel : public ::LiteNetLib::BaseChannel {
 public:
   // Declarations
-  /// @brief Field _localSequence, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__localSequence, put = __cordl_internal_set__localSequence)) int32_t _localSequence;
-
-  /// @brief Field _remoteSequence, offset 0x2c, size 0x2
-  __declspec(property(get = __cordl_internal_get__remoteSequence, put = __cordl_internal_set__remoteSequence)) uint16_t _remoteSequence;
-
-  /// @brief Field _reliable, offset 0x2e, size 0x1
-  __declspec(property(get = __cordl_internal_get__reliable, put = __cordl_internal_set__reliable)) bool _reliable;
-
-  /// @brief Field _lastPacket, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastPacket, put = __cordl_internal_set__lastPacket))::LiteNetLib::NetPacket* _lastPacket;
-
   /// @brief Field _ackPacket, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__ackPacket, put = __cordl_internal_set__ackPacket))::LiteNetLib::NetPacket* _ackPacket;
-
-  /// @brief Field _mustSendAck, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__mustSendAck, put = __cordl_internal_set__mustSendAck)) bool _mustSendAck;
 
   /// @brief Field _id, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) uint8_t _id;
 
+  /// @brief Field _lastPacket, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastPacket, put = __cordl_internal_set__lastPacket))::LiteNetLib::NetPacket* _lastPacket;
+
   /// @brief Field _lastPacketSendTime, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lastPacketSendTime, put = __cordl_internal_set__lastPacketSendTime)) int64_t _lastPacketSendTime;
 
-  constexpr int32_t& __cordl_internal_get__localSequence();
+  /// @brief Field _localSequence, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__localSequence, put = __cordl_internal_set__localSequence)) int32_t _localSequence;
 
-  constexpr int32_t const& __cordl_internal_get__localSequence() const;
+  /// @brief Field _mustSendAck, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__mustSendAck, put = __cordl_internal_set__mustSendAck)) bool _mustSendAck;
 
-  constexpr void __cordl_internal_set__localSequence(int32_t value);
+  /// @brief Field _reliable, offset 0x2e, size 0x1
+  __declspec(property(get = __cordl_internal_get__reliable, put = __cordl_internal_set__reliable)) bool _reliable;
 
-  constexpr uint16_t& __cordl_internal_get__remoteSequence();
+  /// @brief Field _remoteSequence, offset 0x2c, size 0x2
+  __declspec(property(get = __cordl_internal_get__remoteSequence, put = __cordl_internal_set__remoteSequence)) uint16_t _remoteSequence;
 
-  constexpr uint16_t const& __cordl_internal_get__remoteSequence() const;
+  static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
+  /// @brief Method ProcessPacket, addr 0x2369e40, size 0x1d0, virtual true, abstract: false, final false
+  inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  constexpr bool& __cordl_internal_get__reliable();
-
-  constexpr bool const& __cordl_internal_get__reliable() const;
-
-  constexpr void __cordl_internal_set__reliable(bool value);
-
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__lastPacket();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__lastPacket() const;
-
-  constexpr void __cordl_internal_set__lastPacket(::LiteNetLib::NetPacket* value);
+  /// @brief Method SendNextPackets, addr 0x2369b38, size 0x308, virtual true, abstract: false, final false
+  inline void SendNextPackets();
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__ackPacket() const;
 
-  constexpr void __cordl_internal_set__ackPacket(::LiteNetLib::NetPacket* value);
-
-  constexpr bool& __cordl_internal_get__mustSendAck();
-
-  constexpr bool const& __cordl_internal_get__mustSendAck() const;
-
-  constexpr void __cordl_internal_set__mustSendAck(bool value);
+  constexpr uint8_t const& __cordl_internal_get__id() const;
 
   constexpr uint8_t& __cordl_internal_get__id();
 
-  constexpr uint8_t const& __cordl_internal_get__id() const;
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__lastPacket();
 
-  constexpr void __cordl_internal_set__id(uint8_t value);
-
-  constexpr int64_t& __cordl_internal_get__lastPacketSendTime();
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__lastPacket() const;
 
   constexpr int64_t const& __cordl_internal_get__lastPacketSendTime() const;
 
+  constexpr int64_t& __cordl_internal_get__lastPacketSendTime();
+
+  constexpr int32_t const& __cordl_internal_get__localSequence() const;
+
+  constexpr int32_t& __cordl_internal_get__localSequence();
+
+  constexpr bool const& __cordl_internal_get__mustSendAck() const;
+
+  constexpr bool& __cordl_internal_get__mustSendAck();
+
+  constexpr bool const& __cordl_internal_get__reliable() const;
+
+  constexpr bool& __cordl_internal_get__reliable();
+
+  constexpr uint16_t const& __cordl_internal_get__remoteSequence() const;
+
+  constexpr uint16_t& __cordl_internal_get__remoteSequence();
+
+  constexpr void __cordl_internal_set__ackPacket(::LiteNetLib::NetPacket* value);
+
+  constexpr void __cordl_internal_set__id(uint8_t value);
+
+  constexpr void __cordl_internal_set__lastPacket(::LiteNetLib::NetPacket* value);
+
   constexpr void __cordl_internal_set__lastPacketSendTime(int64_t value);
 
-  static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
+  constexpr void __cordl_internal_set__localSequence(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2203864, size 0xa8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__mustSendAck(bool value);
+
+  constexpr void __cordl_internal_set__reliable(bool value);
+
+  constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
+
+  /// @brief Method .ctor, addr 0x23657b4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method SendNextPackets, addr 0x2207be8, size 0x308, virtual true, abstract: false, final false
-  inline void SendNextPackets();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SequencedChannel();
 
-  /// @brief Method ProcessPacket, addr 0x2207ef0, size 0x1d0, virtual true, abstract: false, final false
-  inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SequencedChannel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SequencedChannel(SequencedChannel&&) = delete;
@@ -118,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SequencedChannel(SequencedChannel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SequencedChannel();
-
-public:
   /// @brief Field _localSequence, offset: 0x28, size: 0x4, def value: None
   int32_t ____localSequence;
 

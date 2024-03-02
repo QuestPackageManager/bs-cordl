@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__UnityEditorBeatmapLevelDataAssetFileModel_def.hpp"
+#include "GlobalNamespace/zzzz__UnityEditorBeatmapLevelDataAssetFileModel_impl.hpp"

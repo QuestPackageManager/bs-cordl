@@ -8,16 +8,10 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class BeatmapKeyNetSerializable;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+struct BeatmapKey;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,26 +23,23 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapIdentifierNetSerializableHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4343))
 // CS Name: ::BeatmapIdentifierNetSerializableHelper*
 class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIdentifier, addr 0x2340e78, size 0x298, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+  /// @brief Method ToBeatmapKey, addr 0x12c4d9c, size 0x70, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
+                                                           ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method HasIdentifier, addr 0x2341110, size 0x290, virtual false, abstract: false, final false
-  static inline bool HasIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
+  /// @brief Method ToIdentifier, addr 0x12c4e1c, size 0xb8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method ToPreviewDifficultyBeatmap, addr 0x23413a0, size 0xd0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PreviewDifficultyBeatmap* ToPreviewDifficultyBeatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId,
-                                                                                        ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-                                                                                        ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapIdentifierNetSerializableHelper();
 
-  /// @brief Method ToIdentifier, addr 0x23416cc, size 0x120, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* ToIdentifier(::GlobalNamespace::PreviewDifficultyBeatmap* previewDifficultyBeatmapLevel);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapIdentifierNetSerializableHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper&&) = delete;
@@ -57,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapIdentifierNetSerializableHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

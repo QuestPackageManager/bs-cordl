@@ -18,23 +18,27 @@ MARK_REF_PTR_T(::UnityEngine::AssetReferenceUIRestriction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14045))
 // CS Name: ::UnityEngine::AssetReferenceUIRestriction*
 class CORDL_TYPE AssetReferenceUIRestriction : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Method ValidateAsset, addr 0x2a0f004, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::UnityEngine::Object* obj);
-
-  /// @brief Method ValidateAsset, addr 0x2a0f00c, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::StringW path);
-
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0f014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2af9c44, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::UnityEngine::Object* obj);
+
+  /// @brief Method ValidateAsset, addr 0x2af9c4c, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::StringW path);
+
+  /// @brief Method .ctor, addr 0x2af9c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceUIRestriction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUIRestriction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceUIRestriction(AssetReferenceUIRestriction&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceUIRestriction(AssetReferenceUIRestriction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceUIRestriction();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

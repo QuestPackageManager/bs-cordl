@@ -30,20 +30,19 @@ MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6802)), TypeDefinitionIndex(TypeDefinitionIndex(6803)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6805)) CS Name: ::UnityEngine.UIElements::GradientSettings
+// CS Name: ::UnityEngine.UIElements::GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GradientSettings();
+
   // Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty:
   // "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
   // "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }]
   constexpr GradientSettings(::UnityEngine::UIElements::GradientType gradientType, ::UnityEngine::UIElements::AddressMode addressMode, ::UnityEngine::Vector2 radialFocus,
                              ::UnityEngine::RectInt location) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GradientSettings();
 
   /// @brief Field gradientType, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::GradientType gradientType;

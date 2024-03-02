@@ -18,17 +18,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DatagramTransport);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1207))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DatagramTransport*
 class CORDL_TYPE DatagramTransport {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
-
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
   /// @brief Method GetReceiveLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetReceiveLimit();
@@ -41,6 +36,9 @@ public:
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "DatagramTransport", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

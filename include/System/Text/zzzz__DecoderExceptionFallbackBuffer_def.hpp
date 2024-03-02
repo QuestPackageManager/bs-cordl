@@ -16,31 +16,35 @@ MARK_REF_PTR_T(::System::Text::DecoderExceptionFallbackBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2834))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2831))
 // CS Name: ::System.Text::DecoderExceptionFallbackBuffer*
 class CORDL_TYPE DecoderExceptionFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x26310fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x272596c, size 0x8, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x26312d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x2725b48, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
-
-  /// @brief Method get_Remaining, addr 0x26312e0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Remaining();
-
-  /// @brief Method Throw, addr 0x2631104, size 0x1d4, virtual false, abstract: false, final false
-  inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
   static inline ::System::Text::DecoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2631088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x2725974, size 0x1d4, virtual false, abstract: false, final false
+  inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
+
+  /// @brief Method .ctor, addr 0x27258f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Remaining, addr 0x2725b50, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_Remaining();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecoderExceptionFallbackBuffer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DecoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecoderExceptionFallbackBuffer(DecoderExceptionFallbackBuffer&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoderExceptionFallbackBuffer(DecoderExceptionFallbackBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecoderExceptionFallbackBuffer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

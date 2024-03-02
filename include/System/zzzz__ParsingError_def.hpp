@@ -15,8 +15,6 @@ MARK_VAL_T(::System::ParsingError);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8881))
 // CS Name: ::System::ParsingError
 struct CORDL_TYPE ParsingError {
 public:
@@ -46,30 +44,41 @@ public:
     return static_cast<__ParsingError_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ParsingError(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ParsingError();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ParsingError(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BadAuthority value: static_cast<int32_t>(0x3)
+  static ::System::ParsingError const BadAuthority;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::ParsingError const None;
+  /// @brief Field BadAuthorityTerminator value: static_cast<int32_t>(0xb)
+  static ::System::ParsingError const BadAuthorityTerminator;
 
   /// @brief Field BadFormat value: static_cast<int32_t>(0x1)
   static ::System::ParsingError const BadFormat;
 
+  /// @brief Field BadHostName value: static_cast<int32_t>(0x8)
+  static ::System::ParsingError const BadHostName;
+
+  /// @brief Field BadPort value: static_cast<int32_t>(0xa)
+  static ::System::ParsingError const BadPort;
+
   /// @brief Field BadScheme value: static_cast<int32_t>(0x2)
   static ::System::ParsingError const BadScheme;
 
-  /// @brief Field BadAuthority value: static_cast<int32_t>(0x3)
-  static ::System::ParsingError const BadAuthority;
+  /// @brief Field CannotCreateRelative value: static_cast<int32_t>(0xc)
+  static ::System::ParsingError const CannotCreateRelative;
 
   /// @brief Field EmptyUriString value: static_cast<int32_t>(0x4)
   static ::System::ParsingError const EmptyUriString;
@@ -77,29 +86,23 @@ public:
   /// @brief Field LastRelativeUriOkErrIndex value: static_cast<int32_t>(0x4)
   static ::System::ParsingError const LastRelativeUriOkErrIndex;
 
+  /// @brief Field MustRootedPath value: static_cast<int32_t>(0x7)
+  static ::System::ParsingError const MustRootedPath;
+
+  /// @brief Field NonEmptyHost value: static_cast<int32_t>(0x9)
+  static ::System::ParsingError const NonEmptyHost;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::ParsingError const None;
+
   /// @brief Field SchemeLimit value: static_cast<int32_t>(0x5)
   static ::System::ParsingError const SchemeLimit;
 
   /// @brief Field SizeLimit value: static_cast<int32_t>(0x6)
   static ::System::ParsingError const SizeLimit;
 
-  /// @brief Field MustRootedPath value: static_cast<int32_t>(0x7)
-  static ::System::ParsingError const MustRootedPath;
-
-  /// @brief Field BadHostName value: static_cast<int32_t>(0x8)
-  static ::System::ParsingError const BadHostName;
-
-  /// @brief Field NonEmptyHost value: static_cast<int32_t>(0x9)
-  static ::System::ParsingError const NonEmptyHost;
-
-  /// @brief Field BadPort value: static_cast<int32_t>(0xa)
-  static ::System::ParsingError const BadPort;
-
-  /// @brief Field BadAuthorityTerminator value: static_cast<int32_t>(0xb)
-  static ::System::ParsingError const BadAuthorityTerminator;
-
-  /// @brief Field CannotCreateRelative value: static_cast<int32_t>(0xc)
-  static ::System::ParsingError const CannotCreateRelative;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

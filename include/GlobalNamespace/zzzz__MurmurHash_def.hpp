@@ -16,15 +16,19 @@ MARK_REF_PTR_T(::GlobalNamespace::MurmurHash);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15022))
 // CS Name: ::MurmurHash*
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x12a3c84, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x137ab48, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MurmurHash();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MurmurHash", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MurmurHash(MurmurHash&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MurmurHash(MurmurHash const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MurmurHash();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

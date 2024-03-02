@@ -30,33 +30,15 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchState);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6514))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchState
 #pragma pack(push, 0)
 struct CORDL_TYPE TouchState {
 public:
   // Declarations
-  /// @brief Field touchId, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_touchId, put = __cordl_internal_set_touchId)) int32_t touchId;
-
-  /// @brief Field position, offset 0x4, size 0x8
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
+  __declspec(property(get = get_beganInSameFrame, put = set_beganInSameFrame)) bool beganInSameFrame;
 
   /// @brief Field delta, offset 0xc, size 0x8
   __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
-
-  /// @brief Field pressure, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_pressure, put = __cordl_internal_set_pressure)) float_t pressure;
-
-  /// @brief Field radius, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius))::UnityEngine::Vector2 radius;
-
-  /// @brief Field phaseId, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_phaseId, put = __cordl_internal_set_phaseId)) uint8_t phaseId;
-
-  /// @brief Field tapCount, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get_tapCount, put = __cordl_internal_set_tapCount)) uint8_t tapCount;
 
   /// @brief Field displayIndex, offset 0x22, size 0x1
   __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint8_t displayIndex;
@@ -64,26 +46,17 @@ public:
   /// @brief Field flags, offset 0x23, size 0x1
   __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) uint8_t flags;
 
-  /// @brief Field updateStepCount, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_updateStepCount, put = __cordl_internal_set_updateStepCount)) uint32_t updateStepCount;
-
-  /// @brief Field startTime, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_startTime, put = __cordl_internal_set_startTime)) double_t startTime;
-
-  /// @brief Field startPosition, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition))::UnityEngine::Vector2 startPosition;
-
-  __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::TouchPhase phase;
-
-  __declspec(property(get = get_isNoneEndedOrCanceled)) bool isNoneEndedOrCanceled;
+  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
   __declspec(property(get = get_isInProgress)) bool isInProgress;
 
-  __declspec(property(get = get_isPrimaryTouch, put = set_isPrimaryTouch)) bool isPrimaryTouch;
+  __declspec(property(get = get_isIndirectTouch, put = set_isIndirectTouch)) bool isIndirectTouch;
+
+  __declspec(property(get = get_isNoneEndedOrCanceled)) bool isNoneEndedOrCanceled;
 
   __declspec(property(get = get_isOrphanedPrimaryTouch, put = set_isOrphanedPrimaryTouch)) bool isOrphanedPrimaryTouch;
 
-  __declspec(property(get = get_isIndirectTouch, put = set_isIndirectTouch)) bool isIndirectTouch;
+  __declspec(property(get = get_isPrimaryTouch, put = set_isPrimaryTouch)) bool isPrimaryTouch;
 
   __declspec(property(get = get_isTap, put = set_isTap)) bool isTap;
 
@@ -91,150 +64,179 @@ public:
 
   __declspec(property(get = get_isTapRelease, put = set_isTapRelease)) bool isTapRelease;
 
-  __declspec(property(get = get_beganInSameFrame, put = set_beganInSameFrame)) bool beganInSameFrame;
+  __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::TouchPhase phase;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  /// @brief Field phaseId, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_phaseId, put = __cordl_internal_set_phaseId)) uint8_t phaseId;
+
+  /// @brief Field position, offset 0x4, size 0x8
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
+
+  /// @brief Field pressure, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_pressure, put = __cordl_internal_set_pressure)) float_t pressure;
+
+  /// @brief Field radius, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius))::UnityEngine::Vector2 radius;
+
+  /// @brief Field startPosition, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition))::UnityEngine::Vector2 startPosition;
+
+  /// @brief Field startTime, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_startTime, put = __cordl_internal_set_startTime)) double_t startTime;
+
+  /// @brief Field tapCount, offset 0x21, size 0x1
+  __declspec(property(get = __cordl_internal_get_tapCount, put = __cordl_internal_set_tapCount)) uint8_t tapCount;
+
+  /// @brief Field touchId, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_touchId, put = __cordl_internal_set_touchId)) int32_t touchId;
+
+  /// @brief Field updateStepCount, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_updateStepCount, put = __cordl_internal_set_updateStepCount)) uint32_t updateStepCount;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
-
-  constexpr int32_t& __cordl_internal_get_touchId();
-
-  constexpr int32_t const& __cordl_internal_get_touchId() const;
-
-  constexpr void __cordl_internal_set_touchId(int32_t value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
+  /// @brief Method ToString, addr 0x2bcfae4, size 0x2c0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_delta() const;
 
-  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get_pressure();
-
-  constexpr float_t const& __cordl_internal_get_pressure() const;
-
-  constexpr void __cordl_internal_set_pressure(float_t value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_radius();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_radius() const;
-
-  constexpr void __cordl_internal_set_radius(::UnityEngine::Vector2 value);
-
-  constexpr uint8_t& __cordl_internal_get_phaseId();
-
-  constexpr uint8_t const& __cordl_internal_get_phaseId() const;
-
-  constexpr void __cordl_internal_set_phaseId(uint8_t value);
-
-  constexpr uint8_t& __cordl_internal_get_tapCount();
-
-  constexpr uint8_t const& __cordl_internal_get_tapCount() const;
-
-  constexpr void __cordl_internal_set_tapCount(uint8_t value);
-
-  constexpr uint8_t& __cordl_internal_get_displayIndex();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_delta();
 
   constexpr uint8_t const& __cordl_internal_get_displayIndex() const;
 
-  constexpr void __cordl_internal_set_displayIndex(uint8_t value);
-
-  constexpr uint8_t& __cordl_internal_get_flags();
+  constexpr uint8_t& __cordl_internal_get_displayIndex();
 
   constexpr uint8_t const& __cordl_internal_get_flags() const;
 
-  constexpr void __cordl_internal_set_flags(uint8_t value);
+  constexpr uint8_t& __cordl_internal_get_flags();
 
-  constexpr uint32_t& __cordl_internal_get_updateStepCount();
+  constexpr uint8_t const& __cordl_internal_get_phaseId() const;
 
-  constexpr uint32_t const& __cordl_internal_get_updateStepCount() const;
+  constexpr uint8_t& __cordl_internal_get_phaseId();
 
-  constexpr void __cordl_internal_set_updateStepCount(uint32_t value);
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
 
-  constexpr double_t& __cordl_internal_get_startTime();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
 
-  constexpr double_t const& __cordl_internal_get_startTime() const;
+  constexpr float_t const& __cordl_internal_get_pressure() const;
 
-  constexpr void __cordl_internal_set_startTime(double_t value);
+  constexpr float_t& __cordl_internal_get_pressure();
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_startPosition();
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_radius() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_radius();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_startPosition() const;
 
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_startPosition();
+
+  constexpr double_t const& __cordl_internal_get_startTime() const;
+
+  constexpr double_t& __cordl_internal_get_startTime();
+
+  constexpr uint8_t const& __cordl_internal_get_tapCount() const;
+
+  constexpr uint8_t& __cordl_internal_get_tapCount();
+
+  constexpr int32_t const& __cordl_internal_get_touchId() const;
+
+  constexpr int32_t& __cordl_internal_get_touchId();
+
+  constexpr uint32_t const& __cordl_internal_get_updateStepCount() const;
+
+  constexpr uint32_t& __cordl_internal_get_updateStepCount();
+
+  constexpr void __cordl_internal_set_delta(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_displayIndex(uint8_t value);
+
+  constexpr void __cordl_internal_set_flags(uint8_t value);
+
+  constexpr void __cordl_internal_set_phaseId(uint8_t value);
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_pressure(float_t value);
+
+  constexpr void __cordl_internal_set_radius(::UnityEngine::Vector2 value);
+
   constexpr void __cordl_internal_set_startPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Format, addr 0x2ae8d5c, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_startTime(double_t value);
+
+  constexpr void __cordl_internal_set_tapCount(uint8_t value);
+
+  constexpr void __cordl_internal_set_touchId(int32_t value);
+
+  constexpr void __cordl_internal_set_updateStepCount(uint32_t value);
+
+  /// @brief Method get_Format, addr 0x2bcf99c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_phase, addr 0x2ae8d8c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::TouchPhase get_phase();
-
-  /// @brief Method set_phase, addr 0x2ae3720, size 0x8, virtual false, abstract: false, final false
-  inline void set_phase(::UnityEngine::InputSystem::TouchPhase value);
-
-  /// @brief Method get_isNoneEndedOrCanceled, addr 0x2ae8d94, size 0x20, virtual false, abstract: false, final false
-  inline bool get_isNoneEndedOrCanceled();
-
-  /// @brief Method get_isInProgress, addr 0x2ae8db4, size 0x2c, virtual false, abstract: false, final false
-  inline bool get_isInProgress();
-
-  /// @brief Method get_isPrimaryTouch, addr 0x2ae563c, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isPrimaryTouch();
-
-  /// @brief Method set_isPrimaryTouch, addr 0x2ae5620, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isPrimaryTouch(bool value);
-
-  /// @brief Method get_isOrphanedPrimaryTouch, addr 0x2ae8de0, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isOrphanedPrimaryTouch();
-
-  /// @brief Method set_isOrphanedPrimaryTouch, addr 0x2ae8dec, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isOrphanedPrimaryTouch(bool value);
-
-  /// @brief Method get_isIndirectTouch, addr 0x2ae8e08, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isIndirectTouch();
-
-  /// @brief Method set_isIndirectTouch, addr 0x2ae8e14, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isIndirectTouch(bool value);
-
-  /// @brief Method get_isTap, addr 0x2ae1cb4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isTap();
-
-  /// @brief Method set_isTap, addr 0x2ae5648, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isTap(bool value);
-
-  /// @brief Method get_isTapPress, addr 0x2ae8e30, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isTapPress();
-
-  /// @brief Method set_isTapPress, addr 0x2ae8e3c, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isTapPress(bool value);
-
-  /// @brief Method get_isTapRelease, addr 0x2ae1280, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isTapRelease();
-
-  /// @brief Method set_isTapRelease, addr 0x2ae8e58, size 0x1c, virtual false, abstract: false, final false
-  inline void set_isTapRelease(bool value);
-
-  /// @brief Method get_beganInSameFrame, addr 0x2ae1538, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_beganInSameFrame, addr 0x2bc8178, size 0x10, virtual false, abstract: false, final false
   inline bool get_beganInSameFrame();
 
-  /// @brief Method set_beganInSameFrame, addr 0x2ae1548, size 0x1c, virtual false, abstract: false, final false
-  inline void set_beganInSameFrame(bool value);
-
-  /// @brief Method get_format, addr 0x2ae8e74, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2bcfab4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method ToString, addr 0x2ae8ea4, size 0x2c0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method get_isInProgress, addr 0x2bcf9f4, size 0x2c, virtual false, abstract: false, final false
+  inline bool get_isInProgress();
+
+  /// @brief Method get_isIndirectTouch, addr 0x2bcfa48, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isIndirectTouch();
+
+  /// @brief Method get_isNoneEndedOrCanceled, addr 0x2bcf9d4, size 0x20, virtual false, abstract: false, final false
+  inline bool get_isNoneEndedOrCanceled();
+
+  /// @brief Method get_isOrphanedPrimaryTouch, addr 0x2bcfa20, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isOrphanedPrimaryTouch();
+
+  /// @brief Method get_isPrimaryTouch, addr 0x2bcc27c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isPrimaryTouch();
+
+  /// @brief Method get_isTap, addr 0x2bc88f4, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isTap();
+
+  /// @brief Method get_isTapPress, addr 0x2bcfa70, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isTapPress();
+
+  /// @brief Method get_isTapRelease, addr 0x2bc7ec0, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isTapRelease();
+
+  /// @brief Method get_phase, addr 0x2bcf9cc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::TouchPhase get_phase();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
+  /// @brief Method set_beganInSameFrame, addr 0x2bc8188, size 0x1c, virtual false, abstract: false, final false
+  inline void set_beganInSameFrame(bool value);
+
+  /// @brief Method set_isIndirectTouch, addr 0x2bcfa54, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isIndirectTouch(bool value);
+
+  /// @brief Method set_isOrphanedPrimaryTouch, addr 0x2bcfa2c, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isOrphanedPrimaryTouch(bool value);
+
+  /// @brief Method set_isPrimaryTouch, addr 0x2bcc260, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isPrimaryTouch(bool value);
+
+  /// @brief Method set_isTap, addr 0x2bcc288, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isTap(bool value);
+
+  /// @brief Method set_isTapPress, addr 0x2bcfa7c, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isTapPress(bool value);
+
+  /// @brief Method set_isTapRelease, addr 0x2bcfa98, size 0x1c, virtual false, abstract: false, final false
+  inline void set_isTapRelease(bool value);
+
+  /// @brief Method set_phase, addr 0x2bca360, size 0x8, virtual false, abstract: false, final false
+  inline void set_phase(::UnityEngine::InputSystem::TouchPhase value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TouchState();
 
   // Ctor Parameters [CppParam { name: "touchId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam
   // { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty:
@@ -244,10 +246,6 @@ public:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
   constexpr TouchState(int32_t touchId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint8_t phaseId, uint8_t tapCount,
                        uint8_t displayIndex, uint8_t flags, uint32_t updateStepCount, double_t startTime, ::UnityEngine::Vector2 startPosition) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchState();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

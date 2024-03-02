@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::ComponentModel::__WeakHashtable__WeakKeyComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
 // CS Name: ::WeakHashtable::WeakKeyComparer*
 class CORDL_TYPE __WeakHashtable__WeakKeyComparer : public ::System::Object {
 public:
@@ -38,20 +36,26 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
+  static inline ::System::ComponentModel::__WeakHashtable__WeakKeyComparer* New_ctor();
+
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x2a24454, size 0x15c, virtual true, abstract: false, final true
+  inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);
+
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x2a245b0, size 0x20, virtual true, abstract: false, final true
+  inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
+
+  /// @brief Method .ctor, addr 0x2a2444c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   /// @brief Convert to "::System::Collections::IEqualityComparer"
   constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x293a970, size 0x15c, virtual true, abstract: false, final true
-  inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __WeakHashtable__WeakKeyComparer();
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x293aacc, size 0x20, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
-
-  static inline ::System::ComponentModel::__WeakHashtable__WeakKeyComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x293a968, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__WeakHashtable__WeakKeyComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __WeakHashtable__WeakKeyComparer(__WeakHashtable__WeakKeyComparer&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __WeakHashtable__WeakKeyComparer(__WeakHashtable__WeakKeyComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WeakHashtable__WeakKeyComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -76,8 +74,6 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__WeakHa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3798))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9495))
 // CS Name: ::System.ComponentModel::WeakHashtable*
 class CORDL_TYPE WeakHashtable : public ::System::Collections::Hashtable {
 public:
@@ -87,21 +83,27 @@ public:
   /// @brief Field _comparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__comparer, put = setStaticF__comparer))::System::Collections::IEqualityComparer* _comparer;
 
-  static inline void setStaticF__comparer(::System::Collections::IEqualityComparer* value);
-
-  static inline ::System::Collections::IEqualityComparer* getStaticF__comparer();
+  /// @brief Method Clear, addr 0x2a243c4, size 0x8, virtual true, abstract: false, final false
+  inline void Clear();
 
   static inline ::System::ComponentModel::WeakHashtable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x293a87c, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Clear, addr 0x293a8e0, size 0x8, virtual true, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Remove, addr 0x293a8e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x2a243cc, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
+  /// @brief Method .ctor, addr 0x2a24360, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Collections::IEqualityComparer* getStaticF__comparer();
+
+  static inline void setStaticF__comparer(::System::Collections::IEqualityComparer* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WeakHashtable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakHashtable(WeakHashtable&&) = delete;
@@ -110,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WeakHashtable(WeakHashtable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WeakHashtable();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

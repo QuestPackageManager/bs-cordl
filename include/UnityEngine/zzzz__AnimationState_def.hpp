@@ -19,42 +19,46 @@ MARK_REF_PTR_T(::UnityEngine::AnimationState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14866))
 // CS Name: ::UnityEngine::AnimationState*
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
 public:
   // Declarations
-  __declspec(property(put = set_time)) float_t time;
+  __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
+
+  __declspec(property(put = set_layer)) int32_t layer;
 
   __declspec(property(put = set_normalizedTime)) float_t normalizedTime;
 
   __declspec(property(put = set_speed)) float_t speed;
 
-  __declspec(property(put = set_layer)) int32_t layer;
-
-  __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
-
-  /// @brief Method set_time, addr 0x2c904a0, size 0x4c, virtual false, abstract: false, final false
-  inline void set_time(float_t value);
-
-  /// @brief Method set_normalizedTime, addr 0x2c904ec, size 0x4c, virtual false, abstract: false, final false
-  inline void set_normalizedTime(float_t value);
-
-  /// @brief Method set_speed, addr 0x2c90538, size 0x4c, virtual false, abstract: false, final false
-  inline void set_speed(float_t value);
-
-  /// @brief Method set_layer, addr 0x2c90584, size 0x44, virtual false, abstract: false, final false
-  inline void set_layer(int32_t value);
-
-  /// @brief Method get_clip, addr 0x2c900f0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
+  __declspec(property(put = set_time)) float_t time;
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c905c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d77208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_clip, addr 0x2d76d30, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
+
+  /// @brief Method set_layer, addr 0x2d771c4, size 0x44, virtual false, abstract: false, final false
+  inline void set_layer(int32_t value);
+
+  /// @brief Method set_normalizedTime, addr 0x2d7712c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_normalizedTime(float_t value);
+
+  /// @brief Method set_speed, addr 0x2d77178, size 0x4c, virtual false, abstract: false, final false
+  inline void set_speed(float_t value);
+
+  /// @brief Method set_time, addr 0x2d770e0, size 0x4c, virtual false, abstract: false, final false
+  inline void set_time(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationState(AnimationState&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationState(AnimationState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationState();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

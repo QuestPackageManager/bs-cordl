@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::TMPro::TMP_ScrollbarEventHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12412))
 // CS Name: ::TMPro::TMP_ScrollbarEventHandler*
 class CORDL_TYPE TMP_ScrollbarEventHandler : public ::UnityEngine::MonoBehaviour {
 public:
@@ -41,50 +39,56 @@ public:
   /// @brief Field isSelected, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_isSelected, put = __cordl_internal_set_isSelected)) bool isSelected;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
+  constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISelectHandler"
   constexpr operator ::UnityEngine::EventSystems::ISelectHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
-  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
+  static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IDeselectHandler"
-  constexpr operator ::UnityEngine::EventSystems::IDeselectHandler*() noexcept;
+  /// @brief Method OnDeselect, addr 0x2d276b8, size 0x74, virtual true, abstract: false, final true
+  inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
+
+  /// @brief Method OnPointerClick, addr 0x2d275d8, size 0x68, virtual true, abstract: false, final true
+  inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method OnSelect, addr 0x2d27640, size 0x78, virtual true, abstract: false, final true
+  inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
+
+  constexpr bool const& __cordl_internal_get_isSelected() const;
+
+  constexpr bool& __cordl_internal_get_isSelected();
+
+  constexpr void __cordl_internal_set_isSelected(bool value);
+
+  /// @brief Method .ctor, addr 0x2d2772c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
-  constexpr bool& __cordl_internal_get_isSelected();
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  constexpr bool const& __cordl_internal_get_isSelected() const;
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
 
-  constexpr void __cordl_internal_set_isSelected(bool value);
+  /// @brief Convert to "::UnityEngine::EventSystems::ISelectHandler"
+  constexpr ::UnityEngine::EventSystems::ISelectHandler* i___UnityEngine__EventSystems__ISelectHandler() noexcept;
 
-  /// @brief Method OnPointerClick, addr 0x2c3f998, size 0x68, virtual true, abstract: false, final true
-  inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_ScrollbarEventHandler();
 
-  /// @brief Method OnSelect, addr 0x2c3fa00, size 0x78, virtual true, abstract: false, final true
-  inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
-
-  /// @brief Method OnDeselect, addr 0x2c3fa78, size 0x74, virtual true, abstract: false, final true
-  inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
-
-  static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c3faec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ScrollbarEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ScrollbarEventHandler(TMP_ScrollbarEventHandler&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ScrollbarEventHandler(TMP_ScrollbarEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_ScrollbarEventHandler();
-
-public:
   /// @brief Field isSelected, offset: 0x18, size: 0x1, def value: None
   bool ___isSelected;
 

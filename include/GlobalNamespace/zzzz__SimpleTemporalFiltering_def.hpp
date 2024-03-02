@@ -22,16 +22,12 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15311))
 // CS Name: ::SimpleTemporalFiltering*
 class CORDL_TYPE SimpleTemporalFiltering : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _temporalFilteringTextures, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__temporalFilteringTextures,
-               put = __cordl_internal_set__temporalFilteringTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _temporalFilteringTextures;
+  /// @brief Field _bufferTexID, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__bufferTexID, put = __cordl_internal_set__bufferTexID)) int32_t _bufferTexID;
 
   /// @brief Field _prevTemporalFilteringTextureIdx, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__prevTemporalFilteringTextureIdx, put = __cordl_internal_set__prevTemporalFilteringTextureIdx)) int32_t _prevTemporalFilteringTextureIdx;
@@ -39,44 +35,52 @@ public:
   /// @brief Field _temporalFilteringMaterial, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__temporalFilteringMaterial, put = __cordl_internal_set__temporalFilteringMaterial))::UnityW<::UnityEngine::Material> _temporalFilteringMaterial;
 
-  /// @brief Field _bufferTexID, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__bufferTexID, put = __cordl_internal_set__bufferTexID)) int32_t _bufferTexID;
+  /// @brief Field _temporalFilteringTextures, offset 0x10, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__temporalFilteringTextures,
+               put = __cordl_internal_set__temporalFilteringTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _temporalFilteringTextures;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__temporalFilteringTextures();
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x28f4be4, size 0x28c, virtual false, abstract: false, final false
+  inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__temporalFilteringTextures() const;
-
-  constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
-
-  constexpr int32_t& __cordl_internal_get__prevTemporalFilteringTextureIdx();
-
-  constexpr int32_t const& __cordl_internal_get__prevTemporalFilteringTextureIdx() const;
-
-  constexpr void __cordl_internal_set__prevTemporalFilteringTextureIdx(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__temporalFilteringMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__temporalFilteringMaterial() const;
-
-  constexpr void __cordl_internal_set__temporalFilteringMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr int32_t& __cordl_internal_get__bufferTexID();
-
-  constexpr int32_t const& __cordl_internal_get__bufferTexID() const;
-
-  constexpr void __cordl_internal_set__bufferTexID(int32_t value);
+  /// @brief Method FilterTexture, addr 0x28f4a64, size 0x180, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
 
-  /// @brief Method .ctor, addr 0x280bd34, size 0xcc, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__bufferTexID() const;
+
+  constexpr int32_t& __cordl_internal_get__bufferTexID();
+
+  constexpr int32_t const& __cordl_internal_get__prevTemporalFilteringTextureIdx() const;
+
+  constexpr int32_t& __cordl_internal_get__prevTemporalFilteringTextureIdx();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__temporalFilteringMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__temporalFilteringMaterial();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__temporalFilteringTextures() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__temporalFilteringTextures();
+
+  constexpr void __cordl_internal_set__bufferTexID(int32_t value);
+
+  constexpr void __cordl_internal_set__prevTemporalFilteringTextureIdx(int32_t value);
+
+  constexpr void __cordl_internal_set__temporalFilteringMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
+
+  /// @brief Method .ctor, addr 0x28f4998, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FilterTexture, addr 0x280be00, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleTemporalFiltering();
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x280bf80, size 0x28c, virtual false, abstract: false, final false
-  inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTemporalFiltering", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleTemporalFiltering(SimpleTemporalFiltering&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleTemporalFiltering(SimpleTemporalFiltering const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleTemporalFiltering();
-
-public:
   /// @brief Field _temporalFilteringTextures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____temporalFilteringTextures;
 

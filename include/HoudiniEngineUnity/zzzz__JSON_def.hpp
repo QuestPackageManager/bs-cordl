@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSON);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9880))
 // CS Name: ::HoudiniEngineUnity::JSON*
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x21d2670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23345c0, size 0x4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JSON();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JSON(JSON&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JSON(JSON const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JSON();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

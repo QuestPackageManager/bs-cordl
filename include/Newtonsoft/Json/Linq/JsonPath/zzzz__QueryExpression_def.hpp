@@ -21,38 +21,42 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12021))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryExpression*
 class CORDL_TYPE QueryExpression : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Operator, put = set_Operator))::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
+
   /// @brief Field <Operator>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__Operator_k__BackingField,
                       put = __cordl_internal_set__Operator_k__BackingField))::Newtonsoft::Json::Linq::JsonPath::QueryOperator _Operator_k__BackingField;
-
-  __declspec(property(get = get_Operator, put = set_Operator))::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
-
-  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& __cordl_internal_get__Operator_k__BackingField();
-
-  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const& __cordl_internal_get__Operator_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
-
-  /// @brief Method get_Operator, addr 0x26b126c, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator();
-
-  /// @brief Method set_Operator, addr 0x26b1274, size 0x8, virtual false, abstract: false, final false
-  inline void set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
   /// @brief Method IsMatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* t);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::QueryExpression* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b127c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const& __cordl_internal_get__Operator_k__BackingField() const;
+
+  constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& __cordl_internal_get__Operator_k__BackingField();
+
+  constexpr void __cordl_internal_set__Operator_k__BackingField(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
+
+  /// @brief Method .ctor, addr 0x27a1b84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Operator, addr 0x27a1b74, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator get_Operator();
+
+  /// @brief Method set_Operator, addr 0x27a1b7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QueryExpression();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QueryExpression(QueryExpression&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QueryExpression(QueryExpression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QueryExpression();
-
-public:
   /// @brief Field <Operator>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::QueryOperator ____Operator_k__BackingField;
 

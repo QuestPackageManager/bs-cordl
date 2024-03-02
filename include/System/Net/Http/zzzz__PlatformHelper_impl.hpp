@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::PlatformHelper::IsContentHeader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x282e354;
+  constexpr static std::size_t addrs = 0x2917fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::System::Net::Http::PlatformHelper::GetSingleHeaderString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x282e088;
+  constexpr static std::size_t addrs = 0x2917cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::StreamContent* (*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::PlatformHelper::CreateStreamContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x282e2e0;
+  constexpr static std::size_t addrs = 0x2917f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

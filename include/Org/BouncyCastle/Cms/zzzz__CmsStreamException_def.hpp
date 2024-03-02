@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsStreamException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(661))
 // CS Name: ::Org.BouncyCastle.Cms::CmsStreamException*
 class CORDL_TYPE CmsStreamException : public ::System::IO::IOException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11ffea4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name);
-
-  /// @brief Method .ctor, addr 0x11ffeac, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
 
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x11f3264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1270d04, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1270d0c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method .ctor, addr 0x12640c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsStreamException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsStreamException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsStreamException(CmsStreamException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsStreamException(CmsStreamException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsStreamException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

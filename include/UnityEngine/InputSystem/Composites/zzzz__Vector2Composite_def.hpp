@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector2Composite);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6719))
 // CS Name: ::Vector2Composite::Mode
 struct CORDL_TYPE __Vector2Composite__Mode {
 public:
@@ -53,27 +51,32 @@ public:
     return static_cast<____Vector2Composite__Mode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Vector2Composite__Mode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Vector2Composite__Mode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Vector2Composite__Mode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Analog value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const Analog;
 
+  /// @brief Field Digital value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const Digital;
+
   /// @brief Field DigitalNormalized value: static_cast<int32_t>(0x0)
   static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const DigitalNormalized;
 
-  /// @brief Field Digital value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const Digital;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -87,16 +90,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector2Composit
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6719)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name:
-// ::UnityEngine.InputSystem.Composites::Vector2Composite*
+// CS Name: ::UnityEngine.InputSystem.Composites::Vector2Composite*
 class CORDL_TYPE Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2> {
 public:
   // Declarations
   using Mode = ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode;
-
-  /// @brief Field up, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
   /// @brief Field down, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_down, put = __cordl_internal_set_down)) int32_t down;
@@ -104,62 +102,71 @@ public:
   /// @brief Field left, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
 
-  /// @brief Field right, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_right, put = __cordl_internal_set_right)) int32_t right;
+  /// @brief Field mode, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode mode;
 
   /// @brief Field normalize, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
 
-  /// @brief Field mode, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode mode;
+  /// @brief Field right, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_right, put = __cordl_internal_set_right)) int32_t right;
 
-  constexpr int32_t& __cordl_internal_get_up();
+  /// @brief Field up, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  constexpr int32_t const& __cordl_internal_get_up() const;
-
-  constexpr void __cordl_internal_set_up(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_down();
-
-  constexpr int32_t const& __cordl_internal_get_down() const;
-
-  constexpr void __cordl_internal_set_down(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_left();
-
-  constexpr int32_t const& __cordl_internal_get_left() const;
-
-  constexpr void __cordl_internal_set_left(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_right();
-
-  constexpr int32_t const& __cordl_internal_get_right() const;
-
-  constexpr void __cordl_internal_set_right(int32_t value);
-
-  constexpr bool& __cordl_internal_get_normalize();
-
-  constexpr bool const& __cordl_internal_get_normalize() const;
-
-  constexpr void __cordl_internal_set_normalize(bool value);
-
-  constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode& __cordl_internal_get_mode();
-
-  constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const& __cordl_internal_get_mode() const;
-
-  constexpr void __cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode value);
-
-  /// @brief Method ReadValue, addr 0x2a5ba08, size 0x164, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method EvaluateMagnitude, addr 0x2a5bb6c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b457ac, size 0x70, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5bbdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2b45648, size 0x164, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  constexpr int32_t const& __cordl_internal_get_down() const;
+
+  constexpr int32_t& __cordl_internal_get_down();
+
+  constexpr int32_t const& __cordl_internal_get_left() const;
+
+  constexpr int32_t& __cordl_internal_get_left();
+
+  constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const& __cordl_internal_get_mode() const;
+
+  constexpr ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode& __cordl_internal_get_mode();
+
+  constexpr bool const& __cordl_internal_get_normalize() const;
+
+  constexpr bool& __cordl_internal_get_normalize();
+
+  constexpr int32_t const& __cordl_internal_get_right() const;
+
+  constexpr int32_t& __cordl_internal_get_right();
+
+  constexpr int32_t const& __cordl_internal_get_up() const;
+
+  constexpr int32_t& __cordl_internal_get_up();
+
+  constexpr void __cordl_internal_set_down(int32_t value);
+
+  constexpr void __cordl_internal_set_left(int32_t value);
+
+  constexpr void __cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode value);
+
+  constexpr void __cordl_internal_set_normalize(bool value);
+
+  constexpr void __cordl_internal_set_right(int32_t value);
+
+  constexpr void __cordl_internal_set_up(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2b4581c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector2Composite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2Composite(Vector2Composite&&) = delete;
@@ -168,12 +175,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Vector2Composite(Vector2Composite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector2Composite();
-
-public:
   /// @brief Field up, offset: 0x10, size: 0x4, def value: None
   int32_t ___up;
 

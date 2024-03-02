@@ -15,44 +15,48 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1234))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReplayWindow*
 class CORDL_TYPE DtlsReplayWindow : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mLatestConfirmedSeq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mLatestConfirmedSeq, put = __cordl_internal_set_mLatestConfirmedSeq)) int64_t mLatestConfirmedSeq;
-
   /// @brief Field mBitmap, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mBitmap, put = __cordl_internal_set_mBitmap)) int64_t mBitmap;
 
-  constexpr int64_t& __cordl_internal_get_mLatestConfirmedSeq();
-
-  constexpr int64_t const& __cordl_internal_get_mLatestConfirmedSeq() const;
-
-  constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get_mBitmap();
-
-  constexpr int64_t const& __cordl_internal_get_mBitmap() const;
-
-  constexpr void __cordl_internal_set_mBitmap(int64_t value);
-
-  /// @brief Method ShouldDiscard, addr 0xf6f894, size 0x44, virtual false, abstract: false, final false
-  inline bool ShouldDiscard(int64_t seq);
-
-  /// @brief Method ReportAuthenticated, addr 0xf6f8e0, size 0xcc, virtual false, abstract: false, final false
-  inline void ReportAuthenticated(int64_t seq);
-
-  /// @brief Method Reset, addr 0xf712fc, size 0x10, virtual false, abstract: false, final false
-  inline void Reset();
+  /// @brief Field mLatestConfirmedSeq, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mLatestConfirmedSeq, put = __cordl_internal_set_mLatestConfirmedSeq)) int64_t mLatestConfirmedSeq;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf6d52c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReportAuthenticated, addr 0xfdf740, size 0xcc, virtual false, abstract: false, final false
+  inline void ReportAuthenticated(int64_t seq);
+
+  /// @brief Method Reset, addr 0xfe115c, size 0x10, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method ShouldDiscard, addr 0xfdf6f4, size 0x44, virtual false, abstract: false, final false
+  inline bool ShouldDiscard(int64_t seq);
+
+  constexpr int64_t const& __cordl_internal_get_mBitmap() const;
+
+  constexpr int64_t& __cordl_internal_get_mBitmap();
+
+  constexpr int64_t const& __cordl_internal_get_mLatestConfirmedSeq() const;
+
+  constexpr int64_t& __cordl_internal_get_mLatestConfirmedSeq();
+
+  constexpr void __cordl_internal_set_mBitmap(int64_t value);
+
+  constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
+
+  /// @brief Method .ctor, addr 0xfdd38c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DtlsReplayWindow();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReplayWindow(DtlsReplayWindow&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DtlsReplayWindow(DtlsReplayWindow const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DtlsReplayWindow();
-
-public:
   /// @brief Field mLatestConfirmedSeq, offset: 0x10, size: 0x8, def value: None
   int64_t ___mLatestConfirmedSeq;
 

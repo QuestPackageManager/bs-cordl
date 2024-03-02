@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventTypeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14725))
 // CS Name: ::BeatmapEventTypeExtensions*
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0xdfe02c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0xe54054, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEventTypeExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions&&) = delete;
@@ -35,12 +39,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapEventTypeExtensions();
+  /// @brief Field kColorBoost value: static_cast<int32_t>(0x5)
+  static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;
 
-public:
+  /// @brief Field kCompressExpand value: static_cast<int32_t>(0x9)
+  static ::GlobalNamespace::BasicBeatmapEventType const kCompressExpand;
+
+  /// @brief Field kLegacyEarlySpawnRotation value: static_cast<int32_t>(0xe)
+  static ::GlobalNamespace::BasicBeatmapEventType const kLegacyEarlySpawnRotation;
+
+  /// @brief Field kLegacyLateSpawnRotation value: static_cast<int32_t>(0xf)
+  static ::GlobalNamespace::BasicBeatmapEventType const kLegacyLateSpawnRotation;
+
   /// @brief Field kLights1 value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::BasicBeatmapEventType const kLights1;
 
@@ -56,20 +66,8 @@ public:
   /// @brief Field kLights5 value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::BasicBeatmapEventType const kLights5;
 
-  /// @brief Field kColorBoost value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;
-
   /// @brief Field kRotateRings value: static_cast<int32_t>(0x8)
   static ::GlobalNamespace::BasicBeatmapEventType const kRotateRings;
-
-  /// @brief Field kCompressExpand value: static_cast<int32_t>(0x9)
-  static ::GlobalNamespace::BasicBeatmapEventType const kCompressExpand;
-
-  /// @brief Field kLegacyEarlySpawnRotation value: static_cast<int32_t>(0xe)
-  static ::GlobalNamespace::BasicBeatmapEventType const kLegacyEarlySpawnRotation;
-
-  /// @brief Field kLegacyLateSpawnRotation value: static_cast<int32_t>(0xf)
-  static ::GlobalNamespace::BasicBeatmapEventType const kLegacyLateSpawnRotation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

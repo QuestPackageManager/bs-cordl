@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::CIELabColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12115))
 // CS Name: ::UnityEngine.ProBuilder::CIELabColor*
 class CORDL_TYPE CIELabColor : public ::System::Object {
 public:
@@ -37,38 +35,44 @@ public:
   /// @brief Field b, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  constexpr float_t& __cordl_internal_get_L();
+  /// @brief Method FromRGB, addr 0x2c23880, size 0x8c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
 
-  constexpr float_t const& __cordl_internal_get_L() const;
-
-  constexpr void __cordl_internal_set_L(float_t value);
-
-  constexpr float_t& __cordl_internal_get_a();
-
-  constexpr float_t const& __cordl_internal_get_a() const;
-
-  constexpr void __cordl_internal_set_a(float_t value);
-
-  constexpr float_t& __cordl_internal_get_b();
-
-  constexpr float_t const& __cordl_internal_get_b() const;
-
-  constexpr void __cordl_internal_set_b(float_t value);
+  /// @brief Method FromXYZ, addr 0x2c236c8, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x2b3da4c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(float_t L, float_t a, float_t b);
-
-  /// @brief Method FromXYZ, addr 0x2b3da88, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
-
-  /// @brief Method FromRGB, addr 0x2b3dc40, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
-
-  /// @brief Method ToString, addr 0x2b3dccc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c2390c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  constexpr float_t const& __cordl_internal_get_L() const;
+
+  constexpr float_t& __cordl_internal_get_L();
+
+  constexpr float_t const& __cordl_internal_get_a() const;
+
+  constexpr float_t& __cordl_internal_get_a();
+
+  constexpr float_t const& __cordl_internal_get_b() const;
+
+  constexpr float_t& __cordl_internal_get_b();
+
+  constexpr void __cordl_internal_set_L(float_t value);
+
+  constexpr void __cordl_internal_set_a(float_t value);
+
+  constexpr void __cordl_internal_set_b(float_t value);
+
+  /// @brief Method .ctor, addr 0x2c2368c, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(float_t L, float_t a, float_t b);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CIELabColor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CIELabColor(CIELabColor&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CIELabColor(CIELabColor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CIELabColor();
-
-public:
   /// @brief Field L, offset: 0x10, size: 0x4, def value: None
   float_t ___L;
 

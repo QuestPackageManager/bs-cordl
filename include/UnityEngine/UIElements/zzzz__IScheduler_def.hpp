@@ -16,17 +16,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IScheduler);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6940))
 // CS Name: ::UnityEngine.UIElements::IScheduler*
 class CORDL_TYPE IScheduler {
 public:
   // Declarations
-  /// @brief Method Unschedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
-
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
+
+  /// @brief Method Unschedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
   /// @brief Method UpdateScheduledEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateScheduledEvents();

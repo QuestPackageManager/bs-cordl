@@ -27,60 +27,64 @@ MARK_REF_PTR_T(::System::Collections::CompatibleComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
 // CS Name: ::System.Collections::CompatibleComparer*
 class CORDL_TYPE CompatibleComparer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _hcp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__hcp, put = __cordl_internal_set__hcp))::System::Collections::IHashCodeProvider* _hcp;
+  __declspec(property(get = get_Comparer))::System::Collections::IComparer* Comparer;
+
+  __declspec(property(get = get_HashCodeProvider))::System::Collections::IHashCodeProvider* HashCodeProvider;
 
   /// @brief Field _comparer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::IComparer* _comparer;
 
-  __declspec(property(get = get_HashCodeProvider))::System::Collections::IHashCodeProvider* HashCodeProvider;
-
-  __declspec(property(get = get_Comparer))::System::Collections::IComparer* Comparer;
+  /// @brief Field _hcp, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__hcp, put = __cordl_internal_set__hcp))::System::Collections::IHashCodeProvider* _hcp;
 
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEqualityComparer"
-  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
+  /// @brief Method Compare, addr 0x2671088, size 0x1c4, virtual false, abstract: false, final false
+  inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  constexpr ::System::Collections::IHashCodeProvider*& __cordl_internal_get__hcp();
+  /// @brief Method Equals, addr 0x2671070, size 0x18, virtual true, abstract: false, final true
+  inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& __cordl_internal_get__hcp() const;
+  /// @brief Method GetHashCode, addr 0x267124c, size 0x10c, virtual true, abstract: false, final true
+  inline int32_t GetHashCode(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
+  static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
   constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get__comparer() const;
 
+  constexpr ::System::Collections::IHashCodeProvider*& __cordl_internal_get__hcp();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& __cordl_internal_get__hcp() const;
+
   constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
 
-  static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
+  constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
 
-  /// @brief Method .ctor, addr 0x257da38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2671034, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_HashCodeProvider, addr 0x257da64, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
-
-  /// @brief Method get_Comparer, addr 0x257da6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x2671068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method Equals, addr 0x257da74, size 0x18, virtual true, abstract: false, final true
-  inline bool Equals(::System::Object* a, ::System::Object* b);
+  /// @brief Method get_HashCodeProvider, addr 0x2671060, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
-  /// @brief Method Compare, addr 0x257da8c, size 0x1c4, virtual false, abstract: false, final false
-  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+  /// @brief Convert to "::System::Collections::IEqualityComparer"
+  constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x257dc50, size 0x10c, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompatibleComparer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompatibleComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompatibleComparer(CompatibleComparer&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompatibleComparer(CompatibleComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompatibleComparer();
-
-public:
   /// @brief Field _hcp, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IHashCodeProvider* ____hcp;
 

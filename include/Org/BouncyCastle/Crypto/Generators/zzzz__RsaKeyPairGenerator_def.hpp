@@ -31,35 +31,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(923))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaKeyPairGenerator*
 class CORDL_TYPE RsaKeyPairGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
-
-  /// @brief Field SPECIAL_E_VALUES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SPECIAL_E_VALUES, put = setStaticF_SPECIAL_E_VALUES))::ArrayW<int32_t, ::Array<int32_t>*> SPECIAL_E_VALUES;
-
-  /// @brief Field SPECIAL_E_HIGHEST, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SPECIAL_E_HIGHEST, put = setStaticF_SPECIAL_E_HIGHEST)) int32_t SPECIAL_E_HIGHEST;
-
-  /// @brief Field SPECIAL_E_BITS, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SPECIAL_E_BITS, put = setStaticF_SPECIAL_E_BITS)) int32_t SPECIAL_E_BITS;
+  /// @brief Field DefaultPublicExponent, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_DefaultPublicExponent, put = setStaticF_DefaultPublicExponent))::Org::BouncyCastle::Math::BigInteger* DefaultPublicExponent;
 
   /// @brief Field One, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_One, put = setStaticF_One))::Org::BouncyCastle::Math::BigInteger* One;
 
-  /// @brief Field DefaultPublicExponent, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultPublicExponent, put = setStaticF_DefaultPublicExponent))::Org::BouncyCastle::Math::BigInteger* DefaultPublicExponent;
+  /// @brief Field SPECIAL_E_BITS, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_SPECIAL_E_BITS, put = setStaticF_SPECIAL_E_BITS)) int32_t SPECIAL_E_BITS;
+
+  /// @brief Field SPECIAL_E_HIGHEST, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_SPECIAL_E_HIGHEST, put = setStaticF_SPECIAL_E_HIGHEST)) int32_t SPECIAL_E_HIGHEST;
+
+  /// @brief Field SPECIAL_E_VALUES, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_SPECIAL_E_VALUES, put = setStaticF_SPECIAL_E_VALUES))::ArrayW<int32_t, ::Array<int32_t>*> SPECIAL_E_VALUES;
+
+  /// @brief Field parameters, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+  /// @brief Method ChooseRandomPrime, addr 0xf76e0c, size 0x230, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
+
+  /// @brief Method GenerateKeyPair, addr 0xf76aa0, size 0x36c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+
+  /// @brief Method Init, addr 0xf7698c, size 0x114, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*& __cordl_internal_get_parameters();
 
@@ -67,40 +73,38 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* value);
 
-  static inline void setStaticF_SPECIAL_E_VALUES(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_SPECIAL_E_VALUES();
-
-  static inline void setStaticF_SPECIAL_E_HIGHEST(int32_t value);
-
-  static inline int32_t getStaticF_SPECIAL_E_HIGHEST();
-
-  static inline void setStaticF_SPECIAL_E_BITS(int32_t value);
-
-  static inline int32_t getStaticF_SPECIAL_E_BITS();
-
-  static inline void setStaticF_One(::Org::BouncyCastle::Math::BigInteger* value);
-
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();
-
-  static inline void setStaticF_DefaultPublicExponent(::Org::BouncyCastle::Math::BigInteger* value);
+  /// @brief Method .ctor, addr 0xf77174, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_DefaultPublicExponent();
 
-  /// @brief Method Init, addr 0xf05b2c, size 0x114, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();
 
-  /// @brief Method GenerateKeyPair, addr 0xf05c40, size 0x36c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+  static inline int32_t getStaticF_SPECIAL_E_BITS();
 
-  /// @brief Method ChooseRandomPrime, addr 0xf05fac, size 0x230, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
+  static inline int32_t getStaticF_SPECIAL_E_HIGHEST();
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_SPECIAL_E_VALUES();
 
-  /// @brief Method .ctor, addr 0xf06314, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
+  static inline void setStaticF_DefaultPublicExponent(::Org::BouncyCastle::Math::BigInteger* value);
+
+  static inline void setStaticF_One(::Org::BouncyCastle::Math::BigInteger* value);
+
+  static inline void setStaticF_SPECIAL_E_BITS(int32_t value);
+
+  static inline void setStaticF_SPECIAL_E_HIGHEST(int32_t value);
+
+  static inline void setStaticF_SPECIAL_E_VALUES(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RsaKeyPairGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaKeyPairGenerator(RsaKeyPairGenerator&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaKeyPairGenerator(RsaKeyPairGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaKeyPairGenerator();
-
-public:
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* ___parameters;
 

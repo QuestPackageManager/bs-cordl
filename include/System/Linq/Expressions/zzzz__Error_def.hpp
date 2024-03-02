@@ -20,15 +20,19 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
 // CS Name: ::System.Linq.Expressions::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2813c0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28fc870, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Error();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Error(Error&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Error(Error const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Error();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13455))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStatus*
 class CORDL_TYPE LivestreamingStatus : public ::System::Object {
 public:
@@ -36,41 +34,47 @@ public:
   /// @brief Field MicEnabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_MicEnabled, put = __cordl_internal_set_MicEnabled)) bool MicEnabled;
 
-  constexpr bool& __cordl_internal_get_CommentsVisible();
+  static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_CommentsVisible() const;
 
-  constexpr void __cordl_internal_set_CommentsVisible(bool value);
-
-  constexpr bool& __cordl_internal_get_IsPaused();
+  constexpr bool& __cordl_internal_get_CommentsVisible();
 
   constexpr bool const& __cordl_internal_get_IsPaused() const;
 
-  constexpr void __cordl_internal_set_IsPaused(bool value);
-
-  constexpr bool& __cordl_internal_get_LivestreamingEnabled();
+  constexpr bool& __cordl_internal_get_IsPaused();
 
   constexpr bool const& __cordl_internal_get_LivestreamingEnabled() const;
 
-  constexpr void __cordl_internal_set_LivestreamingEnabled(bool value);
-
-  constexpr int32_t& __cordl_internal_get_LivestreamingType();
+  constexpr bool& __cordl_internal_get_LivestreamingEnabled();
 
   constexpr int32_t const& __cordl_internal_get_LivestreamingType() const;
 
-  constexpr void __cordl_internal_set_LivestreamingType(int32_t value);
-
-  constexpr bool& __cordl_internal_get_MicEnabled();
+  constexpr int32_t& __cordl_internal_get_LivestreamingType();
 
   constexpr bool const& __cordl_internal_get_MicEnabled() const;
 
+  constexpr bool& __cordl_internal_get_MicEnabled();
+
+  constexpr void __cordl_internal_set_CommentsVisible(bool value);
+
+  constexpr void __cordl_internal_set_IsPaused(bool value);
+
+  constexpr void __cordl_internal_set_LivestreamingEnabled(bool value);
+
+  constexpr void __cordl_internal_set_LivestreamingType(int32_t value);
+
   constexpr void __cordl_internal_set_MicEnabled(bool value);
 
-  static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2707304, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8c0c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LivestreamingStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LivestreamingStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LivestreamingStatus(LivestreamingStatus&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LivestreamingStatus(LivestreamingStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LivestreamingStatus();
-
-public:
   /// @brief Field CommentsVisible, offset: 0x10, size: 0x1, def value: None
   bool ___CommentsVisible;
 

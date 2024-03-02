@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1000))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultSignatureResult*
 class CORDL_TYPE DefaultSignatureResult : public ::System::Object {
 public:
@@ -34,8 +32,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
-  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
+  /// @brief Method Collect, addr 0xf9dc18, size 0xa4, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
+
+  /// @brief Method Collect, addr 0xf9dcbc, size 0x40, virtual true, abstract: false, final true
+  inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
+
+  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner();
 
@@ -43,17 +46,18 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
-
-  /// @brief Method .ctor, addr 0xf2dd90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9dbf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method Collect, addr 0xf2ddb8, size 0xa4, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
 
-  /// @brief Method Collect, addr 0xf2de5c, size 0x40, virtual true, abstract: false, final true
-  inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultSignatureResult();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultSignatureResult(DefaultSignatureResult&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultSignatureResult(DefaultSignatureResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultSignatureResult();
-
-public:
   /// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ISigner* ___mSigner;
 

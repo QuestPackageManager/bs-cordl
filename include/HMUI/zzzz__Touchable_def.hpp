@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::HMUI::Touchable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13042))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
 // CS Name: ::HMUI::Touchable*
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
@@ -29,23 +27,29 @@ public:
 
   __declspec(property(get = get_skew)) float_t skew;
 
-  constexpr float_t& __cordl_internal_get__skew();
+  static inline ::HMUI::Touchable* New_ctor();
+
+  /// @brief Method OnPopulateMesh, addr 0x2287308, size 0x18, virtual true, abstract: false, final false
+  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   constexpr float_t const& __cordl_internal_get__skew() const;
 
+  constexpr float_t& __cordl_internal_get__skew();
+
   constexpr void __cordl_internal_set__skew(float_t value);
 
-  /// @brief Method get_skew, addr 0x21253bc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_skew();
-
-  /// @brief Method OnPopulateMesh, addr 0x21253c4, size 0x18, virtual true, abstract: false, final false
-  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
-
-  static inline ::HMUI::Touchable* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2124bc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2286b04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_skew, addr 0x2287300, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_skew();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Touchable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Touchable(Touchable&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Touchable(Touchable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Touchable();
-
-public:
   /// @brief Field _skew, offset: 0x9c, size: 0x4, def value: None
   float_t ____skew;
 

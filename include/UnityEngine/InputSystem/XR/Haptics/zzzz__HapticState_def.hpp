@@ -15,38 +15,36 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::HapticState);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6343))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::HapticState
 struct CORDL_TYPE HapticState {
 public:
   // Declarations
-  __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
-
   __declspec(property(get = get_samplesAvailable, put = set_samplesAvailable)) uint32_t samplesAvailable;
 
-  /// @brief Method .ctor, addr 0x2ac97c4, size 0x8, virtual false, abstract: false, final false
+  __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
+
+  /// @brief Method .ctor, addr 0x2bb1404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
-  /// @brief Method get_samplesQueued, addr 0x2ac97cc, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_samplesQueued();
-
-  /// @brief Method set_samplesQueued, addr 0x2ac97d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_samplesQueued(uint32_t value);
-
-  /// @brief Method get_samplesAvailable, addr 0x2ac97dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x2bb141c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
-  /// @brief Method set_samplesAvailable, addr 0x2ac97e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x2bb140c, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_samplesQueued();
+
+  /// @brief Method set_samplesAvailable, addr 0x2bb1424, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
-  // Ctor Parameters [CppParam { name: "_samplesQueued_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_samplesAvailable_k__BackingField", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
-  constexpr HapticState(uint32_t _samplesQueued_k__BackingField, uint32_t _samplesAvailable_k__BackingField) noexcept;
+  /// @brief Method set_samplesQueued, addr 0x2bb1414, size 0x8, virtual false, abstract: false, final false
+  inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HapticState();
+
+  // Ctor Parameters [CppParam { name: "_samplesQueued_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_samplesAvailable_k__BackingField", ty: "uint32_t",
+  // modifiers: "", def_value: None }]
+  constexpr HapticState(uint32_t _samplesQueued_k__BackingField, uint32_t _samplesAvailable_k__BackingField) noexcept;
 
   /// @brief Field <samplesQueued>k__BackingField, offset: 0x0, size: 0x4, def value: None
   uint32_t _samplesQueued_k__BackingField;

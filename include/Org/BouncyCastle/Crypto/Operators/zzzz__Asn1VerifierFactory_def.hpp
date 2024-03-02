@@ -30,55 +30,59 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(994))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1VerifierFactory*
 class CORDL_TYPE Asn1VerifierFactory : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
+
   /// @brief Field algID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_algID, put = __cordl_internal_set_algID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
 
   /// @brief Field publicKey, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey;
 
-  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactory*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"
-  constexpr ::Org::BouncyCastle::Crypto::IVerifierFactory* i___Org__BouncyCastle__Crypto__IVerifierFactory() noexcept;
+  /// @brief Method CreateCalculator, addr 0xf9cd5c, size 0xe8, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
+
+  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
+                                                                                      ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+
+  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algID() const;
 
-  constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_publicKey();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_publicKey() const;
 
+  constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
-
-  /// @brief Method .ctor, addr 0xf2cd78, size 0x150, virtual false, abstract: false, final false
-  inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
-
-  static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
-                                                                                      ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
-
-  /// @brief Method .ctor, addr 0xf2cec8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9cd28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf2cef4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method .ctor, addr 0xf9cbd8, size 0x150, virtual false, abstract: false, final false
+  inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+
+  /// @brief Method get_AlgorithmDetails, addr 0xf9cd54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method CreateCalculator, addr 0xf2cefc, size 0xe8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"
+  constexpr ::Org::BouncyCastle::Crypto::IVerifierFactory* i___Org__BouncyCastle__Crypto__IVerifierFactory() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1VerifierFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1VerifierFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1VerifierFactory(Asn1VerifierFactory&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1VerifierFactory(Asn1VerifierFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1VerifierFactory();
-
-public:
   /// @brief Field algID, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algID;
 

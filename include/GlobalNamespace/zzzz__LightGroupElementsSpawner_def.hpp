@@ -17,44 +17,48 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupElementsSpawner);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14512))
 // CS Name: ::LightGroupElementsSpawner*
 class CORDL_TYPE LightGroupElementsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _alternateLightPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__alternateLightPrefab, put = __cordl_internal_set__alternateLightPrefab))::UnityW<::UnityEngine::GameObject> _alternateLightPrefab;
+
   /// @brief Field _lightPrefab, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightPrefab, put = __cordl_internal_set__lightPrefab))::UnityW<::UnityEngine::GameObject> _lightPrefab;
 
   /// @brief Field _useAlternatePrefab, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__useAlternatePrefab, put = __cordl_internal_set__useAlternatePrefab)) bool _useAlternatePrefab;
 
-  /// @brief Field _alternateLightPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__alternateLightPrefab, put = __cordl_internal_set__alternateLightPrefab))::UnityW<::UnityEngine::GameObject> _alternateLightPrefab;
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__lightPrefab();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__lightPrefab() const;
-
-  constexpr void __cordl_internal_set__lightPrefab(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr bool& __cordl_internal_get__useAlternatePrefab();
-
-  constexpr bool const& __cordl_internal_get__useAlternatePrefab() const;
-
-  constexpr void __cordl_internal_set__useAlternatePrefab(bool value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__alternateLightPrefab();
+  static inline ::GlobalNamespace::LightGroupElementsSpawner* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__alternateLightPrefab() const;
 
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__alternateLightPrefab();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__lightPrefab() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__lightPrefab();
+
+  constexpr bool const& __cordl_internal_get__useAlternatePrefab() const;
+
+  constexpr bool& __cordl_internal_get__useAlternatePrefab();
+
   constexpr void __cordl_internal_set__alternateLightPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  static inline ::GlobalNamespace::LightGroupElementsSpawner* New_ctor();
+  constexpr void __cordl_internal_set__lightPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x210e384, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__useAlternatePrefab(bool value);
+
+  /// @brief Method .ctor, addr 0x2271194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightGroupElementsSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupElementsSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupElementsSpawner(LightGroupElementsSpawner&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupElementsSpawner(LightGroupElementsSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupElementsSpawner();
-
-public:
   /// @brief Field _lightPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____lightPrefab;
 

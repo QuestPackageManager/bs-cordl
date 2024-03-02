@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccount);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13385))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13478))
 // CS Name: ::Oculus.Platform.Models::SdkAccount*
 class CORDL_TYPE SdkAccount : public ::System::Object {
 public:
@@ -28,23 +26,29 @@ public:
   /// @brief Field UserId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
-  constexpr ::Oculus::Platform::SdkAccountType& __cordl_internal_get_AccountType();
+  static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::SdkAccountType const& __cordl_internal_get_AccountType() const;
 
-  constexpr void __cordl_internal_set_AccountType(::Oculus::Platform::SdkAccountType value);
-
-  constexpr uint64_t& __cordl_internal_get_UserId();
+  constexpr ::Oculus::Platform::SdkAccountType& __cordl_internal_get_AccountType();
 
   constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
+  constexpr uint64_t& __cordl_internal_get_UserId();
+
+  constexpr void __cordl_internal_set_AccountType(::Oculus::Platform::SdkAccountType value);
+
   constexpr void __cordl_internal_set_UserId(uint64_t value);
 
-  static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2708b4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa454, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SdkAccount();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SdkAccount", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SdkAccount(SdkAccount&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SdkAccount(SdkAccount const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SdkAccount();
-
-public:
   /// @brief Field AccountType, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::SdkAccountType ___AccountType;
 

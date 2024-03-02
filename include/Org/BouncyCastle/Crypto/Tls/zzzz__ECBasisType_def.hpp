@@ -15,20 +15,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ECBasisType);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1238))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ECBasisType*
 class CORDL_TYPE ECBasisType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0xf91364, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x10021c4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t ecBasisType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ECBasisType* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10021d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECBasisType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECBasisType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECBasisType(ECBasisType&&) = delete;
@@ -37,17 +41,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECBasisType(ECBasisType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECBasisType();
-
-public:
-  /// @brief Field ec_basis_trinomial offset 0xffffffff size 0x1
-  static constexpr uint8_t ec_basis_trinomial{ static_cast<uint8_t>(0x1u) };
-
   /// @brief Field ec_basis_pentanomial offset 0xffffffff size 0x1
   static constexpr uint8_t ec_basis_pentanomial{ static_cast<uint8_t>(0x2u) };
+
+  /// @brief Field ec_basis_trinomial offset 0xffffffff size 0x1
+  static constexpr uint8_t ec_basis_trinomial{ static_cast<uint8_t>(0x1u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

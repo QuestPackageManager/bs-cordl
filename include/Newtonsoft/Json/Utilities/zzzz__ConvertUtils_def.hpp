@@ -85,8 +85,6 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11873))
 // CS Name: ::ConvertUtils::TypeConvertKey
 struct CORDL_TYPE __ConvertUtils__TypeConvertKey {
 public:
@@ -95,30 +93,30 @@ public:
 
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method get_InitialType, addr 0x265ebc0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_InitialType();
-
-  /// @brief Method get_TargetType, addr 0x265ebc8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_TargetType();
-
-  /// @brief Method .ctor, addr 0x265d5f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* initialType, ::System::Type* targetType);
-
-  /// @brief Method GetHashCode, addr 0x265ebd0, size 0x48, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x265ec18, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2751520, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x265eca0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x27515a8, size 0x24, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey other);
 
-  // Ctor Parameters [CppParam { name: "_initialType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_targetType", ty: "::System::Type*", modifiers: "", def_value: None }]
-  constexpr __ConvertUtils__TypeConvertKey(::System::Type* _initialType, ::System::Type* _targetType) noexcept;
+  /// @brief Method GetHashCode, addr 0x27514d8, size 0x48, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x274fefc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* initialType, ::System::Type* targetType);
+
+  /// @brief Method get_InitialType, addr 0x27514c8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_InitialType();
+
+  /// @brief Method get_TargetType, addr 0x27514d0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_TargetType();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ConvertUtils__TypeConvertKey();
+
+  // Ctor Parameters [CppParam { name: "_initialType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_targetType", ty: "::System::Type*", modifiers: "", def_value: None }]
+  constexpr __ConvertUtils__TypeConvertKey(::System::Type* _initialType, ::System::Type* _targetType) noexcept;
 
   /// @brief Field _initialType, offset: 0x0, size: 0x8, def value: None
   ::System::Type* _initialType;
@@ -143,8 +141,6 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConver
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11874))
 // CS Name: ::ConvertUtils::ConvertResult
 struct CORDL_TYPE __ConvertUtils__ConvertResult {
 public:
@@ -164,30 +160,35 @@ public:
     return static_cast<____ConvertUtils__ConvertResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ConvertUtils__ConvertResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ConvertUtils__ConvertResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ConvertUtils__ConvertResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const Success;
 
   /// @brief Field CannotConvertNull value: static_cast<int32_t>(0x1)
   static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const CannotConvertNull;
 
+  /// @brief Field NoValidConversion value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const NoValidConversion;
+
   /// @brief Field NotInstantiableType value: static_cast<int32_t>(0x2)
   static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const NotInstantiableType;
 
-  /// @brief Field NoValidConversion value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const NoValidConversion;
+  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult const Success;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -201,8 +202,6 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertRes
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11875))
 // CS Name: ::ConvertUtils::<>c__DisplayClass9_0*
 class CORDL_TYPE __ConvertUtils____c__DisplayClass9_0 : public ::System::Object {
 public:
@@ -210,20 +209,26 @@ public:
   /// @brief Field call, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_call, put = __cordl_internal_set_call))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* call;
 
+  static inline ::Newtonsoft::Json::Utilities::__ConvertUtils____c__DisplayClass9_0* New_ctor();
+
+  /// @brief Method <CreateCastConverter>b__0, addr 0x27515cc, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::Object* _CreateCastConverter_b__0(::System::Object* o);
+
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_call() const;
 
   constexpr void __cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  static inline ::Newtonsoft::Json::Utilities::__ConvertUtils____c__DisplayClass9_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x265c338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274ec40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateCastConverter>b__0, addr 0x265ecc4, size 0xb4, virtual false, abstract: false, final false
-  inline ::System::Object* _CreateCastConverter_b__0(::System::Object* o);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ConvertUtils____c__DisplayClass9_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ConvertUtils____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ConvertUtils____c__DisplayClass9_0(__ConvertUtils____c__DisplayClass9_0&&) = delete;
@@ -232,12 +237,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConvertUtils____c__DisplayClass9_0(__ConvertUtils____c__DisplayClass9_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ConvertUtils____c__DisplayClass9_0();
-
-public:
   /// @brief Field call, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___call;
 
@@ -253,104 +252,108 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ConvertUtils____c__Displ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11876))
 // CS Name: ::Newtonsoft.Json.Utilities::ConvertUtils*
 class CORDL_TYPE ConvertUtils : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass9_0 = ::Newtonsoft::Json::Utilities::__ConvertUtils____c__DisplayClass9_0;
-
   using ConvertResult = ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult;
 
   using TypeConvertKey = ::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey;
 
-  /// @brief Field TypeCodeMap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TypeCodeMap,
-                             put = setStaticF_TypeCodeMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* TypeCodeMap;
-
-  /// @brief Field PrimitiveTypeCodes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_PrimitiveTypeCodes,
-               put = setStaticF_PrimitiveTypeCodes))::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> PrimitiveTypeCodes;
+  using __c__DisplayClass9_0 = ::Newtonsoft::Json::Utilities::__ConvertUtils____c__DisplayClass9_0;
 
   /// @brief Field CastConverters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_CastConverters,
                              put = setStaticF_CastConverters))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey,
                                                                                                                ::System::Func_2<::System::Object*, ::System::Object*>*>* CastConverters;
 
-  static inline void setStaticF_TypeCodeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* value);
+  /// @brief Field PrimitiveTypeCodes, offset 0xffffffff, size 0x8
+  static __declspec(
+      property(get = getStaticF_PrimitiveTypeCodes,
+               put = setStaticF_PrimitiveTypeCodes))::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> PrimitiveTypeCodes;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* getStaticF_TypeCodeMap();
+  /// @brief Field TypeCodeMap, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_TypeCodeMap,
+                             put = setStaticF_TypeCodeMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* TypeCodeMap;
 
-  static inline void setStaticF_PrimitiveTypeCodes(::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> value);
+  /// @brief Method Convert, addr 0x274ec48, size 0x274, virtual false, abstract: false, final false
+  static inline ::System::Object* Convert(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType);
 
-  static inline ::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> getStaticF_PrimitiveTypeCodes();
+  /// @brief Method ConvertOrCast, addr 0x274fd7c, size 0x170, virtual false, abstract: false, final false
+  static inline ::System::Object* ConvertOrCast(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType);
 
-  static inline void setStaticF_CastConverters(
-      ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey, ::System::Func_2<::System::Object*, ::System::Object*>*>* value);
+  /// @brief Method CreateCastConverter, addr 0x274ea0c, size 0x234, virtual false, abstract: false, final false
+  static inline ::System::Func_2<::System::Object*, ::System::Object*>* CreateCastConverter(::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey t);
+
+  /// @brief Method EnsureTypeAssignable, addr 0x274fb48, size 0x1ec, virtual false, abstract: false, final false
+  static inline ::System::Object* EnsureTypeAssignable(::System::Object* value, ::System::Type* initialType, ::System::Type* targetType);
+
+  /// @brief Method GetConverter, addr 0x274fa54, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* t);
+
+  /// @brief Method GetTypeCode, addr 0x2749f00, size 0x68, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type* t);
+
+  /// @brief Method GetTypeCode, addr 0x274e5a0, size 0x280, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type* t, ByRef<bool> isEnum);
+
+  /// @brief Method GetTypeInformation, addr 0x274b180, size 0xec, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::TypeInformation* GetTypeInformation(::System::IConvertible* convertable);
+
+  /// @brief Method HexCharToInt, addr 0x27503d8, size 0xcc, virtual false, abstract: false, final false
+  static inline int32_t HexCharToInt(char16_t ch);
+
+  /// @brief Method HexTextToInt, addr 0x27502f8, size 0xe0, virtual false, abstract: false, final false
+  static inline int32_t HexTextToInt(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t end);
+
+  /// @brief Method Int32TryParse, addr 0x274ff04, size 0x164, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, int32_t length, ByRef<int32_t> value);
+
+  /// @brief Method Int64TryParse, addr 0x2750068, size 0x158, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, int32_t length, ByRef<int64_t> value);
+
+  /// @brief Method IsConvertible, addr 0x274e920, size 0x94, virtual false, abstract: false, final false
+  static inline bool IsConvertible(::System::Type* t);
+
+  /// @brief Method IsInteger, addr 0x274f8d4, size 0x90, virtual false, abstract: false, final false
+  static inline bool IsInteger(::System::Object* value);
+
+  /// @brief Method ParseTimeSpan, addr 0x274e9b4, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::TimeSpan ParseTimeSpan(::StringW input);
+
+  /// @brief Method TryConvert, addr 0x274f7cc, size 0x108, virtual false, abstract: false, final false
+  static inline bool TryConvert(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType, ByRef<::System::Object*> value);
+
+  /// @brief Method TryConvertGuid, addr 0x27501c0, size 0x138, virtual false, abstract: false, final false
+  static inline bool TryConvertGuid(::StringW s, ByRef<::System::Guid> g);
+
+  /// @brief Method TryConvertInternal, addr 0x274eebc, size 0x910, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult TryConvertInternal(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture,
+                                                                                                ::System::Type* targetType, ByRef<::System::Object*> value);
+
+  /// @brief Method VersionTryParse, addr 0x274f964, size 0xf0, virtual false, abstract: false, final false
+  static inline bool VersionTryParse(::StringW input, ByRef<::System::Version*> result);
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey, ::System::Func_2<::System::Object*, ::System::Object*>*>*
   getStaticF_CastConverters();
 
-  /// @brief Method GetTypeCode, addr 0x26575f8, size 0x68, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type* t);
+  static inline ::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> getStaticF_PrimitiveTypeCodes();
 
-  /// @brief Method GetTypeCode, addr 0x265bc98, size 0x280, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode GetTypeCode(::System::Type* t, ByRef<bool> isEnum);
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* getStaticF_TypeCodeMap();
 
-  /// @brief Method GetTypeInformation, addr 0x2658878, size 0xec, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::TypeInformation* GetTypeInformation(::System::IConvertible* convertable);
+  static inline void setStaticF_CastConverters(
+      ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey, ::System::Func_2<::System::Object*, ::System::Object*>*>* value);
 
-  /// @brief Method IsConvertible, addr 0x265c018, size 0x94, virtual false, abstract: false, final false
-  static inline bool IsConvertible(::System::Type* t);
+  static inline void setStaticF_PrimitiveTypeCodes(::ArrayW<::Newtonsoft::Json::Utilities::TypeInformation*, ::Array<::Newtonsoft::Json::Utilities::TypeInformation*>*> value);
 
-  /// @brief Method ParseTimeSpan, addr 0x265c0ac, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan ParseTimeSpan(::StringW input);
+  static inline void setStaticF_TypeCodeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode>* value);
 
-  /// @brief Method CreateCastConverter, addr 0x265c104, size 0x234, virtual false, abstract: false, final false
-  static inline ::System::Func_2<::System::Object*, ::System::Object*>* CreateCastConverter(::Newtonsoft::Json::Utilities::__ConvertUtils__TypeConvertKey t);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConvertUtils();
 
-  /// @brief Method Convert, addr 0x265c340, size 0x274, virtual false, abstract: false, final false
-  static inline ::System::Object* Convert(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType);
-
-  /// @brief Method TryConvert, addr 0x265cec4, size 0x108, virtual false, abstract: false, final false
-  static inline bool TryConvert(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType, ByRef<::System::Object*> value);
-
-  /// @brief Method TryConvertInternal, addr 0x265c5b4, size 0x910, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::__ConvertUtils__ConvertResult TryConvertInternal(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture,
-                                                                                                ::System::Type* targetType, ByRef<::System::Object*> value);
-
-  /// @brief Method ConvertOrCast, addr 0x265d474, size 0x170, virtual false, abstract: false, final false
-  static inline ::System::Object* ConvertOrCast(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType);
-
-  /// @brief Method EnsureTypeAssignable, addr 0x265d240, size 0x1ec, virtual false, abstract: false, final false
-  static inline ::System::Object* EnsureTypeAssignable(::System::Object* value, ::System::Type* initialType, ::System::Type* targetType);
-
-  /// @brief Method GetConverter, addr 0x265d14c, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* t);
-
-  /// @brief Method VersionTryParse, addr 0x265d05c, size 0xf0, virtual false, abstract: false, final false
-  static inline bool VersionTryParse(::StringW input, ByRef<::System::Version*> result);
-
-  /// @brief Method IsInteger, addr 0x265cfcc, size 0x90, virtual false, abstract: false, final false
-  static inline bool IsInteger(::System::Object* value);
-
-  /// @brief Method Int32TryParse, addr 0x265d5fc, size 0x164, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::ParseResult Int32TryParse(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, int32_t length, ByRef<int32_t> value);
-
-  /// @brief Method Int64TryParse, addr 0x265d760, size 0x158, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Utilities::ParseResult Int64TryParse(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t start, int32_t length, ByRef<int64_t> value);
-
-  /// @brief Method TryConvertGuid, addr 0x265d8b8, size 0x138, virtual false, abstract: false, final false
-  static inline bool TryConvertGuid(::StringW s, ByRef<::System::Guid> g);
-
-  /// @brief Method HexTextToInt, addr 0x265d9f0, size 0xe0, virtual false, abstract: false, final false
-  static inline int32_t HexTextToInt(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t end);
-
-  /// @brief Method HexCharToInt, addr 0x265dad0, size 0xcc, virtual false, abstract: false, final false
-  static inline int32_t HexCharToInt(char16_t ch);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConvertUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConvertUtils(ConvertUtils&&) = delete;
@@ -359,12 +362,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConvertUtils(ConvertUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConvertUtils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

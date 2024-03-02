@@ -43,8 +43,6 @@ MARK_REF_PTR_T(::Zenject::__PoolCleanupChecker____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
 // CS Name: ::PoolCleanupChecker::<>c*
 class CORDL_TYPE __PoolCleanupChecker____c : public ::System::Object {
 public:
@@ -55,28 +53,34 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::System::Type*, bool>* __9__2_0;
 
-  static inline void setStaticF___9(::Zenject::__PoolCleanupChecker____c* value);
+  static inline ::Zenject::__PoolCleanupChecker____c* New_ctor();
+
+  /// @brief Method <.ctor>b__2_0, addr 0x2ff8c9c, size 0x6c, virtual false, abstract: false, final false
+  inline bool __ctor_b__2_0(::System::Type* x);
+
+  /// @brief Method __zenCreate, addr 0x2ff8d08, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ff8d64, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x2ff8c94, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Zenject::__PoolCleanupChecker____c* getStaticF___9();
 
-  static inline void setStaticF___9__2_0(::System::Func_2<::System::Type*, bool>* value);
-
   static inline ::System::Func_2<::System::Type*, bool>* getStaticF___9__2_0();
 
-  static inline ::Zenject::__PoolCleanupChecker____c* New_ctor();
+  static inline void setStaticF___9(::Zenject::__PoolCleanupChecker____c* value);
 
-  /// @brief Method .ctor, addr 0x2ee9424, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__2_0(::System::Func_2<::System::Type*, bool>* value);
 
-  /// @brief Method <.ctor>b__2_0, addr 0x2ee942c, size 0x6c, virtual false, abstract: false, final false
-  inline bool __ctor_b__2_0(::System::Type* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PoolCleanupChecker____c();
 
-  /// @brief Method __zenCreate, addr 0x2ee9498, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee94f4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PoolCleanupChecker____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PoolCleanupChecker____c(__PoolCleanupChecker____c&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PoolCleanupChecker____c(__PoolCleanupChecker____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PoolCleanupChecker____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -101,53 +99,57 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__PoolCleanupChecker___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: ::Zenject::PoolCleanupChecker*
 class CORDL_TYPE PoolCleanupChecker : public ::System::Object {
 public:
   // Declarations
   using __c = ::Zenject::__PoolCleanupChecker____c;
 
-  /// @brief Field _poolFactories, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__poolFactories, put = __cordl_internal_set__poolFactories))::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* _poolFactories;
-
   /// @brief Field _ignoredPools, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ignoredPools, put = __cordl_internal_set__ignoredPools))::System::Collections::Generic::List_1<::System::Type*>* _ignoredPools;
+
+  /// @brief Field _poolFactories, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__poolFactories, put = __cordl_internal_set__poolFactories))::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* _poolFactories;
 
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
 
-  /// @brief Convert to "::Zenject::ILateDisposable"
-  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
+  /// @brief Method LateDispose, addr 0x2ff843c, size 0x3d4, virtual true, abstract: false, final true
+  inline void LateDispose();
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& __cordl_internal_get__poolFactories();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& __cordl_internal_get__poolFactories() const;
-
-  constexpr void __cordl_internal_set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
+  static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+                                                        ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
   constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__ignoredPools();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__ignoredPools() const;
 
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& __cordl_internal_get__poolFactories();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& __cordl_internal_get__poolFactories() const;
+
   constexpr void __cordl_internal_set__ignoredPools(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
-                                                        ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
+  constexpr void __cordl_internal_set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
 
-  /// @brief Method .ctor, addr 0x2ee8ab0, size 0x11c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
-
-  /// @brief Method LateDispose, addr 0x2ee8bcc, size 0x3d4, virtual true, abstract: false, final true
-  inline void LateDispose();
-
-  /// @brief Method __zenCreate, addr 0x2ee8fa0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2ff8810, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee90bc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ff892c, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x2ff8320, size 0x11c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
+
+  /// @brief Convert to "::Zenject::ILateDisposable"
+  constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PoolCleanupChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolCleanupChecker(PoolCleanupChecker&&) = delete;
@@ -156,12 +158,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoolCleanupChecker(PoolCleanupChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoolCleanupChecker();
-
-public:
   /// @brief Field _poolFactories, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* ____poolFactories;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::IO::FileOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3563))
 // CS Name: ::System.IO::FileOptions
 struct CORDL_TYPE FileOptions {
 public:
@@ -39,39 +37,44 @@ public:
     return static_cast<__FileOptions_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FileOptions(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FileOptions();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FileOptions(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::IO::FileOptions const None;
-
-  /// @brief Field WriteThrough value: static_cast<int32_t>(0x80000000)
-  static ::System::IO::FileOptions const WriteThrough;
 
   /// @brief Field Asynchronous value: static_cast<int32_t>(0x40000000)
   static ::System::IO::FileOptions const Asynchronous;
 
-  /// @brief Field RandomAccess value: static_cast<int32_t>(0x10000000)
-  static ::System::IO::FileOptions const RandomAccess;
-
   /// @brief Field DeleteOnClose value: static_cast<int32_t>(0x4000000)
   static ::System::IO::FileOptions const DeleteOnClose;
+
+  /// @brief Field Encrypted value: static_cast<int32_t>(0x4000)
+  static ::System::IO::FileOptions const Encrypted;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::IO::FileOptions const None;
+
+  /// @brief Field RandomAccess value: static_cast<int32_t>(0x10000000)
+  static ::System::IO::FileOptions const RandomAccess;
 
   /// @brief Field SequentialScan value: static_cast<int32_t>(0x8000000)
   static ::System::IO::FileOptions const SequentialScan;
 
-  /// @brief Field Encrypted value: static_cast<int32_t>(0x4000)
-  static ::System::IO::FileOptions const Encrypted;
+  /// @brief Field WriteThrough value: static_cast<int32_t>(0x80000000)
+  static ::System::IO::FileOptions const WriteThrough;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

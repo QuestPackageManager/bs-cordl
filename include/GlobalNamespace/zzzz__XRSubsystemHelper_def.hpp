@@ -23,43 +23,47 @@ MARK_REF_PTR_T(::GlobalNamespace::XRSubsystemHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14441))
 // CS Name: ::XRSubsystemHelper*
 class CORDL_TYPE XRSubsystemHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_displaySubsystems, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_displaySubsystems, put = setStaticF_s_displaySubsystems))::System::Collections::Generic::List_1<Il2CppObject*>* s_displaySubsystems;
-
   /// @brief Field s_displaySubsystemDescriptors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_displaySubsystemDescriptors,
                              put = setStaticF_s_displaySubsystemDescriptors))::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_displaySubsystemDescriptors;
 
+  /// @brief Field s_displaySubsystems, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_displaySubsystems, put = setStaticF_s_displaySubsystems))::System::Collections::Generic::List_1<Il2CppObject*>* s_displaySubsystems;
+
   /// @brief Field s_inputSubsystems, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems))::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
 
-  static inline void setStaticF_s_displaySubsystems(::System::Collections::Generic::List_1<Il2CppObject*>* value);
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x2262c98, size 0x140, virtual false, abstract: false, final false
+  static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_displaySubsystems();
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x2262dd8, size 0x138, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  static inline void setStaticF_s_displaySubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* value);
+  /// @brief Method GetCurrentInputSubsystem, addr 0x2262f10, size 0x138, virtual false, abstract: false, final false
+  static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_displaySubsystemDescriptors();
 
-  static inline void setStaticF_s_inputSubsystems(::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* value);
+  static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_displaySubsystems();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* getStaticF_s_inputSubsystems();
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x2100c20, size 0x140, virtual false, abstract: false, final false
-  static inline Il2CppObject* GetCurrentDisplaySubsystem();
+  static inline void setStaticF_s_displaySubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* value);
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x2100d60, size 0x138, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
+  static inline void setStaticF_s_displaySubsystems(::System::Collections::Generic::List_1<Il2CppObject*>* value);
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x2100e98, size 0x138, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
+  static inline void setStaticF_s_inputSubsystems(::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRSubsystemHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRSubsystemHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSubsystemHelper(XRSubsystemHelper&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRSubsystemHelper(XRSubsystemHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRSubsystemHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

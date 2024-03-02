@@ -26,51 +26,55 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(378))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PrivateKeyUsagePeriod*
 class CORDL_TYPE PrivateKeyUsagePeriod : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field _notBefore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
+  __declspec(property(get = get_NotAfter))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfter;
+
+  __declspec(property(get = get_NotBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBefore;
 
   /// @brief Field _notAfter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__notAfter, put = __cordl_internal_set__notAfter))::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notAfter;
 
-  __declspec(property(get = get_NotBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBefore;
+  /// @brief Field _notBefore, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
 
-  __declspec(property(get = get_NotAfter))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfter;
+  /// @brief Method GetInstance, addr 0x1204ef4, size 0x1d4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* GetInstance(::System::Object* obj);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get__notBefore();
+  static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get__notBefore() const;
-
-  constexpr void __cordl_internal_set__notBefore(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  /// @brief Method ToAsn1Object, addr 0x12053e8, size 0xc0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get__notAfter();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get__notAfter() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get__notBefore();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get__notBefore() const;
+
   constexpr void __cordl_internal_set__notAfter(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method GetInstance, addr 0x1195094, size 0x1d4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set__notBefore(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x1195268, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12050c8, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotBefore, addr 0x1195578, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBefore();
-
-  /// @brief Method get_NotAfter, addr 0x1195580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x12053e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfter();
 
-  /// @brief Method ToAsn1Object, addr 0x1195588, size 0xc0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_NotBefore, addr 0x12053d8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBefore();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivateKeyUsagePeriod();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrivateKeyUsagePeriod", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrivateKeyUsagePeriod(PrivateKeyUsagePeriod&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrivateKeyUsagePeriod(PrivateKeyUsagePeriod const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrivateKeyUsagePeriod();
-
-public:
   /// @brief Field _notBefore, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ____notBefore;
 

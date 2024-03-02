@@ -25,8 +25,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14373))
 // CS Name: ::MemoryPoolContainer`1<T>*
 class CORDL_TYPE MemoryPoolContainer_1 : public ::System::Object {
 public:
@@ -39,35 +37,41 @@ public:
 
   __declspec(property(get = get_activeItems))::System::Collections::Generic::List_1<T>* activeItems;
 
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Despawn(T item);
+
+  static inline ::GlobalNamespace::MemoryPoolContainer_1<T>* New_ctor(::Zenject::IMemoryPool_1<T>* memoryPool);
+
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T Spawn();
+
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __cordl_internal_get__activeItems();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __cordl_internal_get__activeItems() const;
-
-  constexpr void __cordl_internal_set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
 
   constexpr ::Zenject::IMemoryPool_1<T>*& __cordl_internal_get__memoryPool();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __cordl_internal_get__memoryPool() const;
 
+  constexpr void __cordl_internal_set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
+
   constexpr void __cordl_internal_set__memoryPool(::Zenject::IMemoryPool_1<T>* value);
-
-  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<T>* get_activeItems();
-
-  static inline ::GlobalNamespace::MemoryPoolContainer_1<T>* New_ctor(::Zenject::IMemoryPool_1<T>* memoryPool);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IMemoryPool_1<T>* memoryPool);
 
-  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T Spawn();
+  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<T>* get_activeItems();
 
-  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Despawn(T item);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryPoolContainer_1();
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolContainer_1(MemoryPoolContainer_1&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolContainer_1(MemoryPoolContainer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryPoolContainer_1();
-
-public:
   /// @brief Field _activeItems, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<T>* ____activeItems;
 

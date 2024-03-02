@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachingSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
 // CS Name: ::System.Net.Cache::RequestCachingSectionInternal*
 class CORDL_TYPE RequestCachingSectionInternal : public ::System::Object {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field DisableAllCaching, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_DisableAllCaching, put = __cordl_internal_set_DisableAllCaching)) bool DisableAllCaching;
 
-  constexpr bool& __cordl_internal_get_DisableAllCaching();
+  static inline ::System::Net::Cache::RequestCachingSectionInternal* New_ctor();
 
   constexpr bool const& __cordl_internal_get_DisableAllCaching() const;
 
+  constexpr bool& __cordl_internal_get_DisableAllCaching();
+
   constexpr void __cordl_internal_set_DisableAllCaching(bool value);
 
-  static inline ::System::Net::Cache::RequestCachingSectionInternal* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29f12b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adde28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RequestCachingSectionInternal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RequestCachingSectionInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequestCachingSectionInternal(RequestCachingSectionInternal&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCachingSectionInternal(RequestCachingSectionInternal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RequestCachingSectionInternal();
-
-public:
   /// @brief Field DisableAllCaching, offset: 0x10, size: 0x1, def value: None
   bool ___DisableAllCaching;
 

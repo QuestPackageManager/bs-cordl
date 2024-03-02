@@ -57,134 +57,94 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
 // CS Name: ::System.Collections.Concurrent::BlockingCollection`1<T>*
 class CORDL_TYPE BlockingCollection_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
-
-  /// @brief Field _boundedCapacity, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__boundedCapacity, put = __cordl_internal_set__boundedCapacity)) int32_t _boundedCapacity;
-
-  /// @brief Field _freeNodes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__freeNodes, put = __cordl_internal_set__freeNodes))::System::Threading::SemaphoreSlim* _freeNodes;
-
-  /// @brief Field _occupiedNodes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__occupiedNodes, put = __cordl_internal_set__occupiedNodes))::System::Threading::SemaphoreSlim* _occupiedNodes;
-
-  /// @brief Field _isDisposed, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__isDisposed, put = __cordl_internal_set__isDisposed)) bool _isDisposed;
-
-  /// @brief Field _consumersCancellationTokenSource, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__consumersCancellationTokenSource,
-                      put = __cordl_internal_set__consumersCancellationTokenSource))::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
-
-  /// @brief Field _producersCancellationTokenSource, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__producersCancellationTokenSource,
-                      put = __cordl_internal_set__producersCancellationTokenSource))::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
-
-  /// @brief Field _currentAdders, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentAdders, put = __cordl_internal_set__currentAdders)) int32_t _currentAdders;
+  __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsAddingCompleted)) bool IsAddingCompleted;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
-  __declspec(property(get = get_Count)) int32_t Count;
-
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
   __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
 
+  /// @brief Field _boundedCapacity, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__boundedCapacity, put = __cordl_internal_set__boundedCapacity)) int32_t _boundedCapacity;
+
+  /// @brief Field _collection, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
+
+  /// @brief Field _consumersCancellationTokenSource, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__consumersCancellationTokenSource,
+                      put = __cordl_internal_set__consumersCancellationTokenSource))::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
+
+  /// @brief Field _currentAdders, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentAdders, put = __cordl_internal_set__currentAdders)) int32_t _currentAdders;
+
+  /// @brief Field _freeNodes, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__freeNodes, put = __cordl_internal_set__freeNodes))::System::Threading::SemaphoreSlim* _freeNodes;
+
+  /// @brief Field _isDisposed, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__isDisposed, put = __cordl_internal_set__isDisposed)) bool _isDisposed;
+
+  /// @brief Field _occupiedNodes, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__occupiedNodes, put = __cordl_internal_set__occupiedNodes))::System::Threading::SemaphoreSlim* _occupiedNodes;
+
+  /// @brief Field _producersCancellationTokenSource, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__producersCancellationTokenSource,
+                      put = __cordl_internal_set__producersCancellationTokenSource))::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
-
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
+  /// @brief Convert operator to "::System::Collections::ICollection"
+  constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& __cordl_internal_get__collection();
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const& __cordl_internal_get__collection() const;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-  constexpr void __cordl_internal_set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value);
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(T item);
 
-  constexpr int32_t& __cordl_internal_get__boundedCapacity();
+  /// @brief Method CancelWaitingConsumers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CancelWaitingConsumers();
 
-  constexpr int32_t const& __cordl_internal_get__boundedCapacity() const;
+  /// @brief Method CancelWaitingProducers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CancelWaitingProducers();
 
-  constexpr void __cordl_internal_set__boundedCapacity(int32_t value);
+  /// @brief Method CheckDisposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CheckDisposed();
 
-  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__freeNodes();
+  /// @brief Method CompleteAdding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CompleteAdding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__freeNodes() const;
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void __cordl_internal_set__freeNodes(::System::Threading::SemaphoreSlim* value);
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__occupiedNodes();
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Initialize(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int32_t boundedCapacity, int32_t collectionCount);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__occupiedNodes() const;
+  static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor();
 
-  constexpr void __cordl_internal_set__occupiedNodes(::System::Threading::SemaphoreSlim* value);
+  static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
 
-  constexpr bool& __cordl_internal_get__isDisposed();
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  constexpr bool const& __cordl_internal_get__isDisposed() const;
-
-  constexpr void __cordl_internal_set__isDisposed(bool value);
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__consumersCancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__consumersCancellationTokenSource() const;
-
-  constexpr void __cordl_internal_set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__producersCancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__producersCancellationTokenSource() const;
-
-  constexpr void __cordl_internal_set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
-
-  constexpr int32_t& __cordl_internal_get__currentAdders();
-
-  constexpr int32_t const& __cordl_internal_get__currentAdders() const;
-
-  constexpr void __cordl_internal_set__currentAdders(int32_t value);
-
-  /// @brief Method get_IsAddingCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_IsAddingCompleted();
-
-  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_IsCompleted();
-
-  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline int32_t get_Count();
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
   /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
@@ -192,27 +152,14 @@ public:
   /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
-
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Initialize(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int32_t boundedCapacity, int32_t collectionCount);
-
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(T item);
-
-  /// @brief Method TryAddWithNoTimeValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryAddWithNoTimeValidation(T item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Take();
+
+  /// @brief Method TryAddWithNoTimeValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryAddWithNoTimeValidation(T item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryTake(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
@@ -221,36 +168,93 @@ public:
   inline bool TryTakeWithNoTimeValidation(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken,
                                           ::System::Threading::CancellationTokenSource* combinedTokenSource);
 
-  /// @brief Method CompleteAdding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CompleteAdding();
-
-  /// @brief Method CancelWaitingConsumers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CancelWaitingConsumers();
-
-  /// @brief Method CancelWaitingProducers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CancelWaitingProducers();
-
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
   /// @brief Method ValidateMillisecondsTimeout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ValidateMillisecondsTimeout(int32_t millisecondsTimeout);
 
-  /// @brief Method CheckDisposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CheckDisposed();
+  constexpr int32_t const& __cordl_internal_get__boundedCapacity() const;
 
+  constexpr int32_t& __cordl_internal_get__boundedCapacity();
+
+  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& __cordl_internal_get__collection();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const& __cordl_internal_get__collection() const;
+
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__consumersCancellationTokenSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__consumersCancellationTokenSource() const;
+
+  constexpr int32_t const& __cordl_internal_get__currentAdders() const;
+
+  constexpr int32_t& __cordl_internal_get__currentAdders();
+
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__freeNodes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__freeNodes() const;
+
+  constexpr bool const& __cordl_internal_get__isDisposed() const;
+
+  constexpr bool& __cordl_internal_get__isDisposed();
+
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__occupiedNodes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__occupiedNodes() const;
+
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__producersCancellationTokenSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__producersCancellationTokenSource() const;
+
+  constexpr void __cordl_internal_set__boundedCapacity(int32_t value);
+
+  constexpr void __cordl_internal_set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value);
+
+  constexpr void __cordl_internal_set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set__currentAdders(int32_t value);
+
+  constexpr void __cordl_internal_set__freeNodes(::System::Threading::SemaphoreSlim* value);
+
+  constexpr void __cordl_internal_set__isDisposed(bool value);
+
+  constexpr void __cordl_internal_set__occupiedNodes(::System::Threading::SemaphoreSlim* value);
+
+  constexpr void __cordl_internal_set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
+
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_Count();
+
+  /// @brief Method get_IsAddingCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_IsAddingCompleted();
+
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_IsCompleted();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BlockingCollection_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockingCollection_1(BlockingCollection_1&&) = delete;
@@ -259,12 +263,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BlockingCollection_1(BlockingCollection_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlockingCollection_1();
-
-public:
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* ____collection;
 

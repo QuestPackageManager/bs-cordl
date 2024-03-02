@@ -35,8 +35,6 @@ MARK_VAL_T(::GlobalNamespace::ColorNoAlphaSerializable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15045))
 // CS Name: ::ColorNoAlphaSerializable
 struct CORDL_TYPE ColorNoAlphaSerializable {
 public:
@@ -44,48 +42,48 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
-
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>*();
+
+  /// @brief Method Deserialize, addr 0x137fc68, size 0x5c, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+
+  /// @brief Method Equals, addr 0x137fdd0, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x137fccc, size 0x104, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::ColorNoAlphaSerializable other);
+
+  /// @brief Method GetHashCode, addr 0x137fe4c, size 0x84, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Serialize, addr 0x137fc18, size 0x50, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  /// @brief Method ToString, addr 0x137fed0, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x137fc0c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Color color);
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>* i___System__IEquatable_1___GlobalNamespace__ColorNoAlphaSerializable_();
 
-  /// @brief Method .ctor, addr 0x12a8d48, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Color color);
-
-  /// @brief Method Serialize, addr 0x12a8d54, size 0x50, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method Deserialize, addr 0x12a8da4, size 0x5c, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-
-  /// @brief Method op_Implicit, addr 0x12a8e00, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorNoAlphaSerializable c);
-
-  /// @brief Method op_Implicit, addr 0x12a8e04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x137fcc8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorNoAlphaSerializable op_Implicit___GlobalNamespace__ColorNoAlphaSerializable(::UnityEngine::Color c);
 
-  /// @brief Method Equals, addr 0x12a8e08, size 0x104, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::ColorNoAlphaSerializable other);
-
-  /// @brief Method Equals, addr 0x12a8f0c, size 0x7c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x12a8f88, size 0x84, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x12a900c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-  constexpr ColorNoAlphaSerializable(::UnityEngine::Color _color) noexcept;
+  /// @brief Method op_Implicit, addr 0x137fcc4, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorNoAlphaSerializable c);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ColorNoAlphaSerializable();
+
+  // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  constexpr ColorNoAlphaSerializable(::UnityEngine::Color _color) noexcept;
 
   /// @brief Field _color, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color _color;

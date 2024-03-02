@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorGroup);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4921))
 // CS Name: ::LightColorGroup*
 class CORDL_TYPE LightColorGroup : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -26,14 +24,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
+  static inline ::GlobalNamespace::LightColorGroup* New_ctor();
+
+  /// @brief Method .ctor, addr 0x24360e8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
   constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
 
-  static inline ::GlobalNamespace::LightColorGroup* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightColorGroup();
 
-  /// @brief Method .ctor, addr 0x23a8068, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightColorGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorGroup(LightColorGroup&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorGroup(LightColorGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

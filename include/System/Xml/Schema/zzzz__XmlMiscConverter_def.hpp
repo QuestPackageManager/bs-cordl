@@ -30,35 +30,39 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlMiscConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11748))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11753))
 // CS Name: ::System.Xml.Schema::XmlMiscConverter*
 class CORDL_TYPE XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  static inline ::System::Xml::Schema::XmlMiscConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
-
-  /// @brief Method .ctor, addr 0x28d8d2c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
-
-  /// @brief Method Create, addr 0x28d8d94, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
-
-  /// @brief Method ToString, addr 0x28d8df4, size 0x54c, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
-
-  /// @brief Method ChangeType, addr 0x28d947c, size 0x514, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x29c2f60, size 0x514, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x28d9af4, size 0xd04, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x29c35d8, size 0xd04, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardDestination, addr 0x28d9340, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardDestination, addr 0x29c2e24, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource, addr 0x28d9990, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardSource, addr 0x29c3474, size 0x164, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
+  /// @brief Method Create, addr 0x29c2878, size 0x60, virtual false, abstract: false, final false
+  static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
+
+  static inline ::System::Xml::Schema::XmlMiscConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
+
+  /// @brief Method ToString, addr 0x29c28d8, size 0x54c, virtual true, abstract: false, final false
+  inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
+
+  /// @brief Method .ctor, addr 0x29c2810, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlMiscConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlMiscConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlMiscConverter(XmlMiscConverter&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlMiscConverter(XmlMiscConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlMiscConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

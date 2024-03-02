@@ -17,33 +17,36 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11887))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumValue`1<T>*
 class CORDL_TYPE EnumValue_1 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Name))::StringW Name;
+
+  __declspec(property(get = get_Value)) T Value;
+
   /// @brief Field _name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
-  __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_Value)) T Value;
-
-  constexpr ::StringW& __cordl_internal_get__name();
+  static inline ::Newtonsoft::Json::Utilities::EnumValue_1<T>* New_ctor(::StringW name, T value);
 
   constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __cordl_internal_set__name(::StringW value);
-
-  constexpr T& __cordl_internal_get__value();
+  constexpr ::StringW& __cordl_internal_get__name();
 
   constexpr T const& __cordl_internal_get__value() const;
 
+  constexpr T& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__name(::StringW value);
+
   constexpr void __cordl_internal_set__value(T value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, T value);
 
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_Name();
@@ -51,11 +54,12 @@ public:
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
-  static inline ::Newtonsoft::Json::Utilities::EnumValue_1<T>* New_ctor(::StringW name, T value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumValue_1();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, T value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnumValue_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumValue_1(EnumValue_1&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumValue_1(EnumValue_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumValue_1();
-
-public:
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 

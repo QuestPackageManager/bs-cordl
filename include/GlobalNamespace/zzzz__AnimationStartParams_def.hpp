@@ -18,47 +18,51 @@ MARK_REF_PTR_T(::GlobalNamespace::AnimationStartParams);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14351))
 // CS Name: ::AnimationStartParams*
 class CORDL_TYPE AnimationStartParams : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _timeOffset, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeOffset, put = __cordl_internal_set__timeOffset)) float_t _timeOffset;
+  /// @brief Field _animation, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
 
   /// @brief Field _speed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
-  /// @brief Field _animation, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
-
-  constexpr float_t& __cordl_internal_get__timeOffset();
-
-  constexpr float_t const& __cordl_internal_get__timeOffset() const;
-
-  constexpr void __cordl_internal_set__timeOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get__speed();
-
-  constexpr float_t const& __cordl_internal_get__speed() const;
-
-  constexpr void __cordl_internal_set__speed(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
-
-  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
-
-  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
-
-  /// @brief Method Start, addr 0x20f0e28, size 0x2d8, virtual false, abstract: false, final false
-  inline void Start();
+  /// @brief Field _timeOffset, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeOffset, put = __cordl_internal_set__timeOffset)) float_t _timeOffset;
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f1100, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2253a54, size 0x2d8, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
+
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
+
+  constexpr float_t const& __cordl_internal_get__speed() const;
+
+  constexpr float_t& __cordl_internal_get__speed();
+
+  constexpr float_t const& __cordl_internal_get__timeOffset() const;
+
+  constexpr float_t& __cordl_internal_get__timeOffset();
+
+  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
+
+  constexpr void __cordl_internal_set__speed(float_t value);
+
+  constexpr void __cordl_internal_set__timeOffset(float_t value);
+
+  /// @brief Method .ctor, addr 0x2253d2c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationStartParams();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationStartParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationStartParams(AnimationStartParams&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationStartParams(AnimationStartParams const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationStartParams();
-
-public:
   /// @brief Field _timeOffset, offset: 0x18, size: 0x4, def value: None
   float_t ____timeOffset;
 

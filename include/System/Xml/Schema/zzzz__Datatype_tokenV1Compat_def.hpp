@@ -17,22 +17,26 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_tokenV1Compat);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11653))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11655))
 // CS Name: ::System.Xml.Schema::Datatype_tokenV1Compat*
 class CORDL_TYPE Datatype_tokenV1Compat : public ::System::Xml::Schema::Datatype_normalizedStringV1Compat {
 public:
   // Declarations
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method get_TypeCode, addr 0x28bb684, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
-
   static inline ::System::Xml::Schema::Datatype_tokenV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bb68c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a5170, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_TypeCode, addr 0x29a5168, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_tokenV1Compat();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_tokenV1Compat(Datatype_tokenV1Compat&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_tokenV1Compat(Datatype_tokenV1Compat const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_tokenV1Compat();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

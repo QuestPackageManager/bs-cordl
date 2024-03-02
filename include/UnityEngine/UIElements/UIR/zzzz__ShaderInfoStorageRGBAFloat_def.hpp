@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7384))
 // CS Name: ::ShaderInfoStorageRGBAFloat::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBAFloat____c : public ::System::Object {
 public:
@@ -39,18 +37,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* __9;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* value);
+  static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* New_ctor();
+
+  /// @brief Method <.cctor>b__2_0, addr 0x2f9a3ec, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
+
+  /// @brief Method .ctor, addr 0x2f9a3e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* getStaticF___9();
 
-  static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* value);
 
-  /// @brief Method .ctor, addr 0x2e8b8d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ShaderInfoStorageRGBAFloat____c();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2e8b8dc, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBAFloat____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ShaderInfoStorageRGBAFloat____c(__ShaderInfoStorageRGBAFloat____c&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ShaderInfoStorageRGBAFloat____c(__ShaderInfoStorageRGBAFloat____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ShaderInfoStorageRGBAFloat____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -75,8 +73,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 293
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7385)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
+// CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
 class CORDL_TYPE ShaderInfoStorageRGBAFloat : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -85,15 +82,21 @@ public:
   /// @brief Field s_Convert, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Convert, put = setStaticF_s_Convert))::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* s_Convert;
 
-  static inline void setStaticF_s_Convert(::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* value);
+  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
+
+  /// @brief Method .ctor, addr 0x2f97dd8, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* getStaticF_s_Convert();
 
-  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
+  static inline void setStaticF_s_Convert(::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x2e892c8, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialSize, int32_t maxSize);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShaderInfoStorageRGBAFloat();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat&&) = delete;
@@ -102,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderInfoStorageRGBAFloat();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

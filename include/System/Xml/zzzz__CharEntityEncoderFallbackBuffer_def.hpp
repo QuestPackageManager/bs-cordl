@@ -19,14 +19,11 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallbackBuffer);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11412))
 // CS Name: ::System.Xml::CharEntityEncoderFallbackBuffer*
 class CORDL_TYPE CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
-  /// @brief Field parent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::CharEntityEncoderFallback* parent;
+  __declspec(property(get = get_Remaining)) int32_t Remaining;
 
   /// @brief Field charEntity, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_charEntity, put = __cordl_internal_set_charEntity))::StringW charEntity;
@@ -34,52 +31,59 @@ public:
   /// @brief Field charEntityIndex, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_charEntityIndex, put = __cordl_internal_set_charEntityIndex)) int32_t charEntityIndex;
 
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+  /// @brief Field parent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::CharEntityEncoderFallback* parent;
+
+  /// @brief Method Fallback, addr 0x293760c, size 0x1f0, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknown, int32_t index);
+
+  /// @brief Method Fallback, addr 0x29377fc, size 0x280, virtual true, abstract: false, final false
+  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
+
+  /// @brief Method GetNextChar, addr 0x2937a8c, size 0x58, virtual true, abstract: false, final false
+  inline char16_t GetNextChar();
+
+  /// @brief Method MovePrevious, addr 0x2937ae4, size 0x20, virtual true, abstract: false, final false
+  inline bool MovePrevious();
+
+  static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
+
+  /// @brief Method Reset, addr 0x2937b38, size 0xc, virtual true, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SurrogateCharToUtf32, addr 0x2937a7c, size 0x10, virtual false, abstract: false, final false
+  inline int32_t SurrogateCharToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
+
+  constexpr ::StringW const& __cordl_internal_get_charEntity() const;
+
+  constexpr ::StringW& __cordl_internal_get_charEntity();
+
+  constexpr int32_t const& __cordl_internal_get_charEntityIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_charEntityIndex();
 
   constexpr ::System::Xml::CharEntityEncoderFallback*& __cordl_internal_get_parent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallback*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback* value);
-
-  constexpr ::StringW& __cordl_internal_get_charEntity();
-
-  constexpr ::StringW const& __cordl_internal_get_charEntity() const;
-
   constexpr void __cordl_internal_set_charEntity(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_charEntityIndex();
-
-  constexpr int32_t const& __cordl_internal_get_charEntityIndex() const;
 
   constexpr void __cordl_internal_set_charEntityIndex(int32_t value);
 
-  static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
+  constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback* value);
 
-  /// @brief Method .ctor, addr 0x284ea30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2937514, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-  /// @brief Method Fallback, addr 0x284eb28, size 0x1f0, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknown, int32_t index);
-
-  /// @brief Method Fallback, addr 0x284ed18, size 0x280, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
-
-  /// @brief Method GetNextChar, addr 0x284efa8, size 0x58, virtual true, abstract: false, final false
-  inline char16_t GetNextChar();
-
-  /// @brief Method MovePrevious, addr 0x284f000, size 0x20, virtual true, abstract: false, final false
-  inline bool MovePrevious();
-
-  /// @brief Method get_Remaining, addr 0x284f020, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2937b04, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x284f054, size 0xc, virtual true, abstract: false, final false
-  inline void Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CharEntityEncoderFallbackBuffer();
 
-  /// @brief Method SurrogateCharToUtf32, addr 0x284ef98, size 0x10, virtual false, abstract: false, final false
-  inline int32_t SurrogateCharToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallbackBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CharEntityEncoderFallbackBuffer(CharEntityEncoderFallbackBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CharEntityEncoderFallbackBuffer();
-
-public:
   /// @brief Field parent, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::CharEntityEncoderFallback* ___parent;
 

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapParameterAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3141))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapParameterAttribute*
 class CORDL_TYPE SoapParameterAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::Metadata::SoapParameterAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a5f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598c94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SoapParameterAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SoapParameterAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapParameterAttribute(SoapParameterAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SoapParameterAttribute(SoapParameterAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SoapParameterAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

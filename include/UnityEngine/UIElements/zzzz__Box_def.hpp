@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Box__UxmlFactory);
 // SizeInfo { instance_size: 944, native_size: -1, calculated_instance_size: 944, calculated_native_size: 944, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7066))
 // CS Name: ::UnityEngine.UIElements::Box*
 class CORDL_TYPE Box : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -34,15 +32,21 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+  static inline ::UnityEngine::UIElements::Box* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2f39ce0, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  static inline ::UnityEngine::UIElements::Box* New_ctor();
+  static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e2b1d0, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Box();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Box(Box&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Box(Box const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Box();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -67,16 +65,21 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6998)), TypeDefinitionIndex(TypeDefinitionIndex(7066)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6998), inst: 5254
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7065)) CS Name: ::Box::UxmlFactory*
+// CS Name: ::Box::UxmlFactory*
 class CORDL_TYPE __Box__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Box__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e2b2c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f39dd4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Box__UxmlFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Box__UxmlFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Box__UxmlFactory(__Box__UxmlFactory&&) = delete;
@@ -85,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Box__UxmlFactory(__Box__UxmlFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Box__UxmlFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -1,0 +1,3 @@
+#pragma once
+#include "BeatmapDataLoaderVersion4/zzzz__ColorBoostEventItemConverter_def.hpp"
+#include "BeatmapDataLoaderVersion4/zzzz__ColorBoostEventItemConverter_impl.hpp"

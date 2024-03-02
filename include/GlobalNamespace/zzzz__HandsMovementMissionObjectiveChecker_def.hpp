@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::HandsMovementMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5091))
 // CS Name: ::HandsMovementMissionObjectiveChecker*
 class CORDL_TYPE HandsMovementMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -27,26 +25,32 @@ public:
   /// @brief Field _saberActivityCounter, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__saberActivityCounter, put = __cordl_internal_set__saberActivityCounter))::UnityW<::GlobalNamespace::SaberActivityCounter> _saberActivityCounter;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter>& __cordl_internal_get__saberActivityCounter();
-
-  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
-
-  constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
-
-  /// @brief Method OnDestroy, addr 0x23cbeb8, size 0xd4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleTotalDistanceDidChange, addr 0x23cbf8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleTotalDistanceDidChange, addr 0x24576dc, size 0x64, virtual false, abstract: false, final false
   inline void HandleTotalDistanceDidChange(float_t distance);
 
-  /// @brief Method Init, addr 0x23cbfec, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2457740, size 0x108, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::HandsMovementMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cc0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2457608, size 0xd4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter>& __cordl_internal_get__saberActivityCounter();
+
+  constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
+
+  /// @brief Method .ctor, addr 0x2457848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HandsMovementMissionObjectiveChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HandsMovementMissionObjectiveChecker();
-
-public:
   /// @brief Field _saberActivityCounter, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;
 

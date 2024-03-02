@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadButton);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6493))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GamepadButton
 struct CORDL_TYPE GamepadButton {
 public:
@@ -56,21 +54,32 @@ public:
     return static_cast<__GamepadButton_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr GamepadButton(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GamepadButton();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr GamepadButton(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field A value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const A;
 
-  /// @brief Field DpadUp value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadUp;
+  /// @brief Field B value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const B;
+
+  /// @brief Field Circle value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Circle;
+
+  /// @brief Field Cross value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Cross;
 
   /// @brief Field DpadDown value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadDown;
@@ -81,41 +90,50 @@ public:
   /// @brief Field DpadRight value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadRight;
 
-  /// @brief Field North value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const North;
+  /// @brief Field DpadUp value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const DpadUp;
 
   /// @brief Field East value: static_cast<int32_t>(0x5)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const East;
 
-  /// @brief Field South value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const South;
-
-  /// @brief Field West value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const West;
+  /// @brief Field LeftShoulder value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftShoulder;
 
   /// @brief Field LeftStick value: static_cast<int32_t>(0x8)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftStick;
 
-  /// @brief Field RightStick value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightStick;
+  /// @brief Field LeftTrigger value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftTrigger;
 
-  /// @brief Field LeftShoulder value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftShoulder;
+  /// @brief Field North value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const North;
 
   /// @brief Field RightShoulder value: static_cast<int32_t>(0xb)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightShoulder;
 
-  /// @brief Field Start value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Start;
+  /// @brief Field RightStick value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightStick;
+
+  /// @brief Field RightTrigger value: static_cast<int32_t>(0x21)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightTrigger;
 
   /// @brief Field Select value: static_cast<int32_t>(0xd)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Select;
 
-  /// @brief Field LeftTrigger value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const LeftTrigger;
+  /// @brief Field South value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const South;
 
-  /// @brief Field RightTrigger value: static_cast<int32_t>(0x21)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const RightTrigger;
+  /// @brief Field Square value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Square;
+
+  /// @brief Field Start value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Start;
+
+  /// @brief Field Triangle value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Triangle;
+
+  /// @brief Field West value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const West;
 
   /// @brief Field X value: static_cast<int32_t>(0x7)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const X;
@@ -123,23 +141,8 @@ public:
   /// @brief Field Y value: static_cast<int32_t>(0x4)
   static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Y;
 
-  /// @brief Field A value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const A;
-
-  /// @brief Field B value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const B;
-
-  /// @brief Field Cross value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Cross;
-
-  /// @brief Field Square value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Square;
-
-  /// @brief Field Triangle value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Triangle;
-
-  /// @brief Field Circle value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::InputSystem::LowLevel::GamepadButton const Circle;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

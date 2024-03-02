@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Tayx::Graphy::G_GraphShader);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15069))
 // CS Name: ::Tayx.Graphy::G_GraphShader*
 class CORDL_TYPE G_GraphShader : public ::System::Object {
 public:
@@ -31,8 +29,23 @@ public:
   /// @brief Field ArrayMaxSize, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ArrayMaxSize, put = __cordl_internal_set_ArrayMaxSize)) int32_t ArrayMaxSize;
 
-  /// @brief Field ShaderArrayValues, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ShaderArrayValues, put = __cordl_internal_set_ShaderArrayValues))::ArrayW<float_t, ::Array<float_t>*> ShaderArrayValues;
+  /// @brief Field Average, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_Average, put = __cordl_internal_set_Average)) float_t Average;
+
+  /// @brief Field CautionColor, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get_CautionColor, put = __cordl_internal_set_CautionColor))::UnityEngine::Color CautionColor;
+
+  /// @brief Field CautionThreshold, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_CautionThreshold, put = __cordl_internal_set_CautionThreshold)) float_t CautionThreshold;
+
+  /// @brief Field CriticalColor, offset 0x70, size 0x10
+  __declspec(property(get = __cordl_internal_get_CriticalColor, put = __cordl_internal_set_CriticalColor))::UnityEngine::Color CriticalColor;
+
+  /// @brief Field GoodColor, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get_GoodColor, put = __cordl_internal_set_GoodColor))::UnityEngine::Color GoodColor;
+
+  /// @brief Field GoodThreshold, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_GoodThreshold, put = __cordl_internal_set_GoodThreshold)) float_t GoodThreshold;
 
   /// @brief Field Image, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Image, put = __cordl_internal_set_Image))::UnityW<::UnityEngine::UI::Image> Image;
@@ -43,167 +56,158 @@ public:
   /// @brief Field Name_Length, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_Name_Length, put = __cordl_internal_set_Name_Length))::StringW Name_Length;
 
-  /// @brief Field Average, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_Average, put = __cordl_internal_set_Average)) float_t Average;
+  /// @brief Field ShaderArrayValues, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ShaderArrayValues, put = __cordl_internal_set_ShaderArrayValues))::ArrayW<float_t, ::Array<float_t>*> ShaderArrayValues;
 
   /// @brief Field m_averagePropertyId, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_averagePropertyId, put = __cordl_internal_set_m_averagePropertyId)) int32_t m_averagePropertyId;
 
-  /// @brief Field GoodThreshold, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_GoodThreshold, put = __cordl_internal_set_GoodThreshold)) float_t GoodThreshold;
-
-  /// @brief Field CautionThreshold, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_CautionThreshold, put = __cordl_internal_set_CautionThreshold)) float_t CautionThreshold;
-
-  /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
+  /// @brief Field m_cautionColorPropertyId, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_cautionColorPropertyId, put = __cordl_internal_set_m_cautionColorPropertyId)) int32_t m_cautionColorPropertyId;
 
   /// @brief Field m_cautionThresholdPropertyId, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_cautionThresholdPropertyId, put = __cordl_internal_set_m_cautionThresholdPropertyId)) int32_t m_cautionThresholdPropertyId;
 
-  /// @brief Field GoodColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get_GoodColor, put = __cordl_internal_set_GoodColor))::UnityEngine::Color GoodColor;
-
-  /// @brief Field CautionColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_CautionColor, put = __cordl_internal_set_CautionColor))::UnityEngine::Color CautionColor;
-
-  /// @brief Field CriticalColor, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get_CriticalColor, put = __cordl_internal_set_CriticalColor))::UnityEngine::Color CriticalColor;
+  /// @brief Field m_criticalColorPropertyId, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_criticalColorPropertyId, put = __cordl_internal_set_m_criticalColorPropertyId)) int32_t m_criticalColorPropertyId;
 
   /// @brief Field m_goodColorPropertyId, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_m_goodColorPropertyId, put = __cordl_internal_set_m_goodColorPropertyId)) int32_t m_goodColorPropertyId;
 
-  /// @brief Field m_cautionColorPropertyId, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_cautionColorPropertyId, put = __cordl_internal_set_m_cautionColorPropertyId)) int32_t m_cautionColorPropertyId;
+  /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
 
-  /// @brief Field m_criticalColorPropertyId, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_criticalColorPropertyId, put = __cordl_internal_set_m_criticalColorPropertyId)) int32_t m_criticalColorPropertyId;
-
-  constexpr int32_t& __cordl_internal_get_ArrayMaxSize();
-
-  constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
-
-  constexpr void __cordl_internal_set_ArrayMaxSize(int32_t value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_ShaderArrayValues();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_ShaderArrayValues() const;
-
-  constexpr void __cordl_internal_set_ShaderArrayValues(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_Image();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_Image() const;
-
-  constexpr void __cordl_internal_set_Image(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::StringW& __cordl_internal_get_Name();
-
-  constexpr ::StringW const& __cordl_internal_get_Name() const;
-
-  constexpr void __cordl_internal_set_Name(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Name_Length();
-
-  constexpr ::StringW const& __cordl_internal_get_Name_Length() const;
-
-  constexpr void __cordl_internal_set_Name_Length(::StringW value);
-
-  constexpr float_t& __cordl_internal_get_Average();
-
-  constexpr float_t const& __cordl_internal_get_Average() const;
-
-  constexpr void __cordl_internal_set_Average(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_averagePropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_averagePropertyId() const;
-
-  constexpr void __cordl_internal_set_m_averagePropertyId(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_GoodThreshold();
-
-  constexpr float_t const& __cordl_internal_get_GoodThreshold() const;
-
-  constexpr void __cordl_internal_set_GoodThreshold(float_t value);
-
-  constexpr float_t& __cordl_internal_get_CautionThreshold();
-
-  constexpr float_t const& __cordl_internal_get_CautionThreshold() const;
-
-  constexpr void __cordl_internal_set_CautionThreshold(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_goodThresholdPropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_goodThresholdPropertyId() const;
-
-  constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_cautionThresholdPropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_cautionThresholdPropertyId() const;
-
-  constexpr void __cordl_internal_set_m_cautionThresholdPropertyId(int32_t value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_GoodColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_GoodColor() const;
-
-  constexpr void __cordl_internal_set_GoodColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_CautionColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_CautionColor() const;
-
-  constexpr void __cordl_internal_set_CautionColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_CriticalColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_CriticalColor() const;
-
-  constexpr void __cordl_internal_set_CriticalColor(::UnityEngine::Color value);
-
-  constexpr int32_t& __cordl_internal_get_m_goodColorPropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_goodColorPropertyId() const;
-
-  constexpr void __cordl_internal_set_m_goodColorPropertyId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_cautionColorPropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_cautionColorPropertyId() const;
-
-  constexpr void __cordl_internal_set_m_cautionColorPropertyId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_criticalColorPropertyId();
-
-  constexpr int32_t const& __cordl_internal_get_m_criticalColorPropertyId() const;
-
-  constexpr void __cordl_internal_set_m_criticalColorPropertyId(int32_t value);
-
-  /// @brief Method InitializeShader, addr 0x2a06240, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitializeShader, addr 0x2af2db8, size 0x17c, virtual false, abstract: false, final false
   inline void InitializeShader();
-
-  /// @brief Method UpdateArray, addr 0x2a063bc, size 0x44, virtual false, abstract: false, final false
-  inline void UpdateArray();
-
-  /// @brief Method UpdateAverage, addr 0x2a06400, size 0x3c, virtual false, abstract: false, final false
-  inline void UpdateAverage();
-
-  /// @brief Method UpdateThresholds, addr 0x2a0643c, size 0x68, virtual false, abstract: false, final false
-  inline void UpdateThresholds();
-
-  /// @brief Method UpdateColors, addr 0x2a064a4, size 0xa0, virtual false, abstract: false, final false
-  inline void UpdateColors();
-
-  /// @brief Method UpdatePoints, addr 0x2a06544, size 0x3c, virtual false, abstract: false, final false
-  inline void UpdatePoints();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a06580, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateArray, addr 0x2af2f34, size 0x44, virtual false, abstract: false, final false
+  inline void UpdateArray();
+
+  /// @brief Method UpdateAverage, addr 0x2af2f78, size 0x3c, virtual false, abstract: false, final false
+  inline void UpdateAverage();
+
+  /// @brief Method UpdateColors, addr 0x2af301c, size 0xa0, virtual false, abstract: false, final false
+  inline void UpdateColors();
+
+  /// @brief Method UpdatePoints, addr 0x2af30bc, size 0x3c, virtual false, abstract: false, final false
+  inline void UpdatePoints();
+
+  /// @brief Method UpdateThresholds, addr 0x2af2fb4, size 0x68, virtual false, abstract: false, final false
+  inline void UpdateThresholds();
+
+  constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
+
+  constexpr int32_t& __cordl_internal_get_ArrayMaxSize();
+
+  constexpr float_t const& __cordl_internal_get_Average() const;
+
+  constexpr float_t& __cordl_internal_get_Average();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_CautionColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_CautionColor();
+
+  constexpr float_t const& __cordl_internal_get_CautionThreshold() const;
+
+  constexpr float_t& __cordl_internal_get_CautionThreshold();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_CriticalColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_CriticalColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_GoodColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_GoodColor();
+
+  constexpr float_t const& __cordl_internal_get_GoodThreshold() const;
+
+  constexpr float_t& __cordl_internal_get_GoodThreshold();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_Image() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_Image();
+
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
+
+  constexpr ::StringW& __cordl_internal_get_Name();
+
+  constexpr ::StringW const& __cordl_internal_get_Name_Length() const;
+
+  constexpr ::StringW& __cordl_internal_get_Name_Length();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_ShaderArrayValues() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_ShaderArrayValues();
+
+  constexpr int32_t const& __cordl_internal_get_m_averagePropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_averagePropertyId();
+
+  constexpr int32_t const& __cordl_internal_get_m_cautionColorPropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_cautionColorPropertyId();
+
+  constexpr int32_t const& __cordl_internal_get_m_cautionThresholdPropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_cautionThresholdPropertyId();
+
+  constexpr int32_t const& __cordl_internal_get_m_criticalColorPropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_criticalColorPropertyId();
+
+  constexpr int32_t const& __cordl_internal_get_m_goodColorPropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_goodColorPropertyId();
+
+  constexpr int32_t const& __cordl_internal_get_m_goodThresholdPropertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_goodThresholdPropertyId();
+
+  constexpr void __cordl_internal_set_ArrayMaxSize(int32_t value);
+
+  constexpr void __cordl_internal_set_Average(float_t value);
+
+  constexpr void __cordl_internal_set_CautionColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_CautionThreshold(float_t value);
+
+  constexpr void __cordl_internal_set_CriticalColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_GoodColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_GoodThreshold(float_t value);
+
+  constexpr void __cordl_internal_set_Image(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set_Name(::StringW value);
+
+  constexpr void __cordl_internal_set_Name_Length(::StringW value);
+
+  constexpr void __cordl_internal_set_ShaderArrayValues(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set_m_averagePropertyId(int32_t value);
+
+  constexpr void __cordl_internal_set_m_cautionColorPropertyId(int32_t value);
+
+  constexpr void __cordl_internal_set_m_cautionThresholdPropertyId(int32_t value);
+
+  constexpr void __cordl_internal_set_m_criticalColorPropertyId(int32_t value);
+
+  constexpr void __cordl_internal_set_m_goodColorPropertyId(int32_t value);
+
+  constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2af30f8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_GraphShader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_GraphShader(G_GraphShader&&) = delete;
@@ -212,12 +216,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_GraphShader(G_GraphShader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_GraphShader();
-
-public:
   /// @brief Field ArrayMaxSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___ArrayMaxSize;
 

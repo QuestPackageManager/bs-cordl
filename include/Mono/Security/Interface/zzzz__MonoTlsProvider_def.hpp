@@ -21,29 +21,27 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13782))
 // CS Name: ::Mono.Security.Interface::MonoTlsProvider*
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ID))::System::Guid _cordl_ID;
-
   __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_SupportsSslStream)) bool SupportsSslStream;
-
-  __declspec(property(get = get_SupportsConnectionInfo)) bool SupportsConnectionInfo;
-
-  __declspec(property(get = get_SupportsMonoExtensions)) bool SupportsMonoExtensions;
 
   __declspec(property(get = get_SupportedProtocols))::System::Security::Authentication::SslProtocols SupportedProtocols;
 
   __declspec(property(get = get_SupportsCleanShutdown)) bool SupportsCleanShutdown;
 
+  __declspec(property(get = get_SupportsConnectionInfo)) bool SupportsConnectionInfo;
+
+  __declspec(property(get = get_SupportsMonoExtensions)) bool SupportsMonoExtensions;
+
+  __declspec(property(get = get_SupportsSslStream)) bool SupportsSslStream;
+
+  __declspec(property(get = get_ID))::System::Guid _cordl_ID;
+
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2402d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f28dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -52,8 +50,11 @@ public:
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportsSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_SupportsSslStream();
+  /// @brief Method get_SupportedProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
+
+  /// @brief Method get_SupportsCleanShutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_SupportsCleanShutdown();
 
   /// @brief Method get_SupportsConnectionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsConnectionInfo();
@@ -61,12 +62,15 @@ public:
   /// @brief Method get_SupportsMonoExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportedProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
+  /// @brief Method get_SupportsSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_SupportsSslStream();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_SupportsCleanShutdown();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoTlsProvider();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTlsProvider(MonoTlsProvider&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsProvider(MonoTlsProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoTlsProvider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

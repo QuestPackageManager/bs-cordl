@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16257))
 // CS Name: ::System.Configuration::ConfigurationElement*
 class CORDL_TYPE ConfigurationElement : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method get_Properties, addr 0x280c958, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
-
-  /// @brief Method IsModified, addr 0x280c990, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x28f55f4, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x280c9c8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x28f562c, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x280ca00, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x28f5664, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
+  /// @brief Method get_Properties, addr 0x28f55bc, size 0x38, virtual true, abstract: false, final false
+  inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigurationElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigurationElement(ConfigurationElement&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigurationElement(ConfigurationElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConfigurationElement();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

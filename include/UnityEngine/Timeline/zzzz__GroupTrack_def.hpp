@@ -20,25 +20,29 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::GroupTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13862))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13898))
 // CS Name: ::UnityEngine.Timeline::GroupTrack*
 class CORDL_TYPE GroupTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
   __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method CanCompileClips, addr 0x2c6a268, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x2d51ea8, size 0x8, virtual true, abstract: false, final false
   inline bool CanCompileClips();
-
-  /// @brief Method get_outputs, addr 0x2c6a270, size 0x58, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   static inline ::UnityEngine::Timeline::GroupTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6a2c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d51f08, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_outputs, addr 0x2d51eb0, size 0x58, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GroupTrack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GroupTrack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupTrack(GroupTrack&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GroupTrack(GroupTrack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GroupTrack();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::ILease);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3090))
 // CS Name: ::System.Runtime.Remoting.Lifetime::ILease*
 class CORDL_TYPE ILease {
 public:
@@ -31,6 +29,9 @@ public:
 
   __declspec(property(get = get_RenewOnCallTime))::System::TimeSpan RenewOnCallTime;
 
+  /// @brief Method Renew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
+
   /// @brief Method get_CurrentLeaseTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
@@ -39,9 +40,6 @@ public:
 
   /// @brief Method get_RenewOnCallTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan get_RenewOnCallTime();
-
-  /// @brief Method Renew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILease", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

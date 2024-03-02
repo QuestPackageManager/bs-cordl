@@ -21,26 +21,28 @@ MARK_VAL_T(::UnityEngine::ContactFilter2D);
 // SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15931))
 // CS Name: ::UnityEngine::ContactFilter2D
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0x2d13270, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x2e0fbc8, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method SetLayerMask, addr 0x2d132e8, size 0x10, virtual false, abstract: false, final false
-  inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
+  /// @brief Method CheckConsistency_Injected, addr 0x2e0fc04, size 0x3c, virtual false, abstract: false, final false
+  static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
 
-  /// @brief Method SetDepth, addr 0x2d132f8, size 0x48, virtual false, abstract: false, final false
-  inline void SetDepth(float_t minDepth, float_t maxDepth);
-
-  /// @brief Method CreateLegacyFilter, addr 0x2d11cbc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateLegacyFilter, addr 0x2e0e614, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method CheckConsistency_Injected, addr 0x2d132ac, size 0x3c, virtual false, abstract: false, final false
-  static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
+  /// @brief Method SetDepth, addr 0x2e0fc50, size 0x48, virtual false, abstract: false, final false
+  inline void SetDepth(float_t minDepth, float_t maxDepth);
+
+  /// @brief Method SetLayerMask, addr 0x2e0fc40, size 0x10, virtual false, abstract: false, final false
+  inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContactFilter2D();
 
   // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "useDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useOutsideDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useNormalAngle", ty: "bool",
@@ -49,10 +51,6 @@ public:
   // "minNormalAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxNormalAngle", ty: "float_t", modifiers: "", def_value: None }]
   constexpr ContactFilter2D(bool useTriggers, bool useLayerMask, bool useDepth, bool useOutsideDepth, bool useNormalAngle, bool useOutsideNormalAngle, ::UnityEngine::LayerMask layerMask,
                             float_t minDepth, float_t maxDepth, float_t minNormalAngle, float_t maxNormalAngle) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContactFilter2D();
 
   /// @brief Field useTriggers, offset: 0x0, size: 0x1, def value: None
   bool useTriggers;

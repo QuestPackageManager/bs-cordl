@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::ISO7816d4Padding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1007))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::ISO7816d4Padding*
 class CORDL_TYPE ISO7816d4Padding : public ::System::Object {
 public:
@@ -34,26 +32,32 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
-  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
-
-  /// @brief Method Init, addr 0xf2e300, size 0x4, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
-
-  /// @brief Method get_PaddingName, addr 0xf2e304, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_PaddingName();
-
-  /// @brief Method AddPadding, addr 0xf2e344, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0xf9e1a4, size 0x64, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount, addr 0xf2e3a8, size 0xb0, virtual true, abstract: false, final true
-  inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+  /// @brief Method Init, addr 0xf9e160, size 0x4, virtual true, abstract: false, final true
+  inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::ISO7816d4Padding* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf2e458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PadCount, addr 0xf9e208, size 0xb0, virtual true, abstract: false, final true
+  inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+
+  /// @brief Method .ctor, addr 0xf9e2b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_PaddingName, addr 0xf9e164, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_PaddingName();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ISO7816d4Padding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ISO7816d4Padding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ISO7816d4Padding(ISO7816d4Padding&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ISO7816d4Padding(ISO7816d4Padding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ISO7816d4Padding();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

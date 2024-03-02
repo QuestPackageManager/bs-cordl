@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeProcessHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8860))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeProcessHandle*
 class CORDL_TYPE SafeProcessHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
@@ -24,23 +22,29 @@ public:
   /// @brief Field InvalidHandle, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InvalidHandle, put = setStaticF_InvalidHandle))::Microsoft::Win32::SafeHandles::SafeProcessHandle* InvalidHandle;
 
-  static inline void setStaticF_InvalidHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
-
-  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();
+  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* existingHandle, bool ownsHandle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* handle);
 
-  /// @brief Method .ctor, addr 0x282addc, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(void* handle);
-
-  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* existingHandle, bool ownsHandle);
-
-  /// @brief Method .ctor, addr 0x282abac, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(void* existingHandle, bool ownsHandle);
-
-  /// @brief Method ReleaseHandle, addr 0x282ae08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x2914a6c, size 0x8, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
+  /// @brief Method .ctor, addr 0x2914810, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(void* existingHandle, bool ownsHandle);
+
+  /// @brief Method .ctor, addr 0x2914a40, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(void* handle);
+
+  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();
+
+  static inline void setStaticF_InvalidHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeProcessHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeProcessHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeProcessHandle(SafeProcessHandle&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeProcessHandle(SafeProcessHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeProcessHandle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

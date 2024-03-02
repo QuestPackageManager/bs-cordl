@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierCounter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5320))
 // CS Name: ::ScoreMultiplierCounter::MultiplierEventType
 struct CORDL_TYPE __ScoreMultiplierCounter__MultiplierEventType {
 public:
@@ -44,27 +42,32 @@ public:
     return static_cast<____ScoreMultiplierCounter__MultiplierEventType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ScoreMultiplierCounter__MultiplierEventType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Positive value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Positive;
+  /// @brief Field Negative value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Negative;
 
   /// @brief Field Neutral value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Neutral;
 
-  /// @brief Field Negative value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Negative;
+  /// @brief Field Positive value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Positive;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -78,8 +81,6 @@ static_assert(offsetof(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEv
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5321))
 // CS Name: ::ScoreMultiplierCounter*
 class CORDL_TYPE ScoreMultiplierCounter : public ::System::Object {
 public:
@@ -89,51 +90,57 @@ public:
   /// @brief Field _multiplier, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) int32_t _multiplier;
 
-  /// @brief Field _multiplierIncreaseProgress, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__multiplierIncreaseProgress, put = __cordl_internal_set__multiplierIncreaseProgress)) int32_t _multiplierIncreaseProgress;
-
   /// @brief Field _multiplierIncreaseMaxProgress, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__multiplierIncreaseMaxProgress, put = __cordl_internal_set__multiplierIncreaseMaxProgress)) int32_t _multiplierIncreaseMaxProgress;
+
+  /// @brief Field _multiplierIncreaseProgress, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__multiplierIncreaseProgress, put = __cordl_internal_set__multiplierIncreaseProgress)) int32_t _multiplierIncreaseProgress;
 
   __declspec(property(get = get_multiplier)) int32_t multiplier;
 
   __declspec(property(get = get_normalizedProgress)) float_t normalizedProgress;
 
-  constexpr int32_t& __cordl_internal_get__multiplier();
+  static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
+
+  /// @brief Method ProcessMultiplierEvent, addr 0x12fb58c, size 0x9c, virtual false, abstract: false, final false
+  inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
+
+  /// @brief Method Reset, addr 0x12fb574, size 0x18, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
 
-  constexpr void __cordl_internal_set__multiplier(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__multiplierIncreaseProgress();
-
-  constexpr int32_t const& __cordl_internal_get__multiplierIncreaseProgress() const;
-
-  constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__multiplierIncreaseMaxProgress();
+  constexpr int32_t& __cordl_internal_get__multiplier();
 
   constexpr int32_t const& __cordl_internal_get__multiplierIncreaseMaxProgress() const;
 
+  constexpr int32_t& __cordl_internal_get__multiplierIncreaseMaxProgress();
+
+  constexpr int32_t const& __cordl_internal_get__multiplierIncreaseProgress() const;
+
+  constexpr int32_t& __cordl_internal_get__multiplierIncreaseProgress();
+
+  constexpr void __cordl_internal_set__multiplier(int32_t value);
+
   constexpr void __cordl_internal_set__multiplierIncreaseMaxProgress(int32_t value);
 
-  /// @brief Method get_multiplier, addr 0x2267dbc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_multiplier();
+  constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method get_normalizedProgress, addr 0x2267570, size 0x14, virtual false, abstract: false, final false
-  inline float_t get_normalizedProgress();
-
-  /// @brief Method Reset, addr 0x2267dc4, size 0x18, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method ProcessMultiplierEvent, addr 0x22674cc, size 0x9c, virtual false, abstract: false, final false
-  inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
-
-  static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2267da4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fba10, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_multiplier, addr 0x12fbad4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_multiplier();
+
+  /// @brief Method get_normalizedProgress, addr 0x12fbadc, size 0x14, virtual false, abstract: false, final false
+  inline float_t get_normalizedProgress();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScoreMultiplierCounter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierCounter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreMultiplierCounter(ScoreMultiplierCounter&&) = delete;
@@ -142,12 +149,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScoreMultiplierCounter(ScoreMultiplierCounter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScoreMultiplierCounter();
-
-public:
   /// @brief Field _multiplier, offset: 0x10, size: 0x4, def value: None
   int32_t ____multiplier;
 

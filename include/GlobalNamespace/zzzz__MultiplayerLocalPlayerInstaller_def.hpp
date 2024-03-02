@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
 // CS Name: ::MultiplayerLocalPlayerInstaller*
 class CORDL_TYPE MultiplayerLocalPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -37,32 +35,38 @@ public:
   /// @brief Field _startState, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState))::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
+  /// @brief Method InstallBindings, addr 0x249d304, size 0x238, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
+
   constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelSceneSetupData*> const& __cordl_internal_get__levelSceneSetupData() const;
-
-  constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData* value);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get__startState() const;
 
   constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __cordl_internal_get__startState();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get__startState() const;
+  constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData* value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method InstallBindings, addr 0x2272ce4, size 0x238, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2272f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d53c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalPlayerInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalPlayerInstaller();
-
-public:
   /// @brief Field _levelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelSceneSetupData* ____levelSceneSetupData;
 

@@ -27,39 +27,43 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabDynamicContext);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11295))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11274))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabDynamicContext*
 class CORDL_TYPE SubContainerCreatorByNewPrefabDynamicContext : public ::Zenject::SubContainerCreatorDynamicContext {
 public:
   // Declarations
-  /// @brief Field _prefabProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
-
   /// @brief Field _gameObjectBindInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider();
+  /// @brief Field _prefabProvider, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
+  /// @brief Method CreateGameObject, addr 0x301ba78, size 0x1c0, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
-  constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
+  static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                  ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
 
+  constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
+
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                  ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
+  constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x2f0c1cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301ba3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method CreateGameObject, addr 0x2f0c208, size 0x1c0, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorByNewPrefabDynamicContext();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabDynamicContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContext&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByNewPrefabDynamicContext();
-
-public:
   /// @brief Field _prefabProvider, offset: 0x18, size: 0x8, def value: None
   ::Zenject::IPrefabProvider* ____prefabProvider;
 

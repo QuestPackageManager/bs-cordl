@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableGCWhileEnabled);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14359))
 // CS Name: ::DisableGCWhileEnabled*
 class CORDL_TYPE DisableGCWhileEnabled : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0x20f1e80, size 0xc, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x20f1e8c, size 0xc, virtual false, abstract: false, final false
-  inline void OnDisable();
-
   static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f1e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2254ab8, size 0xc, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x2254aac, size 0xc, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method .ctor, addr 0x2254ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisableGCWhileEnabled();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableGCWhileEnabled(DisableGCWhileEnabled&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableGCWhileEnabled(DisableGCWhileEnabled const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableGCWhileEnabled();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

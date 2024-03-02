@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_GeoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9739))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9896))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_GeoInfo*
 class CORDL_TYPE Test_HAPI_GeoInfo : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_GeoInfo__() noexcept;
-
-  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __cordl_internal_get_self();
-
-  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_GeoInfo value);
+  /// @brief Method IsEquivalentTo, addr 0x23450f4, size 0x300, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
-  /// @brief Method .ctor, addr 0x21e3170, size 0x34, virtual false, abstract: false, final false
+  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& __cordl_internal_get_self() const;
+
+  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_GeoInfo value);
+
+  /// @brief Method .ctor, addr 0x23450c0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e31a4, size 0x300, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_GeoInfo__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_HAPI_GeoInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_GeoInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_HAPI_GeoInfo(Test_HAPI_GeoInfo&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_GeoInfo(Test_HAPI_GeoInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_HAPI_GeoInfo();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x24, def value: None
   ::HoudiniEngineUnity::HAPI_GeoInfo ___self;
 

@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::Net::Configuration::ConnectionManagementElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16257))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9567))
 // CS Name: ::System.Net.Configuration::ConnectionManagementElement*
 class CORDL_TYPE ConnectionManagementElement : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectionManagementElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionManagementElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectionManagementElement(ConnectionManagementElement&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectionManagementElement(ConnectionManagementElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionManagementElement();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

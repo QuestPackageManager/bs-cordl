@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayersViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5725))
 // CS Name: ::NetworkPlayersViewController*
 class CORDL_TYPE NetworkPlayersViewController : public ::HMUI::ViewController {
 public:
@@ -40,95 +38,101 @@ public:
   /// @brief Field _refreshIsNeeded, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__refreshIsNeeded, put = __cordl_internal_set__refreshIsNeeded)) bool _refreshIsNeeded;
 
-  /// @brief Field onJoinRequestEvent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_onJoinRequestEvent, put = __cordl_internal_set_onJoinRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
+  __declspec(property(get = get_myPartyTitle))::StringW myPartyTitle;
+
+  __declspec(property(get = get_networkPlayerModel))::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
 
   /// @brief Field onInviteRequestEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_onInviteRequestEvent, put = __cordl_internal_set_onInviteRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent;
 
-  __declspec(property(get = get_myPartyTitle))::StringW myPartyTitle;
+  /// @brief Field onJoinRequestEvent, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_onJoinRequestEvent, put = __cordl_internal_set_onJoinRequestEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* onJoinRequestEvent;
 
   __declspec(property(get = get_otherPlayersTitle))::StringW otherPlayersTitle;
 
-  __declspec(property(get = get_networkPlayerModel))::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
+  /// @brief Method DidActivate, addr 0x23d0414, size 0x2e8, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView>& __cordl_internal_get__networkPlayersTableView();
+  /// @brief Method DidDeactivate, addr 0x23d0890, size 0x2b4, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  /// @brief Method HandleInviteRequest, addr 0x23d0b84, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
+
+  /// @brief Method HandleJoinRequest, addr 0x23d0b68, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
+
+  /// @brief Method HandlePartyChanged, addr 0x23d0b50, size 0x18, virtual false, abstract: false, final false
+  inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
+
+  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x23d088c, size 0x4, virtual true, abstract: false, final false
+  inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
+
+  /// @brief Method NetworkPlayersViewControllerDidDeactivate, addr 0x23d0b44, size 0x4, virtual true, abstract: false, final false
+  inline void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
+
+  static inline ::GlobalNamespace::NetworkPlayersViewController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23d0b48, size 0x8, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Refresh, addr 0x23d06fc, size 0x190, virtual false, abstract: false, final false
+  inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView> const& __cordl_internal_get__networkPlayersTableView() const;
 
-  constexpr void __cordl_internal_set__networkPlayersTableView(::UnityW<::GlobalNamespace::NetworkPlayersTableView> value);
-
-  constexpr bool& __cordl_internal_get__refreshIsNeeded();
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayersTableView>& __cordl_internal_get__networkPlayersTableView();
 
   constexpr bool const& __cordl_internal_get__refreshIsNeeded() const;
 
-  constexpr void __cordl_internal_set__refreshIsNeeded(bool value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_onJoinRequestEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_onJoinRequestEvent() const;
-
-  constexpr void __cordl_internal_set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr bool& __cordl_internal_get__refreshIsNeeded();
 
   constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_onInviteRequestEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_onInviteRequestEvent() const;
 
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_onJoinRequestEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_onJoinRequestEvent() const;
+
+  constexpr void __cordl_internal_set__networkPlayersTableView(::UnityW<::GlobalNamespace::NetworkPlayersTableView> value);
+
+  constexpr void __cordl_internal_set__refreshIsNeeded(bool value);
+
   constexpr void __cordl_internal_set_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+
+  constexpr void __cordl_internal_set_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+
+  /// @brief Method .ctor, addr 0x23d0ba0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_onInviteRequestEvent, addr 0x23d02b4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+
+  /// @brief Method add_onJoinRequestEvent, addr 0x23d0154, size 0xb0, virtual false, abstract: false, final false
+  inline void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
   /// @brief Method get_myPartyTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_myPartyTitle();
 
-  /// @brief Method get_otherPlayersTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_otherPlayersTitle();
-
   /// @brief Method get_networkPlayerModel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method add_onJoinRequestEvent, addr 0x22d2178, size 0xb0, virtual false, abstract: false, final false
-  inline void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  /// @brief Method get_otherPlayersTitle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_otherPlayersTitle();
 
-  /// @brief Method remove_onJoinRequestEvent, addr 0x22d2228, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
-
-  /// @brief Method add_onInviteRequestEvent, addr 0x22d22d8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
-
-  /// @brief Method remove_onInviteRequestEvent, addr 0x22d2388, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onInviteRequestEvent, addr 0x23d0364, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method DidActivate, addr 0x22d2438, size 0x2e8, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  /// @brief Method remove_onJoinRequestEvent, addr 0x23d0204, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x22d28b0, size 0x4, virtual true, abstract: false, final false
-  inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkPlayersViewController();
 
-  /// @brief Method DidDeactivate, addr 0x22d28b4, size 0x2b4, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method NetworkPlayersViewControllerDidDeactivate, addr 0x22d2b68, size 0x4, virtual true, abstract: false, final false
-  inline void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
-
-  /// @brief Method OnDestroy, addr 0x22d2b6c, size 0x8, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandlePartyChanged, addr 0x22d2b74, size 0x18, virtual false, abstract: false, final false
-  inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
-
-  /// @brief Method HandleJoinRequest, addr 0x22d2b8c, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
-
-  /// @brief Method HandleInviteRequest, addr 0x22d2ba8, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
-
-  /// @brief Method Refresh, addr 0x22d2720, size 0x190, virtual false, abstract: false, final false
-  inline void Refresh();
-
-  static inline ::GlobalNamespace::NetworkPlayersViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22d2bc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayersViewController(NetworkPlayersViewController&&) = delete;
@@ -137,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayersViewController(NetworkPlayersViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkPlayersViewController();
-
-public:
   /// @brief Field _networkPlayersTableView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkPlayersTableView> ____networkPlayersTableView;
 

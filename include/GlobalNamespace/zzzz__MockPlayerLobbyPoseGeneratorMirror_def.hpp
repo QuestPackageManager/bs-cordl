@@ -26,52 +26,56 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5182))
 // CS Name: ::MockPlayerLobbyPoseGeneratorMirror*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
+  /// @brief Field _mirroredPlayer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mirroredPlayer, put = __cordl_internal_set__mirroredPlayer))::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
+
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager))::UnityW<::GlobalNamespace::NodePoseSyncStateManager> _nodePoseSyncStateManager;
 
-  /// @brief Field _mirroredPlayer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirroredPlayer, put = __cordl_internal_set__mirroredPlayer))::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
+  /// @brief Method Dispose, addr 0x2470888, size 0xd0, virtual true, abstract: false, final false
+  inline void Dispose();
 
-  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>& __cordl_internal_get__nodePoseSyncStateManager();
+  /// @brief Method FindPlayerToMirror, addr 0x2470ac0, size 0x3a4, virtual false, abstract: false, final false
+  inline void FindPlayerToMirror();
 
-  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> const& __cordl_internal_get__nodePoseSyncStateManager() const;
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x2470e64, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
+  /// @brief Method Init, addr 0x2470884, size 0x4, virtual true, abstract: false, final false
+  inline void Init();
+
+  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+                                                                                ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
+
+  /// @brief Method Tick, addr 0x2470958, size 0x168, virtual true, abstract: false, final false
+  inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__mirroredPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__mirroredPlayer() const;
 
+  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> const& __cordl_internal_get__nodePoseSyncStateManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>& __cordl_internal_get__nodePoseSyncStateManager();
+
   constexpr void __cordl_internal_set__mirroredPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
-                                                                                ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
+  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x22439b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246e628, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Init, addr 0x2243b3c, size 0x4, virtual true, abstract: false, final false
-  inline void Init();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPlayerLobbyPoseGeneratorMirror();
 
-  /// @brief Method Dispose, addr 0x2243b40, size 0xd0, virtual true, abstract: false, final false
-  inline void Dispose();
-
-  /// @brief Method Tick, addr 0x2243c10, size 0x168, virtual true, abstract: false, final false
-  inline void Tick();
-
-  /// @brief Method FindPlayerToMirror, addr 0x2243d78, size 0x3a4, virtual false, abstract: false, final false
-  inline void FindPlayerToMirror();
-
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x224411c, size 0x1d8, virtual false, abstract: false, final false
-  inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorMirror", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerLobbyPoseGeneratorMirror(MockPlayerLobbyPoseGeneratorMirror&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerLobbyPoseGeneratorMirror(MockPlayerLobbyPoseGeneratorMirror const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerLobbyPoseGeneratorMirror();
-
-public:
   /// @brief Field _nodePoseSyncStateManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> ____nodePoseSyncStateManager;
 

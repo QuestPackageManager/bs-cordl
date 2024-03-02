@@ -19,19 +19,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeVisualInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9706))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9748))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeVisualInfo
 struct CORDL_TYPE HAPI_VolumeVisualInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_VolumeVisualType", modifiers: "", def_value: None }, CppParam { name: "iso", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "density", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HAPI_VolumeVisualInfo(::HoudiniEngineUnity::HAPI_VolumeVisualType type, float_t iso, float_t density) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_VolumeVisualInfo();
+
+  // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_VolumeVisualType", modifiers: "", def_value: None }, CppParam { name: "iso", ty: "float_t", modifiers: "", def_value:
+  // None }, CppParam { name: "density", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HAPI_VolumeVisualInfo(::HoudiniEngineUnity::HAPI_VolumeVisualType type, float_t iso, float_t density) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_VolumeVisualType type;

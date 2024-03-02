@@ -20,23 +20,21 @@ MARK_VAL_T(::Mono::RuntimeRemoteClassHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2229))
 // CS Name: ::Mono::RuntimeRemoteClassHandle
 struct CORDL_TYPE RuntimeRemoteClassHandle {
 public:
   // Declarations
   __declspec(property(get = get_ProxyClass))::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass, addr 0x241265c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyClass, addr 0x25031b4, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
-
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass>", modifiers: "", def_value: None }]
-  constexpr RuntimeRemoteClassHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass> value) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeRemoteClassHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass>", modifiers: "", def_value: None }]
+  constexpr RuntimeRemoteClassHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass> value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass> value;

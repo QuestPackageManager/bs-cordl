@@ -20,8 +20,6 @@ namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10626))
 // CS Name: ::ModestTree.Util::ValuePair`2<T1,T2>*
 class CORDL_TYPE ValuePair_2 : public ::System::Object {
 public:
@@ -32,28 +30,6 @@ public:
   /// @brief Field Second, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Second, put = __cordl_internal_set_Second)) T2 Second;
 
-  constexpr T1& __cordl_internal_get_First();
-
-  constexpr T1 const& __cordl_internal_get_First() const;
-
-  constexpr void __cordl_internal_set_First(T1 value);
-
-  constexpr T2& __cordl_internal_get_Second();
-
-  constexpr T2 const& __cordl_internal_get_Second() const;
-
-  constexpr void __cordl_internal_set_Second(T2 value);
-
-  static inline ::ModestTree::Util::ValuePair_2<T1, T2>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::ModestTree::Util::ValuePair_2<T1, T2>* New_ctor(T1 first, T2 second);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(T1 first, T2 second);
-
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -63,6 +39,34 @@ public:
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  static inline ::ModestTree::Util::ValuePair_2<T1, T2>* New_ctor();
+
+  static inline ::ModestTree::Util::ValuePair_2<T1, T2>* New_ctor(T1 first, T2 second);
+
+  constexpr T1 const& __cordl_internal_get_First() const;
+
+  constexpr T1& __cordl_internal_get_First();
+
+  constexpr T2 const& __cordl_internal_get_Second() const;
+
+  constexpr T2& __cordl_internal_get_Second();
+
+  constexpr void __cordl_internal_set_First(T1 value);
+
+  constexpr void __cordl_internal_set_Second(T2 value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(T1 first, T2 second);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValuePair_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValuePair_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValuePair_2(ValuePair_2&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValuePair_2(ValuePair_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValuePair_2();
-
-public:
   /// @brief Field First, offset: 0x10, size: 0x8, def value: None
   T1 ___First;
 

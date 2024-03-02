@@ -18,21 +18,25 @@ MARK_REF_PTR_T(::GlobalNamespace::StringBuilderExtension);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15831))
 // CS Name: ::StringBuilderExtension*
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Swap, addr 0xe25978, size 0x228, virtual false, abstract: false, final false
-  static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
-
-  /// @brief Method AppendNumber, addr 0xe25ba0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xe8dde4, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0xe25bcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0xe8de10, size 0xa4, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
+  /// @brief Method Swap, addr 0xe8dbbc, size 0x228, virtual false, abstract: false, final false
+  static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringBuilderExtension();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringBuilderExtension(StringBuilderExtension&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringBuilderExtension(StringBuilderExtension const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringBuilderExtension();
-
-public:
   /// @brief Field kCharZero offset 0xffffffff size 0x2
   static constexpr char16_t kCharZero{ u'0' };
 

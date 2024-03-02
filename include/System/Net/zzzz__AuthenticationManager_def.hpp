@@ -33,45 +33,49 @@ MARK_REF_PTR_T(::System::Net::AuthenticationManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9148))
 // CS Name: ::System.Net::AuthenticationManager*
 class CORDL_TYPE AuthenticationManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field modules, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_modules, put = setStaticF_modules))::System::Collections::ArrayList* modules;
+  /// @brief Field credential_policy, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_credential_policy, put = setStaticF_credential_policy))::System::Net::ICredentialPolicy* credential_policy;
 
   /// @brief Field locker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_locker, put = setStaticF_locker))::System::Object* locker;
 
-  /// @brief Field credential_policy, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_credential_policy, put = setStaticF_credential_policy))::System::Net::ICredentialPolicy* credential_policy;
+  /// @brief Field modules, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_modules, put = setStaticF_modules))::System::Collections::ArrayList* modules;
 
-  static inline void setStaticF_modules(::System::Collections::ArrayList* value);
+  /// @brief Method Authenticate, addr 0x2aa6940, size 0x10c, virtual false, abstract: false, final false
+  static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  static inline ::System::Collections::ArrayList* getStaticF_modules();
+  /// @brief Method DoAuthenticate, addr 0x2aa6a4c, size 0x4e8, virtual false, abstract: false, final false
+  static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  static inline void setStaticF_locker(::System::Object* value);
+  /// @brief Method EnsureModules, addr 0x2aa6690, size 0x2a0, virtual false, abstract: false, final false
+  static inline void EnsureModules();
 
-  static inline ::System::Object* getStaticF_locker();
-
-  static inline void setStaticF_credential_policy(::System::Net::ICredentialPolicy* value);
+  /// @brief Method PreAuthenticate, addr 0x2aa6f34, size 0x538, virtual false, abstract: false, final false
+  static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::ICredentialPolicy* getStaticF_credential_policy();
 
-  /// @brief Method EnsureModules, addr 0x29bab18, size 0x2a0, virtual false, abstract: false, final false
-  static inline void EnsureModules();
+  static inline ::System::Object* getStaticF_locker();
 
-  /// @brief Method Authenticate, addr 0x29badc8, size 0x10c, virtual false, abstract: false, final false
-  static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
+  static inline ::System::Collections::ArrayList* getStaticF_modules();
 
-  /// @brief Method DoAuthenticate, addr 0x29baed4, size 0x4e8, virtual false, abstract: false, final false
-  static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
+  static inline void setStaticF_credential_policy(::System::Net::ICredentialPolicy* value);
 
-  /// @brief Method PreAuthenticate, addr 0x29bb3bc, size 0x538, virtual false, abstract: false, final false
-  static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
+  static inline void setStaticF_locker(::System::Object* value);
 
+  static inline void setStaticF_modules(::System::Collections::ArrayList* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthenticationManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthenticationManager(AuthenticationManager&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthenticationManager(AuthenticationManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticationManager();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

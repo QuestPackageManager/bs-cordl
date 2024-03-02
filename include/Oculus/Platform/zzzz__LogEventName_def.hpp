@@ -15,8 +15,6 @@ MARK_VAL_T(::Oculus::Platform::LogEventName);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13258))
 // CS Name: ::Oculus.Platform::LogEventName
 struct CORDL_TYPE LogEventName {
 public:
@@ -70,33 +68,26 @@ public:
     return static_cast<__LogEventName_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LogEventName(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LogEventName();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LogEventName(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::Oculus::Platform::LogEventName const Unknown;
 
   /// @brief Field AdClick value: static_cast<int32_t>(0x1)
   static ::Oculus::Platform::LogEventName const AdClick;
 
   /// @brief Field AdImpression value: static_cast<int32_t>(0x2)
   static ::Oculus::Platform::LogEventName const AdImpression;
-
-  /// @brief Field VrCompleteRegistration value: static_cast<int32_t>(0x3)
-  static ::Oculus::Platform::LogEventName const VrCompleteRegistration;
-
-  /// @brief Field VrTutorialCompletion value: static_cast<int32_t>(0x4)
-  static ::Oculus::Platform::LogEventName const VrTutorialCompletion;
 
   /// @brief Field Contact value: static_cast<int32_t>(0x5)
   static ::Oculus::Platform::LogEventName const Contact;
@@ -110,14 +101,8 @@ public:
   /// @brief Field FindLocation value: static_cast<int32_t>(0x8)
   static ::Oculus::Platform::LogEventName const FindLocation;
 
-  /// @brief Field VrRate value: static_cast<int32_t>(0x9)
-  static ::Oculus::Platform::LogEventName const VrRate;
-
   /// @brief Field Schedule value: static_cast<int32_t>(0xa)
   static ::Oculus::Platform::LogEventName const Schedule;
-
-  /// @brief Field VrSearch value: static_cast<int32_t>(0xb)
-  static ::Oculus::Platform::LogEventName const VrSearch;
 
   /// @brief Field SmartTrial value: static_cast<int32_t>(0xc)
   static ::Oculus::Platform::LogEventName const SmartTrial;
@@ -128,20 +113,23 @@ public:
   /// @brief Field Subscribe value: static_cast<int32_t>(0xe)
   static ::Oculus::Platform::LogEventName const Subscribe;
 
-  /// @brief Field VrContentView value: static_cast<int32_t>(0xf)
-  static ::Oculus::Platform::LogEventName const VrContentView;
+  /// @brief Field SubscriptionFailed value: static_cast<int32_t>(0x1d)
+  static ::Oculus::Platform::LogEventName const SubscriptionFailed;
 
-  /// @brief Field VrSdkInitialize value: static_cast<int32_t>(0x10)
-  static ::Oculus::Platform::LogEventName const VrSdkInitialize;
+  /// @brief Field SubscriptionInitiatedCheckout value: static_cast<int32_t>(0x1c)
+  static ::Oculus::Platform::LogEventName const SubscriptionInitiatedCheckout;
 
-  /// @brief Field VrSdkBackgroundStatusAvailable value: static_cast<int32_t>(0x11)
-  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusAvailable;
+  /// @brief Field SubscriptionRestore value: static_cast<int32_t>(0x1e)
+  static ::Oculus::Platform::LogEventName const SubscriptionRestore;
 
-  /// @brief Field VrSdkBackgroundStatusDenied value: static_cast<int32_t>(0x12)
-  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusDenied;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::Oculus::Platform::LogEventName const Unknown;
 
-  /// @brief Field VrSdkBackgroundStatusRestricted value: static_cast<int32_t>(0x13)
-  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusRestricted;
+  /// @brief Field VrAchievementUnlocked value: static_cast<int32_t>(0x20)
+  static ::Oculus::Platform::LogEventName const VrAchievementUnlocked;
+
+  /// @brief Field VrActivateApp value: static_cast<int32_t>(0x24)
+  static ::Oculus::Platform::LogEventName const VrActivateApp;
 
   /// @brief Field VrAddPaymentInfo value: static_cast<int32_t>(0x14)
   static ::Oculus::Platform::LogEventName const VrAddPaymentInfo;
@@ -152,14 +140,29 @@ public:
   /// @brief Field VrAddToWishlist value: static_cast<int32_t>(0x16)
   static ::Oculus::Platform::LogEventName const VrAddToWishlist;
 
+  /// @brief Field VrCatalogUpdate value: static_cast<int32_t>(0x19)
+  static ::Oculus::Platform::LogEventName const VrCatalogUpdate;
+
+  /// @brief Field VrCompleteRegistration value: static_cast<int32_t>(0x3)
+  static ::Oculus::Platform::LogEventName const VrCompleteRegistration;
+
+  /// @brief Field VrContentView value: static_cast<int32_t>(0xf)
+  static ::Oculus::Platform::LogEventName const VrContentView;
+
+  /// @brief Field VrDeactivateApp value: static_cast<int32_t>(0x25)
+  static ::Oculus::Platform::LogEventName const VrDeactivateApp;
+
   /// @brief Field VrInitiatedCheckout value: static_cast<int32_t>(0x17)
   static ::Oculus::Platform::LogEventName const VrInitiatedCheckout;
 
+  /// @brief Field VrLevelAchieved value: static_cast<int32_t>(0x1f)
+  static ::Oculus::Platform::LogEventName const VrLevelAchieved;
+
+  /// @brief Field VrObtainPushToken value: static_cast<int32_t>(0x22)
+  static ::Oculus::Platform::LogEventName const VrObtainPushToken;
+
   /// @brief Field VrPurchase value: static_cast<int32_t>(0x18)
   static ::Oculus::Platform::LogEventName const VrPurchase;
-
-  /// @brief Field VrCatalogUpdate value: static_cast<int32_t>(0x19)
-  static ::Oculus::Platform::LogEventName const VrCatalogUpdate;
 
   /// @brief Field VrPurchaseFailed value: static_cast<int32_t>(0x1a)
   static ::Oculus::Platform::LogEventName const VrPurchaseFailed;
@@ -167,35 +170,35 @@ public:
   /// @brief Field VrPurchaseRestored value: static_cast<int32_t>(0x1b)
   static ::Oculus::Platform::LogEventName const VrPurchaseRestored;
 
-  /// @brief Field SubscriptionInitiatedCheckout value: static_cast<int32_t>(0x1c)
-  static ::Oculus::Platform::LogEventName const SubscriptionInitiatedCheckout;
+  /// @brief Field VrPushOpened value: static_cast<int32_t>(0x23)
+  static ::Oculus::Platform::LogEventName const VrPushOpened;
 
-  /// @brief Field SubscriptionFailed value: static_cast<int32_t>(0x1d)
-  static ::Oculus::Platform::LogEventName const SubscriptionFailed;
+  /// @brief Field VrRate value: static_cast<int32_t>(0x9)
+  static ::Oculus::Platform::LogEventName const VrRate;
 
-  /// @brief Field SubscriptionRestore value: static_cast<int32_t>(0x1e)
-  static ::Oculus::Platform::LogEventName const SubscriptionRestore;
+  /// @brief Field VrSdkBackgroundStatusAvailable value: static_cast<int32_t>(0x11)
+  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusAvailable;
 
-  /// @brief Field VrLevelAchieved value: static_cast<int32_t>(0x1f)
-  static ::Oculus::Platform::LogEventName const VrLevelAchieved;
+  /// @brief Field VrSdkBackgroundStatusDenied value: static_cast<int32_t>(0x12)
+  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusDenied;
 
-  /// @brief Field VrAchievementUnlocked value: static_cast<int32_t>(0x20)
-  static ::Oculus::Platform::LogEventName const VrAchievementUnlocked;
+  /// @brief Field VrSdkBackgroundStatusRestricted value: static_cast<int32_t>(0x13)
+  static ::Oculus::Platform::LogEventName const VrSdkBackgroundStatusRestricted;
+
+  /// @brief Field VrSdkInitialize value: static_cast<int32_t>(0x10)
+  static ::Oculus::Platform::LogEventName const VrSdkInitialize;
+
+  /// @brief Field VrSearch value: static_cast<int32_t>(0xb)
+  static ::Oculus::Platform::LogEventName const VrSearch;
 
   /// @brief Field VrSpentCredits value: static_cast<int32_t>(0x21)
   static ::Oculus::Platform::LogEventName const VrSpentCredits;
 
-  /// @brief Field VrObtainPushToken value: static_cast<int32_t>(0x22)
-  static ::Oculus::Platform::LogEventName const VrObtainPushToken;
+  /// @brief Field VrTutorialCompletion value: static_cast<int32_t>(0x4)
+  static ::Oculus::Platform::LogEventName const VrTutorialCompletion;
 
-  /// @brief Field VrPushOpened value: static_cast<int32_t>(0x23)
-  static ::Oculus::Platform::LogEventName const VrPushOpened;
-
-  /// @brief Field VrActivateApp value: static_cast<int32_t>(0x24)
-  static ::Oculus::Platform::LogEventName const VrActivateApp;
-
-  /// @brief Field VrDeactivateApp value: static_cast<int32_t>(0x25)
-  static ::Oculus::Platform::LogEventName const VrDeactivateApp;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

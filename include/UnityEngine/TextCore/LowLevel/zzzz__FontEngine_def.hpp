@@ -60,18 +60,21 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::LowLevel::FontEngine);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15537))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontEngine*
 class CORDL_TYPE FontEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_Glyphs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Glyphs, put = setStaticF_s_Glyphs))::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> s_Glyphs;
+  /// @brief Field s_FreeGlyphRects, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_FreeGlyphRects,
+                             put = setStaticF_s_FreeGlyphRects))::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> s_FreeGlyphRects;
 
   /// @brief Field s_GlyphIndexes_MarshallingArray_A, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GlyphIndexes_MarshallingArray_A,
                              put = setStaticF_s_GlyphIndexes_MarshallingArray_A))::ArrayW<uint32_t, ::Array<uint32_t>*> s_GlyphIndexes_MarshallingArray_A;
+
+  /// @brief Field s_GlyphLookupDictionary, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_GlyphLookupDictionary,
+                             put = setStaticF_s_GlyphLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* s_GlyphLookupDictionary;
 
   /// @brief Field s_GlyphMarshallingStruct_IN, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_GlyphMarshallingStruct_IN,
@@ -83,140 +86,103 @@ public:
                              put = setStaticF_s_GlyphMarshallingStruct_OUT))::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct,
                                                                                      ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> s_GlyphMarshallingStruct_OUT;
 
-  /// @brief Field s_FreeGlyphRects, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FreeGlyphRects,
-                             put = setStaticF_s_FreeGlyphRects))::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> s_FreeGlyphRects;
-
-  /// @brief Field s_UsedGlyphRects, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UsedGlyphRects,
-                             put = setStaticF_s_UsedGlyphRects))::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> s_UsedGlyphRects;
+  /// @brief Field s_Glyphs, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_Glyphs, put = setStaticF_s_Glyphs))::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> s_Glyphs;
 
   /// @brief Field s_PairAdjustmentRecords_MarshallingArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_PairAdjustmentRecords_MarshallingArray, put = setStaticF_s_PairAdjustmentRecords_MarshallingArray))::ArrayW<
       ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> s_PairAdjustmentRecords_MarshallingArray;
 
-  /// @brief Field s_GlyphLookupDictionary, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_GlyphLookupDictionary,
-                             put = setStaticF_s_GlyphLookupDictionary))::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* s_GlyphLookupDictionary;
+  /// @brief Field s_UsedGlyphRects, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_UsedGlyphRects,
+                             put = setStaticF_s_UsedGlyphRects))::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> s_UsedGlyphRects;
 
-  static inline void setStaticF_s_Glyphs(::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> value);
+  /// @brief Method GenericListToMarshallingArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void GenericListToMarshallingArray(ByRef<::System::Collections::Generic::List_1<T>*> srcList, ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
-  static inline ::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> getStaticF_s_Glyphs();
-
-  static inline void setStaticF_s_GlyphIndexes_MarshallingArray_A(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
-
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_s_GlyphIndexes_MarshallingArray_A();
-
-  static inline void
-  setStaticF_s_GlyphMarshallingStruct_IN(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> value);
-
-  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> getStaticF_s_GlyphMarshallingStruct_IN();
-
-  static inline void
-  setStaticF_s_GlyphMarshallingStruct_OUT(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> value);
-
-  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> getStaticF_s_GlyphMarshallingStruct_OUT();
-
-  static inline void setStaticF_s_FreeGlyphRects(::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> value);
-
-  static inline ::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> getStaticF_s_FreeGlyphRects();
-
-  static inline void setStaticF_s_UsedGlyphRects(::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> value);
-
-  static inline ::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> getStaticF_s_UsedGlyphRects();
-
-  static inline void setStaticF_s_PairAdjustmentRecords_MarshallingArray(
-      ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> value);
-
-  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>
-  getStaticF_s_PairAdjustmentRecords_MarshallingArray();
-
-  static inline void setStaticF_s_GlyphLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* getStaticF_s_GlyphLookupDictionary();
-
-  /// @brief Method InitializeFontEngine, addr 0x2d20b4c, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError InitializeFontEngine();
-
-  /// @brief Method InitializeFontEngine_Internal, addr 0x2d20bb4, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t InitializeFontEngine_Internal();
-
-  /// @brief Method LoadFontFace, addr 0x2d20bdc, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::StringW filePath, int32_t pointSize, int32_t faceIndex);
-
-  /// @brief Method LoadFontFace_With_Size_And_FaceIndex_Internal, addr 0x2d20c68, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t LoadFontFace_With_Size_And_FaceIndex_Internal(::StringW filePath, int32_t pointSize, int32_t faceIndex);
-
-  /// @brief Method LoadFontFace, addr 0x2d20cbc, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, int32_t pointSize);
-
-  /// @brief Method LoadFontFace_With_Size_FromFont_Internal, addr 0x2d20d40, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t LoadFontFace_With_Size_FromFont_Internal(::UnityEngine::Font* font, int32_t pointSize);
-
-  /// @brief Method LoadFontFace, addr 0x2d20d84, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, int32_t pointSize, int32_t faceIndex);
-
-  /// @brief Method LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal, addr 0x2d20e10, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal(::UnityEngine::Font* font, int32_t pointSize, int32_t faceIndex);
-
-  /// @brief Method LoadFontFace, addr 0x2d20e64, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::StringW familyName, ::StringW styleName, int32_t pointSize);
-
-  /// @brief Method LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal, addr 0x2d20ef0, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal(::StringW familyName, ::StringW styleName, int32_t pointSize);
-
-  /// @brief Method TryGetSystemFontReference, addr 0x2d20f44, size 0x8c, virtual false, abstract: false, final false
-  static inline bool TryGetSystemFontReference(::StringW familyName, ::StringW styleName, ByRef<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
-
-  /// @brief Method TryGetSystemFontReference_Internal, addr 0x2d20fd0, size 0x54, virtual false, abstract: false, final false
-  static inline bool TryGetSystemFontReference_Internal(::StringW familyName, ::StringW styleName, ByRef<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
-
-  /// @brief Method GetFaceInfo, addr 0x2d21024, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetFaceInfo, addr 0x2e2e1f4, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::FaceInfo GetFaceInfo();
 
-  /// @brief Method GetFaceInfo_Internal, addr 0x2d210c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetFaceInfo_Internal, addr 0x2e2e294, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetFaceInfo_Internal(ByRef<::UnityEngine::TextCore::FaceInfo> faceInfo);
 
-  /// @brief Method GetGlyphIndex, addr 0x2d21100, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGlyphIndex, addr 0x2e2e2d0, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetGlyphIndex(uint32_t unicode);
 
-  /// @brief Method TryGetGlyphWithUnicodeValue, addr 0x2d2113c, size 0x154, virtual false, abstract: false, final false
-  static inline bool TryGetGlyphWithUnicodeValue(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ByRef<::UnityEngine::TextCore::Glyph*> glyph);
+  /// @brief Method GetGlyphPairAdjustmentRecords, addr 0x2e2f784, size 0x188, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>
+  GetGlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes, ByRef<int32_t> recordCount);
 
-  /// @brief Method TryGetGlyphWithUnicodeValue_Internal, addr 0x2d21290, size 0x54, virtual false, abstract: false, final false
-  static inline bool TryGetGlyphWithUnicodeValue_Internal(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
-                                                          ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
+  /// @brief Method GetGlyphPairAdjustmentTable, addr 0x2e2f5b4, size 0x150, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>
+  GetGlyphPairAdjustmentTable(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndexes);
 
-  /// @brief Method TryGetGlyphWithIndexValue, addr 0x2d212e4, size 0x154, virtual false, abstract: false, final false
-  static inline bool TryGetGlyphWithIndexValue(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ByRef<::UnityEngine::TextCore::Glyph*> glyph);
+  /// @brief Method GetPairAdjustmentRecordsFromMarshallingArray, addr 0x2e2f748, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t GetPairAdjustmentRecordsFromMarshallingArray(
+      ByRef<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>> glyphPairAdjustmentRecords);
 
-  /// @brief Method TryGetGlyphWithIndexValue_Internal, addr 0x2d21438, size 0x54, virtual false, abstract: false, final false
-  static inline bool TryGetGlyphWithIndexValue_Internal(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
-                                                        ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
+  /// @brief Method InitializeFontEngine, addr 0x2e2dd1c, size 0x68, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError InitializeFontEngine();
 
-  /// @brief Method SetTextureUploadMode, addr 0x2d2148c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitializeFontEngine_Internal, addr 0x2e2dd84, size 0x28, virtual false, abstract: false, final false
+  static inline int32_t InitializeFontEngine_Internal();
+
+  /// @brief Method LoadFontFace, addr 0x2e2e034, size 0x8c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::StringW familyName, ::StringW styleName, int32_t pointSize);
+
+  /// @brief Method LoadFontFace, addr 0x2e2ddac, size 0x8c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::StringW filePath, int32_t pointSize, int32_t faceIndex);
+
+  /// @brief Method LoadFontFace, addr 0x2e2de8c, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, int32_t pointSize);
+
+  /// @brief Method LoadFontFace, addr 0x2e2df54, size 0x8c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, int32_t pointSize, int32_t faceIndex);
+
+  /// @brief Method LoadFontFace_With_Size_And_FaceIndex_Internal, addr 0x2e2de38, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t LoadFontFace_With_Size_And_FaceIndex_Internal(::StringW filePath, int32_t pointSize, int32_t faceIndex);
+
+  /// @brief Method LoadFontFace_With_Size_FromFont_Internal, addr 0x2e2df10, size 0x44, virtual false, abstract: false, final false
+  static inline int32_t LoadFontFace_With_Size_FromFont_Internal(::UnityEngine::Font* font, int32_t pointSize);
+
+  /// @brief Method LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal, addr 0x2e2dfe0, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal(::UnityEngine::Font* font, int32_t pointSize, int32_t faceIndex);
+
+  /// @brief Method LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal, addr 0x2e2e0c0, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal(::StringW familyName, ::StringW styleName, int32_t pointSize);
+
+  /// @brief Method PopulatePairAdjustmentRecordMarshallingArray_from_KernTable, addr 0x2e2f704, size 0x44, virtual false, abstract: false, final false
+  static inline int32_t PopulatePairAdjustmentRecordMarshallingArray_from_KernTable(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndexes, ByRef<int32_t> recordCount);
+
+  /// @brief Method ResetAtlasTexture, addr 0x2e2f90c, size 0x3c, virtual false, abstract: false, final false
+  static inline void ResetAtlasTexture(::UnityEngine::Texture2D* texture);
+
+  /// @brief Method SetMarshallingArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void SetMarshallingArraySize(ByRef<::ArrayW<T, ::Array<T>*>> marshallingArray, int32_t recordCount);
+
+  /// @brief Method SetTextureUploadMode, addr 0x2e2e65c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetTextureUploadMode(bool shouldUploadImmediately);
 
-  /// @brief Method TryAddGlyphToTexture, addr 0x2d214c8, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphToTexture, addr 0x2e2e698, size 0x530, virtual false, abstract: false, final false
   static inline bool TryAddGlyphToTexture(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                           ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects,
                                           ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
                                           ::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::TextCore::Glyph*> glyph);
 
-  /// @brief Method TryAddGlyphToTexture_Internal, addr 0x2d219f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphToTexture_Internal, addr 0x2e2ebc8, size 0x9c, virtual false, abstract: false, final false
   static inline bool TryAddGlyphToTexture_Internal(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                                    ByRef<::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*>> freeGlyphRects, ByRef<int32_t> freeGlyphRectCount,
                                                    ByRef<::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*>> usedGlyphRects, ByRef<int32_t> usedGlyphRectCount,
                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::UnityEngine::Texture2D* texture,
                                                    ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph);
 
-  /// @brief Method TryAddGlyphsToTexture, addr 0x2d21a94, size 0x888, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphsToTexture, addr 0x2e2ec64, size 0x888, virtual false, abstract: false, final false
   static inline bool TryAddGlyphsToTexture(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                            ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects,
                                            ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
                                            ::UnityEngine::Texture2D* texture, ByRef<::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*>> glyphs);
 
-  /// @brief Method TryAddGlyphsToTexture_Internal, addr 0x2d2233c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphsToTexture_Internal, addr 0x2e2f50c, size 0xa8, virtual false, abstract: false, final false
   static inline bool
   TryAddGlyphsToTexture_Internal(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                  ByRef<::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*>> freeGlyphRects, ByRef<int32_t> freeGlyphRectCount,
@@ -225,30 +191,68 @@ public:
                                  ByRef<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*>> glyphs,
                                  ByRef<int32_t> glyphCount);
 
-  /// @brief Method GetGlyphPairAdjustmentTable, addr 0x2d223e4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TryGetGlyphWithIndexValue, addr 0x2e2e4b4, size 0x154, virtual false, abstract: false, final false
+  static inline bool TryGetGlyphWithIndexValue(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ByRef<::UnityEngine::TextCore::Glyph*> glyph);
+
+  /// @brief Method TryGetGlyphWithIndexValue_Internal, addr 0x2e2e608, size 0x54, virtual false, abstract: false, final false
+  static inline bool TryGetGlyphWithIndexValue_Internal(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
+                                                        ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
+
+  /// @brief Method TryGetGlyphWithUnicodeValue, addr 0x2e2e30c, size 0x154, virtual false, abstract: false, final false
+  static inline bool TryGetGlyphWithUnicodeValue(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ByRef<::UnityEngine::TextCore::Glyph*> glyph);
+
+  /// @brief Method TryGetGlyphWithUnicodeValue_Internal, addr 0x2e2e460, size 0x54, virtual false, abstract: false, final false
+  static inline bool TryGetGlyphWithUnicodeValue_Internal(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
+                                                          ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
+
+  /// @brief Method TryGetSystemFontReference, addr 0x2e2e114, size 0x8c, virtual false, abstract: false, final false
+  static inline bool TryGetSystemFontReference(::StringW familyName, ::StringW styleName, ByRef<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
+
+  /// @brief Method TryGetSystemFontReference_Internal, addr 0x2e2e1a0, size 0x54, virtual false, abstract: false, final false
+  static inline bool TryGetSystemFontReference_Internal(::StringW familyName, ::StringW styleName, ByRef<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
+
+  static inline ::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> getStaticF_s_FreeGlyphRects();
+
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_s_GlyphIndexes_MarshallingArray_A();
+
+  static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* getStaticF_s_GlyphLookupDictionary();
+
+  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> getStaticF_s_GlyphMarshallingStruct_IN();
+
+  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> getStaticF_s_GlyphMarshallingStruct_OUT();
+
+  static inline ::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> getStaticF_s_Glyphs();
+
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>
-  GetGlyphPairAdjustmentTable(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndexes);
+  getStaticF_s_PairAdjustmentRecords_MarshallingArray();
 
-  /// @brief Method GetGlyphPairAdjustmentRecords, addr 0x2d225b4, size 0x188, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>
-  GetGlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes, ByRef<int32_t> recordCount);
+  static inline ::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> getStaticF_s_UsedGlyphRects();
 
-  /// @brief Method PopulatePairAdjustmentRecordMarshallingArray_from_KernTable, addr 0x2d22534, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t PopulatePairAdjustmentRecordMarshallingArray_from_KernTable(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndexes, ByRef<int32_t> recordCount);
+  static inline void setStaticF_s_FreeGlyphRects(::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> value);
 
-  /// @brief Method GetPairAdjustmentRecordsFromMarshallingArray, addr 0x2d22578, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetPairAdjustmentRecordsFromMarshallingArray(
-      ByRef<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>> glyphPairAdjustmentRecords);
+  static inline void setStaticF_s_GlyphIndexes_MarshallingArray_A(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method GenericListToMarshallingArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GenericListToMarshallingArray(ByRef<::System::Collections::Generic::List_1<T>*> srcList, ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
+  static inline void setStaticF_s_GlyphLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* value);
 
-  /// @brief Method SetMarshallingArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void SetMarshallingArraySize(ByRef<::ArrayW<T, ::Array<T>*>> marshallingArray, int32_t recordCount);
+  static inline void
+  setStaticF_s_GlyphMarshallingStruct_IN(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> value);
 
-  /// @brief Method ResetAtlasTexture, addr 0x2d2273c, size 0x3c, virtual false, abstract: false, final false
-  static inline void ResetAtlasTexture(::UnityEngine::Texture2D* texture);
+  static inline void
+  setStaticF_s_GlyphMarshallingStruct_OUT(::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*> value);
 
+  static inline void setStaticF_s_Glyphs(::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*> value);
+
+  static inline void setStaticF_s_PairAdjustmentRecords_MarshallingArray(
+      ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> value);
+
+  static inline void setStaticF_s_UsedGlyphRects(::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontEngine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FontEngine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontEngine(FontEngine&&) = delete;
@@ -257,12 +261,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FontEngine(FontEngine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontEngine();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

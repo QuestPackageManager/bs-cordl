@@ -29,57 +29,61 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(241))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::PbeS2Parameters*
 class CORDL_TYPE PbeS2Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_EncryptionScheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* EncryptionScheme;
+
+  __declspec(property(get = get_KeyDerivationFunc))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* KeyDerivationFunc;
+
   /// @brief Field func, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_func, put = __cordl_internal_set_func))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* func;
 
   /// @brief Field scheme, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_scheme, put = __cordl_internal_set_scheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
 
-  __declspec(property(get = get_KeyDerivationFunc))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* KeyDerivationFunc;
-
-  __declspec(property(get = get_EncryptionScheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* EncryptionScheme;
-
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& __cordl_internal_get_func();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*> const& __cordl_internal_get_func() const;
-
-  constexpr void __cordl_internal_set_func(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& __cordl_internal_get_scheme();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*> const& __cordl_internal_get_scheme() const;
-
-  constexpr void __cordl_internal_set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
-
-  /// @brief Method GetInstance, addr 0xf899bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xffa81c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc,
                                                                            ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
 
-  /// @brief Method .ctor, addr 0xf89cec, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
-
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xf89a60, size 0x28c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method get_KeyDerivationFunc, addr 0xf89ea0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
-
-  /// @brief Method get_EncryptionScheme, addr 0xf89ea8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
-
-  /// @brief Method ToAsn1Object, addr 0xf89eb0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0xffad10, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& __cordl_internal_get_func();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*> const& __cordl_internal_get_func() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& __cordl_internal_get_scheme();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*> const& __cordl_internal_get_scheme() const;
+
+  constexpr void __cordl_internal_set_func(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* value);
+
+  constexpr void __cordl_internal_set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
+
+  /// @brief Method .ctor, addr 0xffab4c, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* keyDevFunc, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* encScheme);
+
+  /// @brief Method .ctor, addr 0xffa8c0, size 0x28c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_EncryptionScheme, addr 0xffad08, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* get_EncryptionScheme();
+
+  /// @brief Method get_KeyDerivationFunc, addr 0xffad00, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* get_KeyDerivationFunc();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PbeS2Parameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PbeS2Parameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PbeS2Parameters(PbeS2Parameters&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PbeS2Parameters(PbeS2Parameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PbeS2Parameters();
-
-public:
   /// @brief Field func, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* ___func;
 

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Threading::Timeout);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2674))
 // CS Name: ::System.Threading::Timeout*
 class CORDL_TYPE Timeout : public ::System::Object {
 public:
@@ -24,10 +22,16 @@ public:
   /// @brief Field InfiniteTimeSpan, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InfiniteTimeSpan, put = setStaticF_InfiniteTimeSpan))::System::TimeSpan InfiniteTimeSpan;
 
-  static inline void setStaticF_InfiniteTimeSpan(::System::TimeSpan value);
-
   static inline ::System::TimeSpan getStaticF_InfiniteTimeSpan();
 
+  static inline void setStaticF_InfiniteTimeSpan(::System::TimeSpan value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Timeout();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Timeout", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Timeout(Timeout&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Timeout(Timeout const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Timeout();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

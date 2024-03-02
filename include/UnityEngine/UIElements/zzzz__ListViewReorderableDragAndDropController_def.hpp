@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewReorderableDragAndDropControll
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6951))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6950))
 // CS Name: ::UnityEngine.UIElements::ListViewReorderableDragAndDropController*
 class CORDL_TYPE ListViewReorderableDragAndDropController : public ::UnityEngine::UIElements::BaseReorderableDragAndDropController {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Field m_ListView, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
 
+  /// @brief Method HandleDragAndDrop, addr 0x2f17680, size 0x19c, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
+
+  static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::ListView* view);
+
+  /// @brief Method OnDrop, addr 0x2f1781c, size 0x288, virtual true, abstract: false, final false
+  inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
+
   constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __cordl_internal_get_m_ListView() const;
 
   constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
 
-  static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::ListView* view);
-
-  /// @brief Method .ctor, addr 0x2e08b0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1761c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ListView* view);
 
-  /// @brief Method HandleDragAndDrop, addr 0x2e08b70, size 0x19c, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListViewReorderableDragAndDropController();
 
-  /// @brief Method OnDrop, addr 0x2e08d0c, size 0x288, virtual true, abstract: false, final false
-  inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ListViewReorderableDragAndDropController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListViewReorderableDragAndDropController(ListViewReorderableDragAndDropController&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListViewReorderableDragAndDropController(ListViewReorderableDragAndDropController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListViewReorderableDragAndDropController();
-
-public:
   /// @brief Field m_ListView, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::ListView* ___m_ListView;
 

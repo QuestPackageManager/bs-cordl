@@ -22,87 +22,91 @@ MARK_REF_PTR_T(::GlobalNamespace::InstancedMaterialLightWithId);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14531))
 // CS Name: ::InstancedMaterialLightWithId*
 class CORDL_TYPE InstancedMaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _materialPropertyBlockColorSetter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockColorSetter,
-                      put = __cordl_internal_set__materialPropertyBlockColorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _materialPropertyBlockColorSetter;
-
-  /// @brief Field _setColorOnly, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
-
-  /// @brief Field _intensity, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
-
-  /// @brief Field _minAlpha, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
+  /// @brief Field _color, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _hdr, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__hdr, put = __cordl_internal_set__hdr)) bool _hdr;
 
-  /// @brief Field _color, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _intensity, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
+
+  /// @brief Field _materialPropertyBlockColorSetter, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockColorSetter,
+                      put = __cordl_internal_set__materialPropertyBlockColorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _materialPropertyBlockColorSetter;
+
+  /// @brief Field _minAlpha, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
+
+  /// @brief Field _setColorOnly, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
 
   /// @brief Field _startColorWasSet, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__startColorWasSet, put = __cordl_internal_set__startColorWasSet)) bool _startColorWasSet;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__materialPropertyBlockColorSetter();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__materialPropertyBlockColorSetter() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
-
-  constexpr bool& __cordl_internal_get__setColorOnly();
-
-  constexpr bool const& __cordl_internal_get__setColorOnly() const;
-
-  constexpr void __cordl_internal_set__setColorOnly(bool value);
-
-  constexpr float_t& __cordl_internal_get__intensity();
-
-  constexpr float_t const& __cordl_internal_get__intensity() const;
-
-  constexpr void __cordl_internal_set__intensity(float_t value);
-
-  constexpr float_t& __cordl_internal_get__minAlpha();
-
-  constexpr float_t const& __cordl_internal_get__minAlpha() const;
-
-  constexpr void __cordl_internal_set__minAlpha(float_t value);
-
-  constexpr bool& __cordl_internal_get__hdr();
-
-  constexpr bool const& __cordl_internal_get__hdr() const;
-
-  constexpr void __cordl_internal_set__hdr(bool value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
-
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
-
-  constexpr bool& __cordl_internal_get__startColorWasSet();
-
-  constexpr bool const& __cordl_internal_get__startColorWasSet() const;
-
-  constexpr void __cordl_internal_set__startColorWasSet(bool value);
-
-  /// @brief Method ColorWasSet, addr 0x210f27c, size 0x80, virtual true, abstract: false, final false
-  inline void ColorWasSet(::UnityEngine::Color newColor);
-
-  /// @brief Method AddNecessaryComponents, addr 0x210f2fc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x227210c, size 0x104, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
+
+  /// @brief Method ColorWasSet, addr 0x227208c, size 0x80, virtual true, abstract: false, final false
+  inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f400, size 0x18, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
+  constexpr bool const& __cordl_internal_get__hdr() const;
+
+  constexpr bool& __cordl_internal_get__hdr();
+
+  constexpr float_t const& __cordl_internal_get__intensity() const;
+
+  constexpr float_t& __cordl_internal_get__intensity();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__materialPropertyBlockColorSetter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__materialPropertyBlockColorSetter();
+
+  constexpr float_t const& __cordl_internal_get__minAlpha() const;
+
+  constexpr float_t& __cordl_internal_get__minAlpha();
+
+  constexpr bool const& __cordl_internal_get__setColorOnly() const;
+
+  constexpr bool& __cordl_internal_get__setColorOnly();
+
+  constexpr bool const& __cordl_internal_get__startColorWasSet() const;
+
+  constexpr bool& __cordl_internal_get__startColorWasSet();
+
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__hdr(bool value);
+
+  constexpr void __cordl_internal_set__intensity(float_t value);
+
+  constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
+
+  constexpr void __cordl_internal_set__minAlpha(float_t value);
+
+  constexpr void __cordl_internal_set__setColorOnly(bool value);
+
+  constexpr void __cordl_internal_set__startColorWasSet(bool value);
+
+  /// @brief Method .ctor, addr 0x2272210, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstancedMaterialLightWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstancedMaterialLightWithId(InstancedMaterialLightWithId&&) = delete;
@@ -111,12 +115,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstancedMaterialLightWithId(InstancedMaterialLightWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstancedMaterialLightWithId();
-
-public:
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;
 

@@ -27,16 +27,10 @@ MARK_REF_PTR_T(::GlobalNamespace::GameObjectSwitchEventEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4900))
 // CS Name: ::GameObjectSwitchEventEffect*
 class CORDL_TYPE GameObjectSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _deactivateOnBoostObjects, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__deactivateOnBoostObjects,
-                      put = __cordl_internal_set__deactivateOnBoostObjects))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _deactivateOnBoostObjects;
-
   /// @brief Field _activateOnBoostObjects, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__activateOnBoostObjects,
                       put = __cordl_internal_set__activateOnBoostObjects))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _activateOnBoostObjects;
@@ -49,47 +43,57 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__deactivateOnBoostObjects();
+  /// @brief Field _deactivateOnBoostObjects, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__deactivateOnBoostObjects,
+                      put = __cordl_internal_set__deactivateOnBoostObjects))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _deactivateOnBoostObjects;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__deactivateOnBoostObjects() const;
+  /// @brief Method HandleBeatmapEvent, addr 0x24335bc, size 0x18, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
-  constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
+  static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__activateOnBoostObjects();
+  /// @brief Method OnDestroy, addr 0x24335a0, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x24334f8, size 0xa8, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method ToggleObjects, addr 0x24335d4, size 0xc4, virtual false, abstract: false, final false
+  inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activateOnBoostObjects() const;
 
-  constexpr void __cordl_internal_set__activateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__activateOnBoostObjects();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__deactivateOnBoostObjects() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__deactivateOnBoostObjects();
+
+  constexpr void __cordl_internal_set__activateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x23a5478, size 0xa8, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method OnDestroy, addr 0x23a5520, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleBeatmapEvent, addr 0x23a553c, size 0x18, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
-
-  /// @brief Method ToggleObjects, addr 0x23a5554, size 0xc4, virtual false, abstract: false, final false
-  inline void ToggleObjects(bool isBoostOn);
-
-  static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a5618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2433698, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameObjectSwitchEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectSwitchEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameObjectSwitchEventEffect();
-
-public:
   /// @brief Field _deactivateOnBoostObjects, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____deactivateOnBoostObjects;
 

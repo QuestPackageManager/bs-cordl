@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::MultilineAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10178))
 // CS Name: ::UnityEngine::MultilineAttribute*
 class CORDL_TYPE MultilineAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field lines, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_lines, put = __cordl_internal_set_lines)) int32_t lines;
 
-  constexpr int32_t& __cordl_internal_get_lines();
+  static inline ::UnityEngine::MultilineAttribute* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_lines() const;
 
+  constexpr int32_t& __cordl_internal_get_lines();
+
   constexpr void __cordl_internal_set_lines(int32_t value);
 
-  static inline ::UnityEngine::MultilineAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ccc20c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbe8e8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultilineAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultilineAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultilineAttribute(MultilineAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultilineAttribute(MultilineAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultilineAttribute();
-
-public:
   /// @brief Field lines, offset: 0x10, size: 0x4, def value: None
   int32_t ___lines;
 

@@ -19,32 +19,30 @@ MARK_VAL_T(::Mono::RuntimePropertyHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2232))
 // CS Name: ::Mono::RuntimePropertyHandle
 struct CORDL_TYPE RuntimePropertyHandle {
 public:
   // Declarations
   __declspec(property(get = get_Value)) void* Value;
 
-  /// @brief Method .ctor, addr 0x2412948, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* v);
-
-  /// @brief Method get_Value, addr 0x2412950, size 0x8, virtual false, abstract: false, final false
-  inline void* get_Value();
-
-  /// @brief Method Equals, addr 0x2412958, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25034b0, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2412a64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25035bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimePropertyHandle(void* value) noexcept;
+  /// @brief Method .ctor, addr 0x25034a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(void* v);
+
+  /// @brief Method get_Value, addr 0x25034a8, size 0x8, virtual false, abstract: false, final false
+  inline void* get_Value();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimePropertyHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RuntimePropertyHandle(void* value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   void* value;

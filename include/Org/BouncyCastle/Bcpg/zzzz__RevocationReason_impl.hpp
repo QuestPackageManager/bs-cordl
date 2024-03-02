@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationReason::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x11c8a08;
+  constexpr static std::size_t addrs = 0x1239868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Bcpg::RevocationReason::*)(bool, ::Org::BouncyCastle::Bcpg::RevocationReasonTag, ::StringW)>(&::Org::BouncyCastle::Bcpg::RevocationReason::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x11c8a50;
+  constexpr static std::size_t addrs = 0x12398b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Bcpg::RevocationReasonTag, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::CreateData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11c8aa0;
+  constexpr static std::size_t addrs = 0x1239900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::RevocationReasonTag (::Org::BouncyCastle::Bcpg::RevocationReason::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::GetRevocationReason)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x11c8b44;
+  constexpr static std::size_t addrs = 0x12399a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::RevocationReason::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationReason::GetRevocationDescription)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x11c8b6c;
+  constexpr static std::size_t addrs = 0x12399cc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -55,20 +55,24 @@ MARK_REF_PTR_T(::System::__Console__WindowsConsole);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2584))
 // CS Name: ::Console::WindowsConsole::WindowsCancelHandler*
 class CORDL_TYPE __Console__WindowsConsole__WindowsCancelHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x25f75ec, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x25f76b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26eacac, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(int32_t keyCode);
 
+  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x26eabe8, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Console__WindowsConsole__WindowsCancelHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Console__WindowsConsole__WindowsCancelHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Console__WindowsConsole__WindowsCancelHandler(__Console__WindowsConsole__WindowsCancelHandler&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Console__WindowsConsole__WindowsCancelHandler(__Console__WindowsConsole__WindowsCancelHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Console__WindowsConsole__WindowsCancelHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -93,43 +91,47 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Console__Wind
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2585))
 // CS Name: ::Console::WindowsConsole*
 class CORDL_TYPE __Console__WindowsConsole : public ::System::Object {
 public:
   // Declarations
   using WindowsCancelHandler = ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler;
 
-  /// @brief Field ctrlHandlerAdded, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_ctrlHandlerAdded, put = setStaticF_ctrlHandlerAdded)) bool ctrlHandlerAdded;
-
   /// @brief Field cancelHandler, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cancelHandler, put = setStaticF_cancelHandler))::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* cancelHandler;
 
-  static inline void setStaticF_ctrlHandlerAdded(bool value);
+  /// @brief Field ctrlHandlerAdded, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_ctrlHandlerAdded, put = setStaticF_ctrlHandlerAdded)) bool ctrlHandlerAdded;
+
+  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x26eaaec, size 0x60, virtual false, abstract: false, final false
+  static inline bool DoWindowsConsoleCancelEvent(int32_t keyCode);
+
+  /// @brief Method GetConsoleCP, addr 0x26eaa18, size 0x68, virtual false, abstract: false, final false
+  static inline int32_t GetConsoleCP();
+
+  /// @brief Method GetConsoleOutputCP, addr 0x26eaa80, size 0x6c, virtual false, abstract: false, final false
+  static inline int32_t GetConsoleOutputCP();
+
+  /// @brief Method GetInputCodePage, addr 0x26e9b00, size 0x4c, virtual false, abstract: false, final false
+  static inline int32_t GetInputCodePage();
+
+  /// @brief Method GetOutputCodePage, addr 0x26e9b4c, size 0x4c, virtual false, abstract: false, final false
+  static inline int32_t GetOutputCodePage();
+
+  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* getStaticF_cancelHandler();
 
   static inline bool getStaticF_ctrlHandlerAdded();
 
   static inline void setStaticF_cancelHandler(::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* value);
 
-  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* getStaticF_cancelHandler();
+  static inline void setStaticF_ctrlHandlerAdded(bool value);
 
-  /// @brief Method GetConsoleCP, addr 0x25f741c, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t GetConsoleCP();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Console__WindowsConsole();
 
-  /// @brief Method GetConsoleOutputCP, addr 0x25f7484, size 0x6c, virtual false, abstract: false, final false
-  static inline int32_t GetConsoleOutputCP();
-
-  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x25f74f0, size 0x60, virtual false, abstract: false, final false
-  static inline bool DoWindowsConsoleCancelEvent(int32_t keyCode);
-
-  /// @brief Method GetInputCodePage, addr 0x25f6504, size 0x4c, virtual false, abstract: false, final false
-  static inline int32_t GetInputCodePage();
-
-  /// @brief Method GetOutputCodePage, addr 0x25f6550, size 0x4c, virtual false, abstract: false, final false
-  static inline int32_t GetOutputCodePage();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Console__WindowsConsole", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Console__WindowsConsole(__Console__WindowsConsole&&) = delete;
@@ -138,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Console__WindowsConsole(__Console__WindowsConsole const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Console__WindowsConsole();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -154,22 +150,14 @@ static_assert(::cordl_internals::size_check_v<::System::__Console__WindowsConsol
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2586))
 // CS Name: ::System::Console*
 class CORDL_TYPE Console : public ::System::Object {
 public:
   // Declarations
   using WindowsConsole = ::System::__Console__WindowsConsole;
 
-  /// @brief Field stdout, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_stdout, put = setStaticF_stdout))::System::IO::TextWriter* stdout;
-
-  /// @brief Field stderr, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_stderr, put = setStaticF_stderr))::System::IO::TextWriter* stderr;
-
-  /// @brief Field stdin, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_stdin, put = setStaticF_stdin))::System::IO::TextReader* stdin;
+  /// @brief Field cancel_event, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_cancel_event, put = setStaticF_cancel_event))::System::ConsoleCancelEventHandler* cancel_event;
 
   /// @brief Field inputEncoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_inputEncoding, put = setStaticF_inputEncoding))::System::Text::Encoding* inputEncoding;
@@ -177,78 +165,90 @@ public:
   /// @brief Field outputEncoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_outputEncoding, put = setStaticF_outputEncoding))::System::Text::Encoding* outputEncoding;
 
-  /// @brief Field cancel_event, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cancel_event, put = setStaticF_cancel_event))::System::ConsoleCancelEventHandler* cancel_event;
+  /// @brief Field stderr, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_stderr, put = setStaticF_stderr))::System::IO::TextWriter* stderr;
 
-  static inline void setStaticF_stdout(::System::IO::TextWriter* value);
+  /// @brief Field stdin, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_stdin, put = setStaticF_stdin))::System::IO::TextReader* stdin;
 
-  static inline ::System::IO::TextWriter* getStaticF_stdout();
+  /// @brief Field stdout, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_stdout, put = setStaticF_stdout))::System::IO::TextWriter* stdout;
 
-  static inline void setStaticF_stderr(::System::IO::TextWriter* value);
+  /// @brief Method DoConsoleCancelEvent, addr 0x26ea820, size 0x1f8, virtual false, abstract: false, final false
+  static inline void DoConsoleCancelEvent();
 
-  static inline ::System::IO::TextWriter* getStaticF_stderr();
+  /// @brief Method Open, addr 0x26ea2e0, size 0x15c, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* Open(void* handle, ::System::IO::FileAccess access, int32_t bufferSize);
 
-  static inline void setStaticF_stdin(::System::IO::TextReader* value);
+  /// @brief Method OpenStandardError, addr 0x26ea1a0, size 0x90, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* OpenStandardError(int32_t bufferSize);
 
-  static inline ::System::IO::TextReader* getStaticF_stdin();
+  /// @brief Method OpenStandardInput, addr 0x26ea43c, size 0x50, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* OpenStandardInput();
 
-  static inline void setStaticF_inputEncoding(::System::Text::Encoding* value);
+  /// @brief Method OpenStandardInput, addr 0x26ea080, size 0x90, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* OpenStandardInput(int32_t bufferSize);
 
-  static inline ::System::Text::Encoding* getStaticF_inputEncoding();
+  /// @brief Method OpenStandardOutput, addr 0x26ea110, size 0x90, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* OpenStandardOutput(int32_t bufferSize);
 
-  static inline void setStaticF_outputEncoding(::System::Text::Encoding* value);
+  /// @brief Method ReadKey, addr 0x26ea694, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::ConsoleKeyInfo ReadKey();
 
-  static inline ::System::Text::Encoding* getStaticF_outputEncoding();
+  /// @brief Method ReadKey, addr 0x26ea6ec, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  static inline void setStaticF_cancel_event(::System::ConsoleCancelEventHandler* value);
+  /// @brief Method SetOut, addr 0x26ea48c, size 0xe4, virtual false, abstract: false, final false
+  static inline void SetOut(::System::IO::TextWriter* newOut);
+
+  /// @brief Method SetupStreams, addr 0x26e9b98, size 0x3b0, virtual false, abstract: false, final false
+  static inline void SetupStreams(::System::Text::Encoding* inputEncoding, ::System::Text::Encoding* outputEncoding);
+
+  /// @brief Method WriteLine, addr 0x26ea570, size 0x74, virtual false, abstract: false, final false
+  static inline void WriteLine(::StringW value);
 
   static inline ::System::ConsoleCancelEventHandler* getStaticF_cancel_event();
 
-  /// @brief Method SetupStreams, addr 0x25f659c, size 0x3b0, virtual false, abstract: false, final false
-  static inline void SetupStreams(::System::Text::Encoding* inputEncoding, ::System::Text::Encoding* outputEncoding);
+  static inline ::System::Text::Encoding* getStaticF_inputEncoding();
 
-  /// @brief Method get_Error, addr 0x25f6c34, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Text::Encoding* getStaticF_outputEncoding();
+
+  static inline ::System::IO::TextWriter* getStaticF_stderr();
+
+  static inline ::System::IO::TextReader* getStaticF_stdin();
+
+  static inline ::System::IO::TextWriter* getStaticF_stdout();
+
+  /// @brief Method get_Error, addr 0x26ea230, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* get_Error();
 
-  /// @brief Method get_Out, addr 0x25f6c8c, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::IO::TextWriter* get_Out();
-
-  /// @brief Method Open, addr 0x25f6ce4, size 0x15c, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* Open(void* handle, ::System::IO::FileAccess access, int32_t bufferSize);
-
-  /// @brief Method OpenStandardError, addr 0x25f6ba4, size 0x90, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* OpenStandardError(int32_t bufferSize);
-
-  /// @brief Method OpenStandardInput, addr 0x25f6e40, size 0x50, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* OpenStandardInput();
-
-  /// @brief Method OpenStandardInput, addr 0x25f6a84, size 0x90, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* OpenStandardInput(int32_t bufferSize);
-
-  /// @brief Method OpenStandardOutput, addr 0x25f6b14, size 0x90, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* OpenStandardOutput(int32_t bufferSize);
-
-  /// @brief Method SetOut, addr 0x25f6e90, size 0xe4, virtual false, abstract: false, final false
-  static inline void SetOut(::System::IO::TextWriter* newOut);
-
-  /// @brief Method WriteLine, addr 0x25f6f74, size 0x74, virtual false, abstract: false, final false
-  static inline void WriteLine(::StringW value);
-
-  /// @brief Method get_InputEncoding, addr 0x25f6fe8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InputEncoding, addr 0x26ea5e4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_InputEncoding();
 
-  /// @brief Method get_OutputEncoding, addr 0x25f7040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x26ea288, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IO::TextWriter* get_Out();
+
+  /// @brief Method get_OutputEncoding, addr 0x26ea63c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_OutputEncoding();
 
-  /// @brief Method ReadKey, addr 0x25f7098, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::ConsoleKeyInfo ReadKey();
+  static inline void setStaticF_cancel_event(::System::ConsoleCancelEventHandler* value);
 
-  /// @brief Method ReadKey, addr 0x25f70f0, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
+  static inline void setStaticF_inputEncoding(::System::Text::Encoding* value);
 
-  /// @brief Method DoConsoleCancelEvent, addr 0x25f7224, size 0x1f8, virtual false, abstract: false, final false
-  static inline void DoConsoleCancelEvent();
+  static inline void setStaticF_outputEncoding(::System::Text::Encoding* value);
 
+  static inline void setStaticF_stderr(::System::IO::TextWriter* value);
+
+  static inline void setStaticF_stdin(::System::IO::TextReader* value);
+
+  static inline void setStaticF_stdout(::System::IO::TextWriter* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Console();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Console(Console&&) = delete;
@@ -257,12 +257,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Console(Console const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Console();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

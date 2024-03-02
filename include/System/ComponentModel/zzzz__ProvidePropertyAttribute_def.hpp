@@ -15,40 +15,44 @@ MARK_REF_PTR_T(::System::ComponentModel::ProvidePropertyAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9447))
 // CS Name: ::System.ComponentModel::ProvidePropertyAttribute*
 class CORDL_TYPE ProvidePropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_PropertyName))::StringW PropertyName;
+
+  __declspec(property(get = get_ReceiverTypeName))::StringW ReceiverTypeName;
+
   /// @brief Field <PropertyName>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__PropertyName_k__BackingField, put = __cordl_internal_set__PropertyName_k__BackingField))::StringW _PropertyName_k__BackingField;
 
   /// @brief Field <ReceiverTypeName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ReceiverTypeName_k__BackingField, put = __cordl_internal_set__ReceiverTypeName_k__BackingField))::StringW _ReceiverTypeName_k__BackingField;
 
-  __declspec(property(get = get_PropertyName))::StringW PropertyName;
-
-  __declspec(property(get = get_ReceiverTypeName))::StringW ReceiverTypeName;
+  constexpr ::StringW const& __cordl_internal_get__PropertyName_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__PropertyName_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__PropertyName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get__ReceiverTypeName_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__ReceiverTypeName_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__ReceiverTypeName_k__BackingField() const;
+  constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x29155a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x29ff088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_ReceiverTypeName, addr 0x29155ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverTypeName, addr 0x29ff090, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProvidePropertyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProvidePropertyAttribute(ProvidePropertyAttribute&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProvidePropertyAttribute(ProvidePropertyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProvidePropertyAttribute();
-
-public:
   /// @brief Field <PropertyName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
 

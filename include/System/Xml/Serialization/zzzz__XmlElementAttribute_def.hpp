@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlElementAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11587))
 // CS Name: ::System.Xml.Serialization::XmlElementAttribute*
 class CORDL_TYPE XmlElementAttribute : public ::System::Attribute {
 public:
@@ -28,35 +26,41 @@ public:
   /// @brief Field elementName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName))::StringW elementName;
 
-  /// @brief Field type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
-
   /// @brief Field order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  constexpr ::StringW& __cordl_internal_get_elementName();
+  /// @brief Field type, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+
+  static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName, ::System::Type* type);
 
   constexpr ::StringW const& __cordl_internal_get_elementName() const;
 
-  constexpr void __cordl_internal_set_elementName(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_elementName();
+
+  constexpr int32_t const& __cordl_internal_get_order() const;
+
+  constexpr int32_t& __cordl_internal_get_order();
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
-
-  constexpr int32_t& __cordl_internal_get_order();
-
-  constexpr int32_t const& __cordl_internal_get_order() const;
+  constexpr void __cordl_internal_set_elementName(::StringW value);
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName, ::System::Type* type);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x28abef8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29969dc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::System::Type* type);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlElementAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlElementAttribute(XmlElementAttribute&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlElementAttribute(XmlElementAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlElementAttribute();
-
-public:
   /// @brief Field elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___elementName;
 

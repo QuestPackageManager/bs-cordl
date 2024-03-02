@@ -26,21 +26,19 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::XRFeatureDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6333))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6335))
 // CS Name: ::UnityEngine.InputSystem.XR::XRFeatureDescriptor
 struct CORDL_TYPE XRFeatureDescriptor {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRFeatureDescriptor();
+
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "usageHints", ty:
   // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>*", modifiers: "", def_value: None }, CppParam { name: "featureType", ty:
   // "::UnityEngine::InputSystem::XR::FeatureType", modifiers: "", def_value: None }, CppParam { name: "customSize", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr XRFeatureDescriptor(::StringW name, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::UsageHint>* usageHints, ::UnityEngine::InputSystem::XR::FeatureType featureType,
                                 uint32_t customSize) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRFeatureDescriptor();
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;

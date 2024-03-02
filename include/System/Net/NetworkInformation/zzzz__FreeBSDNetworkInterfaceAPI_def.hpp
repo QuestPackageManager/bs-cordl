@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9279))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9265))
 // CS Name: ::System.Net.NetworkInformation::FreeBSDNetworkInterfaceAPI*
 class CORDL_TYPE FreeBSDNetworkInterfaceAPI : public ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29ed98c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ada504, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FreeBSDNetworkInterfaceAPI();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FreeBSDNetworkInterfaceAPI", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FreeBSDNetworkInterfaceAPI(FreeBSDNetworkInterfaceAPI&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FreeBSDNetworkInterfaceAPI(FreeBSDNetworkInterfaceAPI const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FreeBSDNetworkInterfaceAPI();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

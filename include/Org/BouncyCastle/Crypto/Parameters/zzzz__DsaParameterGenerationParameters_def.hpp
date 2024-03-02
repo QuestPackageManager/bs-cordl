@@ -18,20 +18,28 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationPa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1028))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaParameterGenerationParameters*
 class CORDL_TYPE DsaParameterGenerationParameters : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Certainty)) int32_t Certainty;
+
+  __declspec(property(get = get_L)) int32_t L;
+
+  __declspec(property(get = get_N)) int32_t N;
+
+  __declspec(property(get = get_Random))::Org::BouncyCastle::Security::SecureRandom* Random;
+
+  __declspec(property(get = get_UsageIndex)) int32_t UsageIndex;
+
+  /// @brief Field certainty, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
+
   /// @brief Field l, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) int32_t l;
 
   /// @brief Field n, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) int32_t n;
-
-  /// @brief Field certainty, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
 
   /// @brief Field random, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
@@ -39,72 +47,68 @@ public:
   /// @brief Field usageIndex, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_usageIndex, put = __cordl_internal_set_usageIndex)) int32_t usageIndex;
 
-  __declspec(property(get = get_L)) int32_t L;
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  __declspec(property(get = get_N)) int32_t N;
-
-  __declspec(property(get = get_UsageIndex)) int32_t UsageIndex;
-
-  __declspec(property(get = get_Certainty)) int32_t Certainty;
-
-  __declspec(property(get = get_Random))::Org::BouncyCastle::Security::SecureRandom* Random;
-
-  constexpr int32_t& __cordl_internal_get_l();
-
-  constexpr int32_t const& __cordl_internal_get_l() const;
-
-  constexpr void __cordl_internal_set_l(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_n();
-
-  constexpr int32_t const& __cordl_internal_get_n() const;
-
-  constexpr void __cordl_internal_set_n(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_certainty();
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random,
+                                                                                                    int32_t usageIndex);
 
   constexpr int32_t const& __cordl_internal_get_certainty() const;
 
-  constexpr void __cordl_internal_set_certainty(int32_t value);
+  constexpr int32_t& __cordl_internal_get_certainty();
+
+  constexpr int32_t const& __cordl_internal_get_l() const;
+
+  constexpr int32_t& __cordl_internal_get_l();
+
+  constexpr int32_t const& __cordl_internal_get_n() const;
+
+  constexpr int32_t& __cordl_internal_get_n();
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr int32_t const& __cordl_internal_get_usageIndex() const;
 
   constexpr int32_t& __cordl_internal_get_usageIndex();
 
-  constexpr int32_t const& __cordl_internal_get_usageIndex() const;
+  constexpr void __cordl_internal_set_certainty(int32_t value);
+
+  constexpr void __cordl_internal_set_l(int32_t value);
+
+  constexpr void __cordl_internal_set_n(int32_t value);
+
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   constexpr void __cordl_internal_set_usageIndex(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
-
-  /// @brief Method .ctor, addr 0xf31a7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa18dc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random,
-                                                                                                    int32_t usageIndex);
-
-  /// @brief Method .ctor, addr 0xf31ac8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa1928, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex);
 
-  /// @brief Method get_L, addr 0xf31b1c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_L();
-
-  /// @brief Method get_N, addr 0xf31b24, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_N();
-
-  /// @brief Method get_UsageIndex, addr 0xf31b2c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_UsageIndex();
-
-  /// @brief Method get_Certainty, addr 0xf31b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0xfa1994, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_Random, addr 0xf31b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_L, addr 0xfa197c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_L();
+
+  /// @brief Method get_N, addr 0xfa1984, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_N();
+
+  /// @brief Method get_Random, addr 0xfa199c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
+  /// @brief Method get_UsageIndex, addr 0xfa198c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_UsageIndex();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DsaParameterGenerationParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DsaParameterGenerationParameters(DsaParameterGenerationParameters&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DsaParameterGenerationParameters(DsaParameterGenerationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DsaParameterGenerationParameters();
-
-public:
   /// @brief Field l, offset: 0x10, size: 0x4, def value: None
   int32_t ___l;
 

@@ -15,20 +15,18 @@ MARK_VAL_T(::OVR::OpenVR::DistortionCoordinates_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8656))
 // CS Name: ::OVR.OpenVR::DistortionCoordinates_t
 struct CORDL_TYPE DistortionCoordinates_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DistortionCoordinates_t();
+
   // Ctor Parameters [CppParam { name: "rfRed0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfRed1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "rfGreen0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfGreen1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rfBlue0", ty: "float_t", modifiers:
   // "", def_value: None }, CppParam { name: "rfBlue1", ty: "float_t", modifiers: "", def_value: None }]
   constexpr DistortionCoordinates_t(float_t rfRed0, float_t rfRed1, float_t rfGreen0, float_t rfGreen1, float_t rfBlue0, float_t rfBlue1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DistortionCoordinates_t();
 
   /// @brief Field rfRed0, offset: 0x0, size: 0x4, def value: None
   float_t rfRed0;

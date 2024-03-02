@@ -20,22 +20,20 @@ MARK_REF_PTR_T(::TMPro::ITextElement);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
 // CS Name: ::TMPro::ITextElement*
 class CORDL_TYPE ITextElement {
 public:
   // Declarations
   __declspec(property(get = get_sharedMaterial))::UnityW<::UnityEngine::Material> sharedMaterial;
 
-  /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
+  /// @brief Method GetInstanceID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GetInstanceID();
 
   /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method GetInstanceID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GetInstanceID();
+  /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

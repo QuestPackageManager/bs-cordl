@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::Mono::Http::NtlmSession);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8850))
 // CS Name: ::Mono.Http::NtlmSession*
 class CORDL_TYPE NtlmSession : public ::System::Object {
 public:
@@ -36,20 +34,26 @@ public:
   /// @brief Field message, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::Mono::Security::Protocol::Ntlm::MessageBase* message;
 
+  /// @brief Method Authenticate, addr 0x290fb40, size 0x48c, virtual false, abstract: false, final false
+  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+
+  static inline ::Mono::Http::NtlmSession* New_ctor();
+
   constexpr ::Mono::Security::Protocol::Ntlm::MessageBase*& __cordl_internal_get_message();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::MessageBase*> const& __cordl_internal_get_message() const;
 
   constexpr void __cordl_internal_set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value);
 
-  static inline ::Mono::Http::NtlmSession* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2825ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290fb38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Authenticate, addr 0x2825edc, size 0x48c, virtual false, abstract: false, final false
-  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NtlmSession();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NtlmSession", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtlmSession(NtlmSession&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NtlmSession(NtlmSession const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NtlmSession();
-
-public:
   /// @brief Field message, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Protocol::Ntlm::MessageBase* ___message;
 

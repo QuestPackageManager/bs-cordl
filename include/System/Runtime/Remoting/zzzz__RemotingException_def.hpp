@@ -24,32 +24,36 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::RemotingException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3069))
 // CS Name: ::System.Runtime.Remoting::RemotingException*
 class CORDL_TYPE RemotingException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x248d940, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2484ec4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x248d948, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message, ::System::Exception* InnerException);
 
-  /// @brief Method .ctor, addr 0x248b718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25816ac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25816b4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x2578c30, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x257f484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* InnerException);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemotingException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RemotingException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemotingException(RemotingException&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RemotingException(RemotingException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemotingException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

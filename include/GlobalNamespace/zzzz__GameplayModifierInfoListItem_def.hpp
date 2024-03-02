@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5419))
 // CS Name: ::GameplayModifierInfoListItem*
 class CORDL_TYPE GameplayModifierInfoListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,26 +33,32 @@ public:
   /// @brief Field _iconImage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__iconImage, put = __cordl_internal_set__iconImage))::UnityW<::UnityEngine::UI::Image> _iconImage;
 
-  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
+  static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
+
+  /// @brief Method SetModifier, addr 0x24a25e0, size 0x190, virtual false, abstract: false, final false
+  inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
 
-  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconImage();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconImage() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconImage();
+
+  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
+
   constexpr void __cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method SetModifier, addr 0x2278a9c, size 0x224, virtual false, abstract: false, final false
-  inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
-
-  static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2278cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a2770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameplayModifierInfoListItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierInfoListItem(GameplayModifierInfoListItem&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifierInfoListItem(GameplayModifierInfoListItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayModifierInfoListItem();
-
-public:
   /// @brief Field _hoverHint, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::RootMotion::Comments);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12489))
 // CS Name: ::RootMotion::Comments*
 class CORDL_TYPE Comments : public ::UnityEngine::MonoBehaviour {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field text, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
-  constexpr ::StringW& __cordl_internal_get_text();
+  static inline ::RootMotion::Comments* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_text() const;
 
+  constexpr ::StringW& __cordl_internal_get_text();
+
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  static inline ::RootMotion::Comments* New_ctor();
-
-  /// @brief Method .ctor, addr 0x123ccd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1318d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Comments();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Comments", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Comments(Comments&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Comments(Comments const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Comments();
-
-public:
   /// @brief Field text, offset: 0x18, size: 0x8, def value: None
   ::StringW ___text;
 

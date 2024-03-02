@@ -18,48 +18,52 @@ MARK_REF_PTR_T(::System::LocalDataStoreElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2542))
 // CS Name: ::System::LocalDataStoreElement*
 class CORDL_TYPE LocalDataStoreElement : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::System::Object* m_value;
+  __declspec(property(get = get_Cookie)) int64_t Cookie;
+
+  __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
 
   /// @brief Field m_cookie, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
 
-  __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
+  /// @brief Field m_value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::System::Object* m_value;
 
-  __declspec(property(get = get_Cookie)) int64_t Cookie;
+  static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
+
+  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
+
+  constexpr int64_t& __cordl_internal_get_m_cookie();
 
   constexpr ::System::Object*& __cordl_internal_get_m_value();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_value() const;
 
-  constexpr void __cordl_internal_set_m_value(::System::Object* value);
-
-  constexpr int64_t& __cordl_internal_get_m_cookie();
-
-  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
-
   constexpr void __cordl_internal_set_m_cookie(int64_t value);
 
-  static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
+  constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x25d7c04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ca200, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Value, addr 0x25d7c2c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Value();
-
-  /// @brief Method set_Value, addr 0x25d7c34, size 0x8, virtual false, abstract: false, final false
-  inline void set_Value(::System::Object* value);
-
-  /// @brief Method get_Cookie, addr 0x25d7c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x26ca238, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
+  /// @brief Method get_Value, addr 0x26ca228, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Value();
+
+  /// @brief Method set_Value, addr 0x26ca230, size 0x8, virtual false, abstract: false, final false
+  inline void set_Value(::System::Object* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalDataStoreElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalDataStoreElement(LocalDataStoreElement&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStoreElement(LocalDataStoreElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalDataStoreElement();
-
-public:
   /// @brief Field m_value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___m_value;
 

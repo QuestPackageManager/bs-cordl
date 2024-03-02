@@ -18,36 +18,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1307))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1309))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsFatalAlert*
 class CORDL_TYPE TlsFatalAlert : public ::Org::BouncyCastle::Crypto::Tls::TlsException {
 public:
   // Declarations
+  __declspec(property(get = get_AlertDescription)) uint8_t AlertDescription;
+
   /// @brief Field alertDescription, offset 0x8c, size 0x1
   __declspec(property(get = __cordl_internal_get_alertDescription, put = __cordl_internal_set_alertDescription)) uint8_t alertDescription;
 
-  __declspec(property(get = get_AlertDescription)) uint8_t AlertDescription;
-
-  constexpr uint8_t& __cordl_internal_get_alertDescription();
-
-  constexpr uint8_t const& __cordl_internal_get_alertDescription() const;
-
-  constexpr void __cordl_internal_set_alertDescription(uint8_t value);
-
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert* New_ctor(uint8_t alertDescription);
-
-  /// @brief Method .ctor, addr 0xfaa180, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert* New_ctor(uint8_t alertDescription, ::System::Exception* alertCause);
 
-  /// @brief Method .ctor, addr 0xfaa570, size 0x44, virtual false, abstract: false, final false
+  constexpr uint8_t const& __cordl_internal_get_alertDescription() const;
+
+  constexpr uint8_t& __cordl_internal_get_alertDescription();
+
+  constexpr void __cordl_internal_set_alertDescription(uint8_t value);
+
+  /// @brief Method .ctor, addr 0x101afe0, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor(uint8_t alertDescription);
+
+  /// @brief Method .ctor, addr 0x101b3d0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription, ::System::Exception* alertCause);
 
-  /// @brief Method get_AlertDescription, addr 0xfae004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlertDescription, addr 0x101ee64, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_AlertDescription();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsFatalAlert();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsFatalAlert", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsFatalAlert(TlsFatalAlert&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsFatalAlert(TlsFatalAlert const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsFatalAlert();
-
-public:
   /// @brief Field alertDescription, offset: 0x8c, size: 0x1, def value: None
   uint8_t ___alertDescription;
 

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (
     ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::*)()>(&::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::get_avatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xe0a624;
+  constexpr static std::size_t addrs = 0xe5b688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::*)(
     ::GlobalNamespace::MultiplayerAvatarsData)>(&::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0xe0a638;
+  constexpr static std::size_t addrs = 0xe5b69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -18,8 +18,6 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9884))
 // CS Name: ::HoudiniEngineUnity::IEquivableWrapperClass`1<T>*
 class CORDL_TYPE IEquivableWrapperClass_1 {
 public:
@@ -27,11 +25,11 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<T>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<T>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<T>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<T>* i___HoudiniEngineUnity__IEquivable_1_T_() noexcept;
-
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsNull();
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<T>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<T>* i___HoudiniEngineUnity__IEquivable_1_T_() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IEquivableWrapperClass_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

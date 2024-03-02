@@ -30,12 +30,16 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
 // CS Name: ::System.Collections.ObjectModel::KeyedCollection`2<TKey,TItem>*
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:
   // Declarations
+  __declspec(property(get = get_Dictionary))::System::Collections::Generic::IDictionary_2<TKey, TItem>* Dictionary;
+
+  __declspec(property(get = get_Item)) TItem Item[];
+
+  __declspec(property(get = get_Items))::System::Collections::Generic::List_1<TItem>* Items;
+
   /// @brief Field comparer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
@@ -48,68 +52,17 @@ public:
   /// @brief Field threshold, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) int32_t threshold;
 
-  __declspec(property(get = get_Items))::System::Collections::Generic::List_1<TItem>* Items;
+  /// @brief Method AddKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AddKey(TKey key, TItem item);
 
-  __declspec(property(get = get_Item)) TItem Item[];
-
-  __declspec(property(get = get_Dictionary))::System::Collections::Generic::IDictionary_2<TKey, TItem>* Dictionary;
-
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
-
-  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& __cordl_internal_get_dict();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TItem>*> const& __cordl_internal_get_dict() const;
-
-  constexpr void __cordl_internal_set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value);
-
-  constexpr int32_t& __cordl_internal_get_keyCount();
-
-  constexpr int32_t const& __cordl_internal_get_keyCount() const;
-
-  constexpr void __cordl_internal_set_keyCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_threshold();
-
-  constexpr int32_t const& __cordl_internal_get_threshold() const;
-
-  constexpr void __cordl_internal_set_threshold(int32_t value);
-
-  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
-
-  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
-
-  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<TItem>* get_Items();
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TItem get_Item(TKey key);
+  /// @brief Method ClearItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ClearItems();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(TKey key);
 
-  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(TKey key, ByRef<TItem> item);
-
-  /// @brief Method get_Dictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IDictionary_2<TKey, TItem>* get_Dictionary();
-
-  /// @brief Method ClearItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ClearItems();
+  /// @brief Method CreateDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CreateDictionary();
 
   /// @brief Method GetKeyForItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey GetKeyForItem(TItem item);
@@ -117,21 +70,72 @@ public:
   /// @brief Method InsertItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InsertItem(int32_t index, TItem item);
 
+  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor();
+
+  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
+
+  static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
+
   /// @brief Method RemoveItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RemoveItem(int32_t index);
-
-  /// @brief Method SetItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void SetItem(int32_t index, TItem item);
-
-  /// @brief Method AddKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddKey(TKey key, TItem item);
-
-  /// @brief Method CreateDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CreateDictionary();
 
   /// @brief Method RemoveKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveKey(TKey key);
 
+  /// @brief Method SetItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetItem(int32_t index, TItem item);
+
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryGetValue(TKey key, ByRef<TItem> item);
+
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& __cordl_internal_get_dict();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TItem>*> const& __cordl_internal_get_dict() const;
+
+  constexpr int32_t const& __cordl_internal_get_keyCount() const;
+
+  constexpr int32_t& __cordl_internal_get_keyCount();
+
+  constexpr int32_t const& __cordl_internal_get_threshold() const;
+
+  constexpr int32_t& __cordl_internal_get_threshold();
+
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+
+  constexpr void __cordl_internal_set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value);
+
+  constexpr void __cordl_internal_set_keyCount(int32_t value);
+
+  constexpr void __cordl_internal_set_threshold(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
+
+  /// @brief Method get_Dictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IDictionary_2<TKey, TItem>* get_Dictionary();
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TItem get_Item(TKey key);
+
+  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<TItem>* get_Items();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyedCollection_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyedCollection_2(KeyedCollection_2&&) = delete;
@@ -140,12 +144,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyedCollection_2(KeyedCollection_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyedCollection_2();
-
-public:
   /// @brief Field comparer, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ___comparer;
 

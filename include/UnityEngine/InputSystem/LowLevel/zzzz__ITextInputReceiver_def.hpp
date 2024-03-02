@@ -16,17 +16,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::ITextInputReceiver);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6499))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ITextInputReceiver*
 class CORDL_TYPE ITextInputReceiver {
 public:
   // Declarations
-  /// @brief Method OnTextInput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnTextInput(char16_t character);
-
   /// @brief Method OnIMECompositionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnIMECompositionChanged(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
+
+  /// @brief Method OnTextInput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnTextInput(char16_t character);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextInputReceiver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

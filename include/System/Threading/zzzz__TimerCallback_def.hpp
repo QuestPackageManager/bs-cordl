@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::System::Threading::TimerCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2751))
 // CS Name: ::System.Threading::TimerCallback*
 class CORDL_TYPE TimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Threading::TimerCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2620a44, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2620b70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27153e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
+  static inline ::System::Threading::TimerCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x27152b4, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimerCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimerCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerCallback(TimerCallback&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimerCallback(TimerCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimerCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

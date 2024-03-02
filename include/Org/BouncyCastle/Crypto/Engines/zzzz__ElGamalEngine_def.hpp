@@ -29,76 +29,80 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::ElGamalEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(844))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::ElGamalEngine*
 class CORDL_TYPE ElGamalEngine : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+
+  /// @brief Field bitSize, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
+
+  /// @brief Field forEncryption, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
+
   /// @brief Field key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* key;
 
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Field forEncryption, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
-
-  /// @brief Field bitSize, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
-
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
+  /// @brief Method GetInputBlockSize, addr 0xf423c0, size 0x40, virtual true, abstract: false, final false
+  inline int32_t GetInputBlockSize();
+
+  /// @brief Method GetOutputBlockSize, addr 0xf42400, size 0x40, virtual true, abstract: false, final false
+  inline int32_t GetOutputBlockSize();
+
+  /// @brief Method Init, addr 0xf4210c, size 0x2b4, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine* New_ctor();
+
+  /// @brief Method ProcessBlock, addr 0xf42440, size 0x52c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
+
+  constexpr int32_t const& __cordl_internal_get_bitSize() const;
+
+  constexpr int32_t& __cordl_internal_get_bitSize();
+
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
+
+  constexpr bool& __cordl_internal_get_forEncryption();
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*& __cordl_internal_get_key();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* value);
-
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
-
-  constexpr bool& __cordl_internal_get_forEncryption();
-
-  constexpr bool const& __cordl_internal_get_forEncryption() const;
+  constexpr void __cordl_internal_set_bitSize(int32_t value);
 
   constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr int32_t& __cordl_internal_get_bitSize();
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* value);
 
-  constexpr int32_t const& __cordl_internal_get_bitSize() const;
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr void __cordl_internal_set_bitSize(int32_t value);
-
-  /// @brief Method get_AlgorithmName, addr 0xed026c, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method Init, addr 0xed02ac, size 0x2b4, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-
-  /// @brief Method GetInputBlockSize, addr 0xed0560, size 0x40, virtual true, abstract: false, final false
-  inline int32_t GetInputBlockSize();
-
-  /// @brief Method GetOutputBlockSize, addr 0xed05a0, size 0x40, virtual true, abstract: false, final false
-  inline int32_t GetOutputBlockSize();
-
-  /// @brief Method ProcessBlock, addr 0xed05e0, size 0x52c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
-
-  static inline ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine* New_ctor();
-
-  /// @brief Method .ctor, addr 0xed0b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf4296c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_AlgorithmName, addr 0xf420cc, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ElGamalEngine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalEngine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElGamalEngine(ElGamalEngine&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalEngine(ElGamalEngine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalEngine();
-
-public:
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* ___key;
 

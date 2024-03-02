@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CursorManager);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6810))
 // CS Name: ::UnityEngine.UIElements::CursorManager*
 class CORDL_TYPE CursorManager : public ::System::Object {
 public:
@@ -34,32 +32,38 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ICursorManager"
   constexpr operator ::UnityEngine::UIElements::ICursorManager*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
-  constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
+  static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  constexpr bool& __cordl_internal_get__isCursorOverriden_k__BackingField();
+  /// @brief Method ResetCursor, addr 0x2eccf78, size 0x68, virtual true, abstract: false, final true
+  inline void ResetCursor();
+
+  /// @brief Method SetCursor, addr 0x2ecce88, size 0xf0, virtual true, abstract: false, final true
+  inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
   constexpr bool const& __cordl_internal_get__isCursorOverriden_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__isCursorOverriden_k__BackingField();
+
   constexpr void __cordl_internal_set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method get_isCursorOverriden, addr 0x2dbf364, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isCursorOverriden();
-
-  /// @brief Method set_isCursorOverriden, addr 0x2dbf36c, size 0xc, virtual false, abstract: false, final false
-  inline void set_isCursorOverriden(bool value);
-
-  /// @brief Method SetCursor, addr 0x2dbf378, size 0xf0, virtual true, abstract: false, final true
-  inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
-
-  /// @brief Method ResetCursor, addr 0x2dbf468, size 0x68, virtual true, abstract: false, final true
-  inline void ResetCursor();
-
-  static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dbf4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eccfe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isCursorOverriden, addr 0x2ecce74, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isCursorOverriden();
+
+  /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
+  constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
+
+  /// @brief Method set_isCursorOverriden, addr 0x2ecce7c, size 0xc, virtual false, abstract: false, final false
+  inline void set_isCursorOverriden(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CursorManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CursorManager(CursorManager&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CursorManager(CursorManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CursorManager();
-
-public:
   /// @brief Field <isCursorOverriden>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isCursorOverriden_k__BackingField;
 

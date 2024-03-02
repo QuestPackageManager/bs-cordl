@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeDisableParallelForRestrictionAttribute::*)()>(
     &::Unity::Collections::NativeDisableParallelForRestrictionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c9e0bc;
+  constexpr static std::size_t addrs = 0x2d88c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

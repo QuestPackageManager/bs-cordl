@@ -22,39 +22,43 @@ MARK_REF_PTR_T(::System::Xml::Schema::DfaContentValidator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11610))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11612))
 // CS Name: ::System.Xml.Schema::DfaContentValidator*
 class CORDL_TYPE DfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
   // Declarations
-  /// @brief Field transitionTable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_transitionTable,
-                      put = __cordl_internal_set_transitionTable))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable;
-
   /// @brief Field symbols, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
 
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __cordl_internal_get_transitionTable();
-
-  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __cordl_internal_get_transitionTable() const;
-
-  constexpr void __cordl_internal_set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
-
-  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __cordl_internal_get_symbols() const;
-
-  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
+  /// @brief Field transitionTable, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_transitionTable,
+                      put = __cordl_internal_set_transitionTable))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable;
 
   static inline ::System::Xml::Schema::DfaContentValidator* New_ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable,
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,
                                                                      bool isEmptiable);
 
-  /// @brief Method .ctor, addr 0x28b0a10, size 0xa0, virtual false, abstract: false, final false
+  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __cordl_internal_get_symbols() const;
+
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> const& __cordl_internal_get_transitionTable() const;
+
+  constexpr ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>& __cordl_internal_get_transitionTable();
+
+  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
+
+  constexpr void __cordl_internal_set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
+
+  /// @brief Method .ctor, addr 0x299b4f4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable, ::System::Xml::Schema::SymbolsDictionary* symbols,
                     ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DfaContentValidator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DfaContentValidator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DfaContentValidator(DfaContentValidator&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DfaContentValidator(DfaContentValidator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DfaContentValidator();
-
-public:
   /// @brief Field transitionTable, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> ___transitionTable;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::XR::ConnectionChangeType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15616))
 // CS Name: ::UnityEngine.XR::ConnectionChangeType
 struct CORDL_TYPE ConnectionChangeType {
 public:
@@ -35,18 +33,23 @@ public:
     return static_cast<__ConnectionChangeType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr ConnectionChangeType(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ConnectionChangeType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr ConnectionChangeType(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field ConfigChange value: static_cast<uint32_t>(0x2010002u)
+  static ::UnityEngine::XR::ConnectionChangeType const ConfigChange;
 
   /// @brief Field Connected value: static_cast<uint32_t>(0x20100u)
   static ::UnityEngine::XR::ConnectionChangeType const Connected;
@@ -54,8 +57,8 @@ public:
   /// @brief Field Disconnected value: static_cast<uint32_t>(0x1000201u)
   static ::UnityEngine::XR::ConnectionChangeType const Disconnected;
 
-  /// @brief Field ConfigChange value: static_cast<uint32_t>(0x2010002u)
-  static ::UnityEngine::XR::ConnectionChangeType const ConfigChange;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

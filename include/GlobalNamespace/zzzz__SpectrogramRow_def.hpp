@@ -25,18 +25,19 @@ MARK_REF_PTR_T(::GlobalNamespace::SpectrogramRow);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5000))
 // CS Name: ::SpectrogramRow*
 class CORDL_TYPE SpectrogramRow : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _dataIndex, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__dataIndex, put = __cordl_internal_set__dataIndex)) int32_t _dataIndex;
+
+  /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+
   /// @brief Field _meshRenderers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderers,
                       put = __cordl_internal_set__meshRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _meshRenderers;
-
-  /// @brief Field _dataIndex, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__dataIndex, put = __cordl_internal_set__dataIndex)) int32_t _dataIndex;
 
   /// @brief Field _spectrogramData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData))::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
@@ -44,46 +45,49 @@ public:
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
 
-  /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  /// @brief Method Awake, addr 0x2444144, size 0xa8, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get__meshRenderers();
+  static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__meshRenderers() const;
-
-  constexpr void __cordl_internal_set__meshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
-
-  constexpr int32_t& __cordl_internal_get__dataIndex();
+  /// @brief Method Update, addr 0x24441ec, size 0x120, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__dataIndex() const;
 
-  constexpr void __cordl_internal_set__dataIndex(int32_t value);
+  constexpr int32_t& __cordl_internal_get__dataIndex();
 
-  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__meshRenderers() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get__meshRenderers();
 
   constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
 
+  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
+
+  constexpr void __cordl_internal_set__dataIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__meshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
+
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  static inline void setStaticF__spectrogramDataID(int32_t value);
+  /// @brief Method .ctor, addr 0x244430c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__spectrogramDataID();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
-  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
+  static inline void setStaticF__spectrogramDataID(int32_t value);
 
-  /// @brief Method Awake, addr 0x23b70b8, size 0xa8, virtual false, abstract: false, final false
-  inline void Awake();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpectrogramRow();
 
-  /// @brief Method Update, addr 0x23b7160, size 0x120, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b7280, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRow", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpectrogramRow(SpectrogramRow&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpectrogramRow(SpectrogramRow const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpectrogramRow();
-
-public:
   /// @brief Field _meshRenderers, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____meshRenderers;
 

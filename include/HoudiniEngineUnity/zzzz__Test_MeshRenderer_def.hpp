@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9919))
 // CS Name: ::HoudiniEngineUnity::Test_MeshRenderer*
 class CORDL_TYPE Test_MeshRenderer : public ::System::Object {
 public:
@@ -35,33 +33,39 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>*() noexcept;
 
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>*() noexcept;
+
+  /// @brief Method IsEquivalentTo, addr 0x2347eec, size 0x13c, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
+
+  /// @brief Method IsNull, addr 0x2347e8c, size 0x60, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self);
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  /// @brief Method .ctor, addr 0x2347e64, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::MeshRenderer* self);
+
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
   constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>*
   i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_MeshRenderer__() noexcept;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>*() noexcept;
-
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_MeshRenderer__() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_self();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_MeshRenderer();
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  static inline ::HoudiniEngineUnity::Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self);
-
-  /// @brief Method .ctor, addr 0x21e5f14, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::MeshRenderer* self);
-
-  /// @brief Method IsNull, addr 0x21e5f3c, size 0x60, virtual true, abstract: false, final true
-  inline bool IsNull();
-
-  /// @brief Method IsEquivalentTo, addr 0x21e5f9c, size 0x13c, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_MeshRenderer(Test_MeshRenderer&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_MeshRenderer(Test_MeshRenderer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_MeshRenderer();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ___self;
 

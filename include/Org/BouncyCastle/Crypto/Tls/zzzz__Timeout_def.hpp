@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Timeout);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1286))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Timeout*
 class CORDL_TYPE Timeout : public ::System::Object {
 public:
@@ -27,46 +25,52 @@ public:
   /// @brief Field startMillis, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_startMillis, put = __cordl_internal_set_startMillis)) int64_t startMillis;
 
-  constexpr int64_t& __cordl_internal_get_durationMillis();
+  /// @brief Method ConstrainWaitMillis, addr 0x1009844, size 0xc8, virtual false, abstract: false, final false
+  static inline int32_t ConstrainWaitMillis(int32_t waitMillis, ::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  constexpr int64_t const& __cordl_internal_get_durationMillis() const;
+  /// @brief Method ForWaitMillis, addr 0x1009940, size 0x60, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis);
 
-  constexpr void __cordl_internal_set_durationMillis(int64_t value);
+  /// @brief Method ForWaitMillis, addr 0x10099a0, size 0xd8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis);
 
-  constexpr int64_t& __cordl_internal_get_startMillis();
+  /// @brief Method GetWaitMillis, addr 0x100990c, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t GetWaitMillis(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  constexpr int64_t const& __cordl_internal_get_startMillis() const;
-
-  constexpr void __cordl_internal_set_startMillis(int64_t value);
+  /// @brief Method HasExpired, addr 0x1009a78, size 0x1c, virtual false, abstract: false, final false
+  static inline bool HasExpired(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis);
 
-  /// @brief Method .ctor, addr 0xf9887c, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(int64_t durationMillis);
-
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis, int64_t currentTimeMillis);
 
-  /// @brief Method .ctor, addr 0xf988ec, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(int64_t durationMillis, int64_t currentTimeMillis);
-
-  /// @brief Method RemainingMillis, addr 0xf98980, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemainingMillis, addr 0x10097e0, size 0x64, virtual false, abstract: false, final false
   inline int64_t RemainingMillis(int64_t currentTimeMillis);
 
-  /// @brief Method ConstrainWaitMillis, addr 0xf989e4, size 0xc8, virtual false, abstract: false, final false
-  static inline int32_t ConstrainWaitMillis(int32_t waitMillis, ::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
+  constexpr int64_t const& __cordl_internal_get_durationMillis() const;
 
-  /// @brief Method ForWaitMillis, addr 0xf98ae0, size 0x60, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis);
+  constexpr int64_t& __cordl_internal_get_durationMillis();
 
-  /// @brief Method ForWaitMillis, addr 0xf98b40, size 0xd8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis);
+  constexpr int64_t const& __cordl_internal_get_startMillis() const;
 
-  /// @brief Method GetWaitMillis, addr 0xf98aac, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t GetWaitMillis(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
+  constexpr int64_t& __cordl_internal_get_startMillis();
 
-  /// @brief Method HasExpired, addr 0xf98c18, size 0x1c, virtual false, abstract: false, final false
-  static inline bool HasExpired(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
+  constexpr void __cordl_internal_set_durationMillis(int64_t value);
 
+  constexpr void __cordl_internal_set_startMillis(int64_t value);
+
+  /// @brief Method .ctor, addr 0x10096dc, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(int64_t durationMillis);
+
+  /// @brief Method .ctor, addr 0x100974c, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor(int64_t durationMillis, int64_t currentTimeMillis);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Timeout();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Timeout", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Timeout(Timeout&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Timeout(Timeout const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Timeout();
-
-public:
   /// @brief Field durationMillis, offset: 0x10, size: 0x8, def value: None
   int64_t ___durationMillis;
 

@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::MemberAccessException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2436))
 // CS Name: ::System::MemberAccessException*
 class CORDL_TYPE MemberAccessException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::MemberAccessException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25af0a0, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::MemberAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MemberAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25af0fc, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x26a169c, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::MemberAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x25af120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a171c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x26a16f8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemberAccessException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberAccessException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberAccessException(MemberAccessException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberAccessException(MemberAccessException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberAccessException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

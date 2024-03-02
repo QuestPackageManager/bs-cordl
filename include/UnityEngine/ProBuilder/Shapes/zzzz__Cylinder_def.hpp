@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cylinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12227))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cylinder*
 class CORDL_TYPE Cylinder : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -45,38 +43,44 @@ public:
   /// @brief Field m_Smooth, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  constexpr int32_t& __cordl_internal_get_m_AxisDivisions();
-
-  constexpr int32_t const& __cordl_internal_get_m_AxisDivisions() const;
-
-  constexpr void __cordl_internal_set_m_AxisDivisions(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_HeightCuts();
-
-  constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
-
-  constexpr void __cordl_internal_set_m_HeightCuts(int32_t value);
-
-  constexpr bool& __cordl_internal_get_m_Smooth();
-
-  constexpr bool const& __cordl_internal_get_m_Smooth() const;
-
-  constexpr void __cordl_internal_set_m_Smooth(bool value);
-
-  /// @brief Method CopyShape, addr 0x2b88cd0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2c6f910, size 0xd4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
-
-  /// @brief Method UpdateBounds, addr 0x2b88da4, size 0x38, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
-
-  /// @brief Method RebuildMesh, addr 0x2b88ddc, size 0xbfc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cylinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b899d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2c6fa1c, size 0xbfc, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method UpdateBounds, addr 0x2c6f9e4, size 0x38, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
+
+  constexpr int32_t const& __cordl_internal_get_m_AxisDivisions() const;
+
+  constexpr int32_t& __cordl_internal_get_m_AxisDivisions();
+
+  constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
+
+  constexpr int32_t& __cordl_internal_get_m_HeightCuts();
+
+  constexpr bool const& __cordl_internal_get_m_Smooth() const;
+
+  constexpr bool& __cordl_internal_get_m_Smooth();
+
+  constexpr void __cordl_internal_set_m_AxisDivisions(int32_t value);
+
+  constexpr void __cordl_internal_set_m_HeightCuts(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Smooth(bool value);
+
+  /// @brief Method .ctor, addr 0x2c70618, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Cylinder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Cylinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cylinder(Cylinder&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Cylinder(Cylinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Cylinder();
-
-public:
   /// @brief Field m_AxisDivisions, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_AxisDivisions;
 

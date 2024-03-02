@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DefaultDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3411))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3412))
 // CS Name: ::System.Runtime.CompilerServices::DefaultDependencyAttribute*
 class CORDL_TYPE DefaultDependencyAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field loadHint, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_loadHint, put = __cordl_internal_set_loadHint))::System::Runtime::CompilerServices::LoadHint loadHint;
 
-  constexpr ::System::Runtime::CompilerServices::LoadHint& __cordl_internal_get_loadHint();
+  static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
   constexpr ::System::Runtime::CompilerServices::LoadHint const& __cordl_internal_get_loadHint() const;
 
+  constexpr ::System::Runtime::CompilerServices::LoadHint& __cordl_internal_get_loadHint();
+
   constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
-  static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
-
-  /// @brief Method .ctor, addr 0x24debb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cf920, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultDependencyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultDependencyAttribute(DefaultDependencyAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultDependencyAttribute(DefaultDependencyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultDependencyAttribute();
-
-public:
   /// @brief Field loadHint, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::CompilerServices::LoadHint ___loadHint;
 

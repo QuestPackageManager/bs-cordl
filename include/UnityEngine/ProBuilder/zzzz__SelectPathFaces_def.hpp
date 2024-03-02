@@ -32,67 +32,71 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectPathFaces);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12193))
 // CS Name: ::UnityEngine.ProBuilder::SelectPathFaces*
 class CORDL_TYPE SelectPathFaces : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field s_cachedFacesCount, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_cachedFacesCount, put = setStaticF_s_cachedFacesCount)) int32_t s_cachedFacesCount;
+
+  /// @brief Field s_cachedFacesIndex, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_cachedFacesIndex,
+                             put = setStaticF_s_cachedFacesIndex))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* s_cachedFacesIndex;
+
+  /// @brief Field s_cachedMesh, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> s_cachedMesh;
+
   /// @brief Field s_cachedPredecessors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedPredecessors, put = setStaticF_s_cachedPredecessors))::ArrayW<int32_t, ::Array<int32_t>*> s_cachedPredecessors;
 
   /// @brief Field s_cachedStart, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_cachedStart, put = setStaticF_s_cachedStart)) int32_t s_cachedStart;
 
-  /// @brief Field s_cachedMesh, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> s_cachedMesh;
-
-  /// @brief Field s_cachedFacesCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_cachedFacesCount, put = setStaticF_s_cachedFacesCount)) int32_t s_cachedFacesCount;
-
   /// @brief Field s_cachedWings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedWings, put = setStaticF_s_cachedWings))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* s_cachedWings;
 
-  /// @brief Field s_cachedFacesIndex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedFacesIndex,
-                             put = setStaticF_s_cachedFacesIndex))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* s_cachedFacesIndex;
+  /// @brief Method Dijkstra, addr 0x2c524b4, size 0x6cc, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
 
-  static inline void setStaticF_s_cachedPredecessors(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  /// @brief Method GetMinimalPath, addr 0x2c52398, size 0x11c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t, ::Array<int32_t>*> predecessors, int32_t start, int32_t end);
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_cachedPredecessors();
+  /// @brief Method GetPath, addr 0x2c520e8, size 0x2b0, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
 
-  static inline void setStaticF_s_cachedStart(int32_t value);
-
-  static inline int32_t getStaticF_s_cachedStart();
-
-  static inline void setStaticF_s_cachedMesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
-
-  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> getStaticF_s_cachedMesh();
-
-  static inline void setStaticF_s_cachedFacesCount(int32_t value);
+  /// @brief Method GetWeight, addr 0x2c52b80, size 0x494, virtual false, abstract: false, final false
+  static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline int32_t getStaticF_s_cachedFacesCount();
 
-  static inline void setStaticF_s_cachedWings(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* value);
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* getStaticF_s_cachedFacesIndex();
+
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> getStaticF_s_cachedMesh();
+
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_cachedPredecessors();
+
+  static inline int32_t getStaticF_s_cachedStart();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* getStaticF_s_cachedWings();
 
+  static inline void setStaticF_s_cachedFacesCount(int32_t value);
+
   static inline void setStaticF_s_cachedFacesIndex(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* getStaticF_s_cachedFacesIndex();
+  static inline void setStaticF_s_cachedMesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method GetPath, addr 0x2b6b4a8, size 0x2b0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
+  static inline void setStaticF_s_cachedPredecessors(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method Dijkstra, addr 0x2b6b874, size 0x6cc, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
+  static inline void setStaticF_s_cachedStart(int32_t value);
 
-  /// @brief Method GetWeight, addr 0x2b6bf40, size 0x494, virtual false, abstract: false, final false
-  static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+  static inline void setStaticF_s_cachedWings(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* value);
 
-  /// @brief Method GetMinimalPath, addr 0x2b6b758, size 0x11c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t, ::Array<int32_t>*> predecessors, int32_t start, int32_t end);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SelectPathFaces();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectPathFaces", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectPathFaces(SelectPathFaces&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectPathFaces(SelectPathFaces const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectPathFaces();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

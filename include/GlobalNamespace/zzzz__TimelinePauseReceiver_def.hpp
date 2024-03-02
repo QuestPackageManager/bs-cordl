@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelinePauseReceiver);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14407))
 // CS Name: ::TimelinePauseReceiver*
 class CORDL_TYPE TimelinePauseReceiver : public ::UnityEngine::MonoBehaviour {
 public:
@@ -41,8 +39,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
-  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
+  static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
+
+  /// @brief Method OnNotify, addr 0x2257ef8, size 0x94, virtual true, abstract: false, final true
+  inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr ::System::Action*& __cordl_internal_get_timelinePauseEvent();
 
@@ -50,20 +50,24 @@ public:
 
   constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
-  /// @brief Method add_timelinePauseEvent, addr 0x20f5d2c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_timelinePauseEvent(::System::Action* value);
-
-  /// @brief Method remove_timelinePauseEvent, addr 0x20f5dc8, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_timelinePauseEvent(::System::Action* value);
-
-  /// @brief Method OnNotify, addr 0x20f5e64, size 0x94, virtual true, abstract: false, final true
-  inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
-
-  static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
-
-  /// @brief Method .ctor, addr 0x20f5ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_timelinePauseEvent, addr 0x2257dc0, size 0x9c, virtual false, abstract: false, final false
+  inline void add_timelinePauseEvent(::System::Action* value);
+
+  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
+
+  /// @brief Method remove_timelinePauseEvent, addr 0x2257e5c, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_timelinePauseEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimelinePauseReceiver();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseReceiver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelinePauseReceiver(TimelinePauseReceiver&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimelinePauseReceiver(TimelinePauseReceiver const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelinePauseReceiver();
-
-public:
   /// @brief Field timelinePauseEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___timelinePauseEvent;
 

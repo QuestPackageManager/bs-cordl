@@ -20,22 +20,26 @@ MARK_REF_PTR_T(::System::DivideByZeroException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2347))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2372))
 // CS Name: ::System::DivideByZeroException*
 class CORDL_TYPE DivideByZeroException : public ::System::ArithmeticException {
 public:
   // Declarations
   static inline ::System::DivideByZeroException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2595628, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::DivideByZeroException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2595684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687c24, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2687c80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DivideByZeroException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DivideByZeroException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DivideByZeroException(DivideByZeroException&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DivideByZeroException(DivideByZeroException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DivideByZeroException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

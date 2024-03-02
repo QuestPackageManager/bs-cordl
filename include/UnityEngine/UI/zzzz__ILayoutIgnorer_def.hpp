@@ -13,8 +13,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutIgnorer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13088))
 // CS Name: ::UnityEngine.UI::ILayoutIgnorer*
 class CORDL_TYPE ILayoutIgnorer {
 public:

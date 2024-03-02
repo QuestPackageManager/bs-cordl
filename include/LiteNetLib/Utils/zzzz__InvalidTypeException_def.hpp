@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::InvalidTypeException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14207))
 // CS Name: ::LiteNetLib.Utils::InvalidTypeException*
 class CORDL_TYPE InvalidTypeException : public ::System::ArgumentException {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::InvalidTypeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x220bcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236dc14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidTypeException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidTypeException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidTypeException(InvalidTypeException&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidTypeException(InvalidTypeException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidTypeException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

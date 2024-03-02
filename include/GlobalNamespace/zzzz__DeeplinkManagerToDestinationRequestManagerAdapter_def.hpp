@@ -35,22 +35,16 @@ MARK_REF_PTR_T(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdap
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4146))
 // CS Name: ::DeeplinkManagerToDestinationRequestManagerAdapter*
 class CORDL_TYPE DeeplinkManagerToDestinationRequestManagerAdapter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _beatmapLevelsModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevelsModel;
-
   /// @brief Field _beatmapCharacteristicCollection, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
                       put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
 
-  /// @brief Field didSendMenuDestinationRequestEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSendMenuDestinationRequestEvent,
-                      put = __cordl_internal_set_didSendMenuDestinationRequestEvent))::System::Action_1<::GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent;
+  /// @brief Field _beatmapLevelsModel, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
   /// @brief Field _currentMenuDestinationRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__currentMenuDestinationRequest,
@@ -58,62 +52,72 @@ public:
 
   __declspec(property(get = get_currentMenuDestinationRequest, put = set_currentMenuDestinationRequest))::GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
 
+  /// @brief Field didSendMenuDestinationRequestEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSendMenuDestinationRequestEvent,
+                      put = __cordl_internal_set_didSendMenuDestinationRequestEvent))::System::Action_1<::GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent;
+
   /// @brief Convert operator to "::GlobalNamespace::IDestinationRequestManager"
   constexpr operator ::GlobalNamespace::IDestinationRequestManager*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
-  constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
+  /// @brief Method Clear, addr 0x24246f8, size 0x8, virtual true, abstract: false, final true
+  inline void Clear();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevelsModel();
+  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x2424124, size 0x5d4, virtual false, abstract: false, final false
+  inline void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevelsModel() const;
+  /// @brief Method Init, addr 0x2423f58, size 0x1cc, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
+  static inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& __cordl_internal_get_didSendMenuDestinationRequestEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MenuDestination*>*> const& __cordl_internal_get_didSendMenuDestinationRequestEvent() const;
-
-  constexpr void __cordl_internal_set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::GlobalNamespace::MenuDestination*& __cordl_internal_get__currentMenuDestinationRequest();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __cordl_internal_get__currentMenuDestinationRequest() const;
 
+  constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& __cordl_internal_get_didSendMenuDestinationRequestEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MenuDestination*>*> const& __cordl_internal_get_didSendMenuDestinationRequestEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+
   constexpr void __cordl_internal_set__currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
-  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x223c618, size 0xb0, virtual true, abstract: false, final true
-  inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
+  constexpr void __cordl_internal_set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x223c6c8, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
-
-  /// @brief Method get_currentMenuDestinationRequest, addr 0x223c778, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
-
-  /// @brief Method set_currentMenuDestinationRequest, addr 0x223c780, size 0x20, virtual true, abstract: false, final true
-  inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
-
-  /// @brief Method Init, addr 0x223c7a0, size 0x1cc, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
-
-  /// @brief Method Clear, addr 0x223cf34, size 0x8, virtual true, abstract: false, final true
-  inline void Clear();
-
-  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x223c96c, size 0x5c8, virtual false, abstract: false, final false
-  inline void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
-
-  static inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x223d0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2424700, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x2423dd0, size 0xb0, virtual true, abstract: false, final true
+  inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
+
+  /// @brief Method get_currentMenuDestinationRequest, addr 0x2423f30, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
+
+  /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
+  constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
+
+  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x2423e80, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
+
+  /// @brief Method set_currentMenuDestinationRequest, addr 0x2423f38, size 0x20, virtual true, abstract: false, final true
+  inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DeeplinkManagerToDestinationRequestManagerAdapter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DeeplinkManagerToDestinationRequestManagerAdapter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeeplinkManagerToDestinationRequestManagerAdapter(DeeplinkManagerToDestinationRequestManagerAdapter&&) = delete;
@@ -122,14 +126,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DeeplinkManagerToDestinationRequestManagerAdapter(DeeplinkManagerToDestinationRequestManagerAdapter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeeplinkManagerToDestinationRequestManagerAdapter();
-
-public:
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevelsModel;
+  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;

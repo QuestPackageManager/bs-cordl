@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComVisibleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3319))
 // CS Name: ::System.Runtime.InteropServices::ComVisibleAttribute*
 class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field _val, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) bool _val;
 
-  constexpr bool& __cordl_internal_get__val();
+  static inline ::System::Runtime::InteropServices::ComVisibleAttribute* New_ctor(bool visibility);
 
   constexpr bool const& __cordl_internal_get__val() const;
 
+  constexpr bool& __cordl_internal_get__val();
+
   constexpr void __cordl_internal_set__val(bool value);
 
-  static inline ::System::Runtime::InteropServices::ComVisibleAttribute* New_ctor(bool visibility);
-
-  /// @brief Method .ctor, addr 0x24d7270, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7fdc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visibility);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComVisibleAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ComVisibleAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComVisibleAttribute(ComVisibleAttribute&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComVisibleAttribute(ComVisibleAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComVisibleAttribute();
-
-public:
   /// @brief Field _val, offset: 0x10, size: 0x1, def value: None
   bool ____val;
 

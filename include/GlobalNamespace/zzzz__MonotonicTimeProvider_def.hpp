@@ -22,20 +22,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MonotonicTimeProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12875))
 // CS Name: ::MonotonicTimeProvider*
 class CORDL_TYPE MonotonicTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _timeSpanTicksPerStopwatchTick, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__timeSpanTicksPerStopwatchTick, put = __cordl_internal_set__timeSpanTicksPerStopwatchTick)) double_t _timeSpanTicksPerStopwatchTick;
-
   /// @brief Field _startTicks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__startTicks, put = __cordl_internal_set__startTicks)) int64_t _startTicks;
 
   /// @brief Field _stopwatch, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+
+  /// @brief Field _timeSpanTicksPerStopwatchTick, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeSpanTicksPerStopwatchTick, put = __cordl_internal_set__timeSpanTicksPerStopwatchTick)) double_t _timeSpanTicksPerStopwatchTick;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::GlobalNamespace::MonotonicTimeProvider* instance;
@@ -43,42 +41,48 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Convert to "::BGNet::Core::ITimeProvider"
-  constexpr ::BGNet::Core::ITimeProvider* i___BGNet__Core__ITimeProvider() noexcept;
+  /// @brief Method GetTicks, addr 0xebb850, size 0x58, virtual true, abstract: false, final true
+  inline int64_t GetTicks();
 
-  constexpr double_t& __cordl_internal_get__timeSpanTicksPerStopwatchTick();
+  /// @brief Method GetTimeMs, addr 0xebb824, size 0x2c, virtual true, abstract: false, final true
+  inline int64_t GetTimeMs();
 
-  constexpr double_t const& __cordl_internal_get__timeSpanTicksPerStopwatchTick() const;
-
-  constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
-
-  constexpr int64_t& __cordl_internal_get__startTicks();
+  static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
 
   constexpr int64_t const& __cordl_internal_get__startTicks() const;
 
-  constexpr void __cordl_internal_set__startTicks(int64_t value);
+  constexpr int64_t& __cordl_internal_get__startTicks();
 
   constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
 
+  constexpr double_t const& __cordl_internal_get__timeSpanTicksPerStopwatchTick() const;
+
+  constexpr double_t& __cordl_internal_get__timeSpanTicksPerStopwatchTick();
+
+  constexpr void __cordl_internal_set__startTicks(int64_t value);
+
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  static inline void setStaticF_instance(::GlobalNamespace::MonotonicTimeProvider* value);
+  constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
+
+  /// @brief Method .ctor, addr 0xebb68c, size 0xe4, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* getStaticF_instance();
 
-  static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
+  /// @brief Convert to "::BGNet::Core::ITimeProvider"
+  constexpr ::BGNet::Core::ITimeProvider* i___BGNet__Core__ITimeProvider() noexcept;
 
-  /// @brief Method .ctor, addr 0xe49884, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_instance(::GlobalNamespace::MonotonicTimeProvider* value);
 
-  /// @brief Method GetTimeMs, addr 0xe49a1c, size 0x2c, virtual true, abstract: false, final true
-  inline int64_t GetTimeMs();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonotonicTimeProvider();
 
-  /// @brief Method GetTicks, addr 0xe49a48, size 0x58, virtual true, abstract: false, final true
-  inline int64_t GetTicks();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonotonicTimeProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonotonicTimeProvider(MonotonicTimeProvider&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonotonicTimeProvider(MonotonicTimeProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonotonicTimeProvider();
-
-public:
   /// @brief Field _timeSpanTicksPerStopwatchTick, offset: 0x10, size: 0x8, def value: None
   double_t ____timeSpanTicksPerStopwatchTick;
 

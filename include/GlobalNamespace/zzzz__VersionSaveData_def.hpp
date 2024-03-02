@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::VersionSaveData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4685))
 // CS Name: ::VersionSaveData*
 class CORDL_TYPE VersionSaveData : public ::System::Object {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
 
-  constexpr ::StringW& __cordl_internal_get_version();
+  static inline ::GlobalNamespace::VersionSaveData* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_version() const;
 
+  constexpr ::StringW& __cordl_internal_get_version();
+
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  static inline ::GlobalNamespace::VersionSaveData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x237284c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fa790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VersionSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VersionSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VersionSaveData(VersionSaveData&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VersionSaveData(VersionSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VersionSaveData();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___version;
 

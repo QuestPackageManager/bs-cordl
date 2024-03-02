@@ -24,8 +24,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7306))
 // CS Name: ::UnityEngine.UIElements::CustomStyleProperty`1<T>
 struct CORDL_TYPE CustomStyleProperty_1 {
 public:
@@ -34,18 +32,6 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*();
-
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__CustomStyleProperty_1_T__();
-
-  /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::StringW get_name();
-
-  /// @brief Method set_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_name(::StringW value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::StringW propertyName);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -56,12 +42,24 @@ public:
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW propertyName);
+
+  /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::StringW get_name();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__CustomStyleProperty_1_T__();
+
+  /// @brief Method set_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_name(::StringW value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CustomStyleProperty_1();
+
+  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept;
 
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _name_k__BackingField;

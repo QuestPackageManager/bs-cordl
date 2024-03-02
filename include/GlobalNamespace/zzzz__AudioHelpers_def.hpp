@@ -15,18 +15,22 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15841))
 // CS Name: ::AudioHelpers*
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizedVolumeToDB, addr 0xe265e4, size 0x74, virtual false, abstract: false, final false
-  static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
-
-  /// @brief Method DBToNormalizedVolume, addr 0xe26658, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DBToNormalizedVolume, addr 0xe95a3c, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
+  /// @brief Method NormalizedVolumeToDB, addr 0xe959c8, size 0x74, virtual false, abstract: false, final false
+  static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioHelpers(AudioHelpers&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioHelpers(AudioHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboardType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10185))
 // CS Name: ::UnityEngine::TouchScreenKeyboardType
 struct CORDL_TYPE TouchScreenKeyboardType {
 public:
@@ -45,57 +43,62 @@ public:
     return static_cast<__TouchScreenKeyboardType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TouchScreenKeyboardType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TouchScreenKeyboardType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TouchScreenKeyboardType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::TouchScreenKeyboardType const Default;
 
   /// @brief Field ASCIICapable value: static_cast<int32_t>(0x1)
   static ::UnityEngine::TouchScreenKeyboardType const ASCIICapable;
 
-  /// @brief Field NumbersAndPunctuation value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::TouchScreenKeyboardType const NumbersAndPunctuation;
+  /// @brief Field DecimalPad value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::TouchScreenKeyboardType const DecimalPad;
 
-  /// @brief Field URL value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::TouchScreenKeyboardType const URL;
-
-  /// @brief Field NumberPad value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::TouchScreenKeyboardType const NumberPad;
-
-  /// @brief Field PhonePad value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::TouchScreenKeyboardType const PhonePad;
-
-  /// @brief Field NamePhonePad value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::TouchScreenKeyboardType const NamePhonePad;
+  /// @brief Field Default value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::TouchScreenKeyboardType const Default;
 
   /// @brief Field EmailAddress value: static_cast<int32_t>(0x7)
   static ::UnityEngine::TouchScreenKeyboardType const EmailAddress;
 
+  /// @brief Field NamePhonePad value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::TouchScreenKeyboardType const NamePhonePad;
+
   /// @brief Field NintendoNetworkAccount value: static_cast<int32_t>(0x8)
   static ::UnityEngine::TouchScreenKeyboardType const NintendoNetworkAccount;
 
-  /// @brief Field Social value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::TouchScreenKeyboardType const Social;
+  /// @brief Field NumberPad value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::TouchScreenKeyboardType const NumberPad;
+
+  /// @brief Field NumbersAndPunctuation value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::TouchScreenKeyboardType const NumbersAndPunctuation;
+
+  /// @brief Field OneTimeCode value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::TouchScreenKeyboardType const OneTimeCode;
+
+  /// @brief Field PhonePad value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::TouchScreenKeyboardType const PhonePad;
 
   /// @brief Field Search value: static_cast<int32_t>(0xa)
   static ::UnityEngine::TouchScreenKeyboardType const Search;
 
-  /// @brief Field DecimalPad value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::TouchScreenKeyboardType const DecimalPad;
+  /// @brief Field Social value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::TouchScreenKeyboardType const Social;
 
-  /// @brief Field OneTimeCode value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::TouchScreenKeyboardType const OneTimeCode;
+  /// @brief Field URL value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::TouchScreenKeyboardType const URL;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

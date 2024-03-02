@@ -33,17 +33,13 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(26))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::KeyRecRepContent*
 class CORDL_TYPE KeyRecRepContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
+  __declspec(property(get = get_NewSigCert))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* NewSigCert;
 
-  /// @brief Field newSigCert, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_newSigCert, put = __cordl_internal_set_newSigCert))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newSigCert;
+  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
 
   /// @brief Field caCerts, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_caCerts, put = __cordl_internal_set_caCerts))::Org::BouncyCastle::Asn1::Asn1Sequence* caCerts;
@@ -51,57 +47,65 @@ public:
   /// @brief Field keyPairHist, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_keyPairHist, put = __cordl_internal_set_keyPairHist))::Org::BouncyCastle::Asn1::Asn1Sequence* keyPairHist;
 
-  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
+  /// @brief Field newSigCert, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_newSigCert, put = __cordl_internal_set_newSigCert))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newSigCert;
 
-  __declspec(property(get = get_NewSigCert))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* NewSigCert;
+  /// @brief Field status, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_status();
+  /// @brief Method GetCACerts, addr 0xeda170, size 0xfc, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCACerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_status() const;
+  /// @brief Method GetInstance, addr 0xed9fd8, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* GetInstance(::System::Object* obj);
 
-  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+  /// @brief Method GetKeyPairHist, addr 0xeda26c, size 0xfc, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*>*> GetKeyPairHist();
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_newSigCert();
+  static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_newSigCert() const;
-
-  constexpr void __cordl_internal_set_newSigCert(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+  /// @brief Method ToAsn1Object, addr 0xeda368, size 0x144, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_caCerts();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_caCerts() const;
 
-  constexpr void __cordl_internal_set_caCerts(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_keyPairHist();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_keyPairHist() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_newSigCert();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_newSigCert() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_status();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_status() const;
+
+  constexpr void __cordl_internal_set_caCerts(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+
   constexpr void __cordl_internal_set_keyPairHist(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  constexpr void __cordl_internal_set_newSigCert(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
-  /// @brief Method .ctor, addr 0xe67fdc, size 0x19c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+
+  /// @brief Method .ctor, addr 0xed9e3c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe68178, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Status, addr 0xe68300, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
-
-  /// @brief Method get_NewSigCert, addr 0xe68308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewSigCert, addr 0xeda168, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewSigCert();
 
-  /// @brief Method GetCACerts, addr 0xe68310, size 0xfc, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCACerts();
+  /// @brief Method get_Status, addr 0xeda160, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method GetKeyPairHist, addr 0xe6840c, size 0xfc, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*>*> GetKeyPairHist();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyRecRepContent();
 
-  /// @brief Method ToAsn1Object, addr 0xe68508, size 0x144, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyRecRepContent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyRecRepContent(KeyRecRepContent&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyRecRepContent(KeyRecRepContent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyRecRepContent();
-
-public:
   /// @brief Field status, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* ___status;
 

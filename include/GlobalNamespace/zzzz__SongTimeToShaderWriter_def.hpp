@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeToShaderWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
 // CS Name: ::SongTimeToShaderWriter*
 class CORDL_TYPE SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,24 +28,30 @@ public:
   /// @brief Field _songTimePropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__songTimePropertyId, put = setStaticF__songTimePropertyId)) int32_t _songTimePropertyId;
 
+  static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
+
+  /// @brief Method Update, addr 0x240b4a8, size 0x240, virtual false, abstract: false, final false
+  inline void Update();
+
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  static inline void setStaticF__songTimePropertyId(int32_t value);
+  /// @brief Method .ctor, addr 0x240b6e8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF__songTimePropertyId();
 
-  /// @brief Method Update, addr 0x230da14, size 0x240, virtual false, abstract: false, final false
-  inline void Update();
+  static inline void setStaticF__songTimePropertyId(int32_t value);
 
-  static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SongTimeToShaderWriter();
 
-  /// @brief Method .ctor, addr 0x230dc54, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeToShaderWriter(SongTimeToShaderWriter&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongTimeToShaderWriter(SongTimeToShaderWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongTimeToShaderWriter();
-
-public:
   /// @brief Field _audioTimeSource, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 

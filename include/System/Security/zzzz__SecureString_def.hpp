@@ -19,75 +19,79 @@ MARK_REF_PTR_T(::System::Security::SecureString);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2885))
 // CS Name: ::System.Security::SecureString*
 class CORDL_TYPE SecureString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field length, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
-
-  /// @brief Field disposed, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+  __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  __declspec(property(get = get_Length)) int32_t Length;
+  /// @brief Field disposed, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+
+  /// @brief Field length, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Alloc, addr 0x25464cc, size 0x17c, virtual false, abstract: false, final false
+  inline void Alloc(int32_t length, bool realloc);
 
-  constexpr int32_t& __cordl_internal_get_length();
+  /// @brief Method Decrypt, addr 0x2546834, size 0x4, virtual false, abstract: false, final false
+  inline void Decrypt();
 
-  constexpr int32_t const& __cordl_internal_get_length() const;
+  /// @brief Method Dispose, addr 0x25467fc, size 0x38, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void __cordl_internal_set_length(int32_t value);
+  /// @brief Method Encrypt, addr 0x2546794, size 0x4, virtual false, abstract: false, final false
+  inline void Encrypt();
 
-  constexpr bool& __cordl_internal_get_disposed();
-
-  constexpr bool const& __cordl_internal_get_disposed() const;
-
-  constexpr void __cordl_internal_set_disposed(bool value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetBuffer, addr 0x2546838, size 0xb0, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer();
 
   static inline ::System::Security::SecureString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x245294c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Security::SecureString* New_ctor(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method .ctor, addr 0x2452aec, size 0x14c, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+
+  constexpr bool const& __cordl_internal_get_disposed() const;
+
+  constexpr bool& __cordl_internal_get_disposed();
+
+  constexpr int32_t const& __cordl_internal_get_length() const;
+
+  constexpr int32_t& __cordl_internal_get_length();
+
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
+  constexpr void __cordl_internal_set_length(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25464a8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2546648, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method get_Length, addr 0x2452c3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2546798, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method Dispose, addr 0x2452ca0, size 0x38, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Encrypt, addr 0x2452c38, size 0x4, virtual false, abstract: false, final false
-  inline void Encrypt();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecureString();
 
-  /// @brief Method Decrypt, addr 0x2452cd8, size 0x4, virtual false, abstract: false, final false
-  inline void Decrypt();
-
-  /// @brief Method Alloc, addr 0x2452970, size 0x17c, virtual false, abstract: false, final false
-  inline void Alloc(int32_t length, bool realloc);
-
-  /// @brief Method GetBuffer, addr 0x2452cdc, size 0xb0, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SecureString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureString(SecureString&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SecureString(SecureString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecureString();
-
-public:
   /// @brief Field length, offset: 0x10, size: 0x4, def value: None
   int32_t ___length;
 

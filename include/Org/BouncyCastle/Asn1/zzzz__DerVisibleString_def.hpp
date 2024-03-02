@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerVisibleString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(522))
 // CS Name: ::Org.BouncyCastle.Asn1::DerVisibleString*
 class CORDL_TYPE DerVisibleString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
@@ -38,43 +36,49 @@ public:
   /// @brief Field str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
-  constexpr ::StringW& __cordl_internal_get_str();
+  /// @brief Method Asn1Equals, addr 0x1235ee0, size 0xa0, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  constexpr ::StringW const& __cordl_internal_get_str() const;
+  /// @brief Method Asn1GetHashCode, addr 0x1235f80, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
 
-  constexpr void __cordl_internal_set_str(::StringW value);
+  /// @brief Method Encode, addr 0x1235eb0, size 0x30, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x11c5dd4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1235dfc, size 0x28, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+
+  /// @brief Method GetInstance, addr 0x1235c34, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x11c5f9c, size 0x28, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerVisibleString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+  /// @brief Method GetOctets, addr 0x1235ea4, size 0xc, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
+
+  /// @brief Method GetString, addr 0x1235e9c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x11b7500, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
-
   static inline ::Org::BouncyCastle::Asn1::DerVisibleString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0x11c5fc4, size 0x78, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_str() const;
+
+  constexpr ::StringW& __cordl_internal_get_str();
+
+  constexpr void __cordl_internal_set_str(::StringW value);
+
+  /// @brief Method .ctor, addr 0x1227360, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
+
+  /// @brief Method .ctor, addr 0x1235e24, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString, addr 0x11c603c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW GetString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerVisibleString();
 
-  /// @brief Method GetOctets, addr 0x11c6044, size 0xc, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
-
-  /// @brief Method Encode, addr 0x11c6050, size 0x30, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
-
-  /// @brief Method Asn1Equals, addr 0x11c6080, size 0xa0, virtual true, abstract: false, final false
-  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
-
-  /// @brief Method Asn1GetHashCode, addr 0x11c6120, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t Asn1GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerVisibleString(DerVisibleString&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerVisibleString(DerVisibleString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerVisibleString();
-
-public:
   /// @brief Field str, offset: 0x10, size: 0x8, def value: None
   ::StringW ___str;
 

@@ -38,15 +38,10 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4823))
 // CS Name: ::SliderMeshController*
 class CORDL_TYPE SliderMeshController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _numberOfFixedVertexPathSegments, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__numberOfFixedVertexPathSegments, put = __cordl_internal_set__numberOfFixedVertexPathSegments)) int32_t _numberOfFixedVertexPathSegments;
-
   /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__controlPointDistancePerSqrtNotesDistance,
                       put = __cordl_internal_set__controlPointDistancePerSqrtNotesDistance)) float_t _controlPointDistancePerSqrtNotesDistance;
@@ -54,17 +49,17 @@ public:
   /// @brief Field _middleAnchorPointOffsetAmount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__middleAnchorPointOffsetAmount, put = __cordl_internal_set__middleAnchorPointOffsetAmount)) float_t _middleAnchorPointOffsetAmount;
 
-  /// @brief Field _middleControlPointZDistanceModifier, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__middleControlPointZDistanceModifier, put = __cordl_internal_set__middleControlPointZDistanceModifier)) float_t _middleControlPointZDistanceModifier;
+  /// @brief Field _middleControlPointXDistanceModifier, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__middleControlPointXDistanceModifier, put = __cordl_internal_set__middleControlPointXDistanceModifier)) float_t _middleControlPointXDistanceModifier;
 
   /// @brief Field _middleControlPointYDistanceModifier, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__middleControlPointYDistanceModifier, put = __cordl_internal_set__middleControlPointYDistanceModifier)) float_t _middleControlPointYDistanceModifier;
 
-  /// @brief Field _middleControlPointXDistanceModifier, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__middleControlPointXDistanceModifier, put = __cordl_internal_set__middleControlPointXDistanceModifier)) float_t _middleControlPointXDistanceModifier;
+  /// @brief Field _middleControlPointZDistanceModifier, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__middleControlPointZDistanceModifier, put = __cordl_internal_set__middleControlPointZDistanceModifier)) float_t _middleControlPointZDistanceModifier;
 
-  /// @brief Field _sliderMeshConstructor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__sliderMeshConstructor, put = __cordl_internal_set__sliderMeshConstructor))::UnityW<::GlobalNamespace::SliderMeshConstructor> _sliderMeshConstructor;
+  /// @brief Field _numberOfFixedVertexPathSegments, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__numberOfFixedVertexPathSegments, put = __cordl_internal_set__numberOfFixedVertexPathSegments)) int32_t _numberOfFixedVertexPathSegments;
 
   /// @brief Field _pathsHolder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__pathsHolder, put = __cordl_internal_set__pathsHolder))::GlobalNamespace::PathsHolder* _pathsHolder;
@@ -73,106 +68,115 @@ public:
   __declspec(property(get = __cordl_internal_get__reusableAnchorsList,
                       put = __cordl_internal_set__reusableAnchorsList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _reusableAnchorsList;
 
-  /// @brief Field _reusableControlPointsArray4, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__reusableControlPointsArray4,
-                      put = __cordl_internal_set__reusableControlPointsArray4))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _reusableControlPointsArray4;
-
   /// @brief Field _reusableControlPointsArray2, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableControlPointsArray2,
                       put = __cordl_internal_set__reusableControlPointsArray2))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _reusableControlPointsArray2;
 
-  __declspec(property(get = get_pathLength)) float_t pathLength;
+  /// @brief Field _reusableControlPointsArray4, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__reusableControlPointsArray4,
+                      put = __cordl_internal_set__reusableControlPointsArray4))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _reusableControlPointsArray4;
+
+  /// @brief Field _sliderMeshConstructor, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__sliderMeshConstructor, put = __cordl_internal_set__sliderMeshConstructor))::UnityW<::GlobalNamespace::SliderMeshConstructor> _sliderMeshConstructor;
 
   __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
+  __declspec(property(get = get_pathLength)) float_t pathLength;
+
   __declspec(property(get = get_pathsHolder))::GlobalNamespace::PathsHolder* pathsHolder;
 
-  constexpr int32_t& __cordl_internal_get__numberOfFixedVertexPathSegments();
+  /// @brief Method CreateBezierPathAndMesh, addr 0x241dbcc, size 0x758, virtual false, abstract: false, final false
+  inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
 
-  constexpr int32_t const& __cordl_internal_get__numberOfFixedVertexPathSegments() const;
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x2422714, size 0xdc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
 
-  constexpr void __cordl_internal_set__numberOfFixedVertexPathSegments(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__controlPointDistancePerSqrtNotesDistance();
+  static inline ::GlobalNamespace::SliderMeshController* New_ctor();
 
   constexpr float_t const& __cordl_internal_get__controlPointDistancePerSqrtNotesDistance() const;
 
-  constexpr void __cordl_internal_set__controlPointDistancePerSqrtNotesDistance(float_t value);
-
-  constexpr float_t& __cordl_internal_get__middleAnchorPointOffsetAmount();
+  constexpr float_t& __cordl_internal_get__controlPointDistancePerSqrtNotesDistance();
 
   constexpr float_t const& __cordl_internal_get__middleAnchorPointOffsetAmount() const;
 
-  constexpr void __cordl_internal_set__middleAnchorPointOffsetAmount(float_t value);
-
-  constexpr float_t& __cordl_internal_get__middleControlPointZDistanceModifier();
-
-  constexpr float_t const& __cordl_internal_get__middleControlPointZDistanceModifier() const;
-
-  constexpr void __cordl_internal_set__middleControlPointZDistanceModifier(float_t value);
-
-  constexpr float_t& __cordl_internal_get__middleControlPointYDistanceModifier();
-
-  constexpr float_t const& __cordl_internal_get__middleControlPointYDistanceModifier() const;
-
-  constexpr void __cordl_internal_set__middleControlPointYDistanceModifier(float_t value);
-
-  constexpr float_t& __cordl_internal_get__middleControlPointXDistanceModifier();
+  constexpr float_t& __cordl_internal_get__middleAnchorPointOffsetAmount();
 
   constexpr float_t const& __cordl_internal_get__middleControlPointXDistanceModifier() const;
 
-  constexpr void __cordl_internal_set__middleControlPointXDistanceModifier(float_t value);
+  constexpr float_t& __cordl_internal_get__middleControlPointXDistanceModifier();
 
-  constexpr ::UnityW<::GlobalNamespace::SliderMeshConstructor>& __cordl_internal_get__sliderMeshConstructor();
+  constexpr float_t const& __cordl_internal_get__middleControlPointYDistanceModifier() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SliderMeshConstructor> const& __cordl_internal_get__sliderMeshConstructor() const;
+  constexpr float_t& __cordl_internal_get__middleControlPointYDistanceModifier();
 
-  constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
+  constexpr float_t const& __cordl_internal_get__middleControlPointZDistanceModifier() const;
+
+  constexpr float_t& __cordl_internal_get__middleControlPointZDistanceModifier();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfFixedVertexPathSegments() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfFixedVertexPathSegments();
 
   constexpr ::GlobalNamespace::PathsHolder*& __cordl_internal_get__pathsHolder();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PathsHolder*> const& __cordl_internal_get__pathsHolder() const;
 
-  constexpr void __cordl_internal_set__pathsHolder(::GlobalNamespace::PathsHolder* value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__reusableAnchorsList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__reusableAnchorsList() const;
 
-  constexpr void __cordl_internal_set__reusableAnchorsList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__reusableControlPointsArray4();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__reusableControlPointsArray4() const;
-
-  constexpr void __cordl_internal_set__reusableControlPointsArray4(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__reusableControlPointsArray2() const;
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__reusableControlPointsArray2();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__reusableControlPointsArray2() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__reusableControlPointsArray4() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__reusableControlPointsArray4();
+
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshConstructor> const& __cordl_internal_get__sliderMeshConstructor() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshConstructor>& __cordl_internal_get__sliderMeshConstructor();
+
+  constexpr void __cordl_internal_set__controlPointDistancePerSqrtNotesDistance(float_t value);
+
+  constexpr void __cordl_internal_set__middleAnchorPointOffsetAmount(float_t value);
+
+  constexpr void __cordl_internal_set__middleControlPointXDistanceModifier(float_t value);
+
+  constexpr void __cordl_internal_set__middleControlPointYDistanceModifier(float_t value);
+
+  constexpr void __cordl_internal_set__middleControlPointZDistanceModifier(float_t value);
+
+  constexpr void __cordl_internal_set__numberOfFixedVertexPathSegments(int32_t value);
+
+  constexpr void __cordl_internal_set__pathsHolder(::GlobalNamespace::PathsHolder* value);
+
+  constexpr void __cordl_internal_set__reusableAnchorsList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   constexpr void __cordl_internal_set__reusableControlPointsArray2(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_pathLength, addr 0x2394bd0, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_pathLength();
+  constexpr void __cordl_internal_set__reusableControlPointsArray4(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_mesh, addr 0x2394bf4, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+  constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
 
-  /// @brief Method get_pathsHolder, addr 0x2394c10, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
-
-  /// @brief Method CreateBezierPathAndMesh, addr 0x2390124, size 0x758, virtual false, abstract: false, final false
-  inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
-
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x2394c18, size 0xdc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
-
-  static inline ::GlobalNamespace::SliderMeshController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2394cf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24227f0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_mesh, addr 0x24226f0, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+
+  /// @brief Method get_pathLength, addr 0x24226cc, size 0x24, virtual false, abstract: false, final false
+  inline float_t get_pathLength();
+
+  /// @brief Method get_pathsHolder, addr 0x242270c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderMeshController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMeshController(SliderMeshController&&) = delete;
@@ -181,12 +185,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderMeshController(SliderMeshController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderMeshController();
-
-public:
   /// @brief Field _numberOfFixedVertexPathSegments, offset: 0x18, size: 0x4, def value: None
   int32_t ____numberOfFixedVertexPathSegments;
 

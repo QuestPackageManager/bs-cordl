@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::DualShockSupport);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6424))
 // CS Name: ::UnityEngine.InputSystem.DualShock::DualShockSupport*
 class CORDL_TYPE DualShockSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2ae5928, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2bcc568, size 0x70, virtual false, abstract: false, final false
   static inline void Initialize();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DualShockSupport();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DualShockSupport", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DualShockSupport(DualShockSupport&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DualShockSupport(DualShockSupport const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DualShockSupport();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

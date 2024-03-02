@@ -44,17 +44,22 @@ MARK_REF_PTR_T(::System::Net::Sockets::TcpClient);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9337))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9353))
 // CS Name: ::System.Net.Sockets::TcpClient*
 class CORDL_TYPE TcpClient : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_ClientSocket, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClientSocket, put = __cordl_internal_set_m_ClientSocket))::System::Net::Sockets::Socket* m_ClientSocket;
+  __declspec(property(get = get_Client, put = set_Client))::System::Net::Sockets::Socket* Client;
+
+  __declspec(property(get = get_Connected)) bool Connected;
 
   /// @brief Field m_Active, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active)) bool m_Active;
+
+  /// @brief Field m_CleanedUp, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_CleanedUp, put = __cordl_internal_set_m_CleanedUp)) bool m_CleanedUp;
+
+  /// @brief Field m_ClientSocket, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ClientSocket, put = __cordl_internal_set_m_ClientSocket))::System::Net::Sockets::Socket* m_ClientSocket;
 
   /// @brief Field m_DataStream, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DataStream, put = __cordl_internal_set_m_DataStream))::System::Net::Sockets::NetworkStream* m_DataStream;
@@ -62,106 +67,105 @@ public:
   /// @brief Field m_Family, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Family, put = __cordl_internal_set_m_Family))::System::Net::Sockets::AddressFamily m_Family;
 
-  /// @brief Field m_CleanedUp, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_CleanedUp, put = __cordl_internal_set_m_CleanedUp)) bool m_CleanedUp;
-
-  __declspec(property(get = get_Client, put = set_Client))::System::Net::Sockets::Socket* Client;
-
-  __declspec(property(get = get_Connected)) bool Connected;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method BeginConnect, addr 0x29e6b4c, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::IAsyncResult* BeginConnect(::StringW host, int32_t port, ::System::AsyncCallback* requestCallback, ::System::Object* state);
+
+  /// @brief Method Close, addr 0x29e6eb8, size 0xa4, virtual false, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method Connect, addr 0x29e6370, size 0x6d0, virtual false, abstract: false, final false
+  inline void Connect(::StringW hostname, int32_t port);
+
+  /// @brief Method Connect, addr 0x29e6a40, size 0x10c, virtual false, abstract: false, final false
+  inline void Connect(::System::Net::IPEndPoint* remoteEP);
+
+  /// @brief Method ConnectAsync, addr 0x29e6c00, size 0x16c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* ConnectAsync(::StringW host, int32_t port);
+
+  /// @brief Method Dispose, addr 0x29e70f0, size 0x10, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x29e6f5c, size 0x194, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method EndConnect, addr 0x29e6bb8, size 0x48, virtual false, abstract: false, final false
+  inline void EndConnect(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method Finalize, addr 0x29e7100, size 0xa0, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetStream, addr 0x29e6d6c, size 0x14c, virtual false, abstract: false, final false
+  inline ::System::Net::Sockets::NetworkStream* GetStream();
+
+  static inline ::System::Net::Sockets::TcpClient* New_ctor();
+
+  static inline ::System::Net::Sockets::TcpClient* New_ctor(::System::Net::Sockets::Socket* acceptedSocket);
+
+  static inline ::System::Net::Sockets::TcpClient* New_ctor(::System::Net::Sockets::AddressFamily family);
+
+  constexpr bool const& __cordl_internal_get_m_Active() const;
+
+  constexpr bool& __cordl_internal_get_m_Active();
+
+  constexpr bool const& __cordl_internal_get_m_CleanedUp() const;
+
+  constexpr bool& __cordl_internal_get_m_CleanedUp();
 
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_m_ClientSocket();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_m_ClientSocket() const;
 
-  constexpr void __cordl_internal_set_m_ClientSocket(::System::Net::Sockets::Socket* value);
-
-  constexpr bool& __cordl_internal_get_m_Active();
-
-  constexpr bool const& __cordl_internal_get_m_Active() const;
-
-  constexpr void __cordl_internal_set_m_Active(bool value);
-
   constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get_m_DataStream();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get_m_DataStream() const;
 
-  constexpr void __cordl_internal_set_m_DataStream(::System::Net::Sockets::NetworkStream* value);
+  constexpr ::System::Net::Sockets::AddressFamily const& __cordl_internal_get_m_Family() const;
 
   constexpr ::System::Net::Sockets::AddressFamily& __cordl_internal_get_m_Family();
 
-  constexpr ::System::Net::Sockets::AddressFamily const& __cordl_internal_get_m_Family() const;
-
-  constexpr void __cordl_internal_set_m_Family(::System::Net::Sockets::AddressFamily value);
-
-  constexpr bool& __cordl_internal_get_m_CleanedUp();
-
-  constexpr bool const& __cordl_internal_get_m_CleanedUp() const;
+  constexpr void __cordl_internal_set_m_Active(bool value);
 
   constexpr void __cordl_internal_set_m_CleanedUp(bool value);
 
-  static inline ::System::Net::Sockets::TcpClient* New_ctor();
+  constexpr void __cordl_internal_set_m_ClientSocket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x28fc678, size 0x20, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_DataStream(::System::Net::Sockets::NetworkStream* value);
+
+  constexpr void __cordl_internal_set_m_Family(::System::Net::Sockets::AddressFamily value);
+
+  /// @brief Method .ctor, addr 0x29e615c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Net::Sockets::TcpClient* New_ctor(::System::Net::Sockets::AddressFamily family);
-
-  /// @brief Method .ctor, addr 0x28fc698, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Sockets::AddressFamily family);
-
-  static inline ::System::Net::Sockets::TcpClient* New_ctor(::System::Net::Sockets::Socket* acceptedSocket);
-
-  /// @brief Method .ctor, addr 0x28fc81c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e6300, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* acceptedSocket);
 
-  /// @brief Method get_Client, addr 0x28fc860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e617c, size 0x110, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Sockets::AddressFamily family);
+
+  /// @brief Method get_Client, addr 0x29e6344, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_Client();
 
-  /// @brief Method set_Client, addr 0x28fc868, size 0x8, virtual false, abstract: false, final false
-  inline void set_Client(::System::Net::Sockets::Socket* value);
-
-  /// @brief Method get_Connected, addr 0x28fc870, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x29e6354, size 0x1c, virtual false, abstract: false, final false
   inline bool get_Connected();
 
-  /// @brief Method Connect, addr 0x28fc88c, size 0x6d0, virtual false, abstract: false, final false
-  inline void Connect(::StringW hostname, int32_t port);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Connect, addr 0x28fcf5c, size 0x10c, virtual false, abstract: false, final false
-  inline void Connect(::System::Net::IPEndPoint* remoteEP);
-
-  /// @brief Method BeginConnect, addr 0x28fd068, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BeginConnect(::StringW host, int32_t port, ::System::AsyncCallback* requestCallback, ::System::Object* state);
-
-  /// @brief Method EndConnect, addr 0x28fd0d4, size 0x48, virtual false, abstract: false, final false
-  inline void EndConnect(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method ConnectAsync, addr 0x28fd11c, size 0x16c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* ConnectAsync(::StringW host, int32_t port);
-
-  /// @brief Method GetStream, addr 0x28fd288, size 0x14c, virtual false, abstract: false, final false
-  inline ::System::Net::Sockets::NetworkStream* GetStream();
-
-  /// @brief Method Close, addr 0x28fd3d4, size 0xa4, virtual false, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method Dispose, addr 0x28fd478, size 0x194, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Dispose, addr 0x28fd60c, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Finalize, addr 0x28fd61c, size 0xa0, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method initialize, addr 0x28fc7a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method initialize, addr 0x29e628c, size 0x74, virtual false, abstract: false, final false
   inline void initialize();
 
+  /// @brief Method set_Client, addr 0x29e634c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Client(::System::Net::Sockets::Socket* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TcpClient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TcpClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TcpClient(TcpClient&&) = delete;
@@ -170,12 +174,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TcpClient(TcpClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TcpClient();
-
-public:
   /// @brief Field m_ClientSocket, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___m_ClientSocket;
 

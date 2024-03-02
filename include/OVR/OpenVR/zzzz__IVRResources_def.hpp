@@ -43,26 +43,30 @@ MARK_VAL_T(::OVR::OpenVR::IVRResources);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8515))
 // CS Name: ::IVRResources::_LoadSharedResource*
 class CORDL_TYPE __IVRResources___LoadSharedResource : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::OVR::OpenVR::__IVRResources___LoadSharedResource* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x27ecef0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x27ecfc8, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
-
-  /// @brief Method BeginInvoke, addr 0x27ecfdc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28de8ec, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed074, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28de984, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28de8d8, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
+
+  static inline ::OVR::OpenVR::__IVRResources___LoadSharedResource* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28de800, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IVRResources___LoadSharedResource();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IVRResources___LoadSharedResource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IVRResources___LoadSharedResource(__IVRResources___LoadSharedResource&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRResources___LoadSharedResource(__IVRResources___LoadSharedResource const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRResources___LoadSharedResource();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,27 +85,31 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Lo
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8516))
 // CS Name: ::IVRResources::_GetResourceFullPath*
 class CORDL_TYPE __IVRResources___GetResourceFullPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::OVR::OpenVR::__IVRResources___GetResourceFullPath* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x27ed09c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x27ed174, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
-
-  /// @brief Method BeginInvoke, addr 0x27ed188, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28dea98, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27ed230, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28deb40, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28dea84, size 0x14, virtual true, abstract: false, final false
+  inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
+
+  static inline ::OVR::OpenVR::__IVRResources___GetResourceFullPath* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28de9ac, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IVRResources___GetResourceFullPath();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IVRResources___GetResourceFullPath", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IVRResources___GetResourceFullPath(__IVRResources___GetResourceFullPath&&) = delete;
@@ -116,12 +118,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRResources___GetResourceFullPath(__IVRResources___GetResourceFullPath const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRResources___GetResourceFullPath();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -132,8 +128,6 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Ge
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8517))
 // CS Name: ::OVR.OpenVR::IVRResources
 struct CORDL_TYPE IVRResources {
 public:
@@ -142,13 +136,13 @@ public:
 
   using _LoadSharedResource = ::OVR::OpenVR::__IVRResources___LoadSharedResource;
 
-  // Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::__IVRResources___LoadSharedResource*", modifiers: "", def_value: None }, CppParam { name: "GetResourceFullPath", ty:
-  // "::OVR::OpenVR::__IVRResources___GetResourceFullPath*", modifiers: "", def_value: None }]
-  constexpr IVRResources(::OVR::OpenVR::__IVRResources___LoadSharedResource* LoadSharedResource, ::OVR::OpenVR::__IVRResources___GetResourceFullPath* GetResourceFullPath) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr IVRResources();
+
+  // Ctor Parameters [CppParam { name: "LoadSharedResource", ty: "::OVR::OpenVR::__IVRResources___LoadSharedResource*", modifiers: "", def_value: None }, CppParam { name: "GetResourceFullPath", ty:
+  // "::OVR::OpenVR::__IVRResources___GetResourceFullPath*", modifiers: "", def_value: None }]
+  constexpr IVRResources(::OVR::OpenVR::__IVRResources___LoadSharedResource* LoadSharedResource, ::OVR::OpenVR::__IVRResources___GetResourceFullPath* GetResourceFullPath) noexcept;
 
   /// @brief Field LoadSharedResource, offset: 0x0, size: 0x8, def value: None
   ::OVR::OpenVR::__IVRResources___LoadSharedResource* LoadSharedResource;

@@ -87,8 +87,6 @@ MARK_VAL_T(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8173))
 // CS Name: ::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*
 class CORDL_TYPE __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider {
 public:
@@ -112,53 +110,51 @@ public:
 // SizeInfo { instance_size: 8, native_size: 16, calculated_instance_size: 8, calculated_native_size: 23, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8174))
 // CS Name: ::OVRSkeletonRenderer::SkeletonRendererData
 struct CORDL_TYPE __OVRSkeletonRenderer__SkeletonRendererData {
 public:
   // Declarations
-  __declspec(property(get = get_RootScale, put = set_RootScale)) float_t RootScale;
+  __declspec(property(get = get_IsDataHighConfidence, put = set_IsDataHighConfidence)) bool IsDataHighConfidence;
 
   __declspec(property(get = get_IsDataValid, put = set_IsDataValid)) bool IsDataValid;
 
-  __declspec(property(get = get_IsDataHighConfidence, put = set_IsDataHighConfidence)) bool IsDataHighConfidence;
+  __declspec(property(get = get_RootScale, put = set_RootScale)) float_t RootScale;
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_RootScale, addr 0x27c15fc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_RootScale();
-
-  /// @brief Method set_RootScale, addr 0x27c1604, size 0x8, virtual false, abstract: false, final false
-  inline void set_RootScale(float_t value);
-
-  /// @brief Method get_IsDataValid, addr 0x27c160c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsDataValid();
-
-  /// @brief Method set_IsDataValid, addr 0x27c1614, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsDataValid(bool value);
-
-  /// @brief Method get_IsDataHighConfidence, addr 0x27c1620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x28b2f30, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x27c1628, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsDataHighConfidence(bool value);
+  /// @brief Method get_IsDataValid, addr 0x28b2f1c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsDataValid();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c1634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootScale, addr 0x28b2f0c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_RootScale();
+
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x28b2f44, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c163c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x28b2f38, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsDataHighConfidence(bool value);
+
+  /// @brief Method set_IsDataValid, addr 0x28b2f24, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsDataValid(bool value);
+
+  /// @brief Method set_RootScale, addr 0x28b2f14, size 0x8, virtual false, abstract: false, final false
+  inline void set_RootScale(float_t value);
+
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x28b2f4c, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRSkeletonRenderer__SkeletonRendererData();
 
   // Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "",
   // def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty:
   // "bool", modifiers: "", def_value: None }]
   constexpr __OVRSkeletonRenderer__SkeletonRendererData(float_t _RootScale_k__BackingField, bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField,
                                                         bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRSkeletonRenderer__SkeletonRendererData();
 
   /// @brief Field <RootScale>k__BackingField, offset: 0x0, size: 0x4, def value: None
   float_t _RootScale_k__BackingField;
@@ -193,8 +189,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendere
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8175))
 // CS Name: ::OVRSkeletonRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__ConfidenceBehavior {
 public:
@@ -212,24 +206,29 @@ public:
     return static_cast<____OVRSkeletonRenderer__ConfidenceBehavior_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRSkeletonRenderer__ConfidenceBehavior(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRSkeletonRenderer__ConfidenceBehavior();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRSkeletonRenderer__ConfidenceBehavior(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const None;
 
   /// @brief Field ToggleRenderer value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const ToggleRenderer;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -243,8 +242,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehav
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8176))
 // CS Name: ::OVRSkeletonRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__SystemGestureBehavior {
 public:
@@ -262,24 +259,29 @@ public:
     return static_cast<____OVRSkeletonRenderer__SystemGestureBehavior_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRSkeletonRenderer__SystemGestureBehavior(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRSkeletonRenderer__SystemGestureBehavior();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRSkeletonRenderer__SystemGestureBehavior(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const None;
 
   /// @brief Field SwapMaterial value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const SwapMaterial;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -293,20 +295,18 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8177))
 // CS Name: ::OVRSkeletonRenderer::BoneVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__BoneVisualization : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field BoneGO, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_BoneGO, put = __cordl_internal_set_BoneGO))::UnityW<::UnityEngine::GameObject> BoneGO;
-
   /// @brief Field BoneBegin, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_BoneBegin, put = __cordl_internal_set_BoneBegin))::UnityW<::UnityEngine::Transform> BoneBegin;
 
   /// @brief Field BoneEnd, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_BoneEnd, put = __cordl_internal_set_BoneEnd))::UnityW<::UnityEngine::Transform> BoneEnd;
+
+  /// @brief Field BoneGO, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_BoneGO, put = __cordl_internal_set_BoneGO))::UnityW<::UnityEngine::GameObject> BoneGO;
 
   /// @brief Field Line, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Line, put = __cordl_internal_set_Line))::UnityW<::UnityEngine::LineRenderer> Line;
@@ -317,53 +317,59 @@ public:
   /// @brief Field SystemGestureMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_SystemGestureMaterial, put = __cordl_internal_set_SystemGestureMaterial))::UnityW<::UnityEngine::Material> SystemGestureMaterial;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_BoneGO();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_BoneGO() const;
-
-  constexpr void __cordl_internal_set_BoneGO(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneBegin();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneBegin() const;
-
-  constexpr void __cordl_internal_set_BoneBegin(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneEnd();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneEnd() const;
-
-  constexpr void __cordl_internal_set_BoneEnd(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_Line();
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_Line() const;
-
-  constexpr void __cordl_internal_set_Line(::UnityW<::UnityEngine::LineRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_RenderMaterial() const;
-
-  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_SystemGestureMaterial() const;
-
-  constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
-
   static inline ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                       float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end);
 
-  /// @brief Method .ctor, addr 0x27c0a1c, size 0x1d8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::UnityEngine::Transform* begin,
-                    ::UnityEngine::Transform* end);
-
-  /// @brief Method Update, addr 0x27c0f7c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x28b288c, size 0x1d0, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior);
 
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneBegin() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneBegin();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_BoneEnd() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_BoneEnd();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_BoneGO() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_BoneGO();
+
+  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_Line() const;
+
+  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_Line();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_RenderMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_SystemGestureMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
+
+  constexpr void __cordl_internal_set_BoneBegin(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_BoneEnd(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_BoneGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_Line(::UnityW<::UnityEngine::LineRenderer> value);
+
+  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
+
+  /// @brief Method .ctor, addr 0x28b232c, size 0x1d8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::UnityEngine::Transform* begin,
+                    ::UnityEngine::Transform* end);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRSkeletonRenderer__BoneVisualization();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSkeletonRenderer__BoneVisualization", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRSkeletonRenderer__BoneVisualization(__OVRSkeletonRenderer__BoneVisualization&&) = delete;
@@ -372,12 +378,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRSkeletonRenderer__BoneVisualization(__OVRSkeletonRenderer__BoneVisualization const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRSkeletonRenderer__BoneVisualization();
-
-public:
   /// @brief Field BoneGO, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___BoneGO;
 
@@ -418,76 +418,80 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualizati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8178))
 // CS Name: ::OVRSkeletonRenderer::CapsuleVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__CapsuleVisualization : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field CapsuleGO, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_CapsuleGO, put = __cordl_internal_set_CapsuleGO))::UnityW<::UnityEngine::GameObject> CapsuleGO;
-
   /// @brief Field BoneCapsule, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_BoneCapsule, put = __cordl_internal_set_BoneCapsule))::GlobalNamespace::OVRBoneCapsule* BoneCapsule;
 
-  /// @brief Field capsuleScale, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get_capsuleScale, put = __cordl_internal_set_capsuleScale))::UnityEngine::Vector3 capsuleScale;
-
-  /// @brief Field Renderer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Renderer, put = __cordl_internal_set_Renderer))::UnityW<::UnityEngine::MeshRenderer> Renderer;
+  /// @brief Field CapsuleGO, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_CapsuleGO, put = __cordl_internal_set_CapsuleGO))::UnityW<::UnityEngine::GameObject> CapsuleGO;
 
   /// @brief Field RenderMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_RenderMaterial, put = __cordl_internal_set_RenderMaterial))::UnityW<::UnityEngine::Material> RenderMaterial;
 
+  /// @brief Field Renderer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_Renderer, put = __cordl_internal_set_Renderer))::UnityW<::UnityEngine::MeshRenderer> Renderer;
+
   /// @brief Field SystemGestureMaterial, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_SystemGestureMaterial, put = __cordl_internal_set_SystemGestureMaterial))::UnityW<::UnityEngine::Material> SystemGestureMaterial;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_CapsuleGO();
+  /// @brief Field capsuleScale, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get_capsuleScale, put = __cordl_internal_set_capsuleScale))::UnityEngine::Vector3 capsuleScale;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_CapsuleGO() const;
+  static inline ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat,
+                                                                                         ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  constexpr void __cordl_internal_set_CapsuleGO(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method Update, addr 0x28b2a5c, size 0x310, virtual false, abstract: false, final false
+  inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
+                     ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior);
 
   constexpr ::GlobalNamespace::OVRBoneCapsule*& __cordl_internal_get_BoneCapsule();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRBoneCapsule*> const& __cordl_internal_get_BoneCapsule() const;
 
-  constexpr void __cordl_internal_set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value);
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_CapsuleGO() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_capsuleScale();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_capsuleScale() const;
-
-  constexpr void __cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_Renderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_Renderer() const;
-
-  constexpr void __cordl_internal_set_Renderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_CapsuleGO();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_RenderMaterial() const;
 
-  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_RenderMaterial();
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_Renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_Renderer();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_SystemGestureMaterial() const;
 
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_SystemGestureMaterial();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_capsuleScale() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_capsuleScale();
+
+  constexpr void __cordl_internal_set_BoneCapsule(::GlobalNamespace::OVRBoneCapsule* value);
+
+  constexpr void __cordl_internal_set_CapsuleGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_RenderMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_Renderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
   constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat,
-                                                                                         ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
+  constexpr void __cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x27c0bf4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b2504, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  /// @brief Method Update, addr 0x27c114c, size 0x310, virtual false, abstract: false, final false
-  inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
-                     ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRSkeletonRenderer__CapsuleVisualization();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSkeletonRenderer__CapsuleVisualization", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRSkeletonRenderer__CapsuleVisualization(__OVRSkeletonRenderer__CapsuleVisualization&&) = delete;
@@ -496,12 +500,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRSkeletonRenderer__CapsuleVisualization(__OVRSkeletonRenderer__CapsuleVisualization const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRSkeletonRenderer__CapsuleVisualization();
-
-public:
   /// @brief Field CapsuleGO, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___CapsuleGO;
 
@@ -542,264 +540,269 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualiz
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8175)), TypeDefinitionIndex(TypeDefinitionIndex(8176)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
+// CS Name: ::OVRSkeletonRenderer*
 class CORDL_TYPE OVRSkeletonRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using CapsuleVisualization = ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization;
-
   using BoneVisualization = ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization;
 
-  using SystemGestureBehavior = ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior;
+  using CapsuleVisualization = ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization;
 
   using ConfidenceBehavior = ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior;
 
-  using SkeletonRendererData = ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData;
-
   using IOVRSkeletonRendererDataProvider = ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 
-  /// @brief Field _dataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* _dataProvider;
+  using SkeletonRendererData = ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData;
 
-  /// @brief Field _confidenceBehavior, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__confidenceBehavior, put = __cordl_internal_set__confidenceBehavior))::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior _confidenceBehavior;
+  using SystemGestureBehavior = ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior;
 
-  /// @brief Field _systemGestureBehavior, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__systemGestureBehavior,
-                      put = __cordl_internal_set__systemGestureBehavior))::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior _systemGestureBehavior;
+  __declspec(property(get = get_IsDataHighConfidence, put = set_IsDataHighConfidence)) bool IsDataHighConfidence;
 
-  /// @brief Field _renderPhysicsCapsules, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__renderPhysicsCapsules, put = __cordl_internal_set__renderPhysicsCapsules)) bool _renderPhysicsCapsules;
+  __declspec(property(get = get_IsDataValid, put = set_IsDataValid)) bool IsDataValid;
 
-  /// @brief Field _skeletonMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__skeletonMaterial, put = __cordl_internal_set__skeletonMaterial))::UnityW<::UnityEngine::Material> _skeletonMaterial;
+  __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
-  /// @brief Field _skeletonDefaultMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__skeletonDefaultMaterial, put = __cordl_internal_set__skeletonDefaultMaterial))::UnityW<::UnityEngine::Material> _skeletonDefaultMaterial;
+  __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Field _capsuleMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__capsuleMaterial, put = __cordl_internal_set__capsuleMaterial))::UnityW<::UnityEngine::Material> _capsuleMaterial;
+  /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0x86, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
-  /// @brief Field _capsuleDefaultMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__capsuleDefaultMaterial, put = __cordl_internal_set__capsuleDefaultMaterial))::UnityW<::UnityEngine::Material> _capsuleDefaultMaterial;
+  /// @brief Field <IsDataValid>k__BackingField, offset 0x85, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
-  /// @brief Field _systemGestureMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial))::UnityW<::UnityEngine::Material> _systemGestureMaterial;
+  /// @brief Field <IsInitialized>k__BackingField, offset 0x84, size 0x1
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
-  /// @brief Field _systemGestureDefaultMaterial, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__systemGestureDefaultMaterial,
-                      put = __cordl_internal_set__systemGestureDefaultMaterial))::UnityW<::UnityEngine::Material> _systemGestureDefaultMaterial;
+  /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset 0x87, size 0x1
+  __declspec(property(get = __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField,
+                      put = __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
 
   /// @brief Field _boneVisualizations, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__boneVisualizations,
                       put = __cordl_internal_set__boneVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* _boneVisualizations;
+
+  /// @brief Field _capsuleDefaultMaterial, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__capsuleDefaultMaterial, put = __cordl_internal_set__capsuleDefaultMaterial))::UnityW<::UnityEngine::Material> _capsuleDefaultMaterial;
+
+  /// @brief Field _capsuleMaterial, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__capsuleMaterial, put = __cordl_internal_set__capsuleMaterial))::UnityW<::UnityEngine::Material> _capsuleMaterial;
+
+  /// @brief Field _capsuleRotationOffset, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF__capsuleRotationOffset, put = setStaticF__capsuleRotationOffset))::UnityEngine::Quaternion _capsuleRotationOffset;
 
   /// @brief Field _capsuleVisualizations, offset 0x68, size 0x8
   __declspec(
       property(get = __cordl_internal_get__capsuleVisualizations,
                put = __cordl_internal_set__capsuleVisualizations))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* _capsuleVisualizations;
 
+  /// @brief Field _confidenceBehavior, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__confidenceBehavior, put = __cordl_internal_set__confidenceBehavior))::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior _confidenceBehavior;
+
+  /// @brief Field _dataProvider, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* _dataProvider;
+
   /// @brief Field _ovrSkeleton, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__ovrSkeleton, put = __cordl_internal_set__ovrSkeleton))::UnityW<::GlobalNamespace::OVRSkeleton> _ovrSkeleton;
 
-  /// @brief Field _skeletonGO, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__skeletonGO, put = __cordl_internal_set__skeletonGO))::UnityW<::UnityEngine::GameObject> _skeletonGO;
+  /// @brief Field _renderPhysicsCapsules, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__renderPhysicsCapsules, put = __cordl_internal_set__renderPhysicsCapsules)) bool _renderPhysicsCapsules;
 
   /// @brief Field _scale, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  /// @brief Field <IsInitialized>k__BackingField, offset 0x84, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  /// @brief Field _skeletonDefaultMaterial, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__skeletonDefaultMaterial, put = __cordl_internal_set__skeletonDefaultMaterial))::UnityW<::UnityEngine::Material> _skeletonDefaultMaterial;
 
-  /// @brief Field <IsDataValid>k__BackingField, offset 0x85, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
+  /// @brief Field _skeletonGO, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__skeletonGO, put = __cordl_internal_set__skeletonGO))::UnityW<::UnityEngine::GameObject> _skeletonGO;
 
-  /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0x86, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
+  /// @brief Field _skeletonMaterial, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__skeletonMaterial, put = __cordl_internal_set__skeletonMaterial))::UnityW<::UnityEngine::Material> _skeletonMaterial;
 
-  /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset 0x87, size 0x1
-  __declspec(property(get = __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField,
-                      put = __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
+  /// @brief Field _systemGestureBehavior, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__systemGestureBehavior,
+                      put = __cordl_internal_set__systemGestureBehavior))::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior _systemGestureBehavior;
 
-  /// @brief Field _capsuleRotationOffset, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF__capsuleRotationOffset, put = setStaticF__capsuleRotationOffset))::UnityEngine::Quaternion _capsuleRotationOffset;
+  /// @brief Field _systemGestureDefaultMaterial, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__systemGestureDefaultMaterial,
+                      put = __cordl_internal_set__systemGestureDefaultMaterial))::UnityW<::UnityEngine::Material> _systemGestureDefaultMaterial;
 
-  __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
+  /// @brief Field _systemGestureMaterial, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial))::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
-  __declspec(property(get = get_IsDataValid, put = set_IsDataValid)) bool IsDataValid;
+  /// @brief Method Awake, addr 0x28b1a48, size 0xb8, virtual false, abstract: false, final false
+  inline void Awake();
 
-  __declspec(property(get = get_IsDataHighConfidence, put = set_IsDataHighConfidence)) bool IsDataHighConfidence;
+  /// @brief Method Initialize, addr 0x28b1be0, size 0x74c, virtual false, abstract: false, final false
+  inline void Initialize();
 
-  __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
+  static inline ::GlobalNamespace::OVRSkeletonRenderer* New_ctor();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*& __cordl_internal_get__dataProvider();
+  /// @brief Method OnDestroy, addr 0x28b2d6c, size 0x12c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*> const& __cordl_internal_get__dataProvider() const;
+  /// @brief Method ShouldInitialize, addr 0x28b1bac, size 0x34, virtual false, abstract: false, final false
+  inline bool ShouldInitialize();
 
-  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* value);
+  /// @brief Method Start, addr 0x28b1b00, size 0xac, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior& __cordl_internal_get__confidenceBehavior();
+  /// @brief Method Update, addr 0x28b26c4, size 0x1c8, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const& __cordl_internal_get__confidenceBehavior() const;
+  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior value);
+  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior& __cordl_internal_get__systemGestureBehavior();
+  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const& __cordl_internal_get__systemGestureBehavior() const;
+  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
 
-  constexpr void __cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior value);
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__renderPhysicsCapsules();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __cordl_internal_get__renderPhysicsCapsules() const;
+  constexpr bool const& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__renderPhysicsCapsules(bool value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonMaterial() const;
-
-  constexpr void __cordl_internal_set__skeletonMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonDefaultMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonDefaultMaterial() const;
-
-  constexpr void __cordl_internal_set__skeletonDefaultMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleMaterial() const;
-
-  constexpr void __cordl_internal_set__capsuleMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleDefaultMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleDefaultMaterial() const;
-
-  constexpr void __cordl_internal_set__capsuleDefaultMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureMaterial() const;
-
-  constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureDefaultMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureDefaultMaterial() const;
-
-  constexpr void __cordl_internal_set__systemGestureDefaultMaterial(::UnityW<::UnityEngine::Material> value);
+  constexpr bool& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*& __cordl_internal_get__boneVisualizations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>*> const&
   __cordl_internal_get__boneVisualizations() const;
 
-  constexpr void __cordl_internal_set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* value);
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleDefaultMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleDefaultMaterial();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__capsuleMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__capsuleMaterial();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*& __cordl_internal_get__capsuleVisualizations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>*> const&
   __cordl_internal_get__capsuleVisualizations() const;
 
-  constexpr void __cordl_internal_set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* value);
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior const& __cordl_internal_get__confidenceBehavior() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get__ovrSkeleton();
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior& __cordl_internal_get__confidenceBehavior();
+
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*& __cordl_internal_get__dataProvider();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*> const& __cordl_internal_get__dataProvider() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get__ovrSkeleton() const;
 
-  constexpr void __cordl_internal_set__ovrSkeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get__ovrSkeleton();
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__skeletonGO();
+  constexpr bool const& __cordl_internal_get__renderPhysicsCapsules() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__skeletonGO() const;
-
-  constexpr void __cordl_internal_set__skeletonGO(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr float_t& __cordl_internal_get__scale();
+  constexpr bool& __cordl_internal_get__renderPhysicsCapsules();
 
   constexpr float_t const& __cordl_internal_get__scale() const;
 
-  constexpr void __cordl_internal_set__scale(float_t value);
+  constexpr float_t& __cordl_internal_get__scale();
 
-  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonDefaultMaterial() const;
 
-  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonDefaultMaterial();
 
-  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__skeletonGO() const;
 
-  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__skeletonGO();
 
-  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__skeletonMaterial() const;
 
-  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__skeletonMaterial();
 
-  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior const& __cordl_internal_get__systemGestureBehavior() const;
 
-  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior& __cordl_internal_get__systemGestureBehavior();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureDefaultMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureDefaultMaterial();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureMaterial();
 
   constexpr void __cordl_internal_set__IsDataHighConfidence_k__BackingField(bool value);
 
-  constexpr bool& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField();
+  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
 
-  constexpr bool const& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField() const;
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
 
-  static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__boneVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization*>* value);
+
+  constexpr void __cordl_internal_set__capsuleDefaultMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__capsuleMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__capsuleVisualizations(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization*>* value);
+
+  constexpr void __cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior value);
+
+  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* value);
+
+  constexpr void __cordl_internal_set__ovrSkeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
+
+  constexpr void __cordl_internal_set__renderPhysicsCapsules(bool value);
+
+  constexpr void __cordl_internal_set__scale(float_t value);
+
+  constexpr void __cordl_internal_set__skeletonDefaultMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__skeletonGO(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__skeletonMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior value);
+
+  constexpr void __cordl_internal_set__systemGestureDefaultMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
+
+  /// @brief Method .ctor, addr 0x28b2e98, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::Quaternion getStaticF__capsuleRotationOffset();
 
-  /// @brief Method get_IsInitialized, addr 0x27c00e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsInitialized();
-
-  /// @brief Method set_IsInitialized, addr 0x27c00f0, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsInitialized(bool value);
-
-  /// @brief Method get_IsDataValid, addr 0x27c00fc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsDataValid();
-
-  /// @brief Method set_IsDataValid, addr 0x27c0104, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsDataValid(bool value);
-
-  /// @brief Method get_IsDataHighConfidence, addr 0x27c0110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x28b1a20, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x27c0118, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsDataHighConfidence(bool value);
+  /// @brief Method get_IsDataValid, addr 0x28b1a0c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsDataValid();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c0124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x28b19f8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsInitialized();
+
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x28b1a34, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c012c, size 0xc, virtual false, abstract: false, final false
+  static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
+
+  /// @brief Method set_IsDataHighConfidence, addr 0x28b1a28, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsDataHighConfidence(bool value);
+
+  /// @brief Method set_IsDataValid, addr 0x28b1a14, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsDataValid(bool value);
+
+  /// @brief Method set_IsInitialized, addr 0x28b1a00, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsInitialized(bool value);
+
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x28b1a3c, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
-  /// @brief Method Awake, addr 0x27c0138, size 0xb8, virtual false, abstract: false, final false
-  inline void Awake();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRSkeletonRenderer();
 
-  /// @brief Method Start, addr 0x27c01f0, size 0xac, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method ShouldInitialize, addr 0x27c029c, size 0x34, virtual false, abstract: false, final false
-  inline bool ShouldInitialize();
-
-  /// @brief Method Initialize, addr 0x27c02d0, size 0x74c, virtual false, abstract: false, final false
-  inline void Initialize();
-
-  /// @brief Method Update, addr 0x27c0db4, size 0x1c8, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method OnDestroy, addr 0x27c145c, size 0x12c, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  static inline ::GlobalNamespace::OVRSkeletonRenderer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27c1588, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSkeletonRenderer(OVRSkeletonRenderer&&) = delete;
@@ -808,12 +811,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSkeletonRenderer(OVRSkeletonRenderer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSkeletonRenderer();
-
-public:
   /// @brief Field _dataProvider, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* ____dataProvider;
 

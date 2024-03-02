@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogEnvironment);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14449))
 // CS Name: ::BloomFogEnvironment*
 class CORDL_TYPE BloomFogEnvironment : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,32 +32,38 @@ public:
 
   __declspec(property(get = get_fogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> fogParams;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
+  static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
+
+  /// @brief Method OnEnable, addr 0x2264c8c, size 0x40, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method OnValidate, addr 0x2264cec, size 0x60, virtual false, abstract: false, final false
+  inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__fogParams();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__fogParams() const;
 
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__fogParams();
+
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
+
   constexpr void __cordl_internal_set__fogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  /// @brief Method get_fogParams, addr 0x2101e74, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_fogParams();
-
-  /// @brief Method OnEnable, addr 0x2101e7c, size 0x40, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnValidate, addr 0x2101edc, size 0x60, virtual false, abstract: false, final false
-  inline void OnValidate();
-
-  static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
-
-  /// @brief Method .ctor, addr 0x210215c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2264f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_fogParams, addr 0x2264c84, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_fogParams();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomFogEnvironment();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogEnvironment", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomFogEnvironment(BloomFogEnvironment&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomFogEnvironment(BloomFogEnvironment const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomFogEnvironment();
-
-public:
   /// @brief Field _bloomFog, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 

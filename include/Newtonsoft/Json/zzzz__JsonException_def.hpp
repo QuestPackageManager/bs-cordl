@@ -27,35 +27,39 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11804))
 // CS Name: ::Newtonsoft.Json::JsonException*
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
+  /// @brief Method Create, addr 0x2731ed4, size 0xac, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
+
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
-
-  /// @brief Method .ctor, addr 0x263e41c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x263e474, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
-
-  /// @brief Method .ctor, addr 0x263e4dc, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x263e54c, size 0x80, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message);
+
+  static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
+
+  /// @brief Method .ctor, addr 0x2731d24, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2731e54, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Create, addr 0x263e5cc, size 0xac, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
+  /// @brief Method .ctor, addr 0x2731d7c, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
 
+  /// @brief Method .ctor, addr 0x2731de4, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonException(JsonException&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonException(JsonException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

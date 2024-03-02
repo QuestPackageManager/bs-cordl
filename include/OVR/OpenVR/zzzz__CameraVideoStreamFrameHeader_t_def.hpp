@@ -23,21 +23,19 @@ MARK_VAL_T(::OVR::OpenVR::CameraVideoStreamFrameHeader_t);
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8612)), TypeDefinitionIndex(TypeDefinitionIndex(8658))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8700))
 // CS Name: ::OVR.OpenVR::CameraVideoStreamFrameHeader_t
 struct CORDL_TYPE CameraVideoStreamFrameHeader_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CameraVideoStreamFrameHeader_t();
+
   // Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "",
   // def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
   constexpr CameraVideoStreamFrameHeader_t(::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint32_t nWidth, uint32_t nHeight, uint32_t nBytesPerPixel, uint32_t nFrameSequence,
                                            ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CameraVideoStreamFrameHeader_t();
 
   /// @brief Field eFrameType, offset: 0x0, size: 0x4, def value: None
   ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType;

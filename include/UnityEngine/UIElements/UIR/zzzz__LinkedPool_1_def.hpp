@@ -23,17 +23,17 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7400))
 // CS Name: ::UnityEngine.UIElements.UIR::LinkedPool`1<T>*
 class CORDL_TYPE LinkedPool_1 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
+
+  /// @brief Field <Count>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+
   /// @brief Field m_CreateFunc, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CreateFunc, put = __cordl_internal_set_m_CreateFunc))::System::Func_1<T>* m_CreateFunc;
-
-  /// @brief Field m_ResetAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ResetAction, put = __cordl_internal_set_m_ResetAction))::System::Action_1<T>* m_ResetAction;
 
   /// @brief Field m_Limit, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Limit, put = __cordl_internal_set_m_Limit)) int32_t m_Limit;
@@ -41,42 +41,49 @@ public:
   /// @brief Field m_PoolFirst, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PoolFirst, put = __cordl_internal_set_m_PoolFirst)) T m_PoolFirst;
 
-  /// @brief Field <Count>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  /// @brief Field m_ResetAction, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ResetAction, put = __cordl_internal_set_m_ResetAction))::System::Action_1<T>* m_ResetAction;
 
-  __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T Get();
+
+  static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<T>* New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
+
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Return(T item);
+
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_m_CreateFunc();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_m_CreateFunc() const;
 
-  constexpr void __cordl_internal_set_m_CreateFunc(::System::Func_1<T>* value);
+  constexpr int32_t const& __cordl_internal_get_m_Limit() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Limit();
+
+  constexpr T const& __cordl_internal_get_m_PoolFirst() const;
+
+  constexpr T& __cordl_internal_get_m_PoolFirst();
 
   constexpr ::System::Action_1<T>*& __cordl_internal_get_m_ResetAction();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_m_ResetAction() const;
 
-  constexpr void __cordl_internal_set_m_ResetAction(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_m_Limit();
-
-  constexpr int32_t const& __cordl_internal_get_m_Limit() const;
+  constexpr void __cordl_internal_set_m_CreateFunc(::System::Func_1<T>* value);
 
   constexpr void __cordl_internal_set_m_Limit(int32_t value);
 
-  constexpr T& __cordl_internal_get_m_PoolFirst();
-
-  constexpr T const& __cordl_internal_get_m_PoolFirst() const;
-
   constexpr void __cordl_internal_set_m_PoolFirst(T value);
 
-  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
-
-  static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<T>* New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
+  constexpr void __cordl_internal_set_m_ResetAction(::System::Action_1<T>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* resetAction, int32_t limit);
@@ -87,15 +94,12 @@ public:
   /// @brief Method set_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinkedPool_1();
 
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T Get();
-
-  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Return(T item);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LinkedPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedPool_1(LinkedPool_1&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedPool_1(LinkedPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedPool_1();
-
-public:
   /// @brief Field m_CreateFunc, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___m_CreateFunc;
 

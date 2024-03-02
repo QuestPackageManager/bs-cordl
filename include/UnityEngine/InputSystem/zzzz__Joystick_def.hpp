@@ -31,28 +31,28 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Joystick);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6241))
 // CS Name: ::UnityEngine.InputSystem::Joystick*
 class CORDL_TYPE Joystick : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
-  /// @brief Field <trigger>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
-                      put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField;
-
-  /// @brief Field <stick>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get__stick_k__BackingField, put = __cordl_internal_set__stick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField;
-
-  /// @brief Field <twist>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
+  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Joystick* _current_k__BackingField;
 
   /// @brief Field <hatswitch>k__BackingField, offset 0x170, size 0x8
   __declspec(property(get = __cordl_internal_get__hatswitch_k__BackingField,
                       put = __cordl_internal_set__hatswitch_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _hatswitch_k__BackingField;
 
-  /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Joystick* _current_k__BackingField;
+  /// @brief Field <stick>k__BackingField, offset 0x160, size 0x8
+  __declspec(property(get = __cordl_internal_get__stick_k__BackingField, put = __cordl_internal_set__stick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField;
+
+  /// @brief Field <trigger>k__BackingField, offset 0x158, size 0x8
+  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
+                      put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField;
+
+  /// @brief Field <twist>k__BackingField, offset 0x168, size 0x8
+  __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
+
+  __declspec(property(get = get_hatswitch, put = set_hatswitch))::UnityEngine::InputSystem::Controls::Vector2Control* hatswitch;
 
   /// @brief Field s_JoystickCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_JoystickCount, put = setStaticF_s_JoystickCount)) int32_t s_JoystickCount;
@@ -60,100 +60,104 @@ public:
   /// @brief Field s_Joysticks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Joysticks, put = setStaticF_s_Joysticks))::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> s_Joysticks;
 
-  __declspec(property(get = get_trigger, put = set_trigger))::UnityEngine::InputSystem::Controls::ButtonControl* trigger;
-
   __declspec(property(get = get_stick, put = set_stick))::UnityEngine::InputSystem::Controls::StickControl* stick;
+
+  __declspec(property(get = get_trigger, put = set_trigger))::UnityEngine::InputSystem::Controls::ButtonControl* trigger;
 
   __declspec(property(get = get_twist, put = set_twist))::UnityEngine::InputSystem::Controls::AxisControl* twist;
 
-  __declspec(property(get = get_hatswitch, put = set_hatswitch))::UnityEngine::InputSystem::Controls::Vector2Control* hatswitch;
+  /// @brief Method FinishSetup, addr 0x2b549a4, size 0x13c, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trigger_k__BackingField();
+  /// @brief Method MakeCurrent, addr 0x2b54ae0, size 0x4c, virtual true, abstract: false, final false
+  inline void MakeCurrent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trigger_k__BackingField() const;
+  static inline ::UnityEngine::InputSystem::Joystick* New_ctor();
 
-  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  /// @brief Method OnAdded, addr 0x2b54b2c, size 0x78, virtual true, abstract: false, final false
+  inline void OnAdded();
 
-  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __cordl_internal_get__stick_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __cordl_internal_get__stick_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__stick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__twist_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__twist_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  /// @brief Method OnRemoved, addr 0x2b54ba4, size 0x118, virtual true, abstract: false, final false
+  inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__hatswitch_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__hatswitch_k__BackingField() const;
 
+  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __cordl_internal_get__stick_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __cordl_internal_get__stick_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trigger_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trigger_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__twist_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__twist_k__BackingField() const;
+
   constexpr void __cordl_internal_set__hatswitch_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Joystick* value);
+  constexpr void __cordl_internal_set__stick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
+
+  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method .ctor, addr 0x2b54cbc, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Joystick* getStaticF__current_k__BackingField();
 
-  static inline void setStaticF_s_JoystickCount(int32_t value);
-
   static inline int32_t getStaticF_s_JoystickCount();
-
-  static inline void setStaticF_s_Joysticks(::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> value);
 
   static inline ::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> getStaticF_s_Joysticks();
 
-  /// @brief Method get_trigger, addr 0x2a6bc10, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trigger();
-
-  /// @brief Method set_trigger, addr 0x2a6bc18, size 0x8, virtual false, abstract: false, final false
-  inline void set_trigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_stick, addr 0x2a6bc20, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::StickControl* get_stick();
-
-  /// @brief Method set_stick, addr 0x2a6bc28, size 0x8, virtual false, abstract: false, final false
-  inline void set_stick(::UnityEngine::InputSystem::Controls::StickControl* value);
-
-  /// @brief Method get_twist, addr 0x2a6bc30, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
-
-  /// @brief Method set_twist, addr 0x2a6bc38, size 0x8, virtual false, abstract: false, final false
-  inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  /// @brief Method get_hatswitch, addr 0x2a6bc40, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_hatswitch();
-
-  /// @brief Method set_hatswitch, addr 0x2a6bc48, size 0x8, virtual false, abstract: false, final false
-  inline void set_hatswitch(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method get_current, addr 0x2a6bc50, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Joystick* get_current();
-
-  /// @brief Method set_current, addr 0x2a6bc98, size 0x4c, virtual false, abstract: false, final false
-  static inline void set_current(::UnityEngine::InputSystem::Joystick* value);
-
-  /// @brief Method get_all, addr 0x2a6bce4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x2b54924, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Joystick*> get_all();
 
-  /// @brief Method FinishSetup, addr 0x2a6bd64, size 0x13c, virtual true, abstract: false, final false
-  inline void FinishSetup();
+  /// @brief Method get_current, addr 0x2b54890, size 0x48, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Joystick* get_current();
 
-  /// @brief Method MakeCurrent, addr 0x2a6bea0, size 0x4c, virtual true, abstract: false, final false
-  inline void MakeCurrent();
+  /// @brief Method get_hatswitch, addr 0x2b54880, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_hatswitch();
 
-  /// @brief Method OnAdded, addr 0x2a6beec, size 0x78, virtual true, abstract: false, final false
-  inline void OnAdded();
+  /// @brief Method get_stick, addr 0x2b54860, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::StickControl* get_stick();
 
-  /// @brief Method OnRemoved, addr 0x2a6bf64, size 0x118, virtual true, abstract: false, final false
-  inline void OnRemoved();
+  /// @brief Method get_trigger, addr 0x2b54850, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trigger();
 
-  static inline ::UnityEngine::InputSystem::Joystick* New_ctor();
+  /// @brief Method get_twist, addr 0x2b54870, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
-  /// @brief Method .ctor, addr 0x2a6c07c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Joystick* value);
 
+  static inline void setStaticF_s_JoystickCount(int32_t value);
+
+  static inline void setStaticF_s_Joysticks(::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> value);
+
+  /// @brief Method set_current, addr 0x2b548d8, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_current(::UnityEngine::InputSystem::Joystick* value);
+
+  /// @brief Method set_hatswitch, addr 0x2b54888, size 0x8, virtual false, abstract: false, final false
+  inline void set_hatswitch(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method set_stick, addr 0x2b54868, size 0x8, virtual false, abstract: false, final false
+  inline void set_stick(::UnityEngine::InputSystem::Controls::StickControl* value);
+
+  /// @brief Method set_trigger, addr 0x2b54858, size 0x8, virtual false, abstract: false, final false
+  inline void set_trigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_twist, addr 0x2b54878, size 0x8, virtual false, abstract: false, final false
+  inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Joystick();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Joystick(Joystick&&) = delete;
@@ -162,12 +166,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Joystick(Joystick const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Joystick();
-
-public:
   /// @brief Field <trigger>k__BackingField, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trigger_k__BackingField;
 

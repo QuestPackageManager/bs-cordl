@@ -41,8 +41,6 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4841 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11220))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`2<TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_2 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
 public:
@@ -53,27 +51,33 @@ public:
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
-  /// @brief Convert to "::Zenject::IValidatable"
-  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
-
-  constexpr TMemoryPool& __cordl_internal_get__pool();
-
-  constexpr TMemoryPool const& __cordl_internal_get__pool() const;
-
-  constexpr void __cordl_internal_set__pool(TMemoryPool value);
-
-  static inline ::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
-
-  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Validate();
-
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
+  static inline ::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
+
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Validate();
+
+  constexpr TMemoryPool const& __cordl_internal_get__pool() const;
+
+  constexpr TMemoryPool& __cordl_internal_get__pool();
+
+  constexpr void __cordl_internal_set__pool(TMemoryPool value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
+
+  /// @brief Convert to "::Zenject::IValidatable"
+  constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PoolableMemoryPoolProvider_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProvider_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableMemoryPoolProvider_2(PoolableMemoryPoolProvider_2&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoolableMemoryPoolProvider_2(PoolableMemoryPoolProvider_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoolableMemoryPoolProvider_2();
-
-public:
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;
 

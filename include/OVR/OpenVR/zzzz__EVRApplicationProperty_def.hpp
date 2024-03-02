@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EVRApplicationProperty);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8617))
 // CS Name: ::OVR.OpenVR::EVRApplicationProperty
 struct CORDL_TYPE EVRApplicationProperty {
 public:
@@ -49,57 +47,38 @@ public:
     return static_cast<__EVRApplicationProperty_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EVRApplicationProperty(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EVRApplicationProperty();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EVRApplicationProperty(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Name_String value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::EVRApplicationProperty const Name_String;
-
-  /// @brief Field LaunchType_String value: static_cast<int32_t>(0xb)
-  static ::OVR::OpenVR::EVRApplicationProperty const LaunchType_String;
-
-  /// @brief Field WorkingDirectory_String value: static_cast<int32_t>(0xc)
-  static ::OVR::OpenVR::EVRApplicationProperty const WorkingDirectory_String;
-
-  /// @brief Field BinaryPath_String value: static_cast<int32_t>(0xd)
-  static ::OVR::OpenVR::EVRApplicationProperty const BinaryPath_String;
-
-  /// @brief Field Arguments_String value: static_cast<int32_t>(0xe)
-  static ::OVR::OpenVR::EVRApplicationProperty const Arguments_String;
-
-  /// @brief Field URL_String value: static_cast<int32_t>(0xf)
-  static ::OVR::OpenVR::EVRApplicationProperty const URL_String;
-
-  /// @brief Field Description_String value: static_cast<int32_t>(0x32)
-  static ::OVR::OpenVR::EVRApplicationProperty const Description_String;
-
-  /// @brief Field NewsURL_String value: static_cast<int32_t>(0x33)
-  static ::OVR::OpenVR::EVRApplicationProperty const NewsURL_String;
-
-  /// @brief Field ImagePath_String value: static_cast<int32_t>(0x34)
-  static ::OVR::OpenVR::EVRApplicationProperty const ImagePath_String;
-
-  /// @brief Field Source_String value: static_cast<int32_t>(0x35)
-  static ::OVR::OpenVR::EVRApplicationProperty const Source_String;
 
   /// @brief Field ActionManifestURL_String value: static_cast<int32_t>(0x36)
   static ::OVR::OpenVR::EVRApplicationProperty const ActionManifestURL_String;
 
+  /// @brief Field Arguments_String value: static_cast<int32_t>(0xe)
+  static ::OVR::OpenVR::EVRApplicationProperty const Arguments_String;
+
+  /// @brief Field BinaryPath_String value: static_cast<int32_t>(0xd)
+  static ::OVR::OpenVR::EVRApplicationProperty const BinaryPath_String;
+
+  /// @brief Field Description_String value: static_cast<int32_t>(0x32)
+  static ::OVR::OpenVR::EVRApplicationProperty const Description_String;
+
+  /// @brief Field ImagePath_String value: static_cast<int32_t>(0x34)
+  static ::OVR::OpenVR::EVRApplicationProperty const ImagePath_String;
+
   /// @brief Field IsDashboardOverlay_Bool value: static_cast<int32_t>(0x3c)
   static ::OVR::OpenVR::EVRApplicationProperty const IsDashboardOverlay_Bool;
-
-  /// @brief Field IsTemplate_Bool value: static_cast<int32_t>(0x3d)
-  static ::OVR::OpenVR::EVRApplicationProperty const IsTemplate_Bool;
 
   /// @brief Field IsInstanced_Bool value: static_cast<int32_t>(0x3e)
   static ::OVR::OpenVR::EVRApplicationProperty const IsInstanced_Bool;
@@ -107,11 +86,35 @@ public:
   /// @brief Field IsInternal_Bool value: static_cast<int32_t>(0x3f)
   static ::OVR::OpenVR::EVRApplicationProperty const IsInternal_Bool;
 
-  /// @brief Field WantsCompositorPauseInStandby_Bool value: static_cast<int32_t>(0x40)
-  static ::OVR::OpenVR::EVRApplicationProperty const WantsCompositorPauseInStandby_Bool;
+  /// @brief Field IsTemplate_Bool value: static_cast<int32_t>(0x3d)
+  static ::OVR::OpenVR::EVRApplicationProperty const IsTemplate_Bool;
 
   /// @brief Field LastLaunchTime_Uint64 value: static_cast<int32_t>(0x46)
   static ::OVR::OpenVR::EVRApplicationProperty const LastLaunchTime_Uint64;
+
+  /// @brief Field LaunchType_String value: static_cast<int32_t>(0xb)
+  static ::OVR::OpenVR::EVRApplicationProperty const LaunchType_String;
+
+  /// @brief Field Name_String value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::EVRApplicationProperty const Name_String;
+
+  /// @brief Field NewsURL_String value: static_cast<int32_t>(0x33)
+  static ::OVR::OpenVR::EVRApplicationProperty const NewsURL_String;
+
+  /// @brief Field Source_String value: static_cast<int32_t>(0x35)
+  static ::OVR::OpenVR::EVRApplicationProperty const Source_String;
+
+  /// @brief Field URL_String value: static_cast<int32_t>(0xf)
+  static ::OVR::OpenVR::EVRApplicationProperty const URL_String;
+
+  /// @brief Field WantsCompositorPauseInStandby_Bool value: static_cast<int32_t>(0x40)
+  static ::OVR::OpenVR::EVRApplicationProperty const WantsCompositorPauseInStandby_Bool;
+
+  /// @brief Field WorkingDirectory_String value: static_cast<int32_t>(0xc)
+  static ::OVR::OpenVR::EVRApplicationProperty const WorkingDirectory_String;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

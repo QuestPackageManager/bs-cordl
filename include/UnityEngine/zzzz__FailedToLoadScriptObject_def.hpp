@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::UnityEngine::FailedToLoadScriptObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10241))
 // CS Name: ::UnityEngine::FailedToLoadScriptObject*
 class CORDL_TYPE FailedToLoadScriptObject : public ::UnityEngine::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FailedToLoadScriptObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FailedToLoadScriptObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FailedToLoadScriptObject(FailedToLoadScriptObject&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FailedToLoadScriptObject(FailedToLoadScriptObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FailedToLoadScriptObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

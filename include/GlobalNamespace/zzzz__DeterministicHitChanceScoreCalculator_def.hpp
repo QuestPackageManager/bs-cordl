@@ -22,44 +22,48 @@ MARK_REF_PTR_T(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5169))
 // CS Name: ::DeterministicHitChanceScoreCalculator*
 class CORDL_TYPE DeterministicHitChanceScoreCalculator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _hitChance, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__hitChance, put = __cordl_internal_set__hitChance)) float_t _hitChance;
-
   /// @brief Field _chanceAggregated, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__chanceAggregated, put = __cordl_internal_set__chanceAggregated)) float_t _chanceAggregated;
+
+  /// @brief Field _hitChance, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__hitChance, put = __cordl_internal_set__hitChance)) float_t _hitChance;
 
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
-  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
-
-  constexpr float_t& __cordl_internal_get__hitChance();
-
-  constexpr float_t const& __cordl_internal_get__hitChance() const;
-
-  constexpr void __cordl_internal_set__hitChance(float_t value);
-
-  constexpr float_t& __cordl_internal_get__chanceAggregated();
-
-  constexpr float_t const& __cordl_internal_get__chanceAggregated() const;
-
-  constexpr void __cordl_internal_set__chanceAggregated(float_t value);
+  /// @brief Method GetScoreForNote, addr 0x246b918, size 0x30, virtual true, abstract: false, final true
+  inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
 
-  /// @brief Method .ctor, addr 0x23ddfb8, size 0x28, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get__chanceAggregated() const;
+
+  constexpr float_t& __cordl_internal_get__chanceAggregated();
+
+  constexpr float_t const& __cordl_internal_get__hitChance() const;
+
+  constexpr float_t& __cordl_internal_get__hitChance();
+
+  constexpr void __cordl_internal_set__chanceAggregated(float_t value);
+
+  constexpr void __cordl_internal_set__hitChance(float_t value);
+
+  /// @brief Method .ctor, addr 0x246b8f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
-  /// @brief Method GetScoreForNote, addr 0x23ddfe0, size 0x30, virtual true, abstract: false, final true
-  inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
+  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DeterministicHitChanceScoreCalculator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DeterministicHitChanceScoreCalculator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeterministicHitChanceScoreCalculator(DeterministicHitChanceScoreCalculator&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DeterministicHitChanceScoreCalculator(DeterministicHitChanceScoreCalculator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeterministicHitChanceScoreCalculator();
-
-public:
   /// @brief Field _hitChance, offset: 0x10, size: 0x4, def value: None
   float_t ____hitChance;
 

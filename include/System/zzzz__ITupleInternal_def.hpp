@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::System::ITupleInternal);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2488))
 // CS Name: ::System::ITupleInternal*
 class CORDL_TYPE ITupleInternal {
 public:
@@ -29,11 +27,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
-  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
-
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Text::StringBuilder* sb);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+  constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITupleInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

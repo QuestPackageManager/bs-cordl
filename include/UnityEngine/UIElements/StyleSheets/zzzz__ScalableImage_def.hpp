@@ -18,22 +18,20 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ScalableImage);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7473))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ScalableImage
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2de5e24, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ef4934, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty:
-  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }]
-  constexpr ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ScalableImage();
+
+  // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty:
+  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }]
+  constexpr ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept;
 
   /// @brief Field normalImage, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> normalImage;

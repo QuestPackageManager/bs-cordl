@@ -20,8 +20,6 @@ namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15687))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartSO`1<T>*
 class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -35,55 +33,56 @@ public:
   /// @brief Field _partAsset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__partAsset, put = __cordl_internal_set__partAsset)) T _partAsset;
 
-  __declspec(property(get = get_partAsset)) T partAsset;
-
   __declspec(property(get = get_id))::StringW id;
 
   __declspec(property(get = get_localizationKey))::StringW localizationKey;
 
-  __declspec(property(get = get_localizedName))::StringW localizedName;
+  __declspec(property(get = get_partAsset)) T partAsset;
 
   /// @brief Convert operator to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
   constexpr operator ::BeatSaber::BeatAvatarSDK::IAvatarPart*() noexcept;
 
-  /// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
-  constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__id();
+  static inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __cordl_internal_set__id(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__localizationKey();
+  constexpr ::StringW& __cordl_internal_get__id();
 
   constexpr ::StringW const& __cordl_internal_get__localizationKey() const;
 
-  constexpr void __cordl_internal_set__localizationKey(::StringW value);
-
-  constexpr T& __cordl_internal_get__partAsset();
+  constexpr ::StringW& __cordl_internal_get__localizationKey();
 
   constexpr T const& __cordl_internal_get__partAsset() const;
 
+  constexpr T& __cordl_internal_get__partAsset();
+
+  constexpr void __cordl_internal_set__id(::StringW value);
+
+  constexpr void __cordl_internal_set__localizationKey(::StringW value);
+
   constexpr void __cordl_internal_set__partAsset(T value);
-
-  /// @brief Method get_partAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_partAsset();
-
-  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::StringW get_id();
-
-  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::StringW get_localizationKey();
-
-  /// @brief Method get_localizedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::StringW get_localizedName();
-
-  static inline ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::StringW get_id();
+
+  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::StringW get_localizationKey();
+
+  /// @brief Method get_partAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_partAsset();
+
+  /// @brief Convert to "::BeatSaber::BeatAvatarSDK::IAvatarPart"
+  constexpr ::BeatSaber::BeatAvatarSDK::IAvatarPart* i___BeatSaber__BeatAvatarSDK__IAvatarPart() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarPartSO_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPartSO_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPartSO_1(AvatarPartSO_1&&) = delete;
@@ -92,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPartSO_1(AvatarPartSO_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarPartSO_1();
-
-public:
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 

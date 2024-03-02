@@ -16,16 +16,21 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture2D);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10073)), TypeDefinitionIndex(TypeDefinitionIndex(14082)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst:
-// 403 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14085)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
+// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
 class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Texture2D>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture2D* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x2a23b74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0e7b4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceTexture2D();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceTexture2D(AssetReferenceTexture2D&&) = delete;
@@ -34,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceTexture2D(AssetReferenceTexture2D const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceTexture2D();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

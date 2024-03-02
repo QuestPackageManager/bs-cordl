@@ -19,18 +19,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Session);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9691))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
 // CS Name: ::HoudiniEngineUnity::HAPI_Session
 struct CORDL_TYPE HAPI_Session {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_SessionType", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr HAPI_Session(::HoudiniEngineUnity::HAPI_SessionType type, int64_t id) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_Session();
+
+  // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_SessionType", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr HAPI_Session(::HoudiniEngineUnity::HAPI_SessionType type, int64_t id) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_SessionType type;

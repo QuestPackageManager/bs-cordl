@@ -37,20 +37,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterTextAnimator);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5194))
 // CS Name: ::MultiplayerCenterTextAnimator*
 class CORDL_TYPE MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
-
-  /// @brief Field _scalingTarget, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scalingTarget, put = __cordl_internal_set__scalingTarget))::UnityW<::UnityEngine::Transform> _scalingTarget;
-
-  /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
+  /// @brief Field _colorTween, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorTween, put = __cordl_internal_set__colorTween))::Tweening::Tween_1<::UnityEngine::Color>* _colorTween;
 
   /// @brief Field _fadeInTween, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeInTween, put = __cordl_internal_set__fadeInTween))::Tweening::Tween_1<float_t>* _fadeInTween;
@@ -61,104 +53,116 @@ public:
   /// @brief Field _fontSizeTween, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__fontSizeTween, put = __cordl_internal_set__fontSizeTween))::Tweening::Tween_1<float_t>* _fontSizeTween;
 
-  /// @brief Field _colorTween, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorTween, put = __cordl_internal_set__colorTween))::Tweening::Tween_1<::UnityEngine::Color>* _colorTween;
-
   /// @brief Field _offsetTween, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__offsetTween, put = __cordl_internal_set__offsetTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _offsetTween;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
+  /// @brief Field _scalingTarget, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__scalingTarget, put = __cordl_internal_set__scalingTarget))::UnityW<::UnityEngine::Transform> _scalingTarget;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
+  /// @brief Field _text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
+  /// @brief Field _tweeningManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__scalingTarget();
+  /// @brief Method AnimateEnabled, addr 0x24727c4, size 0x148, virtual false, abstract: false, final false
+  inline void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__scalingTarget() const;
+  /// @brief Method AnimateFontSize, addr 0x24726f4, size 0x44, virtual false, abstract: false, final false
+  inline void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr void __cordl_internal_set__scalingTarget(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method AnimatePositionOffsetSize, addr 0x2472738, size 0x8c, virtual false, abstract: false, final false
+  inline void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  /// @brief Method AnimateTextColor, addr 0x247265c, size 0x98, virtual false, abstract: false, final false
+  inline void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  /// @brief Method Awake, addr 0x24721cc, size 0x408, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+  static inline ::GlobalNamespace::MultiplayerCenterTextAnimator* New_ctor();
 
-  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeInTween();
+  /// @brief Method OnDestroy, addr 0x24725d4, size 0x88, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeInTween() const;
+  /// @brief Method SetText, addr 0x247290c, size 0x24, virtual false, abstract: false, final false
+  inline void SetText(::StringW text);
 
-  constexpr void __cordl_internal_set__fadeInTween(::Tweening::Tween_1<float_t>* value);
+  /// @brief Method <Awake>b__8_0, addr 0x2472938, size 0x78, virtual false, abstract: false, final false
+  inline void _Awake_b__8_0(float_t val);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeOutTween();
+  /// @brief Method <Awake>b__8_1, addr 0x24729b0, size 0x78, virtual false, abstract: false, final false
+  inline void _Awake_b__8_1(float_t val);
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeOutTween() const;
+  /// @brief Method <Awake>b__8_2, addr 0x2472a54, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__8_2(float_t val);
 
-  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::Tween_1<float_t>* value);
+  /// @brief Method <Awake>b__8_3, addr 0x2472a70, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__8_3(::UnityEngine::Color val);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fontSizeTween();
+  /// @brief Method <Awake>b__8_4, addr 0x2472a94, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fontSizeTween() const;
-
-  constexpr void __cordl_internal_set__fontSizeTween(::Tweening::Tween_1<float_t>* value);
+  /// @brief Method <Awake>b__8_5, addr 0x2472a28, size 0x2c, virtual false, abstract: false, final false
+  inline void _Awake_b__8_5();
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__colorTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__colorTween() const;
 
-  constexpr void __cordl_internal_set__colorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeInTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeInTween() const;
+
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeOutTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeOutTween() const;
+
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fontSizeTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fontSizeTween() const;
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__offsetTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__offsetTween() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__scalingTarget() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__scalingTarget();
+
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__colorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+
+  constexpr void __cordl_internal_set__fadeInTween(::Tweening::Tween_1<float_t>* value);
+
+  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::Tween_1<float_t>* value);
+
+  constexpr void __cordl_internal_set__fontSizeTween(::Tweening::Tween_1<float_t>* value);
+
   constexpr void __cordl_internal_set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method Awake, addr 0x22459c0, size 0x408, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__scalingTarget(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method OnDestroy, addr 0x2245dc8, size 0x88, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method AnimateTextColor, addr 0x2245e50, size 0x98, virtual false, abstract: false, final false
-  inline void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method AnimateFontSize, addr 0x2245ee8, size 0x44, virtual false, abstract: false, final false
-  inline void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType);
-
-  /// @brief Method AnimatePositionOffsetSize, addr 0x2245f2c, size 0x8c, virtual false, abstract: false, final false
-  inline void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType);
-
-  /// @brief Method AnimateEnabled, addr 0x2245fb8, size 0x148, virtual false, abstract: false, final false
-  inline void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType);
-
-  /// @brief Method SetText, addr 0x2246100, size 0x24, virtual false, abstract: false, final false
-  inline void SetText(::StringW text);
-
-  static inline ::GlobalNamespace::MultiplayerCenterTextAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2246124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2472930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__8_0, addr 0x224612c, size 0x78, virtual false, abstract: false, final false
-  inline void _Awake_b__8_0(float_t val);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerCenterTextAnimator();
 
-  /// @brief Method <Awake>b__8_1, addr 0x22461a4, size 0x78, virtual false, abstract: false, final false
-  inline void _Awake_b__8_1(float_t val);
-
-  /// @brief Method <Awake>b__8_5, addr 0x224621c, size 0x2c, virtual false, abstract: false, final false
-  inline void _Awake_b__8_5();
-
-  /// @brief Method <Awake>b__8_2, addr 0x2246248, size 0x1c, virtual false, abstract: false, final false
-  inline void _Awake_b__8_2(float_t val);
-
-  /// @brief Method <Awake>b__8_3, addr 0x2246264, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__8_3(::UnityEngine::Color val);
-
-  /// @brief Method <Awake>b__8_4, addr 0x2246288, size 0x1c, virtual false, abstract: false, final false
-  inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator&&) = delete;
@@ -167,12 +171,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerCenterTextAnimator();
-
-public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 

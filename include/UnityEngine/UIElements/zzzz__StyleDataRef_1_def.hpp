@@ -32,65 +32,69 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7314))
 // CS Name: ::StyleDataRef`1::RefCounted<T>*
 class CORDL_TYPE __StyleDataRef_1__RefCounted : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_RefCount, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RefCount, put = __cordl_internal_set_m_RefCount)) int32_t m_RefCount;
-
   /// @brief Field m_Id, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Id, put = __cordl_internal_set_m_Id)) uint32_t m_Id;
-
-  /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
 
   /// @brief Field m_NextId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_NextId, put = setStaticF_m_NextId)) uint32_t m_NextId;
 
+  /// @brief Field m_RefCount, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_RefCount, put = __cordl_internal_set_m_RefCount)) int32_t m_RefCount;
+
   __declspec(property(get = get_refCount)) int32_t refCount;
 
-  constexpr int32_t& __cordl_internal_get_m_RefCount();
+  /// @brief Field value, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
 
-  constexpr int32_t const& __cordl_internal_get_m_RefCount() const;
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Acquire();
 
-  constexpr void __cordl_internal_set_m_RefCount(int32_t value);
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* Copy();
 
-  constexpr uint32_t& __cordl_internal_get_m_Id();
+  static inline ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* New_ctor();
+
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Release();
 
   constexpr uint32_t const& __cordl_internal_get_m_Id() const;
 
-  constexpr void __cordl_internal_set_m_Id(uint32_t value);
+  constexpr uint32_t& __cordl_internal_get_m_Id();
 
-  constexpr T& __cordl_internal_get_value();
+  constexpr int32_t const& __cordl_internal_get_m_RefCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_RefCount();
 
   constexpr T const& __cordl_internal_get_value() const;
 
+  constexpr T& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_m_Id(uint32_t value);
+
+  constexpr void __cordl_internal_set_m_RefCount(int32_t value);
+
   constexpr void __cordl_internal_set_value(T value);
 
-  static inline void setStaticF_m_NextId(uint32_t value);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline uint32_t getStaticF_m_NextId();
 
   /// @brief Method get_refCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_refCount();
 
-  static inline ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* New_ctor();
+  static inline void setStaticF_m_NextId(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StyleDataRef_1__RefCounted();
 
-  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Acquire();
-
-  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Release();
-
-  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* Copy();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StyleDataRef_1__RefCounted", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StyleDataRef_1__RefCounted(__StyleDataRef_1__RefCounted&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StyleDataRef_1__RefCounted(__StyleDataRef_1__RefCounted const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StyleDataRef_1__RefCounted();
-
-public:
   /// @brief Field m_RefCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_RefCount;
 
@@ -124,8 +122,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
 // CS Name: ::UnityEngine.UIElements::StyleDataRef`1<T>
 struct CORDL_TYPE StyleDataRef_1 {
 public:
@@ -135,45 +131,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__StyleDataRef_1_T__();
-
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleDataRef_1<T> Acquire();
-
-  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Release();
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::UIElements::StyleDataRef_1<T> other);
 
-  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<T> Read();
-
-  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<T> Write();
-
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleDataRef_1<T> Create();
-
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::UIElements::StyleDataRef_1<T> lhs, ::UnityEngine::UIElements::StyleDataRef_1<T> rhs);
-
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleDataRef_1<T> other);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  // Ctor Parameters [CppParam { name: "m_Ref", ty: "::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>*", modifiers: "", def_value: None }]
-  constexpr StyleDataRef_1(::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref) noexcept;
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::StyleDataRef_1<T> other);
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ByRef<T> Read();
+
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Release();
+
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ByRef<T> Write();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>"
+  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleDataRef_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__StyleDataRef_1_T__();
+
+  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool op_Equality(::UnityEngine::UIElements::StyleDataRef_1<T> lhs, ::UnityEngine::UIElements::StyleDataRef_1<T> rhs);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleDataRef_1();
+
+  // Ctor Parameters [CppParam { name: "m_Ref", ty: "::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>*", modifiers: "", def_value: None }]
+  constexpr StyleDataRef_1(::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref) noexcept;
 
   /// @brief Field m_Ref, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref;

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Collections::IComparer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3756))
 // CS Name: ::System.Collections::IComparer*
 class CORDL_TYPE IComparer {
 public:

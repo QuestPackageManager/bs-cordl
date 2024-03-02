@@ -20,23 +20,27 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7400)), TypeDefinitionIndex(TypeDefinitionIndex(7401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3982
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7401), inst: 929 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7402)) CS Name:
-// ::UnityEngine.UIElements.UIR::BasicNodePool`1<T>*
+// CS Name: ::UnityEngine.UIElements.UIR::BasicNodePool`1<T>*
 class CORDL_TYPE BasicNodePool_1 : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Reset(::UnityEngine::UIElements::UIR::BasicNode_1<T>* node);
-
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* Create();
 
   static inline ::UnityEngine::UIElements::UIR::BasicNodePool_1<T>* New_ctor();
 
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Reset(::UnityEngine::UIElements::UIR::BasicNode_1<T>* node);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicNodePool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicNodePool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicNodePool_1(BasicNodePool_1&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicNodePool_1(BasicNodePool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicNodePool_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

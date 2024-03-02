@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(836))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(884))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::XSalsa20Engine*
 class CORDL_TYPE XSalsa20Engine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
 public:
@@ -27,20 +25,26 @@ public:
 
   __declspec(property(get = get_NonceSize)) int32_t NonceSize;
 
-  /// @brief Method get_AlgorithmName, addr 0xef4a94, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method get_NonceSize, addr 0xef4ad4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_NonceSize();
-
-  /// @brief Method SetKey, addr 0xef4adc, size 0x264, virtual true, abstract: false, final false
-  inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
-
   static inline ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0xef4d40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0xf6593c, size 0x264, virtual true, abstract: false, final false
+  inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
+
+  /// @brief Method .ctor, addr 0xf65ba0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_AlgorithmName, addr 0xf658f4, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
+
+  /// @brief Method get_NonceSize, addr 0xf65934, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_NonceSize();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XSalsa20Engine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XSalsa20Engine(XSalsa20Engine&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XSalsa20Engine(XSalsa20Engine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XSalsa20Engine();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

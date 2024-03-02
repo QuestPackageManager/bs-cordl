@@ -19,26 +19,30 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBonePlaneCollider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16049))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16050))
 // CS Name: ::DynamicBonePlaneCollider*
 class CORDL_TYPE DynamicBonePlaneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
 public:
   // Declarations
-  /// @brief Method OnValidate, addr 0x12308e8, size 0x4, virtual false, abstract: false, final false
-  inline void OnValidate();
-
-  /// @brief Method Collide, addr 0x12308ec, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Collide, addr 0x130c988, size 0x188, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
-
-  /// @brief Method OnDrawGizmosSelected, addr 0x1230a74, size 0x160, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::DynamicBonePlaneCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1230bd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x130cb10, size 0x160, virtual false, abstract: false, final false
+  inline void OnDrawGizmosSelected();
+
+  /// @brief Method OnValidate, addr 0x130c984, size 0x4, virtual false, abstract: false, final false
+  inline void OnValidate();
+
+  /// @brief Method .ctor, addr 0x130cc70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DynamicBonePlaneCollider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBonePlaneCollider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicBonePlaneCollider(DynamicBonePlaneCollider&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DynamicBonePlaneCollider(DynamicBonePlaneCollider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicBonePlaneCollider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -16,18 +16,16 @@ MARK_VAL_T(::System::BRECORD);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2641))
 // CS Name: ::System::BRECORD
 struct CORDL_TYPE BRECORD {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "pvRecord", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pRecInfo", ty: "void*", modifiers: "", def_value: None }]
-  constexpr BRECORD(void* pvRecord, void* pRecInfo) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr BRECORD();
+
+  // Ctor Parameters [CppParam { name: "pvRecord", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pRecInfo", ty: "void*", modifiers: "", def_value: None }]
+  constexpr BRECORD(void* pvRecord, void* pRecInfo) noexcept;
 
   /// @brief Field pvRecord, offset: 0x0, size: 0x8, def value: None
   void* pvRecord;

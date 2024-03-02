@@ -15,12 +15,13 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayerTableItem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4488))
 // CS Name: ::GameServerPlayerTableItem*
 class CORDL_TYPE GameServerPlayerTableItem : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field isReady, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_isReady, put = __cordl_internal_set_isReady)) bool isReady;
+
   /// @brief Field playerName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
 
@@ -30,38 +31,41 @@ public:
   /// @brief Field suggestedModifiers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_suggestedModifiers, put = __cordl_internal_set_suggestedModifiers))::StringW suggestedModifiers;
 
-  /// @brief Field isReady, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_isReady, put = __cordl_internal_set_isReady)) bool isReady;
-
-  constexpr ::StringW& __cordl_internal_get_playerName();
-
-  constexpr ::StringW const& __cordl_internal_get_playerName() const;
-
-  constexpr void __cordl_internal_set_playerName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_suggestedLevel();
-
-  constexpr ::StringW const& __cordl_internal_get_suggestedLevel() const;
-
-  constexpr void __cordl_internal_set_suggestedLevel(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_suggestedModifiers();
-
-  constexpr ::StringW const& __cordl_internal_get_suggestedModifiers() const;
-
-  constexpr void __cordl_internal_set_suggestedModifiers(::StringW value);
-
-  constexpr bool& __cordl_internal_get_isReady();
+  static inline ::GlobalNamespace::GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
   constexpr bool const& __cordl_internal_get_isReady() const;
 
+  constexpr bool& __cordl_internal_get_isReady();
+
+  constexpr ::StringW const& __cordl_internal_get_playerName() const;
+
+  constexpr ::StringW& __cordl_internal_get_playerName();
+
+  constexpr ::StringW const& __cordl_internal_get_suggestedLevel() const;
+
+  constexpr ::StringW& __cordl_internal_get_suggestedLevel();
+
+  constexpr ::StringW const& __cordl_internal_get_suggestedModifiers() const;
+
+  constexpr ::StringW& __cordl_internal_get_suggestedModifiers();
+
   constexpr void __cordl_internal_set_isReady(bool value);
 
-  static inline ::GlobalNamespace::GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
+  constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2355bb8, size 0x44, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_suggestedLevel(::StringW value);
+
+  constexpr void __cordl_internal_set_suggestedModifiers(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12dbb60, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameServerPlayerTableItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerPlayerTableItem(GameServerPlayerTableItem&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerPlayerTableItem(GameServerPlayerTableItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameServerPlayerTableItem();
-
-public:
   /// @brief Field playerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerName;
 

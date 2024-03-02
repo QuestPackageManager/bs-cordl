@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStartResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13257))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStartResult*
 class CORDL_TYPE LivestreamingStartResult : public ::System::Object {
 public:
@@ -25,17 +23,23 @@ public:
   /// @brief Field StreamingResult, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_StreamingResult, put = __cordl_internal_set_StreamingResult))::Oculus::Platform::LivestreamingStartStatus StreamingResult;
 
-  constexpr ::Oculus::Platform::LivestreamingStartStatus& __cordl_internal_get_StreamingResult();
+  static inline ::Oculus::Platform::Models::LivestreamingStartResult* New_ctor(void* o);
 
   constexpr ::Oculus::Platform::LivestreamingStartStatus const& __cordl_internal_get_StreamingResult() const;
 
+  constexpr ::Oculus::Platform::LivestreamingStartStatus& __cordl_internal_get_StreamingResult();
+
   constexpr void __cordl_internal_set_StreamingResult(::Oculus::Platform::LivestreamingStartStatus value);
 
-  static inline ::Oculus::Platform::Models::LivestreamingStartResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x270728c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8b94, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LivestreamingStartResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LivestreamingStartResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LivestreamingStartResult(LivestreamingStartResult&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LivestreamingStartResult(LivestreamingStartResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LivestreamingStartResult();
-
-public:
   /// @brief Field StreamingResult, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::LivestreamingStartStatus ___StreamingResult;
 

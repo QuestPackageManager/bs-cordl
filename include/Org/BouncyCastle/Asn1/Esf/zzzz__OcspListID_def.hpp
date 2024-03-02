@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OcspListID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(146))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OcspListID*
 class CORDL_TYPE OcspListID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
@@ -39,37 +37,43 @@ public:
   /// @brief Field ocspResponses, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ocspResponses, put = __cordl_internal_set_ocspResponses))::Org::BouncyCastle::Asn1::Asn1Sequence* ocspResponses;
 
+  /// @brief Method GetInstance, addr 0xf037c4, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* GetInstance(::System::Object* obj);
+
+  /// @brief Method GetOcspResponses, addr 0xf05078, size 0x120, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> GetOcspResponses();
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID*
+  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> ocspResponses);
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::System::Collections::IEnumerable* ocspResponses);
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xf05198, size 0x68, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_ocspResponses();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_ocspResponses() const;
 
   constexpr void __cordl_internal_set_ocspResponses(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0xe92964, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe939a8, size 0x480, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID*
-  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> ocspResponses);
-
-  /// @brief Method .ctor, addr 0xe93fb0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf04e10, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> ocspResponses);
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::System::Collections::IEnumerable* ocspResponses);
-
-  /// @brief Method .ctor, addr 0xe94074, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf04ed4, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* ocspResponses);
 
-  /// @brief Method GetOcspResponses, addr 0xe94218, size 0x120, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> GetOcspResponses();
+  /// @brief Method .ctor, addr 0xf04808, size 0x480, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xe94338, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OcspListID();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcspListID(OcspListID&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OcspListID(OcspListID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OcspListID();
-
-public:
   /// @brief Field ocspResponses, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___ocspResponses;
 

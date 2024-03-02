@@ -22,25 +22,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsCompressedDataParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(620))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(630))
 // CS Name: ::Org.BouncyCastle.Cms::CmsCompressedDataParser*
 class CORDL_TYPE CmsCompressedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
+  /// @brief Method GetContent, addr 0x124de14, size 0x300, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
 
-  /// @brief Method .ctor, addr 0x11dcf38, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
+  static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method .ctor, addr 0x11dcfb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x124dd98, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
+
+  /// @brief Method .ctor, addr 0x124de10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method GetContent, addr 0x11dcfb4, size 0x300, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsCompressedDataParser();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsCompressedDataParser(CmsCompressedDataParser&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsCompressedDataParser(CmsCompressedDataParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsCompressedDataParser();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

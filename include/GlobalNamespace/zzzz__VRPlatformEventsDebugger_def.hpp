@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::VRPlatformEventsDebugger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14440))
 // CS Name: ::VRPlatformEventsDebugger*
 class CORDL_TYPE VRPlatformEventsDebugger : public ::System::Object {
 public:
@@ -38,23 +36,40 @@ public:
 
   __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
 
-  /// @brief Convert operator to "::Zenject::IInitializable"
-  constexpr operator ::Zenject::IInitializable*() noexcept;
-
-  /// @brief Convert to "::Zenject::IInitializable"
-  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
+  constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::Zenject::IInitializable"
+  constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
-  constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
+  /// @brief Method Dispose, addr 0x2262874, size 0x404, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
-  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
+  /// @brief Method HandleHMDMounted, addr 0x2262c84, size 0x4, virtual false, abstract: false, final false
+  inline void HandleHMDMounted();
+
+  /// @brief Method HandleHMDUnmounted, addr 0x2262c80, size 0x4, virtual false, abstract: false, final false
+  inline void HandleHMDUnmounted();
+
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x2262c78, size 0x4, virtual false, abstract: false, final false
+  inline void HandleInputFocusWasCaptured();
+
+  /// @brief Method HandleInputFocusWasReleased, addr 0x2262c7c, size 0x4, virtual false, abstract: false, final false
+  inline void HandleInputFocusWasReleased();
+
+  /// @brief Method HandleVRFocusWasCaptured, addr 0x2262c88, size 0x4, virtual false, abstract: false, final false
+  inline void HandleVRFocusWasCaptured();
+
+  /// @brief Method HandleVRFocusWasReleased, addr 0x2262c8c, size 0x4, virtual false, abstract: false, final false
+  inline void HandleVRFocusWasReleased();
+
+  /// @brief Method Initialize, addr 0x2262474, size 0x400, virtual true, abstract: false, final true
+  inline void Initialize();
+
+  static inline ::GlobalNamespace::VRPlatformEventsDebugger* New_ctor();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
@@ -62,38 +77,27 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method get_loggerPrefix, addr 0x21003bc, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_loggerPrefix();
-
-  /// @brief Method Initialize, addr 0x21003fc, size 0x400, virtual true, abstract: false, final true
-  inline void Initialize();
-
-  /// @brief Method Dispose, addr 0x21007fc, size 0x404, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x2100c00, size 0x4, virtual false, abstract: false, final false
-  inline void HandleInputFocusWasCaptured();
-
-  /// @brief Method HandleInputFocusWasReleased, addr 0x2100c04, size 0x4, virtual false, abstract: false, final false
-  inline void HandleInputFocusWasReleased();
-
-  /// @brief Method HandleHMDUnmounted, addr 0x2100c08, size 0x4, virtual false, abstract: false, final false
-  inline void HandleHMDUnmounted();
-
-  /// @brief Method HandleHMDMounted, addr 0x2100c0c, size 0x4, virtual false, abstract: false, final false
-  inline void HandleHMDMounted();
-
-  /// @brief Method HandleVRFocusWasCaptured, addr 0x2100c10, size 0x4, virtual false, abstract: false, final false
-  inline void HandleVRFocusWasCaptured();
-
-  /// @brief Method HandleVRFocusWasReleased, addr 0x2100c14, size 0x4, virtual false, abstract: false, final false
-  inline void HandleVRFocusWasReleased();
-
-  static inline ::GlobalNamespace::VRPlatformEventsDebugger* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2100c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2262c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_loggerPrefix, addr 0x2262434, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_loggerPrefix();
+
+  /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+  constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRPlatformEventsDebugger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRPlatformEventsDebugger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRPlatformEventsDebugger(VRPlatformEventsDebugger&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRPlatformEventsDebugger(VRPlatformEventsDebugger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRPlatformEventsDebugger();
-
-public:
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 

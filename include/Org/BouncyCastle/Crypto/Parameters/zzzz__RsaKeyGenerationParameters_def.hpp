@@ -24,52 +24,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParamete
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1079))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::RsaKeyGenerationParameters*
 class CORDL_TYPE RsaKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
-  /// @brief Field publicExponent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent))::Org::BouncyCastle::Math::BigInteger* publicExponent;
+  __declspec(property(get = get_Certainty)) int32_t Certainty;
+
+  __declspec(property(get = get_PublicExponent))::Org::BouncyCastle::Math::BigInteger* PublicExponent;
 
   /// @brief Field certainty, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
 
-  __declspec(property(get = get_PublicExponent))::Org::BouncyCastle::Math::BigInteger* PublicExponent;
+  /// @brief Field publicExponent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent))::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
-  __declspec(property(get = get_Certainty)) int32_t Certainty;
+  /// @brief Method Equals, addr 0xfa944c, size 0xb4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0xfa9500, size 0x50, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent,
+                                                                                              ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
+
+  constexpr int32_t const& __cordl_internal_get_certainty() const;
+
+  constexpr int32_t& __cordl_internal_get_certainty();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_publicExponent();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_publicExponent() const;
 
-  constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
-
-  constexpr int32_t& __cordl_internal_get_certainty();
-
-  constexpr int32_t const& __cordl_internal_get_certainty() const;
-
   constexpr void __cordl_internal_set_certainty(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent,
-                                                                                              ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
+  constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0xf395a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa9404, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
 
-  /// @brief Method get_PublicExponent, addr 0xf395dc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
-
-  /// @brief Method get_Certainty, addr 0xf395e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0xfa9444, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method Equals, addr 0xf395ec, size 0xb4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Method get_PublicExponent, addr 0xfa943c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method GetHashCode, addr 0xf396a0, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RsaKeyGenerationParameters();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyGenerationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaKeyGenerationParameters(RsaKeyGenerationParameters&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaKeyGenerationParameters(RsaKeyGenerationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaKeyGenerationParameters();
-
-public:
   /// @brief Field publicExponent, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___publicExponent;
 

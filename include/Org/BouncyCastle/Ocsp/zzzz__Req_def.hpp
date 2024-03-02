@@ -23,16 +23,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::Req);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1621))
 // CS Name: ::Org.BouncyCastle.Ocsp::Req*
 class CORDL_TYPE Req : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
+  __declspec(property(get = get_SingleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleRequestExtensions;
+
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
-  __declspec(property(get = get_SingleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleRequestExtensions;
+  /// @brief Method GetCertID, addr 0x11158f8, size 0x6c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
+
+  /// @brief Method GetX509Extensions, addr 0x1115980, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+
+  static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req();
 
@@ -40,20 +46,18 @@ public:
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
-  static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
-
-  /// @brief Method .ctor, addr 0x109fb38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1110998, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method GetCertID, addr 0x10a4a98, size 0x6c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
-
-  /// @brief Method get_SingleRequestExtensions, addr 0x10a4b04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SingleRequestExtensions, addr 0x1115964, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
-  /// @brief Method GetX509Extensions, addr 0x10a4b20, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Req();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Req(Req&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Req(Req const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Req();
-
-public:
   /// @brief Field req, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::Request* ___req;
 

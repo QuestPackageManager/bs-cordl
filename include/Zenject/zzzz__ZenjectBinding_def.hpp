@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::Zenject::ZenjectBinding);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11155))
 // CS Name: ::ZenjectBinding::BindTypes
 struct CORDL_TYPE __ZenjectBinding__BindTypes {
 public:
@@ -56,21 +54,20 @@ public:
     return static_cast<____ZenjectBinding__BindTypes_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ZenjectBinding__BindTypes(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ZenjectBinding__BindTypes();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ZenjectBinding__BindTypes(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Self value: static_cast<int32_t>(0x0)
-  static ::Zenject::__ZenjectBinding__BindTypes const Self;
 
   /// @brief Field AllInterfaces value: static_cast<int32_t>(0x1)
   static ::Zenject::__ZenjectBinding__BindTypes const AllInterfaces;
@@ -80,6 +77,12 @@ public:
 
   /// @brief Field BaseType value: static_cast<int32_t>(0x3)
   static ::Zenject::__ZenjectBinding__BindTypes const BaseType;
+
+  /// @brief Field Self value: static_cast<int32_t>(0x0)
+  static ::Zenject::__ZenjectBinding__BindTypes const Self;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -93,113 +96,117 @@ static_assert(offsetof(::Zenject::__ZenjectBinding__BindTypes, value__) == 0x0, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11155))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11156))
 // CS Name: ::Zenject::ZenjectBinding*
 class CORDL_TYPE ZenjectBinding : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using BindTypes = ::Zenject::__ZenjectBinding__BindTypes;
 
-  /// @brief Field _components, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__components,
-                      put = __cordl_internal_set__components))::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> _components;
+  __declspec(property(get = get_BindType))::Zenject::__ZenjectBinding__BindTypes BindType;
 
-  /// @brief Field _identifier, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::StringW _identifier;
+  __declspec(property(get = get_Components))::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> Components;
 
-  /// @brief Field _useSceneContext, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__useSceneContext, put = __cordl_internal_set__useSceneContext)) bool _useSceneContext;
+  __declspec(property(get = get_Context, put = set_Context))::UnityW<::Zenject::Context> Context;
 
-  /// @brief Field _ifNotBound, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__ifNotBound, put = __cordl_internal_set__ifNotBound)) bool _ifNotBound;
+  __declspec(property(get = get_Identifier))::StringW Identifier;
 
-  /// @brief Field _context, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::UnityW<::Zenject::Context> _context;
+  __declspec(property(get = get_IfNotBound)) bool IfNotBound;
+
+  __declspec(property(get = get_UseSceneContext)) bool UseSceneContext;
 
   /// @brief Field _bindType, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__bindType, put = __cordl_internal_set__bindType))::Zenject::__ZenjectBinding__BindTypes _bindType;
 
-  __declspec(property(get = get_UseSceneContext)) bool UseSceneContext;
+  /// @brief Field _components, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__components,
+                      put = __cordl_internal_set__components))::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> _components;
 
-  __declspec(property(get = get_IfNotBound)) bool IfNotBound;
+  /// @brief Field _context, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::UnityW<::Zenject::Context> _context;
 
-  __declspec(property(get = get_Context, put = set_Context))::UnityW<::Zenject::Context> Context;
+  /// @brief Field _identifier, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::StringW _identifier;
 
-  __declspec(property(get = get_Components))::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> Components;
+  /// @brief Field _ifNotBound, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get__ifNotBound, put = __cordl_internal_set__ifNotBound)) bool _ifNotBound;
 
-  __declspec(property(get = get_Identifier))::StringW Identifier;
-
-  __declspec(property(get = get_BindType))::Zenject::__ZenjectBinding__BindTypes BindType;
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*>& __cordl_internal_get__components();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> const& __cordl_internal_get__components() const;
-
-  constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> value);
-
-  constexpr ::StringW& __cordl_internal_get__identifier();
-
-  constexpr ::StringW const& __cordl_internal_get__identifier() const;
-
-  constexpr void __cordl_internal_set__identifier(::StringW value);
-
-  constexpr bool& __cordl_internal_get__useSceneContext();
-
-  constexpr bool const& __cordl_internal_get__useSceneContext() const;
-
-  constexpr void __cordl_internal_set__useSceneContext(bool value);
-
-  constexpr bool& __cordl_internal_get__ifNotBound();
-
-  constexpr bool const& __cordl_internal_get__ifNotBound() const;
-
-  constexpr void __cordl_internal_set__ifNotBound(bool value);
-
-  constexpr ::UnityW<::Zenject::Context>& __cordl_internal_get__context();
-
-  constexpr ::UnityW<::Zenject::Context> const& __cordl_internal_get__context() const;
-
-  constexpr void __cordl_internal_set__context(::UnityW<::Zenject::Context> value);
-
-  constexpr ::Zenject::__ZenjectBinding__BindTypes& __cordl_internal_get__bindType();
-
-  constexpr ::Zenject::__ZenjectBinding__BindTypes const& __cordl_internal_get__bindType() const;
-
-  constexpr void __cordl_internal_set__bindType(::Zenject::__ZenjectBinding__BindTypes value);
-
-  /// @brief Method get_UseSceneContext, addr 0x2ef5c18, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UseSceneContext();
-
-  /// @brief Method get_IfNotBound, addr 0x2ef5c20, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IfNotBound();
-
-  /// @brief Method get_Context, addr 0x2ef5c28, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::Zenject::Context> get_Context();
-
-  /// @brief Method set_Context, addr 0x2ef5c30, size 0x8, virtual false, abstract: false, final false
-  inline void set_Context(::Zenject::Context* value);
-
-  /// @brief Method get_Components, addr 0x2ef5c38, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> get_Components();
-
-  /// @brief Method get_Identifier, addr 0x2ef5c40, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Identifier();
-
-  /// @brief Method get_BindType, addr 0x2ef5c48, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::__ZenjectBinding__BindTypes get_BindType();
-
-  /// @brief Method Start, addr 0x2ef5c50, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+  /// @brief Field _useSceneContext, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__useSceneContext, put = __cordl_internal_set__useSceneContext)) bool _useSceneContext;
 
   static inline ::Zenject::ZenjectBinding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ef5c54, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method Start, addr 0x30054c0, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5cac, size 0x178, virtual false, abstract: false, final false
+  constexpr ::Zenject::__ZenjectBinding__BindTypes const& __cordl_internal_get__bindType() const;
+
+  constexpr ::Zenject::__ZenjectBinding__BindTypes& __cordl_internal_get__bindType();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> const& __cordl_internal_get__components() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*>& __cordl_internal_get__components();
+
+  constexpr ::UnityW<::Zenject::Context> const& __cordl_internal_get__context() const;
+
+  constexpr ::UnityW<::Zenject::Context>& __cordl_internal_get__context();
+
+  constexpr ::StringW const& __cordl_internal_get__identifier() const;
+
+  constexpr ::StringW& __cordl_internal_get__identifier();
+
+  constexpr bool const& __cordl_internal_get__ifNotBound() const;
+
+  constexpr bool& __cordl_internal_get__ifNotBound();
+
+  constexpr bool const& __cordl_internal_get__useSceneContext() const;
+
+  constexpr bool& __cordl_internal_get__useSceneContext();
+
+  constexpr void __cordl_internal_set__bindType(::Zenject::__ZenjectBinding__BindTypes value);
+
+  constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> value);
+
+  constexpr void __cordl_internal_set__context(::UnityW<::Zenject::Context> value);
+
+  constexpr void __cordl_internal_set__identifier(::StringW value);
+
+  constexpr void __cordl_internal_set__ifNotBound(bool value);
+
+  constexpr void __cordl_internal_set__useSceneContext(bool value);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x300551c, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x30054c4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_BindType, addr 0x30054b8, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::__ZenjectBinding__BindTypes get_BindType();
+
+  /// @brief Method get_Components, addr 0x30054a8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> get_Components();
+
+  /// @brief Method get_Context, addr 0x3005498, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::Zenject::Context> get_Context();
+
+  /// @brief Method get_Identifier, addr 0x30054b0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Identifier();
+
+  /// @brief Method get_IfNotBound, addr 0x3005490, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IfNotBound();
+
+  /// @brief Method get_UseSceneContext, addr 0x3005488, size 0x8, virtual false, abstract: false, final false
+  inline bool get_UseSceneContext();
+
+  /// @brief Method set_Context, addr 0x30054a0, size 0x8, virtual false, abstract: false, final false
+  inline void set_Context(::Zenject::Context* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ZenjectBinding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectBinding(ZenjectBinding&&) = delete;
@@ -208,12 +215,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenjectBinding(ZenjectBinding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectBinding();
-
-public:
   /// @brief Field _components, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> ____components;
 

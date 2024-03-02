@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenSupport);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6390))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenSupport*
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2ad9eac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2bc0aec, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OnScreenSupport();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OnScreenSupport", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnScreenSupport(OnScreenSupport&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OnScreenSupport(OnScreenSupport const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnScreenSupport();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

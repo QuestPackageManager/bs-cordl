@@ -18,22 +18,26 @@ MARK_REF_PTR_T(::Zenject::ZenjectException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11361))
 // CS Name: ::Zenject::ZenjectException*
 class CORDL_TYPE ZenjectException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2f201d4, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2f2023c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302fa44, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x302faac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ZenjectException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectException(ZenjectException&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenjectException(ZenjectException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

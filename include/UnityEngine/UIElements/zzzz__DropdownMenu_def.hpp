@@ -43,43 +43,47 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenu);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6949))
 // CS Name: ::UnityEngine.UIElements::DropdownMenu*
 class CORDL_TYPE DropdownMenu : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_MenuItems, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MenuItems, put = __cordl_internal_set_m_MenuItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
-
   /// @brief Field m_DropdownMenuEventInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DropdownMenuEventInfo, put = __cordl_internal_set_m_DropdownMenuEventInfo))::UnityEngine::UIElements::DropdownMenuEventInfo* m_DropdownMenuEventInfo;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*& __cordl_internal_get_m_MenuItems();
+  /// @brief Field m_MenuItems, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MenuItems, put = __cordl_internal_set_m_MenuItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*> const& __cordl_internal_get_m_MenuItems() const;
+  /// @brief Method AppendAction, addr 0x2f1711c, size 0x104, virtual false, abstract: false, final false
+  inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
+                           ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
+  /// @brief Method InsertSeparator, addr 0x2f17220, size 0x140, virtual false, abstract: false, final false
+  inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
+
+  /// @brief Method MenuItems, addr 0x2f17114, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
+
+  /// @brief Method PrepareForDisplay, addr 0x2f17360, size 0x2bc, virtual false, abstract: false, final false
+  inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get_m_DropdownMenuEventInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenuEventInfo*> const& __cordl_internal_get_m_DropdownMenuEventInfo() const;
 
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*& __cordl_internal_get_m_MenuItems();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>*> const& __cordl_internal_get_m_MenuItems() const;
+
   constexpr void __cordl_internal_set_m_DropdownMenuEventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method MenuItems, addr 0x2e08604, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
+  constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  /// @brief Method AppendAction, addr 0x2e0860c, size 0x104, virtual false, abstract: false, final false
-  inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
-                           ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DropdownMenu();
 
-  /// @brief Method InsertSeparator, addr 0x2e08710, size 0x140, virtual false, abstract: false, final false
-  inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
-
-  /// @brief Method PrepareForDisplay, addr 0x2e08850, size 0x2bc, virtual false, abstract: false, final false
-  inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenu", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownMenu(DropdownMenu&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownMenu(DropdownMenu const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DropdownMenu();
-
-public:
   /// @brief Field m_MenuItems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* ___m_MenuItems;
 

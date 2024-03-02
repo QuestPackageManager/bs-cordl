@@ -29,65 +29,69 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::StringEnumConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12042))
 // CS Name: ::Newtonsoft.Json.Converters::StringEnumConverter*
 class CORDL_TYPE StringEnumConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Field <CamelCaseText>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__CamelCaseText_k__BackingField, put = __cordl_internal_set__CamelCaseText_k__BackingField)) bool _CamelCaseText_k__BackingField;
+  __declspec(property(get = get_AllowIntegerValues, put = set_AllowIntegerValues)) bool AllowIntegerValues;
+
+  __declspec(property(get = get_CamelCaseText, put = set_CamelCaseText)) bool CamelCaseText;
 
   /// @brief Field <AllowIntegerValues>k__BackingField, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get__AllowIntegerValues_k__BackingField, put = __cordl_internal_set__AllowIntegerValues_k__BackingField)) bool _AllowIntegerValues_k__BackingField;
 
-  __declspec(property(get = get_CamelCaseText, put = set_CamelCaseText)) bool CamelCaseText;
+  /// @brief Field <CamelCaseText>k__BackingField, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__CamelCaseText_k__BackingField, put = __cordl_internal_set__CamelCaseText_k__BackingField)) bool _CamelCaseText_k__BackingField;
 
-  __declspec(property(get = get_AllowIntegerValues, put = set_AllowIntegerValues)) bool AllowIntegerValues;
-
-  constexpr bool& __cordl_internal_get__CamelCaseText_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__CamelCaseText_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__CamelCaseText_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__AllowIntegerValues_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__AllowIntegerValues_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__AllowIntegerValues_k__BackingField(bool value);
-
-  /// @brief Method get_CamelCaseText, addr 0x26b7030, size 0x8, virtual false, abstract: false, final false
-  inline bool get_CamelCaseText();
-
-  /// @brief Method set_CamelCaseText, addr 0x26b7038, size 0xc, virtual false, abstract: false, final false
-  inline void set_CamelCaseText(bool value);
-
-  /// @brief Method get_AllowIntegerValues, addr 0x26b7044, size 0x8, virtual false, abstract: false, final false
-  inline bool get_AllowIntegerValues();
-
-  /// @brief Method set_AllowIntegerValues, addr 0x26b704c, size 0xc, virtual false, abstract: false, final false
-  inline void set_AllowIntegerValues(bool value);
+  /// @brief Method CanConvert, addr 0x27a7fc0, size 0x78, virtual true, abstract: false, final false
+  inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b7058, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor(bool camelCaseText);
 
-  /// @brief Method .ctor, addr 0x26b7078, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(bool camelCaseText);
-
-  /// @brief Method WriteJson, addr 0x26b70ac, size 0x1c8, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
-
-  /// @brief Method ReadJson, addr 0x26b7274, size 0x444, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x27a7b7c, size 0x444, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert, addr 0x26b76b8, size 0x78, virtual true, abstract: false, final false
-  inline bool CanConvert(::System::Type* objectType);
+  /// @brief Method WriteJson, addr 0x27a79b4, size 0x1c8, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
+  constexpr bool const& __cordl_internal_get__AllowIntegerValues_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__AllowIntegerValues_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__CamelCaseText_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__CamelCaseText_k__BackingField();
+
+  constexpr void __cordl_internal_set__AllowIntegerValues_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__CamelCaseText_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x27a7960, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x27a7980, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(bool camelCaseText);
+
+  /// @brief Method get_AllowIntegerValues, addr 0x27a794c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_AllowIntegerValues();
+
+  /// @brief Method get_CamelCaseText, addr 0x27a7938, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CamelCaseText();
+
+  /// @brief Method set_AllowIntegerValues, addr 0x27a7954, size 0xc, virtual false, abstract: false, final false
+  inline void set_AllowIntegerValues(bool value);
+
+  /// @brief Method set_CamelCaseText, addr 0x27a7940, size 0xc, virtual false, abstract: false, final false
+  inline void set_CamelCaseText(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringEnumConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringEnumConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringEnumConverter(StringEnumConverter&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringEnumConverter(StringEnumConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringEnumConverter();
-
-public:
   /// @brief Field <CamelCaseText>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CamelCaseText_k__BackingField;
 

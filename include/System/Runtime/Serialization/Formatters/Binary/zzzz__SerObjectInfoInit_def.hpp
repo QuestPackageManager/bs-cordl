@@ -21,44 +21,48 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3283))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoInit*
 class CORDL_TYPE SerObjectInfoInit : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field seenBeforeTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seenBeforeTable, put = __cordl_internal_set_seenBeforeTable))::System::Collections::Hashtable* seenBeforeTable;
-
   /// @brief Field objectInfoIdCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_objectInfoIdCount, put = __cordl_internal_set_objectInfoIdCount)) int32_t objectInfoIdCount;
 
   /// @brief Field oiPool, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_oiPool, put = __cordl_internal_set_oiPool))::System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_seenBeforeTable();
+  /// @brief Field seenBeforeTable, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_seenBeforeTable, put = __cordl_internal_set_seenBeforeTable))::System::Collections::Hashtable* seenBeforeTable;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_seenBeforeTable() const;
-
-  constexpr void __cordl_internal_set_seenBeforeTable(::System::Collections::Hashtable* value);
-
-  constexpr int32_t& __cordl_internal_get_objectInfoIdCount();
+  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_objectInfoIdCount() const;
 
-  constexpr void __cordl_internal_set_objectInfoIdCount(int32_t value);
+  constexpr int32_t& __cordl_internal_get_objectInfoIdCount();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __cordl_internal_get_oiPool();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __cordl_internal_get_oiPool() const;
 
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_seenBeforeTable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_seenBeforeTable() const;
+
+  constexpr void __cordl_internal_set_objectInfoIdCount(int32_t value);
+
   constexpr void __cordl_internal_set_oiPool(::System::Runtime::Serialization::Formatters::Binary::SerStack* value);
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* New_ctor();
+  constexpr void __cordl_internal_set_seenBeforeTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x24cb1e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25bbf4c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerObjectInfoInit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoInit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerObjectInfoInit(SerObjectInfoInit&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerObjectInfoInit(SerObjectInfoInit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerObjectInfoInit();
-
-public:
   /// @brief Field seenBeforeTable, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___seenBeforeTable;
 

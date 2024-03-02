@@ -20,97 +20,101 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHapticsClip);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7577))
 // CS Name: ::OVRHapticsClip*
 class CORDL_TYPE OVRHapticsClip : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <Count>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
+
+  __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
+
+  __declspec(property(get = get_Samples, put = set_Samples))::ArrayW<uint8_t, ::Array<uint8_t>*> Samples;
 
   /// @brief Field <Capacity>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__Capacity_k__BackingField, put = __cordl_internal_set__Capacity_k__BackingField)) int32_t _Capacity_k__BackingField;
 
+  /// @brief Field <Count>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+
   /// @brief Field <Samples>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Samples_k__BackingField, put = __cordl_internal_set__Samples_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Samples_k__BackingField;
 
-  __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
-
-  __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
-
-  __declspec(property(get = get_Samples, put = set_Samples))::ArrayW<uint8_t, ::Array<uint8_t>*> Samples;
-
-  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__Capacity_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__Capacity_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Capacity_k__BackingField(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Samples_k__BackingField();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Samples_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Samples_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method get_Count, addr 0x2729854, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Count();
-
-  /// @brief Method set_Count, addr 0x272985c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Count(int32_t value);
-
-  /// @brief Method get_Capacity, addr 0x2729864, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Capacity();
-
-  /// @brief Method set_Capacity, addr 0x272986c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Capacity(int32_t value);
-
-  /// @brief Method get_Samples, addr 0x2729874, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Samples();
-
-  /// @brief Method set_Samples, addr 0x272987c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Samples(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method InitializeFromAudioFloatTrack, addr 0x281c534, size 0x32c, virtual false, abstract: false, final false
+  inline void InitializeFromAudioFloatTrack(::ArrayW<float_t, ::Array<float_t>*> sourceData, double_t sourceFrequency, int32_t sourceChannelCount, int32_t sourceChannel);
 
   static inline ::GlobalNamespace::OVRHapticsClip* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2729504, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(int32_t capacity);
-
-  /// @brief Method .ctor, addr 0x272962c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
-
-  static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> samples, int32_t samplesCount);
-
-  /// @brief Method .ctor, addr 0x2729884, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> samples, int32_t samplesCount);
-
   static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(::GlobalNamespace::OVRHapticsClip* a, ::GlobalNamespace::OVRHapticsClip* b);
-
-  /// @brief Method .ctor, addr 0x2729948, size 0x20c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::OVRHapticsClip* a, ::GlobalNamespace::OVRHapticsClip* b);
 
   static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(::UnityEngine::AudioClip* audioClip, int32_t channel);
 
-  /// @brief Method .ctor, addr 0x2729b54, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AudioClip* audioClip, int32_t channel);
+  static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(int32_t capacity);
 
-  /// @brief Method WriteSample, addr 0x2729704, size 0x130, virtual false, abstract: false, final false
-  inline void WriteSample(uint8_t sample);
+  static inline ::GlobalNamespace::OVRHapticsClip* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> samples, int32_t samplesCount);
 
-  /// @brief Method Reset, addr 0x2729f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x281c860, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InitializeFromAudioFloatTrack, addr 0x2729c2c, size 0x32c, virtual false, abstract: false, final false
-  inline void InitializeFromAudioFloatTrack(::ArrayW<float_t, ::Array<float_t>*> sourceData, double_t sourceFrequency, int32_t sourceChannelCount, int32_t sourceChannel);
+  /// @brief Method WriteSample, addr 0x281c00c, size 0x130, virtual false, abstract: false, final false
+  inline void WriteSample(uint8_t sample);
 
+  constexpr int32_t const& __cordl_internal_get__Capacity_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__Capacity_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Samples_k__BackingField() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Samples_k__BackingField();
+
+  constexpr void __cordl_internal_set__Capacity_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Samples_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x281be0c, size 0x100, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x281c250, size 0x20c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::OVRHapticsClip* a, ::GlobalNamespace::OVRHapticsClip* b);
+
+  /// @brief Method .ctor, addr 0x281c45c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::AudioClip* audioClip, int32_t channel);
+
+  /// @brief Method .ctor, addr 0x281bf34, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
+
+  /// @brief Method .ctor, addr 0x281c18c, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> samples, int32_t samplesCount);
+
+  /// @brief Method get_Capacity, addr 0x281c16c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Capacity();
+
+  /// @brief Method get_Count, addr 0x281c15c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Count();
+
+  /// @brief Method get_Samples, addr 0x281c17c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Samples();
+
+  /// @brief Method set_Capacity, addr 0x281c174, size 0x8, virtual false, abstract: false, final false
+  inline void set_Capacity(int32_t value);
+
+  /// @brief Method set_Count, addr 0x281c164, size 0x8, virtual false, abstract: false, final false
+  inline void set_Count(int32_t value);
+
+  /// @brief Method set_Samples, addr 0x281c184, size 0x8, virtual false, abstract: false, final false
+  inline void set_Samples(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRHapticsClip();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsClip", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHapticsClip(OVRHapticsClip&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRHapticsClip(OVRHapticsClip const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRHapticsClip();
-
-public:
   /// @brief Field <Count>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 

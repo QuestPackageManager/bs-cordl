@@ -41,17 +41,28 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _udpSocketv4, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__udpSocketv4, put = __cordl_internal_set__udpSocketv4))::System::Net::Sockets::Socket* _udpSocketv4;
+  /// @brief Field IPv6Support, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_IPv6Support, put = setStaticF_IPv6Support)) bool IPv6Support;
 
-  /// @brief Field _udpSocketv6, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__udpSocketv6, put = __cordl_internal_set__udpSocketv6))::System::Net::Sockets::Socket* _udpSocketv6;
+  /// @brief Field IsRunning, offset 0x3c, size 0x1
+  __declspec(property(get = __cordl_internal_get_IsRunning, put = __cordl_internal_set_IsRunning)) bool IsRunning;
+
+  __declspec(property(get = get_LocalPort, put = set_LocalPort)) int32_t LocalPort;
+
+  /// @brief Field MulticastAddressV6, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_MulticastAddressV6, put = setStaticF_MulticastAddressV6))::System::Net::IPAddress* MulticastAddressV6;
+
+  __declspec(property(get = get_Ttl, put = set_Ttl)) int16_t Ttl;
+
+  /// @brief Field <LocalPort>k__BackingField, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__LocalPort_k__BackingField, put = __cordl_internal_set__LocalPort_k__BackingField)) int32_t _LocalPort_k__BackingField;
+
+  /// @brief Field _listener, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__listener, put = __cordl_internal_set__listener))::LiteNetLib::INetSocketListener* _listener;
 
   /// @brief Field _threadv4, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__threadv4, put = __cordl_internal_set__threadv4))::System::Threading::Thread* _threadv4;
@@ -59,113 +70,106 @@ public:
   /// @brief Field _threadv6, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__threadv6, put = __cordl_internal_set__threadv6))::System::Threading::Thread* _threadv6;
 
-  /// @brief Field _listener, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__listener, put = __cordl_internal_set__listener))::LiteNetLib::INetSocketListener* _listener;
+  /// @brief Field _udpSocketv4, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__udpSocketv4, put = __cordl_internal_set__udpSocketv4))::System::Net::Sockets::Socket* _udpSocketv4;
 
-  /// @brief Field <LocalPort>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__LocalPort_k__BackingField, put = __cordl_internal_set__LocalPort_k__BackingField)) int32_t _LocalPort_k__BackingField;
+  /// @brief Field _udpSocketv6, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__udpSocketv6, put = __cordl_internal_set__udpSocketv6))::System::Net::Sockets::Socket* _udpSocketv6;
 
-  /// @brief Field IsRunning, offset 0x3c, size 0x1
-  __declspec(property(get = __cordl_internal_get_IsRunning, put = __cordl_internal_set_IsRunning)) bool IsRunning;
+  /// @brief Method Bind, addr 0x2362d94, size 0x404, virtual false, abstract: false, final false
+  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
 
-  /// @brief Field MulticastAddressV6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MulticastAddressV6, put = setStaticF_MulticastAddressV6))::System::Net::IPAddress* MulticastAddressV6;
+  /// @brief Method BindSocket, addr 0x23674ac, size 0x6bc, virtual false, abstract: false, final false
+  inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
 
-  /// @brief Field IPv6Support, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IPv6Support, put = setStaticF_IPv6Support)) bool IPv6Support;
+  /// @brief Method Close, addr 0x23645f4, size 0xa8, virtual false, abstract: false, final false
+  inline void Close(bool suspend);
 
-  __declspec(property(get = get_LocalPort, put = set_LocalPort)) int32_t LocalPort;
+  /// @brief Method IsActive, addr 0x2366f1c, size 0x18, virtual false, abstract: false, final false
+  inline bool IsActive();
 
-  __declspec(property(get = get_Ttl, put = set_Ttl)) int16_t Ttl;
+  static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
 
-  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv4();
+  /// @brief Method ReceiveLogic, addr 0x2366f34, size 0x578, virtual false, abstract: false, final false
+  inline void ReceiveLogic(::System::Object* state);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv4() const;
+  /// @brief Method SendBroadcast, addr 0x236375c, size 0x30c, virtual false, abstract: false, final false
+  inline bool SendBroadcast(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, int32_t port);
 
-  constexpr void __cordl_internal_set__udpSocketv4(::System::Net::Sockets::Socket* value);
+  /// @brief Method SendTo, addr 0x235d848, size 0x360, virtual false, abstract: false, final false
+  inline int32_t SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ByRef<::System::Net::Sockets::SocketError> errorCode);
 
-  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv6();
+  constexpr bool const& __cordl_internal_get_IsRunning() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv6() const;
+  constexpr bool& __cordl_internal_get_IsRunning();
 
-  constexpr void __cordl_internal_set__udpSocketv6(::System::Net::Sockets::Socket* value);
+  constexpr int32_t const& __cordl_internal_get__LocalPort_k__BackingField() const;
 
-  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv4();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv4() const;
-
-  constexpr void __cordl_internal_set__threadv4(::System::Threading::Thread* value);
-
-  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv6();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv6() const;
-
-  constexpr void __cordl_internal_set__threadv6(::System::Threading::Thread* value);
+  constexpr int32_t& __cordl_internal_get__LocalPort_k__BackingField();
 
   constexpr ::LiteNetLib::INetSocketListener*& __cordl_internal_get__listener();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetSocketListener*> const& __cordl_internal_get__listener() const;
 
-  constexpr void __cordl_internal_set__listener(::LiteNetLib::INetSocketListener* value);
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv4();
 
-  constexpr int32_t& __cordl_internal_get__LocalPort_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv4() const;
 
-  constexpr int32_t const& __cordl_internal_get__LocalPort_k__BackingField() const;
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv6();
 
-  constexpr void __cordl_internal_set__LocalPort_k__BackingField(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv6() const;
 
-  constexpr bool& __cordl_internal_get_IsRunning();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv4();
 
-  constexpr bool const& __cordl_internal_get_IsRunning() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv4() const;
+
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv6();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv6() const;
 
   constexpr void __cordl_internal_set_IsRunning(bool value);
 
-  static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
+  constexpr void __cordl_internal_set__LocalPort_k__BackingField(int32_t value);
 
-  static inline ::System::Net::IPAddress* getStaticF_MulticastAddressV6();
+  constexpr void __cordl_internal_set__listener(::LiteNetLib::INetSocketListener* value);
 
-  static inline void setStaticF_IPv6Support(bool value);
+  constexpr void __cordl_internal_set__threadv4(::System::Threading::Thread* value);
+
+  constexpr void __cordl_internal_set__threadv6(::System::Threading::Thread* value);
+
+  constexpr void __cordl_internal_set__udpSocketv4(::System::Net::Sockets::Socket* value);
+
+  constexpr void __cordl_internal_set__udpSocketv6(::System::Net::Sockets::Socket* value);
+
+  /// @brief Method .ctor, addr 0x235f130, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::LiteNetLib::INetSocketListener* listener);
 
   static inline bool getStaticF_IPv6Support();
 
-  /// @brief Method get_LocalPort, addr 0x2204ed8, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::Net::IPAddress* getStaticF_MulticastAddressV6();
+
+  /// @brief Method get_LocalPort, addr 0x2366e28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
-  /// @brief Method set_LocalPort, addr 0x2204ee0, size 0x8, virtual false, abstract: false, final false
-  inline void set_LocalPort(int32_t value);
-
-  /// @brief Method get_Ttl, addr 0x2204ee8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Ttl, addr 0x2366e38, size 0x1c, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
-  /// @brief Method set_Ttl, addr 0x21fb8dc, size 0x1c, virtual false, abstract: false, final false
+  static inline void setStaticF_IPv6Support(bool value);
+
+  static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
+
+  /// @brief Method set_LocalPort, addr 0x2366e30, size 0x8, virtual false, abstract: false, final false
+  inline void set_LocalPort(int32_t value);
+
+  /// @brief Method set_Ttl, addr 0x235d82c, size 0x1c, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
-  static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSocket();
 
-  /// @brief Method .ctor, addr 0x21fd1e0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::INetSocketListener* listener);
-
-  /// @brief Method IsActive, addr 0x2204fcc, size 0x18, virtual false, abstract: false, final false
-  inline bool IsActive();
-
-  /// @brief Method ReceiveLogic, addr 0x2204fe4, size 0x578, virtual false, abstract: false, final false
-  inline void ReceiveLogic(::System::Object* state);
-
-  /// @brief Method Bind, addr 0x2200e44, size 0x404, virtual false, abstract: false, final false
-  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
-
-  /// @brief Method BindSocket, addr 0x220555c, size 0x6bc, virtual false, abstract: false, final false
-  inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
-
-  /// @brief Method SendBroadcast, addr 0x220180c, size 0x30c, virtual false, abstract: false, final false
-  inline bool SendBroadcast(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, int32_t port);
-
-  /// @brief Method SendTo, addr 0x21fb8f8, size 0x360, virtual false, abstract: false, final false
-  inline int32_t SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ByRef<::System::Net::Sockets::SocketError> errorCode);
-
-  /// @brief Method Close, addr 0x22026a4, size 0xa8, virtual false, abstract: false, final false
-  inline void Close(bool suspend);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSocket(NetSocket&&) = delete;
@@ -174,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSocket(NetSocket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSocket();
-
-public:
   /// @brief Field _udpSocketv4, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ____udpSocketv4;
 

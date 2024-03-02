@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::StateMachineAttribute::*)(::System::Type*)>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24da76c;
+  constexpr static std::size_t addrs = 0x25cb4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::CompilerServices::StateMachineAttribute::*)()>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::get_StateMachineType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24db500;
+  constexpr static std::size_t addrs = 0x25cc26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

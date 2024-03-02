@@ -32,20 +32,24 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystem);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10473))
 // CS Name: ::PlayerLoopSystem::UpdateFunction*
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2cfa698, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2cfa754, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2df0b58, size 0x1014, virtual true, abstract: false, final false
   inline void Invoke();
 
+  static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2df0a9c, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerLoopSystem__UpdateFunction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerLoopSystem__UpdateFunction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerLoopSystem__UpdateFunction(__PlayerLoopSystem__UpdateFunction&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerLoopSystem__UpdateFunction(__PlayerLoopSystem__UpdateFunction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerLoopSystem__UpdateFunction();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -70,16 +68,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::__PlayerL
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10474))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystem
 struct CORDL_TYPE PlayerLoopSystem {
 public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString, addr 0x2cfa678, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2df0a7c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerLoopSystem();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "subSystemList", ty:
   // "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem,::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*>", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty:
@@ -87,10 +87,6 @@ public:
   // name: "loopConditionFunction", ty: "void*", modifiers: "", def_value: None }]
   constexpr PlayerLoopSystem(::System::Type* type, ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem, ::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*> subSystemList,
                              ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, void* updateFunction, void* loopConditionFunction) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerLoopSystem();
 
   /// @brief Field type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* type;

@@ -27,16 +27,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::X509CertificateEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1693))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1708))
 // CS Name: ::Org.BouncyCastle.Pkcs::X509CertificateEntry*
 class CORDL_TYPE X509CertificateEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
+  __declspec(property(get = get_Certificate))::Org::BouncyCastle::X509::X509Certificate* Certificate;
+
   /// @brief Field cert, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
 
-  __declspec(property(get = get_Certificate))::Org::BouncyCastle::X509::X509Certificate* Certificate;
+  /// @brief Method Equals, addr 0x11594c4, size 0xa4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x1159568, size 0x28, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
+
+  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
+
+  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
   constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_cert();
 
@@ -44,30 +54,24 @@ public:
 
   constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
-
-  /// @brief Method .ctor, addr 0x10e858c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11593ec, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
-
-  /// @brief Method .ctor, addr 0x10e8604, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1159464, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
-  static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
-
-  /// @brief Method .ctor, addr 0x10e8630, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1159490, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Certificate, addr 0x10e865c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x11594bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
-  /// @brief Method Equals, addr 0x10e8664, size 0xa4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509CertificateEntry();
 
-  /// @brief Method GetHashCode, addr 0x10e8708, size 0x28, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateEntry(X509CertificateEntry&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509CertificateEntry(X509CertificateEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509CertificateEntry();
-
-public:
   /// @brief Field cert, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::X509::X509Certificate* ___cert;
 

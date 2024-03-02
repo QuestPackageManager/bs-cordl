@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::RawImage);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13099))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.UI::RawImage*
 class CORDL_TYPE RawImage : public ::UnityEngine::UI::MaskableGraphic {
 public:
@@ -42,47 +40,53 @@ public:
 
   __declspec(property(get = get_uvRect, put = set_uvRect))::UnityEngine::Rect uvRect;
 
-  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_Texture();
+  static inline ::UnityEngine::UI::RawImage* New_ctor();
+
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x2e8b380, size 0x3c, virtual true, abstract: false, final false
+  inline void OnDidApplyAnimationProperties();
+
+  /// @brief Method OnPopulateMesh, addr 0x2e8a2a0, size 0xd18, virtual true, abstract: false, final false
+  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
+
+  /// @brief Method SetNativeSize, addr 0x2e89fc0, size 0x2e0, virtual true, abstract: false, final false
+  inline void SetNativeSize();
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Texture() const;
 
-  constexpr void __cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture> value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRect();
+  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_Texture();
 
   constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UVRect() const;
 
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRect();
+
+  constexpr void __cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture> value);
+
   constexpr void __cordl_internal_set_m_UVRect(::UnityEngine::Rect value);
 
-  static inline ::UnityEngine::UI::RawImage* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d7e1c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e89cd8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainTexture, addr 0x2d7e218, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x2e89d28, size 0x158, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_texture, addr 0x2d7e370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x2e89e80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method set_texture, addr 0x2d7e378, size 0xac, virtual false, abstract: false, final false
-  inline void set_texture(::UnityEngine::Texture* value);
-
-  /// @brief Method get_uvRect, addr 0x2d7e424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRect, addr 0x2e89f34, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRect();
 
-  /// @brief Method set_uvRect, addr 0x2d7e430, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x2e89e88, size 0xac, virtual false, abstract: false, final false
+  inline void set_texture(::UnityEngine::Texture* value);
+
+  /// @brief Method set_uvRect, addr 0x2e89f40, size 0x80, virtual false, abstract: false, final false
   inline void set_uvRect(::UnityEngine::Rect value);
 
-  /// @brief Method SetNativeSize, addr 0x2d7e4b0, size 0x2e0, virtual true, abstract: false, final false
-  inline void SetNativeSize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RawImage();
 
-  /// @brief Method OnPopulateMesh, addr 0x2d7e790, size 0xd18, virtual true, abstract: false, final false
-  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
-
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x2d7f870, size 0x3c, virtual true, abstract: false, final false
-  inline void OnDidApplyAnimationProperties();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RawImage(RawImage&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RawImage(RawImage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RawImage();
-
-public:
   /// @brief Field m_Texture, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_Texture;
 

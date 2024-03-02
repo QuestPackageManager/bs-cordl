@@ -23,24 +23,28 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::PointerEventDataExtension);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8743))
 // CS Name: ::UnityEngine.EventSystems::PointerEventDataExtension*
 class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVRPointer, addr 0x27f9bc8, size 0x78, virtual false, abstract: false, final false
-  static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
-
-  /// @brief Method GetRay, addr 0x27fc190, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x28edaa0, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method GetSwipeStart, addr 0x27fb630, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x28ecf40, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method SetSwipeStart, addr 0x27f9c40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x28eb4d8, size 0x78, virtual false, abstract: false, final false
+  static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
+
+  /// @brief Method SetSwipeStart, addr 0x28eb550, size 0x8c, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerEventDataExtension();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventDataExtension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEventDataExtension(PointerEventDataExtension&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerEventDataExtension(PointerEventDataExtension const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerEventDataExtension();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

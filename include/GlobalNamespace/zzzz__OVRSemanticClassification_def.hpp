@@ -24,22 +24,31 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSemanticClassification);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7989))
 // CS Name: ::OVRSemanticClassification*
 class CORDL_TYPE OVRSemanticClassification : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  __declspec(property(get = get_Labels))::System::Collections::Generic::IReadOnlyList_1<::StringW>* Labels;
+
   /// @brief Field _labels, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__labels, put = __cordl_internal_set__labels))::System::Collections::Generic::List_1<::StringW>* _labels;
-
-  __declspec(property(get = get_Labels))::System::Collections::Generic::IReadOnlyList_1<::StringW>* Labels;
 
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
-  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+  /// @brief Method Awake, addr 0x287eaa8, size 0xd0, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method Contains, addr 0x287e948, size 0x160, virtual false, abstract: false, final false
+  inline bool Contains(::StringW label);
+
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x287eb78, size 0x120, virtual true, abstract: false, final true
+  inline void IOVRSceneComponent_Initialize();
+
+  static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
+
+  /// @brief Method ValidateAndUpgradeLabels, addr 0x287ec98, size 0x478, virtual false, abstract: false, final false
+  static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__labels();
 
@@ -47,26 +56,21 @@ public:
 
   constexpr void __cordl_internal_set__labels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_Labels, addr 0x278c038, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
-
-  /// @brief Method Contains, addr 0x278c040, size 0x160, virtual false, abstract: false, final false
-  inline bool Contains(::StringW label);
-
-  /// @brief Method Awake, addr 0x278c1a0, size 0xd0, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x278c270, size 0x120, virtual true, abstract: false, final true
-  inline void IOVRSceneComponent_Initialize();
-
-  /// @brief Method ValidateAndUpgradeLabels, addr 0x278c390, size 0x478, virtual false, abstract: false, final false
-  static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
-
-  static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
-
-  /// @brief Method .ctor, addr 0x278c808, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x287f110, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Labels, addr 0x287e940, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
+
+  /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
+  constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRSemanticClassification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSemanticClassification(OVRSemanticClassification&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSemanticClassification(OVRSemanticClassification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSemanticClassification();
-
-public:
   /// @brief Field _labels, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____labels;
 

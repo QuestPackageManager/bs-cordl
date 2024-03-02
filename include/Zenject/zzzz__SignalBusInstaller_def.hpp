@@ -21,26 +21,30 @@ MARK_REF_PTR_T(::Zenject::SignalBusInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3903 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10667))
 // CS Name: ::Zenject::SignalBusInstaller*
 class CORDL_TYPE SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2ec5de0, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2fd5650, size 0x180, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::SignalBusInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ec5f7c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenCreate, addr 0x2ec5fc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x2fd5834, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec601c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2fd588c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x2fd57ec, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalBusInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalBusInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalBusInstaller(SignalBusInstaller&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalBusInstaller(SignalBusInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalBusInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

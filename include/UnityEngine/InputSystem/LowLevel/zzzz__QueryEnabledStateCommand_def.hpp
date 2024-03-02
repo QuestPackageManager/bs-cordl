@@ -25,8 +25,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6474))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryEnabledStateCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryEnabledStateCommand {
@@ -43,37 +41,37 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bce89c, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr bool& __cordl_internal_get_isEnabled();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr bool const& __cordl_internal_get_isEnabled() const;
 
+  constexpr bool& __cordl_internal_get_isEnabled();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
   constexpr void __cordl_internal_set_isEnabled(bool value);
 
-  /// @brief Method get_Type, addr 0x2ae7bfc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2bce83c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ae7c2c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bce86c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae7c5c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand Create();
-
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "isEnabled", ty: "bool",
-  // modifiers: "", def_value: None }]
-  constexpr QueryEnabledStateCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, bool isEnabled) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr QueryEnabledStateCommand();
+
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "isEnabled", ty: "bool",
+  // modifiers: "", def_value: None }]
+  constexpr QueryEnabledStateCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, bool isEnabled) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -19,8 +19,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12811))
 // CS Name: ::ThreadStaticPacketPool`1<T>*
 class CORDL_TYPE ThreadStaticPacketPool_1 : public ::System::Object {
 public:
@@ -28,6 +26,12 @@ public:
   /// @brief Method get_pool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<T>* get_pool();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadStaticPacketPool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadStaticPacketPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadStaticPacketPool_1(ThreadStaticPacketPool_1&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadStaticPacketPool_1(ThreadStaticPacketPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadStaticPacketPool_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

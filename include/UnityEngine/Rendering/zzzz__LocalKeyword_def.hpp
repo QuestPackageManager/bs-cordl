@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeyword);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10373))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10369))
 // CS Name: ::UnityEngine.Rendering::LocalKeyword
 struct CORDL_TYPE LocalKeyword {
 public:
@@ -35,28 +33,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeyword_();
-
-  /// @brief Method ToString, addr 0x2cef09c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Equals, addr 0x2cef0a4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2de63fc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x2cef130, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2de6488, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
-  /// @brief Method GetHashCode, addr 0x2cef180, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2de64d8, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr LocalKeyword(::UnityEngine::Rendering::LocalKeywordSpace m_SpaceInfo, ::StringW m_Name, uint32_t m_Index) noexcept;
+  /// @brief Method ToString, addr 0x2de63f4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeyword_();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LocalKeyword();
+
+  // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
+  // def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr LocalKeyword(::UnityEngine::Rendering::LocalKeywordSpace m_SpaceInfo, ::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief Field m_SpaceInfo, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Rendering::LocalKeywordSpace m_SpaceInfo;

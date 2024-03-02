@@ -15,26 +15,30 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::EnumMemberAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16241))
 // CS Name: ::System.Runtime.Serialization::EnumMemberAttribute*
 class CORDL_TYPE EnumMemberAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::StringW Value;
+
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
   constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __cordl_internal_get_value() const;
-
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method get_Value, addr 0x284d61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2936100, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumMemberAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumMemberAttribute(EnumMemberAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumMemberAttribute(EnumMemberAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumMemberAttribute();
-
-public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::StringW ___value;
 

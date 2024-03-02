@@ -74,12 +74,14 @@ MARK_REF_PTR_T(::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13506))
 // CS Name: ::AlphabetScrollbar::<PointerMoveInsideCoroutine>d__18*
 class CORDL_TYPE __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -92,72 +94,74 @@ public:
   /// @brief Field eventData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_eventData, put = __cordl_internal_set_eventData))::UnityEngine::EventSystems::PointerEventData* eventData;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x2279a98, size 0x134, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2279bcc, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2279bd4, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2279c14, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2279a94, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
-
-  constexpr ::UnityW<::HMUI::AlphabetScrollbar>& __cordl_internal_get___4__this();
-
   constexpr ::UnityW<::HMUI::AlphabetScrollbar> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::AlphabetScrollbar> value);
+  constexpr ::UnityW<::HMUI::AlphabetScrollbar>& __cordl_internal_get___4__this();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_eventData();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_eventData() const;
 
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::AlphabetScrollbar> value);
+
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  static inline ::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x2117aec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279a30, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2117b50, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2117b54, size 0x134, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2117c88, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2117c90, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2117cd0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18(__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18&&) = delete;
@@ -166,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18(__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -202,175 +200,179 @@ static_assert(offsetof(::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13537))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13507))
 // CS Name: ::HMUI::AlphabetScrollbar*
 class CORDL_TYPE AlphabetScrollbar : public ::HMUI::Interactable {
 public:
   // Declarations
   using _PointerMoveInsideCoroutine_d__18 = ::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
 
-  /// @brief Field _tableView, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
-
   /// @brief Field _characterHeight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__characterHeight, put = __cordl_internal_set__characterHeight)) float_t _characterHeight;
-
-  /// @brief Field _normalColor, offset 0x34, size 0x10
-  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
-
-  /// @brief Field _textPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__textPrefab, put = __cordl_internal_set__textPrefab))::UnityW<::TMPro::TextMeshProUGUI> _textPrefab;
-
-  /// @brief Field _prealocatedTexts, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__prealocatedTexts,
-                      put = __cordl_internal_set__prealocatedTexts))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _prealocatedTexts;
-
-  /// @brief Field _highlightImage, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
   /// @brief Field _characterScrollData, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__characterScrollData,
                       put = __cordl_internal_set__characterScrollData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* _characterScrollData;
 
-  /// @brief Field _texts, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* _texts;
+  /// @brief Field _highlightImage, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
   /// @brief Field _highlightedCharacterIndex, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__highlightedCharacterIndex, put = __cordl_internal_set__highlightedCharacterIndex)) int32_t _highlightedCharacterIndex;
 
+  /// @brief Field _normalColor, offset 0x34, size 0x10
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
+
   /// @brief Field _pointerIsDown, offset 0x74, size 0x1
   __declspec(property(get = __cordl_internal_get__pointerIsDown, put = __cordl_internal_set__pointerIsDown)) bool _pointerIsDown;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
+  /// @brief Field _prealocatedTexts, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__prealocatedTexts,
+                      put = __cordl_internal_set__prealocatedTexts))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _prealocatedTexts;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+  /// @brief Field _tableView, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
+
+  /// @brief Field _textPrefab, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__textPrefab, put = __cordl_internal_set__textPrefab))::UnityW<::TMPro::TextMeshProUGUI> _textPrefab;
+
+  /// @brief Field _texts, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* _texts;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
-
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
-
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
+  /// @brief Method Awake, addr 0x2278c0c, size 0x20, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
+  /// @brief Method GetPointerCharacterIndex, addr 0x227954c, size 0x2d0, virtual false, abstract: false, final false
+  inline int32_t GetPointerCharacterIndex(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
+  /// @brief Method InitText, addr 0x2278e98, size 0xb4, virtual false, abstract: false, final false
+  inline void InitText(::TMPro::TextMeshProUGUI* text, char16_t character);
 
-  constexpr float_t& __cordl_internal_get__characterHeight();
+  static inline ::HMUI::AlphabetScrollbar* New_ctor();
+
+  /// @brief Method OnPointerDown, addr 0x2279468, size 0xe4, virtual true, abstract: false, final true
+  inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method OnPointerEnter, addr 0x2279824, size 0x20, virtual true, abstract: false, final true
+  inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method OnPointerExit, addr 0x22798b8, size 0x24, virtual true, abstract: false, final true
+  inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method OnPointerUp, addr 0x227981c, size 0x8, virtual true, abstract: false, final true
+  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method PointerMoveInsideCoroutine, addr 0x2279844, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  /// @brief Method PrepareTransforms, addr 0x2278f4c, size 0x51c, virtual false, abstract: false, final false
+  inline void PrepareTransforms();
+
+  /// @brief Method RefreshHighlight, addr 0x22798dc, size 0x154, virtual false, abstract: false, final false
+  inline void RefreshHighlight();
+
+  /// @brief Method SetData, addr 0x2278c2c, size 0x26c, virtual false, abstract: false, final false
+  inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* characterScrollData);
 
   constexpr float_t const& __cordl_internal_get__characterHeight() const;
 
-  constexpr void __cordl_internal_set__characterHeight(float_t value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
-
-  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textPrefab();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textPrefab() const;
-
-  constexpr void __cordl_internal_set__textPrefab(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__prealocatedTexts();
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__prealocatedTexts() const;
-
-  constexpr void __cordl_internal_set__prealocatedTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
-
-  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
+  constexpr float_t& __cordl_internal_get__characterHeight();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*& __cordl_internal_get__characterScrollData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*> const&
   __cordl_internal_get__characterScrollData() const;
 
-  constexpr void __cordl_internal_set__characterScrollData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* value);
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
+
+  constexpr int32_t const& __cordl_internal_get__highlightedCharacterIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__highlightedCharacterIndex();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
+
+  constexpr bool const& __cordl_internal_get__pointerIsDown() const;
+
+  constexpr bool& __cordl_internal_get__pointerIsDown();
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__prealocatedTexts() const;
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__prealocatedTexts();
+
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
+
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textPrefab() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textPrefab();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>*& __cordl_internal_get__texts();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__texts() const;
 
-  constexpr void __cordl_internal_set__texts(::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* value);
+  constexpr void __cordl_internal_set__characterHeight(float_t value);
 
-  constexpr int32_t& __cordl_internal_get__highlightedCharacterIndex();
+  constexpr void __cordl_internal_set__characterScrollData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* value);
 
-  constexpr int32_t const& __cordl_internal_get__highlightedCharacterIndex() const;
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
   constexpr void __cordl_internal_set__highlightedCharacterIndex(int32_t value);
 
-  constexpr bool& __cordl_internal_get__pointerIsDown();
-
-  constexpr bool const& __cordl_internal_get__pointerIsDown() const;
+  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
 
   constexpr void __cordl_internal_set__pointerIsDown(bool value);
 
-  /// @brief Method Awake, addr 0x2116cc8, size 0x20, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__prealocatedTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
 
-  /// @brief Method SetData, addr 0x2116ce8, size 0x26c, virtual false, abstract: false, final false
-  inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* characterScrollData);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method OnPointerDown, addr 0x2117524, size 0xe4, virtual true, abstract: false, final true
-  inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
+  constexpr void __cordl_internal_set__textPrefab(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method OnPointerUp, addr 0x21178d8, size 0x8, virtual true, abstract: false, final true
-  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
+  constexpr void __cordl_internal_set__texts(::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* value);
 
-  /// @brief Method OnPointerEnter, addr 0x21178e0, size 0x20, virtual true, abstract: false, final true
-  inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  /// @brief Method OnPointerExit, addr 0x2117974, size 0x24, virtual true, abstract: false, final true
-  inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  /// @brief Method PrepareTransforms, addr 0x2117008, size 0x51c, virtual false, abstract: false, final false
-  inline void PrepareTransforms();
-
-  /// @brief Method RefreshHighlight, addr 0x2117998, size 0x154, virtual false, abstract: false, final false
-  inline void RefreshHighlight();
-
-  /// @brief Method PointerMoveInsideCoroutine, addr 0x2117900, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  /// @brief Method GetPointerCharacterIndex, addr 0x2117608, size 0x2d0, virtual false, abstract: false, final false
-  inline int32_t GetPointerCharacterIndex(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  /// @brief Method InitText, addr 0x2116f54, size 0xb4, virtual false, abstract: false, final false
-  inline void InitText(::TMPro::TextMeshProUGUI* text, char16_t character);
-
-  static inline ::HMUI::AlphabetScrollbar* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2117b14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279a58, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AlphabetScrollbar();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphabetScrollbar(AlphabetScrollbar&&) = delete;
@@ -379,12 +381,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AlphabetScrollbar(AlphabetScrollbar const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AlphabetScrollbar();
-
-public:
   /// @brief Field _tableView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 

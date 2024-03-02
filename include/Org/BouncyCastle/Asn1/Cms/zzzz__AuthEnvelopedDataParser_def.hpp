@@ -35,17 +35,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(61))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthEnvelopedDataParser*
 class CORDL_TYPE AuthEnvelopedDataParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq;
-
-  /// @brief Field version, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field nextObject, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_nextObject, put = __cordl_internal_set_nextObject))::Org::BouncyCastle::Asn1::IAsn1Convertible* nextObject;
@@ -53,58 +47,68 @@ public:
   /// @brief Field originatorInfoCalled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_originatorInfoCalled, put = __cordl_internal_set_originatorInfoCalled)) bool originatorInfoCalled;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  /// @brief Field seq, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get_seq();
+  /// @brief Field version, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get_seq() const;
+  /// @brief Method GetAuthAttrs, addr 0xee6ebc, size 0x1b8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
+  /// @brief Method GetAuthEncryptedContentInfo, addr 0xee6ae4, size 0x120, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+  /// @brief Method GetMac, addr 0xee7074, size 0x130, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+  /// @brief Method GetOriginatorInfo, addr 0xee6704, size 0x2e0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  /// @brief Method GetRecipientInfos, addr 0xee69e4, size 0x100, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
+
+  /// @brief Method GetUnauthAttrs, addr 0xee71a4, size 0x1ac, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get_nextObject();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1Convertible*> const& __cordl_internal_get_nextObject() const;
 
-  constexpr void __cordl_internal_set_nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
+  constexpr bool const& __cordl_internal_get_originatorInfoCalled() const;
 
   constexpr bool& __cordl_internal_get_originatorInfoCalled();
 
-  constexpr bool const& __cordl_internal_get_originatorInfoCalled() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get_seq();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get_seq() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+
+  constexpr void __cordl_internal_set_nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
 
   constexpr void __cordl_internal_set_originatorInfoCalled(bool value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
 
-  /// @brief Method .ctor, addr 0xe74778, size 0x124, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  /// @brief Method .ctor, addr 0xee65d8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xe7489c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0xee66fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo, addr 0xe748a4, size 0x2e0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthEnvelopedDataParser();
 
-  /// @brief Method GetRecipientInfos, addr 0xe74b84, size 0x100, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
-
-  /// @brief Method GetAuthEncryptedContentInfo, addr 0xe74c84, size 0x120, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetAuthEncryptedContentInfo();
-
-  /// @brief Method GetAuthAttrs, addr 0xe7505c, size 0x1b8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
-
-  /// @brief Method GetMac, addr 0xe75214, size 0x130, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
-
-  /// @brief Method GetUnauthAttrs, addr 0xe75344, size 0x1ac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthEnvelopedDataParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthEnvelopedDataParser(AuthEnvelopedDataParser&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthEnvelopedDataParser(AuthEnvelopedDataParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthEnvelopedDataParser();
-
-public:
   /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1SequenceParser* ___seq;
 

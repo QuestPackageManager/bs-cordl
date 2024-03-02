@@ -70,176 +70,180 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(697))
 // CS Name: ::Org.BouncyCastle.Crmf::CertificateRequestMessageBuilder*
 class CORDL_TYPE CertificateRequestMessageBuilder : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _agreeMac, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__agreeMac, put = __cordl_internal_set__agreeMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _agreeMac;
+
   /// @brief Field _certReqId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__certReqId, put = __cordl_internal_set__certReqId))::Org::BouncyCastle::Math::BigInteger* _certReqId;
-
-  /// @brief Field _extGenerator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__extGenerator, put = __cordl_internal_set__extGenerator))::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* _extGenerator;
-
-  /// @brief Field _templateBuilder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__templateBuilder, put = __cordl_internal_set__templateBuilder))::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* _templateBuilder;
 
   /// @brief Field _controls, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__controls, put = __cordl_internal_set__controls))::System::Collections::IList* _controls;
 
-  /// @brief Field _popSigner, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__popSigner, put = __cordl_internal_set__popSigner))::Org::BouncyCastle::Crypto::ISignatureFactory* _popSigner;
-
-  /// @brief Field _pkMacBuilder, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pkMacBuilder, put = __cordl_internal_set__pkMacBuilder))::Org::BouncyCastle::Crmf::PKMacBuilder* _pkMacBuilder;
+  /// @brief Field _extGenerator, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__extGenerator, put = __cordl_internal_set__extGenerator))::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* _extGenerator;
 
   /// @brief Field _password, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::ArrayW<char16_t, ::Array<char16_t>*> _password;
 
-  /// @brief Field _sender, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__sender, put = __cordl_internal_set__sender))::Org::BouncyCastle::Asn1::X509::GeneralName* _sender;
-
-  /// @brief Field _popoType, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__popoType, put = __cordl_internal_set__popoType)) int32_t _popoType;
-
-  /// @brief Field _popoPrivKey, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__popoPrivKey, put = __cordl_internal_set__popoPrivKey))::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* _popoPrivKey;
+  /// @brief Field _pkMacBuilder, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__pkMacBuilder, put = __cordl_internal_set__pkMacBuilder))::Org::BouncyCastle::Crmf::PKMacBuilder* _pkMacBuilder;
 
   /// @brief Field _popRaVerified, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__popRaVerified, put = __cordl_internal_set__popRaVerified))::Org::BouncyCastle::Asn1::Asn1Null* _popRaVerified;
 
-  /// @brief Field _agreeMac, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__agreeMac, put = __cordl_internal_set__agreeMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _agreeMac;
+  /// @brief Field _popSigner, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__popSigner, put = __cordl_internal_set__popSigner))::Org::BouncyCastle::Crypto::ISignatureFactory* _popSigner;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get__certReqId();
+  /// @brief Field _popoPrivKey, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__popoPrivKey, put = __cordl_internal_set__popoPrivKey))::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* _popoPrivKey;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get__certReqId() const;
+  /// @brief Field _popoType, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__popoType, put = __cordl_internal_set__popoType)) int32_t _popoType;
 
-  constexpr void __cordl_internal_set__certReqId(::Org::BouncyCastle::Math::BigInteger* value);
+  /// @brief Field _sender, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__sender, put = __cordl_internal_set__sender))::Org::BouncyCastle::Asn1::X509::GeneralName* _sender;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*& __cordl_internal_get__extGenerator();
+  /// @brief Field _templateBuilder, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__templateBuilder, put = __cordl_internal_set__templateBuilder))::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* _templateBuilder;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*> const& __cordl_internal_get__extGenerator() const;
+  /// @brief Method AddControl, addr 0x127fbd4, size 0xb4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddControl(::Org::BouncyCastle::Crmf::IControl* control);
 
-  constexpr void __cordl_internal_set__extGenerator(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* value);
+  /// @brief Method AddExtension, addr 0x127fba8, size 0x2c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*& __cordl_internal_get__templateBuilder();
+  /// @brief Method AddExtension, addr 0x127fb7c, size 0x2c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*> const& __cordl_internal_get__templateBuilder() const;
+  /// @brief Method Build, addr 0x12800b0, size 0x95c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* Build();
 
-  constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
+  static inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* New_ctor(::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get__controls();
+  /// @brief Method SetAuthInfoPKMAC, addr 0x128002c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoPKMAC(::Org::BouncyCastle::Crmf::PKMacBuilder* pkmacFactory, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__controls() const;
+  /// @brief Method SetAuthInfoSender, addr 0x12800a8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoSender(::Org::BouncyCastle::Asn1::X509::GeneralName* sender);
 
-  constexpr void __cordl_internal_set__controls(::System::Collections::IList* value);
+  /// @brief Method SetAuthInfoSender, addr 0x1280034, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoSender(::Org::BouncyCastle::Asn1::X509::X509Name* sender);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& __cordl_internal_get__popSigner();
+  /// @brief Method SetIssuer, addr 0x127f9f8, size 0x30, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& __cordl_internal_get__popSigner() const;
+  /// @brief Method SetProofOfPossessionAgreeMac, addr 0x127fef8, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionAgreeMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* macValue);
 
-  constexpr void __cordl_internal_set__popSigner(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
+  /// @brief Method SetProofOfPossessionRaVerified, addr 0x127ff6c, size 0xc0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionRaVerified();
 
-  constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder*& __cordl_internal_get__pkMacBuilder();
+  /// @brief Method SetProofOfPossessionSignKeySigner, addr 0x127fc88, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSignKeySigner(::Org::BouncyCastle::Crypto::ISignatureFactory* popoSignatureFactory);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::PKMacBuilder*> const& __cordl_internal_get__pkMacBuilder() const;
+  /// @brief Method SetProofOfPossessionSubsequentMessage, addr 0x127fcfc, size 0xd8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSubsequentMessage(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  constexpr void __cordl_internal_set__pkMacBuilder(::Org::BouncyCastle::Crmf::PKMacBuilder* value);
+  /// @brief Method SetProofOfPossessionSubsequentMessage, addr 0x127fdd4, size 0x124, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSubsequentMessage(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__password();
+  /// @brief Method SetPublicKey, addr 0x127f9c8, size 0x30, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKeyInfo);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__password() const;
+  /// @brief Method SetSerialNumber, addr 0x127fa58, size 0x90, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  constexpr void __cordl_internal_set__password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  /// @brief Method SetSubject, addr 0x127fa28, size 0x30, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get__sender();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get__sender() const;
-
-  constexpr void __cordl_internal_set__sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
-
-  constexpr int32_t& __cordl_internal_get__popoType();
-
-  constexpr int32_t const& __cordl_internal_get__popoType() const;
-
-  constexpr void __cordl_internal_set__popoType(int32_t value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*& __cordl_internal_get__popoPrivKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*> const& __cordl_internal_get__popoPrivKey() const;
-
-  constexpr void __cordl_internal_set__popoPrivKey(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Null*& __cordl_internal_get__popRaVerified();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Null*> const& __cordl_internal_get__popRaVerified() const;
-
-  constexpr void __cordl_internal_set__popRaVerified(::Org::BouncyCastle::Asn1::Asn1Null* value);
+  /// @brief Method SetValidity, addr 0x127fae8, size 0x94, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetValidity(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get__agreeMac();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get__agreeMac() const;
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get__certReqId();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get__certReqId() const;
+
+  constexpr ::System::Collections::IList*& __cordl_internal_get__controls();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__controls() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*& __cordl_internal_get__extGenerator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*> const& __cordl_internal_get__extGenerator() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__password() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__password();
+
+  constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder*& __cordl_internal_get__pkMacBuilder();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::PKMacBuilder*> const& __cordl_internal_get__pkMacBuilder() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Null*& __cordl_internal_get__popRaVerified();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Null*> const& __cordl_internal_get__popRaVerified() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& __cordl_internal_get__popSigner();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& __cordl_internal_get__popSigner() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*& __cordl_internal_get__popoPrivKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*> const& __cordl_internal_get__popoPrivKey() const;
+
+  constexpr int32_t const& __cordl_internal_get__popoType() const;
+
+  constexpr int32_t& __cordl_internal_get__popoType();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get__sender();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get__sender() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*& __cordl_internal_get__templateBuilder();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*> const& __cordl_internal_get__templateBuilder() const;
+
   constexpr void __cordl_internal_set__agreeMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
-  static inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* New_ctor(::Org::BouncyCastle::Math::BigInteger* certReqId);
+  constexpr void __cordl_internal_set__certReqId(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x120ea84, size 0xe4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__controls(::System::Collections::IList* value);
+
+  constexpr void __cordl_internal_set__extGenerator(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* value);
+
+  constexpr void __cordl_internal_set__password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  constexpr void __cordl_internal_set__pkMacBuilder(::Org::BouncyCastle::Crmf::PKMacBuilder* value);
+
+  constexpr void __cordl_internal_set__popRaVerified(::Org::BouncyCastle::Asn1::Asn1Null* value);
+
+  constexpr void __cordl_internal_set__popSigner(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
+
+  constexpr void __cordl_internal_set__popoPrivKey(::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* value);
+
+  constexpr void __cordl_internal_set__popoType(int32_t value);
+
+  constexpr void __cordl_internal_set__sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+
+  constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
+
+  /// @brief Method .ctor, addr 0x127f8e4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method SetPublicKey, addr 0x120eb68, size 0x30, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKeyInfo);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateRequestMessageBuilder();
 
-  /// @brief Method SetIssuer, addr 0x120eb98, size 0x30, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
-
-  /// @brief Method SetSubject, addr 0x120ebc8, size 0x30, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
-
-  /// @brief Method SetSerialNumber, addr 0x120ebf8, size 0x90, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
-
-  /// @brief Method SetValidity, addr 0x120ec88, size 0x94, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetValidity(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
-
-  /// @brief Method AddExtension, addr 0x120ed1c, size 0x2c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
-
-  /// @brief Method AddExtension, addr 0x120ed48, size 0x2c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method AddControl, addr 0x120ed74, size 0xb4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* AddControl(::Org::BouncyCastle::Crmf::IControl* control);
-
-  /// @brief Method SetProofOfPossessionSignKeySigner, addr 0x120ee28, size 0x74, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSignKeySigner(::Org::BouncyCastle::Crypto::ISignatureFactory* popoSignatureFactory);
-
-  /// @brief Method SetProofOfPossessionSubsequentMessage, addr 0x120ee9c, size 0xd8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSubsequentMessage(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
-
-  /// @brief Method SetProofOfPossessionSubsequentMessage, addr 0x120ef74, size 0x124, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionSubsequentMessage(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
-
-  /// @brief Method SetProofOfPossessionAgreeMac, addr 0x120f098, size 0x74, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionAgreeMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* macValue);
-
-  /// @brief Method SetProofOfPossessionRaVerified, addr 0x120f10c, size 0xc0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetProofOfPossessionRaVerified();
-
-  /// @brief Method SetAuthInfoPKMAC, addr 0x120f1cc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoPKMAC(::Org::BouncyCastle::Crmf::PKMacBuilder* pkmacFactory, ::ArrayW<char16_t, ::Array<char16_t>*> password);
-
-  /// @brief Method SetAuthInfoSender, addr 0x120f1d4, size 0x74, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoSender(::Org::BouncyCastle::Asn1::X509::X509Name* sender);
-
-  /// @brief Method SetAuthInfoSender, addr 0x120f248, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* SetAuthInfoSender(::Org::BouncyCastle::Asn1::X509::GeneralName* sender);
-
-  /// @brief Method Build, addr 0x120f250, size 0x95c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* Build();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateRequestMessageBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateRequestMessageBuilder(CertificateRequestMessageBuilder&&) = delete;
@@ -248,12 +252,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateRequestMessageBuilder(CertificateRequestMessageBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateRequestMessageBuilder();
-
-public:
   /// @brief Field _certReqId, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ____certReqId;
 

@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeAnimationPlayer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5384))
 // CS Name: ::SongTimeAnimationPlayer*
 class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,26 +31,32 @@ public:
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
                       put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
-  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
+  static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
+
+  /// @brief Method Update, addr 0x2387998, size 0x44, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
 
-  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+
+  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
+
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method Update, addr 0x226ef14, size 0x44, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x226ef58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23879dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SongTimeAnimationPlayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeAnimationPlayer(SongTimeAnimationPlayer&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongTimeAnimationPlayer(SongTimeAnimationPlayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongTimeAnimationPlayer();
-
-public:
   /// @brief Field _animationClip, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____animationClip;
 

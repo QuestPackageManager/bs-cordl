@@ -32,11 +32,14 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10387)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10390))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10391)) CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
+// CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
 struct CORDL_TYPE DirectionalLight {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectionalLight();
+
   // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode",
   // ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
   // CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor",
@@ -45,10 +48,6 @@ public:
   constexpr DirectionalLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                              ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor,
                              float_t penumbraWidthRadian, ::UnityEngine::Vector3 direction) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectionalLight();
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;

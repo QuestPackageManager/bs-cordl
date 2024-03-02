@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ShapeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12234))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::ShapeAttribute*
 class CORDL_TYPE ShapeAttribute : public ::System::Attribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+  static inline ::UnityEngine::ProBuilder::Shapes::ShapeAttribute* New_ctor(::StringW n);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
+  constexpr ::StringW& __cordl_internal_get_name();
+
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  static inline ::UnityEngine::ProBuilder::Shapes::ShapeAttribute* New_ctor(::StringW n);
-
-  /// @brief Method .ctor, addr 0x2b8dc40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c74880, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW n);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShapeAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShapeAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShapeAttribute(ShapeAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShapeAttribute(ShapeAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShapeAttribute();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 

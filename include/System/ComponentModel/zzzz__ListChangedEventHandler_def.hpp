@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::ComponentModel::ListChangedEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9440))
 // CS Name: ::System.ComponentModel::ListChangedEventHandler*
 class CORDL_TYPE ListChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::ComponentModel::ListChangedEventHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2911554, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2911684, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29fb168, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::ListChangedEventArgs* e);
 
+  static inline ::System::ComponentModel::ListChangedEventHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x29fb038, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListChangedEventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListChangedEventHandler(ListChangedEventHandler&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListChangedEventHandler(ListChangedEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListChangedEventHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

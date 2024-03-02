@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::GraphicsDeviceType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10342))
 // CS Name: ::UnityEngine.Rendering::GraphicsDeviceType
 struct CORDL_TYPE GraphicsDeviceType {
 public:
@@ -56,36 +54,53 @@ public:
     return static_cast<__GraphicsDeviceType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr GraphicsDeviceType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GraphicsDeviceType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr GraphicsDeviceType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field OpenGL2 value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGL2;
-
-  /// @brief Field Direct3D9 value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D9;
 
   /// @brief Field Direct3D11 value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D11;
 
-  /// @brief Field PlayStation3 value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation3;
+  /// @brief Field Direct3D12 value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D12;
+
+  /// @brief Field Direct3D9 value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D9;
+
+  /// @brief Field GameCoreScarlett value: static_cast<int32_t>(0xffffffff)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreScarlett;
+
+  /// @brief Field GameCoreXboxOne value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxOne;
+
+  /// @brief Field GameCoreXboxSeries value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxSeries;
+
+  /// @brief Field Metal value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Metal;
+
+  /// @brief Field N3DS value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const N3DS;
 
   /// @brief Field Null value: static_cast<int32_t>(0x4)
   static ::UnityEngine::Rendering::GraphicsDeviceType const Null;
 
-  /// @brief Field Xbox360 value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Xbox360;
+  /// @brief Field OpenGL2 value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGL2;
+
+  /// @brief Field OpenGLCore value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLCore;
 
   /// @brief Field OpenGLES2 value: static_cast<int32_t>(0x8)
   static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLES2;
@@ -93,53 +108,41 @@ public:
   /// @brief Field OpenGLES3 value: static_cast<int32_t>(0xb)
   static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLES3;
 
-  /// @brief Field PlayStationVita value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationVita;
+  /// @brief Field PlayStation3 value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation3;
 
   /// @brief Field PlayStation4 value: static_cast<int32_t>(0xd)
   static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation4;
-
-  /// @brief Field XboxOne value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOne;
-
-  /// @brief Field PlayStationMobile value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationMobile;
-
-  /// @brief Field Metal value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Metal;
-
-  /// @brief Field OpenGLCore value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const OpenGLCore;
-
-  /// @brief Field Direct3D12 value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Direct3D12;
-
-  /// @brief Field N3DS value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const N3DS;
-
-  /// @brief Field Vulkan value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Vulkan;
-
-  /// @brief Field Switch value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const Switch;
-
-  /// @brief Field XboxOneD3D12 value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOneD3D12;
-
-  /// @brief Field GameCoreXboxOne value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxOne;
-
-  /// @brief Field GameCoreScarlett value: static_cast<int32_t>(0xffffffff)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreScarlett;
-
-  /// @brief Field GameCoreXboxSeries value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::Rendering::GraphicsDeviceType const GameCoreXboxSeries;
 
   /// @brief Field PlayStation5 value: static_cast<int32_t>(0x1a)
   static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation5;
 
   /// @brief Field PlayStation5NGGC value: static_cast<int32_t>(0x1b)
   static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStation5NGGC;
+
+  /// @brief Field PlayStationMobile value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationMobile;
+
+  /// @brief Field PlayStationVita value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationVita;
+
+  /// @brief Field Switch value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Switch;
+
+  /// @brief Field Vulkan value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Vulkan;
+
+  /// @brief Field Xbox360 value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const Xbox360;
+
+  /// @brief Field XboxOne value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOne;
+
+  /// @brief Field XboxOneD3D12 value: static_cast<int32_t>(0x17)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOneD3D12;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

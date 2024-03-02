@@ -19,26 +19,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IKeyboardEvent);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7239))
 // CS Name: ::UnityEngine.UIElements::IKeyboardEvent*
 class CORDL_TYPE IKeyboardEvent {
 public:
   // Declarations
-  __declspec(property(get = get_modifiers))::UnityEngine::EventModifiers modifiers;
-
   __declspec(property(get = get_character)) char16_t character;
 
   __declspec(property(get = get_keyCode))::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::EventModifiers get_modifiers();
+  __declspec(property(get = get_modifiers))::UnityEngine::EventModifiers modifiers;
 
   /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t get_character();
 
   /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::KeyCode get_keyCode();
+
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::EventModifiers get_modifiers();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

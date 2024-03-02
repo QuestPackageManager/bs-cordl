@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::MissingMethodException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2528))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2442))
 // CS Name: ::System::MissingMethodException*
 class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
 public:
@@ -31,27 +29,33 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25afbfc, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::MissingMethodException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x25afc58, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::System::MissingMethodException* New_ctor(::StringW className, ::StringW methodName);
-
-  /// @brief Method .ctor, addr 0x25afc7c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW className, ::StringW methodName);
 
   static inline ::System::MissingMethodException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25afca8, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::MissingMethodException* New_ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x26a21f8, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x26a2278, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW className, ::StringW methodName);
+
+  /// @brief Method .ctor, addr 0x26a22a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message, addr 0x25afcb0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a2254, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method get_Message, addr 0x26a22ac, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissingMethodException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissingMethodException(MissingMethodException&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissingMethodException(MissingMethodException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissingMethodException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

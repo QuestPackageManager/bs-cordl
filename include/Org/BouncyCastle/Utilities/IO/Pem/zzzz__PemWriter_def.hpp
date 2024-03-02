@@ -26,64 +26,68 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1690))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemWriter*
 class CORDL_TYPE PemWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field writer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer))::System::IO::TextWriter* writer;
-
-  /// @brief Field nlLength, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_nlLength, put = __cordl_internal_set_nlLength)) int32_t nlLength;
+  __declspec(property(get = get_Writer))::System::IO::TextWriter* Writer;
 
   /// @brief Field buf, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<char16_t, ::Array<char16_t>*> buf;
 
-  __declspec(property(get = get_Writer))::System::IO::TextWriter* Writer;
+  /// @brief Field nlLength, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_nlLength, put = __cordl_internal_set_nlLength)) int32_t nlLength;
+
+  /// @brief Field writer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer))::System::IO::TextWriter* writer;
+
+  /// @brief Method GetOutputSize, addr 0x1144fec, size 0x4d8, virtual false, abstract: false, final false
+  inline int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
+
+  static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
+
+  /// @brief Method WriteEncoded, addr 0x1145aa4, size 0xe0, virtual false, abstract: false, final false
+  inline void WriteEncoded(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+
+  /// @brief Method WriteObject, addr 0x11454c4, size 0x54c, virtual false, abstract: false, final false
+  inline void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* objGen);
+
+  /// @brief Method WritePostEncapsulationBoundary, addr 0x1145b84, size 0x94, virtual false, abstract: false, final false
+  inline void WritePostEncapsulationBoundary(::StringW type);
+
+  /// @brief Method WritePreEncapsulationBoundary, addr 0x1145a10, size 0x94, virtual false, abstract: false, final false
+  inline void WritePreEncapsulationBoundary(::StringW type);
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_buf() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buf();
+
+  constexpr int32_t const& __cordl_internal_get_nlLength() const;
+
+  constexpr int32_t& __cordl_internal_get_nlLength();
 
   constexpr ::System::IO::TextWriter*& __cordl_internal_get_writer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get_writer() const;
 
-  constexpr void __cordl_internal_set_writer(::System::IO::TextWriter* value);
-
-  constexpr int32_t& __cordl_internal_get_nlLength();
-
-  constexpr int32_t const& __cordl_internal_get_nlLength() const;
+  constexpr void __cordl_internal_set_buf(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   constexpr void __cordl_internal_set_nlLength(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buf();
+  constexpr void __cordl_internal_set_writer(::System::IO::TextWriter* value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_buf() const;
-
-  constexpr void __cordl_internal_set_buf(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
-  static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
-
-  /// @brief Method .ctor, addr 0x10d4088, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1144ee8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method get_Writer, addr 0x10d4184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x1144fe4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextWriter* get_Writer();
 
-  /// @brief Method GetOutputSize, addr 0x10d418c, size 0x4d8, virtual false, abstract: false, final false
-  inline int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PemWriter();
 
-  /// @brief Method WriteObject, addr 0x10d4664, size 0x54c, virtual false, abstract: false, final false
-  inline void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* objGen);
-
-  /// @brief Method WriteEncoded, addr 0x10d4c44, size 0xe0, virtual false, abstract: false, final false
-  inline void WriteEncoded(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
-
-  /// @brief Method WritePreEncapsulationBoundary, addr 0x10d4bb0, size 0x94, virtual false, abstract: false, final false
-  inline void WritePreEncapsulationBoundary(::StringW type);
-
-  /// @brief Method WritePostEncapsulationBoundary, addr 0x10d4d24, size 0x94, virtual false, abstract: false, final false
-  inline void WritePostEncapsulationBoundary(::StringW type);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PemWriter(PemWriter&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PemWriter(PemWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PemWriter();
-
-public:
   /// @brief Field writer, offset: 0x10, size: 0x8, def value: None
   ::System::IO::TextWriter* ___writer;
 

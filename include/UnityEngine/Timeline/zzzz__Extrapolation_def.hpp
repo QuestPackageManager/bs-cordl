@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__Extrapolation____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13930))
 // CS Name: ::Extrapolation::<>c*
 class CORDL_TYPE __Extrapolation____c : public ::System::Object {
 public:
@@ -45,22 +43,28 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* __9__2_0;
 
-  static inline void setStaticF___9(::UnityEngine::Timeline::__Extrapolation____c* value);
+  static inline ::UnityEngine::Timeline::__Extrapolation____c* New_ctor();
+
+  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x2d577f8, size 0x34, virtual false, abstract: false, final false
+  inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
+
+  /// @brief Method .ctor, addr 0x2d577f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::Timeline::__Extrapolation____c* getStaticF___9();
 
-  static inline void setStaticF___9__2_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
-
   static inline ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* getStaticF___9__2_0();
 
-  static inline ::UnityEngine::Timeline::__Extrapolation____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::Timeline::__Extrapolation____c* value);
 
-  /// @brief Method .ctor, addr 0x2c70bb0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__2_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
 
-  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x2c70bb8, size 0x34, virtual false, abstract: false, final false
-  inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Extrapolation____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Extrapolation____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Extrapolation____c(__Extrapolation____c&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Extrapolation____c(__Extrapolation____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Extrapolation____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -85,8 +83,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Extrapo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13931))
 // CS Name: ::UnityEngine.Timeline::Extrapolation*
 class CORDL_TYPE Extrapolation : public ::System::Object {
 public:
@@ -96,17 +92,23 @@ public:
   /// @brief Field kMinExtrapolationTime, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kMinExtrapolationTime, put = setStaticF_kMinExtrapolationTime)) double_t kMinExtrapolationTime;
 
-  static inline void setStaticF_kMinExtrapolationTime(double_t value);
-
-  static inline double_t getStaticF_kMinExtrapolationTime();
-
-  /// @brief Method CalculateExtrapolationTimes, addr 0x2c70580, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method CalculateExtrapolationTimes, addr 0x2d571c0, size 0x40c, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SortClipsByStartTime, addr 0x2c7098c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SortClipsByStartTime, addr 0x2d575cc, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>
   SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips);
 
+  static inline double_t getStaticF_kMinExtrapolationTime();
+
+  static inline void setStaticF_kMinExtrapolationTime(double_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Extrapolation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Extrapolation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extrapolation(Extrapolation&&) = delete;
@@ -115,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Extrapolation(Extrapolation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Extrapolation();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

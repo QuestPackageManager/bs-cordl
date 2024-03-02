@@ -24,32 +24,36 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(414))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::ECNamedCurveTable*
 class CORDL_TYPE ECNamedCurveTable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByName, addr 0x11a8ba0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x1218a00, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetName, addr 0x11a8d3c, size 0x19c, virtual false, abstract: false, final false
-  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
-
-  /// @brief Method GetOid, addr 0x11a8ed8, size 0x19c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
-
-  /// @brief Method GetByOid, addr 0x11a9074, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x1218ed4, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names, addr 0x11a91dc, size 0x204, virtual false, abstract: false, final false
-  static inline ::System::Collections::IEnumerable* get_Names();
+  /// @brief Method GetName, addr 0x1218b9c, size 0x19c, virtual false, abstract: false, final false
+  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetOid, addr 0x1218d38, size 0x19c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11a93e0, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1219240, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Names, addr 0x121903c, size 0x204, virtual false, abstract: false, final false
+  static inline ::System::Collections::IEnumerable* get_Names();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECNamedCurveTable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECNamedCurveTable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECNamedCurveTable(ECNamedCurveTable&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECNamedCurveTable(ECNamedCurveTable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECNamedCurveTable();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualTreeUpdatePhase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6750))
 // CS Name: ::UnityEngine.UIElements::VisualTreeUpdatePhase
 struct CORDL_TYPE VisualTreeUpdatePhase {
 public:
@@ -40,42 +38,47 @@ public:
     return static_cast<__VisualTreeUpdatePhase_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr VisualTreeUpdatePhase(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr VisualTreeUpdatePhase();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr VisualTreeUpdatePhase(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field ViewData value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
-
-  /// @brief Field Bindings value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
 
   /// @brief Field Animation value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
 
-  /// @brief Field Styles value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Styles;
+  /// @brief Field Bindings value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
+
+  /// @brief Field Count value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
 
   /// @brief Field Layout value: static_cast<int32_t>(0x4)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Layout;
 
-  /// @brief Field TransformClip value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
-
   /// @brief Field Repaint value: static_cast<int32_t>(0x6)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Repaint;
 
-  /// @brief Field Count value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
+  /// @brief Field Styles value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Styles;
+
+  /// @brief Field TransformClip value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
+
+  /// @brief Field ViewData value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

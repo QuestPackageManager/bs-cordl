@@ -23,53 +23,57 @@ MARK_REF_PTR_T(::GlobalNamespace::ExternalCamerasManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15281))
 // CS Name: ::ExternalCamerasManager*
 class CORDL_TYPE ExternalCamerasManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _oculusMRCManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager))::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
-
   /// @brief Field _mrcBackgroundCameraPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__mrcBackgroundCameraPrefab, put = __cordl_internal_set__mrcBackgroundCameraPrefab))::UnityW<::UnityEngine::Camera> _mrcBackgroundCameraPrefab;
 
   /// @brief Field _mrcForegroundCameraPrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__mrcForegroundCameraPrefab, put = __cordl_internal_set__mrcForegroundCameraPrefab))::UnityW<::UnityEngine::Camera> _mrcForegroundCameraPrefab;
 
-  constexpr ::UnityW<::GlobalNamespace::OculusMRCManager>& __cordl_internal_get__oculusMRCManager();
+  /// @brief Field _oculusMRCManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager))::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
 
-  constexpr ::UnityW<::GlobalNamespace::OculusMRCManager> const& __cordl_internal_get__oculusMRCManager() const;
-
-  constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
-
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mrcBackgroundCameraPrefab();
-
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
-
-  constexpr void __cordl_internal_set__mrcBackgroundCameraPrefab(::UnityW<::UnityEngine::Camera> value);
-
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mrcForegroundCameraPrefab();
-
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcForegroundCameraPrefab() const;
-
-  constexpr void __cordl_internal_set__mrcForegroundCameraPrefab(::UnityW<::UnityEngine::Camera> value);
-
-  /// @brief Method OnEnable, addr 0x2807498, size 0xcc, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x2807564, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x28f01c8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x28075e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x28f0248, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2807664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x28f00fc, size 0xcc, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
+
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mrcBackgroundCameraPrefab();
+
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcForegroundCameraPrefab() const;
+
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mrcForegroundCameraPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::OculusMRCManager> const& __cordl_internal_get__oculusMRCManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OculusMRCManager>& __cordl_internal_get__oculusMRCManager();
+
+  constexpr void __cordl_internal_set__mrcBackgroundCameraPrefab(::UnityW<::UnityEngine::Camera> value);
+
+  constexpr void __cordl_internal_set__mrcForegroundCameraPrefab(::UnityW<::UnityEngine::Camera> value);
+
+  constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
+
+  /// @brief Method .ctor, addr 0x28f02c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ExternalCamerasManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ExternalCamerasManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExternalCamerasManager(ExternalCamerasManager&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExternalCamerasManager(ExternalCamerasManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExternalCamerasManager();
-
-public:
   /// @brief Field _oculusMRCManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OculusMRCManager> ____oculusMRCManager;
 

@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::ComponentModel::RefreshEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9452))
 // CS Name: ::System.ComponentModel::RefreshEventHandler*
 class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2917ea0, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2917fcc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a01ab0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::ComponentModel::RefreshEventArgs* e);
 
+  static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2a01984, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RefreshEventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RefreshEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RefreshEventHandler(RefreshEventHandler&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RefreshEventHandler(RefreshEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RefreshEventHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

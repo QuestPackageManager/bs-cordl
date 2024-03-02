@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3328))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3329))
 // CS Name: ::System.Runtime.InteropServices::DefaultDllImportSearchPathsAttribute*
 class CORDL_TYPE DefaultDllImportSearchPathsAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field _paths, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__paths, put = __cordl_internal_set__paths))::System::Runtime::InteropServices::DllImportSearchPath _paths;
 
-  constexpr ::System::Runtime::InteropServices::DllImportSearchPath& __cordl_internal_get__paths();
+  static inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
   constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& __cordl_internal_get__paths() const;
 
+  constexpr ::System::Runtime::InteropServices::DllImportSearchPath& __cordl_internal_get__paths();
+
   constexpr void __cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
 
-  static inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
-
-  /// @brief Method .ctor, addr 0x24d72e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c8054, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultDllImportSearchPathsAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDllImportSearchPathsAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultDllImportSearchPathsAttribute();
-
-public:
   /// @brief Field _paths, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::DllImportSearchPath ____paths;
 

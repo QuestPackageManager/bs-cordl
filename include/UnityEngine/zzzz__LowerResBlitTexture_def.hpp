@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::UnityEngine::LowerResBlitTexture);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10272))
 // CS Name: ::UnityEngine::LowerResBlitTexture*
 class CORDL_TYPE LowerResBlitTexture : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x2cdfdd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x2dd2690, size 0x4, virtual false, abstract: false, final false
   inline void LowerResBlitTextureDontStripMe();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LowerResBlitTexture();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LowerResBlitTexture", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowerResBlitTexture(LowerResBlitTexture&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LowerResBlitTexture(LowerResBlitTexture const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LowerResBlitTexture();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -16,65 +16,69 @@ MARK_REF_PTR_T(::System::Security::Cryptography::KeySizes);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2923))
 // CS Name: ::System.Security.Cryptography::KeySizes*
 class CORDL_TYPE KeySizes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_minSize, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_minSize, put = __cordl_internal_set_m_minSize)) int32_t m_minSize;
+  __declspec(property(get = get_MaxSize)) int32_t MaxSize;
+
+  __declspec(property(get = get_MinSize)) int32_t MinSize;
+
+  __declspec(property(get = get_SkipSize)) int32_t SkipSize;
 
   /// @brief Field m_maxSize, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_maxSize, put = __cordl_internal_set_m_maxSize)) int32_t m_maxSize;
 
+  /// @brief Field m_minSize, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_minSize, put = __cordl_internal_set_m_minSize)) int32_t m_minSize;
+
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  __declspec(property(get = get_MinSize)) int32_t MinSize;
+  /// @brief Method IsLegal, addr 0x254fd84, size 0x4c, virtual false, abstract: false, final false
+  inline bool IsLegal(int32_t keySize);
 
-  __declspec(property(get = get_MaxSize)) int32_t MaxSize;
-
-  __declspec(property(get = get_SkipSize)) int32_t SkipSize;
-
-  constexpr int32_t& __cordl_internal_get_m_minSize();
-
-  constexpr int32_t const& __cordl_internal_get_m_minSize() const;
-
-  constexpr void __cordl_internal_set_m_minSize(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_maxSize();
-
-  constexpr int32_t const& __cordl_internal_get_m_maxSize() const;
-
-  constexpr void __cordl_internal_set_m_maxSize(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_skipSize();
-
-  constexpr int32_t const& __cordl_internal_get_m_skipSize() const;
-
-  constexpr void __cordl_internal_set_m_skipSize(int32_t value);
-
-  /// @brief Method get_MinSize, addr 0x245c000, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_MinSize();
-
-  /// @brief Method get_MaxSize, addr 0x245c008, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_MaxSize();
-
-  /// @brief Method get_SkipSize, addr 0x245c010, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_SkipSize();
+  /// @brief Method IsLegalKeySize, addr 0x254fdd0, size 0x80, virtual false, abstract: false, final false
+  static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method .ctor, addr 0x245bdac, size 0x3c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_m_maxSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_maxSize();
+
+  constexpr int32_t const& __cordl_internal_get_m_minSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_minSize();
+
+  constexpr int32_t const& __cordl_internal_get_m_skipSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_skipSize();
+
+  constexpr void __cordl_internal_set_m_maxSize(int32_t value);
+
+  constexpr void __cordl_internal_set_m_minSize(int32_t value);
+
+  constexpr void __cordl_internal_set_m_skipSize(int32_t value);
+
+  /// @brief Method .ctor, addr 0x254fb18, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method IsLegal, addr 0x245c018, size 0x4c, virtual false, abstract: false, final false
-  inline bool IsLegal(int32_t keySize);
+  /// @brief Method get_MaxSize, addr 0x254fd74, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_MaxSize();
 
-  /// @brief Method IsLegalKeySize, addr 0x245c064, size 0x80, virtual false, abstract: false, final false
-  static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
+  /// @brief Method get_MinSize, addr 0x254fd6c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_MinSize();
 
+  /// @brief Method get_SkipSize, addr 0x254fd7c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_SkipSize();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeySizes();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeySizes", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeySizes(KeySizes&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeySizes(KeySizes const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeySizes();
-
-public:
   /// @brief Field m_minSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_minSize;
 

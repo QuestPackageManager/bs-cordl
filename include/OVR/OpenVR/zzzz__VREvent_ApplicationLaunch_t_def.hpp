@@ -15,18 +15,16 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_ApplicationLaunch_t);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8682))
 // CS Name: ::OVR.OpenVR::VREvent_ApplicationLaunch_t
 struct CORDL_TYPE VREvent_ApplicationLaunch_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "unArgsHandle", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VREvent_ApplicationLaunch_t(uint32_t pid, uint32_t unArgsHandle) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_ApplicationLaunch_t();
+
+  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "unArgsHandle", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VREvent_ApplicationLaunch_t(uint32_t pid, uint32_t unArgsHandle) noexcept;
 
   /// @brief Field pid, offset: 0x0, size: 0x4, def value: None
   uint32_t pid;

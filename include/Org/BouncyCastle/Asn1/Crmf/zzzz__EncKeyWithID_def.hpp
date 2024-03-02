@@ -35,76 +35,80 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(111))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::EncKeyWithID*
 class CORDL_TYPE EncKeyWithID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field privKeyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_privKeyInfo, put = __cordl_internal_set_privKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo;
+  __declspec(property(get = get_HasIdentifier)) bool HasIdentifier;
+
+  __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* Identifier;
+
+  __declspec(property(get = get_IsIdentifierUtf8String)) bool IsIdentifierUtf8String;
+
+  __declspec(property(get = get_PrivateKey))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* PrivateKey;
 
   /// @brief Field identifier, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* identifier;
 
-  __declspec(property(get = get_PrivateKey))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* PrivateKey;
+  /// @brief Field privKeyInfo, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_privKeyInfo, put = __cordl_internal_set_privKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo;
 
-  __declspec(property(get = get_HasIdentifier)) bool HasIdentifier;
+  /// @brief Method GetInstance, addr 0xef6998, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_IsIdentifierUtf8String)) bool IsIdentifierUtf8String;
+  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo);
 
-  __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::Asn1Encodable* Identifier;
+  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __cordl_internal_get_privKeyInfo();
+  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::DerUtf8String* str);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*> const& __cordl_internal_get_privKeyInfo() const;
+  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr void __cordl_internal_set_privKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
+  /// @brief Method ToAsn1Object, addr 0xef6c64, size 0x148, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_identifier();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_identifier() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __cordl_internal_get_privKeyInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*> const& __cordl_internal_get_privKeyInfo() const;
+
   constexpr void __cordl_internal_set_identifier(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance, addr 0xe85b38, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set_privKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe85bdc, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo);
-
-  /// @brief Method .ctor, addr 0xe85ce8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef6b48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo);
 
-  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::DerUtf8String* str);
-
-  /// @brief Method .ctor, addr 0xe85d10, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::DerUtf8String* str);
-
-  static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
-
-  /// @brief Method .ctor, addr 0xe85d3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef6b9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
-  /// @brief Method get_PrivateKey, addr 0xe85d68, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* get_PrivateKey();
+  /// @brief Method .ctor, addr 0xef6b70, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::DerUtf8String* str);
 
-  /// @brief Method get_HasIdentifier, addr 0xe85d70, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef6a3c, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_HasIdentifier, addr 0xef6bd0, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasIdentifier();
 
-  /// @brief Method get_IsIdentifierUtf8String, addr 0xe85d80, size 0x7c, virtual true, abstract: false, final false
-  inline bool get_IsIdentifierUtf8String();
-
-  /// @brief Method get_Identifier, addr 0xe85dfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0xef6c5c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Identifier();
 
-  /// @brief Method ToAsn1Object, addr 0xe85e04, size 0x148, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_IsIdentifierUtf8String, addr 0xef6be0, size 0x7c, virtual true, abstract: false, final false
+  inline bool get_IsIdentifierUtf8String();
 
+  /// @brief Method get_PrivateKey, addr 0xef6bc8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* get_PrivateKey();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EncKeyWithID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EncKeyWithID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncKeyWithID(EncKeyWithID&&) = delete;
@@ -113,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncKeyWithID(EncKeyWithID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncKeyWithID();
-
-public:
   /// @brief Field privKeyInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* ___privKeyInfo;
 

@@ -25,22 +25,20 @@ MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3487))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3527))
 // CS Name: ::System.Reflection::MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoPropertyInfo();
+
   // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None },
   // CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "get_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam {
   // name: "set_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::PropertyAttributes", modifiers: "", def_value:
   // None }]
   constexpr MonoPropertyInfo(::System::Type* parent, ::System::Type* declaring_type, ::StringW name, ::System::Reflection::MethodInfo* get_method, ::System::Reflection::MethodInfo* set_method,
                              ::System::Reflection::PropertyAttributes attrs) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoPropertyInfo();
 
   /// @brief Field parent, offset: 0x0, size: 0x8, def value: None
   ::System::Type* parent;

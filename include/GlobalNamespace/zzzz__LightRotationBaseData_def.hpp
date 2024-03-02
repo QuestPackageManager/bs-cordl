@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBaseData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14736)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4323))
 // CS Name: ::LightRotationBaseData*
 class CORDL_TYPE LightRotationBaseData : public ::System::Object {
 public:
@@ -33,64 +31,70 @@ public:
   /// @brief Field beat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
-  /// @brief Field usePreviousEventRotationValue, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_usePreviousEventRotationValue, put = __cordl_internal_set_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
-
   /// @brief Field easeType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
-
-  /// @brief Field rotation, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
   /// @brief Field loopsCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_loopsCount, put = __cordl_internal_set_loopsCount)) int32_t loopsCount;
 
+  /// @brief Field rotation, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
+
   /// @brief Field rotationDirection, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationDirection, put = __cordl_internal_set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
 
-  constexpr float_t& __cordl_internal_get_beat();
-
-  constexpr float_t const& __cordl_internal_get_beat() const;
-
-  constexpr void __cordl_internal_set_beat(float_t value);
-
-  constexpr bool& __cordl_internal_get_usePreviousEventRotationValue();
-
-  constexpr bool const& __cordl_internal_get_usePreviousEventRotationValue() const;
-
-  constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
-
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
-
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
-
-  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
-
-  constexpr float_t& __cordl_internal_get_rotation();
-
-  constexpr float_t const& __cordl_internal_get_rotation() const;
-
-  constexpr void __cordl_internal_set_rotation(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_loopsCount();
-
-  constexpr int32_t const& __cordl_internal_get_loopsCount() const;
-
-  constexpr void __cordl_internal_set_loopsCount(int32_t value);
-
-  constexpr ::GlobalNamespace::LightRotationDirection& __cordl_internal_get_rotationDirection();
-
-  constexpr ::GlobalNamespace::LightRotationDirection const& __cordl_internal_get_rotationDirection() const;
-
-  constexpr void __cordl_internal_set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
+  /// @brief Field usePreviousEventRotationValue, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_usePreviousEventRotationValue, put = __cordl_internal_set_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
 
   static inline ::GlobalNamespace::LightRotationBaseData* New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                                                                    ::GlobalNamespace::LightRotationDirection rotationDirection);
 
-  /// @brief Method .ctor, addr 0x233d558, size 0x5c, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_beat() const;
+
+  constexpr float_t& __cordl_internal_get_beat();
+
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
+
+  constexpr int32_t const& __cordl_internal_get_loopsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_loopsCount();
+
+  constexpr float_t const& __cordl_internal_get_rotation() const;
+
+  constexpr float_t& __cordl_internal_get_rotation();
+
+  constexpr ::GlobalNamespace::LightRotationDirection const& __cordl_internal_get_rotationDirection() const;
+
+  constexpr ::GlobalNamespace::LightRotationDirection& __cordl_internal_get_rotationDirection();
+
+  constexpr bool const& __cordl_internal_get_usePreviousEventRotationValue() const;
+
+  constexpr bool& __cordl_internal_get_usePreviousEventRotationValue();
+
+  constexpr void __cordl_internal_set_beat(float_t value);
+
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+
+  constexpr void __cordl_internal_set_loopsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_rotation(float_t value);
+
+  constexpr void __cordl_internal_set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
+
+  constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
+
+  /// @brief Method .ctor, addr 0x12c0a1c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightRotationBaseData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationBaseData(LightRotationBaseData&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationBaseData(LightRotationBaseData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationBaseData();
-
-public:
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;
 

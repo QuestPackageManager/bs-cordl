@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::System::Reflection::MethodBase);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3474))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3477))
 // CS Name: ::System.Reflection::MethodBase*
 class CORDL_TYPE MethodBase : public ::System::Reflection::MemberInfo {
 public:
@@ -57,116 +55,122 @@ public:
 
   __declspec(property(get = get_CallingConvention))::System::Reflection::CallingConventions CallingConvention;
 
+  __declspec(property(get = get_ContainsGenericParameters)) bool ContainsGenericParameters;
+
   __declspec(property(get = get_IsAbstract)) bool IsAbstract;
 
   __declspec(property(get = get_IsConstructor)) bool IsConstructor;
-
-  __declspec(property(get = get_IsStatic)) bool IsStatic;
-
-  __declspec(property(get = get_IsVirtual)) bool IsVirtual;
-
-  __declspec(property(get = get_IsPublic)) bool IsPublic;
 
   __declspec(property(get = get_IsGenericMethod)) bool IsGenericMethod;
 
   __declspec(property(get = get_IsGenericMethodDefinition)) bool IsGenericMethodDefinition;
 
-  __declspec(property(get = get_ContainsGenericParameters)) bool ContainsGenericParameters;
-
-  __declspec(property(get = get_MethodHandle))::System::RuntimeMethodHandle MethodHandle;
+  __declspec(property(get = get_IsPublic)) bool IsPublic;
 
   __declspec(property(get = get_IsSecurityCritical)) bool IsSecurityCritical;
 
-  static inline ::System::Reflection::MethodBase* New_ctor();
+  __declspec(property(get = get_IsStatic)) bool IsStatic;
 
-  /// @brief Method .ctor, addr 0x24e60c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  __declspec(property(get = get_IsVirtual)) bool IsVirtual;
 
-  /// @brief Method GetParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
+  __declspec(property(get = get_MethodHandle))::System::RuntimeMethodHandle MethodHandle;
 
-  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Reflection::MethodAttributes get_Attributes();
+  /// @brief Method ConstructParameters, addr 0x25d9134, size 0x1ec, virtual false, abstract: false, final false
+  static inline ::StringW ConstructParameters(::ArrayW<::System::Type*, ::Array<::System::Type*>*> parameterTypes, ::System::Reflection::CallingConventions callingConvention, bool serialization);
+
+  /// @brief Method Equals, addr 0x25d6e64, size 0x8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method FormatNameAndSig, addr 0x25d9008, size 0x12c, virtual true, abstract: false, final false
+  inline ::StringW FormatNameAndSig(bool serialization);
+
+  /// @brief Method GetGenericArguments, addr 0x25d8ec8, size 0x50, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
+
+  /// @brief Method GetHashCode, addr 0x25d6e74, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetMethodFromHandle, addr 0x25d9438, size 0x208, virtual false, abstract: false, final false
+  static inline ::System::Reflection::MethodBase* GetMethodFromHandle(::System::RuntimeMethodHandle handle);
 
   /// @brief Method GetMethodImplementationFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method get_CallingConvention, addr 0x24e8018, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::CallingConventions get_CallingConvention();
+  /// @brief Method GetParameterTypes, addr 0x25d9320, size 0x108, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetParameterTypes();
 
-  /// @brief Method get_IsAbstract, addr 0x24e8020, size 0x20, virtual true, abstract: false, final true
-  inline bool get_IsAbstract();
+  /// @brief Method GetParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method get_IsConstructor, addr 0x24e8040, size 0xa4, virtual true, abstract: false, final true
-  inline bool get_IsConstructor();
+  /// @brief Method GetParametersCount, addr 0x25d8fe0, size 0x28, virtual true, abstract: false, final false
+  inline int32_t GetParametersCount();
 
-  /// @brief Method get_IsStatic, addr 0x24e80e4, size 0x20, virtual true, abstract: false, final true
-  inline bool get_IsStatic();
+  /// @brief Method GetParametersInternal, addr 0x25d8fd0, size 0x10, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInternal();
 
-  /// @brief Method get_IsVirtual, addr 0x24e8104, size 0x20, virtual true, abstract: false, final true
-  inline bool get_IsVirtual();
-
-  /// @brief Method get_IsPublic, addr 0x24e8124, size 0x28, virtual true, abstract: false, final true
-  inline bool get_IsPublic();
-
-  /// @brief Method get_IsGenericMethod, addr 0x24e814c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsGenericMethod();
-
-  /// @brief Method get_IsGenericMethodDefinition, addr 0x24e8154, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsGenericMethodDefinition();
-
-  /// @brief Method GetGenericArguments, addr 0x24e815c, size 0x50, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
-
-  /// @brief Method get_ContainsGenericParameters, addr 0x24e81ac, size 0x8, virtual true, abstract: false, final false
-  inline bool get_ContainsGenericParameters();
-
-  /// @brief Method Invoke, addr 0x24e81b4, size 0x20, virtual true, abstract: false, final true
-  inline ::System::Object* Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+  /// @brief Method GetParametersNoCopy, addr 0x25d9428, size 0x10, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersNoCopy();
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
+  /// @brief Method Invoke, addr 0x25d8f20, size 0x20, virtual true, abstract: false, final true
+  inline ::System::Object* Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+
+  static inline ::System::Reflection::MethodBase* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25d6e2c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Reflection::MethodAttributes get_Attributes();
+
+  /// @brief Method get_CallingConvention, addr 0x25d8d84, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Reflection::CallingConventions get_CallingConvention();
+
+  /// @brief Method get_ContainsGenericParameters, addr 0x25d8f18, size 0x8, virtual true, abstract: false, final false
+  inline bool get_ContainsGenericParameters();
+
+  /// @brief Method get_IsAbstract, addr 0x25d8d8c, size 0x20, virtual true, abstract: false, final true
+  inline bool get_IsAbstract();
+
+  /// @brief Method get_IsConstructor, addr 0x25d8dac, size 0xa4, virtual true, abstract: false, final true
+  inline bool get_IsConstructor();
+
+  /// @brief Method get_IsGenericMethod, addr 0x25d8eb8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsGenericMethod();
+
+  /// @brief Method get_IsGenericMethodDefinition, addr 0x25d8ec0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsGenericMethodDefinition();
+
+  /// @brief Method get_IsPublic, addr 0x25d8e90, size 0x28, virtual true, abstract: false, final true
+  inline bool get_IsPublic();
+
+  /// @brief Method get_IsSecurityCritical, addr 0x25d8f40, size 0x28, virtual true, abstract: false, final false
+  inline bool get_IsSecurityCritical();
+
+  /// @brief Method get_IsStatic, addr 0x25d8e50, size 0x20, virtual true, abstract: false, final true
+  inline bool get_IsStatic();
+
+  /// @brief Method get_IsVirtual, addr 0x25d8e70, size 0x20, virtual true, abstract: false, final true
+  inline bool get_IsVirtual();
+
   /// @brief Method get_MethodHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_IsSecurityCritical, addr 0x24e81d4, size 0x28, virtual true, abstract: false, final false
-  inline bool get_IsSecurityCritical();
-
-  /// @brief Method Equals, addr 0x24e60f8, size 0x8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x24e6108, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x24e7de4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x25d8b50, size 0x1b4, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::MethodBase* left, ::System::Reflection::MethodBase* right);
 
-  /// @brief Method op_Inequality, addr 0x24e7dcc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x25d8b38, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::MethodBase* left, ::System::Reflection::MethodBase* right);
 
-  /// @brief Method GetParametersInternal, addr 0x24e8264, size 0x10, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInternal();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MethodBase();
 
-  /// @brief Method GetParametersCount, addr 0x24e8274, size 0x28, virtual true, abstract: false, final false
-  inline int32_t GetParametersCount();
-
-  /// @brief Method FormatNameAndSig, addr 0x24e829c, size 0x12c, virtual true, abstract: false, final false
-  inline ::StringW FormatNameAndSig(bool serialization);
-
-  /// @brief Method GetParameterTypes, addr 0x24e85b4, size 0x108, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetParameterTypes();
-
-  /// @brief Method GetParametersNoCopy, addr 0x24e86bc, size 0x10, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersNoCopy();
-
-  /// @brief Method GetMethodFromHandle, addr 0x24e86cc, size 0x208, virtual false, abstract: false, final false
-  static inline ::System::Reflection::MethodBase* GetMethodFromHandle(::System::RuntimeMethodHandle handle);
-
-  /// @brief Method ConstructParameters, addr 0x24e83c8, size 0x1ec, virtual false, abstract: false, final false
-  static inline ::StringW ConstructParameters(::ArrayW<::System::Type*, ::Array<::System::Type*>*> parameterTypes, ::System::Reflection::CallingConventions callingConvention, bool serialization);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MethodBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodBase(MethodBase&&) = delete;
@@ -175,12 +179,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MethodBase(MethodBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MethodBase();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

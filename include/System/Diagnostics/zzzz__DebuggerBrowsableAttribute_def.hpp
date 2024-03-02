@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3734))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3735))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
 class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Diagnostics::DebuggerBrowsableState state;
 
-  constexpr ::System::Diagnostics::DebuggerBrowsableState& __cordl_internal_get_state();
+  static inline ::System::Diagnostics::DebuggerBrowsableAttribute* New_ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
   constexpr ::System::Diagnostics::DebuggerBrowsableState const& __cordl_internal_get_state() const;
 
+  constexpr ::System::Diagnostics::DebuggerBrowsableState& __cordl_internal_get_state();
+
   constexpr void __cordl_internal_set_state(::System::Diagnostics::DebuggerBrowsableState value);
 
-  static inline ::System::Diagnostics::DebuggerBrowsableAttribute* New_ctor(::System::Diagnostics::DebuggerBrowsableState state);
-
-  /// @brief Method .ctor, addr 0x2579c48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d21c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebuggerBrowsableAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerBrowsableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggerBrowsableAttribute(DebuggerBrowsableAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggerBrowsableAttribute(DebuggerBrowsableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebuggerBrowsableAttribute();
-
-public:
   /// @brief Field state, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::DebuggerBrowsableState ___state;
 

@@ -14,18 +14,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionSyncInfo);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9756))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionSyncInfo
 struct CORDL_TYPE HAPI_SessionSyncInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "cookUsingHoudiniTime", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "syncViewport", ty: "bool", modifiers: "", def_value: None }]
-  constexpr HAPI_SessionSyncInfo(bool cookUsingHoudiniTime, bool syncViewport) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_SessionSyncInfo();
+
+  // Ctor Parameters [CppParam { name: "cookUsingHoudiniTime", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "syncViewport", ty: "bool", modifiers: "", def_value: None }]
+  constexpr HAPI_SessionSyncInfo(bool cookUsingHoudiniTime, bool syncViewport) noexcept;
 
   /// @brief Field cookUsingHoudiniTime, offset: 0x0, size: 0x1, def value: None
   bool cookUsingHoudiniTime;

@@ -19,52 +19,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1025))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHValidationParameters*
 class CORDL_TYPE DHValidationParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field seed, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = get_Counter)) int32_t Counter;
 
   /// @brief Field counter, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
-  __declspec(property(get = get_Counter)) int32_t Counter;
+  /// @brief Field seed, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
+  /// @brief Method Equals, addr 0xfa1560, size 0x9c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
+  /// @brief Method Equals, addr 0xfa15fc, size 0x90, virtual false, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
 
-  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetHashCode, addr 0xfa168c, size 0x88, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  constexpr int32_t& __cordl_internal_get_counter();
-
-  constexpr int32_t const& __cordl_internal_get_counter() const;
-
-  constexpr void __cordl_internal_set_counter(int32_t value);
+  /// @brief Method GetSeed, addr 0xfa14e0, size 0x78, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0xf31584, size 0xfc, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_counter() const;
+
+  constexpr int32_t& __cordl_internal_get_counter();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
+
+  constexpr void __cordl_internal_set_counter(int32_t value);
+
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xfa13e4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method GetSeed, addr 0xf31680, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
-
-  /// @brief Method get_Counter, addr 0xf316f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0xfa1558, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method Equals, addr 0xf31700, size 0x9c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DHValidationParameters();
 
-  /// @brief Method Equals, addr 0xf3179c, size 0x90, virtual false, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
-
-  /// @brief Method GetHashCode, addr 0xf3182c, size 0x88, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DHValidationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DHValidationParameters(DHValidationParameters&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DHValidationParameters(DHValidationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHValidationParameters();
-
-public:
   /// @brief Field seed, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___seed;
 

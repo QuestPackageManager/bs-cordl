@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::WebExceptionInternalStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9086))
 // CS Name: ::System.Net::WebExceptionInternalStatus
 struct CORDL_TYPE WebExceptionInternalStatus {
 public:
@@ -36,18 +34,26 @@ public:
     return static_cast<__WebExceptionInternalStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr WebExceptionInternalStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr WebExceptionInternalStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr WebExceptionInternalStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Isolated value: static_cast<int32_t>(0x3)
+  static ::System::Net::WebExceptionInternalStatus const Isolated;
+
+  /// @brief Field Recoverable value: static_cast<int32_t>(0x2)
+  static ::System::Net::WebExceptionInternalStatus const Recoverable;
 
   /// @brief Field RequestFatal value: static_cast<int32_t>(0x0)
   static ::System::Net::WebExceptionInternalStatus const RequestFatal;
@@ -55,11 +61,8 @@ public:
   /// @brief Field ServicePointFatal value: static_cast<int32_t>(0x1)
   static ::System::Net::WebExceptionInternalStatus const ServicePointFatal;
 
-  /// @brief Field Recoverable value: static_cast<int32_t>(0x2)
-  static ::System::Net::WebExceptionInternalStatus const Recoverable;
-
-  /// @brief Field Isolated value: static_cast<int32_t>(0x3)
-  static ::System::Net::WebExceptionInternalStatus const Isolated;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -59,8 +59,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
 // CS Name: ::BTSCharacterSpawnEventEffect*
 class CORDL_TYPE BTSCharacterSpawnEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,11 +66,13 @@ public:
   /// @brief Field _animationStartAheadTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__animationStartAheadTime, put = __cordl_internal_set__animationStartAheadTime)) float_t _animationStartAheadTime;
 
-  /// @brief Field _btsCharacterDataModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__btsCharacterDataModel, put = __cordl_internal_set__btsCharacterDataModel))::UnityW<::GlobalNamespace::BTSCharacterDataModel> _btsCharacterDataModel;
+  /// @brief Field _asyncOperationHandles, offset 0x78, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__asyncOperationHandles,
+      put = __cordl_internal_set__asyncOperationHandles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _asyncOperationHandles;
 
-  /// @brief Field _characterWrapper, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__characterWrapper, put = __cordl_internal_set__characterWrapper))::UnityW<::UnityEngine::Transform> _characterWrapper;
+  /// @brief Field _audioTimeSource, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
@@ -81,12 +81,20 @@ public:
   /// @brief Field _beatmapData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
 
-  /// @brief Field _audioTimeSource, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field startCharacterAnimationEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
-                      put = __cordl_internal_set_startCharacterAnimationEvent))::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
+  /// @brief Field _btsCharacterDataModel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__btsCharacterDataModel, put = __cordl_internal_set__btsCharacterDataModel))::UnityW<::GlobalNamespace::BTSCharacterDataModel> _btsCharacterDataModel;
+
+  /// @brief Field _characterWrapper, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__characterWrapper, put = __cordl_internal_set__characterWrapper))::UnityW<::UnityEngine::Transform> _characterWrapper;
+
+  /// @brief Field _idsToAnimationClipsDictionary, offset 0x60, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__idsToAnimationClipsDictionary,
+               put = __cordl_internal_set__idsToAnimationClipsDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* _idsToAnimationClipsDictionary;
 
   /// @brief Field _idsToCharacterPrefabsDictionary, offset 0x50, size 0x8
   __declspec(property(
@@ -98,141 +106,137 @@ public:
       property(get = __cordl_internal_get__idsToCharactersDictionary,
                put = __cordl_internal_set__idsToCharactersDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* _idsToCharactersDictionary;
 
-  /// @brief Field _idsToAnimationClipsDictionary, offset 0x60, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__idsToAnimationClipsDictionary,
-               put = __cordl_internal_set__idsToAnimationClipsDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* _idsToAnimationClipsDictionary;
-
   /// @brief Field _isInitialized, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
-
-  /// @brief Field _asyncOperationHandles, offset 0x78, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__asyncOperationHandles,
-      put = __cordl_internal_set__asyncOperationHandles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _asyncOperationHandles;
-
   __declspec(property(get = get_isInitialized)) bool isInitialized;
 
-  constexpr float_t& __cordl_internal_get__animationStartAheadTime();
+  /// @brief Field startCharacterAnimationEvent, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
+                      put = __cordl_internal_set_startCharacterAnimationEvent))::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
+
+  /// @brief Method CleanupAddressables, addr 0xe7368c, size 0x154, virtual false, abstract: false, final false
+  inline void CleanupAddressables();
+
+  /// @brief Method GetCharacterWithAnimationClip, addr 0xe7351c, size 0x170, virtual false, abstract: false, final false
+  static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
+  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
+                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
+
+  /// @brief Method HandleBeatmapEvent, addr 0xe73808, size 0x144, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+
+  /// @brief Method LoadAddressables, addr 0xe72ca0, size 0x86c, virtual false, abstract: false, final false
+  inline void LoadAddressables();
+
+  static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0xe737e0, size 0x28, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0xe726f8, size 0x5a8, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animationStartAheadTime() const;
 
-  constexpr void __cordl_internal_set__animationStartAheadTime(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel>& __cordl_internal_get__btsCharacterDataModel();
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel> const& __cordl_internal_get__btsCharacterDataModel() const;
-
-  constexpr void __cordl_internal_set__btsCharacterDataModel(::UnityW<::GlobalNamespace::BTSCharacterDataModel> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__characterWrapper();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__characterWrapper() const;
-
-  constexpr void __cordl_internal_set__characterWrapper(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
-
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
-
-  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
-
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
-
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
-
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get_startCharacterAnimationEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*> const& __cordl_internal_get_startCharacterAnimationEvent() const;
-
-  constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharacterPrefabsDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
-  __cordl_internal_get__idsToCharacterPrefabsDictionary() const;
-
-  constexpr void __cordl_internal_set__idsToCharacterPrefabsDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharactersDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
-  __cordl_internal_get__idsToCharactersDictionary() const;
-
-  constexpr void __cordl_internal_set__idsToCharactersDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*& __cordl_internal_get__idsToAnimationClipsDictionary();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*> const&
-  __cordl_internal_get__idsToAnimationClipsDictionary() const;
-
-  constexpr void __cordl_internal_set__idsToAnimationClipsDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* value);
-
-  constexpr bool& __cordl_internal_get__isInitialized();
-
-  constexpr bool const& __cordl_internal_get__isInitialized() const;
-
-  constexpr void __cordl_internal_set__isInitialized(bool value);
-
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
-
-  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr float_t& __cordl_internal_get__animationStartAheadTime();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get__asyncOperationHandles();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
   __cordl_internal_get__asyncOperationHandles() const;
 
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
+
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel> const& __cordl_internal_get__btsCharacterDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel>& __cordl_internal_get__btsCharacterDataModel();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__characterWrapper() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__characterWrapper();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*& __cordl_internal_get__idsToAnimationClipsDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*> const&
+  __cordl_internal_get__idsToAnimationClipsDictionary() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharacterPrefabsDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
+  __cordl_internal_get__idsToCharacterPrefabsDictionary() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get__idsToCharactersDictionary();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*> const&
+  __cordl_internal_get__idsToCharactersDictionary() const;
+
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
+
+  constexpr bool& __cordl_internal_get__isInitialized();
+
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*& __cordl_internal_get_startCharacterAnimationEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*> const& __cordl_internal_get_startCharacterAnimationEvent() const;
+
+  constexpr void __cordl_internal_set__animationStartAheadTime(float_t value);
+
   constexpr void __cordl_internal_set__asyncOperationHandles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0x221a750, size 0xb0, virtual false, abstract: false, final false
-  inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0x221aba0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method get_isInitialized, addr 0x221afa0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isInitialized();
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  /// @brief Method Start, addr 0x221afa8, size 0x5a8, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method LoadAddressables, addr 0x221b550, size 0x86c, virtual false, abstract: false, final false
-  inline void LoadAddressables();
+  constexpr void __cordl_internal_set__btsCharacterDataModel(::UnityW<::GlobalNamespace::BTSCharacterDataModel> value);
 
-  /// @brief Method CleanupAddressables, addr 0x221bf3c, size 0x154, virtual false, abstract: false, final false
-  inline void CleanupAddressables();
+  constexpr void __cordl_internal_set__characterWrapper(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method OnDestroy, addr 0x221c090, size 0x28, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__idsToAnimationClipsDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x221c0b8, size 0x144, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__idsToCharacterPrefabsDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0x221bdcc, size 0x170, virtual false, abstract: false, final false
-  static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
-  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
-                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
+  constexpr void __cordl_internal_set__idsToCharactersDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x221c204, size 0x130, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+
+  /// @brief Method .ctor, addr 0xe73954, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_startCharacterAnimationEvent, addr 0xe7200c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+
+  /// @brief Method get_isInitialized, addr 0xe726f0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isInitialized();
+
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0xe724b4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSCharacterSpawnEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect&&) = delete;
@@ -241,12 +245,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSCharacterSpawnEventEffect();
-
-public:
   /// @brief Field _animationStartAheadTime, offset: 0x18, size: 0x4, def value: None
   float_t ____animationStartAheadTime;
 

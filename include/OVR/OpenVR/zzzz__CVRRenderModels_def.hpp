@@ -64,30 +64,34 @@ MARK_VAL_T(::OVR::OpenVR::__CVRRenderModels__GetComponentStateUnion);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8568))
 // CS Name: ::CVRRenderModels::_GetComponentStatePacked*
 class CORDL_TYPE __CVRRenderModels___GetComponentStatePacked : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x27f4ecc, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x27f4fa4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState,
-                     ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
-
-  /// @brief Method BeginInvoke, addr 0x27f4fb8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28e68c8, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState,
                                              ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f50b8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28e69c8, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                         ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28e68b4, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t_Packed> pControllerState,
+                     ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
+
+  static inline ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28e67dc, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CVRRenderModels___GetComponentStatePacked();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CVRRenderModels___GetComponentStatePacked", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CVRRenderModels___GetComponentStatePacked(__CVRRenderModels___GetComponentStatePacked&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CVRRenderModels___GetComponentStatePacked(__CVRRenderModels___GetComponentStatePacked const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CVRRenderModels___GetComponentStatePacked();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -112,8 +110,6 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRRenderModels__
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8569))
 // CS Name: ::CVRRenderModels::GetComponentStateUnion
 struct CORDL_TYPE __CVRRenderModels__GetComponentStateUnion {
 public:
@@ -129,22 +125,22 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRRenderModels___GetComponentState*> const& __cordl_internal_get_pGetComponentState() const;
 
-  constexpr void __cordl_internal_set_pGetComponentState(::OVR::OpenVR::__IVRRenderModels___GetComponentState* value);
-
   constexpr ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*& __cordl_internal_get_pGetComponentStatePacked();
 
   constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*> const& __cordl_internal_get_pGetComponentStatePacked() const;
 
+  constexpr void __cordl_internal_set_pGetComponentState(::OVR::OpenVR::__IVRRenderModels___GetComponentState* value);
+
   constexpr void __cordl_internal_set_pGetComponentStatePacked(::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CVRRenderModels__GetComponentStateUnion();
 
   // Ctor Parameters [CppParam { name: "pGetComponentState", ty: "::OVR::OpenVR::__IVRRenderModels___GetComponentState*", modifiers: "", def_value: None }, CppParam { name: "pGetComponentStatePacked",
   // ty: "::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked*", modifiers: "", def_value: None }]
   constexpr __CVRRenderModels__GetComponentStateUnion(::OVR::OpenVR::__IVRRenderModels___GetComponentState* pGetComponentState,
                                                       ::OVR::OpenVR::__CVRRenderModels___GetComponentStatePacked* pGetComponentStatePacked) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CVRRenderModels__GetComponentStateUnion();
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -193,8 +189,6 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRRenderModels__
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8490))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8570))
 // CS Name: ::OVR.OpenVR::CVRRenderModels*
 class CORDL_TYPE CVRRenderModels : public ::System::Object {
 public:
@@ -206,79 +200,85 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x98
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRRenderModels FnTable;
 
-  constexpr ::OVR::OpenVR::IVRRenderModels& __cordl_internal_get_FnTable();
-
-  constexpr ::OVR::OpenVR::IVRRenderModels const& __cordl_internal_get_FnTable() const;
-
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRRenderModels value);
-
-  static inline ::OVR::OpenVR::CVRRenderModels* New_ctor(void* pInterface);
-
-  /// @brief Method .ctor, addr 0x27f4998, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(void* pInterface);
-
-  /// @brief Method LoadRenderModel_Async, addr 0x27f4aac, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<void*> ppRenderModel);
-
-  /// @brief Method FreeRenderModel, addr 0x27f4ad0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FreeRenderModel, addr 0x28e63e0, size 0x24, virtual false, abstract: false, final false
   inline void FreeRenderModel(void* pRenderModel);
 
-  /// @brief Method LoadTexture_Async, addr 0x27f4af4, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError LoadTexture_Async(int32_t textureId, ByRef<void*> ppTexture);
-
-  /// @brief Method FreeTexture, addr 0x27f4b18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FreeTexture, addr 0x28e6428, size 0x24, virtual false, abstract: false, final false
   inline void FreeTexture(void* pTexture);
 
-  /// @brief Method LoadTextureD3D11_Async, addr 0x27f4b3c, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError LoadTextureD3D11_Async(int32_t textureId, void* pD3D11Device, ByRef<void*> ppD3D11Texture2D);
-
-  /// @brief Method LoadIntoTextureD3D11_Async, addr 0x27f4b60, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EVRRenderModelError LoadIntoTextureD3D11_Async(int32_t textureId, void* pDstTexture);
-
-  /// @brief Method FreeTextureD3D11, addr 0x27f4b84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FreeTextureD3D11, addr 0x28e6494, size 0x24, virtual false, abstract: false, final false
   inline void FreeTextureD3D11(void* pD3D11Texture2D);
 
-  /// @brief Method GetRenderModelName, addr 0x27f4ba8, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetRenderModelName(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen);
-
-  /// @brief Method GetRenderModelCount, addr 0x27f4bcc, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetRenderModelCount();
-
-  /// @brief Method GetComponentCount, addr 0x27f4bf0, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetComponentCount(::StringW pchRenderModelName);
-
-  /// @brief Method GetComponentName, addr 0x27f4c14, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetComponentName(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen);
-
-  /// @brief Method GetComponentButtonMask, addr 0x27f4c38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentButtonMask, addr 0x28e6548, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetComponentButtonMask(::StringW pchRenderModelName, ::StringW pchComponentName);
 
-  /// @brief Method GetComponentRenderModelName, addr 0x27f4c5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentCount, addr 0x28e6500, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetComponentCount(::StringW pchRenderModelName);
+
+  /// @brief Method GetComponentName, addr 0x28e6524, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetComponentName(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen);
+
+  /// @brief Method GetComponentRenderModelName, addr 0x28e656c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetComponentRenderModelName(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName,
                                               uint32_t unComponentRenderModelNameLen);
 
-  /// @brief Method GetComponentStateForDevicePath, addr 0x27f4c80, size 0x24, virtual false, abstract: false, final false
-  inline bool GetComponentStateForDevicePath(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
-                                             ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
-
-  /// @brief Method GetComponentState, addr 0x27f4ca4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetComponentState, addr 0x28e65b4, size 0x138, virtual false, abstract: false, final false
   inline bool GetComponentState(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                                 ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
-  /// @brief Method RenderModelHasComponent, addr 0x27f4ddc, size 0x24, virtual false, abstract: false, final false
-  inline bool RenderModelHasComponent(::StringW pchRenderModelName, ::StringW pchComponentName);
+  /// @brief Method GetComponentStateForDevicePath, addr 0x28e6590, size 0x24, virtual false, abstract: false, final false
+  inline bool GetComponentStateForDevicePath(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
+                                             ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
-  /// @brief Method GetRenderModelThumbnailURL, addr 0x27f4e00, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetRenderModelThumbnailURL(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
-                                             ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
+  /// @brief Method GetRenderModelCount, addr 0x28e64dc, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetRenderModelCount();
 
-  /// @brief Method GetRenderModelOriginalPath, addr 0x27f4e24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRenderModelErrorNameFromEnum, addr 0x28e6758, size 0x84, virtual false, abstract: false, final false
+  inline ::StringW GetRenderModelErrorNameFromEnum(::OVR::OpenVR::EVRRenderModelError error);
+
+  /// @brief Method GetRenderModelName, addr 0x28e64b8, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetRenderModelName(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen);
+
+  /// @brief Method GetRenderModelOriginalPath, addr 0x28e6734, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetRenderModelOriginalPath(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen,
                                              ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
-  /// @brief Method GetRenderModelErrorNameFromEnum, addr 0x27f4e48, size 0x84, virtual false, abstract: false, final false
-  inline ::StringW GetRenderModelErrorNameFromEnum(::OVR::OpenVR::EVRRenderModelError error);
+  /// @brief Method GetRenderModelThumbnailURL, addr 0x28e6710, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetRenderModelThumbnailURL(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
+                                             ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
+  /// @brief Method LoadIntoTextureD3D11_Async, addr 0x28e6470, size 0x24, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRRenderModelError LoadIntoTextureD3D11_Async(int32_t textureId, void* pDstTexture);
+
+  /// @brief Method LoadRenderModel_Async, addr 0x28e63bc, size 0x24, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<void*> ppRenderModel);
+
+  /// @brief Method LoadTextureD3D11_Async, addr 0x28e644c, size 0x24, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRRenderModelError LoadTextureD3D11_Async(int32_t textureId, void* pD3D11Device, ByRef<void*> ppD3D11Texture2D);
+
+  /// @brief Method LoadTexture_Async, addr 0x28e6404, size 0x24, virtual false, abstract: false, final false
+  inline ::OVR::OpenVR::EVRRenderModelError LoadTexture_Async(int32_t textureId, ByRef<void*> ppTexture);
+
+  static inline ::OVR::OpenVR::CVRRenderModels* New_ctor(void* pInterface);
+
+  /// @brief Method RenderModelHasComponent, addr 0x28e66ec, size 0x24, virtual false, abstract: false, final false
+  inline bool RenderModelHasComponent(::StringW pchRenderModelName, ::StringW pchComponentName);
+
+  constexpr ::OVR::OpenVR::IVRRenderModels const& __cordl_internal_get_FnTable() const;
+
+  constexpr ::OVR::OpenVR::IVRRenderModels& __cordl_internal_get_FnTable();
+
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRRenderModels value);
+
+  /// @brief Method .ctor, addr 0x28e62a8, size 0x114, virtual false, abstract: false, final false
+  inline void _ctor(void* pInterface);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CVRRenderModels();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CVRRenderModels", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRRenderModels(CVRRenderModels&&) = delete;
@@ -287,12 +287,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRRenderModels(CVRRenderModels const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRRenderModels();
-
-public:
   /// @brief Field FnTable, offset: 0x10, size: 0x98, def value: None
   ::OVR::OpenVR::IVRRenderModels ___FnTable;
 

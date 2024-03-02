@@ -31,58 +31,62 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::MemoryTraceWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8942))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11908))
 // CS Name: ::Newtonsoft.Json.Serialization::MemoryTraceWriter*
 class CORDL_TYPE MemoryTraceWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _traceMessages, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__traceMessages, put = __cordl_internal_set__traceMessages))::System::Collections::Generic::Queue_1<::StringW>* _traceMessages;
+  __declspec(property(get = get_LevelFilter, put = set_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
 
   /// @brief Field <LevelFilter>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__LevelFilter_k__BackingField, put = __cordl_internal_set__LevelFilter_k__BackingField))::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField;
 
-  __declspec(property(get = get_LevelFilter, put = set_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
+  /// @brief Field _traceMessages, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__traceMessages, put = __cordl_internal_set__traceMessages))::System::Collections::Generic::Queue_1<::StringW>* _traceMessages;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
-  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
+  /// @brief Method GetTraceMessages, addr 0x275d59c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTraceMessages();
+
+  static inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* New_ctor();
+
+  /// @brief Method ToString, addr 0x275d5a4, size 0x1b8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method Trace, addr 0x275d36c, size 0x230, virtual true, abstract: false, final true
+  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
+
+  constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
+
+  constexpr ::System::Diagnostics::TraceLevel& __cordl_internal_get__LevelFilter_k__BackingField();
 
   constexpr ::System::Collections::Generic::Queue_1<::StringW>*& __cordl_internal_get__traceMessages();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const& __cordl_internal_get__traceMessages() const;
 
-  constexpr void __cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value);
-
-  constexpr ::System::Diagnostics::TraceLevel& __cordl_internal_get__LevelFilter_k__BackingField();
-
-  constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
-
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method get_LevelFilter, addr 0x266a9cc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Diagnostics::TraceLevel get_LevelFilter();
+  constexpr void __cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value);
 
-  /// @brief Method set_LevelFilter, addr 0x266a9d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
-
-  static inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x266a9dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275d2e4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Trace, addr 0x266aa64, size 0x230, virtual true, abstract: false, final true
-  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
+  /// @brief Method get_LevelFilter, addr 0x275d2d4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
-  /// @brief Method GetTraceMessages, addr 0x266ac94, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTraceMessages();
+  /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
+  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method ToString, addr 0x266ac9c, size 0x1b8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method set_LevelFilter, addr 0x275d2dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryTraceWriter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryTraceWriter(MemoryTraceWriter&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryTraceWriter(MemoryTraceWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryTraceWriter();
-
-public:
   /// @brief Field _traceMessages, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::StringW>* ____traceMessages;
 

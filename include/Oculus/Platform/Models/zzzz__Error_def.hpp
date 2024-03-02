@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Error);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13433))
 // CS Name: ::Oculus.Platform.Models::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
@@ -31,29 +29,35 @@ public:
   /// @brief Field Message, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message))::StringW Message;
 
-  constexpr int32_t& __cordl_internal_get_Code();
+  static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
 
   constexpr int32_t const& __cordl_internal_get_Code() const;
 
-  constexpr void __cordl_internal_set_Code(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_HttpCode();
+  constexpr int32_t& __cordl_internal_get_Code();
 
   constexpr int32_t const& __cordl_internal_get_HttpCode() const;
 
-  constexpr void __cordl_internal_set_HttpCode(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_Message();
+  constexpr int32_t& __cordl_internal_get_HttpCode();
 
   constexpr ::StringW const& __cordl_internal_get_Message() const;
 
+  constexpr ::StringW& __cordl_internal_get_Message();
+
+  constexpr void __cordl_internal_set_Code(int32_t value);
+
+  constexpr void __cordl_internal_set_HttpCode(int32_t value);
+
   constexpr void __cordl_internal_set_Message(::StringW value);
 
-  static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
-
-  /// @brief Method .ctor, addr 0x2705dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f76c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t code, ::StringW message, int32_t httpCode);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Error();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Error(Error&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Error(Error const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Error();
-
-public:
   /// @brief Field Code, offset: 0x10, size: 0x4, def value: None
   int32_t ___Code;
 

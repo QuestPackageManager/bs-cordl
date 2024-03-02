@@ -30,73 +30,77 @@ MARK_REF_PTR_T(::GlobalNamespace::MissedNoteEffectSpawner);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4892))
 // CS Name: ::MissedNoteEffectSpawner*
 class CORDL_TYPE MissedNoteEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _missedNoteFlyingSpriteSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missedNoteFlyingSpriteSpawner,
-                      put = __cordl_internal_set__missedNoteFlyingSpriteSpawner))::UnityW<::GlobalNamespace::FlyingSpriteSpawner> _missedNoteFlyingSpriteSpawner;
-
-  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
-
   /// @brief Field _audioTimeSyncController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
                       put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
+  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+
   /// @brief Field _initData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
+
+  /// @brief Field _missedNoteFlyingSpriteSpawner, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__missedNoteFlyingSpriteSpawner,
+                      put = __cordl_internal_set__missedNoteFlyingSpriteSpawner))::UnityW<::GlobalNamespace::FlyingSpriteSpawner> _missedNoteFlyingSpriteSpawner;
 
   /// @brief Field _spawnPosZ, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnPosZ, put = __cordl_internal_set__spawnPosZ)) float_t _spawnPosZ;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner>& __cordl_internal_get__missedNoteFlyingSpriteSpawner();
+  /// @brief Method HandleNoteWasMissed, addr 0x2430438, size 0x18c, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> const& __cordl_internal_get__missedNoteFlyingSpriteSpawner() const;
+  static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
 
-  constexpr void __cordl_internal_set__missedNoteFlyingSpriteSpawner(::UnityW<::GlobalNamespace::FlyingSpriteSpawner> value);
+  /// @brief Method OnDestroy, addr 0x24303a0, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x24302cc, size 0xd4, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
-
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
-
   constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> const& __cordl_internal_get__missedNoteFlyingSpriteSpawner() const;
 
-  constexpr float_t& __cordl_internal_get__spawnPosZ();
+  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner>& __cordl_internal_get__missedNoteFlyingSpriteSpawner();
 
   constexpr float_t const& __cordl_internal_get__spawnPosZ() const;
 
+  constexpr float_t& __cordl_internal_get__spawnPosZ();
+
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+
+  constexpr void __cordl_internal_set__missedNoteFlyingSpriteSpawner(::UnityW<::GlobalNamespace::FlyingSpriteSpawner> value);
+
   constexpr void __cordl_internal_set__spawnPosZ(float_t value);
 
-  /// @brief Method Start, addr 0x23a2254, size 0xd4, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23a2328, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleNoteWasMissed, addr 0x23a23c0, size 0x18c, virtual false, abstract: false, final false
-  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-
-  static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a254c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24305c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissedNoteEffectSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissedNoteEffectSpawner(MissedNoteEffectSpawner&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissedNoteEffectSpawner(MissedNoteEffectSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissedNoteEffectSpawner();
-
-public:
   /// @brief Field _missedNoteFlyingSpriteSpawner, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____missedNoteFlyingSpriteSpawner;
 

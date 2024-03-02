@@ -26,23 +26,27 @@ MARK_REF_PTR_T(::System::ComponentModel::StringConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9456))
 // CS Name: ::System.ComponentModel::StringConverter*
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x29185d8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2a020bc, size 0xa8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x2918680, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2a02164, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
   static inline ::System::ComponentModel::StringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2918704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a021e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringConverter(StringConverter&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringConverter(StringConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

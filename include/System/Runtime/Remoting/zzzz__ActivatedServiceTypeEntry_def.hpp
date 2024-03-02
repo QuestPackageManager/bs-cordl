@@ -18,16 +18,19 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ActivatedServiceTypeEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3079))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3054))
 // CS Name: ::System.Runtime.Remoting::ActivatedServiceTypeEntry*
 class CORDL_TYPE ActivatedServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
+  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+
   /// @brief Field obj_type, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
 
-  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+  static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
+
+  /// @brief Method ToString, addr 0x2578d94, size 0x10, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get_obj_type();
 
@@ -35,17 +38,18 @@ public:
 
   constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
-  static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
-
-  /// @brief Method .ctor, addr 0x2484ef8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2578c64, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method get_ObjectType, addr 0x2485020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x2578d8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method ToString, addr 0x2485028, size 0x10, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ActivatedServiceTypeEntry();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ActivatedServiceTypeEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivatedServiceTypeEntry(ActivatedServiceTypeEntry&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ActivatedServiceTypeEntry(ActivatedServiceTypeEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ActivatedServiceTypeEntry();
-
-public:
   /// @brief Field obj_type, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___obj_type;
 

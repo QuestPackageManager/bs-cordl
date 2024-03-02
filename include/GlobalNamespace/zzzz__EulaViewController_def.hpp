@@ -73,8 +73,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5627))
 // CS Name: ::EulaViewController::ButtonType
 struct CORDL_TYPE __EulaViewController__ButtonType {
 public:
@@ -92,24 +90,29 @@ public:
     return static_cast<____EulaViewController__ButtonType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EulaViewController__ButtonType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EulaViewController__ButtonType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EulaViewController__ButtonType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Agree value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__EulaViewController__ButtonType const Agree;
 
   /// @brief Field DoNotAgree value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__EulaViewController__ButtonType const DoNotAgree;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -123,8 +126,6 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__ButtonType, valu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5628))
 // CS Name: ::EulaViewController::InitData*
 class CORDL_TYPE __EulaViewController__InitData : public ::System::Object {
 public:
@@ -132,17 +133,23 @@ public:
   /// @brief Field showDoNotAgreeButton, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_showDoNotAgreeButton, put = __cordl_internal_set_showDoNotAgreeButton)) bool showDoNotAgreeButton;
 
-  constexpr bool& __cordl_internal_get_showDoNotAgreeButton();
+  static inline ::GlobalNamespace::__EulaViewController__InitData* New_ctor(bool showDoNotAgreeButton);
 
   constexpr bool const& __cordl_internal_get_showDoNotAgreeButton() const;
 
+  constexpr bool& __cordl_internal_get_showDoNotAgreeButton();
+
   constexpr void __cordl_internal_set_showDoNotAgreeButton(bool value);
 
-  static inline ::GlobalNamespace::__EulaViewController__InitData* New_ctor(bool showDoNotAgreeButton);
-
-  /// @brief Method .ctor, addr 0x22b059c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2778, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDoNotAgreeButton);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __EulaViewController__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __EulaViewController__InitData(__EulaViewController__InitData&&) = delete;
@@ -151,12 +158,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __EulaViewController__InitData(__EulaViewController__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EulaViewController__InitData();
-
-public:
   /// @brief Field showDoNotAgreeButton, offset: 0x10, size: 0x1, def value: None
   bool ___showDoNotAgreeButton;
 
@@ -172,12 +173,14 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__InitData, ___sho
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5629))
 // CS Name: ::EulaViewController::<EnableButtonsCoroutine>d__21*
 class CORDL_TYPE __EulaViewController___EnableButtonsCoroutine_d__21 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -187,93 +190,95 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::EulaViewController> __4__this;
 
-  /// @brief Field delay, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
+  /// @brief Field <elapsedTime>5__3, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
 
   /// @brief Field <startProgressBarWidth>5__2, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__startProgressBarWidth_5__2, put = __cordl_internal_set__startProgressBarWidth_5__2)) float_t _startProgressBarWidth_5__2;
 
-  /// @brief Field <elapsedTime>5__3, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
-
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field delay, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x23b27a4, size 0x17c, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23b2920, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23b2928, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23b2968, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x23b27a0, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::EulaViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EulaViewController> value);
-
-  constexpr float_t& __cordl_internal_get_delay();
-
-  constexpr float_t const& __cordl_internal_get_delay() const;
-
-  constexpr void __cordl_internal_set_delay(float_t value);
-
-  constexpr float_t& __cordl_internal_get__startProgressBarWidth_5__2();
-
-  constexpr float_t const& __cordl_internal_get__startProgressBarWidth_5__2() const;
-
-  constexpr void __cordl_internal_set__startProgressBarWidth_5__2(float_t value);
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
 
   constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
 
-  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
+  constexpr float_t const& __cordl_internal_get__startProgressBarWidth_5__2() const;
+
+  constexpr float_t& __cordl_internal_get__startProgressBarWidth_5__2();
+
+  constexpr float_t const& __cordl_internal_get_delay() const;
+
+  constexpr float_t& __cordl_internal_get_delay();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EulaViewController> value);
 
   constexpr void __cordl_internal_set__elapsedTime_5__3(float_t value);
 
-  static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set__startProgressBarWidth_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x22b0504, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_delay(float_t value);
+
+  /// @brief Method .ctor, addr 0x23b26e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b05c4, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22b05c8, size 0x17c, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b0744, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b074c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __EulaViewController___EnableButtonsCoroutine_d__21();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b078c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController___EnableButtonsCoroutine_d__21", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __EulaViewController___EnableButtonsCoroutine_d__21(__EulaViewController___EnableButtonsCoroutine_d__21&&) = delete;
@@ -282,12 +287,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __EulaViewController___EnableButtonsCoroutine_d__21(__EulaViewController___EnableButtonsCoroutine_d__21 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EulaViewController___EnableButtonsCoroutine_d__21();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -328,26 +327,27 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCo
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5630))
 // CS Name: ::EulaViewController*
 class CORDL_TYPE EulaViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _EnableButtonsCoroutine_d__21 = ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21;
+  using ButtonType = ::GlobalNamespace::__EulaViewController__ButtonType;
 
   using InitData = ::GlobalNamespace::__EulaViewController__InitData;
 
-  using ButtonType = ::GlobalNamespace::__EulaViewController__ButtonType;
+  using _EnableButtonsCoroutine_d__21 = ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21;
 
   /// @brief Field _agreeButton, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__agreeButton, put = __cordl_internal_set__agreeButton))::UnityW<::UnityEngine::UI::Button> _agreeButton;
 
-  /// @brief Field _doNotAgreeButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__doNotAgreeButton, put = __cordl_internal_set__doNotAgreeButton))::UnityW<::UnityEngine::UI::Button> _doNotAgreeButton;
+  /// @brief Field _buttonsCoroutine, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonsCoroutine, put = __cordl_internal_set__buttonsCoroutine))::UnityEngine::Coroutine* _buttonsCoroutine;
 
   /// @brief Field _continueButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
+
+  /// @brief Field _coroutineStarter, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
   /// @brief Field _disableButtonsProgress, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__disableButtonsProgress, put = __cordl_internal_set__disableButtonsProgress))::UnityW<::UnityEngine::UI::Image> _disableButtonsProgress;
@@ -355,149 +355,152 @@ public:
   /// @brief Field _disabledButtonDelay, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__disabledButtonDelay, put = __cordl_internal_set__disabledButtonDelay)) float_t _disabledButtonDelay;
 
-  /// @brief Field _textPageScrollView, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
+  /// @brief Field _doNotAgreeButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__doNotAgreeButton, put = __cordl_internal_set__doNotAgreeButton))::UnityW<::UnityEngine::UI::Button> _doNotAgreeButton;
 
   /// @brief Field _eulaLocalizedTextAsset, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__eulaLocalizedTextAsset, put = __cordl_internal_set__eulaLocalizedTextAsset))::UnityW<::GlobalNamespace::LocalizedTextAsset> _eulaLocalizedTextAsset;
 
-  /// @brief Field _updateNoticeLocalizationKey, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
-
   /// @brief Field _initData, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__EulaViewController__InitData* _initData;
-
-  /// @brief Field _coroutineStarter, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
-
-  /// @brief Field didFinishEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* didFinishEvent;
-
-  /// @brief Field _showUpdate, offset 0xc8, size 0x1
-  __declspec(property(get = __cordl_internal_get__showUpdate, put = __cordl_internal_set__showUpdate)) bool _showUpdate;
 
   /// @brief Field _showOnlyContinueButton, offset 0xc9, size 0x1
   __declspec(property(get = __cordl_internal_get__showOnlyContinueButton, put = __cordl_internal_set__showOnlyContinueButton)) bool _showOnlyContinueButton;
 
-  /// @brief Field _buttonsCoroutine, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonsCoroutine, put = __cordl_internal_set__buttonsCoroutine))::UnityEngine::Coroutine* _buttonsCoroutine;
+  /// @brief Field _showUpdate, offset 0xc8, size 0x1
+  __declspec(property(get = __cordl_internal_get__showUpdate, put = __cordl_internal_set__showUpdate)) bool _showUpdate;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__agreeButton();
+  /// @brief Field _textPageScrollView, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
+
+  /// @brief Field _updateNoticeLocalizationKey, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
+
+  /// @brief Field didFinishEvent, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* didFinishEvent;
+
+  /// @brief Method DidActivate, addr 0x23b2260, size 0x334, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method DidDeactivate, addr 0x23b260c, size 0xc0, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  /// @brief Method EnableButtonsCoroutine, addr 0x23b2594, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
+
+  /// @brief Method Init, addr 0x23b26cc, size 0x14, virtual false, abstract: false, final false
+  inline void Init(bool showUpdate, bool showOnlyContinueButton);
+
+  static inline ::GlobalNamespace::EulaViewController* New_ctor();
+
+  /// @brief Method <DidActivate>b__18_0, addr 0x23b2718, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__18_0();
+
+  /// @brief Method <DidActivate>b__18_1, addr 0x23b2738, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__18_1();
+
+  /// @brief Method <DidActivate>b__18_2, addr 0x23b2758, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__18_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__agreeButton() const;
 
-  constexpr void __cordl_internal_set__agreeButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__doNotAgreeButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__doNotAgreeButton() const;
-
-  constexpr void __cordl_internal_set__doNotAgreeButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
-
-  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__disableButtonsProgress();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__disableButtonsProgress() const;
-
-  constexpr void __cordl_internal_set__disableButtonsProgress(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr float_t& __cordl_internal_get__disabledButtonDelay();
-
-  constexpr float_t const& __cordl_internal_get__disabledButtonDelay() const;
-
-  constexpr void __cordl_internal_set__disabledButtonDelay(float_t value);
-
-  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
-
-  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
-
-  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset>& __cordl_internal_get__eulaLocalizedTextAsset();
-
-  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__eulaLocalizedTextAsset() const;
-
-  constexpr void __cordl_internal_set__eulaLocalizedTextAsset(::UnityW<::GlobalNamespace::LocalizedTextAsset> value);
-
-  constexpr ::StringW& __cordl_internal_get__updateNoticeLocalizationKey();
-
-  constexpr ::StringW const& __cordl_internal_get__updateNoticeLocalizationKey() const;
-
-  constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
-
-  constexpr ::GlobalNamespace::__EulaViewController__InitData*& __cordl_internal_get__initData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& __cordl_internal_get__initData() const;
-
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__EulaViewController__InitData* value);
-
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
-
-  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*> const& __cordl_internal_get_didFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
-
-  constexpr bool& __cordl_internal_get__showUpdate();
-
-  constexpr bool const& __cordl_internal_get__showUpdate() const;
-
-  constexpr void __cordl_internal_set__showUpdate(bool value);
-
-  constexpr bool& __cordl_internal_get__showOnlyContinueButton();
-
-  constexpr bool const& __cordl_internal_get__showOnlyContinueButton() const;
-
-  constexpr void __cordl_internal_set__showOnlyContinueButton(bool value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__agreeButton();
 
   constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__buttonsCoroutine();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__buttonsCoroutine() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
+
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__disableButtonsProgress() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__disableButtonsProgress();
+
+  constexpr float_t const& __cordl_internal_get__disabledButtonDelay() const;
+
+  constexpr float_t& __cordl_internal_get__disabledButtonDelay();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__doNotAgreeButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__doNotAgreeButton();
+
+  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__eulaLocalizedTextAsset() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset>& __cordl_internal_get__eulaLocalizedTextAsset();
+
+  constexpr ::GlobalNamespace::__EulaViewController__InitData*& __cordl_internal_get__initData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& __cordl_internal_get__initData() const;
+
+  constexpr bool const& __cordl_internal_get__showOnlyContinueButton() const;
+
+  constexpr bool& __cordl_internal_get__showOnlyContinueButton();
+
+  constexpr bool const& __cordl_internal_get__showUpdate() const;
+
+  constexpr bool& __cordl_internal_get__showUpdate();
+
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
+
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
+
+  constexpr ::StringW const& __cordl_internal_get__updateNoticeLocalizationKey() const;
+
+  constexpr ::StringW& __cordl_internal_get__updateNoticeLocalizationKey();
+
+  constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*> const& __cordl_internal_get_didFinishEvent() const;
+
+  constexpr void __cordl_internal_set__agreeButton(::UnityW<::UnityEngine::UI::Button> value);
+
   constexpr void __cordl_internal_set__buttonsCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22aff24, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22affd4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  /// @brief Method DidActivate, addr 0x22b0084, size 0x334, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__disableButtonsProgress(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method DidDeactivate, addr 0x22b0430, size 0xc0, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+  constexpr void __cordl_internal_set__disabledButtonDelay(float_t value);
 
-  /// @brief Method Init, addr 0x22b04f0, size 0x14, virtual false, abstract: false, final false
-  inline void Init(bool showUpdate, bool showOnlyContinueButton);
+  constexpr void __cordl_internal_set__doNotAgreeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method EnableButtonsCoroutine, addr 0x22b03b8, size 0x78, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
+  constexpr void __cordl_internal_set__eulaLocalizedTextAsset(::UnityW<::GlobalNamespace::LocalizedTextAsset> value);
 
-  static inline ::GlobalNamespace::EulaViewController* New_ctor();
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__EulaViewController__InitData* value);
 
-  /// @brief Method .ctor, addr 0x22b052c, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__showOnlyContinueButton(bool value);
+
+  constexpr void __cordl_internal_set__showUpdate(bool value);
+
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
+
+  constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
+
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
+
+  /// @brief Method .ctor, addr 0x23b2708, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__18_0, addr 0x22b053c, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__18_0();
+  /// @brief Method add_didFinishEvent, addr 0x23b2100, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method <DidActivate>b__18_1, addr 0x22b055c, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__18_1();
+  /// @brief Method remove_didFinishEvent, addr 0x23b21b0, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method <DidActivate>b__18_2, addr 0x22b057c, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__18_2();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EulaViewController();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EulaViewController(EulaViewController&&) = delete;
@@ -506,12 +509,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EulaViewController(EulaViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EulaViewController();
-
-public:
   /// @brief Field _agreeButton, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____agreeButton;
 

@@ -19,31 +19,35 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackColorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13864))
 // CS Name: ::UnityEngine.Timeline::TrackColorAttribute*
 class CORDL_TYPE TrackColorAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_color))::UnityEngine::Color color;
+
   /// @brief Field m_Color, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::UnityEngine::Color m_Color;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_m_Color();
+  static inline ::UnityEngine::Timeline::TrackColorAttribute* New_ctor(float_t r, float_t g, float_t b);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_m_Color() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_Color();
+
   constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  /// @brief Method get_color, addr 0x2c61a70, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
-
-  static inline ::UnityEngine::Timeline::TrackColorAttribute* New_ctor(float_t r, float_t g, float_t b);
-
-  /// @brief Method .ctor, addr 0x2c61a7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d496bc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
+  /// @brief Method get_color, addr 0x2d496b0, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackColorAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackColorAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackColorAttribute(TrackColorAttribute&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackColorAttribute(TrackColorAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackColorAttribute();
-
-public:
   /// @brief Field m_Color, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
 

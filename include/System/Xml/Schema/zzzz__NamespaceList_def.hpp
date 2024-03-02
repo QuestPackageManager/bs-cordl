@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::System::Xml::Schema::NamespaceList);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11698))
 // CS Name: ::NamespaceList::ListType
 struct CORDL_TYPE __NamespaceList__ListType {
 public:
@@ -54,18 +52,20 @@ public:
     return static_cast<____NamespaceList__ListType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NamespaceList__ListType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NamespaceList__ListType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NamespaceList__ListType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Any value: static_cast<int32_t>(0x0)
   static ::System::Xml::Schema::__NamespaceList__ListType const Any;
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field Set value: static_cast<int32_t>(0x2)
   static ::System::Xml::Schema::__NamespaceList__ListType const Set;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -88,16 +91,17 @@ static_assert(offsetof(::System::Xml::Schema::__NamespaceList__ListType, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11698))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11699))
 // CS Name: ::System.Xml.Schema::NamespaceList*
 class CORDL_TYPE NamespaceList : public ::System::Object {
 public:
   // Declarations
   using ListType = ::System::Xml::Schema::__NamespaceList__ListType;
 
-  /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::__NamespaceList__ListType type;
+  __declspec(property(get = get_Enumerate))::System::Collections::ICollection* Enumerate;
+
+  __declspec(property(get = get_Excluded))::StringW Excluded;
+
+  __declspec(property(get = get_Type))::System::Xml::Schema::__NamespaceList__ListType Type;
 
   /// @brief Field set, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_set, put = __cordl_internal_set_set))::System::Collections::Hashtable* set;
@@ -105,58 +109,61 @@ public:
   /// @brief Field targetNamespace, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_targetNamespace, put = __cordl_internal_set_targetNamespace))::StringW targetNamespace;
 
-  __declspec(property(get = get_Type))::System::Xml::Schema::__NamespaceList__ListType Type;
+  /// @brief Field type, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::__NamespaceList__ListType type;
 
-  __declspec(property(get = get_Excluded))::StringW Excluded;
+  /// @brief Method Allows, addr 0x29ad8d0, size 0x84, virtual true, abstract: false, final false
+  inline bool Allows(::StringW ns);
 
-  __declspec(property(get = get_Enumerate))::System::Collections::ICollection* Enumerate;
+  /// @brief Method Allows, addr 0x29ad954, size 0x20, virtual false, abstract: false, final false
+  inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
-  constexpr ::System::Xml::Schema::__NamespaceList__ListType& __cordl_internal_get_type();
+  static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 
-  constexpr ::System::Xml::Schema::__NamespaceList__ListType const& __cordl_internal_get_type() const;
+  static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  constexpr void __cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value);
+  /// @brief Method ToString, addr 0x29ad974, size 0x4c8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_set();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_set() const;
 
-  constexpr void __cordl_internal_set_set(::System::Collections::Hashtable* value);
+  constexpr ::StringW const& __cordl_internal_get_targetNamespace() const;
 
   constexpr ::StringW& __cordl_internal_get_targetNamespace();
 
-  constexpr ::StringW const& __cordl_internal_get_targetNamespace() const;
+  constexpr ::System::Xml::Schema::__NamespaceList__ListType const& __cordl_internal_get_type() const;
+
+  constexpr ::System::Xml::Schema::__NamespaceList__ListType& __cordl_internal_get_type();
+
+  constexpr void __cordl_internal_set_set(::System::Collections::Hashtable* value);
 
   constexpr void __cordl_internal_set_targetNamespace(::StringW value);
 
-  static inline ::System::Xml::Schema::NamespaceList* New_ctor();
+  constexpr void __cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value);
 
-  /// @brief Method .ctor, addr 0x28c3ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ad5ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
-
-  /// @brief Method .ctor, addr 0x28c3ad0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ad5b4, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method get_Type, addr 0x28c3d70, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::__NamespaceList__ListType get_Type();
-
-  /// @brief Method get_Excluded, addr 0x28c3d78, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Excluded();
-
-  /// @brief Method get_Enumerate, addr 0x28c3d80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Enumerate, addr 0x29ad864, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Enumerate();
 
-  /// @brief Method Allows, addr 0x28c3dec, size 0x84, virtual true, abstract: false, final false
-  inline bool Allows(::StringW ns);
+  /// @brief Method get_Excluded, addr 0x29ad85c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Excluded();
 
-  /// @brief Method Allows, addr 0x28c3e70, size 0x20, virtual false, abstract: false, final false
-  inline bool Allows(::System::Xml::XmlQualifiedName* qname);
+  /// @brief Method get_Type, addr 0x29ad854, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::__NamespaceList__ListType get_Type();
 
-  /// @brief Method ToString, addr 0x28c3e90, size 0x4c8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NamespaceList();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NamespaceList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamespaceList(NamespaceList&&) = delete;
@@ -165,12 +172,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NamespaceList(NamespaceList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NamespaceList();
-
-public:
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Schema::__NamespaceList__ListType ___type;
 

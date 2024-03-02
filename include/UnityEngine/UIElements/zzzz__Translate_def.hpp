@@ -27,8 +27,6 @@ MARK_VAL_T(::UnityEngine::UIElements::Translate);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7313))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7302))
 // CS Name: ::UnityEngine.UIElements::Translate
 struct CORDL_TYPE Translate {
 public:
@@ -42,49 +40,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Translate>*();
 
+  /// @brief Method Equals, addr 0x2f7f12c, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f7f0b0, size 0x7c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::Translate other);
+
+  /// @brief Method GetHashCode, addr 0x2f7d118, size 0x74, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method None, addr 0x2f7efd4, size 0x1c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Translate None();
+
+  /// @brief Method ToString, addr 0x2f7f1bc, size 0x1cc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2f7f010, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
+
+  /// @brief Method get_x, addr 0x2f7f020, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length get_x();
+
+  /// @brief Method get_y, addr 0x2f7f028, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Length get_y();
+
+  /// @brief Method get_z, addr 0x2f7f030, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_z();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Translate>* i___System__IEquatable_1___UnityEngine__UIElements__Translate_();
 
-  /// @brief Method .ctor, addr 0x2e71500, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
-
-  /// @brief Method None, addr 0x2e714c4, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Translate None();
-
-  /// @brief Method get_x, addr 0x2e71510, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Length get_x();
-
-  /// @brief Method get_y, addr 0x2e71518, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Length get_y();
-
-  /// @brief Method get_z, addr 0x2e71520, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_z();
-
-  /// @brief Method op_Equality, addr 0x2e6f45c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f7cf6c, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e71528, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2f7f038, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
-
-  /// @brief Method Equals, addr 0x2e715a0, size 0x7c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::Translate other);
-
-  /// @brief Method Equals, addr 0x2e7161c, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e6f608, size 0x74, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2e716ac, size 0x1cc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_isNone", ty: "bool", modifiers: "", def_value: None }]
-  constexpr Translate(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Translate();
+
+  // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",
+  // def_value: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_isNone", ty: "bool", modifiers: "", def_value: None }]
+  constexpr Translate(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept;
 
   /// @brief Field m_X, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length m_X;

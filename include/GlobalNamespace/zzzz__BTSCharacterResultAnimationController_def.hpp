@@ -26,62 +26,66 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterResultAnimationController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3969))
 // CS Name: ::BTSCharacterResultAnimationController*
 class CORDL_TYPE BTSCharacterResultAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _collidersGameObject, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__collidersGameObject, put = __cordl_internal_set__collidersGameObject))::UnityW<::UnityEngine::GameObject> _collidersGameObject;
+
   /// @brief Field _rimLightColorSetter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rimLightColorSetter,
                       put = __cordl_internal_set__rimLightColorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _rimLightColorSetter;
-
-  /// @brief Field _rimLightIntensityAnimator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rimLightIntensityAnimator,
-                      put = __cordl_internal_set__rimLightIntensityAnimator))::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> _rimLightIntensityAnimator;
 
   /// @brief Field _rimLightEdgeStartAnimator, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__rimLightEdgeStartAnimator,
                       put = __cordl_internal_set__rimLightEdgeStartAnimator))::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> _rimLightEdgeStartAnimator;
 
-  /// @brief Field _collidersGameObject, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__collidersGameObject, put = __cordl_internal_set__collidersGameObject))::UnityW<::UnityEngine::GameObject> _collidersGameObject;
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__rimLightColorSetter();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__rimLightColorSetter() const;
-
-  constexpr void __cordl_internal_set__rimLightColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightIntensityAnimator();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightIntensityAnimator() const;
-
-  constexpr void __cordl_internal_set__rimLightIntensityAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightEdgeStartAnimator();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightEdgeStartAnimator() const;
-
-  constexpr void __cordl_internal_set__rimLightEdgeStartAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__collidersGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__collidersGameObject() const;
-
-  constexpr void __cordl_internal_set__collidersGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  /// @brief Method SetCharacter, addr 0x2219ba4, size 0x68, virtual false, abstract: false, final false
-  inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
-
-  /// @brief Method StopAnimation, addr 0x2219c0c, size 0x20, virtual false, abstract: false, final false
-  inline void StopAnimation();
+  /// @brief Field _rimLightIntensityAnimator, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__rimLightIntensityAnimator,
+                      put = __cordl_internal_set__rimLightIntensityAnimator))::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> _rimLightIntensityAnimator;
 
   static inline ::GlobalNamespace::BTSCharacterResultAnimationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2219c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0xe7115c, size 0x68, virtual false, abstract: false, final false
+  inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
+
+  /// @brief Method StopAnimation, addr 0xe711c4, size 0x20, virtual false, abstract: false, final false
+  inline void StopAnimation();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__collidersGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__collidersGameObject();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__rimLightColorSetter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__rimLightColorSetter();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightEdgeStartAnimator() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightEdgeStartAnimator();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& __cordl_internal_get__rimLightIntensityAnimator() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& __cordl_internal_get__rimLightIntensityAnimator();
+
+  constexpr void __cordl_internal_set__collidersGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__rimLightColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
+
+  constexpr void __cordl_internal_set__rimLightEdgeStartAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
+
+  constexpr void __cordl_internal_set__rimLightIntensityAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
+
+  /// @brief Method .ctor, addr 0xe711e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSCharacterResultAnimationController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterResultAnimationController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterResultAnimationController(BTSCharacterResultAnimationController&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterResultAnimationController(BTSCharacterResultAnimationController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSCharacterResultAnimationController();
-
-public:
   /// @brief Field _rimLightColorSetter, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____rimLightColorSetter;
 

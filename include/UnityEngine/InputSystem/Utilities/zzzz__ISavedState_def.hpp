@@ -13,17 +13,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ISavedState);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6703))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ISavedState*
 class CORDL_TYPE ISavedState {
 public:
   // Declarations
-  /// @brief Method StaticDisposeCurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void StaticDisposeCurrentState();
-
   /// @brief Method RestoreSavedState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RestoreSavedState();
+
+  /// @brief Method StaticDisposeCurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void StaticDisposeCurrentState();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISavedState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::LazyState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2430))
 // CS Name: ::System::LazyState
 struct CORDL_TYPE LazyState {
 public:
@@ -42,18 +40,32 @@ public:
     return static_cast<__LazyState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LazyState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LazyState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LazyState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field ExecutionAndPublicationException value: static_cast<int32_t>(0x9)
+  static ::System::LazyState const ExecutionAndPublicationException;
+
+  /// @brief Field ExecutionAndPublicationViaConstructor value: static_cast<int32_t>(0x7)
+  static ::System::LazyState const ExecutionAndPublicationViaConstructor;
+
+  /// @brief Field ExecutionAndPublicationViaFactory value: static_cast<int32_t>(0x8)
+  static ::System::LazyState const ExecutionAndPublicationViaFactory;
+
+  /// @brief Field NoneException value: static_cast<int32_t>(0x2)
+  static ::System::LazyState const NoneException;
 
   /// @brief Field NoneViaConstructor value: static_cast<int32_t>(0x0)
   static ::System::LazyState const NoneViaConstructor;
@@ -61,8 +73,8 @@ public:
   /// @brief Field NoneViaFactory value: static_cast<int32_t>(0x1)
   static ::System::LazyState const NoneViaFactory;
 
-  /// @brief Field NoneException value: static_cast<int32_t>(0x2)
-  static ::System::LazyState const NoneException;
+  /// @brief Field PublicationOnlyException value: static_cast<int32_t>(0x6)
+  static ::System::LazyState const PublicationOnlyException;
 
   /// @brief Field PublicationOnlyViaConstructor value: static_cast<int32_t>(0x3)
   static ::System::LazyState const PublicationOnlyViaConstructor;
@@ -73,17 +85,8 @@ public:
   /// @brief Field PublicationOnlyWait value: static_cast<int32_t>(0x5)
   static ::System::LazyState const PublicationOnlyWait;
 
-  /// @brief Field PublicationOnlyException value: static_cast<int32_t>(0x6)
-  static ::System::LazyState const PublicationOnlyException;
-
-  /// @brief Field ExecutionAndPublicationViaConstructor value: static_cast<int32_t>(0x7)
-  static ::System::LazyState const ExecutionAndPublicationViaConstructor;
-
-  /// @brief Field ExecutionAndPublicationViaFactory value: static_cast<int32_t>(0x8)
-  static ::System::LazyState const ExecutionAndPublicationViaFactory;
-
-  /// @brief Field ExecutionAndPublicationException value: static_cast<int32_t>(0x9)
-  static ::System::LazyState const ExecutionAndPublicationException;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

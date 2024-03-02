@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::SFB::IStandaloneFileBrowser);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace SFB {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6088))
 // CS Name: ::SFB::IStandaloneFileBrowser*
 class CORDL_TYPE IStandaloneFileBrowser {
 public:
@@ -30,18 +28,18 @@ public:
   /// @brief Method OpenFilePanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions, bool multiselect);
 
-  /// @brief Method OpenFolderPanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
-
-  /// @brief Method SaveFilePanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions);
-
   /// @brief Method OpenFilePanelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions, bool multiselect,
                                  ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
+  /// @brief Method OpenFolderPanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
+
   /// @brief Method OpenFolderPanelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
+
+  /// @brief Method SaveFilePanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions);
 
   /// @brief Method SaveFilePanelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions,

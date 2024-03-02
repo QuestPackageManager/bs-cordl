@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Zenject::NullBindingFinalizer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10954))
 // CS Name: ::Zenject::NullBindingFinalizer*
 class CORDL_TYPE NullBindingFinalizer : public ::System::Object {
 public:
@@ -34,20 +32,26 @@ public:
   /// @brief Convert operator to "::Zenject::IBindingFinalizer"
   constexpr operator ::Zenject::IBindingFinalizer*() noexcept;
 
-  /// @brief Convert to "::Zenject::IBindingFinalizer"
-  constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
-
-  /// @brief Method get_BindingInheritanceMethod, addr 0x2ee1f08, size 0x8, virtual true, abstract: false, final true
-  inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
-
-  /// @brief Method FinalizeBinding, addr 0x2ee1f10, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method FinalizeBinding, addr 0x2ff1780, size 0x4, virtual true, abstract: false, final true
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NullBindingFinalizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ee1f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff1784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_BindingInheritanceMethod, addr 0x2ff1778, size 0x8, virtual true, abstract: false, final true
+  inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
+
+  /// @brief Convert to "::Zenject::IBindingFinalizer"
+  constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullBindingFinalizer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullBindingFinalizer(NullBindingFinalizer&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullBindingFinalizer(NullBindingFinalizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullBindingFinalizer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

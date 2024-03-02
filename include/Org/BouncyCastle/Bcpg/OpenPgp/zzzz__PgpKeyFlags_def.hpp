@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1645))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags*
 class CORDL_TYPE PgpKeyFlags : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ad804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111e664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpKeyFlags();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpKeyFlags(PgpKeyFlags&&) = delete;
@@ -34,17 +38,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyFlags(PgpKeyFlags const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpKeyFlags();
-
-public:
   /// @brief Field CanCertify offset 0xffffffff size 0x4
   static constexpr int32_t CanCertify{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field CanSign offset 0xffffffff size 0x4
-  static constexpr int32_t CanSign{ static_cast<int32_t>(0x2) };
 
   /// @brief Field CanEncryptCommunications offset 0xffffffff size 0x4
   static constexpr int32_t CanEncryptCommunications{ static_cast<int32_t>(0x4) };
@@ -52,11 +47,14 @@ public:
   /// @brief Field CanEncryptStorage offset 0xffffffff size 0x4
   static constexpr int32_t CanEncryptStorage{ static_cast<int32_t>(0x8) };
 
-  /// @brief Field MaybeSplit offset 0xffffffff size 0x4
-  static constexpr int32_t MaybeSplit{ static_cast<int32_t>(0x10) };
+  /// @brief Field CanSign offset 0xffffffff size 0x4
+  static constexpr int32_t CanSign{ static_cast<int32_t>(0x2) };
 
   /// @brief Field MaybeShared offset 0xffffffff size 0x4
   static constexpr int32_t MaybeShared{ static_cast<int32_t>(0x80) };
+
+  /// @brief Field MaybeSplit offset 0xffffffff size 0x4
+  static constexpr int32_t MaybeSplit{ static_cast<int32_t>(0x10) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,8 +21,6 @@ MARK_VAL_T(::System::Resources::ResourceLocator);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3439))
 // CS Name: ::System.Resources::ResourceLocator
 struct CORDL_TYPE ResourceLocator {
 public:
@@ -31,27 +29,27 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x24e0708, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t dataPos, ::System::Object* value);
-
-  /// @brief Method get_DataPosition, addr 0x24e1f98, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_DataPosition();
-
-  /// @brief Method get_Value, addr 0x24e1fa0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Value();
-
-  /// @brief Method set_Value, addr 0x24e1fa8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Value(::System::Object* value);
-
-  /// @brief Method CanCache, addr 0x24e06fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x25d1468, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept;
+  /// @brief Method .ctor, addr 0x25d1474, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t dataPos, ::System::Object* value);
+
+  /// @brief Method get_DataPosition, addr 0x25d2d04, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_DataPosition();
+
+  /// @brief Method get_Value, addr 0x25d2d0c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Value();
+
+  /// @brief Method set_Value, addr 0x25d2d14, size 0x8, virtual false, abstract: false, final false
+  inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ResourceLocator();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _value;

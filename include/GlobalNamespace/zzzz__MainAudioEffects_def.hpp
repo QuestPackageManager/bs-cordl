@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MainAudioEffects);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4066))
 // CS Name: ::MainAudioEffects*
 class CORDL_TYPE MainAudioEffects : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,41 +32,47 @@ public:
   /// @brief Field _targetFrequency, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__targetFrequency, put = __cordl_internal_set__targetFrequency)) float_t _targetFrequency;
 
-  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter>& __cordl_internal_get__audioLowPassFilter();
-
-  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter> const& __cordl_internal_get__audioLowPassFilter() const;
-
-  constexpr void __cordl_internal_set__audioLowPassFilter(::UnityW<::UnityEngine::AudioLowPassFilter> value);
-
-  constexpr float_t& __cordl_internal_get__smooth();
-
-  constexpr float_t const& __cordl_internal_get__smooth() const;
-
-  constexpr void __cordl_internal_set__smooth(float_t value);
-
-  constexpr float_t& __cordl_internal_get__targetFrequency();
-
-  constexpr float_t const& __cordl_internal_get__targetFrequency() const;
-
-  constexpr void __cordl_internal_set__targetFrequency(float_t value);
-
-  /// @brief Method Start, addr 0x222e018, size 0x34, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method LateUpdate, addr 0x222e04c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2384360, size 0xbc, virtual false, abstract: false, final false
   inline void LateUpdate();
-
-  /// @brief Method ResumeNormalSound, addr 0x222e108, size 0x28, virtual false, abstract: false, final false
-  inline void ResumeNormalSound();
-
-  /// @brief Method TriggerLowPass, addr 0x222e130, size 0x3c, virtual false, abstract: false, final false
-  inline void TriggerLowPass();
 
   static inline ::GlobalNamespace::MainAudioEffects* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222e16c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ResumeNormalSound, addr 0x238441c, size 0x28, virtual false, abstract: false, final false
+  inline void ResumeNormalSound();
+
+  /// @brief Method Start, addr 0x238432c, size 0x34, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method TriggerLowPass, addr 0x2384444, size 0x3c, virtual false, abstract: false, final false
+  inline void TriggerLowPass();
+
+  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter> const& __cordl_internal_get__audioLowPassFilter() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter>& __cordl_internal_get__audioLowPassFilter();
+
+  constexpr float_t const& __cordl_internal_get__smooth() const;
+
+  constexpr float_t& __cordl_internal_get__smooth();
+
+  constexpr float_t const& __cordl_internal_get__targetFrequency() const;
+
+  constexpr float_t& __cordl_internal_get__targetFrequency();
+
+  constexpr void __cordl_internal_set__audioLowPassFilter(::UnityW<::UnityEngine::AudioLowPassFilter> value);
+
+  constexpr void __cordl_internal_set__smooth(float_t value);
+
+  constexpr void __cordl_internal_set__targetFrequency(float_t value);
+
+  /// @brief Method .ctor, addr 0x2384480, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainAudioEffects();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainAudioEffects(MainAudioEffects&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainAudioEffects(MainAudioEffects const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainAudioEffects();
-
-public:
   /// @brief Field _audioLowPassFilter, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioLowPassFilter> ____audioLowPassFilter;
 

@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Strings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14306))
 // CS Name: ::System.Linq.Expressions::Strings*
 class CORDL_TYPE Strings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2813d10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x28fc974, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Strings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Strings(Strings&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Strings(Strings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Strings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

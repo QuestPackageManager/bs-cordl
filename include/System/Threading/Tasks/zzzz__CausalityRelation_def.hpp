@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Threading::Tasks::CausalityRelation);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2818))
 // CS Name: ::System.Threading.Tasks::CausalityRelation
 struct CORDL_TYPE CausalityRelation {
 public:
@@ -37,33 +35,38 @@ public:
     return static_cast<__CausalityRelation_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CausalityRelation(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CausalityRelation();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr CausalityRelation(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field AssignDelegate value: static_cast<int32_t>(0x0)
   static ::System::Threading::Tasks::CausalityRelation const AssignDelegate;
 
-  /// @brief Field Join value: static_cast<int32_t>(0x1)
-  static ::System::Threading::Tasks::CausalityRelation const Join;
+  /// @brief Field Cancel value: static_cast<int32_t>(0x3)
+  static ::System::Threading::Tasks::CausalityRelation const Cancel;
 
   /// @brief Field Choice value: static_cast<int32_t>(0x2)
   static ::System::Threading::Tasks::CausalityRelation const Choice;
 
-  /// @brief Field Cancel value: static_cast<int32_t>(0x3)
-  static ::System::Threading::Tasks::CausalityRelation const Cancel;
-
   /// @brief Field Error value: static_cast<int32_t>(0x4)
   static ::System::Threading::Tasks::CausalityRelation const Error;
+
+  /// @brief Field Join value: static_cast<int32_t>(0x1)
+  static ::System::Threading::Tasks::CausalityRelation const Join;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICollectionDragAndDropController);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6962))
 // CS Name: ::UnityEngine.UIElements::ICollectionDragAndDropController*
 class CORDL_TYPE ICollectionDragAndDropController {
 public:
@@ -31,12 +29,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
   constexpr operator ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*() noexcept;
 
+  /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
+  constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
+
   /// @brief Convert to "::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>"
   constexpr ::UnityEngine::UIElements::IDragAndDropController_1<::UnityEngine::UIElements::IListDragAndDropArgs*>*
   i___UnityEngine__UIElements__IDragAndDropController_1___UnityEngine__UIElements__IListDragAndDropArgs__() noexcept;
-
-  /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
-  constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
 
   /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;

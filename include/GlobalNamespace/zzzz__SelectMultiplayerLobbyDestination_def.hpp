@@ -16,45 +16,49 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectMultiplayerLobbyDestination);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4152))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4157))
 // CS Name: ::SelectMultiplayerLobbyDestination*
 class CORDL_TYPE SelectMultiplayerLobbyDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
-  /// @brief Field lobbySecret, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lobbySecret, put = __cordl_internal_set_lobbySecret))::StringW lobbySecret;
-
   /// @brief Field lobbyCode, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lobbyCode, put = __cordl_internal_set_lobbyCode))::StringW lobbyCode;
 
-  constexpr ::StringW& __cordl_internal_get_lobbySecret();
-
-  constexpr ::StringW const& __cordl_internal_get_lobbySecret() const;
-
-  constexpr void __cordl_internal_set_lobbySecret(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_lobbyCode();
-
-  constexpr ::StringW const& __cordl_internal_get_lobbyCode() const;
-
-  constexpr void __cordl_internal_set_lobbyCode(::StringW value);
-
-  static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode);
-
-  /// @brief Method .ctor, addr 0x223cfa8, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
-
-  static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId);
-
-  /// @brief Method .ctor, addr 0x223cfd4, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t roomId);
+  /// @brief Field lobbySecret, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_lobbySecret, put = __cordl_internal_set_lobbySecret))::StringW lobbySecret;
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x223dd28, size 0x28, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode);
+
+  static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId);
+
+  constexpr ::StringW const& __cordl_internal_get_lobbyCode() const;
+
+  constexpr ::StringW& __cordl_internal_get_lobbyCode();
+
+  constexpr ::StringW const& __cordl_internal_get_lobbySecret() const;
+
+  constexpr ::StringW& __cordl_internal_get_lobbySecret();
+
+  constexpr void __cordl_internal_set_lobbyCode(::StringW value);
+
+  constexpr void __cordl_internal_set_lobbySecret(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12a8a14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
+  /// @brief Method .ctor, addr 0x12a8914, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
+
+  /// @brief Method .ctor, addr 0x12a8940, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(uint64_t roomId);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SelectMultiplayerLobbyDestination();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectMultiplayerLobbyDestination", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectMultiplayerLobbyDestination();
-
-public:
   /// @brief Field lobbySecret, offset: 0x10, size: 0x8, def value: None
   ::StringW ___lobbySecret;
 

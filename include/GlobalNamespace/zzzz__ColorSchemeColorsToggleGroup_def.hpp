@@ -29,23 +29,24 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorsToggleGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5408))
 // CS Name: ::ColorSchemeColorsToggleGroup*
 class CORDL_TYPE ColorSchemeColorsToggleGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _saberAColorToggleController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberAColorToggleController,
-                      put = __cordl_internal_set__saberAColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _saberAColorToggleController;
+  /// @brief Field _colorScheme, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
 
-  /// @brief Field _saberBColorToggleController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberBColorToggleController,
-                      put = __cordl_internal_set__saberBColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _saberBColorToggleController;
+  /// @brief Field _environmentColor0BoostToggleController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentColor0BoostToggleController,
+                      put = __cordl_internal_set__environmentColor0BoostToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _environmentColor0BoostToggleController;
 
   /// @brief Field _environmentColor0ToggleController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentColor0ToggleController,
                       put = __cordl_internal_set__environmentColor0ToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _environmentColor0ToggleController;
+
+  /// @brief Field _environmentColor1BoostToggleController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentColor1BoostToggleController,
+                      put = __cordl_internal_set__environmentColor1BoostToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _environmentColor1BoostToggleController;
 
   /// @brief Field _environmentColor1ToggleController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentColor1ToggleController,
@@ -55,149 +56,152 @@ public:
   __declspec(property(get = __cordl_internal_get__obstaclesColorToggleController,
                       put = __cordl_internal_set__obstaclesColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _obstaclesColorToggleController;
 
-  /// @brief Field _environmentColor0BoostToggleController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentColor0BoostToggleController,
-                      put = __cordl_internal_set__environmentColor0BoostToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _environmentColor0BoostToggleController;
+  /// @brief Field _saberAColorToggleController, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberAColorToggleController,
+                      put = __cordl_internal_set__saberAColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _saberAColorToggleController;
 
-  /// @brief Field _environmentColor1BoostToggleController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentColor1BoostToggleController,
-                      put = __cordl_internal_set__environmentColor1BoostToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _environmentColor1BoostToggleController;
-
-  /// @brief Field selectedColorDidChangeEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_selectedColorDidChangeEvent,
-                      put = __cordl_internal_set_selectedColorDidChangeEvent))::System::Action_1<::UnityEngine::Color>* selectedColorDidChangeEvent;
-
-  /// @brief Field _toggleBinder, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  /// @brief Field _saberBColorToggleController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberBColorToggleController,
+                      put = __cordl_internal_set__saberBColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _saberBColorToggleController;
 
   /// @brief Field _selectedColorToggleController, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedColorToggleController,
                       put = __cordl_internal_set__selectedColorToggleController))::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> _selectedColorToggleController;
 
-  /// @brief Field _colorScheme, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
+  /// @brief Field _toggleBinder, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__saberAColorToggleController();
+  /// @brief Field selectedColorDidChangeEvent, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_selectedColorDidChangeEvent,
+                      put = __cordl_internal_set_selectedColorDidChangeEvent))::System::Action_1<::UnityEngine::Color>* selectedColorDidChangeEvent;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__saberAColorToggleController() const;
+  /// @brief Method Awake, addr 0x249f478, size 0x314, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set__saberAColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
+  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x249f7e8, size 0x1dc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__saberBColorToggleController();
+  /// @brief Method HandleToggleWasSelected, addr 0x249f7a8, size 0x40, virtual false, abstract: false, final false
+  inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__saberBColorToggleController() const;
+  static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
 
-  constexpr void __cordl_internal_set__saberBColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
+  /// @brief Method OnDestroy, addr 0x249f78c, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor0ToggleController();
+  /// @brief Method SetColorScheme, addr 0x249f398, size 0xe0, virtual false, abstract: false, final false
+  inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor0ToggleController() const;
+  /// @brief Method <Awake>b__17_0, addr 0x249f9cc, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_0(bool isOn);
 
-  constexpr void __cordl_internal_set__environmentColor0ToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
+  /// @brief Method <Awake>b__17_1, addr 0x249f9dc, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_1(bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor1ToggleController();
+  /// @brief Method <Awake>b__17_2, addr 0x249f9ec, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_2(bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor1ToggleController() const;
+  /// @brief Method <Awake>b__17_3, addr 0x249f9fc, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_3(bool isOn);
 
-  constexpr void __cordl_internal_set__environmentColor1ToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
+  /// @brief Method <Awake>b__17_4, addr 0x249fa0c, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_4(bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__obstaclesColorToggleController();
+  /// @brief Method <Awake>b__17_5, addr 0x249fa1c, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_5(bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__obstaclesColorToggleController() const;
-
-  constexpr void __cordl_internal_set__obstaclesColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor0BoostToggleController();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor0BoostToggleController() const;
-
-  constexpr void __cordl_internal_set__environmentColor0BoostToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor1BoostToggleController();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor1BoostToggleController() const;
-
-  constexpr void __cordl_internal_set__environmentColor1BoostToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
-
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_selectedColorDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_selectedColorDidChangeEvent() const;
-
-  constexpr void __cordl_internal_set_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
-
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
-
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__selectedColorToggleController();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__selectedColorToggleController() const;
-
-  constexpr void __cordl_internal_set__selectedColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
+  /// @brief Method <Awake>b__17_6, addr 0x249fa2c, size 0x10, virtual false, abstract: false, final false
+  inline void _Awake_b__17_6(bool isOn);
 
   constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
 
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor0BoostToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor0BoostToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor0ToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor0ToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor1BoostToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor1BoostToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor1ToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__environmentColor1ToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__obstaclesColorToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__obstaclesColorToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__saberAColorToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__saberAColorToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__saberBColorToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__saberBColorToggleController();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__selectedColorToggleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__selectedColorToggleController();
+
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_selectedColorDidChangeEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_selectedColorDidChangeEvent() const;
+
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method add_selectedColorDidChangeEvent, addr 0x2274b14, size 0xb0, virtual false, abstract: false, final false
-  inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__environmentColor0BoostToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x2274bc4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__environmentColor0ToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method get_color, addr 0x2274c74, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+  constexpr void __cordl_internal_set__environmentColor1BoostToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method set_color, addr 0x2274cc4, size 0x18, virtual false, abstract: false, final false
-  inline void set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColor1ToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method SetColorScheme, addr 0x2274d74, size 0xe0, virtual false, abstract: false, final false
-  inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
+  constexpr void __cordl_internal_set__obstaclesColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method Awake, addr 0x2274e54, size 0x314, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__saberAColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method OnDestroy, addr 0x2275168, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__saberBColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method HandleToggleWasSelected, addr 0x2275184, size 0x40, virtual false, abstract: false, final false
-  inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
+  constexpr void __cordl_internal_set__selectedColorToggleController(::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> value);
 
-  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x22751c4, size 0x1dc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
+  constexpr void __cordl_internal_set_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x22753a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249f9c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__17_0, addr 0x22753a8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_0(bool isOn);
+  /// @brief Method add_selectedColorDidChangeEvent, addr 0x249f138, size 0xb0, virtual false, abstract: false, final false
+  inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method <Awake>b__17_1, addr 0x22753b8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_1(bool isOn);
+  /// @brief Method get_color, addr 0x249f298, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
 
-  /// @brief Method <Awake>b__17_2, addr 0x22753c8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_2(bool isOn);
+  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x249f1e8, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method <Awake>b__17_3, addr 0x22753d8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_3(bool isOn);
+  /// @brief Method set_color, addr 0x249f2e8, size 0x18, virtual false, abstract: false, final false
+  inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method <Awake>b__17_4, addr 0x22753e8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_4(bool isOn);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeColorsToggleGroup();
 
-  /// @brief Method <Awake>b__17_5, addr 0x22753f8, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_5(bool isOn);
-
-  /// @brief Method <Awake>b__17_6, addr 0x2275408, size 0x10, virtual false, abstract: false, final false
-  inline void _Awake_b__17_6(bool isOn);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeColorsToggleGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeColorsToggleGroup(ColorSchemeColorsToggleGroup&&) = delete;
@@ -206,12 +210,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeColorsToggleGroup(ColorSchemeColorsToggleGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemeColorsToggleGroup();
-
-public:
   /// @brief Field _saberAColorToggleController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> ____saberAColorToggleController;
 

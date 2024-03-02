@@ -19,17 +19,12 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BodyTilt);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
 // CS Name: ::RootMotion.FinalIK::BodyTilt*
 class CORDL_TYPE BodyTilt : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations
-  /// @brief Field tiltSpeed, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_tiltSpeed, put = __cordl_internal_set_tiltSpeed)) float_t tiltSpeed;
-
-  /// @brief Field tiltSensitivity, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_tiltSensitivity, put = __cordl_internal_set_tiltSensitivity)) float_t tiltSensitivity;
+  /// @brief Field lastForward, offset 0x4c, size 0xc
+  __declspec(property(get = __cordl_internal_get_lastForward, put = __cordl_internal_set_lastForward))::UnityEngine::Vector3 lastForward;
 
   /// @brief Field poseLeft, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_poseLeft, put = __cordl_internal_set_poseLeft))::UnityW<::RootMotion::FinalIK::OffsetPose> poseLeft;
@@ -40,56 +35,65 @@ public:
   /// @brief Field tiltAngle, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_tiltAngle, put = __cordl_internal_set_tiltAngle)) float_t tiltAngle;
 
-  /// @brief Field lastForward, offset 0x4c, size 0xc
-  __declspec(property(get = __cordl_internal_get_lastForward, put = __cordl_internal_set_lastForward))::UnityEngine::Vector3 lastForward;
+  /// @brief Field tiltSensitivity, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_tiltSensitivity, put = __cordl_internal_set_tiltSensitivity)) float_t tiltSensitivity;
 
-  constexpr float_t& __cordl_internal_get_tiltSpeed();
-
-  constexpr float_t const& __cordl_internal_get_tiltSpeed() const;
-
-  constexpr void __cordl_internal_set_tiltSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get_tiltSensitivity();
-
-  constexpr float_t const& __cordl_internal_get_tiltSensitivity() const;
-
-  constexpr void __cordl_internal_set_tiltSensitivity(float_t value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseLeft();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseLeft() const;
-
-  constexpr void __cordl_internal_set_poseLeft(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseRight();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseRight() const;
-
-  constexpr void __cordl_internal_set_poseRight(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
-
-  constexpr float_t& __cordl_internal_get_tiltAngle();
-
-  constexpr float_t const& __cordl_internal_get_tiltAngle() const;
-
-  constexpr void __cordl_internal_set_tiltAngle(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastForward() const;
-
-  constexpr void __cordl_internal_set_lastForward(::UnityEngine::Vector3 value);
-
-  /// @brief Method Start, addr 0x1294a2c, size 0x48, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnModifyOffset, addr 0x1294a94, size 0x1ec, virtual true, abstract: false, final false
-  inline void OnModifyOffset();
+  /// @brief Field tiltSpeed, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_tiltSpeed, put = __cordl_internal_set_tiltSpeed)) float_t tiltSpeed;
 
   static inline ::RootMotion::FinalIK::BodyTilt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1294d34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x136db30, size 0x1ec, virtual true, abstract: false, final false
+  inline void OnModifyOffset();
+
+  /// @brief Method Start, addr 0x136dac8, size 0x48, virtual true, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastForward();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseLeft() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseLeft();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseRight() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseRight();
+
+  constexpr float_t const& __cordl_internal_get_tiltAngle() const;
+
+  constexpr float_t& __cordl_internal_get_tiltAngle();
+
+  constexpr float_t const& __cordl_internal_get_tiltSensitivity() const;
+
+  constexpr float_t& __cordl_internal_get_tiltSensitivity();
+
+  constexpr float_t const& __cordl_internal_get_tiltSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_tiltSpeed();
+
+  constexpr void __cordl_internal_set_lastForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_poseLeft(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
+
+  constexpr void __cordl_internal_set_poseRight(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
+
+  constexpr void __cordl_internal_set_tiltAngle(float_t value);
+
+  constexpr void __cordl_internal_set_tiltSensitivity(float_t value);
+
+  constexpr void __cordl_internal_set_tiltSpeed(float_t value);
+
+  /// @brief Method .ctor, addr 0x136ddd0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BodyTilt();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BodyTilt", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BodyTilt(BodyTilt&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BodyTilt(BodyTilt const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BodyTilt();
-
-public:
   /// @brief Field tiltSpeed, offset: 0x2c, size: 0x4, def value: None
   float_t ___tiltSpeed;
 

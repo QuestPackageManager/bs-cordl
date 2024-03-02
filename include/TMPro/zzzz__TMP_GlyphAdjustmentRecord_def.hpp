@@ -22,8 +22,6 @@ MARK_VAL_T(::TMPro::TMP_GlyphAdjustmentRecord);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12372))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12373))
 // CS Name: ::TMPro::TMP_GlyphAdjustmentRecord
 struct CORDL_TYPE TMP_GlyphAdjustmentRecord {
 public:
@@ -32,31 +30,31 @@ public:
 
   __declspec(property(get = get_glyphValueRecord, put = set_glyphValueRecord))::TMPro::TMP_GlyphValueRecord glyphValueRecord;
 
-  /// @brief Method get_glyphIndex, addr 0x2c121c4, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_glyphIndex();
-
-  /// @brief Method set_glyphIndex, addr 0x2c121cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_glyphIndex(uint32_t value);
-
-  /// @brief Method get_glyphValueRecord, addr 0x2c121d4, size 0xc, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
-
-  /// @brief Method set_glyphValueRecord, addr 0x2c121e0, size 0xc, virtual false, abstract: false, final false
-  inline void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
-
-  /// @brief Method .ctor, addr 0x2c0fa20, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
-
-  /// @brief Method .ctor, addr 0x2c121ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf8e2c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
 
-  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord", modifiers: "",
-  // def_value: None }]
-  constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
+  /// @brief Method .ctor, addr 0x2cf6660, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
+
+  /// @brief Method get_glyphIndex, addr 0x2cf8e04, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_glyphIndex();
+
+  /// @brief Method get_glyphValueRecord, addr 0x2cf8e14, size 0xc, virtual false, abstract: false, final false
+  inline ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
+
+  /// @brief Method set_glyphIndex, addr 0x2cf8e0c, size 0x8, virtual false, abstract: false, final false
+  inline void set_glyphIndex(uint32_t value);
+
+  /// @brief Method set_glyphValueRecord, addr 0x2cf8e20, size 0xc, virtual false, abstract: false, final false
+  inline void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TMP_GlyphAdjustmentRecord();
+
+  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord", modifiers: "",
+  // def_value: None }]
+  constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief Field m_GlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_GlyphIndex;

@@ -19,19 +19,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::MeshHandle);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7433)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 346
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7425)) CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
+// CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
 class CORDL_TYPE MeshHandle : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::MeshHandle*> {
 public:
   // Declarations
-  /// @brief Field allocVerts, offset 0x18, size 0x18
-  __declspec(property(get = __cordl_internal_get_allocVerts, put = __cordl_internal_set_allocVerts))::UnityEngine::UIElements::UIR::Alloc allocVerts;
-
   /// @brief Field allocIndices, offset 0x30, size 0x18
   __declspec(property(get = __cordl_internal_get_allocIndices, put = __cordl_internal_set_allocIndices))::UnityEngine::UIElements::UIR::Alloc allocIndices;
-
-  /// @brief Field triangleCount, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_triangleCount, put = __cordl_internal_set_triangleCount)) uint32_t triangleCount;
 
   /// @brief Field allocPage, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_allocPage, put = __cordl_internal_set_allocPage))::UnityEngine::UIElements::UIR::Page* allocPage;
@@ -39,50 +32,62 @@ public:
   /// @brief Field allocTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_allocTime, put = __cordl_internal_set_allocTime)) uint32_t allocTime;
 
+  /// @brief Field allocVerts, offset 0x18, size 0x18
+  __declspec(property(get = __cordl_internal_get_allocVerts, put = __cordl_internal_set_allocVerts))::UnityEngine::UIElements::UIR::Alloc allocVerts;
+
+  /// @brief Field triangleCount, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_triangleCount, put = __cordl_internal_set_triangleCount)) uint32_t triangleCount;
+
   /// @brief Field updateAllocID, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_updateAllocID, put = __cordl_internal_set_updateAllocID)) uint32_t updateAllocID;
 
-  constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_allocVerts();
-
-  constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_allocVerts() const;
-
-  constexpr void __cordl_internal_set_allocVerts(::UnityEngine::UIElements::UIR::Alloc value);
-
-  constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_allocIndices();
+  static inline ::UnityEngine::UIElements::UIR::MeshHandle* New_ctor();
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_allocIndices() const;
 
-  constexpr void __cordl_internal_set_allocIndices(::UnityEngine::UIElements::UIR::Alloc value);
-
-  constexpr uint32_t& __cordl_internal_get_triangleCount();
-
-  constexpr uint32_t const& __cordl_internal_get_triangleCount() const;
-
-  constexpr void __cordl_internal_set_triangleCount(uint32_t value);
+  constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_allocIndices();
 
   constexpr ::UnityEngine::UIElements::UIR::Page*& __cordl_internal_get_allocPage();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __cordl_internal_get_allocPage() const;
 
-  constexpr void __cordl_internal_set_allocPage(::UnityEngine::UIElements::UIR::Page* value);
+  constexpr uint32_t const& __cordl_internal_get_allocTime() const;
 
   constexpr uint32_t& __cordl_internal_get_allocTime();
 
-  constexpr uint32_t const& __cordl_internal_get_allocTime() const;
+  constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_allocVerts() const;
 
-  constexpr void __cordl_internal_set_allocTime(uint32_t value);
+  constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_allocVerts();
 
-  constexpr uint32_t& __cordl_internal_get_updateAllocID();
+  constexpr uint32_t const& __cordl_internal_get_triangleCount() const;
+
+  constexpr uint32_t& __cordl_internal_get_triangleCount();
 
   constexpr uint32_t const& __cordl_internal_get_updateAllocID() const;
 
+  constexpr uint32_t& __cordl_internal_get_updateAllocID();
+
+  constexpr void __cordl_internal_set_allocIndices(::UnityEngine::UIElements::UIR::Alloc value);
+
+  constexpr void __cordl_internal_set_allocPage(::UnityEngine::UIElements::UIR::Page* value);
+
+  constexpr void __cordl_internal_set_allocTime(uint32_t value);
+
+  constexpr void __cordl_internal_set_allocVerts(::UnityEngine::UIElements::UIR::Alloc value);
+
+  constexpr void __cordl_internal_set_triangleCount(uint32_t value);
+
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  static inline ::UnityEngine::UIElements::UIR::MeshHandle* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dcdba0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edc6b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshHandle(MeshHandle&&) = delete;
@@ -91,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshHandle(MeshHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshHandle();
-
-public:
   /// @brief Field allocVerts, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___allocVerts;
 

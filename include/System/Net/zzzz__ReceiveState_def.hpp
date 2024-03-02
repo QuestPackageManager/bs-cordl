@@ -22,53 +22,57 @@ MARK_REF_PTR_T(::System::Net::ReceiveState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9038))
 // CS Name: ::System.Net::ReceiveState*
 class CORDL_TYPE ReceiveState : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Resp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Resp, put = __cordl_internal_set_Resp))::System::Net::ResponseDescription* Resp;
-
-  /// @brief Field ValidThrough, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_ValidThrough, put = __cordl_internal_set_ValidThrough)) int32_t ValidThrough;
-
   /// @brief Field Buffer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Connection, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Connection, put = __cordl_internal_set_Connection))::System::Net::CommandStream* Connection;
 
-  constexpr ::System::Net::ResponseDescription*& __cordl_internal_get_Resp();
+  /// @brief Field Resp, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Resp, put = __cordl_internal_set_Resp))::System::Net::ResponseDescription* Resp;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get_Resp() const;
+  /// @brief Field ValidThrough, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_ValidThrough, put = __cordl_internal_set_ValidThrough)) int32_t ValidThrough;
 
-  constexpr void __cordl_internal_set_Resp(::System::Net::ResponseDescription* value);
-
-  constexpr int32_t& __cordl_internal_get_ValidThrough();
-
-  constexpr int32_t const& __cordl_internal_get_ValidThrough() const;
-
-  constexpr void __cordl_internal_set_ValidThrough(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
+  static inline ::System::Net::ReceiveState* New_ctor(::System::Net::CommandStream* connection);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
   constexpr ::System::Net::CommandStream*& __cordl_internal_get_Connection();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::CommandStream*> const& __cordl_internal_get_Connection() const;
 
+  constexpr ::System::Net::ResponseDescription*& __cordl_internal_get_Resp();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get_Resp() const;
+
+  constexpr int32_t const& __cordl_internal_get_ValidThrough() const;
+
+  constexpr int32_t& __cordl_internal_get_ValidThrough();
+
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
   constexpr void __cordl_internal_set_Connection(::System::Net::CommandStream* value);
 
-  static inline ::System::Net::ReceiveState* New_ctor(::System::Net::CommandStream* connection);
+  constexpr void __cordl_internal_set_Resp(::System::Net::ResponseDescription* value);
 
-  /// @brief Method .ctor, addr 0x298ea3c, size 0xa0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_ValidThrough(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2a795b4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::CommandStream* connection);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReceiveState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ReceiveState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReceiveState(ReceiveState&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReceiveState(ReceiveState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReceiveState();
-
-public:
   /// @brief Field Resp, offset: 0x10, size: 0x8, def value: None
   ::System::Net::ResponseDescription* ___Resp;
 

@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Oculus::Platform::AbuseReportOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13221))
 // CS Name: ::Oculus.Platform::AbuseReportOptions*
 class CORDL_TYPE AbuseReportOptions : public ::System::Object {
 public:
@@ -28,29 +26,35 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  constexpr void*& __cordl_internal_get_Handle();
-
-  constexpr void* const& __cordl_internal_get_Handle() const;
-
-  constexpr void __cordl_internal_set_Handle(void* value);
+  /// @brief Method Finalize, addr 0x27bf348, size 0xd4, virtual true, abstract: false, final false
+  inline void Finalize();
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26cd744, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method SetPreventPeopleChooser, addr 0x26cd810, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x27bf118, size 0x68, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType, addr 0x26cd8fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x27bf204, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method op_Explicit, addr 0x26cd9e8, size 0x58, virtual false, abstract: false, final false
+  constexpr void* const& __cordl_internal_get_Handle() const;
+
+  constexpr void*& __cordl_internal_get_Handle();
+
+  constexpr void __cordl_internal_set_Handle(void* value);
+
+  /// @brief Method .ctor, addr 0x27bf04c, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method op_Explicit, addr 0x27bf2f0, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AbuseReportOptions* options);
 
-  /// @brief Method Finalize, addr 0x26cda40, size 0xd4, virtual true, abstract: false, final false
-  inline void Finalize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbuseReportOptions();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AbuseReportOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbuseReportOptions(AbuseReportOptions&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbuseReportOptions(AbuseReportOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbuseReportOptions();
-
-public:
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   void* ___Handle;
 

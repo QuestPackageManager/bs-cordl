@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__FloatFxGroupEffectManager____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4905))
 // CS Name: ::FloatFxGroupEffectManager::<>c*
 class CORDL_TYPE __FloatFxGroupEffectManager____c : public ::System::Object {
 public:
@@ -50,22 +48,28 @@ public:
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* __9__3_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__FloatFxGroupEffectManager____c* value);
+  static inline ::GlobalNamespace::__FloatFxGroupEffectManager____c* New_ctor();
+
+  /// @brief Method <Start>b__3_0, addr 0x243431c, size 0x20, virtual false, abstract: false, final false
+  inline bool _Start_b__3_0(::GlobalNamespace::FloatFxGroup* group);
+
+  /// @brief Method .ctor, addr 0x2434314, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__FloatFxGroupEffectManager____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* value);
-
   static inline ::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* getStaticF___9__3_0();
 
-  static inline ::GlobalNamespace::__FloatFxGroupEffectManager____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__FloatFxGroupEffectManager____c* value);
 
-  /// @brief Method .ctor, addr 0x23a6294, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* value);
 
-  /// @brief Method <Start>b__3_0, addr 0x23a629c, size 0x20, virtual false, abstract: false, final false
-  inline bool _Start_b__3_0(::GlobalNamespace::FloatFxGroup* group);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FloatFxGroupEffectManager____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FloatFxGroupEffectManager____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FloatFxGroupEffectManager____c(__FloatFxGroupEffectManager____c&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FloatFxGroupEffectManager____c(__FloatFxGroupEffectManager____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FloatFxGroupEffectManager____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -90,17 +88,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FloatFxGroupE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4906))
 // CS Name: ::FloatFxGroupEffectManager*
 class CORDL_TYPE FloatFxGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__FloatFxGroupEffectManager____c;
-
-  /// @brief Field _floatFxGroups, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__floatFxGroups,
-                      put = __cordl_internal_set__floatFxGroups))::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> _floatFxGroups;
 
   /// @brief Field _container, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
@@ -109,35 +101,45 @@ public:
   __declspec(property(get = __cordl_internal_get__floatFxGroupEffects,
                       put = __cordl_internal_set__floatFxGroupEffects))::System::Collections::Generic::List_1<::GlobalNamespace::FloatFxGroupEffect*>* _floatFxGroupEffects;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*>& __cordl_internal_get__floatFxGroups();
+  /// @brief Field _floatFxGroups, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__floatFxGroups,
+                      put = __cordl_internal_set__floatFxGroups))::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> _floatFxGroups;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> const& __cordl_internal_get__floatFxGroups() const;
+  static inline ::GlobalNamespace::FloatFxGroupEffectManager* New_ctor();
 
-  constexpr void __cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value);
+  /// @brief Method OnDestroy, addr 0x2434050, size 0x148, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2433990, size 0x668, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::FloatFxGroupEffect*>*& __cordl_internal_get__floatFxGroupEffects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::FloatFxGroupEffect*>*> const& __cordl_internal_get__floatFxGroupEffects() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> const& __cordl_internal_get__floatFxGroups() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*>& __cordl_internal_get__floatFxGroups();
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
   constexpr void __cordl_internal_set__floatFxGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::FloatFxGroupEffect*>* value);
 
-  /// @brief Method Start, addr 0x23a5910, size 0x668, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value);
 
-  /// @brief Method OnDestroy, addr 0x23a5fd0, size 0x148, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  static inline ::GlobalNamespace::FloatFxGroupEffectManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a61b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2434234, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatFxGroupEffectManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxGroupEffectManager(FloatFxGroupEffectManager&&) = delete;
@@ -146,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxGroupEffectManager(FloatFxGroupEffectManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatFxGroupEffectManager();
-
-public:
   /// @brief Field _floatFxGroups, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> ____floatFxGroups;
 

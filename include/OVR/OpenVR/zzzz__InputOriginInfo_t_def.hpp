@@ -16,16 +16,18 @@ MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8724))
 // CS Name: ::OVR.OpenVR::InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {
 public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName))::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x27f6804, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x28e8114, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputOriginInfo_t();
 
   // Ctor Parameters [CppParam { name: "devicePath", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
   // { name: "rchRenderModelComponentName0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "rchRenderModelComponentName1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam
@@ -124,10 +126,6 @@ public:
       uint8_t rchRenderModelComponentName118, uint8_t rchRenderModelComponentName119, uint8_t rchRenderModelComponentName120, uint8_t rchRenderModelComponentName121,
       uint8_t rchRenderModelComponentName122, uint8_t rchRenderModelComponentName123, uint8_t rchRenderModelComponentName124, uint8_t rchRenderModelComponentName125,
       uint8_t rchRenderModelComponentName126, uint8_t rchRenderModelComponentName127) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputOriginInfo_t();
 
   /// @brief Field devicePath, offset: 0x0, size: 0x8, def value: None
   uint64_t devicePath;

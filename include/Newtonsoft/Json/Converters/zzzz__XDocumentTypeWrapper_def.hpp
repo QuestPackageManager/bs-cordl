@@ -24,36 +24,30 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDocumentTypeWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12059))
 // CS Name: ::Newtonsoft.Json.Converters::XDocumentTypeWrapper*
 class CORDL_TYPE XDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
-  /// @brief Field _documentType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__documentType, put = __cordl_internal_set__documentType))::System::Xml::Linq::XDocumentType* _documentType;
-
-  __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_System))::StringW System;
-
-  __declspec(property(get = get_Public))::StringW Public;
-
   __declspec(property(get = get_InternalSubset))::StringW InternalSubset;
 
   __declspec(property(get = get_LocalName))::StringW LocalName;
 
+  __declspec(property(get = get_Name))::StringW Name;
+
+  __declspec(property(get = get_Public))::StringW Public;
+
+  __declspec(property(get = get_System))::StringW System;
+
+  /// @brief Field _documentType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__documentType, put = __cordl_internal_set__documentType))::System::Xml::Linq::XDocumentType* _documentType;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocumentType"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDocumentType*() noexcept;
-
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
-  constexpr ::Newtonsoft::Json::Converters::IXmlDocumentType* i___Newtonsoft__Json__Converters__IXmlDocumentType() noexcept;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+  static inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* New_ctor(::System::Xml::Linq::XDocumentType* documentType);
 
   constexpr ::System::Xml::Linq::XDocumentType*& __cordl_internal_get__documentType();
 
@@ -61,26 +55,36 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value);
 
-  static inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* New_ctor(::System::Xml::Linq::XDocumentType* documentType);
-
-  /// @brief Method .ctor, addr 0x26baf7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ab884, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* documentType);
 
-  /// @brief Method get_Name, addr 0x26bafe8, size 0x1c, virtual true, abstract: false, final true
-  inline ::StringW get_Name();
-
-  /// @brief Method get_System, addr 0x26bb004, size 0x1c, virtual true, abstract: false, final true
-  inline ::StringW get_System();
-
-  /// @brief Method get_Public, addr 0x26bb020, size 0x1c, virtual true, abstract: false, final true
-  inline ::StringW get_Public();
-
-  /// @brief Method get_InternalSubset, addr 0x26bb03c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x27ab944, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x26bb058, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x27ab960, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
+  /// @brief Method get_Name, addr 0x27ab8f0, size 0x1c, virtual true, abstract: false, final true
+  inline ::StringW get_Name();
+
+  /// @brief Method get_Public, addr 0x27ab928, size 0x1c, virtual true, abstract: false, final true
+  inline ::StringW get_Public();
+
+  /// @brief Method get_System, addr 0x27ab90c, size 0x1c, virtual true, abstract: false, final true
+  inline ::StringW get_System();
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDocumentType* i___Newtonsoft__Json__Converters__IXmlDocumentType() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XDocumentTypeWrapper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XDocumentTypeWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XDocumentTypeWrapper(XDocumentTypeWrapper&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XDocumentTypeWrapper(XDocumentTypeWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XDocumentTypeWrapper();
-
-public:
   /// @brief Field _documentType, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDocumentType* ____documentType;
 

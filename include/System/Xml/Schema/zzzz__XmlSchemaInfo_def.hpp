@@ -34,138 +34,142 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11729))
 // CS Name: ::System.Xml.Schema::XmlSchemaInfo*
 class CORDL_TYPE XmlSchemaInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field isDefault, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_isDefault, put = __cordl_internal_set_isDefault)) bool isDefault;
-
-  /// @brief Field isNil, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_isNil, put = __cordl_internal_set_isNil)) bool isNil;
-
-  /// @brief Field schemaElement, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaElement, put = __cordl_internal_set_schemaElement))::System::Xml::Schema::XmlSchemaElement* schemaElement;
-
-  /// @brief Field schemaAttribute, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaAttribute, put = __cordl_internal_set_schemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute;
-
-  /// @brief Field schemaType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
-
-  /// @brief Field memberType, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
-
-  /// @brief Field validity, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_validity, put = __cordl_internal_set_validity))::System::Xml::Schema::XmlSchemaValidity validity;
-
-  /// @brief Field contentType, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
-
-  __declspec(property(get = get_Validity))::System::Xml::Schema::XmlSchemaValidity Validity;
-
   __declspec(property(get = get_IsDefault)) bool IsDefault;
 
   __declspec(property(get = get_IsNil)) bool IsNil;
 
   __declspec(property(get = get_MemberType))::System::Xml::Schema::XmlSchemaSimpleType* MemberType;
 
-  __declspec(property(get = get_SchemaType))::System::Xml::Schema::XmlSchemaType* SchemaType;
+  __declspec(property(get = get_SchemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* SchemaAttribute;
 
   __declspec(property(get = get_SchemaElement))::System::Xml::Schema::XmlSchemaElement* SchemaElement;
 
-  __declspec(property(get = get_SchemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* SchemaAttribute;
+  __declspec(property(get = get_SchemaType))::System::Xml::Schema::XmlSchemaType* SchemaType;
+
+  __declspec(property(get = get_Validity))::System::Xml::Schema::XmlSchemaValidity Validity;
+
+  /// @brief Field contentType, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
+
+  /// @brief Field isDefault, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_isDefault, put = __cordl_internal_set_isDefault)) bool isDefault;
+
+  /// @brief Field isNil, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_isNil, put = __cordl_internal_set_isNil)) bool isNil;
+
+  /// @brief Field memberType, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
+
+  /// @brief Field schemaAttribute, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemaAttribute, put = __cordl_internal_set_schemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute;
+
+  /// @brief Field schemaElement, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemaElement, put = __cordl_internal_set_schemaElement))::System::Xml::Schema::XmlSchemaElement* schemaElement;
+
+  /// @brief Field schemaType, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+
+  /// @brief Field validity, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_validity, put = __cordl_internal_set_validity))::System::Xml::Schema::XmlSchemaValidity validity;
 
   /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept;
 
-  /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
-  constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
+  /// @brief Method Clear, addr 0x29b2670, size 0x1c, virtual false, abstract: false, final false
+  inline void Clear();
 
-  constexpr bool& __cordl_internal_get_isDefault();
+  static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor();
+
+  static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity);
+
+  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
+
+  constexpr ::System::Xml::Schema::XmlSchemaContentType& __cordl_internal_get_contentType();
 
   constexpr bool const& __cordl_internal_get_isDefault() const;
 
-  constexpr void __cordl_internal_set_isDefault(bool value);
-
-  constexpr bool& __cordl_internal_get_isNil();
+  constexpr bool& __cordl_internal_get_isDefault();
 
   constexpr bool const& __cordl_internal_get_isNil() const;
 
-  constexpr void __cordl_internal_set_isNil(bool value);
-
-  constexpr ::System::Xml::Schema::XmlSchemaElement*& __cordl_internal_get_schemaElement();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& __cordl_internal_get_schemaElement() const;
-
-  constexpr void __cordl_internal_set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value);
-
-  constexpr ::System::Xml::Schema::XmlSchemaAttribute*& __cordl_internal_get_schemaAttribute();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& __cordl_internal_get_schemaAttribute() const;
-
-  constexpr void __cordl_internal_set_schemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
-
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
-
-  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr bool& __cordl_internal_get_isNil();
 
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_memberType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_memberType() const;
 
-  constexpr void __cordl_internal_set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  constexpr ::System::Xml::Schema::XmlSchemaAttribute*& __cordl_internal_get_schemaAttribute();
 
-  constexpr ::System::Xml::Schema::XmlSchemaValidity& __cordl_internal_get_validity();
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& __cordl_internal_get_schemaAttribute() const;
+
+  constexpr ::System::Xml::Schema::XmlSchemaElement*& __cordl_internal_get_schemaElement();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& __cordl_internal_get_schemaElement() const;
+
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaValidity const& __cordl_internal_get_validity() const;
 
-  constexpr void __cordl_internal_set_validity(::System::Xml::Schema::XmlSchemaValidity value);
-
-  constexpr ::System::Xml::Schema::XmlSchemaContentType& __cordl_internal_get_contentType();
-
-  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
+  constexpr ::System::Xml::Schema::XmlSchemaValidity& __cordl_internal_get_validity();
 
   constexpr void __cordl_internal_set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
 
-  static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor();
+  constexpr void __cordl_internal_set_isDefault(bool value);
 
-  /// @brief Method .ctor, addr 0x28c8b5c, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_isNil(bool value);
+
+  constexpr void __cordl_internal_set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+
+  constexpr void __cordl_internal_set_schemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
+
+  constexpr void __cordl_internal_set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value);
+
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+
+  constexpr void __cordl_internal_set_validity(::System::Xml::Schema::XmlSchemaValidity value);
+
+  /// @brief Method .ctor, addr 0x29b2640, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor(::System::Xml::Schema::XmlSchemaValidity validity);
-
-  /// @brief Method .ctor, addr 0x28c8ba8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b268c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaValidity validity);
 
-  /// @brief Method get_Validity, addr 0x28c8be4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
-
-  /// @brief Method get_IsDefault, addr 0x28c8bec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsDefault, addr 0x29b26d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil, addr 0x28c8bf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsNil, addr 0x29b26d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsNil();
 
-  /// @brief Method get_MemberType, addr 0x28c8bfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MemberType, addr 0x29b26e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaType, addr 0x28c8c04, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
-
-  /// @brief Method get_SchemaElement, addr 0x28c8c0c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
-
-  /// @brief Method get_SchemaAttribute, addr 0x28c8c14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaAttribute, addr 0x29b26f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method Clear, addr 0x28c8b8c, size 0x1c, virtual false, abstract: false, final false
-  inline void Clear();
+  /// @brief Method get_SchemaElement, addr 0x29b26f0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
+  /// @brief Method get_SchemaType, addr 0x29b26e8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
+
+  /// @brief Method get_Validity, addr 0x29b26c8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
+
+  /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
+  constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaInfo(XmlSchemaInfo&&) = delete;
@@ -174,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaInfo(XmlSchemaInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaInfo();
-
-public:
   /// @brief Field isDefault, offset: 0x10, size: 0x1, def value: None
   bool ___isDefault;
 

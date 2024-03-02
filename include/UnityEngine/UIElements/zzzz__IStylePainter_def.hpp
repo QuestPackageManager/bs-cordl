@@ -26,20 +26,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePainter);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6769))
 // CS Name: ::UnityEngine.UIElements::IStylePainter*
 class CORDL_TYPE IStylePainter {
 public:
   // Declarations
-  /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
+  /// @brief Method DrawImmediate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
   /// @brief Method DrawRectangle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawImmediate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
+  /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStylePainter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

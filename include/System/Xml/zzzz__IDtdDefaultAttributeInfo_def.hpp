@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11424))
 // CS Name: ::System.Xml::IDtdDefaultAttributeInfo*
 class CORDL_TYPE IDtdDefaultAttributeInfo {
 public:
@@ -38,9 +36,6 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
 
-  /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
-  constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
-
   /// @brief Method get_DefaultValueExpanded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DefaultValueExpanded();
 
@@ -52,6 +47,9 @@ public:
 
   /// @brief Method get_ValueLinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueLinePosition();
+
+  /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
+  constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

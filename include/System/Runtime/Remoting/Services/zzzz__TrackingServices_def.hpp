@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Services::TrackingServices);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3085))
 // CS Name: ::System.Runtime.Remoting.Services::TrackingServices*
 class CORDL_TYPE TrackingServices : public ::System::Object {
 public:
@@ -32,19 +30,25 @@ public:
   /// @brief Field _handlers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers))::System::Collections::ArrayList* _handlers;
 
-  static inline void setStaticF__handlers(::System::Collections::ArrayList* value);
+  /// @brief Method NotifyDisconnectedObject, addr 0x25861c8, size 0x304, virtual false, abstract: false, final false
+  static inline void NotifyDisconnectedObject(::System::Object* obj);
+
+  /// @brief Method NotifyMarshaledObject, addr 0x2588a6c, size 0x310, virtual false, abstract: false, final false
+  static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
+
+  /// @brief Method NotifyUnmarshaledObject, addr 0x2588d7c, size 0x310, virtual false, abstract: false, final false
+  static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();
 
-  /// @brief Method NotifyMarshaledObject, addr 0x2495d00, size 0x310, virtual false, abstract: false, final false
-  static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
+  static inline void setStaticF__handlers(::System::Collections::ArrayList* value);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x2496010, size 0x310, virtual false, abstract: false, final false
-  static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackingServices();
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x249345c, size 0x304, virtual false, abstract: false, final false
-  static inline void NotifyDisconnectedObject(::System::Object* obj);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackingServices(TrackingServices&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackingServices(TrackingServices const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackingServices();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

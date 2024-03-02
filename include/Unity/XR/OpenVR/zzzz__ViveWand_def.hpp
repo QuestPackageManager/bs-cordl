@@ -26,18 +26,24 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveWand);
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6326))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6117))
 // CS Name: ::Unity.XR.OpenVR::ViveWand*
 class CORDL_TYPE ViveWand : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
   // Declarations
-  /// @brief Field <grip>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __cordl_internal_get__grip_k__BackingField, put = __cordl_internal_set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1c0, size 0x8
+  __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
+                      put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
+
+  /// @brief Field <deviceVelocity>k__BackingField, offset 0x1b8, size 0x8
+  __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
+                      put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
   /// @brief Field <gripPressed>k__BackingField, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get__gripPressed_k__BackingField,
                       put = __cordl_internal_set__gripPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
+
+  /// @brief Field <grip>k__BackingField, offset 0x178, size 0x8
+  __declspec(property(get = __cordl_internal_get__grip_k__BackingField, put = __cordl_internal_set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
 
   /// @brief Field <primary>k__BackingField, offset 0x188, size 0x8
   __declspec(property(get = __cordl_internal_get__primary_k__BackingField,
@@ -55,21 +61,17 @@ public:
   __declspec(property(get = __cordl_internal_get__trackpad_k__BackingField,
                       put = __cordl_internal_set__trackpad_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _trackpad_k__BackingField;
 
-  /// @brief Field <trigger>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
-                      put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
-
   /// @brief Field <triggerPressed>k__BackingField, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get__triggerPressed_k__BackingField,
                       put = __cordl_internal_set__triggerPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset 0x1b8, size 0x8
-  __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
-                      put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
+  /// @brief Field <trigger>k__BackingField, offset 0x1a8, size 0x8
+  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
+                      put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
 
-  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1c0, size 0x8
-  __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
-                      put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
+  __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
+
+  __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
   __declspec(property(get = get_grip, put = set_grip))::UnityEngine::InputSystem::Controls::AxisControl* grip;
 
@@ -77,148 +79,150 @@ public:
 
   __declspec(property(get = get_primary, put = set_primary))::UnityEngine::InputSystem::Controls::ButtonControl* primary;
 
+  __declspec(property(get = get_trackpad, put = set_trackpad))::UnityEngine::InputSystem::Controls::Vector2Control* trackpad;
+
   __declspec(property(get = get_trackpadPressed, put = set_trackpadPressed))::UnityEngine::InputSystem::Controls::ButtonControl* trackpadPressed;
 
   __declspec(property(get = get_trackpadTouched, put = set_trackpadTouched))::UnityEngine::InputSystem::Controls::ButtonControl* trackpadTouched;
-
-  __declspec(property(get = get_trackpad, put = set_trackpad))::UnityEngine::InputSystem::Controls::Vector2Control* trackpad;
 
   __declspec(property(get = get_trigger, put = set_trigger))::UnityEngine::InputSystem::Controls::AxisControl* trigger;
 
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed))::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-  __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
+  /// @brief Method FinishSetup, addr 0x2b1efbc, size 0x238, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-  __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
-
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__grip_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__grip_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__gripPressed_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__gripPressed_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__primary_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__primary_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__primary_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadPressed_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trackpadPressed_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__trackpadPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadTouched_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trackpadTouched_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__trackpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__trackpad_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__trackpad_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__trackpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__trigger_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__trigger_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__triggerPressed_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__triggerPressed_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceVelocity_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceVelocity_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  static inline ::Unity::XR::OpenVR::ViveWand* New_ctor();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceAngularVelocity_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceAngularVelocity_k__BackingField() const;
 
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__deviceVelocity_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__deviceVelocity_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__gripPressed_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__gripPressed_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__grip_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__grip_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__primary_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__primary_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadPressed_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trackpadPressed_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadTouched_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trackpadTouched_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__trackpad_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__trackpad_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__triggerPressed_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__triggerPressed_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__trigger_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__trigger_k__BackingField() const;
+
   constexpr void __cordl_internal_set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_grip, addr 0x2a342dc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
+  constexpr void __cordl_internal_set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_grip, addr 0x2a342e4, size 0x8, virtual false, abstract: false, final false
-  inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_gripPressed, addr 0x2a342ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
+  constexpr void __cordl_internal_set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_gripPressed, addr 0x2a342f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__primary_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_primary, addr 0x2a342fc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
+  constexpr void __cordl_internal_set__trackpadPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_primary, addr 0x2a34304, size 0x8, virtual false, abstract: false, final false
-  inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__trackpadTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpadPressed, addr 0x2a3430c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
+  constexpr void __cordl_internal_set__trackpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method set_trackpadPressed, addr 0x2a34314, size 0x8, virtual false, abstract: false, final false
-  inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpadTouched, addr 0x2a3431c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadTouched();
+  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_trackpadTouched, addr 0x2a34324, size 0x8, virtual false, abstract: false, final false
-  inline void set_trackpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_trackpad, addr 0x2a3432c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_trackpad();
-
-  /// @brief Method set_trackpad, addr 0x2a34334, size 0x8, virtual false, abstract: false, final false
-  inline void set_trackpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method get_trigger, addr 0x2a3433c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
-
-  /// @brief Method set_trigger, addr 0x2a34344, size 0x8, virtual false, abstract: false, final false
-  inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  /// @brief Method get_triggerPressed, addr 0x2a3434c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
-
-  /// @brief Method set_triggerPressed, addr 0x2a34354, size 0x8, virtual false, abstract: false, final false
-  inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_deviceVelocity, addr 0x2a3435c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
-
-  /// @brief Method set_deviceVelocity, addr 0x2a34364, size 0x8, virtual false, abstract: false, final false
-  inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
-
-  /// @brief Method get_deviceAngularVelocity, addr 0x2a3436c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
-
-  /// @brief Method set_deviceAngularVelocity, addr 0x2a34374, size 0x8, virtual false, abstract: false, final false
-  inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
-
-  /// @brief Method FinishSetup, addr 0x2a3437c, size 0x238, virtual true, abstract: false, final false
-  inline void FinishSetup();
-
-  static inline ::Unity::XR::OpenVR::ViveWand* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2a345b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1f1f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_deviceAngularVelocity, addr 0x2b1efac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
+
+  /// @brief Method get_deviceVelocity, addr 0x2b1ef9c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
+
+  /// @brief Method get_grip, addr 0x2b1ef1c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
+
+  /// @brief Method get_gripPressed, addr 0x2b1ef2c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
+
+  /// @brief Method get_primary, addr 0x2b1ef3c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
+
+  /// @brief Method get_trackpad, addr 0x2b1ef6c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_trackpad();
+
+  /// @brief Method get_trackpadPressed, addr 0x2b1ef4c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
+
+  /// @brief Method get_trackpadTouched, addr 0x2b1ef5c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadTouched();
+
+  /// @brief Method get_trigger, addr 0x2b1ef7c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
+
+  /// @brief Method get_triggerPressed, addr 0x2b1ef8c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
+
+  /// @brief Method set_deviceAngularVelocity, addr 0x2b1efb4, size 0x8, virtual false, abstract: false, final false
+  inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  /// @brief Method set_deviceVelocity, addr 0x2b1efa4, size 0x8, virtual false, abstract: false, final false
+  inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+
+  /// @brief Method set_grip, addr 0x2b1ef24, size 0x8, virtual false, abstract: false, final false
+  inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method set_gripPressed, addr 0x2b1ef34, size 0x8, virtual false, abstract: false, final false
+  inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_primary, addr 0x2b1ef44, size 0x8, virtual false, abstract: false, final false
+  inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_trackpad, addr 0x2b1ef74, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method set_trackpadPressed, addr 0x2b1ef54, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_trackpadTouched, addr 0x2b1ef64, size 0x8, virtual false, abstract: false, final false
+  inline void set_trackpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_trigger, addr 0x2b1ef84, size 0x8, virtual false, abstract: false, final false
+  inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method set_triggerPressed, addr 0x2b1ef94, size 0x8, virtual false, abstract: false, final false
+  inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ViveWand();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ViveWand", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViveWand(ViveWand&&) = delete;
@@ -227,12 +231,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ViveWand(ViveWand const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ViveWand();
-
-public:
   /// @brief Field <grip>k__BackingField, offset: 0x178, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____grip_k__BackingField;
 

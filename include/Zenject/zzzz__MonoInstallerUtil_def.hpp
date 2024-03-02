@@ -18,18 +18,22 @@ MARK_REF_PTR_T(::Zenject::MonoInstallerUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11145))
 // CS Name: ::Zenject::MonoInstallerUtil*
 class CORDL_TYPE MonoInstallerUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDefaultResourcePath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> static inline ::StringW GetDefaultResourcePath();
-
   /// @brief Method CreateInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> static inline TInstaller CreateInstaller(::StringW resourcePath, ::Zenject::DiContainer* container);
 
+  /// @brief Method GetDefaultResourcePath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TInstaller> static inline ::StringW GetDefaultResourcePath();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoInstallerUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoInstallerUtil(MonoInstallerUtil&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoInstallerUtil(MonoInstallerUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoInstallerUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

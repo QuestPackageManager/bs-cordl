@@ -28,88 +28,92 @@ MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5433))
 // CS Name: ::PackLevelListHeaderTableCell*
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
+  /// @brief Field _arrowImage, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__arrowImage, put = __cordl_internal_set__arrowImage))::UnityW<::UnityEngine::UI::Image> _arrowImage;
+
+  /// @brief Field _bgImage, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
+
+  /// @brief Field _cancellationTokenSource, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+
+  /// @brief Field _highlightImage, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
+
   /// @brief Field _selectedHighlightElementsColor, offset 0x58, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedHighlightElementsColor, put = __cordl_internal_set__selectedHighlightElementsColor))::UnityEngine::Color _selectedHighlightElementsColor;
 
   /// @brief Field _text, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  /// @brief Field _bgImage, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
-
-  /// @brief Field _highlightImage, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
-
-  /// @brief Field _arrowImage, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrowImage, put = __cordl_internal_set__arrowImage))::UnityW<::UnityEngine::UI::Image> _arrowImage;
-
-  /// @brief Field _cancellationTokenSource, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
-
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightElementsColor();
+  /// @brief Method HighlightDidChange, addr 0x24a5bc0, size 0x4, virtual true, abstract: false, final false
+  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightElementsColor() const;
+  static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  constexpr void __cordl_internal_set__selectedHighlightElementsColor(::UnityEngine::Color value);
+  /// @brief Method RefreshVisuals, addr 0x24a5b38, size 0x88, virtual false, abstract: false, final false
+  inline void RefreshVisuals();
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
-
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
-
-  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
-
-  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__arrowImage();
+  /// @brief Method SelectionDidChange, addr 0x24a5b34, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
 
-  constexpr void __cordl_internal_set__arrowImage(::UnityW<::UnityEngine::UI::Image> value);
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__arrowImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedHighlightElementsColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedHighlightElementsColor();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__arrowImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
+
   constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method set_text, addr 0x227c2ec, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method get_text, addr 0x227c310, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+  constexpr void __cordl_internal_set__selectedHighlightElementsColor(::UnityEngine::Color value);
 
-  /// @brief Method SelectionDidChange, addr 0x227c334, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method HighlightDidChange, addr 0x227c3c0, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
-
-  /// @brief Method RefreshVisuals, addr 0x227c338, size 0x88, virtual false, abstract: false, final false
-  inline void RefreshVisuals();
-
-  static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
-
-  /// @brief Method .ctor, addr 0x227c3c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5bc4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_text, addr 0x24a5b10, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW get_text();
+
+  /// @brief Method set_text, addr 0x24a5aec, size 0x24, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackLevelListHeaderTableCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell&&) = delete;
@@ -118,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PackLevelListHeaderTableCell();
-
-public:
   /// @brief Field _selectedHighlightElementsColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightElementsColor;
 

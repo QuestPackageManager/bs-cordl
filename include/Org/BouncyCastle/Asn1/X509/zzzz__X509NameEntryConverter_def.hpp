@@ -22,26 +22,30 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(403))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameEntryConverter*
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertHexEncoded, addr 0x119d830, size 0x78, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
-
-  /// @brief Method CanBePrintable, addr 0x119d8a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanBePrintable, addr 0x120d708, size 0xc, virtual false, abstract: false, final false
   inline bool CanBePrintable(::StringW str);
+
+  /// @brief Method ConvertHexEncoded, addr 0x120d690, size 0x78, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
   /// @brief Method GetConvertedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119d8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120d714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509NameEntryConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509NameEntryConverter(X509NameEntryConverter&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509NameEntryConverter(X509NameEntryConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509NameEntryConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

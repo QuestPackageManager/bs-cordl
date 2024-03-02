@@ -18,22 +18,27 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchPhaseControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6287)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3895
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6642)) CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
+// CS Name: ::UnityEngine.InputSystem.Controls::TouchPhaseControl*
 class CORDL_TYPE TouchPhaseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::TouchPhase> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b0bbe4, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bc6c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2bf18ac, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0bc94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x2bf18d4, size 0xc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, ::cordl_internals::Ptr<void> statePtr);
 
+  /// @brief Method .ctor, addr 0x2bf1824, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TouchPhaseControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TouchPhaseControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchPhaseControl(TouchPhaseControl&&) = delete;
@@ -42,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TouchPhaseControl(TouchPhaseControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchPhaseControl();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocumentList);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7014))
 // CS Name: ::UnityEngine.UIElements::UIDocumentList*
 class CORDL_TYPE UIDocumentList : public ::System::Object {
 public:
@@ -34,23 +32,29 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
                       put = __cordl_internal_set_m_AttachedUIDocuments))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
+  /// @brief Method AddToListAndToVisualTree, addr 0x2f24ad4, size 0x354, virtual false, abstract: false, final false
+  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
+
+  static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
+
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x2f24a54, size 0x78, virtual false, abstract: false, final false
+  inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& __cordl_internal_get_m_AttachedUIDocuments();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*> const& __cordl_internal_get_m_AttachedUIDocuments() const;
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x2e14f44, size 0x78, virtual false, abstract: false, final false
-  inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
-
-  /// @brief Method AddToListAndToVisualTree, addr 0x2e14fc4, size 0x354, virtual false, abstract: false, final false
-  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
-
-  static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e15318, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f24e28, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIDocumentList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIDocumentList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIDocumentList(UIDocumentList&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIDocumentList(UIDocumentList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIDocumentList();
-
-public:
   /// @brief Field m_AttachedUIDocuments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_AttachedUIDocuments;
 

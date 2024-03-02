@@ -87,8 +87,6 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceProviders::__ContentCat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14104))
 // CS Name: ::ContentCatalogProvider::DependencyHashIndex
 struct CORDL_TYPE __ContentCatalogProvider__DependencyHashIndex {
 public:
@@ -107,27 +105,32 @@ public:
     return static_cast<____ContentCatalogProvider__DependencyHashIndex_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ContentCatalogProvider__DependencyHashIndex(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ContentCatalogProvider__DependencyHashIndex();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ContentCatalogProvider__DependencyHashIndex(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Remote value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex const Remote;
 
   /// @brief Field Cache value: static_cast<int32_t>(0x1)
   static ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex const Cache;
 
   /// @brief Field Count value: static_cast<int32_t>(0x2)
   static ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex const Count;
+
+  /// @brief Field Remote value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex const Remote;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -141,40 +144,10 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__Co
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14105))
 // CS Name: ::ContentCatalogProvider::InternalOp::BundledCatalog*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp__BundledCatalog : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_BundlePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BundlePath, put = __cordl_internal_set_m_BundlePath))::StringW m_BundlePath;
-
-  /// @brief Field m_OpInProgress, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_OpInProgress, put = __cordl_internal_set_m_OpInProgress)) bool m_OpInProgress;
-
-  /// @brief Field m_LoadBundleRequest, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LoadBundleRequest, put = __cordl_internal_set_m_LoadBundleRequest))::UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest;
-
-  /// @brief Field m_CatalogAssetBundle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CatalogAssetBundle, put = __cordl_internal_set_m_CatalogAssetBundle))::UnityW<::UnityEngine::AssetBundle> m_CatalogAssetBundle;
-
-  /// @brief Field m_LoadTextAssetRequest, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LoadTextAssetRequest, put = __cordl_internal_set_m_LoadTextAssetRequest))::UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest;
-
-  /// @brief Field m_CatalogData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CatalogData, put = __cordl_internal_set_m_CatalogData))::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData;
-
-  /// @brief Field m_WebRequestQueueOperation, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_WebRequestQueueOperation,
-                      put = __cordl_internal_set_m_WebRequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_WebRequestQueueOperation;
-
-  /// @brief Field m_RequestOperation, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::AsyncOperation* m_RequestOperation;
-
-  /// @brief Field m_WebRequestTimeout, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
-
   /// @brief Field OnLoaded, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_OnLoaded, put = __cordl_internal_set_OnLoaded))::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded;
 
@@ -182,107 +155,141 @@ public:
 
   __declspec(property(get = get_OpIsSuccess)) bool OpIsSuccess;
 
-  constexpr ::StringW& __cordl_internal_get_m_BundlePath();
+  /// @brief Field m_BundlePath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BundlePath, put = __cordl_internal_set_m_BundlePath))::StringW m_BundlePath;
 
-  constexpr ::StringW const& __cordl_internal_get_m_BundlePath() const;
+  /// @brief Field m_CatalogAssetBundle, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CatalogAssetBundle, put = __cordl_internal_set_m_CatalogAssetBundle))::UnityW<::UnityEngine::AssetBundle> m_CatalogAssetBundle;
 
-  constexpr void __cordl_internal_set_m_BundlePath(::StringW value);
+  /// @brief Field m_CatalogData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CatalogData, put = __cordl_internal_set_m_CatalogData))::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData;
 
-  constexpr bool& __cordl_internal_get_m_OpInProgress();
+  /// @brief Field m_LoadBundleRequest, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LoadBundleRequest, put = __cordl_internal_set_m_LoadBundleRequest))::UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest;
 
-  constexpr bool const& __cordl_internal_get_m_OpInProgress() const;
+  /// @brief Field m_LoadTextAssetRequest, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LoadTextAssetRequest, put = __cordl_internal_set_m_LoadTextAssetRequest))::UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest;
 
-  constexpr void __cordl_internal_set_m_OpInProgress(bool value);
+  /// @brief Field m_OpInProgress, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_OpInProgress, put = __cordl_internal_set_m_OpInProgress)) bool m_OpInProgress;
 
-  constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_m_LoadBundleRequest();
+  /// @brief Field m_RequestOperation, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::AsyncOperation* m_RequestOperation;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __cordl_internal_get_m_LoadBundleRequest() const;
+  /// @brief Field m_WebRequestQueueOperation, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_WebRequestQueueOperation,
+                      put = __cordl_internal_set_m_WebRequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_WebRequestQueueOperation;
 
-  constexpr void __cordl_internal_set_m_LoadBundleRequest(::UnityEngine::AssetBundleCreateRequest* value);
+  /// @brief Field m_WebRequestTimeout, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
 
-  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_CatalogAssetBundle();
+  /// @brief Method Finalize, addr 0x2b1754c, size 0xa8, virtual true, abstract: false, final false
+  inline void Finalize();
 
-  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_CatalogAssetBundle() const;
+  /// @brief Method LoadCatalogFromBundleAsync, addr 0x2b16938, size 0x294, virtual false, abstract: false, final false
+  inline void LoadCatalogFromBundleAsync();
 
-  constexpr void __cordl_internal_set_m_CatalogAssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
+  /// @brief Method LoadTextAssetRequestComplete, addr 0x2b17818, size 0x198, virtual false, abstract: false, final false
+  inline void LoadTextAssetRequestComplete(::UnityEngine::AsyncOperation* op);
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_LoadTextAssetRequest();
+  static inline ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* New_ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_m_LoadTextAssetRequest() const;
+  /// @brief Method Unload, addr 0x2b175f4, size 0x28, virtual false, abstract: false, final false
+  inline void Unload();
 
-  constexpr void __cordl_internal_set_m_LoadTextAssetRequest(::UnityEngine::AssetBundleRequest* value);
+  /// @brief Method WaitForCompletion, addr 0x2b16568, size 0xe4, virtual false, abstract: false, final false
+  inline bool WaitForCompletion();
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& __cordl_internal_get_m_CatalogData();
+  /// @brief Method WebRequestOperationCompleted, addr 0x2b1761c, size 0x1fc, virtual false, abstract: false, final false
+  inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const& __cordl_internal_get_m_CatalogData() const;
+  /// @brief Method <LoadCatalogFromBundleAsync>b__19_0, addr 0x2b17a48, size 0x1d8, virtual false, abstract: false, final false
+  inline void _LoadCatalogFromBundleAsync_b__19_0(::UnityEngine::AsyncOperation* loadOp);
 
-  constexpr void __cordl_internal_set_m_CatalogData(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
-
-  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_WebRequestQueueOperation();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __cordl_internal_get_m_WebRequestQueueOperation() const;
-
-  constexpr void __cordl_internal_set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
-
-  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get_m_RequestOperation();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get_m_RequestOperation() const;
-
-  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AsyncOperation* value);
-
-  constexpr int32_t& __cordl_internal_get_m_WebRequestTimeout();
-
-  constexpr int32_t const& __cordl_internal_get_m_WebRequestTimeout() const;
-
-  constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
+  /// @brief Method <LoadCatalogFromBundleAsync>b__19_1, addr 0x2b179b0, size 0x98, virtual false, abstract: false, final false
+  inline void _LoadCatalogFromBundleAsync_b__19_1(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   constexpr ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*& __cordl_internal_get_OnLoaded();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*> const& __cordl_internal_get_OnLoaded() const;
 
+  constexpr ::StringW const& __cordl_internal_get_m_BundlePath() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_BundlePath();
+
+  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_CatalogAssetBundle() const;
+
+  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_CatalogAssetBundle();
+
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& __cordl_internal_get_m_CatalogData();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const& __cordl_internal_get_m_CatalogData() const;
+
+  constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_m_LoadBundleRequest();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __cordl_internal_get_m_LoadBundleRequest() const;
+
+  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_LoadTextAssetRequest();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_m_LoadTextAssetRequest() const;
+
+  constexpr bool const& __cordl_internal_get_m_OpInProgress() const;
+
+  constexpr bool& __cordl_internal_get_m_OpInProgress();
+
+  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get_m_RequestOperation();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get_m_RequestOperation() const;
+
+  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_WebRequestQueueOperation();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __cordl_internal_get_m_WebRequestQueueOperation() const;
+
+  constexpr int32_t const& __cordl_internal_get_m_WebRequestTimeout() const;
+
+  constexpr int32_t& __cordl_internal_get_m_WebRequestTimeout();
+
   constexpr void __cordl_internal_set_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method add_OnLoaded, addr 0x2a2bc48, size 0xb0, virtual false, abstract: false, final false
-  inline void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
+  constexpr void __cordl_internal_set_m_BundlePath(::StringW value);
 
-  /// @brief Method remove_OnLoaded, addr 0x2a2c834, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
+  constexpr void __cordl_internal_set_m_CatalogAssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method get_OpInProgress, addr 0x2a2c8e4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_OpInProgress();
+  constexpr void __cordl_internal_set_m_CatalogData(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
 
-  /// @brief Method get_OpIsSuccess, addr 0x2a2c8ec, size 0x20, virtual false, abstract: false, final false
-  inline bool get_OpIsSuccess();
+  constexpr void __cordl_internal_set_m_LoadBundleRequest(::UnityEngine::AssetBundleCreateRequest* value);
 
-  static inline ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* New_ctor(::StringW bundlePath, int32_t webRequestTimeout);
+  constexpr void __cordl_internal_set_m_LoadTextAssetRequest(::UnityEngine::AssetBundleRequest* value);
 
-  /// @brief Method .ctor, addr 0x2a2bb20, size 0x128, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_OpInProgress(bool value);
+
+  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AsyncOperation* value);
+
+  constexpr void __cordl_internal_set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
+
+  constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2b16760, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
-  /// @brief Method Finalize, addr 0x2a2c90c, size 0xa8, virtual true, abstract: false, final false
-  inline void Finalize();
+  /// @brief Method add_OnLoaded, addr 0x2b16888, size 0xb0, virtual false, abstract: false, final false
+  inline void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method Unload, addr 0x2a2c9b4, size 0x28, virtual false, abstract: false, final false
-  inline void Unload();
+  /// @brief Method get_OpInProgress, addr 0x2b17524, size 0x8, virtual false, abstract: false, final false
+  inline bool get_OpInProgress();
 
-  /// @brief Method LoadCatalogFromBundleAsync, addr 0x2a2bcf8, size 0x294, virtual false, abstract: false, final false
-  inline void LoadCatalogFromBundleAsync();
+  /// @brief Method get_OpIsSuccess, addr 0x2b1752c, size 0x20, virtual false, abstract: false, final false
+  inline bool get_OpIsSuccess();
 
-  /// @brief Method WebRequestOperationCompleted, addr 0x2a2c9dc, size 0x1fc, virtual false, abstract: false, final false
-  inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
+  /// @brief Method remove_OnLoaded, addr 0x2b17474, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
-  /// @brief Method LoadTextAssetRequestComplete, addr 0x2a2cbd8, size 0x198, virtual false, abstract: false, final false
-  inline void LoadTextAssetRequestComplete(::UnityEngine::AsyncOperation* op);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ContentCatalogProvider__InternalOp__BundledCatalog();
 
-  /// @brief Method WaitForCompletion, addr 0x2a2b928, size 0xe4, virtual false, abstract: false, final false
-  inline bool WaitForCompletion();
-
-  /// @brief Method <LoadCatalogFromBundleAsync>b__19_1, addr 0x2a2cd70, size 0x98, virtual false, abstract: false, final false
-  inline void _LoadCatalogFromBundleAsync_b__19_1(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
-
-  /// @brief Method <LoadCatalogFromBundleAsync>b__19_0, addr 0x2a2ce08, size 0x1d8, virtual false, abstract: false, final false
-  inline void _LoadCatalogFromBundleAsync_b__19_0(::UnityEngine::AsyncOperation* loadOp);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ContentCatalogProvider__InternalOp__BundledCatalog", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ContentCatalogProvider__InternalOp__BundledCatalog(__ContentCatalogProvider__InternalOp__BundledCatalog&&) = delete;
@@ -291,12 +298,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ContentCatalogProvider__InternalOp__BundledCatalog(__ContentCatalogProvider__InternalOp__BundledCatalog const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ContentCatalogProvider__InternalOp__BundledCatalog();
-
-public:
   /// @brief Field m_BundlePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_BundlePath;
 
@@ -357,26 +358,15 @@ static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14111)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS
-// Name: ::ContentCatalogProvider::InternalOp*
+// CS Name: ::ContentCatalogProvider::InternalOp*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
   using BundledCatalog = ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog;
 
-  /// @brief Field m_LocalDataPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LocalDataPath, put = __cordl_internal_set_m_LocalDataPath))::StringW m_LocalDataPath;
-
-  /// @brief Field m_RemoteHashValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RemoteHashValue, put = __cordl_internal_set_m_RemoteHashValue))::StringW m_RemoteHashValue;
-
-  /// @brief Field m_LocalHashValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LocalHashValue, put = __cordl_internal_set_m_LocalHashValue))::StringW m_LocalHashValue;
-
-  /// @brief Field m_ProviderInterface, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_ProviderInterface,
-                      put = __cordl_internal_set_m_ProviderInterface))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface;
+  /// @brief Field m_BundledCatalog, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BundledCatalog,
+                      put = __cordl_internal_set_m_BundledCatalog))::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* m_BundledCatalog;
 
   /// @brief Field m_ContentCatalogData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ContentCatalogData,
@@ -386,118 +376,133 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ContentCatalogDataLoadOp, put = __cordl_internal_set_m_ContentCatalogDataLoadOp))::UnityEngine::ResourceManagement::AsyncOperations::
       AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp;
 
-  /// @brief Field m_BundledCatalog, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BundledCatalog,
-                      put = __cordl_internal_set_m_BundledCatalog))::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* m_BundledCatalog;
-
-  /// @brief Field m_Retried, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Retried, put = __cordl_internal_set_m_Retried)) bool m_Retried;
-
   /// @brief Field m_DisableCatalogUpdateOnStart, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DisableCatalogUpdateOnStart, put = __cordl_internal_set_m_DisableCatalogUpdateOnStart)) bool m_DisableCatalogUpdateOnStart;
 
   /// @brief Field m_IsLocalCatalogInBundle, offset 0x72, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsLocalCatalogInBundle, put = __cordl_internal_set_m_IsLocalCatalogInBundle)) bool m_IsLocalCatalogInBundle;
 
-  constexpr ::StringW& __cordl_internal_get_m_LocalDataPath();
+  /// @brief Field m_LocalDataPath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LocalDataPath, put = __cordl_internal_set_m_LocalDataPath))::StringW m_LocalDataPath;
 
-  constexpr ::StringW const& __cordl_internal_get_m_LocalDataPath() const;
+  /// @brief Field m_LocalHashValue, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LocalHashValue, put = __cordl_internal_set_m_LocalHashValue))::StringW m_LocalHashValue;
 
-  constexpr void __cordl_internal_set_m_LocalDataPath(::StringW value);
+  /// @brief Field m_ProviderInterface, offset 0x28, size 0x18
+  __declspec(property(get = __cordl_internal_get_m_ProviderInterface,
+                      put = __cordl_internal_set_m_ProviderInterface))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface;
 
-  constexpr ::StringW& __cordl_internal_get_m_RemoteHashValue();
+  /// @brief Field m_RemoteHashValue, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RemoteHashValue, put = __cordl_internal_set_m_RemoteHashValue))::StringW m_RemoteHashValue;
 
-  constexpr ::StringW const& __cordl_internal_get_m_RemoteHashValue() const;
+  /// @brief Field m_Retried, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_Retried, put = __cordl_internal_set_m_Retried)) bool m_Retried;
 
-  constexpr void __cordl_internal_set_m_RemoteHashValue(::StringW value);
+  /// @brief Method CanLoadCatalogFromBundle, addr 0x2b15f40, size 0xc4, virtual false, abstract: false, final false
+  inline bool CanLoadCatalogFromBundle(::StringW idToLoad, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  constexpr ::StringW& __cordl_internal_get_m_LocalHashValue();
+  /// @brief Method CatalogLoadOpCompleteCallback, addr 0x2b16bcc, size 0xe0, virtual false, abstract: false, final false
+  inline void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
 
-  constexpr ::StringW const& __cordl_internal_get_m_LocalHashValue() const;
+  /// @brief Method DetermineIdToLoad, addr 0x2b157f8, size 0x748, virtual false, abstract: false, final false
+  inline ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::System::Object*>* dependencyObjects,
+                                     bool disableCatalogUpdateOnStart);
 
-  constexpr void __cordl_internal_set_m_LocalHashValue(::StringW value);
+  /// @brief Method GetTransformedInternalId, addr 0x2b166a4, size 0xbc, virtual false, abstract: false, final false
+  inline ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProviderInterface();
+  /// @brief Method LoadCatalog, addr 0x2b16004, size 0x49c, virtual false, abstract: false, final false
+  inline void LoadCatalog(::StringW idToLoad, bool loadCatalogFromLocalBundle);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProviderInterface() const;
+  static inline ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp* New_ctor();
 
-  constexpr void __cordl_internal_set_m_ProviderInterface(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+  /// @brief Method OnCatalogLoaded, addr 0x2b16cac, size 0x7c0, virtual false, abstract: false, final false
+  inline void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& __cordl_internal_get_m_ContentCatalogData();
+  /// @brief Method Release, addr 0x2b15508, size 0x10, virtual false, abstract: false, final false
+  inline void Release();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const& __cordl_internal_get_m_ContentCatalogData() const;
+  /// @brief Method Start, addr 0x2b1567c, size 0x17c, virtual false, abstract: false, final false
+  inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
 
-  constexpr void __cordl_internal_set_m_ContentCatalogData(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
+  /// @brief Method WaitForCompletionCallback, addr 0x2b164a0, size 0xc8, virtual false, abstract: false, final false
+  inline bool WaitForCompletionCallback();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>&
-  __cordl_internal_get_m_ContentCatalogDataLoadOp();
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const&
-  __cordl_internal_get_m_ContentCatalogDataLoadOp() const;
-
-  constexpr void __cordl_internal_set_m_ContentCatalogDataLoadOp(
-      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> value);
+  /// @brief Method <LoadCatalog>b__14_0, addr 0x2b1746c, size 0x8, virtual false, abstract: false, final false
+  inline void _LoadCatalog_b__14_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
 
   constexpr ::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog*& __cordl_internal_get_m_BundledCatalog();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog*> const& __cordl_internal_get_m_BundledCatalog() const;
 
-  constexpr void __cordl_internal_set_m_BundledCatalog(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* value);
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& __cordl_internal_get_m_ContentCatalogData();
 
-  constexpr bool& __cordl_internal_get_m_Retried();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const& __cordl_internal_get_m_ContentCatalogData() const;
 
-  constexpr bool const& __cordl_internal_get_m_Retried() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> const&
+  __cordl_internal_get_m_ContentCatalogDataLoadOp() const;
 
-  constexpr void __cordl_internal_set_m_Retried(bool value);
-
-  constexpr bool& __cordl_internal_get_m_DisableCatalogUpdateOnStart();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>&
+  __cordl_internal_get_m_ContentCatalogDataLoadOp();
 
   constexpr bool const& __cordl_internal_get_m_DisableCatalogUpdateOnStart() const;
 
-  constexpr void __cordl_internal_set_m_DisableCatalogUpdateOnStart(bool value);
-
-  constexpr bool& __cordl_internal_get_m_IsLocalCatalogInBundle();
+  constexpr bool& __cordl_internal_get_m_DisableCatalogUpdateOnStart();
 
   constexpr bool const& __cordl_internal_get_m_IsLocalCatalogInBundle() const;
 
+  constexpr bool& __cordl_internal_get_m_IsLocalCatalogInBundle();
+
+  constexpr ::StringW const& __cordl_internal_get_m_LocalDataPath() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_LocalDataPath();
+
+  constexpr ::StringW const& __cordl_internal_get_m_LocalHashValue() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_LocalHashValue();
+
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProviderInterface() const;
+
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProviderInterface();
+
+  constexpr ::StringW const& __cordl_internal_get_m_RemoteHashValue() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_RemoteHashValue();
+
+  constexpr bool const& __cordl_internal_get_m_Retried() const;
+
+  constexpr bool& __cordl_internal_get_m_Retried();
+
+  constexpr void __cordl_internal_set_m_BundledCatalog(::GlobalNamespace::__ContentCatalogProvider__InternalOp__BundledCatalog* value);
+
+  constexpr void __cordl_internal_set_m_ContentCatalogData(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* value);
+
+  constexpr void __cordl_internal_set_m_ContentCatalogDataLoadOp(
+      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> value);
+
+  constexpr void __cordl_internal_set_m_DisableCatalogUpdateOnStart(bool value);
+
   constexpr void __cordl_internal_set_m_IsLocalCatalogInBundle(bool value);
 
-  /// @brief Method Start, addr 0x2a2aa3c, size 0x17c, virtual false, abstract: false, final false
-  inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
+  constexpr void __cordl_internal_set_m_LocalDataPath(::StringW value);
 
-  /// @brief Method WaitForCompletionCallback, addr 0x2a2b860, size 0xc8, virtual false, abstract: false, final false
-  inline bool WaitForCompletionCallback();
+  constexpr void __cordl_internal_set_m_LocalHashValue(::StringW value);
 
-  /// @brief Method Release, addr 0x2a2a8c8, size 0x10, virtual false, abstract: false, final false
-  inline void Release();
+  constexpr void __cordl_internal_set_m_ProviderInterface(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
-  /// @brief Method CanLoadCatalogFromBundle, addr 0x2a2b300, size 0xc4, virtual false, abstract: false, final false
-  inline bool CanLoadCatalogFromBundle(::StringW idToLoad, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
+  constexpr void __cordl_internal_set_m_RemoteHashValue(::StringW value);
 
-  /// @brief Method LoadCatalog, addr 0x2a2b3c4, size 0x49c, virtual false, abstract: false, final false
-  inline void LoadCatalog(::StringW idToLoad, bool loadCatalogFromLocalBundle);
+  constexpr void __cordl_internal_set_m_Retried(bool value);
 
-  /// @brief Method CatalogLoadOpCompleteCallback, addr 0x2a2bf8c, size 0xe0, virtual false, abstract: false, final false
-  inline void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
-
-  /// @brief Method GetTransformedInternalId, addr 0x2a2ba64, size 0xbc, virtual false, abstract: false, final false
-  inline ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
-
-  /// @brief Method DetermineIdToLoad, addr 0x2a2abb8, size 0x748, virtual false, abstract: false, final false
-  inline ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::System::Object*>* dependencyObjects,
-                                     bool disableCatalogUpdateOnStart);
-
-  /// @brief Method OnCatalogLoaded, addr 0x2a2c06c, size 0x7c0, virtual false, abstract: false, final false
-  inline void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
-
-  static inline ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2a2aa34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b15674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LoadCatalog>b__14_0, addr 0x2a2c82c, size 0x8, virtual false, abstract: false, final false
-  inline void _LoadCatalog_b__14_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ContentCatalogProvider__InternalOp();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ContentCatalogProvider__InternalOp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ContentCatalogProvider__InternalOp(__ContentCatalogProvider__InternalOp&&) = delete;
@@ -506,12 +511,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ContentCatalogProvider__InternalOp(__ContentCatalogProvider__InternalOp const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ContentCatalogProvider__InternalOp();
-
-public:
   /// @brief Field m_LocalDataPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_LocalDataPath;
 
@@ -572,15 +571,13 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::__Co
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14107))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceProviders::ContentCatalogProvider*
 class CORDL_TYPE ContentCatalogProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  using InternalOp = ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp;
-
   using DependencyHashIndex = ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__DependencyHashIndex;
+
+  using InternalOp = ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp;
 
   /// @brief Field DisableCatalogUpdateOnStart, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_DisableCatalogUpdateOnStart, put = __cordl_internal_set_DisableCatalogUpdateOnStart)) bool DisableCatalogUpdateOnStart;
@@ -596,17 +593,21 @@ public:
   /// @brief Field m_RM, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RM, put = __cordl_internal_set_m_RM))::UnityEngine::ResourceManagement::ResourceManager* m_RM;
 
-  constexpr bool& __cordl_internal_get_DisableCatalogUpdateOnStart();
+  static inline ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManagerInstance);
+
+  /// @brief Method Provide, addr 0x2b15518, size 0x15c, virtual true, abstract: false, final false
+  inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
+
+  /// @brief Method Release, addr 0x2b1542c, size 0xdc, virtual true, abstract: false, final false
+  inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
 
   constexpr bool const& __cordl_internal_get_DisableCatalogUpdateOnStart() const;
 
-  constexpr void __cordl_internal_set_DisableCatalogUpdateOnStart(bool value);
-
-  constexpr bool& __cordl_internal_get_IsLocalCatalogInBundle();
+  constexpr bool& __cordl_internal_get_DisableCatalogUpdateOnStart();
 
   constexpr bool const& __cordl_internal_get_IsLocalCatalogInBundle() const;
 
-  constexpr void __cordl_internal_set_IsLocalCatalogInBundle(bool value);
+  constexpr bool& __cordl_internal_get_IsLocalCatalogInBundle();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,
                                                          ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp*>*&
@@ -616,27 +617,29 @@ public:
                                                                                              ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp*>*> const&
   __cordl_internal_get_m_LocationToCatalogLoadOpMap() const;
 
-  constexpr void
-  __cordl_internal_set_m_LocationToCatalogLoadOpMap(::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,
-                                                                                                 ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp*>* value);
-
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_RM();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_RM() const;
 
+  constexpr void __cordl_internal_set_DisableCatalogUpdateOnStart(bool value);
+
+  constexpr void __cordl_internal_set_IsLocalCatalogInBundle(bool value);
+
+  constexpr void
+  __cordl_internal_set_m_LocationToCatalogLoadOpMap(::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,
+                                                                                                 ::UnityEngine::AddressableAssets::ResourceProviders::__ContentCatalogProvider__InternalOp*>* value);
+
   constexpr void __cordl_internal_set_m_RM(::UnityEngine::ResourceManagement::ResourceManager* value);
 
-  static inline ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManagerInstance);
-
-  /// @brief Method .ctor, addr 0x2a2a754, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b15394, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManagerInstance);
 
-  /// @brief Method Release, addr 0x2a2a7ec, size 0xdc, virtual true, abstract: false, final false
-  inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContentCatalogProvider();
 
-  /// @brief Method Provide, addr 0x2a2a8d8, size 0x15c, virtual true, abstract: false, final false
-  inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogProvider(ContentCatalogProvider&&) = delete;
@@ -645,12 +648,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContentCatalogProvider(ContentCatalogProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContentCatalogProvider();
-
-public:
   /// @brief Field DisableCatalogUpdateOnStart, offset: 0x1c, size: 0x1, def value: None
   bool ___DisableCatalogUpdateOnStart;
 

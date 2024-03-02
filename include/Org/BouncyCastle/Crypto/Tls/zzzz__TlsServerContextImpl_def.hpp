@@ -26,35 +26,39 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1167))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1322))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsServerContextImpl*
 class CORDL_TYPE TlsServerContextImpl : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext {
 public:
   // Declarations
   __declspec(property(get = get_IsServer)) bool IsServer;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsServerContext*() noexcept;
-
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContext* i___Org__BouncyCastle__Crypto__Tls__TlsServerContext() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
+  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
+  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsServerContext*() noexcept;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0xfb27cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x102362c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0xfb283c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x102369c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsServerContext"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerContext* i___Org__BouncyCastle__Crypto__Tls__TlsServerContext() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsServerContextImpl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsServerContextImpl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsServerContextImpl(TlsServerContextImpl&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsServerContextImpl(TlsServerContextImpl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsServerContextImpl();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

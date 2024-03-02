@@ -16,18 +16,16 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::in6_addr);
 // SizeInfo { instance_size: 8, native_size: 16, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9297))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::in6_addr
 struct CORDL_TYPE in6_addr {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "u6_addr8", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
-  constexpr in6_addr(::ArrayW<uint8_t, ::Array<uint8_t>*> u6_addr8) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr in6_addr();
+
+  // Ctor Parameters [CppParam { name: "u6_addr8", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
+  constexpr in6_addr(::ArrayW<uint8_t, ::Array<uint8_t>*> u6_addr8) noexcept;
 
   /// @brief Field u6_addr8, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> u6_addr8;

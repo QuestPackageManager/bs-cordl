@@ -38,8 +38,6 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11989)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11989), inst: 2991 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11989))
 // CS Name: ::Newtonsoft.Json.Linq::JEnumerable`1<T>
 struct CORDL_TYPE JEnumerable_1 {
 public:
@@ -52,52 +50,52 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
   constexpr operator ::Newtonsoft::Json::Linq::IJEnumerable_1<T>*();
 
-  /// @brief Convert to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
-  constexpr ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* i___Newtonsoft__Json__Linq__IJEnumerable_1_T_();
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*();
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Equals(::Newtonsoft::Json::Linq::JEnumerable_1<T> other);
+
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
+
+  static inline ::Newtonsoft::Json::Linq::JEnumerable_1<T> getStaticF_Empty();
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* get_Item(::System::Object* key);
+
+  /// @brief Convert to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
+  constexpr ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* i___Newtonsoft__Json__Linq__IJEnumerable_1_T_();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   static inline void setStaticF_Empty(::Newtonsoft::Json::Linq::JEnumerable_1<T> value);
 
-  static inline ::Newtonsoft::Json::Linq::JEnumerable_1<T> getStaticF_Empty();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
-
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* get_Item(::System::Object* key);
-
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Equals(::Newtonsoft::Json::Linq::JEnumerable_1<T> other);
-
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None }]
-  constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr JEnumerable_1();
+
+  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None }]
+  constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
   /// @brief Field _enumerable, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* _enumerable;

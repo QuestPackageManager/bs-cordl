@@ -30,7 +30,7 @@ template <std::size_t offset> CORDL_HIDDEN constexpr inline void** getAtOffset(v
 }
 
 /// @brief gets an offset from a given pointer
-template <std::size_t offset> CORDL_HIDDEN constexpr inline const void* const* getAtOffset(void const* instance) {
+template <std::size_t offset> CORDL_HIDDEN constexpr inline void const* const* getAtOffset(void const* instance) {
   return static_cast<void const* const*>(static_cast<void const*>(static_cast<uint8_t const*>(instance) + offset));
 }
 

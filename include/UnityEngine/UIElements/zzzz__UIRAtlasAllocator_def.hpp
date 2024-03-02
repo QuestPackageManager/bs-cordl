@@ -42,12 +42,16 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIRAtlasAllocator__Row);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7324))
 // CS Name: ::UIRAtlasAllocator::Row*
 class CORDL_TYPE __UIRAtlasAllocator__Row : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Cursor, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_Cursor, put = __cordl_internal_set_Cursor)) int32_t Cursor;
+
+  /// @brief Field <height>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
+
   /// @brief Field <offsetX>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__offsetX_k__BackingField, put = __cordl_internal_set__offsetX_k__BackingField)) int32_t _offsetX_k__BackingField;
 
@@ -57,89 +61,89 @@ public:
   /// @brief Field <width>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__width_k__BackingField, put = __cordl_internal_set__width_k__BackingField)) int32_t _width_k__BackingField;
 
-  /// @brief Field <height>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
-
-  /// @brief Field Cursor, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_Cursor, put = __cordl_internal_set_Cursor)) int32_t Cursor;
-
-  /// @brief Field s_Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* s_Pool;
+  __declspec(property(put = set_height)) int32_t height;
 
   __declspec(property(get = get_offsetX, put = set_offsetX)) int32_t offsetX;
 
   __declspec(property(get = get_offsetY, put = set_offsetY)) int32_t offsetY;
 
+  /// @brief Field s_Pool, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* s_Pool;
+
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  __declspec(property(put = set_height)) int32_t height;
-
-  constexpr int32_t& __cordl_internal_get__offsetX_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__offsetX_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__offsetX_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__offsetY_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__offsetY_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__offsetY_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__width_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__width_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__height_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__height_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__height_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_Cursor();
-
-  constexpr int32_t const& __cordl_internal_get_Cursor() const;
-
-  constexpr void __cordl_internal_set_Cursor(int32_t value);
-
-  static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* value);
-
-  static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* getStaticF_s_Pool();
-
-  /// @brief Method get_offsetX, addr 0x2e77480, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_offsetX();
-
-  /// @brief Method set_offsetX, addr 0x2e77488, size 0x8, virtual false, abstract: false, final false
-  inline void set_offsetX(int32_t value);
-
-  /// @brief Method get_offsetY, addr 0x2e77490, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_offsetY();
-
-  /// @brief Method set_offsetY, addr 0x2e77498, size 0x8, virtual false, abstract: false, final false
-  inline void set_offsetY(int32_t value);
-
-  /// @brief Method get_width, addr 0x2e774a0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_width();
-
-  /// @brief Method set_width, addr 0x2e774a8, size 0x8, virtual false, abstract: false, final false
-  inline void set_width(int32_t value);
-
-  /// @brief Method set_height, addr 0x2e774b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_height(int32_t value);
-
-  /// @brief Method Acquire, addr 0x2e7728c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2f84d9c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height);
-
-  /// @brief Method Release, addr 0x2e766e4, size 0x90, virtual false, abstract: false, final false
-  inline void Release();
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e774b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2f841f4, size 0x90, virtual false, abstract: false, final false
+  inline void Release();
+
+  constexpr int32_t const& __cordl_internal_get_Cursor() const;
+
+  constexpr int32_t& __cordl_internal_get_Cursor();
+
+  constexpr int32_t const& __cordl_internal_get__height_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__height_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__offsetX_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__offsetX_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__offsetY_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__offsetY_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__width_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__width_k__BackingField();
+
+  constexpr void __cordl_internal_set_Cursor(int32_t value);
+
+  constexpr void __cordl_internal_set__height_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__offsetX_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__offsetY_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2f84fc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* getStaticF_s_Pool();
+
+  /// @brief Method get_offsetX, addr 0x2f84f90, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_offsetX();
+
+  /// @brief Method get_offsetY, addr 0x2f84fa0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_offsetY();
+
+  /// @brief Method get_width, addr 0x2f84fb0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_width();
+
+  static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* value);
+
+  /// @brief Method set_height, addr 0x2f84fc0, size 0x8, virtual false, abstract: false, final false
+  inline void set_height(int32_t value);
+
+  /// @brief Method set_offsetX, addr 0x2f84f98, size 0x8, virtual false, abstract: false, final false
+  inline void set_offsetX(int32_t value);
+
+  /// @brief Method set_offsetY, addr 0x2f84fa8, size 0x8, virtual false, abstract: false, final false
+  inline void set_offsetY(int32_t value);
+
+  /// @brief Method set_width, addr 0x2f84fb8, size 0x8, virtual false, abstract: false, final false
+  inline void set_width(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UIRAtlasAllocator__Row();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__Row", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UIRAtlasAllocator__Row(__UIRAtlasAllocator__Row&&) = delete;
@@ -148,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIRAtlasAllocator__Row(__UIRAtlasAllocator__Row const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UIRAtlasAllocator__Row();
-
-public:
   /// @brief Field <offsetX>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____offsetX_k__BackingField;
 
@@ -189,63 +187,67 @@ static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__Row, ___C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10162))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::UIRAtlasAllocator::AreaNode*
 class CORDL_TYPE __UIRAtlasAllocator__AreaNode : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field rect, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
+  /// @brief Field next, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* next;
 
   /// @brief Field previous, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_previous, put = __cordl_internal_set_previous))::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous;
 
-  /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* next;
+  /// @brief Field rect, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
 
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* s_Pool;
 
-  constexpr ::UnityEngine::RectInt& __cordl_internal_get_rect();
+  /// @brief Method Acquire, addr 0x2f84600, size 0x98, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* Acquire(::UnityEngine::RectInt rect);
 
-  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_rect() const;
+  /// @brief Method AddAfter, addr 0x2f84e70, size 0xac, virtual false, abstract: false, final false
+  inline void AddAfter(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous);
 
-  constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
+  static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* New_ctor();
 
-  constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& __cordl_internal_get_previous();
+  /// @brief Method Release, addr 0x2f84284, size 0x80, virtual false, abstract: false, final false
+  inline void Release();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& __cordl_internal_get_previous() const;
-
-  constexpr void __cordl_internal_set_previous(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value);
+  /// @brief Method RemoveFromChain, addr 0x2f84e48, size 0x28, virtual false, abstract: false, final false
+  inline void RemoveFromChain();
 
   constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& __cordl_internal_get_next();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& __cordl_internal_get_next() const;
 
+  constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& __cordl_internal_get_previous();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& __cordl_internal_get_previous() const;
+
+  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_rect() const;
+
+  constexpr ::UnityEngine::RectInt& __cordl_internal_get_rect();
+
   constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value);
 
-  static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* value);
+  constexpr void __cordl_internal_set_previous(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value);
+
+  constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
+
+  /// @brief Method .ctor, addr 0x2f85060, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* getStaticF_s_Pool();
 
-  /// @brief Method Acquire, addr 0x2e76af0, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* Acquire(::UnityEngine::RectInt rect);
+  static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* value);
 
-  /// @brief Method Release, addr 0x2e76774, size 0x80, virtual false, abstract: false, final false
-  inline void Release();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UIRAtlasAllocator__AreaNode();
 
-  /// @brief Method RemoveFromChain, addr 0x2e77338, size 0x28, virtual false, abstract: false, final false
-  inline void RemoveFromChain();
-
-  /// @brief Method AddAfter, addr 0x2e77360, size 0xac, virtual false, abstract: false, final false
-  inline void AddAfter(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous);
-
-  static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e77550, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UIRAtlasAllocator__AreaNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UIRAtlasAllocator__AreaNode(__UIRAtlasAllocator__AreaNode&&) = delete;
@@ -254,12 +256,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIRAtlasAllocator__AreaNode(__UIRAtlasAllocator__AreaNode const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UIRAtlasAllocator__AreaNode();
-
-public:
   /// @brief Field rect, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::RectInt ___rect;
 
@@ -285,8 +281,6 @@ static_assert(offsetof(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode,
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7326))
 // CS Name: ::UnityEngine.UIElements::UIRAtlasAllocator*
 class CORDL_TYPE UIRAtlasAllocator : public ::System::Object {
 public:
@@ -295,26 +289,37 @@ public:
 
   using Row = ::UnityEngine::UIElements::__UIRAtlasAllocator__Row;
 
+  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+
   /// @brief Field <maxAtlasSize>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__maxAtlasSize_k__BackingField, put = __cordl_internal_set__maxAtlasSize_k__BackingField)) int32_t _maxAtlasSize_k__BackingField;
-
-  /// @brief Field <maxImageWidth>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxImageWidth_k__BackingField, put = __cordl_internal_set__maxImageWidth_k__BackingField)) int32_t _maxImageWidth_k__BackingField;
 
   /// @brief Field <maxImageHeight>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__maxImageHeight_k__BackingField, put = __cordl_internal_set__maxImageHeight_k__BackingField)) int32_t _maxImageHeight_k__BackingField;
 
-  /// @brief Field <virtualWidth>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__virtualWidth_k__BackingField, put = __cordl_internal_set__virtualWidth_k__BackingField)) int32_t _virtualWidth_k__BackingField;
+  /// @brief Field <maxImageWidth>k__BackingField, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxImageWidth_k__BackingField, put = __cordl_internal_set__maxImageWidth_k__BackingField)) int32_t _maxImageWidth_k__BackingField;
 
-  /// @brief Field <virtualHeight>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__virtualHeight_k__BackingField, put = __cordl_internal_set__virtualHeight_k__BackingField)) int32_t _virtualHeight_k__BackingField;
+  /// @brief Field <physicalHeight>k__BackingField, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__physicalHeight_k__BackingField, put = __cordl_internal_set__physicalHeight_k__BackingField)) int32_t _physicalHeight_k__BackingField;
 
   /// @brief Field <physicalWidth>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__physicalWidth_k__BackingField, put = __cordl_internal_set__physicalWidth_k__BackingField)) int32_t _physicalWidth_k__BackingField;
 
-  /// @brief Field <physicalHeight>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__physicalHeight_k__BackingField, put = __cordl_internal_set__physicalHeight_k__BackingField)) int32_t _physicalHeight_k__BackingField;
+  /// @brief Field <virtualHeight>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__virtualHeight_k__BackingField, put = __cordl_internal_set__virtualHeight_k__BackingField)) int32_t _virtualHeight_k__BackingField;
+
+  /// @brief Field <virtualWidth>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__virtualWidth_k__BackingField, put = __cordl_internal_set__virtualWidth_k__BackingField)) int32_t _virtualWidth_k__BackingField;
+
+  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+
+  /// @brief Field m_1SidePadding, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_1SidePadding, put = __cordl_internal_set_m_1SidePadding)) int32_t m_1SidePadding;
+
+  /// @brief Field m_2SidePadding, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_2SidePadding, put = __cordl_internal_set_m_2SidePadding)) int32_t m_2SidePadding;
 
   /// @brief Field m_FirstUnpartitionedArea, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstUnpartitionedArea,
@@ -324,178 +329,173 @@ public:
   __declspec(property(get = __cordl_internal_get_m_OpenRows,
                       put = __cordl_internal_set_m_OpenRows))::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> m_OpenRows;
 
-  /// @brief Field m_1SidePadding, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_1SidePadding, put = __cordl_internal_set_m_1SidePadding)) int32_t m_1SidePadding;
+  __declspec(property(get = get_maxAtlasSize)) int32_t maxAtlasSize;
 
-  /// @brief Field m_2SidePadding, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_2SidePadding, put = __cordl_internal_set_m_2SidePadding)) int32_t m_2SidePadding;
+  __declspec(property(get = get_maxImageHeight)) int32_t maxImageHeight;
 
-  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = get_maxImageWidth)) int32_t maxImageWidth;
+
+  __declspec(property(get = get_physicalHeight, put = set_physicalHeight)) int32_t physicalHeight;
+
+  __declspec(property(get = get_physicalWidth, put = set_physicalWidth)) int32_t physicalWidth;
 
   /// @brief Field s_MarkerTryAllocate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_MarkerTryAllocate, put = setStaticF_s_MarkerTryAllocate))::Unity::Profiling::ProfilerMarker s_MarkerTryAllocate;
 
-  __declspec(property(get = get_maxAtlasSize)) int32_t maxAtlasSize;
-
-  __declspec(property(get = get_maxImageWidth)) int32_t maxImageWidth;
-
-  __declspec(property(get = get_maxImageHeight)) int32_t maxImageHeight;
-
-  __declspec(property(get = get_virtualWidth, put = set_virtualWidth)) int32_t virtualWidth;
-
   __declspec(property(get = get_virtualHeight, put = set_virtualHeight)) int32_t virtualHeight;
 
-  __declspec(property(get = get_physicalWidth, put = set_physicalWidth)) int32_t physicalWidth;
-
-  __declspec(property(get = get_physicalHeight, put = set_physicalHeight)) int32_t physicalHeight;
-
-  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+  __declspec(property(get = get_virtualWidth, put = set_virtualWidth)) int32_t virtualWidth;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method BuildAreas, addr 0x2f84698, size 0x10c, virtual false, abstract: false, final false
+  inline void BuildAreas();
 
-  constexpr int32_t& __cordl_internal_get__maxAtlasSize_k__BackingField();
+  /// @brief Method Dispose, addr 0x2f840f8, size 0x6c, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x2f84164, size 0x90, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method GetLog2OfNextPower, addr 0x2f84304, size 0x130, virtual false, abstract: false, final false
+  static inline int32_t GetLog2OfNextPower(int32_t n);
+
+  static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
+
+  /// @brief Method TryAllocate, addr 0x2f847a4, size 0x3e0, virtual false, abstract: false, final false
+  inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);
+
+  /// @brief Method TryPartitionArea, addr 0x2f84b84, size 0x218, virtual false, abstract: false, final false
+  inline bool TryPartitionArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
+
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__maxAtlasSize_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__maxAtlasSize_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__maxImageWidth_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__maxImageWidth_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__maxImageWidth_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__maxImageHeight_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxAtlasSize_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__maxImageHeight_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__maxImageHeight_k__BackingField(int32_t value);
+  constexpr int32_t& __cordl_internal_get__maxImageHeight_k__BackingField();
 
-  constexpr int32_t& __cordl_internal_get__virtualWidth_k__BackingField();
+  constexpr int32_t const& __cordl_internal_get__maxImageWidth_k__BackingField() const;
 
-  constexpr int32_t const& __cordl_internal_get__virtualWidth_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__virtualWidth_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__virtualHeight_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__virtualHeight_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__virtualHeight_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__physicalWidth_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__physicalWidth_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__physicalWidth_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__physicalHeight_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxImageWidth_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__physicalHeight_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__physicalHeight_k__BackingField(int32_t value);
+  constexpr int32_t& __cordl_internal_get__physicalHeight_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__physicalWidth_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__physicalWidth_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__virtualHeight_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__virtualHeight_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__virtualWidth_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__virtualWidth_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get_m_1SidePadding() const;
+
+  constexpr int32_t& __cordl_internal_get_m_1SidePadding();
+
+  constexpr int32_t const& __cordl_internal_get_m_2SidePadding() const;
+
+  constexpr int32_t& __cordl_internal_get_m_2SidePadding();
 
   constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& __cordl_internal_get_m_FirstUnpartitionedArea();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*> const& __cordl_internal_get_m_FirstUnpartitionedArea() const;
 
-  constexpr void __cordl_internal_set_m_FirstUnpartitionedArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value);
+  constexpr ::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> const& __cordl_internal_get_m_OpenRows() const;
 
   constexpr ::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*>& __cordl_internal_get_m_OpenRows();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> const& __cordl_internal_get_m_OpenRows() const;
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> value);
+  constexpr void __cordl_internal_set__maxAtlasSize_k__BackingField(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_m_1SidePadding();
+  constexpr void __cordl_internal_set__maxImageHeight_k__BackingField(int32_t value);
 
-  constexpr int32_t const& __cordl_internal_get_m_1SidePadding() const;
+  constexpr void __cordl_internal_set__maxImageWidth_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__physicalHeight_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__physicalWidth_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__virtualHeight_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__virtualWidth_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set_m_1SidePadding(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_m_2SidePadding();
-
-  constexpr int32_t const& __cordl_internal_get_m_2SidePadding() const;
-
   constexpr void __cordl_internal_set_m_2SidePadding(int32_t value);
 
-  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
+  constexpr void __cordl_internal_set_m_FirstUnpartitionedArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* value);
 
-  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+  constexpr void __cordl_internal_set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> value);
 
-  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
-
-  static inline void setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value);
+  /// @brief Method .ctor, addr 0x2f84434, size 0x1cc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
-  /// @brief Method get_maxAtlasSize, addr 0x2e7657c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxAtlasSize();
-
-  /// @brief Method get_maxImageWidth, addr 0x2e76584, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxImageWidth();
-
-  /// @brief Method get_maxImageHeight, addr 0x2e7658c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxImageHeight();
-
-  /// @brief Method get_virtualWidth, addr 0x2e76594, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_virtualWidth();
-
-  /// @brief Method set_virtualWidth, addr 0x2e7659c, size 0x8, virtual false, abstract: false, final false
-  inline void set_virtualWidth(int32_t value);
-
-  /// @brief Method get_virtualHeight, addr 0x2e765a4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_virtualHeight();
-
-  /// @brief Method set_virtualHeight, addr 0x2e765ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_virtualHeight(int32_t value);
-
-  /// @brief Method get_physicalWidth, addr 0x2e765b4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_physicalWidth();
-
-  /// @brief Method set_physicalWidth, addr 0x2e765bc, size 0x8, virtual false, abstract: false, final false
-  inline void set_physicalWidth(int32_t value);
-
-  /// @brief Method get_physicalHeight, addr 0x2e765c4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_physicalHeight();
-
-  /// @brief Method set_physicalHeight, addr 0x2e765cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_physicalHeight(int32_t value);
-
-  /// @brief Method get_disposed, addr 0x2e765d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2f840e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2e765dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x2f8408c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxAtlasSize();
+
+  /// @brief Method get_maxImageHeight, addr 0x2f8409c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxImageHeight();
+
+  /// @brief Method get_maxImageWidth, addr 0x2f84094, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxImageWidth();
+
+  /// @brief Method get_physicalHeight, addr 0x2f840d4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_physicalHeight();
+
+  /// @brief Method get_physicalWidth, addr 0x2f840c4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_physicalWidth();
+
+  /// @brief Method get_virtualHeight, addr 0x2f840b4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_virtualHeight();
+
+  /// @brief Method get_virtualWidth, addr 0x2f840a4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_virtualWidth();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value);
+
+  /// @brief Method set_disposed, addr 0x2f840ec, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e765e8, size 0x6c, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Method set_physicalHeight, addr 0x2f840dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_physicalHeight(int32_t value);
 
-  /// @brief Method Dispose, addr 0x2e76654, size 0x90, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+  /// @brief Method set_physicalWidth, addr 0x2f840cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_physicalWidth(int32_t value);
 
-  /// @brief Method GetLog2OfNextPower, addr 0x2e767f4, size 0x130, virtual false, abstract: false, final false
-  static inline int32_t GetLog2OfNextPower(int32_t n);
+  /// @brief Method set_virtualHeight, addr 0x2f840bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_virtualHeight(int32_t value);
 
-  static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
+  /// @brief Method set_virtualWidth, addr 0x2f840ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_virtualWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e76924, size 0x1cc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIRAtlasAllocator();
 
-  /// @brief Method TryAllocate, addr 0x2e76c94, size 0x3e0, virtual false, abstract: false, final false
-  inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);
-
-  /// @brief Method TryPartitionArea, addr 0x2e77074, size 0x218, virtual false, abstract: false, final false
-  inline bool TryPartitionArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
-
-  /// @brief Method BuildAreas, addr 0x2e76b88, size 0x10c, virtual false, abstract: false, final false
-  inline void BuildAreas();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRAtlasAllocator(UIRAtlasAllocator&&) = delete;
@@ -504,12 +504,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIRAtlasAllocator(UIRAtlasAllocator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIRAtlasAllocator();
-
-public:
   /// @brief Field <maxAtlasSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxAtlasSize_k__BackingField;
 

@@ -30,61 +30,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::UserNotice);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(395))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::UserNotice*
 class CORDL_TYPE UserNotice : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field noticeRef, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
+  __declspec(property(get = get_ExplicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* ExplicitText;
+
+  __declspec(property(get = get_NoticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* NoticeRef;
 
   /// @brief Field explicitText, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_explicitText, put = __cordl_internal_set_explicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText;
 
-  __declspec(property(get = get_NoticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* NoticeRef;
+  /// @brief Field noticeRef, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
 
-  __declspec(property(get = get_ExplicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* ExplicitText;
+  /// @brief Method GetInstance, addr 0x120a57c, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference*& __cordl_internal_get_noticeRef();
+  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NoticeReference*> const& __cordl_internal_get_noticeRef() const;
+  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  constexpr void __cordl_internal_set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
+  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x120a630, size 0x134, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __cordl_internal_get_explicitText();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& __cordl_internal_get_explicitText() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference*& __cordl_internal_get_noticeRef();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NoticeReference*> const& __cordl_internal_get_noticeRef() const;
+
   constexpr void __cordl_internal_set_explicitText(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
+  constexpr void __cordl_internal_set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
 
-  /// @brief Method .ctor, addr 0x119a46c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a2cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
-
-  /// @brief Method .ctor, addr 0x119a498, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a2f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x119a514, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120a374, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0x119a71c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_NoticeRef, addr 0x119a7c0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
-
-  /// @brief Method get_ExplicitText, addr 0x119a7c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExplicitText, addr 0x120a628, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_ExplicitText();
 
-  /// @brief Method ToAsn1Object, addr 0x119a7d0, size 0x134, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_NoticeRef, addr 0x120a620, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserNotice();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserNotice", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserNotice(UserNotice&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserNotice(UserNotice const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserNotice();
-
-public:
   /// @brief Field noticeRef, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::NoticeReference* ___noticeRef;
 

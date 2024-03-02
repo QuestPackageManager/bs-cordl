@@ -28,46 +28,50 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafNode);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11599))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11600))
 // CS Name: ::System.Xml.Schema::LeafNode*
 class CORDL_TYPE LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
-  /// @brief Field pos, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
+  __declspec(property(get = get_IsNullable)) bool IsNullable;
 
   __declspec(property(get = get_Pos, put = set_Pos)) int32_t Pos;
 
-  __declspec(property(get = get_IsNullable)) bool IsNullable;
+  /// @brief Field pos, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-  constexpr int32_t& __cordl_internal_get_pos();
-
-  constexpr int32_t const& __cordl_internal_get_pos() const;
-
-  constexpr void __cordl_internal_set_pos(int32_t value);
-
-  static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
-
-  /// @brief Method .ctor, addr 0x28adbdc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t pos);
-
-  /// @brief Method get_Pos, addr 0x28adc04, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Pos();
-
-  /// @brief Method set_Pos, addr 0x28adc0c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Pos(int32_t value);
-
-  /// @brief Method ExpandTree, addr 0x28adc14, size 0x4, virtual true, abstract: false, final false
-  inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
-
-  /// @brief Method ConstructPos, addr 0x28adc18, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x29986fc, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x28adc58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x29986f8, size 0x4, virtual true, abstract: false, final false
+  inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
+
+  static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
+
+  constexpr int32_t const& __cordl_internal_get_pos() const;
+
+  constexpr int32_t& __cordl_internal_get_pos();
+
+  constexpr void __cordl_internal_set_pos(int32_t value);
+
+  /// @brief Method .ctor, addr 0x29986c0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t pos);
+
+  /// @brief Method get_IsNullable, addr 0x299873c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
+  /// @brief Method get_Pos, addr 0x29986e8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Pos();
+
+  /// @brief Method set_Pos, addr 0x29986f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_Pos(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeafNode();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LeafNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeafNode(LeafNode&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeafNode(LeafNode const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeafNode();
-
-public:
   /// @brief Field pos, offset: 0x10, size: 0x4, def value: None
   int32_t ___pos;
 

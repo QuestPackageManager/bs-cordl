@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::NetSyncVoipAttenuationValueList::*)(void*)>(
     &::Oculus::Platform::Models::NetSyncVoipAttenuationValueList::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2707a88;
+  constexpr static std::size_t addrs = 0x27f9390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

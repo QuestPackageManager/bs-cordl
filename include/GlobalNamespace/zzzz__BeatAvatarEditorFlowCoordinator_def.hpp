@@ -51,18 +51,19 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatAvatarEditorFlowCoordinator);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15172))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15254))
 // CS Name: ::BeatAvatarEditorFlowCoordinator*
 class CORDL_TYPE BeatAvatarEditorFlowCoordinator : public ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator {
 public:
   // Declarations
+  /// @brief Field _avatarContainerGameObject, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarContainerGameObject, put = __cordl_internal_set__avatarContainerGameObject))::UnityW<::UnityEngine::GameObject> _avatarContainerGameObject;
+
+  /// @brief Field _avatarDataModel, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
+
   /// @brief Field _avatarTweenController, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarTweenController,
                       put = __cordl_internal_set__avatarTweenController))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> _avatarTweenController;
-
-  /// @brief Field _avatarContainerGameObject, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarContainerGameObject, put = __cordl_internal_set__avatarContainerGameObject))::UnityW<::UnityEngine::GameObject> _avatarContainerGameObject;
 
   /// @brief Field _avatarVisualController, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarVisualController,
@@ -77,93 +78,96 @@ public:
   __declspec(property(get = __cordl_internal_get__editAvatarColorViewController,
                       put = __cordl_internal_set__editAvatarColorViewController))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> _editAvatarColorViewController;
 
-  /// @brief Field _avatarDataModel, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
-
   /// @brief Field _parameterChangedAnimationCallbacks, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__parameterChangedAnimationCallbacks,
                       put = __cordl_internal_set__parameterChangedAnimationCallbacks))::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart,
                                                                                                                                    ::System::Action*>* _parameterChangedAnimationCallbacks;
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& __cordl_internal_get__avatarTweenController();
+  /// @brief Method DidActivate, addr 0xe630b8, size 0x4f0, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get__avatarTweenController() const;
+  /// @brief Method DidDeactivate, addr 0xe63e04, size 0x29c, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr void __cordl_internal_set__avatarTweenController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
+  /// @brief Method HandleBeatAvatarEditorViewCancelButtonWasPressed, addr 0xe6477c, size 0xc, virtual false, abstract: false, final false
+  inline void HandleBeatAvatarEditorViewCancelButtonWasPressed();
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__avatarContainerGameObject();
+  /// @brief Method HandleBeatAvatarEditorViewOkButtonWasPressed, addr 0xe64788, size 0xc, virtual false, abstract: false, final false
+  inline void HandleBeatAvatarEditorViewOkButtonWasPressed();
+
+  /// @brief Method HandleBeatAvatarViewControllerChangedAvatarPart, addr 0xe646dc, size 0xa0, virtual false, abstract: false, final false
+  inline void HandleBeatAvatarViewControllerChangedAvatarPart(::BeatSaber::BeatAvatarSDK::AvatarPart avatarPart);
+
+  /// @brief Method HandleBeatAvatarViewControllerDidRequestColorChange, addr 0xe64600, size 0x74, virtual false, abstract: false, final false
+  inline void HandleBeatAvatarViewControllerDidRequestColorChange(::System::Action_1<::UnityEngine::Color>* colorCallback, ::UnityEngine::Color currentColor,
+                                                                  ::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
+
+  /// @brief Method HandleEditColorViewControllerControllerDidFinish, addr 0xe647bc, size 0x80, virtual false, abstract: false, final false
+  inline void HandleEditColorViewControllerControllerDidFinish(bool apply);
+
+  /// @brief Method HandleEditColorViewControllerDidChangedColor, addr 0xe64794, size 0x28, virtual false, abstract: false, final false
+  inline void HandleEditColorViewControllerDidChangedColor(::UnityEngine::Color color);
+
+  static inline ::GlobalNamespace::BeatAvatarEditorFlowCoordinator* New_ctor();
+
+  /// @brief Method OneTimeInitialize, addr 0xe6486c, size 0x4, virtual true, abstract: false, final false
+  inline void OneTimeInitialize();
+
+  /// @brief Method Setup, addr 0xe62ff0, size 0x38, virtual true, abstract: false, final false
+  inline void Setup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__avatarContainerGameObject() const;
 
-  constexpr void __cordl_internal_set__avatarContainerGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& __cordl_internal_get__avatarVisualController();
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
-
-  constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>& __cordl_internal_get__beatAvatarEditorViewController();
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get__beatAvatarEditorViewController() const;
-
-  constexpr void __cordl_internal_set__beatAvatarEditorViewController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController>& __cordl_internal_get__editAvatarColorViewController();
-
-  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> const& __cordl_internal_get__editAvatarColorViewController() const;
-
-  constexpr void __cordl_internal_set__editAvatarColorViewController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> value);
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__avatarContainerGameObject();
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get__avatarTweenController() const;
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& __cordl_internal_get__avatarTweenController();
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>& __cordl_internal_get__avatarVisualController();
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get__beatAvatarEditorViewController() const;
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>& __cordl_internal_get__beatAvatarEditorViewController();
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> const& __cordl_internal_get__editAvatarColorViewController() const;
+
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController>& __cordl_internal_get__editAvatarColorViewController();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*& __cordl_internal_get__parameterChangedAnimationCallbacks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>*> const&
   __cordl_internal_get__parameterChangedAnimationCallbacks() const;
 
+  constexpr void __cordl_internal_set__avatarContainerGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+
+  constexpr void __cordl_internal_set__avatarTweenController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
+
+  constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
+
+  constexpr void __cordl_internal_set__beatAvatarEditorViewController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
+
+  constexpr void __cordl_internal_set__editAvatarColorViewController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> value);
+
   constexpr void __cordl_internal_set__parameterChangedAnimationCallbacks(::System::Collections::Generic::Dictionary_2<::BeatSaber::BeatAvatarSDK::AvatarPart, ::System::Action*>* value);
 
-  /// @brief Method Setup, addr 0xe11c90, size 0x38, virtual true, abstract: false, final false
-  inline void Setup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
-
-  /// @brief Method DidActivate, addr 0xe11d58, size 0x4f0, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0xe12aa4, size 0x29c, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method HandleBeatAvatarViewControllerDidRequestColorChange, addr 0xe132a0, size 0x74, virtual false, abstract: false, final false
-  inline void HandleBeatAvatarViewControllerDidRequestColorChange(::System::Action_1<::UnityEngine::Color>* colorCallback, ::UnityEngine::Color currentColor,
-                                                                  ::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
-
-  /// @brief Method HandleBeatAvatarViewControllerChangedAvatarPart, addr 0xe1337c, size 0xa0, virtual false, abstract: false, final false
-  inline void HandleBeatAvatarViewControllerChangedAvatarPart(::BeatSaber::BeatAvatarSDK::AvatarPart avatarPart);
-
-  /// @brief Method HandleBeatAvatarEditorViewCancelButtonWasPressed, addr 0xe1341c, size 0xc, virtual false, abstract: false, final false
-  inline void HandleBeatAvatarEditorViewCancelButtonWasPressed();
-
-  /// @brief Method HandleBeatAvatarEditorViewOkButtonWasPressed, addr 0xe13428, size 0xc, virtual false, abstract: false, final false
-  inline void HandleBeatAvatarEditorViewOkButtonWasPressed();
-
-  /// @brief Method HandleEditColorViewControllerDidChangedColor, addr 0xe13434, size 0x28, virtual false, abstract: false, final false
-  inline void HandleEditColorViewControllerDidChangedColor(::UnityEngine::Color color);
-
-  /// @brief Method HandleEditColorViewControllerControllerDidFinish, addr 0xe1345c, size 0x80, virtual false, abstract: false, final false
-  inline void HandleEditColorViewControllerControllerDidFinish(bool apply);
-
-  /// @brief Method OneTimeInitialize, addr 0xe1350c, size 0x4, virtual true, abstract: false, final false
-  inline void OneTimeInitialize();
-
-  static inline ::GlobalNamespace::BeatAvatarEditorFlowCoordinator* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe13510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe64870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatAvatarEditorFlowCoordinator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinator&&) = delete;
@@ -172,12 +176,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatAvatarEditorFlowCoordinator();
-
-public:
   /// @brief Field _avatarTweenController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> ____avatarTweenController;
 

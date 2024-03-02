@@ -22,19 +22,15 @@ MARK_REF_PTR_T(::HMUI::TextSegmentedControlCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13551))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13553))
 // CS Name: ::HMUI::TextSegmentedControlCell*
 class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
-
   /// @brief Field _backgroundGameObject, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject))::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+  /// @brief Field _text, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   __declspec(property(get = get_fontSize, put = set_fontSize)) float_t fontSize;
 
@@ -42,41 +38,49 @@ public:
 
   __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
-
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
-
-  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  /// @brief Method set_text, addr 0x2120790, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
-
-  /// @brief Method get_text, addr 0x212080c, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
-
-  /// @brief Method set_fontSize, addr 0x2120774, size 0x1c, virtual false, abstract: false, final false
-  inline void set_fontSize(float_t value);
-
-  /// @brief Method get_fontSize, addr 0x2120830, size 0x1c, virtual false, abstract: false, final false
-  inline float_t get_fontSize();
-
-  /// @brief Method set_hideBackgroundImage, addr 0x21207b4, size 0x24, virtual false, abstract: false, final false
-  inline void set_hideBackgroundImage(bool value);
-
-  /// @brief Method get_preferredWidth, addr 0x21207d8, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_preferredWidth();
+  __declspec(property(get = get_text, put = set_text))::StringW text;
 
   static inline ::HMUI::TextSegmentedControlCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x212084c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  /// @brief Method .ctor, addr 0x2282790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_fontSize, addr 0x2282774, size 0x1c, virtual false, abstract: false, final false
+  inline float_t get_fontSize();
+
+  /// @brief Method get_preferredWidth, addr 0x228271c, size 0x24, virtual false, abstract: false, final false
+  inline float_t get_preferredWidth();
+
+  /// @brief Method get_text, addr 0x2282750, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW get_text();
+
+  /// @brief Method set_fontSize, addr 0x22826b8, size 0x1c, virtual false, abstract: false, final false
+  inline void set_fontSize(float_t value);
+
+  /// @brief Method set_hideBackgroundImage, addr 0x22826f8, size 0x24, virtual false, abstract: false, final false
+  inline void set_hideBackgroundImage(bool value);
+
+  /// @brief Method set_text, addr 0x22826d4, size 0x24, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextSegmentedControlCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSegmentedControlCell(TextSegmentedControlCell&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSegmentedControlCell();
-
-public:
   /// @brief Field _text, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

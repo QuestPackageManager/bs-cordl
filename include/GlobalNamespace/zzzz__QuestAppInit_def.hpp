@@ -26,15 +26,10 @@ MARK_REF_PTR_T(::GlobalNamespace::QuestAppInit);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4042))
 // CS Name: ::QuestAppInit*
 class CORDL_TYPE QuestAppInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
-  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
-
   /// @brief Field _defaultScenesTransitionsFromInit, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
                       put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
@@ -42,44 +37,53 @@ public:
   /// @brief Field _mainSettingsModel, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
-
-  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
-
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
-
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
-
-  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
-
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
-
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x222a534, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x238068c, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x222a538, size 0x9c, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
-
-  /// @brief Method TransitionToNextScene, addr 0x222a5d4, size 0x98, virtual true, abstract: false, final false
-  inline void TransitionToNextScene();
-
-  /// @brief Method InstallBindings, addr 0x222a66c, size 0x280, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  /// @brief Method ApplyDeviceSettings, addr 0x222a8ec, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ApplyDeviceSettings, addr 0x23809c4, size 0x254, virtual false, abstract: false, final false
   inline void ApplyDeviceSettings();
+
+  /// @brief Method InstallBindings, addr 0x23807c4, size 0x200, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x222ab40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2380690, size 0x9c, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
+
+  /// @brief Method TransitionToNextScene, addr 0x238072c, size 0x98, virtual true, abstract: false, final false
+  inline void TransitionToNextScene();
+
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
+  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
+
+  /// @brief Method .ctor, addr 0x2380c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuestAppInit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuestAppInit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuestAppInit(QuestAppInit&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuestAppInit(QuestAppInit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuestAppInit();
-
-public:
   /// @brief Field _mainSystemInit, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 

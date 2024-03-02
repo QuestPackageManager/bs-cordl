@@ -26,8 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlStyleFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6973)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5286 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6972)) CS Name: ::UnityEngine.UIElements::UxmlStyleFactory*
+// CS Name: ::UnityEngine.UIElements::UxmlStyleFactory*
 class CORDL_TYPE UxmlStyleFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlStyleTraits*> {
 public:
   // Declarations
@@ -35,20 +34,26 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName, addr 0x2e0e10c, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlName();
-
-  /// @brief Method get_uxmlQualifiedName, addr 0x2e0e14c, size 0x74, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlQualifiedName();
-
-  /// @brief Method Create, addr 0x2e0e1c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x2f1ccd0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlStyleFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e0e1c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1ccd8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_uxmlName, addr 0x2f1cc1c, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlName();
+
+  /// @brief Method get_uxmlQualifiedName, addr 0x2f1cc5c, size 0x74, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlQualifiedName();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlStyleFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlStyleFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlStyleFactory(UxmlStyleFactory&&) = delete;
@@ -57,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlStyleFactory(UxmlStyleFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlStyleFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

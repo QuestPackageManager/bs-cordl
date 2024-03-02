@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialSceneSetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6059))
 // CS Name: ::TutorialSceneSetupData*
 class CORDL_TYPE TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Field playerSpecificSettings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
+  static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+
   constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get_colorScheme();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get_colorScheme() const;
-
-  constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
+  constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::ColorScheme* value);
+
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
-
-  /// @brief Method .ctor, addr 0x231ce68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2416ef0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialSceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialSceneSetupData(TutorialSceneSetupData&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialSceneSetupData(TutorialSceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TutorialSceneSetupData();
-
-public:
   /// @brief Field colorScheme, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ___colorScheme;
 

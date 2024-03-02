@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::JsonToken);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11841))
 // CS Name: ::Newtonsoft.Json::JsonToken
 struct CORDL_TYPE JsonToken {
 public:
@@ -50,60 +48,32 @@ public:
     return static_cast<__JsonToken_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr JsonToken(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr JsonToken();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr JsonToken(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::JsonToken const None;
-
-  /// @brief Field StartObject value: static_cast<int32_t>(0x1)
-  static ::Newtonsoft::Json::JsonToken const StartObject;
-
-  /// @brief Field StartArray value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::JsonToken const StartArray;
-
-  /// @brief Field StartConstructor value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::JsonToken const StartConstructor;
-
-  /// @brief Field PropertyName value: static_cast<int32_t>(0x4)
-  static ::Newtonsoft::Json::JsonToken const PropertyName;
-
-  /// @brief Field Comment value: static_cast<int32_t>(0x5)
-  static ::Newtonsoft::Json::JsonToken const Comment;
-
-  /// @brief Field Raw value: static_cast<int32_t>(0x6)
-  static ::Newtonsoft::Json::JsonToken const Raw;
-
-  /// @brief Field Integer value: static_cast<int32_t>(0x7)
-  static ::Newtonsoft::Json::JsonToken const Integer;
-
-  /// @brief Field Float value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::JsonToken const Float;
-
-  /// @brief Field String value: static_cast<int32_t>(0x9)
-  static ::Newtonsoft::Json::JsonToken const String;
 
   /// @brief Field Boolean value: static_cast<int32_t>(0xa)
   static ::Newtonsoft::Json::JsonToken const Boolean;
 
-  /// @brief Field Null value: static_cast<int32_t>(0xb)
-  static ::Newtonsoft::Json::JsonToken const Null;
+  /// @brief Field Bytes value: static_cast<int32_t>(0x11)
+  static ::Newtonsoft::Json::JsonToken const Bytes;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0xc)
-  static ::Newtonsoft::Json::JsonToken const Undefined;
+  /// @brief Field Comment value: static_cast<int32_t>(0x5)
+  static ::Newtonsoft::Json::JsonToken const Comment;
 
-  /// @brief Field EndObject value: static_cast<int32_t>(0xd)
-  static ::Newtonsoft::Json::JsonToken const EndObject;
+  /// @brief Field Date value: static_cast<int32_t>(0x10)
+  static ::Newtonsoft::Json::JsonToken const Date;
 
   /// @brief Field EndArray value: static_cast<int32_t>(0xe)
   static ::Newtonsoft::Json::JsonToken const EndArray;
@@ -111,11 +81,44 @@ public:
   /// @brief Field EndConstructor value: static_cast<int32_t>(0xf)
   static ::Newtonsoft::Json::JsonToken const EndConstructor;
 
-  /// @brief Field Date value: static_cast<int32_t>(0x10)
-  static ::Newtonsoft::Json::JsonToken const Date;
+  /// @brief Field EndObject value: static_cast<int32_t>(0xd)
+  static ::Newtonsoft::Json::JsonToken const EndObject;
 
-  /// @brief Field Bytes value: static_cast<int32_t>(0x11)
-  static ::Newtonsoft::Json::JsonToken const Bytes;
+  /// @brief Field Float value: static_cast<int32_t>(0x8)
+  static ::Newtonsoft::Json::JsonToken const Float;
+
+  /// @brief Field Integer value: static_cast<int32_t>(0x7)
+  static ::Newtonsoft::Json::JsonToken const Integer;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::JsonToken const None;
+
+  /// @brief Field Null value: static_cast<int32_t>(0xb)
+  static ::Newtonsoft::Json::JsonToken const Null;
+
+  /// @brief Field PropertyName value: static_cast<int32_t>(0x4)
+  static ::Newtonsoft::Json::JsonToken const PropertyName;
+
+  /// @brief Field Raw value: static_cast<int32_t>(0x6)
+  static ::Newtonsoft::Json::JsonToken const Raw;
+
+  /// @brief Field StartArray value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::JsonToken const StartArray;
+
+  /// @brief Field StartConstructor value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::JsonToken const StartConstructor;
+
+  /// @brief Field StartObject value: static_cast<int32_t>(0x1)
+  static ::Newtonsoft::Json::JsonToken const StartObject;
+
+  /// @brief Field String value: static_cast<int32_t>(0x9)
+  static ::Newtonsoft::Json::JsonToken const String;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0xc)
+  static ::Newtonsoft::Json::JsonToken const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

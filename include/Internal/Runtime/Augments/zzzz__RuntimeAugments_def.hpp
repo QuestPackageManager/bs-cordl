@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeAugments);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2306))
 // CS Name: ::Internal.Runtime.Augments::RuntimeAugments*
 class CORDL_TYPE RuntimeAugments : public ::System::Object {
 public:
@@ -30,16 +28,22 @@ public:
   static __declspec(property(get = getStaticF_s_reflectionExecutionDomainCallbacks,
                              put = setStaticF_s_reflectionExecutionDomainCallbacks))::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* s_reflectionExecutionDomainCallbacks;
 
-  static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* value);
+  /// @brief Method ReportUnhandledException, addr 0x251e130, size 0x20, virtual false, abstract: false, final false
+  static inline void ReportUnhandledException(::System::Exception* exception);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* getStaticF_s_reflectionExecutionDomainCallbacks();
 
-  /// @brief Method ReportUnhandledException, addr 0x242c5d4, size 0x20, virtual false, abstract: false, final false
-  static inline void ReportUnhandledException(::System::Exception* exception);
-
-  /// @brief Method get_Callbacks, addr 0x242c5f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Callbacks, addr 0x251e150, size 0x58, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* get_Callbacks();
 
+  static inline void setStaticF_s_reflectionExecutionDomainCallbacks(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeAugments();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAugments", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeAugments(RuntimeAugments&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeAugments(RuntimeAugments const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeAugments();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::System::Xml::XmlResolver);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11574))
 // CS Name: ::System.Xml::XmlResolver*
 class CORDL_TYPE XmlResolver : public ::System::Object {
 public:
@@ -36,20 +34,26 @@ public:
   /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method ResolveUri, addr 0x28a92cc, size 0x1d8, virtual true, abstract: false, final false
-  inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
-
-  /// @brief Method SupportsType, addr 0x28a94a4, size 0x148, virtual true, abstract: false, final false
-  inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
-
-  /// @brief Method GetEntityAsync, addr 0x28a95ec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x29940d0, size 0x40, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28a962c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x2993db0, size 0x1d8, virtual true, abstract: false, final false
+  inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
+
+  /// @brief Method SupportsType, addr 0x2993f88, size 0x148, virtual true, abstract: false, final false
+  inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
+
+  /// @brief Method .ctor, addr 0x2994110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlResolver();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlResolver(XmlResolver&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlResolver(XmlResolver const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlResolver();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

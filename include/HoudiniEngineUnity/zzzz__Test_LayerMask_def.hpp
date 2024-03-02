@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9925))
 // CS Name: ::HoudiniEngineUnity::Test_LayerMask*
 class CORDL_TYPE Test_LayerMask : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_LayerMask__() noexcept;
-
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_self();
-
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
+  /// @brief Method IsEquivalentTo, addr 0x23488c8, size 0xf8, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
 
-  /// @brief Method .ctor, addr 0x21e6950, size 0x28, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
+
+  /// @brief Method .ctor, addr 0x23488a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e6978, size 0xf8, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_LayerMask__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_LayerMask();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_LayerMask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_LayerMask(Test_LayerMask&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_LayerMask(Test_LayerMask const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_LayerMask();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___self;
 

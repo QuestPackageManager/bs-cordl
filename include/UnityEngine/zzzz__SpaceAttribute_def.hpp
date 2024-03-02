@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::SpaceAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10174))
 // CS Name: ::UnityEngine::SpaceAttribute*
 class CORDL_TYPE SpaceAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -24,22 +22,28 @@ public:
   /// @brief Field height, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
 
-  constexpr float_t& __cordl_internal_get_height();
-
-  constexpr float_t const& __cordl_internal_get_height() const;
-
-  constexpr void __cordl_internal_set_height(float_t value);
-
   static inline ::UnityEngine::SpaceAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ccc148, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::UnityEngine::SpaceAttribute* New_ctor(float_t height);
 
-  /// @brief Method .ctor, addr 0x2ccc168, size 0x28, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_height() const;
+
+  constexpr float_t& __cordl_internal_get_height();
+
+  constexpr void __cordl_internal_set_height(float_t value);
+
+  /// @brief Method .ctor, addr 0x2dbe824, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2dbe844, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpaceAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpaceAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceAttribute(SpaceAttribute&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpaceAttribute(SpaceAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpaceAttribute();
-
-public:
   /// @brief Field height, offset: 0x10, size: 0x4, def value: None
   float_t ___height;
 

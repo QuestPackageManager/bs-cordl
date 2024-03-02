@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::InstancePro
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14000))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstanceProvider*
 class CORDL_TYPE InstanceProvider : public ::System::Object {
 public:
@@ -45,8 +43,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* i___UnityEngine__ResourceManagement__ResourceProviders__IInstanceProvider() noexcept;
+  static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
+
+  /// @brief Method ProvideInstance, addr 0x2cbda68, size 0xd8, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
+                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
+                                                             ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
+
+  /// @brief Method ReleaseInstance, addr 0x2cbdb40, size 0x218, virtual true, abstract: false, final true
+  inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                          ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*&
@@ -60,19 +65,18 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
-  /// @brief Method ProvideInstance, addr 0x2bd6e28, size 0xd8, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
-                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
-                                                             ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
-
-  /// @brief Method ReleaseInstance, addr 0x2bd6f00, size 0x218, virtual true, abstract: false, final true
-  inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
-
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2bd7118, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cbdd58, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* i___UnityEngine__ResourceManagement__ResourceProviders__IInstanceProvider() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstanceProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceProvider(InstanceProvider&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstanceProvider(InstanceProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstanceProvider();
-
-public:
   /// @brief Field m_InstanceObjectToPrefabHandle, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*
       ___m_InstanceObjectToPrefabHandle;

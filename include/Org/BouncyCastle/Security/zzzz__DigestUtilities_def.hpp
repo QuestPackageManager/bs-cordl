@@ -37,8 +37,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::DigestUtilities);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1744))
 // CS Name: ::DigestUtilities::DigestAlgorithm
 struct CORDL_TYPE __DigestUtilities__DigestAlgorithm {
 public:
@@ -97,18 +95,20 @@ public:
     return static_cast<____DigestUtilities__DigestAlgorithm_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __DigestUtilities__DigestAlgorithm(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DigestUtilities__DigestAlgorithm();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __DigestUtilities__DigestAlgorithm(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field BLAKE2B_160 value: static_cast<int32_t>(0x0)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const BLAKE2B_160;
@@ -191,6 +191,24 @@ public:
   /// @brief Field RIPEMD320 value: static_cast<int32_t>(0x1a)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const RIPEMD320;
 
+  /// @brief Field SHA3_224 value: static_cast<int32_t>(0x22)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_224;
+
+  /// @brief Field SHA3_256 value: static_cast<int32_t>(0x23)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_256;
+
+  /// @brief Field SHA3_384 value: static_cast<int32_t>(0x24)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_384;
+
+  /// @brief Field SHA3_512 value: static_cast<int32_t>(0x25)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_512;
+
+  /// @brief Field SHAKE128 value: static_cast<int32_t>(0x26)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHAKE128;
+
+  /// @brief Field SHAKE256 value: static_cast<int32_t>(0x27)
+  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHAKE256;
+
   /// @brief Field SHA_1 value: static_cast<int32_t>(0x1b)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA_1;
 
@@ -212,24 +230,6 @@ public:
   /// @brief Field SHA_512_256 value: static_cast<int32_t>(0x21)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA_512_256;
 
-  /// @brief Field SHA3_224 value: static_cast<int32_t>(0x22)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_224;
-
-  /// @brief Field SHA3_256 value: static_cast<int32_t>(0x23)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_256;
-
-  /// @brief Field SHA3_384 value: static_cast<int32_t>(0x24)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_384;
-
-  /// @brief Field SHA3_512 value: static_cast<int32_t>(0x25)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHA3_512;
-
-  /// @brief Field SHAKE128 value: static_cast<int32_t>(0x26)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHAKE128;
-
-  /// @brief Field SHAKE256 value: static_cast<int32_t>(0x27)
-  static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SHAKE256;
-
   /// @brief Field SM3 value: static_cast<int32_t>(0x28)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const SM3;
 
@@ -238,6 +238,9 @@ public:
 
   /// @brief Field WHIRLPOOL value: static_cast<int32_t>(0x2a)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const WHIRLPOOL;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -251,8 +254,6 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__DigestUtilities__DigestA
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1745))
 // CS Name: ::Org.BouncyCastle.Security::DigestUtilities*
 class CORDL_TYPE DigestUtilities : public ::System::Object {
 public:
@@ -265,46 +266,52 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_oids, put = setStaticF_oids))::System::Collections::IDictionary* oids;
 
-  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
+  /// @brief Method CalculateDigest, addr 0x1198bcc, size 0xf8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::StringW algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
+  /// @brief Method CalculateDigest, addr 0x1198b64, size 0x68, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  static inline void setStaticF_oids(::System::Collections::IDictionary* value);
+  /// @brief Method DoFinal, addr 0x1198cc4, size 0x134, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  static inline ::System::Collections::IDictionary* getStaticF_oids();
+  /// @brief Method DoFinal, addr 0x1198df8, size 0xec, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+
+  /// @brief Method GetAlgorithmName, addr 0x1198a5c, size 0x108, virtual false, abstract: false, final false
+  static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetDigest, addr 0x1197e58, size 0xc04, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
+
+  /// @brief Method GetDigest, addr 0x1197df8, size 0x60, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
+
+  /// @brief Method GetObjectIdentifier, addr 0x1197ad0, size 0x25c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
   static inline ::Org::BouncyCastle::Security::DigestUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1124228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1194088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetObjectIdentifier, addr 0x1127c70, size 0x25c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
+  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
-  /// @brief Method get_Algorithms, addr 0x1127ecc, size 0xcc, virtual false, abstract: false, final false
+  static inline ::System::Collections::IDictionary* getStaticF_oids();
+
+  /// @brief Method get_Algorithms, addr 0x1197d2c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
-  /// @brief Method GetDigest, addr 0x1127f98, size 0x60, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
+  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
 
-  /// @brief Method GetDigest, addr 0x1127ff8, size 0xc04, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
+  static inline void setStaticF_oids(::System::Collections::IDictionary* value);
 
-  /// @brief Method GetAlgorithmName, addr 0x1128bfc, size 0x108, virtual false, abstract: false, final false
-  static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DigestUtilities();
 
-  /// @brief Method CalculateDigest, addr 0x1128d04, size 0x68, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  /// @brief Method CalculateDigest, addr 0x1128d6c, size 0xf8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::StringW algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  /// @brief Method DoFinal, addr 0x1128e64, size 0x134, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
-
-  /// @brief Method DoFinal, addr 0x1128f98, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DigestUtilities(DigestUtilities&&) = delete;
@@ -313,12 +320,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DigestUtilities(DigestUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DigestUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

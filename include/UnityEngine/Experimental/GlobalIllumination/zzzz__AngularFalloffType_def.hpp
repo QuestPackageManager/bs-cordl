@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10389))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::AngularFalloffType
 struct CORDL_TYPE AngularFalloffType {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__AngularFalloffType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr AngularFalloffType(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<uint8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AngularFalloffType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr AngularFalloffType(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+  /// @brief Field AnalyticAndInnerAngle value: static_cast<uint8_t>(0x1u)
+  static ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const AnalyticAndInnerAngle;
 
   /// @brief Field LUT value: static_cast<uint8_t>(0x0u)
   static ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const LUT;
 
-  /// @brief Field AnalyticAndInnerAngle value: static_cast<uint8_t>(0x1u)
-  static ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType const AnalyticAndInnerAngle;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

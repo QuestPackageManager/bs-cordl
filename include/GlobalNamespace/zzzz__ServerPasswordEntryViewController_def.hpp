@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPasswordEntryViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5723))
 // CS Name: ::ServerPasswordEntryViewController*
 class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
 public:
@@ -36,65 +34,71 @@ public:
   /// @brief Field _passwordInput, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__passwordInput, put = __cordl_internal_set__passwordInput))::UnityW<::HMUI::InputFieldView> _passwordInput;
 
+  /// @brief Field _selectedNetworkPlayer, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedNetworkPlayer, put = __cordl_internal_set__selectedNetworkPlayer))::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
+
   /// @brief Field _uiKeyboard, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard))::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
 
-  /// @brief Field _selectedNetworkPlayer, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedNetworkPlayer, put = __cordl_internal_set__selectedNetworkPlayer))::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
+  /// @brief Method DidActivate, addr 0x23cec84, size 0xc4, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__passwordInput();
+  /// @brief Method DidDeactivate, addr 0x23ced48, size 0xb4, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  /// @brief Method HandleJoinClicked, addr 0x23cedfc, size 0x3c, virtual false, abstract: false, final false
+  inline void HandleJoinClicked();
+
+  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x23cee38, size 0x3c, virtual false, abstract: false, final false
+  inline void HandleUIKeyboardOkButtonWasPressed();
+
+  static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
+
+  /// @brief Method Setup, addr 0x23cec7c, size 0x8, virtual false, abstract: false, final false
+  inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
   constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__passwordInput() const;
 
-  constexpr void __cordl_internal_set__passwordInput(::UnityW<::HMUI::InputFieldView> value);
-
-  constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
-
-  constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
-
-  constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*> const& __cordl_internal_get_didFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__passwordInput();
 
   constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__selectedNetworkPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get__selectedNetworkPlayer() const;
 
+  constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
+
+  constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
+
+  constexpr ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*> const& __cordl_internal_get_didFinishEvent() const;
+
+  constexpr void __cordl_internal_set__passwordInput(::UnityW<::HMUI::InputFieldView> value);
+
   constexpr void __cordl_internal_set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x22d06ac, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+  constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x22d075c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method Setup, addr 0x22d080c, size 0x8, virtual false, abstract: false, final false
-  inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
-
-  /// @brief Method DidActivate, addr 0x22d0814, size 0xc4, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0x22d08d8, size 0xb4, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method HandleJoinClicked, addr 0x22d098c, size 0x3c, virtual false, abstract: false, final false
-  inline void HandleJoinClicked();
-
-  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x22d09c8, size 0x3c, virtual false, abstract: false, final false
-  inline void HandleUIKeyboardOkButtonWasPressed();
-
-  static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22d0a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cee74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didFinishEvent, addr 0x23ceb1c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+
+  /// @brief Method remove_didFinishEvent, addr 0x23cebcc, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerPasswordEntryViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServerPasswordEntryViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerPasswordEntryViewController(ServerPasswordEntryViewController&&) = delete;
@@ -103,12 +107,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerPasswordEntryViewController(ServerPasswordEntryViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerPasswordEntryViewController();
-
-public:
   /// @brief Field _passwordInput, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____passwordInput;
 

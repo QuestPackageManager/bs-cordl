@@ -26,59 +26,63 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCoreInstaller);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5398))
 // CS Name: ::MultiplayerCoreInstaller*
 class CORDL_TYPE MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _scoreSyncStateManagerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab,
-                      put = __cordl_internal_set__scoreSyncStateManagerPrefab))::UnityW<::GlobalNamespace::ScoreSyncStateManager> _scoreSyncStateManagerPrefab;
-
   /// @brief Field _multiplayerBadgesModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerBadgesModel,
                       put = __cordl_internal_set__multiplayerBadgesModel))::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> _multiplayerBadgesModel;
-
-  /// @brief Field _sceneSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
   /// @brief Field _multiplayerSessionManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager>& __cordl_internal_get__scoreSyncStateManagerPrefab();
+  /// @brief Field _sceneSetupData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
+  /// @brief Field _scoreSyncStateManagerPrefab, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab,
+                      put = __cordl_internal_set__scoreSyncStateManagerPrefab))::UnityW<::GlobalNamespace::ScoreSyncStateManager> _scoreSyncStateManagerPrefab;
 
-  constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
+  /// @brief Method InstallBindings, addr 0x249cb64, size 0x6a4, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
+  static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> const& __cordl_internal_get__multiplayerBadgesModel() const;
 
-  constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
-
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
-
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager>& __cordl_internal_get__scoreSyncStateManagerPrefab();
+
+  constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
+
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method InstallBindings, addr 0x22725cc, size 0x61c, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
+  constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x2272be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249d208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerCoreInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCoreInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerCoreInstaller(MultiplayerCoreInstaller&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerCoreInstaller(MultiplayerCoreInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerCoreInstaller();
-
-public:
   /// @brief Field _scoreSyncStateManagerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScoreSyncStateManager> ____scoreSyncStateManagerPrefab;
 

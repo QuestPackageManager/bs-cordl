@@ -15,13 +15,14 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEventBuffer);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16109))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEventBuffer
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEventBuffer {
 public:
   // Declarations
+  /// @brief Field capacityInBytes, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_capacityInBytes, put = __cordl_internal_set_capacityInBytes)) int32_t capacityInBytes;
+
   /// @brief Field eventBuffer, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_eventBuffer, put = __cordl_internal_set_eventBuffer))::cordl_internals::Ptr<void> eventBuffer;
 
@@ -31,40 +32,37 @@ public:
   /// @brief Field sizeInBytes, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_sizeInBytes, put = __cordl_internal_set_sizeInBytes)) int32_t sizeInBytes;
 
-  /// @brief Field capacityInBytes, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_capacityInBytes, put = __cordl_internal_set_capacityInBytes)) int32_t capacityInBytes;
-
-  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get_eventBuffer();
-
-  constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get_eventBuffer() const;
-
-  constexpr void __cordl_internal_set_eventBuffer(::cordl_internals::Ptr<void> value);
-
-  constexpr int32_t& __cordl_internal_get_eventCount();
-
-  constexpr int32_t const& __cordl_internal_get_eventCount() const;
-
-  constexpr void __cordl_internal_set_eventCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_sizeInBytes();
-
-  constexpr int32_t const& __cordl_internal_get_sizeInBytes() const;
-
-  constexpr void __cordl_internal_set_sizeInBytes(int32_t value);
+  constexpr int32_t const& __cordl_internal_get_capacityInBytes() const;
 
   constexpr int32_t& __cordl_internal_get_capacityInBytes();
 
-  constexpr int32_t const& __cordl_internal_get_capacityInBytes() const;
+  constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get_eventBuffer() const;
+
+  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get_eventBuffer();
+
+  constexpr int32_t const& __cordl_internal_get_eventCount() const;
+
+  constexpr int32_t& __cordl_internal_get_eventCount();
+
+  constexpr int32_t const& __cordl_internal_get_sizeInBytes() const;
+
+  constexpr int32_t& __cordl_internal_get_sizeInBytes();
 
   constexpr void __cordl_internal_set_capacityInBytes(int32_t value);
 
-  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NativeInputEventBuffer(::cordl_internals::Ptr<void> eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept;
+  constexpr void __cordl_internal_set_eventBuffer(::cordl_internals::Ptr<void> value);
+
+  constexpr void __cordl_internal_set_eventCount(int32_t value);
+
+  constexpr void __cordl_internal_set_sizeInBytes(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NativeInputEventBuffer();
+
+  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None
+  // }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NativeInputEventBuffer(::cordl_internals::Ptr<void> eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

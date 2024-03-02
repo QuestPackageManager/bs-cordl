@@ -20,20 +20,22 @@ MARK_VAL_T(::System::DateTimeRawInfo);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2388))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2396))
 // CS Name: ::System::DateTimeRawInfo
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a5870, size 0x20, virtual false, abstract: false, final false
-  inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
-
-  /// @brief Method AddNumber, addr 0x25a5890, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNumber, addr 0x2697e8c, size 0x18, virtual false, abstract: false, final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber, addr 0x25a58a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumber, addr 0x2697ea4, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetNumber(int32_t index);
+
+  /// @brief Method Init, addr 0x2697e6c, size 0x20, virtual false, abstract: false, final false
+  inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeRawInfo();
 
   // Ctor Parameters [CppParam { name: "num", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t",
@@ -41,10 +43,6 @@ public:
   // def_value: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
   constexpr DateTimeRawInfo(::cordl_internals::Ptr<int32_t> num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, ::System::__DateTimeParse__TM timeMark,
                             double_t fraction, bool hasSameDateAndTimeSeparators) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeRawInfo();
 
   /// @brief Field num, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<int32_t> num;

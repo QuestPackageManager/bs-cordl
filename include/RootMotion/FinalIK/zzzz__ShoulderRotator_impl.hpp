@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::ShoulderRotator::*)()>(&::RootMotion::FinalIK::ShoulderRotator::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x129a37c;
+  constexpr static std::size_t addrs = 0x1373418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ShoulderRotator*>::get(), "Start",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::ShoulderRotator::*)()>(&::RootMotion::FinalIK::ShoulderRotator::RotateShoulders)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x129a46c;
+  constexpr static std::size_t addrs = 0x1373508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ShoulderRotator*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::ShoulderRotator::*)(::RootMotion::FinalIK::FullBodyBipedChain, float_t, float_t)>(
     &::RootMotion::FinalIK::ShoulderRotator::RotateShoulder)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x129a548;
+  constexpr static std::size_t addrs = 0x13735e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::__IKMapping__BoneMap* (
     ::RootMotion::FinalIK::ShoulderRotator::*)(::RootMotion::FinalIK::FullBodyBipedChain)>(&::RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x129a94c;
+  constexpr static std::size_t addrs = 0x13739e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::ShoulderRotator::*)()>(&::RootMotion::FinalIK::ShoulderRotator::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x129a980;
+  constexpr static std::size_t addrs = 0x1373a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ShoulderRotator*>::get(), "OnDestroy",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::ShoulderRotator::*)()>(&::RootMotion::FinalIK::ShoulderRotator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x129aa8c;
+  constexpr static std::size_t addrs = 0x1373b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::ShoulderRotator*>::get(), ".ctor",

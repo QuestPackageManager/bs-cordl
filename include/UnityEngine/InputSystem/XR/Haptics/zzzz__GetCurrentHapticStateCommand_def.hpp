@@ -28,8 +28,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6344))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetCurrentHapticStateCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE GetCurrentHapticStateCommand {
@@ -38,59 +36,59 @@ public:
   /// @brief Field baseCommand, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
-  /// @brief Field samplesQueued, offset 0x8, size 0x4
-  __declspec(property(get = __cordl_internal_get_samplesQueued, put = __cordl_internal_set_samplesQueued)) uint32_t samplesQueued;
+  __declspec(property(get = get_currentState))::UnityEngine::InputSystem::XR::Haptics::HapticState currentState;
 
   /// @brief Field samplesAvailable, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_samplesAvailable, put = __cordl_internal_set_samplesAvailable)) uint32_t samplesAvailable;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  /// @brief Field samplesQueued, offset 0x8, size 0x4
+  __declspec(property(get = __cordl_internal_get_samplesQueued, put = __cordl_internal_set_samplesQueued)) uint32_t samplesQueued;
 
-  __declspec(property(get = get_currentState))::UnityEngine::InputSystem::XR::Haptics::HapticState currentState;
+  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bb1494, size 0x50, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr uint32_t& __cordl_internal_get_samplesQueued();
-
-  constexpr uint32_t const& __cordl_internal_get_samplesQueued() const;
-
-  constexpr void __cordl_internal_set_samplesQueued(uint32_t value);
-
-  constexpr uint32_t& __cordl_internal_get_samplesAvailable();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr uint32_t const& __cordl_internal_get_samplesAvailable() const;
 
+  constexpr uint32_t& __cordl_internal_get_samplesAvailable();
+
+  constexpr uint32_t const& __cordl_internal_get_samplesQueued() const;
+
+  constexpr uint32_t& __cordl_internal_get_samplesQueued();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
   constexpr void __cordl_internal_set_samplesAvailable(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x2ac97ec, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_samplesQueued(uint32_t value);
+
+  /// @brief Method get_Type, addr 0x2bb142c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ac981c, size 0x30, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
-
-  /// @brief Method get_currentState, addr 0x2ac984c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentState, addr 0x2bb148c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticState get_currentState();
 
-  /// @brief Method Create, addr 0x2ac9854, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand Create();
+  /// @brief Method get_typeStatic, addr 0x2bb145c, size 0x30, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "samplesQueued", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "samplesAvailable", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr GetCurrentHapticStateCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t samplesQueued, uint32_t samplesAvailable) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GetCurrentHapticStateCommand();
+
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "samplesQueued", ty:
+  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "samplesAvailable", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr GetCurrentHapticStateCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t samplesQueued, uint32_t samplesAvailable) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

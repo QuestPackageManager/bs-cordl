@@ -21,47 +21,51 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14523))
 // CS Name: ::DirectionalLightWithId*
 class CORDL_TYPE DirectionalLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _light, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light))::UnityW<::GlobalNamespace::DirectionalLight> _light;
-
   /// @brief Field _intensity, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
+
+  /// @brief Field _light, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light))::UnityW<::GlobalNamespace::DirectionalLight> _light;
 
   /// @brief Field _minIntensity, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minIntensity, put = __cordl_internal_set__minIntensity)) float_t _minIntensity;
 
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__light();
-
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__light() const;
-
-  constexpr void __cordl_internal_set__light(::UnityW<::GlobalNamespace::DirectionalLight> value);
-
-  constexpr float_t& __cordl_internal_get__intensity();
-
-  constexpr float_t const& __cordl_internal_get__intensity() const;
-
-  constexpr void __cordl_internal_set__intensity(float_t value);
-
-  constexpr float_t& __cordl_internal_get__minIntensity();
-
-  constexpr float_t const& __cordl_internal_get__minIntensity() const;
-
-  constexpr void __cordl_internal_set__minIntensity(float_t value);
-
-  /// @brief Method ColorWasSet, addr 0x210f098, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2271ea8, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210f0cc, size 0x18, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get__intensity() const;
+
+  constexpr float_t& __cordl_internal_get__intensity();
+
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__light() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__light();
+
+  constexpr float_t const& __cordl_internal_get__minIntensity() const;
+
+  constexpr float_t& __cordl_internal_get__minIntensity();
+
+  constexpr void __cordl_internal_set__intensity(float_t value);
+
+  constexpr void __cordl_internal_set__light(::UnityW<::GlobalNamespace::DirectionalLight> value);
+
+  constexpr void __cordl_internal_set__minIntensity(float_t value);
+
+  /// @brief Method .ctor, addr 0x2271edc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectionalLightWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithId(DirectionalLightWithId&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectionalLightWithId(DirectionalLightWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectionalLightWithId();
-
-public:
   /// @brief Field _light, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____light;
 

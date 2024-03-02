@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Purchase);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13475))
 // CS Name: ::Oculus.Platform.Models::Purchase*
 class CORDL_TYPE Purchase : public ::System::Object {
 public:
@@ -32,56 +30,62 @@ public:
   /// @brief Field GrantTime, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_GrantTime, put = __cordl_internal_set_GrantTime))::System::DateTime GrantTime;
 
-  /// @brief Field ID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID))::StringW _cordl_ID;
-
   /// @brief Field ReportingId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_ReportingId, put = __cordl_internal_set_ReportingId))::StringW ReportingId;
 
   /// @brief Field Sku, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_Sku, put = __cordl_internal_set_Sku))::StringW Sku;
 
-  constexpr ::StringW& __cordl_internal_get_DeveloperPayload();
-
-  constexpr ::StringW const& __cordl_internal_get_DeveloperPayload() const;
-
-  constexpr void __cordl_internal_set_DeveloperPayload(::StringW value);
-
-  constexpr ::System::DateTime& __cordl_internal_get_ExpirationTime();
-
-  constexpr ::System::DateTime const& __cordl_internal_get_ExpirationTime() const;
-
-  constexpr void __cordl_internal_set_ExpirationTime(::System::DateTime value);
-
-  constexpr ::System::DateTime& __cordl_internal_get_GrantTime();
-
-  constexpr ::System::DateTime const& __cordl_internal_get_GrantTime() const;
-
-  constexpr void __cordl_internal_set_GrantTime(::System::DateTime value);
-
-  constexpr ::StringW& __cordl_internal_get__cordl_ID();
-
-  constexpr ::StringW const& __cordl_internal_get__cordl_ID() const;
-
-  constexpr void __cordl_internal_set__cordl_ID(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_ReportingId();
-
-  constexpr ::StringW const& __cordl_internal_get_ReportingId() const;
-
-  constexpr void __cordl_internal_set_ReportingId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Sku();
-
-  constexpr ::StringW const& __cordl_internal_get_Sku() const;
-
-  constexpr void __cordl_internal_set_Sku(::StringW value);
+  /// @brief Field ID, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID))::StringW _cordl_ID;
 
   static inline ::Oculus::Platform::Models::Purchase* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x27087ac, size 0xc8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_DeveloperPayload() const;
+
+  constexpr ::StringW& __cordl_internal_get_DeveloperPayload();
+
+  constexpr ::System::DateTime const& __cordl_internal_get_ExpirationTime() const;
+
+  constexpr ::System::DateTime& __cordl_internal_get_ExpirationTime();
+
+  constexpr ::System::DateTime const& __cordl_internal_get_GrantTime() const;
+
+  constexpr ::System::DateTime& __cordl_internal_get_GrantTime();
+
+  constexpr ::StringW const& __cordl_internal_get_ReportingId() const;
+
+  constexpr ::StringW& __cordl_internal_get_ReportingId();
+
+  constexpr ::StringW const& __cordl_internal_get_Sku() const;
+
+  constexpr ::StringW& __cordl_internal_get_Sku();
+
+  constexpr ::StringW const& __cordl_internal_get__cordl_ID() const;
+
+  constexpr ::StringW& __cordl_internal_get__cordl_ID();
+
+  constexpr void __cordl_internal_set_DeveloperPayload(::StringW value);
+
+  constexpr void __cordl_internal_set_ExpirationTime(::System::DateTime value);
+
+  constexpr void __cordl_internal_set_GrantTime(::System::DateTime value);
+
+  constexpr void __cordl_internal_set_ReportingId(::StringW value);
+
+  constexpr void __cordl_internal_set_Sku(::StringW value);
+
+  constexpr void __cordl_internal_set__cordl_ID(::StringW value);
+
+  /// @brief Method .ctor, addr 0x27fa0b4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Purchase();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Purchase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Purchase(Purchase&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Purchase(Purchase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Purchase();
-
-public:
   /// @brief Field DeveloperPayload, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DeveloperPayload;
 

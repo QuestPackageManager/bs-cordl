@@ -20,14 +20,17 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::PrivateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13803))
 // CS Name: ::Mono.Security.Authenticode::PrivateKey*
 class CORDL_TYPE PrivateKey : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_RSA))::System::Security::Cryptography::RSA* RSA;
+
   /// @brief Field encrypted, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_encrypted, put = __cordl_internal_set_encrypted)) bool encrypted;
+
+  /// @brief Field keyType, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_keyType, put = __cordl_internal_set_keyType)) int32_t keyType;
 
   /// @brief Field rsa, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::System::Security::Cryptography::RSA* rsa;
@@ -35,55 +38,56 @@ public:
   /// @brief Field weak, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_weak, put = __cordl_internal_set_weak)) bool weak;
 
-  /// @brief Field keyType, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_keyType, put = __cordl_internal_set_keyType)) int32_t keyType;
+  /// @brief Method CreateFromFile, addr 0x24fca3c, size 0x8, virtual false, abstract: false, final false
+  static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
 
-  __declspec(property(get = get_RSA))::System::Security::Cryptography::RSA* RSA;
+  /// @brief Method CreateFromFile, addr 0x24fca44, size 0x2bc, virtual false, abstract: false, final false
+  static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
 
-  constexpr bool& __cordl_internal_get_encrypted();
+  /// @brief Method Decode, addr 0x24fc4cc, size 0x450, virtual false, abstract: false, final false
+  inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
+
+  /// @brief Method DeriveKey, addr 0x24fc924, size 0x118, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
+
+  static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
   constexpr bool const& __cordl_internal_get_encrypted() const;
 
-  constexpr void __cordl_internal_set_encrypted(bool value);
+  constexpr bool& __cordl_internal_get_encrypted();
+
+  constexpr int32_t const& __cordl_internal_get_keyType() const;
+
+  constexpr int32_t& __cordl_internal_get_keyType();
 
   constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get_rsa();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __cordl_internal_get_rsa() const;
 
-  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
+  constexpr bool const& __cordl_internal_get_weak() const;
 
   constexpr bool& __cordl_internal_get_weak();
 
-  constexpr bool const& __cordl_internal_get_weak() const;
-
-  constexpr void __cordl_internal_set_weak(bool value);
-
-  constexpr int32_t& __cordl_internal_get_keyType();
-
-  constexpr int32_t const& __cordl_internal_get_keyType() const;
+  constexpr void __cordl_internal_set_encrypted(bool value);
 
   constexpr void __cordl_internal_set_keyType(int32_t value);
 
-  static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
+  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
 
-  /// @brief Method .ctor, addr 0x240c890, size 0xe4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_weak(bool value);
+
+  /// @brief Method .ctor, addr 0x24fc3e8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method get_RSA, addr 0x240cdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSA, addr 0x24fc91c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
-  /// @brief Method DeriveKey, addr 0x240cdcc, size 0x118, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivateKey();
 
-  /// @brief Method Decode, addr 0x240c974, size 0x450, virtual false, abstract: false, final false
-  inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
-
-  /// @brief Method CreateFromFile, addr 0x240cee4, size 0x8, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
-
-  /// @brief Method CreateFromFile, addr 0x240ceec, size 0x2bc, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrivateKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrivateKey(PrivateKey&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrivateKey(PrivateKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrivateKey();
-
-public:
   /// @brief Field encrypted, offset: 0x10, size: 0x1, def value: None
   bool ___encrypted;
 

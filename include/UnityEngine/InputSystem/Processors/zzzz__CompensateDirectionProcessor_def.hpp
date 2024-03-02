@@ -22,22 +22,27 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateDirectionProces
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6582)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
+// CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
 class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x2af8e44, size 0x1f0, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2af9034, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2af9074, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x2bdea84, size 0x1f0, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdec74, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2bdecb4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompensateDirectionProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompensateDirectionProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompensateDirectionProcessor(CompensateDirectionProcessor&&) = delete;
@@ -46,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompensateDirectionProcessor(CompensateDirectionProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompensateDirectionProcessor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

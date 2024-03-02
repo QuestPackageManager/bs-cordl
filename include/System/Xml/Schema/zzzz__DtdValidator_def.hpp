@@ -29,20 +29,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::__DtdValidator__NamespaceManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11570))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11684))
 // CS Name: ::DtdValidator::NamespaceManager*
 class CORDL_TYPE __DtdValidator__NamespaceManager : public ::System::Xml::XmlNamespaceManager {
 public:
   // Declarations
-  /// @brief Method LookupNamespace, addr 0x28c092c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x29aa410, size 0x8, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c0924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aa408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DtdValidator__NamespaceManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DtdValidator__NamespaceManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DtdValidator__NamespaceManager(__DtdValidator__NamespaceManager&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DtdValidator__NamespaceManager(__DtdValidator__NamespaceManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DtdValidator__NamespaceManager();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -67,8 +65,6 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__DtdValida
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11593))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11685))
 // CS Name: ::System.Xml.Schema::DtdValidator*
 class CORDL_TYPE DtdValidator : public ::System::Xml::Schema::BaseValidator {
 public:
@@ -78,13 +74,19 @@ public:
   /// @brief Field namespaceManager, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_namespaceManager, put = setStaticF_namespaceManager))::System::Xml::Schema::__DtdValidator__NamespaceManager* namespaceManager;
 
-  static inline void setStaticF_namespaceManager(::System::Xml::Schema::__DtdValidator__NamespaceManager* value);
+  /// @brief Method SetDefaultTypedValue, addr 0x29a9f60, size 0x3dc, virtual false, abstract: false, final false
+  static inline void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter);
 
   static inline ::System::Xml::Schema::__DtdValidator__NamespaceManager* getStaticF_namespaceManager();
 
-  /// @brief Method SetDefaultTypedValue, addr 0x28c047c, size 0x3dc, virtual false, abstract: false, final false
-  static inline void SetDefaultTypedValue(::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::IDtdParserAdapter* readerAdapter);
+  static inline void setStaticF_namespaceManager(::System::Xml::Schema::__DtdValidator__NamespaceManager* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DtdValidator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtdValidator(DtdValidator&&) = delete;
@@ -93,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DtdValidator(DtdValidator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DtdValidator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

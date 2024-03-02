@@ -16,20 +16,18 @@ MARK_VAL_T(::TMPro::TMP_PageInfo);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12318))
 // CS Name: ::TMPro::TMP_PageInfo
 struct CORDL_TYPE TMP_PageInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_PageInfo();
+
   // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty:
   // "float_t", modifiers: "", def_value: None }]
   constexpr TMP_PageInfo(int32_t firstCharacterIndex, int32_t lastCharacterIndex, float_t ascender, float_t baseLine, float_t descender) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_PageInfo();
 
   /// @brief Field firstCharacterIndex, offset: 0x0, size: 0x4, def value: None
   int32_t firstCharacterIndex;

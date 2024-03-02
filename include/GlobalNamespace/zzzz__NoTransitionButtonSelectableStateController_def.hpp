@@ -18,28 +18,33 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionButtonSelectableStateController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5457)), TypeDefinitionIndex(TypeDefinitionIndex(13623)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5457), inst:
-// 4965 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5458)) CS Name: ::NoTransitionButtonSelectableStateController*
+// CS Name: ::NoTransitionButtonSelectableStateController*
 class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0x227f60c, size 0xa4, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x227f768, size 0x8c, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x227f7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x24a8ff4, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
-
-  /// @brief Method ResolveSelectionState, addr 0x227f6b0, size 0xb8, virtual false, abstract: false, final false
-  inline void ResolveSelectionState(::HMUI::__NoTransitionsButton__SelectionState state, bool animated);
 
   static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x227f7fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24a8f68, size 0x8c, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x24a8e0c, size 0xa4, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method ResolveSelectionState, addr 0x24a8eb0, size 0xb8, virtual false, abstract: false, final false
+  inline void ResolveSelectionState(::HMUI::__NoTransitionsButton__SelectionState state, bool animated);
+
+  /// @brief Method .ctor, addr 0x24a8ffc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoTransitionButtonSelectableStateController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionButtonSelectableStateController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController&&) = delete;
@@ -48,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoTransitionButtonSelectableStateController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -18,17 +18,21 @@ MARK_REF_PTR_T(::System::ComponentModel::ComponentCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3777))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9387))
 // CS Name: ::System.ComponentModel::ComponentCollection*
 class CORDL_TYPE ComponentCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
   // Declarations
   __declspec(property(get = get_Item))::System::ComponentModel::IComponent* Item[];
 
-  /// @brief Method get_Item, addr 0x2903c04, size 0x588, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x29ed6e8, size 0x588, virtual true, abstract: false, final false
   inline ::System::ComponentModel::IComponent* get_Item(::StringW name);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComponentCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ComponentCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComponentCollection(ComponentCollection&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComponentCollection(ComponentCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComponentCollection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

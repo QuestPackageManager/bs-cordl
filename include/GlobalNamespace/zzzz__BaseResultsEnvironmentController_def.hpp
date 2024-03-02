@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BaseResultsEnvironmentController)
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -17,26 +18,35 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseResultsEnvironmentController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4687))
 // CS Name: ::BaseResultsEnvironmentController*
 class CORDL_TYPE BaseResultsEnvironmentController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Activate, addr 0x23762f0, size 0x24, virtual true, abstract: false, final false
-  inline void Activate(bool immediately);
+  __declspec(property(get = get_keyword))::StringW keyword;
 
-  /// @brief Method Deactivate, addr 0x2376314, size 0x24, virtual true, abstract: false, final false
-  inline void Deactivate(bool immediately);
+  /// @brief Method Activate, addr 0x2388ddc, size 0x24, virtual true, abstract: false, final false
+  inline void Activate();
+
+  /// @brief Method Deactivate, addr 0x2388e00, size 0x24, virtual true, abstract: false, final false
+  inline void Deactivate();
+
+  static inline ::GlobalNamespace::BaseResultsEnvironmentController* New_ctor();
 
   /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  static inline ::GlobalNamespace::BaseResultsEnvironmentController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2376338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_keyword();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseResultsEnvironmentController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseResultsEnvironmentController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseResultsEnvironmentController(BaseResultsEnvironmentController&&) = delete;
@@ -45,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseResultsEnvironmentController(BaseResultsEnvironmentController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseResultsEnvironmentController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

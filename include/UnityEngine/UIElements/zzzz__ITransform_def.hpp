@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITransform);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
 // CS Name: ::UnityEngine.UIElements::ITransform*
 class CORDL_TYPE ITransform {
 public:
@@ -29,11 +27,11 @@ public:
   /// @brief Method get_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_position(::UnityEngine::Vector3 value);
-
   /// @brief Method get_scale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_scale();
+
+  /// @brief Method set_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_position(::UnityEngine::Vector3 value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITransform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

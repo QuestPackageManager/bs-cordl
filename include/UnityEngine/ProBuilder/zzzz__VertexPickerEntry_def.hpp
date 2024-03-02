@@ -23,20 +23,18 @@ MARK_VAL_T(::UnityEngine::ProBuilder::VertexPickerEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12192))
 // CS Name: ::UnityEngine.ProBuilder::VertexPickerEntry
 struct CORDL_TYPE VertexPickerEntry {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VertexPickerEntry();
+
   // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "screenDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
   // None }]
   constexpr VertexPickerEntry(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh, int32_t vertex, float_t screenDistance, ::UnityEngine::Vector3 worldPosition) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VertexPickerEntry();
 
   /// @brief Field mesh, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;

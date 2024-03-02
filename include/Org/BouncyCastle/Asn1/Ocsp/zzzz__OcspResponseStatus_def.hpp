@@ -18,22 +18,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(213))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(214))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::OcspResponseStatus*
 class CORDL_TYPE OcspResponseStatus : public ::Org::BouncyCastle::Asn1::DerEnumerated {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(int32_t value);
-
-  /// @brief Method .ctor, addr 0xf82068, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(int32_t value);
-
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
-  /// @brief Method .ctor, addr 0xf81514, size 0x6c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(int32_t value);
+
+  /// @brief Method .ctor, addr 0xff2374, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
+  /// @brief Method .ctor, addr 0xff2ec8, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OcspResponseStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OcspResponseStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcspResponseStatus(OcspResponseStatus&&) = delete;
@@ -42,26 +46,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OcspResponseStatus(OcspResponseStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OcspResponseStatus();
-
-public:
-  /// @brief Field Successful offset 0xffffffff size 0x4
-  static constexpr int32_t Successful{ static_cast<int32_t>(0x0) };
+  /// @brief Field InternalError offset 0xffffffff size 0x4
+  static constexpr int32_t InternalError{ static_cast<int32_t>(0x2) };
 
   /// @brief Field MalformedRequest offset 0xffffffff size 0x4
   static constexpr int32_t MalformedRequest{ static_cast<int32_t>(0x1) };
 
-  /// @brief Field InternalError offset 0xffffffff size 0x4
-  static constexpr int32_t InternalError{ static_cast<int32_t>(0x2) };
+  /// @brief Field SignatureRequired offset 0xffffffff size 0x4
+  static constexpr int32_t SignatureRequired{ static_cast<int32_t>(0x5) };
+
+  /// @brief Field Successful offset 0xffffffff size 0x4
+  static constexpr int32_t Successful{ static_cast<int32_t>(0x0) };
 
   /// @brief Field TryLater offset 0xffffffff size 0x4
   static constexpr int32_t TryLater{ static_cast<int32_t>(0x3) };
-
-  /// @brief Field SignatureRequired offset 0xffffffff size 0x4
-  static constexpr int32_t SignatureRequired{ static_cast<int32_t>(0x5) };
 
   /// @brief Field Unauthorized offset 0xffffffff size 0x4
   static constexpr int32_t Unauthorized{ static_cast<int32_t>(0x6) };

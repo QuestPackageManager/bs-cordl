@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::Subsystem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15969))
 // CS Name: ::UnityEngine::Subsystem*
 class CORDL_TYPE Subsystem : public ::System::Object {
 public:
@@ -26,8 +24,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ISubsystem"
-  constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
+  /// @brief Method Destroy, addr 0x2e281cc, size 0x74, virtual true, abstract: false, final true
+  inline void Destroy();
+
+  static inline ::UnityEngine::Subsystem* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnDestroy();
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Start();
@@ -35,17 +38,18 @@ public:
   /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
-  /// @brief Method Destroy, addr 0x2d1affc, size 0x74, virtual true, abstract: false, final true
-  inline void Destroy();
-
-  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnDestroy();
-
-  static inline ::UnityEngine::Subsystem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d1b070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e28240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::ISubsystem"
+  constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Subsystem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Subsystem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Subsystem(Subsystem&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Subsystem(Subsystem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Subsystem();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

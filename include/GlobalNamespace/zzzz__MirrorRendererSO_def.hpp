@@ -73,8 +73,6 @@ MARK_VAL_T(::GlobalNamespace::__MirrorRendererSO__CameraTransformData);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 49, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15297))
 // CS Name: ::MirrorRendererSO::CameraTransformData
 struct CORDL_TYPE __MirrorRendererSO__CameraTransformData {
 public:
@@ -82,31 +80,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*();
 
+  /// @brief Method Equals, addr 0x28f37d4, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x28f3730, size 0xa4, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::__MirrorRendererSO__CameraTransformData other);
+
+  /// @brief Method GetHashCode, addr 0x28f3864, size 0xf0, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>* i___System__IEquatable_1___GlobalNamespace____MirrorRendererSO__CameraTransformData_();
 
-  /// @brief Method Equals, addr 0x280aacc, size 0xa4, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::__MirrorRendererSO__CameraTransformData other);
-
-  /// @brief Method Equals, addr 0x280ab70, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x280ac00, size 0xf0, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x280acf0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x28f3954, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData left, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData right);
 
-  /// @brief Method op_Inequality, addr 0x280ad20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x28f3984, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData left, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData right);
-
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __MirrorRendererSO__CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MirrorRendererSO__CameraTransformData();
+
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __MirrorRendererSO__CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -141,31 +139,26 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererSO__CameraTransformDat
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15298))
 // CS Name: ::MirrorRendererSO*
 class CORDL_TYPE MirrorRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   using CameraTransformData = ::GlobalNamespace::__MirrorRendererSO__CameraTransformData;
 
-  /// @brief Field _reflectLayers, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__reflectLayers, put = __cordl_internal_set__reflectLayers))::UnityEngine::LayerMask _reflectLayers;
+  /// @brief Field _antialiasing, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__antialiasing, put = __cordl_internal_set__antialiasing)) int32_t _antialiasing;
 
-  /// @brief Field _stereoTextureWidth, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__stereoTextureWidth, put = __cordl_internal_set__stereoTextureWidth)) int32_t _stereoTextureWidth;
+  /// @brief Field _bloomPrePassEffect, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrePassEffect, put = __cordl_internal_set__bloomPrePassEffect))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> _bloomPrePassEffect;
 
-  /// @brief Field _stereoTextureHeight, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__stereoTextureHeight, put = __cordl_internal_set__stereoTextureHeight)) int32_t _stereoTextureHeight;
+  /// @brief Field _bloomPrePassRenderTexture, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderTexture, put = __cordl_internal_set__bloomPrePassRenderTexture))::UnityW<::UnityEngine::RenderTexture> _bloomPrePassRenderTexture;
 
-  /// @brief Field _monoTextureWidth, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__monoTextureWidth, put = __cordl_internal_set__monoTextureWidth)) int32_t _monoTextureWidth;
+  /// @brief Field _bloomPrePassRenderer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderer, put = __cordl_internal_set__bloomPrePassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrePassRenderer;
 
-  /// @brief Field _monoTextureHeight, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__monoTextureHeight, put = __cordl_internal_set__monoTextureHeight)) int32_t _monoTextureHeight;
-
-  /// @brief Field _maxAntiAliasing, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxAntiAliasing, put = __cordl_internal_set__maxAntiAliasing)) int32_t _maxAntiAliasing;
+  /// @brief Field _clearDepthShader, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearDepthShader, put = __cordl_internal_set__clearDepthShader))::UnityW<::UnityEngine::Shader> _clearDepthShader;
 
   /// @brief Field _disableDepthTexture, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__disableDepthTexture, put = __cordl_internal_set__disableDepthTexture)) bool _disableDepthTexture;
@@ -173,28 +166,34 @@ public:
   /// @brief Field _enableBloomPrePass, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__enableBloomPrePass, put = __cordl_internal_set__enableBloomPrePass)) bool _enableBloomPrePass;
 
-  /// @brief Field _bloomPrePassRenderer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderer, put = __cordl_internal_set__bloomPrePassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrePassRenderer;
-
-  /// @brief Field _bloomPrePassEffect, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassEffect, put = __cordl_internal_set__bloomPrePassEffect))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> _bloomPrePassEffect;
-
-  /// @brief Field _clearDepthShader, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__clearDepthShader, put = __cordl_internal_set__clearDepthShader))::UnityW<::UnityEngine::Shader> _clearDepthShader;
-
-  /// @brief Field _bloomPrePassRenderTexture, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderTexture, put = __cordl_internal_set__bloomPrePassRenderTexture))::UnityW<::UnityEngine::RenderTexture> _bloomPrePassRenderTexture;
+  /// @brief Field _maxAntiAliasing, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxAntiAliasing, put = __cordl_internal_set__maxAntiAliasing)) int32_t _maxAntiAliasing;
 
   /// @brief Field _mirrorCamera, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorCamera, put = __cordl_internal_set__mirrorCamera))::UnityW<::UnityEngine::Camera> _mirrorCamera;
 
-  /// @brief Field _antialiasing, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__antialiasing, put = __cordl_internal_set__antialiasing)) int32_t _antialiasing;
+  /// @brief Field _monoTextureHeight, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__monoTextureHeight, put = __cordl_internal_set__monoTextureHeight)) int32_t _monoTextureHeight;
+
+  /// @brief Field _monoTextureWidth, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__monoTextureWidth, put = __cordl_internal_set__monoTextureWidth)) int32_t _monoTextureWidth;
+
+  /// @brief Field _reflectLayers, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__reflectLayers, put = __cordl_internal_set__reflectLayers))::UnityEngine::LayerMask _reflectLayers;
 
   /// @brief Field _renderTextures, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__renderTextures,
                       put = __cordl_internal_set__renderTextures))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData,
                                                                                                                ::UnityW<::UnityEngine::RenderTexture>>* _renderTextures;
+
+  /// @brief Field _stereoTextureHeight, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__stereoTextureHeight, put = __cordl_internal_set__stereoTextureHeight)) int32_t _stereoTextureHeight;
+
+  /// @brief Field _stereoTextureWidth, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__stereoTextureWidth, put = __cordl_internal_set__stereoTextureWidth)) int32_t _stereoTextureWidth;
+
+  /// @brief Field kFullRect, offset 0x90, size 0x10
+  __declspec(property(get = __cordl_internal_get_kFullRect, put = __cordl_internal_set_kFullRect))::UnityEngine::Rect kFullRect;
 
   /// @brief Field kLeftRect, offset 0x70, size 0x10
   __declspec(property(get = __cordl_internal_get_kLeftRect, put = __cordl_internal_set_kLeftRect))::UnityEngine::Rect kLeftRect;
@@ -202,92 +201,93 @@ public:
   /// @brief Field kRightRect, offset 0x80, size 0x10
   __declspec(property(get = __cordl_internal_get_kRightRect, put = __cordl_internal_set_kRightRect))::UnityEngine::Rect kRightRect;
 
-  /// @brief Field kFullRect, offset 0x90, size 0x10
-  __declspec(property(get = __cordl_internal_get_kFullRect, put = __cordl_internal_set_kFullRect))::UnityEngine::Rect kFullRect;
+  /// @brief Method Awake, addr 0x28f2c50, size 0x4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__reflectLayers();
+  /// @brief Method CalculateReflectionMatrix, addr 0x28f2f4c, size 0xe8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__reflectLayers() const;
+  /// @brief Method CameraSpacePlane, addr 0x28f32a4, size 0x12c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  constexpr void __cordl_internal_set__reflectLayers(::UnityEngine::LayerMask value);
+  /// @brief Method CreateOrUpdateMirrorCamera, addr 0x28f2c6c, size 0x2b4, virtual false, abstract: false, final false
+  inline void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
 
-  constexpr int32_t& __cordl_internal_get__stereoTextureWidth();
+  /// @brief Method Init, addr 0x28f2c54, size 0x18, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing,
+                   bool enableBloomPrePass);
 
-  constexpr int32_t const& __cordl_internal_get__stereoTextureWidth() const;
+  static inline ::GlobalNamespace::MirrorRendererSO* New_ctor();
 
-  constexpr void __cordl_internal_set__stereoTextureWidth(int32_t value);
+  /// @brief Method OnDisable, addr 0x28f33d0, size 0x224, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr int32_t& __cordl_internal_get__stereoTextureHeight();
+  /// @brief Method OnValidate, addr 0x28f2bd8, size 0x4, virtual false, abstract: false, final false
+  inline void OnValidate();
 
-  constexpr int32_t const& __cordl_internal_get__stereoTextureHeight() const;
+  /// @brief Method Plane, addr 0x28f2f20, size 0x2c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  constexpr void __cordl_internal_set__stereoTextureHeight(int32_t value);
+  /// @brief Method PrepareForNextFrame, addr 0x28f1f40, size 0x18c, virtual false, abstract: false, final false
+  inline void PrepareForNextFrame();
 
-  constexpr int32_t& __cordl_internal_get__monoTextureWidth();
+  /// @brief Method RenderMirror, addr 0x28f3034, size 0x270, virtual false, abstract: false, final false
+  inline void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect,
+                           ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
 
-  constexpr int32_t const& __cordl_internal_get__monoTextureWidth() const;
+  /// @brief Method RenderMirrorTexture, addr 0x28f2360, size 0x808, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture> RenderMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
 
-  constexpr void __cordl_internal_set__monoTextureWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__monoTextureHeight();
-
-  constexpr int32_t const& __cordl_internal_get__monoTextureHeight() const;
-
-  constexpr void __cordl_internal_set__monoTextureHeight(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__maxAntiAliasing();
-
-  constexpr int32_t const& __cordl_internal_get__maxAntiAliasing() const;
-
-  constexpr void __cordl_internal_set__maxAntiAliasing(int32_t value);
-
-  constexpr bool& __cordl_internal_get__disableDepthTexture();
-
-  constexpr bool const& __cordl_internal_get__disableDepthTexture() const;
-
-  constexpr void __cordl_internal_set__disableDepthTexture(bool value);
-
-  constexpr bool& __cordl_internal_get__enableBloomPrePass();
-
-  constexpr bool const& __cordl_internal_get__enableBloomPrePass() const;
-
-  constexpr void __cordl_internal_set__enableBloomPrePass(bool value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__bloomPrePassRenderer();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__bloomPrePassRenderer() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get__bloomPrePassEffect();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__bloomPrePassEffect() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
-
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__clearDepthShader();
-
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__clearDepthShader() const;
-
-  constexpr void __cordl_internal_set__clearDepthShader(::UnityW<::UnityEngine::Shader> value);
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__bloomPrePassRenderTexture();
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__bloomPrePassRenderTexture() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
-
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mirrorCamera();
-
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mirrorCamera() const;
-
-  constexpr void __cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera> value);
-
-  constexpr int32_t& __cordl_internal_get__antialiasing();
+  /// @brief Method ValidateParams, addr 0x28f2bdc, size 0x74, virtual false, abstract: false, final false
+  inline void ValidateParams();
 
   constexpr int32_t const& __cordl_internal_get__antialiasing() const;
 
-  constexpr void __cordl_internal_set__antialiasing(int32_t value);
+  constexpr int32_t& __cordl_internal_get__antialiasing();
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__bloomPrePassEffect() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get__bloomPrePassEffect();
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__bloomPrePassRenderTexture() const;
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__bloomPrePassRenderTexture();
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__bloomPrePassRenderer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__bloomPrePassRenderer();
+
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__clearDepthShader() const;
+
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__clearDepthShader();
+
+  constexpr bool const& __cordl_internal_get__disableDepthTexture() const;
+
+  constexpr bool& __cordl_internal_get__disableDepthTexture();
+
+  constexpr bool const& __cordl_internal_get__enableBloomPrePass() const;
+
+  constexpr bool& __cordl_internal_get__enableBloomPrePass();
+
+  constexpr int32_t const& __cordl_internal_get__maxAntiAliasing() const;
+
+  constexpr int32_t& __cordl_internal_get__maxAntiAliasing();
+
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mirrorCamera() const;
+
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__mirrorCamera();
+
+  constexpr int32_t const& __cordl_internal_get__monoTextureHeight() const;
+
+  constexpr int32_t& __cordl_internal_get__monoTextureHeight();
+
+  constexpr int32_t const& __cordl_internal_get__monoTextureWidth() const;
+
+  constexpr int32_t& __cordl_internal_get__monoTextureWidth();
+
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__reflectLayers() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__reflectLayers();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get__renderTextures();
 
@@ -295,70 +295,72 @@ public:
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>*> const&
   __cordl_internal_get__renderTextures() const;
 
-  constexpr void
-  __cordl_internal_set__renderTextures(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>* value);
+  constexpr int32_t const& __cordl_internal_get__stereoTextureHeight() const;
 
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_kLeftRect();
+  constexpr int32_t& __cordl_internal_get__stereoTextureHeight();
 
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_kLeftRect() const;
+  constexpr int32_t const& __cordl_internal_get__stereoTextureWidth() const;
 
-  constexpr void __cordl_internal_set_kLeftRect(::UnityEngine::Rect value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_kRightRect();
-
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_kRightRect() const;
-
-  constexpr void __cordl_internal_set_kRightRect(::UnityEngine::Rect value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_kFullRect();
+  constexpr int32_t& __cordl_internal_get__stereoTextureWidth();
 
   constexpr ::UnityEngine::Rect const& __cordl_internal_get_kFullRect() const;
 
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_kFullRect();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_kLeftRect() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_kLeftRect();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_kRightRect() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_kRightRect();
+
+  constexpr void __cordl_internal_set__antialiasing(int32_t value);
+
+  constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
+
+  constexpr void __cordl_internal_set__bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+
+  constexpr void __cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
+
+  constexpr void __cordl_internal_set__clearDepthShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set__disableDepthTexture(bool value);
+
+  constexpr void __cordl_internal_set__enableBloomPrePass(bool value);
+
+  constexpr void __cordl_internal_set__maxAntiAliasing(int32_t value);
+
+  constexpr void __cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera> value);
+
+  constexpr void __cordl_internal_set__monoTextureHeight(int32_t value);
+
+  constexpr void __cordl_internal_set__monoTextureWidth(int32_t value);
+
+  constexpr void __cordl_internal_set__reflectLayers(::UnityEngine::LayerMask value);
+
+  constexpr void
+  __cordl_internal_set__renderTextures(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>* value);
+
+  constexpr void __cordl_internal_set__stereoTextureHeight(int32_t value);
+
+  constexpr void __cordl_internal_set__stereoTextureWidth(int32_t value);
+
   constexpr void __cordl_internal_set_kFullRect(::UnityEngine::Rect value);
 
-  /// @brief Method OnValidate, addr 0x2809f74, size 0x4, virtual false, abstract: false, final false
-  inline void OnValidate();
+  constexpr void __cordl_internal_set_kLeftRect(::UnityEngine::Rect value);
 
-  /// @brief Method Awake, addr 0x2809fec, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_kRightRect(::UnityEngine::Rect value);
 
-  /// @brief Method ValidateParams, addr 0x2809f78, size 0x74, virtual false, abstract: false, final false
-  inline void ValidateParams();
-
-  /// @brief Method Init, addr 0x2809ff0, size 0x18, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing,
-                   bool enableBloomPrePass);
-
-  /// @brief Method PrepareForNextFrame, addr 0x28092dc, size 0x18c, virtual false, abstract: false, final false
-  inline void PrepareForNextFrame();
-
-  /// @brief Method RenderMirrorTexture, addr 0x28096fc, size 0x808, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture> RenderMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
-
-  /// @brief Method RenderMirror, addr 0x280a3d0, size 0x270, virtual false, abstract: false, final false
-  inline void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect,
-                           ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
-
-  /// @brief Method OnDisable, addr 0x280a76c, size 0x224, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method CreateOrUpdateMirrorCamera, addr 0x280a008, size 0x2b4, virtual false, abstract: false, final false
-  inline void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
-
-  /// @brief Method Plane, addr 0x280a2bc, size 0x2c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
-
-  /// @brief Method CameraSpacePlane, addr 0x280a640, size 0x12c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
-
-  /// @brief Method CalculateReflectionMatrix, addr 0x280a2e8, size 0xe8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
-
-  static inline ::GlobalNamespace::MirrorRendererSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x280a990, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f35f4, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MirrorRendererSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererSO(MirrorRendererSO&&) = delete;
@@ -367,12 +369,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirrorRendererSO(MirrorRendererSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MirrorRendererSO();
-
-public:
   /// @brief Field _reflectLayers, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____reflectLayers;
 

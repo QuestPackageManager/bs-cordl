@@ -15,8 +15,6 @@ MARK_VAL_T(::System::UnescapeMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8882))
 // CS Name: ::System::UnescapeMode
 struct CORDL_TYPE UnescapeMode {
 public:
@@ -39,18 +37,20 @@ public:
     return static_cast<__UnescapeMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr UnescapeMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr UnescapeMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr UnescapeMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field CopyOnly value: static_cast<int32_t>(0x0)
   static ::System::UnescapeMode const CopyOnly;
@@ -58,20 +58,23 @@ public:
   /// @brief Field Escape value: static_cast<int32_t>(0x1)
   static ::System::UnescapeMode const Escape;
 
-  /// @brief Field Unescape value: static_cast<int32_t>(0x2)
-  static ::System::UnescapeMode const Unescape;
-
   /// @brief Field EscapeUnescape value: static_cast<int32_t>(0x3)
   static ::System::UnescapeMode const EscapeUnescape;
 
-  /// @brief Field V1ToStringFlag value: static_cast<int32_t>(0x4)
-  static ::System::UnescapeMode const V1ToStringFlag;
+  /// @brief Field Unescape value: static_cast<int32_t>(0x2)
+  static ::System::UnescapeMode const Unescape;
 
   /// @brief Field UnescapeAll value: static_cast<int32_t>(0x8)
   static ::System::UnescapeMode const UnescapeAll;
 
   /// @brief Field UnescapeAllOrThrow value: static_cast<int32_t>(0x18)
   static ::System::UnescapeMode const UnescapeAllOrThrow;
+
+  /// @brief Field V1ToStringFlag value: static_cast<int32_t>(0x4)
+  static ::System::UnescapeMode const V1ToStringFlag;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

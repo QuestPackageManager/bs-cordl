@@ -50,8 +50,6 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6669))
 // CS Name: ::UnityEngine.InputSystem.Utilities::InlinedArray`1<TValue>
 struct CORDL_TYPE InlinedArray_1 {
 public:
@@ -65,32 +63,20 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*();
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_();
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t Append(TValue value);
 
-  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Capacity();
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Append(::System::Collections::Generic::IEnumerable_1<TValue>* values);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(TValue value);
+  /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t AppendWithCapacity(TValue value, int32_t capacityIncrement);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TValue>* values);
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue get_Item(int32_t index);
-
-  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_Item(int32_t index, TValue value);
+  /// @brief Method AssignWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AssignWithCapacity(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> values);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
@@ -101,35 +87,20 @@ public:
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> Clone();
 
-  /// @brief Method SetLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetLength(int32_t size);
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Contains(TValue value, ::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer);
 
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::ArrayW<TValue, ::Array<TValue>*> ToArray();
-
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TOther> inline ::ArrayW<TOther, ::Array<TOther>*> ToArray(::System::Func_2<TValue, TOther>* mapFunction);
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<TValue>* GetEnumerator();
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t IndexOf(TValue value);
 
-  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Append(TValue value);
-
-  /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t AppendWithCapacity(TValue value, int32_t capacityIncrement);
-
-  /// @brief Method AssignWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AssignWithCapacity(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> values);
-
-  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Append(::System::Collections::Generic::IEnumerable_1<TValue>* values);
+  /// @brief Method Merge, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Merge(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> other);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(TValue value);
-
-  /// @brief Method RemoveAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveAtWithCapacity(int32_t index);
 
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
@@ -137,28 +108,55 @@ public:
   /// @brief Method RemoveAtByMovingTailWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveAtByMovingTailWithCapacity(int32_t index);
 
+  /// @brief Method RemoveAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveAtWithCapacity(int32_t index);
+
   /// @brief Method RemoveByMovingTailWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool RemoveByMovingTailWithCapacity(TValue value);
 
-  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Contains(TValue value, ::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer);
-
-  /// @brief Method Merge, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Merge(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> other);
-
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<TValue>* GetEnumerator();
+  /// @brief Method SetLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetLength(int32_t size);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  // Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: None }, CppParam { name:
-  // "additionalValues", ty: "::ArrayW<TValue,::Array<TValue>*>", modifiers: "", def_value: None }]
-  constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues) noexcept;
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TOther> inline ::ArrayW<TOther, ::Array<TOther>*> ToArray(::System::Func_2<TValue, TOther>* mapFunction);
+
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<TValue, ::Array<TValue>*> ToArray();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(TValue value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<TValue>* values);
+
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Capacity();
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue get_Item(int32_t index);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>* i___System__Collections__Generic__IEnumerable_1_TValue_();
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
+
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_Item(int32_t index, TValue value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InlinedArray_1();
+
+  // Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: None }, CppParam { name:
+  // "additionalValues", ty: "::ArrayW<TValue,::Array<TValue>*>", modifiers: "", def_value: None }]
+  constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues) noexcept;
 
   /// @brief Field length, offset: 0x0, size: 0x4, def value: None
   int32_t length;
@@ -182,8 +180,6 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3155 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6668))
 // CS Name: ::InlinedArray`1::Enumerator<TValue>
 struct CORDL_TYPE __InlinedArray_1__Enumerator {
 public:
@@ -195,20 +191,14 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*();
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_();
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
@@ -216,22 +206,28 @@ public:
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline TValue get_Current();
-
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline TValue get_Current();
 
-  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
-  // modifiers: "", def_value: None }]
-  constexpr __InlinedArray_1__Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TValue>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>* i___System__Collections__Generic__IEnumerator_1_TValue_();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InlinedArray_1__Enumerator();
+
+  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
+  // modifiers: "", def_value: None }]
+  constexpr __InlinedArray_1__Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
 
   /// @brief Field array, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array;

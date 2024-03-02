@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::System::Net::WebCompletionSource);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9212)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9212), inst: 2
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9213)) CS Name: ::System.Net::WebCompletionSource*
+// CS Name: ::System.Net::WebCompletionSource*
 class CORDL_TYPE WebCompletionSource : public ::System::Net::WebCompletionSource_1<::System::Object*> {
 public:
   // Declarations
   static inline ::System::Net::WebCompletionSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29dcae8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac9660, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WebCompletionSource();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebCompletionSource(WebCompletionSource&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebCompletionSource(WebCompletionSource const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebCompletionSource();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

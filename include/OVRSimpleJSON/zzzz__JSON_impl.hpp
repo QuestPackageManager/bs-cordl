@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (*)(::StringW)>(&::OVRSimpleJSON::JSON::Parse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27cf0ec;
+  constexpr static std::size_t addrs = 0x28c09fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TreeInstance);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15470))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9939))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance*
 class CORDL_TYPE Test_TreeInstance : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_TreeInstance__() noexcept;
-
-  constexpr ::UnityEngine::TreeInstance& __cordl_internal_get_self();
-
-  constexpr ::UnityEngine::TreeInstance const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityEngine::TreeInstance value);
+  /// @brief Method IsEquivalentTo, addr 0x234a148, size 0x21c, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method .ctor, addr 0x21e81c4, size 0x34, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::TreeInstance const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityEngine::TreeInstance& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityEngine::TreeInstance value);
+
+  /// @brief Method .ctor, addr 0x234a114, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method IsEquivalentTo, addr 0x21e81f8, size 0x21c, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_TreeInstance__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_TreeInstance();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_TreeInstance", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_TreeInstance(Test_TreeInstance&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_TreeInstance(Test_TreeInstance const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_TreeInstance();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::UnityEngine::TreeInstance ___self;
 

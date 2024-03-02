@@ -19,8 +19,6 @@ namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15071))
 // CS Name: ::Tayx.Graphy.Utils::G_Singleton`1<T>*
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -31,28 +29,34 @@ public:
   /// @brief Field _lock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lock, put = setStaticF__lock))::System::Object* _lock;
 
-  static inline void setStaticF__instance(T value);
+  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Awake();
+
+  static inline ::Tayx::Graphy::Utils::G_Singleton_1<T>* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline T getStaticF__instance();
-
-  static inline void setStaticF__lock(::System::Object* value);
 
   static inline ::System::Object* getStaticF__lock();
 
   /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T get_Instance();
 
-  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Awake();
+  static inline void setStaticF__instance(T value);
 
-  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  static inline void setStaticF__lock(::System::Object* value);
 
-  static inline ::Tayx::Graphy::Utils::G_Singleton_1<T>* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_Singleton_1();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_Singleton_1(G_Singleton_1&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_Singleton_1(G_Singleton_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_Singleton_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

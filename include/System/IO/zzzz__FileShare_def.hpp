@@ -15,8 +15,6 @@ MARK_VAL_T(::System::IO::FileShare);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3564))
 // CS Name: ::System.IO::FileShare
 struct CORDL_TYPE FileShare {
 public:
@@ -38,18 +36,26 @@ public:
     return static_cast<__FileShare_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FileShare(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FileShare();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FileShare(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Delete value: static_cast<int32_t>(0x4)
+  static ::System::IO::FileShare const Delete;
+
+  /// @brief Field Inheritable value: static_cast<int32_t>(0x10)
+  static ::System::IO::FileShare const Inheritable;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::IO::FileShare const None;
@@ -57,17 +63,14 @@ public:
   /// @brief Field Read value: static_cast<int32_t>(0x1)
   static ::System::IO::FileShare const Read;
 
-  /// @brief Field Write value: static_cast<int32_t>(0x2)
-  static ::System::IO::FileShare const Write;
-
   /// @brief Field ReadWrite value: static_cast<int32_t>(0x3)
   static ::System::IO::FileShare const ReadWrite;
 
-  /// @brief Field Delete value: static_cast<int32_t>(0x4)
-  static ::System::IO::FileShare const Delete;
+  /// @brief Field Write value: static_cast<int32_t>(0x2)
+  static ::System::IO::FileShare const Write;
 
-  /// @brief Field Inheritable value: static_cast<int32_t>(0x10)
-  static ::System::IO::FileShare const Inheritable;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

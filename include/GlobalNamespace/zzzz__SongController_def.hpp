@@ -14,35 +14,20 @@ class SongController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongController);
 // Type: ::SongController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5334))
 // CS Name: ::SongController*
 class CORDL_TYPE SongController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field songDidFinishEvent, offset 0x18, size 0x8
+  /// @brief Field songDidFinishEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_songDidFinishEvent, put = __cordl_internal_set_songDidFinishEvent))::System::Action* songDidFinishEvent;
 
-  constexpr ::System::Action*& __cordl_internal_get_songDidFinishEvent();
+  /// @brief Field songDidStartEvent, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_songDidStartEvent, put = __cordl_internal_set_songDidStartEvent))::System::Action* songDidStartEvent;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidFinishEvent() const;
-
-  constexpr void __cordl_internal_set_songDidFinishEvent(::System::Action* value);
-
-  /// @brief Method add_songDidFinishEvent, addr 0x22689b0, size 0x9c, virtual false, abstract: false, final false
-  inline void add_songDidFinishEvent(::System::Action* value);
-
-  /// @brief Method remove_songDidFinishEvent, addr 0x2268a4c, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_songDidFinishEvent(::System::Action* value);
-
-  /// @brief Method SendSongDidFinishEvent, addr 0x2268780, size 0x1c, virtual false, abstract: false, final false
-  inline void SendSongDidFinishEvent();
-
-  /// @brief Method StopSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void StopSong();
+  static inline ::GlobalNamespace::SongController* New_ctor();
 
   /// @brief Method PauseSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseSong();
@@ -50,11 +35,48 @@ public:
   /// @brief Method ResumeSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResumeSong();
 
-  static inline ::GlobalNamespace::SongController* New_ctor();
+  /// @brief Method SendSongDidFinishEvent, addr 0x24963f0, size 0x1c, virtual false, abstract: false, final false
+  inline void SendSongDidFinishEvent();
 
-  /// @brief Method .ctor, addr 0x226898c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidStartEvent, addr 0x2496450, size 0x1c, virtual false, abstract: false, final false
+  inline void SendSongDidStartEvent();
+
+  /// @brief Method StopSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void StopSong();
+
+  constexpr ::System::Action*& __cordl_internal_get_songDidFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidFinishEvent() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_songDidStartEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidStartEvent() const;
+
+  constexpr void __cordl_internal_set_songDidFinishEvent(::System::Action* value);
+
+  constexpr void __cordl_internal_set_songDidStartEvent(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x2496638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_songDidFinishEvent, addr 0x2496794, size 0x9c, virtual false, abstract: false, final false
+  inline void add_songDidFinishEvent(::System::Action* value);
+
+  /// @brief Method add_songDidStartEvent, addr 0x249665c, size 0x9c, virtual false, abstract: false, final false
+  inline void add_songDidStartEvent(::System::Action* value);
+
+  /// @brief Method remove_songDidFinishEvent, addr 0x2496830, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_songDidFinishEvent(::System::Action* value);
+
+  /// @brief Method remove_songDidStartEvent, addr 0x24966f8, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_songDidStartEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SongController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SongController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongController(SongController&&) = delete;
@@ -63,21 +85,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongController(SongController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongController();
+  /// @brief Field songDidStartEvent, offset: 0x18, size: 0x8, def value: None
+  ::System::Action* ___songDidStartEvent;
 
-public:
-  /// @brief Field songDidFinishEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field songDidFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___songDidFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongController, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongController, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongController, ___songDidFinishEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongController, ___songDidStartEvent) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongController, ___songDidFinishEvent) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongController);

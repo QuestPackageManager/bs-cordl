@@ -14,15 +14,51 @@ MARK_REF_PTR_T(::UnityEngine::LightingSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10158))
 // CS Name: ::UnityEngine::LightingSettings*
 class CORDL_TYPE LightingSettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method LightingSettingsDontStripMe, addr 0x2cc8664, size 0x4, virtual false, abstract: false, final false
+  __declspec(property(get = get_bakedGI, put = set_bakedGI)) bool bakedGI;
+
+  __declspec(property(get = get_realtimeEnvironmentLighting, put = set_realtimeEnvironmentLighting)) bool realtimeEnvironmentLighting;
+
+  __declspec(property(get = get_realtimeGI, put = set_realtimeGI)) bool realtimeGI;
+
+  /// @brief Method Internal_Create, addr 0x2dbad44, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Create(::UnityEngine::LightingSettings* self);
+
+  /// @brief Method LightingSettingsDontStripMe, addr 0x2dbacb8, size 0x4, virtual false, abstract: false, final false
   inline void LightingSettingsDontStripMe();
 
+  static inline ::UnityEngine::LightingSettings* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2dbacbc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_bakedGI, addr 0x2dbad80, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_bakedGI();
+
+  /// @brief Method get_realtimeEnvironmentLighting, addr 0x2dbae80, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_realtimeEnvironmentLighting();
+
+  /// @brief Method get_realtimeGI, addr 0x2dbae00, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_realtimeGI();
+
+  /// @brief Method set_bakedGI, addr 0x2dbadbc, size 0x44, virtual false, abstract: false, final false
+  inline void set_bakedGI(bool value);
+
+  /// @brief Method set_realtimeEnvironmentLighting, addr 0x2dbaebc, size 0x44, virtual false, abstract: false, final false
+  inline void set_realtimeEnvironmentLighting(bool value);
+
+  /// @brief Method set_realtimeGI, addr 0x2dbae3c, size 0x44, virtual false, abstract: false, final false
+  inline void set_realtimeGI(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightingSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightingSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightingSettings(LightingSettings&&) = delete;
@@ -31,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightingSettings(LightingSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightingSettings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

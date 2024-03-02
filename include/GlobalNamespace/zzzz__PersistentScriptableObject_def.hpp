@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::GlobalNamespace::PersistentScriptableObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15857))
 // CS Name: ::PersistentScriptableObject*
 class CORDL_TYPE PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method OnEnable, addr 0xe28418, size 0x24, virtual true, abstract: false, final false
-  inline void OnEnable();
-
   static inline ::GlobalNamespace::PersistentScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2843c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0xe98124, size 0x24, virtual true, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method .ctor, addr 0xe98148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PersistentScriptableObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PersistentScriptableObject(PersistentScriptableObject&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PersistentScriptableObject(PersistentScriptableObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PersistentScriptableObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

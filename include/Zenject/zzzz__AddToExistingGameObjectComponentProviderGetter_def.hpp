@@ -41,23 +41,18 @@ MARK_REF_PTR_T(::Zenject::AddToExistingGameObjectComponentProviderGetter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11185))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11183))
 // CS Name: ::Zenject::AddToExistingGameObjectComponentProviderGetter*
 class CORDL_TYPE AddToExistingGameObjectComponentProviderGetter : public ::Zenject::AddToGameObjectComponentProviderBase {
 public:
   // Declarations
+  __declspec(property(get = get_ShouldToggleActive)) bool ShouldToggleActive;
+
   /// @brief Field _gameObjectGetter, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectGetter,
                       put = __cordl_internal_set__gameObjectGetter))::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* _gameObjectGetter;
 
-  __declspec(property(get = get_ShouldToggleActive)) bool ShouldToggleActive;
-
-  constexpr ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__gameObjectGetter();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__gameObjectGetter() const;
-
-  constexpr void __cordl_internal_set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
+  /// @brief Method GetGameObject, addr 0x3015c60, size 0x78, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToExistingGameObjectComponentProviderGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter,
                                                                                     ::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -65,17 +60,26 @@ public:
                                                                                     ::System::Object* concreteIdentifier,
                                                                                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor, addr 0x2f063b0, size 0x38, virtual false, abstract: false, final false
+  constexpr ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__gameObjectGetter();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__gameObjectGetter() const;
+
+  constexpr void __cordl_internal_set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
+
+  /// @brief Method .ctor, addr 0x3015c20, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x2f063e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x3015c58, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
-  /// @brief Method GetGameObject, addr 0x2f063f0, size 0x78, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddToExistingGameObjectComponentProviderGetter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AddToExistingGameObjectComponentProviderGetter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToExistingGameObjectComponentProviderGetter(AddToExistingGameObjectComponentProviderGetter&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddToExistingGameObjectComponentProviderGetter(AddToExistingGameObjectComponentProviderGetter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddToExistingGameObjectComponentProviderGetter();
-
-public:
   /// @brief Field _gameObjectGetter, offset: 0x38, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* ____gameObjectGetter;
 

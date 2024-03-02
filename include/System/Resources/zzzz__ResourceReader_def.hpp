@@ -70,14 +70,19 @@ MARK_REF_PTR_T(::System::Resources::__ResourceReader__ResourceEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3440))
 // CS Name: ::ResourceReader::ResourceEnumerator*
 class CORDL_TYPE __ResourceReader__ResourceEnumerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _reader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::Resources::ResourceReader* _reader;
+  __declspec(property(get = get_Current))::System::Object* Current;
+
+  __declspec(property(get = get_DataPosition)) int32_t DataPosition;
+
+  __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
+
+  __declspec(property(get = get_Key))::System::Object* Key;
+
+  __declspec(property(get = get_Value))::System::Object* Value;
 
   /// @brief Field _currentIsValid, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__currentIsValid, put = __cordl_internal_set__currentIsValid)) bool _currentIsValid;
@@ -88,78 +93,77 @@ public:
   /// @brief Field _dataPosition, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__dataPosition, put = __cordl_internal_set__dataPosition)) int32_t _dataPosition;
 
-  __declspec(property(get = get_Key))::System::Object* Key;
-
-  __declspec(property(get = get_Current))::System::Object* Current;
-
-  __declspec(property(get = get_DataPosition)) int32_t DataPosition;
-
-  __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
-
-  __declspec(property(get = get_Value))::System::Object* Value;
+  /// @brief Field _reader, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::Resources::ResourceReader* _reader;
 
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Method MoveNext, addr 0x25d15a8, size 0x5c, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  static inline ::System::Resources::__ResourceReader__ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
+
+  /// @brief Method Reset, addr 0x25d626c, size 0x8c, virtual true, abstract: false, final true
+  inline void Reset();
+
+  constexpr bool const& __cordl_internal_get__currentIsValid() const;
+
+  constexpr bool& __cordl_internal_get__currentIsValid();
+
+  constexpr int32_t const& __cordl_internal_get__currentName() const;
+
+  constexpr int32_t& __cordl_internal_get__currentName();
+
+  constexpr int32_t const& __cordl_internal_get__dataPosition() const;
+
+  constexpr int32_t& __cordl_internal_get__dataPosition();
 
   constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__reader();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__reader() const;
 
-  constexpr void __cordl_internal_set__reader(::System::Resources::ResourceReader* value);
-
-  constexpr bool& __cordl_internal_get__currentIsValid();
-
-  constexpr bool const& __cordl_internal_get__currentIsValid() const;
-
   constexpr void __cordl_internal_set__currentIsValid(bool value);
-
-  constexpr int32_t& __cordl_internal_get__currentName();
-
-  constexpr int32_t const& __cordl_internal_get__currentName() const;
 
   constexpr void __cordl_internal_set__currentName(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get__dataPosition();
-
-  constexpr int32_t const& __cordl_internal_get__dataPosition() const;
-
   constexpr void __cordl_internal_set__dataPosition(int32_t value);
 
-  static inline ::System::Resources::__ResourceReader__ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
+  constexpr void __cordl_internal_set__reader(::System::Resources::ResourceReader* value);
 
-  /// @brief Method .ctor, addr 0x24e2498, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d3204, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method MoveNext, addr 0x24e083c, size 0x5c, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method get_Key, addr 0x24e0784, size 0xb8, virtual true, abstract: false, final true
-  inline ::System::Object* get_Key();
-
-  /// @brief Method get_Current, addr 0x24e50a0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x25d5e0c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataPosition, addr 0x24e5448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x25d61b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Entry, addr 0x24e5104, size 0x344, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x25d5e70, size 0x344, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Value, addr 0x24e5450, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x25d14f0, size 0xb8, virtual true, abstract: false, final true
+  inline ::System::Object* get_Key();
+
+  /// @brief Method get_Value, addr 0x25d61bc, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method Reset, addr 0x24e5500, size 0x8c, virtual true, abstract: false, final true
-  inline void Reset();
+  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ResourceReader__ResourceEnumerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ResourceReader__ResourceEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ResourceReader__ResourceEnumerator(__ResourceReader__ResourceEnumerator&&) = delete;
@@ -168,12 +172,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ResourceReader__ResourceEnumerator(__ResourceReader__ResourceEnumerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ResourceReader__ResourceEnumerator();
-
-public:
   /// @brief Field _reader, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::ResourceReader* ____reader;
 
@@ -204,23 +202,11 @@ static_assert(offsetof(::System::Resources::__ResourceReader__ResourceEnumerator
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3441))
 // CS Name: ::System.Resources::ResourceReader*
 class CORDL_TYPE ResourceReader : public ::System::Object {
 public:
   // Declarations
   using ResourceEnumerator = ::System::Resources::__ResourceReader__ResourceEnumerator;
-
-  /// @brief Field _store, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__store, put = __cordl_internal_set__store))::System::IO::BinaryReader* _store;
-
-  /// @brief Field _resCache, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__resCache,
-                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
-
-  /// @brief Field _nameSectionOffset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__nameSectionOffset, put = __cordl_internal_set__nameSectionOffset)) int64_t _nameSectionOffset;
 
   /// @brief Field _dataSectionOffset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__dataSectionOffset, put = __cordl_internal_set__dataSectionOffset)) int64_t _dataSectionOffset;
@@ -237,17 +223,27 @@ public:
   /// @brief Field _namePositionsPtr, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__namePositionsPtr, put = __cordl_internal_set__namePositionsPtr))::cordl_internals::Ptr<int32_t> _namePositionsPtr;
 
-  /// @brief Field _typeTable, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeTable, put = __cordl_internal_set__typeTable))::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> _typeTable;
+  /// @brief Field _nameSectionOffset, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameSectionOffset, put = __cordl_internal_set__nameSectionOffset)) int64_t _nameSectionOffset;
 
-  /// @brief Field _typeNamePositions, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeNamePositions, put = __cordl_internal_set__typeNamePositions))::ArrayW<int32_t, ::Array<int32_t>*> _typeNamePositions;
+  /// @brief Field _numResources, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__numResources, put = __cordl_internal_set__numResources)) int32_t _numResources;
 
   /// @brief Field _objFormatter, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__objFormatter, put = __cordl_internal_set__objFormatter))::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* _objFormatter;
 
-  /// @brief Field _numResources, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__numResources, put = __cordl_internal_set__numResources)) int32_t _numResources;
+  /// @brief Field _resCache, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__resCache,
+                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
+
+  /// @brief Field _store, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__store, put = __cordl_internal_set__store))::System::IO::BinaryReader* _store;
+
+  /// @brief Field _typeNamePositions, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeNamePositions, put = __cordl_internal_set__typeNamePositions))::ArrayW<int32_t, ::Array<int32_t>*> _typeNamePositions;
+
+  /// @brief Field _typeTable, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__typeTable, put = __cordl_internal_set__typeTable))::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> _typeTable;
 
   /// @brief Field _ums, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__ums, put = __cordl_internal_set__ums))::System::IO::UnmanagedMemoryStream* _ums;
@@ -255,188 +251,194 @@ public:
   /// @brief Field _version, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  /// @brief Convert operator to "::System::Resources::IResourceReader"
-  constexpr operator ::System::Resources::IResourceReader*() noexcept;
-
-  /// @brief Convert to "::System::Resources::IResourceReader"
-  constexpr ::System::Resources::IResourceReader* i___System__Resources__IResourceReader() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::System::Resources::IResourceReader"
+  constexpr operator ::System::Resources::IResourceReader*() noexcept;
 
-  constexpr ::System::IO::BinaryReader*& __cordl_internal_get__store();
+  /// @brief Method AllocateStringForNameIndex, addr 0x25d3448, size 0x8f4, virtual false, abstract: false, final false
+  inline ::StringW AllocateStringForNameIndex(int32_t index, ByRef<int32_t> dataOffset);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get__store() const;
+  /// @brief Method Close, addr 0x25d0140, size 0x3c, virtual true, abstract: false, final true
+  inline void Close();
 
-  constexpr void __cordl_internal_set__store(::System::IO::BinaryReader* value);
+  /// @brief Method CompareStringEqualsName, addr 0x25d3238, size 0x210, virtual false, abstract: false, final false
+  inline bool CompareStringEqualsName(::StringW name);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
+  /// @brief Method DeserializeObject, addr 0x25d4e10, size 0x1d8, virtual false, abstract: false, final false
+  inline ::System::Object* DeserializeObject(int32_t typeIndex);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
+  /// @brief Method Dispose, addr 0x25d2ed0, size 0x3c, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  /// @brief Method Dispose, addr 0x25d2e90, size 0x40, virtual false, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr int64_t& __cordl_internal_get__nameSectionOffset();
+  /// @brief Method FindPosForResource, addr 0x25d0d4c, size 0x3d4, virtual false, abstract: false, final false
+  inline int32_t FindPosForResource(::StringW name);
 
-  constexpr int64_t const& __cordl_internal_get__nameSectionOffset() const;
+  /// @brief Method FindType, addr 0x25d41e4, size 0x3c8, virtual false, abstract: false, final false
+  inline ::System::RuntimeType* FindType(int32_t typeIndex);
 
-  constexpr void __cordl_internal_set__nameSectionOffset(int64_t value);
+  /// @brief Method GetEnumerator, addr 0x25d3134, size 0xd0, virtual true, abstract: false, final true
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  constexpr int64_t& __cordl_internal_get__dataSectionOffset();
+  /// @brief Method GetEnumeratorInternal, addr 0x25d1480, size 0x70, virtual false, abstract: false, final false
+  inline ::System::Resources::__ResourceReader__ResourceEnumerator* GetEnumeratorInternal();
+
+  /// @brief Method GetNameHash, addr 0x25d2fcc, size 0x44, virtual false, abstract: false, final false
+  inline int32_t GetNameHash(int32_t index);
+
+  /// @brief Method GetNamePosition, addr 0x25d3010, size 0x120, virtual false, abstract: false, final false
+  inline int32_t GetNamePosition(int32_t index);
+
+  /// @brief Method GetValueForNameIndex, addr 0x25d3d3c, size 0x2a8, virtual false, abstract: false, final false
+  inline ::System::Object* GetValueForNameIndex(int32_t index);
+
+  /// @brief Method LoadObject, addr 0x25d45ac, size 0x2c, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObject(int32_t pos);
+
+  /// @brief Method LoadObject, addr 0x25d13d0, size 0x98, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObject(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+
+  /// @brief Method LoadObjectV1, addr 0x25d3fe4, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObjectV1(int32_t pos);
+
+  /// @brief Method LoadObjectV2, addr 0x25d40e4, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Object* LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+
+  /// @brief Method LoadString, addr 0x25d1120, size 0x2b0, virtual false, abstract: false, final false
+  inline ::StringW LoadString(int32_t pos);
+
+  static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
+
+  /// @brief Method ReadResources, addr 0x25d2d1c, size 0x174, virtual false, abstract: false, final false
+  inline void ReadResources();
+
+  /// @brief Method ReadUnalignedI4, addr 0x25d2f0c, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t ReadUnalignedI4(::cordl_internals::Ptr<int32_t> p);
+
+  /// @brief Method SkipString, addr 0x25d2f14, size 0xb8, virtual false, abstract: false, final false
+  inline void SkipString();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x25d3130, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method _LoadObjectV1, addr 0x25d45d8, size 0x838, virtual false, abstract: false, final false
+  inline ::System::Object* _LoadObjectV1(int32_t pos);
+
+  /// @brief Method _LoadObjectV2, addr 0x25d4fe8, size 0x740, virtual false, abstract: false, final false
+  inline ::System::Object* _LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
+
+  /// @brief Method _ReadResources, addr 0x25d5728, size 0x6e4, virtual false, abstract: false, final false
+  inline void _ReadResources();
 
   constexpr int64_t const& __cordl_internal_get__dataSectionOffset() const;
 
-  constexpr void __cordl_internal_set__dataSectionOffset(int64_t value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__nameHashes();
+  constexpr int64_t& __cordl_internal_get__dataSectionOffset();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__nameHashes() const;
 
-  constexpr void __cordl_internal_set__nameHashes(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__nameHashesPtr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__nameHashes();
 
   constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__nameHashesPtr() const;
 
-  constexpr void __cordl_internal_set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__namePositions();
+  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__nameHashesPtr();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__namePositions() const;
 
-  constexpr void __cordl_internal_set__namePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__namePositionsPtr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__namePositions();
 
   constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__namePositionsPtr() const;
 
-  constexpr void __cordl_internal_set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value);
+  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__namePositionsPtr();
 
-  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& __cordl_internal_get__typeTable();
+  constexpr int64_t const& __cordl_internal_get__nameSectionOffset() const;
 
-  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> const& __cordl_internal_get__typeTable() const;
+  constexpr int64_t& __cordl_internal_get__nameSectionOffset();
 
-  constexpr void __cordl_internal_set__typeTable(::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> value);
+  constexpr int32_t const& __cordl_internal_get__numResources() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__typeNamePositions();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__typeNamePositions() const;
-
-  constexpr void __cordl_internal_set__typeNamePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr int32_t& __cordl_internal_get__numResources();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& __cordl_internal_get__objFormatter();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*> const& __cordl_internal_get__objFormatter() const;
 
-  constexpr void __cordl_internal_set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value);
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
 
-  constexpr int32_t& __cordl_internal_get__numResources();
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
 
-  constexpr int32_t const& __cordl_internal_get__numResources() const;
+  constexpr ::System::IO::BinaryReader*& __cordl_internal_get__store();
 
-  constexpr void __cordl_internal_set__numResources(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get__store() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__typeNamePositions() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__typeNamePositions();
+
+  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> const& __cordl_internal_get__typeTable() const;
+
+  constexpr ::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>& __cordl_internal_get__typeTable();
 
   constexpr ::System::IO::UnmanagedMemoryStream*& __cordl_internal_get__ums();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::UnmanagedMemoryStream*> const& __cordl_internal_get__ums() const;
 
-  constexpr void __cordl_internal_set__ums(::System::IO::UnmanagedMemoryStream* value);
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
   constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __cordl_internal_get__version() const;
+  constexpr void __cordl_internal_set__dataSectionOffset(int64_t value);
+
+  constexpr void __cordl_internal_set__nameHashes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value);
+
+  constexpr void __cordl_internal_set__namePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value);
+
+  constexpr void __cordl_internal_set__nameSectionOffset(int64_t value);
+
+  constexpr void __cordl_internal_set__numResources(int32_t value);
+
+  constexpr void __cordl_internal_set__objFormatter(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* value);
+
+  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+
+  constexpr void __cordl_internal_set__store(::System::IO::BinaryReader* value);
+
+  constexpr void __cordl_internal_set__typeNamePositions(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__typeTable(::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*> value);
+
+  constexpr void __cordl_internal_set__ums(::System::IO::UnmanagedMemoryStream* value);
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
-
-  /// @brief Method .ctor, addr 0x24df0b0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cfe1c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
-  /// @brief Method Close, addr 0x24df3d4, size 0x3c, virtual true, abstract: false, final true
-  inline void Close();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method Dispose, addr 0x24e2164, size 0x3c, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x24e2124, size 0x40, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+  /// @brief Convert to "::System::Resources::IResourceReader"
+  constexpr ::System::Resources::IResourceReader* i___System__Resources__IResourceReader() noexcept;
 
-  /// @brief Method ReadUnalignedI4, addr 0x24e21a0, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t ReadUnalignedI4(::cordl_internals::Ptr<int32_t> p);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceReader();
 
-  /// @brief Method SkipString, addr 0x24e21a8, size 0xb8, virtual false, abstract: false, final false
-  inline void SkipString();
-
-  /// @brief Method GetNameHash, addr 0x24e2260, size 0x44, virtual false, abstract: false, final false
-  inline int32_t GetNameHash(int32_t index);
-
-  /// @brief Method GetNamePosition, addr 0x24e22a4, size 0x120, virtual false, abstract: false, final false
-  inline int32_t GetNamePosition(int32_t index);
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24e23c4, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method GetEnumerator, addr 0x24e23c8, size 0xd0, virtual true, abstract: false, final true
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
-
-  /// @brief Method GetEnumeratorInternal, addr 0x24e0714, size 0x70, virtual false, abstract: false, final false
-  inline ::System::Resources::__ResourceReader__ResourceEnumerator* GetEnumeratorInternal();
-
-  /// @brief Method FindPosForResource, addr 0x24dffe0, size 0x3d4, virtual false, abstract: false, final false
-  inline int32_t FindPosForResource(::StringW name);
-
-  /// @brief Method CompareStringEqualsName, addr 0x24e24cc, size 0x210, virtual false, abstract: false, final false
-  inline bool CompareStringEqualsName(::StringW name);
-
-  /// @brief Method AllocateStringForNameIndex, addr 0x24e26dc, size 0x8f4, virtual false, abstract: false, final false
-  inline ::StringW AllocateStringForNameIndex(int32_t index, ByRef<int32_t> dataOffset);
-
-  /// @brief Method GetValueForNameIndex, addr 0x24e2fd0, size 0x2a8, virtual false, abstract: false, final false
-  inline ::System::Object* GetValueForNameIndex(int32_t index);
-
-  /// @brief Method LoadString, addr 0x24e03b4, size 0x2b0, virtual false, abstract: false, final false
-  inline ::StringW LoadString(int32_t pos);
-
-  /// @brief Method LoadObject, addr 0x24e3840, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObject(int32_t pos);
-
-  /// @brief Method LoadObject, addr 0x24e0664, size 0x98, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObject(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
-
-  /// @brief Method LoadObjectV1, addr 0x24e3278, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObjectV1(int32_t pos);
-
-  /// @brief Method _LoadObjectV1, addr 0x24e386c, size 0x838, virtual false, abstract: false, final false
-  inline ::System::Object* _LoadObjectV1(int32_t pos);
-
-  /// @brief Method LoadObjectV2, addr 0x24e3378, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Object* LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
-
-  /// @brief Method _LoadObjectV2, addr 0x24e427c, size 0x740, virtual false, abstract: false, final false
-  inline ::System::Object* _LoadObjectV2(int32_t pos, ByRef<::System::Resources::ResourceTypeCode> typeCode);
-
-  /// @brief Method DeserializeObject, addr 0x24e40a4, size 0x1d8, virtual false, abstract: false, final false
-  inline ::System::Object* DeserializeObject(int32_t typeIndex);
-
-  /// @brief Method ReadResources, addr 0x24e1fb0, size 0x174, virtual false, abstract: false, final false
-  inline void ReadResources();
-
-  /// @brief Method _ReadResources, addr 0x24e49bc, size 0x6e4, virtual false, abstract: false, final false
-  inline void _ReadResources();
-
-  /// @brief Method FindType, addr 0x24e3478, size 0x3c8, virtual false, abstract: false, final false
-  inline ::System::RuntimeType* FindType(int32_t typeIndex);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceReader(ResourceReader&&) = delete;
@@ -445,12 +447,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceReader(ResourceReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceReader();
-
-public:
   /// @brief Field _store, offset: 0x10, size: 0x8, def value: None
   ::System::IO::BinaryReader* ____store;
 

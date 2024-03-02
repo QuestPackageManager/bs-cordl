@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::TeeOutputStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1815))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::TeeOutputStream*
 class CORDL_TYPE TeeOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
@@ -31,32 +29,38 @@ public:
   /// @brief Field tee, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee))::System::IO::Stream* tee;
 
+  /// @brief Method Close, addr 0x11d029c, size 0x74, virtual true, abstract: false, final false
+  inline void Close();
+
+  static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
+
+  /// @brief Method Write, addr 0x11d0310, size 0x68, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method WriteByte, addr 0x11d0378, size 0x50, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t b);
+
   constexpr ::System::IO::Stream*& __cordl_internal_get_output();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_output() const;
-
-  constexpr void __cordl_internal_set_output(::System::IO::Stream* value);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_tee();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_tee() const;
 
+  constexpr void __cordl_internal_set_output(::System::IO::Stream* value);
+
   constexpr void __cordl_internal_set_tee(::System::IO::Stream* value);
 
-  static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
-
-  /// @brief Method .ctor, addr 0x1160410, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d0270, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method Close, addr 0x116043c, size 0x74, virtual true, abstract: false, final false
-  inline void Close();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TeeOutputStream();
 
-  /// @brief Method Write, addr 0x11604b0, size 0x68, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method WriteByte, addr 0x1160518, size 0x50, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t b);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TeeOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeeOutputStream(TeeOutputStream&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TeeOutputStream(TeeOutputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TeeOutputStream();
-
-public:
   /// @brief Field output, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ___output;
 

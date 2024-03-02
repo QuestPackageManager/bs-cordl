@@ -20,12 +20,16 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLight);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14496))
 // CS Name: ::DirectionalLight*
 class CORDL_TYPE DirectionalLight : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _lights, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__lights, put = setStaticF__lights))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* _lights;
+
+  /// @brief Field _mainLight, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__mainLight, put = setStaticF__mainLight))::UnityW<::GlobalNamespace::DirectionalLight> _mainLight;
+
   /// @brief Field color, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
@@ -35,52 +39,52 @@ public:
   /// @brief Field radius, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
 
-  /// @brief Field _lights, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lights, put = setStaticF__lights))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* _lights;
+  static inline ::GlobalNamespace::DirectionalLight* New_ctor();
 
-  /// @brief Field _mainLight, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__mainLight, put = setStaticF__mainLight))::UnityW<::GlobalNamespace::DirectionalLight> _mainLight;
+  /// @brief Method OnDisable, addr 0x226e1cc, size 0x80, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+  /// @brief Method OnEnable, addr 0x226e0fc, size 0xd0, virtual false, abstract: false, final false
+  inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
-
-  constexpr float_t& __cordl_internal_get_intensity();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
   constexpr float_t const& __cordl_internal_get_intensity() const;
 
-  constexpr void __cordl_internal_set_intensity(float_t value);
-
-  constexpr float_t& __cordl_internal_get_radius();
+  constexpr float_t& __cordl_internal_get_intensity();
 
   constexpr float_t const& __cordl_internal_get_radius() const;
 
+  constexpr float_t& __cordl_internal_get_radius();
+
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_intensity(float_t value);
+
   constexpr void __cordl_internal_set_radius(float_t value);
 
-  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value);
+  /// @brief Method .ctor, addr 0x226e24c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* getStaticF__lights();
 
-  static inline void setStaticF__mainLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
-
   static inline ::UnityW<::GlobalNamespace::DirectionalLight> getStaticF__mainLight();
 
-  /// @brief Method get_lights, addr 0x210b294, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x226e0a4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* get_lights();
 
-  /// @brief Method OnEnable, addr 0x210b2ec, size 0xd0, virtual false, abstract: false, final false
-  inline void OnEnable();
+  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value);
 
-  /// @brief Method OnDisable, addr 0x210b3bc, size 0x80, virtual false, abstract: false, final false
-  inline void OnDisable();
+  static inline void setStaticF__mainLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
 
-  static inline ::GlobalNamespace::DirectionalLight* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectionalLight();
 
-  /// @brief Method .ctor, addr 0x210b43c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLight(DirectionalLight&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectionalLight(DirectionalLight const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectionalLight();
-
-public:
   /// @brief Field color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 

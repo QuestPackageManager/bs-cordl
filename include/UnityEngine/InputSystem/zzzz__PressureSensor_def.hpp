@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::PressureSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6282))
 // CS Name: ::UnityEngine.InputSystem::PressureSensor*
 class CORDL_TYPE PressureSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -32,42 +30,48 @@ public:
 
   __declspec(property(get = get_atmosphericPressure, put = set_atmosphericPressure))::UnityEngine::InputSystem::Controls::AxisControl* atmosphericPressure;
 
+  /// @brief Method FinishSetup, addr 0x2b91774, size 0x78, virtual true, abstract: false, final false
+  inline void FinishSetup();
+
+  /// @brief Method MakeCurrent, addr 0x2b9169c, size 0x54, virtual true, abstract: false, final false
+  inline void MakeCurrent();
+
+  static inline ::UnityEngine::InputSystem::PressureSensor* New_ctor();
+
+  /// @brief Method OnRemoved, addr 0x2b916f0, size 0x84, virtual true, abstract: false, final false
+  inline void OnRemoved();
+
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__atmosphericPressure_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__atmosphericPressure_k__BackingField() const;
 
   constexpr void __cordl_internal_set__atmosphericPressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::PressureSensor* value);
+  /// @brief Method .ctor, addr 0x2b917ec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::PressureSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_atmosphericPressure, addr 0x2aa89b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atmosphericPressure, addr 0x2b915f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_atmosphericPressure();
 
-  /// @brief Method set_atmosphericPressure, addr 0x2aa89c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_atmosphericPressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  /// @brief Method get_current, addr 0x2aa89c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x2b91608, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::PressureSensor* get_current();
 
-  /// @brief Method set_current, addr 0x2aa8a10, size 0x4c, virtual false, abstract: false, final false
+  static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::PressureSensor* value);
+
+  /// @brief Method set_atmosphericPressure, addr 0x2b91600, size 0x8, virtual false, abstract: false, final false
+  inline void set_atmosphericPressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method set_current, addr 0x2b91650, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::PressureSensor* value);
 
-  /// @brief Method MakeCurrent, addr 0x2aa8a5c, size 0x54, virtual true, abstract: false, final false
-  inline void MakeCurrent();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PressureSensor();
 
-  /// @brief Method OnRemoved, addr 0x2aa8ab0, size 0x84, virtual true, abstract: false, final false
-  inline void OnRemoved();
-
-  /// @brief Method FinishSetup, addr 0x2aa8b34, size 0x78, virtual true, abstract: false, final false
-  inline void FinishSetup();
-
-  static inline ::UnityEngine::InputSystem::PressureSensor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2aa8bac, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PressureSensor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PressureSensor(PressureSensor&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PressureSensor(PressureSensor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PressureSensor();
-
-public:
   /// @brief Field <atmosphericPressure>k__BackingField, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____atmosphericPressure_k__BackingField;
 

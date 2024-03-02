@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9590))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample::OutputMode
 struct CORDL_TYPE __HEU_ScriptMeshInputUVLayoutExample__OutputMode {
 public:
@@ -47,24 +45,29 @@ public:
     return static_cast<____HEU_ScriptMeshInputUVLayoutExample__OutputMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_ScriptMeshInputUVLayoutExample__OutputMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_ScriptMeshInputUVLayoutExample__OutputMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_ScriptMeshInputUVLayoutExample__OutputMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field COPY value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode const COPY;
 
   /// @brief Field REPLACE value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode const REPLACE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -78,23 +81,27 @@ static_assert(offsetof(::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9591))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample*
 class CORDL_TYPE HEU_ScriptMeshInputUVLayoutExample : public ::System::Object {
 public:
   // Declarations
   using OutputMode = ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode;
 
-  /// @brief Method ApplyUVLayoutTo, addr 0x214d0d0, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVLayoutTo, addr 0x22ae01c, size 0x840, virtual false, abstract: false, final false
   static inline void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> gameObjects,
                                      ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode outputMode, ::StringW output_name_suffix);
 
   static inline ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214d9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ae904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ScriptMeshInputUVLayoutExample();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptMeshInputUVLayoutExample", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ScriptMeshInputUVLayoutExample(HEU_ScriptMeshInputUVLayoutExample&&) = delete;
@@ -103,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptMeshInputUVLayoutExample(HEU_ScriptMeshInputUVLayoutExample const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ScriptMeshInputUVLayoutExample();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

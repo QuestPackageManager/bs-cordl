@@ -16,20 +16,18 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::PageInfo);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13711))
 // CS Name: ::UnityEngine.TextCore.Text::PageInfo
 struct CORDL_TYPE PageInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PageInfo();
+
   // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty:
   // "float_t", modifiers: "", def_value: None }]
   constexpr PageInfo(int32_t firstCharacterIndex, int32_t lastCharacterIndex, float_t ascender, float_t baseLine, float_t descender) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PageInfo();
 
   /// @brief Field firstCharacterIndex, offset: 0x0, size: 0x4, def value: None
   int32_t firstCharacterIndex;

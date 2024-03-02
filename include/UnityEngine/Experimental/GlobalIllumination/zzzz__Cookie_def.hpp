@@ -20,19 +20,17 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::Cookie);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10396))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::Cookie
 struct CORDL_TYPE Cookie {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sizes", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Cookie();
+
+  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sizes", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;

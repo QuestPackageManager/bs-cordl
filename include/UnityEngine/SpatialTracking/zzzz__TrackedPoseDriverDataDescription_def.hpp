@@ -29,20 +29,18 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__P
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16189))
 // CS Name: ::TrackedPoseDriverDataDescription::PoseData
 struct CORDL_TYPE __TrackedPoseDriverDataDescription__PoseData {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TrackedPoseDriverDataDescription__PoseData();
+
   // Ctor Parameters [CppParam { name: "PoseNames", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "Poses", ty:
   // "::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose>*", modifiers: "", def_value: None }]
   constexpr __TrackedPoseDriverDataDescription__PoseData(::System::Collections::Generic::List_1<::StringW>* PoseNames,
                                                          ::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose>* Poses) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TrackedPoseDriverDataDescription__PoseData();
 
   /// @brief Field PoseNames, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* PoseNames;
@@ -67,8 +65,6 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16190))
 // CS Name: ::UnityEngine.SpatialTracking::TrackedPoseDriverDataDescription*
 class CORDL_TYPE TrackedPoseDriverDataDescription : public ::System::Object {
 public:
@@ -79,15 +75,21 @@ public:
   static __declspec(property(get = getStaticF_DeviceData,
                              put = setStaticF_DeviceData))::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__PoseData>* DeviceData;
 
-  static inline void setStaticF_DeviceData(::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__PoseData>* value);
+  static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2e25bbc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__PoseData>* getStaticF_DeviceData();
 
-  static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
+  static inline void setStaticF_DeviceData(::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__PoseData>* value);
 
-  /// @brief Method .ctor, addr 0x2d189ec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackedPoseDriverDataDescription();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedPoseDriverDataDescription(TrackedPoseDriverDataDescription&&) = delete;
@@ -96,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackedPoseDriverDataDescription(TrackedPoseDriverDataDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackedPoseDriverDataDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

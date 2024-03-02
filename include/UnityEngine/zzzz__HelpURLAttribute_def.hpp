@@ -15,44 +15,48 @@ MARK_REF_PTR_T(::UnityEngine::HelpURLAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10221))
 // CS Name: ::UnityEngine::HelpURLAttribute*
 class CORDL_TYPE HelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field m_Url, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Url, put = __cordl_internal_set_m_Url))::StringW m_Url;
-
   /// @brief Field m_Dispatcher, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Dispatcher, put = __cordl_internal_set_m_Dispatcher)) bool m_Dispatcher;
 
   /// @brief Field m_DispatchingFieldName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DispatchingFieldName, put = __cordl_internal_set_m_DispatchingFieldName))::StringW m_DispatchingFieldName;
 
-  constexpr ::StringW& __cordl_internal_get_m_Url();
-
-  constexpr ::StringW const& __cordl_internal_get_m_Url() const;
-
-  constexpr void __cordl_internal_set_m_Url(::StringW value);
-
-  constexpr bool& __cordl_internal_get_m_Dispatcher();
-
-  constexpr bool const& __cordl_internal_get_m_Dispatcher() const;
-
-  constexpr void __cordl_internal_set_m_Dispatcher(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_m_DispatchingFieldName();
-
-  constexpr ::StringW const& __cordl_internal_get_m_DispatchingFieldName() const;
-
-  constexpr void __cordl_internal_set_m_DispatchingFieldName(::StringW value);
+  /// @brief Field m_Url, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Url, put = __cordl_internal_set_m_Url))::StringW m_Url;
 
   static inline ::UnityEngine::HelpURLAttribute* New_ctor(::StringW url);
 
-  /// @brief Method .ctor, addr 0x2cd2900, size 0x68, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_m_Dispatcher() const;
+
+  constexpr bool& __cordl_internal_get_m_Dispatcher();
+
+  constexpr ::StringW const& __cordl_internal_get_m_DispatchingFieldName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_DispatchingFieldName();
+
+  constexpr ::StringW const& __cordl_internal_get_m_Url() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_Url();
+
+  constexpr void __cordl_internal_set_m_Dispatcher(bool value);
+
+  constexpr void __cordl_internal_set_m_DispatchingFieldName(::StringW value);
+
+  constexpr void __cordl_internal_set_m_Url(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2dc4ef8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HelpURLAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpURLAttribute(HelpURLAttribute&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpURLAttribute(HelpURLAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HelpURLAttribute();
-
-public:
   /// @brief Field m_Url, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Url;
 

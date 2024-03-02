@@ -42,8 +42,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataT
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9838))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9846))
 // CS Name: ::HEU_InputInterfaceTilemap::HEU_InputDataTilemap*
 class CORDL_TYPE __HEU_InputInterfaceTilemap__HEU_InputDataTilemap : public ::HoudiniEngineUnity::HEU_InputData {
 public:
@@ -54,23 +52,29 @@ public:
   /// @brief Field _transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get__tilemap();
+  static inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap> const& __cordl_internal_get__tilemap() const;
 
-  constexpr void __cordl_internal_set__tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get__tilemap();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
+
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  static inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21cde18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232fd64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_InputInterfaceTilemap__HEU_InputDataTilemap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputInterfaceTilemap__HEU_InputDataTilemap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_InputInterfaceTilemap__HEU_InputDataTilemap(__HEU_InputInterfaceTilemap__HEU_InputDataTilemap&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_InputInterfaceTilemap__HEU_InputDataTilemap(__HEU_InputInterfaceTilemap__HEU_InputDataTilemap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_InputInterfaceTilemap__HEU_InputDataTilemap();
-
-public:
   /// @brief Field _tilemap, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Tilemaps::Tilemap> ____tilemap;
 
@@ -105,8 +103,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_In
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9839))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9847))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTilemap*
 class CORDL_TYPE HEU_InputInterfaceTilemap : public ::HoudiniEngineUnity::HEU_InputInterface {
 public:
@@ -116,32 +112,38 @@ public:
   /// @brief Field settings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
 
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x232d54c, size 0x198, virtual true, abstract: false, final false
+  inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
+
+  /// @brief Method GenerateTilemapDataFromGameObject, addr 0x232d6e4, size 0xd8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* GenerateTilemapDataFromGameObject(::UnityEngine::GameObject* inputObject);
+
+  /// @brief Method Initialize, addr 0x232d4dc, size 0x70, virtual false, abstract: false, final false
+  inline void Initialize(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings);
+
+  /// @brief Method IsThisInputObjectSupported, addr 0x232f1b8, size 0xc4, virtual true, abstract: false, final false
+  inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
+
+  static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemap* New_ctor();
+
+  /// @brief Method UploadData, addr 0x232d7bc, size 0x19fc, virtual false, abstract: false, final false
+  inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
+
   constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __cordl_internal_get_settings();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __cordl_internal_get_settings() const;
 
   constexpr void __cordl_internal_set_settings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
 
-  static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemap* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21cb584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232d4d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize, addr 0x21cb590, size 0x70, virtual false, abstract: false, final false
-  inline void Initialize(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_InputInterfaceTilemap();
 
-  /// @brief Method CreateInputNodeWithDataUpload, addr 0x21cb600, size 0x198, virtual true, abstract: false, final false
-  inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
-
-  /// @brief Method IsThisInputObjectSupported, addr 0x21cd26c, size 0xc4, virtual true, abstract: false, final false
-  inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
-
-  /// @brief Method UploadData, addr 0x21cb870, size 0x19fc, virtual false, abstract: false, final false
-  inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
-
-  /// @brief Method GenerateTilemapDataFromGameObject, addr 0x21cb798, size 0xd8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* GenerateTilemapDataFromGameObject(::UnityEngine::GameObject* inputObject);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceTilemap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_InputInterfaceTilemap(HEU_InputInterfaceTilemap&&) = delete;
@@ -150,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputInterfaceTilemap(HEU_InputInterfaceTilemap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_InputInterfaceTilemap();
-
-public:
   /// @brief Field settings, offset: 0x18, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* ___settings;
 

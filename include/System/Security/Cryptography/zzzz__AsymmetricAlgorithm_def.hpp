@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricAlgorithm);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2918))
 // CS Name: ::System.Security.Cryptography::AsymmetricAlgorithm*
 class CORDL_TYPE AsymmetricAlgorithm : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
+
   /// @brief Field KeySizeValue, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_KeySizeValue, put = __cordl_internal_set_KeySizeValue)) int32_t KeySizeValue;
 
@@ -36,52 +36,56 @@ public:
   __declspec(property(get = __cordl_internal_get_LegalKeySizesValue,
                       put = __cordl_internal_set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
 
-  __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Clear, addr 0x254fb60, size 0x6c, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Dispose, addr 0x254fb5c, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x254fbcc, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method FromXmlString, addr 0x254fcdc, size 0x40, virtual true, abstract: false, final false
+  inline void FromXmlString(::StringW xmlString);
+
+  static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
+
+  /// @brief Method ToXmlString, addr 0x254fd1c, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW ToXmlString(bool includePrivateParameters);
+
+  constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
+
+  constexpr int32_t& __cordl_internal_get_KeySizeValue();
+
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
+
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue();
+
+  constexpr void __cordl_internal_set_KeySizeValue(int32_t value);
+
+  constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  /// @brief Method .ctor, addr 0x254fb54, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_KeySize, addr 0x254fbd0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_KeySize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __cordl_internal_get_KeySizeValue();
-
-  constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
-
-  constexpr void __cordl_internal_set_KeySizeValue(int32_t value);
-
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue();
-
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
-
-  constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
-  static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
-
-  /// @brief Method .ctor, addr 0x245bde8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Dispose, addr 0x245bdf0, size 0x4, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Clear, addr 0x245bdf4, size 0x6c, virtual false, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Dispose, addr 0x245be60, size 0x4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method get_KeySize, addr 0x245be64, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_KeySize();
-
-  /// @brief Method set_KeySize, addr 0x245be6c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x254fbd8, size 0xdc, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method FromXmlString, addr 0x245bf70, size 0x40, virtual true, abstract: false, final false
-  inline void FromXmlString(::StringW xmlString);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsymmetricAlgorithm();
 
-  /// @brief Method ToXmlString, addr 0x245bfb0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ToXmlString(bool includePrivateParameters);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricAlgorithm", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsymmetricAlgorithm(AsymmetricAlgorithm&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsymmetricAlgorithm(AsymmetricAlgorithm const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsymmetricAlgorithm();
-
-public:
   /// @brief Field KeySizeValue, offset: 0x10, size: 0x4, def value: None
   int32_t ___KeySizeValue;
 

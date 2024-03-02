@@ -27,17 +27,19 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTrackedSpace);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15111))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15117))
 // CS Name: ::LIV.SDK.Unity::SDKTrackedSpace
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22155b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2377628, size 0x244, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x2377500, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
-  /// @brief Method ToString, addr 0x22156d8, size 0x244, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKTrackedSpace();
 
   // Ctor Parameters [CppParam { name: "trackedSpaceWorldPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "trackedSpaceWorldRotation", ty:
   // "::LIV::SDK::Unity::SDKQuaternion", modifiers: "", def_value: None }, CppParam { name: "trackedSpaceLocalScale", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam {
@@ -45,10 +47,6 @@ public:
   // "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }]
   constexpr SDKTrackedSpace(::LIV::SDK::Unity::SDKVector3 trackedSpaceWorldPosition, ::LIV::SDK::Unity::SDKQuaternion trackedSpaceWorldRotation, ::LIV::SDK::Unity::SDKVector3 trackedSpaceLocalScale,
                             ::LIV::SDK::Unity::SDKMatrix4x4 trackedSpaceLocalToWorldMatrix, ::LIV::SDK::Unity::SDKMatrix4x4 trackedSpaceWorldToLocalMatrix) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKTrackedSpace();
 
   /// @brief Field trackedSpaceWorldPosition, offset: 0x0, size: 0xc, def value: None
   ::LIV::SDK::Unity::SDKVector3 trackedSpaceWorldPosition;

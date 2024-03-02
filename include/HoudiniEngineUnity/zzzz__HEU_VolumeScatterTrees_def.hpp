@@ -32,16 +32,10 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeScatterTrees);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9953))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeScatterTrees*
 class CORDL_TYPE HEU_VolumeScatterTrees : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _treePrototypInfos, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__treePrototypInfos,
-                      put = __cordl_internal_set__treePrototypInfos))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* _treePrototypInfos;
-
   /// @brief Field _colors, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> _colors;
 
@@ -60,80 +54,90 @@ public:
   /// @brief Field _rotations, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__rotations, put = __cordl_internal_set__rotations))::ArrayW<float_t, ::Array<float_t>*> _rotations;
 
-  /// @brief Field _widthScales, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__widthScales, put = __cordl_internal_set__widthScales))::ArrayW<float_t, ::Array<float_t>*> _widthScales;
-
   /// @brief Field _terrainTiles, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__terrainTiles, put = __cordl_internal_set__terrainTiles))::ArrayW<int32_t, ::Array<int32_t>*> _terrainTiles;
+
+  /// @brief Field _treePrototypInfos, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__treePrototypInfos,
+                      put = __cordl_internal_set__treePrototypInfos))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* _treePrototypInfos;
+
+  /// @brief Field _widthScales, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__widthScales, put = __cordl_internal_set__widthScales))::ArrayW<float_t, ::Array<float_t>*> _widthScales;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeScatterTrees__() noexcept;
+  /// @brief Method IsEquivalentTo, addr 0x234c08c, size 0x374, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
+
+  static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
+
+  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> const& __cordl_internal_get__colors() const;
+
+  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>& __cordl_internal_get__colors();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__heightScales() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__heightScales();
+
+  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> const& __cordl_internal_get__lightmapColors() const;
+
+  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>& __cordl_internal_get__lightmapColors();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__positions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__positions();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__prototypeIndices() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__prototypeIndices();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__rotations() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__rotations();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__terrainTiles() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__terrainTiles();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& __cordl_internal_get__treePrototypInfos();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*> const& __cordl_internal_get__treePrototypInfos() const;
 
-  constexpr void __cordl_internal_set__treePrototypInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* value);
-
-  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>& __cordl_internal_get__colors();
-
-  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> const& __cordl_internal_get__colors() const;
-
-  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__heightScales();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__heightScales() const;
-
-  constexpr void __cordl_internal_set__heightScales(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>& __cordl_internal_get__lightmapColors();
-
-  constexpr ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> const& __cordl_internal_get__lightmapColors() const;
-
-  constexpr void __cordl_internal_set__lightmapColors(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__positions();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__positions() const;
-
-  constexpr void __cordl_internal_set__positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__prototypeIndices();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__prototypeIndices() const;
-
-  constexpr void __cordl_internal_set__prototypeIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__rotations();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__rotations() const;
-
-  constexpr void __cordl_internal_set__rotations(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__widthScales() const;
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__widthScales();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__widthScales() const;
+  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> value);
 
-  constexpr void __cordl_internal_set__widthScales(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__heightScales(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__terrainTiles();
+  constexpr void __cordl_internal_set__lightmapColors(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__terrainTiles() const;
+  constexpr void __cordl_internal_set__positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set__prototypeIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__rotations(::ArrayW<float_t, ::Array<float_t>*> value);
 
   constexpr void __cordl_internal_set__terrainTiles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method IsEquivalentTo, addr 0x21ea13c, size 0x374, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
+  constexpr void __cordl_internal_set__treePrototypInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* value);
 
-  static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
+  constexpr void __cordl_internal_set__widthScales(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x21ea4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234c400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeScatterTrees__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_VolumeScatterTrees();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeScatterTrees", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_VolumeScatterTrees(HEU_VolumeScatterTrees&&) = delete;
@@ -142,12 +146,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_VolumeScatterTrees(HEU_VolumeScatterTrees const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_VolumeScatterTrees();
-
-public:
   /// @brief Field _treePrototypInfos, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* ____treePrototypInfos;
 

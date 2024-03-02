@@ -15,12 +15,14 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ObjectInfo);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9738))
 // CS Name: ::HoudiniEngineUnity::HAPI_ObjectInfo
 struct CORDL_TYPE HAPI_ObjectInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_ObjectInfo();
+
   // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "objectInstancePathSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "hasTransformChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "haveGeosChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isVisible", ty:
   // "bool", modifiers: "", def_value: None }, CppParam { name: "isInstancer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: None
@@ -28,10 +30,6 @@ public:
   // ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_ObjectInfo(int32_t nameSH, int32_t objectInstancePathSH, bool hasTransformChanged, bool haveGeosChanged, bool isVisible, bool isInstancer, bool isInstanced, int32_t geoCount,
                             int32_t nodeId, int32_t objectToInstanceId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_ObjectInfo();
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;

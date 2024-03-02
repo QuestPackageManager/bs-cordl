@@ -26,26 +26,30 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Shape);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12233))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Shape*
 class CORDL_TYPE Shape : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpdateBounds, addr 0x2b8dbf4, size 0x4c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
-
-  /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
-
   /// @brief Method CopyShape, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Shape* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b87ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method UpdateBounds, addr 0x2c74834, size 0x4c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
+
+  /// @brief Method .ctor, addr 0x2c6e724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Shape();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Shape(Shape&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Shape(Shape const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Shape();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

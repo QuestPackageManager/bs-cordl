@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchUnblockFlowResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13446))
 // CS Name: ::Oculus.Platform.Models::LaunchUnblockFlowResult*
 class CORDL_TYPE LaunchUnblockFlowResult : public ::System::Object {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field DidUnblock, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_DidUnblock, put = __cordl_internal_set_DidUnblock)) bool DidUnblock;
 
-  constexpr bool& __cordl_internal_get_DidCancel();
+  static inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_DidCancel() const;
 
-  constexpr void __cordl_internal_set_DidCancel(bool value);
-
-  constexpr bool& __cordl_internal_get_DidUnblock();
+  constexpr bool& __cordl_internal_get_DidCancel();
 
   constexpr bool const& __cordl_internal_get_DidUnblock() const;
 
+  constexpr bool& __cordl_internal_get_DidUnblock();
+
+  constexpr void __cordl_internal_set_DidCancel(bool value);
+
   constexpr void __cordl_internal_set_DidUnblock(bool value);
 
-  static inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27067a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f80a8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LaunchUnblockFlowResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LaunchUnblockFlowResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LaunchUnblockFlowResult(LaunchUnblockFlowResult&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LaunchUnblockFlowResult(LaunchUnblockFlowResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LaunchUnblockFlowResult();
-
-public:
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;
 

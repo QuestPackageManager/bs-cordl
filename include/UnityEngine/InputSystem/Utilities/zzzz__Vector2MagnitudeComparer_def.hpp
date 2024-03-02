@@ -21,8 +21,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6661))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Vector2MagnitudeComparer
 #pragma pack(push, 0)
 struct CORDL_TYPE Vector2MagnitudeComparer {
@@ -31,11 +29,11 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*();
 
+  /// @brief Method Compare, addr 0x2bf4d84, size 0x30, virtual true, abstract: false, final true
+  inline int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y);
+
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
   constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>* i___System__Collections__Generic__IComparer_1___UnityEngine__Vector2_();
-
-  /// @brief Method Compare, addr 0x2b0f144, size 0x30, virtual true, abstract: false, final true
-  inline int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y);
 
   // Ctor Parameters []
   // @brief default ctor

@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::Xml::OnRemoveWriter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11430))
 // CS Name: ::System.Xml::OnRemoveWriter*
 class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2853974, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2853aa0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x293c584, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlRawWriter* writer);
 
+  static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x293c458, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OnRemoveWriter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OnRemoveWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnRemoveWriter(OnRemoveWriter&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OnRemoveWriter(OnRemoveWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnRemoveWriter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

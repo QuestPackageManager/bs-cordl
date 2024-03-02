@@ -21,23 +21,21 @@ MARK_VAL_T(::System::Threading::CancellationCallbackCoreWorkArguments);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2689))
 // CS Name: ::System.Threading::CancellationCallbackCoreWorkArguments
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2613570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2707b6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int32_t currArrayIndex);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CancellationCallbackCoreWorkArguments();
 
   // Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*", modifiers: "", def_value:
   // None }, CppParam { name: "_currArrayIndex", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CancellationCallbackCoreWorkArguments(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* _currArrayFragment,
                                                   int32_t _currArrayIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CancellationCallbackCoreWorkArguments();
 
   /// @brief Field _currArrayFragment, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* _currArrayFragment;

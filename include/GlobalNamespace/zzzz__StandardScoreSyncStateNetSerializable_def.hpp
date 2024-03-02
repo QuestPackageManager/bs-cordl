@@ -41,98 +41,102 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
 // CS Name: ::StandardScoreSyncStateNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateNetSerializable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _state, offset 0x10, size 0x14
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::StandardScoreSyncState _state;
-
   /// @brief Field <id>k__BackingField, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField))::GlobalNamespace::SyncStateId _id_k__BackingField;
+
+  /// @brief Field _state, offset 0x10, size 0x14
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::StandardScoreSyncState _state;
 
   /// @brief Field <time>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) int64_t _time_k__BackingField;
 
   __declspec(property(get = get_id, put = set_id))::GlobalNamespace::SyncStateId id;
 
-  __declspec(property(get = get_time, put = set_time)) int64_t time;
-
   __declspec(property(get = get_state, put = set_state))::GlobalNamespace::StandardScoreSyncState state;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
-
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+  __declspec(property(get = get_time, put = set_time)) int64_t time;
 
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
-  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
-
   /// @brief Convert operator to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
   constexpr operator ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>*() noexcept;
+
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+
+  /// @brief Method Deserialize, addr 0xecc998, size 0x50, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+
+  static inline ::GlobalNamespace::StandardScoreSyncStateNetSerializable* New_ctor();
+
+  /// @brief Method Release, addr 0xecc9e8, size 0x54, virtual true, abstract: false, final true
+  inline void Release();
+
+  /// @brief Method Serialize, addr 0xecc94c, size 0x4c, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__id_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__id_k__BackingField();
+
+  constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__state() const;
+
+  constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__state();
+
+  constexpr int64_t const& __cordl_internal_get__time_k__BackingField() const;
+
+  constexpr int64_t& __cordl_internal_get__time_k__BackingField();
+
+  constexpr void __cordl_internal_set__id_k__BackingField(::GlobalNamespace::SyncStateId value);
+
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::StandardScoreSyncState value);
+
+  constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
+
+  /// @brief Method .ctor, addr 0xecca3c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_id, addr 0xecc904, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::SyncStateId get_id();
+
+  /// @brief Method get_pool, addr 0xecc8c4, size 0x40, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
+
+  /// @brief Method get_state, addr 0xecc924, size 0x14, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::StandardScoreSyncState get_state();
+
+  /// @brief Method get_time, addr 0xecc914, size 0x8, virtual true, abstract: false, final true
+  inline int64_t get_time();
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
   /// @brief Convert to "::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>"
   constexpr ::GlobalNamespace::ISyncStateSerializable_1<::GlobalNamespace::StandardScoreSyncState>* i___GlobalNamespace__ISyncStateSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__state();
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__state() const;
-
-  constexpr void __cordl_internal_set__state(::GlobalNamespace::StandardScoreSyncState value);
-
-  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__id_k__BackingField();
-
-  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__id_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__id_k__BackingField(::GlobalNamespace::SyncStateId value);
-
-  constexpr int64_t& __cordl_internal_get__time_k__BackingField();
-
-  constexpr int64_t const& __cordl_internal_get__time_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
-
-  /// @brief Method get_pool, addr 0xe5aabc, size 0x40, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
-
-  /// @brief Method get_id, addr 0xe5aafc, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::SyncStateId get_id();
-
-  /// @brief Method set_id, addr 0xe5ab04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_id, addr 0xecc90c, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_time, addr 0xe5ab0c, size 0x8, virtual true, abstract: false, final true
-  inline int64_t get_time();
-
-  /// @brief Method set_time, addr 0xe5ab14, size 0x8, virtual true, abstract: false, final true
-  inline void set_time(int64_t value);
-
-  /// @brief Method get_state, addr 0xe5ab1c, size 0x14, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::StandardScoreSyncState get_state();
-
-  /// @brief Method set_state, addr 0xe5ab30, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0xecc938, size 0x14, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::StandardScoreSyncState value);
 
-  /// @brief Method Serialize, addr 0xe5ab44, size 0x4c, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+  /// @brief Method set_time, addr 0xecc91c, size 0x8, virtual true, abstract: false, final true
+  inline void set_time(int64_t value);
 
-  /// @brief Method Deserialize, addr 0xe5ab90, size 0x50, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardScoreSyncStateNetSerializable();
 
-  /// @brief Method Release, addr 0xe5abe0, size 0x54, virtual true, abstract: false, final true
-  inline void Release();
-
-  static inline ::GlobalNamespace::StandardScoreSyncStateNetSerializable* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe5ac34, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardScoreSyncStateNetSerializable(StandardScoreSyncStateNetSerializable&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardScoreSyncStateNetSerializable(StandardScoreSyncStateNetSerializable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardScoreSyncStateNetSerializable();
-
-public:
   /// @brief Field _state, offset: 0x10, size: 0x14, def value: None
   ::GlobalNamespace::StandardScoreSyncState ____state;
 

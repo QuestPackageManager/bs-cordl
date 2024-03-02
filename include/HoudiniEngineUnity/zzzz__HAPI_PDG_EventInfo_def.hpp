@@ -15,20 +15,18 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_EventInfo);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9752))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_EventInfo
 struct CORDL_TYPE HAPI_PDG_EventInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_PDG_EventInfo();
+
   // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "workitemId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "dependencyId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "currentState", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastState", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "eventType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msgSH", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_PDG_EventInfo(int32_t nodeId, int32_t workitemId, int32_t dependencyId, int32_t currentState, int32_t lastState, int32_t eventType, int32_t msgSH) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_PDG_EventInfo();
 
   /// @brief Field nodeId, offset: 0x0, size: 0x4, def value: None
   int32_t nodeId;

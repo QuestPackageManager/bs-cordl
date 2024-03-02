@@ -45,26 +45,30 @@ MARK_REF_PTR_T(::Oculus::Platform::__StandalonePlatform__UnityLogDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13388))
 // CS Name: ::StandalonePlatform::UnityLogDelegate*
 class CORDL_TYPE __StandalonePlatform__UnityLogDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::Oculus::Platform::__StandalonePlatform__UnityLogDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2700f84, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2701048, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(void* tag, void* msg);
-
-  /// @brief Method BeginInvoke, addr 0x270105c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x27f2964, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* tag, void* msg, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27010f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x27f29fc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x27f2950, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(void* tag, void* msg);
+
+  static inline ::Oculus::Platform::__StandalonePlatform__UnityLogDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x27f288c, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StandalonePlatform__UnityLogDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StandalonePlatform__UnityLogDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StandalonePlatform__UnityLogDelegate(__StandalonePlatform__UnityLogDelegate&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StandalonePlatform__UnityLogDelegate(__StandalonePlatform__UnityLogDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StandalonePlatform__UnityLogDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,29 +87,33 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__StandalonePl
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13389))
 // CS Name: ::Oculus.Platform::StandalonePlatform*
 class CORDL_TYPE StandalonePlatform : public ::System::Object {
 public:
   // Declarations
   using UnityLogDelegate = ::Oculus::Platform::__StandalonePlatform__UnityLogDelegate;
 
-  /// @brief Method InitializeInEditor, addr 0x26f4fec, size 0x128, virtual false, abstract: false, final false
-  inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();
-
-  /// @brief Method AsyncInitialize, addr 0x270064c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x27f1f54, size 0xe4, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(uint64_t appID, ::StringW accessToken);
 
-  /// @brief Method AsyncInitializeWithAccessTokenAndOptions, addr 0x26f54b0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitializeWithAccessTokenAndOptions, addr 0x27e6db8, size 0x148, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
   AsyncInitializeWithAccessTokenAndOptions(::StringW appId, ::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions);
 
+  /// @brief Method InitializeInEditor, addr 0x27e68f4, size 0x128, virtual false, abstract: false, final false
+  inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();
+
   static inline ::Oculus::Platform::StandalonePlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f4fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e68ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandalonePlatform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandalonePlatform(StandalonePlatform&&) = delete;
@@ -120,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandalonePlatform(StandalonePlatform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandalonePlatform();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -18,25 +18,23 @@ MARK_VAL_T(::TMPro::GlyphPairKey);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12375))
 // CS Name: ::TMPro::GlyphPairKey
 struct CORDL_TYPE GlyphPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c122a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf8ee0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex);
 
-  /// @brief Method .ctor, addr 0x2c09c24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf0864, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
-
-  // Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr GlyphPairKey(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex, uint32_t key) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GlyphPairKey();
+
+  // Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None },
+  // CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr GlyphPairKey(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex, uint32_t key) noexcept;
 
   /// @brief Field firstGlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t firstGlyphIndex;

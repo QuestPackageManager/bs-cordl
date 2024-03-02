@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5241))
 // CS Name: ::MultiplayerPsPlusFeatureNotifier*
 class CORDL_TYPE MultiplayerPsPlusFeatureNotifier : public ::UnityEngine::MonoBehaviour {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field _isSpectator, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__isSpectator, put = __cordl_internal_set__isSpectator)) bool _isSpectator;
 
-  constexpr bool& __cordl_internal_get__isSpectator();
+  static inline ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier* New_ctor();
 
   constexpr bool const& __cordl_internal_get__isSpectator() const;
 
+  constexpr bool& __cordl_internal_get__isSpectator();
+
   constexpr void __cordl_internal_set__isSpectator(bool value);
 
-  static inline ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2257e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24858d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerPsPlusFeatureNotifier();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPsPlusFeatureNotifier", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPsPlusFeatureNotifier(MultiplayerPsPlusFeatureNotifier&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPsPlusFeatureNotifier(MultiplayerPsPlusFeatureNotifier const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerPsPlusFeatureNotifier();
-
-public:
   /// @brief Field _isSpectator, offset: 0x18, size: 0x1, def value: None
   bool ____isSpectator;
 

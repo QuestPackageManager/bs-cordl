@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14331))
 // CS Name: ::DeactivateAnimatorOnInputFocusCapture*
 class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,41 +33,47 @@ public:
   /// @brief Field _wasEnabled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
+  /// @brief Method HandleInputFocusCaptured, addr 0x225161c, size 0x40, virtual false, abstract: false, final false
+  inline void HandleInputFocusCaptured();
+
+  /// @brief Method HandleInputFocusReleased, addr 0x2251800, size 0x24, virtual false, abstract: false, final false
+  inline void HandleInputFocusReleased();
+
+  static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x225165c, size 0x1a4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x225140c, size 0x210, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr bool const& __cordl_internal_get__wasEnabled() const;
 
   constexpr bool& __cordl_internal_get__wasEnabled();
 
-  constexpr bool const& __cordl_internal_get__wasEnabled() const;
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
+
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method Start, addr 0x20ee7e0, size 0x210, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x20eea30, size 0x1a4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleInputFocusCaptured, addr 0x20ee9f0, size 0x40, virtual false, abstract: false, final false
-  inline void HandleInputFocusCaptured();
-
-  /// @brief Method HandleInputFocusReleased, addr 0x20eebd4, size 0x24, virtual false, abstract: false, final false
-  inline void HandleInputFocusReleased();
-
-  static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
-
-  /// @brief Method .ctor, addr 0x20eebf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2251824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DeactivateAnimatorOnInputFocusCapture();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DeactivateAnimatorOnInputFocusCapture", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeactivateAnimatorOnInputFocusCapture();
-
-public:
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

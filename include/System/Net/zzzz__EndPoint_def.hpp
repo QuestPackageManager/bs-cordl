@@ -20,28 +20,32 @@ MARK_REF_PTR_T(::System::Net::EndPoint);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9061))
 // CS Name: ::System.Net::EndPoint*
 class CORDL_TYPE EndPoint : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AddressFamily))::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method get_AddressFamily, addr 0x299b6d4, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
-
-  /// @brief Method Serialize, addr 0x299b6fc, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Net::SocketAddress* Serialize();
-
-  /// @brief Method Create, addr 0x299b724, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x2a8629c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x298c710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2a86274, size 0x28, virtual true, abstract: false, final false
+  inline ::System::Net::SocketAddress* Serialize();
+
+  /// @brief Method .ctor, addr 0x2a77288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_AddressFamily, addr 0x2a8624c, size 0x28, virtual true, abstract: false, final false
+  inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EndPoint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EndPoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EndPoint(EndPoint&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EndPoint(EndPoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EndPoint();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

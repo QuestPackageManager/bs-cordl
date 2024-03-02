@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstance);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11244))
 // CS Name: ::Zenject::SubContainerCreatorByInstance*
 class CORDL_TYPE SubContainerCreatorByInstance : public ::System::Object {
 public:
@@ -41,8 +39,10 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Convert to "::Zenject::ISubContainerCreator"
-  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
+  /// @brief Method CreateSubContainer, addr 0x301aec0, size 0x68, virtual true, abstract: false, final true
+  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+
+  static inline ::Zenject::SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__subcontainer();
 
@@ -50,14 +50,18 @@ public:
 
   constexpr void __cordl_internal_set__subcontainer(::Zenject::DiContainer* value);
 
-  static inline ::Zenject::SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer);
-
-  /// @brief Method .ctor, addr 0x2f0b628, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301ae98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* subcontainer);
 
-  /// @brief Method CreateSubContainer, addr 0x2f0b650, size 0x68, virtual true, abstract: false, final true
-  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorByInstance();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstance", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByInstance(SubContainerCreatorByInstance&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByInstance(SubContainerCreatorByInstance const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByInstance();
-
-public:
   /// @brief Field _subcontainer, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____subcontainer;
 

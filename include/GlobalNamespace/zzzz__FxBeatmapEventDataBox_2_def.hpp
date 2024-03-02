@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
+class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -39,8 +39,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4309))
 // CS Name: ::FxBeatmapEventDataBox`2<TIn,TOut>*
 class CORDL_TYPE FxBeatmapEventDataBox_2 : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
@@ -51,35 +49,41 @@ public:
   /// @brief Field _fxBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__fxBaseDataList, put = __cordl_internal_set__fxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
 
-  constexpr float_t& __cordl_internal_get__beatStep();
-
-  constexpr float_t const& __cordl_internal_get__beatStep() const;
-
-  constexpr void __cordl_internal_set__beatStep(float_t value);
-
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<TIn>*& __cordl_internal_get__fxBaseDataList();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<TIn>*> const& __cordl_internal_get__fxBaseDataList() const;
-
-  constexpr void __cordl_internal_set__fxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<TIn>* value);
+  /// @brief Method CreateVfxBeatmapEventData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline TOut CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
 
   static inline ::GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>*
   New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
            ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
            ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<TIn>* fxBaseDataList);
 
+  /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+
+  constexpr float_t const& __cordl_internal_get__beatStep() const;
+
+  constexpr float_t& __cordl_internal_get__beatStep();
+
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<TIn>*& __cordl_internal_get__fxBaseDataList();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<TIn>*> const& __cordl_internal_get__fxBaseDataList() const;
+
+  constexpr void __cordl_internal_set__beatStep(float_t value);
+
+  constexpr void __cordl_internal_set__fxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<TIn>* value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<TIn>* fxBaseDataList);
 
-  /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxBeatmapEventDataBox_2();
 
-  /// @brief Method CreateVfxBeatmapEventData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TOut CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FxBeatmapEventDataBox_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxBeatmapEventDataBox_2(FxBeatmapEventDataBox_2&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxBeatmapEventDataBox_2(FxBeatmapEventDataBox_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxBeatmapEventDataBox_2();
-
-public:
   /// @brief Field _beatStep, offset: 0x34, size: 0x4, def value: None
   float_t ____beatStep;
 

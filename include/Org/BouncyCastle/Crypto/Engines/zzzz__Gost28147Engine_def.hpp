@@ -26,26 +26,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Gost28147Engine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(845))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Gost28147Engine*
 class CORDL_TYPE Gost28147Engine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field workingKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
+  /// @brief Field DSbox_A, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_DSbox_A, put = setStaticF_DSbox_A))::ArrayW<uint8_t, ::Array<uint8_t>*> DSbox_A;
 
-  /// @brief Field S, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
-
-  /// @brief Field Sbox_Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sbox_Default, put = setStaticF_Sbox_Default))::ArrayW<uint8_t, ::Array<uint8_t>*> Sbox_Default;
-
-  /// @brief Field ESbox_Test, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ESbox_Test, put = setStaticF_ESbox_Test))::ArrayW<uint8_t, ::Array<uint8_t>*> ESbox_Test;
+  /// @brief Field DSbox_Test, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_DSbox_Test, put = setStaticF_DSbox_Test))::ArrayW<uint8_t, ::Array<uint8_t>*> DSbox_Test;
 
   /// @brief Field ESbox_A, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ESbox_A, put = setStaticF_ESbox_A))::ArrayW<uint8_t, ::Array<uint8_t>*> ESbox_A;
@@ -59,127 +50,140 @@ public:
   /// @brief Field ESbox_D, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ESbox_D, put = setStaticF_ESbox_D))::ArrayW<uint8_t, ::Array<uint8_t>*> ESbox_D;
 
-  /// @brief Field DSbox_Test, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DSbox_Test, put = setStaticF_DSbox_Test))::ArrayW<uint8_t, ::Array<uint8_t>*> DSbox_Test;
+  /// @brief Field ESbox_Test, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ESbox_Test, put = setStaticF_ESbox_Test))::ArrayW<uint8_t, ::Array<uint8_t>*> ESbox_Test;
 
-  /// @brief Field DSbox_A, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DSbox_A, put = setStaticF_DSbox_A))::ArrayW<uint8_t, ::Array<uint8_t>*> DSbox_A;
+  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
+
+  /// @brief Field S, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
+
+  /// @brief Field Sbox_Default, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Sbox_Default, put = setStaticF_Sbox_Default))::ArrayW<uint8_t, ::Array<uint8_t>*> Sbox_Default;
+
+  /// @brief Field forEncryption, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field sBoxes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sBoxes, put = setStaticF_sBoxes))::System::Collections::IDictionary* sBoxes;
 
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
-
-  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
+  /// @brief Field workingKey, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey() const;
-
-  constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr bool& __cordl_internal_get_forEncryption();
-
-  constexpr bool const& __cordl_internal_get_forEncryption() const;
-
-  constexpr void __cordl_internal_set_forEncryption(bool value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_S();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_S() const;
-
-  constexpr void __cordl_internal_set_S(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline void setStaticF_Sbox_Default(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Sbox_Default();
-
-  static inline void setStaticF_ESbox_Test(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_Test();
-
-  static inline void setStaticF_ESbox_A(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_A();
-
-  static inline void setStaticF_ESbox_B(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_B();
-
-  static inline void setStaticF_ESbox_C(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_C();
-
-  static inline void setStaticF_ESbox_D(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_D();
-
-  static inline void setStaticF_DSbox_Test(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DSbox_Test();
-
-  static inline void setStaticF_DSbox_A(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DSbox_A();
-
-  static inline void setStaticF_sBoxes(::System::Collections::IDictionary* value);
-
-  static inline ::System::Collections::IDictionary* getStaticF_sBoxes();
-
-  /// @brief Method AddSBox, addr 0xed0ed0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddSBox, addr 0xf42d30, size 0x11c, virtual false, abstract: false, final false
   static inline void AddSBox(::StringW sBoxName, ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::Gost28147Engine* New_ctor();
-
-  /// @brief Method .ctor, addr 0xed0fec, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Init, addr 0xed1058, size 0x264, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-
-  /// @brief Method get_AlgorithmName, addr 0xed13f0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method get_IsPartialBlockOkay, addr 0xed1430, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPartialBlockOkay();
-
-  /// @brief Method GetBlockSize, addr 0xed1438, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0xf43298, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock, addr 0xed1440, size 0x118, virtual true, abstract: false, final false
-  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+  /// @brief Method GetSBox, addr 0xf437dc, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSBox(::StringW sBoxName);
 
-  /// @brief Method Reset, addr 0xed179c, size 0x4, virtual true, abstract: false, final false
-  inline void Reset();
+  /// @brief Method GetSBoxName, addr 0xf4399c, size 0x55c, virtual false, abstract: false, final false
+  static inline ::StringW GetSBoxName(::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  /// @brief Method generateWorkingKey, addr 0xed12bc, size 0x134, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> generateWorkingKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> userKey);
-
-  /// @brief Method Gost28147_mainStep, addr 0xed1814, size 0xe8, virtual false, abstract: false, final false
-  inline int32_t Gost28147_mainStep(int32_t n1, int32_t key);
-
-  /// @brief Method Gost28147Func, addr 0xed1558, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Gost28147Func, addr 0xf433b8, size 0x244, virtual false, abstract: false, final false
   inline void Gost28147Func(::ArrayW<int32_t, ::Array<int32_t>*> workingKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes,
                             int32_t outOff);
 
-  /// @brief Method bytesToint, addr 0xed17a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Gost28147_mainStep, addr 0xf43674, size 0xe8, virtual false, abstract: false, final false
+  inline int32_t Gost28147_mainStep(int32_t n1, int32_t key);
+
+  /// @brief Method Init, addr 0xf42eb8, size 0x264, virtual true, abstract: false, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Engines::Gost28147Engine* New_ctor();
+
+  /// @brief Method ProcessBlock, addr 0xf432a0, size 0x118, virtual true, abstract: false, final false
+  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+
+  /// @brief Method Reset, addr 0xf435fc, size 0x4, virtual true, abstract: false, final false
+  inline void Reset();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_S() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_S();
+
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
+
+  constexpr bool& __cordl_internal_get_forEncryption();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey();
+
+  constexpr void __cordl_internal_set_S(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_forEncryption(bool value);
+
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method .ctor, addr 0xf42e4c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method bytesToint, addr 0xf43600, size 0x74, virtual false, abstract: false, final false
   static inline int32_t bytesToint(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff);
 
-  /// @brief Method intTobytes, addr 0xed18fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method generateWorkingKey, addr 0xf4311c, size 0x134, virtual false, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> generateWorkingKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> userKey);
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DSbox_A();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DSbox_Test();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_A();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_B();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_C();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_D();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ESbox_Test();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Sbox_Default();
+
+  static inline ::System::Collections::IDictionary* getStaticF_sBoxes();
+
+  /// @brief Method get_AlgorithmName, addr 0xf43250, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
+
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf43290, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsPartialBlockOkay();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+
+  /// @brief Method intTobytes, addr 0xf4375c, size 0x80, virtual false, abstract: false, final false
   static inline void intTobytes(int32_t num, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetSBox, addr 0xed197c, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSBox(::StringW sBoxName);
+  static inline void setStaticF_DSbox_A(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetSBoxName, addr 0xed1b3c, size 0x55c, virtual false, abstract: false, final false
-  static inline ::StringW GetSBoxName(::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
+  static inline void setStaticF_DSbox_Test(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
+  static inline void setStaticF_ESbox_A(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_ESbox_B(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_ESbox_C(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_ESbox_D(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_ESbox_Test(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_Sbox_Default(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_sBoxes(::System::Collections::IDictionary* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gost28147Engine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gost28147Engine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost28147Engine(Gost28147Engine&&) = delete;
@@ -188,12 +192,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost28147Engine(Gost28147Engine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost28147Engine();
-
-public:
   /// @brief Field workingKey, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___workingKey;
 

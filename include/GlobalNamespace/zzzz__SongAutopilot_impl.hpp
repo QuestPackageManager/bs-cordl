@@ -9,6 +9,7 @@
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerVRControllersManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongAutopilot_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SongAutopilot__Frame::*)(float_t, ::UnityEngine::Pose)>(
     &::GlobalNamespace::__SongAutopilot__Frame::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x226db90;
+  constexpr static std::size_t addrs = 0x2387e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongAutopilot::*)()>(&::GlobalNamespace::SongAutopilot::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x226db50;
+  constexpr static std::size_t addrs = 0x2387dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongAutopilot*>::get(), ".ctor",
@@ -331,6 +332,18 @@ constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::SongAutopilot:
 constexpr void GlobalNamespace::SongAutopilot::__cordl_internal_set__hmdCamera(::UnityW<::UnityEngine::Camera> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hmdCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& GlobalNamespace::SongAutopilot::__cordl_internal_get__playerTransforms() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerTransforms;
+}
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& GlobalNamespace::SongAutopilot::__cordl_internal_get__playerTransforms() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerTransforms;
+}
+constexpr void GlobalNamespace::SongAutopilot::__cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::SongAutopilot* GlobalNamespace::SongAutopilot::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongAutopilot*>());

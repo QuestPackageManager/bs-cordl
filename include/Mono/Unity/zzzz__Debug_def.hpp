@@ -24,19 +24,23 @@ MARK_REF_PTR_T(::Mono::Unity::Debug);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8757))
 // CS Name: ::Mono.Unity::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x2817a5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x29016c0, size 0xa0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x2817afc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x2901760, size 0xd8, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Debug();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Debug(Debug&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Debug(Debug const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Debug();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

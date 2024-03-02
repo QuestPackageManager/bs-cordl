@@ -26,63 +26,67 @@ MARK_REF_PTR_T(::System::Threading::ThreadHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2722))
 // CS Name: ::System.Threading::ThreadHelper*
 class CORDL_TYPE ThreadHelper : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _ccb, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__ccb, put = setStaticF__ccb))::System::Threading::ContextCallback* _ccb;
+
+  /// @brief Field _executionContext, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext))::System::Threading::ExecutionContext* _executionContext;
+
   /// @brief Field _start, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start))::System::Delegate* _start;
 
   /// @brief Field _startArg, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__startArg, put = __cordl_internal_set__startArg))::System::Object* _startArg;
 
-  /// @brief Field _executionContext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext))::System::Threading::ExecutionContext* _executionContext;
+  static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Field _ccb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__ccb, put = setStaticF__ccb))::System::Threading::ContextCallback* _ccb;
+  /// @brief Method SetExecutionContextHelper, addr 0x270d8c4, size 0x8, virtual false, abstract: false, final false
+  inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  constexpr ::System::Delegate*& __cordl_internal_get__start();
+  /// @brief Method ThreadStart, addr 0x270dad8, size 0xf4, virtual false, abstract: false, final false
+  inline void ThreadStart();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__start() const;
+  /// @brief Method ThreadStart, addr 0x270d9d8, size 0x100, virtual false, abstract: false, final false
+  inline void ThreadStart(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__start(::System::Delegate* value);
-
-  constexpr ::System::Object*& __cordl_internal_get__startArg();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__startArg() const;
-
-  constexpr void __cordl_internal_set__startArg(::System::Object* value);
+  /// @brief Method ThreadStart_Context, addr 0x270d8cc, size 0x10c, virtual false, abstract: false, final false
+  static inline void ThreadStart_Context(::System::Object* state);
 
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__executionContext();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__executionContext() const;
 
+  constexpr ::System::Delegate*& __cordl_internal_get__start();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__start() const;
+
+  constexpr ::System::Object*& __cordl_internal_get__startArg();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__startArg() const;
+
   constexpr void __cordl_internal_set__executionContext(::System::Threading::ExecutionContext* value);
 
-  static inline void setStaticF__ccb(::System::Threading::ContextCallback* value);
+  constexpr void __cordl_internal_set__start(::System::Delegate* value);
+
+  constexpr void __cordl_internal_set__startArg(::System::Object* value);
+
+  /// @brief Method .ctor, addr 0x270d89c, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Delegate* start);
 
   static inline ::System::Threading::ContextCallback* getStaticF__ccb();
 
-  static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
+  static inline void setStaticF__ccb(::System::Threading::ContextCallback* value);
 
-  /// @brief Method .ctor, addr 0x26192a0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Delegate* start);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadHelper();
 
-  /// @brief Method SetExecutionContextHelper, addr 0x26192c8, size 0x8, virtual false, abstract: false, final false
-  inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
-
-  /// @brief Method ThreadStart_Context, addr 0x26192d0, size 0x10c, virtual false, abstract: false, final false
-  static inline void ThreadStart_Context(::System::Object* state);
-
-  /// @brief Method ThreadStart, addr 0x26193dc, size 0x100, virtual false, abstract: false, final false
-  inline void ThreadStart(::System::Object* obj);
-
-  /// @brief Method ThreadStart, addr 0x26194dc, size 0xf4, virtual false, abstract: false, final false
-  inline void ThreadStart();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadHelper(ThreadHelper&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadHelper(ThreadHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadHelper();
-
-public:
   /// @brief Field _start, offset: 0x10, size: 0x8, def value: None
   ::System::Delegate* ____start;
 

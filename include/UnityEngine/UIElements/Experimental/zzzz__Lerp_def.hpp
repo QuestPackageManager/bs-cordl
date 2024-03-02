@@ -21,22 +21,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::Lerp);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7456))
 // CS Name: ::UnityEngine.UIElements.Experimental::Lerp*
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x2de3930, size 0x10, virtual false, abstract: false, final false
-  static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
-
-  /// @brief Method Interpolate, addr 0x2de3940, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x2ef2450, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x2de3978, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x2ef2488, size 0x3f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
                                                                                  float_t ratio);
 
+  /// @brief Method Interpolate, addr 0x2ef2440, size 0x10, virtual false, abstract: false, final false
+  static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Lerp();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Lerp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lerp(Lerp&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Lerp(Lerp const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Lerp();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

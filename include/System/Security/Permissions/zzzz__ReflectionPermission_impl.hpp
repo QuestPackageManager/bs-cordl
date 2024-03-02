@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::ReflectionPermission::*)(
     ::System::Security::Permissions::ReflectionPermissionFlag)>(&::System::Security::Permissions::ReflectionPermission::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2456ab4;
+  constexpr static std::size_t addrs = 0x254a610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::ReflectionPermissionFlag (
     ::System::Security::Permissions::ReflectionPermission::*)()>(&::System::Security::Permissions::ReflectionPermission::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2456b98;
+  constexpr static std::size_t addrs = 0x254a6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::ReflectionPermission::*)(
     ::System::Security::Permissions::ReflectionPermissionFlag)>(&::System::Security::Permissions::ReflectionPermission::set_Flags)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2456ae0;
+  constexpr static std::size_t addrs = 0x254a63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::ReflectionPermission::*)(::System::Security::IPermission*)>(
     &::System::Security::Permissions::ReflectionPermission::IsSubsetOf)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2456ba0;
+  constexpr static std::size_t addrs = 0x254a6fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::ReflectionPermission::*)()>(
     &::System::Security::Permissions::ReflectionPermission::IsUnrestricted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2456c94;
+  constexpr static std::size_t addrs = 0x254a7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::Permissions::ReflectionPermission::*)()>(
     &::System::Security::Permissions::ReflectionPermission::ToXml)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2456ca4;
+  constexpr static std::size_t addrs = 0x254a800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::ReflectionPermission* (
     ::System::Security::Permissions::ReflectionPermission::*)(::System::Security::IPermission*)>(&::System::Security::Permissions::ReflectionPermission::Cast)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2456bf0;
+  constexpr static std::size_t addrs = 0x254a74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9754))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo
 struct CORDL_TYPE HAPI_PDG_WorkitemResultInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "resultSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "resultTagSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "resultHash", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr HAPI_PDG_WorkitemResultInfo(int32_t resultSH, int32_t resultTagSH, int64_t resultHash) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_PDG_WorkitemResultInfo();
+
+  // Ctor Parameters [CppParam { name: "resultSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "resultTagSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "resultHash", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr HAPI_PDG_WorkitemResultInfo(int32_t resultSH, int32_t resultTagSH, int64_t resultHash) noexcept;
 
   /// @brief Field resultSH, offset: 0x0, size: 0x4, def value: None
   int32_t resultSH;

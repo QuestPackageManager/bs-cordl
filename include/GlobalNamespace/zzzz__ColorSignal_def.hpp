@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst:
-// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14391)) CS Name: ::ColorSignal*
+// CS Name: ::ColorSignal*
 class CORDL_TYPE ColorSignal : public ::GlobalNamespace::GenericSignal_1<::UnityEngine::Color> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ColorSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f556c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257600, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSignal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSignal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSignal(ColorSignal&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSignal(ColorSignal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSignal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

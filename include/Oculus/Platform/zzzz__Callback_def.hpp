@@ -47,8 +47,6 @@ MARK_GEN_REF_PTR_T(::Oculus::Platform::__Callback__RequestCallback_1);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13232))
 // CS Name: ::Callback::RequestCallback*
 class CORDL_TYPE __Callback__RequestCallback : public ::System::Object {
 public:
@@ -56,25 +54,31 @@ public:
   /// @brief Field messageCallback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_messageCallback, put = __cordl_internal_set_messageCallback))::Oculus::Platform::__Message__Callback* messageCallback;
 
+  /// @brief Method HandleMessage, addr 0x27c13dc, size 0x1c, virtual true, abstract: false, final false
+  inline void HandleMessage(::Oculus::Platform::Message* msg);
+
+  static inline ::Oculus::Platform::__Callback__RequestCallback* New_ctor();
+
+  static inline ::Oculus::Platform::__Callback__RequestCallback* New_ctor(::Oculus::Platform::__Message__Callback* callback);
+
   constexpr ::Oculus::Platform::__Message__Callback*& __cordl_internal_get_messageCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message__Callback*> const& __cordl_internal_get_messageCallback() const;
 
   constexpr void __cordl_internal_set_messageCallback(::Oculus::Platform::__Message__Callback* value);
 
-  static inline ::Oculus::Platform::__Callback__RequestCallback* New_ctor();
-
-  /// @brief Method .ctor, addr 0x26cfacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c13d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Oculus::Platform::__Callback__RequestCallback* New_ctor(::Oculus::Platform::__Message__Callback* callback);
-
-  /// @brief Method .ctor, addr 0x26cf3a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c0cac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method HandleMessage, addr 0x26cfad4, size 0x1c, virtual true, abstract: false, final false
-  inline void HandleMessage(::Oculus::Platform::Message* msg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Callback__RequestCallback();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Callback__RequestCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Callback__RequestCallback(__Callback__RequestCallback&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Callback__RequestCallback(__Callback__RequestCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Callback__RequestCallback();
-
-public:
   /// @brief Field messageCallback, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::__Message__Callback* ___messageCallback;
 
@@ -106,8 +104,6 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13232))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13233))
 // CS Name: ::Callback::RequestCallback`1<T>*
 class CORDL_TYPE __Callback__RequestCallback_1 : public ::Oculus::Platform::__Callback__RequestCallback {
 public:
@@ -115,20 +111,26 @@ public:
   /// @brief Field callback, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::Oculus::Platform::__Message_1__Callback<T>* callback;
 
+  /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleMessage(::Oculus::Platform::Message* msg);
+
+  static inline ::Oculus::Platform::__Callback__RequestCallback_1<T>* New_ctor(::Oculus::Platform::__Message_1__Callback<T>* callback);
+
   constexpr ::Oculus::Platform::__Message_1__Callback<T>*& __cordl_internal_get_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& __cordl_internal_get_callback() const;
 
   constexpr void __cordl_internal_set_callback(::Oculus::Platform::__Message_1__Callback<T>* value);
 
-  static inline ::Oculus::Platform::__Callback__RequestCallback_1<T>* New_ctor(::Oculus::Platform::__Message_1__Callback<T>* callback);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::__Message_1__Callback<T>* callback);
 
-  /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void HandleMessage(::Oculus::Platform::Message* msg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Callback__RequestCallback_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Callback__RequestCallback_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Callback__RequestCallback_1(__Callback__RequestCallback_1&&) = delete;
@@ -137,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Callback__RequestCallback_1(__Callback__RequestCallback_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Callback__RequestCallback_1();
-
-public:
   /// @brief Field callback, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::__Message_1__Callback<T>* ___callback;
 
@@ -154,24 +150,13 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13234))
 // CS Name: ::Oculus.Platform::Callback*
 class CORDL_TYPE Callback : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using RequestCallback_1 = ::Oculus::Platform::__Callback__RequestCallback_1<T>;
-
   using RequestCallback = ::Oculus::Platform::__Callback__RequestCallback;
 
-  /// @brief Field requestIDsToRequests, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_requestIDsToRequests,
-                             put = setStaticF_requestIDsToRequests))::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* requestIDsToRequests;
-
-  /// @brief Field notificationCallbacks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_notificationCallbacks,
-                             put = setStaticF_notificationCallbacks))::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType,
-                                                                                                                  ::Oculus::Platform::__Callback__RequestCallback*>* notificationCallbacks;
+  template <typename T> using RequestCallback_1 = ::Oculus::Platform::__Callback__RequestCallback_1<T>;
 
   /// @brief Field hasRegisteredJoinIntentNotificationHandler, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_hasRegisteredJoinIntentNotificationHandler, put = setStaticF_hasRegisteredJoinIntentNotificationHandler)) bool hasRegisteredJoinIntentNotificationHandler;
@@ -180,47 +165,62 @@ public:
   static __declspec(property(get = getStaticF_latestPendingJoinIntentNotifications,
                              put = setStaticF_latestPendingJoinIntentNotifications))::Oculus::Platform::Message* latestPendingJoinIntentNotifications;
 
-  static inline void setStaticF_requestIDsToRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* value);
+  /// @brief Field notificationCallbacks, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_notificationCallbacks,
+                             put = setStaticF_notificationCallbacks))::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType,
+                                                                                                                  ::Oculus::Platform::__Callback__RequestCallback*>* notificationCallbacks;
 
-  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* getStaticF_requestIDsToRequests();
+  /// @brief Field requestIDsToRequests, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_requestIDsToRequests,
+                             put = setStaticF_requestIDsToRequests))::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* requestIDsToRequests;
 
-  static inline void
-  setStaticF_notificationCallbacks(::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Callback__RequestCallback*>* value);
+  /// @brief Method AddRequest, addr 0x27c0cd4, size 0xdc, virtual false, abstract: false, final false
+  static inline void AddRequest(::Oculus::Platform::Request* request);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Callback__RequestCallback*>* getStaticF_notificationCallbacks();
+  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x27c1258, size 0xa0, virtual false, abstract: false, final false
+  static inline void FlushJoinIntentNotificationQueue();
 
-  static inline void setStaticF_hasRegisteredJoinIntentNotificationHandler(bool value);
+  /// @brief Method HandleMessage, addr 0x27c0ef0, size 0x23c, virtual false, abstract: false, final false
+  static inline void HandleMessage(::Oculus::Platform::Message* msg);
 
-  static inline bool getStaticF_hasRegisteredJoinIntentNotificationHandler();
+  /// @brief Method OnApplicationQuit, addr 0x27c11b4, size 0xa4, virtual false, abstract: false, final false
+  static inline void OnApplicationQuit();
 
-  static inline void setStaticF_latestPendingJoinIntentNotifications(::Oculus::Platform::Message* value);
+  /// @brief Method RunCallbacks, addr 0x27c0db0, size 0x6c, virtual false, abstract: false, final false
+  static inline void RunCallbacks();
 
-  static inline ::Oculus::Platform::Message* getStaticF_latestPendingJoinIntentNotifications();
+  /// @brief Method RunLimitedCallbacks, addr 0x27c112c, size 0x88, virtual false, abstract: false, final false
+  static inline void RunLimitedCallbacks(uint32_t limit);
 
   /// @brief Method SetNotificationCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void SetNotificationCallback(::Oculus::Platform::__Message__MessageType type, ::Oculus::Platform::__Message_1__Callback<T>* callback);
 
-  /// @brief Method SetNotificationCallback, addr 0x26cf290, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetNotificationCallback, addr 0x27c0b98, size 0x114, virtual false, abstract: false, final false
   static inline void SetNotificationCallback(::Oculus::Platform::__Message__MessageType type, ::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method AddRequest, addr 0x26cf3cc, size 0xdc, virtual false, abstract: false, final false
-  static inline void AddRequest(::Oculus::Platform::Request* request);
+  static inline bool getStaticF_hasRegisteredJoinIntentNotificationHandler();
 
-  /// @brief Method RunCallbacks, addr 0x26cf4a8, size 0x6c, virtual false, abstract: false, final false
-  static inline void RunCallbacks();
+  static inline ::Oculus::Platform::Message* getStaticF_latestPendingJoinIntentNotifications();
 
-  /// @brief Method RunLimitedCallbacks, addr 0x26cf824, size 0x88, virtual false, abstract: false, final false
-  static inline void RunLimitedCallbacks(uint32_t limit);
+  static inline ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Callback__RequestCallback*>* getStaticF_notificationCallbacks();
 
-  /// @brief Method OnApplicationQuit, addr 0x26cf8ac, size 0xa4, virtual false, abstract: false, final false
-  static inline void OnApplicationQuit();
+  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* getStaticF_requestIDsToRequests();
 
-  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x26cf950, size 0xa0, virtual false, abstract: false, final false
-  static inline void FlushJoinIntentNotificationQueue();
+  static inline void setStaticF_hasRegisteredJoinIntentNotificationHandler(bool value);
 
-  /// @brief Method HandleMessage, addr 0x26cf5e8, size 0x23c, virtual false, abstract: false, final false
-  static inline void HandleMessage(::Oculus::Platform::Message* msg);
+  static inline void setStaticF_latestPendingJoinIntentNotifications(::Oculus::Platform::Message* value);
 
+  static inline void
+  setStaticF_notificationCallbacks(::System::Collections::Generic::Dictionary_2<::Oculus::Platform::__Message__MessageType, ::Oculus::Platform::__Callback__RequestCallback*>* value);
+
+  static inline void setStaticF_requestIDsToRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Callback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Callback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Callback(Callback&&) = delete;
@@ -229,12 +229,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Callback(Callback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Callback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

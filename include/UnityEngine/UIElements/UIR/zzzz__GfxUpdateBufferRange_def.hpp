@@ -16,19 +16,17 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::GfxUpdateBufferRange);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2638))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15379))
 // CS Name: ::UnityEngine.UIElements.UIR::GfxUpdateBufferRange
 struct CORDL_TYPE GfxUpdateBufferRange {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "offsetFromWriteStart", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "source", ty: "void*", modifiers: "", def_value: None }]
-  constexpr GfxUpdateBufferRange(uint32_t offsetFromWriteStart, uint32_t size, void* source) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr GfxUpdateBufferRange();
+
+  // Ctor Parameters [CppParam { name: "offsetFromWriteStart", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "source", ty: "void*", modifiers: "", def_value: None }]
+  constexpr GfxUpdateBufferRange(uint32_t offsetFromWriteStart, uint32_t size, void* source) noexcept;
 
   /// @brief Field offsetFromWriteStart, offset: 0x0, size: 0x4, def value: None
   uint32_t offsetFromWriteStart;

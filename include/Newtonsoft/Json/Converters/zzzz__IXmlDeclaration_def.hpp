@@ -17,35 +17,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDeclaration);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12054))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDeclaration*
 class CORDL_TYPE IXmlDeclaration {
 public:
   // Declarations
-  __declspec(property(get = get_Version))::StringW Version;
-
   __declspec(property(get = get_Encoding, put = set_Encoding))::StringW Encoding;
 
   __declspec(property(get = get_Standalone, put = set_Standalone))::StringW Standalone;
 
+  __declspec(property(get = get_Version))::StringW Version;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
-
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
-
-  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_Version();
 
   /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_Encoding(::StringW value);
-
   /// @brief Method get_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Standalone();
+
+  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_Version();
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+
+  /// @brief Method set_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_Encoding(::StringW value);
 
   /// @brief Method set_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Standalone(::StringW value);

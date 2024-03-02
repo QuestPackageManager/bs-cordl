@@ -14,21 +14,19 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::IAvatarPart);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15697))
 // CS Name: ::BeatSaber.BeatAvatarSDK::IAvatarPart*
 class CORDL_TYPE IAvatarPart {
 public:
   // Declarations
   __declspec(property(get = get_id))::StringW id;
 
-  __declspec(property(get = get_localizedName))::StringW localizedName;
+  __declspec(property(get = get_localizationKey))::StringW localizationKey;
 
   /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_localizedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_localizedName();
+  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_localizationKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAvatarPart", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

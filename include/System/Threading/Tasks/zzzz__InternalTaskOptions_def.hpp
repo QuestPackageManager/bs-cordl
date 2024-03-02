@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Threading::Tasks::InternalTaskOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2791))
 // CS Name: ::System.Threading.Tasks::InternalTaskOptions
 struct CORDL_TYPE InternalTaskOptions {
 public:
@@ -39,39 +37,44 @@ public:
     return static_cast<__InternalTaskOptions_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr InternalTaskOptions(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InternalTaskOptions();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InternalTaskOptions(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Threading::Tasks::InternalTaskOptions const None;
-
-  /// @brief Field InternalOptionsMask value: static_cast<int32_t>(0xff00)
-  static ::System::Threading::Tasks::InternalTaskOptions const InternalOptionsMask;
 
   /// @brief Field ContinuationTask value: static_cast<int32_t>(0x200)
   static ::System::Threading::Tasks::InternalTaskOptions const ContinuationTask;
 
-  /// @brief Field PromiseTask value: static_cast<int32_t>(0x400)
-  static ::System::Threading::Tasks::InternalTaskOptions const PromiseTask;
+  /// @brief Field DoNotDispose value: static_cast<int32_t>(0x4000)
+  static ::System::Threading::Tasks::InternalTaskOptions const DoNotDispose;
+
+  /// @brief Field InternalOptionsMask value: static_cast<int32_t>(0xff00)
+  static ::System::Threading::Tasks::InternalTaskOptions const InternalOptionsMask;
 
   /// @brief Field LazyCancellation value: static_cast<int32_t>(0x1000)
   static ::System::Threading::Tasks::InternalTaskOptions const LazyCancellation;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Threading::Tasks::InternalTaskOptions const None;
+
+  /// @brief Field PromiseTask value: static_cast<int32_t>(0x400)
+  static ::System::Threading::Tasks::InternalTaskOptions const PromiseTask;
+
   /// @brief Field QueuedByRuntime value: static_cast<int32_t>(0x2000)
   static ::System::Threading::Tasks::InternalTaskOptions const QueuedByRuntime;
 
-  /// @brief Field DoNotDispose value: static_cast<int32_t>(0x4000)
-  static ::System::Threading::Tasks::InternalTaskOptions const DoNotDispose;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

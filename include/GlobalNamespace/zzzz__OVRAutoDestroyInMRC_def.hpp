@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRAutoDestroyInMRC);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8077))
 // CS Name: ::OVRAutoDestroyInMRC*
 class CORDL_TYPE OVRAutoDestroyInMRC : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Start, addr 0x27a206c, size 0x118, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x27a2184, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
-
   static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27a2188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x289497c, size 0x118, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x2894a94, size 0x4, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method .ctor, addr 0x2894a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRAutoDestroyInMRC();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRAutoDestroyInMRC", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRAutoDestroyInMRC(OVRAutoDestroyInMRC&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRAutoDestroyInMRC();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

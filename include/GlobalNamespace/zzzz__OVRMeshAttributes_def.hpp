@@ -30,12 +30,14 @@ MARK_VAL_T(::GlobalNamespace::OVRMeshAttributes);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7569))
 // CS Name: ::OVRMeshAttributes
 struct CORDL_TYPE OVRMeshAttributes {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRMeshAttributes();
+
   // Ctor Parameters [CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "normals", ty:
   // "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "tangents", ty:
   // "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "texcoords", ty:
@@ -45,10 +47,6 @@ public:
   constexpr OVRMeshAttributes(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals,
                               ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> texcoords,
                               ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors, ::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*> boneWeights) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRMeshAttributes();
 
   /// @brief Field vertices, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;

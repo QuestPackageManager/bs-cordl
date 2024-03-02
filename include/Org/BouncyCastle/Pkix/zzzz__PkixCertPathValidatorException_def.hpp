@@ -22,12 +22,16 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1717))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1723))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidatorException*
 class CORDL_TYPE PkixCertPathValidatorException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
+  __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
+
+  __declspec(property(get = get_Index)) int32_t Index;
+
+  __declspec(property(get = get_Message))::StringW Message;
+
   /// @brief Field cause, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_cause, put = __cordl_internal_set_cause))::System::Exception* cause;
 
@@ -37,59 +41,59 @@ public:
   /// @brief Field index, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor();
 
-  __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message);
 
-  __declspec(property(get = get_Index)) int32_t Index;
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause);
+
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
   constexpr ::System::Exception*& __cordl_internal_get_cause();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_cause() const;
 
-  constexpr void __cordl_internal_set_cause(::System::Exception* value);
-
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __cordl_internal_get_certPath() const;
 
-  constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
   constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __cordl_internal_get_index() const;
+  constexpr void __cordl_internal_set_cause(::System::Exception* value);
+
+  constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor();
-
-  /// @brief Method .ctor, addr 0x11006c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171524, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x11006d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1171530, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause);
-
-  /// @brief Method .ctor, addr 0x10ec444, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115d2a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
-
-  /// @brief Method .ctor, addr 0x10f6308, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1167168, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method get_Message, addr 0x11006dc, size 0x34, virtual true, abstract: false, final false
-  inline ::StringW get_Message();
-
-  /// @brief Method get_CertPath, addr 0x1100710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x1171570, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method get_Index, addr 0x1100718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x1171578, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
+  /// @brief Method get_Message, addr 0x117153c, size 0x34, virtual true, abstract: false, final false
+  inline ::StringW get_Message();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixCertPathValidatorException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixCertPathValidatorException(PkixCertPathValidatorException&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPathValidatorException(PkixCertPathValidatorException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixCertPathValidatorException();
-
-public:
   /// @brief Field cause, offset: 0x90, size: 0x8, def value: None
   ::System::Exception* ___cause;
 

@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_CookedDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9597)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 5237 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9603)) CS Name: ::HoudiniEngineUnity::HEU_CookedDataEvent*
+// CS Name: ::HoudiniEngineUnity::HEU_CookedDataEvent*
 class CORDL_TYPE HEU_CookedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_CookedDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214e490, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af3dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_CookedDataEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_CookedDataEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_CookedDataEvent(HEU_CookedDataEvent&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_CookedDataEvent(HEU_CookedDataEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_CookedDataEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

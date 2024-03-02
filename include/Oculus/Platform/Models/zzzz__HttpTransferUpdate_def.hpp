@@ -16,44 +16,48 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::HttpTransferUpdate);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13436))
 // CS Name: ::Oculus.Platform.Models::HttpTransferUpdate*
 class CORDL_TYPE HttpTransferUpdate : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field ID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
+  /// @brief Field IsCompleted, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_IsCompleted, put = __cordl_internal_set_IsCompleted)) bool IsCompleted;
 
   /// @brief Field Payload, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Payload, put = __cordl_internal_set_Payload))::ArrayW<uint8_t, ::Array<uint8_t>*> Payload;
 
-  /// @brief Field IsCompleted, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_IsCompleted, put = __cordl_internal_set_IsCompleted)) bool IsCompleted;
-
-  constexpr uint64_t& __cordl_internal_get__cordl_ID();
-
-  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
-
-  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Payload();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Payload() const;
-
-  constexpr void __cordl_internal_set_Payload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr bool& __cordl_internal_get_IsCompleted();
-
-  constexpr bool const& __cordl_internal_get_IsCompleted() const;
-
-  constexpr void __cordl_internal_set_IsCompleted(bool value);
+  /// @brief Field ID, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
   static inline ::Oculus::Platform::Models::HttpTransferUpdate* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2705f3c, size 0x158, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_IsCompleted() const;
+
+  constexpr bool& __cordl_internal_get_IsCompleted();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Payload() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Payload();
+
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
+
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
+
+  constexpr void __cordl_internal_set_IsCompleted(bool value);
+
+  constexpr void __cordl_internal_set_Payload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
+
+  /// @brief Method .ctor, addr 0x27f7844, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpTransferUpdate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpTransferUpdate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpTransferUpdate(HttpTransferUpdate&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpTransferUpdate(HttpTransferUpdate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpTransferUpdate();
-
-public:
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   uint64_t ____cordl_ID;
 

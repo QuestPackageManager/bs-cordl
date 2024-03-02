@@ -38,84 +38,88 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1765))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampRequestGenerator*
 class CORDL_TYPE TimeStampRequestGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field reqPolicy, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
-
   /// @brief Field certReq, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
-
-  /// @brief Field extensions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
   /// @brief Field extOrdering, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering))::System::Collections::IList* extOrdering;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_reqPolicy();
+  /// @brief Field extensions, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_reqPolicy() const;
+  /// @brief Field reqPolicy, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
 
-  constexpr void __cordl_internal_set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Method AddExtension, addr 0x11c008c, size 0x1a8, virtual true, abstract: false, final false
+  inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
+
+  /// @brief Method AddExtension, addr 0x11c0040, size 0x4c, virtual true, abstract: false, final false
+  inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
+
+  /// @brief Method AddExtension, addr 0x11bfe68, size 0x1d8, virtual false, abstract: false, final false
+  inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method AddExtension, addr 0x11bfe24, size 0x44, virtual false, abstract: false, final false
+  inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+
+  /// @brief Method Generate, addr 0x11c050c, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
+
+  /// @brief Method Generate, addr 0x11c0528, size 0x18, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
+                                                              ::Org::BouncyCastle::Math::BigInteger* nonce);
+
+  /// @brief Method Generate, addr 0x11c0234, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
+
+  /// @brief Method Generate, addr 0x11c023c, size 0x2d0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Math::BigInteger* nonce);
+
+  static inline ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator* New_ctor();
+
+  /// @brief Method SetCertReq, addr 0x11bfdb8, size 0x6c, virtual false, abstract: false, final false
+  inline void SetCertReq(bool certReq);
+
+  /// @brief Method SetReqPolicy, addr 0x11bfd48, size 0x70, virtual false, abstract: false, final false
+  inline void SetReqPolicy(::StringW reqPolicy);
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_certReq();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_certReq() const;
 
-  constexpr void __cordl_internal_set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_extOrdering() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_extensions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_reqPolicy();
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_reqPolicy() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_extOrdering() const;
+  constexpr void __cordl_internal_set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
 
   constexpr void __cordl_internal_set_extOrdering(::System::Collections::IList* value);
 
-  /// @brief Method SetReqPolicy, addr 0x114fee8, size 0x70, virtual false, abstract: false, final false
-  inline void SetReqPolicy(::StringW reqPolicy);
+  constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  /// @brief Method SetCertReq, addr 0x114ff58, size 0x6c, virtual false, abstract: false, final false
-  inline void SetCertReq(bool certReq);
+  constexpr void __cordl_internal_set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method AddExtension, addr 0x114ffc4, size 0x44, virtual false, abstract: false, final false
-  inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
-
-  /// @brief Method AddExtension, addr 0x1150008, size 0x1d8, virtual false, abstract: false, final false
-  inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method AddExtension, addr 0x11501e0, size 0x4c, virtual true, abstract: false, final false
-  inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
-
-  /// @brief Method AddExtension, addr 0x115022c, size 0x1a8, virtual true, abstract: false, final false
-  inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
-
-  /// @brief Method Generate, addr 0x11503d4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
-
-  /// @brief Method Generate, addr 0x11503dc, size 0x2d0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Math::BigInteger* nonce);
-
-  /// @brief Method Generate, addr 0x11506ac, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
-
-  /// @brief Method Generate, addr 0x11506c8, size 0x18, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
-                                                              ::Org::BouncyCastle::Math::BigInteger* nonce);
-
-  static inline ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x11506e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c0540, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeStampRequestGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampRequestGenerator(TimeStampRequestGenerator&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimeStampRequestGenerator(TimeStampRequestGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeStampRequestGenerator();
-
-public:
   /// @brief Field reqPolicy, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___reqPolicy;
 

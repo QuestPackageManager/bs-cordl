@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetPresetUtility::SaveAssetPresetToFile)> {
   constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x214e9ac;
+  constexpr static std::size_t addrs = 0x22af8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetPresetUtility::LoadPresetFileIntoAssetAndCook)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x214f7d8;
+  constexpr static std::size_t addrs = 0x22b0724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

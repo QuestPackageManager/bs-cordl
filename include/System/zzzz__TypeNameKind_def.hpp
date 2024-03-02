@@ -15,8 +15,6 @@ MARK_VAL_T(::System::TypeNameKind);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2564))
 // CS Name: ::System::TypeNameKind
 struct CORDL_TYPE TypeNameKind {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__TypeNameKind_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TypeNameKind(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TypeNameKind();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TypeNameKind(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field FullName value: static_cast<int32_t>(0x3)
+  static ::System::TypeNameKind const FullName;
 
   /// @brief Field Name value: static_cast<int32_t>(0x0)
   static ::System::TypeNameKind const Name;
 
-  /// @brief Field ToString value: static_cast<int32_t>(0x1)
-  static ::System::TypeNameKind const ToString;
-
   /// @brief Field SerializationName value: static_cast<int32_t>(0x2)
   static ::System::TypeNameKind const SerializationName;
 
-  /// @brief Field FullName value: static_cast<int32_t>(0x3)
-  static ::System::TypeNameKind const FullName;
+  /// @brief Field ToString value: static_cast<int32_t>(0x1)
+  static ::System::TypeNameKind const ToString;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

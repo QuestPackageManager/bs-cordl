@@ -59,8 +59,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12982))
 // CS Name: ::StateBuffer`3::TimestampedStateTable<TStateTable,TType,TState>
 struct CORDL_TYPE __StateBuffer_3__TimestampedStateTable {
 public:
@@ -68,12 +66,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
   constexpr operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*();
 
-  /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
-  constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*
-  i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace____StateBuffer_3__TimestampedStateTable_TStateTable_TType_TState__();
-
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>> other);
+
+  /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool
+  IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(ByRef<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state);
@@ -81,17 +79,17 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int64_t time, TStateTable state);
 
-  /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool
-  IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(ByRef<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>> other);
-
-  // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam
-  // { name: "time", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "TStateTable", modifiers: "", def_value: None }]
-  constexpr __StateBuffer_3__TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
+  /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable,TType,TState>>"
+  constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*
+  i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace____StateBuffer_3__TimestampedStateTable_TStateTable_TType_TState__();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __StateBuffer_3__TimestampedStateTable();
+
+  // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam
+  // { name: "time", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "TStateTable", modifiers: "", def_value: None }]
+  constexpr __StateBuffer_3__TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
 
   /// @brief Field isValid, offset: 0x0, size: 0x1, def value: None
   bool isValid;
@@ -118,26 +116,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12983))
 // CS Name: ::StateBuffer`3::InterpolationDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__InterpolationDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TState Invoke(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TState Invoke(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
+
+  static inline ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StateBuffer_3__InterpolationDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StateBuffer_3__InterpolationDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StateBuffer_3__InterpolationDelegate(__StateBuffer_3__InterpolationDelegate&&) = delete;
@@ -146,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StateBuffer_3__InterpolationDelegate(__StateBuffer_3__InterpolationDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StateBuffer_3__InterpolationDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -162,26 +158,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12984))
 // CS Name: ::StateBuffer`3::SmoothingDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__SmoothingDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TState Invoke(TState a, TState b, float_t smooth);
-
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(TState a, TState b, float_t smooth, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TState Invoke(TState a, TState b, float_t smooth);
+
+  static inline ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StateBuffer_3__SmoothingDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StateBuffer_3__SmoothingDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StateBuffer_3__SmoothingDelegate(__StateBuffer_3__SmoothingDelegate&&) = delete;
@@ -190,12 +190,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StateBuffer_3__SmoothingDelegate(__StateBuffer_3__SmoothingDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StateBuffer_3__SmoothingDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -206,25 +200,23 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12985))
 // CS Name: ::StateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE StateBuffer_3 : public ::System::Object {
 public:
   // Declarations
-  using SmoothingDelegate = ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>;
-
   using InterpolationDelegate = ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>;
 
-  using TimestampedStateTable = ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>;
+  using SmoothingDelegate = ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>;
 
-  /// @brief Field _currentIndex, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
+  using TimestampedStateTable = ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>;
 
   /// @brief Field _buffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__buffer,
                       put = __cordl_internal_set__buffer))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                                                                    ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _buffer;
+
+  /// @brief Field _currentIndex, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   /// @brief Field _interpolator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__interpolator,
@@ -233,52 +225,8 @@ public:
   /// @brief Field _smoother, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__smoother, put = __cordl_internal_set__smoother))::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* _smoother;
 
-  constexpr int32_t& __cordl_internal_get__currentIndex();
-
-  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
-
-  constexpr void __cordl_internal_set__currentIndex(int32_t value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                     ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __cordl_internal_get__buffer();
-
-  constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                     ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __cordl_internal_get__buffer() const;
-
-  constexpr void __cordl_internal_set__buffer(
-      ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
-          value);
-
-  constexpr ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*& __cordl_internal_get__interpolator();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__interpolator() const;
-
-  constexpr void __cordl_internal_set__interpolator(::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* value);
-
-  constexpr ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*& __cordl_internal_get__smoother();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__smoother() const;
-
-  constexpr void __cordl_internal_set__smoother(::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* value);
-
-  static inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* New_ctor(int32_t size,
-                                                                                       ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                                                                                       ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
-
-  /// @brief Method GetPreviousIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t GetPreviousIndex(int32_t offset);
-
-  /// @brief Method InsertState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void InsertState(ByRef<TStateTable> state, int64_t time);
-
-  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TState GetState(TType type, int64_t time);
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Clear();
 
   /// @brief Method GetLatestState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TState GetLatestState(TType type);
@@ -286,9 +234,59 @@ public:
   /// @brief Method GetLatestTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int64_t GetLatestTime();
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Clear();
+  /// @brief Method GetPreviousIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t GetPreviousIndex(int32_t offset);
 
+  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TState GetState(TType type, int64_t time);
+
+  /// @brief Method InsertState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void InsertState(ByRef<TStateTable> state, int64_t time);
+
+  static inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* New_ctor(int32_t size,
+                                                                                       ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                                                                                       ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
+
+  constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                     ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
+  __cordl_internal_get__buffer() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                     ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
+  __cordl_internal_get__buffer();
+
+  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__currentIndex();
+
+  constexpr ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*& __cordl_internal_get__interpolator();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__interpolator() const;
+
+  constexpr ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*& __cordl_internal_get__smoother();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__smoother() const;
+
+  constexpr void __cordl_internal_set__buffer(
+      ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+          value);
+
+  constexpr void __cordl_internal_set__currentIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__interpolator(::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* value);
+
+  constexpr void __cordl_internal_set__smoother(::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StateBuffer_3();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateBuffer_3(StateBuffer_3&&) = delete;
@@ -297,12 +295,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StateBuffer_3(StateBuffer_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StateBuffer_3();
-
-public:
   /// @brief Field _currentIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentIndex;
 

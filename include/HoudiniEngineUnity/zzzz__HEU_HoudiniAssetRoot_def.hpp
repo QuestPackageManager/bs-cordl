@@ -23,50 +23,54 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9640))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniAssetRoot*
 class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _houdiniAsset, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
-
   /// @brief Field _bakeTargets, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bakeTargets, put = __cordl_internal_set__bakeTargets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _bakeTargets;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__houdiniAsset();
+  /// @brief Field _houdiniAsset, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__houdiniAsset() const;
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x22ce678, size 0x74, virtual false, abstract: false, final false
+  inline void ClearHoudiniEngineReferences();
 
-  constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
+  /// @brief Method DestroyRootComponent, addr 0x22ce6ec, size 0x10, virtual false, abstract: false, final false
+  static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
+
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x22ce3d4, size 0x1c8, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x22ce59c, size 0xdc, virtual false, abstract: false, final false
+  inline void RemoveHoudiniEngineAssetData();
+
+  /// @brief Method Reset, addr 0x22ce6fc, size 0xe8, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__bakeTargets() const;
 
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__houdiniAsset() const;
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__houdiniAsset();
+
   constexpr void __cordl_internal_set__bakeTargets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method OnDestroy, addr 0x216d488, size 0x1c8, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x216d650, size 0xdc, virtual false, abstract: false, final false
-  inline void RemoveHoudiniEngineAssetData();
-
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x216d72c, size 0x74, virtual false, abstract: false, final false
-  inline void ClearHoudiniEngineReferences();
-
-  /// @brief Method DestroyRootComponent, addr 0x216d7a0, size 0x10, virtual false, abstract: false, final false
-  static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
-
-  /// @brief Method Reset, addr 0x216d7b0, size 0xe8, virtual false, abstract: false, final false
-  inline void Reset();
-
-  static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
-
-  /// @brief Method .ctor, addr 0x216d898, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ce7e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_HoudiniAssetRoot();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAssetRoot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_HoudiniAssetRoot();
-
-public:
   /// @brief Field _houdiniAsset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____houdiniAsset;
 

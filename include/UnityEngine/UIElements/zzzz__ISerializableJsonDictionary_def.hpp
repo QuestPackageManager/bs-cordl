@@ -17,20 +17,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ISerializableJsonDictionary);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6916))
 // CS Name: ::UnityEngine.UIElements::ISerializableJsonDictionary*
 class CORDL_TYPE ISerializableJsonDictionary {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  template <typename T> inline void Set(::StringW key, T value);
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool ContainsKey(::StringW key);
 
   /// @brief Method Overwrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Overwrite(::System::Object* obj, ::StringW key);
 
-  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ContainsKey(::StringW key);
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T> inline void Set(::StringW key, T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISerializableJsonDictionary", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

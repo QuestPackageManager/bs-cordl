@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::PropagationPhase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7256))
 // CS Name: ::UnityEngine.UIElements::PropagationPhase
 struct CORDL_TYPE PropagationPhase {
 public:
@@ -38,18 +36,32 @@ public:
     return static_cast<__PropagationPhase_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PropagationPhase(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PropagationPhase();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PropagationPhase(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AtTarget value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UIElements::PropagationPhase const AtTarget;
+
+  /// @brief Field BubbleUp value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::PropagationPhase const BubbleUp;
+
+  /// @brief Field DefaultAction value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::PropagationPhase const DefaultAction;
+
+  /// @brief Field DefaultActionAtTarget value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::UIElements::PropagationPhase const DefaultActionAtTarget;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::PropagationPhase const None;
@@ -57,17 +69,8 @@ public:
   /// @brief Field TrickleDown value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::PropagationPhase const TrickleDown;
 
-  /// @brief Field AtTarget value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::PropagationPhase const AtTarget;
-
-  /// @brief Field DefaultActionAtTarget value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::PropagationPhase const DefaultActionAtTarget;
-
-  /// @brief Field BubbleUp value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::PropagationPhase const BubbleUp;
-
-  /// @brief Field DefaultAction value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::PropagationPhase const DefaultAction;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

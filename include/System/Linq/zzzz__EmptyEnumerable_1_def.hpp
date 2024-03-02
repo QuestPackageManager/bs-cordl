@@ -17,8 +17,6 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14278))
 // CS Name: ::System.Linq::EmptyEnumerable`1<TElement>*
 class CORDL_TYPE EmptyEnumerable_1 : public ::System::Object {
 public:
@@ -26,10 +24,16 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::ArrayW<TElement, ::Array<TElement>*> Instance;
 
-  static inline void setStaticF_Instance(::ArrayW<TElement, ::Array<TElement>*> value);
-
   static inline ::ArrayW<TElement, ::Array<TElement>*> getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::ArrayW<TElement, ::Array<TElement>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EmptyEnumerable_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EmptyEnumerable_1(EmptyEnumerable_1&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EmptyEnumerable_1(EmptyEnumerable_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmptyEnumerable_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

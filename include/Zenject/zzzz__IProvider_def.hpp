@@ -32,28 +32,26 @@ MARK_REF_PTR_T(::Zenject::IProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11204))
 // CS Name: ::Zenject::IProvider*
 class CORDL_TYPE IProvider {
 public:
   // Declarations
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
-
   __declspec(property(get = get_IsCached)) bool IsCached;
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_TypeVariesBasedOnMemberType();
-
-  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsCached();
-
-  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* instances);
+
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsCached();
+
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_TypeVariesBasedOnMemberType();
 
   // Ctor Parameters [CppParam { name: "", ty: "IProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

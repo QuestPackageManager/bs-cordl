@@ -18,47 +18,51 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalMove);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5355))
 // CS Name: ::ConditionalMove*
 class CORDL_TYPE ConditionalMove : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _activateOnFalse, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__activateOnFalse, put = __cordl_internal_set__activateOnFalse)) bool _activateOnFalse;
+
   /// @brief Field _offset, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset))::UnityEngine::Vector3 _offset;
 
   /// @brief Field _value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Field _activateOnFalse, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__activateOnFalse, put = __cordl_internal_set__activateOnFalse)) bool _activateOnFalse;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
-
-  constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr bool& __cordl_internal_get__activateOnFalse();
-
-  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
-
-  constexpr void __cordl_internal_set__activateOnFalse(bool value);
-
-  /// @brief Method Awake, addr 0x226c0c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224fcc8, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalMove* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226c178, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
+
+  constexpr bool& __cordl_internal_get__activateOnFalse();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__activateOnFalse(bool value);
+
+  constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  /// @brief Method .ctor, addr 0x224fd80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalMove();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalMove(ConditionalMove&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalMove(ConditionalMove const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalMove();
-
-public:
   /// @brief Field _offset, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____offset;
 

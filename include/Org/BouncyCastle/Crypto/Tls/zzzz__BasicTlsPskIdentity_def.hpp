@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1181))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::BasicTlsPskIdentity*
 class CORDL_TYPE BasicTlsPskIdentity : public ::System::Object {
 public:
@@ -35,43 +33,49 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept;
+  /// @brief Method GetPsk, addr 0xfcd15c, size 0x5c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mIdentity();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
-
-  constexpr void __cordl_internal_set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPsk();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPsk() const;
-
-  constexpr void __cordl_internal_set_mPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetPskIdentity, addr 0xfcd154, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPskIdentity();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor, addr 0xf5d1d4, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
-
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor, addr 0xf5d260, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
-
-  /// @brief Method SkipIdentityHint, addr 0xf5d2ec, size 0x4, virtual true, abstract: false, final false
-  inline void SkipIdentityHint();
-
-  /// @brief Method NotifyIdentityHint, addr 0xf5d2f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyIdentityHint, addr 0xfcd150, size 0x4, virtual true, abstract: false, final false
   inline void NotifyIdentityHint(::ArrayW<uint8_t, ::Array<uint8_t>*> psk_identity_hint);
 
-  /// @brief Method GetPskIdentity, addr 0xf5d2f4, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPskIdentity();
+  /// @brief Method SkipIdentityHint, addr 0xfcd14c, size 0x4, virtual true, abstract: false, final false
+  inline void SkipIdentityHint();
 
-  /// @brief Method GetPsk, addr 0xf5d2fc, size 0x5c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mIdentity();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPsk() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPsk();
+
+  constexpr void __cordl_internal_set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_mPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xfcd034, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
+
+  /// @brief Method .ctor, addr 0xfcd0c0, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicTlsPskIdentity();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicTlsPskIdentity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicTlsPskIdentity(BasicTlsPskIdentity&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicTlsPskIdentity(BasicTlsPskIdentity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicTlsPskIdentity();
-
-public:
   /// @brief Field mIdentity, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mIdentity;
 

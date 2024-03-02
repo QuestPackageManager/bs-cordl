@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15375))
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtilityNative*
 class CORDL_TYPE UIElementsRuntimeUtilityNative : public ::System::Object {
 public:
@@ -29,29 +27,35 @@ public:
   /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback))::System::Action* UpdateRuntimePanelsCallback;
 
-  static inline void setStaticF_RepaintOverlayPanelsCallback(::System::Action* value);
+  /// @brief Method RegisterPlayerloopCallback, addr 0x2fb32c0, size 0x28, virtual false, abstract: false, final false
+  static inline void RegisterPlayerloopCallback();
+
+  /// @brief Method RepaintOverlayPanels, addr 0x2fb31f8, size 0x64, virtual false, abstract: false, final false
+  static inline void RepaintOverlayPanels();
+
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x2fb32e8, size 0x28, virtual false, abstract: false, final false
+  static inline void UnregisterPlayerloopCallback();
+
+  /// @brief Method UpdateRuntimePanels, addr 0x2fb325c, size 0x64, virtual false, abstract: false, final false
+  static inline void UpdateRuntimePanels();
+
+  /// @brief Method VisualElementCreation, addr 0x2fb3310, size 0x28, virtual false, abstract: false, final false
+  static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RepaintOverlayPanelsCallback();
 
-  static inline void setStaticF_UpdateRuntimePanelsCallback(::System::Action* value);
-
   static inline ::System::Action* getStaticF_UpdateRuntimePanelsCallback();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x2ea56e8, size 0x64, virtual false, abstract: false, final false
-  static inline void RepaintOverlayPanels();
+  static inline void setStaticF_RepaintOverlayPanelsCallback(::System::Action* value);
 
-  /// @brief Method UpdateRuntimePanels, addr 0x2ea574c, size 0x64, virtual false, abstract: false, final false
-  static inline void UpdateRuntimePanels();
+  static inline void setStaticF_UpdateRuntimePanelsCallback(::System::Action* value);
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x2ea57b0, size 0x28, virtual false, abstract: false, final false
-  static inline void RegisterPlayerloopCallback();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIElementsRuntimeUtilityNative();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x2ea57d8, size 0x28, virtual false, abstract: false, final false
-  static inline void UnregisterPlayerloopCallback();
-
-  /// @brief Method VisualElementCreation, addr 0x2ea5800, size 0x28, virtual false, abstract: false, final false
-  static inline void VisualElementCreation();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIElementsRuntimeUtilityNative();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

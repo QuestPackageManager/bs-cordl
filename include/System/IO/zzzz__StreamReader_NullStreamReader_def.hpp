@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::IO::__StreamReader__NullStreamReader);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3575))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3572))
 // CS Name: ::StreamReader::NullStreamReader*
 class CORDL_TYPE __StreamReader__NullStreamReader : public ::System::IO::StreamReader {
 public:
@@ -33,38 +31,44 @@ public:
 
   __declspec(property(get = get_CurrentEncoding))::System::Text::Encoding* CurrentEncoding;
 
-  static inline ::System::IO::__StreamReader__NullStreamReader* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2502d0c, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_BaseStream, addr 0x2502da0, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* get_BaseStream();
-
-  /// @brief Method get_CurrentEncoding, addr 0x2502df8, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* get_CurrentEncoding();
-
-  /// @brief Method Dispose, addr 0x2502e00, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25f4948, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Peek, addr 0x2502e04, size 0x8, virtual true, abstract: false, final false
+  static inline ::System::IO::__StreamReader__NullStreamReader* New_ctor();
+
+  /// @brief Method Peek, addr 0x25f494c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x2502e0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25f4954, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x2502e14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25f495c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x2502e1c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ReadLine();
-
-  /// @brief Method ReadToEnd, addr 0x2502e24, size 0x48, virtual true, abstract: false, final false
-  inline ::StringW ReadToEnd();
-
-  /// @brief Method ReadBuffer, addr 0x2502e6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x25f49b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t ReadBuffer();
 
+  /// @brief Method ReadLine, addr 0x25f4964, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ReadLine();
+
+  /// @brief Method ReadToEnd, addr 0x25f496c, size 0x48, virtual true, abstract: false, final false
+  inline ::StringW ReadToEnd();
+
+  /// @brief Method .ctor, addr 0x25f4854, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_BaseStream, addr 0x25f48e8, size 0x58, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* get_BaseStream();
+
+  /// @brief Method get_CurrentEncoding, addr 0x25f4940, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Text::Encoding* get_CurrentEncoding();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StreamReader__NullStreamReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StreamReader__NullStreamReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StreamReader__NullStreamReader(__StreamReader__NullStreamReader&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StreamReader__NullStreamReader(__StreamReader__NullStreamReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamReader__NullStreamReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

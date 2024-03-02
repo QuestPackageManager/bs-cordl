@@ -29,8 +29,6 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12395))
 // CS Name: ::TMP_ListPool`1::<>c<T>*
 class CORDL_TYPE __TMP_ListPool_1____c : public ::System::Object {
 public:
@@ -38,18 +36,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::TMPro::__TMP_ListPool_1____c<T>* __9;
 
-  static inline void setStaticF___9(::TMPro::__TMP_ListPool_1____c<T>* value);
-
-  static inline ::TMPro::__TMP_ListPool_1____c<T>* getStaticF___9();
-
   static inline ::TMPro::__TMP_ListPool_1____c<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <.cctor>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__3_0(::System::Collections::Generic::List_1<T>* l);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::TMPro::__TMP_ListPool_1____c<T>* getStaticF___9();
+
+  static inline void setStaticF___9(::TMPro::__TMP_ListPool_1____c<T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TMP_ListPool_1____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_ListPool_1____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TMP_ListPool_1____c(__TMP_ListPool_1____c&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_ListPool_1____c(__TMP_ListPool_1____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TMP_ListPool_1____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -74,8 +72,6 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12396))
 // CS Name: ::TMPro::TMP_ListPool`1<T>*
 class CORDL_TYPE TMP_ListPool_1 : public ::System::Object {
 public:
@@ -85,16 +81,22 @@ public:
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool))::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* s_ListPool;
 
-  static inline void setStaticF_s_ListPool(::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* value);
-
-  static inline ::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_s_ListPool();
-
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* Get();
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<T>* toRelease);
 
+  static inline ::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_s_ListPool();
+
+  static inline void setStaticF_s_ListPool(::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_ListPool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ListPool_1(TMP_ListPool_1&&) = delete;
@@ -103,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ListPool_1(TMP_ListPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_ListPool_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

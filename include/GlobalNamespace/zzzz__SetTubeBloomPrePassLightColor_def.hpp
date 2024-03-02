@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SetTubeBloomPrePassLightColor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5309))
 // CS Name: ::SetTubeBloomPrePassLightColor*
 class CORDL_TYPE SetTubeBloomPrePassLightColor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,26 +32,32 @@ public:
   __declspec(property(get = __cordl_internal_get__tubeLights,
                       put = __cordl_internal_set__tubeLights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _tubeLights;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__color();
+  static inline ::GlobalNamespace::SetTubeBloomPrePassLightColor* New_ctor();
+
+  /// @brief Method Start, addr 0x24929cc, size 0x70, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__color() const;
 
-  constexpr void __cordl_internal_set__color(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLights();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__color();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__tubeLights() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLights();
+
+  constexpr void __cordl_internal_set__color(::UnityW<::GlobalNamespace::ColorSO> value);
+
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method Start, addr 0x2264c1c, size 0x70, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::SetTubeBloomPrePassLightColor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2264c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2492a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SetTubeBloomPrePassLightColor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SetTubeBloomPrePassLightColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColor&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetTubeBloomPrePassLightColor();
-
-public:
   /// @brief Field _color, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color;
 

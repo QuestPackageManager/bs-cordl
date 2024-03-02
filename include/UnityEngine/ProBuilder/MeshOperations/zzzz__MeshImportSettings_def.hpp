@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12270))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImportSettings*
 class CORDL_TYPE MeshImportSettings : public ::System::Object {
 public:
@@ -37,50 +35,56 @@ public:
 
   __declspec(property(get = get_smoothingAngle, put = set_smoothingAngle)) float_t smoothingAngle;
 
-  constexpr bool& __cordl_internal_get_m_Quads();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
+
+  /// @brief Method ToString, addr 0x2ca07b0, size 0xd8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_Quads() const;
 
-  constexpr void __cordl_internal_set_m_Quads(bool value);
-
-  constexpr bool& __cordl_internal_get_m_Smoothing();
+  constexpr bool& __cordl_internal_get_m_Quads();
 
   constexpr bool const& __cordl_internal_get_m_Smoothing() const;
 
-  constexpr void __cordl_internal_set_m_Smoothing(bool value);
-
-  constexpr float_t& __cordl_internal_get_m_SmoothingThreshold();
+  constexpr bool& __cordl_internal_get_m_Smoothing();
 
   constexpr float_t const& __cordl_internal_get_m_SmoothingThreshold() const;
 
+  constexpr float_t& __cordl_internal_get_m_SmoothingThreshold();
+
+  constexpr void __cordl_internal_set_m_Quads(bool value);
+
+  constexpr void __cordl_internal_set_m_Smoothing(bool value);
+
   constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method get_quads, addr 0x2bb9b38, size 0x8, virtual false, abstract: false, final false
-  inline bool get_quads();
-
-  /// @brief Method set_quads, addr 0x2bb9b40, size 0xc, virtual false, abstract: false, final false
-  inline void set_quads(bool value);
-
-  /// @brief Method get_smoothing, addr 0x2bb9b4c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_smoothing();
-
-  /// @brief Method set_smoothing, addr 0x2bb9b54, size 0xc, virtual false, abstract: false, final false
-  inline void set_smoothing(bool value);
-
-  /// @brief Method get_smoothingAngle, addr 0x2bb9b60, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_smoothingAngle();
-
-  /// @brief Method set_smoothingAngle, addr 0x2bb9b68, size 0x8, virtual false, abstract: false, final false
-  inline void set_smoothingAngle(float_t value);
-
-  /// @brief Method ToString, addr 0x2bb9b70, size 0xd8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2bb9c48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca0888, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_quads, addr 0x2ca0778, size 0x8, virtual false, abstract: false, final false
+  inline bool get_quads();
+
+  /// @brief Method get_smoothing, addr 0x2ca078c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_smoothing();
+
+  /// @brief Method get_smoothingAngle, addr 0x2ca07a0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_smoothingAngle();
+
+  /// @brief Method set_quads, addr 0x2ca0780, size 0xc, virtual false, abstract: false, final false
+  inline void set_quads(bool value);
+
+  /// @brief Method set_smoothing, addr 0x2ca0794, size 0xc, virtual false, abstract: false, final false
+  inline void set_smoothing(bool value);
+
+  /// @brief Method set_smoothingAngle, addr 0x2ca07a8, size 0x8, virtual false, abstract: false, final false
+  inline void set_smoothingAngle(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshImportSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshImportSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshImportSettings(MeshImportSettings&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshImportSettings(MeshImportSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshImportSettings();
-
-public:
   /// @brief Field m_Quads, offset: 0x10, size: 0x1, def value: None
   bool ___m_Quads;
 

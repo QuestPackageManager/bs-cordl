@@ -31,17 +31,20 @@ MARK_VAL_T(::UnityEngine::UIElements::Vertex);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10250))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7330)) CS Name: ::UnityEngine.UIElements::Vertex
+// CS Name: ::UnityEngine.UIElements::Vertex
 struct CORDL_TYPE Vertex {
 public:
   // Declarations
   /// @brief Field nearZ, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_nearZ, put = setStaticF_nearZ)) float_t nearZ;
 
+  static inline float_t getStaticF_nearZ();
+
   static inline void setStaticF_nearZ(float_t value);
 
-  static inline float_t getStaticF_nearZ();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vertex();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
   // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None },
@@ -50,10 +53,6 @@ public:
   // "textureId", ty: "float_t", modifiers: "", def_value: None }]
   constexpr Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids,
                    ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Vector4 circle, float_t textureId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vertex();
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;

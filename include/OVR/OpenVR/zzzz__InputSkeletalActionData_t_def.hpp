@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::InputSkeletalActionData_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8723))
 // CS Name: ::OVR.OpenVR::InputSkeletalActionData_t
 struct CORDL_TYPE InputSkeletalActionData_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "boneCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr InputSkeletalActionData_t(bool bActive, uint64_t activeOrigin, uint32_t boneCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr InputSkeletalActionData_t();
+
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
+  // "boneCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr InputSkeletalActionData_t(bool bActive, uint64_t activeOrigin, uint32_t boneCount) noexcept;
 
   /// @brief Field bActive, offset: 0x0, size: 0x1, def value: None
   bool bActive;

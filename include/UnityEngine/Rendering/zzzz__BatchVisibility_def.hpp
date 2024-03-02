@@ -15,19 +15,17 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchVisibility);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10364))
 // CS Name: ::UnityEngine.Rendering::BatchVisibility
 struct CORDL_TYPE BatchVisibility {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instancesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "visibleCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BatchVisibility(int32_t offset, int32_t instancesCount, int32_t visibleCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr BatchVisibility();
+
+  // Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instancesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "visibleCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BatchVisibility(int32_t offset, int32_t instancesCount, int32_t visibleCount) noexcept;
 
   /// @brief Field offset, offset: 0x0, size: 0x4, def value: None
   int32_t offset;

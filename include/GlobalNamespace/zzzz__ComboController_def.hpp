@@ -37,24 +37,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5311))
 // CS Name: ::ComboController*
 class CORDL_TYPE ComboController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
-                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
-
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
-
-  /// @brief Field comboDidChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
-
-  /// @brief Field comboBreakingEventHappenedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
 
   /// @brief Field _combo, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__combo, put = __cordl_internal_set__combo)) int32_t _combo;
@@ -62,85 +50,101 @@ public:
   /// @brief Field _maxCombo, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxCombo, put = __cordl_internal_set__maxCombo)) int32_t _maxCombo;
 
+  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
+
+  /// @brief Field comboBreakingEventHappenedEvent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
+
+  /// @brief Field comboDidChangeEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
+
   __declspec(property(get = get_maxCombo)) int32_t maxCombo;
 
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IComboController"
-  constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
+  /// @brief Method HandleNoteWasCut, addr 0x24930ec, size 0x9c, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
+  /// @brief Method HandleNoteWasMissed, addr 0x2493188, size 0x84, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x2493094, size 0x58, virtual false, abstract: false, final false
+  inline void HandlePlayerHeadDidEnterObstacles();
 
-  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
+  static inline ::GlobalNamespace::ComboController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2492ef8, size 0x19c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2492da8, size 0x150, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr int32_t const& __cordl_internal_get__combo() const;
 
-  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_comboDidChangeEvent();
+  constexpr int32_t& __cordl_internal_get__combo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_comboDidChangeEvent() const;
+  constexpr int32_t const& __cordl_internal_get__maxCombo() const;
 
-  constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+  constexpr int32_t& __cordl_internal_get__maxCombo();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
   constexpr ::System::Action*& __cordl_internal_get_comboBreakingEventHappenedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_comboBreakingEventHappenedEvent() const;
 
-  constexpr void __cordl_internal_set_comboBreakingEventHappenedEvent(::System::Action* value);
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_comboDidChangeEvent();
 
-  constexpr int32_t& __cordl_internal_get__combo();
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_comboDidChangeEvent() const;
 
-  constexpr int32_t const& __cordl_internal_get__combo() const;
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
   constexpr void __cordl_internal_set__combo(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get__maxCombo();
-
-  constexpr int32_t const& __cordl_internal_get__maxCombo() const;
-
   constexpr void __cordl_internal_set__maxCombo(int32_t value);
 
-  /// @brief Method get_maxCombo, addr 0x2264d58, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxCombo();
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x2264d60, size 0xb0, virtual true, abstract: false, final true
-  inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x2264e10, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2264ec0, size 0x9c, virtual true, abstract: false, final true
-  inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
-
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x2264f5c, size 0x9c, virtual true, abstract: false, final true
-  inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
-
-  /// @brief Method Start, addr 0x2264ff8, size 0x150, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x2265148, size 0x19c, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x22652e4, size 0x58, virtual false, abstract: false, final false
-  inline void HandlePlayerHeadDidEnterObstacles();
-
-  /// @brief Method HandleNoteWasCut, addr 0x226533c, size 0x9c, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-
-  /// @brief Method HandleNoteWasMissed, addr 0x22653d8, size 0x84, virtual false, abstract: false, final false
-  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-
-  static inline ::GlobalNamespace::ComboController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x226545c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249320c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2492c70, size 0x9c, virtual true, abstract: false, final true
+  inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
+
+  /// @brief Method add_comboDidChangeEvent, addr 0x2492b10, size 0xb0, virtual true, abstract: false, final true
+  inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+
+  /// @brief Method get_maxCombo, addr 0x2492b08, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxCombo();
+
+  /// @brief Convert to "::GlobalNamespace::IComboController"
+  constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
+
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x2492d0c, size 0x9c, virtual true, abstract: false, final true
+  inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
+
+  /// @brief Method remove_comboDidChangeEvent, addr 0x2492bc0, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComboController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComboController(ComboController&&) = delete;
@@ -149,12 +153,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComboController(ComboController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComboController();
-
-public:
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 

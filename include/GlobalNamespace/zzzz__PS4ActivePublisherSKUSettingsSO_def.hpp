@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4550))
 // CS Name: ::PS4ActivePublisherSKUSettingsSO*
 class CORDL_TYPE PS4ActivePublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -27,17 +25,23 @@ public:
   __declspec(property(get = __cordl_internal_get_activePublisherSKUSettings,
                       put = __cordl_internal_set_activePublisherSKUSettings))::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> activePublisherSKUSettings;
 
-  constexpr ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO>& __cordl_internal_get_activePublisherSKUSettings();
+  static inline ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> const& __cordl_internal_get_activePublisherSKUSettings() const;
 
+  constexpr ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO>& __cordl_internal_get_activePublisherSKUSettings();
+
   constexpr void __cordl_internal_set_activePublisherSKUSettings(::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> value);
 
-  static inline ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23680bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e96cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PS4ActivePublisherSKUSettingsSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PS4ActivePublisherSKUSettingsSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PS4ActivePublisherSKUSettingsSO(PS4ActivePublisherSKUSettingsSO&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS4ActivePublisherSKUSettingsSO(PS4ActivePublisherSKUSettingsSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PS4ActivePublisherSKUSettingsSO();
-
-public:
   /// @brief Field activePublisherSKUSettings, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> ___activePublisherSKUSettings;
 

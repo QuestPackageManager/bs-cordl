@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SHA256SignatureDescript
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2967))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2969))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SHA256SignatureDescription*
 class CORDL_TYPE RSAPKCS1SHA256SignatureDescription : public ::System::Security::Cryptography::RSAPKCS1SignatureDescription {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246a16c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255ded8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RSAPKCS1SHA256SignatureDescription();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA256SignatureDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSAPKCS1SHA256SignatureDescription(RSAPKCS1SHA256SignatureDescription&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RSAPKCS1SHA256SignatureDescription(RSAPKCS1SHA256SignatureDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RSAPKCS1SHA256SignatureDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

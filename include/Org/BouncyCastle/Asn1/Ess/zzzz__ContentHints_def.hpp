@@ -29,61 +29,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ess::ContentHints);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(160))
 // CS Name: ::Org.BouncyCastle.Asn1.Ess::ContentHints*
 class CORDL_TYPE ContentHints : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_ContentDescription))::Org::BouncyCastle::Asn1::DerUtf8String* ContentDescription;
+
+  __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
+
   /// @brief Field contentDescription, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentDescription, put = __cordl_internal_set_contentDescription))::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription;
 
   /// @brief Field contentType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
-  __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
+  /// @brief Method GetInstance, addr 0xf0a624, size 0x190, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* GetInstance(::System::Object* o);
 
-  __declspec(property(get = get_ContentDescription))::Org::BouncyCastle::Asn1::DerUtf8String* ContentDescription;
+  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
+
+  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
+
+  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xf0a9a0, size 0x118, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_contentDescription();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_contentDescription() const;
 
-  constexpr void __cordl_internal_set_contentDescription(::Org::BouncyCastle::Asn1::DerUtf8String* value);
-
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_contentType();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_contentType() const;
 
+  constexpr void __cordl_internal_set_contentDescription(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+
   constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetInstance, addr 0xe997c4, size 0x190, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* GetInstance(::System::Object* o);
-
-  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe99954, size 0x188, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
-
-  /// @brief Method .ctor, addr 0xe99adc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0a93c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
 
-  static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
-
-  /// @brief Method .ctor, addr 0xe99b04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0a964, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
 
-  /// @brief Method get_ContentType, addr 0xe99b30, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
+  /// @brief Method .ctor, addr 0xf0a7b4, size 0x188, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ContentDescription, addr 0xe99b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentDescription, addr 0xf0a998, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_ContentDescription();
 
-  /// @brief Method ToAsn1Object, addr 0xe99b40, size 0x118, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_ContentType, addr 0xf0a990, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContentHints();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContentHints", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentHints(ContentHints&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContentHints(ContentHints const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContentHints();
-
-public:
   /// @brief Field contentDescription, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerUtf8String* ___contentDescription;
 

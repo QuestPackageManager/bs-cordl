@@ -61,41 +61,43 @@ MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(6897)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15901))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
+// CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*();
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
+  /// @brief Method Copy, addr 0x2f92024, size 0x1c, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*();
+  /// @brief Method CopyFrom, addr 0x2f92040, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
+
+  /// @brief Method Equals, addr 0x2f922a0, size 0xa8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f92254, size 0x4c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::InheritedData other);
+
+  /// @brief Method GetHashCode, addr 0x2f92348, size 0x24c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method Copy, addr 0x2e83514, size 0x1c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::InheritedData Copy();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method CopyFrom, addr 0x2e83530, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
-
-  /// @brief Method op_Equality, addr 0x2e83544, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f92054, size 0x200, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
-  /// @brief Method Equals, addr 0x2e83744, size 0x4c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::InheritedData other);
-
-  /// @brief Method Equals, addr 0x2e83790, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e83838, size 0x24c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InheritedData();
 
   // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
   // def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "textShadow", ty:
@@ -110,10 +112,6 @@ public:
                           ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight,
                           ::UnityEngine::UIElements::Length unityParagraphSpacing, ::UnityEngine::TextAnchor unityTextAlign, ::UnityEngine::Color unityTextOutlineColor, float_t unityTextOutlineWidth,
                           ::UnityEngine::UIElements::Visibility visibility, ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InheritedData();
 
   /// @brief Field color, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color color;

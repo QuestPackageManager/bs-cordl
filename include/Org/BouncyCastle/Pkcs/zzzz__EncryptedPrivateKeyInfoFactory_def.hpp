@@ -32,46 +32,50 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1695))
 // CS Name: ::Org.BouncyCastle.Pkcs::EncryptedPrivateKeyInfoFactory*
 class CORDL_TYPE EncryptedPrivateKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x10d6090, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x10d6098, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1146ef8, size 0x54, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x10d52a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1146100, size 0x4c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
                                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x10d60ec, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1146f4c, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount,
                                                                                                         ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x10d6390, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x11471f0, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm,
                                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x10d63f4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x1147254, size 0x2f4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm,
                                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm,
                                                                                                         ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                         ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
+  static inline ::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x1146ef0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EncryptedPrivateKeyInfoFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EncryptedPrivateKeyInfoFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncryptedPrivateKeyInfoFactory(EncryptedPrivateKeyInfoFactory&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncryptedPrivateKeyInfoFactory(EncryptedPrivateKeyInfoFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncryptedPrivateKeyInfoFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

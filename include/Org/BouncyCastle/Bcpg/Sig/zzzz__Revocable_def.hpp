@@ -16,28 +16,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::Revocable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(531))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(541))
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::Revocable*
 class CORDL_TYPE Revocable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x11c86b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x1239510, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool value);
+
+  /// @brief Method IsRevocable, addr 0x1239610, size 0x30, virtual false, abstract: false, final false
+  inline bool IsRevocable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11c871c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
   static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isRevocable);
 
-  /// @brief Method .ctor, addr 0x11c8764, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123957c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0x12395c4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isRevocable);
 
-  /// @brief Method IsRevocable, addr 0x11c87b0, size 0x30, virtual false, abstract: false, final false
-  inline bool IsRevocable();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Revocable();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Revocable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Revocable(Revocable&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Revocable(Revocable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Revocable();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,32 +24,26 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12050))
 // CS Name: ::Newtonsoft.Json.Converters::XmlDeclarationWrapper*
 class CORDL_TYPE XmlDeclarationWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
   // Declarations
-  /// @brief Field _declaration, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__declaration, put = __cordl_internal_set__declaration))::System::Xml::XmlDeclaration* _declaration;
-
-  __declspec(property(get = get_Version))::StringW Version;
-
   __declspec(property(get = get_Encoding, put = set_Encoding))::StringW Encoding;
 
   __declspec(property(get = get_Standalone, put = set_Standalone))::StringW Standalone;
 
+  __declspec(property(get = get_Version))::StringW Version;
+
+  /// @brief Field _declaration, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__declaration, put = __cordl_internal_set__declaration))::System::Xml::XmlDeclaration* _declaration;
+
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDeclaration"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDeclaration*() noexcept;
-
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
-  constexpr ::Newtonsoft::Json::Converters::IXmlDeclaration* i___Newtonsoft__Json__Converters__IXmlDeclaration() noexcept;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+  static inline ::Newtonsoft::Json::Converters::XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration);
 
   constexpr ::System::Xml::XmlDeclaration*& __cordl_internal_get__declaration();
 
@@ -57,26 +51,36 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
-  static inline ::Newtonsoft::Json::Converters::XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration);
-
-  /// @brief Method .ctor, addr 0x26b9b84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27aa48c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Version, addr 0x26ba1ac, size 0x1c, virtual true, abstract: false, final true
-  inline ::StringW get_Version();
-
-  /// @brief Method get_Encoding, addr 0x26ba1c8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x27aaad0, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding, addr 0x26ba1e4, size 0x1c, virtual true, abstract: false, final true
-  inline void set_Encoding(::StringW value);
-
-  /// @brief Method get_Standalone, addr 0x26ba200, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x27aab08, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone, addr 0x26ba21c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x27aaab4, size 0x1c, virtual true, abstract: false, final true
+  inline ::StringW get_Version();
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
+  constexpr ::Newtonsoft::Json::Converters::IXmlDeclaration* i___Newtonsoft__Json__Converters__IXmlDeclaration() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+
+  /// @brief Method set_Encoding, addr 0x27aaaec, size 0x1c, virtual true, abstract: false, final true
+  inline void set_Encoding(::StringW value);
+
+  /// @brief Method set_Standalone, addr 0x27aab24, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlDeclarationWrapper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlDeclarationWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDeclarationWrapper(XmlDeclarationWrapper&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlDeclarationWrapper(XmlDeclarationWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlDeclarationWrapper();
-
-public:
   /// @brief Field _declaration, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDeclaration* ____declaration;
 

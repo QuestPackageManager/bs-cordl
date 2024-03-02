@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetails);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13417))
 // CS Name: ::Oculus.Platform.Models::AssetDetails*
 class CORDL_TYPE AssetDetails : public ::System::Object {
 public:
@@ -40,68 +38,74 @@ public:
   /// @brief Field IapStatus, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_IapStatus, put = __cordl_internal_set_IapStatus))::StringW IapStatus;
 
-  /// @brief Field LanguageOptional, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_LanguageOptional, put = __cordl_internal_set_LanguageOptional))::Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
-
   /// @brief Field Language, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_Language, put = __cordl_internal_set_Language))::Oculus::Platform::Models::LanguagePackInfo* Language;
+
+  /// @brief Field LanguageOptional, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_LanguageOptional, put = __cordl_internal_set_LanguageOptional))::Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
 
   /// @brief Field Metadata, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_Metadata, put = __cordl_internal_set_Metadata))::StringW Metadata;
 
-  constexpr uint64_t& __cordl_internal_get_AssetId();
+  static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(void* o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __cordl_internal_set_AssetId(uint64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_AssetType();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
   constexpr ::StringW const& __cordl_internal_get_AssetType() const;
 
-  constexpr void __cordl_internal_set_AssetType(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_DownloadStatus();
+  constexpr ::StringW& __cordl_internal_get_AssetType();
 
   constexpr ::StringW const& __cordl_internal_get_DownloadStatus() const;
 
-  constexpr void __cordl_internal_set_DownloadStatus(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Filepath();
+  constexpr ::StringW& __cordl_internal_get_DownloadStatus();
 
   constexpr ::StringW const& __cordl_internal_get_Filepath() const;
 
-  constexpr void __cordl_internal_set_Filepath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_IapStatus();
+  constexpr ::StringW& __cordl_internal_get_Filepath();
 
   constexpr ::StringW const& __cordl_internal_get_IapStatus() const;
 
-  constexpr void __cordl_internal_set_IapStatus(::StringW value);
-
-  constexpr ::Oculus::Platform::Models::LanguagePackInfo*& __cordl_internal_get_LanguageOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& __cordl_internal_get_LanguageOptional() const;
-
-  constexpr void __cordl_internal_set_LanguageOptional(::Oculus::Platform::Models::LanguagePackInfo* value);
+  constexpr ::StringW& __cordl_internal_get_IapStatus();
 
   constexpr ::Oculus::Platform::Models::LanguagePackInfo*& __cordl_internal_get_Language();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& __cordl_internal_get_Language() const;
 
-  constexpr void __cordl_internal_set_Language(::Oculus::Platform::Models::LanguagePackInfo* value);
+  constexpr ::Oculus::Platform::Models::LanguagePackInfo*& __cordl_internal_get_LanguageOptional();
 
-  constexpr ::StringW& __cordl_internal_get_Metadata();
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::LanguagePackInfo*> const& __cordl_internal_get_LanguageOptional() const;
 
   constexpr ::StringW const& __cordl_internal_get_Metadata() const;
 
+  constexpr ::StringW& __cordl_internal_get_Metadata();
+
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
+
+  constexpr void __cordl_internal_set_AssetType(::StringW value);
+
+  constexpr void __cordl_internal_set_DownloadStatus(::StringW value);
+
+  constexpr void __cordl_internal_set_Filepath(::StringW value);
+
+  constexpr void __cordl_internal_set_IapStatus(::StringW value);
+
+  constexpr void __cordl_internal_set_Language(::Oculus::Platform::Models::LanguagePackInfo* value);
+
+  constexpr void __cordl_internal_set_LanguageOptional(::Oculus::Platform::Models::LanguagePackInfo* value);
+
   constexpr void __cordl_internal_set_Metadata(::StringW value);
 
-  static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2704588, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f5e90, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetDetails();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetDetails(AssetDetails&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetDetails(AssetDetails const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetDetails();
-
-public:
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;
 

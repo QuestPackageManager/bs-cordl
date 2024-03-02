@@ -184,8 +184,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PracticeSettings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4634))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnabledObstacleType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnabledObstacleType {
 public:
@@ -204,18 +202,20 @@ public:
     return static_cast<____PlayerSaveData__GameplayModifiers__EnabledObstacleType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__GameplayModifiers__EnabledObstacleType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field All value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const All;
@@ -225,6 +225,9 @@ public:
 
   /// @brief Field None value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -238,8 +241,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4635))
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnergyType
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__EnergyType {
 public:
@@ -257,24 +258,29 @@ public:
     return static_cast<____PlayerSaveData__GameplayModifiers__EnergyType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__GameplayModifiers__EnergyType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__GameplayModifiers__EnergyType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__GameplayModifiers__EnergyType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Bar value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const Bar;
 
   /// @brief Field Battery value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const Battery;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -288,8 +294,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4636))
 // CS Name: ::PlayerSaveData::GameplayModifiers::SongSpeed
 struct CORDL_TYPE __PlayerSaveData__GameplayModifiers__SongSpeed {
 public:
@@ -308,27 +312,32 @@ public:
     return static_cast<____PlayerSaveData__GameplayModifiers__SongSpeed_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__GameplayModifiers__SongSpeed(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__GameplayModifiers__SongSpeed();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__GameplayModifiers__SongSpeed(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const Normal;
 
   /// @brief Field Faster value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const Faster;
 
+  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const Normal;
+
   /// @brief Field Slower value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const Slower;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -342,50 +351,43 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__S
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4634)), TypeDefinitionIndex(TypeDefinitionIndex(4635)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4636))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4637)) CS Name: ::PlayerSaveData::GameplayModifiers*
+// CS Name: ::PlayerSaveData::GameplayModifiers*
 class CORDL_TYPE __PlayerSaveData__GameplayModifiers : public ::System::Object {
 public:
   // Declarations
-  using SongSpeed = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed;
+  using EnabledObstacleType = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
 
   using EnergyType = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType;
 
-  using EnabledObstacleType = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType;
+  using SongSpeed = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed;
 
-  /// @brief Field energyType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_energyType, put = __cordl_internal_set_energyType))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType energyType;
-
-  /// @brief Field instaFail, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_instaFail, put = __cordl_internal_set_instaFail)) bool instaFail;
-
-  /// @brief Field failOnSaberClash, offset 0x15, size 0x1
-  __declspec(property(get = __cordl_internal_get_failOnSaberClash, put = __cordl_internal_set_failOnSaberClash)) bool failOnSaberClash;
+  /// @brief Field disappearingArrows, offset 0x1e, size 0x1
+  __declspec(property(get = __cordl_internal_get_disappearingArrows, put = __cordl_internal_set_disappearingArrows)) bool disappearingArrows;
 
   /// @brief Field enabledObstacleType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_enabledObstacleType,
                       put = __cordl_internal_set_enabledObstacleType))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType enabledObstacleType;
 
+  /// @brief Field energyType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_energyType, put = __cordl_internal_set_energyType))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType energyType;
+
+  /// @brief Field failOnSaberClash, offset 0x15, size 0x1
+  __declspec(property(get = __cordl_internal_get_failOnSaberClash, put = __cordl_internal_set_failOnSaberClash)) bool failOnSaberClash;
+
   /// @brief Field fastNotes, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_fastNotes, put = __cordl_internal_set_fastNotes)) bool fastNotes;
-
-  /// @brief Field strictAngles, offset 0x1d, size 0x1
-  __declspec(property(get = __cordl_internal_get_strictAngles, put = __cordl_internal_set_strictAngles)) bool strictAngles;
-
-  /// @brief Field disappearingArrows, offset 0x1e, size 0x1
-  __declspec(property(get = __cordl_internal_get_disappearingArrows, put = __cordl_internal_set_disappearingArrows)) bool disappearingArrows;
 
   /// @brief Field ghostNotes, offset 0x1f, size 0x1
   __declspec(property(get = __cordl_internal_get_ghostNotes, put = __cordl_internal_set_ghostNotes)) bool ghostNotes;
 
-  /// @brief Field noBombs, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
-
-  /// @brief Field songSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_songSpeed, put = __cordl_internal_set_songSpeed))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed songSpeed;
+  /// @brief Field instaFail, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_instaFail, put = __cordl_internal_set_instaFail)) bool instaFail;
 
   /// @brief Field noArrows, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_noArrows, put = __cordl_internal_set_noArrows)) bool noArrows;
+
+  /// @brief Field noBombs, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
 
   /// @brief Field noFailOn0Energy, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_noFailOn0Energy, put = __cordl_internal_set_noFailOn0Energy)) bool noFailOn0Energy;
@@ -393,107 +395,119 @@ public:
   /// @brief Field proMode, offset 0x2a, size 0x1
   __declspec(property(get = __cordl_internal_get_proMode, put = __cordl_internal_set_proMode)) bool proMode;
 
-  /// @brief Field zenMode, offset 0x2b, size 0x1
-  __declspec(property(get = __cordl_internal_get_zenMode, put = __cordl_internal_set_zenMode)) bool zenMode;
-
   /// @brief Field smallCubes, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_smallCubes, put = __cordl_internal_set_smallCubes)) bool smallCubes;
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType& __cordl_internal_get_energyType();
+  /// @brief Field songSpeed, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_songSpeed, put = __cordl_internal_set_songSpeed))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed songSpeed;
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const& __cordl_internal_get_energyType() const;
+  /// @brief Field strictAngles, offset 0x1d, size 0x1
+  __declspec(property(get = __cordl_internal_get_strictAngles, put = __cordl_internal_set_strictAngles)) bool strictAngles;
 
-  constexpr void __cordl_internal_set_energyType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType value);
-
-  constexpr bool& __cordl_internal_get_instaFail();
-
-  constexpr bool const& __cordl_internal_get_instaFail() const;
-
-  constexpr void __cordl_internal_set_instaFail(bool value);
-
-  constexpr bool& __cordl_internal_get_failOnSaberClash();
-
-  constexpr bool const& __cordl_internal_get_failOnSaberClash() const;
-
-  constexpr void __cordl_internal_set_failOnSaberClash(bool value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType& __cordl_internal_get_enabledObstacleType();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const& __cordl_internal_get_enabledObstacleType() const;
-
-  constexpr void __cordl_internal_set_enabledObstacleType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType value);
-
-  constexpr bool& __cordl_internal_get_fastNotes();
-
-  constexpr bool const& __cordl_internal_get_fastNotes() const;
-
-  constexpr void __cordl_internal_set_fastNotes(bool value);
-
-  constexpr bool& __cordl_internal_get_strictAngles();
-
-  constexpr bool const& __cordl_internal_get_strictAngles() const;
-
-  constexpr void __cordl_internal_set_strictAngles(bool value);
-
-  constexpr bool& __cordl_internal_get_disappearingArrows();
-
-  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
-
-  constexpr void __cordl_internal_set_disappearingArrows(bool value);
-
-  constexpr bool& __cordl_internal_get_ghostNotes();
-
-  constexpr bool const& __cordl_internal_get_ghostNotes() const;
-
-  constexpr void __cordl_internal_set_ghostNotes(bool value);
-
-  constexpr bool& __cordl_internal_get_noBombs();
-
-  constexpr bool const& __cordl_internal_get_noBombs() const;
-
-  constexpr void __cordl_internal_set_noBombs(bool value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed& __cordl_internal_get_songSpeed();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const& __cordl_internal_get_songSpeed() const;
-
-  constexpr void __cordl_internal_set_songSpeed(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed value);
-
-  constexpr bool& __cordl_internal_get_noArrows();
-
-  constexpr bool const& __cordl_internal_get_noArrows() const;
-
-  constexpr void __cordl_internal_set_noArrows(bool value);
-
-  constexpr bool& __cordl_internal_get_noFailOn0Energy();
-
-  constexpr bool const& __cordl_internal_get_noFailOn0Energy() const;
-
-  constexpr void __cordl_internal_set_noFailOn0Energy(bool value);
-
-  constexpr bool& __cordl_internal_get_proMode();
-
-  constexpr bool const& __cordl_internal_get_proMode() const;
-
-  constexpr void __cordl_internal_set_proMode(bool value);
-
-  constexpr bool& __cordl_internal_get_zenMode();
-
-  constexpr bool const& __cordl_internal_get_zenMode() const;
-
-  constexpr void __cordl_internal_set_zenMode(bool value);
-
-  constexpr bool& __cordl_internal_get_smallCubes();
-
-  constexpr bool const& __cordl_internal_get_smallCubes() const;
-
-  constexpr void __cordl_internal_set_smallCubes(bool value);
+  /// @brief Field zenMode, offset 0x2b, size 0x1
+  __declspec(property(get = __cordl_internal_get_zenMode, put = __cordl_internal_set_zenMode)) bool zenMode;
 
   static inline ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372854, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
+
+  constexpr bool& __cordl_internal_get_disappearingArrows();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const& __cordl_internal_get_enabledObstacleType() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType& __cordl_internal_get_enabledObstacleType();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const& __cordl_internal_get_energyType() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType& __cordl_internal_get_energyType();
+
+  constexpr bool const& __cordl_internal_get_failOnSaberClash() const;
+
+  constexpr bool& __cordl_internal_get_failOnSaberClash();
+
+  constexpr bool const& __cordl_internal_get_fastNotes() const;
+
+  constexpr bool& __cordl_internal_get_fastNotes();
+
+  constexpr bool const& __cordl_internal_get_ghostNotes() const;
+
+  constexpr bool& __cordl_internal_get_ghostNotes();
+
+  constexpr bool const& __cordl_internal_get_instaFail() const;
+
+  constexpr bool& __cordl_internal_get_instaFail();
+
+  constexpr bool const& __cordl_internal_get_noArrows() const;
+
+  constexpr bool& __cordl_internal_get_noArrows();
+
+  constexpr bool const& __cordl_internal_get_noBombs() const;
+
+  constexpr bool& __cordl_internal_get_noBombs();
+
+  constexpr bool const& __cordl_internal_get_noFailOn0Energy() const;
+
+  constexpr bool& __cordl_internal_get_noFailOn0Energy();
+
+  constexpr bool const& __cordl_internal_get_proMode() const;
+
+  constexpr bool& __cordl_internal_get_proMode();
+
+  constexpr bool const& __cordl_internal_get_smallCubes() const;
+
+  constexpr bool& __cordl_internal_get_smallCubes();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const& __cordl_internal_get_songSpeed() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed& __cordl_internal_get_songSpeed();
+
+  constexpr bool const& __cordl_internal_get_strictAngles() const;
+
+  constexpr bool& __cordl_internal_get_strictAngles();
+
+  constexpr bool const& __cordl_internal_get_zenMode() const;
+
+  constexpr bool& __cordl_internal_get_zenMode();
+
+  constexpr void __cordl_internal_set_disappearingArrows(bool value);
+
+  constexpr void __cordl_internal_set_enabledObstacleType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType value);
+
+  constexpr void __cordl_internal_set_energyType(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType value);
+
+  constexpr void __cordl_internal_set_failOnSaberClash(bool value);
+
+  constexpr void __cordl_internal_set_fastNotes(bool value);
+
+  constexpr void __cordl_internal_set_ghostNotes(bool value);
+
+  constexpr void __cordl_internal_set_instaFail(bool value);
+
+  constexpr void __cordl_internal_set_noArrows(bool value);
+
+  constexpr void __cordl_internal_set_noBombs(bool value);
+
+  constexpr void __cordl_internal_set_noFailOn0Energy(bool value);
+
+  constexpr void __cordl_internal_set_proMode(bool value);
+
+  constexpr void __cordl_internal_set_smallCubes(bool value);
+
+  constexpr void __cordl_internal_set_songSpeed(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed value);
+
+  constexpr void __cordl_internal_set_strictAngles(bool value);
+
+  constexpr void __cordl_internal_set_zenMode(bool value);
+
+  /// @brief Method .ctor, addr 0x12f2f58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__GameplayModifiers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GameplayModifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__GameplayModifiers(__PlayerSaveData__GameplayModifiers&&) = delete;
@@ -502,12 +516,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__GameplayModifiers(__PlayerSaveData__GameplayModifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__GameplayModifiers();
-
-public:
   /// @brief Field energyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType ___energyType;
 
@@ -593,8 +601,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, _
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4638))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData {
 public:
@@ -613,27 +619,32 @@ public:
     return static_cast<____PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field AllEffects value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const AllEffects;
 
+  /// @brief Field NoEffects value: static_cast<int32_t>(0xa)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const NoEffects;
+
   /// @brief Field StrobeFilter value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const StrobeFilter;
 
-  /// @brief Field NoEffects value: static_cast<int32_t>(0xa)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const NoEffects;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -647,8 +658,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4639))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData {
 public:
@@ -668,30 +677,35 @@ public:
     return static_cast<____PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const None;
+  /// @brief Field High value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const High;
 
   /// @brief Field Low value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Low;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const None;
+
   /// @brief Field Standard value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Standard;
 
-  /// @brief Field High value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const High;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -705,8 +719,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4640))
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData {
 public:
@@ -724,24 +736,29 @@ public:
     return static_cast<____PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Dynamic value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Dynamic;
 
   /// @brief Field Static value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Static;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -755,66 +772,26 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4638)), TypeDefinitionIndex(TypeDefinitionIndex(4639)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4640))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4641)) CS Name: ::PlayerSaveData::PlayerSpecificSettings*
+// CS Name: ::PlayerSaveData::PlayerSpecificSettings*
 class CORDL_TYPE __PlayerSaveData__PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations
-  using NoteJumpDurationTypeSettingsSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
-
   using ArcVisibilityTypeSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 
   using EnvironmentEffectsFilterPresetSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 
-  /// @brief Field staticLights, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_staticLights, put = __cordl_internal_set_staticLights)) bool staticLights;
-
-  /// @brief Field leftHanded, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_leftHanded, put = __cordl_internal_set_leftHanded)) bool leftHanded;
-
-  /// @brief Field playerHeight, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_playerHeight, put = __cordl_internal_set_playerHeight)) float_t playerHeight;
-
-  /// @brief Field automaticPlayerHeight, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_automaticPlayerHeight, put = __cordl_internal_set_automaticPlayerHeight)) bool automaticPlayerHeight;
-
-  /// @brief Field sfxVolume, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_sfxVolume, put = __cordl_internal_set_sfxVolume)) float_t sfxVolume;
-
-  /// @brief Field reduceDebris, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_reduceDebris, put = __cordl_internal_set_reduceDebris)) bool reduceDebris;
-
-  /// @brief Field noTextsAndHuds, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get_noTextsAndHuds, put = __cordl_internal_set_noTextsAndHuds)) bool noTextsAndHuds;
-
-  /// @brief Field advancedHud, offset 0x22, size 0x1
-  __declspec(property(get = __cordl_internal_get_advancedHud, put = __cordl_internal_set_advancedHud)) bool advancedHud;
-
-  /// @brief Field saberTrailIntensity, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_saberTrailIntensity, put = __cordl_internal_set_saberTrailIntensity)) float_t saberTrailIntensity;
+  using NoteJumpDurationTypeSettingsSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
 
   /// @brief Field _noteJumpDurationTypeSettingsSaveData, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettingsSaveData,
                       put = __cordl_internal_set__noteJumpDurationTypeSettingsSaveData))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData
       _noteJumpDurationTypeSettingsSaveData;
 
-  /// @brief Field noteJumpFixedDuration, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_noteJumpFixedDuration, put = __cordl_internal_set_noteJumpFixedDuration)) float_t noteJumpFixedDuration;
-
-  /// @brief Field autoRestart, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
-
-  /// @brief Field noFailEffects, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get_noFailEffects, put = __cordl_internal_set_noFailEffects)) bool noFailEffects;
-
-  /// @brief Field noteJumpBeatOffset, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_noteJumpBeatOffset, put = __cordl_internal_set_noteJumpBeatOffset)) float_t noteJumpBeatOffset;
-
-  /// @brief Field hideNoteSpawnEffect, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_hideNoteSpawnEffect, put = __cordl_internal_set_hideNoteSpawnEffect)) bool hideNoteSpawnEffect;
-
   /// @brief Field adaptiveSfx, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_adaptiveSfx, put = __cordl_internal_set_adaptiveSfx)) bool adaptiveSfx;
+
+  /// @brief Field advancedHud, offset 0x22, size 0x1
+  __declspec(property(get = __cordl_internal_get_advancedHud, put = __cordl_internal_set_advancedHud)) bool advancedHud;
 
   /// @brief Field arcsHapticFeedback, offset 0x3a, size 0x1
   __declspec(property(get = __cordl_internal_get_arcsHapticFeedback, put = __cordl_internal_set_arcsHapticFeedback)) bool arcsHapticFeedback;
@@ -822,6 +799,12 @@ public:
   /// @brief Field arcsVisibleSaveData, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_arcsVisibleSaveData,
                       put = __cordl_internal_set_arcsVisibleSaveData))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData arcsVisibleSaveData;
+
+  /// @brief Field autoRestart, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
+
+  /// @brief Field automaticPlayerHeight, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_automaticPlayerHeight, put = __cordl_internal_set_automaticPlayerHeight)) bool automaticPlayerHeight;
 
   /// @brief Field environmentEffectsFilterDefaultPreset, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_environmentEffectsFilterDefaultPreset,
@@ -836,137 +819,176 @@ public:
   /// @brief Field headsetHapticIntensity, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_headsetHapticIntensity, put = __cordl_internal_set_headsetHapticIntensity)) float_t headsetHapticIntensity;
 
-  constexpr bool& __cordl_internal_get_staticLights();
+  /// @brief Field hideNoteSpawnEffect, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_hideNoteSpawnEffect, put = __cordl_internal_set_hideNoteSpawnEffect)) bool hideNoteSpawnEffect;
 
-  constexpr bool const& __cordl_internal_get_staticLights() const;
+  /// @brief Field leftHanded, offset 0x11, size 0x1
+  __declspec(property(get = __cordl_internal_get_leftHanded, put = __cordl_internal_set_leftHanded)) bool leftHanded;
 
-  constexpr void __cordl_internal_set_staticLights(bool value);
+  /// @brief Field noFailEffects, offset 0x31, size 0x1
+  __declspec(property(get = __cordl_internal_get_noFailEffects, put = __cordl_internal_set_noFailEffects)) bool noFailEffects;
 
-  constexpr bool& __cordl_internal_get_leftHanded();
+  /// @brief Field noTextsAndHuds, offset 0x21, size 0x1
+  __declspec(property(get = __cordl_internal_get_noTextsAndHuds, put = __cordl_internal_set_noTextsAndHuds)) bool noTextsAndHuds;
 
-  constexpr bool const& __cordl_internal_get_leftHanded() const;
+  /// @brief Field noteJumpBeatOffset, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpBeatOffset, put = __cordl_internal_set_noteJumpBeatOffset)) float_t noteJumpBeatOffset;
 
-  constexpr void __cordl_internal_set_leftHanded(bool value);
+  /// @brief Field noteJumpFixedDuration, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteJumpFixedDuration, put = __cordl_internal_set_noteJumpFixedDuration)) float_t noteJumpFixedDuration;
 
-  constexpr float_t& __cordl_internal_get_playerHeight();
+  /// @brief Field playerHeight, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_playerHeight, put = __cordl_internal_set_playerHeight)) float_t playerHeight;
 
-  constexpr float_t const& __cordl_internal_get_playerHeight() const;
+  /// @brief Field reduceDebris, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_reduceDebris, put = __cordl_internal_set_reduceDebris)) bool reduceDebris;
 
-  constexpr void __cordl_internal_set_playerHeight(float_t value);
+  /// @brief Field saberTrailIntensity, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_saberTrailIntensity, put = __cordl_internal_set_saberTrailIntensity)) float_t saberTrailIntensity;
 
-  constexpr bool& __cordl_internal_get_automaticPlayerHeight();
+  /// @brief Field sfxVolume, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_sfxVolume, put = __cordl_internal_set_sfxVolume)) float_t sfxVolume;
 
-  constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
-
-  constexpr void __cordl_internal_set_automaticPlayerHeight(bool value);
-
-  constexpr float_t& __cordl_internal_get_sfxVolume();
-
-  constexpr float_t const& __cordl_internal_get_sfxVolume() const;
-
-  constexpr void __cordl_internal_set_sfxVolume(float_t value);
-
-  constexpr bool& __cordl_internal_get_reduceDebris();
-
-  constexpr bool const& __cordl_internal_get_reduceDebris() const;
-
-  constexpr void __cordl_internal_set_reduceDebris(bool value);
-
-  constexpr bool& __cordl_internal_get_noTextsAndHuds();
-
-  constexpr bool const& __cordl_internal_get_noTextsAndHuds() const;
-
-  constexpr void __cordl_internal_set_noTextsAndHuds(bool value);
-
-  constexpr bool& __cordl_internal_get_advancedHud();
-
-  constexpr bool const& __cordl_internal_get_advancedHud() const;
-
-  constexpr void __cordl_internal_set_advancedHud(bool value);
-
-  constexpr float_t& __cordl_internal_get_saberTrailIntensity();
-
-  constexpr float_t const& __cordl_internal_get_saberTrailIntensity() const;
-
-  constexpr void __cordl_internal_set_saberTrailIntensity(float_t value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& __cordl_internal_get__noteJumpDurationTypeSettingsSaveData();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const& __cordl_internal_get__noteJumpDurationTypeSettingsSaveData() const;
-
-  constexpr void __cordl_internal_set__noteJumpDurationTypeSettingsSaveData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData value);
-
-  constexpr float_t& __cordl_internal_get_noteJumpFixedDuration();
-
-  constexpr float_t const& __cordl_internal_get_noteJumpFixedDuration() const;
-
-  constexpr void __cordl_internal_set_noteJumpFixedDuration(float_t value);
-
-  constexpr bool& __cordl_internal_get_autoRestart();
-
-  constexpr bool const& __cordl_internal_get_autoRestart() const;
-
-  constexpr void __cordl_internal_set_autoRestart(bool value);
-
-  constexpr bool& __cordl_internal_get_noFailEffects();
-
-  constexpr bool const& __cordl_internal_get_noFailEffects() const;
-
-  constexpr void __cordl_internal_set_noFailEffects(bool value);
-
-  constexpr float_t& __cordl_internal_get_noteJumpBeatOffset();
-
-  constexpr float_t const& __cordl_internal_get_noteJumpBeatOffset() const;
-
-  constexpr void __cordl_internal_set_noteJumpBeatOffset(float_t value);
-
-  constexpr bool& __cordl_internal_get_hideNoteSpawnEffect();
-
-  constexpr bool const& __cordl_internal_get_hideNoteSpawnEffect() const;
-
-  constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
-
-  constexpr bool& __cordl_internal_get_adaptiveSfx();
-
-  constexpr bool const& __cordl_internal_get_adaptiveSfx() const;
-
-  constexpr void __cordl_internal_set_adaptiveSfx(bool value);
-
-  constexpr bool& __cordl_internal_get_arcsHapticFeedback();
-
-  constexpr bool const& __cordl_internal_get_arcsHapticFeedback() const;
-
-  constexpr void __cordl_internal_set_arcsHapticFeedback(bool value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& __cordl_internal_get_arcsVisibleSaveData();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const& __cordl_internal_get_arcsVisibleSaveData() const;
-
-  constexpr void __cordl_internal_set_arcsVisibleSaveData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& __cordl_internal_get_environmentEffectsFilterDefaultPreset();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& __cordl_internal_get_environmentEffectsFilterDefaultPreset() const;
-
-  constexpr void __cordl_internal_set_environmentEffectsFilterDefaultPreset(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& __cordl_internal_get_environmentEffectsFilterExpertPlusPreset();
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& __cordl_internal_get_environmentEffectsFilterExpertPlusPreset() const;
-
-  constexpr void __cordl_internal_set_environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value);
-
-  constexpr float_t& __cordl_internal_get_headsetHapticIntensity();
-
-  constexpr float_t const& __cordl_internal_get_headsetHapticIntensity() const;
-
-  constexpr void __cordl_internal_set_headsetHapticIntensity(float_t value);
+  /// @brief Field staticLights, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_staticLights, put = __cordl_internal_set_staticLights)) bool staticLights;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237285c, size 0x38, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const& __cordl_internal_get__noteJumpDurationTypeSettingsSaveData() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData& __cordl_internal_get__noteJumpDurationTypeSettingsSaveData();
+
+  constexpr bool const& __cordl_internal_get_adaptiveSfx() const;
+
+  constexpr bool& __cordl_internal_get_adaptiveSfx();
+
+  constexpr bool const& __cordl_internal_get_advancedHud() const;
+
+  constexpr bool& __cordl_internal_get_advancedHud();
+
+  constexpr bool const& __cordl_internal_get_arcsHapticFeedback() const;
+
+  constexpr bool& __cordl_internal_get_arcsHapticFeedback();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const& __cordl_internal_get_arcsVisibleSaveData() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData& __cordl_internal_get_arcsVisibleSaveData();
+
+  constexpr bool const& __cordl_internal_get_autoRestart() const;
+
+  constexpr bool& __cordl_internal_get_autoRestart();
+
+  constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
+
+  constexpr bool& __cordl_internal_get_automaticPlayerHeight();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& __cordl_internal_get_environmentEffectsFilterDefaultPreset() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& __cordl_internal_get_environmentEffectsFilterDefaultPreset();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const& __cordl_internal_get_environmentEffectsFilterExpertPlusPreset() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData& __cordl_internal_get_environmentEffectsFilterExpertPlusPreset();
+
+  constexpr float_t const& __cordl_internal_get_headsetHapticIntensity() const;
+
+  constexpr float_t& __cordl_internal_get_headsetHapticIntensity();
+
+  constexpr bool const& __cordl_internal_get_hideNoteSpawnEffect() const;
+
+  constexpr bool& __cordl_internal_get_hideNoteSpawnEffect();
+
+  constexpr bool const& __cordl_internal_get_leftHanded() const;
+
+  constexpr bool& __cordl_internal_get_leftHanded();
+
+  constexpr bool const& __cordl_internal_get_noFailEffects() const;
+
+  constexpr bool& __cordl_internal_get_noFailEffects();
+
+  constexpr bool const& __cordl_internal_get_noTextsAndHuds() const;
+
+  constexpr bool& __cordl_internal_get_noTextsAndHuds();
+
+  constexpr float_t const& __cordl_internal_get_noteJumpBeatOffset() const;
+
+  constexpr float_t& __cordl_internal_get_noteJumpBeatOffset();
+
+  constexpr float_t const& __cordl_internal_get_noteJumpFixedDuration() const;
+
+  constexpr float_t& __cordl_internal_get_noteJumpFixedDuration();
+
+  constexpr float_t const& __cordl_internal_get_playerHeight() const;
+
+  constexpr float_t& __cordl_internal_get_playerHeight();
+
+  constexpr bool const& __cordl_internal_get_reduceDebris() const;
+
+  constexpr bool& __cordl_internal_get_reduceDebris();
+
+  constexpr float_t const& __cordl_internal_get_saberTrailIntensity() const;
+
+  constexpr float_t& __cordl_internal_get_saberTrailIntensity();
+
+  constexpr float_t const& __cordl_internal_get_sfxVolume() const;
+
+  constexpr float_t& __cordl_internal_get_sfxVolume();
+
+  constexpr bool const& __cordl_internal_get_staticLights() const;
+
+  constexpr bool& __cordl_internal_get_staticLights();
+
+  constexpr void __cordl_internal_set__noteJumpDurationTypeSettingsSaveData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData value);
+
+  constexpr void __cordl_internal_set_adaptiveSfx(bool value);
+
+  constexpr void __cordl_internal_set_advancedHud(bool value);
+
+  constexpr void __cordl_internal_set_arcsHapticFeedback(bool value);
+
+  constexpr void __cordl_internal_set_arcsVisibleSaveData(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData value);
+
+  constexpr void __cordl_internal_set_autoRestart(bool value);
+
+  constexpr void __cordl_internal_set_automaticPlayerHeight(bool value);
+
+  constexpr void __cordl_internal_set_environmentEffectsFilterDefaultPreset(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value);
+
+  constexpr void __cordl_internal_set_environmentEffectsFilterExpertPlusPreset(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData value);
+
+  constexpr void __cordl_internal_set_headsetHapticIntensity(float_t value);
+
+  constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
+
+  constexpr void __cordl_internal_set_leftHanded(bool value);
+
+  constexpr void __cordl_internal_set_noFailEffects(bool value);
+
+  constexpr void __cordl_internal_set_noTextsAndHuds(bool value);
+
+  constexpr void __cordl_internal_set_noteJumpBeatOffset(float_t value);
+
+  constexpr void __cordl_internal_set_noteJumpFixedDuration(float_t value);
+
+  constexpr void __cordl_internal_set_playerHeight(float_t value);
+
+  constexpr void __cordl_internal_set_reduceDebris(bool value);
+
+  constexpr void __cordl_internal_set_saberTrailIntensity(float_t value);
+
+  constexpr void __cordl_internal_set_sfxVolume(float_t value);
+
+  constexpr void __cordl_internal_set_staticLights(bool value);
+
+  /// @brief Method .ctor, addr 0x12f2f60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerSpecificSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerSpecificSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerSpecificSettings(__PlayerSaveData__PlayerSpecificSettings&&) = delete;
@@ -975,12 +997,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerSpecificSettings(__PlayerSaveData__PlayerSpecificSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerSpecificSettings();
-
-public:
   /// @brief Field staticLights, offset: 0x10, size: 0x1, def value: None
   bool ___staticLights;
 
@@ -1096,8 +1112,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4642))
 // CS Name: ::PlayerSaveData::PlayerAllOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAllOverallStatsData : public ::System::Object {
 public:
@@ -1106,57 +1120,63 @@ public:
   __declspec(property(get = __cordl_internal_get_campaignOverallStatsData,
                       put = __cordl_internal_set_campaignOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData;
 
-  /// @brief Field soloFreePlayOverallStatsData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_soloFreePlayOverallStatsData,
-                      put = __cordl_internal_set_soloFreePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData;
+  /// @brief Field onlinePlayOverallStatsData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_onlinePlayOverallStatsData,
+                      put = __cordl_internal_set_onlinePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData;
 
   /// @brief Field partyFreePlayOverallStatsData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_partyFreePlayOverallStatsData,
                       put = __cordl_internal_set_partyFreePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData;
 
-  /// @brief Field onlinePlayOverallStatsData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_onlinePlayOverallStatsData,
-                      put = __cordl_internal_set_onlinePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData;
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_campaignOverallStatsData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_campaignOverallStatsData() const;
-
-  constexpr void __cordl_internal_set_campaignOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_soloFreePlayOverallStatsData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_soloFreePlayOverallStatsData() const;
-
-  constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_partyFreePlayOverallStatsData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_partyFreePlayOverallStatsData() const;
-
-  constexpr void __cordl_internal_set_partyFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_onlinePlayOverallStatsData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_onlinePlayOverallStatsData() const;
-
-  constexpr void __cordl_internal_set_onlinePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
+  /// @brief Field soloFreePlayOverallStatsData, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_soloFreePlayOverallStatsData,
+                      put = __cordl_internal_set_soloFreePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x237239c, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData,
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                                                                                          ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method .ctor, addr 0x2372548, size 0x40, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_campaignOverallStatsData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_campaignOverallStatsData() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_onlinePlayOverallStatsData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_onlinePlayOverallStatsData() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_partyFreePlayOverallStatsData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_partyFreePlayOverallStatsData() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*& __cordl_internal_get_soloFreePlayOverallStatsData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*> const& __cordl_internal_get_soloFreePlayOverallStatsData() const;
+
+  constexpr void __cordl_internal_set_campaignOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
+
+  constexpr void __cordl_internal_set_onlinePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
+
+  constexpr void __cordl_internal_set_partyFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
+
+  constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
+
+  /// @brief Method .ctor, addr 0x12f6674, size 0xc0, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12f6820, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerAllOverallStatsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerAllOverallStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerAllOverallStatsData(__PlayerSaveData__PlayerAllOverallStatsData&&) = delete;
@@ -1165,12 +1185,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerAllOverallStatsData(__PlayerSaveData__PlayerAllOverallStatsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerAllOverallStatsData();
-
-public:
   /// @brief Field campaignOverallStatsData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* ___campaignOverallStatsData;
 
@@ -1201,29 +1215,18 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStat
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4643))
 // CS Name: ::PlayerSaveData::PlayerOverallStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerOverallStatsData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field goodCutsCount, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_goodCutsCount, put = __cordl_internal_set_goodCutsCount)) int32_t goodCutsCount;
-
   /// @brief Field badCutsCount, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_badCutsCount, put = __cordl_internal_set_badCutsCount)) int32_t badCutsCount;
 
-  /// @brief Field missedCutsCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_missedCutsCount, put = __cordl_internal_set_missedCutsCount)) int32_t missedCutsCount;
-
-  /// @brief Field totalScore, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_totalScore, put = __cordl_internal_set_totalScore)) int64_t totalScore;
-
-  /// @brief Field playedLevelsCount, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_playedLevelsCount, put = __cordl_internal_set_playedLevelsCount)) int32_t playedLevelsCount;
-
   /// @brief Field cleardLevelsCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_cleardLevelsCount, put = __cordl_internal_set_cleardLevelsCount)) int32_t cleardLevelsCount;
+
+  /// @brief Field cummulativeCutScoreWithoutMultiplier, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_cummulativeCutScoreWithoutMultiplier, put = __cordl_internal_set_cummulativeCutScoreWithoutMultiplier)) int64_t cummulativeCutScoreWithoutMultiplier;
 
   /// @brief Field failedLevelsCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_failedLevelsCount, put = __cordl_internal_set_failedLevelsCount)) int32_t failedLevelsCount;
@@ -1231,94 +1234,109 @@ public:
   /// @brief Field fullComboCount, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_fullComboCount, put = __cordl_internal_set_fullComboCount)) int32_t fullComboCount;
 
-  /// @brief Field timePlayed, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_timePlayed, put = __cordl_internal_set_timePlayed)) float_t timePlayed;
+  /// @brief Field goodCutsCount, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_goodCutsCount, put = __cordl_internal_set_goodCutsCount)) int32_t goodCutsCount;
 
   /// @brief Field handDistanceTravelled, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_handDistanceTravelled, put = __cordl_internal_set_handDistanceTravelled)) int32_t handDistanceTravelled;
 
-  /// @brief Field cummulativeCutScoreWithoutMultiplier, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_cummulativeCutScoreWithoutMultiplier, put = __cordl_internal_set_cummulativeCutScoreWithoutMultiplier)) int64_t cummulativeCutScoreWithoutMultiplier;
+  /// @brief Field missedCutsCount, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_missedCutsCount, put = __cordl_internal_set_missedCutsCount)) int32_t missedCutsCount;
 
-  constexpr int32_t& __cordl_internal_get_goodCutsCount();
+  /// @brief Field playedLevelsCount, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_playedLevelsCount, put = __cordl_internal_set_playedLevelsCount)) int32_t playedLevelsCount;
 
-  constexpr int32_t const& __cordl_internal_get_goodCutsCount() const;
+  /// @brief Field timePlayed, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_timePlayed, put = __cordl_internal_set_timePlayed)) float_t timePlayed;
 
-  constexpr void __cordl_internal_set_goodCutsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_badCutsCount();
-
-  constexpr int32_t const& __cordl_internal_get_badCutsCount() const;
-
-  constexpr void __cordl_internal_set_badCutsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_missedCutsCount();
-
-  constexpr int32_t const& __cordl_internal_get_missedCutsCount() const;
-
-  constexpr void __cordl_internal_set_missedCutsCount(int32_t value);
-
-  constexpr int64_t& __cordl_internal_get_totalScore();
-
-  constexpr int64_t const& __cordl_internal_get_totalScore() const;
-
-  constexpr void __cordl_internal_set_totalScore(int64_t value);
-
-  constexpr int32_t& __cordl_internal_get_playedLevelsCount();
-
-  constexpr int32_t const& __cordl_internal_get_playedLevelsCount() const;
-
-  constexpr void __cordl_internal_set_playedLevelsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_cleardLevelsCount();
-
-  constexpr int32_t const& __cordl_internal_get_cleardLevelsCount() const;
-
-  constexpr void __cordl_internal_set_cleardLevelsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_failedLevelsCount();
-
-  constexpr int32_t const& __cordl_internal_get_failedLevelsCount() const;
-
-  constexpr void __cordl_internal_set_failedLevelsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_fullComboCount();
-
-  constexpr int32_t const& __cordl_internal_get_fullComboCount() const;
-
-  constexpr void __cordl_internal_set_fullComboCount(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_timePlayed();
-
-  constexpr float_t const& __cordl_internal_get_timePlayed() const;
-
-  constexpr void __cordl_internal_set_timePlayed(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_handDistanceTravelled();
-
-  constexpr int32_t const& __cordl_internal_get_handDistanceTravelled() const;
-
-  constexpr void __cordl_internal_set_handDistanceTravelled(int32_t value);
-
-  constexpr int64_t& __cordl_internal_get_cummulativeCutScoreWithoutMultiplier();
-
-  constexpr int64_t const& __cordl_internal_get_cummulativeCutScoreWithoutMultiplier() const;
-
-  constexpr void __cordl_internal_set_cummulativeCutScoreWithoutMultiplier(int64_t value);
+  /// @brief Field totalScore, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_totalScore, put = __cordl_internal_set_totalScore)) int64_t totalScore;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2372588, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
                                                                                       int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
                                                                                       float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
-  /// @brief Method .ctor, addr 0x2372590, size 0xb0, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_badCutsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_badCutsCount();
+
+  constexpr int32_t const& __cordl_internal_get_cleardLevelsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_cleardLevelsCount();
+
+  constexpr int64_t const& __cordl_internal_get_cummulativeCutScoreWithoutMultiplier() const;
+
+  constexpr int64_t& __cordl_internal_get_cummulativeCutScoreWithoutMultiplier();
+
+  constexpr int32_t const& __cordl_internal_get_failedLevelsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_failedLevelsCount();
+
+  constexpr int32_t const& __cordl_internal_get_fullComboCount() const;
+
+  constexpr int32_t& __cordl_internal_get_fullComboCount();
+
+  constexpr int32_t const& __cordl_internal_get_goodCutsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_goodCutsCount();
+
+  constexpr int32_t const& __cordl_internal_get_handDistanceTravelled() const;
+
+  constexpr int32_t& __cordl_internal_get_handDistanceTravelled();
+
+  constexpr int32_t const& __cordl_internal_get_missedCutsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_missedCutsCount();
+
+  constexpr int32_t const& __cordl_internal_get_playedLevelsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_playedLevelsCount();
+
+  constexpr float_t const& __cordl_internal_get_timePlayed() const;
+
+  constexpr float_t& __cordl_internal_get_timePlayed();
+
+  constexpr int64_t const& __cordl_internal_get_totalScore() const;
+
+  constexpr int64_t& __cordl_internal_get_totalScore();
+
+  constexpr void __cordl_internal_set_badCutsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_cleardLevelsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_cummulativeCutScoreWithoutMultiplier(int64_t value);
+
+  constexpr void __cordl_internal_set_failedLevelsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_fullComboCount(int32_t value);
+
+  constexpr void __cordl_internal_set_goodCutsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_handDistanceTravelled(int32_t value);
+
+  constexpr void __cordl_internal_set_missedCutsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_playedLevelsCount(int32_t value);
+
+  constexpr void __cordl_internal_set_timePlayed(float_t value);
+
+  constexpr void __cordl_internal_set_totalScore(int64_t value);
+
+  /// @brief Method .ctor, addr 0x12f6860, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12f6868, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerOverallStatsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerOverallStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerOverallStatsData(__PlayerSaveData__PlayerOverallStatsData&&) = delete;
@@ -1327,12 +1345,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerOverallStatsData(__PlayerSaveData__PlayerOverallStatsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerOverallStatsData();
-
-public:
   /// @brief Field goodCutsCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___goodCutsCount;
 
@@ -1398,98 +1410,102 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsDa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15034))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4644))
 // CS Name: ::PlayerSaveData::PlayerLevelStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerLevelStatsData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
+  /// @brief Field beatmapCharacteristicName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapCharacteristicName, put = __cordl_internal_set_beatmapCharacteristicName))::StringW beatmapCharacteristicName;
 
   /// @brief Field difficulty, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
 
-  /// @brief Field beatmapCharacteristicName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapCharacteristicName, put = __cordl_internal_set_beatmapCharacteristicName))::StringW beatmapCharacteristicName;
+  /// @brief Field fullCombo, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_fullCombo, put = __cordl_internal_set_fullCombo)) bool fullCombo;
 
   /// @brief Field highScore, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_highScore, put = __cordl_internal_set_highScore)) int32_t highScore;
 
+  /// @brief Field levelId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
+
   /// @brief Field maxCombo, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_maxCombo, put = __cordl_internal_set_maxCombo)) int32_t maxCombo;
-
-  /// @brief Field fullCombo, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_fullCombo, put = __cordl_internal_set_fullCombo)) bool fullCombo;
 
   /// @brief Field maxRank, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_maxRank, put = __cordl_internal_set_maxRank))::GlobalNamespace::__RankModel__Rank maxRank;
 
-  /// @brief Field validScore, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_validScore, put = __cordl_internal_set_validScore)) bool validScore;
-
   /// @brief Field playCount, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_playCount, put = __cordl_internal_set_playCount)) int32_t playCount;
 
-  constexpr ::StringW& __cordl_internal_get_levelId();
-
-  constexpr ::StringW const& __cordl_internal_get_levelId() const;
-
-  constexpr void __cordl_internal_set_levelId(::StringW value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_difficulty();
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_difficulty() const;
-
-  constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
-
-  constexpr ::StringW& __cordl_internal_get_beatmapCharacteristicName();
-
-  constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristicName() const;
-
-  constexpr void __cordl_internal_set_beatmapCharacteristicName(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_highScore();
-
-  constexpr int32_t const& __cordl_internal_get_highScore() const;
-
-  constexpr void __cordl_internal_set_highScore(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_maxCombo();
-
-  constexpr int32_t const& __cordl_internal_get_maxCombo() const;
-
-  constexpr void __cordl_internal_set_maxCombo(int32_t value);
-
-  constexpr bool& __cordl_internal_get_fullCombo();
-
-  constexpr bool const& __cordl_internal_get_fullCombo() const;
-
-  constexpr void __cordl_internal_set_fullCombo(bool value);
-
-  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get_maxRank();
-
-  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get_maxRank() const;
-
-  constexpr void __cordl_internal_set_maxRank(::GlobalNamespace::__RankModel__Rank value);
-
-  constexpr bool& __cordl_internal_get_validScore();
-
-  constexpr bool const& __cordl_internal_get_validScore() const;
-
-  constexpr void __cordl_internal_set_validScore(bool value);
-
-  constexpr int32_t& __cordl_internal_get_playCount();
-
-  constexpr int32_t const& __cordl_internal_get_playCount() const;
-
-  constexpr void __cordl_internal_set_playCount(int32_t value);
+  /// @brief Field validScore, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_validScore, put = __cordl_internal_set_validScore)) bool validScore;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372894, size 0x8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristicName() const;
+
+  constexpr ::StringW& __cordl_internal_get_beatmapCharacteristicName();
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_difficulty() const;
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_difficulty();
+
+  constexpr bool const& __cordl_internal_get_fullCombo() const;
+
+  constexpr bool& __cordl_internal_get_fullCombo();
+
+  constexpr int32_t const& __cordl_internal_get_highScore() const;
+
+  constexpr int32_t& __cordl_internal_get_highScore();
+
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
+
+  constexpr ::StringW& __cordl_internal_get_levelId();
+
+  constexpr int32_t const& __cordl_internal_get_maxCombo() const;
+
+  constexpr int32_t& __cordl_internal_get_maxCombo();
+
+  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get_maxRank() const;
+
+  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get_maxRank();
+
+  constexpr int32_t const& __cordl_internal_get_playCount() const;
+
+  constexpr int32_t& __cordl_internal_get_playCount();
+
+  constexpr bool const& __cordl_internal_get_validScore() const;
+
+  constexpr bool& __cordl_internal_get_validScore();
+
+  constexpr void __cordl_internal_set_beatmapCharacteristicName(::StringW value);
+
+  constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set_fullCombo(bool value);
+
+  constexpr void __cordl_internal_set_highScore(int32_t value);
+
+  constexpr void __cordl_internal_set_levelId(::StringW value);
+
+  constexpr void __cordl_internal_set_maxCombo(int32_t value);
+
+  constexpr void __cordl_internal_set_maxRank(::GlobalNamespace::__RankModel__Rank value);
+
+  constexpr void __cordl_internal_set_playCount(int32_t value);
+
+  constexpr void __cordl_internal_set_validScore(bool value);
+
+  /// @brief Method .ctor, addr 0x12f30a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerLevelStatsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerLevelStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerLevelStatsData(__PlayerSaveData__PlayerLevelStatsData&&) = delete;
@@ -1498,12 +1514,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerLevelStatsData(__PlayerSaveData__PlayerLevelStatsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerLevelStatsData();
-
-public:
   /// @brief Field levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___levelId;
 
@@ -1559,35 +1569,39 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4645))
 // CS Name: ::PlayerSaveData::PlayerMissionStatsData*
 class CORDL_TYPE __PlayerSaveData__PlayerMissionStatsData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field missionId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_missionId, put = __cordl_internal_set_missionId))::StringW missionId;
-
   /// @brief Field cleared, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_cleared, put = __cordl_internal_set_cleared)) bool cleared;
 
-  constexpr ::StringW& __cordl_internal_get_missionId();
-
-  constexpr ::StringW const& __cordl_internal_get_missionId() const;
-
-  constexpr void __cordl_internal_set_missionId(::StringW value);
-
-  constexpr bool& __cordl_internal_get_cleared();
-
-  constexpr bool const& __cordl_internal_get_cleared() const;
-
-  constexpr void __cordl_internal_set_cleared(bool value);
+  /// @brief Field missionId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_missionId, put = __cordl_internal_set_missionId))::StringW missionId;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237289c, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_cleared() const;
+
+  constexpr bool& __cordl_internal_get_cleared();
+
+  constexpr ::StringW const& __cordl_internal_get_missionId() const;
+
+  constexpr ::StringW& __cordl_internal_get_missionId();
+
+  constexpr void __cordl_internal_set_cleared(bool value);
+
+  constexpr void __cordl_internal_set_missionId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12f30ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerMissionStatsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerMissionStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerMissionStatsData(__PlayerSaveData__PlayerMissionStatsData&&) = delete;
@@ -1596,12 +1610,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerMissionStatsData(__PlayerSaveData__PlayerMissionStatsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerMissionStatsData();
-
-public:
   /// @brief Field missionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___missionId;
 
@@ -1622,35 +1630,39 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsDa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4646))
 // CS Name: ::PlayerSaveData::PracticeSettings*
 class CORDL_TYPE __PlayerSaveData__PracticeSettings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field startSongTime, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
-
   /// @brief Field songSpeedMul, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_songSpeedMul, put = __cordl_internal_set_songSpeedMul)) float_t songSpeedMul;
 
-  constexpr float_t& __cordl_internal_get_startSongTime();
-
-  constexpr float_t const& __cordl_internal_get_startSongTime() const;
-
-  constexpr void __cordl_internal_set_startSongTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get_songSpeedMul();
-
-  constexpr float_t const& __cordl_internal_get_songSpeedMul() const;
-
-  constexpr void __cordl_internal_set_songSpeedMul(float_t value);
+  /// @brief Field startSongTime, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PracticeSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23728a4, size 0x8, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_songSpeedMul() const;
+
+  constexpr float_t& __cordl_internal_get_songSpeedMul();
+
+  constexpr float_t const& __cordl_internal_get_startSongTime() const;
+
+  constexpr float_t& __cordl_internal_get_startSongTime();
+
+  constexpr void __cordl_internal_set_songSpeedMul(float_t value);
+
+  constexpr void __cordl_internal_set_startSongTime(float_t value);
+
+  /// @brief Method .ctor, addr 0x12f2fd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PracticeSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PracticeSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PracticeSettings(__PlayerSaveData__PracticeSettings&&) = delete;
@@ -1659,12 +1671,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PracticeSettings(__PlayerSaveData__PracticeSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PracticeSettings();
-
-public:
   /// @brief Field startSongTime, offset: 0x10, size: 0x4, def value: None
   float_t ___startSongTime;
 
@@ -1685,8 +1691,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PracticeSettings, __
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
 // CS Name: ::PlayerSaveData::ColorScheme*
 class CORDL_TYPE __PlayerSaveData__ColorScheme : public ::System::Object {
 public:
@@ -1694,83 +1698,89 @@ public:
   /// @brief Field colorSchemeId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_colorSchemeId, put = __cordl_internal_set_colorSchemeId))::StringW colorSchemeId;
 
+  /// @brief Field environmentColor0, offset 0x38, size 0x10
+  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0))::UnityEngine::Color environmentColor0;
+
+  /// @brief Field environmentColor0Boost, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost))::UnityEngine::Color environmentColor0Boost;
+
+  /// @brief Field environmentColor1, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1))::UnityEngine::Color environmentColor1;
+
+  /// @brief Field environmentColor1Boost, offset 0x78, size 0x10
+  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
+
+  /// @brief Field obstaclesColor, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor))::UnityEngine::Color obstaclesColor;
+
   /// @brief Field saberAColor, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor))::UnityEngine::Color saberAColor;
 
   /// @brief Field saberBColor, offset 0x28, size 0x10
   __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor))::UnityEngine::Color saberBColor;
 
-  /// @brief Field environmentColor0, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0))::UnityEngine::Color environmentColor0;
-
-  /// @brief Field environmentColor1, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1))::UnityEngine::Color environmentColor1;
-
-  /// @brief Field obstaclesColor, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor))::UnityEngine::Color obstaclesColor;
-
-  /// @brief Field environmentColor0Boost, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost))::UnityEngine::Color environmentColor0Boost;
-
-  /// @brief Field environmentColor1Boost, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
-
-  constexpr ::StringW& __cordl_internal_get_colorSchemeId();
-
-  constexpr ::StringW const& __cordl_internal_get_colorSchemeId() const;
-
-  constexpr void __cordl_internal_set_colorSchemeId(::StringW value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_saberAColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_saberAColor() const;
-
-  constexpr void __cordl_internal_set_saberAColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_saberBColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_saberBColor() const;
-
-  constexpr void __cordl_internal_set_saberBColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor0();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor0() const;
-
-  constexpr void __cordl_internal_set_environmentColor0(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor1();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor1() const;
-
-  constexpr void __cordl_internal_set_environmentColor1(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_obstaclesColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_obstaclesColor() const;
-
-  constexpr void __cordl_internal_set_obstaclesColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor0Boost();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor0Boost() const;
-
-  constexpr void __cordl_internal_set_environmentColor0Boost(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor1Boost();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor1Boost() const;
-
-  constexpr void __cordl_internal_set_environmentColor1Boost(::UnityEngine::Color value);
-
   static inline ::GlobalNamespace::__PlayerSaveData__ColorScheme* New_ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor,
                                                                            ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor,
                                                                            ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method .ctor, addr 0x23728ac, size 0xd0, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_colorSchemeId() const;
+
+  constexpr ::StringW& __cordl_internal_get_colorSchemeId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor0() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor0();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor0Boost() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor0Boost();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor1() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor1();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_environmentColor1Boost() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_environmentColor1Boost();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_obstaclesColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_obstaclesColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_saberAColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_saberAColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_saberBColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_saberBColor();
+
+  constexpr void __cordl_internal_set_colorSchemeId(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentColor0(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_environmentColor0Boost(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_environmentColor1(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_environmentColor1Boost(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_obstaclesColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_saberAColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_saberBColor(::UnityEngine::Color value);
+
+  /// @brief Method .ctor, addr 0x12f30bc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__ColorScheme();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__ColorScheme", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__ColorScheme(__PlayerSaveData__ColorScheme&&) = delete;
@@ -1779,12 +1789,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__ColorScheme(__PlayerSaveData__ColorScheme const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__ColorScheme();
-
-public:
   /// @brief Field colorSchemeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___colorSchemeId;
 
@@ -1835,46 +1839,50 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___envi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4648))
 // CS Name: ::PlayerSaveData::ColorSchemesSettings*
 class CORDL_TYPE __PlayerSaveData__ColorSchemesSettings : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field colorSchemes, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorSchemes,
+                      put = __cordl_internal_set_colorSchemes))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes;
+
   /// @brief Field overrideDefaultColors, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideDefaultColors, put = __cordl_internal_set_overrideDefaultColors)) bool overrideDefaultColors;
 
   /// @brief Field selectedColorSchemeId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_selectedColorSchemeId, put = __cordl_internal_set_selectedColorSchemeId))::StringW selectedColorSchemeId;
 
-  /// @brief Field colorSchemes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemes,
-                      put = __cordl_internal_set_colorSchemes))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes;
-
-  constexpr bool& __cordl_internal_get_overrideDefaultColors();
-
-  constexpr bool const& __cordl_internal_get_overrideDefaultColors() const;
-
-  constexpr void __cordl_internal_set_overrideDefaultColors(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_selectedColorSchemeId();
-
-  constexpr ::StringW const& __cordl_internal_get_selectedColorSchemeId() const;
-
-  constexpr void __cordl_internal_set_selectedColorSchemeId(::StringW value);
+  static inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId,
+                                                                                    ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>*& __cordl_internal_get_colorSchemes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>*> const& __cordl_internal_get_colorSchemes() const;
 
+  constexpr bool const& __cordl_internal_get_overrideDefaultColors() const;
+
+  constexpr bool& __cordl_internal_get_overrideDefaultColors();
+
+  constexpr ::StringW const& __cordl_internal_get_selectedColorSchemeId() const;
+
+  constexpr ::StringW& __cordl_internal_get_selectedColorSchemeId();
+
   constexpr void __cordl_internal_set_colorSchemes(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* value);
 
-  static inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId,
-                                                                                    ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
+  constexpr void __cordl_internal_set_overrideDefaultColors(bool value);
 
-  /// @brief Method .ctor, addr 0x237297c, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_selectedColorSchemeId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12f318c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__ColorSchemesSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__ColorSchemesSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__ColorSchemesSettings(__PlayerSaveData__ColorSchemesSettings&&) = delete;
@@ -1883,12 +1891,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__ColorSchemesSettings(__PlayerSaveData__ColorSchemesSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__ColorSchemesSettings();
-
-public:
   /// @brief Field overrideDefaultColors, offset: 0x10, size: 0x1, def value: None
   bool ___overrideDefaultColors;
 
@@ -1914,44 +1916,48 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4649))
 // CS Name: ::PlayerSaveData::OverrideEnvironmentSettings*
 class CORDL_TYPE __PlayerSaveData__OverrideEnvironmentSettings : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field override360EnvironmentName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_override360EnvironmentName, put = __cordl_internal_set_override360EnvironmentName))::StringW override360EnvironmentName;
+
   /// @brief Field overrideEnvironments, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field overrideNormalEnvironmentName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_overrideNormalEnvironmentName, put = __cordl_internal_set_overrideNormalEnvironmentName))::StringW overrideNormalEnvironmentName;
 
-  /// @brief Field override360EnvironmentName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_override360EnvironmentName, put = __cordl_internal_set_override360EnvironmentName))::StringW override360EnvironmentName;
-
-  constexpr bool& __cordl_internal_get_overrideEnvironments();
-
-  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
-
-  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_overrideNormalEnvironmentName();
-
-  constexpr ::StringW const& __cordl_internal_get_overrideNormalEnvironmentName() const;
-
-  constexpr void __cordl_internal_set_overrideNormalEnvironmentName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_override360EnvironmentName();
+  static inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_override360EnvironmentName() const;
 
+  constexpr ::StringW& __cordl_internal_get_override360EnvironmentName();
+
+  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
+
+  constexpr bool& __cordl_internal_get_overrideEnvironments();
+
+  constexpr ::StringW const& __cordl_internal_get_overrideNormalEnvironmentName() const;
+
+  constexpr ::StringW& __cordl_internal_get_overrideNormalEnvironmentName();
+
   constexpr void __cordl_internal_set_override360EnvironmentName(::StringW value);
 
-  static inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* New_ctor();
+  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
 
-  /// @brief Method .ctor, addr 0x23729b8, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_overrideNormalEnvironmentName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12f31c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__OverrideEnvironmentSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__OverrideEnvironmentSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__OverrideEnvironmentSettings(__PlayerSaveData__OverrideEnvironmentSettings&&) = delete;
@@ -1960,12 +1966,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__OverrideEnvironmentSettings(__PlayerSaveData__OverrideEnvironmentSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__OverrideEnvironmentSettings();
-
-public:
   /// @brief Field overrideEnvironments, offset: 0x10, size: 0x1, def value: None
   bool ___overrideEnvironments;
 
@@ -1991,8 +1991,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentS
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4650))
 // CS Name: ::PlayerSaveData::GuestPlayer*
 class CORDL_TYPE __PlayerSaveData__GuestPlayer : public ::System::Object {
 public:
@@ -2000,17 +1998,23 @@ public:
   /// @brief Field playerName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
 
-  constexpr ::StringW& __cordl_internal_get_playerName();
+  static inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_playerName() const;
 
+  constexpr ::StringW& __cordl_internal_get_playerName();
+
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  static inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23729c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f30b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__GuestPlayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__GuestPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__GuestPlayer(__PlayerSaveData__GuestPlayer&&) = delete;
@@ -2019,12 +2023,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__GuestPlayer(__PlayerSaveData__GuestPlayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__GuestPlayer();
-
-public:
   /// @brief Field playerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerName;
 
@@ -2040,8 +2038,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GuestPlayer, ___play
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4651))
 // CS Name: ::PlayerSaveData::MultiplayerModeSettings*
 class CORDL_TYPE __PlayerSaveData__MultiplayerModeSettings : public ::System::Object {
 public:
@@ -2052,50 +2048,56 @@ public:
   /// @brief Field quickPlayDifficulty, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_quickPlayDifficulty, put = __cordl_internal_set_quickPlayDifficulty))::StringW quickPlayDifficulty;
 
+  /// @brief Field quickPlayEnableLevelSelection, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_quickPlayEnableLevelSelection, put = __cordl_internal_set_quickPlayEnableLevelSelection)) bool quickPlayEnableLevelSelection;
+
   /// @brief Field quickPlaySongPackMask, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_quickPlaySongPackMask, put = __cordl_internal_set_quickPlaySongPackMask))::ArrayW<uint8_t, ::Array<uint8_t>*> quickPlaySongPackMask;
 
   /// @brief Field quickPlaySongPackMaskSerializedName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_quickPlaySongPackMaskSerializedName, put = __cordl_internal_set_quickPlaySongPackMaskSerializedName))::StringW quickPlaySongPackMaskSerializedName;
 
-  /// @brief Field quickPlayEnableLevelSelection, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_quickPlayEnableLevelSelection, put = __cordl_internal_set_quickPlayEnableLevelSelection)) bool quickPlayEnableLevelSelection;
-
-  constexpr int32_t& __cordl_internal_get_createServerNumberOfPlayers();
+  static inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_createServerNumberOfPlayers() const;
 
-  constexpr void __cordl_internal_set_createServerNumberOfPlayers(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_quickPlayDifficulty();
+  constexpr int32_t& __cordl_internal_get_createServerNumberOfPlayers();
 
   constexpr ::StringW const& __cordl_internal_get_quickPlayDifficulty() const;
 
-  constexpr void __cordl_internal_set_quickPlayDifficulty(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_quickPlaySongPackMask();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_quickPlaySongPackMask() const;
-
-  constexpr void __cordl_internal_set_quickPlaySongPackMask(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::StringW& __cordl_internal_get_quickPlaySongPackMaskSerializedName();
-
-  constexpr ::StringW const& __cordl_internal_get_quickPlaySongPackMaskSerializedName() const;
-
-  constexpr void __cordl_internal_set_quickPlaySongPackMaskSerializedName(::StringW value);
-
-  constexpr bool& __cordl_internal_get_quickPlayEnableLevelSelection();
+  constexpr ::StringW& __cordl_internal_get_quickPlayDifficulty();
 
   constexpr bool const& __cordl_internal_get_quickPlayEnableLevelSelection() const;
 
+  constexpr bool& __cordl_internal_get_quickPlayEnableLevelSelection();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_quickPlaySongPackMask() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_quickPlaySongPackMask();
+
+  constexpr ::StringW const& __cordl_internal_get_quickPlaySongPackMaskSerializedName() const;
+
+  constexpr ::StringW& __cordl_internal_get_quickPlaySongPackMaskSerializedName();
+
+  constexpr void __cordl_internal_set_createServerNumberOfPlayers(int32_t value);
+
+  constexpr void __cordl_internal_set_quickPlayDifficulty(::StringW value);
+
   constexpr void __cordl_internal_set_quickPlayEnableLevelSelection(bool value);
 
-  static inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* New_ctor();
+  constexpr void __cordl_internal_set_quickPlaySongPackMask(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23729c8, size 0x74, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_quickPlaySongPackMaskSerializedName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12f31d0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__MultiplayerModeSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__MultiplayerModeSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__MultiplayerModeSettings(__PlayerSaveData__MultiplayerModeSettings&&) = delete;
@@ -2104,12 +2106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__MultiplayerModeSettings(__PlayerSaveData__MultiplayerModeSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__MultiplayerModeSettings();
-
-public:
   /// @brief Field createServerNumberOfPlayers, offset: 0x10, size: 0x4, def value: None
   int32_t ___createServerNumberOfPlayers;
 
@@ -2145,8 +2141,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSetti
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4652))
 // CS Name: ::PlayerSaveData::PlayerAgreementsData*
 class CORDL_TYPE __PlayerSaveData__PlayerAgreementsData : public ::System::Object {
 public:
@@ -2154,44 +2148,50 @@ public:
   /// @brief Field eulaVersion, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_eulaVersion, put = __cordl_internal_set_eulaVersion)) int32_t eulaVersion;
 
-  /// @brief Field privacyPolicyVersion, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
-
   /// @brief Field healthAndSafetyVersion, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_healthAndSafetyVersion, put = __cordl_internal_set_healthAndSafetyVersion)) int32_t healthAndSafetyVersion;
 
   /// @brief Field playerSensitivityFlagVersion, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_playerSensitivityFlagVersion, put = __cordl_internal_set_playerSensitivityFlagVersion)) int32_t playerSensitivityFlagVersion;
 
-  constexpr int32_t& __cordl_internal_get_eulaVersion();
-
-  constexpr int32_t const& __cordl_internal_get_eulaVersion() const;
-
-  constexpr void __cordl_internal_set_eulaVersion(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_privacyPolicyVersion();
-
-  constexpr int32_t const& __cordl_internal_get_privacyPolicyVersion() const;
-
-  constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_healthAndSafetyVersion();
-
-  constexpr int32_t const& __cordl_internal_get_healthAndSafetyVersion() const;
-
-  constexpr void __cordl_internal_set_healthAndSafetyVersion(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_playerSensitivityFlagVersion();
-
-  constexpr int32_t const& __cordl_internal_get_playerSensitivityFlagVersion() const;
-
-  constexpr void __cordl_internal_set_playerSensitivityFlagVersion(int32_t value);
+  /// @brief Field privacyPolicyVersion, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2372a3c, size 0x8, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_eulaVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_eulaVersion();
+
+  constexpr int32_t const& __cordl_internal_get_healthAndSafetyVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_healthAndSafetyVersion();
+
+  constexpr int32_t const& __cordl_internal_get_playerSensitivityFlagVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_playerSensitivityFlagVersion();
+
+  constexpr int32_t const& __cordl_internal_get_privacyPolicyVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_privacyPolicyVersion();
+
+  constexpr void __cordl_internal_set_eulaVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_healthAndSafetyVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_playerSensitivityFlagVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12f3244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__PlayerAgreementsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__PlayerAgreementsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__PlayerAgreementsData(__PlayerSaveData__PlayerAgreementsData&&) = delete;
@@ -2200,12 +2200,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__PlayerAgreementsData(__PlayerSaveData__PlayerAgreementsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__PlayerAgreementsData();
-
-public:
   /// @brief Field eulaVersion, offset: 0x10, size: 0x4, def value: None
   int32_t ___eulaVersion;
 
@@ -2236,8 +2230,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4653))
 // CS Name: ::PlayerSaveData::UserAgeCategorySaveData
 struct CORDL_TYPE __PlayerSaveData__UserAgeCategorySaveData {
 public:
@@ -2257,21 +2249,23 @@ public:
     return static_cast<____PlayerSaveData__UserAgeCategorySaveData_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__UserAgeCategorySaveData(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__UserAgeCategorySaveData();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__UserAgeCategorySaveData(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Unknown;
+  /// @brief Field Adult value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Adult;
 
   /// @brief Field Child value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Child;
@@ -2279,8 +2273,11 @@ public:
   /// @brief Field Teen value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Teen;
 
-  /// @brief Field Adult value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Adult;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -2294,8 +2291,6 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveD
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4654))
 // CS Name: ::PlayerSaveData::PlayerSensitivityFlagSaveData
 struct CORDL_TYPE __PlayerSaveData__PlayerSensitivityFlagSaveData {
 public:
@@ -2314,27 +2309,32 @@ public:
     return static_cast<____PlayerSaveData__PlayerSensitivityFlagSaveData_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSaveData__PlayerSensitivityFlagSaveData(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlayerSaveData__PlayerSensitivityFlagSaveData();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PlayerSaveData__PlayerSensitivityFlagSaveData(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Unknown;
+  /// @brief Field Explicit value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Explicit;
 
   /// @brief Field Safe value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Safe;
 
-  /// @brief Field Explicit value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Explicit;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -2348,62 +2348,48 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFla
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4653)), TypeDefinitionIndex(TypeDefinitionIndex(4654)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4655)) CS Name: ::PlayerSaveData::LocalPlayer*
+// CS Name: ::PlayerSaveData::LocalPlayer*
 class CORDL_TYPE __PlayerSaveData__LocalPlayer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field playerId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId))::StringW playerId;
-
-  /// @brief Field playerName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
-
-  /// @brief Field shouldShowTutorialPrompt, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_shouldShowTutorialPrompt, put = __cordl_internal_set_shouldShowTutorialPrompt)) bool shouldShowTutorialPrompt;
-
-  /// @brief Field shouldShow360Warning, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get_shouldShow360Warning, put = __cordl_internal_set_shouldShow360Warning)) bool shouldShow360Warning;
-
   /// @brief Field agreedToEula, offset 0x22, size 0x1
   __declspec(property(get = __cordl_internal_get_agreedToEula, put = __cordl_internal_set_agreedToEula)) bool agreedToEula;
-
-  /// @brief Field didSelectLanguage, offset 0x23, size 0x1
-  __declspec(property(get = __cordl_internal_get_didSelectLanguage, put = __cordl_internal_set_didSelectLanguage)) bool didSelectLanguage;
 
   /// @brief Field agreedToMultiplayerDisclaimer, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_agreedToMultiplayerDisclaimer, put = __cordl_internal_set_agreedToMultiplayerDisclaimer)) bool agreedToMultiplayerDisclaimer;
 
+  /// @brief Field colorSchemesSettings, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorSchemesSettings, put = __cordl_internal_set_colorSchemesSettings))::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* colorSchemesSettings;
+
+  /// @brief Field currentDlcPromoDisplayCount, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get_currentDlcPromoDisplayCount, put = __cordl_internal_set_currentDlcPromoDisplayCount)) int32_t currentDlcPromoDisplayCount;
+
+  /// @brief Field currentDlcPromoId, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentDlcPromoId, put = __cordl_internal_set_currentDlcPromoId))::StringW currentDlcPromoId;
+
+  /// @brief Field desiredSensitivityFlag, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get_desiredSensitivityFlag,
+                      put = __cordl_internal_set_desiredSensitivityFlag))::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData desiredSensitivityFlag;
+
+  /// @brief Field didSelectLanguage, offset 0x23, size 0x1
+  __declspec(property(get = __cordl_internal_get_didSelectLanguage, put = __cordl_internal_set_didSelectLanguage)) bool didSelectLanguage;
+
   /// @brief Field didSelectRegionVersion, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_didSelectRegionVersion, put = __cordl_internal_set_didSelectRegionVersion)) int32_t didSelectRegionVersion;
 
-  /// @brief Field selectedAvatarSystemTypeId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_selectedAvatarSystemTypeId, put = __cordl_internal_set_selectedAvatarSystemTypeId))::StringW selectedAvatarSystemTypeId;
+  /// @brief Field favoritesLevelIds, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_favoritesLevelIds, put = __cordl_internal_set_favoritesLevelIds))::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds;
 
-  /// @brief Field playerAgreements, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerAgreements, put = __cordl_internal_set_playerAgreements))::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* playerAgreements;
-
-  /// @brief Field lastSelectedBeatmapDifficulty, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_lastSelectedBeatmapDifficulty,
-                      put = __cordl_internal_set_lastSelectedBeatmapDifficulty))::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
+  /// @brief Field gameplayModifiers, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::__PlayerSaveData__GameplayModifiers* gameplayModifiers;
 
   /// @brief Field lastSelectedBeatmapCharacteristicName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_lastSelectedBeatmapCharacteristicName,
                       put = __cordl_internal_set_lastSelectedBeatmapCharacteristicName))::StringW lastSelectedBeatmapCharacteristicName;
 
-  /// @brief Field gameplayModifiers, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::__PlayerSaveData__GameplayModifiers* gameplayModifiers;
-
-  /// @brief Field playerSpecificSettings, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerSpecificSettings,
-                      put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* playerSpecificSettings;
-
-  /// @brief Field practiceSettings, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings))::GlobalNamespace::__PlayerSaveData__PracticeSettings* practiceSettings;
-
-  /// @brief Field playerAllOverallStatsData, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerAllOverallStatsData,
-                      put = __cordl_internal_set_playerAllOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData;
+  /// @brief Field lastSelectedBeatmapDifficulty, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_lastSelectedBeatmapDifficulty,
+                      put = __cordl_internal_set_lastSelectedBeatmapDifficulty))::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
 
   /// @brief Field levelsStatsData, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_levelsStatsData,
@@ -2413,205 +2399,224 @@ public:
   __declspec(property(get = __cordl_internal_get_missionsStatsData,
                       put = __cordl_internal_set_missionsStatsData))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* missionsStatsData;
 
-  /// @brief Field showedMissionHelpIds, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_showedMissionHelpIds, put = __cordl_internal_set_showedMissionHelpIds))::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
-
-  /// @brief Field colorSchemesSettings, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemesSettings, put = __cordl_internal_set_colorSchemesSettings))::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* colorSchemesSettings;
+  /// @brief Field multiplayerModeSettings, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_multiplayerModeSettings,
+                      put = __cordl_internal_set_multiplayerModeSettings))::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* multiplayerModeSettings;
 
   /// @brief Field overrideEnvironmentSettings, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_overrideEnvironmentSettings,
                       put = __cordl_internal_set_overrideEnvironmentSettings))::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* overrideEnvironmentSettings;
 
-  /// @brief Field favoritesLevelIds, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_favoritesLevelIds, put = __cordl_internal_set_favoritesLevelIds))::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds;
+  /// @brief Field playerAgreements, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerAgreements, put = __cordl_internal_set_playerAgreements))::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* playerAgreements;
 
-  /// @brief Field multiplayerModeSettings, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_multiplayerModeSettings,
-                      put = __cordl_internal_set_multiplayerModeSettings))::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* multiplayerModeSettings;
+  /// @brief Field playerAllOverallStatsData, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerAllOverallStatsData,
+                      put = __cordl_internal_set_playerAllOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData;
 
-  /// @brief Field currentDlcPromoDisplayCount, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentDlcPromoDisplayCount, put = __cordl_internal_set_currentDlcPromoDisplayCount)) int32_t currentDlcPromoDisplayCount;
+  /// @brief Field playerId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId))::StringW playerId;
 
-  /// @brief Field currentDlcPromoId, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentDlcPromoId, put = __cordl_internal_set_currentDlcPromoId))::StringW currentDlcPromoId;
+  /// @brief Field playerName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
+
+  /// @brief Field playerSpecificSettings, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings,
+                      put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* playerSpecificSettings;
+
+  /// @brief Field practiceSettings, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings))::GlobalNamespace::__PlayerSaveData__PracticeSettings* practiceSettings;
+
+  /// @brief Field selectedAvatarSystemTypeId, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_selectedAvatarSystemTypeId, put = __cordl_internal_set_selectedAvatarSystemTypeId))::StringW selectedAvatarSystemTypeId;
+
+  /// @brief Field shouldShow360Warning, offset 0x21, size 0x1
+  __declspec(property(get = __cordl_internal_get_shouldShow360Warning, put = __cordl_internal_set_shouldShow360Warning)) bool shouldShow360Warning;
+
+  /// @brief Field shouldShowTutorialPrompt, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_shouldShowTutorialPrompt, put = __cordl_internal_set_shouldShowTutorialPrompt)) bool shouldShowTutorialPrompt;
+
+  /// @brief Field showedMissionHelpIds, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_showedMissionHelpIds, put = __cordl_internal_set_showedMissionHelpIds))::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
 
   /// @brief Field userAgeCategory, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_userAgeCategory, put = __cordl_internal_set_userAgeCategory))::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData userAgeCategory;
 
-  /// @brief Field desiredSensitivityFlag, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_desiredSensitivityFlag,
-                      put = __cordl_internal_set_desiredSensitivityFlag))::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData desiredSensitivityFlag;
-
-  constexpr ::StringW& __cordl_internal_get_playerId();
-
-  constexpr ::StringW const& __cordl_internal_get_playerId() const;
-
-  constexpr void __cordl_internal_set_playerId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_playerName();
-
-  constexpr ::StringW const& __cordl_internal_get_playerName() const;
-
-  constexpr void __cordl_internal_set_playerName(::StringW value);
-
-  constexpr bool& __cordl_internal_get_shouldShowTutorialPrompt();
-
-  constexpr bool const& __cordl_internal_get_shouldShowTutorialPrompt() const;
-
-  constexpr void __cordl_internal_set_shouldShowTutorialPrompt(bool value);
-
-  constexpr bool& __cordl_internal_get_shouldShow360Warning();
-
-  constexpr bool const& __cordl_internal_get_shouldShow360Warning() const;
-
-  constexpr void __cordl_internal_set_shouldShow360Warning(bool value);
-
-  constexpr bool& __cordl_internal_get_agreedToEula();
+  static inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* New_ctor();
 
   constexpr bool const& __cordl_internal_get_agreedToEula() const;
 
-  constexpr void __cordl_internal_set_agreedToEula(bool value);
-
-  constexpr bool& __cordl_internal_get_didSelectLanguage();
-
-  constexpr bool const& __cordl_internal_get_didSelectLanguage() const;
-
-  constexpr void __cordl_internal_set_didSelectLanguage(bool value);
-
-  constexpr bool& __cordl_internal_get_agreedToMultiplayerDisclaimer();
+  constexpr bool& __cordl_internal_get_agreedToEula();
 
   constexpr bool const& __cordl_internal_get_agreedToMultiplayerDisclaimer() const;
 
-  constexpr void __cordl_internal_set_agreedToMultiplayerDisclaimer(bool value);
+  constexpr bool& __cordl_internal_get_agreedToMultiplayerDisclaimer();
 
-  constexpr int32_t& __cordl_internal_get_didSelectRegionVersion();
+  constexpr ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*& __cordl_internal_get_colorSchemesSettings();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*> const& __cordl_internal_get_colorSchemesSettings() const;
+
+  constexpr int32_t const& __cordl_internal_get_currentDlcPromoDisplayCount() const;
+
+  constexpr int32_t& __cordl_internal_get_currentDlcPromoDisplayCount();
+
+  constexpr ::StringW const& __cordl_internal_get_currentDlcPromoId() const;
+
+  constexpr ::StringW& __cordl_internal_get_currentDlcPromoId();
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const& __cordl_internal_get_desiredSensitivityFlag() const;
+
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData& __cordl_internal_get_desiredSensitivityFlag();
+
+  constexpr bool const& __cordl_internal_get_didSelectLanguage() const;
+
+  constexpr bool& __cordl_internal_get_didSelectLanguage();
 
   constexpr int32_t const& __cordl_internal_get_didSelectRegionVersion() const;
 
-  constexpr void __cordl_internal_set_didSelectRegionVersion(int32_t value);
+  constexpr int32_t& __cordl_internal_get_didSelectRegionVersion();
 
-  constexpr ::StringW& __cordl_internal_get_selectedAvatarSystemTypeId();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_favoritesLevelIds();
 
-  constexpr ::StringW const& __cordl_internal_get_selectedAvatarSystemTypeId() const;
-
-  constexpr void __cordl_internal_set_selectedAvatarSystemTypeId(::StringW value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*& __cordl_internal_get_playerAgreements();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*> const& __cordl_internal_get_playerAgreements() const;
-
-  constexpr void __cordl_internal_set_playerAgreements(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_lastSelectedBeatmapDifficulty();
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_lastSelectedBeatmapDifficulty() const;
-
-  constexpr void __cordl_internal_set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
-
-  constexpr ::StringW& __cordl_internal_get_lastSelectedBeatmapCharacteristicName();
-
-  constexpr ::StringW const& __cordl_internal_get_lastSelectedBeatmapCharacteristicName() const;
-
-  constexpr void __cordl_internal_set_lastSelectedBeatmapCharacteristicName(::StringW value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_favoritesLevelIds() const;
 
   constexpr ::GlobalNamespace::__PlayerSaveData__GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
 
-  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::__PlayerSaveData__GameplayModifiers* value);
+  constexpr ::StringW const& __cordl_internal_get_lastSelectedBeatmapCharacteristicName() const;
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
+  constexpr ::StringW& __cordl_internal_get_lastSelectedBeatmapCharacteristicName();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_lastSelectedBeatmapDifficulty() const;
 
-  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PracticeSettings*& __cordl_internal_get_practiceSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PracticeSettings*> const& __cordl_internal_get_practiceSettings() const;
-
-  constexpr void __cordl_internal_set_practiceSettings(::GlobalNamespace::__PlayerSaveData__PracticeSettings* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*& __cordl_internal_get_playerAllOverallStatsData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*> const& __cordl_internal_get_playerAllOverallStatsData() const;
-
-  constexpr void __cordl_internal_set_playerAllOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* value);
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_lastSelectedBeatmapDifficulty();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>*& __cordl_internal_get_levelsStatsData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>*> const&
   __cordl_internal_get_levelsStatsData() const;
 
-  constexpr void __cordl_internal_set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* value);
-
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>*& __cordl_internal_get_missionsStatsData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>*> const&
   __cordl_internal_get_missionsStatsData() const;
 
-  constexpr void __cordl_internal_set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* value);
+  constexpr ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*& __cordl_internal_get_multiplayerModeSettings();
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_showedMissionHelpIds();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_showedMissionHelpIds() const;
-
-  constexpr void __cordl_internal_set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
-
-  constexpr ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*& __cordl_internal_get_colorSchemesSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings*> const& __cordl_internal_get_colorSchemesSettings() const;
-
-  constexpr void __cordl_internal_set_colorSchemesSettings(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*> const& __cordl_internal_get_multiplayerModeSettings() const;
 
   constexpr ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings*& __cordl_internal_get_overrideEnvironmentSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings*> const& __cordl_internal_get_overrideEnvironmentSettings() const;
 
-  constexpr void __cordl_internal_set_overrideEnvironmentSettings(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* value);
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*& __cordl_internal_get_playerAgreements();
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_favoritesLevelIds();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData*> const& __cordl_internal_get_playerAgreements() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_favoritesLevelIds() const;
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*& __cordl_internal_get_playerAllOverallStatsData();
 
-  constexpr void __cordl_internal_set_favoritesLevelIds(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*> const& __cordl_internal_get_playerAllOverallStatsData() const;
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*& __cordl_internal_get_multiplayerModeSettings();
+  constexpr ::StringW const& __cordl_internal_get_playerId() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings*> const& __cordl_internal_get_multiplayerModeSettings() const;
+  constexpr ::StringW& __cordl_internal_get_playerId();
 
-  constexpr void __cordl_internal_set_multiplayerModeSettings(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* value);
+  constexpr ::StringW const& __cordl_internal_get_playerName() const;
 
-  constexpr int32_t& __cordl_internal_get_currentDlcPromoDisplayCount();
+  constexpr ::StringW& __cordl_internal_get_playerName();
 
-  constexpr int32_t const& __cordl_internal_get_currentDlcPromoDisplayCount() const;
+  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
-  constexpr void __cordl_internal_set_currentDlcPromoDisplayCount(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
-  constexpr ::StringW& __cordl_internal_get_currentDlcPromoId();
+  constexpr ::GlobalNamespace::__PlayerSaveData__PracticeSettings*& __cordl_internal_get_practiceSettings();
 
-  constexpr ::StringW const& __cordl_internal_get_currentDlcPromoId() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__PracticeSettings*> const& __cordl_internal_get_practiceSettings() const;
 
-  constexpr void __cordl_internal_set_currentDlcPromoId(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get_selectedAvatarSystemTypeId() const;
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData& __cordl_internal_get_userAgeCategory();
+  constexpr ::StringW& __cordl_internal_get_selectedAvatarSystemTypeId();
+
+  constexpr bool const& __cordl_internal_get_shouldShow360Warning() const;
+
+  constexpr bool& __cordl_internal_get_shouldShow360Warning();
+
+  constexpr bool const& __cordl_internal_get_shouldShowTutorialPrompt() const;
+
+  constexpr bool& __cordl_internal_get_shouldShowTutorialPrompt();
+
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_showedMissionHelpIds();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_showedMissionHelpIds() const;
 
   constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const& __cordl_internal_get_userAgeCategory() const;
 
-  constexpr void __cordl_internal_set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
+  constexpr ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData& __cordl_internal_get_userAgeCategory();
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData& __cordl_internal_get_desiredSensitivityFlag();
+  constexpr void __cordl_internal_set_agreedToEula(bool value);
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const& __cordl_internal_get_desiredSensitivityFlag() const;
+  constexpr void __cordl_internal_set_agreedToMultiplayerDisclaimer(bool value);
+
+  constexpr void __cordl_internal_set_colorSchemesSettings(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* value);
+
+  constexpr void __cordl_internal_set_currentDlcPromoDisplayCount(int32_t value);
+
+  constexpr void __cordl_internal_set_currentDlcPromoId(::StringW value);
 
   constexpr void __cordl_internal_set_desiredSensitivityFlag(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData value);
 
-  static inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* New_ctor();
+  constexpr void __cordl_internal_set_didSelectLanguage(bool value);
 
-  /// @brief Method .ctor, addr 0x2372a44, size 0x18, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_didSelectRegionVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_favoritesLevelIds(::System::Collections::Generic::List_1<::StringW>* value);
+
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::__PlayerSaveData__GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set_lastSelectedBeatmapCharacteristicName(::StringW value);
+
+  constexpr void __cordl_internal_set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* value);
+
+  constexpr void __cordl_internal_set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* value);
+
+  constexpr void __cordl_internal_set_multiplayerModeSettings(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* value);
+
+  constexpr void __cordl_internal_set_overrideEnvironmentSettings(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* value);
+
+  constexpr void __cordl_internal_set_playerAgreements(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* value);
+
+  constexpr void __cordl_internal_set_playerAllOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* value);
+
+  constexpr void __cordl_internal_set_playerId(::StringW value);
+
+  constexpr void __cordl_internal_set_playerName(::StringW value);
+
+  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* value);
+
+  constexpr void __cordl_internal_set_practiceSettings(::GlobalNamespace::__PlayerSaveData__PracticeSettings* value);
+
+  constexpr void __cordl_internal_set_selectedAvatarSystemTypeId(::StringW value);
+
+  constexpr void __cordl_internal_set_shouldShow360Warning(bool value);
+
+  constexpr void __cordl_internal_set_shouldShowTutorialPrompt(bool value);
+
+  constexpr void __cordl_internal_set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
+
+  constexpr void __cordl_internal_set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
+
+  /// @brief Method .ctor, addr 0x12f2f40, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlayerSaveData__LocalPlayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerSaveData__LocalPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlayerSaveData__LocalPlayer(__PlayerSaveData__LocalPlayer&&) = delete;
@@ -2620,12 +2625,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerSaveData__LocalPlayer(__PlayerSaveData__LocalPlayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlayerSaveData__LocalPlayer();
-
-public:
   /// @brief Field playerId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerId;
 
@@ -2771,69 +2770,73 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___desi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4685))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4656))
 // CS Name: ::PlayerSaveData*
 class CORDL_TYPE PlayerSaveData : public ::GlobalNamespace::VersionSaveData {
 public:
   // Declarations
-  using LocalPlayer = ::GlobalNamespace::__PlayerSaveData__LocalPlayer;
-
-  using PlayerSensitivityFlagSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData;
-
-  using UserAgeCategorySaveData = ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData;
-
-  using PlayerAgreementsData = ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData;
-
-  using MultiplayerModeSettings = ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings;
-
-  using GuestPlayer = ::GlobalNamespace::__PlayerSaveData__GuestPlayer;
-
-  using OverrideEnvironmentSettings = ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings;
+  using ColorScheme = ::GlobalNamespace::__PlayerSaveData__ColorScheme;
 
   using ColorSchemesSettings = ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings;
 
-  using ColorScheme = ::GlobalNamespace::__PlayerSaveData__ColorScheme;
+  using GameplayModifiers = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers;
 
-  using PracticeSettings = ::GlobalNamespace::__PlayerSaveData__PracticeSettings;
+  using GuestPlayer = ::GlobalNamespace::__PlayerSaveData__GuestPlayer;
 
-  using PlayerMissionStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData;
+  using LocalPlayer = ::GlobalNamespace::__PlayerSaveData__LocalPlayer;
 
-  using PlayerLevelStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData;
+  using MultiplayerModeSettings = ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings;
 
-  using PlayerOverallStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData;
+  using OverrideEnvironmentSettings = ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings;
+
+  using PlayerAgreementsData = ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData;
 
   using PlayerAllOverallStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData;
 
+  using PlayerLevelStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData;
+
+  using PlayerMissionStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData;
+
+  using PlayerOverallStatsData = ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData;
+
+  using PlayerSensitivityFlagSaveData = ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData;
+
   using PlayerSpecificSettings = ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings;
 
-  using GameplayModifiers = ::GlobalNamespace::__PlayerSaveData__GameplayModifiers;
+  using PracticeSettings = ::GlobalNamespace::__PlayerSaveData__PracticeSettings;
 
-  /// @brief Field localPlayers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_localPlayers,
-                      put = __cordl_internal_set_localPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* localPlayers;
+  using UserAgeCategorySaveData = ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData;
 
   /// @brief Field guestPlayers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_guestPlayers,
                       put = __cordl_internal_set_guestPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* guestPlayers;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*& __cordl_internal_get_localPlayers();
+  /// @brief Field localPlayers, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_localPlayers,
+                      put = __cordl_internal_set_localPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* localPlayers;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*> const& __cordl_internal_get_localPlayers() const;
-
-  constexpr void __cordl_internal_set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* value);
+  static inline ::GlobalNamespace::PlayerSaveData* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>*& __cordl_internal_get_guestPlayers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>*> const& __cordl_internal_get_guestPlayers() const;
 
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*& __cordl_internal_get_localPlayers();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>*> const& __cordl_internal_get_localPlayers() const;
+
   constexpr void __cordl_internal_set_guestPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* value);
 
-  static inline ::GlobalNamespace::PlayerSaveData* New_ctor();
+  constexpr void __cordl_internal_set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x23727f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f2eec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveData(PlayerSaveData&&) = delete;
@@ -2842,12 +2845,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerSaveData(PlayerSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerSaveData();
-
-public:
   /// @brief Field localPlayers, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* ___localPlayers;
 

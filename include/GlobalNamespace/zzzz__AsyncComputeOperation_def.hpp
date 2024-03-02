@@ -19,48 +19,52 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12679))
 // CS Name: ::AsyncComputeOperation*
 class CORDL_TYPE AsyncComputeOperation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _timeoutMs, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeoutMs, put = __cordl_internal_set__timeoutMs)) int32_t _timeoutMs;
-
   /// @brief Field _stopwatch, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+
+  /// @brief Field _timeoutMs, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeoutMs, put = __cordl_internal_set__timeoutMs)) int32_t _timeoutMs;
 
   __declspec(property(get = get_elapsedTime)) double_t elapsedTime;
 
   __declspec(property(get = get_hasTimedOut)) bool hasTimedOut;
 
-  constexpr int32_t& __cordl_internal_get__timeoutMs();
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Execute(bool disposed);
 
-  constexpr int32_t const& __cordl_internal_get__timeoutMs() const;
-
-  constexpr void __cordl_internal_set__timeoutMs(int32_t value);
+  static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
 
   constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
 
+  constexpr int32_t const& __cordl_internal_get__timeoutMs() const;
+
+  constexpr int32_t& __cordl_internal_get__timeoutMs();
+
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method get_elapsedTime, addr 0xe292b8, size 0x84, virtual false, abstract: false, final false
-  inline double_t get_elapsedTime();
+  constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method get_hasTimedOut, addr 0xe2933c, size 0x30, virtual false, abstract: false, final false
-  inline bool get_hasTimedOut();
-
-  static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
-
-  /// @brief Method .ctor, addr 0xe2936c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe9a174, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Execute(bool disposed);
+  /// @brief Method get_elapsedTime, addr 0xe9a0c0, size 0x84, virtual false, abstract: false, final false
+  inline double_t get_elapsedTime();
 
+  /// @brief Method get_hasTimedOut, addr 0xe9a144, size 0x30, virtual false, abstract: false, final false
+  inline bool get_hasTimedOut();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncComputeOperation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncComputeOperation(AsyncComputeOperation&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncComputeOperation(AsyncComputeOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncComputeOperation();
-
-public:
   /// @brief Field _timeoutMs, offset: 0x10, size: 0x4, def value: None
   int32_t ____timeoutMs;
 

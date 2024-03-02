@@ -22,17 +22,15 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IAttributeProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11905))
 // CS Name: ::Newtonsoft.Json.Serialization::IAttributeProvider*
 class CORDL_TYPE IAttributeProvider {
 public:
   // Declarations
   /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
+  inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
   /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
+  inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAttributeProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

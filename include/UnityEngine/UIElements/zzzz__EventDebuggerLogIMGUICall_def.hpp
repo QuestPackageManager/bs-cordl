@@ -20,8 +20,6 @@ MARK_VAL_T(::UnityEngine::UIElements::EventDebuggerLogIMGUICall);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7352))
 // CS Name: ::UnityEngine.UIElements::EventDebuggerLogIMGUICall
 #pragma pack(push, 0)
 struct CORDL_TYPE EventDebuggerLogIMGUICall {
@@ -30,14 +28,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method Dispose, addr 0x2f92014, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x2e83500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f92010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Dispose, addr 0x2e83504, size 0x4, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor

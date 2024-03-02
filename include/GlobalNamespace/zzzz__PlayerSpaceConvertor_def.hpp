@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpaceConvertor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5276))
 // CS Name: ::PlayerSpaceConvertor*
 class CORDL_TYPE PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,23 +27,29 @@ public:
 
   __declspec(property(get = get_worldToPlayerSpaceRotation))::UnityEngine::Quaternion worldToPlayerSpaceRotation;
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldToPlayerSpaceRotation();
+  static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
+
+  /// @brief Method Start, addr 0x248e63c, size 0x38, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldToPlayerSpaceRotation() const;
 
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldToPlayerSpaceRotation();
+
   constexpr void __cordl_internal_set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x2260ce0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
-
-  /// @brief Method Start, addr 0x2260cec, size 0x38, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2260d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248e674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x248e630, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerSpaceConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpaceConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSpaceConvertor(PlayerSpaceConvertor&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerSpaceConvertor(PlayerSpaceConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerSpaceConvertor();
-
-public:
   /// @brief Field _worldToPlayerSpaceRotation, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____worldToPlayerSpaceRotation;
 

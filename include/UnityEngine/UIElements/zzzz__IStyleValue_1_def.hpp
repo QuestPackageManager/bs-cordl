@@ -18,21 +18,19 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7299))
 // CS Name: ::UnityEngine.UIElements::IStyleValue`1<T>*
 class CORDL_TYPE IStyleValue_1 {
 public:
   // Declarations
-  __declspec(property(get = get_value)) T value;
-
   __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
 
-  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T get_value();
+  __declspec(property(get = get_value)) T value;
 
   /// @brief Method get_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
+
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T get_value();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStyleValue_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

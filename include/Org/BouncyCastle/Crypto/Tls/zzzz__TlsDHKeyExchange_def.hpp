@@ -55,23 +55,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1171))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1298))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsDHKeyExchange*
 class CORDL_TYPE TlsDHKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange {
 public:
   // Declarations
-  /// @brief Field mTlsSigner, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner))::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
-
-  /// @brief Field mDHVerifier, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
-
-  /// @brief Field mDHParameters, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDHParameters, put = __cordl_internal_set_mDHParameters))::Org::BouncyCastle::Crypto::Parameters::DHParameters* mDHParameters;
-
-  /// @brief Field mServerPublicKey, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
+  __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
 
   /// @brief Field mAgreementCredentials, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_mAgreementCredentials,
@@ -83,100 +71,116 @@ public:
   /// @brief Field mDHAgreePublicKey, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_mDHAgreePublicKey, put = __cordl_internal_set_mDHAgreePublicKey))::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* mDHAgreePublicKey;
 
-  __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
+  /// @brief Field mDHParameters, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_mDHParameters, put = __cordl_internal_set_mDHParameters))::Org::BouncyCastle::Crypto::Parameters::DHParameters* mDHParameters;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __cordl_internal_get_mTlsSigner();
+  /// @brief Field mDHVerifier, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSigner*> const& __cordl_internal_get_mTlsSigner() const;
+  /// @brief Field mServerPublicKey, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
-  constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
+  /// @brief Field mTlsSigner, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner))::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __cordl_internal_get_mDHVerifier();
+  /// @brief Method GenerateClientKeyExchange, addr 0x10157c8, size 0x100, virtual true, abstract: false, final false
+  inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __cordl_internal_get_mDHVerifier() const;
+  /// @brief Method GeneratePremasterSecret, addr 0x1015af0, size 0x128, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  constexpr void __cordl_internal_set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
+  /// @brief Method GenerateServerKeyExchange, addr 0x1015064, size 0x15c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_mDHParameters();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const& __cordl_internal_get_mDHParameters() const;
-
-  constexpr void __cordl_internal_set_mDHParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_mServerPublicKey() const;
-
-  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*& __cordl_internal_get_mAgreementCredentials();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*> const& __cordl_internal_get_mAgreementCredentials() const;
-
-  constexpr void __cordl_internal_set_mAgreementCredentials(::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __cordl_internal_get_mDHAgreePrivateKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const& __cordl_internal_get_mDHAgreePrivateKey() const;
-
-  constexpr void __cordl_internal_set_mDHAgreePrivateKey(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*& __cordl_internal_get_mDHAgreePublicKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*> const& __cordl_internal_get_mDHAgreePublicKey() const;
-
-  constexpr void __cordl_internal_set_mDHAgreePublicKey(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* value);
+  /// @brief Method Init, addr 0x1014b60, size 0xc0, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
-
-  /// @brief Method .ctor, addr 0xfa3b30, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                              ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method .ctor, addr 0xfa3bbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ProcessClientCertificate, addr 0x10159e4, size 0x58, virtual true, abstract: false, final false
+  inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
+
+  /// @brief Method ProcessClientCredentials, addr 0x10156b0, size 0x118, virtual true, abstract: false, final false
+  inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
+
+  /// @brief Method ProcessClientKeyExchange, addr 0x1015a3c, size 0xb4, virtual true, abstract: false, final false
+  inline void ProcessClientKeyExchange(::System::IO::Stream* input);
+
+  /// @brief Method ProcessServerCertificate, addr 0x1014c78, size 0x3c4, virtual true, abstract: false, final false
+  inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
+
+  /// @brief Method ProcessServerKeyExchange, addr 0x1015304, size 0x118, virtual true, abstract: false, final false
+  inline void ProcessServerKeyExchange(::System::IO::Stream* input);
+
+  /// @brief Method SkipServerCredentials, addr 0x1014c20, size 0x58, virtual true, abstract: false, final false
+  inline void SkipServerCredentials();
+
+  /// @brief Method ValidateCertificateRequest, addr 0x10155e4, size 0xcc, virtual true, abstract: false, final false
+  inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*& __cordl_internal_get_mAgreementCredentials();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*> const& __cordl_internal_get_mAgreementCredentials() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __cordl_internal_get_mDHAgreePrivateKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const& __cordl_internal_get_mDHAgreePrivateKey() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*& __cordl_internal_get_mDHAgreePublicKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*> const& __cordl_internal_get_mDHAgreePublicKey() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_mDHParameters();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const& __cordl_internal_get_mDHParameters() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __cordl_internal_get_mDHVerifier();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __cordl_internal_get_mDHVerifier() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_mServerPublicKey() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __cordl_internal_get_mTlsSigner();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSigner*> const& __cordl_internal_get_mTlsSigner() const;
+
+  constexpr void __cordl_internal_set_mAgreementCredentials(::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* value);
+
+  constexpr void __cordl_internal_set_mDHAgreePrivateKey(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
+
+  constexpr void __cordl_internal_set_mDHAgreePublicKey(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* value);
+
+  constexpr void __cordl_internal_set_mDHParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  constexpr void __cordl_internal_set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
+
+  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+
+  constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
+
+  /// @brief Method .ctor, addr 0x1014990, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
+
+  /// @brief Method .ctor, addr 0x1014a1c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method Init, addr 0xfa3d00, size 0xc0, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
-
-  /// @brief Method SkipServerCredentials, addr 0xfa3dc0, size 0x58, virtual true, abstract: false, final false
-  inline void SkipServerCredentials();
-
-  /// @brief Method ProcessServerCertificate, addr 0xfa3e18, size 0x3c4, virtual true, abstract: false, final false
-  inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
-
-  /// @brief Method get_RequiresServerKeyExchange, addr 0xfa41dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x101503c, size 0x28, virtual true, abstract: false, final false
   inline bool get_RequiresServerKeyExchange();
 
-  /// @brief Method GenerateServerKeyExchange, addr 0xfa4204, size 0x15c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsDHKeyExchange();
 
-  /// @brief Method ProcessServerKeyExchange, addr 0xfa44a4, size 0x118, virtual true, abstract: false, final false
-  inline void ProcessServerKeyExchange(::System::IO::Stream* input);
-
-  /// @brief Method ValidateCertificateRequest, addr 0xfa4784, size 0xcc, virtual true, abstract: false, final false
-  inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
-
-  /// @brief Method ProcessClientCredentials, addr 0xfa4850, size 0x118, virtual true, abstract: false, final false
-  inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
-
-  /// @brief Method GenerateClientKeyExchange, addr 0xfa4968, size 0x100, virtual true, abstract: false, final false
-  inline void GenerateClientKeyExchange(::System::IO::Stream* output);
-
-  /// @brief Method ProcessClientCertificate, addr 0xfa4b84, size 0x58, virtual true, abstract: false, final false
-  inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
-
-  /// @brief Method ProcessClientKeyExchange, addr 0xfa4bdc, size 0xb4, virtual true, abstract: false, final false
-  inline void ProcessClientKeyExchange(::System::IO::Stream* input);
-
-  /// @brief Method GeneratePremasterSecret, addr 0xfa4c90, size 0x128, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsDHKeyExchange", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDHKeyExchange(TlsDHKeyExchange&&) = delete;
@@ -185,12 +189,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsDHKeyExchange(TlsDHKeyExchange const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsDHKeyExchange();
-
-public:
   /// @brief Field mTlsSigner, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsSigner* ___mTlsSigner;
 

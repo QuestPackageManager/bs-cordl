@@ -20,35 +20,39 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16035))
 // CS Name: ::UnityEngine.XR.Management::XRLoader*
 class CORDL_TYPE XRLoader : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2c7647c, size 0x8, virtual true, abstract: false, final false
-  inline bool Initialize();
-
-  /// @brief Method Start, addr 0x2c76484, size 0x8, virtual true, abstract: false, final false
-  inline bool Start();
-
-  /// @brief Method Stop, addr 0x2c7648c, size 0x8, virtual true, abstract: false, final false
-  inline bool Stop();
-
-  /// @brief Method Deinitialize, addr 0x2c76494, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x2d5c0d4, size 0x8, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline T GetLoadedSubsystem();
 
-  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x2c7649c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x2d5c0dc, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType>* GetSupportedGraphicsDeviceTypes(bool buildingPlayer);
+
+  /// @brief Method Initialize, addr 0x2d5c0bc, size 0x8, virtual true, abstract: false, final false
+  inline bool Initialize();
 
   static inline ::UnityEngine::XR::Management::XRLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7650c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2d5c0c4, size 0x8, virtual true, abstract: false, final false
+  inline bool Start();
+
+  /// @brief Method Stop, addr 0x2d5c0cc, size 0x8, virtual true, abstract: false, final false
+  inline bool Stop();
+
+  /// @brief Method .ctor, addr 0x2d5c14c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLoader(XRLoader&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRLoader(XRLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRLoader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

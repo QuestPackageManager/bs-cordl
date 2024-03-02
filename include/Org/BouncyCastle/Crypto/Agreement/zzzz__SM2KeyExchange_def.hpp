@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(741))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::SM2KeyExchange*
 class CORDL_TYPE SM2KeyExchange : public ::System::Object {
 public:
@@ -49,8 +47,17 @@ public:
   /// @brief Field mDigest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
-  /// @brief Field mUserID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mUserID, put = __cordl_internal_set_mUserID))::ArrayW<uint8_t, ::Array<uint8_t>*> mUserID;
+  /// @brief Field mECParams, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_mECParams, put = __cordl_internal_set_mECParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* mECParams;
+
+  /// @brief Field mEphemeralKey, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_mEphemeralKey, put = __cordl_internal_set_mEphemeralKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mEphemeralKey;
+
+  /// @brief Field mEphemeralPubPoint, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_mEphemeralPubPoint, put = __cordl_internal_set_mEphemeralPubPoint))::Org::BouncyCastle::Math::EC::ECPoint* mEphemeralPubPoint;
+
+  /// @brief Field mInitiator, offset 0x50, size 0x1
+  __declspec(property(get = __cordl_internal_get_mInitiator, put = __cordl_internal_set_mInitiator)) bool mInitiator;
 
   /// @brief Field mStaticKey, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mStaticKey, put = __cordl_internal_set_mStaticKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mStaticKey;
@@ -58,123 +65,120 @@ public:
   /// @brief Field mStaticPubPoint, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mStaticPubPoint, put = __cordl_internal_set_mStaticPubPoint))::Org::BouncyCastle::Math::EC::ECPoint* mStaticPubPoint;
 
-  /// @brief Field mEphemeralPubPoint, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEphemeralPubPoint, put = __cordl_internal_set_mEphemeralPubPoint))::Org::BouncyCastle::Math::EC::ECPoint* mEphemeralPubPoint;
-
-  /// @brief Field mECParams, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mECParams, put = __cordl_internal_set_mECParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* mECParams;
+  /// @brief Field mUserID, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_mUserID, put = __cordl_internal_set_mUserID))::ArrayW<uint8_t, ::Array<uint8_t>*> mUserID;
 
   /// @brief Field mW, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_mW, put = __cordl_internal_set_mW)) int32_t mW;
 
-  /// @brief Field mEphemeralKey, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEphemeralKey, put = __cordl_internal_set_mEphemeralKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mEphemeralKey;
+  /// @brief Method AddFieldElement, addr 0x128ddf4, size 0xd4, virtual false, abstract: false, final false
+  inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
-  /// @brief Field mInitiator, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_mInitiator, put = __cordl_internal_set_mInitiator)) bool mInitiator;
+  /// @brief Method AddUserID, addr 0x128dec8, size 0x188, virtual false, abstract: false, final false
+  inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
+
+  /// @brief Method CalculateInnerHash, addr 0x128d02c, size 0x210, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateInnerHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za,
+                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, ::Org::BouncyCastle::Math::EC::ECPoint* p1, ::Org::BouncyCastle::Math::EC::ECPoint* p2);
+
+  /// @brief Method CalculateKey, addr 0x128c858, size 0x1c4, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateKey(int32_t kLen, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
+
+  /// @brief Method CalculateKeyWithConfirmation, addr 0x128cb7c, size 0x4b0, virtual true, abstract: false, final false
+  inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> CalculateKeyWithConfirmation(int32_t kLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> confirmationTag,
+                                                                                                                                     ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
+
+  /// @brief Method CalculateU, addr 0x128d524, size 0x1cc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* CalculateU(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters* otherPub);
+
+  /// @brief Method GetZ, addr 0x128ca1c, size 0x160, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID, ::Org::BouncyCastle::Math::EC::ECPoint* pubPoint);
+
+  /// @brief Method Init, addr 0x128c684, size 0x1d4, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* privParam);
+
+  /// @brief Method Kdf, addr 0x128d7a4, size 0x650, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za, ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, int32_t klen);
+
+  static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor();
+
+  static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+
+  /// @brief Method Reduce, addr 0x128d6f0, size 0xb4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* Reduce(::Org::BouncyCastle::Math::BigInteger* x);
+
+  /// @brief Method S1, addr 0x128d23c, size 0x174, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S1(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
+
+  /// @brief Method S2, addr 0x128d3b0, size 0x174, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S2(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
-  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mUserID();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mUserID() const;
-
-  constexpr void __cordl_internal_set_mUserID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mStaticKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const& __cordl_internal_get_mStaticKey() const;
-
-  constexpr void __cordl_internal_set_mStaticKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
-
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mStaticPubPoint();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_mStaticPubPoint() const;
-
-  constexpr void __cordl_internal_set_mStaticPubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
-
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mEphemeralPubPoint();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_mEphemeralPubPoint() const;
-
-  constexpr void __cordl_internal_set_mEphemeralPubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
-
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_mECParams();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __cordl_internal_get_mECParams() const;
-
-  constexpr void __cordl_internal_set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
-
-  constexpr int32_t& __cordl_internal_get_mW();
-
-  constexpr int32_t const& __cordl_internal_get_mW() const;
-
-  constexpr void __cordl_internal_set_mW(int32_t value);
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mEphemeralKey();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const& __cordl_internal_get_mEphemeralKey() const;
 
-  constexpr void __cordl_internal_set_mEphemeralKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mEphemeralPubPoint();
 
-  constexpr bool& __cordl_internal_get_mInitiator();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_mEphemeralPubPoint() const;
 
   constexpr bool const& __cordl_internal_get_mInitiator() const;
 
+  constexpr bool& __cordl_internal_get_mInitiator();
+
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mStaticKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const& __cordl_internal_get_mStaticKey() const;
+
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_mStaticPubPoint();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_mStaticPubPoint() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mUserID() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mUserID();
+
+  constexpr int32_t const& __cordl_internal_get_mW() const;
+
+  constexpr int32_t& __cordl_internal_get_mW();
+
+  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+
+  constexpr void __cordl_internal_set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+
+  constexpr void __cordl_internal_set_mEphemeralKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
+
+  constexpr void __cordl_internal_set_mEphemeralPubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
+
   constexpr void __cordl_internal_set_mInitiator(bool value);
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor();
+  constexpr void __cordl_internal_set_mStaticKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x121b790, size 0x6c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_mStaticPubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
+
+  constexpr void __cordl_internal_set_mUserID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_mW(int32_t value);
+
+  /// @brief Method .ctor, addr 0x128c5f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
-
-  /// @brief Method .ctor, addr 0x121b7fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x128c65c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x121b824, size 0x1d4, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* privParam);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SM2KeyExchange();
 
-  /// @brief Method CalculateKey, addr 0x121b9f8, size 0x1c4, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateKey(int32_t kLen, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
-
-  /// @brief Method CalculateKeyWithConfirmation, addr 0x121bd1c, size 0x4b0, virtual true, abstract: false, final false
-  inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> CalculateKeyWithConfirmation(int32_t kLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> confirmationTag,
-                                                                                                                                     ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
-
-  /// @brief Method CalculateU, addr 0x121c6c4, size 0x1cc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* CalculateU(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters* otherPub);
-
-  /// @brief Method Kdf, addr 0x121c944, size 0x650, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za, ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, int32_t klen);
-
-  /// @brief Method Reduce, addr 0x121c890, size 0xb4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* Reduce(::Org::BouncyCastle::Math::BigInteger* x);
-
-  /// @brief Method S1, addr 0x121c3dc, size 0x174, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S1(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
-
-  /// @brief Method CalculateInnerHash, addr 0x121c1cc, size 0x210, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateInnerHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za,
-                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, ::Org::BouncyCastle::Math::EC::ECPoint* p1, ::Org::BouncyCastle::Math::EC::ECPoint* p2);
-
-  /// @brief Method S2, addr 0x121c550, size 0x174, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S2(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
-
-  /// @brief Method GetZ, addr 0x121bbbc, size 0x160, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID, ::Org::BouncyCastle::Math::EC::ECPoint* pubPoint);
-
-  /// @brief Method AddUserID, addr 0x121d068, size 0x188, virtual false, abstract: false, final false
-  inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
-
-  /// @brief Method AddFieldElement, addr 0x121cf94, size 0xd4, virtual false, abstract: false, final false
-  inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchange", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SM2KeyExchange(SM2KeyExchange&&) = delete;
@@ -183,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SM2KeyExchange(SM2KeyExchange const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SM2KeyExchange();
-
-public:
   /// @brief Field mDigest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___mDigest;
 

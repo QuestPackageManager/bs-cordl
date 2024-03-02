@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetFileDownloadUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 970 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13280)) CS Name: ::Oculus.Platform::MessageWithAssetFileDownloadUpdate*
+// CS Name: ::Oculus.Platform::MessageWithAssetFileDownloadUpdate*
 class CORDL_TYPE MessageWithAssetFileDownloadUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithAssetFileDownloadUpdate* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x26eed18, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetAssetFileDownloadUpdate, addr 0x26f12a8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadUpdate, addr 0x27e2bb0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x26f12e4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e2bec, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetDataFromMessage(void* c_message);
 
+  static inline ::Oculus::Platform::MessageWithAssetFileDownloadUpdate* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0620, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithAssetFileDownloadUpdate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAssetFileDownloadUpdate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithAssetFileDownloadUpdate(MessageWithAssetFileDownloadUpdate&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithAssetFileDownloadUpdate(MessageWithAssetFileDownloadUpdate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithAssetFileDownloadUpdate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

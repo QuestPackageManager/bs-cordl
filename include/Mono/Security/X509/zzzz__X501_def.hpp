@@ -23,53 +23,24 @@ MARK_REF_PTR_T(::Mono::Security::X509::X501);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13748))
 // CS Name: ::Mono.Security.X509::X501*
 class CORDL_TYPE X501 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field countryName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_countryName, put = setStaticF_countryName))::ArrayW<uint8_t, ::Array<uint8_t>*> countryName;
-
-  /// @brief Field organizationName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_organizationName, put = setStaticF_organizationName))::ArrayW<uint8_t, ::Array<uint8_t>*> organizationName;
-
-  /// @brief Field organizationalUnitName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_organizationalUnitName, put = setStaticF_organizationalUnitName))::ArrayW<uint8_t, ::Array<uint8_t>*> organizationalUnitName;
-
   /// @brief Field commonName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_commonName, put = setStaticF_commonName))::ArrayW<uint8_t, ::Array<uint8_t>*> commonName;
 
-  /// @brief Field localityName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_localityName, put = setStaticF_localityName))::ArrayW<uint8_t, ::Array<uint8_t>*> localityName;
-
-  /// @brief Field stateOrProvinceName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_stateOrProvinceName, put = setStaticF_stateOrProvinceName))::ArrayW<uint8_t, ::Array<uint8_t>*> stateOrProvinceName;
-
-  /// @brief Field streetAddress, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_streetAddress, put = setStaticF_streetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> streetAddress;
-
-  /// @brief Field serialNumber, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_serialNumber, put = setStaticF_serialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber;
-
-  /// @brief Field domainComponent, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_domainComponent, put = setStaticF_domainComponent))::ArrayW<uint8_t, ::Array<uint8_t>*> domainComponent;
-
-  /// @brief Field userid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_userid, put = setStaticF_userid))::ArrayW<uint8_t, ::Array<uint8_t>*> userid;
-
-  /// @brief Field email, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_email, put = setStaticF_email))::ArrayW<uint8_t, ::Array<uint8_t>*> email;
+  /// @brief Field countryName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_countryName, put = setStaticF_countryName))::ArrayW<uint8_t, ::Array<uint8_t>*> countryName;
 
   /// @brief Field dnQualifier, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_dnQualifier, put = setStaticF_dnQualifier))::ArrayW<uint8_t, ::Array<uint8_t>*> dnQualifier;
 
-  /// @brief Field title, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_title, put = setStaticF_title))::ArrayW<uint8_t, ::Array<uint8_t>*> title;
+  /// @brief Field domainComponent, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_domainComponent, put = setStaticF_domainComponent))::ArrayW<uint8_t, ::Array<uint8_t>*> domainComponent;
 
-  /// @brief Field surname, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_surname, put = setStaticF_surname))::ArrayW<uint8_t, ::Array<uint8_t>*> surname;
+  /// @brief Field email, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_email, put = setStaticF_email))::ArrayW<uint8_t, ::Array<uint8_t>*> email;
 
   /// @brief Field givenName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_givenName, put = setStaticF_givenName))::ArrayW<uint8_t, ::Array<uint8_t>*> givenName;
@@ -77,79 +48,112 @@ public:
   /// @brief Field initial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_initial, put = setStaticF_initial))::ArrayW<uint8_t, ::Array<uint8_t>*> initial;
 
-  static inline void setStaticF_countryName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field localityName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_localityName, put = setStaticF_localityName))::ArrayW<uint8_t, ::Array<uint8_t>*> localityName;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_countryName();
+  /// @brief Field organizationName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_organizationName, put = setStaticF_organizationName))::ArrayW<uint8_t, ::Array<uint8_t>*> organizationName;
 
-  static inline void setStaticF_organizationName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field organizationalUnitName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_organizationalUnitName, put = setStaticF_organizationalUnitName))::ArrayW<uint8_t, ::Array<uint8_t>*> organizationalUnitName;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_organizationName();
+  /// @brief Field serialNumber, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_serialNumber, put = setStaticF_serialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber;
 
-  static inline void setStaticF_organizationalUnitName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field stateOrProvinceName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_stateOrProvinceName, put = setStaticF_stateOrProvinceName))::ArrayW<uint8_t, ::Array<uint8_t>*> stateOrProvinceName;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_organizationalUnitName();
+  /// @brief Field streetAddress, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_streetAddress, put = setStaticF_streetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> streetAddress;
 
-  static inline void setStaticF_commonName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field surname, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_surname, put = setStaticF_surname))::ArrayW<uint8_t, ::Array<uint8_t>*> surname;
+
+  /// @brief Field title, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_title, put = setStaticF_title))::ArrayW<uint8_t, ::Array<uint8_t>*> title;
+
+  /// @brief Field userid, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_userid, put = setStaticF_userid))::ArrayW<uint8_t, ::Array<uint8_t>*> userid;
+
+  /// @brief Method AppendEntry, addr 0x24e6668, size 0x7c4, virtual false, abstract: false, final false
+  static inline void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1* entry, bool quotes);
+
+  /// @brief Method ToString, addr 0x24dee58, size 0x138, virtual false, abstract: false, final false
+  static inline ::StringW ToString(::Mono::Security::ASN1* seq);
+
+  /// @brief Method ToString, addr 0x24e6e2c, size 0x1a8, virtual false, abstract: false, final false
+  static inline ::StringW ToString(::Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_commonName();
 
-  static inline void setStaticF_localityName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_localityName();
-
-  static inline void setStaticF_stateOrProvinceName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_stateOrProvinceName();
-
-  static inline void setStaticF_streetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_streetAddress();
-
-  static inline void setStaticF_serialNumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_serialNumber();
-
-  static inline void setStaticF_domainComponent(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_domainComponent();
-
-  static inline void setStaticF_userid(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_userid();
-
-  static inline void setStaticF_email(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_email();
-
-  static inline void setStaticF_dnQualifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_countryName();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_dnQualifier();
 
-  static inline void setStaticF_title(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_domainComponent();
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_title();
-
-  static inline void setStaticF_surname(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_surname();
-
-  static inline void setStaticF_givenName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_email();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_givenName();
 
-  static inline void setStaticF_initial(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_initial();
 
-  /// @brief Method ToString, addr 0x23f0300, size 0x138, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::Mono::Security::ASN1* seq);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_localityName();
 
-  /// @brief Method ToString, addr 0x23f82d4, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_organizationName();
 
-  /// @brief Method AppendEntry, addr 0x23f7b10, size 0x7c4, virtual false, abstract: false, final false
-  static inline void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1* entry, bool quotes);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_organizationalUnitName();
 
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_serialNumber();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_stateOrProvinceName();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_streetAddress();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_surname();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_title();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_userid();
+
+  static inline void setStaticF_commonName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_countryName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_dnQualifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_domainComponent(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_email(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_givenName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_initial(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_localityName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_organizationName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_organizationalUnitName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_serialNumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_stateOrProvinceName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_streetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_surname(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_title(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_userid(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X501();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X501", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X501(X501&&) = delete;
@@ -158,12 +162,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X501(X501 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X501();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

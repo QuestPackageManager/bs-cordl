@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9619))
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
 class CORDL_TYPE CurveNodeData : public ::System::Object {
 public:
@@ -42,58 +40,64 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__CurveNodeData__() noexcept;
+  /// @brief Method GetRotation, addr 0x22b1ef8, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion GetRotation();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
-
-  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_scale();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_scale() const;
-
-  constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
+  /// @brief Method IsEquivalentTo, addr 0x22b1f1c, size 0x1ac, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2150ae0, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method .ctor, addr 0x2150b88, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 position);
-
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-
-  /// @brief Method .ctor, addr 0x2150c58, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
-  /// @brief Method .ctor, addr 0x2150d84, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::HoudiniEngineUnity::CurveNodeData* other);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
 
-  /// @brief Method .ctor, addr 0x2150ebc, size 0xf0, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_scale() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_scale();
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x22b1a2c, size 0xa8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x22b1e08, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method GetRotation, addr 0x2150fac, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion GetRotation();
+  /// @brief Method .ctor, addr 0x22b1ad4, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method IsEquivalentTo, addr 0x2150fd0, size 0x1ac, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
+  /// @brief Method .ctor, addr 0x22b1ba4, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
+  /// @brief Method .ctor, addr 0x22b1cd0, size 0x138, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__CurveNodeData__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CurveNodeData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CurveNodeData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurveNodeData(CurveNodeData&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CurveNodeData(CurveNodeData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CurveNodeData();
-
-public:
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;
 

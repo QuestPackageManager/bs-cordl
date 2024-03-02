@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9920))
 // CS Name: ::Test_MeshRenderer_Extensions::<>c*
 class CORDL_TYPE __Test_MeshRenderer_Extensions____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* __9__2_0;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* value);
+  static inline ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* New_ctor();
+
+  /// @brief Method <ToTestObject>b__1_0, addr 0x2348288, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__1_0(::UnityEngine::MeshRenderer* lod);
+
+  /// @brief Method <ToTestObject>b__2_0, addr 0x23482ec, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__2_0(::UnityEngine::MeshRenderer* lod);
+
+  /// @brief Method .ctor, addr 0x2348280, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* value);
-
   static inline ::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* value);
 
   static inline ::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* getStaticF___9__2_0();
 
-  static inline ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* New_ctor();
+  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c* value);
 
-  /// @brief Method .ctor, addr 0x21e6330, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* value);
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x21e6338, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__1_0(::UnityEngine::MeshRenderer* lod);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::MeshRenderer>, ::HoudiniEngineUnity::Test_MeshRenderer*>* value);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x21e639c, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__2_0(::UnityEngine::MeshRenderer* lod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Test_MeshRenderer_Extensions____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Test_MeshRenderer_Extensions____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Test_MeshRenderer_Extensions____c(__Test_MeshRenderer_Extensions____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_MeshRenderer_Extensions____c(__Test_MeshRenderer_Extensions____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_MeshRenderer_Extensions____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,24 +94,28 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_MeshR
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9921))
 // CS Name: ::HoudiniEngineUnity::Test_MeshRenderer_Extensions*
 class CORDL_TYPE Test_MeshRenderer_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x21e238c, size 0x64, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_MeshRenderer* ToTestObject(::UnityEngine::MeshRenderer* self);
-
-  /// @brief Method ToTestObject, addr 0x21e60d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2348028, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_MeshRenderer*, ::Array<::HoudiniEngineUnity::Test_MeshRenderer*>*>
   ToTestObject(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x21e61d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x23442dc, size 0x64, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::Test_MeshRenderer* ToTestObject(::UnityEngine::MeshRenderer* self);
+
+  /// @brief Method ToTestObject, addr 0x2348120, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshRenderer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshRenderer>>* self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_MeshRenderer_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshRenderer_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_MeshRenderer_Extensions(Test_MeshRenderer_Extensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_MeshRenderer_Extensions(Test_MeshRenderer_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_MeshRenderer_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

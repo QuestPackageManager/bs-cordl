@@ -38,19 +38,17 @@ MARK_VAL_T(::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10428))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13829))
 // CS Name: ::AnimationOutputWeightProcessor::WeightInfo
 struct CORDL_TYPE __AnimationOutputWeightProcessor__WeightInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "mixer", ty: "::UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "::UnityEngine::Playables::Playable",
-  // modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AnimationOutputWeightProcessor__WeightInfo(::UnityEngine::Playables::Playable mixer, ::UnityEngine::Playables::Playable parentMixer, int32_t port) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AnimationOutputWeightProcessor__WeightInfo();
+
+  // Ctor Parameters [CppParam { name: "mixer", ty: "::UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "::UnityEngine::Playables::Playable",
+  // modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __AnimationOutputWeightProcessor__WeightInfo(::UnityEngine::Playables::Playable mixer, ::UnityEngine::Playables::Playable parentMixer, int32_t port) noexcept;
 
   /// @brief Field mixer, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::Playable mixer;
@@ -80,63 +78,67 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationOutputWeightProcessor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14898)), TypeDefinitionIndex(TypeDefinitionIndex(14901))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13830))
 // CS Name: ::UnityEngine.Timeline::AnimationOutputWeightProcessor*
 class CORDL_TYPE AnimationOutputWeightProcessor : public ::System::Object {
 public:
   // Declarations
   using WeightInfo = ::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo;
 
-  /// @brief Field m_Output, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
-
-  /// @brief Field m_MotionXPlayable, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_MotionXPlayable, put = __cordl_internal_set_m_MotionXPlayable))::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
-
   /// @brief Field m_Mixers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Mixers,
                       put = __cordl_internal_set_m_Mixers))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* m_Mixers;
 
+  /// @brief Field m_MotionXPlayable, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_MotionXPlayable, put = __cordl_internal_set_m_MotionXPlayable))::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
+
+  /// @brief Field m_Output, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
+
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
-  constexpr ::UnityEngine::Timeline::ITimelineEvaluateCallback* i___UnityEngine__Timeline__ITimelineEvaluateCallback() noexcept;
+  /// @brief Method Evaluate, addr 0x2d37408, size 0x13c, virtual true, abstract: false, final true
+  inline void Evaluate();
 
-  constexpr ::UnityEngine::Animations::AnimationPlayableOutput& __cordl_internal_get_m_Output();
+  /// @brief Method FindMixers, addr 0x2d37058, size 0xe8, virtual false, abstract: false, final false
+  inline void FindMixers();
 
-  constexpr ::UnityEngine::Animations::AnimationPlayableOutput const& __cordl_internal_get_m_Output() const;
+  /// @brief Method FindMixers, addr 0x2d37140, size 0x2c8, virtual false, abstract: false, final false
+  inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
 
-  constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
-
-  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& __cordl_internal_get_m_MotionXPlayable();
-
-  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable const& __cordl_internal_get_m_MotionXPlayable() const;
-
-  constexpr void __cordl_internal_set_m_MotionXPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
+  static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*& __cordl_internal_get_m_Mixers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*> const&
   __cordl_internal_get_m_Mixers() const;
 
+  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable const& __cordl_internal_get_m_MotionXPlayable() const;
+
+  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& __cordl_internal_get_m_MotionXPlayable();
+
+  constexpr ::UnityEngine::Animations::AnimationPlayableOutput const& __cordl_internal_get_m_Output() const;
+
+  constexpr ::UnityEngine::Animations::AnimationPlayableOutput& __cordl_internal_get_m_Output();
+
   constexpr void __cordl_internal_set_m_Mixers(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* value);
 
-  static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
+  constexpr void __cordl_internal_set_m_MotionXPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
 
-  /// @brief Method .ctor, addr 0x2c4f358, size 0xc0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
+
+  /// @brief Method .ctor, addr 0x2d36f98, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
-  /// @brief Method FindMixers, addr 0x2c4f418, size 0xe8, virtual false, abstract: false, final false
-  inline void FindMixers();
+  /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
+  constexpr ::UnityEngine::Timeline::ITimelineEvaluateCallback* i___UnityEngine__Timeline__ITimelineEvaluateCallback() noexcept;
 
-  /// @brief Method FindMixers, addr 0x2c4f500, size 0x2c8, virtual false, abstract: false, final false
-  inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationOutputWeightProcessor();
 
-  /// @brief Method Evaluate, addr 0x2c4f7c8, size 0x13c, virtual true, abstract: false, final true
-  inline void Evaluate();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationOutputWeightProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationOutputWeightProcessor(AnimationOutputWeightProcessor&&) = delete;
@@ -145,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationOutputWeightProcessor(AnimationOutputWeightProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationOutputWeightProcessor();
-
-public:
   /// @brief Field m_Output, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Animations::AnimationPlayableOutput ___m_Output;
 

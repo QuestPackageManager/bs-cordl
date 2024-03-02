@@ -31,47 +31,42 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
 // CS Name: ::MultiplayerPositionDisplay*
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
+  /// @brief Field _colorAnimationStartDuration, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get__colorAnimationStartDuration, put = __cordl_internal_set__colorAnimationStartDuration)) float_t _colorAnimationStartDuration;
 
-  /// @brief Field _normalColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
-
-  /// @brief Field _leadingColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__leadingColor, put = __cordl_internal_set__leadingColor))::UnityEngine::Color _leadingColor;
-
-  /// @brief Field _failedColor, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get__failedColor, put = __cordl_internal_set__failedColor))::UnityEngine::Color _failedColor;
-
-  /// @brief Field _fadeInDuration, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeInDuration, put = __cordl_internal_set__fadeInDuration)) float_t _fadeInDuration;
-
-  /// @brief Field _crossFadeDuration, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__crossFadeDuration, put = __cordl_internal_set__crossFadeDuration)) float_t _crossFadeDuration;
-
-  /// @brief Field _fadeOutDuration, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
-
-  /// @brief Field _scoreProvider, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
+  /// @brief Field _colorAnimationStartTime, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__colorAnimationStartTime, put = __cordl_internal_set__colorAnimationStartTime)) float_t _colorAnimationStartTime;
 
   /// @brief Field _connectedPlayer, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Field _wasFirst, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
+  /// @brief Field _crossFadeDuration, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get__crossFadeDuration, put = __cordl_internal_set__crossFadeDuration)) float_t _crossFadeDuration;
+
+  /// @brief Field _fadeInDuration, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeInDuration, put = __cordl_internal_set__fadeInDuration)) float_t _fadeInDuration;
+
+  /// @brief Field _fadeOutDuration, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
+
+  /// @brief Field _failedColor, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get__failedColor, put = __cordl_internal_set__failedColor))::UnityEngine::Color _failedColor;
 
   /// @brief Field _isFailed, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get__isFailed, put = __cordl_internal_set__isFailed)) bool _isFailed;
 
-  /// @brief Field _updatingColor, offset 0x72, size 0x1
-  __declspec(property(get = __cordl_internal_get__updatingColor, put = __cordl_internal_set__updatingColor)) bool _updatingColor;
+  /// @brief Field _leadingColor, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get__leadingColor, put = __cordl_internal_set__leadingColor))::UnityEngine::Color _leadingColor;
+
+  /// @brief Field _normalColor, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
+
+  /// @brief Field _scoreProvider, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _startColor, offset 0x74, size 0x10
   __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor))::UnityEngine::Color _startColor;
@@ -79,137 +74,146 @@ public:
   /// @brief Field _targetColor, offset 0x84, size 0x10
   __declspec(property(get = __cordl_internal_get__targetColor, put = __cordl_internal_set__targetColor))::UnityEngine::Color _targetColor;
 
-  /// @brief Field _colorAnimationStartTime, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__colorAnimationStartTime, put = __cordl_internal_set__colorAnimationStartTime)) float_t _colorAnimationStartTime;
+  /// @brief Field _text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
-  /// @brief Field _colorAnimationStartDuration, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get__colorAnimationStartDuration, put = __cordl_internal_set__colorAnimationStartDuration)) float_t _colorAnimationStartDuration;
+  /// @brief Field _updatingColor, offset 0x72, size 0x1
+  __declspec(property(get = __cordl_internal_get__updatingColor, put = __cordl_internal_set__updatingColor)) bool _updatingColor;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
+  /// @brief Field _wasFirst, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
+  /// @brief Method ChangeColor, addr 0x248543c, size 0x7c, virtual false, abstract: false, final false
+  inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x2485804, size 0xac, virtual false, abstract: false, final false
+  inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* obj);
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
+  /// @brief Method HandlePlayerFailed, addr 0x2485708, size 0x18, virtual false, abstract: false, final false
+  inline void HandlePlayerFailed();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
+  static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
+  /// @brief Method OnDestroy, addr 0x248535c, size 0xe0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__leadingColor();
+  /// @brief Method Start, addr 0x248522c, size 0x110, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__leadingColor() const;
+  /// @brief Method Update, addr 0x24854b8, size 0x4c, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr void __cordl_internal_set__leadingColor(::UnityEngine::Color value);
+  /// @brief Method UpdateColors, addr 0x2485504, size 0x94, virtual false, abstract: false, final false
+  inline void UpdateColors();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__failedColor();
+  /// @brief Method UpdatePosition, addr 0x2485598, size 0x170, virtual false, abstract: false, final false
+  inline void UpdatePosition();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__failedColor() const;
+  constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
 
-  constexpr void __cordl_internal_set__failedColor(::UnityEngine::Color value);
+  constexpr float_t& __cordl_internal_get__colorAnimationStartDuration();
 
-  constexpr float_t& __cordl_internal_get__fadeInDuration();
+  constexpr float_t const& __cordl_internal_get__colorAnimationStartTime() const;
 
-  constexpr float_t const& __cordl_internal_get__fadeInDuration() const;
-
-  constexpr void __cordl_internal_set__fadeInDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__crossFadeDuration();
-
-  constexpr float_t const& __cordl_internal_get__crossFadeDuration() const;
-
-  constexpr void __cordl_internal_set__crossFadeDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__fadeOutDuration();
-
-  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
-
-  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
-
-  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
+  constexpr float_t& __cordl_internal_get__colorAnimationStartTime();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr float_t const& __cordl_internal_get__crossFadeDuration() const;
 
-  constexpr bool& __cordl_internal_get__wasFirst();
+  constexpr float_t& __cordl_internal_get__crossFadeDuration();
 
-  constexpr bool const& __cordl_internal_get__wasFirst() const;
+  constexpr float_t const& __cordl_internal_get__fadeInDuration() const;
 
-  constexpr void __cordl_internal_set__wasFirst(bool value);
+  constexpr float_t& __cordl_internal_get__fadeInDuration();
 
-  constexpr bool& __cordl_internal_get__isFailed();
+  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
+
+  constexpr float_t& __cordl_internal_get__fadeOutDuration();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__failedColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__failedColor();
 
   constexpr bool const& __cordl_internal_get__isFailed() const;
 
-  constexpr void __cordl_internal_set__isFailed(bool value);
+  constexpr bool& __cordl_internal_get__isFailed();
 
-  constexpr bool& __cordl_internal_get__updatingColor();
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__leadingColor() const;
 
-  constexpr bool const& __cordl_internal_get__updatingColor() const;
+  constexpr ::UnityEngine::Color& __cordl_internal_get__leadingColor();
 
-  constexpr void __cordl_internal_set__updatingColor(bool value);
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__startColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__startColor() const;
 
-  constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__targetColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__startColor();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__targetColor() const;
 
-  constexpr void __cordl_internal_set__targetColor(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__targetColor();
 
-  constexpr float_t& __cordl_internal_get__colorAnimationStartTime();
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr float_t const& __cordl_internal_get__colorAnimationStartTime() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
 
-  constexpr void __cordl_internal_set__colorAnimationStartTime(float_t value);
+  constexpr bool const& __cordl_internal_get__updatingColor() const;
 
-  constexpr float_t& __cordl_internal_get__colorAnimationStartDuration();
+  constexpr bool& __cordl_internal_get__updatingColor();
 
-  constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
+  constexpr bool const& __cordl_internal_get__wasFirst() const;
+
+  constexpr bool& __cordl_internal_get__wasFirst();
 
   constexpr void __cordl_internal_set__colorAnimationStartDuration(float_t value);
 
-  /// @brief Method Start, addr 0x2257760, size 0x110, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__colorAnimationStartTime(float_t value);
 
-  /// @brief Method OnDestroy, addr 0x2257890, size 0xe0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Update, addr 0x22579ec, size 0x4c, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__crossFadeDuration(float_t value);
 
-  /// @brief Method UpdateColors, addr 0x2257a38, size 0x94, virtual false, abstract: false, final false
-  inline void UpdateColors();
+  constexpr void __cordl_internal_set__fadeInDuration(float_t value);
 
-  /// @brief Method UpdatePosition, addr 0x2257acc, size 0x170, virtual false, abstract: false, final false
-  inline void UpdatePosition();
+  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
 
-  /// @brief Method HandlePlayerFailed, addr 0x2257c3c, size 0x18, virtual false, abstract: false, final false
-  inline void HandlePlayerFailed();
+  constexpr void __cordl_internal_set__failedColor(::UnityEngine::Color value);
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x2257d38, size 0xac, virtual false, abstract: false, final false
-  inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* obj);
+  constexpr void __cordl_internal_set__isFailed(bool value);
 
-  /// @brief Method ChangeColor, addr 0x2257970, size 0x7c, virtual false, abstract: false, final false
-  inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
+  constexpr void __cordl_internal_set__leadingColor(::UnityEngine::Color value);
 
-  static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
+  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2257de4, size 0x24, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
+
+  constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__targetColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
+
+  constexpr void __cordl_internal_set__updatingColor(bool value);
+
+  constexpr void __cordl_internal_set__wasFirst(bool value);
+
+  /// @brief Method .ctor, addr 0x24858b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerPositionDisplay();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionDisplay", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPositionDisplay(MultiplayerPositionDisplay&&) = delete;
@@ -218,12 +222,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPositionDisplay(MultiplayerPositionDisplay const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerPositionDisplay();
-
-public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 

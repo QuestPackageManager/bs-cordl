@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::UnityEngine::AssetReferenceUILabelRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14045))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14046))
 // CS Name: ::UnityEngine::AssetReferenceUILabelRestriction*
 class CORDL_TYPE AssetReferenceUILabelRestriction : public ::UnityEngine::AssetReferenceUIRestriction {
 public:
@@ -31,32 +29,38 @@ public:
   /// @brief Field m_CachedToString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CachedToString, put = __cordl_internal_set_m_CachedToString))::StringW m_CachedToString;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_AllowedLabels();
+  static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
+
+  /// @brief Method ToString, addr 0x2af9c94, size 0xf4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method ValidateAsset, addr 0x2af9c84, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::UnityEngine::Object* obj);
+
+  /// @brief Method ValidateAsset, addr 0x2af9c8c, size 0x8, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::StringW path);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_AllowedLabels() const;
 
-  constexpr void __cordl_internal_set_m_AllowedLabels(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::StringW& __cordl_internal_get_m_CachedToString();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_AllowedLabels();
 
   constexpr ::StringW const& __cordl_internal_get_m_CachedToString() const;
 
+  constexpr ::StringW& __cordl_internal_get_m_CachedToString();
+
+  constexpr void __cordl_internal_set_m_AllowedLabels(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
   constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
-  static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
-
-  /// @brief Method .ctor, addr 0x2a0f01c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9c5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method ValidateAsset, addr 0x2a0f044, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::UnityEngine::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceUILabelRestriction();
 
-  /// @brief Method ValidateAsset, addr 0x2a0f04c, size 0x8, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::StringW path);
-
-  /// @brief Method ToString, addr 0x2a0f054, size 0xf4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceUILabelRestriction(AssetReferenceUILabelRestriction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceUILabelRestriction();
-
-public:
   /// @brief Field m_AllowedLabels, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_AllowedLabels;
 

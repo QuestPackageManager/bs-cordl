@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionsChangedNotification);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13461))
 // CS Name: ::Oculus.Platform.Models::NetSyncSessionsChangedNotification*
 class CORDL_TYPE NetSyncSessionsChangedNotification : public ::System::Object {
 public:
@@ -30,23 +28,29 @@ public:
   /// @brief Field Sessions, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Sessions, put = __cordl_internal_set_Sessions))::Oculus::Platform::Models::NetSyncSessionList* Sessions;
 
-  constexpr int64_t& __cordl_internal_get_ConnectionId();
+  static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(void* o);
 
   constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
 
   constexpr ::Oculus::Platform::Models::NetSyncSessionList*& __cordl_internal_get_Sessions();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::NetSyncSessionList*> const& __cordl_internal_get_Sessions() const;
 
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
+
   constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
-  static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2707890, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f9198, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSyncSessionsChangedNotification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncSessionsChangedNotification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSyncSessionsChangedNotification(NetSyncSessionsChangedNotification&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncSessionsChangedNotification(NetSyncSessionsChangedNotification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSyncSessionsChangedNotification();
-
-public:
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;
 

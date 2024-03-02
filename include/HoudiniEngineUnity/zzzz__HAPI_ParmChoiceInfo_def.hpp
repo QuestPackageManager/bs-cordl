@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmChoiceInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9735))
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmChoiceInfo
 struct CORDL_TYPE HAPI_ParmChoiceInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "parentParmId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "labelSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "valueSH", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ParmChoiceInfo(int32_t parentParmId, int32_t labelSH, int32_t valueSH) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ParmChoiceInfo();
+
+  // Ctor Parameters [CppParam { name: "parentParmId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "labelSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "valueSH", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ParmChoiceInfo(int32_t parentParmId, int32_t labelSH, int32_t valueSH) noexcept;
 
   /// @brief Field parentParmId, offset: 0x0, size: 0x4, def value: None
   int32_t parentParmId;

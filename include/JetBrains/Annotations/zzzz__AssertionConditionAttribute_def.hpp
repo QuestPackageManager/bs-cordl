@@ -18,35 +18,39 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AssertionConditionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15787))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15786))
 // CS Name: ::JetBrains.Annotations::AssertionConditionAttribute*
 class CORDL_TYPE AssertionConditionAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_ConditionType, put = set_ConditionType))::JetBrains::Annotations::AssertionConditionType ConditionType;
+
   /// @brief Field <ConditionType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__ConditionType_k__BackingField,
                       put = __cordl_internal_set__ConditionType_k__BackingField))::JetBrains::Annotations::AssertionConditionType _ConditionType_k__BackingField;
 
-  __declspec(property(get = get_ConditionType, put = set_ConditionType))::JetBrains::Annotations::AssertionConditionType ConditionType;
-
-  constexpr ::JetBrains::Annotations::AssertionConditionType& __cordl_internal_get__ConditionType_k__BackingField();
+  static inline ::JetBrains::Annotations::AssertionConditionAttribute* New_ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
   constexpr ::JetBrains::Annotations::AssertionConditionType const& __cordl_internal_get__ConditionType_k__BackingField() const;
 
+  constexpr ::JetBrains::Annotations::AssertionConditionType& __cordl_internal_get__ConditionType_k__BackingField();
+
   constexpr void __cordl_internal_set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value);
 
-  static inline ::JetBrains::Annotations::AssertionConditionAttribute* New_ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
-
-  /// @brief Method .ctor, addr 0x2eba71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9f8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType, addr 0x2eba744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConditionType, addr 0x2fc9fb4, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType, addr 0x2eba74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConditionType, addr 0x2fc9fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssertionConditionAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertionConditionAttribute(AssertionConditionAttribute&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssertionConditionAttribute(AssertionConditionAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssertionConditionAttribute();
-
-public:
   /// @brief Field <ConditionType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::AssertionConditionType ____ConditionType_k__BackingField;
 

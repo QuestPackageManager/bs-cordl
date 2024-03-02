@@ -16,12 +16,16 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3813))
 // CS Name: ::System.Collections.Concurrent::IProducerConsumerCollectionDebugView`1<T>*
 class CORDL_TYPE IProducerConsumerCollectionDebugView_1 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IProducerConsumerCollectionDebugView_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollectionDebugView_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IProducerConsumerCollectionDebugView_1(IProducerConsumerCollectionDebugView_1&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IProducerConsumerCollectionDebugView_1(IProducerConsumerCollectionDebugView_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IProducerConsumerCollectionDebugView_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

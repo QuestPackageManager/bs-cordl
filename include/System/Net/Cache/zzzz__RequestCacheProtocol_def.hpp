@@ -17,17 +17,21 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheProtocol);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9323))
 // CS Name: ::System.Net.Cache::RequestCacheProtocol*
 class CORDL_TYPE RequestCacheProtocol : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Net::Cache::RequestCacheProtocol* New_ctor(::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x29f1524, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ade09c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg1, ::System::Object* arg2);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RequestCacheProtocol();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheProtocol", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequestCacheProtocol(RequestCacheProtocol&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCacheProtocol(RequestCacheProtocol const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RequestCacheProtocol();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

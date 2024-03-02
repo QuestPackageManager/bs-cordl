@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MCMDictionary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3177))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3175))
 // CS Name: ::System.Runtime.Remoting.Messaging::MCMDictionary*
 class CORDL_TYPE MCMDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
@@ -28,15 +26,21 @@ public:
   /// @brief Field InternalKeys, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys))::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
 
-  static inline void setStaticF_InternalKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
+
+  /// @brief Method .ctor, addr 0x25a0f00, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();
 
-  static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
+  static inline void setStaticF_InternalKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x24ae194, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MCMDictionary();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MCMDictionary", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MCMDictionary(MCMDictionary&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MCMDictionary(MCMDictionary const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MCMDictionary();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

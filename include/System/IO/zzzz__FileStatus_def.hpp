@@ -29,55 +29,53 @@ MARK_VAL_T(::System::IO::FileStatus);
 // SizeInfo { instance_size: 120, native_size: 128, calculated_instance_size: 120, calculated_native_size: 135, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2215))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3594))
 // CS Name: ::System.IO::FileStatus
 struct CORDL_TYPE FileStatus {
 public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method get_InitiallyDirectory, addr 0x250e1e0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_InitiallyDirectory();
+  /// @brief Method EnsureStatInitialized, addr 0x26015e0, size 0xbc, virtual false, abstract: false, final false
+  inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method set_InitiallyDirectory, addr 0x250e1e8, size 0xc, virtual false, abstract: false, final false
-  inline void set_InitiallyDirectory(bool value);
-
-  /// @brief Method Initialize, addr 0x250e1f4, size 0x14, virtual false, abstract: false, final false
-  static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
-
-  /// @brief Method IsReadOnly, addr 0x250e208, size 0xf0, virtual false, abstract: false, final false
-  inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
-
-  /// @brief Method GetAttributes, addr 0x250e3b4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x260169c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists, addr 0x250e49c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExists, addr 0x2601784, size 0x44, virtual false, abstract: false, final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime, addr 0x250e674, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastWriteTime, addr 0x260195c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method UnixTimeToDateTimeOffset, addr 0x250e710, size 0xb4, virtual false, abstract: false, final false
-  inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
-
-  /// @brief Method GetLength, addr 0x250e7c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x2601aac, size 0x1c, virtual false, abstract: false, final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh, addr 0x250e4e0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x26014dc, size 0x14, virtual false, abstract: false, final false
+  static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
+
+  /// @brief Method IsReadOnly, addr 0x26014f0, size 0xf0, virtual false, abstract: false, final false
+  inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
+
+  /// @brief Method Refresh, addr 0x26017c8, size 0x194, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method EnsureStatInitialized, addr 0x250e2f8, size 0xbc, virtual false, abstract: false, final false
-  inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
+  /// @brief Method UnixTimeToDateTimeOffset, addr 0x26019f8, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
+
+  /// @brief Method get_InitiallyDirectory, addr 0x26014c8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_InitiallyDirectory();
+
+  /// @brief Method set_InitiallyDirectory, addr 0x26014d0, size 0xc, virtual false, abstract: false, final false
+  inline void set_InitiallyDirectory(bool value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileStatus();
 
   // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::__Interop__Sys__FileStatus", modifiers: "", def_value: None }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_isDirectory", ty: "bool", modifiers: "",
   // def_value: None }, CppParam { name: "_exists", ty: "bool", modifiers: "", def_value: None }]
   constexpr FileStatus(::GlobalNamespace::__Interop__Sys__FileStatus _fileStatus, int32_t _fileStatusInitialized, bool _InitiallyDirectory_k__BackingField, bool _isDirectory, bool _exists) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileStatus();
 
   /// @brief Field _fileStatus, offset: 0x0, size: 0x70, def value: None
   ::GlobalNamespace::__Interop__Sys__FileStatus _fileStatus;

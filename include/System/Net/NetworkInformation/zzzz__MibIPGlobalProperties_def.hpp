@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MibIPGlobalProperties);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9286))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9288))
 // CS Name: ::System.Net.NetworkInformation::MibIPGlobalProperties*
 class CORDL_TYPE MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
 public:
@@ -28,66 +26,72 @@ public:
   /// @brief Field StatisticsFileIPv6, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_StatisticsFileIPv6, put = __cordl_internal_set_StatisticsFileIPv6))::StringW StatisticsFileIPv6;
 
-  /// @brief Field TcpFile, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TcpFile, put = __cordl_internal_set_TcpFile))::StringW TcpFile;
-
   /// @brief Field Tcp6File, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Tcp6File, put = __cordl_internal_set_Tcp6File))::StringW Tcp6File;
 
-  /// @brief Field UdpFile, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_UdpFile, put = __cordl_internal_set_UdpFile))::StringW UdpFile;
+  /// @brief Field TcpFile, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_TcpFile, put = __cordl_internal_set_TcpFile))::StringW TcpFile;
 
   /// @brief Field Udp6File, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_Udp6File, put = __cordl_internal_set_Udp6File))::StringW Udp6File;
 
+  /// @brief Field UdpFile, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_UdpFile, put = __cordl_internal_set_UdpFile))::StringW UdpFile;
+
   /// @brief Field wsChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_wsChars, put = setStaticF_wsChars))::ArrayW<char16_t, ::Array<char16_t>*> wsChars;
 
-  constexpr ::StringW& __cordl_internal_get_StatisticsFile();
+  static inline ::System::Net::NetworkInformation::MibIPGlobalProperties* New_ctor(::StringW procDir);
 
   constexpr ::StringW const& __cordl_internal_get_StatisticsFile() const;
 
-  constexpr void __cordl_internal_set_StatisticsFile(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_StatisticsFileIPv6();
+  constexpr ::StringW& __cordl_internal_get_StatisticsFile();
 
   constexpr ::StringW const& __cordl_internal_get_StatisticsFileIPv6() const;
 
-  constexpr void __cordl_internal_set_StatisticsFileIPv6(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_TcpFile();
-
-  constexpr ::StringW const& __cordl_internal_get_TcpFile() const;
-
-  constexpr void __cordl_internal_set_TcpFile(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Tcp6File();
+  constexpr ::StringW& __cordl_internal_get_StatisticsFileIPv6();
 
   constexpr ::StringW const& __cordl_internal_get_Tcp6File() const;
 
-  constexpr void __cordl_internal_set_Tcp6File(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Tcp6File();
 
-  constexpr ::StringW& __cordl_internal_get_UdpFile();
+  constexpr ::StringW const& __cordl_internal_get_TcpFile() const;
 
-  constexpr ::StringW const& __cordl_internal_get_UdpFile() const;
-
-  constexpr void __cordl_internal_set_UdpFile(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Udp6File();
+  constexpr ::StringW& __cordl_internal_get_TcpFile();
 
   constexpr ::StringW const& __cordl_internal_get_Udp6File() const;
 
+  constexpr ::StringW& __cordl_internal_get_Udp6File();
+
+  constexpr ::StringW const& __cordl_internal_get_UdpFile() const;
+
+  constexpr ::StringW& __cordl_internal_get_UdpFile();
+
+  constexpr void __cordl_internal_set_StatisticsFile(::StringW value);
+
+  constexpr void __cordl_internal_set_StatisticsFileIPv6(::StringW value);
+
+  constexpr void __cordl_internal_set_Tcp6File(::StringW value);
+
+  constexpr void __cordl_internal_set_TcpFile(::StringW value);
+
   constexpr void __cordl_internal_set_Udp6File(::StringW value);
 
-  static inline void setStaticF_wsChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_UdpFile(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2add1c0, size 0x168, virtual false, abstract: false, final false
+  inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_wsChars();
 
-  static inline ::System::Net::NetworkInformation::MibIPGlobalProperties* New_ctor(::StringW procDir);
+  static inline void setStaticF_wsChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x29f0648, size 0x168, virtual false, abstract: false, final false
-  inline void _ctor(::StringW procDir);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MibIPGlobalProperties();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MibIPGlobalProperties", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MibIPGlobalProperties(MibIPGlobalProperties&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MibIPGlobalProperties(MibIPGlobalProperties const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MibIPGlobalProperties();
-
-public:
   /// @brief Field StatisticsFile, offset: 0x10, size: 0x8, def value: None
   ::StringW ___StatisticsFile;
 

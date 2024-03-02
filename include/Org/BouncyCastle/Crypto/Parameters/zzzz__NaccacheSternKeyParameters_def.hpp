@@ -18,60 +18,64 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParamete
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1069))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyParameters*
 class CORDL_TYPE NaccacheSternKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
-  /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
-
-  /// @brief Field n, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
-
-  /// @brief Field lowerSigmaBound, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_lowerSigmaBound, put = __cordl_internal_set_lowerSigmaBound)) int32_t lowerSigmaBound;
-
   __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
 
   __declspec(property(get = get_LowerSigmaBound)) int32_t LowerSigmaBound;
 
   __declspec(property(get = get_Modulus))::Org::BouncyCastle::Math::BigInteger* Modulus;
 
+  /// @brief Field g, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
+
+  /// @brief Field lowerSigmaBound, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_lowerSigmaBound, put = __cordl_internal_set_lowerSigmaBound)) int32_t lowerSigmaBound;
+
+  /// @brief Field n, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* New_ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
+                                                                                              int32_t lowerSigmaBound);
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr int32_t const& __cordl_internal_get_lowerSigmaBound() const;
+
+  constexpr int32_t& __cordl_internal_get_lowerSigmaBound();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
-
-  constexpr int32_t& __cordl_internal_get_lowerSigmaBound();
-
-  constexpr int32_t const& __cordl_internal_get_lowerSigmaBound() const;
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
   constexpr void __cordl_internal_set_lowerSigmaBound(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* New_ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
-                                                                                              int32_t lowerSigmaBound);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0xf38d4c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa8bac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound);
 
-  /// @brief Method get_G, addr 0xf38d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0xfa8bec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_LowerSigmaBound, addr 0xf38d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LowerSigmaBound, addr 0xfa8bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LowerSigmaBound();
 
-  /// @brief Method get_Modulus, addr 0xf38d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0xfa8bfc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NaccacheSternKeyParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NaccacheSternKeyParameters(NaccacheSternKeyParameters&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NaccacheSternKeyParameters(NaccacheSternKeyParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NaccacheSternKeyParameters();
-
-public:
   /// @brief Field g, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___g;
 

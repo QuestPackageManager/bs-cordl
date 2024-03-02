@@ -29,19 +29,17 @@ MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10099))
 // CS Name: ::BeforeRenderHelper::OrderBlock
 struct CORDL_TYPE __BeforeRenderHelper__OrderBlock {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "", def_value: None
-  // }]
-  constexpr __BeforeRenderHelper__OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BeforeRenderHelper__OrderBlock();
+
+  // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "", def_value: None
+  // }]
+  constexpr __BeforeRenderHelper__OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
 
   /// @brief Field order, offset: 0x0, size: 0x4, def value: None
   int32_t order;
@@ -66,8 +64,6 @@ static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
 // CS Name: ::UnityEngine::BeforeRenderHelper*
 class CORDL_TYPE BeforeRenderHelper : public ::System::Object {
 public:
@@ -77,22 +73,28 @@ public:
   /// @brief Field s_OrderBlocks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks))::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* s_OrderBlocks;
 
-  static inline void setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* value);
+  /// @brief Method GetUpdateOrder, addr 0x2db051c, size 0x118, virtual false, abstract: false, final false
+  static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
+
+  /// @brief Method Invoke, addr 0x2db0c8c, size 0x19c, virtual false, abstract: false, final false
+  static inline void Invoke();
+
+  /// @brief Method RegisterCallback, addr 0x2db0634, size 0x348, virtual false, abstract: false, final false
+  static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
+
+  /// @brief Method UnregisterCallback, addr 0x2db097c, size 0x310, virtual false, abstract: false, final false
+  static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();
 
-  /// @brief Method GetUpdateOrder, addr 0x2cc177c, size 0x118, virtual false, abstract: false, final false
-  static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
+  static inline void setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* value);
 
-  /// @brief Method RegisterCallback, addr 0x2cc1894, size 0x348, virtual false, abstract: false, final false
-  static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeforeRenderHelper();
 
-  /// @brief Method UnregisterCallback, addr 0x2cc1bdc, size 0x310, virtual false, abstract: false, final false
-  static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
-
-  /// @brief Method Invoke, addr 0x2cc1eec, size 0x19c, virtual false, abstract: false, final false
-  static inline void Invoke();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeforeRenderHelper(BeforeRenderHelper&&) = delete;
@@ -101,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeforeRenderHelper(BeforeRenderHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeforeRenderHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -27,47 +27,51 @@ MARK_REF_PTR_T(::Zenject::ZenjectStateMachineBehaviourAutoInjecter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11364))
 // CS Name: ::Zenject::ZenjectStateMachineBehaviourAutoInjecter*
 class CORDL_TYPE ZenjectStateMachineBehaviourAutoInjecter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _animator, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
+
   /// @brief Field _container, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
-  /// @brief Field _animator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
+  /// @brief Method Construct, addr 0x30307e0, size 0x64, virtual false, abstract: false, final false
+  inline void Construct(::Zenject::DiContainer* container);
+
+  static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
+
+  /// @brief Method Start, addr 0x3030844, size 0xe8, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
+
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
-
-  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
-
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method Construct, addr 0x2f20e30, size 0x64, virtual false, abstract: false, final false
-  inline void Construct(::Zenject::DiContainer* container);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method Start, addr 0x2f20e94, size 0xe8, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f20f7c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenInjectMethod0, addr 0x2f20f84, size 0xe8, virtual false, abstract: false, final false
-  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2106c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3030a1c, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method __zenInjectMethod0, addr 0x3030934, size 0xe8, virtual false, abstract: false, final false
+  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
+
+  /// @brief Method .ctor, addr 0x303092c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ZenjectStateMachineBehaviourAutoInjecter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectStateMachineBehaviourAutoInjecter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectStateMachineBehaviourAutoInjecter(ZenjectStateMachineBehaviourAutoInjecter&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenjectStateMachineBehaviourAutoInjecter(ZenjectStateMachineBehaviourAutoInjecter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectStateMachineBehaviourAutoInjecter();
-
-public:
   /// @brief Field _container, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

@@ -563,279 +563,421 @@ template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__ShuffleExtensions___TakeWithTombstone_d__2_1() {}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1,T2>>"
-template <typename T1, typename T2>
-constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)(int32_t)>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::_ctor)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0xe8d2c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_IDisposable_Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0xe8d2f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::MoveNext)> {
+  constexpr static std::size_t size = 0x550;
+  constexpr static std::size_t addrs = 0xe8d3b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.__m__Finally1
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0xe8d9b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "<>m__Finally1",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.__m__Finally2
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally2)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0xe8d900;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "<>m__Finally2",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0xe8da60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+        "System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_Collections_IEnumerator_Reset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0xe8da68;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_Collections_IEnumerator_get_Current
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0xe8daa8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+        &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0xe8db04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+        "System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3.System_Collections_IEnumerable_GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
+    &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerable_GetEnumerator)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0xe8dbb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
+constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::operator ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1,T2>>"
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_2_T1_T2__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::i___System__Collections__Generic__IEnumerable_1___System__ValueTuple_2_int32_t_int32_t__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T1, typename T2>
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
-template <typename T1, typename T2>
-constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>"
+constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1,T2>>"
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_T1_T2__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t,int32_t>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_int32_t_int32_t__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T1, typename T2>
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T1, typename T2> constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T1, typename T2> constexpr ::System::IDisposable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-template <typename T1, typename T2> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T1, typename T2> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T1, typename T2> constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-template <typename T1, typename T2> constexpr ::System::ValueTuple_2<T1, T2>& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___2__current() {
+constexpr ::System::ValueTuple_2<int32_t, int32_t>& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T1, typename T2> constexpr ::System::ValueTuple_2<T1, T2> const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___2__current() const {
+constexpr ::System::ValueTuple_2<int32_t, int32_t> const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T1, typename T2> constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___2__current(::System::ValueTuple_2<T1, T2> value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___2__current(::System::ValueTuple_2<int32_t, int32_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-template <typename T1, typename T2> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T1, typename T2> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T1, typename T2> constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection1() {
+constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection1;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection1() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection1;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set_collection1(::System::Collections::Generic::IEnumerable_1<T1>* value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set_collection1(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collection1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerable_1<T1>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection1() {
+constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__collection1;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T1>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection1() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__collection1;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___3__collection1(::System::Collections::Generic::IEnumerable_1<T1>* value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___3__collection1(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__collection1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection2() {
+constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection2;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection2() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection2;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set_collection2(::System::Collections::Generic::IEnumerable_1<T2>* value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set_collection2(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collection2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerable_1<T2>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection2() {
+constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__collection2;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T2>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection2() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__collection2;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___3__collection2(::System::Collections::Generic::IEnumerable_1<T2>* value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___3__collection2(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__collection2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2> constexpr T2& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection2Tombstone() {
+constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection2Tombstone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection2Tombstone;
 }
-template <typename T1, typename T2> constexpr T2 const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get_collection2Tombstone() const {
+constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get_collection2Tombstone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___collection2Tombstone;
 }
-template <typename T1, typename T2> constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set_collection2Tombstone(T2 value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set_collection2Tombstone(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___collection2Tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___collection2Tombstone = value;
 }
-template <typename T1, typename T2> constexpr T2& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection2Tombstone() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__collection2Tombstone;
-}
-template <typename T1, typename T2> constexpr T2 const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get___3__collection2Tombstone() const {
+constexpr int32_t& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection2Tombstone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__collection2Tombstone;
 }
-template <typename T1, typename T2> constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set___3__collection2Tombstone(T2 value) {
+constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get___3__collection2Tombstone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__collection2Tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  return this->_____3__collection2Tombstone;
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerator_1<T1>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get__enum1_5__2() {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set___3__collection2Tombstone(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____enum1_5__2;
+  this->_____3__collection2Tombstone = value;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T1>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get__enum1_5__2() const {
+constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get__enum1_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enum1_5__2;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<T1>* value) {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get__enum1_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enum1_5__2;
+}
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set__enum1_5__2(::System::Collections::Generic::IEnumerator_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enum1_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2>
-constexpr ::System::Collections::Generic::IEnumerator_1<T2>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get__enum2_5__3() {
+constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get__enum2_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enum2_5__3;
 }
-template <typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T2>*> const&
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_get__enum2_5__3() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<int32_t>*> const&
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_get__enum2_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enum2_5__3;
 }
-template <typename T1, typename T2>
-constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__cordl_internal_set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<T2>* value) {
+constexpr void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__cordl_internal_set__enum2_5__3(::System::Collections::Generic::IEnumerator_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enum2_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T1, typename T2>
-inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>(__1__state));
+inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>(__1__state));
 }
-template <typename T1, typename T2> inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-template <typename T1, typename T2> inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline bool GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::MoveNext() {
+inline bool GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__m__Finally1() {
+inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
-                                               "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "<>m__Finally1",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__m__Finally2() {
+inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally2() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
-                                               "<>m__Finally2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(), "<>m__Finally2",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T1, typename T2>
-inline ::System::ValueTuple_2<T1, T2> GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_Collections_Generic_IEnumerator__T1_T2___get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
-                                               "System.Collections.Generic.IEnumerator<(T1,T2)>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<T1, T2>, false>(this, ___internal_method);
+inline ::System::ValueTuple_2<int32_t, int32_t> GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+      "System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<int32_t, int32_t>, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline ::System::Object* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-template <typename T1, typename T2>
-inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*
-GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_Collections_Generic_IEnumerable__T1_T2___GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
-                                               "System.Collections.Generic.IEnumerable<(T1,T2)>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T1, T2>>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*
+GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
+      "System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*, false>(this, ___internal_method);
 }
-template <typename T1, typename T2> inline ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-template <typename T1, typename T2> constexpr ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3_2<T1, T2>::__ShuffleExtensions___ZipSkipTombstone_d__3_2() {}
+constexpr ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__ShuffleExtensions___ZipSkipTombstone_d__3() {}
+//  Writing Method size for method: ::GlobalNamespace::ShuffleExtensions.ZipSkipTombstone
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::System::ValueTuple_2<int32_t, int32_t>>* (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t)>(
+    &::GlobalNamespace::ShuffleExtensions::ZipSkipTombstone)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0xe8d234;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShuffleExtensions*>::get(), "ZipSkipTombstone", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 template <typename T>
 inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::ShuffleExtensions::Shuffle(::System::Collections::Generic::IEnumerable_1<T>* source, ::System::Random* random) {
   static auto* ___internal_method_base =
@@ -871,21 +1013,16 @@ inline ::System::Collections::Generic::IEnumerable_1<T>* GlobalNamespace::Shuffl
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(nullptr, ___internal_method, source, limit, tombstone);
 }
-template <typename T1, typename T2>
-inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*
-GlobalNamespace::ShuffleExtensions::ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<T1>* collection1, ::System::Collections::Generic::IEnumerable_1<T2>* collection2,
-                                                     T2 collection2Tombstone) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShuffleExtensions*>::get(), "ZipSkipTombstone",
-      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() },
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T1>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T2>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*, false>(nullptr, ___internal_method, collection1, collection2,
-                                                                                                                                    collection2Tombstone);
+inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
+GlobalNamespace::ShuffleExtensions::ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<int32_t>* collection1, ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2,
+                                                     int32_t collection2Tombstone) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShuffleExtensions*>::get(), "ZipSkipTombstone", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*, false>(nullptr, ___internal_method, collection1, collection2,
+                                                                                                                                              collection2Tombstone);
 }
 template <typename T> inline void GlobalNamespace::ShuffleExtensions::ShuffleInPlace(::System::Collections::Generic::IList_1<T>* list, ::System::Random* random) {
   static auto* ___internal_method_base =

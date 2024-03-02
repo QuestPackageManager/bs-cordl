@@ -29,56 +29,60 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(151))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OtherRevRefs*
 class CORDL_TYPE OtherRevRefs : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_OtherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherRevRefType;
+
+  __declspec(property(get = get_OtherRevRefsObject))::Org::BouncyCastle::Asn1::Asn1Object* OtherRevRefsObject;
+
   /// @brief Field otherRevRefType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevRefType, put = __cordl_internal_set_otherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType;
 
   /// @brief Field otherRevRefs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevRefs, put = __cordl_internal_set_otherRevRefs))::Org::BouncyCastle::Asn1::Asn1Object* otherRevRefs;
 
-  __declspec(property(get = get_OtherRevRefType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherRevRefType;
+  /// @brief Method GetInstance, addr 0xf0394c, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_OtherRevRefsObject))::Org::BouncyCastle::Asn1::Asn1Object* OtherRevRefsObject;
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevRefs);
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xf064f4, size 0xf0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_otherRevRefType();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_otherRevRefType() const;
 
-  constexpr void __cordl_internal_set_otherRevRefType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_otherRevRefs();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_otherRevRefs() const;
 
+  constexpr void __cordl_internal_set_otherRevRefType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
   constexpr void __cordl_internal_set_otherRevRefs(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0xe92aec, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe953c4, size 0x208, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevRefs);
-
-  /// @brief Method .ctor, addr 0xe955cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf0642c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevRefType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevRefs);
 
-  /// @brief Method get_OtherRevRefType, addr 0xe95684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf06224, size 0x208, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_OtherRevRefType, addr 0xf064e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherRevRefType();
 
-  /// @brief Method get_OtherRevRefsObject, addr 0xe9568c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevRefsObject, addr 0xf064ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_OtherRevRefsObject();
 
-  /// @brief Method ToAsn1Object, addr 0xe95694, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OtherRevRefs();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OtherRevRefs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherRevRefs(OtherRevRefs&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OtherRevRefs(OtherRevRefs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OtherRevRefs();
-
-public:
   /// @brief Field otherRevRefType, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___otherRevRefType;
 

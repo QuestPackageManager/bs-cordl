@@ -19,17 +19,11 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CspParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2927))
 // CS Name: ::System.Security.Cryptography::CspParameters*
 class CORDL_TYPE CspParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field ProviderType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_ProviderType, put = __cordl_internal_set_ProviderType)) int32_t ProviderType;
-
-  /// @brief Field ProviderName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ProviderName, put = __cordl_internal_set_ProviderName))::StringW ProviderName;
+  __declspec(property(get = get_Flags, put = set_Flags))::System::Security::Cryptography::CspProviderFlags Flags;
 
   /// @brief Field KeyContainerName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_KeyContainerName, put = __cordl_internal_set_KeyContainerName))::StringW KeyContainerName;
@@ -37,68 +31,78 @@ public:
   /// @brief Field KeyNumber, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_KeyNumber, put = __cordl_internal_set_KeyNumber)) int32_t KeyNumber;
 
+  /// @brief Field ProviderName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ProviderName, put = __cordl_internal_set_ProviderName))::StringW ProviderName;
+
+  /// @brief Field ProviderType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_ProviderType, put = __cordl_internal_set_ProviderType)) int32_t ProviderType;
+
   /// @brief Field m_flags, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_flags, put = __cordl_internal_set_m_flags)) int32_t m_flags;
 
-  __declspec(property(get = get_Flags, put = set_Flags))::System::Security::Cryptography::CspProviderFlags Flags;
-
-  constexpr int32_t& __cordl_internal_get_ProviderType();
-
-  constexpr int32_t const& __cordl_internal_get_ProviderType() const;
-
-  constexpr void __cordl_internal_set_ProviderType(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_ProviderName();
-
-  constexpr ::StringW const& __cordl_internal_get_ProviderName() const;
-
-  constexpr void __cordl_internal_set_ProviderName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_KeyContainerName();
-
-  constexpr ::StringW const& __cordl_internal_get_KeyContainerName() const;
-
-  constexpr void __cordl_internal_set_KeyContainerName(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_KeyNumber();
-
-  constexpr int32_t const& __cordl_internal_get_KeyNumber() const;
-
-  constexpr void __cordl_internal_set_KeyNumber(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_flags();
-
-  constexpr int32_t const& __cordl_internal_get_m_flags() const;
-
-  constexpr void __cordl_internal_set_m_flags(int32_t value);
-
-  /// @brief Method get_Flags, addr 0x245c244, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
-
-  /// @brief Method set_Flags, addr 0x245c24c, size 0xe8, virtual false, abstract: false, final false
-  inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
-
   static inline ::System::Security::Cryptography::CspParameters* New_ctor();
-
-  /// @brief Method .ctor, addr 0x245c334, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::System::Security::Cryptography::CspParameters* New_ctor(int32_t dwTypeIn);
 
-  /// @brief Method .ctor, addr 0x245c3a4, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t dwTypeIn);
-
   static inline ::System::Security::Cryptography::CspParameters* New_ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
-
-  /// @brief Method .ctor, addr 0x245c360, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
 
   static inline ::System::Security::Cryptography::CspParameters* New_ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName,
                                                                           ::System::Security::Cryptography::CspProviderFlags flags);
 
-  /// @brief Method .ctor, addr 0x245c3d8, size 0x50, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_KeyContainerName() const;
+
+  constexpr ::StringW& __cordl_internal_get_KeyContainerName();
+
+  constexpr int32_t const& __cordl_internal_get_KeyNumber() const;
+
+  constexpr int32_t& __cordl_internal_get_KeyNumber();
+
+  constexpr ::StringW const& __cordl_internal_get_ProviderName() const;
+
+  constexpr ::StringW& __cordl_internal_get_ProviderName();
+
+  constexpr int32_t const& __cordl_internal_get_ProviderType() const;
+
+  constexpr int32_t& __cordl_internal_get_ProviderType();
+
+  constexpr int32_t const& __cordl_internal_get_m_flags() const;
+
+  constexpr int32_t& __cordl_internal_get_m_flags();
+
+  constexpr void __cordl_internal_set_KeyContainerName(::StringW value);
+
+  constexpr void __cordl_internal_set_KeyNumber(int32_t value);
+
+  constexpr void __cordl_internal_set_ProviderName(::StringW value);
+
+  constexpr void __cordl_internal_set_ProviderType(int32_t value);
+
+  constexpr void __cordl_internal_set_m_flags(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25500a0, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2550110, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(int32_t dwTypeIn);
+
+  /// @brief Method .ctor, addr 0x25500cc, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
+
+  /// @brief Method .ctor, addr 0x2550144, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags);
 
+  /// @brief Method get_Flags, addr 0x254ffb0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
+
+  /// @brief Method set_Flags, addr 0x254ffb8, size 0xe8, virtual false, abstract: false, final false
+  inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CspParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CspParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CspParameters(CspParameters&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CspParameters(CspParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CspParameters();
-
-public:
   /// @brief Field ProviderType, offset: 0x10, size: 0x4, def value: None
   int32_t ___ProviderType;
 

@@ -13,8 +13,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBinding);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
 // CS Name: ::UnityEngine.UIElements::IBinding*
 class CORDL_TYPE IBinding {
 public:
@@ -22,11 +20,11 @@ public:
   /// @brief Method PreUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PreUpdate();
 
-  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Update();
-
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release();
+
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBinding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

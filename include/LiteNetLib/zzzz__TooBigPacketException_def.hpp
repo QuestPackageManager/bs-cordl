@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::LiteNetLib::TooBigPacketException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14160))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14161))
 // CS Name: ::LiteNetLib::TooBigPacketException*
 class CORDL_TYPE TooBigPacketException : public ::LiteNetLib::InvalidPacketException {
 public:
   // Declarations
   static inline ::LiteNetLib::TooBigPacketException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21fc348, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x21fc350, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x21fc358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235e298, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x235e2a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x235e2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TooBigPacketException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TooBigPacketException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TooBigPacketException(TooBigPacketException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TooBigPacketException(TooBigPacketException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TooBigPacketException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

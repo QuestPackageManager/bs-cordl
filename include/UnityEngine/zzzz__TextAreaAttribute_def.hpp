@@ -15,40 +15,44 @@ MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10179))
 // CS Name: ::UnityEngine::TextAreaAttribute*
 class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field minLines, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_minLines, put = __cordl_internal_set_minLines)) int32_t minLines;
-
   /// @brief Field maxLines, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_maxLines, put = __cordl_internal_set_maxLines)) int32_t maxLines;
 
-  constexpr int32_t& __cordl_internal_get_minLines();
-
-  constexpr int32_t const& __cordl_internal_get_minLines() const;
-
-  constexpr void __cordl_internal_set_minLines(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_maxLines();
-
-  constexpr int32_t const& __cordl_internal_get_maxLines() const;
-
-  constexpr void __cordl_internal_set_maxLines(int32_t value);
+  /// @brief Field minLines, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_minLines, put = __cordl_internal_set_minLines)) int32_t minLines;
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ccc22c, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::UnityEngine::TextAreaAttribute* New_ctor(int32_t minLines, int32_t maxLines);
 
-  /// @brief Method .ctor, addr 0x2ccc24c, size 0x2c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_maxLines() const;
+
+  constexpr int32_t& __cordl_internal_get_maxLines();
+
+  constexpr int32_t const& __cordl_internal_get_minLines() const;
+
+  constexpr int32_t& __cordl_internal_get_minLines();
+
+  constexpr void __cordl_internal_set_maxLines(int32_t value);
+
+  constexpr void __cordl_internal_set_minLines(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2dbe908, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2dbe928, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextAreaAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextAreaAttribute(TextAreaAttribute&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextAreaAttribute(TextAreaAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextAreaAttribute();
-
-public:
   /// @brief Field minLines, offset: 0x10, size: 0x4, def value: None
   int32_t ___minLines;
 

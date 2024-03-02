@@ -24,28 +24,28 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlElementWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12049))
 // CS Name: ::Newtonsoft.Json.Converters::XmlElementWrapper*
 class CORDL_TYPE XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
   // Declarations
+  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
+
   /// @brief Field _element, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__element, put = __cordl_internal_set__element))::System::Xml::XmlElement* _element;
-
-  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlElement"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlElement*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"
-  constexpr ::Newtonsoft::Json::Converters::IXmlElement* i___Newtonsoft__Json__Converters__IXmlElement() noexcept;
-
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+  /// @brief Method GetPrefixOfNamespace, addr 0x27aaa74, size 0x24, virtual true, abstract: false, final true
+  inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
+
+  static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
+
+  /// @brief Method SetAttributeNode, addr 0x27aa98c, size 0xe8, virtual true, abstract: false, final true
+  inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
   constexpr ::System::Xml::XmlElement*& __cordl_internal_get__element();
 
@@ -53,20 +53,24 @@ public:
 
   constexpr void __cordl_internal_set__element(::System::Xml::XmlElement* value);
 
-  static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
-
-  /// @brief Method .ctor, addr 0x26b9dac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27aa6b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x26ba084, size 0xe8, virtual true, abstract: false, final true
-  inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
-
-  /// @brief Method GetPrefixOfNamespace, addr 0x26ba16c, size 0x24, virtual true, abstract: false, final true
-  inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
-
-  /// @brief Method get_IsEmpty, addr 0x26ba190, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x27aaa98, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"
+  constexpr ::Newtonsoft::Json::Converters::IXmlElement* i___Newtonsoft__Json__Converters__IXmlElement() noexcept;
+
+  /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+  constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlElementWrapper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlElementWrapper(XmlElementWrapper&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlElementWrapper(XmlElementWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlElementWrapper();
-
-public:
   /// @brief Field _element, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlElement* ____element;
 

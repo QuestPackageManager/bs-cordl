@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Globalization::TextInfoToUpperData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3718))
 // CS Name: ::System.Globalization::TextInfoToUpperData*
 class CORDL_TYPE TextInfoToUpperData : public ::System::Object {
 public:
@@ -45,38 +43,44 @@ public:
   /// @brief Field range_a723_a78c, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_range_a723_a78c, put = setStaticF_range_a723_a78c))::ArrayW<char16_t, ::Array<char16_t>*> range_a723_a78c;
 
-  static inline void setStaticF_range_00e0_0586(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_00e0_0586();
-
-  static inline void setStaticF_range_1e01_1ff3(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_1e01_1ff3();
 
-  static inline void setStaticF_range_2170_2184(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2170_2184();
-
-  static inline void setStaticF_range_24d0_24e9(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_24d0_24e9();
 
-  static inline void setStaticF_range_2c30_2ce3(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2c30_2ce3();
-
-  static inline void setStaticF_range_2d00_2d25(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_2d00_2d25();
 
-  static inline void setStaticF_range_a641_a697(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_a641_a697();
-
-  static inline void setStaticF_range_a723_a78c(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_range_a723_a78c();
 
+  static inline void setStaticF_range_00e0_0586(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_1e01_1ff3(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2170_2184(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_24d0_24e9(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2c30_2ce3(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_2d00_2d25(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_a641_a697(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  static inline void setStaticF_range_a723_a78c(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextInfoToUpperData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextInfoToUpperData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInfoToUpperData(TextInfoToUpperData&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextInfoToUpperData(TextInfoToUpperData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextInfoToUpperData();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

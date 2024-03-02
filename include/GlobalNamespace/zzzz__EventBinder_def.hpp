@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: ::EventBinder*
 class CORDL_TYPE EventBinder : public ::System::Object {
 public:
@@ -29,23 +27,29 @@ public:
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes))::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
+  /// @brief Method Bind, addr 0x22551b0, size 0xcc, virtual false, abstract: false, final false
+  inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
+
+  /// @brief Method ClearAllBindings, addr 0x225527c, size 0x18c, virtual false, abstract: false, final false
+  inline void ClearAllBindings();
+
+  static inline ::GlobalNamespace::EventBinder* New_ctor();
+
   constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __cordl_internal_get__unsubscribes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __cordl_internal_get__unsubscribes() const;
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method Bind, addr 0x20f2584, size 0xcc, virtual false, abstract: false, final false
-  inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
-
-  /// @brief Method ClearAllBindings, addr 0x20f2650, size 0x18c, virtual false, abstract: false, final false
-  inline void ClearAllBindings();
-
-  static inline ::GlobalNamespace::EventBinder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x20f27dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255408, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBinder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBinder(EventBinder&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBinder(EventBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBinder();
-
-public:
   /// @brief Field _unsubscribes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Action*>* ____unsubscribes;
 

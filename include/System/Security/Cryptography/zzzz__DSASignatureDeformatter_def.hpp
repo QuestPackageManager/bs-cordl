@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDeformatter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2919))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
 // CS Name: ::System.Security.Cryptography::DSASignatureDeformatter*
 class CORDL_TYPE DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
@@ -35,37 +33,43 @@ public:
   /// @brief Field _oid, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid))::StringW _oid;
 
+  static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor();
+
+  static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+
+  /// @brief Method SetHashAlgorithm, addr 0x2551d30, size 0xd0, virtual true, abstract: false, final false
+  inline void SetHashAlgorithm(::StringW strName);
+
+  /// @brief Method SetKey, addr 0x2551c44, size 0xec, virtual true, abstract: false, final false
+  inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+
+  /// @brief Method VerifySignature, addr 0x2551e00, size 0xf4, virtual true, abstract: false, final false
+  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
+
   constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsaKey();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DSA*> const& __cordl_internal_get__dsaKey() const;
 
-  constexpr void __cordl_internal_set__dsaKey(::System::Security::Cryptography::DSA* value);
+  constexpr ::StringW const& __cordl_internal_get__oid() const;
 
   constexpr ::StringW& __cordl_internal_get__oid();
 
-  constexpr ::StringW const& __cordl_internal_get__oid() const;
+  constexpr void __cordl_internal_set__dsaKey(::System::Security::Cryptography::DSA* value);
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x245dd64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551ad0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
-
-  /// @brief Method .ctor, addr 0x245dde4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551b50, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetKey, addr 0x245ded8, size 0xec, virtual true, abstract: false, final false
-  inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DSASignatureDeformatter();
 
-  /// @brief Method SetHashAlgorithm, addr 0x245dfc4, size 0xd0, virtual true, abstract: false, final false
-  inline void SetHashAlgorithm(::StringW strName);
-
-  /// @brief Method VerifySignature, addr 0x245e094, size 0xf4, virtual true, abstract: false, final false
-  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureDeformatter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DSASignatureDeformatter(DSASignatureDeformatter&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DSASignatureDeformatter(DSASignatureDeformatter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DSASignatureDeformatter();
-
-public:
   /// @brief Field _dsaKey, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::DSA* ____dsaKey;
 

@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::UnityEngine::PreloadData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10273))
 // CS Name: ::UnityEngine::PreloadData*
 class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method PreloadDataDontStripMe, addr 0x2cdfdd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PreloadDataDontStripMe, addr 0x2dd2694, size 0x4, virtual false, abstract: false, final false
   inline void PreloadDataDontStripMe();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreloadData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreloadData(PreloadData&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PreloadData(PreloadData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreloadData();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

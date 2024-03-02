@@ -33,61 +33,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1628))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1643))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataList*
 class CORDL_TYPE PgpEncryptedDataList : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
-  /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
+  __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
+  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   __declspec(property(get = get_Item))::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Item[];
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+  /// @brief Field data, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
 
-  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
+  /// @brief Field list, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
+  /// @brief Method Get, addr 0x111e340, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Object* Get(int32_t index);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_list() const;
+  /// @brief Method GetEncryptedDataObjects, addr 0x111e53c, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
-  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& __cordl_internal_get_data();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& __cordl_internal_get_data() const;
 
+  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_list() const;
+
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::InputStreamPacket* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
+  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x10ace60, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x111dcc0, size 0x55c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Item, addr 0x10ad3ec, size 0xf4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
-
-  /// @brief Method Get, addr 0x10ad4e0, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Object* Get(int32_t index);
-
-  /// @brief Method get_Size, addr 0x10ad4e4, size 0xa4, virtual false, abstract: false, final false
-  inline int32_t get_Size();
-
-  /// @brief Method get_Count, addr 0x10ad588, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x111e3e8, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x10ad62c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x111e48c, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x10ad6dc, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
+  /// @brief Method get_Item, addr 0x111e24c, size 0xf4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
+  /// @brief Method get_Size, addr 0x111e344, size 0xa4, virtual false, abstract: false, final false
+  inline int32_t get_Size();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpEncryptedDataList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataList(PgpEncryptedDataList&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpEncryptedDataList(PgpEncryptedDataList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpEncryptedDataList();
-
-public:
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___list;
 

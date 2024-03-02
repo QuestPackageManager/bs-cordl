@@ -26,37 +26,35 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7511))
 // CS Name: ::IOVRAnchorComponent`1<T>*
 class CORDL_TYPE IOVRAnchorComponent_1 {
 public:
   // Declarations
-  __declspec(property(get = get_IsNull)) bool IsNull;
+  __declspec(property(get = get_Handle)) uint64_t Handle;
 
   __declspec(property(get = get_IsEnabled)) bool IsEnabled;
 
+  __declspec(property(get = get_IsNull)) bool IsNull;
+
   __declspec(property(get = get_Type))::GlobalNamespace::__OVRPlugin__SpaceComponentType Type;
 
-  __declspec(property(get = get_Handle)) uint64_t Handle;
-
-  /// @brief Method get_IsNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsNull();
-
-  /// @brief Method get_IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsEnabled();
+  /// @brief Method FromAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
   /// @brief Method SetEnabledAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enable, double_t timeout);
 
-  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();
-
   /// @brief Method get_Handle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method FromAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T FromAnchor(::GlobalNamespace::OVRAnchor anchor);
+  /// @brief Method get_IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsEnabled();
+
+  /// @brief Method get_IsNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsNull();
+
+  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOVRAnchorComponent_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

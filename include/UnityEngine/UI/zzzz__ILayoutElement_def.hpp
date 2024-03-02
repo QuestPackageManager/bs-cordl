@@ -15,25 +15,23 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutElement);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13084))
 // CS Name: ::UnityEngine.UI::ILayoutElement*
 class CORDL_TYPE ILayoutElement {
 public:
   // Declarations
-  __declspec(property(get = get_minWidth)) float_t minWidth;
-
-  __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
+  __declspec(property(get = get_flexibleHeight)) float_t flexibleHeight;
 
   __declspec(property(get = get_flexibleWidth)) float_t flexibleWidth;
 
+  __declspec(property(get = get_layoutPriority)) int32_t layoutPriority;
+
   __declspec(property(get = get_minHeight)) float_t minHeight;
+
+  __declspec(property(get = get_minWidth)) float_t minWidth;
 
   __declspec(property(get = get_preferredHeight)) float_t preferredHeight;
 
-  __declspec(property(get = get_flexibleHeight)) float_t flexibleHeight;
-
-  __declspec(property(get = get_layoutPriority)) int32_t layoutPriority;
+  __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
 
   /// @brief Method CalculateLayoutInputHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputHorizontal();
@@ -41,26 +39,26 @@ public:
   /// @brief Method CalculateLayoutInputVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method get_minWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_minWidth();
-
-  /// @brief Method get_preferredWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_preferredWidth();
+  /// @brief Method get_flexibleHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_flexibleHeight();
 
   /// @brief Method get_flexibleWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_flexibleWidth();
 
+  /// @brief Method get_layoutPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_layoutPriority();
+
   /// @brief Method get_minHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_minHeight();
+
+  /// @brief Method get_minWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_minWidth();
 
   /// @brief Method get_preferredHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_flexibleHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_flexibleHeight();
-
-  /// @brief Method get_layoutPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_layoutPriority();
+  /// @brief Method get_preferredWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_preferredWidth();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

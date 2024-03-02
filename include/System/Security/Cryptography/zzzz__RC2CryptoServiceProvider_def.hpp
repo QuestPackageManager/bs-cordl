@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2CryptoServiceProvider);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2947))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2948))
 // CS Name: ::System.Security.Cryptography::RC2CryptoServiceProvider*
 class CORDL_TYPE RC2CryptoServiceProvider : public ::System::Security::Cryptography::RC2 {
 public:
   // Declarations
+  __declspec(property(get = get_EffectiveKeySize)) int32_t EffectiveKeySize;
+
   /// @brief Field m_use40bitSalt, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_m_use40bitSalt, put = __cordl_internal_set_m_use40bitSalt)) bool m_use40bitSalt;
 
@@ -35,38 +35,42 @@ public:
   static __declspec(property(get = getStaticF_s_legalKeySizes,
                              put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
 
-  __declspec(property(get = get_EffectiveKeySize)) int32_t EffectiveKeySize;
+  /// @brief Method CreateDecryptor, addr 0x2554258, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  constexpr bool& __cordl_internal_get_m_use40bitSalt();
+  /// @brief Method CreateEncryptor, addr 0x2554184, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  constexpr bool const& __cordl_internal_get_m_use40bitSalt() const;
+  /// @brief Method GenerateIV, addr 0x25543a8, size 0x6c, virtual true, abstract: false, final false
+  inline void GenerateIV();
 
-  constexpr void __cordl_internal_set_m_use40bitSalt(bool value);
-
-  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
-  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+  /// @brief Method GenerateKey, addr 0x255432c, size 0x7c, virtual true, abstract: false, final false
+  inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::RC2CryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246029c, size 0x174, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_m_use40bitSalt() const;
+
+  constexpr bool& __cordl_internal_get_m_use40bitSalt();
+
+  constexpr void __cordl_internal_set_m_use40bitSalt(bool value);
+
+  /// @brief Method .ctor, addr 0x2554008, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x2460410, size 0x8, virtual true, abstract: false, final false
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+
+  /// @brief Method get_EffectiveKeySize, addr 0x255417c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method CreateEncryptor, addr 0x2460418, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
+  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method CreateDecryptor, addr 0x24604ec, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RC2CryptoServiceProvider();
 
-  /// @brief Method GenerateKey, addr 0x24605c0, size 0x7c, virtual true, abstract: false, final false
-  inline void GenerateKey();
-
-  /// @brief Method GenerateIV, addr 0x246063c, size 0x6c, virtual true, abstract: false, final false
-  inline void GenerateIV();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RC2CryptoServiceProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RC2CryptoServiceProvider(RC2CryptoServiceProvider&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RC2CryptoServiceProvider(RC2CryptoServiceProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RC2CryptoServiceProvider();
-
-public:
   /// @brief Field m_use40bitSalt, offset: 0x48, size: 0x1, def value: None
   bool ___m_use40bitSalt;
 

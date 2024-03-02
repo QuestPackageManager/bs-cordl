@@ -26,97 +26,101 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(939))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Dstu7564Mac*
 class CORDL_TYPE Dstu7564Mac : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+
   /// @brief Field engine, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* engine;
-
-  /// @brief Field macSize, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field inputLength, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_inputLength, put = __cordl_internal_set_inputLength)) uint64_t inputLength;
 
-  /// @brief Field paddedKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_paddedKey, put = __cordl_internal_set_paddedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> paddedKey;
-
   /// @brief Field invertedKey, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_invertedKey, put = __cordl_internal_set_invertedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> invertedKey;
 
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  /// @brief Field macSize, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
+
+  /// @brief Field paddedKey, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_paddedKey, put = __cordl_internal_set_paddedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> paddedKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
-  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
+  /// @brief Method BlockUpdate, addr 0xf7cf00, size 0x118, virtual true, abstract: false, final true
+  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
+
+  /// @brief Method DoFinal, addr 0xf7d050, size 0x12c, virtual true, abstract: false, final true
+  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+
+  /// @brief Method GetMacSize, addr 0xf7cef8, size 0x8, virtual true, abstract: false, final true
+  inline int32_t GetMacSize();
+
+  /// @brief Method Init, addr 0xf7cbc8, size 0x17c, virtual true, abstract: false, final true
+  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac* New_ctor(int32_t macSizeBits);
+
+  /// @brief Method Pad, addr 0xf7d17c, size 0x118, virtual false, abstract: false, final false
+  inline void Pad();
+
+  /// @brief Method PadKey, addr 0xf7cd44, size 0x1b4, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+
+  /// @brief Method Reset, addr 0xf7d294, size 0x5c, virtual true, abstract: false, final true
+  inline void Reset();
+
+  /// @brief Method Update, addr 0xf7d018, size 0x38, virtual true, abstract: false, final true
+  inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*& __cordl_internal_get_engine();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* value);
-
-  constexpr int32_t& __cordl_internal_get_macSize();
-
-  constexpr int32_t const& __cordl_internal_get_macSize() const;
-
-  constexpr void __cordl_internal_set_macSize(int32_t value);
+  constexpr uint64_t const& __cordl_internal_get_inputLength() const;
 
   constexpr uint64_t& __cordl_internal_get_inputLength();
 
-  constexpr uint64_t const& __cordl_internal_get_inputLength() const;
-
-  constexpr void __cordl_internal_set_inputLength(uint64_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_paddedKey();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_paddedKey() const;
-
-  constexpr void __cordl_internal_set_paddedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_invertedKey() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_invertedKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_invertedKey() const;
+  constexpr int32_t const& __cordl_internal_get_macSize() const;
+
+  constexpr int32_t& __cordl_internal_get_macSize();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_paddedKey() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_paddedKey();
+
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* value);
+
+  constexpr void __cordl_internal_set_inputLength(uint64_t value);
 
   constexpr void __cordl_internal_set_invertedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_AlgorithmName, addr 0xf0bc98, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_AlgorithmName();
+  constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac* New_ctor(int32_t macSizeBits);
+  constexpr void __cordl_internal_set_paddedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xf0bcd8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf7cb38, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t macSizeBits);
 
-  /// @brief Method Init, addr 0xf0bd68, size 0x17c, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+  /// @brief Method get_AlgorithmName, addr 0xf7caf8, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetMacSize, addr 0xf0c098, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetMacSize();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+  constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0xf0c0a0, size 0x118, virtual true, abstract: false, final true
-  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Dstu7564Mac();
 
-  /// @brief Method Update, addr 0xf0c1b8, size 0x38, virtual true, abstract: false, final true
-  inline void Update(uint8_t input);
-
-  /// @brief Method DoFinal, addr 0xf0c1f0, size 0x12c, virtual true, abstract: false, final true
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
-
-  /// @brief Method Reset, addr 0xf0c434, size 0x5c, virtual true, abstract: false, final true
-  inline void Reset();
-
-  /// @brief Method Pad, addr 0xf0c31c, size 0x118, virtual false, abstract: false, final false
-  inline void Pad();
-
-  /// @brief Method PadKey, addr 0xf0bee4, size 0x1b4, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Mac", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dstu7564Mac(Dstu7564Mac&&) = delete;
@@ -125,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Dstu7564Mac(Dstu7564Mac const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Dstu7564Mac();
-
-public:
   /// @brief Field engine, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* ___engine;
 

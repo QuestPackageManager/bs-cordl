@@ -18,8 +18,6 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11028))
 // CS Name: ::Zenject::IDespawnableMemoryPool`1<TValue>*
 class CORDL_TYPE IDespawnableMemoryPool_1 {
 public:
@@ -27,11 +25,11 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Convert to "::Zenject::IMemoryPool"
-  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
-
   /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Despawn(TValue item);
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDespawnableMemoryPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

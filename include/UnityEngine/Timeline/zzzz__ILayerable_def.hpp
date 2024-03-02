@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ILayerable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13899))
 // CS Name: ::UnityEngine.Timeline::ILayerable*
 class CORDL_TYPE ILayerable {
 public:

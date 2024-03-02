@@ -27,98 +27,102 @@ MARK_REF_PTR_T(::HMUI::ButtonSpriteSwap);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13619))
 // CS Name: ::HMUI::ButtonSpriteSwap*
 class CORDL_TYPE ButtonSpriteSwap : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _normalStateSprite, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalStateSprite, put = __cordl_internal_set__normalStateSprite))::UnityW<::UnityEngine::Sprite> _normalStateSprite;
-
-  /// @brief Field _highlightStateSprite, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightStateSprite, put = __cordl_internal_set__highlightStateSprite))::UnityW<::UnityEngine::Sprite> _highlightStateSprite;
-
-  /// @brief Field _pressedStateSprite, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite))::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
-
-  /// @brief Field _disabledStateSprite, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledStateSprite, put = __cordl_internal_set__disabledStateSprite))::UnityW<::UnityEngine::Sprite> _disabledStateSprite;
-
   /// @brief Field _button, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::HMUI::NoTransitionsButton> _button;
-
-  /// @brief Field _images, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__images, put = __cordl_internal_set__images))::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> _images;
 
   /// @brief Field _didStart, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__didStart, put = __cordl_internal_set__didStart)) bool _didStart;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__normalStateSprite();
+  /// @brief Field _disabledStateSprite, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__disabledStateSprite, put = __cordl_internal_set__disabledStateSprite))::UnityW<::UnityEngine::Sprite> _disabledStateSprite;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__normalStateSprite() const;
+  /// @brief Field _highlightStateSprite, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightStateSprite, put = __cordl_internal_set__highlightStateSprite))::UnityW<::UnityEngine::Sprite> _highlightStateSprite;
 
-  constexpr void __cordl_internal_set__normalStateSprite(::UnityW<::UnityEngine::Sprite> value);
+  /// @brief Field _images, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__images, put = __cordl_internal_set__images))::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> _images;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__highlightStateSprite();
+  /// @brief Field _normalStateSprite, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__normalStateSprite, put = __cordl_internal_set__normalStateSprite))::UnityW<::UnityEngine::Sprite> _normalStateSprite;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__highlightStateSprite() const;
+  /// @brief Field _pressedStateSprite, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite))::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
 
-  constexpr void __cordl_internal_set__highlightStateSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__pressedStateSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__pressedStateSprite() const;
-
-  constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__disabledStateSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__disabledStateSprite() const;
-
-  constexpr void __cordl_internal_set__disabledStateSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::HMUI::NoTransitionsButton>& __cordl_internal_get__button();
-
-  constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
-
-  constexpr void __cordl_internal_set__button(::UnityW<::HMUI::NoTransitionsButton> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*>& __cordl_internal_get__images();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__images() const;
-
-  constexpr void __cordl_internal_set__images(::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> value);
-
-  constexpr bool& __cordl_internal_get__didStart();
-
-  constexpr bool const& __cordl_internal_get__didStart() const;
-
-  constexpr void __cordl_internal_set__didStart(bool value);
-
-  /// @brief Method Awake, addr 0x213028c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22911d8, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start, addr 0x21303b8, size 0x2c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnEnable, addr 0x2130408, size 0x24, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDestroy, addr 0x213042c, size 0xc0, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x21305a0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x22914ec, size 0xcc, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
-
-  /// @brief Method RefreshVisualState, addr 0x21303e4, size 0x24, virtual false, abstract: false, final false
-  inline void RefreshVisualState();
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x213066c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2291378, size 0xc0, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnEnable, addr 0x2291354, size 0x24, virtual true, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method RefreshVisualState, addr 0x2291330, size 0x24, virtual false, abstract: false, final false
+  inline void RefreshVisualState();
+
+  /// @brief Method Start, addr 0x2291304, size 0x2c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
+
+  constexpr ::UnityW<::HMUI::NoTransitionsButton>& __cordl_internal_get__button();
+
+  constexpr bool const& __cordl_internal_get__didStart() const;
+
+  constexpr bool& __cordl_internal_get__didStart();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__disabledStateSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__disabledStateSprite();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__highlightStateSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__highlightStateSprite();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__images() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*>& __cordl_internal_get__images();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__normalStateSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__normalStateSprite();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__pressedStateSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__pressedStateSprite();
+
+  constexpr void __cordl_internal_set__button(::UnityW<::HMUI::NoTransitionsButton> value);
+
+  constexpr void __cordl_internal_set__didStart(bool value);
+
+  constexpr void __cordl_internal_set__disabledStateSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__highlightStateSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__images(::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> value);
+
+  constexpr void __cordl_internal_set__normalStateSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  /// @brief Method .ctor, addr 0x22915b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ButtonSpriteSwap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonSpriteSwap(ButtonSpriteSwap&&) = delete;
@@ -127,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonSpriteSwap(ButtonSpriteSwap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonSpriteSwap();
-
-public:
   /// @brief Field _normalStateSprite, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____normalStateSprite;
 

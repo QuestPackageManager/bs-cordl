@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImageDataFormat);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9716))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImageDataFormat
 struct CORDL_TYPE HAPI_ImageDataFormat {
 public:
@@ -40,30 +38,23 @@ public:
     return static_cast<__HAPI_ImageDataFormat_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ImageDataFormat(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ImageDataFormat();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ImageDataFormat(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_IMAGE_DATA_UNKNOWN value: static_cast<int32_t>(0xffffffff)
-  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_UNKNOWN;
-
-  /// @brief Field HAPI_IMAGE_DATA_INT8 value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT8;
-
-  /// @brief Field HAPI_IMAGE_DATA_INT16 value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT16;
-
-  /// @brief Field HAPI_IMAGE_DATA_INT32 value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT32;
+  /// @brief Field HAPI_IMAGE_DATA_DEFAULT value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_DEFAULT;
 
   /// @brief Field HAPI_IMAGE_DATA_FLOAT16 value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT16;
@@ -71,11 +62,23 @@ public:
   /// @brief Field HAPI_IMAGE_DATA_FLOAT32 value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_FLOAT32;
 
+  /// @brief Field HAPI_IMAGE_DATA_INT16 value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT16;
+
+  /// @brief Field HAPI_IMAGE_DATA_INT32 value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT32;
+
+  /// @brief Field HAPI_IMAGE_DATA_INT8 value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_INT8;
+
   /// @brief Field HAPI_IMAGE_DATA_MAX value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_MAX;
 
-  /// @brief Field HAPI_IMAGE_DATA_DEFAULT value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_DEFAULT;
+  /// @brief Field HAPI_IMAGE_DATA_UNKNOWN value: static_cast<int32_t>(0xffffffff)
+  static ::HoudiniEngineUnity::HAPI_ImageDataFormat const HAPI_IMAGE_DATA_UNKNOWN;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

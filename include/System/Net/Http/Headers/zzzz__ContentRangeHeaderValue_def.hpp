@@ -27,13 +27,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ContentRangeHeaderValue);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14664)) CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
+// CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
 class CORDL_TYPE ContentRangeHeaderValue : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field unit, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_unit, put = __cordl_internal_set_unit))::StringW unit;
+  __declspec(property(get = get_From, put = set_From))::System::Nullable_1<int64_t> From;
+
+  __declspec(property(get = get_Length, put = set_Length))::System::Nullable_1<int64_t> Length;
+
+  __declspec(property(get = get_To, put = set_To))::System::Nullable_1<int64_t> To;
+
+  __declspec(property(get = get_Unit))::StringW Unit;
 
   /// @brief Field <From>k__BackingField, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get__From_k__BackingField, put = __cordl_internal_set__From_k__BackingField))::System::Nullable_1<int64_t> _From_k__BackingField;
@@ -44,85 +48,86 @@ public:
   /// @brief Field <To>k__BackingField, offset 0x38, size 0x10
   __declspec(property(get = __cordl_internal_get__To_k__BackingField, put = __cordl_internal_set__To_k__BackingField))::System::Nullable_1<int64_t> _To_k__BackingField;
 
-  __declspec(property(get = get_From, put = set_From))::System::Nullable_1<int64_t> From;
-
-  __declspec(property(get = get_Length, put = set_Length))::System::Nullable_1<int64_t> Length;
-
-  __declspec(property(get = get_To, put = set_To))::System::Nullable_1<int64_t> To;
-
-  __declspec(property(get = get_Unit))::StringW Unit;
+  /// @brief Field unit, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_unit, put = __cordl_internal_set_unit))::StringW unit;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Method Equals, addr 0x2921ae0, size 0x148, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::StringW& __cordl_internal_get_unit();
-
-  constexpr ::StringW const& __cordl_internal_get_unit() const;
-
-  constexpr void __cordl_internal_set_unit(::StringW value);
-
-  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__From_k__BackingField();
-
-  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__From_k__BackingField(::System::Nullable_1<int64_t> value);
-
-  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__Length_k__BackingField();
-
-  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__Length_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Length_k__BackingField(::System::Nullable_1<int64_t> value);
-
-  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__To_k__BackingField();
-
-  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__To_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
+  /// @brief Method GetHashCode, addr 0x2921c28, size 0xec, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentRangeHeaderValue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2837ef4, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_From, addr 0x2837f44, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int64_t> get_From();
-
-  /// @brief Method set_From, addr 0x2837f50, size 0x8, virtual false, abstract: false, final false
-  inline void set_From(::System::Nullable_1<int64_t> value);
-
-  /// @brief Method get_Length, addr 0x2837f58, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int64_t> get_Length();
-
-  /// @brief Method set_Length, addr 0x2837f64, size 0x8, virtual false, abstract: false, final false
-  inline void set_Length(::System::Nullable_1<int64_t> value);
-
-  /// @brief Method get_To, addr 0x2837f6c, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int64_t> get_To();
-
-  /// @brief Method set_To, addr 0x2837f78, size 0x8, virtual false, abstract: false, final false
-  inline void set_To(::System::Nullable_1<int64_t> value);
-
-  /// @brief Method get_Unit, addr 0x2837f80, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Unit();
-
-  /// @brief Method System.ICloneable.Clone, addr 0x2837f88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2921ad8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals, addr 0x2837f90, size 0x148, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x28380d8, size 0xec, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method TryParse, addr 0x28381c4, size 0x3dc, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
-
-  /// @brief Method ToString, addr 0x2838684, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29221d4, size 0x260, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// @brief Method TryParse, addr 0x2921d14, size 0x3dc, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
+
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__From_k__BackingField();
+
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__Length_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__Length_k__BackingField();
+
+  constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__To_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<int64_t>& __cordl_internal_get__To_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get_unit() const;
+
+  constexpr ::StringW& __cordl_internal_get_unit();
+
+  constexpr void __cordl_internal_set__From_k__BackingField(::System::Nullable_1<int64_t> value);
+
+  constexpr void __cordl_internal_set__Length_k__BackingField(::System::Nullable_1<int64_t> value);
+
+  constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
+
+  constexpr void __cordl_internal_set_unit(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2921a44, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_From, addr 0x2921a94, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int64_t> get_From();
+
+  /// @brief Method get_Length, addr 0x2921aa8, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int64_t> get_Length();
+
+  /// @brief Method get_To, addr 0x2921abc, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int64_t> get_To();
+
+  /// @brief Method get_Unit, addr 0x2921ad0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Unit();
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
+  /// @brief Method set_From, addr 0x2921aa0, size 0x8, virtual false, abstract: false, final false
+  inline void set_From(::System::Nullable_1<int64_t> value);
+
+  /// @brief Method set_Length, addr 0x2921ab4, size 0x8, virtual false, abstract: false, final false
+  inline void set_Length(::System::Nullable_1<int64_t> value);
+
+  /// @brief Method set_To, addr 0x2921ac8, size 0x8, virtual false, abstract: false, final false
+  inline void set_To(::System::Nullable_1<int64_t> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContentRangeHeaderValue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentRangeHeaderValue(ContentRangeHeaderValue&&) = delete;
@@ -131,12 +136,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContentRangeHeaderValue(ContentRangeHeaderValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContentRangeHeaderValue();
-
-public:
   /// @brief Field unit, offset: 0x10, size: 0x8, def value: None
   ::StringW ___unit;
 

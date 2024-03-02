@@ -51,57 +51,27 @@ MARK_REF_PTR_T(::GlobalNamespace::LightSwitchEventEffect);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4954))
 // CS Name: ::LightSwitchEventEffect*
 class CORDL_TYPE LightSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _lightColor0, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColor0, put = __cordl_internal_set__lightColor0))::UnityW<::GlobalNamespace::ColorSO> _lightColor0;
+  /// @brief Field _alternativeFromColor, offset 0x90, size 0x10
+  __declspec(property(get = __cordl_internal_get__alternativeFromColor, put = __cordl_internal_set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
 
-  /// @brief Field _lightColor1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColor1, put = __cordl_internal_set__lightColor1))::UnityW<::GlobalNamespace::ColorSO> _lightColor1;
-
-  /// @brief Field _highlightColor0, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor0, put = __cordl_internal_set__highlightColor0))::UnityW<::GlobalNamespace::ColorSO> _highlightColor0;
-
-  /// @brief Field _highlightColor1, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor1, put = __cordl_internal_set__highlightColor1))::UnityW<::GlobalNamespace::ColorSO> _highlightColor1;
-
-  /// @brief Field _lightColor0Boost, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColor0Boost, put = __cordl_internal_set__lightColor0Boost))::UnityW<::GlobalNamespace::ColorSO> _lightColor0Boost;
-
-  /// @brief Field _lightColor1Boost, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColor1Boost, put = __cordl_internal_set__lightColor1Boost))::UnityW<::GlobalNamespace::ColorSO> _lightColor1Boost;
-
-  /// @brief Field _highlightColor0Boost, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor0Boost, put = __cordl_internal_set__highlightColor0Boost))::UnityW<::GlobalNamespace::ColorSO> _highlightColor0Boost;
-
-  /// @brief Field _highlightColor1Boost, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor1Boost, put = __cordl_internal_set__highlightColor1Boost))::UnityW<::GlobalNamespace::ColorSO> _highlightColor1Boost;
-
-  /// @brief Field _offColorIntensity, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__offColorIntensity, put = __cordl_internal_set__offColorIntensity)) float_t _offColorIntensity;
-
-  /// @brief Field _lightOnStart, offset 0x5c, size 0x1
-  __declspec(property(get = __cordl_internal_get__lightOnStart, put = __cordl_internal_set__lightOnStart)) bool _lightOnStart;
-
-  /// @brief Field _lightsID, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__lightsID, put = __cordl_internal_set__lightsID)) int32_t _lightsID;
-
-  /// @brief Field _event, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
-
-  /// @brief Field _lightManager, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
+  /// @brief Field _alternativeToColor, offset 0xa0, size 0x10
+  __declspec(property(get = __cordl_internal_get__alternativeToColor, put = __cordl_internal_set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
 
   /// @brief Field _beatmapCallbacksController, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _tweeningManager, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
+  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
+
+  /// @brief Field _colorChangeBeatmapDataCallbackWrapper, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__colorChangeBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorChangeBeatmapDataCallbackWrapper;
 
   /// @brief Field _colorManager, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
@@ -109,200 +79,234 @@ public:
   /// @brief Field _colorTween, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__colorTween, put = __cordl_internal_set__colorTween))::Tweening::ColorTween* _colorTween;
 
-  /// @brief Field _alternativeFromColor, offset 0x90, size 0x10
-  __declspec(property(get = __cordl_internal_get__alternativeFromColor, put = __cordl_internal_set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
+  /// @brief Field _event, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
 
-  /// @brief Field _alternativeToColor, offset 0xa0, size 0x10
-  __declspec(property(get = __cordl_internal_get__alternativeToColor, put = __cordl_internal_set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
+  /// @brief Field _highlightColor0, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightColor0, put = __cordl_internal_set__highlightColor0))::UnityW<::GlobalNamespace::ColorSO> _highlightColor0;
+
+  /// @brief Field _highlightColor0Boost, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightColor0Boost, put = __cordl_internal_set__highlightColor0Boost))::UnityW<::GlobalNamespace::ColorSO> _highlightColor0Boost;
+
+  /// @brief Field _highlightColor1, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightColor1, put = __cordl_internal_set__highlightColor1))::UnityW<::GlobalNamespace::ColorSO> _highlightColor1;
+
+  /// @brief Field _highlightColor1Boost, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightColor1Boost, put = __cordl_internal_set__highlightColor1Boost))::UnityW<::GlobalNamespace::ColorSO> _highlightColor1Boost;
+
+  /// @brief Field _lightColor0, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightColor0, put = __cordl_internal_set__lightColor0))::UnityW<::GlobalNamespace::ColorSO> _lightColor0;
+
+  /// @brief Field _lightColor0Boost, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightColor0Boost, put = __cordl_internal_set__lightColor0Boost))::UnityW<::GlobalNamespace::ColorSO> _lightColor0Boost;
+
+  /// @brief Field _lightColor1, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightColor1, put = __cordl_internal_set__lightColor1))::UnityW<::GlobalNamespace::ColorSO> _lightColor1;
+
+  /// @brief Field _lightColor1Boost, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightColor1Boost, put = __cordl_internal_set__lightColor1Boost))::UnityW<::GlobalNamespace::ColorSO> _lightColor1Boost;
+
+  /// @brief Field _lightManager, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
+
+  /// @brief Field _lightOnStart, offset 0x5c, size 0x1
+  __declspec(property(get = __cordl_internal_get__lightOnStart, put = __cordl_internal_set__lightOnStart)) bool _lightOnStart;
+
+  /// @brief Field _lightsID, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__lightsID, put = __cordl_internal_set__lightsID)) int32_t _lightsID;
+
+  /// @brief Field _offColorIntensity, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__offColorIntensity, put = __cordl_internal_set__offColorIntensity)) float_t _offColorIntensity;
+
+  /// @brief Field _tweeningManager, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
   /// @brief Field _usingBoostColors, offset 0xb0, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Field _colorChangeBeatmapDataCallbackWrapper, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__colorChangeBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorChangeBeatmapDataCallbackWrapper;
-
-  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
+  __declspec(property(get = get_eventType))::GlobalNamespace::BasicBeatmapEventType eventType;
 
   __declspec(property(get = get_lightsId)) int32_t lightsId;
 
-  __declspec(property(get = get_eventType))::GlobalNamespace::BasicBeatmapEventType eventType;
+  /// @brief Method Awake, addr 0x243ba10, size 0x1cc, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor0();
+  /// @brief Method CheckNextEventForFade, addr 0x243c1f0, size 0x218, virtual false, abstract: false, final false
+  inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor0() const;
+  /// @brief Method GetHighlightColor, addr 0x243c4a4, size 0x9c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
 
-  constexpr void __cordl_internal_set__lightColor0(::UnityW<::GlobalNamespace::ColorSO> value);
+  /// @brief Method GetNormalColor, addr 0x243c408, size 0x9c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor1();
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x243c540, size 0xcc, virtual false, abstract: false, final false
+  inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor1() const;
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x243be84, size 0x348, virtual false, abstract: false, final false
+  inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr void __cordl_internal_set__lightColor1(::UnityW<::GlobalNamespace::ColorSO> value);
+  static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor0();
+  /// @brief Method OnDestroy, addr 0x243bdd4, size 0xb0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor0() const;
+  /// @brief Method SetColor, addr 0x243c1cc, size 0x24, virtual false, abstract: false, final false
+  inline void SetColor(::UnityEngine::Color color);
 
-  constexpr void __cordl_internal_set__highlightColor0(::UnityW<::GlobalNamespace::ColorSO> value);
+  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x243bbdc, size 0x38, virtual false, abstract: false, final false
+  inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor1();
+  /// @brief Method Start, addr 0x243bc14, size 0x1c0, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
 
-  constexpr void __cordl_internal_set__highlightColor1(::UnityW<::GlobalNamespace::ColorSO> value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeFromColor();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor0Boost();
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeToColor() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor0Boost() const;
-
-  constexpr void __cordl_internal_set__lightColor0Boost(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor1Boost();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor1Boost() const;
-
-  constexpr void __cordl_internal_set__lightColor1Boost(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor0Boost();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor0Boost() const;
-
-  constexpr void __cordl_internal_set__highlightColor0Boost(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor1Boost();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor1Boost() const;
-
-  constexpr void __cordl_internal_set__highlightColor1Boost(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr float_t& __cordl_internal_get__offColorIntensity();
-
-  constexpr float_t const& __cordl_internal_get__offColorIntensity() const;
-
-  constexpr void __cordl_internal_set__offColorIntensity(float_t value);
-
-  constexpr bool& __cordl_internal_get__lightOnStart();
-
-  constexpr bool const& __cordl_internal_get__lightOnStart() const;
-
-  constexpr void __cordl_internal_set__lightOnStart(bool value);
-
-  constexpr int32_t& __cordl_internal_get__lightsID();
-
-  constexpr int32_t const& __cordl_internal_get__lightsID() const;
-
-  constexpr void __cordl_internal_set__lightsID(int32_t value);
-
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
-
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
-
-  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
-
-  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
-
-  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeToColor();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper();
 
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
-
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
-
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
-
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
-
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
-
-  constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTween() const;
-
-  constexpr void __cordl_internal_set__colorTween(::Tweening::ColorTween* value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeFromColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
-
-  constexpr void __cordl_internal_set__alternativeFromColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeToColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeToColor() const;
-
-  constexpr void __cordl_internal_set__alternativeToColor(::UnityEngine::Color value);
-
-  constexpr bool& __cordl_internal_get__usingBoostColors();
-
-  constexpr bool const& __cordl_internal_get__usingBoostColors() const;
-
-  constexpr void __cordl_internal_set__usingBoostColors(bool value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper() const;
 
-  constexpr void __cordl_internal_set__colorChangeBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTween() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor0() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor0();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor0Boost() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor0Boost();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor1() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor1();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightColor1Boost() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightColor1Boost();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor0() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor0();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor0Boost() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor0Boost();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor1() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor1();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__lightColor1Boost() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__lightColor1Boost();
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
+
+  constexpr bool const& __cordl_internal_get__lightOnStart() const;
+
+  constexpr bool& __cordl_internal_get__lightOnStart();
+
+  constexpr int32_t const& __cordl_internal_get__lightsID() const;
+
+  constexpr int32_t& __cordl_internal_get__lightsID();
+
+  constexpr float_t const& __cordl_internal_get__offColorIntensity() const;
+
+  constexpr float_t& __cordl_internal_get__offColorIntensity();
+
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr bool const& __cordl_internal_get__usingBoostColors() const;
+
+  constexpr bool& __cordl_internal_get__usingBoostColors();
+
+  constexpr void __cordl_internal_set__alternativeFromColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__alternativeToColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method get_lightsId, addr 0x23ad984, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lightsId();
+  constexpr void __cordl_internal_set__colorChangeBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method get_eventType, addr 0x23ad98c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Awake, addr 0x23ad994, size 0x1cc, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__colorTween(::Tweening::ColorTween* value);
 
-  /// @brief Method Start, addr 0x23adb98, size 0x1c0, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method OnDestroy, addr 0x23add58, size 0xb0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__highlightColor0(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x23ade08, size 0x348, virtual false, abstract: false, final false
-  inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__highlightColor0Boost(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x23ae4c4, size 0xcc, virtual false, abstract: false, final false
-  inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
+  constexpr void __cordl_internal_set__highlightColor1(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x23adb60, size 0x38, virtual false, abstract: false, final false
-  inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
+  constexpr void __cordl_internal_set__highlightColor1Boost(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method CheckNextEventForFade, addr 0x23ae174, size 0x218, virtual false, abstract: false, final false
-  inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__lightColor0(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method GetNormalColor, addr 0x23ae38c, size 0x9c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
+  constexpr void __cordl_internal_set__lightColor0Boost(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method GetHighlightColor, addr 0x23ae428, size 0x9c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
+  constexpr void __cordl_internal_set__lightColor1(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method SetColor, addr 0x23ae150, size 0x24, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color color);
+  constexpr void __cordl_internal_set__lightColor1Boost(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x23ae590, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__lightOnStart(bool value);
+
+  constexpr void __cordl_internal_set__lightsID(int32_t value);
+
+  constexpr void __cordl_internal_set__offColorIntensity(float_t value);
+
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
+
+  constexpr void __cordl_internal_set__usingBoostColors(bool value);
+
+  /// @brief Method .ctor, addr 0x243c60c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_eventType, addr 0x243ba08, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
+
+  /// @brief Method get_lightsId, addr 0x243ba00, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lightsId();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightSwitchEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightSwitchEventEffect(LightSwitchEventEffect&&) = delete;
@@ -311,12 +315,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightSwitchEventEffect(LightSwitchEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightSwitchEventEffect();
-
-public:
   /// @brief Field _lightColor0, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;
 

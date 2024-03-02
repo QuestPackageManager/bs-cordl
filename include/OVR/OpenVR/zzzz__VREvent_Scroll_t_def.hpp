@@ -16,19 +16,17 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Scroll_t);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8668))
 // CS Name: ::OVR.OpenVR::VREvent_Scroll_t
 struct CORDL_TYPE VREvent_Scroll_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "xdelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ydelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "repeatCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VREvent_Scroll_t(float_t xdelta, float_t ydelta, uint32_t repeatCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_Scroll_t();
+
+  // Ctor Parameters [CppParam { name: "xdelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ydelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "repeatCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VREvent_Scroll_t(float_t xdelta, float_t ydelta, uint32_t repeatCount) noexcept;
 
   /// @brief Field xdelta, offset: 0x0, size: 0x4, def value: None
   float_t xdelta;

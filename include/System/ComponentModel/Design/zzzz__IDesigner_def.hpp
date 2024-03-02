@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDesigner);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9498))
 // CS Name: ::System.ComponentModel.Design::IDesigner*
 class CORDL_TYPE IDesigner {
 public:

@@ -20,14 +20,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(915))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::OpenBsdBCrypt*
 class CORDL_TYPE OpenBsdBCrypt : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field EncodingTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncodingTable, put = setStaticF_EncodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> EncodingTable;
+  /// @brief Field AllowedVersions, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_AllowedVersions, put = setStaticF_AllowedVersions))::Org::BouncyCastle::Utilities::Collections::ISet* AllowedVersions;
 
   /// @brief Field DecodingTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DecodingTable, put = setStaticF_DecodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> DecodingTable;
@@ -35,48 +33,54 @@ public:
   /// @brief Field DefaultVersion, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DefaultVersion, put = setStaticF_DefaultVersion))::StringW DefaultVersion;
 
-  /// @brief Field AllowedVersions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AllowedVersions, put = setStaticF_AllowedVersions))::Org::BouncyCastle::Utilities::Collections::ISet* AllowedVersions;
+  /// @brief Field EncodingTable, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_EncodingTable, put = setStaticF_EncodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> EncodingTable;
 
-  static inline void setStaticF_EncodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method CheckPassword, addr 0xf72dbc, size 0x528, virtual false, abstract: false, final false
+  static inline bool CheckPassword(::StringW bcryptString, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EncodingTable();
+  /// @brief Method CreateBcryptString, addr 0xf72350, size 0x2e4, virtual false, abstract: false, final false
+  static inline ::StringW CreateBcryptString(::StringW version, ::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  static inline void setStaticF_DecodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method DecodeSaltString, addr 0xf732e4, size 0x3d4, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeSaltString(::StringW saltString);
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DecodingTable();
+  /// @brief Method EncodeData, addr 0xf72634, size 0x35c, virtual false, abstract: false, final false
+  static inline ::StringW EncodeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  static inline void setStaticF_DefaultVersion(::StringW value);
+  /// @brief Method Generate, addr 0xf72990, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW Generate(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  static inline ::StringW getStaticF_DefaultVersion();
-
-  static inline void setStaticF_AllowedVersions(::Org::BouncyCastle::Utilities::Collections::ISet* value);
-
-  static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_AllowedVersions();
+  /// @brief Method Generate, addr 0xf72a08, size 0x3b4, virtual false, abstract: false, final false
+  static inline ::StringW Generate(::StringW version, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf014e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf72348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateBcryptString, addr 0xf014f0, size 0x2e4, virtual false, abstract: false, final false
-  static inline ::StringW CreateBcryptString(::StringW version, ::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
+  static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_AllowedVersions();
 
-  /// @brief Method Generate, addr 0xf01b30, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW Generate(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DecodingTable();
 
-  /// @brief Method Generate, addr 0xf01ba8, size 0x3b4, virtual false, abstract: false, final false
-  static inline ::StringW Generate(::StringW version, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
+  static inline ::StringW getStaticF_DefaultVersion();
 
-  /// @brief Method CheckPassword, addr 0xf01f5c, size 0x528, virtual false, abstract: false, final false
-  static inline bool CheckPassword(::StringW bcryptString, ::ArrayW<char16_t, ::Array<char16_t>*> password);
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EncodingTable();
 
-  /// @brief Method EncodeData, addr 0xf017d4, size 0x35c, virtual false, abstract: false, final false
-  static inline ::StringW EncodeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+  static inline void setStaticF_AllowedVersions(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method DecodeSaltString, addr 0xf02484, size 0x3d4, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeSaltString(::StringW saltString);
+  static inline void setStaticF_DecodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
+  static inline void setStaticF_DefaultVersion(::StringW value);
+
+  static inline void setStaticF_EncodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OpenBsdBCrypt();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OpenBsdBCrypt", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenBsdBCrypt(OpenBsdBCrypt&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OpenBsdBCrypt(OpenBsdBCrypt const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenBsdBCrypt();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

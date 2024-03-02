@@ -24,72 +24,76 @@ MARK_REF_PTR_T(::System::Xml::XmlNotation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11520))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11524))
 // CS Name: ::System.Xml::XmlNotation*
 class CORDL_TYPE XmlNotation : public ::System::Xml::XmlNode {
 public:
   // Declarations
+  __declspec(property(put = set_InnerXml))::StringW InnerXml;
+
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
+  __declspec(property(get = get_LocalName))::StringW LocalName;
+
+  __declspec(property(get = get_Name))::StringW Name;
+
+  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+
+  /// @brief Field name, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+
   /// @brief Field publicId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field systemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
-  /// @brief Field name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
-
-  __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_LocalName))::StringW LocalName;
-
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
-
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
-
-  __declspec(property(put = set_InnerXml))::StringW InnerXml;
-
-  constexpr ::StringW& __cordl_internal_get_publicId();
-
-  constexpr ::StringW const& __cordl_internal_get_publicId() const;
-
-  constexpr void __cordl_internal_set_publicId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_systemId();
-
-  constexpr ::StringW const& __cordl_internal_get_systemId() const;
-
-  constexpr void __cordl_internal_set_systemId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_name();
-
-  constexpr ::StringW const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::StringW value);
+  /// @brief Method CloneNode, addr 0x297b47c, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x288d2bc, size 0x68, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
+
+  constexpr ::StringW& __cordl_internal_get_publicId();
+
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
+
+  constexpr ::StringW& __cordl_internal_get_systemId();
+
+  constexpr void __cordl_internal_set_name(::StringW value);
+
+  constexpr void __cordl_internal_set_publicId(::StringW value);
+
+  constexpr void __cordl_internal_set_systemId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2976da0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name, addr 0x2891980, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
-
-  /// @brief Method get_LocalName, addr 0x2891988, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_LocalName();
-
-  /// @brief Method get_NodeType, addr 0x2891990, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
-
-  /// @brief Method CloneNode, addr 0x2891998, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* CloneNode(bool deep);
-
-  /// @brief Method get_IsReadOnly, addr 0x28919f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x297b4dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method set_InnerXml, addr 0x2891a00, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x297b46c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_LocalName();
+
+  /// @brief Method get_Name, addr 0x297b464, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
+
+  /// @brief Method get_NodeType, addr 0x297b474, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNodeType get_NodeType();
+
+  /// @brief Method set_InnerXml, addr 0x297b4e4, size 0x60, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlNotation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlNotation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNotation(XmlNotation&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlNotation(XmlNotation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlNotation();
-
-public:
   /// @brief Field publicId, offset: 0x18, size: 0x8, def value: None
   ::StringW ___publicId;
 

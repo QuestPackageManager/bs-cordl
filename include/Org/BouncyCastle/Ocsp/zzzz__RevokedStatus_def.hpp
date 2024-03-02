@@ -21,20 +21,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RevokedStatus);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1624))
 // CS Name: ::Org.BouncyCastle.Ocsp::RevokedStatus*
 class CORDL_TYPE RevokedStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
   // Declarations
-  /// @brief Field info, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
-
-  __declspec(property(get = get_RevocationTime))::System::DateTime RevocationTime;
-
   __declspec(property(get = get_HasRevocationReason)) bool HasRevocationReason;
 
   __declspec(property(get = get_RevocationReason)) int32_t RevocationReason;
+
+  __declspec(property(get = get_RevocationTime))::System::DateTime RevocationTime;
+
+  /// @brief Field info, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
+
+  static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
+
+  static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::System::DateTime revocationDate, int32_t reason);
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*& __cordl_internal_get_info();
 
@@ -42,25 +44,27 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* value);
 
-  static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
-
-  /// @brief Method .ctor, addr 0x10a4ebc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1115d1c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::System::DateTime revocationDate, int32_t reason);
-
-  /// @brief Method .ctor, addr 0x10a4f28, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1115d88, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method get_RevocationTime, addr 0x109edc4, size 0x24, virtual false, abstract: false, final false
-  inline ::System::DateTime get_RevocationTime();
-
-  /// @brief Method get_HasRevocationReason, addr 0x109ed30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasRevocationReason, addr 0x110fb90, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasRevocationReason();
 
-  /// @brief Method get_RevocationReason, addr 0x109ed54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationReason, addr 0x110fbb4, size 0x70, virtual false, abstract: false, final false
   inline int32_t get_RevocationReason();
 
+  /// @brief Method get_RevocationTime, addr 0x110fc24, size 0x24, virtual false, abstract: false, final false
+  inline ::System::DateTime get_RevocationTime();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RevokedStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RevokedStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevokedStatus(RevokedStatus&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevokedStatus(RevokedStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RevokedStatus();
-
-public:
   /// @brief Field info, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* ___info;
 

@@ -44,32 +44,34 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11212))
 // CS Name: ::Zenject::MethodProviderWithContainer`2<TParam1,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _method, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* _method;
-
   __declspec(property(get = get_IsCached)) bool IsCached;
 
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
+  /// @brief Field _method, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* _method;
+
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+
+  static inline ::Zenject::MethodProviderWithContainer_2<TParam1, TValue>* New_ctor(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* method);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>*& __cordl_internal_get__method();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>*> const& __cordl_internal_get__method() const;
 
   constexpr void __cordl_internal_set__method(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* value);
-
-  static inline ::Zenject::MethodProviderWithContainer_2<TParam1, TValue>* New_ctor(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* method);
@@ -80,13 +82,15 @@ public:
   /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MethodProviderWithContainer_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MethodProviderWithContainer_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodProviderWithContainer_2(MethodProviderWithContainer_2&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MethodProviderWithContainer_2(MethodProviderWithContainer_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MethodProviderWithContainer_2();
-
-public:
   /// @brief Field _method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* ____method;
 

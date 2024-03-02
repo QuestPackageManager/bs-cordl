@@ -19,14 +19,21 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextColorGradient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13722))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13723))
 // CS Name: ::UnityEngine.TextCore.Text::TextColorGradient*
 class CORDL_TYPE TextColorGradient : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
+  /// @brief Field bottomLeft, offset 0x3c, size 0x10
+  __declspec(property(get = __cordl_internal_get_bottomLeft, put = __cordl_internal_set_bottomLeft))::UnityEngine::Color bottomLeft;
+
+  /// @brief Field bottomRight, offset 0x4c, size 0x10
+  __declspec(property(get = __cordl_internal_get_bottomRight, put = __cordl_internal_set_bottomRight))::UnityEngine::Color bottomRight;
+
   /// @brief Field colorMode, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_colorMode, put = __cordl_internal_set_colorMode))::UnityEngine::TextCore::Text::ColorGradientMode colorMode;
+
+  /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color k_DefaultColor;
 
   /// @brief Field topLeft, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_topLeft, put = __cordl_internal_set_topLeft))::UnityEngine::Color topLeft;
@@ -34,64 +41,61 @@ public:
   /// @brief Field topRight, offset 0x2c, size 0x10
   __declspec(property(get = __cordl_internal_get_topRight, put = __cordl_internal_set_topRight))::UnityEngine::Color topRight;
 
-  /// @brief Field bottomLeft, offset 0x3c, size 0x10
-  __declspec(property(get = __cordl_internal_get_bottomLeft, put = __cordl_internal_set_bottomLeft))::UnityEngine::Color bottomLeft;
-
-  /// @brief Field bottomRight, offset 0x4c, size 0x10
-  __declspec(property(get = __cordl_internal_get_bottomRight, put = __cordl_internal_set_bottomRight))::UnityEngine::Color bottomRight;
-
-  /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color k_DefaultColor;
-
-  constexpr ::UnityEngine::TextCore::Text::ColorGradientMode& __cordl_internal_get_colorMode();
-
-  constexpr ::UnityEngine::TextCore::Text::ColorGradientMode const& __cordl_internal_get_colorMode() const;
-
-  constexpr void __cordl_internal_set_colorMode(::UnityEngine::TextCore::Text::ColorGradientMode value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_topLeft();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_topLeft() const;
-
-  constexpr void __cordl_internal_set_topLeft(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_topRight();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_topRight() const;
-
-  constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomLeft();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomLeft() const;
-
-  constexpr void __cordl_internal_set_bottomLeft(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomRight();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomRight() const;
-
-  constexpr void __cordl_internal_set_bottomRight(::UnityEngine::Color value);
-
-  static inline void setStaticF_k_DefaultColor(::UnityEngine::Color value);
-
-  static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
-
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d4a530, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x2d4a5cc, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Color color);
-
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
-  /// @brief Method .ctor, addr 0x2d4a638, size 0xa4, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomLeft() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomLeft();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomRight() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomRight();
+
+  constexpr ::UnityEngine::TextCore::Text::ColorGradientMode const& __cordl_internal_get_colorMode() const;
+
+  constexpr ::UnityEngine::TextCore::Text::ColorGradientMode& __cordl_internal_get_colorMode();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_topLeft() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_topLeft();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_topRight() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_topRight();
+
+  constexpr void __cordl_internal_set_bottomLeft(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_bottomRight(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_colorMode(::UnityEngine::TextCore::Text::ColorGradientMode value);
+
+  constexpr void __cordl_internal_set_topLeft(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
+
+  /// @brief Method .ctor, addr 0x2e55700, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2e5579c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Color color);
+
+  /// @brief Method .ctor, addr 0x2e55808, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
+  static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
+
+  static inline void setStaticF_k_DefaultColor(::UnityEngine::Color value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextColorGradient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextColorGradient(TextColorGradient&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextColorGradient(TextColorGradient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextColorGradient();
-
-public:
   /// @brief Field colorMode, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::ColorGradientMode ___colorMode;
 

@@ -61,8 +61,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragEventsProcessor);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6968))
 // CS Name: ::DragEventsProcessor::DragState
 struct CORDL_TYPE __DragEventsProcessor__DragState {
 public:
@@ -81,27 +79,32 @@ public:
     return static_cast<____DragEventsProcessor__DragState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __DragEventsProcessor__DragState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DragEventsProcessor__DragState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __DragEventsProcessor__DragState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::__DragEventsProcessor__DragState const None;
 
   /// @brief Field CanStartDrag value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::__DragEventsProcessor__DragState const CanStartDrag;
 
   /// @brief Field Dragging value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::__DragEventsProcessor__DragState const Dragging;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::__DragEventsProcessor__DragState const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -115,19 +118,22 @@ static_assert(offsetof(::UnityEngine::UIElements::__DragEventsProcessor__DragSta
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6968)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6969))
 // CS Name: ::UnityEngine.UIElements::DragEventsProcessor*
 class CORDL_TYPE DragEventsProcessor : public ::System::Object {
 public:
   // Declarations
   using DragState = ::UnityEngine::UIElements::__DragEventsProcessor__DragState;
 
-  /// @brief Field m_IsRegistered, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsRegistered, put = __cordl_internal_set_m_IsRegistered)) bool m_IsRegistered;
+  /// @brief Field dragAndDropClient, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_dragAndDropClient, put = __cordl_internal_set_dragAndDropClient))::UnityEngine::UIElements::DefaultDragAndDropClient* dragAndDropClient;
+
+  __declspec(property(get = get_isEditorContext)) bool isEditorContext;
 
   /// @brief Field m_DragState, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DragState, put = __cordl_internal_set_m_DragState))::UnityEngine::UIElements::__DragEventsProcessor__DragState m_DragState;
+
+  /// @brief Field m_IsRegistered, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_IsRegistered, put = __cordl_internal_set_m_IsRegistered)) bool m_IsRegistered;
 
   /// @brief Field m_Start, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::Vector3 m_Start;
@@ -135,101 +141,102 @@ public:
   /// @brief Field m_Target, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
 
-  /// @brief Field dragAndDropClient, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_dragAndDropClient, put = __cordl_internal_set_dragAndDropClient))::UnityEngine::UIElements::DefaultDragAndDropClient* dragAndDropClient;
-
   __declspec(property(get = get_supportsDragEvents)) bool supportsDragEvents;
 
   __declspec(property(get = get_useDragEvents)) bool useDragEvents;
 
-  __declspec(property(get = get_isEditorContext)) bool isEditorContext;
+  /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  constexpr bool& __cordl_internal_get_m_IsRegistered();
+  /// @brief Method ClearDragAndDropUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ClearDragAndDropUI();
 
-  constexpr bool const& __cordl_internal_get_m_IsRegistered() const;
+  static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  constexpr void __cordl_internal_set_m_IsRegistered(bool value);
+  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState& __cordl_internal_get_m_DragState();
+  /// @brief Method OnPointerCancelEvent, addr 0x2f1c71c, size 0x40, virtual false, abstract: false, final false
+  inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState const& __cordl_internal_get_m_DragState() const;
+  /// @brief Method OnPointerDownEvent, addr 0x2f1c580, size 0x94, virtual false, abstract: false, final false
+  inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  constexpr void __cordl_internal_set_m_DragState(::UnityEngine::UIElements::__DragEventsProcessor__DragState value);
+  /// @brief Method OnPointerLeaveEvent, addr 0x2f1c6d8, size 0x44, virtual false, abstract: false, final false
+  inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Start();
+  /// @brief Method OnPointerMoveEvent, addr 0x2f1c75c, size 0x244, virtual false, abstract: false, final false
+  inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Start() const;
+  /// @brief Method OnPointerUpEvent, addr 0x2f1c614, size 0xc4, virtual false, abstract: false, final false
+  inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector3 value);
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f1bf30, size 0x2ac, virtual false, abstract: false, final false
+  inline void RegisterCallbacksFromTarget();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x2f1c1dc, size 0x4, virtual false, abstract: false, final false
+  inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
+  /// @brief Method StartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f1c1e0, size 0x8, virtual false, abstract: false, final false
+  inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
+
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2f1c1e8, size 0x398, virtual false, abstract: false, final false
+  inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
+
+  /// @brief Method UpdateDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
   constexpr ::UnityEngine::UIElements::DefaultDragAndDropClient*& __cordl_internal_get_dragAndDropClient();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DefaultDragAndDropClient*> const& __cordl_internal_get_dragAndDropClient() const;
 
+  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState const& __cordl_internal_get_m_DragState() const;
+
+  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState& __cordl_internal_get_m_DragState();
+
+  constexpr bool const& __cordl_internal_get_m_IsRegistered() const;
+
+  constexpr bool& __cordl_internal_get_m_IsRegistered();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Start() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Start();
+
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
+
   constexpr void __cordl_internal_set_dragAndDropClient(::UnityEngine::UIElements::DefaultDragAndDropClient* value);
 
-  /// @brief Method get_supportsDragEvents, addr 0x2e0d2f8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_supportsDragEvents();
+  constexpr void __cordl_internal_set_m_DragState(::UnityEngine::UIElements::__DragEventsProcessor__DragState value);
 
-  /// @brief Method get_useDragEvents, addr 0x2e0b5f8, size 0x30, virtual false, abstract: false, final false
-  inline bool get_useDragEvents();
+  constexpr void __cordl_internal_set_m_IsRegistered(bool value);
 
-  /// @brief Method get_isEditorContext, addr 0x2e0d300, size 0x120, virtual false, abstract: false, final false
-  inline bool get_isEditorContext();
+  constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector3 value);
 
-  static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2e09a38, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f18548, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x2e0d6cc, size 0x4, virtual false, abstract: false, final false
-  inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
+  /// @brief Method get_isEditorContext, addr 0x2f1be10, size 0x120, virtual false, abstract: false, final false
+  inline bool get_isEditorContext();
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x2e0d420, size 0x2ac, virtual false, abstract: false, final false
-  inline void RegisterCallbacksFromTarget();
+  /// @brief Method get_supportsDragEvents, addr 0x2f1be08, size 0x8, virtual true, abstract: false, final false
+  inline bool get_supportsDragEvents();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2e0d6d0, size 0x8, virtual false, abstract: false, final false
-  inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
+  /// @brief Method get_useDragEvents, addr 0x2f1a108, size 0x30, virtual false, abstract: false, final false
+  inline bool get_useDragEvents();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x2e0d6d8, size 0x398, virtual false, abstract: false, final false
-  inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DragEventsProcessor();
 
-  /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
-
-  /// @brief Method StartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
-
-  /// @brief Method UpdateDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
-
-  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
-
-  /// @brief Method ClearDragAndDropUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ClearDragAndDropUI();
-
-  /// @brief Method OnPointerDownEvent, addr 0x2e0da70, size 0x94, virtual false, abstract: false, final false
-  inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
-
-  /// @brief Method OnPointerUpEvent, addr 0x2e0db04, size 0xc4, virtual false, abstract: false, final false
-  inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
-
-  /// @brief Method OnPointerLeaveEvent, addr 0x2e0dbc8, size 0x44, virtual false, abstract: false, final false
-  inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
-
-  /// @brief Method OnPointerCancelEvent, addr 0x2e0dc0c, size 0x40, virtual false, abstract: false, final false
-  inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
-
-  /// @brief Method OnPointerMoveEvent, addr 0x2e0dc4c, size 0x244, virtual false, abstract: false, final false
-  inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DragEventsProcessor(DragEventsProcessor&&) = delete;
@@ -238,12 +245,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DragEventsProcessor(DragEventsProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DragEventsProcessor();
-
-public:
   /// @brief Field m_IsRegistered, offset: 0x10, size: 0x1, def value: None
   bool ___m_IsRegistered;
 

@@ -19,35 +19,39 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4312)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4314))
 // CS Name: ::FloatFxBaseData*
 class CORDL_TYPE FloatFxBaseData : public ::GlobalNamespace::FxBaseData {
 public:
   // Declarations
-  /// @brief Field value, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
-
   /// @brief Field easeType, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
-  constexpr float_t& __cordl_internal_get_value();
-
-  constexpr float_t const& __cordl_internal_get_value() const;
-
-  constexpr void __cordl_internal_set_value(float_t value);
-
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
-
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
-
-  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+  /// @brief Field value, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
 
   static inline ::GlobalNamespace::FloatFxBaseData* New_ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method .ctor, addr 0x233602c, size 0x48, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
+
+  constexpr float_t const& __cordl_internal_get_value() const;
+
+  constexpr float_t& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+
+  constexpr void __cordl_internal_set_value(float_t value);
+
+  /// @brief Method .ctor, addr 0x12bef90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatFxBaseData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxBaseData(FloatFxBaseData&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxBaseData(FloatFxBaseData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatFxBaseData();
-
-public:
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   float_t ___value;
 

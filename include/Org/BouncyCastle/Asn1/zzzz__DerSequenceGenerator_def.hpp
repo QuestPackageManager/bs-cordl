@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerSequenceGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(508))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(513))
 // CS Name: ::Org.BouncyCastle.Asn1::DerSequenceGenerator*
 class CORDL_TYPE DerSequenceGenerator : public ::Org::BouncyCastle::Asn1::DerGenerator {
 public:
@@ -33,31 +31,37 @@ public:
   /// @brief Field _bOut, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bOut, put = __cordl_internal_set__bOut))::System::IO::MemoryStream* _bOut;
 
+  /// @brief Method AddObject, addr 0x1233c9c, size 0x80, virtual true, abstract: false, final false
+  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+
+  /// @brief Method Close, addr 0x1233d24, size 0x38, virtual true, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method GetRawOutputStream, addr 0x1233d1c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetRawOutputStream();
+
+  static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
+
+  static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
+
   constexpr ::System::IO::MemoryStream*& __cordl_internal_get__bOut();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get__bOut() const;
 
   constexpr void __cordl_internal_set__bOut(::System::IO::MemoryStream* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
-
-  /// @brief Method .ctor, addr 0x11c3d18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1233b78, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
-
-  /// @brief Method .ctor, addr 0x11c3d98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1233bf8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method AddObject, addr 0x11c3e3c, size 0x80, virtual true, abstract: false, final false
-  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerSequenceGenerator();
 
-  /// @brief Method GetRawOutputStream, addr 0x11c3ebc, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetRawOutputStream();
-
-  /// @brief Method Close, addr 0x11c3ec4, size 0x38, virtual true, abstract: false, final false
-  inline void Close();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerSequenceGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerSequenceGenerator(DerSequenceGenerator&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerSequenceGenerator(DerSequenceGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerSequenceGenerator();
-
-public:
   /// @brief Field _bOut, offset: 0x20, size: 0x8, def value: None
   ::System::IO::MemoryStream* ____bOut;
 

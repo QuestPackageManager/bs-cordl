@@ -37,65 +37,69 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataPacket*
 class CORDL_TYPE OptionalAvatarDataPacket : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field dataType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) uint32_t dataType;
-
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::GlobalNamespace::ByteArrayNetSerializable* data;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
-
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+  /// @brief Field dataType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) uint32_t dataType;
 
   /// @brief Convert operator to "::GlobalNamespace::IPoolablePacket"
   constexpr operator ::GlobalNamespace::IPoolablePacket*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
-  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  constexpr uint32_t& __cordl_internal_get_dataType();
+  /// @brief Method Deserialize, addr 0xe620b0, size 0x48, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  constexpr uint32_t const& __cordl_internal_get_dataType() const;
+  /// @brief Method Init, addr 0xe62164, size 0x34, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(uint32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
 
-  constexpr void __cordl_internal_set_dataType(uint32_t value);
+  /// @brief Method Init, addr 0xe6215c, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
+
+  static inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* New_ctor();
+
+  /// @brief Method Release, addr 0xe620f8, size 0x64, virtual true, abstract: false, final true
+  inline void Release();
+
+  /// @brief Method Serialize, addr 0xe6206c, size 0x44, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ByteArrayNetSerializable*& __cordl_internal_get_data();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& __cordl_internal_get_data() const;
 
+  constexpr uint32_t const& __cordl_internal_get_dataType() const;
+
+  constexpr uint32_t& __cordl_internal_get_dataType();
+
   constexpr void __cordl_internal_set_data(::GlobalNamespace::ByteArrayNetSerializable* value);
 
-  /// @brief Method get_pool, addr 0xe10ccc, size 0x40, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();
+  constexpr void __cordl_internal_set_dataType(uint32_t value);
 
-  /// @brief Method Serialize, addr 0xe10d0c, size 0x44, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method Deserialize, addr 0xe10d50, size 0x48, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-
-  /// @brief Method Release, addr 0xe10d98, size 0x64, virtual true, abstract: false, final true
-  inline void Release();
-
-  /// @brief Method Init, addr 0xe10dfc, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
-
-  /// @brief Method Init, addr 0xe10e04, size 0x34, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(uint32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length);
-
-  static inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe10e38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe62198, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_pool, addr 0xe6202c, size 0x40, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();
+
+  /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
+  constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OptionalAvatarDataPacket();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionalAvatarDataPacket(OptionalAvatarDataPacket&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionalAvatarDataPacket(OptionalAvatarDataPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OptionalAvatarDataPacket();
-
-public:
   /// @brief Field dataType, offset: 0x10, size: 0x4, def value: None
   uint32_t ___dataType;
 

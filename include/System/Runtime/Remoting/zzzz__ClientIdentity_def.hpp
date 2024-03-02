@@ -27,18 +27,21 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ClientIdentity);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3060))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3061))
 // CS Name: ::System.Runtime.Remoting::ClientIdentity*
 class CORDL_TYPE ClientIdentity : public ::System::Runtime::Remoting::Identity {
 public:
   // Declarations
-  /// @brief Field _proxyReference, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__proxyReference, put = __cordl_internal_set__proxyReference))::System::WeakReference* _proxyReference;
-
   __declspec(property(get = get_ClientProxy, put = set_ClientProxy))::System::MarshalByRefObject* ClientProxy;
 
   __declspec(property(get = get_TargetUri))::StringW TargetUri;
+
+  /// @brief Field _proxyReference, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__proxyReference, put = __cordl_internal_set__proxyReference))::System::WeakReference* _proxyReference;
+
+  /// @brief Method CreateObjRef, addr 0x25791b0, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
+
+  static inline ::System::Runtime::Remoting::ClientIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 
   constexpr ::System::WeakReference*& __cordl_internal_get__proxyReference();
 
@@ -46,23 +49,24 @@ public:
 
   constexpr void __cordl_internal_set__proxyReference(::System::WeakReference* value);
 
-  static inline ::System::Runtime::Remoting::ClientIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
-
-  /// @brief Method .ctor, addr 0x2485244, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2578fb0, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 
-  /// @brief Method get_ClientProxy, addr 0x248534c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProxy, addr 0x25790b8, size 0x88, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* get_ClientProxy();
 
-  /// @brief Method set_ClientProxy, addr 0x24853d4, size 0x70, virtual false, abstract: false, final false
-  inline void set_ClientProxy(::System::MarshalByRefObject* value);
-
-  /// @brief Method CreateObjRef, addr 0x2485444, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
-
-  /// @brief Method get_TargetUri, addr 0x248544c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TargetUri, addr 0x25791b8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_TargetUri();
 
+  /// @brief Method set_ClientProxy, addr 0x2579140, size 0x70, virtual false, abstract: false, final false
+  inline void set_ClientProxy(::System::MarshalByRefObject* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClientIdentity();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClientIdentity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClientIdentity(ClientIdentity&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClientIdentity(ClientIdentity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClientIdentity();
-
-public:
   /// @brief Field _proxyReference, offset: 0x48, size: 0x8, def value: None
   ::System::WeakReference* ____proxyReference;
 

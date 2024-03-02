@@ -62,62 +62,66 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__Asn1Set__DerComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(463))
 // CS Name: ::Asn1Set::Asn1SetParserImpl*
 class CORDL_TYPE __Asn1Set__Asn1SetParserImpl : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Asn1::Asn1Set* outer;
+  /// @brief Field index, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field max, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) int32_t max;
 
-  /// @brief Field index, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
+  /// @brief Field outer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Asn1::Asn1Set* outer;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SetParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1SetParser*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SetParser"
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SetParser* i___Org__BouncyCastle__Asn1__Asn1SetParser() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+  static inline ::Org::BouncyCastle::Asn1::__Asn1Set__Asn1SetParserImpl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* outer);
+
+  /// @brief Method ReadObject, addr 0x1229ab4, size 0xf8, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+
+  /// @brief Method ToAsn1Object, addr 0x1229bac, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
+
+  constexpr int32_t const& __cordl_internal_get_max() const;
+
+  constexpr int32_t& __cordl_internal_get_max();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_outer();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_outer() const;
 
-  constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr int32_t& __cordl_internal_get_max();
-
-  constexpr int32_t const& __cordl_internal_get_max() const;
+  constexpr void __cordl_internal_set_index(int32_t value);
 
   constexpr void __cordl_internal_set_max(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_index();
+  constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr void __cordl_internal_set_index(int32_t value);
-
-  static inline ::Org::BouncyCastle::Asn1::__Asn1Set__Asn1SetParserImpl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* outer);
-
-  /// @brief Method .ctor, addr 0x11b988c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12296ec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* outer);
 
-  /// @brief Method ReadObject, addr 0x11b9c54, size 0xf8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SetParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SetParser* i___Org__BouncyCastle__Asn1__Asn1SetParser() noexcept;
 
-  /// @brief Method ToAsn1Object, addr 0x11b9d4c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Asn1Set__Asn1SetParserImpl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Asn1Set__Asn1SetParserImpl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Asn1Set__Asn1SetParserImpl(__Asn1Set__Asn1SetParserImpl&&) = delete;
@@ -126,12 +130,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Asn1Set__Asn1SetParserImpl(__Asn1Set__Asn1SetParserImpl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Asn1Set__Asn1SetParserImpl();
-
-public:
   /// @brief Field outer, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___outer;
 
@@ -157,8 +155,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::__Asn1Set__Asn1SetParserImpl, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(464))
 // CS Name: ::Asn1Set::DerComparer*
 class CORDL_TYPE __Asn1Set__DerComparer : public ::System::Object {
 public:
@@ -166,17 +162,23 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
-
-  /// @brief Method Compare, addr 0x11b9d54, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x1229bb4, size 0x180, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
   static inline ::Org::BouncyCastle::Asn1::__Asn1Set__DerComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11b9c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1229aa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Asn1Set__DerComparer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Asn1Set__DerComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Asn1Set__DerComparer(__Asn1Set__DerComparer&&) = delete;
@@ -185,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Asn1Set__DerComparer(__Asn1Set__DerComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Asn1Set__DerComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -201,91 +197,95 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::__Asn1S
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(465))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Set*
 class CORDL_TYPE Asn1Set : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
+  using Asn1SetParserImpl = ::Org::BouncyCastle::Asn1::__Asn1Set__Asn1SetParserImpl;
+
   using DerComparer = ::Org::BouncyCastle::Asn1::__Asn1Set__DerComparer;
 
-  using Asn1SetParserImpl = ::Org::BouncyCastle::Asn1::__Asn1Set__Asn1SetParserImpl;
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
+
+  __declspec(property(get = get_Parser))::Org::BouncyCastle::Asn1::Asn1SetParser* Parser;
 
   /// @brief Field elements, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_elements,
                       put = __cordl_internal_set_elements))::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
-  __declspec(property(get = get_Parser))::Org::BouncyCastle::Asn1::Asn1SetParser* Parser;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
+
+  /// @brief Method Asn1Equals, addr 0x12297c4, size 0x16c, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
+
+  /// @brief Method Asn1GetHashCode, addr 0x1229730, size 0x94, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
+
+  /// @brief Method GetEnumerator, addr 0x122962c, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  /// @brief Method GetInstance, addr 0x1228dd0, size 0x558, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+
+  /// @brief Method GetInstance, addr 0x1228a38, size 0x398, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor();
+
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
+
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
+
+  /// @brief Method Sort, addr 0x1229930, size 0x170, virtual false, abstract: false, final false
+  inline void Sort();
+
+  /// @brief Method ToArray, addr 0x1229694, size 0x58, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> ToArray();
+
+  /// @brief Method ToString, addr 0x1229aa8, size 0xc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> const& __cordl_internal_get_elements() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __cordl_internal_get_elements();
+
+  constexpr void __cordl_internal_set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
+
+  /// @brief Method .ctor, addr 0x1229360, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12293cc, size 0xec, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
+
+  /// @brief Method .ctor, addr 0x12295ac, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+
+  /// @brief Method .ctor, addr 0x12294b8, size 0xf4, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
+
+  /// @brief Method get_Count, addr 0x1229678, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t get_Count();
+
+  /// @brief Method get_Item, addr 0x1229648, size 0x30, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
+
+  /// @brief Method get_Parser, addr 0x12289d0, size 0x60, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* get_Parser();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>& __cordl_internal_get_elements();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1Set();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> const& __cordl_internal_get_elements() const;
-
-  constexpr void __cordl_internal_set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
-
-  /// @brief Method GetInstance, addr 0x11b8bd8, size 0x398, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetInstance(::System::Object* obj);
-
-  /// @brief Method GetInstance, addr 0x11b8f70, size 0x558, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor();
-
-  /// @brief Method .ctor, addr 0x11b9500, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
-
-  /// @brief Method .ctor, addr 0x11b956c, size 0xec, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
-
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
-
-  /// @brief Method .ctor, addr 0x11b9658, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
-
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
-
-  /// @brief Method .ctor, addr 0x11b974c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
-
-  /// @brief Method GetEnumerator, addr 0x11b97cc, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
-
-  /// @brief Method get_Item, addr 0x11b97e8, size 0x30, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
-
-  /// @brief Method get_Count, addr 0x11b9818, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t get_Count();
-
-  /// @brief Method ToArray, addr 0x11b9834, size 0x58, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> ToArray();
-
-  /// @brief Method get_Parser, addr 0x11b8b70, size 0x60, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1SetParser* get_Parser();
-
-  /// @brief Method Asn1GetHashCode, addr 0x11b98d0, size 0x94, virtual true, abstract: false, final false
-  inline int32_t Asn1GetHashCode();
-
-  /// @brief Method Asn1Equals, addr 0x11b9964, size 0x16c, virtual true, abstract: false, final false
-  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
-
-  /// @brief Method Sort, addr 0x11b9ad0, size 0x170, virtual false, abstract: false, final false
-  inline void Sort();
-
-  /// @brief Method ToString, addr 0x11b9c48, size 0xc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Set(Asn1Set&&) = delete;
@@ -294,12 +294,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1Set(Asn1Set const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1Set();
-
-public:
   /// @brief Field elements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> ___elements;
 

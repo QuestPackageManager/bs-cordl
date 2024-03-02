@@ -21,43 +21,47 @@ MARK_REF_PTR_T(::UnityEngine::ResourceRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10262))
 // CS Name: ::UnityEngine::ResourceRequest*
 class CORDL_TYPE ResourceRequest : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
+
   /// @brief Field m_Path, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::StringW m_Path;
 
   /// @brief Field m_Type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::Type* m_Type;
 
-  __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
+  /// @brief Method GetResult, addr 0x2dd07a8, size 0xc, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Object> GetResult();
 
-  constexpr ::StringW& __cordl_internal_get_m_Path();
+  static inline ::UnityEngine::ResourceRequest* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_m_Path() const;
 
-  constexpr void __cordl_internal_set_m_Path(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_m_Path();
 
   constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
 
+  constexpr void __cordl_internal_set_m_Path(::StringW value);
+
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method GetResult, addr 0x2cddfec, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Object> GetResult();
-
-  /// @brief Method get_asset, addr 0x2cde070, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Object> get_asset();
-
-  static inline ::UnityEngine::ResourceRequest* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2cde07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd0838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_asset, addr 0x2dd082c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Object> get_asset();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceRequest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceRequest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceRequest(ResourceRequest&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceRequest(ResourceRequest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceRequest();
-
-public:
   /// @brief Field m_Path, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_Path;
 

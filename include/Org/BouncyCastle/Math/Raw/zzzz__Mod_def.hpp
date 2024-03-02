@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Mod);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1589))
 // CS Name: ::Org.BouncyCastle.Math.Raw::Mod*
 class CORDL_TYPE Mod : public ::System::Object {
 public:
@@ -29,33 +27,39 @@ public:
   /// @brief Field RandomSource, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RandomSource, put = setStaticF_RandomSource))::Org::BouncyCastle::Security::SecureRandom* RandomSource;
 
-  static inline void setStaticF_RandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
-
-  static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();
-
-  /// @brief Method Invert, addr 0x105bfcc, size 0x3c4, virtual false, abstract: false, final false
-  static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
-
-  /// @brief Method Random, addr 0x105c758, size 0x158, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
-
-  /// @brief Method Add, addr 0x105c8b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x10ce710, size 0x4c, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Subtract, addr 0x105c990, size 0x4c, virtual false, abstract: false, final false
-  static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
-
-  /// @brief Method InversionResult, addr 0x105c628, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InversionResult, addr 0x10ce488, size 0x48, virtual false, abstract: false, final false
   static inline void InversionResult(::ArrayW<uint32_t, ::Array<uint32_t>*> p, int32_t ac, ::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionStep, addr 0x105c518, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InversionStep, addr 0x10ce378, size 0x110, virtual false, abstract: false, final false
   static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ByRef<int32_t> xc);
+
+  /// @brief Method Invert, addr 0x10cde2c, size 0x3c4, virtual false, abstract: false, final false
+  static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
   static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor();
 
-  /// @brief Method .ctor, addr 0x105cc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x10ce5b8, size 0x158, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
+
+  /// @brief Method Subtract, addr 0x10ce7f0, size 0x4c, virtual false, abstract: false, final false
+  static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
+
+  /// @brief Method .ctor, addr 0x10ceae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();
+
+  static inline void setStaticF_RandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Mod();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mod(Mod&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Mod(Mod const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Mod();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

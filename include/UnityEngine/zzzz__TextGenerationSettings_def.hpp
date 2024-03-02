@@ -43,20 +43,22 @@ MARK_VAL_T(::UnityEngine::TextGenerationSettings);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(15902)), TypeDefinitionIndex(TypeDefinitionIndex(15903))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15898)) CS Name: ::UnityEngine::TextGenerationSettings
+// CS Name: ::UnityEngine::TextGenerationSettings
 struct CORDL_TYPE TextGenerationSettings {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x2d4dab8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x2e57c88, size 0x138, virtual false, abstract: false, final false
   inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-  /// @brief Method CompareVector2, addr 0x2d4dbf0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompareVector2, addr 0x2e57dc0, size 0xc8, virtual false, abstract: false, final false
   inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-  /// @brief Method Equals, addr 0x2d4dcb8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2e57e88, size 0x220, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextGenerationSettings other);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextGenerationSettings();
 
   // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
   // None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineSpacing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText",
@@ -71,10 +73,6 @@ public:
                                    ::UnityEngine::FontStyle fontStyle, ::UnityEngine::TextAnchor textAnchor, bool alignByGeometry, bool resizeTextForBestFit, int32_t resizeTextMinSize,
                                    int32_t resizeTextMaxSize, bool updateBounds, ::UnityEngine::VerticalWrapMode verticalOverflow, ::UnityEngine::HorizontalWrapMode horizontalOverflow,
                                    ::UnityEngine::Vector2 generationExtents, ::UnityEngine::Vector2 pivot, bool generateOutOfBounds) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextGenerationSettings();
 
   /// @brief Field font, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> font;

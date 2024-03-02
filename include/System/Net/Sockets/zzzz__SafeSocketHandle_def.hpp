@@ -27,63 +27,67 @@ MARK_REF_PTR_T(::System::Net::Sockets::SafeSocketHandle);
 // SizeInfo { instance_size: 56, native_size: 8, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2302))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
 // CS Name: ::System.Net.Sockets::SafeSocketHandle*
 class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
   // Declarations
+  /// @brief Field THROW_ON_ABORT_RETRIES, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_THROW_ON_ABORT_RETRIES, put = setStaticF_THROW_ON_ABORT_RETRIES)) bool THROW_ON_ABORT_RETRIES;
+
   /// @brief Field blocking_threads, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_blocking_threads, put = __cordl_internal_set_blocking_threads))::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads;
+
+  /// @brief Field in_cleanup, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_in_cleanup, put = __cordl_internal_set_in_cleanup)) bool in_cleanup;
 
   /// @brief Field threads_stacktraces, offset 0x28, size 0x8
   __declspec(
       property(get = __cordl_internal_get_threads_stacktraces,
                put = __cordl_internal_set_threads_stacktraces))::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces;
 
-  /// @brief Field in_cleanup, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_in_cleanup, put = __cordl_internal_set_in_cleanup)) bool in_cleanup;
+  static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Field THROW_ON_ABORT_RETRIES, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_THROW_ON_ABORT_RETRIES, put = setStaticF_THROW_ON_ABORT_RETRIES)) bool THROW_ON_ABORT_RETRIES;
+  /// @brief Method RegisterForBlockingSyscall, addr 0x29e7e78, size 0x148, virtual false, abstract: false, final false
+  inline void RegisterForBlockingSyscall();
+
+  /// @brief Method ReleaseHandle, addr 0x29e78ac, size 0x5cc, virtual true, abstract: false, final false
+  inline bool ReleaseHandle();
+
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x29e7fc0, size 0x1f0, virtual false, abstract: false, final false
+  inline void UnRegisterForBlockingSyscall();
 
   constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& __cordl_internal_get_blocking_threads();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Thread*>*> const& __cordl_internal_get_blocking_threads() const;
 
-  constexpr void __cordl_internal_set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value);
+  constexpr bool const& __cordl_internal_get_in_cleanup() const;
+
+  constexpr bool& __cordl_internal_get_in_cleanup();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*& __cordl_internal_get_threads_stacktraces();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>*> const&
   __cordl_internal_get_threads_stacktraces() const;
 
-  constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
-
-  constexpr bool& __cordl_internal_get_in_cleanup();
-
-  constexpr bool const& __cordl_internal_get_in_cleanup() const;
+  constexpr void __cordl_internal_set_blocking_threads(::System::Collections::Generic::List_1<::System::Threading::Thread*>* value);
 
   constexpr void __cordl_internal_set_in_cleanup(bool value);
 
-  static inline void setStaticF_THROW_ON_ABORT_RETRIES(bool value);
+  constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
+
+  /// @brief Method .ctor, addr 0x29e77e0, size 0xcc, virtual false, abstract: false, final false
+  inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
   static inline bool getStaticF_THROW_ON_ABORT_RETRIES();
 
-  static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
+  static inline void setStaticF_THROW_ON_ABORT_RETRIES(bool value);
 
-  /// @brief Method .ctor, addr 0x28fdcfc, size 0xcc, virtual false, abstract: false, final false
-  inline void _ctor(void* preexistingHandle, bool ownsHandle);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeSocketHandle();
 
-  /// @brief Method ReleaseHandle, addr 0x28fddc8, size 0x5cc, virtual true, abstract: false, final false
-  inline bool ReleaseHandle();
-
-  /// @brief Method RegisterForBlockingSyscall, addr 0x28fe394, size 0x148, virtual false, abstract: false, final false
-  inline void RegisterForBlockingSyscall();
-
-  /// @brief Method UnRegisterForBlockingSyscall, addr 0x28fe4dc, size 0x1f0, virtual false, abstract: false, final false
-  inline void UnRegisterForBlockingSyscall();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeSocketHandle(SafeSocketHandle&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeSocketHandle(SafeSocketHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeSocketHandle();
-
-public:
   /// @brief Field blocking_threads, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::Thread*>* ___blocking_threads;
 
@@ -107,11 +105,11 @@ public:
   /// @brief Field in_cleanup, offset: 0x30, size: 0x1, def value: None
   bool ___in_cleanup;
 
-  /// @brief Field SOCKET_CLOSED offset 0xffffffff size 0x4
-  static constexpr int32_t SOCKET_CLOSED{ static_cast<int32_t>(0x2714) };
-
   /// @brief Field ABORT_RETRIES offset 0xffffffff size 0x4
   static constexpr int32_t ABORT_RETRIES{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field SOCKET_CLOSED offset 0xffffffff size 0x4
+  static constexpr int32_t SOCKET_CLOSED{ static_cast<int32_t>(0x2714) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

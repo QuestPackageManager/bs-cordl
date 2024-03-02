@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EnumerableProxy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1780))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EnumerableProxy*
 class CORDL_TYPE EnumerableProxy : public ::System::Object {
 public:
@@ -32,8 +30,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method GetEnumerator, addr 0x11c7a54, size 0xa0, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  static inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner);
 
   constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_inner();
 
@@ -41,14 +41,18 @@ public:
 
   constexpr void __cordl_internal_set_inner(::System::Collections::IEnumerable* value);
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner);
-
-  /// @brief Method .ctor, addr 0x1157b7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c79dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* inner);
 
-  /// @brief Method GetEnumerator, addr 0x1157bf4, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumerableProxy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumerableProxy(EnumerableProxy&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumerableProxy(EnumerableProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumerableProxy();
-
-public:
   /// @brief Field inner, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerable* ___inner;
 

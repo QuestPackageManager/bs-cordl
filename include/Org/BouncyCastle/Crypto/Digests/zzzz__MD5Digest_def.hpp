@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::MD5Digest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(750))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(759))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::MD5Digest*
 class CORDL_TYPE MD5Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+
   /// @brief Field H1, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_H1, put = __cordl_internal_set_H1)) uint32_t H1;
 
@@ -37,12 +37,6 @@ public:
 
   /// @brief Field H4, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_H4, put = __cordl_internal_set_H4)) uint32_t H4;
-
-  /// @brief Field X, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
-
-  /// @brief Field xOff, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   /// @brief Field S11, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_S11, put = setStaticF_S11)) int32_t S11;
@@ -92,163 +86,173 @@ public:
   /// @brief Field S44, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_S44, put = setStaticF_S44)) int32_t S44;
 
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  /// @brief Field X, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
 
-  constexpr uint32_t& __cordl_internal_get_H1();
+  /// @brief Field xOff, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
-  constexpr uint32_t const& __cordl_internal_get_H1() const;
+  /// @brief Method Copy, addr 0x129a54c, size 0x60, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  constexpr void __cordl_internal_set_H1(uint32_t value);
+  /// @brief Method CopyIn, addr 0x12996d4, size 0x5c, virtual false, abstract: false, final false
+  inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
 
-  constexpr uint32_t& __cordl_internal_get_H2();
+  /// @brief Method DoFinal, addr 0x12998b0, size 0x90, virtual true, abstract: false, final false
+  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  constexpr uint32_t const& __cordl_internal_get_H2() const;
+  /// @brief Method F, addr 0x12999ac, size 0x10, virtual false, abstract: false, final false
+  static inline uint32_t F(uint32_t u, uint32_t v, uint32_t w);
 
-  constexpr void __cordl_internal_set_H2(uint32_t value);
+  /// @brief Method G, addr 0x12999bc, size 0x10, virtual false, abstract: false, final false
+  static inline uint32_t G(uint32_t u, uint32_t v, uint32_t w);
 
-  constexpr uint32_t& __cordl_internal_get_H3();
+  /// @brief Method GetDigestSize, addr 0x1299770, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetDigestSize();
 
-  constexpr uint32_t const& __cordl_internal_get_H3() const;
+  /// @brief Method H, addr 0x12999cc, size 0xc, virtual false, abstract: false, final false
+  static inline uint32_t H(uint32_t u, uint32_t v, uint32_t w);
 
-  constexpr void __cordl_internal_set_H3(uint32_t value);
-
-  constexpr uint32_t& __cordl_internal_get_H4();
-
-  constexpr uint32_t const& __cordl_internal_get_H4() const;
-
-  constexpr void __cordl_internal_set_H4(uint32_t value);
-
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_X();
-
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_X() const;
-
-  constexpr void __cordl_internal_set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_xOff();
-
-  constexpr int32_t const& __cordl_internal_get_xOff() const;
-
-  constexpr void __cordl_internal_set_xOff(int32_t value);
-
-  static inline void setStaticF_S11(int32_t value);
-
-  static inline int32_t getStaticF_S11();
-
-  static inline void setStaticF_S12(int32_t value);
-
-  static inline int32_t getStaticF_S12();
-
-  static inline void setStaticF_S13(int32_t value);
-
-  static inline int32_t getStaticF_S13();
-
-  static inline void setStaticF_S14(int32_t value);
-
-  static inline int32_t getStaticF_S14();
-
-  static inline void setStaticF_S21(int32_t value);
-
-  static inline int32_t getStaticF_S21();
-
-  static inline void setStaticF_S22(int32_t value);
-
-  static inline int32_t getStaticF_S22();
-
-  static inline void setStaticF_S23(int32_t value);
-
-  static inline int32_t getStaticF_S23();
-
-  static inline void setStaticF_S24(int32_t value);
-
-  static inline int32_t getStaticF_S24();
-
-  static inline void setStaticF_S31(int32_t value);
-
-  static inline int32_t getStaticF_S31();
-
-  static inline void setStaticF_S32(int32_t value);
-
-  static inline int32_t getStaticF_S32();
-
-  static inline void setStaticF_S33(int32_t value);
-
-  static inline int32_t getStaticF_S33();
-
-  static inline void setStaticF_S34(int32_t value);
-
-  static inline int32_t getStaticF_S34();
-
-  static inline void setStaticF_S41(int32_t value);
-
-  static inline int32_t getStaticF_S41();
-
-  static inline void setStaticF_S42(int32_t value);
-
-  static inline int32_t getStaticF_S42();
-
-  static inline void setStaticF_S43(int32_t value);
-
-  static inline int32_t getStaticF_S43();
-
-  static inline void setStaticF_S44(int32_t value);
-
-  static inline int32_t getStaticF_S44();
+  /// @brief Method K, addr 0x12999d8, size 0xc, virtual false, abstract: false, final false
+  static inline uint32_t K(uint32_t u, uint32_t v, uint32_t w);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::MD5Digest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1228794, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Crypto::Digests::MD5Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
 
-  /// @brief Method .ctor, addr 0x1228800, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
-
-  /// @brief Method CopyIn, addr 0x1228874, size 0x5c, virtual false, abstract: false, final false
-  inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
-
-  /// @brief Method get_AlgorithmName, addr 0x12288d0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method GetDigestSize, addr 0x1228910, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
-
-  /// @brief Method ProcessWord, addr 0x1228918, size 0x80, virtual true, abstract: false, final false
-  inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
-
-  /// @brief Method ProcessLength, addr 0x1228998, size 0xb8, virtual true, abstract: false, final false
-  inline void ProcessLength(int64_t bitLength);
-
-  /// @brief Method DoFinal, addr 0x1228a50, size 0x90, virtual true, abstract: false, final false
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
-
-  /// @brief Method Reset, addr 0x1228ae0, size 0x60, virtual true, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method RotateLeft, addr 0x1228b40, size 0xc, virtual false, abstract: false, final false
-  static inline uint32_t RotateLeft(uint32_t x, int32_t n);
-
-  /// @brief Method F, addr 0x1228b4c, size 0x10, virtual false, abstract: false, final false
-  static inline uint32_t F(uint32_t u, uint32_t v, uint32_t w);
-
-  /// @brief Method G, addr 0x1228b5c, size 0x10, virtual false, abstract: false, final false
-  static inline uint32_t G(uint32_t u, uint32_t v, uint32_t w);
-
-  /// @brief Method H, addr 0x1228b6c, size 0xc, virtual false, abstract: false, final false
-  static inline uint32_t H(uint32_t u, uint32_t v, uint32_t w);
-
-  /// @brief Method K, addr 0x1228b78, size 0xc, virtual false, abstract: false, final false
-  static inline uint32_t K(uint32_t u, uint32_t v, uint32_t w);
-
-  /// @brief Method ProcessBlock, addr 0x1228b84, size 0xb68, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x12999e4, size 0xb68, virtual true, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method Copy, addr 0x12296ec, size 0x60, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
+  /// @brief Method ProcessLength, addr 0x12997f8, size 0xb8, virtual true, abstract: false, final false
+  inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method Reset, addr 0x122974c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ProcessWord, addr 0x1299778, size 0x80, virtual true, abstract: false, final false
+  inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
+
+  /// @brief Method Reset, addr 0x1299940, size 0x60, virtual true, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method Reset, addr 0x129a5ac, size 0x84, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
+  /// @brief Method RotateLeft, addr 0x12999a0, size 0xc, virtual false, abstract: false, final false
+  static inline uint32_t RotateLeft(uint32_t x, int32_t n);
+
+  constexpr uint32_t const& __cordl_internal_get_H1() const;
+
+  constexpr uint32_t& __cordl_internal_get_H1();
+
+  constexpr uint32_t const& __cordl_internal_get_H2() const;
+
+  constexpr uint32_t& __cordl_internal_get_H2();
+
+  constexpr uint32_t const& __cordl_internal_get_H3() const;
+
+  constexpr uint32_t& __cordl_internal_get_H3();
+
+  constexpr uint32_t const& __cordl_internal_get_H4() const;
+
+  constexpr uint32_t& __cordl_internal_get_H4();
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_X() const;
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_X();
+
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
+
+  constexpr int32_t& __cordl_internal_get_xOff();
+
+  constexpr void __cordl_internal_set_H1(uint32_t value);
+
+  constexpr void __cordl_internal_set_H2(uint32_t value);
+
+  constexpr void __cordl_internal_set_H3(uint32_t value);
+
+  constexpr void __cordl_internal_set_H4(uint32_t value);
+
+  constexpr void __cordl_internal_set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+
+  constexpr void __cordl_internal_set_xOff(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12995f4, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1299660, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::MD5Digest* t);
+
+  static inline int32_t getStaticF_S11();
+
+  static inline int32_t getStaticF_S12();
+
+  static inline int32_t getStaticF_S13();
+
+  static inline int32_t getStaticF_S14();
+
+  static inline int32_t getStaticF_S21();
+
+  static inline int32_t getStaticF_S22();
+
+  static inline int32_t getStaticF_S23();
+
+  static inline int32_t getStaticF_S24();
+
+  static inline int32_t getStaticF_S31();
+
+  static inline int32_t getStaticF_S32();
+
+  static inline int32_t getStaticF_S33();
+
+  static inline int32_t getStaticF_S34();
+
+  static inline int32_t getStaticF_S41();
+
+  static inline int32_t getStaticF_S42();
+
+  static inline int32_t getStaticF_S43();
+
+  static inline int32_t getStaticF_S44();
+
+  /// @brief Method get_AlgorithmName, addr 0x1299730, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
+
+  static inline void setStaticF_S11(int32_t value);
+
+  static inline void setStaticF_S12(int32_t value);
+
+  static inline void setStaticF_S13(int32_t value);
+
+  static inline void setStaticF_S14(int32_t value);
+
+  static inline void setStaticF_S21(int32_t value);
+
+  static inline void setStaticF_S22(int32_t value);
+
+  static inline void setStaticF_S23(int32_t value);
+
+  static inline void setStaticF_S24(int32_t value);
+
+  static inline void setStaticF_S31(int32_t value);
+
+  static inline void setStaticF_S32(int32_t value);
+
+  static inline void setStaticF_S33(int32_t value);
+
+  static inline void setStaticF_S34(int32_t value);
+
+  static inline void setStaticF_S41(int32_t value);
+
+  static inline void setStaticF_S42(int32_t value);
+
+  static inline void setStaticF_S43(int32_t value);
+
+  static inline void setStaticF_S44(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MD5Digest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MD5Digest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MD5Digest(MD5Digest&&) = delete;
@@ -257,12 +261,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MD5Digest(MD5Digest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MD5Digest();
-
-public:
   /// @brief Field H1, offset: 0x28, size: 0x4, def value: None
   uint32_t ___H1;
 

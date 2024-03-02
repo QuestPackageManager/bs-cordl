@@ -15,19 +15,17 @@ MARK_VAL_T(::TMPro::TMP_SpriteInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12321))
 // CS Name: ::TMPro::TMP_SpriteInfo
 struct CORDL_TYPE TMP_SpriteInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TMP_SpriteInfo(int32_t spriteIndex, int32_t characterIndex, int32_t vertexIndex) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr TMP_SpriteInfo();
+
+  // Ctor Parameters [CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TMP_SpriteInfo(int32_t spriteIndex, int32_t characterIndex, int32_t vertexIndex) noexcept;
 
   /// @brief Field spriteIndex, offset: 0x0, size: 0x4, def value: None
   int32_t spriteIndex;

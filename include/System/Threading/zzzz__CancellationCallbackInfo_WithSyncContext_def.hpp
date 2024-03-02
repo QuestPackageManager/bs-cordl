@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Threading::__CancellationCallbackInfo__WithSyncContext)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2691))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2690))
 // CS Name: ::CancellationCallbackInfo::WithSyncContext*
 class CORDL_TYPE __CancellationCallbackInfo__WithSyncContext : public ::System::Threading::CancellationCallbackInfo {
 public:
@@ -38,21 +36,27 @@ public:
   /// @brief Field TargetSyncContext, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_TargetSyncContext, put = __cordl_internal_set_TargetSyncContext))::System::Threading::SynchronizationContext* TargetSyncContext;
 
+  static inline ::System::Threading::__CancellationCallbackInfo__WithSyncContext* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
+                                                                                           ::System::Threading::ExecutionContext* targetExecutionContext,
+                                                                                           ::System::Threading::CancellationTokenSource* cancellationTokenSource,
+                                                                                           ::System::Threading::SynchronizationContext* targetSyncContext);
+
   constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get_TargetSyncContext();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get_TargetSyncContext() const;
 
   constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
-  static inline ::System::Threading::__CancellationCallbackInfo__WithSyncContext* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
-                                                                                           ::System::Threading::ExecutionContext* targetExecutionContext,
-                                                                                           ::System::Threading::CancellationTokenSource* cancellationTokenSource,
-                                                                                           ::System::Threading::SynchronizationContext* targetSyncContext);
-
-  /// @brief Method .ctor, addr 0x261304c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2707648, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CancellationCallbackInfo__WithSyncContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationCallbackInfo__WithSyncContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CancellationCallbackInfo__WithSyncContext(__CancellationCallbackInfo__WithSyncContext&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CancellationCallbackInfo__WithSyncContext(__CancellationCallbackInfo__WithSyncContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CancellationCallbackInfo__WithSyncContext();
-
-public:
   /// @brief Field TargetSyncContext, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ___TargetSyncContext;
 

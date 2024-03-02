@@ -18,12 +18,16 @@ MARK_REF_PTR_T(::System::Net::HeaderInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9102))
 // CS Name: ::System.Net::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field AllowMultiValues, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_AllowMultiValues, put = __cordl_internal_set_AllowMultiValues)) bool AllowMultiValues;
+
+  /// @brief Field HeaderName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName))::StringW HeaderName;
+
   /// @brief Field IsRequestRestricted, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_IsRequestRestricted, put = __cordl_internal_set_IsRequestRestricted)) bool IsRequestRestricted;
 
@@ -33,47 +37,47 @@ public:
   /// @brief Field Parser, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Parser, put = __cordl_internal_set_Parser))::System::Net::HeaderParser* Parser;
 
-  /// @brief Field HeaderName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName))::StringW HeaderName;
+  static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
-  /// @brief Field AllowMultiValues, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_AllowMultiValues, put = __cordl_internal_set_AllowMultiValues)) bool AllowMultiValues;
+  constexpr bool const& __cordl_internal_get_AllowMultiValues() const;
 
-  constexpr bool& __cordl_internal_get_IsRequestRestricted();
+  constexpr bool& __cordl_internal_get_AllowMultiValues();
+
+  constexpr ::StringW const& __cordl_internal_get_HeaderName() const;
+
+  constexpr ::StringW& __cordl_internal_get_HeaderName();
 
   constexpr bool const& __cordl_internal_get_IsRequestRestricted() const;
 
-  constexpr void __cordl_internal_set_IsRequestRestricted(bool value);
-
-  constexpr bool& __cordl_internal_get_IsResponseRestricted();
+  constexpr bool& __cordl_internal_get_IsRequestRestricted();
 
   constexpr bool const& __cordl_internal_get_IsResponseRestricted() const;
 
-  constexpr void __cordl_internal_set_IsResponseRestricted(bool value);
+  constexpr bool& __cordl_internal_get_IsResponseRestricted();
 
   constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::HeaderParser*> const& __cordl_internal_get_Parser() const;
 
-  constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
-
-  constexpr ::StringW& __cordl_internal_get_HeaderName();
-
-  constexpr ::StringW const& __cordl_internal_get_HeaderName() const;
+  constexpr void __cordl_internal_set_AllowMultiValues(bool value);
 
   constexpr void __cordl_internal_set_HeaderName(::StringW value);
 
-  constexpr bool& __cordl_internal_get_AllowMultiValues();
+  constexpr void __cordl_internal_set_IsRequestRestricted(bool value);
 
-  constexpr bool const& __cordl_internal_get_AllowMultiValues() const;
+  constexpr void __cordl_internal_set_IsResponseRestricted(bool value);
 
-  constexpr void __cordl_internal_set_AllowMultiValues(bool value);
+  constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
-
-  /// @brief Method .ctor, addr 0x29a5f04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a91a7c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HeaderInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderInfo(HeaderInfo&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeaderInfo(HeaderInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HeaderInfo();
-
-public:
   /// @brief Field IsRequestRestricted, offset: 0x10, size: 0x1, def value: None
   bool ___IsRequestRestricted;
 

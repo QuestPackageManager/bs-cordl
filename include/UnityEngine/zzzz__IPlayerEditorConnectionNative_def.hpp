@@ -18,23 +18,18 @@ MARK_REF_PTR_T(::UnityEngine::IPlayerEditorConnectionNative);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10141))
 // CS Name: ::UnityEngine::IPlayerEditorConnectionNative*
 class CORDL_TYPE IPlayerEditorConnectionNative {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Initialize();
-
   /// @brief Method DisconnectAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisconnectAll();
 
-  /// @brief Method SendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Initialize();
 
-  /// @brief Method TrySendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+  /// @brief Method IsConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool IsConnected();
 
   /// @brief Method Poll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Poll();
@@ -42,11 +37,14 @@ public:
   /// @brief Method RegisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterInternal(::System::Guid messageId);
 
+  /// @brief Method SendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
+  /// @brief Method TrySendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
   /// @brief Method UnregisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterInternal(::System::Guid messageId);
-
-  /// @brief Method IsConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool IsConnected();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayerEditorConnectionNative", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

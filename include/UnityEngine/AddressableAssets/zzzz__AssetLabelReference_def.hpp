@@ -22,51 +22,55 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetLabelReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14081))
 // CS Name: ::UnityEngine.AddressableAssets::AssetLabelReference*
 class CORDL_TYPE AssetLabelReference : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_LabelString, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LabelString, put = __cordl_internal_set_m_LabelString))::StringW m_LabelString;
+  __declspec(property(get = get_RuntimeKey))::System::Object* RuntimeKey;
 
   __declspec(property(get = get_labelString, put = set_labelString))::StringW labelString;
 
-  __declspec(property(get = get_RuntimeKey))::System::Object* RuntimeKey;
+  /// @brief Field m_LabelString, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LabelString, put = __cordl_internal_set_m_LabelString))::StringW m_LabelString;
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
-  constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get_m_LabelString();
-
-  constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
-
-  constexpr void __cordl_internal_set_m_LabelString(::StringW value);
-
-  /// @brief Method get_labelString, addr 0x2a239b8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_labelString();
-
-  /// @brief Method set_labelString, addr 0x2a239c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_labelString(::StringW value);
-
-  /// @brief Method get_RuntimeKey, addr 0x2a239c8, size 0x58, virtual true, abstract: false, final true
-  inline ::System::Object* get_RuntimeKey();
-
-  /// @brief Method RuntimeKeyIsValid, addr 0x2a23a20, size 0x7c, virtual true, abstract: false, final true
-  inline bool RuntimeKeyIsValid();
-
-  /// @brief Method GetHashCode, addr 0x2a23a9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b0e6dc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a23abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RuntimeKeyIsValid, addr 0x2b0e660, size 0x7c, virtual true, abstract: false, final true
+  inline bool RuntimeKeyIsValid();
+
+  constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_LabelString();
+
+  constexpr void __cordl_internal_set_m_LabelString(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2b0e6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_RuntimeKey, addr 0x2b0e608, size 0x58, virtual true, abstract: false, final true
+  inline ::System::Object* get_RuntimeKey();
+
+  /// @brief Method get_labelString, addr 0x2b0e5f8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_labelString();
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
+  constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
+
+  /// @brief Method set_labelString, addr 0x2b0e600, size 0x8, virtual false, abstract: false, final false
+  inline void set_labelString(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetLabelReference();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetLabelReference(AssetLabelReference&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetLabelReference(AssetLabelReference const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetLabelReference();
-
-public:
   /// @brief Field m_LabelString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_LabelString;
 

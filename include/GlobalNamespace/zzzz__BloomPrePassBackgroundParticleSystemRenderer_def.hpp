@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14466))
 // CS Name: ::BloomPrePassBackgroundParticleSystemRenderer*
 class CORDL_TYPE BloomPrePassBackgroundParticleSystemRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
@@ -34,29 +32,35 @@ public:
 
   __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
-
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
-
-  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
-
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
-
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
-
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
-
-  /// @brief Method get_renderer, addr 0x2106130, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
-
-  /// @brief Method Awake, addr 0x2106138, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2268f48, size 0x64, virtual true, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x210619c, size 0x54, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+
+  /// @brief Method .ctor, addr 0x2268fac, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_renderer, addr 0x2268f40, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundParticleSystemRenderer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundParticleSystemRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundParticleSystemRenderer&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundParticleSystemRenderer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundParticleSystemRenderer();
-
-public:
   /// @brief Field _particleSystem, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 

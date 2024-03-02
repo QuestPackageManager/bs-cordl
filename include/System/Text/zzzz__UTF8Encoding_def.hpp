@@ -58,34 +58,38 @@ MARK_REF_PTR_T(::System::Text::__UTF8Encoding__UTF8Encoder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2846))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2863))
 // CS Name: ::UTF8Encoding::UTF8Encoder*
 class CORDL_TYPE __UTF8Encoding__UTF8Encoder : public ::System::Text::EncoderNLS {
 public:
   // Declarations
+  __declspec(property(get = get_HasState)) bool HasState;
+
   /// @brief Field surrogateChar, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_surrogateChar, put = __cordl_internal_set_surrogateChar)) int32_t surrogateChar;
 
-  __declspec(property(get = get_HasState)) bool HasState;
+  static inline ::System::Text::__UTF8Encoding__UTF8Encoder* New_ctor(::System::Text::UTF8Encoding* encoding);
 
-  constexpr int32_t& __cordl_internal_get_surrogateChar();
+  /// @brief Method Reset, addr 0x25380d8, size 0x20, virtual true, abstract: false, final false
+  inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_surrogateChar() const;
 
+  constexpr int32_t& __cordl_internal_get_surrogateChar();
+
   constexpr void __cordl_internal_set_surrogateChar(int32_t value);
 
-  static inline ::System::Text::__UTF8Encoding__UTF8Encoder* New_ctor(::System::Text::UTF8Encoding* encoding);
-
-  /// @brief Method .ctor, addr 0x2444de8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2537944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::UTF8Encoding* encoding);
 
-  /// @brief Method Reset, addr 0x244557c, size 0x20, virtual true, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method get_HasState, addr 0x244559c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasState, addr 0x25380f8, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasState();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UTF8Encoding__UTF8Encoder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8Encoder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UTF8Encoding__UTF8Encoder(__UTF8Encoding__UTF8Encoder&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UTF8Encoding__UTF8Encoder(__UTF8Encoding__UTF8Encoder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UTF8Encoding__UTF8Encoder();
-
-public:
   /// @brief Field surrogateChar, offset: 0x38, size: 0x4, def value: None
   int32_t ___surrogateChar;
 
@@ -115,34 +113,38 @@ static_assert(offsetof(::System::Text::__UTF8Encoding__UTF8Encoder, ___surrogate
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2835))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2864))
 // CS Name: ::UTF8Encoding::UTF8Decoder*
 class CORDL_TYPE __UTF8Encoding__UTF8Decoder : public ::System::Text::DecoderNLS {
 public:
   // Declarations
+  __declspec(property(get = get_HasState)) bool HasState;
+
   /// @brief Field bits, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_bits, put = __cordl_internal_set_bits)) int32_t bits;
 
-  __declspec(property(get = get_HasState)) bool HasState;
+  static inline ::System::Text::__UTF8Encoding__UTF8Decoder* New_ctor(::System::Text::UTF8Encoding* encoding);
 
-  constexpr int32_t& __cordl_internal_get_bits();
+  /// @brief Method Reset, addr 0x2538108, size 0x20, virtual true, abstract: false, final false
+  inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_bits() const;
 
+  constexpr int32_t& __cordl_internal_get_bits();
+
   constexpr void __cordl_internal_set_bits(int32_t value);
 
-  static inline ::System::Text::__UTF8Encoding__UTF8Decoder* New_ctor(::System::Text::UTF8Encoding* encoding);
-
-  /// @brief Method .ctor, addr 0x2444d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25378dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::UTF8Encoding* encoding);
 
-  /// @brief Method Reset, addr 0x24455ac, size 0x20, virtual true, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method get_HasState, addr 0x24455cc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasState, addr 0x2538128, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasState();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UTF8Encoding__UTF8Decoder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8Decoder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UTF8Encoding__UTF8Decoder(__UTF8Encoding__UTF8Decoder&&) = delete;
@@ -151,12 +153,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UTF8Encoding__UTF8Decoder(__UTF8Encoding__UTF8Decoder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UTF8Encoding__UTF8Decoder();
-
-public:
   /// @brief Field bits, offset: 0x30, size: 0x4, def value: None
   int32_t ___bits;
 
@@ -172,8 +168,6 @@ static_assert(offsetof(::System::Text::__UTF8Encoding__UTF8Decoder, ___bits) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2865))
 // CS Name: ::System.Text::UTF8Encoding*
 class CORDL_TYPE UTF8Encoding : public ::System::Text::Encoding {
 public:
@@ -183,6 +177,8 @@ public:
   using UTF8Encoder = ::System::Text::__UTF8Encoding__UTF8Encoder;
 
   using UTF8EncodingSealed = ::System::Text::__UTF8Encoding__UTF8EncodingSealed;
+
+  __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
 
   /// @brief Field _emitUTF8Identifier, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__emitUTF8Identifier, put = __cordl_internal_set__emitUTF8Identifier)) bool _emitUTF8Identifier;
@@ -196,133 +192,137 @@ public:
   /// @brief Field s_preamble, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_preamble, put = setStaticF_s_preamble))::ArrayW<uint8_t, ::Array<uint8_t>*> s_preamble;
 
-  __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
+  /// @brief Method Equals, addr 0x2537d8c, size 0xd0, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* value);
 
-  constexpr bool& __cordl_internal_get__emitUTF8Identifier();
+  /// @brief Method FallbackInvalidByteSequence, addr 0x2537610, size 0x74, virtual false, abstract: false, final false
+  inline bool FallbackInvalidByteSequence(ByRef<::cordl_internals::Ptr<uint8_t>> pSrc, int32_t ch, ::System::Text::DecoderFallbackBuffer* fallback, ByRef<::cordl_internals::Ptr<char16_t>> pTarget);
 
-  constexpr bool const& __cordl_internal_get__emitUTF8Identifier() const;
+  /// @brief Method FallbackInvalidByteSequence, addr 0x2536e4c, size 0x40, virtual false, abstract: false, final false
+  inline int32_t FallbackInvalidByteSequence(::cordl_internals::Ptr<uint8_t> pSrc, int32_t ch, ::System::Text::DecoderFallbackBuffer* fallback);
 
-  constexpr void __cordl_internal_set__emitUTF8Identifier(bool value);
+  /// @brief Method GetByteCount, addr 0x2534b28, size 0x184, virtual true, abstract: false, final false
+  inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
-  constexpr bool& __cordl_internal_get__isThrowException();
+  /// @brief Method GetByteCount, addr 0x2534cac, size 0x90, virtual true, abstract: false, final false
+  inline int32_t GetByteCount(::StringW chars);
 
-  constexpr bool const& __cordl_internal_get__isThrowException() const;
+  /// @brief Method GetByteCount, addr 0x2534d3c, size 0xd8, virtual true, abstract: false, final false
+  inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count);
 
-  constexpr void __cordl_internal_set__isThrowException(bool value);
+  /// @brief Method GetByteCount, addr 0x2535b90, size 0x60c, virtual true, abstract: false, final false
+  inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, ::System::Text::EncoderNLS* baseEncoder);
 
-  static inline void setStaticF_s_default(::System::Text::__UTF8Encoding__UTF8EncodingSealed* value);
+  /// @brief Method GetBytes, addr 0x2535074, size 0x27c, virtual true, abstract: false, final false
+  inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex);
 
-  static inline ::System::Text::__UTF8Encoding__UTF8EncodingSealed* getStaticF_s_default();
+  /// @brief Method GetBytes, addr 0x25352f0, size 0x100, virtual true, abstract: false, final false
+  inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount);
 
-  static inline void setStaticF_s_preamble(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetBytes, addr 0x25361c4, size 0x748, virtual true, abstract: false, final false
+  inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::System::Text::EncoderNLS* baseEncoder);
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_preamble();
+  /// @brief Method GetBytes, addr 0x2534e14, size 0x260, virtual true, abstract: false, final false
+  inline int32_t GetBytes(::StringW s, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex);
+
+  /// @brief Method GetBytesUnknown, addr 0x2537684, size 0x1f4, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytesUnknown(ByRef<::cordl_internals::Ptr<uint8_t>> pSrc, int32_t ch);
+
+  /// @brief Method GetCharCount, addr 0x25353f0, size 0x184, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
+
+  /// @brief Method GetCharCount, addr 0x2535574, size 0xd8, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count);
+
+  /// @brief Method GetCharCount, addr 0x253690c, size 0x540, virtual true, abstract: false, final false
+  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, ::System::Text::DecoderNLS* baseDecoder);
+
+  /// @brief Method GetChars, addr 0x253564c, size 0x27c, virtual true, abstract: false, final false
+  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
+
+  /// @brief Method GetChars, addr 0x25358c8, size 0x100, virtual true, abstract: false, final false
+  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount);
+
+  /// @brief Method GetChars, addr 0x2536e8c, size 0x784, virtual true, abstract: false, final false
+  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::System::Text::DecoderNLS* baseDecoder);
+
+  /// @brief Method GetDecoder, addr 0x2537878, size 0x64, virtual true, abstract: false, final false
+  inline ::System::Text::Decoder* GetDecoder();
+
+  /// @brief Method GetEncoder, addr 0x25378e4, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Text::Encoder* GetEncoder();
+
+  /// @brief Method GetHashCode, addr 0x2537e5c, size 0x60, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetMaxByteCount, addr 0x2537948, size 0x108, virtual true, abstract: false, final false
+  inline int32_t GetMaxByteCount(int32_t charCount);
+
+  /// @brief Method GetMaxCharCount, addr 0x2537a50, size 0x108, virtual true, abstract: false, final false
+  inline int32_t GetMaxCharCount(int32_t byteCount);
+
+  /// @brief Method GetPreamble, addr 0x2537b58, size 0xd4, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
+
+  /// @brief Method GetString, addr 0x25359c8, size 0x1c8, virtual true, abstract: false, final false
+  inline ::StringW GetString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
+
+  /// @brief Method InRange, addr 0x253619c, size 0x14, virtual false, abstract: false, final false
+  static inline bool InRange(int32_t ch, int32_t start, int32_t end);
 
   static inline ::System::Text::UTF8Encoding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2441e48, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Text::UTF8Encoding* New_ctor(bool encoderShouldEmitUTF8Identifier);
-
-  /// @brief Method .ctor, addr 0x2441e68, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
   static inline ::System::Text::UTF8Encoding* New_ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes);
 
-  /// @brief Method .ctor, addr 0x2441e98, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes);
-
-  /// @brief Method SetDefaultFallbacks, addr 0x2441ef8, size 0xd4, virtual true, abstract: false, final false
-  inline void SetDefaultFallbacks();
-
-  /// @brief Method GetByteCount, addr 0x2441fcc, size 0x184, virtual true, abstract: false, final false
-  inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
-
-  /// @brief Method GetByteCount, addr 0x2442150, size 0x90, virtual true, abstract: false, final false
-  inline int32_t GetByteCount(::StringW chars);
-
-  /// @brief Method GetByteCount, addr 0x24421e0, size 0xd8, virtual true, abstract: false, final false
-  inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count);
-
-  /// @brief Method GetBytes, addr 0x24422b8, size 0x260, virtual true, abstract: false, final false
-  inline int32_t GetBytes(::StringW s, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex);
-
-  /// @brief Method GetBytes, addr 0x2442518, size 0x27c, virtual true, abstract: false, final false
-  inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex);
-
-  /// @brief Method GetBytes, addr 0x2442794, size 0x100, virtual true, abstract: false, final false
-  inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount);
-
-  /// @brief Method GetCharCount, addr 0x2442894, size 0x184, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
-
-  /// @brief Method GetCharCount, addr 0x2442a18, size 0xd8, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count);
-
-  /// @brief Method GetChars, addr 0x2442af0, size 0x27c, virtual true, abstract: false, final false
-  inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
-
-  /// @brief Method GetChars, addr 0x2442d6c, size 0x100, virtual true, abstract: false, final false
-  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount);
-
-  /// @brief Method GetString, addr 0x2442e6c, size 0x1c8, virtual true, abstract: false, final false
-  inline ::StringW GetString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
-
-  /// @brief Method GetByteCount, addr 0x2443034, size 0x60c, virtual true, abstract: false, final false
-  inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, ::System::Text::EncoderNLS* baseEncoder);
-
-  /// @brief Method PtrDiff, addr 0x2443654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PtrDiff, addr 0x25361b0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t PtrDiff(::cordl_internals::Ptr<char16_t> a, ::cordl_internals::Ptr<char16_t> b);
 
-  /// @brief Method PtrDiff, addr 0x2443660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PtrDiff, addr 0x25361bc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t PtrDiff(::cordl_internals::Ptr<uint8_t> a, ::cordl_internals::Ptr<uint8_t> b);
 
-  /// @brief Method InRange, addr 0x2443640, size 0x14, virtual false, abstract: false, final false
-  static inline bool InRange(int32_t ch, int32_t start, int32_t end);
+  /// @brief Method SetDefaultFallbacks, addr 0x2534a54, size 0xd4, virtual true, abstract: false, final false
+  inline void SetDefaultFallbacks();
 
-  /// @brief Method GetBytes, addr 0x2443668, size 0x748, virtual true, abstract: false, final false
-  inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::System::Text::EncoderNLS* baseEncoder);
+  constexpr bool const& __cordl_internal_get__emitUTF8Identifier() const;
 
-  /// @brief Method GetCharCount, addr 0x2443db0, size 0x540, virtual true, abstract: false, final false
-  inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, ::System::Text::DecoderNLS* baseDecoder);
+  constexpr bool& __cordl_internal_get__emitUTF8Identifier();
 
-  /// @brief Method GetChars, addr 0x2444330, size 0x784, virtual true, abstract: false, final false
-  inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::System::Text::DecoderNLS* baseDecoder);
+  constexpr bool const& __cordl_internal_get__isThrowException() const;
 
-  /// @brief Method FallbackInvalidByteSequence, addr 0x2444ab4, size 0x74, virtual false, abstract: false, final false
-  inline bool FallbackInvalidByteSequence(ByRef<::cordl_internals::Ptr<uint8_t>> pSrc, int32_t ch, ::System::Text::DecoderFallbackBuffer* fallback, ByRef<::cordl_internals::Ptr<char16_t>> pTarget);
+  constexpr bool& __cordl_internal_get__isThrowException();
 
-  /// @brief Method FallbackInvalidByteSequence, addr 0x24442f0, size 0x40, virtual false, abstract: false, final false
-  inline int32_t FallbackInvalidByteSequence(::cordl_internals::Ptr<uint8_t> pSrc, int32_t ch, ::System::Text::DecoderFallbackBuffer* fallback);
+  constexpr void __cordl_internal_set__emitUTF8Identifier(bool value);
 
-  /// @brief Method GetBytesUnknown, addr 0x2444b28, size 0x1f4, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytesUnknown(ByRef<::cordl_internals::Ptr<uint8_t>> pSrc, int32_t ch);
+  constexpr void __cordl_internal_set__isThrowException(bool value);
 
-  /// @brief Method GetDecoder, addr 0x2444d1c, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Text::Decoder* GetDecoder();
+  /// @brief Method .ctor, addr 0x25349a4, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  /// @brief Method GetEncoder, addr 0x2444d88, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Text::Encoder* GetEncoder();
+  /// @brief Method .ctor, addr 0x25349c4, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method GetMaxByteCount, addr 0x2444dec, size 0x108, virtual true, abstract: false, final false
-  inline int32_t GetMaxByteCount(int32_t charCount);
+  /// @brief Method .ctor, addr 0x25349f4, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes);
 
-  /// @brief Method GetMaxCharCount, addr 0x2444ef4, size 0x108, virtual true, abstract: false, final false
-  inline int32_t GetMaxCharCount(int32_t byteCount);
+  static inline ::System::Text::__UTF8Encoding__UTF8EncodingSealed* getStaticF_s_default();
 
-  /// @brief Method GetPreamble, addr 0x2444ffc, size 0xd4, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_preamble();
 
-  /// @brief Method get_Preamble, addr 0x24450d0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x2537c2c, size 0x160, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
-  /// @brief Method Equals, addr 0x2445230, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* value);
+  static inline void setStaticF_s_default(::System::Text::__UTF8Encoding__UTF8EncodingSealed* value);
 
-  /// @brief Method GetHashCode, addr 0x2445300, size 0x60, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  static inline void setStaticF_s_preamble(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UTF8Encoding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF8Encoding(UTF8Encoding&&) = delete;
@@ -331,12 +331,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UTF8Encoding(UTF8Encoding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UTF8Encoding();
-
-public:
   /// @brief Field _emitUTF8Identifier, offset: 0x38, size: 0x1, def value: None
   bool ____emitUTF8Identifier;
 

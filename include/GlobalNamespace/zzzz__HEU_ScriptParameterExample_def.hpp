@@ -21,59 +21,63 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptParameterExample);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9592))
 // CS Name: ::HEU_ScriptParameterExample*
 class CORDL_TYPE HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _evergreenGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__evergreenGameObject, put = __cordl_internal_set__evergreenGameObject))::UnityW<::UnityEngine::GameObject> _evergreenGameObject;
-
   /// @brief Field _evergreenAsset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__evergreenAsset, put = __cordl_internal_set__evergreenAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _evergreenAsset;
 
-  /// @brief Field _updateRate, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__updateRate, put = __cordl_internal_set__updateRate)) float_t _updateRate;
+  /// @brief Field _evergreenGameObject, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__evergreenGameObject, put = __cordl_internal_set__evergreenGameObject))::UnityW<::UnityEngine::GameObject> _evergreenGameObject;
 
   /// @brief Field _scale, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__evergreenGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__evergreenGameObject() const;
-
-  constexpr void __cordl_internal_set__evergreenGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__evergreenAsset();
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
-
-  constexpr void __cordl_internal_set__evergreenAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
-
-  constexpr float_t& __cordl_internal_get__updateRate();
-
-  constexpr float_t const& __cordl_internal_get__updateRate() const;
-
-  constexpr void __cordl_internal_set__updateRate(float_t value);
-
-  constexpr float_t& __cordl_internal_get__scale();
-
-  constexpr float_t const& __cordl_internal_get__scale() const;
-
-  constexpr void __cordl_internal_set__scale(float_t value);
-
-  /// @brief Method Start, addr 0x214d9c0, size 0x288, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method UpdateGravity, addr 0x214dc48, size 0xe4, virtual false, abstract: false, final false
-  inline void UpdateGravity();
+  /// @brief Field _updateRate, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__updateRate, put = __cordl_internal_set__updateRate)) float_t _updateRate;
 
   static inline ::GlobalNamespace::HEU_ScriptParameterExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x214dd2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22ae90c, size 0x288, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method UpdateGravity, addr 0x22aeb94, size 0xe4, virtual false, abstract: false, final false
+  inline void UpdateGravity();
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__evergreenAsset();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__evergreenGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__evergreenGameObject();
+
+  constexpr float_t const& __cordl_internal_get__scale() const;
+
+  constexpr float_t& __cordl_internal_get__scale();
+
+  constexpr float_t const& __cordl_internal_get__updateRate() const;
+
+  constexpr float_t& __cordl_internal_get__updateRate();
+
+  constexpr void __cordl_internal_set__evergreenAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
+
+  constexpr void __cordl_internal_set__evergreenGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__scale(float_t value);
+
+  constexpr void __cordl_internal_set__updateRate(float_t value);
+
+  /// @brief Method .ctor, addr 0x22aec78, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ScriptParameterExample();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptParameterExample", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ScriptParameterExample(HEU_ScriptParameterExample&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptParameterExample(HEU_ScriptParameterExample const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ScriptParameterExample();
-
-public:
   /// @brief Field _evergreenGameObject, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____evergreenGameObject;
 

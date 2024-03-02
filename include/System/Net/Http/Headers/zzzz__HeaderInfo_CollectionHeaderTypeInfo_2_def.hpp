@@ -28,43 +28,44 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14669), inst: 2613 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14670))
 // CS Name: ::HeaderInfo::CollectionHeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__CollectionHeaderTypeInfo_2 : public ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U> {
 public:
   // Declarations
+  __declspec(property(get = get_Separator))::StringW Separator;
+
   /// @brief Field minimalCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_minimalCount, put = __cordl_internal_set_minimalCount)) int32_t minimalCount;
-
-  /// @brief Field separator, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_separator, put = __cordl_internal_set_separator))::StringW separator;
 
   /// @brief Field parser, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser))::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser;
 
-  __declspec(property(get = get_Separator))::StringW Separator;
+  /// @brief Field separator, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_separator, put = __cordl_internal_set_separator))::StringW separator;
 
-  constexpr int32_t& __cordl_internal_get_minimalCount();
+  static inline ::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*
+  New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
+
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryParse(::StringW value, ByRef<::System::Object*> result);
 
   constexpr int32_t const& __cordl_internal_get_minimalCount() const;
 
-  constexpr void __cordl_internal_set_minimalCount(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_separator();
-
-  constexpr ::StringW const& __cordl_internal_get_separator() const;
-
-  constexpr void __cordl_internal_set_separator(::StringW value);
+  constexpr int32_t& __cordl_internal_get_minimalCount();
 
   constexpr ::System::Net::Http::Headers::TryParseListDelegate_1<T>*& __cordl_internal_get_parser();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseListDelegate_1<T>*> const& __cordl_internal_get_parser() const;
 
+  constexpr ::StringW const& __cordl_internal_get_separator() const;
+
+  constexpr ::StringW& __cordl_internal_get_separator();
+
+  constexpr void __cordl_internal_set_minimalCount(int32_t value);
+
   constexpr void __cordl_internal_set_parser(::System::Net::Http::Headers::TryParseListDelegate_1<T>* value);
 
-  static inline ::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*
-  New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
+  constexpr void __cordl_internal_set_separator(::StringW value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount,
@@ -73,9 +74,12 @@ public:
   /// @brief Method get_Separator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryParse(::StringW value, ByRef<::System::Object*> result);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HeaderInfo__CollectionHeaderTypeInfo_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HeaderInfo__CollectionHeaderTypeInfo_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HeaderInfo__CollectionHeaderTypeInfo_2(__HeaderInfo__CollectionHeaderTypeInfo_2&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HeaderInfo__CollectionHeaderTypeInfo_2(__HeaderInfo__CollectionHeaderTypeInfo_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HeaderInfo__CollectionHeaderTypeInfo_2();
-
-public:
   /// @brief Field minimalCount, offset: 0x30, size: 0x4, def value: None
   int32_t ___minimalCount;
 

@@ -21,70 +21,74 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(451))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(476))
 // CS Name: ::Org.BouncyCastle.Asn1::BerGenerator*
 class CORDL_TYPE BerGenerator : public ::Org::BouncyCastle::Asn1::Asn1Generator {
 public:
   // Declarations
-  /// @brief Field _tagged, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__tagged, put = __cordl_internal_set__tagged)) bool _tagged;
-
   /// @brief Field _isExplicit, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get__isExplicit, put = __cordl_internal_set__isExplicit)) bool _isExplicit;
 
   /// @brief Field _tagNo, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__tagNo, put = __cordl_internal_set__tagNo)) int32_t _tagNo;
 
-  constexpr bool& __cordl_internal_get__tagged();
+  /// @brief Field _tagged, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__tagged, put = __cordl_internal_set__tagged)) bool _tagged;
 
-  constexpr bool const& __cordl_internal_get__tagged() const;
+  /// @brief Method AddObject, addr 0x122bd0c, size 0x80, virtual true, abstract: false, final false
+  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  constexpr void __cordl_internal_set__tagged(bool value);
+  /// @brief Method Close, addr 0x122bd98, size 0x4, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr bool& __cordl_internal_get__isExplicit();
-
-  constexpr bool const& __cordl_internal_get__isExplicit() const;
-
-  constexpr void __cordl_internal_set__isExplicit(bool value);
-
-  constexpr int32_t& __cordl_internal_get__tagNo();
-
-  constexpr int32_t const& __cordl_internal_get__tagNo() const;
-
-  constexpr void __cordl_internal_set__tagNo(int32_t value);
+  /// @brief Method GetRawOutputStream, addr 0x122bd90, size 0x8, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11bbe34, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream);
-
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11bbe60, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
-
-  /// @brief Method AddObject, addr 0x11bbeac, size 0x80, virtual true, abstract: false, final false
-  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
-
-  /// @brief Method GetRawOutputStream, addr 0x11bbf30, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetRawOutputStream();
-
-  /// @brief Method Close, addr 0x11bbf38, size 0x4, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method WriteHdr, addr 0x11bbfd4, size 0x44, virtual false, abstract: false, final false
-  inline void WriteHdr(int32_t tag);
-
-  /// @brief Method WriteBerHeader, addr 0x11bc018, size 0x58, virtual false, abstract: false, final false
-  inline void WriteBerHeader(int32_t tag);
-
-  /// @brief Method WriteBerBody, addr 0x11bc070, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteBerBody, addr 0x122bed0, size 0x14, virtual false, abstract: false, final false
   inline void WriteBerBody(::System::IO::Stream* contentStream);
 
-  /// @brief Method WriteBerEnd, addr 0x11bbf3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteBerEnd, addr 0x122bd9c, size 0x98, virtual false, abstract: false, final false
   inline void WriteBerEnd();
 
+  /// @brief Method WriteBerHeader, addr 0x122be78, size 0x58, virtual false, abstract: false, final false
+  inline void WriteBerHeader(int32_t tag);
+
+  /// @brief Method WriteHdr, addr 0x122be34, size 0x44, virtual false, abstract: false, final false
+  inline void WriteHdr(int32_t tag);
+
+  constexpr bool const& __cordl_internal_get__isExplicit() const;
+
+  constexpr bool& __cordl_internal_get__isExplicit();
+
+  constexpr int32_t const& __cordl_internal_get__tagNo() const;
+
+  constexpr int32_t& __cordl_internal_get__tagNo();
+
+  constexpr bool const& __cordl_internal_get__tagged() const;
+
+  constexpr bool& __cordl_internal_get__tagged();
+
+  constexpr void __cordl_internal_set__isExplicit(bool value);
+
+  constexpr void __cordl_internal_set__tagNo(int32_t value);
+
+  constexpr void __cordl_internal_set__tagged(bool value);
+
+  /// @brief Method .ctor, addr 0x122bc94, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream);
+
+  /// @brief Method .ctor, addr 0x122bcc0, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerGenerator(BerGenerator&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerGenerator(BerGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerGenerator();
-
-public:
   /// @brief Field _tagged, offset: 0x18, size: 0x1, def value: None
   bool ____tagged;
 

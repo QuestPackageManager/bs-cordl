@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintRotation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12508))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12511))
 // CS Name: ::RootMotion.FinalIK::ConstraintRotation*
 class CORDL_TYPE ConstraintRotation : public ::RootMotion::FinalIK::Constraint {
 public:
@@ -27,25 +25,31 @@ public:
   /// @brief Field rotation, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Quaternion rotation;
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
-
-  constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
-
-  /// @brief Method UpdateConstraint, addr 0x124294c, size 0x7c, virtual true, abstract: false, final false
-  inline void UpdateConstraint();
-
   static inline ::RootMotion::FinalIK::ConstraintRotation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12429c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::RootMotion::FinalIK::ConstraintRotation* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x12429d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x131e9e8, size 0x7c, virtual true, abstract: false, final false
+  inline void UpdateConstraint();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotation();
+
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method .ctor, addr 0x131ea64, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x131ea6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConstraintRotation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintRotation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstraintRotation(ConstraintRotation&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConstraintRotation(ConstraintRotation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstraintRotation();
-
-public:
   /// @brief Field rotation, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___rotation;
 

@@ -66,8 +66,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformAchievementHandler____c__Displ
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass2_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -76,20 +74,26 @@ public:
   __declspec(property(get = __cordl_internal_get_completionHandler,
                       put = __cordl_internal_set_completionHandler))::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler;
 
+  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* New_ctor();
+
+  /// @brief Method <UnlockAchievement>b__0, addr 0x12e835c, size 0x40, virtual false, abstract: false, final false
+  inline void _UnlockAchievement_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>* message);
+
   constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*& __cordl_internal_get_completionHandler();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*> const& __cordl_internal_get_completionHandler() const;
 
   constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23679a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e8254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x2367aac, size 0x40, virtual false, abstract: false, final false
-  inline void _UnlockAchievement_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>* message);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAchievementHandler____c__DisplayClass2_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusPlatformAchievementHandler____c__DisplayClass2_0(__OculusPlatformAchievementHandler____c__DisplayClass2_0&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformAchievementHandler____c__DisplayClass2_0(__OculusPlatformAchievementHandler____c__DisplayClass2_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAchievementHandler____c__DisplayClass2_0();
-
-public:
   /// @brief Field completionHandler, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* ___completionHandler;
 
@@ -119,39 +117,43 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_0*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformAchievementHandler* __4__this;
+
   /// @brief Field completionHandler, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_completionHandler,
                       put = __cordl_internal_set_completionHandler))::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler;
 
-  /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformAchievementHandler* __4__this;
+  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* New_ctor();
 
-  constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*& __cordl_internal_get_completionHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*> const& __cordl_internal_get_completionHandler() const;
-
-  constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* value);
+  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x12e839c, size 0x528, virtual false, abstract: false, final false
+  inline void _GetUnlockedAchievements_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
 
   constexpr ::GlobalNamespace::OculusPlatformAchievementHandler*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAchievementHandler*> const& __cordl_internal_get___4__this() const;
 
+  constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*& __cordl_internal_get_completionHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*> const& __cordl_internal_get_completionHandler() const;
+
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformAchievementHandler* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* New_ctor();
+  constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* value);
 
-  /// @brief Method .ctor, addr 0x2367a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e834c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x2367aec, size 0x528, virtual false, abstract: false, final false
-  inline void _GetUnlockedAchievements_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAchievementHandler____c__DisplayClass3_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusPlatformAchievementHandler____c__DisplayClass3_0(__OculusPlatformAchievementHandler____c__DisplayClass3_0&&) = delete;
@@ -160,12 +162,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformAchievementHandler____c__DisplayClass3_0(__OculusPlatformAchievementHandler____c__DisplayClass3_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAchievementHandler____c__DisplayClass3_0();
-
-public:
   /// @brief Field completionHandler, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* ___completionHandler;
 
@@ -186,8 +182,6 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4544))
 // CS Name: ::OculusPlatformAchievementHandler::<>c__DisplayClass3_1*
 class CORDL_TYPE __OculusPlatformAchievementHandler____c__DisplayClass3_1 : public ::System::Object {
 public:
@@ -195,20 +189,26 @@ public:
   /// @brief Field achievement, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_achievement, put = __cordl_internal_set_achievement))::Oculus::Platform::Models::AchievementProgress* achievement;
 
+  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* New_ctor();
+
+  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x12e88cc, size 0x28, virtual false, abstract: false, final false
+  inline bool _GetUnlockedAchievements_b__1(::GlobalNamespace::AchievementSO* x);
+
   constexpr ::Oculus::Platform::Models::AchievementProgress*& __cordl_internal_get_achievement();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::AchievementProgress*> const& __cordl_internal_get_achievement() const;
 
   constexpr void __cordl_internal_set_achievement(::Oculus::Platform::Models::AchievementProgress* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2368014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e88c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x236801c, size 0x28, virtual false, abstract: false, final false
-  inline bool _GetUnlockedAchievements_b__1(::GlobalNamespace::AchievementSO* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAchievementHandler____c__DisplayClass3_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAchievementHandler____c__DisplayClass3_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusPlatformAchievementHandler____c__DisplayClass3_1(__OculusPlatformAchievementHandler____c__DisplayClass3_1&&) = delete;
@@ -217,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformAchievementHandler____c__DisplayClass3_1(__OculusPlatformAchievementHandler____c__DisplayClass3_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAchievementHandler____c__DisplayClass3_1();
-
-public:
   /// @brief Field achievement, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::AchievementProgress* ___achievement;
 
@@ -238,17 +232,15 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAchievementHandler____
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4545))
 // CS Name: ::OculusPlatformAchievementHandler*
 class CORDL_TYPE OculusPlatformAchievementHandler : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass3_1 = ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1;
+  using __c__DisplayClass2_0 = ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0;
 
   using __c__DisplayClass3_0 = ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0;
 
-  using __c__DisplayClass2_0 = ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0;
+  using __c__DisplayClass3_1 = ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1;
 
   /// @brief Field _achievementIdsModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel))::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
@@ -256,29 +248,35 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
-  constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
-
-  constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
-
-  /// @brief Method Initialize, addr 0x23678ac, size 0x4, virtual true, abstract: false, final true
-  inline void Initialize();
-
-  /// @brief Method UnlockAchievement, addr 0x23678b0, size 0xf4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
-
-  /// @brief Method GetUnlockedAchievements, addr 0x23679ac, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievements, addr 0x12e825c, size 0xf0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
+
+  /// @brief Method Initialize, addr 0x12e815c, size 0x4, virtual true, abstract: false, final true
+  inline void Initialize();
 
   static inline ::GlobalNamespace::OculusPlatformAchievementHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2367aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnlockAchievement, addr 0x12e8160, size 0xf4, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
+
+  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel();
+
+  constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
+
+  /// @brief Method .ctor, addr 0x12e8354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
+  constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusPlatformAchievementHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAchievementHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformAchievementHandler(OculusPlatformAchievementHandler&&) = delete;
@@ -287,12 +285,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusPlatformAchievementHandler(OculusPlatformAchievementHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusPlatformAchievementHandler();
-
-public:
   /// @brief Field _achievementIdsModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementIdsModelSO> ____achievementIdsModel;
 

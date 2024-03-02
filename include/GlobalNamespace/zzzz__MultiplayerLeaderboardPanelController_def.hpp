@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5037))
 // CS Name: ::MultiplayerLeaderboardPanelController*
 class CORDL_TYPE MultiplayerLeaderboardPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,29 +33,35 @@ public:
   /// @brief Field _scoreProvider, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*>& __cordl_internal_get__items();
+  static inline ::GlobalNamespace::MultiplayerLeaderboardPanelController* New_ctor();
+
+  /// @brief Method Start, addr 0x244d1c0, size 0x60, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x244d24c, size 0x248, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __cordl_internal_set__items(::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*>& __cordl_internal_get__items();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
+
+  constexpr void __cordl_internal_set__items(::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> value);
+
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method Start, addr 0x23c1940, size 0x60, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x23c19cc, size 0x248, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::MultiplayerLeaderboardPanelController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c1ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244d764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLeaderboardPanelController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLeaderboardPanelController();
-
-public:
   /// @brief Field _items, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> ____items;
 

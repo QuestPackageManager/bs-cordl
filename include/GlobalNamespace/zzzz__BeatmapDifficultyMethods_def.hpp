@@ -20,24 +20,28 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultyMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4342))
 // CS Name: ::BeatmapDifficultyMethods*
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x2340cf0, size 0x9c, virtual false, abstract: false, final false
-  static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
-
-  /// @brief Method ShortName, addr 0x2340d8c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
-
-  /// @brief Method DefaultRating, addr 0x2340e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x12c4d4c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x2340e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x12c4c14, size 0x9c, virtual false, abstract: false, final false
+  static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
+
+  /// @brief Method NoteJumpMovementSpeed, addr 0x12c4d74, size 0x28, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  /// @brief Method ShortName, addr 0x12c4cb0, size 0x9c, virtual false, abstract: false, final false
+  static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDifficultyMethods();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultyMethods(BeatmapDifficultyMethods&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDifficultyMethods();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

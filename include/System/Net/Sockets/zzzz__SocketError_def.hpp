@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::Sockets::SocketError);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9347))
 // CS Name: ::System.Net.Sockets::SocketError
 struct CORDL_TYPE SocketError {
 public:
@@ -79,159 +77,164 @@ public:
     return static_cast<__SocketError_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SocketError(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SocketError();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SocketError(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
-  static ::System::Net::Sockets::SocketError const Success;
-
-  /// @brief Field SocketError value: static_cast<int32_t>(0xffffffff)
-  static ::System::Net::Sockets::SocketError const _cordl_SocketError;
-
-  /// @brief Field Interrupted value: static_cast<int32_t>(0x2714)
-  static ::System::Net::Sockets::SocketError const Interrupted;
 
   /// @brief Field AccessDenied value: static_cast<int32_t>(0x271d)
   static ::System::Net::Sockets::SocketError const AccessDenied;
 
-  /// @brief Field Fault value: static_cast<int32_t>(0x271e)
-  static ::System::Net::Sockets::SocketError const Fault;
-
-  /// @brief Field InvalidArgument value: static_cast<int32_t>(0x2726)
-  static ::System::Net::Sockets::SocketError const InvalidArgument;
-
-  /// @brief Field TooManyOpenSockets value: static_cast<int32_t>(0x2728)
-  static ::System::Net::Sockets::SocketError const TooManyOpenSockets;
-
-  /// @brief Field WouldBlock value: static_cast<int32_t>(0x2733)
-  static ::System::Net::Sockets::SocketError const WouldBlock;
-
-  /// @brief Field InProgress value: static_cast<int32_t>(0x2734)
-  static ::System::Net::Sockets::SocketError const InProgress;
-
-  /// @brief Field AlreadyInProgress value: static_cast<int32_t>(0x2735)
-  static ::System::Net::Sockets::SocketError const AlreadyInProgress;
-
-  /// @brief Field NotSocket value: static_cast<int32_t>(0x2736)
-  static ::System::Net::Sockets::SocketError const NotSocket;
-
-  /// @brief Field DestinationAddressRequired value: static_cast<int32_t>(0x2737)
-  static ::System::Net::Sockets::SocketError const DestinationAddressRequired;
-
-  /// @brief Field MessageSize value: static_cast<int32_t>(0x2738)
-  static ::System::Net::Sockets::SocketError const MessageSize;
-
-  /// @brief Field ProtocolType value: static_cast<int32_t>(0x2739)
-  static ::System::Net::Sockets::SocketError const ProtocolType;
-
-  /// @brief Field ProtocolOption value: static_cast<int32_t>(0x273a)
-  static ::System::Net::Sockets::SocketError const ProtocolOption;
-
-  /// @brief Field ProtocolNotSupported value: static_cast<int32_t>(0x273b)
-  static ::System::Net::Sockets::SocketError const ProtocolNotSupported;
-
-  /// @brief Field SocketNotSupported value: static_cast<int32_t>(0x273c)
-  static ::System::Net::Sockets::SocketError const SocketNotSupported;
-
-  /// @brief Field OperationNotSupported value: static_cast<int32_t>(0x273d)
-  static ::System::Net::Sockets::SocketError const OperationNotSupported;
-
-  /// @brief Field ProtocolFamilyNotSupported value: static_cast<int32_t>(0x273e)
-  static ::System::Net::Sockets::SocketError const ProtocolFamilyNotSupported;
+  /// @brief Field AddressAlreadyInUse value: static_cast<int32_t>(0x2740)
+  static ::System::Net::Sockets::SocketError const AddressAlreadyInUse;
 
   /// @brief Field AddressFamilyNotSupported value: static_cast<int32_t>(0x273f)
   static ::System::Net::Sockets::SocketError const AddressFamilyNotSupported;
 
-  /// @brief Field AddressAlreadyInUse value: static_cast<int32_t>(0x2740)
-  static ::System::Net::Sockets::SocketError const AddressAlreadyInUse;
-
   /// @brief Field AddressNotAvailable value: static_cast<int32_t>(0x2741)
   static ::System::Net::Sockets::SocketError const AddressNotAvailable;
 
-  /// @brief Field NetworkDown value: static_cast<int32_t>(0x2742)
-  static ::System::Net::Sockets::SocketError const NetworkDown;
-
-  /// @brief Field NetworkUnreachable value: static_cast<int32_t>(0x2743)
-  static ::System::Net::Sockets::SocketError const NetworkUnreachable;
-
-  /// @brief Field NetworkReset value: static_cast<int32_t>(0x2744)
-  static ::System::Net::Sockets::SocketError const NetworkReset;
+  /// @brief Field AlreadyInProgress value: static_cast<int32_t>(0x2735)
+  static ::System::Net::Sockets::SocketError const AlreadyInProgress;
 
   /// @brief Field ConnectionAborted value: static_cast<int32_t>(0x2745)
   static ::System::Net::Sockets::SocketError const ConnectionAborted;
 
-  /// @brief Field ConnectionReset value: static_cast<int32_t>(0x2746)
-  static ::System::Net::Sockets::SocketError const ConnectionReset;
-
-  /// @brief Field NoBufferSpaceAvailable value: static_cast<int32_t>(0x2747)
-  static ::System::Net::Sockets::SocketError const NoBufferSpaceAvailable;
-
-  /// @brief Field IsConnected value: static_cast<int32_t>(0x2748)
-  static ::System::Net::Sockets::SocketError const IsConnected;
-
-  /// @brief Field NotConnected value: static_cast<int32_t>(0x2749)
-  static ::System::Net::Sockets::SocketError const NotConnected;
-
-  /// @brief Field Shutdown value: static_cast<int32_t>(0x274a)
-  static ::System::Net::Sockets::SocketError const Shutdown;
-
-  /// @brief Field TimedOut value: static_cast<int32_t>(0x274c)
-  static ::System::Net::Sockets::SocketError const TimedOut;
-
   /// @brief Field ConnectionRefused value: static_cast<int32_t>(0x274d)
   static ::System::Net::Sockets::SocketError const ConnectionRefused;
 
-  /// @brief Field HostDown value: static_cast<int32_t>(0x2750)
-  static ::System::Net::Sockets::SocketError const HostDown;
+  /// @brief Field ConnectionReset value: static_cast<int32_t>(0x2746)
+  static ::System::Net::Sockets::SocketError const ConnectionReset;
 
-  /// @brief Field HostUnreachable value: static_cast<int32_t>(0x2751)
-  static ::System::Net::Sockets::SocketError const HostUnreachable;
-
-  /// @brief Field ProcessLimit value: static_cast<int32_t>(0x2753)
-  static ::System::Net::Sockets::SocketError const ProcessLimit;
-
-  /// @brief Field SystemNotReady value: static_cast<int32_t>(0x276b)
-  static ::System::Net::Sockets::SocketError const SystemNotReady;
-
-  /// @brief Field VersionNotSupported value: static_cast<int32_t>(0x276c)
-  static ::System::Net::Sockets::SocketError const VersionNotSupported;
-
-  /// @brief Field NotInitialized value: static_cast<int32_t>(0x276d)
-  static ::System::Net::Sockets::SocketError const NotInitialized;
+  /// @brief Field DestinationAddressRequired value: static_cast<int32_t>(0x2737)
+  static ::System::Net::Sockets::SocketError const DestinationAddressRequired;
 
   /// @brief Field Disconnecting value: static_cast<int32_t>(0x2775)
   static ::System::Net::Sockets::SocketError const Disconnecting;
 
-  /// @brief Field TypeNotFound value: static_cast<int32_t>(0x277d)
-  static ::System::Net::Sockets::SocketError const TypeNotFound;
+  /// @brief Field Fault value: static_cast<int32_t>(0x271e)
+  static ::System::Net::Sockets::SocketError const Fault;
+
+  /// @brief Field HostDown value: static_cast<int32_t>(0x2750)
+  static ::System::Net::Sockets::SocketError const HostDown;
 
   /// @brief Field HostNotFound value: static_cast<int32_t>(0x2af9)
   static ::System::Net::Sockets::SocketError const HostNotFound;
 
-  /// @brief Field TryAgain value: static_cast<int32_t>(0x2afa)
-  static ::System::Net::Sockets::SocketError const TryAgain;
-
-  /// @brief Field NoRecovery value: static_cast<int32_t>(0x2afb)
-  static ::System::Net::Sockets::SocketError const NoRecovery;
-
-  /// @brief Field NoData value: static_cast<int32_t>(0x2afc)
-  static ::System::Net::Sockets::SocketError const NoData;
+  /// @brief Field HostUnreachable value: static_cast<int32_t>(0x2751)
+  static ::System::Net::Sockets::SocketError const HostUnreachable;
 
   /// @brief Field IOPending value: static_cast<int32_t>(0x3e5)
   static ::System::Net::Sockets::SocketError const IOPending;
 
+  /// @brief Field InProgress value: static_cast<int32_t>(0x2734)
+  static ::System::Net::Sockets::SocketError const InProgress;
+
+  /// @brief Field Interrupted value: static_cast<int32_t>(0x2714)
+  static ::System::Net::Sockets::SocketError const Interrupted;
+
+  /// @brief Field InvalidArgument value: static_cast<int32_t>(0x2726)
+  static ::System::Net::Sockets::SocketError const InvalidArgument;
+
+  /// @brief Field IsConnected value: static_cast<int32_t>(0x2748)
+  static ::System::Net::Sockets::SocketError const IsConnected;
+
+  /// @brief Field MessageSize value: static_cast<int32_t>(0x2738)
+  static ::System::Net::Sockets::SocketError const MessageSize;
+
+  /// @brief Field NetworkDown value: static_cast<int32_t>(0x2742)
+  static ::System::Net::Sockets::SocketError const NetworkDown;
+
+  /// @brief Field NetworkReset value: static_cast<int32_t>(0x2744)
+  static ::System::Net::Sockets::SocketError const NetworkReset;
+
+  /// @brief Field NetworkUnreachable value: static_cast<int32_t>(0x2743)
+  static ::System::Net::Sockets::SocketError const NetworkUnreachable;
+
+  /// @brief Field NoBufferSpaceAvailable value: static_cast<int32_t>(0x2747)
+  static ::System::Net::Sockets::SocketError const NoBufferSpaceAvailable;
+
+  /// @brief Field NoData value: static_cast<int32_t>(0x2afc)
+  static ::System::Net::Sockets::SocketError const NoData;
+
+  /// @brief Field NoRecovery value: static_cast<int32_t>(0x2afb)
+  static ::System::Net::Sockets::SocketError const NoRecovery;
+
+  /// @brief Field NotConnected value: static_cast<int32_t>(0x2749)
+  static ::System::Net::Sockets::SocketError const NotConnected;
+
+  /// @brief Field NotInitialized value: static_cast<int32_t>(0x276d)
+  static ::System::Net::Sockets::SocketError const NotInitialized;
+
+  /// @brief Field NotSocket value: static_cast<int32_t>(0x2736)
+  static ::System::Net::Sockets::SocketError const NotSocket;
+
   /// @brief Field OperationAborted value: static_cast<int32_t>(0x3e3)
   static ::System::Net::Sockets::SocketError const OperationAborted;
+
+  /// @brief Field OperationNotSupported value: static_cast<int32_t>(0x273d)
+  static ::System::Net::Sockets::SocketError const OperationNotSupported;
+
+  /// @brief Field ProcessLimit value: static_cast<int32_t>(0x2753)
+  static ::System::Net::Sockets::SocketError const ProcessLimit;
+
+  /// @brief Field ProtocolFamilyNotSupported value: static_cast<int32_t>(0x273e)
+  static ::System::Net::Sockets::SocketError const ProtocolFamilyNotSupported;
+
+  /// @brief Field ProtocolNotSupported value: static_cast<int32_t>(0x273b)
+  static ::System::Net::Sockets::SocketError const ProtocolNotSupported;
+
+  /// @brief Field ProtocolOption value: static_cast<int32_t>(0x273a)
+  static ::System::Net::Sockets::SocketError const ProtocolOption;
+
+  /// @brief Field ProtocolType value: static_cast<int32_t>(0x2739)
+  static ::System::Net::Sockets::SocketError const ProtocolType;
+
+  /// @brief Field Shutdown value: static_cast<int32_t>(0x274a)
+  static ::System::Net::Sockets::SocketError const Shutdown;
+
+  /// @brief Field SocketNotSupported value: static_cast<int32_t>(0x273c)
+  static ::System::Net::Sockets::SocketError const SocketNotSupported;
+
+  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  static ::System::Net::Sockets::SocketError const Success;
+
+  /// @brief Field SystemNotReady value: static_cast<int32_t>(0x276b)
+  static ::System::Net::Sockets::SocketError const SystemNotReady;
+
+  /// @brief Field TimedOut value: static_cast<int32_t>(0x274c)
+  static ::System::Net::Sockets::SocketError const TimedOut;
+
+  /// @brief Field TooManyOpenSockets value: static_cast<int32_t>(0x2728)
+  static ::System::Net::Sockets::SocketError const TooManyOpenSockets;
+
+  /// @brief Field TryAgain value: static_cast<int32_t>(0x2afa)
+  static ::System::Net::Sockets::SocketError const TryAgain;
+
+  /// @brief Field TypeNotFound value: static_cast<int32_t>(0x277d)
+  static ::System::Net::Sockets::SocketError const TypeNotFound;
+
+  /// @brief Field VersionNotSupported value: static_cast<int32_t>(0x276c)
+  static ::System::Net::Sockets::SocketError const VersionNotSupported;
+
+  /// @brief Field WouldBlock value: static_cast<int32_t>(0x2733)
+  static ::System::Net::Sockets::SocketError const WouldBlock;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field SocketError value: static_cast<int32_t>(0xffffffff)
+  static ::System::Net::Sockets::SocketError const _cordl_SocketError;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

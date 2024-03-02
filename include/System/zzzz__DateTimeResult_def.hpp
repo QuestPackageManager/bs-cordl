@@ -43,35 +43,37 @@ MARK_VAL_T(::System::DateTimeResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2397)), TypeDefinitionIndex(TypeDefinitionIndex(2398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(2399)) CS Name: ::System::DateTimeResult
+// CS Name: ::System::DateTimeResult
 struct CORDL_TYPE DateTimeResult {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a58b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2697eb0, size 0x24, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> originalDateTimeString);
 
-  /// @brief Method SetDate, addr 0x25a58d8, size 0xc, virtual false, abstract: false, final false
-  inline void SetDate(int32_t year, int32_t month, int32_t day);
-
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x25a58e4, size 0x94, virtual false, abstract: false, final false
-  inline void SetBadFormatSpecifierFailure();
-
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x25a5978, size 0x64, virtual false, abstract: false, final false
-  inline void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier);
-
-  /// @brief Method SetBadDateTimeFailure, addr 0x25a59dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetBadDateTimeFailure, addr 0x2697fd8, size 0x50, virtual false, abstract: false, final false
   inline void SetBadDateTimeFailure();
 
-  /// @brief Method SetFailure, addr 0x25a5a2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x2697ee0, size 0x94, virtual false, abstract: false, final false
+  inline void SetBadFormatSpecifierFailure();
+
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x2697f74, size 0x64, virtual false, abstract: false, final false
+  inline void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier);
+
+  /// @brief Method SetDate, addr 0x2697ed4, size 0xc, virtual false, abstract: false, final false
+  inline void SetDate(int32_t year, int32_t month, int32_t day);
+
+  /// @brief Method SetFailure, addr 0x2698028, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID);
 
-  /// @brief Method SetFailure, addr 0x25a5a38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2698034, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x25a5a44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x2698040, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeResult();
 
   // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None },
@@ -86,10 +88,6 @@ public:
                            ::System::TimeSpan timeZoneOffset, ::System::Globalization::Calendar* calendar, ::System::DateTime parsedDate, ::System::ParseFailureKind failure,
                            ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName, ::System::ReadOnlySpan_1<char16_t> originalDateTimeString,
                            ::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeResult();
 
   /// @brief Field Year, offset: 0x0, size: 0x4, def value: None
   int32_t Year;

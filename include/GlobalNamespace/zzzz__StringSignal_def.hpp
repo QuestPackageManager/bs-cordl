@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::StringSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 397 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14400))
 // CS Name: ::StringSignal*
 class CORDL_TYPE StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
 public:
   // Declarations
   static inline ::GlobalNamespace::StringSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x20f5af0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257b84, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringSignal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringSignal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringSignal(StringSignal&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringSignal(StringSignal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringSignal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

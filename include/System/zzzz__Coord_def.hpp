@@ -15,18 +15,16 @@ MARK_VAL_T(::System::Coord);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2645))
 // CS Name: ::System::Coord
 struct CORDL_TYPE Coord {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "X", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "int16_t", modifiers: "", def_value: None }]
-  constexpr Coord(int16_t X, int16_t Y) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Coord();
+
+  // Ctor Parameters [CppParam { name: "X", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "int16_t", modifiers: "", def_value: None }]
+  constexpr Coord(int16_t X, int16_t Y) noexcept;
 
   /// @brief Field X, offset: 0x0, size: 0x2, def value: None
   int16_t X;

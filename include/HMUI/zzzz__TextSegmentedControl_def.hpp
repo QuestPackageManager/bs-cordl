@@ -35,14 +35,27 @@ MARK_REF_PTR_T(::HMUI::TextSegmentedControl);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13550))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13552))
 // CS Name: ::HMUI::TextSegmentedControl*
 class CORDL_TYPE TextSegmentedControl : public ::HMUI::SegmentedControl {
 public:
   // Declarations
+  /// @brief Field _container, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
+  /// @brief Field _firstCellPrefab, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _firstCellPrefab;
+
   /// @brief Field _fontSize, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__fontSize, put = __cordl_internal_set__fontSize)) float_t _fontSize;
+
+  /// @brief Field _hideCellBackground, offset 0x64, size 0x1
+  __declspec(property(get = __cordl_internal_get__hideCellBackground, put = __cordl_internal_set__hideCellBackground)) bool _hideCellBackground;
+
+  /// @brief Field _lastCellPrefab, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastCellPrefab, put = __cordl_internal_set__lastCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _lastCellPrefab;
+
+  /// @brief Field _middleCellPrefab, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__middleCellPrefab, put = __cordl_internal_set__middleCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _middleCellPrefab;
 
   /// @brief Field _overrideCellSize, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideCellSize, put = __cordl_internal_set__overrideCellSize)) bool _overrideCellSize;
@@ -50,23 +63,8 @@ public:
   /// @brief Field _padding, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
 
-  /// @brief Field _hideCellBackground, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get__hideCellBackground, put = __cordl_internal_set__hideCellBackground)) bool _hideCellBackground;
-
-  /// @brief Field _firstCellPrefab, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _firstCellPrefab;
-
-  /// @brief Field _lastCellPrefab, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastCellPrefab, put = __cordl_internal_set__lastCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _lastCellPrefab;
-
   /// @brief Field _singleCellPrefab, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _singleCellPrefab;
-
-  /// @brief Field _middleCellPrefab, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__middleCellPrefab, put = __cordl_internal_set__middleCellPrefab))::UnityW<::HMUI::TextSegmentedControlCell> _middleCellPrefab;
-
-  /// @brief Field _container, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _texts, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _texts;
@@ -74,86 +72,92 @@ public:
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+  /// @brief Method CellForCellNumber, addr 0x22822a4, size 0x294, virtual true, abstract: false, final true
+  inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  constexpr float_t& __cordl_internal_get__fontSize();
+  /// @brief Method InstantiateCell, addr 0x2282538, size 0x180, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::TextSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
 
-  constexpr float_t const& __cordl_internal_get__fontSize() const;
+  static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  constexpr void __cordl_internal_set__fontSize(float_t value);
+  /// @brief Method NumberOfCells, addr 0x22821f8, size 0xac, virtual true, abstract: false, final true
+  inline int32_t NumberOfCells();
 
-  constexpr bool& __cordl_internal_get__overrideCellSize();
-
-  constexpr bool const& __cordl_internal_get__overrideCellSize() const;
-
-  constexpr void __cordl_internal_set__overrideCellSize(bool value);
-
-  constexpr float_t& __cordl_internal_get__padding();
-
-  constexpr float_t const& __cordl_internal_get__padding() const;
-
-  constexpr void __cordl_internal_set__padding(float_t value);
-
-  constexpr bool& __cordl_internal_get__hideCellBackground();
-
-  constexpr bool const& __cordl_internal_get__hideCellBackground() const;
-
-  constexpr void __cordl_internal_set__hideCellBackground(bool value);
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__firstCellPrefab();
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
-
-  constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__lastCellPrefab();
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__lastCellPrefab() const;
-
-  constexpr void __cordl_internal_set__lastCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__singleCellPrefab() const;
-
-  constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__middleCellPrefab();
-
-  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__middleCellPrefab() const;
-
-  constexpr void __cordl_internal_set__middleCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
+  /// @brief Method SetTexts, addr 0x22821e0, size 0x18, virtual false, abstract: false, final false
+  inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__firstCellPrefab();
+
+  constexpr float_t const& __cordl_internal_get__fontSize() const;
+
+  constexpr float_t& __cordl_internal_get__fontSize();
+
+  constexpr bool const& __cordl_internal_get__hideCellBackground() const;
+
+  constexpr bool& __cordl_internal_get__hideCellBackground();
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__lastCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__lastCellPrefab();
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__middleCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__middleCellPrefab();
+
+  constexpr bool const& __cordl_internal_get__overrideCellSize() const;
+
+  constexpr bool& __cordl_internal_get__overrideCellSize();
+
+  constexpr float_t const& __cordl_internal_get__padding() const;
+
+  constexpr float_t& __cordl_internal_get__padding();
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__singleCellPrefab() const;
+
+  constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__texts();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __cordl_internal_get__texts() const;
 
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
+
+  constexpr void __cordl_internal_set__fontSize(float_t value);
+
+  constexpr void __cordl_internal_set__hideCellBackground(bool value);
+
+  constexpr void __cordl_internal_set__lastCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
+
+  constexpr void __cordl_internal_set__middleCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
+
+  constexpr void __cordl_internal_set__overrideCellSize(bool value);
+
+  constexpr void __cordl_internal_set__padding(float_t value);
+
+  constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
+
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method SetTexts, addr 0x212029c, size 0x18, virtual false, abstract: false, final false
-  inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
-
-  /// @brief Method NumberOfCells, addr 0x21202b4, size 0xac, virtual true, abstract: false, final true
-  inline int32_t NumberOfCells();
-
-  /// @brief Method CellForCellNumber, addr 0x2120360, size 0x294, virtual true, abstract: false, final true
-  inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
-
-  /// @brief Method InstantiateCell, addr 0x21205f4, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityW<::HMUI::TextSegmentedControlCell> InstantiateCell(::UnityEngine::Object* prefab);
-
-  static inline ::HMUI::TextSegmentedControl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21207fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2282740, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
+  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextSegmentedControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSegmentedControl(TextSegmentedControl&&) = delete;
@@ -162,12 +166,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextSegmentedControl(TextSegmentedControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSegmentedControl();
-
-public:
   /// @brief Field _fontSize, offset: 0x58, size: 0x4, def value: None
   float_t ____fontSize;
 

@@ -24,17 +24,19 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformEuler);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9715))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9727))
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformEuler
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2188610, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22f39fc, size 0xc8, virtual false, abstract: false, final false
+  inline void Init();
+
+  /// @brief Method .ctor, addr 0x22ea55c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init, addr 0x2191ab0, size 0xc8, virtual false, abstract: false, final false
-  inline void Init();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_TransformEuler();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationEuler", ty:
   // "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name:
@@ -42,10 +44,6 @@ public:
   // }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
   constexpr HAPI_TransformEuler(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationEuler, ::ArrayW<float_t, ::Array<float_t>*> scale,
                                 ::ArrayW<float_t, ::Array<float_t>*> shear, ::HoudiniEngineUnity::HAPI_XYZOrder rotationOrder, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_TransformEuler();
 
   /// @brief Field position, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> position;

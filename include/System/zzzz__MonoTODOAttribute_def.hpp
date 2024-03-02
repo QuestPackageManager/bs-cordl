@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::MonoTODOAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2538))
 // CS Name: ::System::MonoTODOAttribute*
 class CORDL_TYPE MonoTODOAttribute : public ::System::Attribute {
 public:
@@ -24,22 +22,28 @@ public:
   /// @brief Field comment, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_comment, put = __cordl_internal_set_comment))::StringW comment;
 
-  constexpr ::StringW& __cordl_internal_get_comment();
-
-  constexpr ::StringW const& __cordl_internal_get_comment() const;
-
-  constexpr void __cordl_internal_set_comment(::StringW value);
-
   static inline ::System::MonoTODOAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25d7abc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::System::MonoTODOAttribute* New_ctor(::StringW comment);
 
-  /// @brief Method .ctor, addr 0x25d7acc, size 0x28, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_comment() const;
+
+  constexpr ::StringW& __cordl_internal_get_comment();
+
+  constexpr void __cordl_internal_set_comment(::StringW value);
+
+  /// @brief Method .ctor, addr 0x26ca0b8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x26ca0c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoTODOAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTODOAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTODOAttribute(MonoTODOAttribute&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTODOAttribute(MonoTODOAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoTODOAttribute();
-
-public:
   /// @brief Field comment, offset: 0x10, size: 0x8, def value: None
   ::StringW ___comment;
 

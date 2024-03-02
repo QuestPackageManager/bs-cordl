@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSStarTextEventInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3986))
 // CS Name: ::BTSStarTextEventInstaller*
 class CORDL_TYPE BTSStarTextEventInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -27,20 +25,26 @@ public:
   __declspec(property(get = __cordl_internal_get__btsStarTextEffectController,
                       put = __cordl_internal_set__btsStarTextEffectController))::UnityW<::GlobalNamespace::BTSStarTextEffectController> _btsStarTextEffectController;
 
-  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController>& __cordl_internal_get__btsStarTextEffectController();
-
-  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController> const& __cordl_internal_get__btsStarTextEffectController() const;
-
-  constexpr void __cordl_internal_set__btsStarTextEffectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
-
-  /// @brief Method InstallBindings, addr 0x221dc9c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0xe7542c, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BTSStarTextEventInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x221dd20, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController> const& __cordl_internal_get__btsStarTextEffectController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController>& __cordl_internal_get__btsStarTextEffectController();
+
+  constexpr void __cordl_internal_set__btsStarTextEffectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
+
+  /// @brief Method .ctor, addr 0xe754b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BTSStarTextEventInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEventInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSStarTextEventInstaller(BTSStarTextEventInstaller&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSStarTextEventInstaller(BTSStarTextEventInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BTSStarTextEventInstaller();
-
-public:
   /// @brief Field _btsStarTextEffectController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BTSStarTextEffectController> ____btsStarTextEffectController;
 

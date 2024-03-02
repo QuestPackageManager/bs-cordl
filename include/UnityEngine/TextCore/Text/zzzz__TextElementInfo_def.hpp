@@ -48,12 +48,14 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13698)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13719))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
-// ::UnityEngine.TextCore.Text::TextElementInfo
+// CS Name: ::UnityEngine.TextCore.Text::TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextElementInfo();
+
   // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: None }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*",
   // modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty:
@@ -80,10 +82,6 @@ public:
                             ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight, float_t origin, float_t ascender, float_t baseLine,
                             float_t descender, float_t xAdvance, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor,
                             ::UnityEngine::Color32 strikethroughColor, ::UnityEngine::Color32 highlightColor, ::UnityEngine::TextCore::Text::FontStyles style, bool isVisible) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextElementInfo();
 
   /// @brief Field character, offset: 0x0, size: 0x2, def value: None
   char16_t character;

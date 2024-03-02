@@ -58,8 +58,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1263))
 // CS Name: ::RecordStream::HandshakeHashUpdateStream*
 class CORDL_TYPE __RecordStream__HandshakeHashUpdateStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
@@ -67,20 +65,26 @@ public:
   /// @brief Field mOuter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mOuter, put = __cordl_internal_set_mOuter))::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter;
 
+  static inline ::Org::BouncyCastle::Crypto::Tls::__RecordStream__HandshakeHashUpdateStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter);
+
+  /// @brief Method Write, addr 0x1005a20, size 0xcc, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+
   constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream*& __cordl_internal_get_mOuter();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::RecordStream*> const& __cordl_internal_get_mOuter() const;
 
   constexpr void __cordl_internal_set_mOuter(::Org::BouncyCastle::Crypto::Tls::RecordStream* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::__RecordStream__HandshakeHashUpdateStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter);
-
-  /// @brief Method .ctor, addr 0xf9383c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x100469c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter);
 
-  /// @brief Method Write, addr 0xf94bc0, size 0xcc, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordStream__HandshakeHashUpdateStream();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordStream__HandshakeHashUpdateStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordStream__HandshakeHashUpdateStream(__RecordStream__HandshakeHashUpdateStream&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordStream__HandshakeHashUpdateStream(__RecordStream__HandshakeHashUpdateStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordStream__HandshakeHashUpdateStream();
-
-public:
   /// @brief Field mOuter, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::RecordStream* ___mOuter;
 
@@ -110,38 +108,42 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__RecordStream__Handsha
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1264))
 // CS Name: ::RecordStream::SequenceNumber*
 class CORDL_TYPE __RecordStream__SequenceNumber : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int64_t value;
-
   /// @brief Field exhausted, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_exhausted, put = __cordl_internal_set_exhausted)) bool exhausted;
 
-  constexpr int64_t& __cordl_internal_get_value();
-
-  constexpr int64_t const& __cordl_internal_get_value() const;
-
-  constexpr void __cordl_internal_set_value(int64_t value);
-
-  constexpr bool& __cordl_internal_get_exhausted();
-
-  constexpr bool const& __cordl_internal_get_exhausted() const;
-
-  constexpr void __cordl_internal_set_exhausted(bool value);
-
-  /// @brief Method NextValue, addr 0xf94418, size 0x7c, virtual false, abstract: false, final false
-  inline int64_t NextValue(uint8_t alertDescription);
+  /// @brief Field value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int64_t value;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf9382c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NextValue, addr 0x1005278, size 0x7c, virtual false, abstract: false, final false
+  inline int64_t NextValue(uint8_t alertDescription);
+
+  constexpr bool const& __cordl_internal_get_exhausted() const;
+
+  constexpr bool& __cordl_internal_get_exhausted();
+
+  constexpr int64_t const& __cordl_internal_get_value() const;
+
+  constexpr int64_t& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_exhausted(bool value);
+
+  constexpr void __cordl_internal_set_value(int64_t value);
+
+  /// @brief Method .ctor, addr 0x100468c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordStream__SequenceNumber();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordStream__SequenceNumber", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordStream__SequenceNumber(__RecordStream__SequenceNumber&&) = delete;
@@ -150,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordStream__SequenceNumber(__RecordStream__SequenceNumber const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordStream__SequenceNumber();
-
-public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   int64_t ___value;
 
@@ -176,51 +172,31 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__RecordStream__Sequenc
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1265))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::RecordStream*
 class CORDL_TYPE RecordStream : public ::System::Object {
 public:
   // Declarations
-  using SequenceNumber = ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber;
-
   using HandshakeHashUpdateStream = ::Org::BouncyCastle::Crypto::Tls::__RecordStream__HandshakeHashUpdateStream;
 
-  /// @brief Field mHandler, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mHandler, put = __cordl_internal_set_mHandler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* mHandler;
+  using SequenceNumber = ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber;
 
-  /// @brief Field mInput, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mInput, put = __cordl_internal_set_mInput))::System::IO::Stream* mInput;
+  __declspec(property(get = get_HandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* HandshakeHash;
 
-  /// @brief Field mOutput, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mOutput, put = __cordl_internal_set_mOutput))::System::IO::Stream* mOutput;
+  __declspec(property(get = get_HandshakeHashUpdater))::System::IO::Stream* HandshakeHashUpdater;
 
-  /// @brief Field mPendingCompression, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPendingCompression, put = __cordl_internal_set_mPendingCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mPendingCompression;
-
-  /// @brief Field mReadCompression, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadCompression, put = __cordl_internal_set_mReadCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mReadCompression;
-
-  /// @brief Field mWriteCompression, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteCompression, put = __cordl_internal_set_mWriteCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mWriteCompression;
-
-  /// @brief Field mPendingCipher, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPendingCipher, put = __cordl_internal_set_mPendingCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mPendingCipher;
-
-  /// @brief Field mReadCipher, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadCipher, put = __cordl_internal_set_mReadCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mReadCipher;
-
-  /// @brief Field mWriteCipher, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteCipher, put = __cordl_internal_set_mWriteCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mWriteCipher;
-
-  /// @brief Field mReadSeqNo, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadSeqNo, put = __cordl_internal_set_mReadSeqNo))::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* mReadSeqNo;
-
-  /// @brief Field mWriteSeqNo, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteSeqNo, put = __cordl_internal_set_mWriteSeqNo))::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* mWriteSeqNo;
+  __declspec(property(get = get_ReadVersion, put = set_ReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion;
 
   /// @brief Field mBuffer, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_mBuffer, put = __cordl_internal_set_mBuffer))::System::IO::MemoryStream* mBuffer;
+
+  /// @brief Field mCiphertextLimit, offset 0x9c, size 0x4
+  __declspec(property(get = __cordl_internal_get_mCiphertextLimit, put = __cordl_internal_set_mCiphertextLimit)) int32_t mCiphertextLimit;
+
+  /// @brief Field mCompressedLimit, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get_mCompressedLimit, put = __cordl_internal_set_mCompressedLimit)) int32_t mCompressedLimit;
+
+  /// @brief Field mHandler, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mHandler, put = __cordl_internal_set_mHandler))::Org::BouncyCastle::Crypto::Tls::TlsProtocol* mHandler;
 
   /// @brief Field mHandshakeHash, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_mHandshakeHash, put = __cordl_internal_set_mHandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* mHandshakeHash;
@@ -228,227 +204,251 @@ public:
   /// @brief Field mHandshakeHashUpdater, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_mHandshakeHashUpdater, put = __cordl_internal_set_mHandshakeHashUpdater))::Org::BouncyCastle::Utilities::IO::BaseOutputStream* mHandshakeHashUpdater;
 
-  /// @brief Field mReadVersion, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadVersion, put = __cordl_internal_set_mReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mReadVersion;
+  /// @brief Field mInput, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_mInput, put = __cordl_internal_set_mInput))::System::IO::Stream* mInput;
 
-  /// @brief Field mWriteVersion, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteVersion, put = __cordl_internal_set_mWriteVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mWriteVersion;
+  /// @brief Field mOutput, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_mOutput, put = __cordl_internal_set_mOutput))::System::IO::Stream* mOutput;
 
-  /// @brief Field mRestrictReadVersion, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get_mRestrictReadVersion, put = __cordl_internal_set_mRestrictReadVersion)) bool mRestrictReadVersion;
+  /// @brief Field mPendingCipher, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_mPendingCipher, put = __cordl_internal_set_mPendingCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mPendingCipher;
+
+  /// @brief Field mPendingCompression, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_mPendingCompression, put = __cordl_internal_set_mPendingCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mPendingCompression;
 
   /// @brief Field mPlaintextLimit, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_mPlaintextLimit, put = __cordl_internal_set_mPlaintextLimit)) int32_t mPlaintextLimit;
 
-  /// @brief Field mCompressedLimit, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get_mCompressedLimit, put = __cordl_internal_set_mCompressedLimit)) int32_t mCompressedLimit;
+  /// @brief Field mReadCipher, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_mReadCipher, put = __cordl_internal_set_mReadCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mReadCipher;
 
-  /// @brief Field mCiphertextLimit, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get_mCiphertextLimit, put = __cordl_internal_set_mCiphertextLimit)) int32_t mCiphertextLimit;
+  /// @brief Field mReadCompression, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_mReadCompression, put = __cordl_internal_set_mReadCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mReadCompression;
 
-  __declspec(property(get = get_ReadVersion, put = set_ReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion;
+  /// @brief Field mReadSeqNo, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_mReadSeqNo, put = __cordl_internal_set_mReadSeqNo))::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* mReadSeqNo;
 
-  __declspec(property(get = get_HandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* HandshakeHash;
+  /// @brief Field mReadVersion, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_mReadVersion, put = __cordl_internal_set_mReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mReadVersion;
 
-  __declspec(property(get = get_HandshakeHashUpdater))::System::IO::Stream* HandshakeHashUpdater;
+  /// @brief Field mRestrictReadVersion, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_mRestrictReadVersion, put = __cordl_internal_set_mRestrictReadVersion)) bool mRestrictReadVersion;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_mHandler();
+  /// @brief Field mWriteCipher, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_mWriteCipher, put = __cordl_internal_set_mWriteCipher))::Org::BouncyCastle::Crypto::Tls::TlsCipher* mWriteCipher;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsProtocol*> const& __cordl_internal_get_mHandler() const;
+  /// @brief Field mWriteCompression, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_mWriteCompression, put = __cordl_internal_set_mWriteCompression))::Org::BouncyCastle::Crypto::Tls::TlsCompression* mWriteCompression;
 
-  constexpr void __cordl_internal_set_mHandler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
+  /// @brief Field mWriteSeqNo, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_mWriteSeqNo, put = __cordl_internal_set_mWriteSeqNo))::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* mWriteSeqNo;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_mInput();
+  /// @brief Field mWriteVersion, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_mWriteVersion, put = __cordl_internal_set_mWriteVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mWriteVersion;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_mInput() const;
+  /// @brief Method CheckLength, addr 0x1004bcc, size 0x58, virtual false, abstract: false, final false
+  static inline void CheckLength(int32_t length, int32_t limit, uint8_t alertDescription);
 
-  constexpr void __cordl_internal_set_mInput(::System::IO::Stream* value);
+  /// @brief Method CheckRecordHeader, addr 0x1004a3c, size 0x134, virtual true, abstract: false, final false
+  inline void CheckRecordHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> recordHeader);
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_mOutput();
+  /// @brief Method CheckType, addr 0x1004b70, size 0x5c, virtual false, abstract: false, final false
+  static inline void CheckType(uint8_t type, uint8_t alertDescription);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_mOutput() const;
+  /// @brief Method DecodeAndVerify, addr 0x1004fec, size 0x28c, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeAndVerify(uint8_t type, ::System::IO::Stream* input, int32_t len);
 
-  constexpr void __cordl_internal_set_mOutput(::System::IO::Stream* value);
+  /// @brief Method FinaliseHandshake, addr 0x10049b8, size 0x84, virtual true, abstract: false, final false
+  inline void FinaliseHandshake();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mPendingCompression();
+  /// @brief Method Flush, addr 0x10059fc, size 0x24, virtual true, abstract: false, final false
+  inline void Flush();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mPendingCompression() const;
+  /// @brief Method GetBufferContents, addr 0x10052f4, size 0x54, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBufferContents();
 
-  constexpr void __cordl_internal_set_mPendingCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+  /// @brief Method GetPlaintextLimit, addr 0x10047e4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetPlaintextLimit();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mReadCompression();
+  /// @brief Method Init, addr 0x10046c4, size 0x120, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mReadCompression() const;
+  static inline ::Org::BouncyCastle::Crypto::Tls::RecordStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler, ::System::IO::Stream* input, ::System::IO::Stream* output);
 
-  constexpr void __cordl_internal_set_mReadCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+  /// @brief Method NotifyHelloComplete, addr 0x1005730, size 0xac, virtual true, abstract: false, final false
+  inline void NotifyHelloComplete();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mWriteCompression();
+  /// @brief Method PrepareToFinish, addr 0x10057ec, size 0xb0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* PrepareToFinish();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mWriteCompression() const;
+  /// @brief Method ReadRecord, addr 0x1004c24, size 0x1b4, virtual true, abstract: false, final false
+  inline bool ReadRecord();
 
-  constexpr void __cordl_internal_set_mWriteCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+  /// @brief Method ReceivedReadCipherSpec, addr 0x10048f8, size 0xc0, virtual true, abstract: false, final false
+  inline void ReceivedReadCipherSpec();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mPendingCipher();
+  /// @brief Method SafeClose, addr 0x100589c, size 0x160, virtual true, abstract: false, final false
+  inline void SafeClose();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mPendingCipher() const;
+  /// @brief Method SentWriteCipherSpec, addr 0x1004838, size 0xc0, virtual true, abstract: false, final false
+  inline void SentWriteCipherSpec();
 
-  constexpr void __cordl_internal_set_mPendingCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
+  /// @brief Method SetPendingConnectionState, addr 0x100482c, size 0xc, virtual true, abstract: false, final false
+  inline void SetPendingConnectionState(::Org::BouncyCastle::Crypto::Tls::TlsCompression* tlsCompression, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* tlsCipher);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mReadCipher();
+  /// @brief Method SetPlaintextLimit, addr 0x10047ec, size 0x1c, virtual true, abstract: false, final false
+  inline void SetPlaintextLimit(int32_t plaintextLimit);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mReadCipher() const;
+  /// @brief Method SetRestrictReadVersion, addr 0x1004820, size 0xc, virtual true, abstract: false, final false
+  inline void SetRestrictReadVersion(bool enabled);
 
-  constexpr void __cordl_internal_set_mReadCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
+  /// @brief Method SetWriteVersion, addr 0x1004818, size 0x8, virtual true, abstract: false, final false
+  inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mWriteCipher();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mWriteCipher() const;
-
-  constexpr void __cordl_internal_set_mWriteCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*& __cordl_internal_get_mReadSeqNo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*> const& __cordl_internal_get_mReadSeqNo() const;
-
-  constexpr void __cordl_internal_set_mReadSeqNo(::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*& __cordl_internal_get_mWriteSeqNo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*> const& __cordl_internal_get_mWriteSeqNo() const;
-
-  constexpr void __cordl_internal_set_mWriteSeqNo(::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* value);
+  /// @brief Method WriteRecord, addr 0x1005348, size 0x3e8, virtual true, abstract: false, final false
+  inline void WriteRecord(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t plaintextOffset, int32_t plaintextLength);
 
   constexpr ::System::IO::MemoryStream*& __cordl_internal_get_mBuffer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_mBuffer() const;
 
-  constexpr void __cordl_internal_set_mBuffer(::System::IO::MemoryStream* value);
+  constexpr int32_t const& __cordl_internal_get_mCiphertextLimit() const;
+
+  constexpr int32_t& __cordl_internal_get_mCiphertextLimit();
+
+  constexpr int32_t const& __cordl_internal_get_mCompressedLimit() const;
+
+  constexpr int32_t& __cordl_internal_get_mCompressedLimit();
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol*& __cordl_internal_get_mHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsProtocol*> const& __cordl_internal_get_mHandler() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*& __cordl_internal_get_mHandshakeHash();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*> const& __cordl_internal_get_mHandshakeHash() const;
 
-  constexpr void __cordl_internal_set_mHandshakeHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
-
   constexpr ::Org::BouncyCastle::Utilities::IO::BaseOutputStream*& __cordl_internal_get_mHandshakeHashUpdater();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::IO::BaseOutputStream*> const& __cordl_internal_get_mHandshakeHashUpdater() const;
 
-  constexpr void __cordl_internal_set_mHandshakeHashUpdater(::Org::BouncyCastle::Utilities::IO::BaseOutputStream* value);
+  constexpr ::System::IO::Stream*& __cordl_internal_get_mInput();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_mInput() const;
+
+  constexpr ::System::IO::Stream*& __cordl_internal_get_mOutput();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_mOutput() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mPendingCipher();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mPendingCipher() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mPendingCompression();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mPendingCompression() const;
+
+  constexpr int32_t const& __cordl_internal_get_mPlaintextLimit() const;
+
+  constexpr int32_t& __cordl_internal_get_mPlaintextLimit();
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mReadCipher();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mReadCipher() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mReadCompression();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mReadCompression() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*& __cordl_internal_get_mReadSeqNo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*> const& __cordl_internal_get_mReadSeqNo() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __cordl_internal_get_mReadVersion();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __cordl_internal_get_mReadVersion() const;
 
-  constexpr void __cordl_internal_set_mReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
+  constexpr bool const& __cordl_internal_get_mRestrictReadVersion() const;
+
+  constexpr bool& __cordl_internal_get_mRestrictReadVersion();
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher*& __cordl_internal_get_mWriteCipher();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipher*> const& __cordl_internal_get_mWriteCipher() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression*& __cordl_internal_get_mWriteCompression();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCompression*> const& __cordl_internal_get_mWriteCompression() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*& __cordl_internal_get_mWriteSeqNo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber*> const& __cordl_internal_get_mWriteSeqNo() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __cordl_internal_get_mWriteVersion();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __cordl_internal_get_mWriteVersion() const;
 
-  constexpr void __cordl_internal_set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
-
-  constexpr bool& __cordl_internal_get_mRestrictReadVersion();
-
-  constexpr bool const& __cordl_internal_get_mRestrictReadVersion() const;
-
-  constexpr void __cordl_internal_set_mRestrictReadVersion(bool value);
-
-  constexpr int32_t& __cordl_internal_get_mPlaintextLimit();
-
-  constexpr int32_t const& __cordl_internal_get_mPlaintextLimit() const;
-
-  constexpr void __cordl_internal_set_mPlaintextLimit(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_mCompressedLimit();
-
-  constexpr int32_t const& __cordl_internal_get_mCompressedLimit() const;
-
-  constexpr void __cordl_internal_set_mCompressedLimit(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_mCiphertextLimit();
-
-  constexpr int32_t const& __cordl_internal_get_mCiphertextLimit() const;
+  constexpr void __cordl_internal_set_mBuffer(::System::IO::MemoryStream* value);
 
   constexpr void __cordl_internal_set_mCiphertextLimit(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::RecordStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler, ::System::IO::Stream* input, ::System::IO::Stream* output);
+  constexpr void __cordl_internal_set_mCompressedLimit(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf936c0, size 0x16c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_mHandler(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* value);
+
+  constexpr void __cordl_internal_set_mHandshakeHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
+
+  constexpr void __cordl_internal_set_mHandshakeHashUpdater(::Org::BouncyCastle::Utilities::IO::BaseOutputStream* value);
+
+  constexpr void __cordl_internal_set_mInput(::System::IO::Stream* value);
+
+  constexpr void __cordl_internal_set_mOutput(::System::IO::Stream* value);
+
+  constexpr void __cordl_internal_set_mPendingCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
+
+  constexpr void __cordl_internal_set_mPendingCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+
+  constexpr void __cordl_internal_set_mPlaintextLimit(int32_t value);
+
+  constexpr void __cordl_internal_set_mReadCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
+
+  constexpr void __cordl_internal_set_mReadCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+
+  constexpr void __cordl_internal_set_mReadSeqNo(::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* value);
+
+  constexpr void __cordl_internal_set_mReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
+
+  constexpr void __cordl_internal_set_mRestrictReadVersion(bool value);
+
+  constexpr void __cordl_internal_set_mWriteCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher* value);
+
+  constexpr void __cordl_internal_set_mWriteCompression(::Org::BouncyCastle::Crypto::Tls::TlsCompression* value);
+
+  constexpr void __cordl_internal_set_mWriteSeqNo(::Org::BouncyCastle::Crypto::Tls::__RecordStream__SequenceNumber* value);
+
+  constexpr void __cordl_internal_set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
+
+  /// @brief Method .ctor, addr 0x1004520, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler, ::System::IO::Stream* input, ::System::IO::Stream* output);
 
-  /// @brief Method Init, addr 0xf93864, size 0x120, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
-
-  /// @brief Method GetPlaintextLimit, addr 0xf93984, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetPlaintextLimit();
-
-  /// @brief Method SetPlaintextLimit, addr 0xf9398c, size 0x1c, virtual true, abstract: false, final false
-  inline void SetPlaintextLimit(int32_t plaintextLimit);
-
-  /// @brief Method get_ReadVersion, addr 0xf939a8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
-
-  /// @brief Method set_ReadVersion, addr 0xf939b0, size 0x8, virtual true, abstract: false, final false
-  inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
-
-  /// @brief Method SetWriteVersion, addr 0xf939b8, size 0x8, virtual true, abstract: false, final false
-  inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
-
-  /// @brief Method SetRestrictReadVersion, addr 0xf939c0, size 0xc, virtual true, abstract: false, final false
-  inline void SetRestrictReadVersion(bool enabled);
-
-  /// @brief Method SetPendingConnectionState, addr 0xf939cc, size 0xc, virtual true, abstract: false, final false
-  inline void SetPendingConnectionState(::Org::BouncyCastle::Crypto::Tls::TlsCompression* tlsCompression, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* tlsCipher);
-
-  /// @brief Method SentWriteCipherSpec, addr 0xf939d8, size 0xc0, virtual true, abstract: false, final false
-  inline void SentWriteCipherSpec();
-
-  /// @brief Method ReceivedReadCipherSpec, addr 0xf93a98, size 0xc0, virtual true, abstract: false, final false
-  inline void ReceivedReadCipherSpec();
-
-  /// @brief Method FinaliseHandshake, addr 0xf93b58, size 0x84, virtual true, abstract: false, final false
-  inline void FinaliseHandshake();
-
-  /// @brief Method CheckRecordHeader, addr 0xf93bdc, size 0x134, virtual true, abstract: false, final false
-  inline void CheckRecordHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> recordHeader);
-
-  /// @brief Method ReadRecord, addr 0xf93dc4, size 0x1b4, virtual true, abstract: false, final false
-  inline bool ReadRecord();
-
-  /// @brief Method DecodeAndVerify, addr 0xf9418c, size 0x28c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeAndVerify(uint8_t type, ::System::IO::Stream* input, int32_t len);
-
-  /// @brief Method WriteRecord, addr 0xf944e8, size 0x3e8, virtual true, abstract: false, final false
-  inline void WriteRecord(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t plaintextOffset, int32_t plaintextLength);
-
-  /// @brief Method NotifyHelloComplete, addr 0xf948d0, size 0xac, virtual true, abstract: false, final false
-  inline void NotifyHelloComplete();
-
-  /// @brief Method get_HandshakeHash, addr 0xf9497c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HandshakeHash, addr 0x10057dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* get_HandshakeHash();
 
-  /// @brief Method get_HandshakeHashUpdater, addr 0xf94984, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HandshakeHashUpdater, addr 0x10057e4, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_HandshakeHashUpdater();
 
-  /// @brief Method PrepareToFinish, addr 0xf9498c, size 0xb0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* PrepareToFinish();
+  /// @brief Method get_ReadVersion, addr 0x1004808, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
 
-  /// @brief Method SafeClose, addr 0xf94a3c, size 0x160, virtual true, abstract: false, final false
-  inline void SafeClose();
+  /// @brief Method set_ReadVersion, addr 0x1004810, size 0x8, virtual true, abstract: false, final false
+  inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  /// @brief Method Flush, addr 0xf94b9c, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordStream();
 
-  /// @brief Method GetBufferContents, addr 0xf94494, size 0x54, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBufferContents();
-
-  /// @brief Method CheckType, addr 0xf93d10, size 0x5c, virtual false, abstract: false, final false
-  static inline void CheckType(uint8_t type, uint8_t alertDescription);
-
-  /// @brief Method CheckLength, addr 0xf93d6c, size 0x58, virtual false, abstract: false, final false
-  static inline void CheckLength(int32_t length, int32_t limit, uint8_t alertDescription);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordStream(RecordStream&&) = delete;
@@ -457,12 +457,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordStream(RecordStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordStream();
-
-public:
   /// @brief Field mHandler, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* ___mHandler;
 
@@ -526,6 +520,9 @@ public:
   /// @brief Field DEFAULT_PLAINTEXT_LIMIT offset 0xffffffff size 0x4
   static constexpr int32_t DEFAULT_PLAINTEXT_LIMIT{ static_cast<int32_t>(0x4000) };
 
+  /// @brief Field TLS_HEADER_LENGTH_OFFSET offset 0xffffffff size 0x4
+  static constexpr int32_t TLS_HEADER_LENGTH_OFFSET{ static_cast<int32_t>(0x3) };
+
   /// @brief Field TLS_HEADER_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t TLS_HEADER_SIZE{ static_cast<int32_t>(0x5) };
 
@@ -534,9 +531,6 @@ public:
 
   /// @brief Field TLS_HEADER_VERSION_OFFSET offset 0xffffffff size 0x4
   static constexpr int32_t TLS_HEADER_VERSION_OFFSET{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field TLS_HEADER_LENGTH_OFFSET offset 0xffffffff size 0x4
-  static constexpr int32_t TLS_HEADER_LENGTH_OFFSET{ static_cast<int32_t>(0x3) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

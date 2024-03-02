@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaRunnable);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14908))
 // CS Name: ::UnityEngine::AndroidJavaRunnable*
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2c83da4, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2c83e60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2d69aa0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
+  static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2d699e4, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidJavaRunnable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJavaRunnable(AndroidJavaRunnable&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidJavaRunnable(AndroidJavaRunnable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidJavaRunnable();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

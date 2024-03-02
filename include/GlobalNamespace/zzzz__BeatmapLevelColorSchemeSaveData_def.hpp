@@ -17,38 +17,42 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelColorSchemeSaveData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
 // CS Name: ::BeatmapLevelColorSchemeSaveData*
 class CORDL_TYPE BeatmapLevelColorSchemeSaveData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field useOverride, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_useOverride, put = __cordl_internal_set_useOverride)) bool useOverride;
-
   /// @brief Field colorScheme, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::__PlayerSaveData__ColorScheme* colorScheme;
 
-  constexpr bool& __cordl_internal_get_useOverride();
+  /// @brief Field useOverride, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_useOverride, put = __cordl_internal_set_useOverride)) bool useOverride;
 
-  constexpr bool const& __cordl_internal_get_useOverride() const;
+  /// @brief Method IsDefault, addr 0x12f9998, size 0x15c, virtual false, abstract: false, final false
+  inline bool IsDefault();
 
-  constexpr void __cordl_internal_set_useOverride(bool value);
+  static inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* New_ctor();
 
   constexpr ::GlobalNamespace::__PlayerSaveData__ColorScheme*& __cordl_internal_get_colorScheme();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorScheme*> const& __cordl_internal_get_colorScheme() const;
 
+  constexpr bool const& __cordl_internal_get_useOverride() const;
+
+  constexpr bool& __cordl_internal_get_useOverride();
+
   constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value);
 
-  /// @brief Method IsDefault, addr 0x233dd28, size 0x15c, virtual false, abstract: false, final false
-  inline bool IsDefault();
+  constexpr void __cordl_internal_set_useOverride(bool value);
 
-  static inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x233de84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f9af4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapLevelColorSchemeSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelColorSchemeSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelColorSchemeSaveData(BeatmapLevelColorSchemeSaveData&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelColorSchemeSaveData(BeatmapLevelColorSchemeSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelColorSchemeSaveData();
-
-public:
   /// @brief Field useOverride, offset: 0x10, size: 0x1, def value: None
   bool ___useOverride;
 

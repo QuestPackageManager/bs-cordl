@@ -18,8 +18,6 @@ MARK_VAL_T(::UnityEngine::UIElements::Spacing);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6798))
 // CS Name: ::UnityEngine.UIElements::Spacing
 struct CORDL_TYPE Spacing {
 public:
@@ -28,25 +26,25 @@ public:
 
   __declspec(property(get = get_vertical)) float_t vertical;
 
-  /// @brief Method get_horizontal, addr 0x2dbce0c, size 0x10, virtual false, abstract: false, final false
-  inline float_t get_horizontal();
-
-  /// @brief Method get_vertical, addr 0x2dbce1c, size 0x10, virtual false, abstract: false, final false
-  inline float_t get_vertical();
-
-  /// @brief Method .ctor, addr 0x2dbce2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eca93c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t left, float_t top, float_t right, float_t bottom);
 
-  /// @brief Method op_Subtraction, addr 0x2dbce38, size 0xc8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a);
+  /// @brief Method get_horizontal, addr 0x2eca91c, size 0x10, virtual false, abstract: false, final false
+  inline float_t get_horizontal();
 
-  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "right", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr Spacing(float_t left, float_t top, float_t right, float_t bottom) noexcept;
+  /// @brief Method get_vertical, addr 0x2eca92c, size 0x10, virtual false, abstract: false, final false
+  inline float_t get_vertical();
+
+  /// @brief Method op_Subtraction, addr 0x2eca948, size 0xc8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Spacing();
+
+  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "right", ty:
+  // "float_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr Spacing(float_t left, float_t top, float_t right, float_t bottom) noexcept;
 
   /// @brief Field left, offset: 0x0, size: 0x4, def value: None
   float_t left;

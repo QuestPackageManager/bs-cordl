@@ -54,27 +54,18 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15087))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioManager*
 class CORDL_TYPE G_AudioManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field m_audioGraphGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_audioGraphGameObject, put = __cordl_internal_set_m_audioGraphGameObject))::UnityW<::UnityEngine::GameObject> m_audioGraphGameObject;
-
   /// @brief Field m_audioDbText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_audioDbText, put = __cordl_internal_set_m_audioDbText))::UnityW<::UnityEngine::UI::Text> m_audioDbText;
 
-  /// @brief Field m_backgroundImages, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_backgroundImages,
-                      put = __cordl_internal_set_m_backgroundImages))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
-
-  /// @brief Field m_graphyManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
-
   /// @brief Field m_audioGraph, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_audioGraph, put = __cordl_internal_set_m_audioGraph))::UnityW<::Tayx::Graphy::Audio::G_AudioGraph> m_audioGraph;
+
+  /// @brief Field m_audioGraphGameObject, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_audioGraphGameObject, put = __cordl_internal_set_m_audioGraphGameObject))::UnityW<::UnityEngine::GameObject> m_audioGraphGameObject;
 
   /// @brief Field m_audioMonitor, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor))::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
@@ -82,129 +73,142 @@ public:
   /// @brief Field m_audioText, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_audioText, put = __cordl_internal_set_m_audioText))::UnityW<::Tayx::Graphy::Audio::G_AudioText> m_audioText;
 
-  /// @brief Field m_rectTransform, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform))::UnityW<::UnityEngine::RectTransform> m_rectTransform;
+  /// @brief Field m_backgroundImages, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_backgroundImages,
+                      put = __cordl_internal_set_m_backgroundImages))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
 
   /// @brief Field m_childrenGameObjects, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_childrenGameObjects,
                       put = __cordl_internal_set_m_childrenGameObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_childrenGameObjects;
 
-  /// @brief Field m_previousModuleState, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
-
   /// @brief Field m_currentModuleState, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
 
-  /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
-  constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
+  /// @brief Field m_graphyManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
-  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+  /// @brief Field m_previousModuleState, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
+
+  /// @brief Field m_rectTransform, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform))::UnityW<::UnityEngine::RectTransform> m_rectTransform;
 
   /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
   constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
-  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
+  /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
+  constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_audioGraphGameObject();
+  /// @brief Method Awake, addr 0x2af6b70, size 0x4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_audioGraphGameObject() const;
+  /// @brief Method Init, addr 0x2af0d08, size 0x4e4, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr void __cordl_internal_set_m_audioGraphGameObject(::UnityW<::UnityEngine::GameObject> value);
+  static inline ::Tayx::Graphy::Audio::G_AudioManager* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_audioDbText();
+  /// @brief Method RefreshParameters, addr 0x2af2a6c, size 0x1bc, virtual false, abstract: false, final false
+  inline void RefreshParameters();
+
+  /// @brief Method RestorePreviousState, addr 0x2af0180, size 0xc, virtual false, abstract: false, final false
+  inline void RestorePreviousState();
+
+  /// @brief Method SetGraphActive, addr 0x2af6b78, size 0x44, virtual false, abstract: false, final false
+  inline void SetGraphActive(bool active);
+
+  /// @brief Method SetPosition, addr 0x2aeda14, size 0x300, virtual true, abstract: false, final true
+  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
+
+  /// @brief Method SetState, addr 0x2aee724, size 0x150, virtual true, abstract: false, final true
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+
+  /// @brief Method Start, addr 0x2af6b74, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method UpdateParameters, addr 0x2aee89c, size 0x1c4, virtual false, abstract: false, final false
+  inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_audioDbText() const;
 
-  constexpr void __cordl_internal_set_m_audioDbText(::UnityW<::UnityEngine::UI::Text> value);
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_audioDbText();
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioGraph> const& __cordl_internal_get_m_audioGraph() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioGraph>& __cordl_internal_get_m_audioGraph();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_audioGraphGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_audioGraphGameObject();
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor>& __cordl_internal_get_m_audioMonitor();
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioText> const& __cordl_internal_get_m_audioText() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioText>& __cordl_internal_get_m_audioText();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get_m_backgroundImages() const;
 
-  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
-
-  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioGraph>& __cordl_internal_get_m_audioGraph();
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioGraph> const& __cordl_internal_get_m_audioGraph() const;
-
-  constexpr void __cordl_internal_set_m_audioGraph(::UnityW<::Tayx::Graphy::Audio::G_AudioGraph> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor>& __cordl_internal_get_m_audioMonitor();
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
-
-  constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioText>& __cordl_internal_get_m_audioText();
-
-  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioText> const& __cordl_internal_get_m_audioText() const;
-
-  constexpr void __cordl_internal_set_m_audioText(::UnityW<::Tayx::Graphy::Audio::G_AudioText> value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
-
-  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_childrenGameObjects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_m_childrenGameObjects() const;
 
-  constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
-
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
-
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
-
-  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
 
   constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_currentModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
+
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
+
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
+
+  constexpr void __cordl_internal_set_m_audioDbText(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_m_audioGraph(::UnityW<::Tayx::Graphy::Audio::G_AudioGraph> value);
+
+  constexpr void __cordl_internal_set_m_audioGraphGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
+
+  constexpr void __cordl_internal_set_m_audioText(::UnityW<::Tayx::Graphy::Audio::G_AudioText> value);
+
+  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
+
+  constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method Awake, addr 0x2a09ff8, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  /// @brief Method Start, addr 0x2a09ffc, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method SetPosition, addr 0x2a00e9c, size 0x300, virtual true, abstract: false, final true
-  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
+  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method SetState, addr 0x2a01bac, size 0x150, virtual true, abstract: false, final true
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
-
-  /// @brief Method RestorePreviousState, addr 0x2a03608, size 0xc, virtual false, abstract: false, final false
-  inline void RestorePreviousState();
-
-  /// @brief Method UpdateParameters, addr 0x2a01d24, size 0x1c4, virtual false, abstract: false, final false
-  inline void UpdateParameters();
-
-  /// @brief Method RefreshParameters, addr 0x2a05ef4, size 0x1bc, virtual false, abstract: false, final false
-  inline void RefreshParameters();
-
-  /// @brief Method Init, addr 0x2a04190, size 0x4e4, virtual false, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method SetGraphActive, addr 0x2a0a000, size 0x44, virtual false, abstract: false, final false
-  inline void SetGraphActive(bool active);
-
-  static inline ::Tayx::Graphy::Audio::G_AudioManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2a0a244, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af6dbc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_AudioManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_AudioManager(G_AudioManager&&) = delete;
@@ -213,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_AudioManager(G_AudioManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_AudioManager();
-
-public:
   /// @brief Field m_audioGraphGameObject, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_audioGraphGameObject;
 

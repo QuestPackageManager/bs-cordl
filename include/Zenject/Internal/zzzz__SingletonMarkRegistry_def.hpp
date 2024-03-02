@@ -20,44 +20,48 @@ MARK_REF_PTR_T(::Zenject::Internal::SingletonMarkRegistry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11368))
 // CS Name: ::Zenject.Internal::SingletonMarkRegistry*
 class CORDL_TYPE SingletonMarkRegistry : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _boundSingletons, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__boundSingletons, put = __cordl_internal_set__boundSingletons))::System::Collections::Generic::HashSet_1<::System::Type*>* _boundSingletons;
-
   /// @brief Field _boundNonSingletons, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__boundNonSingletons, put = __cordl_internal_set__boundNonSingletons))::System::Collections::Generic::HashSet_1<::System::Type*>* _boundNonSingletons;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundSingletons();
+  /// @brief Field _boundSingletons, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__boundSingletons, put = __cordl_internal_set__boundSingletons))::System::Collections::Generic::HashSet_1<::System::Type*>* _boundSingletons;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__boundSingletons() const;
+  /// @brief Method MarkNonSingleton, addr 0x3030e60, size 0xac, virtual false, abstract: false, final false
+  inline void MarkNonSingleton(::System::Type* type);
 
-  constexpr void __cordl_internal_set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
+  /// @brief Method MarkSingleton, addr 0x3030f0c, size 0xd4, virtual false, abstract: false, final false
+  inline void MarkSingleton(::System::Type* type);
+
+  static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
+
+  /// @brief Method Unmark, addr 0x3030fe0, size 0x6c, virtual false, abstract: false, final false
+  inline void Unmark(::System::Type* type);
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundNonSingletons();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__boundNonSingletons() const;
 
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundSingletons();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__boundSingletons() const;
+
   constexpr void __cordl_internal_set__boundNonSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method MarkNonSingleton, addr 0x2f214b0, size 0xac, virtual false, abstract: false, final false
-  inline void MarkNonSingleton(::System::Type* type);
+  constexpr void __cordl_internal_set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method MarkSingleton, addr 0x2f2155c, size 0xd4, virtual false, abstract: false, final false
-  inline void MarkSingleton(::System::Type* type);
-
-  /// @brief Method Unmark, addr 0x2f21630, size 0x6c, virtual false, abstract: false, final false
-  inline void Unmark(::System::Type* type);
-
-  static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f2169c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303104c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SingletonMarkRegistry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingletonMarkRegistry(SingletonMarkRegistry&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SingletonMarkRegistry(SingletonMarkRegistry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingletonMarkRegistry();
-
-public:
   /// @brief Field _boundSingletons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____boundSingletons;
 

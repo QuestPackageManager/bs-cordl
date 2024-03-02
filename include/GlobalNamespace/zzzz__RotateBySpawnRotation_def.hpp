@@ -24,17 +24,12 @@ MARK_REF_PTR_T(::GlobalNamespace::RotateBySpawnRotation);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4992))
 // CS Name: ::RotateBySpawnRotation*
 class CORDL_TYPE RotateBySpawnRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _aheadTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__aheadTime, put = __cordl_internal_set__aheadTime)) float_t _aheadTime;
-
-  /// @brief Field _smooth, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
@@ -50,71 +45,80 @@ public:
   /// @brief Field _prevRotation, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__prevRotation, put = __cordl_internal_set__prevRotation)) float_t _prevRotation;
 
+  /// @brief Field _smooth, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
+
   /// @brief Field _targetRotation, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
-  constexpr float_t& __cordl_internal_get__aheadTime();
+  /// @brief Method FixedUpdate, addr 0x24424f8, size 0x90, virtual false, abstract: false, final false
+  inline void FixedUpdate();
+
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x244245c, size 0x9c, virtual false, abstract: false, final false
+  inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
+
+  /// @brief Method LateUpdate, addr 0x2442588, size 0xc0, virtual false, abstract: false, final false
+  inline void LateUpdate();
+
+  static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2442440, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2442308, size 0x138, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
 
-  constexpr void __cordl_internal_set__aheadTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__smooth();
-
-  constexpr float_t const& __cordl_internal_get__smooth() const;
-
-  constexpr void __cordl_internal_set__smooth(float_t value);
+  constexpr float_t& __cordl_internal_get__aheadTime();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr float_t const& __cordl_internal_get__currentRotation() const;
 
   constexpr float_t& __cordl_internal_get__currentRotation();
 
-  constexpr float_t const& __cordl_internal_get__currentRotation() const;
-
-  constexpr void __cordl_internal_set__currentRotation(float_t value);
+  constexpr float_t const& __cordl_internal_get__prevRotation() const;
 
   constexpr float_t& __cordl_internal_get__prevRotation();
 
-  constexpr float_t const& __cordl_internal_get__prevRotation() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __cordl_internal_set__prevRotation(float_t value);
-
-  constexpr float_t& __cordl_internal_get__targetRotation();
+  constexpr float_t& __cordl_internal_get__smooth();
 
   constexpr float_t const& __cordl_internal_get__targetRotation() const;
 
+  constexpr float_t& __cordl_internal_get__targetRotation();
+
+  constexpr void __cordl_internal_set__aheadTime(float_t value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+
+  constexpr void __cordl_internal_set__currentRotation(float_t value);
+
+  constexpr void __cordl_internal_set__prevRotation(float_t value);
+
+  constexpr void __cordl_internal_set__smooth(float_t value);
+
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method Start, addr 0x23b527c, size 0x138, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23b53b4, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x23b53d0, size 0x9c, virtual false, abstract: false, final false
-  inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
-
-  /// @brief Method FixedUpdate, addr 0x23b546c, size 0x90, virtual false, abstract: false, final false
-  inline void FixedUpdate();
-
-  /// @brief Method LateUpdate, addr 0x23b54fc, size 0xc0, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b55bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2442648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RotateBySpawnRotation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RotateBySpawnRotation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotateBySpawnRotation(RotateBySpawnRotation&&) = delete;
@@ -123,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RotateBySpawnRotation(RotateBySpawnRotation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RotateBySpawnRotation();
-
-public:
   /// @brief Field _aheadTime, offset: 0x18, size: 0x4, def value: None
   float_t ____aheadTime;
 

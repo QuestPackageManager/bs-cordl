@@ -14,13 +14,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
+class BeatmapLevel;
+}
+namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
 namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel__LevelDownloadingData;
 }
 namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
+struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14;
 }
 namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
 }
 namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
+struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13;
 }
 namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
@@ -117,7 +117,7 @@ namespace GlobalNamespace {
 class __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
 }
 namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
+struct __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14;
 }
 namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
 struct __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
 }
 namespace GlobalNamespace {
-struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
+struct __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusBeatmapDataAssetFileModel);
@@ -134,23 +134,18 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownlo
 MARK_REF_PTR_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0);
-MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14);
+MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14);
 MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16);
 MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15);
-MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13);
 // Type: ::LevelDownloadingData
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4529))
 // CS Name: ::OculusBeatmapDataAssetFileModel::LevelDownloadingData*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel__LevelDownloadingData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
-
   /// @brief Field assetBundlePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assetBundlePath, put = __cordl_internal_set_assetBundlePath))::StringW assetBundlePath;
 
@@ -159,30 +154,39 @@ public:
       property(get = __cordl_internal_get_downloadAssetBundleFileTCS,
                put = __cordl_internal_set_downloadAssetBundleFileTCS))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
 
-  constexpr ::StringW& __cordl_internal_get_levelId();
+  /// @brief Field levelId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
 
-  constexpr ::StringW const& __cordl_internal_get_levelId() const;
-
-  constexpr void __cordl_internal_set_levelId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_assetBundlePath();
+  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath);
 
   constexpr ::StringW const& __cordl_internal_get_assetBundlePath() const;
 
-  constexpr void __cordl_internal_set_assetBundlePath(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_assetBundlePath();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __cordl_internal_get_downloadAssetBundleFileTCS();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const&
   __cordl_internal_get_downloadAssetBundleFileTCS() const;
 
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
+
+  constexpr ::StringW& __cordl_internal_get_levelId();
+
+  constexpr void __cordl_internal_set_assetBundlePath(::StringW value);
+
   constexpr void __cordl_internal_set_downloadAssetBundleFileTCS(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
 
-  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath);
+  constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2365104, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e4af8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, ::StringW assetBundlePath);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel__LevelDownloadingData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusBeatmapDataAssetFileModel__LevelDownloadingData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusBeatmapDataAssetFileModel__LevelDownloadingData(__OculusBeatmapDataAssetFileModel__LevelDownloadingData&&) = delete;
@@ -191,12 +195,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusBeatmapDataAssetFileModel__LevelDownloadingData(__OculusBeatmapDataAssetFileModel__LevelDownloadingData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel__LevelDownloadingData();
-
-public:
   /// @brief Field levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___levelId;
 
@@ -222,8 +220,6 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel__Lev
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4530))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass13_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -231,47 +227,53 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
 
-  /// @brief Field levelId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
-
   /// @brief Field cancellationToken, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
+  /// @brief Field levelId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
+
   /// @brief Field taskSource, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
+
+  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* New_ctor();
+
+  /// @brief Method <TryDeleteAssetBundleFileForBeatmapLevelAsync>b__0, addr 0x12e5024, size 0x15c, virtual false, abstract: false, final false
+  inline void _TryDeleteAssetBundleFileForBeatmapLevelAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
-
-  constexpr ::StringW& __cordl_internal_get_levelId();
-
-  constexpr ::StringW const& __cordl_internal_get_levelId() const;
-
-  constexpr void __cordl_internal_set_levelId(::StringW value);
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
   constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
 
-  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr ::StringW& __cordl_internal_get_levelId();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_taskSource() const;
 
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+
+  constexpr void __cordl_internal_set_levelId(::StringW value);
+
   constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23655fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e501c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0, addr 0x2365604, size 0x15c, virtual false, abstract: false, final false
-  inline void _TryDeleteAssetBundleFileForPreviewLevelAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0&&) = delete;
@@ -280,12 +282,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0();
-
-public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::OculusBeatmapDataAssetFileModel* _____4__this;
 
@@ -312,44 +308,42 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0, ___taskSource) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
+// Type: ::<TryDeleteAssetBundleFileForBeatmapLevelAsync>d__13
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4531)) CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
-struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13 {
+// CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForBeatmapLevelAsync>d__13
+struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12e5180, size 0x488, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12e5608, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2365760, size 0x564, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2365ce0, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty:
-  // "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0*",
-  // modifiers: "", def_value: None }, CppParam { name: "_deleted_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty:
+  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0*", modifiers: "",
+  // def_value: None }, CppParam { name: "_deleted_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
+  // modifiers: "", def_value: None }]
+  constexpr __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                                    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this,
                                                                                                    ::System::Threading::CancellationToken cancellationToken,
-                                                                                                   ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
+                                                                                                   ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                    ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* __8__1,
                                                                                                    bool _deleted_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -363,8 +357,8 @@ public:
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
-  /// @brief Field previewBeatmapLevel, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* __8__1;
@@ -381,64 +375,61 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, previewBeatmapLevel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, beatmapLevel) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, __8__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, __8__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, _deleted_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, _deleted_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, __u__1) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetAssetBundleFileForPreviewLevelAsync>d__14
+// Type: ::<GetAssetBundleFileForBeatmapLevelAsync>d__14
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4532)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__14
-struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14 {
+// CS Name: ::OculusBeatmapDataAssetFileModel::<GetAssetBundleFileForBeatmapLevelAsync>d__14
+struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12e5660, size 0x980, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12e5ffc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2365d38, size 0xa20, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2366758, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty:
-  // "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "_assetFile_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
-  constexpr __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder,
-      ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
-      ::StringW _levelId_5__2, ::StringW _assetFile_5__3, ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__3) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14();
+  constexpr __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty:
+  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusBeatmapDataAssetFileModel*", modifiers: "", def_value: None },
+  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers: "", def_value:
+  // None }, CppParam { name: "_assetFile_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
+  constexpr __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+      ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW _levelId_5__2, ::StringW _assetFile_5__3,
+      ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__3) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -446,8 +437,8 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder;
 
-  /// @brief Field previewBeatmapLevel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  /// @brief Field beatmapLevel, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
@@ -476,74 +467,78 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, previewBeatmapLevel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, beatmapLevel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, _levelId_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, _levelId_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, _assetFile_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, _assetFile_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __u__2) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __u__2) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, __u__3) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, __u__3) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass15_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4533))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass15_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
+
   /// @brief Field cancellationToken, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field taskSource, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
+  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0* New_ctor();
 
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
-
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
-
-  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_taskSource() const;
-
-  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  /// @brief Method <ReloadAssetDetailsForAllLevelsAsync>b__0, addr 0x12e605c, size 0x3fc, virtual false, abstract: false, final false
+  inline void _ReloadAssetDetailsForAllLevelsAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
+
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
+
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_taskSource() const;
+
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
 
-  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0* New_ctor();
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x23667b0, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+
+  /// @brief Method .ctor, addr 0x12e6054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ReloadAssetDetailsForAllLevelsAsync>b__0, addr 0x23667b8, size 0x3fc, virtual false, abstract: false, final false
-  inline void _ReloadAssetDetailsForAllLevelsAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0&&) = delete;
@@ -552,12 +547,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0();
-
-public:
   /// @brief Field cancellationToken, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::CancellationToken ___cancellationToken;
 
@@ -583,23 +572,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
+// CS Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12e6458, size 0x318, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12e6770, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2366bb4, size 0x318, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2366ecc, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
@@ -609,10 +600,6 @@ public:
                                                                                           ::System::Threading::CancellationToken cancellationToken,
                                                                                           ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this,
                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -652,48 +639,52 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Re
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4535))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass16_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field taskSource, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_taskSource,
-                      put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* taskSource;
-
   /// @brief Field <>4__this, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
 
   /// @brief Field assetDetails, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_assetDetails, put = __cordl_internal_set_assetDetails))::Oculus::Platform::Models::AssetDetails* assetDetails;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __cordl_internal_get_taskSource();
+  /// @brief Field taskSource, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_taskSource,
+                      put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* taskSource;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const& __cordl_internal_get_taskSource() const;
+  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0* New_ctor();
 
-  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
+  /// @brief Method <GetDownloadAssetBundleFileAsync>b__0, addr 0x12e67d0, size 0xe0, virtual false, abstract: false, final false
+  inline void _GetDownloadAssetBundleFileAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
-
   constexpr ::Oculus::Platform::Models::AssetDetails*& __cordl_internal_get_assetDetails();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::AssetDetails*> const& __cordl_internal_get_assetDetails() const;
 
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __cordl_internal_get_taskSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const& __cordl_internal_get_taskSource() const;
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+
   constexpr void __cordl_internal_set_assetDetails(::Oculus::Platform::Models::AssetDetails* value);
 
-  static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0* New_ctor();
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
 
-  /// @brief Method .ctor, addr 0x2366f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e67c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetDownloadAssetBundleFileAsync>b__0, addr 0x2366f2c, size 0xcc, virtual false, abstract: false, final false
-  inline void _GetDownloadAssetBundleFileAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0&&) = delete;
@@ -702,12 +693,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0(__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0();
-
-public:
   /// @brief Field taskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* ___taskSource;
 
@@ -733,23 +718,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4536)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetDownloadAssetBundleFileAsync>d__16
+// CS Name: ::OculusBeatmapDataAssetFileModel::<GetDownloadAssetBundleFileAsync>d__16
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12e68b0, size 0x70c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12e6fbc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2366ff8, size 0x760, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2367758, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -760,10 +747,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder,
       ::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this, ::Oculus::Platform::Models::AssetDetails* assetDetails, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -808,35 +791,33 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Ge
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4537))
 // CS Name: ::OculusBeatmapDataAssetFileModel*
 class CORDL_TYPE OculusBeatmapDataAssetFileModel : public ::System::Object {
 public:
   // Declarations
-  using _GetDownloadAssetBundleFileAsync_d__16 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
+  using LevelDownloadingData = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData;
 
-  using __c__DisplayClass16_0 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
+  using _GetAssetBundleFileForBeatmapLevelAsync_d__14 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14;
+
+  using _GetDownloadAssetBundleFileAsync_d__16 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
 
   using _ReloadAssetDetailsForAllLevelsAsync_d__15 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
 
-  using __c__DisplayClass15_0 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
-
-  using _GetAssetBundleFileForPreviewLevelAsync_d__14 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
-
-  using _TryDeleteAssetBundleFileForPreviewLevelAsync_d__13 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
+  using _TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13;
 
   using __c__DisplayClass13_0 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
 
-  using LevelDownloadingData = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData;
+  using __c__DisplayClass15_0 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
 
-  /// @brief Field levelDataAssetDownloadUpdateEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelDataAssetDownloadUpdateEvent,
-                      put = __cordl_internal_set_levelDataAssetDownloadUpdateEvent))::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
+  using __c__DisplayClass16_0 = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
 
-  /// @brief Field _assetIdToDownloadinData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetIdToDownloadinData, put = __cordl_internal_set__assetIdToDownloadinData))::System::Collections::Generic::Dictionary_2<
-      uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* _assetIdToDownloadinData;
+  /// @brief Field _assetFileToAssetDetails, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__assetFileToAssetDetails,
+                      put = __cordl_internal_set__assetFileToAssetDetails))::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* _assetFileToAssetDetails;
+
+  /// @brief Field _assetIdToDownloadingData, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__assetIdToDownloadingData, put = __cordl_internal_set__assetIdToDownloadingData))::System::Collections::Generic::Dictionary_2<
+      uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* _assetIdToDownloadingData;
 
   /// @brief Field _downloadedAssetBundleFiles, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__downloadedAssetBundleFiles,
@@ -849,111 +830,114 @@ public:
   /// @brief Field _lastAssetFileDownloadUpdateTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__lastAssetFileDownloadUpdateTime, put = __cordl_internal_set__lastAssetFileDownloadUpdateTime)) float_t _lastAssetFileDownloadUpdateTime;
 
-  /// @brief Field _semaphoreSlim, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
-
-  /// @brief Field _assetFileToAssetDetails, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetFileToAssetDetails,
-                      put = __cordl_internal_set__assetFileToAssetDetails))::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* _assetFileToAssetDetails;
-
   /// @brief Field _oculusPlatformAdditionalContentModel, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusPlatformAdditionalContentModel,
                       put = __cordl_internal_set__oculusPlatformAdditionalContentModel))::GlobalNamespace::OculusPlatformAdditionalContentModel* _oculusPlatformAdditionalContentModel;
 
+  /// @brief Field _semaphoreSlim, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+
+  /// @brief Field levelDataAssetDownloadUpdateEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelDataAssetDownloadUpdateEvent,
+                      put = __cordl_internal_set_levelDataAssetDownloadUpdateEvent))::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
+
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
-  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x12e46c8, size 0x110, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __cordl_internal_get_levelDataAssetDownloadUpdateEvent();
+  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x12e48dc, size 0x10c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::StringW levelId, ::Oculus::Platform::Models::AssetDetails* assetDetails,
+                                                                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*> const& __cordl_internal_get_levelDataAssetDownloadUpdateEvent() const;
+  /// @brief Method GetTaskCompletionSourceForDownload, addr 0x12e49e8, size 0x110, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::StringW levelId,
+                                                                                                                                             ::Oculus::Platform::Models::AssetDetails* assetDetail);
 
-  constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x12e4b8c, size 0x490, virtual false, abstract: false, final false
+  inline void HandleAssetFileDownloadUpdate(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*& __cordl_internal_get__assetIdToDownloadinData();
+  static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel* New_ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*> const&
-  __cordl_internal_get__assetIdToDownloadinData() const;
+  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x12e47d8, size 0x104, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr void
-  __cordl_internal_set__assetIdToDownloadinData(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__downloadedAssetBundleFiles();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__downloadedAssetBundleFiles() const;
-
-  constexpr void __cordl_internal_set__downloadedAssetBundleFiles(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*& __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*> const&
-  __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds() const;
-
-  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateForAssetIds(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* value);
-
-  constexpr float_t& __cordl_internal_get__lastAssetFileDownloadUpdateTime();
-
-  constexpr float_t const& __cordl_internal_get__lastAssetFileDownloadUpdateTime() const;
-
-  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateTime(float_t value);
-
-  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
-
-  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x12e45b8, size 0x110, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*& __cordl_internal_get__assetFileToAssetDetails();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*> const&
   __cordl_internal_get__assetFileToAssetDetails() const;
 
-  constexpr void __cordl_internal_set__assetFileToAssetDetails(::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* value);
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*& __cordl_internal_get__assetIdToDownloadingData();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*> const&
+  __cordl_internal_get__assetIdToDownloadingData() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__downloadedAssetBundleFiles();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__downloadedAssetBundleFiles() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*& __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*> const&
+  __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds() const;
+
+  constexpr float_t const& __cordl_internal_get__lastAssetFileDownloadUpdateTime() const;
+
+  constexpr float_t& __cordl_internal_get__lastAssetFileDownloadUpdateTime();
 
   constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __cordl_internal_get__oculusPlatformAdditionalContentModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __cordl_internal_get__oculusPlatformAdditionalContentModel() const;
 
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __cordl_internal_get_levelDataAssetDownloadUpdateEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*> const& __cordl_internal_get_levelDataAssetDownloadUpdateEvent() const;
+
+  constexpr void __cordl_internal_set__assetFileToAssetDetails(::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* value);
+
+  constexpr void
+  __cordl_internal_set__assetIdToDownloadingData(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* value);
+
+  constexpr void __cordl_internal_set__downloadedAssetBundleFiles(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+
+  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateForAssetIds(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* value);
+
+  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateTime(float_t value);
+
   constexpr void __cordl_internal_set__oculusPlatformAdditionalContentModel(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x2364880, size 0xb0, virtual true, abstract: false, final true
-  inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x2364930, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+  constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel* New_ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
-
-  /// @brief Method .ctor, addr 0x23649e0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e43d4, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync, addr 0x2364bc4, size 0x110, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                                                                                                ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x12e4274, size 0xb0, virtual true, abstract: false, final true
+  inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetAssetBundleFileForPreviewLevelAsync, addr 0x2364cd4, size 0x110, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                                                                                                                                 ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
+  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
-  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x2364de4, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x12e4324, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x2364ee8, size 0x10c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::StringW levelId, ::Oculus::Platform::Models::AssetDetails* assetDetails,
-                                                                                                                          ::System::Threading::CancellationToken cancellationToken);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusBeatmapDataAssetFileModel();
 
-  /// @brief Method GetTaskCompletionSourceForDownload, addr 0x2364ff4, size 0x110, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::StringW levelId,
-                                                                                                                                             ::Oculus::Platform::Models::AssetDetails* assetDetail);
-
-  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x2365198, size 0x460, virtual false, abstract: false, final false
-  inline void HandleAssetFileDownloadUpdate(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
-
-  /// @brief Method <.ctor>b__12_0, addr 0x23655f8, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__12_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusBeatmapDataAssetFileModel(OculusBeatmapDataAssetFileModel&&) = delete;
@@ -962,17 +946,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusBeatmapDataAssetFileModel(OculusBeatmapDataAssetFileModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusBeatmapDataAssetFileModel();
-
-public:
   /// @brief Field levelDataAssetDownloadUpdateEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* ___levelDataAssetDownloadUpdateEvent;
 
-  /// @brief Field _assetIdToDownloadinData, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* ____assetIdToDownloadinData;
+  /// @brief Field _assetIdToDownloadingData, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* ____assetIdToDownloadingData;
 
   /// @brief Field _downloadedAssetBundleFiles, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____downloadedAssetBundleFiles;
@@ -1002,7 +980,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDa
 
 static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel, ___levelDataAssetDownloadUpdateEvent) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel, ____assetIdToDownloadinData) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel, ____assetIdToDownloadingData) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel, ____downloadedAssetBundleFiles) == 0x20, "Offset mismatch!");
 
@@ -1027,10 +1005,10 @@ NEED_NO_BOX(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayCl
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass15_0");
 NEED_NO_BOX(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14, "",
-                       "OculusBeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForBeatmapLevelAsync_d__14, "",
+                       "OculusBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__14");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16, "", "OculusBeatmapDataAssetFileModel/<GetDownloadAssetBundleFileAsync>d__16");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15, "",
                        "OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13, "",
-                       "OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForBeatmapLevelAsync_d__13, "",
+                       "OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForBeatmapLevelAsync>d__13");

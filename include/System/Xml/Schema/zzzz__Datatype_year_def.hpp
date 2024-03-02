@@ -17,22 +17,26 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_year);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11635))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11644))
 // CS Name: ::System.Xml.Schema::Datatype_year*
 class CORDL_TYPE Datatype_year : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method get_TypeCode, addr 0x28ba0ac, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
-
   static inline ::System::Xml::Schema::Datatype_year* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28ba0b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a3b98, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_TypeCode, addr 0x29a3b90, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_year();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_year", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_year(Datatype_year&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_year(Datatype_year const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_year();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509Selector);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(677))
 // CS Name: ::Org.BouncyCastle.X509.Store::IX509Selector*
 class CORDL_TYPE IX509Selector {
 public:
@@ -28,11 +26,11 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
-
   /// @brief Method Match, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Match(::System::Object* obj);
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IX509Selector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

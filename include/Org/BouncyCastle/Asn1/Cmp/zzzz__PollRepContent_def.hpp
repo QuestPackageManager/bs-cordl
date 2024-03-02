@@ -29,12 +29,16 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PollRepContent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(44))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PollRepContent*
 class CORDL_TYPE PollRepContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
+
+  __declspec(property(get = get_CheckAfter))::Org::BouncyCastle::Asn1::DerInteger* CheckAfter;
+
+  __declspec(property(get = get_Reason))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* Reason;
+
   /// @brief Field certReqId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
 
@@ -44,61 +48,61 @@ public:
   /// @brief Field reason, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason;
 
-  __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
+  /// @brief Method GetInstance, addr 0xedbe90, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_CheckAfter))::Org::BouncyCastle::Asn1::DerInteger* CheckAfter;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
 
-  __declspec(property(get = get_Reason))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* Reason;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter,
+                                                                         ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xedf9dc, size 0x174, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_certReqId() const;
 
-  constexpr void __cordl_internal_set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
-
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_checkAfter();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_checkAfter() const;
-
-  constexpr void __cordl_internal_set_checkAfter(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_reason();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*> const& __cordl_internal_get_reason() const;
 
+  constexpr void __cordl_internal_set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  constexpr void __cordl_internal_set_checkAfter(::Org::BouncyCastle::Asn1::DerInteger* value);
+
   constexpr void __cordl_internal_set_reason(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe6da54, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method GetInstance, addr 0xe6a030, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
-
-  /// @brief Method .ctor, addr 0xe6daf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedf958, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter,
-                                                                         ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
-
-  /// @brief Method .ctor, addr 0xe6db28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedf988, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
 
-  /// @brief Method get_CertReqID, addr 0xe6db64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0xedf8b4, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_CertReqID, addr 0xedf9c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CheckAfter, addr 0xe6db6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CheckAfter, addr 0xedf9cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CheckAfter();
 
-  /// @brief Method get_Reason, addr 0xe6db74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Reason, addr 0xedf9d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_Reason();
 
-  /// @brief Method ToAsn1Object, addr 0xe6db7c, size 0x174, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PollRepContent();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PollRepContent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PollRepContent(PollRepContent&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PollRepContent(PollRepContent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PollRepContent();
-
-public:
   /// @brief Field certReqId, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___certReqId;
 

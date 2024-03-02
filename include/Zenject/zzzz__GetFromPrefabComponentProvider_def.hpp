@@ -39,14 +39,13 @@ MARK_REF_PTR_T(::Zenject::GetFromPrefabComponentProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11189))
 // CS Name: ::Zenject::GetFromPrefabComponentProvider*
 class CORDL_TYPE GetFromPrefabComponentProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _prefabInstantiator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabInstantiator, put = __cordl_internal_set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
+  __declspec(property(get = get_IsCached)) bool IsCached;
+
+  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _componentType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
@@ -54,52 +53,57 @@ public:
   /// @brief Field _matchSingle, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
 
-  __declspec(property(get = get_IsCached)) bool IsCached;
-
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+  /// @brief Field _prefabInstantiator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefabInstantiator, put = __cordl_internal_set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x30169a8, size 0x304, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabInstantiator();
+  /// @brief Method GetInstanceType, addr 0x30169a0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabInstantiator() const;
-
-  constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
+  static inline ::Zenject::GetFromPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
 
   constexpr ::System::Type*& __cordl_internal_get__componentType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentType() const;
 
-  constexpr void __cordl_internal_set__componentType(::System::Type* value);
+  constexpr bool const& __cordl_internal_get__matchSingle() const;
 
   constexpr bool& __cordl_internal_get__matchSingle();
 
-  constexpr bool const& __cordl_internal_get__matchSingle() const;
+  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabInstantiator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabInstantiator() const;
+
+  constexpr void __cordl_internal_set__componentType(::System::Type* value);
 
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  static inline ::Zenject::GetFromPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
+  constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x2f070e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3016954, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x2f07120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x3016990, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f07128, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3016998, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f07130, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f07138, size 0x304, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetFromPrefabComponentProvider();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetFromPrefabComponentProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetFromPrefabComponentProvider(GetFromPrefabComponentProvider&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetFromPrefabComponentProvider(GetFromPrefabComponentProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetFromPrefabComponentProvider();
-
-public:
   /// @brief Field _prefabInstantiator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPrefabInstantiator* ____prefabInstantiator;
 

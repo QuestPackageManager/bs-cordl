@@ -22,8 +22,6 @@ namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15685))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartCollection`1<T>*
 class CORDL_TYPE AvatarPartCollection_1 : public ::System::Object {
 public:
@@ -41,23 +39,43 @@ public:
 
   __declspec(property(get = get_parts))::ArrayW<T, ::Array<T>*> parts;
 
+  /// @brief Method GetById, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetById(::StringW id);
+
+  /// @brief Method GetByIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetByIndex(int32_t index);
+
+  /// @brief Method GetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetDefault();
+
+  /// @brief Method GetIndexById, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t GetIndexById(::StringW id);
+
+  /// @brief Method GetRandom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetRandom();
+
+  static inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* New_ctor(::ArrayW<T, ::Array<T>*> parts);
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, T>*& __cordl_internal_get__partById();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, T>*> const& __cordl_internal_get__partById() const;
-
-  constexpr void __cordl_internal_set__partById(::System::Collections::Generic::Dictionary_2<::StringW, T>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__partIndexById();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get__partIndexById() const;
 
-  constexpr void __cordl_internal_set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__parts() const;
 
   constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__parts();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__parts() const;
+  constexpr void __cordl_internal_set__partById(::System::Collections::Generic::Dictionary_2<::StringW, T>* value);
+
+  constexpr void __cordl_internal_set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
   constexpr void __cordl_internal_set__parts(::ArrayW<T, ::Array<T>*> value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> parts);
 
   /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();
@@ -65,26 +83,12 @@ public:
   /// @brief Method get_parts, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> get_parts();
 
-  static inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* New_ctor(::ArrayW<T, ::Array<T>*> parts);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarPartCollection_1();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> parts);
-
-  /// @brief Method GetById, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetById(::StringW id);
-
-  /// @brief Method GetRandom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetRandom();
-
-  /// @brief Method GetByIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetByIndex(int32_t index);
-
-  /// @brief Method GetIndexById, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t GetIndexById(::StringW id);
-
-  /// @brief Method GetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetDefault();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPartCollection_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPartCollection_1(AvatarPartCollection_1&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPartCollection_1(AvatarPartCollection_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarPartCollection_1();
-
-public:
   /// @brief Field _partById, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, T>* ____partById;
 

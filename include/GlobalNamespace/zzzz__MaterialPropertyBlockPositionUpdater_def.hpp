@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockPositionUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14563))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14569))
 // CS Name: ::MaterialPropertyBlockPositionUpdater*
 class CORDL_TYPE MaterialPropertyBlockPositionUpdater : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _targetTransform, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+  static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
+
+  /// @brief Method SetProperty, addr 0x2277094, size 0xb4, virtual true, abstract: false, final false
+  inline void SetProperty();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method SetProperty, addr 0x2115150, size 0xb4, virtual true, abstract: false, final false
-  inline void SetProperty();
-
-  static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2115204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2277148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockPositionUpdater();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockPositionUpdater();
-
-public:
   /// @brief Field _targetTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 

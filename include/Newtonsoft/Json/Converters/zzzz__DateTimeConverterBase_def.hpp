@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::DateTimeConverterBase);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12032))
 // CS Name: ::Newtonsoft.Json.Converters::DateTimeConverterBase*
 class CORDL_TYPE DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x26b3ca4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x27a45ac, size 0x140, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::DateTimeConverterBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b3de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a46ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeConverterBase();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeConverterBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeConverterBase(DateTimeConverterBase&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeConverterBase(DateTimeConverterBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeConverterBase();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

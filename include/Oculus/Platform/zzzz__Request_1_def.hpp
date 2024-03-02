@@ -23,8 +23,6 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13381))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
 // CS Name: ::Oculus.Platform::Request`1<T>*
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Field callback_, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_))::Oculus::Platform::__Message_1__Callback<T>* callback_;
 
+  /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleMessage(::Oculus::Platform::Message* msg);
+
+  static inline ::Oculus::Platform::Request_1<T>* New_ctor(uint64_t requestID);
+
+  /// @brief Method OnComplete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Oculus::Platform::Request_1<T>* OnComplete(::Oculus::Platform::__Message_1__Callback<T>* callback);
+
   constexpr ::Oculus::Platform::__Message_1__Callback<T>*& __cordl_internal_get_callback_();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& __cordl_internal_get_callback_() const;
 
   constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value);
 
-  static inline ::Oculus::Platform::Request_1<T>* New_ctor(uint64_t requestID);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method OnComplete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Oculus::Platform::Request_1<T>* OnComplete(::Oculus::Platform::__Message_1__Callback<T>* callback);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Request_1();
 
-  /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void HandleMessage(::Oculus::Platform::Message* msg);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Request_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Request_1(Request_1&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Request_1(Request_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Request_1();
-
-public:
   /// @brief Field callback_, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::__Message_1__Callback<T>* ___callback_;
 

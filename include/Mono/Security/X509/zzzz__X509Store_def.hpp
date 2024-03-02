@@ -29,90 +29,94 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Store);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13758))
 // CS Name: ::Mono.Security.X509::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _storePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
-
-  /// @brief Field _certificates, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__certificates, put = __cordl_internal_set__certificates))::Mono::Security::X509::X509CertificateCollection* _certificates;
-
-  /// @brief Field _crls, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls))::System::Collections::ArrayList* _crls;
-
-  /// @brief Field _crl, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__crl, put = __cordl_internal_set__crl)) bool _crl;
-
-  /// @brief Field _newFormat, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
-
   __declspec(property(get = get_Certificates))::Mono::Security::X509::X509CertificateCollection* Certificates;
 
   __declspec(property(get = get_Crls))::System::Collections::ArrayList* Crls;
 
-  constexpr ::StringW& __cordl_internal_get__storePath();
+  /// @brief Field _certificates, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__certificates, put = __cordl_internal_set__certificates))::Mono::Security::X509::X509CertificateCollection* _certificates;
 
-  constexpr ::StringW const& __cordl_internal_get__storePath() const;
+  /// @brief Field _crl, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__crl, put = __cordl_internal_set__crl)) bool _crl;
 
-  constexpr void __cordl_internal_set__storePath(::StringW value);
+  /// @brief Field _crls, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls))::System::Collections::ArrayList* _crls;
+
+  /// @brief Field _newFormat, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
+
+  /// @brief Field _storePath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
+
+  /// @brief Method BuildCertificatesCollection, addr 0x24ec128, size 0x1d4, virtual false, abstract: false, final false
+  inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
+
+  /// @brief Method BuildCrlsCollection, addr 0x24ec38c, size 0x1c0, virtual false, abstract: false, final false
+  inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
+
+  /// @brief Method CheckStore, addr 0x24ec838, size 0xdc, virtual false, abstract: false, final false
+  inline bool CheckStore(::StringW path, bool throwException);
+
+  /// @brief Method Load, addr 0x24ec54c, size 0x20c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Load(::StringW filename);
+
+  /// @brief Method LoadCertificate, addr 0x24ec758, size 0x70, virtual false, abstract: false, final false
+  inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
+
+  /// @brief Method LoadCrl, addr 0x24ec7c8, size 0x70, virtual false, abstract: false, final false
+  inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
+
+  static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__certificates();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__certificates() const;
 
-  constexpr void __cordl_internal_set__certificates(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr bool const& __cordl_internal_get__crl() const;
+
+  constexpr bool& __cordl_internal_get__crl();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__crls();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__crls() const;
 
-  constexpr void __cordl_internal_set__crls(::System::Collections::ArrayList* value);
-
-  constexpr bool& __cordl_internal_get__crl();
-
-  constexpr bool const& __cordl_internal_get__crl() const;
-
-  constexpr void __cordl_internal_set__crl(bool value);
+  constexpr bool const& __cordl_internal_get__newFormat() const;
 
   constexpr bool& __cordl_internal_get__newFormat();
 
-  constexpr bool const& __cordl_internal_get__newFormat() const;
+  constexpr ::StringW const& __cordl_internal_get__storePath() const;
+
+  constexpr ::StringW& __cordl_internal_get__storePath();
+
+  constexpr void __cordl_internal_set__certificates(::Mono::Security::X509::X509CertificateCollection* value);
+
+  constexpr void __cordl_internal_set__crl(bool value);
+
+  constexpr void __cordl_internal_set__crls(::System::Collections::ArrayList* value);
 
   constexpr void __cordl_internal_set__newFormat(bool value);
 
-  static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
+  constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23fd568, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec0c0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method get_Certificates, addr 0x23fd5a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x24ec100, size 0x28, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_Crls, addr 0x23fd7a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0x24ec2fc, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Crls();
 
-  /// @brief Method Load, addr 0x23fd9f4, size 0x20c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Load(::StringW filename);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Store();
 
-  /// @brief Method LoadCertificate, addr 0x23fdc00, size 0x70, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
-
-  /// @brief Method LoadCrl, addr 0x23fdc70, size 0x70, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
-
-  /// @brief Method CheckStore, addr 0x23fdce0, size 0xdc, virtual false, abstract: false, final false
-  inline bool CheckStore(::StringW path, bool throwException);
-
-  /// @brief Method BuildCertificatesCollection, addr 0x23fd5d0, size 0x1d4, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
-
-  /// @brief Method BuildCrlsCollection, addr 0x23fd834, size 0x1c0, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Store", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Store(X509Store&&) = delete;
@@ -121,12 +125,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Store(X509Store const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Store();
-
-public:
   /// @brief Field _storePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____storePath;
 

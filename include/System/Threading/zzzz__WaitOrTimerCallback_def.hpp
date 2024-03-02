@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::System::Threading::WaitOrTimerCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2729))
 // CS Name: ::System.Threading::WaitOrTimerCallback*
 class CORDL_TYPE WaitOrTimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Threading::WaitOrTimerCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x261a4c0, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x261a5f0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x270ee60, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state, bool timedOut);
 
+  static inline ::System::Threading::WaitOrTimerCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x270ed30, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WaitOrTimerCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WaitOrTimerCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaitOrTimerCallback(WaitOrTimerCallback&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaitOrTimerCallback(WaitOrTimerCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WaitOrTimerCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

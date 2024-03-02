@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ICPUMonitor);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12784))
 // CS Name: ::ICPUMonitor*
 class CORDL_TYPE ICPUMonitor {
 public:
@@ -28,11 +26,11 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPollable"
-  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
-
   /// @brief Method get_utilization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_utilization();
+
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICPUMonitor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

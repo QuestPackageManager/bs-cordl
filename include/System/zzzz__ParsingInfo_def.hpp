@@ -25,14 +25,16 @@ MARK_VAL_T(::System::ParsingInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2388))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2400))
 // CS Name: ::System::ParsingInfo
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a5a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2698050, size 0xc, virtual false, abstract: false, final false
   inline void Init();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParsingInfo();
 
   // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "timeMark", ty: "::System::__DateTimeParse__TM", modifiers: "", def_value: None }, CppParam { name: "fUseHour12", ty: "bool", modifiers: "", def_value: None }, CppParam {
@@ -41,10 +43,6 @@ public:
   // "::System::__DateTimeParse__MatchNumberDelegate*", modifiers: "", def_value: None }]
   constexpr ParsingInfo(::System::Globalization::Calendar* calendar, int32_t dayOfWeek, ::System::__DateTimeParse__TM timeMark, bool fUseHour12, bool fUseTwoDigitYear, bool fAllowInnerWhite,
                         bool fAllowTrailingWhite, bool fCustomNumberParser, ::System::__DateTimeParse__MatchNumberDelegate* parseNumberDelegate) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParsingInfo();
 
   /// @brief Field calendar, offset: 0x0, size: 0x8, def value: None
   ::System::Globalization::Calendar* calendar;

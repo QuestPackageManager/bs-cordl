@@ -15,36 +15,40 @@ MARK_REF_PTR_T(::System::Threading::PlatformHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2681))
 // CS Name: ::System.Threading::PlatformHelper*
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_processorCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_processorCount, put = setStaticF_s_processorCount)) int32_t s_processorCount;
+  /// @brief Field IsSingleProcessor, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_IsSingleProcessor, put = setStaticF_IsSingleProcessor)) bool IsSingleProcessor;
 
   /// @brief Field s_lastProcessorCountRefreshTicks, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_lastProcessorCountRefreshTicks, put = setStaticF_s_lastProcessorCountRefreshTicks)) int32_t s_lastProcessorCountRefreshTicks;
 
-  /// @brief Field IsSingleProcessor, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsSingleProcessor, put = setStaticF_IsSingleProcessor)) bool IsSingleProcessor;
-
-  static inline void setStaticF_s_processorCount(int32_t value);
-
-  static inline int32_t getStaticF_s_processorCount();
-
-  static inline void setStaticF_s_lastProcessorCountRefreshTicks(int32_t value);
-
-  static inline int32_t getStaticF_s_lastProcessorCountRefreshTicks();
-
-  static inline void setStaticF_IsSingleProcessor(bool value);
+  /// @brief Field s_processorCount, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_processorCount, put = setStaticF_s_processorCount)) int32_t s_processorCount;
 
   static inline bool getStaticF_IsSingleProcessor();
 
-  /// @brief Method get_ProcessorCount, addr 0x26122b4, size 0xec, virtual false, abstract: false, final false
+  static inline int32_t getStaticF_s_lastProcessorCountRefreshTicks();
+
+  static inline int32_t getStaticF_s_processorCount();
+
+  /// @brief Method get_ProcessorCount, addr 0x27068b0, size 0xec, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
+  static inline void setStaticF_IsSingleProcessor(bool value);
+
+  static inline void setStaticF_s_lastProcessorCountRefreshTicks(int32_t value);
+
+  static inline void setStaticF_s_processorCount(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformHelper(PlatformHelper&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformHelper(PlatformHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

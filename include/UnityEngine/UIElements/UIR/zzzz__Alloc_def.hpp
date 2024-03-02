@@ -18,19 +18,17 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Alloc);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7433))
 // CS Name: ::UnityEngine.UIElements.UIR::Alloc
 struct CORDL_TYPE Alloc {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "start", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "handle",
-  // ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "shortLived", ty: "bool", modifiers: "", def_value: None }]
-  constexpr Alloc(uint32_t start, uint32_t size, ::System::Object* handle, bool shortLived) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Alloc();
+
+  // Ctor Parameters [CppParam { name: "start", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "handle",
+  // ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "shortLived", ty: "bool", modifiers: "", def_value: None }]
+  constexpr Alloc(uint32_t start, uint32_t size, ::System::Object* handle, bool shortLived) noexcept;
 
   /// @brief Field start, offset: 0x0, size: 0x4, def value: None
   uint32_t start;

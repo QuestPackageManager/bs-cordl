@@ -63,8 +63,6 @@ MARK_REF_PTR_T(::Oculus::Platform::__PlatformInternal__Users);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13374))
 // CS Name: ::PlatformInternal::MessageTypeInternal
 struct CORDL_TYPE __PlatformInternal__MessageTypeInternal {
 public:
@@ -144,18 +142,20 @@ public:
     return static_cast<____PlatformInternal__MessageTypeInternal_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr __PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PlatformInternal__MessageTypeInternal();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr __PlatformInternal__MessageTypeInternal(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field AbuseReport_LaunchAdvancedReportFlow value: static_cast<uint32_t>(0xb13a6ef0u)
   static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const AbuseReport_LaunchAdvancedReportFlow;
@@ -349,6 +349,9 @@ public:
   /// @brief Field Voip_ReportAppVoipSessions value: static_cast<uint32_t>(0xce5152d8u)
   static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const Voip_ReportAppVoipSessions;
 
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -361,15 +364,19 @@ static_assert(offsetof(::Oculus::Platform::__PlatformInternal__MessageTypeIntern
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13375))
 // CS Name: ::PlatformInternal::HTTP*
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetHttpTransferUpdateCallback, addr 0x2700730, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetHttpTransferUpdateCallback, addr 0x27f2038, size 0x74, virtual false, abstract: false, final false
   static inline void SetHttpTransferUpdateCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>* callback);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlatformInternal__HTTP();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformInternal__HTTP", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlatformInternal__HTTP(__PlatformInternal__HTTP&&) = delete;
@@ -378,12 +385,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlatformInternal__HTTP(__PlatformInternal__HTTP const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlatformInternal__HTTP();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -394,16 +395,20 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13376))
 // CS Name: ::PlatformInternal::Users*
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLinkedAccounts, addr 0x27007a4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetLinkedAccounts, addr 0x27f20ac, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>*
   GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*> providers);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PlatformInternal__Users();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformInternal__Users", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PlatformInternal__Users(__PlatformInternal__Users&&) = delete;
@@ -412,12 +417,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlatformInternal__Users(__PlatformInternal__Users const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PlatformInternal__Users();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -428,27 +427,31 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13377))
 // CS Name: ::Oculus.Platform::PlatformInternal*
 class CORDL_TYPE PlatformInternal : public ::System::Object {
 public:
   // Declarations
-  using Users = ::Oculus::Platform::__PlatformInternal__Users;
-
   using HTTP = ::Oculus::Platform::__PlatformInternal__HTTP;
 
   using MessageTypeInternal = ::Oculus::Platform::__PlatformInternal__MessageTypeInternal;
 
-  /// @brief Method CrashApplication, addr 0x27004ac, size 0x4c, virtual false, abstract: false, final false
+  using Users = ::Oculus::Platform::__PlatformInternal__Users;
+
+  /// @brief Method CrashApplication, addr 0x27f1db4, size 0x4c, virtual false, abstract: false, final false
   static inline void CrashApplication();
 
-  /// @brief Method ParseMessageHandle, addr 0x26efc38, size 0x8b4, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Message* ParseMessageHandle(void* messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
-
-  /// @brief Method InitializeStandaloneAsync, addr 0x27004f8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandaloneAsync, addr 0x27f1e00, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
 
+  /// @brief Method ParseMessageHandle, addr 0x27e1540, size 0x8b4, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Message* ParseMessageHandle(void* messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformInternal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInternal(PlatformInternal&&) = delete;
@@ -457,12 +460,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformInternal(PlatformInternal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInternal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

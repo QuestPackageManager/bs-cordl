@@ -23,111 +23,115 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14761))
 // CS Name: ::ObstacleData*
 class CORDL_TYPE ObstacleData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
+  /// @brief Field <duration>k__BackingField, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
+
+  /// @brief Field <height>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
+
   /// @brief Field <lineIndex>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <lineLayer>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__lineLayer_k__BackingField, put = __cordl_internal_set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
 
-  /// @brief Field <duration>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
-
   /// @brief Field <width>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__width_k__BackingField, put = __cordl_internal_set__width_k__BackingField)) int32_t _width_k__BackingField;
 
-  /// @brief Field <height>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
+  __declspec(property(get = get_duration, put = set_duration)) float_t duration;
+
+  __declspec(property(get = get_height, put = set_height)) int32_t height;
 
   __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
 
   __declspec(property(get = get_lineLayer, put = set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
 
-  __declspec(property(get = get_duration, put = set_duration)) float_t duration;
-
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  __declspec(property(get = get_height, put = set_height)) int32_t height;
+  /// @brief Method GetCopy, addr 0xe57518, size 0x9c, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
-
-  constexpr float_t& __cordl_internal_get__duration_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__duration_k__BackingField(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__width_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__width_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__height_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__height_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__height_k__BackingField(int32_t value);
-
-  /// @brief Method get_lineIndex, addr 0xe0140c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lineIndex();
-
-  /// @brief Method set_lineIndex, addr 0xe01414, size 0x8, virtual false, abstract: false, final false
-  inline void set_lineIndex(int32_t value);
-
-  /// @brief Method get_lineLayer, addr 0xe0141c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
-
-  /// @brief Method set_lineLayer, addr 0xe01424, size 0x8, virtual false, abstract: false, final false
-  inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method get_duration, addr 0xe0142c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_duration();
-
-  /// @brief Method set_duration, addr 0xe01434, size 0x8, virtual false, abstract: false, final false
-  inline void set_duration(float_t value);
-
-  /// @brief Method get_width, addr 0xe0143c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_width();
-
-  /// @brief Method set_width, addr 0xe01444, size 0x8, virtual false, abstract: false, final false
-  inline void set_width(int32_t value);
-
-  /// @brief Method get_height, addr 0xe0144c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_height();
-
-  /// @brief Method set_height, addr 0xe01454, size 0x8, virtual false, abstract: false, final false
-  inline void set_height(int32_t value);
+  /// @brief Method Mirror, addr 0xe575b4, size 0x18, virtual true, abstract: false, final false
+  inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::ObstacleData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0xe0145c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
-
-  /// @brief Method UpdateDuration, addr 0xe014c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDuration, addr 0xe57510, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDuration(float_t duration);
 
-  /// @brief Method GetCopy, addr 0xe014cc, size 0x9c, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
+  constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
 
-  /// @brief Method Mirror, addr 0xe01568, size 0x18, virtual true, abstract: false, final false
-  inline void Mirror(int32_t lineCount);
+  constexpr float_t& __cordl_internal_get__duration_k__BackingField();
 
+  constexpr int32_t const& __cordl_internal_get__height_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__height_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__width_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__width_k__BackingField();
+
+  constexpr void __cordl_internal_set__duration_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__height_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
+
+  /// @brief Method .ctor, addr 0xe574a8, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
+
+  /// @brief Method get_duration, addr 0xe57478, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_duration();
+
+  /// @brief Method get_height, addr 0xe57498, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_height();
+
+  /// @brief Method get_lineIndex, addr 0xe57458, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lineIndex();
+
+  /// @brief Method get_lineLayer, addr 0xe57468, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
+
+  /// @brief Method get_width, addr 0xe57488, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_width();
+
+  /// @brief Method set_duration, addr 0xe57480, size 0x8, virtual false, abstract: false, final false
+  inline void set_duration(float_t value);
+
+  /// @brief Method set_height, addr 0xe574a0, size 0x8, virtual false, abstract: false, final false
+  inline void set_height(int32_t value);
+
+  /// @brief Method set_lineIndex, addr 0xe57460, size 0x8, virtual false, abstract: false, final false
+  inline void set_lineIndex(int32_t value);
+
+  /// @brief Method set_lineLayer, addr 0xe57470, size 0x8, virtual false, abstract: false, final false
+  inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  /// @brief Method set_width, addr 0xe57490, size 0x8, virtual false, abstract: false, final false
+  inline void set_width(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObstacleData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleData(ObstacleData&&) = delete;
@@ -136,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleData(ObstacleData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObstacleData();
-
-public:
   /// @brief Field <lineIndex>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____lineIndex_k__BackingField;
 

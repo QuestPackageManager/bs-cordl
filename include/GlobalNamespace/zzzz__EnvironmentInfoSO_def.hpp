@@ -2,17 +2,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentInfoSO)
-namespace BeatmapSaveDataVersion3 {
-class BeatmapLightshowSaveData;
-}
 namespace GlobalNamespace {
 class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
 }
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
@@ -24,7 +20,13 @@ namespace GlobalNamespace {
 class EnvironmentSizeData;
 }
 namespace GlobalNamespace {
-class EnvironmentTypeSO;
+struct EnvironmentType;
+}
+namespace GlobalNamespace {
+class IEnvironmentInfo;
+}
+namespace GlobalNamespace {
+class IEnvironmentLightGroups;
 }
 namespace GlobalNamespace {
 class SceneInfo;
@@ -35,6 +37,9 @@ template <typename T> class IReadOnlyList_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine {
+class TextAsset;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
@@ -42,35 +47,21 @@ class EnvironmentInfoSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentInfoSO);
 // Type: ::EnvironmentInfoSO
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4170))
 // CS Name: ::EnvironmentInfoSO*
 class CORDL_TYPE EnvironmentInfoSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _environmentName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName))::StringW _environmentName;
-
   /// @brief Field _colorScheme, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _colorScheme;
 
-  /// @brief Field _sceneInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneInfo, put = __cordl_internal_set__sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _sceneInfo;
-
-  /// @brief Field _serializedName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__serializedName, put = __cordl_internal_set__serializedName))::StringW _serializedName;
+  /// @brief Field _defaultLightshowAsset, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultLightshowAsset, put = __cordl_internal_set__defaultLightshowAsset))::UnityW<::UnityEngine::TextAsset> _defaultLightshowAsset;
 
   /// @brief Field _environmentAssetDirectory, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentAssetDirectory, put = __cordl_internal_set__environmentAssetDirectory))::StringW _environmentAssetDirectory;
-
-  /// @brief Field _environmentType, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentType, put = __cordl_internal_set__environmentType))::UnityW<::GlobalNamespace::EnvironmentTypeSO> _environmentType;
-
-  /// @brief Field _environmentSizeData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentSizeData, put = __cordl_internal_set__environmentSizeData))::GlobalNamespace::EnvironmentSizeData* _environmentSizeData;
 
   /// @brief Field _environmentIntensityReductionOptions, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentIntensityReductionOptions,
@@ -79,154 +70,176 @@ public:
   /// @brief Field _environmentKeywords, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentKeywords, put = __cordl_internal_set__environmentKeywords))::System::Collections::Generic::List_1<::StringW>* _environmentKeywords;
 
+  /// @brief Field _environmentName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName))::StringW _environmentName;
+
+  /// @brief Field _environmentSizeData, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentSizeData, put = __cordl_internal_set__environmentSizeData))::GlobalNamespace::EnvironmentSizeData* _environmentSizeData;
+
+  /// @brief Field _environmentType, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__environmentType, put = __cordl_internal_set__environmentType))::GlobalNamespace::EnvironmentType _environmentType;
+
   /// @brief Field _lightGroups, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups, put = __cordl_internal_set__lightGroups))::GlobalNamespace::EnvironmentLightGroups* _lightGroups;
 
-  /// @brief Field _defaultEnvironmentEvents, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultEnvironmentEvents,
-                      put = __cordl_internal_set__defaultEnvironmentEvents))::GlobalNamespace::DefaultEnvironmentEvents* _defaultEnvironmentEvents;
+  /// @brief Field _order, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get__order, put = __cordl_internal_set__order)) int32_t _order;
 
-  /// @brief Field _defaultLightshowSaveData, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultLightshowSaveData,
-                      put = __cordl_internal_set__defaultLightshowSaveData))::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* _defaultLightshowSaveData;
+  /// @brief Field _sceneInfo, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneInfo, put = __cordl_internal_set__sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _sceneInfo;
 
-  __declspec(property(get = get_sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
-
-  __declspec(property(get = get_environmentName))::StringW environmentName;
+  /// @brief Field _serializedName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__serializedName, put = __cordl_internal_set__serializedName))::StringW _serializedName;
 
   __declspec(property(get = get_colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  __declspec(property(get = get_serializedName))::StringW serializedName;
+  __declspec(property(get = get_defaultLightshowAsset))::UnityW<::UnityEngine::TextAsset> defaultLightshowAsset;
 
   __declspec(property(get = get_environmentAssetDirectory))::StringW environmentAssetDirectory;
-
-  __declspec(property(get = get_environmentType))::UnityW<::GlobalNamespace::EnvironmentTypeSO> environmentType;
-
-  __declspec(property(get = get_environmentSizeData))::GlobalNamespace::EnvironmentSizeData* environmentSizeData;
 
   __declspec(property(get = get_environmentIntensityReductionOptions))::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions;
 
   __declspec(property(get = get_environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  __declspec(property(get = get_lightGroups))::GlobalNamespace::EnvironmentLightGroups* lightGroups;
+  __declspec(property(get = get_environmentLightGroups))::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups;
 
-  __declspec(property(get = get_defaultEnvironmentEvents))::GlobalNamespace::DefaultEnvironmentEvents* defaultEnvironmentEvents;
+  __declspec(property(get = get_environmentName))::StringW environmentName;
 
-  __declspec(property(get = get_defaultLightshowSaveData))::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* defaultLightshowSaveData;
+  __declspec(property(get = get_environmentSizeData))::GlobalNamespace::EnvironmentSizeData* environmentSizeData;
 
-  constexpr ::StringW& __cordl_internal_get__environmentName();
+  __declspec(property(get = get_environmentType))::GlobalNamespace::EnvironmentType environmentType;
 
-  constexpr ::StringW const& __cordl_internal_get__environmentName() const;
+  __declspec(property(get = get_order)) int32_t order;
 
-  constexpr void __cordl_internal_set__environmentName(::StringW value);
+  __declspec(property(get = get_sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__colorScheme();
+  __declspec(property(get = get_serializedName))::StringW serializedName;
+
+  /// @brief Convert operator to "::GlobalNamespace::IEnvironmentInfo"
+  constexpr operator ::GlobalNamespace::IEnvironmentInfo*() noexcept;
+
+  static inline ::GlobalNamespace::EnvironmentInfoSO* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __cordl_internal_set__colorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__colorScheme();
 
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__sceneInfo();
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__defaultLightshowAsset() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__sceneInfo() const;
-
-  constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr ::StringW& __cordl_internal_get__serializedName();
-
-  constexpr ::StringW const& __cordl_internal_get__serializedName() const;
-
-  constexpr void __cordl_internal_set__serializedName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__environmentAssetDirectory();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__defaultLightshowAsset();
 
   constexpr ::StringW const& __cordl_internal_get__environmentAssetDirectory() const;
 
-  constexpr void __cordl_internal_set__environmentAssetDirectory(::StringW value);
-
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentTypeSO>& __cordl_internal_get__environmentType();
-
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentTypeSO> const& __cordl_internal_get__environmentType() const;
-
-  constexpr void __cordl_internal_set__environmentType(::UnityW<::GlobalNamespace::EnvironmentTypeSO> value);
-
-  constexpr ::GlobalNamespace::EnvironmentSizeData*& __cordl_internal_get__environmentSizeData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSizeData*> const& __cordl_internal_get__environmentSizeData() const;
-
-  constexpr void __cordl_internal_set__environmentSizeData(::GlobalNamespace::EnvironmentSizeData* value);
+  constexpr ::StringW& __cordl_internal_get__environmentAssetDirectory();
 
   constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions*& __cordl_internal_get__environmentIntensityReductionOptions();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentIntensityReductionOptions*> const& __cordl_internal_get__environmentIntensityReductionOptions() const;
 
-  constexpr void __cordl_internal_set__environmentIntensityReductionOptions(::GlobalNamespace::EnvironmentIntensityReductionOptions* value);
-
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__environmentKeywords();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__environmentKeywords() const;
 
-  constexpr void __cordl_internal_set__environmentKeywords(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr ::StringW const& __cordl_internal_get__environmentName() const;
+
+  constexpr ::StringW& __cordl_internal_get__environmentName();
+
+  constexpr ::GlobalNamespace::EnvironmentSizeData*& __cordl_internal_get__environmentSizeData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSizeData*> const& __cordl_internal_get__environmentSizeData() const;
+
+  constexpr ::GlobalNamespace::EnvironmentType const& __cordl_internal_get__environmentType() const;
+
+  constexpr ::GlobalNamespace::EnvironmentType& __cordl_internal_get__environmentType();
 
   constexpr ::GlobalNamespace::EnvironmentLightGroups*& __cordl_internal_get__lightGroups();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentLightGroups*> const& __cordl_internal_get__lightGroups() const;
 
+  constexpr int32_t const& __cordl_internal_get__order() const;
+
+  constexpr int32_t& __cordl_internal_get__order();
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__sceneInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__sceneInfo();
+
+  constexpr ::StringW const& __cordl_internal_get__serializedName() const;
+
+  constexpr ::StringW& __cordl_internal_get__serializedName();
+
+  constexpr void __cordl_internal_set__colorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+
+  constexpr void __cordl_internal_set__defaultLightshowAsset(::UnityW<::UnityEngine::TextAsset> value);
+
+  constexpr void __cordl_internal_set__environmentAssetDirectory(::StringW value);
+
+  constexpr void __cordl_internal_set__environmentIntensityReductionOptions(::GlobalNamespace::EnvironmentIntensityReductionOptions* value);
+
+  constexpr void __cordl_internal_set__environmentKeywords(::System::Collections::Generic::List_1<::StringW>* value);
+
+  constexpr void __cordl_internal_set__environmentName(::StringW value);
+
+  constexpr void __cordl_internal_set__environmentSizeData(::GlobalNamespace::EnvironmentSizeData* value);
+
+  constexpr void __cordl_internal_set__environmentType(::GlobalNamespace::EnvironmentType value);
+
   constexpr void __cordl_internal_set__lightGroups(::GlobalNamespace::EnvironmentLightGroups* value);
 
-  constexpr ::GlobalNamespace::DefaultEnvironmentEvents*& __cordl_internal_get__defaultEnvironmentEvents();
+  constexpr void __cordl_internal_set__order(int32_t value);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultEnvironmentEvents*> const& __cordl_internal_get__defaultEnvironmentEvents() const;
+  constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  constexpr void __cordl_internal_set__defaultEnvironmentEvents(::GlobalNamespace::DefaultEnvironmentEvents* value);
+  constexpr void __cordl_internal_set__serializedName(::StringW value);
 
-  constexpr ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*& __cordl_internal_get__defaultLightshowSaveData();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*> const& __cordl_internal_get__defaultLightshowSaveData() const;
-
-  constexpr void __cordl_internal_set__defaultLightshowSaveData(::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* value);
-
-  /// @brief Method get_sceneInfo, addr 0x22402dc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
-
-  /// @brief Method get_environmentName, addr 0x22402e4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_environmentName();
-
-  /// @brief Method get_colorScheme, addr 0x22402ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
-
-  /// @brief Method get_serializedName, addr 0x22402f4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_serializedName();
-
-  /// @brief Method get_environmentAssetDirectory, addr 0x22402fc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_environmentAssetDirectory();
-
-  /// @brief Method get_environmentType, addr 0x2240304, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::EnvironmentTypeSO> get_environmentType();
-
-  /// @brief Method get_environmentSizeData, addr 0x224030c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
-
-  /// @brief Method get_environmentIntensityReductionOptions, addr 0x2240314, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
-
-  /// @brief Method get_environmentKeywords, addr 0x224031c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
-
-  /// @brief Method get_lightGroups, addr 0x2240324, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
-
-  /// @brief Method get_defaultEnvironmentEvents, addr 0x224032c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
-
-  /// @brief Method get_defaultLightshowSaveData, addr 0x2240334, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* get_defaultLightshowSaveData();
-
-  static inline ::GlobalNamespace::EnvironmentInfoSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x224033c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a926c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_colorScheme, addr 0x12a921c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
+
+  /// @brief Method get_defaultLightshowAsset, addr 0x12a925c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
+
+  /// @brief Method get_environmentAssetDirectory, addr 0x12a922c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_environmentAssetDirectory();
+
+  /// @brief Method get_environmentIntensityReductionOptions, addr 0x12a9244, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
+
+  /// @brief Method get_environmentKeywords, addr 0x12a924c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
+
+  /// @brief Method get_environmentLightGroups, addr 0x12a9254, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
+
+  /// @brief Method get_environmentName, addr 0x12a9214, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_environmentName();
+
+  /// @brief Method get_environmentSizeData, addr 0x12a923c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
+
+  /// @brief Method get_environmentType, addr 0x12a9234, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentType get_environmentType();
+
+  /// @brief Method get_order, addr 0x12a9264, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_order();
+
+  /// @brief Method get_sceneInfo, addr 0x12a920c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
+
+  /// @brief Method get_serializedName, addr 0x12a9224, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_serializedName();
+
+  /// @brief Convert to "::GlobalNamespace::IEnvironmentInfo"
+  constexpr ::GlobalNamespace::IEnvironmentInfo* i___GlobalNamespace__IEnvironmentInfo() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentInfoSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentInfoSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentInfoSO(EnvironmentInfoSO&&) = delete;
@@ -235,12 +248,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentInfoSO(EnvironmentInfoSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentInfoSO();
-
-public:
   /// @brief Field _environmentName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____environmentName;
 
@@ -256,8 +263,8 @@ public:
   /// @brief Field _environmentAssetDirectory, offset: 0x38, size: 0x8, def value: None
   ::StringW ____environmentAssetDirectory;
 
-  /// @brief Field _environmentType, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::EnvironmentTypeSO> ____environmentType;
+  /// @brief Field _environmentType, offset: 0x40, size: 0x4, def value: None
+  ::GlobalNamespace::EnvironmentType ____environmentType;
 
   /// @brief Field _environmentSizeData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSizeData* ____environmentSizeData;
@@ -271,11 +278,11 @@ public:
   /// @brief Field _lightGroups, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentLightGroups* ____lightGroups;
 
-  /// @brief Field _defaultEnvironmentEvents, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::DefaultEnvironmentEvents* ____defaultEnvironmentEvents;
+  /// @brief Field _defaultLightshowAsset, offset: 0x68, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::TextAsset> ____defaultLightshowAsset;
 
-  /// @brief Field _defaultLightshowSaveData, offset: 0x70, size: 0x8, def value: None
-  ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* ____defaultLightshowSaveData;
+  /// @brief Field _order, offset: 0x70, size: 0x4, def value: None
+  int32_t ____order;
 
   /// @brief Field kLightGroupSubDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kLightGroupSubDir{ u"LightGroups" };
@@ -305,9 +312,9 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentKeyw
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____lightGroups) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultEnvironmentEvents) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultLightshowAsset) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultLightshowSaveData) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____order) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentInfoSO);

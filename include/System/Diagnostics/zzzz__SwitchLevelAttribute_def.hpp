@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::System::Diagnostics::SwitchLevelAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8936))
 // CS Name: ::System.Diagnostics::SwitchLevelAttribute*
 class CORDL_TYPE SwitchLevelAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_SwitchLevelType))::System::Type* SwitchLevelType;
+
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  __declspec(property(put = set_SwitchLevelType))::System::Type* SwitchLevelType;
+  static inline ::System::Diagnostics::SwitchLevelAttribute* New_ctor(::System::Type* switchLevelType);
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
@@ -34,14 +34,18 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  static inline ::System::Diagnostics::SwitchLevelAttribute* New_ctor(::System::Type* switchLevelType);
-
-  /// @brief Method .ctor, addr 0x296c51c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a56094, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* switchLevelType);
 
-  /// @brief Method set_SwitchLevelType, addr 0x296c548, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_SwitchLevelType, addr 0x2a560c0, size 0xc0, virtual false, abstract: false, final false
   inline void set_SwitchLevelType(::System::Type* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SwitchLevelAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SwitchLevelAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchLevelAttribute(SwitchLevelAttribute&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SwitchLevelAttribute(SwitchLevelAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SwitchLevelAttribute();
-
-public:
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
