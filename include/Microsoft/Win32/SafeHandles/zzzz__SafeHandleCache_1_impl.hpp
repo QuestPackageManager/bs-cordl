@@ -16,5 +16,3 @@ template <typename T> inline bool Microsoft::Win32::SafeHandles::SafeHandleCache
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Microsoft::Win32::SafeHandles::SafeHandleCache_1<T>::SafeHandleCache_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

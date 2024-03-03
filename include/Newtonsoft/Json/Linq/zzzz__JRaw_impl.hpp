@@ -92,5 +92,3 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JRaw::CloneToke
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JRaw::JRaw() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

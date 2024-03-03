@@ -251,5 +251,3 @@ inline void GlobalNamespace::PlayAudioOnGameEventController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayAudioOnGameEventController::PlayAudioOnGameEventController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

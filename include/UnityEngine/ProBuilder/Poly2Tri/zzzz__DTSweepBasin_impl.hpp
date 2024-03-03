@@ -87,5 +87,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::DTSweepBasin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

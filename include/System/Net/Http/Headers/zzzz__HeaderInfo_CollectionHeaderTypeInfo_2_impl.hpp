@@ -75,5 +75,3 @@ template <typename T, typename U> inline bool System::Net::Http::Headers::__Head
 }
 // Ctor Parameters []
 template <typename T, typename U> constexpr ::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>::__HeaderInfo__CollectionHeaderTypeInfo_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

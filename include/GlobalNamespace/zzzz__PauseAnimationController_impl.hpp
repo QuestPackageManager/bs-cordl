@@ -189,5 +189,3 @@ inline void GlobalNamespace::PauseAnimationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PauseAnimationController::PauseAnimationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

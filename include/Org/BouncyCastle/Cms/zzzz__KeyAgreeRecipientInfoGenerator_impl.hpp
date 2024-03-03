@@ -235,5 +235,3 @@ Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::CreateOriginatorPublicKe
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator::KeyAgreeRecipientInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

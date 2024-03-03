@@ -161,5 +161,3 @@ inline void UnityEngine::UIElements::WheelEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::WheelEvent::WheelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

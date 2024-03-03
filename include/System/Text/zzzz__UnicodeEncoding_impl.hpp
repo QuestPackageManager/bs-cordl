@@ -716,5 +716,3 @@ inline int32_t System::Text::UnicodeEncoding::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::UnicodeEncoding::UnicodeEncoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

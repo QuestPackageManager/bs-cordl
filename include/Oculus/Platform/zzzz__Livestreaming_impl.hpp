@@ -28,5 +28,3 @@ inline void Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Livestreaming::Livestreaming() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

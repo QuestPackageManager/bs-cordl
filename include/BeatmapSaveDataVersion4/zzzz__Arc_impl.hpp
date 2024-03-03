@@ -11,5 +11,3 @@ constexpr ::BeatmapSaveDataVersion4::Arc::Arc(float_t m, float_t tm, ::BeatmapSa
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::Arc::Arc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

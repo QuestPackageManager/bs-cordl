@@ -283,5 +283,3 @@ inline void GlobalNamespace::SimpleDialogPromptViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleDialogPromptViewController::SimpleDialogPromptViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

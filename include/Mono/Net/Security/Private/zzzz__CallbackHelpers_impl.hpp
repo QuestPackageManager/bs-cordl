@@ -201,5 +201,3 @@ Mono::Net::Security::Private::CallbackHelpers::MonoToInternal(::Mono::Security::
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::Private::CallbackHelpers::CallbackHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

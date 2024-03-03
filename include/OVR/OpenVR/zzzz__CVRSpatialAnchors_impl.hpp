@@ -142,5 +142,3 @@ inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::GetS
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRSpatialAnchors::CVRSpatialAnchors() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

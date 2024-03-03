@@ -238,5 +238,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::Attributes* Org::BouncyCastle::Asn1::Cms:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData::MetaData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

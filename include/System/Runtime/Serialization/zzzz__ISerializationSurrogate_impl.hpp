@@ -53,5 +53,3 @@ inline ::System::Object* System::Runtime::Serialization::ISerializationSurrogate
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ISerializationSurrogate*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, obj, info, context, selector);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

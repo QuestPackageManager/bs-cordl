@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::VROverlayTransformType OVR::OpenVR::VROverlayTransformT
 constexpr ::OVR::OpenVR::VROverlayTransformType OVR::OpenVR::VROverlayTransformType::VROverlayTransform_TrackedDeviceRelative{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::VROverlayTransformType OVR::OpenVR::VROverlayTransformType::VROverlayTransform_SystemOverlay{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::VROverlayTransformType OVR::OpenVR::VROverlayTransformType::VROverlayTransform_TrackedComponent{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

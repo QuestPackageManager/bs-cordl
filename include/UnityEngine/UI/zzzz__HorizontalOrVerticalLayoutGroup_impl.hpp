@@ -514,5 +514,3 @@ inline void UnityEngine::UI::HorizontalOrVerticalLayoutGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::HorizontalOrVerticalLayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

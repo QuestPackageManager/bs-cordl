@@ -55,5 +55,3 @@ inline void GlobalNamespace::LevelFailedTextEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelFailedTextEffect::LevelFailedTextEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

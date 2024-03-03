@@ -122,5 +122,3 @@ inline void GlobalNamespace::DrawIfAttribute::_ctor(::StringW propertyName, ::Sy
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DrawIfAttribute::DrawIfAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

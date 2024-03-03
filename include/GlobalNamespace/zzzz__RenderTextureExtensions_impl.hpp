@@ -26,5 +26,3 @@ inline ::UnityW<::UnityEngine::Texture2D> GlobalNamespace::RenderTextureExtensio
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RenderTextureExtensions::RenderTextureExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

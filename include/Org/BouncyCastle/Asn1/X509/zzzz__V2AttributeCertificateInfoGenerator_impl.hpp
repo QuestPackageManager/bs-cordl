@@ -399,5 +399,3 @@ inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator::V2AttributeCertificateInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

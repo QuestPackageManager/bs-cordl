@@ -24,5 +24,3 @@ inline void UnityEngine::SliderState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SliderState::SliderState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

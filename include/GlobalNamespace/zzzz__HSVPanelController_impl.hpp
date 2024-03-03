@@ -286,5 +286,3 @@ inline void GlobalNamespace::HSVPanelController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HSVPanelController::HSVPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -120,5 +120,3 @@ constexpr ::UnityEngine::TextCore::Text::MaterialReference::MaterialReference(in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::MaterialReference::MaterialReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

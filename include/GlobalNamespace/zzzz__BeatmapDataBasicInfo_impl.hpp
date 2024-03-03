@@ -152,5 +152,3 @@ inline void GlobalNamespace::BeatmapDataBasicInfo::_ctor(int32_t numberOfLines, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataBasicInfo::BeatmapDataBasicInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

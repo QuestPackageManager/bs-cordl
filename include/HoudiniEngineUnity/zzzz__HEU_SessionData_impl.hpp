@@ -642,5 +642,3 @@ inline void HoudiniEngineUnity::HEU_SessionData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionData::HEU_SessionData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

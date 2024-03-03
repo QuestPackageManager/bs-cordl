@@ -150,5 +150,3 @@ inline void Zenject::ValidationMarker::set_MarkedType(::System::Type* value) {
 }
 // Ctor Parameters []
 constexpr ::Zenject::ValidationMarker::ValidationMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

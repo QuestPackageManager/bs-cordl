@@ -1142,5 +1142,3 @@ inline bool System::Reflection::RuntimeMethodInfo::get_IsSecurityCritical() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeMethodInfo::RuntimeMethodInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

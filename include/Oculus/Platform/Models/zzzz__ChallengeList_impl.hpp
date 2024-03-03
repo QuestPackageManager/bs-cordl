@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::ChallengeList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::ChallengeList::ChallengeList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

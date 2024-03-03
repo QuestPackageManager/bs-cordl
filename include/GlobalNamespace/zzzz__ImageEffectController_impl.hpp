@@ -181,5 +181,3 @@ inline void GlobalNamespace::ImageEffectController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ImageEffectController::ImageEffectController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

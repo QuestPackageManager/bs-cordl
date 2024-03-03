@@ -50,5 +50,3 @@ inline bool UnityEngine::AddressableAssets::AssetReferenceSprite::ValidateAsset(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceSprite::AssetReferenceSprite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

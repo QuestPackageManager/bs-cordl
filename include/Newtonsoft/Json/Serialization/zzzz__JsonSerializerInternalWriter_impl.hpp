@@ -1154,5 +1154,3 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalWriter::IsSpe
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter::JsonSerializerInternalWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

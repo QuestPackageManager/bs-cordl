@@ -28,5 +28,3 @@ template <typename TContract> inline ::Zenject::ConcreteBinderGeneric_1<TContrac
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::ConcreteIdBinderGeneric_1<TContract>::ConcreteIdBinderGeneric_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

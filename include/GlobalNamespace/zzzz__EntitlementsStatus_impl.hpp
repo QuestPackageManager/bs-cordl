@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::EntitlementsStatus GlobalNamespace::EntitlementsSta
 constexpr ::GlobalNamespace::EntitlementsStatus GlobalNamespace::EntitlementsStatus::NotOwned{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::EntitlementsStatus GlobalNamespace::EntitlementsStatus::NotDownloaded{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::EntitlementsStatus GlobalNamespace::EntitlementsStatus::Ok{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

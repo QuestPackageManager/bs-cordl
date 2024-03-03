@@ -1,3 +1,5 @@
 #pragma once
 #include "BeatSaber/BeatAvatarAdapter/zzzz__AvatarDataMultiplayerAvatarsDataConverter_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "BeatSaber/BeatAvatarAdapter/zzzz__AvatarDataMultiplayerAvatarsDataConverter_impl.hpp"
+#endif

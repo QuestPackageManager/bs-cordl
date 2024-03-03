@@ -1335,5 +1335,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::Scrollbar::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Scrollbar::Scrollbar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

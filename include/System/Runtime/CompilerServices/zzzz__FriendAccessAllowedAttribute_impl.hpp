@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::FriendAccessAllowedAttribute::_ct
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::FriendAccessAllowedAttribute::FriendAccessAllowedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

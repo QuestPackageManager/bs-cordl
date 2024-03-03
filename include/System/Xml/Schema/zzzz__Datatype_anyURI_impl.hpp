@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_anyURI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_anyURI::Datatype_anyURI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

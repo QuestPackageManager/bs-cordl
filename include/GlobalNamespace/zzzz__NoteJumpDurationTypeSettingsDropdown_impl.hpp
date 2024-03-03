@@ -54,5 +54,3 @@ inline void GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::NoteJumpDurationTypeSettingsDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

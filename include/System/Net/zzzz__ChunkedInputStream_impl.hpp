@@ -283,5 +283,3 @@ inline void System::Net::ChunkedInputStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ChunkedInputStream::ChunkedInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -91,5 +91,3 @@ inline void Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers::_cto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers::MicrosoftObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

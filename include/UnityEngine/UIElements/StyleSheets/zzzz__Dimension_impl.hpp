@@ -226,5 +226,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Dimension::Dimension(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Dimension::Dimension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

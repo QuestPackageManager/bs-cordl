@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRDirectComposition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDirectComposition::OVRDirectComposition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -477,5 +477,3 @@ inline void UnityEngine::GUILayoutUtility::Internal_MoveWindow_Injected(int32_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUILayoutUtility::GUILayoutUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

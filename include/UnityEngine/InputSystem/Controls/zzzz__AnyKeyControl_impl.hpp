@@ -46,5 +46,3 @@ inline float_t UnityEngine::InputSystem::Controls::AnyKeyControl::ReadUnprocesse
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::AnyKeyControl::AnyKeyControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

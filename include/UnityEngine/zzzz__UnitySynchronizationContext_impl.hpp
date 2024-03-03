@@ -364,5 +364,3 @@ inline bool UnityEngine::UnitySynchronizationContext::ExecutePendingTasks(int64_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnitySynchronizationContext::UnitySynchronizationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

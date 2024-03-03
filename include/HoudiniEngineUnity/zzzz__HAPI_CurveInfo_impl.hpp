@@ -19,5 +19,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CurveInfo::HAPI_CurveInfo(::HoudiniEngineUn
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_CurveInfo::HAPI_CurveInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -185,5 +185,3 @@ inline void GlobalNamespace::LightTranslationBeatmapEventDataBox::Unpack(float_t
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationBeatmapEventDataBox::LightTranslationBeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

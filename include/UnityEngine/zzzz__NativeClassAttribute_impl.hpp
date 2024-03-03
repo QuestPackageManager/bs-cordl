@@ -115,5 +115,3 @@ inline void UnityEngine::NativeClassAttribute::_ctor(::StringW qualifiedCppName,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::NativeClassAttribute::NativeClassAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

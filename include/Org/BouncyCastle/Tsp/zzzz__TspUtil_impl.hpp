@@ -225,5 +225,3 @@ inline void Org::BouncyCastle::Tsp::TspUtil::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspUtil::TspUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

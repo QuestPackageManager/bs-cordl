@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::PlatformEnvironment::PlatformEnvironment() {}
 constexpr ::GlobalNamespace::PlatformEnvironment GlobalNamespace::PlatformEnvironment::Development{ static_cast<uint8_t>(0x0u) };
 constexpr ::GlobalNamespace::PlatformEnvironment GlobalNamespace::PlatformEnvironment::Certification{ static_cast<uint8_t>(0x1u) };
 constexpr ::GlobalNamespace::PlatformEnvironment GlobalNamespace::PlatformEnvironment::Production{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

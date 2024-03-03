@@ -181,5 +181,3 @@ inline void GlobalNamespace::CommandBufferGOCore::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandBufferGOCore::CommandBufferGOCore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

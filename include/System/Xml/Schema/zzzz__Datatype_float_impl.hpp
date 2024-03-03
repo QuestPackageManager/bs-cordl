@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_float::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_float::Datatype_float() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

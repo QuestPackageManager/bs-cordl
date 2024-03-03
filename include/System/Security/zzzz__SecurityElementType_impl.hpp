@@ -9,5 +9,3 @@ constexpr ::System::Security::SecurityElementType::SecurityElementType() {}
 constexpr ::System::Security::SecurityElementType System::Security::SecurityElementType::Regular{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::SecurityElementType System::Security::SecurityElementType::Format{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::SecurityElementType System::Security::SecurityElementType::Comment{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -400,5 +400,3 @@ inline ::StringW System::Net::Http::HttpRequestMessage::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpRequestMessage::HttpRequestMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

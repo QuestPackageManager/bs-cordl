@@ -251,5 +251,3 @@ inline int32_t GlobalNamespace::DnsEndPoint::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DnsEndPoint::DnsEndPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

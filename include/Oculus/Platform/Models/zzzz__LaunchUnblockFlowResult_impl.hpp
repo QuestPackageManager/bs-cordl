@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::LaunchUnblockFlowResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LaunchUnblockFlowResult::LaunchUnblockFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

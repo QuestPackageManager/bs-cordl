@@ -453,5 +453,3 @@ inline int32_t Org::BouncyCastle::Asn1::Cms::AuthenticatedData::CalculateVersion
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData::AuthenticatedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -40,5 +40,3 @@ inline void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimationPlayableExtensions::AnimationPlayableExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

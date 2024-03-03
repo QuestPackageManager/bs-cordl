@@ -52,5 +52,3 @@ constexpr void System::Runtime::Remoting::Messaging::Header::__cordl_internal_se
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::Header::Header() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -28,5 +28,3 @@ inline ::UnityEngine::Quaternion GlobalNamespace::TransformExtensions::InverseTr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TransformExtensions::TransformExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

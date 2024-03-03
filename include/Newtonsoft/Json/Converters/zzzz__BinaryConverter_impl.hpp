@@ -171,5 +171,3 @@ inline void Newtonsoft::Json::Converters::BinaryConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::BinaryConverter::BinaryConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_Texture2D::IsEquivalentTo(::HoudiniEngineUn
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Texture2D::Test_Texture2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

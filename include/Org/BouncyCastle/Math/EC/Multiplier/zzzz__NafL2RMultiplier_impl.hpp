@@ -53,5 +53,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::NafL2RMultiplier::NafL2RMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

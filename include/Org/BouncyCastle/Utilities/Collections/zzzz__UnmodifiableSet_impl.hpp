@@ -365,5 +365,3 @@ inline void Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::RemoveAl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::UnmodifiableSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

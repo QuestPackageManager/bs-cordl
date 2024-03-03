@@ -245,5 +245,3 @@ inline ::StringW System::Runtime::InteropServices::DllImportAttribute::get_Value
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::DllImportAttribute::DllImportAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

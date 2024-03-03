@@ -551,5 +551,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::Substring::Substring(::StringW 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::Substring::Substring() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

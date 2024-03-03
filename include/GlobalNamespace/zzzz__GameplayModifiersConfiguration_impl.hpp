@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance
 constexpr ::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale::__GameplayModifiersConfiguration__NoteUniformScale() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiersConfiguration::GameplayModifiersConfiguration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

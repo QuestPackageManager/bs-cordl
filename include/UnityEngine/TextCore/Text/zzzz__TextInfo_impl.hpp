@@ -304,5 +304,3 @@ template <typename T> inline void UnityEngine::TextCore::Text::TextInfo::Resize(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextInfo::TextInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

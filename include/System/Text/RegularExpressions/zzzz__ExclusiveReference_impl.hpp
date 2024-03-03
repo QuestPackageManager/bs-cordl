@@ -102,5 +102,3 @@ inline void System::Text::RegularExpressions::ExclusiveReference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::ExclusiveReference::ExclusiveReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

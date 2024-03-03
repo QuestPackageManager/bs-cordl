@@ -132,5 +132,3 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::ResourceManagerExc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException::ResourceManagerException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

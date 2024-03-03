@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SpriteSortPoint::SpriteSortPoint(int32_t value__) noexc
 constexpr ::UnityEngine::SpriteSortPoint::SpriteSortPoint() {}
 constexpr ::UnityEngine::SpriteSortPoint UnityEngine::SpriteSortPoint::Center{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpriteSortPoint UnityEngine::SpriteSortPoint::Pivot{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

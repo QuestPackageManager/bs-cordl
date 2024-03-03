@@ -32,5 +32,3 @@ inline uint32_t LiteNetLib::Utils::CRC32C::Compute(::ArrayW<uint8_t, ::Array<uin
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::CRC32C::CRC32C() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

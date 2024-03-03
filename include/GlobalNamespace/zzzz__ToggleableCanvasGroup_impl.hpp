@@ -140,5 +140,3 @@ inline void GlobalNamespace::ToggleableCanvasGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ToggleableCanvasGroup::ToggleableCanvasGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

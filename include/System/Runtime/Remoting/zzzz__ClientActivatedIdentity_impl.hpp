@@ -149,5 +149,3 @@ System::Runtime::Remoting::ClientActivatedIdentity::AsyncObjectProcessMessage(::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ClientActivatedIdentity::ClientActivatedIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

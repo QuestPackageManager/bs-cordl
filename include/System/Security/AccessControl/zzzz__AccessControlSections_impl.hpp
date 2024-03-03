@@ -12,5 +12,3 @@ constexpr ::System::Security::AccessControl::AccessControlSections System::Secur
 constexpr ::System::Security::AccessControl::AccessControlSections System::Security::AccessControl::AccessControlSections::Owner{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::AccessControl::AccessControlSections System::Security::AccessControl::AccessControlSections::Group{ static_cast<int32_t>(0x8) };
 constexpr ::System::Security::AccessControl::AccessControlSections System::Security::AccessControl::AccessControlSections::All{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

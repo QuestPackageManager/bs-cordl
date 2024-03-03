@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Security::EncryptionException::_ctor(::StringW me
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::EncryptionException::EncryptionException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

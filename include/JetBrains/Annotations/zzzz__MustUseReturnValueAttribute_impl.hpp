@@ -101,5 +101,3 @@ inline void JetBrains::Annotations::MustUseReturnValueAttribute::set_Justificati
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::MustUseReturnValueAttribute::MustUseReturnValueAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

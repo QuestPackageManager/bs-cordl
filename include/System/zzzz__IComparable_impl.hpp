@@ -20,5 +20,3 @@ inline int32_t System::IComparable::CompareTo(::System::Object* obj) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IComparable*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

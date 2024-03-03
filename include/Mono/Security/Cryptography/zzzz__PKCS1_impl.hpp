@@ -243,5 +243,3 @@ inline ::System::Security::Cryptography::HashAlgorithm* Mono::Security::Cryptogr
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::PKCS1::PKCS1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

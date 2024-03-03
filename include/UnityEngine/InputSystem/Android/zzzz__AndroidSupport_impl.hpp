@@ -72,5 +72,3 @@ inline void UnityEngine::InputSystem::Android::AndroidSupport::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidSupport::AndroidSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -251,5 +251,3 @@ inline void GlobalNamespace::TestAnalyticsModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TestAnalyticsModel::TestAnalyticsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline ::System::Xml::XmlNodeChangedAction System::Xml::XmlNodeChangedEventArgs:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNodeChangedEventArgs::XmlNodeChangedEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

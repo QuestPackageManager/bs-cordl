@@ -394,5 +394,3 @@ inline void GlobalNamespace::VisualMetronome::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VisualMetronome::VisualMetronome() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

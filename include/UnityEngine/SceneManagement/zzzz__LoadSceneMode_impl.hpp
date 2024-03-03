@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SceneManagement::LoadSceneMode::LoadSceneMode(int32_t v
 constexpr ::UnityEngine::SceneManagement::LoadSceneMode::LoadSceneMode() {}
 constexpr ::UnityEngine::SceneManagement::LoadSceneMode UnityEngine::SceneManagement::LoadSceneMode::Single{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SceneManagement::LoadSceneMode UnityEngine::SceneManagement::LoadSceneMode::Additive{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

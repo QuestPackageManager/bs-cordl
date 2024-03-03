@@ -1,3 +1,5 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_impl.hpp"
+#endif

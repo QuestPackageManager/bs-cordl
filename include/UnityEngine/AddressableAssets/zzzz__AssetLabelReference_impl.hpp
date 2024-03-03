@@ -147,5 +147,3 @@ inline void UnityEngine::AddressableAssets::AssetLabelReference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetLabelReference::AssetLabelReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

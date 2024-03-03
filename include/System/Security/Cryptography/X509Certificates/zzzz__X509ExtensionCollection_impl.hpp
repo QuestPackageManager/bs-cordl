@@ -243,5 +243,3 @@ inline ::System::Collections::IEnumerator* System::Security::Cryptography::X509C
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection::X509ExtensionCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

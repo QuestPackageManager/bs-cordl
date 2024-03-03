@@ -13,5 +13,3 @@ constexpr ::GlobalNamespace::OVRGLTFInputNode GlobalNamespace::OVRGLTFInputNode:
 constexpr ::GlobalNamespace::OVRGLTFInputNode GlobalNamespace::OVRGLTFInputNode::Trigger_Grip{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRGLTFInputNode GlobalNamespace::OVRGLTFInputNode::Trigger_Front{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVRGLTFInputNode GlobalNamespace::OVRGLTFInputNode::ThumbStick{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

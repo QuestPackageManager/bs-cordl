@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::SliderMidAnchorMode::SliderMidAnchorMode() {}
 constexpr ::GlobalNamespace::SliderMidAnchorMode GlobalNamespace::SliderMidAnchorMode::Straight{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::SliderMidAnchorMode GlobalNamespace::SliderMidAnchorMode::Clockwise{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::SliderMidAnchorMode GlobalNamespace::SliderMidAnchorMode::CounterClockwise{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

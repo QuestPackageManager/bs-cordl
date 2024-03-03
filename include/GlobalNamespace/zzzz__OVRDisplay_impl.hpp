@@ -457,5 +457,3 @@ inline void GlobalNamespace::OVRDisplay::ConfigureEyeDesc(::UnityEngine::XR::XRN
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDisplay::OVRDisplay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -130,5 +130,3 @@ template <typename TItem, typename TPriority> inline TPriority UnityEngine::ProB
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::PriorityQueue_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

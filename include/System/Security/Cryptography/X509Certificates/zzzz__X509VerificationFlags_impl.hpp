@@ -38,5 +38,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFl
   static_cast<int32_t>(0x800)
 };
 constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFlags System::Security::Cryptography::X509Certificates::X509VerificationFlags::AllFlags{ static_cast<int32_t>(0xfff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

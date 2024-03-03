@@ -78,5 +78,3 @@ inline void System::Xml::Schema::Datatype_negativeInteger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_negativeInteger::Datatype_negativeInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

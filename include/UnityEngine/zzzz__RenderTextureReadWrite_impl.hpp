@@ -9,5 +9,3 @@ constexpr ::UnityEngine::RenderTextureReadWrite::RenderTextureReadWrite() {}
 constexpr ::UnityEngine::RenderTextureReadWrite UnityEngine::RenderTextureReadWrite::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::RenderTextureReadWrite UnityEngine::RenderTextureReadWrite::Linear{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RenderTextureReadWrite UnityEngine::RenderTextureReadWrite::sRGB{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

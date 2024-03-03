@@ -13,5 +13,3 @@ constexpr ::HoudiniEngineUnity::HAPI_License HoudiniEngineUnity::HAPI_License::H
 constexpr ::HoudiniEngineUnity::HAPI_License HoudiniEngineUnity::HAPI_License::HAPI_LICENSE_HOUDINI_ENGINE_INDIE{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_License HoudiniEngineUnity::HAPI_License::HAPI_LICENSE_HOUDINI_INDIE{ static_cast<int32_t>(0x5) };
 constexpr ::HoudiniEngineUnity::HAPI_License HoudiniEngineUnity::HAPI_License::HAPI_LICENSE_MAX{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

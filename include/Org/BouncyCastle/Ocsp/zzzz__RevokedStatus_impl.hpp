@@ -123,5 +123,3 @@ inline int32_t Org::BouncyCastle::Ocsp::RevokedStatus::get_RevocationReason() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::RevokedStatus::RevokedStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

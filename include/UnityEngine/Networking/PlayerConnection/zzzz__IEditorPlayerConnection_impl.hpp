@@ -94,5 +94,3 @@ inline void UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, messageId, data);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

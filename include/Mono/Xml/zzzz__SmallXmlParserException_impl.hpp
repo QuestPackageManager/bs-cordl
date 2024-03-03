@@ -53,5 +53,3 @@ inline void Mono::Xml::SmallXmlParserException::_ctor(::StringW msg, int32_t lin
 }
 // Ctor Parameters []
 constexpr ::Mono::Xml::SmallXmlParserException::SmallXmlParserException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

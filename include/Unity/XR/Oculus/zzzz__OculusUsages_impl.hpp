@@ -28,5 +28,3 @@ inline ::UnityEngine::XR::InputFeatureUsage_1<bool> Unity::XR::Oculus::OculusUsa
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusUsages::OculusUsages() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

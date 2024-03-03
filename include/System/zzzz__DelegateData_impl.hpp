@@ -61,5 +61,3 @@ inline void System::DelegateData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::DelegateData::DelegateData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

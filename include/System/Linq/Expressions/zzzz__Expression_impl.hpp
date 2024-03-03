@@ -71,5 +71,3 @@ inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::Ex
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Expression::Expression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

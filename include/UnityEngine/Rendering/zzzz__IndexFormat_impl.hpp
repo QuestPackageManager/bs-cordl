@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Rendering::IndexFormat::IndexFormat(int32_t value__) no
 constexpr ::UnityEngine::Rendering::IndexFormat::IndexFormat() {}
 constexpr ::UnityEngine::Rendering::IndexFormat UnityEngine::Rendering::IndexFormat::UInt16{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::IndexFormat UnityEngine::Rendering::IndexFormat::UInt32{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

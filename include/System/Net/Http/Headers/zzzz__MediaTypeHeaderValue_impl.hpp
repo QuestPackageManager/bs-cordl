@@ -389,5 +389,3 @@ inline ::System::Nullable_1<::System::Net::Http::Headers::Token> System::Net::Ht
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

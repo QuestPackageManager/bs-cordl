@@ -182,5 +182,3 @@ inline void UnityEngine::InputSystem::AttitudeSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::AttitudeSensor::AttitudeSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

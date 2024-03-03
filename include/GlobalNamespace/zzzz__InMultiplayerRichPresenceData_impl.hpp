@@ -327,5 +327,3 @@ inline void GlobalNamespace::InMultiplayerRichPresenceData::_ctor(::StringW mult
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InMultiplayerRichPresenceData::InMultiplayerRichPresenceData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

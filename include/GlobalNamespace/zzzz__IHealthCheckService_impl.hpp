@@ -18,5 +18,3 @@ constexpr GlobalNamespace::IHealthCheckService::operator ::System::IDisposable*(
 constexpr ::System::IDisposable* GlobalNamespace::IHealthCheckService::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

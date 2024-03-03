@@ -236,5 +236,3 @@ inline void HoudiniEngineUnity::HEU_LoadBufferVolume::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_LoadBufferVolume::HEU_LoadBufferVolume() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

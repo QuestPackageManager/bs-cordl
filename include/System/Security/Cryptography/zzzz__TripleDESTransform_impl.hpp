@@ -150,5 +150,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::Trip
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::TripleDESTransform::TripleDESTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

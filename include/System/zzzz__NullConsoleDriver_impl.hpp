@@ -62,5 +62,3 @@ inline void System::NullConsoleDriver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::NullConsoleDriver::NullConsoleDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

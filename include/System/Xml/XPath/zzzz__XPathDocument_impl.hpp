@@ -129,5 +129,3 @@ inline int32_t System::Xml::XPath::XPathDocument::LookupNamespaces(::ArrayW<::MS
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XPath::XPathDocument::XPathDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

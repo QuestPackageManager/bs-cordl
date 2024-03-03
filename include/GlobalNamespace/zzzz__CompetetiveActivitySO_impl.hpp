@@ -24,5 +24,3 @@ inline void GlobalNamespace::CompetetiveActivitySO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CompetetiveActivitySO::CompetetiveActivitySO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

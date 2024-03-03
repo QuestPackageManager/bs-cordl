@@ -408,5 +408,3 @@ constexpr ::OVR::OpenVR::IVRSpatialAnchors::IVRSpatialAnchors(::OVR::OpenVR::__I
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRSpatialAnchors::IVRSpatialAnchors() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

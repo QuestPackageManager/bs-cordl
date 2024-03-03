@@ -325,5 +325,3 @@ inline void GlobalNamespace::PerformanceConfigurationStats::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceConfigurationStats::PerformanceConfigurationStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

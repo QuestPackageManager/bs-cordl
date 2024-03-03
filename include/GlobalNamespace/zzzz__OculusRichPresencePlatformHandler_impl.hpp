@@ -75,5 +75,3 @@ inline void GlobalNamespace::OculusRichPresencePlatformHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusRichPresencePlatformHandler::OculusRichPresencePlatformHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

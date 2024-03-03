@@ -17,5 +17,3 @@ constexpr ::UnityEngine::InputSystem::PenButton UnityEngine::InputSystem::PenBut
 constexpr ::UnityEngine::InputSystem::PenButton UnityEngine::InputSystem::PenButton::Barrel2{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputSystem::PenButton UnityEngine::InputSystem::PenButton::Barrel3{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::InputSystem::PenButton UnityEngine::InputSystem::PenButton::Barrel4{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

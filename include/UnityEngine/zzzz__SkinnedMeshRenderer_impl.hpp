@@ -504,5 +504,3 @@ inline void UnityEngine::SkinnedMeshRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SkinnedMeshRenderer::SkinnedMeshRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

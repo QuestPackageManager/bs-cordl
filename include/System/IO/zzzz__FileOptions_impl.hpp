@@ -13,5 +13,3 @@ constexpr ::System::IO::FileOptions System::IO::FileOptions::RandomAccess{ stati
 constexpr ::System::IO::FileOptions System::IO::FileOptions::DeleteOnClose{ static_cast<int32_t>(0x4000000) };
 constexpr ::System::IO::FileOptions System::IO::FileOptions::SequentialScan{ static_cast<int32_t>(0x8000000) };
 constexpr ::System::IO::FileOptions System::IO::FileOptions::Encrypted{ static_cast<int32_t>(0x4000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

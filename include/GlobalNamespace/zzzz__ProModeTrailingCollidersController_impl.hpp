@@ -136,5 +136,3 @@ inline void GlobalNamespace::ProModeTrailingCollidersController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProModeTrailingCollidersController::ProModeTrailingCollidersController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

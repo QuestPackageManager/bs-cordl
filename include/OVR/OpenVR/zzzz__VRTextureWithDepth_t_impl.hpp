@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::VRTextureWithDepth_t::VRTextureWithDepth_t(::OVR::OpenV
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRTextureWithDepth_t::VRTextureWithDepth_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

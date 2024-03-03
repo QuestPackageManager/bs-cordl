@@ -264,5 +264,3 @@ template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::Coll
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::CollectionWrapper_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

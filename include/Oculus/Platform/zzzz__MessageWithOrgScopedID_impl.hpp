@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::OrgScopedID* Oculus::Platform::MessageWithOrg
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithOrgScopedID::MessageWithOrgScopedID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

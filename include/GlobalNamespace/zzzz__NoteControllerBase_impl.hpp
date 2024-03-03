@@ -109,5 +109,3 @@ inline void GlobalNamespace::NoteControllerBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteControllerBase::NoteControllerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

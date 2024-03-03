@@ -526,5 +526,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics::InputMetrics(int32
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics::InputMetrics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

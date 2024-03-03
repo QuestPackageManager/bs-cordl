@@ -50,5 +50,3 @@ inline void System::Runtime::Remoting::Contexts::CrossContextDelegate::Invoke() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Contexts::CrossContextDelegate::CrossContextDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

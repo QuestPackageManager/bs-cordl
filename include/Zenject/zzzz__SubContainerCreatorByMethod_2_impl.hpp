@@ -49,5 +49,3 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByMethod_2<TParam1, T
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2> constexpr ::Zenject::SubContainerCreatorByMethod_2<TParam1, TParam2>::SubContainerCreatorByMethod_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

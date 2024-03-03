@@ -84,5 +84,3 @@ inline void System::Net::EndPoint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::EndPoint::EndPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

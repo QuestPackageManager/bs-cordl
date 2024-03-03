@@ -259,5 +259,3 @@ inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Dig
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::ShakeDigest::ShakeDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

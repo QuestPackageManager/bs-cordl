@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_Gradient::IsEquivalentTo(::HoudiniEngineUni
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Gradient::Test_Gradient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

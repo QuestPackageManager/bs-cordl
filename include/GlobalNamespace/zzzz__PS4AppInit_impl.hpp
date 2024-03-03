@@ -206,5 +206,3 @@ inline void GlobalNamespace::PS4AppInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4AppInit::PS4AppInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

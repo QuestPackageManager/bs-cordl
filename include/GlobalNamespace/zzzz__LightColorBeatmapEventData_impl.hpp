@@ -468,5 +468,3 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::LightColorBeatmapEv
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBeatmapEventData::LightColorBeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

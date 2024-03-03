@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidGyroscope::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidGyroscope::AndroidGyroscope() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

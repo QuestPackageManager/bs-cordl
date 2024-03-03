@@ -116,5 +116,3 @@ inline void System::Security::Cryptography::RandomNumberGenerator::GetBytes(::Ar
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RandomNumberGenerator::RandomNumberGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

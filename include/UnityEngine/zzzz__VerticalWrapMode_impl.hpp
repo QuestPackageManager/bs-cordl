@@ -8,5 +8,3 @@ constexpr ::UnityEngine::VerticalWrapMode::VerticalWrapMode(int32_t value__) noe
 constexpr ::UnityEngine::VerticalWrapMode::VerticalWrapMode() {}
 constexpr ::UnityEngine::VerticalWrapMode UnityEngine::VerticalWrapMode::Truncate{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::VerticalWrapMode UnityEngine::VerticalWrapMode::Overflow{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

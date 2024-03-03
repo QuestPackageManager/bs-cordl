@@ -374,5 +374,3 @@ inline void GlobalNamespace::BezierSpline::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BezierSpline::BezierSpline() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -687,5 +687,3 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::MockPlayerInstance::_D
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerInstance::MockPlayerInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

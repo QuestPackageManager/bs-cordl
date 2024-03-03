@@ -436,5 +436,3 @@ inline ::StringW System::Reflection::SignatureConstructedGenericType::ToString()
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureConstructedGenericType::SignatureConstructedGenericType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

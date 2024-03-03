@@ -44,5 +44,3 @@ inline ::System::RuntimeTypeHandle System::ReflectionOnlyType::get_TypeHandle() 
 }
 // Ctor Parameters []
 constexpr ::System::ReflectionOnlyType::ReflectionOnlyType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

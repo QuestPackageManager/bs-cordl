@@ -19,5 +19,3 @@ constexpr ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::EVRRenderModelError::B
 constexpr ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::EVRRenderModelError::NotEnoughNormals{ static_cast<int32_t>(0x133) };
 constexpr ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::EVRRenderModelError::NotEnoughTexCoords{ static_cast<int32_t>(0x134) };
 constexpr ::OVR::OpenVR::EVRRenderModelError OVR::OpenVR::EVRRenderModelError::InvalidTexture{ static_cast<int32_t>(0x190) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

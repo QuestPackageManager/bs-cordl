@@ -94,5 +94,3 @@ inline int64_t Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::get_Time()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime::SignatureExpirationTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

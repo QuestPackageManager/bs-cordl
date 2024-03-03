@@ -27,5 +27,3 @@ inline void Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferre
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::NativeContainerSupportsDeferredConvertListToArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

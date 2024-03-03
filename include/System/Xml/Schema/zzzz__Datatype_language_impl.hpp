@@ -45,5 +45,3 @@ inline void System::Xml::Schema::Datatype_language::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_language::Datatype_language() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

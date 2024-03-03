@@ -20,5 +20,3 @@ constexpr ::System::Net::FtpOperation System::Net::FtpOperation::MakeDirectory{ 
 constexpr ::System::Net::FtpOperation System::Net::FtpOperation::RemoveDirectory{ static_cast<int32_t>(0xb) };
 constexpr ::System::Net::FtpOperation System::Net::FtpOperation::PrintWorkingDirectory{ static_cast<int32_t>(0xc) };
 constexpr ::System::Net::FtpOperation System::Net::FtpOperation::Other{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

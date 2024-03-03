@@ -166,5 +166,3 @@ inline bool Mono::Security::Interface::MonoTlsProvider::get_SupportsCleanShutdow
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoTlsProvider::MonoTlsProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

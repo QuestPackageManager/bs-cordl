@@ -91,5 +91,3 @@ inline void System::Diagnostics::Tracing::EventSourceAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Tracing::EventSourceAttribute::EventSourceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

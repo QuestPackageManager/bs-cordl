@@ -102,5 +102,3 @@ inline void GlobalNamespace::AudioPlayerBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioPlayerBase::AudioPlayerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

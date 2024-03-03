@@ -27,5 +27,3 @@ template <typename T> inline void RootMotion::Singleton_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::RootMotion::Singleton_1<T>::Singleton_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -95,5 +95,3 @@ inline void BeatmapSaveDataVersion3::RotationEventData::_ctor(float_t beat, ::Be
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::RotationEventData::RotationEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

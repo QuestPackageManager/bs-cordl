@@ -105,5 +105,3 @@ inline void JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::NotifyPropertyChangedInvocatorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -96,5 +96,3 @@ System::Runtime::Remoting::Activation::ContextLevelActivator::Activate(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::ContextLevelActivator::ContextLevelActivator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

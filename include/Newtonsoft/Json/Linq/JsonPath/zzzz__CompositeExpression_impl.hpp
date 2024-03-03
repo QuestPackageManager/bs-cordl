@@ -107,5 +107,3 @@ inline bool Newtonsoft::Json::Linq::JsonPath::CompositeExpression::IsMatch(::New
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::CompositeExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

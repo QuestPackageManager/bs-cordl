@@ -1662,5 +1662,3 @@ inline ::StringW Org::BouncyCastle::Math::EC::LongArray::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::LongArray::LongArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

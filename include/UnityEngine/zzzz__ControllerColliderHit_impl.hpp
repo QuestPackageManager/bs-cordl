@@ -323,5 +323,3 @@ inline void UnityEngine::ControllerColliderHit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ControllerColliderHit::ControllerColliderHit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

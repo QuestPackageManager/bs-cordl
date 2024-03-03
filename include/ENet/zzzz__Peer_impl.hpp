@@ -598,5 +598,3 @@ constexpr ::ENet::Peer::Peer(void* nativePeer, uint32_t nativeID) noexcept {
 }
 // Ctor Parameters []
 constexpr ::ENet::Peer::Peer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

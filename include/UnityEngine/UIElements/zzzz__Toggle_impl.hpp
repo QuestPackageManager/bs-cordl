@@ -194,5 +194,3 @@ inline void UnityEngine::UIElements::__Toggle__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Toggle__UxmlFactory::__Toggle__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

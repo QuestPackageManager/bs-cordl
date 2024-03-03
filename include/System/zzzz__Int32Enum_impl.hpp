@@ -6,5 +6,3 @@ constexpr ::System::Int32Enum::Int32Enum(int32_t value__) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Int32Enum::Int32Enum() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

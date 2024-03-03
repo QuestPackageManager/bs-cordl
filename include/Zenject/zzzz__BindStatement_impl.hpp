@@ -231,5 +231,3 @@ inline void Zenject::BindStatement::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::BindStatement::BindStatement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

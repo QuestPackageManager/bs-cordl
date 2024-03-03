@@ -137,5 +137,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Simp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::SimpleLookupTable::SimpleLookupTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

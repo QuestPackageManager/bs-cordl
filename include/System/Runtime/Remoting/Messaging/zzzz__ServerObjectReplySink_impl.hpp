@@ -115,5 +115,3 @@ System::Runtime::Remoting::Messaging::ServerObjectReplySink::AsyncProcessMessage
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ServerObjectReplySink::ServerObjectReplySink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

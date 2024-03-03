@@ -66,5 +66,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::CrlNumber::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::CrlNumber::CrlNumber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

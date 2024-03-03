@@ -232,5 +232,3 @@ inline void GlobalNamespace::ColorHueSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorHueSlider::ColorHueSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

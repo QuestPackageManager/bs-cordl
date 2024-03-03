@@ -8,5 +8,3 @@ constexpr ::System::BRECORD::BRECORD(void* pvRecord, void* pRecInfo) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::BRECORD::BRECORD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

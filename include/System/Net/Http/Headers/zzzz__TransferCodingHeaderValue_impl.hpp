@@ -270,5 +270,3 @@ inline bool System::Net::Http::Headers::TransferCodingHeaderValue::TryParseEleme
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::TransferCodingHeaderValue::TransferCodingHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

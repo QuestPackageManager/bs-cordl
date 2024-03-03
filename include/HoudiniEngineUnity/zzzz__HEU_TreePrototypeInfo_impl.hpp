@@ -79,5 +79,3 @@ inline void HoudiniEngineUnity::HEU_TreePrototypeInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TreePrototypeInfo::HEU_TreePrototypeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

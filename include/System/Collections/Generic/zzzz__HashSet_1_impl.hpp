@@ -540,5 +540,3 @@ template <typename T> inline int32_t System::Collections::Generic::HashSet_1<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>::HashSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

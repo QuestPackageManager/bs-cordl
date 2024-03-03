@@ -18,5 +18,3 @@ constexpr ::UnityEngine::Rendering::VertexAttributeFormat UnityEngine::Rendering
 constexpr ::UnityEngine::Rendering::VertexAttributeFormat UnityEngine::Rendering::VertexAttributeFormat::SInt16{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::Rendering::VertexAttributeFormat UnityEngine::Rendering::VertexAttributeFormat::UInt32{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::Rendering::VertexAttributeFormat UnityEngine::Rendering::VertexAttributeFormat::SInt32{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

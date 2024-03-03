@@ -11,5 +11,3 @@ constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType UnityEngine::TextCor
 constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType UnityEngine::TextCore::GlyphClassDefinitionType::Ligature{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType UnityEngine::TextCore::GlyphClassDefinitionType::Mark{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType UnityEngine::TextCore::GlyphClassDefinitionType::Component{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

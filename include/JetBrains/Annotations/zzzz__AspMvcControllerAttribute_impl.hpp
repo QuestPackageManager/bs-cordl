@@ -101,5 +101,3 @@ inline void JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProp
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcControllerAttribute::AspMvcControllerAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ECPointFormat::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ECPointFormat::ECPointFormat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

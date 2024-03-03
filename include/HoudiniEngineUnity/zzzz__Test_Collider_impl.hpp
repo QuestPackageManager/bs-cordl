@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_Collider::IsEquivalentTo(::HoudiniEngineUni
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Collider::Test_Collider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

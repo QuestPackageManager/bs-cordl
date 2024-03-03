@@ -81,5 +81,3 @@ inline void LiteNetLib::Layers::PacketLayerBase::ProcessOutBoundPacket(::System:
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Layers::PacketLayerBase::PacketLayerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

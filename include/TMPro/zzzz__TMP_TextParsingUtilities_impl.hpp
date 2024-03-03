@@ -229,5 +229,3 @@ inline void TMPro::TMP_TextParsingUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_TextParsingUtilities::TMP_TextParsingUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

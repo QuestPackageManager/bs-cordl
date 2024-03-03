@@ -124,5 +124,3 @@ inline void UnityEngine::UIElements::StyleProperty::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleProperty::StyleProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

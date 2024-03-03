@@ -45,5 +45,3 @@ inline void GlobalNamespace::BeatmapObjectData::Mirror(int32_t lineCount) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectData::BeatmapObjectData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

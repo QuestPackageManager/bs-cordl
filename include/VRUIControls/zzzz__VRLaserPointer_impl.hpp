@@ -115,5 +115,3 @@ inline void VRUIControls::VRLaserPointer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::VRLaserPointer::VRLaserPointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

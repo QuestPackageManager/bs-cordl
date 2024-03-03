@@ -90,5 +90,3 @@ inline void Org::BouncyCastle::X509::PrincipalUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::PrincipalUtilities::PrincipalUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -168,5 +168,3 @@ inline bool UnityEngine::Events::InvokableCall::Find(::System::Object* targetObj
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::InvokableCall::InvokableCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -756,5 +756,3 @@ inline void* UnityEngine::AndroidJavaObject::_GetRawClass() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaObject::AndroidJavaObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -82,5 +82,3 @@ inline bool UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallback
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::DelegateHelpers::DelegateHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

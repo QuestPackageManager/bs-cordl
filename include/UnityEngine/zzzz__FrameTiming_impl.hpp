@@ -16,5 +16,3 @@ constexpr ::UnityEngine::FrameTiming::FrameTiming(uint64_t cpuTimePresentCalled,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::FrameTiming::FrameTiming() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

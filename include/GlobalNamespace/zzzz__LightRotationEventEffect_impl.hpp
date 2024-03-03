@@ -217,5 +217,3 @@ inline void GlobalNamespace::LightRotationEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationEventEffect::LightRotationEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

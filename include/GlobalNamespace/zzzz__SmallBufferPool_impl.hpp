@@ -168,5 +168,3 @@ inline void GlobalNamespace::SmallBufferPool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SmallBufferPool::SmallBufferPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

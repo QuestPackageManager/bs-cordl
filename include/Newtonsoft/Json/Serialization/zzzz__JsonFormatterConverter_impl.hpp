@@ -461,5 +461,3 @@ inline uint64_t Newtonsoft::Json::Serialization::JsonFormatterConverter::ToUInt6
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonFormatterConverter::JsonFormatterConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

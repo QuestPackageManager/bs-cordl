@@ -21,5 +21,3 @@ inline ::StringW GlobalNamespace::FileUtility::GetPlatformPersistentDataPath() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileUtility::FileUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ constexpr ::Mono::__RuntimeStructs__GPtrArray::__RuntimeStructs__GPtrArray(::cor
 constexpr ::Mono::__RuntimeStructs__GPtrArray::__RuntimeStructs__GPtrArray() {}
 // Ctor Parameters []
 constexpr ::Mono::RuntimeStructs::RuntimeStructs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

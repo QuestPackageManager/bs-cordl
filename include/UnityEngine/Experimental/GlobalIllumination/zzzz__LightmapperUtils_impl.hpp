@@ -262,5 +262,3 @@ inline void UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::Ext
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::LightmapperUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

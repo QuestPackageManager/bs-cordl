@@ -178,5 +178,3 @@ inline void GlobalNamespace::OVRResources::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRResources::OVRResources() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -152,5 +152,3 @@ inline void Zenject::LazyInstanceInjector::LazyInjectAll() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::LazyInstanceInjector::LazyInstanceInjector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

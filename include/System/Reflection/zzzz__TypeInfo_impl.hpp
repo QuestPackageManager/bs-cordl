@@ -26,5 +26,3 @@ inline void System::Reflection::TypeInfo::_ctor() {
 // Ctor Parameters []
 constexpr ::System::Reflection::TypeInfo::TypeInfo() {}
 constexpr ::System::Reflection::BindingFlags System::Reflection::TypeInfo::DeclaredOnlyLookup{ static_cast<int32_t>(0x3e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

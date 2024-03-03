@@ -108,5 +108,3 @@ inline void System::Threading::LockQueue::Pulse() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::LockQueue::LockQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

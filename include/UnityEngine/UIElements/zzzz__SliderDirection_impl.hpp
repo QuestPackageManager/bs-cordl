@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::SliderDirection::SliderDirection(int32_t va
 constexpr ::UnityEngine::UIElements::SliderDirection::SliderDirection() {}
 constexpr ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::SliderDirection::Horizontal{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::SliderDirection::Vertical{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

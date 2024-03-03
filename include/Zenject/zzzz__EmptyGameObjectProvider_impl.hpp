@@ -158,5 +158,3 @@ inline void Zenject::EmptyGameObjectProvider::GetAllInstancesWithInjectSplit(::Z
 }
 // Ctor Parameters []
 constexpr ::Zenject::EmptyGameObjectProvider::EmptyGameObjectProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

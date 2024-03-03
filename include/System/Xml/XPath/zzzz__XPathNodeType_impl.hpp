@@ -16,5 +16,3 @@ constexpr ::System::Xml::XPath::XPathNodeType System::Xml::XPath::XPathNodeType:
 constexpr ::System::Xml::XPath::XPathNodeType System::Xml::XPath::XPathNodeType::ProcessingInstruction{ static_cast<int32_t>(0x7) };
 constexpr ::System::Xml::XPath::XPathNodeType System::Xml::XPath::XPathNodeType::Comment{ static_cast<int32_t>(0x8) };
 constexpr ::System::Xml::XPath::XPathNodeType System::Xml::XPath::XPathNodeType::All{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

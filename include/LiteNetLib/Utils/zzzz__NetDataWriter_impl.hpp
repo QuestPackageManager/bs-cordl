@@ -1021,5 +1021,3 @@ template <typename T> inline void LiteNetLib::Utils::NetDataWriter::Put(T obj) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetDataWriter::NetDataWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

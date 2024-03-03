@@ -93,5 +93,3 @@ inline bool Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::IsVerif
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::DefaultVerifierResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

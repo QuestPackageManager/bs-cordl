@@ -1860,5 +1860,3 @@ inline ::StringW Zenject::InjectContext::GetObjectGraphString() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectContext::InjectContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

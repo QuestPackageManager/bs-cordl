@@ -21,5 +21,3 @@ inline bool System::EnvironmentHelpers::IsWindowsVistaOrAbove() {
 }
 // Ctor Parameters []
 constexpr ::System::EnvironmentHelpers::EnvironmentHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

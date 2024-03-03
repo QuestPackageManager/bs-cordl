@@ -50,5 +50,3 @@ inline ::UnityEngine::UIElements::ISerializableJsonDictionary* UnityEngine::UIEl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GetViewDataDictionary::GetViewDataDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

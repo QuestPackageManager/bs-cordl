@@ -155,5 +155,3 @@ inline void JetBrains::Annotations::RazorPageBaseTypeAttribute::set_PageName(::S
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorPageBaseTypeAttribute::RazorPageBaseTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

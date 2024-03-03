@@ -22,5 +22,3 @@ inline ::Newtonsoft::Json::JsonSerializerSettings* BGLib::UnityExtension::JsonSe
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::JsonSettings::JsonSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

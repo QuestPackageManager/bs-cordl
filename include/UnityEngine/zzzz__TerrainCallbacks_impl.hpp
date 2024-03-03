@@ -172,5 +172,3 @@ inline void UnityEngine::TerrainCallbacks::InvokeTextureChangedCallback(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainCallbacks::TerrainCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

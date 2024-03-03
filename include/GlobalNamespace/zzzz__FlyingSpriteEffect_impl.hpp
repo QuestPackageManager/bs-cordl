@@ -143,5 +143,3 @@ inline void GlobalNamespace::__FlyingSpriteEffect__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__FlyingSpriteEffect__Pool::__FlyingSpriteEffect__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

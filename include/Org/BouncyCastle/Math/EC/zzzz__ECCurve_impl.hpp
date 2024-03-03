@@ -1250,5 +1250,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::ECCu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::ECCurve::ECCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

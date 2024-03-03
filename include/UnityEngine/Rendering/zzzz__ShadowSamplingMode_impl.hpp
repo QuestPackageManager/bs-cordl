@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::ShadowSamplingMode::ShadowSamplingMode() {}
 constexpr ::UnityEngine::Rendering::ShadowSamplingMode UnityEngine::Rendering::ShadowSamplingMode::CompareDepths{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ShadowSamplingMode UnityEngine::Rendering::ShadowSamplingMode::RawDepth{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ShadowSamplingMode UnityEngine::Rendering::ShadowSamplingMode::None{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

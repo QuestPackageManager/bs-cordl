@@ -727,5 +727,3 @@ inline void System::DateTimeFormat::InvalidFormatForLocal(::System::ReadOnlySpan
 }
 // Ctor Parameters []
 constexpr ::System::DateTimeFormat::DateTimeFormat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

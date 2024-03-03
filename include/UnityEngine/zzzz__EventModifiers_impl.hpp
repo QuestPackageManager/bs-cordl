@@ -14,5 +14,3 @@ constexpr ::UnityEngine::EventModifiers UnityEngine::EventModifiers::Command{ st
 constexpr ::UnityEngine::EventModifiers UnityEngine::EventModifiers::Numeric{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::EventModifiers UnityEngine::EventModifiers::CapsLock{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::EventModifiers UnityEngine::EventModifiers::FunctionKey{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

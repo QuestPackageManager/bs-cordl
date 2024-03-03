@@ -169,5 +169,3 @@ Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::DecryptPrivateKeyInfo(::O
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::Pkcs8EncryptedPrivateKeyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

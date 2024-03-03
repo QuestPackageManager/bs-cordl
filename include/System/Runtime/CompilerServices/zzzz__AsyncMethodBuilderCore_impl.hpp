@@ -563,5 +563,3 @@ constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::AsyncMeth
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::AsyncMethodBuilderCore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

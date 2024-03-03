@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Security::PasswordException::_ctor(::StringW mess
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::PasswordException::PasswordException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

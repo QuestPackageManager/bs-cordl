@@ -2230,5 +2230,3 @@ inline void GlobalNamespace::VRControllersRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRControllersRecorder::VRControllersRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

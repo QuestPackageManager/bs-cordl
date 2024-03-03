@@ -329,5 +329,3 @@ constexpr ::UnityEngine::Vector2Int::Vector2Int(int32_t m_X, int32_t m_Y) noexce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Vector2Int::Vector2Int() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

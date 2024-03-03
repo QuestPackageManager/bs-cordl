@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::CertificateType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateType::CertificateType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

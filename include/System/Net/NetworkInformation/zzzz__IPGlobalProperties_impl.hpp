@@ -85,5 +85,3 @@ inline void System::Net::NetworkInformation::IPGlobalProperties::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::IPGlobalProperties::IPGlobalProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

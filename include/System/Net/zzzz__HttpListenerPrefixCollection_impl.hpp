@@ -264,5 +264,3 @@ inline bool System::Net::HttpListenerPrefixCollection::Remove(::StringW uriPrefi
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerPrefixCollection::HttpListenerPrefixCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -194,5 +194,3 @@ inline void GlobalNamespace::SmoothCamera::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SmoothCamera::SmoothCamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

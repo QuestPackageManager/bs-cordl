@@ -762,5 +762,3 @@ inline void UnityEngine::SpatialTracking::TrackedPoseDriver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver::TrackedPoseDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -140,5 +140,3 @@ inline void TMPro::TMP_ResourceManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_ResourceManager::TMP_ResourceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

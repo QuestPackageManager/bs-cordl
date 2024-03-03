@@ -87,5 +87,3 @@ inline bool GlobalNamespace::MultiplayerConnectedPlayerObservable::get_isFailed(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerObservable::MultiplayerConnectedPlayerObservable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

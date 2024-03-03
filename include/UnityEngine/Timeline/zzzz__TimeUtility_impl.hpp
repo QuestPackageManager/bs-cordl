@@ -526,5 +526,3 @@ inline bool UnityEngine::Timeline::TimeUtility::ToStandardFrameRate(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimeUtility::TimeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -123,5 +123,3 @@ inline void GlobalNamespace::NoteExecutionRating::_ctor(float_t time, ::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteExecutionRating::NoteExecutionRating() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

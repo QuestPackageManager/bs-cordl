@@ -119,5 +119,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Sin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo::SinglePubInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

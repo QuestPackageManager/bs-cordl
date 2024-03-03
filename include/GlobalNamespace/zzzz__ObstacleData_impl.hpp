@@ -348,5 +348,3 @@ inline void GlobalNamespace::ObstacleData::Mirror(int32_t lineCount) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleData::ObstacleData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

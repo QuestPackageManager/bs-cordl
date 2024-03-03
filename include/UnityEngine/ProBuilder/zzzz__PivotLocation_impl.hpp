@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ProBuilder::PivotLocation::PivotLocation(int32_t value_
 constexpr ::UnityEngine::ProBuilder::PivotLocation::PivotLocation() {}
 constexpr ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::PivotLocation::Center{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::PivotLocation::FirstCorner{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

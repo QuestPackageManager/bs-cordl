@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Rendering::S
 constexpr ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Rendering::ShaderPropertyType::Range{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Rendering::ShaderPropertyType::Texture{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Rendering::ShaderPropertyType::Int{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

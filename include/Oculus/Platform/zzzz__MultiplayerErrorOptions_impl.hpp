@@ -99,5 +99,3 @@ inline void Oculus::Platform::MultiplayerErrorOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MultiplayerErrorOptions::MultiplayerErrorOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

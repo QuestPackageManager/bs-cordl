@@ -155,5 +155,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabiliti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::AndroidDeviceCapabilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

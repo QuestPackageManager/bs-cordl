@@ -288,5 +288,3 @@ inline void GlobalNamespace::TimeHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimeHelper::TimeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

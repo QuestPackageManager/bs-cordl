@@ -145,5 +145,3 @@ inline void System::Net::BasicClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::BasicClient::BasicClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -211,5 +211,3 @@ inline void UnityEngine::UIElements::ContextualMenuPopulateEvent::PostDispatch(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ContextualMenuPopulateEvent::ContextualMenuPopulateEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

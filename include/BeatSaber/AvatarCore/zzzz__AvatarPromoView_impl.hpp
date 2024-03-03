@@ -56,5 +56,3 @@ inline void BeatSaber::AvatarCore::AvatarPromoView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarPromoView::AvatarPromoView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

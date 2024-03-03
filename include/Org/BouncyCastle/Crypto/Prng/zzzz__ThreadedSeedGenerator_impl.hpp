@@ -165,5 +165,3 @@ inline void Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::ThreadedSeedGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

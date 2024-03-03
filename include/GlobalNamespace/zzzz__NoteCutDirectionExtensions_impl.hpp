@@ -199,5 +199,3 @@ inline ::GlobalNamespace::NoteCutDirection GlobalNamespace::NoteCutDirectionExte
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutDirectionExtensions::NoteCutDirectionExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

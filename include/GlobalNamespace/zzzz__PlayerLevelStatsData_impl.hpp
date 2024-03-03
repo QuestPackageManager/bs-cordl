@@ -439,5 +439,3 @@ inline ::GlobalNamespace::BeatmapKey GlobalNamespace::PlayerLevelStatsData::GetB
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerLevelStatsData::PlayerLevelStatsData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

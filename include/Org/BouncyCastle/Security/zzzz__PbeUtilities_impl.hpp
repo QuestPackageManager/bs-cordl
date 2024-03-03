@@ -587,5 +587,3 @@ inline ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Securi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::PbeUtilities::PbeUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

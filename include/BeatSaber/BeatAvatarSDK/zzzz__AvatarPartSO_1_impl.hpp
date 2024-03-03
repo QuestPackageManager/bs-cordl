@@ -71,5 +71,3 @@ template <typename T> inline void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::AvatarPartSO_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

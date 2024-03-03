@@ -436,5 +436,3 @@ inline void LiteNetLib::ConnectionRequest::Reject(::LiteNetLib::Utils::NetDataWr
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::ConnectionRequest::ConnectionRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ constexpr void System::Xml::Linq::XObjectChangeAnnotation::__cordl_internal_set_
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XObjectChangeAnnotation::XObjectChangeAnnotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

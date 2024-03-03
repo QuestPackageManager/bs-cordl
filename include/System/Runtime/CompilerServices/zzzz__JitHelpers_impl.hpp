@@ -31,5 +31,3 @@ template <typename T> inline int64_t System::Runtime::CompilerServices::JitHelpe
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::JitHelpers::JitHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

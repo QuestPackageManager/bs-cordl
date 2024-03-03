@@ -19,5 +19,3 @@ constexpr ::UnityEngine::TextCore::Text::TextVertex::TextVertex(::UnityEngine::V
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextVertex::TextVertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

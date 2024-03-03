@@ -100,5 +100,3 @@ inline void System::Security::XmlSyntaxException::_ctor(::System::Runtime::Seria
 }
 // Ctor Parameters []
 constexpr ::System::Security::XmlSyntaxException::XmlSyntaxException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

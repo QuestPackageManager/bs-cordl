@@ -157,5 +157,3 @@ inline void GlobalNamespace::GenericLogger::LogWithTimestamp(::StringW message) 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GenericLogger::GenericLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

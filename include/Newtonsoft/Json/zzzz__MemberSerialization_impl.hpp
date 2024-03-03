@@ -9,5 +9,3 @@ constexpr ::Newtonsoft::Json::MemberSerialization::MemberSerialization() {}
 constexpr ::Newtonsoft::Json::MemberSerialization Newtonsoft::Json::MemberSerialization::OptOut{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::MemberSerialization Newtonsoft::Json::MemberSerialization::OptIn{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::MemberSerialization Newtonsoft::Json::MemberSerialization::Fields{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

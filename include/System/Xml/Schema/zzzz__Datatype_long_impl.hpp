@@ -174,5 +174,3 @@ inline void System::Xml::Schema::Datatype_long::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_long::Datatype_long() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

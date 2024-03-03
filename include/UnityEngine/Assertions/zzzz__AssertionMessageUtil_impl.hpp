@@ -107,5 +107,3 @@ inline ::StringW UnityEngine::Assertions::AssertionMessageUtil::BooleanFailureMe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Assertions::AssertionMessageUtil::AssertionMessageUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

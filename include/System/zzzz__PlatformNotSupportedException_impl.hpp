@@ -76,5 +76,3 @@ inline void System::PlatformNotSupportedException::_ctor(::System::Runtime::Seri
 }
 // Ctor Parameters []
 constexpr ::System::PlatformNotSupportedException::PlatformNotSupportedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

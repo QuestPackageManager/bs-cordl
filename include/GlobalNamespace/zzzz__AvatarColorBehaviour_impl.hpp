@@ -150,5 +150,3 @@ inline void GlobalNamespace::AvatarColorBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AvatarColorBehaviour::AvatarColorBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

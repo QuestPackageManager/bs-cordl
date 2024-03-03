@@ -824,5 +824,3 @@ inline bool Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::IsCertification(int3
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::PgpSignature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

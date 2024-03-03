@@ -969,5 +969,3 @@ constexpr ::UnityEngine::Vector2::Vector2(float_t x, float_t y) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Vector2::Vector2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

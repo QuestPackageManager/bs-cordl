@@ -109,5 +109,3 @@ inline void System::Security::Authentication::AuthenticationException::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::System::Security::Authentication::AuthenticationException::AuthenticationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

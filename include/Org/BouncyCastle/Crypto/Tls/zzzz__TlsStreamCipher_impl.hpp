@@ -237,5 +237,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::UpdateIV(::Org::Bou
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::TlsStreamCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -86,5 +86,3 @@ inline void HoudiniEngineUnity::HEU_AssetEventData::_ctor(::HoudiniEngineUnity::
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetEventData::HEU_AssetEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

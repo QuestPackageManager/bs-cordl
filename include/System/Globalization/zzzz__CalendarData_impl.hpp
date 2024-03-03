@@ -483,5 +483,3 @@ inline bool System::Globalization::CalendarData::fill_calendar_data(::StringW lo
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CalendarData::CalendarData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

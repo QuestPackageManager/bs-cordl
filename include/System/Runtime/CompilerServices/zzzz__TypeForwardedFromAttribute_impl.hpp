@@ -60,5 +60,3 @@ inline ::StringW System::Runtime::CompilerServices::TypeForwardedFromAttribute::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::TypeForwardedFromAttribute::TypeForwardedFromAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

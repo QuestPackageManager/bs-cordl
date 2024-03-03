@@ -8,5 +8,3 @@ constexpr ::TMPro::TMP_TextElementType::TMP_TextElementType(int32_t value__) noe
 constexpr ::TMPro::TMP_TextElementType::TMP_TextElementType() {}
 constexpr ::TMPro::TMP_TextElementType TMPro::TMP_TextElementType::Character{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::TMP_TextElementType TMPro::TMP_TextElementType::Sprite{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

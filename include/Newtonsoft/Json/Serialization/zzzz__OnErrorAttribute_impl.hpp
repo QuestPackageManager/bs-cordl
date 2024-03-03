@@ -25,5 +25,3 @@ inline void Newtonsoft::Json::Serialization::OnErrorAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::OnErrorAttribute::OnErrorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -30,5 +30,3 @@ template <typename TKey, typename TValue> inline bool GlobalNamespace::IReferenc
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, result);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

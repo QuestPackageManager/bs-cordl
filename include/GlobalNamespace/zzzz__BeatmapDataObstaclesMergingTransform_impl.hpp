@@ -115,5 +115,3 @@ inline bool GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged(:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataObstaclesMergingTransform::BeatmapDataObstaclesMergingTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

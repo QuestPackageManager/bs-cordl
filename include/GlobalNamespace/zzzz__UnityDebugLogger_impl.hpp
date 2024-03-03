@@ -205,5 +205,3 @@ inline void GlobalNamespace::UnityDebugLogger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityDebugLogger::UnityDebugLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

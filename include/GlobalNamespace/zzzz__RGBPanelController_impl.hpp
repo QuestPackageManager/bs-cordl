@@ -270,5 +270,3 @@ inline void GlobalNamespace::RGBPanelController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RGBPanelController::RGBPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -204,5 +204,3 @@ inline ::System::Type* System::Reflection::SignatureTypeExtensions::TryMakeGener
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureTypeExtensions::SignatureTypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

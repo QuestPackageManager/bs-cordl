@@ -20,5 +20,3 @@ constexpr ::UnityEngine::Experimental::Rendering::FormatUsage UnityEngine::Exper
 constexpr ::UnityEngine::Experimental::Rendering::FormatUsage UnityEngine::Experimental::Rendering::FormatUsage::MSAA4x{ static_cast<int32_t>(0xc) };
 constexpr ::UnityEngine::Experimental::Rendering::FormatUsage UnityEngine::Experimental::Rendering::FormatUsage::MSAA8x{ static_cast<int32_t>(0xd) };
 constexpr ::UnityEngine::Experimental::Rendering::FormatUsage UnityEngine::Experimental::Rendering::FormatUsage::StencilSampling{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

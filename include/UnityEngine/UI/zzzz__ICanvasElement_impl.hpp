@@ -99,5 +99,3 @@ inline bool UnityEngine::UI::ICanvasElement::IsDestroyed() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ICanvasElement*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

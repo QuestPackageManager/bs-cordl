@@ -287,5 +287,3 @@ inline int32_t Org::BouncyCastle::Crypto::Digests::SkeinDigest::DoFinal(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinDigest::SkeinDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

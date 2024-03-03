@@ -44,5 +44,3 @@ inline void UnityEngine::AssetBundleCreateRequest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetBundleCreateRequest::AssetBundleCreateRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

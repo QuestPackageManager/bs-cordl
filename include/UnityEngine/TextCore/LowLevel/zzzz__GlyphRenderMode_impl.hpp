@@ -18,5 +18,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCo
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::SDF32{ static_cast<int32_t>(0x8026) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::SDFAA_HINTED{ static_cast<int32_t>(0x1049) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphRenderMode UnityEngine::TextCore::LowLevel::GlyphRenderMode::SDFAA{ static_cast<int32_t>(0x1045) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

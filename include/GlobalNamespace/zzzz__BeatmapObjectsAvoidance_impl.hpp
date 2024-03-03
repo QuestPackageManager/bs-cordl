@@ -362,5 +362,3 @@ inline void GlobalNamespace::BeatmapObjectsAvoidance::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectsAvoidance::BeatmapObjectsAvoidance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

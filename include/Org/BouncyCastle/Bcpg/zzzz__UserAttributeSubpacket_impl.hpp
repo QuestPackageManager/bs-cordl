@@ -204,5 +204,3 @@ inline int32_t Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::UserAttributeSubpacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

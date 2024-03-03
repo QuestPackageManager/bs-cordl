@@ -411,5 +411,3 @@ inline ::StringW GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileSystemBeatmapLevelData::FileSystemBeatmapLevelData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

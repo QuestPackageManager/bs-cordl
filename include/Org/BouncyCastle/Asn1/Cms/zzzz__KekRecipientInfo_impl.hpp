@@ -257,5 +257,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::KekR
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::KekRecipientInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

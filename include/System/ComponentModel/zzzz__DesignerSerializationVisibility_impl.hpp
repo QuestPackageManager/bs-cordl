@@ -9,5 +9,3 @@ constexpr ::System::ComponentModel::DesignerSerializationVisibility::DesignerSer
 constexpr ::System::ComponentModel::DesignerSerializationVisibility System::ComponentModel::DesignerSerializationVisibility::Hidden{ static_cast<int32_t>(0x0) };
 constexpr ::System::ComponentModel::DesignerSerializationVisibility System::ComponentModel::DesignerSerializationVisibility::Visible{ static_cast<int32_t>(0x1) };
 constexpr ::System::ComponentModel::DesignerSerializationVisibility System::ComponentModel::DesignerSerializationVisibility::Content{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

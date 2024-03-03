@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EColorSpace::EColorSpace() {}
 constexpr ::OVR::OpenVR::EColorSpace OVR::OpenVR::EColorSpace::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EColorSpace OVR::OpenVR::EColorSpace::Gamma{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EColorSpace OVR::OpenVR::EColorSpace::Linear{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

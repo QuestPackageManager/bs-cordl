@@ -69,5 +69,3 @@ inline ::System::Security::AccessControl::FileSystemRights System::Security::Acc
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::FileSystemAccessRule::FileSystemAccessRule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

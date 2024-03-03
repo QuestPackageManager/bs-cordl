@@ -53,5 +53,3 @@ inline void UnityEngine::Networking::UploadHandler::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UploadHandler::UploadHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

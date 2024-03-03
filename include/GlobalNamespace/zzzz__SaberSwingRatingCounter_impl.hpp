@@ -518,5 +518,3 @@ inline void GlobalNamespace::SaberSwingRatingCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberSwingRatingCounter::SaberSwingRatingCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

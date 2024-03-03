@@ -549,5 +549,3 @@ inline uint32_t UnityEngine::InputSystem::Utilities::MemoryHelpers::AlignNatural
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::MemoryHelpers::MemoryHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

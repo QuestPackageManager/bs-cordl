@@ -70,5 +70,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::Waypoint
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::WaypointItemConverter::WaypointItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -185,5 +185,3 @@ template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Co
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::LRUCache_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

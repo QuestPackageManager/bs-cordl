@@ -28,5 +28,3 @@ inline void System::Diagnostics::ProcessWaitHandle::_ctor(::Microsoft::Win32::Sa
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::ProcessWaitHandle::ProcessWaitHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

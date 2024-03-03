@@ -140,5 +140,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::RC2Parameters::get_Effecti
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::RC2Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -170,5 +170,3 @@ inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::HandleOptionalA
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::MockPlayerLobbyPoseGeneratorMirror() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

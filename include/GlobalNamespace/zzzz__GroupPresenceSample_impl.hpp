@@ -682,5 +682,3 @@ inline void GlobalNamespace::GroupPresenceSample::_LaunchRosterPanel_b__12_0(::O
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GroupPresenceSample::GroupPresenceSample() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

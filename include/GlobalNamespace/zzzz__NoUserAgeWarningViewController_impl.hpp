@@ -154,5 +154,3 @@ inline void GlobalNamespace::NoUserAgeWarningViewController::_DidActivate_b__4_0
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoUserAgeWarningViewController::NoUserAgeWarningViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

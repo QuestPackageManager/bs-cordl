@@ -160,5 +160,3 @@ inline void UnityEngine::UnityLogWriter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnityLogWriter::UnityLogWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

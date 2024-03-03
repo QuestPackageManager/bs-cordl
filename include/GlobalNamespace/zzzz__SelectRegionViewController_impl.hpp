@@ -317,5 +317,3 @@ inline void GlobalNamespace::SelectRegionViewController::_DidActivate_b__8_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectRegionViewController::SelectRegionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

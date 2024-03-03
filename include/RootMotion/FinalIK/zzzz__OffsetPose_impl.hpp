@@ -190,5 +190,3 @@ inline void RootMotion::FinalIK::OffsetPose::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::OffsetPose::OffsetPose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

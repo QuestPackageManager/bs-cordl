@@ -46,5 +46,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownlo
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::LanguagePack::LanguagePack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

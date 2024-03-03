@@ -140,5 +140,3 @@ inline void Newtonsoft::Json::JsonConverterAttribute::_ctor(::System::Type* conv
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonConverterAttribute::JsonConverterAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

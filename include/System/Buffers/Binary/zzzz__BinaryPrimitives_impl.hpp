@@ -103,5 +103,3 @@ inline uint64_t System::Buffers::Binary::BinaryPrimitives::ReverseEndianness(uin
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::Binary::BinaryPrimitives::BinaryPrimitives() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

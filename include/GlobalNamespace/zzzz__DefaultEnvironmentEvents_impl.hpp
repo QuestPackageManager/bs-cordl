@@ -1369,5 +1369,3 @@ inline void GlobalNamespace::DefaultEnvironmentEvents::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultEnvironmentEvents::DefaultEnvironmentEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

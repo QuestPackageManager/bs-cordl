@@ -78,5 +78,3 @@ inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::_ct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::UnityWebRequestUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

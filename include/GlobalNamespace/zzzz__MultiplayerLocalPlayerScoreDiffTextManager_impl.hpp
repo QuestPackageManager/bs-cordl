@@ -203,5 +203,3 @@ inline void GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::MultiplayerLocalPlayerScoreDiffTextManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

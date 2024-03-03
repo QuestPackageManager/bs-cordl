@@ -51,5 +51,3 @@ constexpr ::LIV::SDK::Unity::SDKTransform::SDKTransform(::LIV::SDK::Unity::SDKVe
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKTransform::SDKTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

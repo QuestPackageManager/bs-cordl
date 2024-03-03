@@ -80,5 +80,3 @@ inline void JetBrains::Annotations::AspTypePropertyAttribute::_ctor(bool createC
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspTypePropertyAttribute::AspTypePropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

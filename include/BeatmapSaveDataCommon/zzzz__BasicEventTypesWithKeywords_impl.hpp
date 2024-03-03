@@ -172,5 +172,3 @@ BeatmapSaveDataCommon::BasicEventTypesWithKeywords::_ctor(::System::Collections:
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords::BasicEventTypesWithKeywords() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

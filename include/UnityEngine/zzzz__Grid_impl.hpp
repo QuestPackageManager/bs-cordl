@@ -63,5 +63,3 @@ inline void UnityEngine::Grid::get_cellSize_Injected(ByRef<::UnityEngine::Vector
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Grid::Grid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

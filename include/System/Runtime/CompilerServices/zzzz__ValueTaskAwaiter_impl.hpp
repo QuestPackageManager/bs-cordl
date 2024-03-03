@@ -197,5 +197,3 @@ constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter::ValueTaskAwaite
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter::ValueTaskAwaiter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

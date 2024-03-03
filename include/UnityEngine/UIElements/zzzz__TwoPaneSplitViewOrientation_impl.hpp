@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation::TwoPaneSplitVi
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation::TwoPaneSplitViewOrientation() {}
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation UnityEngine::UIElements::TwoPaneSplitViewOrientation::Horizontal{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation UnityEngine::UIElements::TwoPaneSplitViewOrientation::Vertical{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

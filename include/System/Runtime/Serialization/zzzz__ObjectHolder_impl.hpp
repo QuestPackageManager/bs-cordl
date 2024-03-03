@@ -1064,5 +1064,3 @@ inline int64_t System::Runtime::Serialization::ObjectHolder::get_ContainerID() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectHolder::ObjectHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

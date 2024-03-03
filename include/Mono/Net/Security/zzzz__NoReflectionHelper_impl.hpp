@@ -22,5 +22,3 @@ inline ::System::Object* Mono::Net::Security::NoReflectionHelper::GetProvider() 
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::NoReflectionHelper::NoReflectionHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -136,5 +136,3 @@ constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::Obj
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::ObjectInitializationData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

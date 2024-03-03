@@ -849,5 +849,3 @@ inline bool HoudiniEngineUnity::HEU_ObjectNode::IsEquivalentTo(::HoudiniEngineUn
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ObjectNode::HEU_ObjectNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

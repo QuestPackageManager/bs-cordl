@@ -175,5 +175,3 @@ inline float_t GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::GetJumpO
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BeatmapObjectAvoidanceYOffsetEvaluator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

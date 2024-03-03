@@ -17,5 +17,3 @@ inline bool System::Runtime::Versioning::BinaryCompatibility::getStaticF_Targets
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Versioning::BinaryCompatibility::BinaryCompatibility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

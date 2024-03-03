@@ -28,5 +28,3 @@ inline void UnityEngine::UIElements::EventDebugger::LogPropagationPaths(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDebugger::EventDebugger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

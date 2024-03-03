@@ -98,5 +98,3 @@ inline void GlobalNamespace::NoPlatformInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoPlatformInit::NoPlatformInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

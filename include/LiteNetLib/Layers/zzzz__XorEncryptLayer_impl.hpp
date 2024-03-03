@@ -167,5 +167,3 @@ inline void LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket(::System:
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Layers::XorEncryptLayer::XorEncryptLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

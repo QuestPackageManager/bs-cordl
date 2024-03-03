@@ -157,5 +157,3 @@ inline int32_t System::ComponentModel::TypeConverterAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeConverterAttribute::TypeConverterAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

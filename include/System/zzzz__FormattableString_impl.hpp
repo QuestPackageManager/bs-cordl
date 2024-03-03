@@ -173,5 +173,3 @@ inline void System::FormattableString::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::FormattableString::FormattableString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

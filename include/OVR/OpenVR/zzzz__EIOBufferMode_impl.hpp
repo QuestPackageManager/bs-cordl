@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EIOBufferMode::EIOBufferMode() {}
 constexpr ::OVR::OpenVR::EIOBufferMode OVR::OpenVR::EIOBufferMode::Read{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EIOBufferMode OVR::OpenVR::EIOBufferMode::Write{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EIOBufferMode OVR::OpenVR::EIOBufferMode::Create{ static_cast<int32_t>(0x200) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

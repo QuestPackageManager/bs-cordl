@@ -229,5 +229,3 @@ inline void System::Net::NetworkInformation::AixNetworkInterfaceAPI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixNetworkInterfaceAPI::AixNetworkInterfaceAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

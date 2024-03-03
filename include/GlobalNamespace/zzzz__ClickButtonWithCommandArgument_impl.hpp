@@ -267,5 +267,3 @@ inline void GlobalNamespace::ClickButtonWithCommandArgument::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ClickButtonWithCommandArgument::ClickButtonWithCommandArgument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

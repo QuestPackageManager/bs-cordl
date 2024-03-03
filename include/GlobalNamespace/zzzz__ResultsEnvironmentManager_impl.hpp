@@ -130,5 +130,3 @@ inline void GlobalNamespace::ResultsEnvironmentManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ResultsEnvironmentManager::ResultsEnvironmentManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

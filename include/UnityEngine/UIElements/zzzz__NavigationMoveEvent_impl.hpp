@@ -189,5 +189,3 @@ inline void UnityEngine::UIElements::NavigationMoveEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigationMoveEvent::NavigationMoveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

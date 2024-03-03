@@ -1789,5 +1789,3 @@ inline void GlobalNamespace::MockPlayer::SimulateReturnToMainMenu() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayer::MockPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

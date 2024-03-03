@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Permissions HoudiniEngineUnity::HAPI_Permis
 constexpr ::HoudiniEngineUnity::HAPI_Permissions HoudiniEngineUnity::HAPI_Permissions::HAPI_PERMISSIONS_READ_ONLY{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_Permissions HoudiniEngineUnity::HAPI_Permissions::HAPI_PERMISSIONS_WRITE_ONLY{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_Permissions HoudiniEngineUnity::HAPI_Permissions::HAPI_PERMISSIONS_MAX{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

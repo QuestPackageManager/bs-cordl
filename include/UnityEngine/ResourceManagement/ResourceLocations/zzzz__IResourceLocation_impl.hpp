@@ -202,5 +202,3 @@ inline ::System::Type* UnityEngine::ResourceManagement::ResourceLocations::IReso
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

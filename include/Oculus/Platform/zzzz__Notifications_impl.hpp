@@ -24,5 +24,3 @@ inline ::Oculus::Platform::Request* Oculus::Platform::Notifications::MarkAsRead(
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Notifications::Notifications() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

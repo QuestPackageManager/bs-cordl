@@ -742,5 +742,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Gam
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::ZenUtilInternal::ZenUtilInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

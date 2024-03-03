@@ -383,5 +383,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RC6Engine::WordToBytes(int32_t w
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RC6Engine::RC6Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

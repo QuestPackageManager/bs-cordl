@@ -264,5 +264,3 @@ inline void UnityEngine::Random::get_rotation_Injected(ByRef<::UnityEngine::Quat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Random::Random() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

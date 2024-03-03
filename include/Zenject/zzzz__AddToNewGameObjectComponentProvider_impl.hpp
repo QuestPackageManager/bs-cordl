@@ -107,5 +107,3 @@ inline ::UnityW<::UnityEngine::GameObject> Zenject::AddToNewGameObjectComponentP
 }
 // Ctor Parameters []
 constexpr ::Zenject::AddToNewGameObjectComponentProvider::AddToNewGameObjectComponentProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

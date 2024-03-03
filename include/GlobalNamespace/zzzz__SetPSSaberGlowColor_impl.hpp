@@ -81,5 +81,3 @@ inline void GlobalNamespace::SetPSSaberGlowColor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetPSSaberGlowColor::SetPSSaberGlowColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

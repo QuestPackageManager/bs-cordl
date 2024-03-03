@@ -9,5 +9,3 @@ constexpr ::System::Runtime::InteropServices::ClassInterfaceType::ClassInterface
 constexpr ::System::Runtime::InteropServices::ClassInterfaceType System::Runtime::InteropServices::ClassInterfaceType::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::InteropServices::ClassInterfaceType System::Runtime::InteropServices::ClassInterfaceType::AutoDispatch{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::InteropServices::ClassInterfaceType System::Runtime::InteropServices::ClassInterfaceType::AutoDual{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

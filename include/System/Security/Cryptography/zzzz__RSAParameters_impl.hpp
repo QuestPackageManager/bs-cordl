@@ -20,5 +20,3 @@ constexpr ::System::Security::Cryptography::RSAParameters::RSAParameters(::Array
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSAParameters::RSAParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

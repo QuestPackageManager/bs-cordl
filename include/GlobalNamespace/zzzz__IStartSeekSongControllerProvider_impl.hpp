@@ -22,5 +22,3 @@ inline ::GlobalNamespace::IStartSeekSongController* GlobalNamespace::IStartSeekS
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IStartSeekSongControllerProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IStartSeekSongController*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

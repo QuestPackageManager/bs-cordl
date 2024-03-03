@@ -42,5 +42,3 @@ inline void LiteNetLib::INatPunchListener::OnNatIntroductionSuccess(::System::Ne
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::INatPunchListener*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targetEndPoint, type, token);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

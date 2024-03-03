@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Bindings::CodegenOptions::CodegenOptions() {}
 constexpr ::UnityEngine::Bindings::CodegenOptions UnityEngine::Bindings::CodegenOptions::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Bindings::CodegenOptions UnityEngine::Bindings::CodegenOptions::Custom{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Bindings::CodegenOptions UnityEngine::Bindings::CodegenOptions::Force{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

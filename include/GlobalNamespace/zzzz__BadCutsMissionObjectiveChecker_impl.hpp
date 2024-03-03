@@ -103,5 +103,3 @@ inline void GlobalNamespace::BadCutsMissionObjectiveChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BadCutsMissionObjectiveChecker::BadCutsMissionObjectiveChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

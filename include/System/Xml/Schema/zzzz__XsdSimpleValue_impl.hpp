@@ -67,5 +67,3 @@ inline ::System::Object* System::Xml::Schema::XsdSimpleValue::get_TypedValue() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XsdSimpleValue::XsdSimpleValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

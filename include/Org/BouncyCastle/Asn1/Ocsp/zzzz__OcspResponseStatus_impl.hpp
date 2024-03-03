@@ -52,5 +52,3 @@ inline void Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor(::Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::OcspResponseStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

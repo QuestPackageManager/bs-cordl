@@ -24,5 +24,3 @@ inline void GlobalNamespace::LocalizationKeyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalizationKeyAttribute::LocalizationKeyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute::ProGridsConditionalSnapAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

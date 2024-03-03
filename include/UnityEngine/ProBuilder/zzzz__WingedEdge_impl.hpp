@@ -753,5 +753,3 @@ UnityEngine::ProBuilder::WingedEdge::GetWingedEdges(::UnityEngine::ProBuilder::P
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::WingedEdge::WingedEdge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

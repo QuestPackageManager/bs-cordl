@@ -46,5 +46,3 @@ inline ::Oculus::Platform::Request* Oculus::Platform::UserAgeCategory::Report(::
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::UserAgeCategory::UserAgeCategory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

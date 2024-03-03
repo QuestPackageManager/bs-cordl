@@ -282,5 +282,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DtlsReassembler::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::DtlsReassembler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

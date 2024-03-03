@@ -27,5 +27,3 @@ inline void System::Runtime::ExceptionServices::HandleProcessCorruptedStateExcep
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::HandleProcessCorruptedStateExceptionsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

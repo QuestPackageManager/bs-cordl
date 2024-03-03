@@ -78,5 +78,3 @@ inline void System::Runtime::AmbiguousImplementationException::_ctor(::System::R
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::AmbiguousImplementationException::AmbiguousImplementationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

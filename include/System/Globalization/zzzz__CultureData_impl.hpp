@@ -1253,5 +1253,3 @@ inline ::cordl_internals::Ptr<uint8_t> System::Globalization::CultureData::fill_
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CultureData::CultureData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

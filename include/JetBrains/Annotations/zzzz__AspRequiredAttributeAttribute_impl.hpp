@@ -79,5 +79,3 @@ inline void JetBrains::Annotations::AspRequiredAttributeAttribute::set_Attribute
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspRequiredAttributeAttribute::AspRequiredAttributeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

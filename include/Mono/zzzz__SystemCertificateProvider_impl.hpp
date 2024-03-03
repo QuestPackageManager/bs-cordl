@@ -253,5 +253,3 @@ inline void Mono::SystemCertificateProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::SystemCertificateProvider::SystemCertificateProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

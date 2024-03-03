@@ -8,5 +8,3 @@ constexpr ::System::Xml::ExceptionType::ExceptionType(int32_t value__) noexcept 
 constexpr ::System::Xml::ExceptionType::ExceptionType() {}
 constexpr ::System::Xml::ExceptionType System::Xml::ExceptionType::ArgumentException{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::ExceptionType System::Xml::ExceptionType::XmlException{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

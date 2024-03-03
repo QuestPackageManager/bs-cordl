@@ -212,5 +212,3 @@ inline int32_t GlobalNamespace::MultiplayerPlayerPlacement::GetLocalPlayerIndex(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPlayerPlacement::MultiplayerPlayerPlacement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

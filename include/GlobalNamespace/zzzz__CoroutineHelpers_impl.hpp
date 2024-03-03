@@ -285,5 +285,3 @@ inline void GlobalNamespace::CoroutineHelpers::StopSingleCoroutine(::GlobalNames
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CoroutineHelpers::CoroutineHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

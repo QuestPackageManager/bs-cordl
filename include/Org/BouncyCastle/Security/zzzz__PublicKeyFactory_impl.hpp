@@ -167,5 +167,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::PublicKeyFactory::PublicKeyFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

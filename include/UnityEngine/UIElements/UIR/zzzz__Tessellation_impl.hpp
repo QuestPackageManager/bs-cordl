@@ -864,5 +864,3 @@ inline void UnityEngine::UIElements::UIR::Tessellation::ComputeUVs(::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Tessellation::Tessellation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

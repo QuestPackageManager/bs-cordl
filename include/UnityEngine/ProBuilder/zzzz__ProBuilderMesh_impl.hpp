@@ -4019,5 +4019,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ProBuilderMesh::ProBuilderMesh() {}
 constexpr ::UnityEngine::HideFlags UnityEngine::ProBuilder::ProBuilderMesh::k_MeshFilterHideFlags{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

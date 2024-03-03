@@ -95,5 +95,3 @@ inline void Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator::_ct
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator::Gost3410KeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

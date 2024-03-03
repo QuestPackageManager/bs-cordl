@@ -126,5 +126,3 @@ inline ::System::DateTime Mono::Security::ASN1Convert::ToDateTime(::Mono::Securi
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::ASN1Convert::ASN1Convert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

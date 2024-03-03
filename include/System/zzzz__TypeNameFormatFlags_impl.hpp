@@ -16,5 +16,3 @@ constexpr ::System::TypeNameFormatFlags System::TypeNameFormatFlags::FormatAngle
 constexpr ::System::TypeNameFormatFlags System::TypeNameFormatFlags::FormatStubInfo{ static_cast<int32_t>(0x80) };
 constexpr ::System::TypeNameFormatFlags System::TypeNameFormatFlags::FormatGenericParam{ static_cast<int32_t>(0x100) };
 constexpr ::System::TypeNameFormatFlags System::TypeNameFormatFlags::FormatSerialization{ static_cast<int32_t>(0x103) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

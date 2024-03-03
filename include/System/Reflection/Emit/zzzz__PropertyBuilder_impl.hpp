@@ -293,5 +293,3 @@ inline void System::Reflection::Emit::PropertyBuilder::SetValue(::System::Object
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::PropertyBuilder::PropertyBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -178,5 +178,3 @@ inline void GlobalNamespace::TriggerFloatFxGroupEffect::HandleFloatFxBeatmapEven
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TriggerFloatFxGroupEffect::TriggerFloatFxGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

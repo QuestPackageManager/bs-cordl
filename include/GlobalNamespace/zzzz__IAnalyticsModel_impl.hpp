@@ -140,5 +140,3 @@ inline void GlobalNamespace::IAnalyticsModel::LogExposure(::StringW exposureType
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAnalyticsModel*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exposureType, exposureData);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

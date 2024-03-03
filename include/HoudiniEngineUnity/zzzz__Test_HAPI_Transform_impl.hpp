@@ -72,5 +72,3 @@ inline bool HoudiniEngineUnity::Test_HAPI_Transform::IsEquivalentTo(::HoudiniEng
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_Transform::Test_HAPI_Transform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -527,5 +527,3 @@ inline void HoudiniEngineUnity::HEU_TestHelpers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TestHelpers::HEU_TestHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

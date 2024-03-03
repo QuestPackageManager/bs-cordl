@@ -319,5 +319,3 @@ inline void HMUI::MouseBinder::ManualUpdate() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::MouseBinder::MouseBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -5,5 +5,3 @@ template <typename T> inline bool System::IEquatable_1<T>::Equals(T other) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IEquatable_1<T>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

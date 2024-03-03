@@ -89,5 +89,3 @@ inline float_t Tweening::FloatTween::GetValue(float_t t) {
 }
 // Ctor Parameters []
 constexpr ::Tweening::FloatTween::FloatTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

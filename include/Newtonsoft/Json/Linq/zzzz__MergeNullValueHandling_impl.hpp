@@ -8,5 +8,3 @@ constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling::MergeNullValueHandli
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling::MergeNullValueHandling() {}
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling Newtonsoft::Json::Linq::MergeNullValueHandling::Ignore{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling Newtonsoft::Json::Linq::MergeNullValueHandling::Merge{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

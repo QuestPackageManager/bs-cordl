@@ -476,5 +476,3 @@ inline void System::Xml::Schema::SchemaDeclBase::set_DefaultValueTyped(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaDeclBase::SchemaDeclBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

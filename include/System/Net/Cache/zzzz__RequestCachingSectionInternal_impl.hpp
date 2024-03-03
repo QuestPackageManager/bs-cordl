@@ -37,5 +37,3 @@ inline void System::Net::Cache::RequestCachingSectionInternal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCachingSectionInternal::RequestCachingSectionInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

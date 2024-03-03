@@ -121,5 +121,3 @@ inline ::StringW Org::BouncyCastle::Bcpg::RevocationReason::GetRevocationDescrip
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::RevocationReason::RevocationReason() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

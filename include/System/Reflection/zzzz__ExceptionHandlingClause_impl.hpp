@@ -130,5 +130,3 @@ inline ::StringW System::Reflection::ExceptionHandlingClause::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ExceptionHandlingClause::ExceptionHandlingClause() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

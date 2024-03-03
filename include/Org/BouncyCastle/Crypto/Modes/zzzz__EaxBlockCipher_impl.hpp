@@ -584,5 +584,3 @@ inline bool Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::VerifyMac(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::EaxBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

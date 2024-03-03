@@ -302,5 +302,3 @@ constexpr ::UnityEngine::UIElements::UQueryState_1<T>::UQueryState_1(::UnityEngi
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UQueryState_1<T>::UQueryState_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

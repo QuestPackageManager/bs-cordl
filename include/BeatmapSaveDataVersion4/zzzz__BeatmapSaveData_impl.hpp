@@ -200,5 +200,3 @@ inline void BeatmapSaveDataVersion4::BeatmapSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData::BeatmapSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

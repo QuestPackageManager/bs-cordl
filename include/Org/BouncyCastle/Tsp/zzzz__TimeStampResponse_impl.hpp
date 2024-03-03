@@ -242,5 +242,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Tsp::TimeStampRes
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampResponse::TimeStampResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

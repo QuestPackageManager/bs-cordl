@@ -99,5 +99,3 @@ inline void Newtonsoft::Json::Serialization::SerializationCallback::EndInvoke(::
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::SerializationCallback::SerializationCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -144,5 +144,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::InstallerBase::__zenCreateInjectTypeI
 }
 // Ctor Parameters []
 constexpr ::Zenject::InstallerBase::InstallerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

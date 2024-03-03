@@ -3215,5 +3215,3 @@ inline ::System::Collections::IEnumerator* OVRSimpleJSON::__JSONNode___get_DeepC
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::__JSONNode___get_DeepChildren_d__42::__JSONNode___get_DeepChildren_d__42() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

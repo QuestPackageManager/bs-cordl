@@ -1201,5 +1201,3 @@ inline void UnityEngine::UIElements::DefaultEventSystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultEventSystem::DefaultEventSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

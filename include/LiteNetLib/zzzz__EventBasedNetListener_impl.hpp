@@ -1582,5 +1582,3 @@ inline void LiteNetLib::EventBasedNetListener::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::EventBasedNetListener::EventBasedNetListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

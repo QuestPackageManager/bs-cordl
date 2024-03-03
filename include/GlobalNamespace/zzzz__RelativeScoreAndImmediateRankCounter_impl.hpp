@@ -311,5 +311,3 @@ inline void GlobalNamespace::RelativeScoreAndImmediateRankCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RelativeScoreAndImmediateRankCounter::RelativeScoreAndImmediateRankCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

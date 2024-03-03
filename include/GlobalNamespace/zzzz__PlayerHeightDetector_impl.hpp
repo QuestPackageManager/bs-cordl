@@ -337,5 +337,3 @@ inline void GlobalNamespace::PlayerHeightDetector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerHeightDetector::PlayerHeightDetector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

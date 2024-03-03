@@ -606,5 +606,3 @@ constexpr ::UnityEngine::Vector4::Vector4(float_t x, float_t y, float_t z, float
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Vector4::Vector4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline ::System::Configuration::ConfigurationPropertyCollection* System::Net::Co
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::ServicePointManagerElement::ServicePointManagerElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

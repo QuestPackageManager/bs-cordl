@@ -19,5 +19,3 @@ constexpr ::GlobalNamespace::OVRTextureData::OVRTextureData(::ArrayW<uint8_t, ::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTextureData::OVRTextureData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

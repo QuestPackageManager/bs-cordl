@@ -233,5 +233,3 @@ inline void Mono::X509PalImpl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::X509PalImpl::X509PalImpl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

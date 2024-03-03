@@ -215,5 +215,3 @@ inline void UnityEngine::UIElements::FocusChangeDirection::ApplyTo(::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FocusChangeDirection::FocusChangeDirection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

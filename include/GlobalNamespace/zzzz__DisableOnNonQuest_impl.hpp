@@ -24,5 +24,3 @@ inline void GlobalNamespace::DisableOnNonQuest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableOnNonQuest::DisableOnNonQuest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

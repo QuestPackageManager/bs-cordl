@@ -43,5 +43,3 @@ inline int32_t System::Buffers::Utilities::GetMaxSizeForBucket(int32_t binIndex)
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::Utilities::Utilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

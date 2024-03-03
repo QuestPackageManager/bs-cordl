@@ -457,5 +457,3 @@ inline void TMPro::KerningTable::SortKerningPairs() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::KerningTable::KerningTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

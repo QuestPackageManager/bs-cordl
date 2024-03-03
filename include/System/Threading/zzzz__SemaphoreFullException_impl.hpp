@@ -53,5 +53,3 @@ inline void System::Threading::SemaphoreFullException::_ctor(::System::Runtime::
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SemaphoreFullException::SemaphoreFullException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -417,5 +417,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::PbeParame
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::PbeParametersGenerator::PbeParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

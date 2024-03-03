@@ -168,5 +168,3 @@ inline void UnityEngine::InputSystem::Interactions::TapInteraction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Interactions::TapInteraction::TapInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

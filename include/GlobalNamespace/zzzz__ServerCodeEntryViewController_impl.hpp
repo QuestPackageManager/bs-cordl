@@ -266,5 +266,3 @@ inline void GlobalNamespace::ServerCodeEntryViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ServerCodeEntryViewController::ServerCodeEntryViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

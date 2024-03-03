@@ -270,5 +270,3 @@ inline void System::Xml::HtmlEncodedRawTextWriterIndent::WriteIndent() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::HtmlEncodedRawTextWriterIndent::HtmlEncodedRawTextWriterIndent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

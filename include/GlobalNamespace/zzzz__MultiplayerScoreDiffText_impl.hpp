@@ -394,5 +394,3 @@ inline void GlobalNamespace::MultiplayerScoreDiffText::_AnimateHide_b__18_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText::MultiplayerScoreDiffText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

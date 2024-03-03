@@ -672,5 +672,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ArraySliceFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

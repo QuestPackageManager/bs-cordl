@@ -236,5 +236,3 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::BeatmapEventData::G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventData::BeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

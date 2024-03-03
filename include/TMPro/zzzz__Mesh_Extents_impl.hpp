@@ -51,5 +51,3 @@ constexpr ::TMPro::Mesh_Extents::Mesh_Extents(::UnityEngine::Vector2 min, ::Unit
 }
 // Ctor Parameters []
 constexpr ::TMPro::Mesh_Extents::Mesh_Extents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

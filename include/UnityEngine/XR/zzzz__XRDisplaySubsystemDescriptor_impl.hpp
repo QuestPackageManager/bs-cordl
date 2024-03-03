@@ -25,5 +25,3 @@ inline void UnityEngine::XR::XRDisplaySubsystemDescriptor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRDisplaySubsystemDescriptor::XRDisplaySubsystemDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

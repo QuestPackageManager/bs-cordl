@@ -776,5 +776,3 @@ inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsPrimitiveIm
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::GenericTypeParameterBuilder::GenericTypeParameterBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

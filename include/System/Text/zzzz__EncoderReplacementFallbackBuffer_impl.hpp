@@ -190,5 +190,3 @@ inline void System::Text::EncoderReplacementFallbackBuffer::Reset() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

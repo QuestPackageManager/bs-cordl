@@ -75,5 +75,3 @@ inline ::StringW System::Runtime::InteropServices::COMException::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::COMException::COMException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

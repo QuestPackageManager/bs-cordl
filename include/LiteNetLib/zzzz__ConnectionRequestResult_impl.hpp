@@ -10,5 +10,3 @@ constexpr ::LiteNetLib::ConnectionRequestResult LiteNetLib::ConnectionRequestRes
 constexpr ::LiteNetLib::ConnectionRequestResult LiteNetLib::ConnectionRequestResult::Accept{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::ConnectionRequestResult LiteNetLib::ConnectionRequestResult::Reject{ static_cast<int32_t>(0x2) };
 constexpr ::LiteNetLib::ConnectionRequestResult LiteNetLib::ConnectionRequestResult::RejectForce{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

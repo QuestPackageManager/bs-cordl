@@ -479,5 +479,3 @@ inline int32_t GlobalNamespace::BeatmapEventDataBoxGroup::CompareTo(::GlobalName
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventDataBoxGroup::BeatmapEventDataBoxGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::DisposeHelper::NotifyDisposedUsed(::System:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DisposeHelper::DisposeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

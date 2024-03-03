@@ -53,5 +53,3 @@ template <typename T> inline bool System::Collections::Generic::ICollection_1<T>
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ICollection_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

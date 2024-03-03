@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings::NoteJumpDurationTypeS
 constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings::NoteJumpDurationTypeSettings() {}
 constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings GlobalNamespace::NoteJumpDurationTypeSettings::Dynamic{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::NoteJumpDurationTypeSettings GlobalNamespace::NoteJumpDurationTypeSettings::Static{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

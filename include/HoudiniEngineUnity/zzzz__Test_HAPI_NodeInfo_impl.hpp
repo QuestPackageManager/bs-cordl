@@ -72,5 +72,3 @@ inline bool HoudiniEngineUnity::Test_HAPI_NodeInfo::IsEquivalentTo(::HoudiniEngi
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_NodeInfo::Test_HAPI_NodeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

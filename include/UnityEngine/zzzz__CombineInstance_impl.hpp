@@ -96,5 +96,3 @@ constexpr ::UnityEngine::CombineInstance::CombineInstance(int32_t m_MeshInstance
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CombineInstance::CombineInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

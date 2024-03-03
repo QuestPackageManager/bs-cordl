@@ -254,5 +254,3 @@ inline void UnityEngine::Events::ArgumentCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::ArgumentCache::ArgumentCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

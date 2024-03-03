@@ -286,5 +286,3 @@ inline void TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphic
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_UpdateRegistry::TMP_UpdateRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

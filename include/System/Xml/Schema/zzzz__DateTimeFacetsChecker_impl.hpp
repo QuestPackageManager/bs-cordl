@@ -114,5 +114,3 @@ inline void System::Xml::Schema::DateTimeFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DateTimeFacetsChecker::DateTimeFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline void GlobalNamespace::LightmapDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightmapDataSO::LightmapDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

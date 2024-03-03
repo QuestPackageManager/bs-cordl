@@ -252,5 +252,3 @@ inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeDescriptionProvider::TypeDescriptionProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

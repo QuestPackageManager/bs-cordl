@@ -24,5 +24,3 @@ inline void UnityEngine::ExecuteAlways::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExecuteAlways::ExecuteAlways() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

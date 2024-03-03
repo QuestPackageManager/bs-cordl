@@ -162,5 +162,3 @@ inline void GlobalNamespace::GameLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLoader::GameLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

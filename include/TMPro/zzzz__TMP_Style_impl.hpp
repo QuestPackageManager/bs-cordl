@@ -314,5 +314,3 @@ inline void TMPro::TMP_Style::RefreshStyle() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Style::TMP_Style() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

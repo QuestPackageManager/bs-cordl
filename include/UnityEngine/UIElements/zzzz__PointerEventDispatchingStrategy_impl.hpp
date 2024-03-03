@@ -153,5 +153,3 @@ inline void UnityEngine::UIElements::PointerEventDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerEventDispatchingStrategy::PointerEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

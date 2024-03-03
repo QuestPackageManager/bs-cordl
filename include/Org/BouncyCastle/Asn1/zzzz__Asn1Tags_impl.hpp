@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Asn1::Asn1Tags::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1Tags::Asn1Tags() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

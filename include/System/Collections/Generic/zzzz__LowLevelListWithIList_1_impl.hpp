@@ -161,5 +161,3 @@ template <typename T> inline ::System::Collections::IEnumerator* System::Collect
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LowLevelListWithIList_1<T>::LowLevelListWithIList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

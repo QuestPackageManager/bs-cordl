@@ -3,5 +3,3 @@
 #include "System/Net/Configuration/zzzz__ConnectionManagementElement_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::ConnectionManagementElement::ConnectionManagementElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

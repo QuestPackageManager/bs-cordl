@@ -194,5 +194,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::Time::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Time::Time() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -526,5 +526,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::ArrayMultipleIndexFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

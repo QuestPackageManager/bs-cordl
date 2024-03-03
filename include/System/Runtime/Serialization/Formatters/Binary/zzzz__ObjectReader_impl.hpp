@@ -1219,5 +1219,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::ObjectReader::Ch
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectReader::ObjectReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

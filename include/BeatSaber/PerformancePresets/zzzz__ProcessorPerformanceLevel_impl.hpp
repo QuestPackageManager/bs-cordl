@@ -11,5 +11,3 @@ constexpr ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel BeatSaber::
 constexpr ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel BeatSaber::PerformancePresets::ProcessorPerformanceLevel::SustainedLow{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel BeatSaber::PerformancePresets::ProcessorPerformanceLevel::SustainedHigh{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel BeatSaber::PerformancePresets::ProcessorPerformanceLevel::Boost{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

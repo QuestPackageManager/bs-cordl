@@ -17,5 +17,3 @@ constexpr ::System::ConsoleScreenBufferInfo::ConsoleScreenBufferInfo(::System::C
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleScreenBufferInfo::ConsoleScreenBufferInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

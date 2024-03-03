@@ -2168,5 +2168,3 @@ inline ::StringW Newtonsoft::Json::Serialization::DefaultContractResolver::GetRe
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolver::DefaultContractResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

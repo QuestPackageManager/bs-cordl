@@ -209,5 +209,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crmf::EncryptedVa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptedValueBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

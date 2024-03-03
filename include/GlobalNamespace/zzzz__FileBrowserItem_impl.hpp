@@ -179,5 +179,3 @@ inline void GlobalNamespace::FileBrowserItem::_ctor(::StringW displayName, ::Str
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileBrowserItem::FileBrowserItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

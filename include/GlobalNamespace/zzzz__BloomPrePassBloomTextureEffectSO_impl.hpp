@@ -228,5 +228,3 @@ inline void GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBloomTextureEffectSO::BloomPrePassBloomTextureEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

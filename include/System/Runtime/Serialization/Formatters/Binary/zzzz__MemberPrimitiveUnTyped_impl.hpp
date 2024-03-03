@@ -167,5 +167,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveU
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::MemberPrimitiveUnTyped() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

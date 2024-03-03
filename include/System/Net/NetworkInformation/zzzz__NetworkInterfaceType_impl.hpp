@@ -34,5 +34,3 @@ constexpr ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::N
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::NetworkInformation::NetworkInterfaceType::Wman{ static_cast<int32_t>(0xed) };
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::NetworkInformation::NetworkInterfaceType::Wwanpp{ static_cast<int32_t>(0xf3) };
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::NetworkInformation::NetworkInterfaceType::Wwanpp2{ static_cast<int32_t>(0xf4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

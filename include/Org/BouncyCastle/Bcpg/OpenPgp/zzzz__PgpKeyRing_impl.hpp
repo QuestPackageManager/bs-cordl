@@ -98,5 +98,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing::ReadUserIDs(::Org::Bou
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing::PgpKeyRing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

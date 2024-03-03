@@ -211,5 +211,3 @@ inline void BeatmapSaveDataVersion3::FxEventBox::_ctor(::BeatmapSaveDataVersion3
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FxEventBox::FxEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

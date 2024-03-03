@@ -71,5 +71,3 @@ inline void GlobalNamespace::TestInvitePlatformHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TestInvitePlatformHandler::TestInvitePlatformHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

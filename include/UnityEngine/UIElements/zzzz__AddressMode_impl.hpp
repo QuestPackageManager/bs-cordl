@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::AddressMode::AddressMode() {}
 constexpr ::UnityEngine::UIElements::AddressMode UnityEngine::UIElements::AddressMode::Wrap{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::AddressMode UnityEngine::UIElements::AddressMode::Clamp{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::AddressMode UnityEngine::UIElements::AddressMode::Mirror{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

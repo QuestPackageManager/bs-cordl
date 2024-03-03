@@ -154,5 +154,3 @@ inline ::StringW System::Xml::Linq::XNode::GetXmlString(::System::Xml::Linq::Sav
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XNode::XNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

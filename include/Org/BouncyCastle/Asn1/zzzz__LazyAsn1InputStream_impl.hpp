@@ -97,5 +97,3 @@ inline ::Org::BouncyCastle::Asn1::DerSet* Org::BouncyCastle::Asn1::LazyAsn1Input
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::LazyAsn1InputStream::LazyAsn1InputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

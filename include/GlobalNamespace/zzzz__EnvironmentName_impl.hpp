@@ -93,5 +93,3 @@ constexpr ::GlobalNamespace::EnvironmentName::EnvironmentName(::StringW _environ
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentName::EnvironmentName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -28,5 +28,3 @@ inline void UnityEngine::AddressableAssets::AssetReferenceTexture::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceTexture::AssetReferenceTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

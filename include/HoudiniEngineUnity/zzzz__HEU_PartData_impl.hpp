@@ -2278,5 +2278,3 @@ inline bool HoudiniEngineUnity::HEU_PartData::IsEquivalentTo(::HoudiniEngineUnit
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PartData::HEU_PartData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

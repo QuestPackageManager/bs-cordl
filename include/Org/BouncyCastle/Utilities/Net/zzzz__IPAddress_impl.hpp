@@ -204,5 +204,3 @@ inline void Org::BouncyCastle::Utilities::Net::IPAddress::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Net::IPAddress::IPAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

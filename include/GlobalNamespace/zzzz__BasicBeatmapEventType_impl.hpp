@@ -34,5 +34,3 @@ constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BasicBeatmap
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BasicBeatmapEventType::Special2{ static_cast<int32_t>(0x2a) };
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BasicBeatmapEventType::Special3{ static_cast<int32_t>(0x2b) };
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BasicBeatmapEventType::BpmChange{ static_cast<int32_t>(0x64) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

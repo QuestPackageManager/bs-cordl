@@ -31,5 +31,3 @@ constexpr ::System::Globalization::CalendarId System::Globalization::CalendarId:
 constexpr ::System::Globalization::CalendarId System::Globalization::CalendarId::PERSIAN{ static_cast<uint16_t>(0x16u) };
 constexpr ::System::Globalization::CalendarId System::Globalization::CalendarId::UMALQURA{ static_cast<uint16_t>(0x17u) };
 constexpr ::System::Globalization::CalendarId System::Globalization::CalendarId::LAST_CALENDAR{ static_cast<uint16_t>(0x17u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

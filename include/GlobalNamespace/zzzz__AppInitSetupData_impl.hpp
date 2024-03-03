@@ -46,5 +46,3 @@ inline void GlobalNamespace::AppInitSetupData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInitSetupData::AppInitSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

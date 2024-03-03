@@ -136,5 +136,3 @@ inline void UnityEngine::EventSystems::AxisEventData::_ctor(::UnityEngine::Event
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::AxisEventData::AxisEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

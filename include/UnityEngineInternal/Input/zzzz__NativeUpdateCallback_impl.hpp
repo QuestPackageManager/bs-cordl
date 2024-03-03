@@ -52,5 +52,3 @@ inline void UnityEngineInternal::Input::NativeUpdateCallback::Invoke(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::Input::NativeUpdateCallback::NativeUpdateCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

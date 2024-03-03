@@ -35,5 +35,3 @@ constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapsho
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot::EditAvatarHistorySnapshot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

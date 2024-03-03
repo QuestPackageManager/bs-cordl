@@ -446,5 +446,3 @@ inline void GlobalNamespace::BloomFogSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFogSO::BloomFogSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

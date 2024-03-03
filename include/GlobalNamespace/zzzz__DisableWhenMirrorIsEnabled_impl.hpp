@@ -135,5 +135,3 @@ inline void GlobalNamespace::DisableWhenMirrorIsEnabled::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableWhenMirrorIsEnabled::DisableWhenMirrorIsEnabled() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

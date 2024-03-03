@@ -109,5 +109,3 @@ inline void HMUI::ImageWithHint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ImageWithHint::ImageWithHint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -178,5 +178,3 @@ inline ::StringW Newtonsoft::Json::Utilities::MiscellaneousUtils::FormatValueFor
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::MiscellaneousUtils::MiscellaneousUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

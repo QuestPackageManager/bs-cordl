@@ -22,5 +22,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit::ReceivedHan
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, epoch, buf, off, len);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

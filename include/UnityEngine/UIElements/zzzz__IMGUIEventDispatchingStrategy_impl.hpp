@@ -80,5 +80,3 @@ inline void UnityEngine::UIElements::IMGUIEventDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IMGUIEventDispatchingStrategy::IMGUIEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

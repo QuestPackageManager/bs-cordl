@@ -589,5 +589,3 @@ inline int32_t System::Globalization::HijriCalendar::ToFourDigitYear(int32_t yea
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::HijriCalendar::HijriCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

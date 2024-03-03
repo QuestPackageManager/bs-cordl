@@ -646,5 +646,3 @@ inline void UnityEngine::UIElements::MeshGenerationContextUtils::AdjustBackgroun
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshGenerationContextUtils::MeshGenerationContextUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

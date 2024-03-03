@@ -328,5 +328,3 @@ inline ::System::Object* System::Resources::RuntimeResourceSet::ResolveResourceL
 }
 // Ctor Parameters []
 constexpr ::System::Resources::RuntimeResourceSet::RuntimeResourceSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

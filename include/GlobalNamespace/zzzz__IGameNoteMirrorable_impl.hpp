@@ -72,5 +72,3 @@ inline ::GlobalNamespace::__NoteData__GameplayType GlobalNamespace::IGameNoteMir
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IGameNoteMirrorable*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__NoteData__GameplayType, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

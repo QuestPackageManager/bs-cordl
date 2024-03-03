@@ -16,5 +16,3 @@ constexpr ::GlobalNamespace::UpdateConnectionStateReason GlobalNamespace::Update
 constexpr ::GlobalNamespace::UpdateConnectionStateReason GlobalNamespace::UpdateConnectionStateReason::RemoteDisconnect{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::UpdateConnectionStateReason GlobalNamespace::UpdateConnectionStateReason::ConnectionFailed{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::UpdateConnectionStateReason GlobalNamespace::UpdateConnectionStateReason::OnDestroy{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -518,5 +518,3 @@ inline bool GlobalNamespace::SongTimeSyncedVideoPlayer::_WaitForDependenciesAndP
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongTimeSyncedVideoPlayer::SongTimeSyncedVideoPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

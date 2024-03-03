@@ -72,5 +72,3 @@ inline bool GlobalNamespace::NullAllowed::IsNullAllowedFor(::GlobalNamespace::__
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NullAllowed::NullAllowed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

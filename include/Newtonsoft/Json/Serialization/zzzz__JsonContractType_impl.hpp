@@ -15,5 +15,3 @@ constexpr ::Newtonsoft::Json::Serialization::JsonContractType Newtonsoft::Json::
 constexpr ::Newtonsoft::Json::Serialization::JsonContractType Newtonsoft::Json::Serialization::JsonContractType::Dynamic{ static_cast<int32_t>(0x6) };
 constexpr ::Newtonsoft::Json::Serialization::JsonContractType Newtonsoft::Json::Serialization::JsonContractType::Serializable{ static_cast<int32_t>(0x7) };
 constexpr ::Newtonsoft::Json::Serialization::JsonContractType Newtonsoft::Json::Serialization::JsonContractType::Linq{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

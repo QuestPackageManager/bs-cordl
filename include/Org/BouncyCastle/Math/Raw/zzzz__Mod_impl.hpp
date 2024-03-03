@@ -194,5 +194,3 @@ inline void Org::BouncyCastle::Math::Raw::Mod::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Mod::Mod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

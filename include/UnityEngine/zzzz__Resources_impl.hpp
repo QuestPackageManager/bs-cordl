@@ -221,5 +221,3 @@ inline ::UnityEngine::AsyncOperation* UnityEngine::Resources::UnloadUnusedAssets
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Resources::Resources() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

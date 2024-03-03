@@ -212,5 +212,3 @@ inline void GlobalNamespace::SpriteSwapTransitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpriteSwapTransitionSO::SpriteSwapTransitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

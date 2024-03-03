@@ -174,5 +174,3 @@ template <typename TKey, typename TItem> inline void System::Collections::Object
 }
 // Ctor Parameters []
 template <typename TKey, typename TItem> constexpr ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::KeyedCollection_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

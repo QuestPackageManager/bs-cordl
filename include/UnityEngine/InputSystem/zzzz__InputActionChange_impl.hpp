@@ -15,5 +15,3 @@ constexpr ::UnityEngine::InputSystem::InputActionChange UnityEngine::InputSystem
 constexpr ::UnityEngine::InputSystem::InputActionChange UnityEngine::InputSystem::InputActionChange::ActionCanceled{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::InputSystem::InputActionChange UnityEngine::InputSystem::InputActionChange::BoundControlsAboutToChange{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::InputSystem::InputActionChange UnityEngine::InputSystem::InputActionChange::BoundControlsChanged{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

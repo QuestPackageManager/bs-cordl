@@ -76,5 +76,3 @@ inline void System::IO::DirectoryNotFoundException::_ctor(::System::Runtime::Ser
 }
 // Ctor Parameters []
 constexpr ::System::IO::DirectoryNotFoundException::DirectoryNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

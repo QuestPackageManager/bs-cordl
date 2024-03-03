@@ -107,5 +107,3 @@ inline void System::ComponentModel::SByteConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::SByteConverter::SByteConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

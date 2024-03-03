@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::VROverlayInputMethod::VROverlayInputMethod() {}
 constexpr ::OVR::OpenVR::VROverlayInputMethod OVR::OpenVR::VROverlayInputMethod::None{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::VROverlayInputMethod OVR::OpenVR::VROverlayInputMethod::Mouse{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::VROverlayInputMethod OVR::OpenVR::VROverlayInputMethod::DualAnalog{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

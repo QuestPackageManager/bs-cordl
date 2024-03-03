@@ -61,5 +61,3 @@ inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::Bcp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::CompressedDataPacket::CompressedDataPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

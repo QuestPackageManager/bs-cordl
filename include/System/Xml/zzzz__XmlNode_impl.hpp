@@ -1057,5 +1057,3 @@ inline void System::Xml::XmlNode::UnnestTextNodes(::System::Xml::XmlNode* prevNo
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNode::XmlNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

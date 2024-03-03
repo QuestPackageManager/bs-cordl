@@ -112,5 +112,3 @@ inline void HoudiniEngineUnity::HEU_InstanceInputUIState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InstanceInputUIState::HEU_InstanceInputUIState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1257,5 +1257,3 @@ template <typename TKey, typename TValue> inline void System::Collections::Gener
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>::Dictionary_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

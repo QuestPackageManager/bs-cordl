@@ -60,5 +60,3 @@ inline void Zenject::IdBinder::WithId(::System::Object* identifier) {
 }
 // Ctor Parameters []
 constexpr ::Zenject::IdBinder::IdBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

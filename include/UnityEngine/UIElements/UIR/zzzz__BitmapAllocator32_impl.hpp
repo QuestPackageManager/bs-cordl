@@ -197,5 +197,3 @@ constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32::BitmapAllocator32(i
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32::BitmapAllocator32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

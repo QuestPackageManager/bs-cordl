@@ -774,5 +774,3 @@ inline void System::DefaultBinder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::DefaultBinder::DefaultBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -875,5 +875,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::X509::X509Certificat
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Certificate::X509Certificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

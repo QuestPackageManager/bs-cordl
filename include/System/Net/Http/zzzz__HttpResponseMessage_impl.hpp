@@ -399,5 +399,3 @@ inline ::StringW System::Net::Http::HttpResponseMessage::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpResponseMessage::HttpResponseMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

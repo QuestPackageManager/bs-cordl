@@ -97,5 +97,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::ExpressionMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

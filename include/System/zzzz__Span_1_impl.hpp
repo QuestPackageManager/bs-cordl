@@ -116,5 +116,3 @@ template <typename T> constexpr ::System::Span_1<T>::Span_1(::System::ByReferenc
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Span_1<T>::Span_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

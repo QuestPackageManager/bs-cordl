@@ -306,5 +306,3 @@ inline void GlobalNamespace::__FlyingScoreEffect__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool::__FlyingScoreEffect__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -189,5 +189,3 @@ inline void GlobalNamespace::OculusTestExperiment::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusTestExperiment::OculusTestExperiment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

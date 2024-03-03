@@ -15,5 +15,3 @@ constexpr ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments::TouchScreenKeyboard_InternalConstructorHelperArguments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

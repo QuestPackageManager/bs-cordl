@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PresetType HoudiniEngineUnity::HAPI_PresetT
 constexpr ::HoudiniEngineUnity::HAPI_PresetType HoudiniEngineUnity::HAPI_PresetType::HAPI_PRESETTYPE_BINARY{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::HAPI_PresetType HoudiniEngineUnity::HAPI_PresetType::HAPI_PRESETTYPE_IDX{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_PresetType HoudiniEngineUnity::HAPI_PresetType::HAPI_PRESETTYPE_MAX{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

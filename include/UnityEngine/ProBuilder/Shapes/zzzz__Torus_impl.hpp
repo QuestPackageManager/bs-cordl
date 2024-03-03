@@ -218,5 +218,3 @@ inline void UnityEngine::ProBuilder::Shapes::Torus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Torus::Torus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

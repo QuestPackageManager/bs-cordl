@@ -106,5 +106,3 @@ inline void GlobalNamespace::DateConditionalSpriteSwitcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DateConditionalSpriteSwitcher::DateConditionalSpriteSwitcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

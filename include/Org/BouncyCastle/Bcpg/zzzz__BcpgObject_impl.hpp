@@ -65,5 +65,3 @@ inline void Org::BouncyCastle::Bcpg::BcpgObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::BcpgObject::BcpgObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

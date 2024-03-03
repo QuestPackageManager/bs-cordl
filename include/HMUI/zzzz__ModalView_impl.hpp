@@ -534,5 +534,3 @@ inline void HMUI::ModalView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ModalView::ModalView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

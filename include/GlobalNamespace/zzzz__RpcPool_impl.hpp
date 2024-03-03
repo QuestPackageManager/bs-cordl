@@ -40,5 +40,3 @@ inline void GlobalNamespace::RpcPool::Release(::GlobalNamespace::IRemoteProcedur
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RpcPool::RpcPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

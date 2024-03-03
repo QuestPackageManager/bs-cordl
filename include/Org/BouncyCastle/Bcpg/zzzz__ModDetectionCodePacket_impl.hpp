@@ -105,5 +105,3 @@ inline void Org::BouncyCastle::Bcpg::ModDetectionCodePacket::Encode(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::ModDetectionCodePacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

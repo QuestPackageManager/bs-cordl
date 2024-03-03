@@ -378,5 +378,3 @@ inline void GlobalNamespace::MultiplayerLocalActiveClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActiveClient::MultiplayerLocalActiveClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

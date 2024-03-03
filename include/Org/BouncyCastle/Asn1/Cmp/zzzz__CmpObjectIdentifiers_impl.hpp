@@ -260,5 +260,3 @@ inline void Org::BouncyCastle::Asn1::Cmp::CmpObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpObjectIdentifiers::CmpObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

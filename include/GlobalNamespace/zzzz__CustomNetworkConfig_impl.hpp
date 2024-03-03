@@ -370,5 +370,3 @@ inline void GlobalNamespace::CustomNetworkConfig::_ctor(::GlobalNamespace::INetw
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomNetworkConfig::CustomNetworkConfig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

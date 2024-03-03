@@ -337,5 +337,3 @@ inline void Oculus::Platform::VoipAudioSourceHiLevel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::VoipAudioSourceHiLevel::VoipAudioSourceHiLevel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

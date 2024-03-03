@@ -278,5 +278,3 @@ inline void GlobalNamespace::MockObstacleData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockObstacleData::MockObstacleData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

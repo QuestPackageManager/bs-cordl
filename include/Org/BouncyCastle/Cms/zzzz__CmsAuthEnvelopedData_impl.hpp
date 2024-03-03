@@ -286,5 +286,3 @@ inline void Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor(::Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::CmsAuthEnvelopedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

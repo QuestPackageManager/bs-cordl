@@ -300,5 +300,3 @@ inline void GlobalNamespace::FireEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FireEffect::FireEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

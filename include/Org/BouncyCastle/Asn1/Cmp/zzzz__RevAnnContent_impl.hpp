@@ -236,5 +236,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::RevA
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::RevAnnContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

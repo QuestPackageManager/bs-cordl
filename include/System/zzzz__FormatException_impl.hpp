@@ -101,5 +101,3 @@ inline void System::FormatException::_ctor(::System::Runtime::Serialization::Ser
 }
 // Ctor Parameters []
 constexpr ::System::FormatException::FormatException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -300,5 +300,3 @@ inline ::StringW System::Net::Http::Headers::ProductInfoHeaderValue::ToString() 
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

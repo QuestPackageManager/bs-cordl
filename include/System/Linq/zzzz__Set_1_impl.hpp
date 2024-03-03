@@ -116,5 +116,3 @@ template <typename TElement> inline int32_t System::Linq::Set_1<TElement>::Inter
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::Set_1<TElement>::Set_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

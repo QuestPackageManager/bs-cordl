@@ -1033,5 +1033,3 @@ inline int32_t System::Text::UTF7Encoding::GetMaxCharCount(int32_t byteCount) {
 }
 // Ctor Parameters []
 constexpr ::System::Text::UTF7Encoding::UTF7Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

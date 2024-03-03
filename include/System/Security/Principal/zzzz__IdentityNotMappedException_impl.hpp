@@ -75,5 +75,3 @@ inline void System::Security::Principal::IdentityNotMappedException::GetObjectDa
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::IdentityNotMappedException::IdentityNotMappedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

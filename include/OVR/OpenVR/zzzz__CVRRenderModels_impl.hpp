@@ -624,5 +624,3 @@ inline ::StringW OVR::OpenVR::CVRRenderModels::GetRenderModelErrorNameFromEnum(:
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRRenderModels::CVRRenderModels() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

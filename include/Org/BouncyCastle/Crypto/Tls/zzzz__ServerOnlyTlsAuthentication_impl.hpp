@@ -84,5 +84,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::_ctor()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::ServerOnlyTlsAuthentication() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

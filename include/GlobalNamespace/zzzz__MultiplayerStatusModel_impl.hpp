@@ -290,5 +290,3 @@ inline void GlobalNamespace::MultiplayerStatusModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

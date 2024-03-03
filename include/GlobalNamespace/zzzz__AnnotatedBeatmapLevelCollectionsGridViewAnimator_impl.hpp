@@ -467,5 +467,3 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnnotatedBeatmapLevelCollectionsGridViewAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

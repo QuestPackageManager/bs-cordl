@@ -356,5 +356,3 @@ inline void RootMotion::FinalIK::Grounder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Grounder::Grounder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

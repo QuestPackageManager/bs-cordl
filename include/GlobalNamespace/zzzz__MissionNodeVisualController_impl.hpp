@@ -555,5 +555,3 @@ inline void GlobalNamespace::MissionNodeVisualController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionNodeVisualController::MissionNodeVisualController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

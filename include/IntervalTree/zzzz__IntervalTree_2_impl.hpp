@@ -398,5 +398,3 @@ template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>::IntervalTree_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

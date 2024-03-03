@@ -64,5 +64,3 @@ inline bool UnityEngine::ProBuilder::Clipping::RectContainsLineSegment(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Clipping::Clipping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

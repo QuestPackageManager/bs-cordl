@@ -733,5 +733,3 @@ inline ::StringW System::Xml::Schema::XmlAtomicValue::GetPrefixFromQName(::Strin
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlAtomicValue::XmlAtomicValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

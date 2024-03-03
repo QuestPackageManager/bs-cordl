@@ -68,5 +68,3 @@ inline void GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::MultiplayerBadgeDataPersonalBestSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

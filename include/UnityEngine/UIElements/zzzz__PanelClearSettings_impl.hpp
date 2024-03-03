@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::PanelClearSettings::PanelClearSettings(bool
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelClearSettings::PanelClearSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

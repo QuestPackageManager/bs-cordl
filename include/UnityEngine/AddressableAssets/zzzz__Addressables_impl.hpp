@@ -2578,5 +2578,3 @@ UnityEngine::AddressableAssets::Addressables::CleanBundleCache(::System::Collect
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::Addressables::Addressables() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

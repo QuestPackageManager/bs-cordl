@@ -78,5 +78,3 @@ template <typename T> inline void HMUI::ValueChangedBinder_1<T>::ClearBindings()
 }
 // Ctor Parameters []
 template <typename T> constexpr ::HMUI::ValueChangedBinder_1<T>::ValueChangedBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

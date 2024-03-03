@@ -885,5 +885,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* Org::BouncyCastle::Cr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AbstractTlsServer::AbstractTlsServer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

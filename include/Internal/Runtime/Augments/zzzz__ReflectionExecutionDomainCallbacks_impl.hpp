@@ -50,5 +50,3 @@ inline void Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ct
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::ReflectionExecutionDomainCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

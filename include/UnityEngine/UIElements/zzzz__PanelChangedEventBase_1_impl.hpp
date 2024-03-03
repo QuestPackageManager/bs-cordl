@@ -80,5 +80,3 @@ template <typename T> inline void UnityEngine::UIElements::PanelChangedEventBase
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PanelChangedEventBase_1<T>::PanelChangedEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

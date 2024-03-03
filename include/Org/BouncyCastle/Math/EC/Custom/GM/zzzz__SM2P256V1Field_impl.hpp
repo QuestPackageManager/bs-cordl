@@ -541,5 +541,3 @@ inline void Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Field::SM2P256V1Field() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -357,5 +357,3 @@ inline int32_t UnityEngine::Display::RelativeMouseAtImpl(int32_t x, int32_t y, B
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Display::Display() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

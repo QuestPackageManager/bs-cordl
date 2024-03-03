@@ -53,5 +53,3 @@ constexpr ::System::Threading::ExecutionContextSwitcher::ExecutionContextSwitche
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ExecutionContextSwitcher::ExecutionContextSwitcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

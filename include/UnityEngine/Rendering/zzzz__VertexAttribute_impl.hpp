@@ -20,5 +20,3 @@ constexpr ::UnityEngine::Rendering::VertexAttribute UnityEngine::Rendering::Vert
 constexpr ::UnityEngine::Rendering::VertexAttribute UnityEngine::Rendering::VertexAttribute::TexCoord7{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::Rendering::VertexAttribute UnityEngine::Rendering::VertexAttribute::BlendWeight{ static_cast<int32_t>(0xc) };
 constexpr ::UnityEngine::Rendering::VertexAttribute UnityEngine::Rendering::VertexAttribute::BlendIndices{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

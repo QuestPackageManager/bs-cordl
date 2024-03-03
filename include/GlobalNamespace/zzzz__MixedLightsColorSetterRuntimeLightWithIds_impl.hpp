@@ -76,5 +76,3 @@ inline void GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::MixedLightsColorSetterRuntimeLightWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

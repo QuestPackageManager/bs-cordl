@@ -92,5 +92,3 @@ inline int64_t Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::get_KeyId() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId::IssuerKeyId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

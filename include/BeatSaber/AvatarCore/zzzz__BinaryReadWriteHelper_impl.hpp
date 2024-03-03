@@ -49,5 +49,3 @@ inline ::UnityEngine::Color BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadCo
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::BinaryReadWriteHelper::BinaryReadWriteHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

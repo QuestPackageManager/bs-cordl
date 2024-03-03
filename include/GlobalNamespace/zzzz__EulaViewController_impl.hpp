@@ -656,5 +656,3 @@ inline void GlobalNamespace::EulaViewController::_DidActivate_b__18_2() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EulaViewController::EulaViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

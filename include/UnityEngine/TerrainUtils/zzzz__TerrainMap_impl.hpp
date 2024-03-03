@@ -319,5 +319,3 @@ inline ::UnityEngine::TerrainUtils::TerrainMapStatusCode UnityEngine::TerrainUti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainUtils::TerrainMap::TerrainMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -455,5 +455,3 @@ inline void UnityEngine::Collision::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Collision::Collision() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

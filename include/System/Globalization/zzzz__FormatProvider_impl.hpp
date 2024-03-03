@@ -511,5 +511,3 @@ inline void System::Globalization::FormatProvider::FormatBigInteger(ByRef<::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::FormatProvider::FormatProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

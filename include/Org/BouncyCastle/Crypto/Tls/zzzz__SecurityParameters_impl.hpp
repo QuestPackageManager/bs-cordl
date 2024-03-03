@@ -485,5 +485,3 @@ inline void Org::BouncyCastle::Crypto::Tls::SecurityParameters::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters::SecurityParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -75,5 +75,3 @@ inline void Oculus::Platform::Models::AssetFileDownloadCancelResult::_ctor(void*
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AssetFileDownloadCancelResult::AssetFileDownloadCancelResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

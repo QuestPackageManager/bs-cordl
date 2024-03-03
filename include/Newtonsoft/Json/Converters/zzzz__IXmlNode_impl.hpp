@@ -202,5 +202,3 @@ inline ::System::Object* Newtonsoft::Json::Converters::IXmlNode::get_WrappedNode
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::IXmlNode*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

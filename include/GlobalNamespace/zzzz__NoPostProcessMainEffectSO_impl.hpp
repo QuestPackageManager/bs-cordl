@@ -191,5 +191,3 @@ inline void GlobalNamespace::NoPostProcessMainEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoPostProcessMainEffectSO::NoPostProcessMainEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

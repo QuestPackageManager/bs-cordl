@@ -46,5 +46,3 @@ inline ::cordl_internals::Ptr<void> Unity::Collections::LowLevel::Unsafe::Native
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::NativeArrayUnsafeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

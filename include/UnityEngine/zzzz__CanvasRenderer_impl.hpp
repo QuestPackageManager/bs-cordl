@@ -1227,5 +1227,3 @@ inline void UnityEngine::CanvasRenderer::set_clippingSoftness_Injected(ByRef<::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CanvasRenderer::CanvasRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

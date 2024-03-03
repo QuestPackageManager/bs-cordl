@@ -36,5 +36,3 @@ inline void UnityEngine::Timeline::AudioClipProperties::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AudioClipProperties::AudioClipProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

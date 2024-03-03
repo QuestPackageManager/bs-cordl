@@ -411,5 +411,3 @@ constexpr ::UnityEngine::RaycastHit::RaycastHit(::UnityEngine::Vector3 m_Point, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RaycastHit::RaycastHit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

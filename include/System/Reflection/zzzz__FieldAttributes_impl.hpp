@@ -25,5 +25,3 @@ constexpr ::System::Reflection::FieldAttributes System::Reflection::FieldAttribu
 constexpr ::System::Reflection::FieldAttributes System::Reflection::FieldAttributes::HasDefault{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Reflection::FieldAttributes System::Reflection::FieldAttributes::HasFieldRVA{ static_cast<int32_t>(0x100) };
 constexpr ::System::Reflection::FieldAttributes System::Reflection::FieldAttributes::ReservedMask{ static_cast<int32_t>(0x9500) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

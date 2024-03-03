@@ -586,5 +586,3 @@ constexpr ::UnityEngine::Bounds::Bounds(::UnityEngine::Vector3 m_Center, ::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bounds::Bounds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

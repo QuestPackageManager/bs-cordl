@@ -407,5 +407,3 @@ constexpr ::System::Threading::CancellationToken::CancellationToken(::System::Th
 }
 // Ctor Parameters []
 constexpr ::System::Threading::CancellationToken::CancellationToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

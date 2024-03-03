@@ -175,5 +175,3 @@ inline void System::Net::ResponseDescription::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ResponseDescription::ResponseDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

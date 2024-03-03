@@ -24,5 +24,3 @@ inline void GlobalNamespace::JumpDestinationMarker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JumpDestinationMarker::JumpDestinationMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

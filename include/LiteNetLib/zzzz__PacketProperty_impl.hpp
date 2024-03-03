@@ -24,5 +24,3 @@ constexpr ::LiteNetLib::PacketProperty LiteNetLib::PacketProperty::PeerNotFound{
 constexpr ::LiteNetLib::PacketProperty LiteNetLib::PacketProperty::InvalidProtocol{ static_cast<uint8_t>(0xfu) };
 constexpr ::LiteNetLib::PacketProperty LiteNetLib::PacketProperty::NatMessage{ static_cast<uint8_t>(0x10u) };
 constexpr ::LiteNetLib::PacketProperty LiteNetLib::PacketProperty::Empty{ static_cast<uint8_t>(0x11u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

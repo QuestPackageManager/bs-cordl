@@ -9,5 +9,3 @@ constexpr ::UnityEngine::JointSpring::JointSpring(float_t spring, float_t damper
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::JointSpring::JointSpring() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -271,5 +271,3 @@ inline bool UnityEngine::UIElements::EventCallbackRegistry::HasBubbleHandlers() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCallbackRegistry::EventCallbackRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

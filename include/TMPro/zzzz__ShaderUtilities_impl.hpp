@@ -575,5 +575,3 @@ inline float_t TMPro::ShaderUtilities::GetPadding(::ArrayW<::UnityEngine::Materi
 }
 // Ctor Parameters []
 constexpr ::TMPro::ShaderUtilities::ShaderUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -313,5 +313,3 @@ constexpr ::UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

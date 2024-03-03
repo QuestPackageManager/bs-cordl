@@ -49,5 +49,3 @@ inline void System::Security::Cryptography::HMACRIPEMD160::_ctor(::ArrayW<uint8_
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMACRIPEMD160::HMACRIPEMD160() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -297,5 +297,3 @@ inline void HMUI::CurvedTextMeshPro::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::CurvedTextMeshPro::CurvedTextMeshPro() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -56,5 +56,3 @@ inline void GlobalNamespace::EventsTestSceneSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EventsTestSceneSetup::EventsTestSceneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

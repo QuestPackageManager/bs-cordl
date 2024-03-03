@@ -417,5 +417,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::WNafPreCompInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

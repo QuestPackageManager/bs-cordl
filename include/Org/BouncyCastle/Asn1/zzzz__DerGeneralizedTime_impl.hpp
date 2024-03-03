@@ -374,5 +374,3 @@ inline int32_t Org::BouncyCastle::Asn1::DerGeneralizedTime::Asn1GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime::DerGeneralizedTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

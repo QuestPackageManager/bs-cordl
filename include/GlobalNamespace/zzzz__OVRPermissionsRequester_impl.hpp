@@ -334,5 +334,3 @@ inline ::UnityEngine::Android::PermissionCallbacks* GlobalNamespace::OVRPermissi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPermissionsRequester::OVRPermissionsRequester() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

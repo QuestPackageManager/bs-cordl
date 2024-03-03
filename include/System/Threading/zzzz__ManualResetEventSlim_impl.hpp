@@ -504,5 +504,3 @@ inline int32_t System::Threading::ManualResetEventSlim::ExtractStatePortion(int3
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ManualResetEventSlim::ManualResetEventSlim() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

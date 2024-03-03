@@ -150,5 +150,3 @@ inline ::LiteNetLib::NetPacket* LiteNetLib::NetConnectRequestPacket::Make(::Lite
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetConnectRequestPacket::NetConnectRequestPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

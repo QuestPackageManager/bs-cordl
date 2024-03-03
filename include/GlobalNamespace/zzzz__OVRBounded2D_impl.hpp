@@ -420,5 +420,3 @@ constexpr ::GlobalNamespace::OVRBounded2D::OVRBounded2D(uint64_t _Handle_k__Back
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBounded2D::OVRBounded2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

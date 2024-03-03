@@ -51,5 +51,3 @@ inline void Mono::Globalization::Unicode::Level2Map::_ctor(uint8_t source, uint8
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::Level2Map::Level2Map() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

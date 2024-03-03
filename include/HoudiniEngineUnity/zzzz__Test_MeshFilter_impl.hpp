@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_MeshFilter::IsEquivalentTo(::HoudiniEngineU
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_MeshFilter::Test_MeshFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

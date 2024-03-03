@@ -24,5 +24,3 @@ inline void Unity::XR::Oculus::Input::OculusGoController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Input::OculusGoController::OculusGoController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

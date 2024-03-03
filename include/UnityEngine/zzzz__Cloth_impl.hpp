@@ -69,5 +69,3 @@ inline void UnityEngine::Cloth::set_externalAcceleration_Injected(ByRef<::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Cloth::Cloth() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

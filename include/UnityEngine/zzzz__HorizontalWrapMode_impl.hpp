@@ -8,5 +8,3 @@ constexpr ::UnityEngine::HorizontalWrapMode::HorizontalWrapMode(int32_t value__)
 constexpr ::UnityEngine::HorizontalWrapMode::HorizontalWrapMode() {}
 constexpr ::UnityEngine::HorizontalWrapMode UnityEngine::HorizontalWrapMode::Wrap{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::HorizontalWrapMode UnityEngine::HorizontalWrapMode::Overflow{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -99,5 +99,3 @@ inline void Oculus::Platform::Models::Purchase::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::Purchase::Purchase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

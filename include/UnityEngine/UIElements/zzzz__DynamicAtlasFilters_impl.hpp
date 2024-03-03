@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::DynamicAtlasFilters UnityEngine::UIElements
 constexpr ::UnityEngine::UIElements::DynamicAtlasFilters UnityEngine::UIElements::DynamicAtlasFilters::Format{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::DynamicAtlasFilters UnityEngine::UIElements::DynamicAtlasFilters::ColorSpace{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UIElements::DynamicAtlasFilters UnityEngine::UIElements::DynamicAtlasFilters::FilterMode{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

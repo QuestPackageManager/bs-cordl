@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Asn1::Utilities::Dump::Main(::ArrayW<::StringW, :
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Utilities::Dump::Dump() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

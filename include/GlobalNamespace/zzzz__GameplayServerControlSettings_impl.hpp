@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::GameplayServerControlSettings GlobalNamespace::Game
 constexpr ::GlobalNamespace::GameplayServerControlSettings GlobalNamespace::GameplayServerControlSettings::AllowModifierSelection{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameplayServerControlSettings GlobalNamespace::GameplayServerControlSettings::AllowSpectate{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::GameplayServerControlSettings GlobalNamespace::GameplayServerControlSettings::All{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

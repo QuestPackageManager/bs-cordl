@@ -23,5 +23,3 @@ constexpr ::OVR::OpenVR::EVRInputError OVR::OpenVR::EVRInputError::NoData{ stati
 constexpr ::OVR::OpenVR::EVRInputError OVR::OpenVR::EVRInputError::BufferTooSmall{ static_cast<int32_t>(0xe) };
 constexpr ::OVR::OpenVR::EVRInputError OVR::OpenVR::EVRInputError::MismatchedActionManifest{ static_cast<int32_t>(0xf) };
 constexpr ::OVR::OpenVR::EVRInputError OVR::OpenVR::EVRInputError::MissingSkeletonData{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

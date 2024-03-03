@@ -276,5 +276,3 @@ inline void System::Security::Cryptography::MD5CryptoServiceProvider::AddLength(
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::MD5CryptoServiceProvider::MD5CryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

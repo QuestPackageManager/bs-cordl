@@ -90,5 +90,3 @@ inline void UnityEngine::CreateAssetMenuAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CreateAssetMenuAttribute::CreateAssetMenuAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

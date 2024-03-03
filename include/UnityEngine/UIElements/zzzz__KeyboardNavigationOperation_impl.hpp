@@ -16,5 +16,3 @@ constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UI
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::PageDown{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Begin{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::End{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

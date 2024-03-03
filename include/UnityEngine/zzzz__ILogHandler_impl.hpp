@@ -44,5 +44,3 @@ inline void UnityEngine::ILogHandler::LogException(::System::Exception* exceptio
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ILogHandler*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exception, context);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

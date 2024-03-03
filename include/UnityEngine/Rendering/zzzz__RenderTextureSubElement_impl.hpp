@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::RenderTextureSubElement UnityEngine::Renderi
 constexpr ::UnityEngine::Rendering::RenderTextureSubElement UnityEngine::Rendering::RenderTextureSubElement::Depth{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::RenderTextureSubElement UnityEngine::Rendering::RenderTextureSubElement::Stencil{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::RenderTextureSubElement UnityEngine::Rendering::RenderTextureSubElement::Default{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

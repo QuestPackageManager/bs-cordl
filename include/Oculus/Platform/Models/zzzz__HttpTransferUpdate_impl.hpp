@@ -63,5 +63,3 @@ inline void Oculus::Platform::Models::HttpTransferUpdate::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::HttpTransferUpdate::HttpTransferUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

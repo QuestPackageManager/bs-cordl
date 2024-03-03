@@ -26,5 +26,3 @@ inline ::System::Exception* System::Linq::Expressions::Error::ExtensionNodeMustO
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Error::Error() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

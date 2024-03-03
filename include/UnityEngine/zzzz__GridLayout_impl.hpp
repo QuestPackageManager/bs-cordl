@@ -88,5 +88,3 @@ inline void UnityEngine::GridLayout::CellToLocal_Injected(ByRef<::UnityEngine::V
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GridLayout::GridLayout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

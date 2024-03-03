@@ -481,5 +481,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Tsp::TimeStampTok
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampToken::TimeStampToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

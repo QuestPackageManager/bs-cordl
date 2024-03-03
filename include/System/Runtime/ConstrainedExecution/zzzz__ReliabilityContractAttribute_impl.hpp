@@ -62,5 +62,3 @@ inline void System::Runtime::ConstrainedExecution::ReliabilityContractAttribute:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::ReliabilityContractAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -441,5 +441,3 @@ inline void UnityEngine::UIElements::ReusableCollectionItem::OnGeometryChanged(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ReusableCollectionItem::ReusableCollectionItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

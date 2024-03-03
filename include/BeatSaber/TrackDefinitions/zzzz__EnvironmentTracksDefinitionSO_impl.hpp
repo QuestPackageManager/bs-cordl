@@ -1091,5 +1091,3 @@ inline void BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO::EnvironmentTracksDefinitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

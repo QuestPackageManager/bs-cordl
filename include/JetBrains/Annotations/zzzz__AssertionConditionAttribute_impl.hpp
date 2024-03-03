@@ -81,5 +81,3 @@ inline void JetBrains::Annotations::AssertionConditionAttribute::set_ConditionTy
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AssertionConditionAttribute::AssertionConditionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

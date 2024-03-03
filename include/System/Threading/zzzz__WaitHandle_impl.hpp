@@ -539,5 +539,3 @@ inline int32_t System::Threading::WaitHandle::Wait_internal(::cordl_internals::P
 }
 // Ctor Parameters []
 constexpr ::System::Threading::WaitHandle::WaitHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -279,5 +279,3 @@ constexpr ::UnityEngine::UIElements::StyleTranslate::StyleTranslate(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleTranslate::StyleTranslate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

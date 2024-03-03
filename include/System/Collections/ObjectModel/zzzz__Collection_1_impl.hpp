@@ -297,5 +297,3 @@ template <typename T> inline bool System::Collections::ObjectModel::Collection_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::ObjectModel::Collection_1<T>::Collection_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

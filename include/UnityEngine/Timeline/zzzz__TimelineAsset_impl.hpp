@@ -1620,5 +1620,3 @@ inline void UnityEngine::Timeline::TimelineAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineAsset::TimelineAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

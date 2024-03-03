@@ -23,5 +23,3 @@ constexpr ::System::Globalization::NumberStyles System::Globalization::NumberSty
 constexpr ::System::Globalization::NumberStyles System::Globalization::NumberStyles::Float{ static_cast<int32_t>(0xa7) };
 constexpr ::System::Globalization::NumberStyles System::Globalization::NumberStyles::Currency{ static_cast<int32_t>(0x17f) };
 constexpr ::System::Globalization::NumberStyles System::Globalization::NumberStyles::Any{ static_cast<int32_t>(0x1ff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1097,5 +1097,3 @@ inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::L
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JProperty::JProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

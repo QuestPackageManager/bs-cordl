@@ -108,5 +108,3 @@ inline void GlobalNamespace::NoteCutScoreSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutScoreSpawner::NoteCutScoreSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

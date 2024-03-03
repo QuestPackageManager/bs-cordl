@@ -336,5 +336,3 @@ constexpr ::GlobalNamespace::OVRSharable::OVRSharable(uint64_t _Handle_k__Backin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSharable::OVRSharable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

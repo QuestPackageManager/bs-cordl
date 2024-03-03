@@ -24,5 +24,3 @@ GlobalNamespace::INodePoseSyncStateManager::
                                                                     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*>(
       static_cast<void*>(this));
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

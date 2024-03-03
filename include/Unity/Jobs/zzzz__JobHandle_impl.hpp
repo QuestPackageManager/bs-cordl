@@ -173,5 +173,3 @@ constexpr ::Unity::Jobs::JobHandle::JobHandle(void* jobGroup, int32_t version) n
 }
 // Ctor Parameters []
 constexpr ::Unity::Jobs::JobHandle::JobHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

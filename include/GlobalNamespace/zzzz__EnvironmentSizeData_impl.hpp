@@ -143,5 +143,3 @@ inline void GlobalNamespace::EnvironmentSizeData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentSizeData::EnvironmentSizeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

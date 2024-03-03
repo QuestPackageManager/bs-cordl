@@ -156,5 +156,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::Quer
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::QueryKeyboardLayoutCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -273,5 +273,3 @@ constexpr ::UnityEngine::UIElements::StyleFloat::StyleFloat(float_t m_Value, ::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleFloat::StyleFloat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

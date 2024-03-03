@@ -162,5 +162,3 @@ inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::CpuBlit(::Unit
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::ShaderInfoStorage_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ inline void Org::BouncyCastle::Pkix::PkixAttrCertPathValidator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator::PkixAttrCertPathValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -276,5 +276,3 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnScreenStick() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

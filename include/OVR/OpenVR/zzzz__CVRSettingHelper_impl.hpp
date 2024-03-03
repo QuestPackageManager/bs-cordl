@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::CVRSettingHelper::CVRSettingHelper(void* m_pSettings) n
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRSettingHelper::CVRSettingHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

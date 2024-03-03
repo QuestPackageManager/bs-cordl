@@ -139,5 +139,3 @@ inline void GlobalNamespace::BasicConnectionRequestHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicConnectionRequestHandler::BasicConnectionRequestHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

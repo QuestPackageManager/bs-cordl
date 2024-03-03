@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Yoga::YogaMeasureMode::YogaMeasureMode() {}
 constexpr ::UnityEngine::Yoga::YogaMeasureMode UnityEngine::Yoga::YogaMeasureMode::Undefined{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Yoga::YogaMeasureMode UnityEngine::Yoga::YogaMeasureMode::Exactly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Yoga::YogaMeasureMode UnityEngine::Yoga::YogaMeasureMode::AtMost{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

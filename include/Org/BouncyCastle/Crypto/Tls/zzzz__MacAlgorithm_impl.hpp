@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Crypto::Tls::MacAlgorithm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::MacAlgorithm::MacAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

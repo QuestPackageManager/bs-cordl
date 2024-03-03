@@ -148,5 +148,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerSt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::AndroidGameControllerState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

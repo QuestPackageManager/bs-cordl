@@ -7,5 +7,3 @@ template <typename T> inline ::System::IDisposable* System::IObservable_1<T>::Su
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IObservable_1<T>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::IDisposable*, false>(this, ___internal_method, observer);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

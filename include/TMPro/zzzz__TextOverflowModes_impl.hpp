@@ -13,5 +13,3 @@ constexpr ::TMPro::TextOverflowModes TMPro::TextOverflowModes::Truncate{ static_
 constexpr ::TMPro::TextOverflowModes TMPro::TextOverflowModes::ScrollRect{ static_cast<int32_t>(0x4) };
 constexpr ::TMPro::TextOverflowModes TMPro::TextOverflowModes::Page{ static_cast<int32_t>(0x5) };
 constexpr ::TMPro::TextOverflowModes TMPro::TextOverflowModes::Linked{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -543,5 +543,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::PkiH
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeader::PkiHeader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

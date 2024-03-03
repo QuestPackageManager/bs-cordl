@@ -10,5 +10,3 @@ constexpr ::UnityEngine::AvatarIKHint UnityEngine::AvatarIKHint::LeftKnee{ stati
 constexpr ::UnityEngine::AvatarIKHint UnityEngine::AvatarIKHint::RightKnee{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AvatarIKHint UnityEngine::AvatarIKHint::LeftElbow{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::AvatarIKHint UnityEngine::AvatarIKHint::RightElbow{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

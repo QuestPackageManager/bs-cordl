@@ -27,5 +27,3 @@ inline void Org::BouncyCastle::Utilities::MemoableResetException::_ctor(::String
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::MemoableResetException::MemoableResetException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

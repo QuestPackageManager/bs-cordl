@@ -165,5 +165,3 @@ constexpr ::UnityEngine::UIElements::UQueryBuilder_1<T>::UQueryBuilder_1(::Syste
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UQueryBuilder_1<T>::UQueryBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

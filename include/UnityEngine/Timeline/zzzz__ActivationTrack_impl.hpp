@@ -204,5 +204,3 @@ inline void UnityEngine::Timeline::ActivationTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ActivationTrack::ActivationTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

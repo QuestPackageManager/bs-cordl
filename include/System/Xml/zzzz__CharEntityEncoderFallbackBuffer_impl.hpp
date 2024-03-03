@@ -210,5 +210,3 @@ inline int32_t System::Xml::CharEntityEncoderFallbackBuffer::SurrogateCharToUtf3
 }
 // Ctor Parameters []
 constexpr ::System::Xml::CharEntityEncoderFallbackBuffer::CharEntityEncoderFallbackBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

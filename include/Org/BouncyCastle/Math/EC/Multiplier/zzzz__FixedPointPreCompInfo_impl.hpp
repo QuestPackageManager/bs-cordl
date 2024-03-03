@@ -207,5 +207,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::_cto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::FixedPointPreCompInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

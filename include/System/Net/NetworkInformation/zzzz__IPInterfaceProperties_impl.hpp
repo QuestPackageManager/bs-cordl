@@ -71,5 +71,3 @@ inline void System::Net::NetworkInformation::IPInterfaceProperties::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::IPInterfaceProperties::IPInterfaceProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

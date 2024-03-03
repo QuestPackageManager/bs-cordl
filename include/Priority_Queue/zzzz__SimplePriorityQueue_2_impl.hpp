@@ -332,5 +332,3 @@ template <typename TItem, typename TPriority> inline bool Priority_Queue::Simple
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>::SimplePriorityQueue_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

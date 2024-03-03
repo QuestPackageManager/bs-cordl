@@ -12,5 +12,3 @@ constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner HoudiniEngineUnity::HAPI_Att
 constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner HoudiniEngineUnity::HAPI_AttributeOwner::HAPI_ATTROWNER_PRIM{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner HoudiniEngineUnity::HAPI_AttributeOwner::HAPI_ATTROWNER_DETAIL{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner HoudiniEngineUnity::HAPI_AttributeOwner::HAPI_ATTROWNER_MAX{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -343,5 +343,3 @@ inline bool LiteNetLib::ReliableChannel::ProcessPacket(::LiteNetLib::NetPacket* 
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::ReliableChannel::ReliableChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

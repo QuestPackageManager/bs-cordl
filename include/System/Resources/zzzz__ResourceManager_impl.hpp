@@ -381,5 +381,3 @@ inline bool System::Resources::ResourceManager::CompareNames(::StringW asmTypeNa
 }
 // Ctor Parameters []
 constexpr ::System::Resources::ResourceManager::ResourceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

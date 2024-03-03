@@ -90,5 +90,3 @@ inline void Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::_cto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::DefaultDigestAlgorithmIdentifierFinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

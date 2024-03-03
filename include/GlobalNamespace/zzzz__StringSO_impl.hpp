@@ -24,5 +24,3 @@ inline void GlobalNamespace::StringSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StringSO::StringSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

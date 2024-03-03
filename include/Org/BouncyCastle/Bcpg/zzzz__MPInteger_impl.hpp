@@ -128,5 +128,3 @@ inline void Org::BouncyCastle::Bcpg::MPInteger::Encode(::Org::BouncyCastle::Bcpg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::MPInteger::MPInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

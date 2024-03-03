@@ -307,5 +307,3 @@ constexpr ::UnityEngine::UIElements::TextNativeHandle::TextNativeHandle(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextNativeHandle::TextNativeHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -221,5 +221,3 @@ inline void UnityEngine::XR::InputTracking::InvokeTrackingEvent(::UnityEngine::X
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::InputTracking::InputTracking() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UICharInfo::UICharInfo(::UnityEngine::Vector2 cursorPos
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UICharInfo::UICharInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

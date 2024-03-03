@@ -998,5 +998,3 @@ inline ::System::Threading::Tasks::Task* System::IO::StreamWriter::FlushAsyncInt
 }
 // Ctor Parameters []
 constexpr ::System::IO::StreamWriter::StreamWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

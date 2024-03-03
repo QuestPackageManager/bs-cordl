@@ -113,5 +113,3 @@ inline ::System::Object* System::Xml::Schema::XmlStringConverter::ChangeType(::S
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlStringConverter::XmlStringConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* Org::BouncyCastle::Cms::ISign
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::ISignerInfoGenerator*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::SignerInfo*, false>(this, ___internal_method, contentType, digestAlgorithm, calculatedDigest);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

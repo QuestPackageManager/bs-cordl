@@ -130,5 +130,3 @@ template <typename TResult> inline bool System::Threading::Tasks::UnwrapPromise_
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::UnwrapPromise_1<TResult>::UnwrapPromise_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

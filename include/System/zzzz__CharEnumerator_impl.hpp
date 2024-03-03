@@ -231,5 +231,3 @@ inline void System::CharEnumerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::CharEnumerator::CharEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

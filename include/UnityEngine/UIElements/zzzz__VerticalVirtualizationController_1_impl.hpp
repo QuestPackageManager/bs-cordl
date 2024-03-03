@@ -298,5 +298,3 @@ template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizatio
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>::VerticalVirtualizationController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

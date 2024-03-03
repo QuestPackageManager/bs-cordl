@@ -100,5 +100,3 @@ inline void Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::ExtractBytes(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::SubjectPublicKeyInfoFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -347,5 +347,3 @@ constexpr ::TMPro::ColorTween::ColorTween(::TMPro::__ColorTween__ColorTweenCallb
 }
 // Ctor Parameters []
 constexpr ::TMPro::ColorTween::ColorTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -175,5 +175,3 @@ inline void GlobalNamespace::DroppedFramesLabel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DroppedFramesLabel::DroppedFramesLabel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

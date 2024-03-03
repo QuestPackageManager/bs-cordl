@@ -543,5 +543,3 @@ inline void UnityEngine::Texture::get_texelSize_Injected(ByRef<::UnityEngine::Ve
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Texture::Texture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_Status_t::VREvent_Status_t(uint32_t statusState
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Status_t::VREvent_Status_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

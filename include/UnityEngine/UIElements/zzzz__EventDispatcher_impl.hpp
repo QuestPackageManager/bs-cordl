@@ -397,5 +397,3 @@ inline void UnityEngine::UIElements::EventDispatcher::ApplyDispatchingStrategies
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDispatcher::EventDispatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

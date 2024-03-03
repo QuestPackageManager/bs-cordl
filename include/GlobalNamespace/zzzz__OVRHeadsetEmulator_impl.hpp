@@ -255,5 +255,3 @@ inline void GlobalNamespace::OVRHeadsetEmulator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRHeadsetEmulator::OVRHeadsetEmulator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

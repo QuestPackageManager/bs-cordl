@@ -124,5 +124,3 @@ inline void System::IO::IOException::_ctor(::System::Runtime::Serialization::Ser
 }
 // Ctor Parameters []
 constexpr ::System::IO::IOException::IOException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

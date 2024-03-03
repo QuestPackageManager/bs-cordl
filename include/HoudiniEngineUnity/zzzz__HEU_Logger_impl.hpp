@@ -261,5 +261,3 @@ inline void HoudiniEngineUnity::HEU_Logger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Logger::HEU_Logger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

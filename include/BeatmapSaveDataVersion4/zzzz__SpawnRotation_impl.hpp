@@ -10,5 +10,3 @@ constexpr ::BeatmapSaveDataVersion4::SpawnRotation::SpawnRotation(::BeatmapSaveD
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::SpawnRotation::SpawnRotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

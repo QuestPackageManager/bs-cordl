@@ -139,5 +139,3 @@ inline ::StringW Mono::Security::X509::Extensions::BasicConstraintsExtension::To
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::Extensions::BasicConstraintsExtension::BasicConstraintsExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -202,5 +202,3 @@ constexpr ::UnityEngine::UI::SpriteState::SpriteState(::UnityW<::UnityEngine::Sp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::SpriteState::SpriteState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

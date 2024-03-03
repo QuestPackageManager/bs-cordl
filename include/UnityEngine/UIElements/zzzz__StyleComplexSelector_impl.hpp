@@ -352,5 +352,3 @@ inline void UnityEngine::UIElements::StyleComplexSelector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleComplexSelector::StyleComplexSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

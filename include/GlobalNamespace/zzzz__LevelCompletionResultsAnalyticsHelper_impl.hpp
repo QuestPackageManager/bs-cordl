@@ -29,5 +29,3 @@ inline void GlobalNamespace::LevelCompletionResultsAnalyticsHelper::FillEventDat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::LevelCompletionResultsAnalyticsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

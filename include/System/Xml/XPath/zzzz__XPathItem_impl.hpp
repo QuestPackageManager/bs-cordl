@@ -240,5 +240,3 @@ inline void System::Xml::XPath::XPathItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XPath::XPathItem::XPathItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

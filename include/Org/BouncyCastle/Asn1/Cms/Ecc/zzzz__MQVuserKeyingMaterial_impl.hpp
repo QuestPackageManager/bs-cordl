@@ -193,5 +193,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Ecc:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::MQVuserKeyingMaterial() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

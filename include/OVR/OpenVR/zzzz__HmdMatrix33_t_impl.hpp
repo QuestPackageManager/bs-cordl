@@ -17,5 +17,3 @@ constexpr ::OVR::OpenVR::HmdMatrix33_t::HmdMatrix33_t(float_t m0, float_t m1, fl
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdMatrix33_t::HmdMatrix33_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

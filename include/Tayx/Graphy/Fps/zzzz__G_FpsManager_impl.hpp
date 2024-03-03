@@ -359,5 +359,3 @@ inline void Tayx::Graphy::Fps::G_FpsManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Fps::G_FpsManager::G_FpsManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

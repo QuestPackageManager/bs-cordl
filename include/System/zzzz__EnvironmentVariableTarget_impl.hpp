@@ -9,5 +9,3 @@ constexpr ::System::EnvironmentVariableTarget::EnvironmentVariableTarget() {}
 constexpr ::System::EnvironmentVariableTarget System::EnvironmentVariableTarget::Process{ static_cast<int32_t>(0x0) };
 constexpr ::System::EnvironmentVariableTarget System::EnvironmentVariableTarget::User{ static_cast<int32_t>(0x1) };
 constexpr ::System::EnvironmentVariableTarget System::EnvironmentVariableTarget::Machine{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

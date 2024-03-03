@@ -71,5 +71,3 @@ inline void GlobalNamespace::StringBuilderExtension::AppendNumber(::System::Text
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StringBuilderExtension::StringBuilderExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

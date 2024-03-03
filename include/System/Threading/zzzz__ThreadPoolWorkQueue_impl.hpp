@@ -629,5 +629,3 @@ inline bool System::Threading::ThreadPoolWorkQueue::Dispatch() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadPoolWorkQueue::ThreadPoolWorkQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

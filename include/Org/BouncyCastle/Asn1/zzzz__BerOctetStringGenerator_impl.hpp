@@ -263,5 +263,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Asn1::BerOctetStringGenerator::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerOctetStringGenerator::BerOctetStringGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

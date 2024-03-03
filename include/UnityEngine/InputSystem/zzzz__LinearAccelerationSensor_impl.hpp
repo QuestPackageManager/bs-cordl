@@ -194,5 +194,3 @@ inline void UnityEngine::InputSystem::LinearAccelerationSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LinearAccelerationSensor::LinearAccelerationSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

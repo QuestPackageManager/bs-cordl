@@ -43,5 +43,3 @@ inline float_t GlobalNamespace::AudioHelpers::DBToNormalizedVolume(float_t db) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioHelpers::AudioHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

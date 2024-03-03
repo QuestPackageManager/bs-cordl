@@ -112,5 +112,3 @@ inline void System::Runtime::Remoting::Messaging::CallContext::LogicalSetData(::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CallContext::CallContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

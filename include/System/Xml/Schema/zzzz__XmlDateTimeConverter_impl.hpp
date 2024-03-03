@@ -295,5 +295,3 @@ inline ::System::Object* System::Xml::Schema::XmlDateTimeConverter::ChangeType(:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlDateTimeConverter::XmlDateTimeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

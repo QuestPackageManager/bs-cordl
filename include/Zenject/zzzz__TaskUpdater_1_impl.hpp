@@ -258,5 +258,3 @@ template <typename TTask> inline ::Zenject::InjectTypeInfo* Zenject::TaskUpdater
 }
 // Ctor Parameters []
 template <typename TTask> constexpr ::Zenject::TaskUpdater_1<TTask>::TaskUpdater_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

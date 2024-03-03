@@ -103,5 +103,3 @@ inline void Org::BouncyCastle::Bcpg::TrustPacket::Encode(::Org::BouncyCastle::Bc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::TrustPacket::TrustPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

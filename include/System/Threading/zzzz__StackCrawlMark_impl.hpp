@@ -10,5 +10,3 @@ constexpr ::System::Threading::StackCrawlMark System::Threading::StackCrawlMark:
 constexpr ::System::Threading::StackCrawlMark System::Threading::StackCrawlMark::LookForMyCaller{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::StackCrawlMark System::Threading::StackCrawlMark::LookForMyCallersCaller{ static_cast<int32_t>(0x2) };
 constexpr ::System::Threading::StackCrawlMark System::Threading::StackCrawlMark::LookForThread{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

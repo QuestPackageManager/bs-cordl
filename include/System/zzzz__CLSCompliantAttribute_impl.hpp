@@ -38,5 +38,3 @@ inline void System::CLSCompliantAttribute::_ctor(bool isCompliant) {
 }
 // Ctor Parameters []
 constexpr ::System::CLSCompliantAttribute::CLSCompliantAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

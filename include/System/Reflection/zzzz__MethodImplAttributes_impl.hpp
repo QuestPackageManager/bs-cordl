@@ -23,5 +23,3 @@ constexpr ::System::Reflection::MethodImplAttributes System::Reflection::MethodI
 constexpr ::System::Reflection::MethodImplAttributes System::Reflection::MethodImplAttributes::NoOptimization{ static_cast<int32_t>(0x40) };
 constexpr ::System::Reflection::MethodImplAttributes System::Reflection::MethodImplAttributes::MaxMethodImplVal{ static_cast<int32_t>(0xffff) };
 constexpr ::System::Reflection::MethodImplAttributes System::Reflection::MethodImplAttributes::SecurityMitigations{ static_cast<int32_t>(0x400) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

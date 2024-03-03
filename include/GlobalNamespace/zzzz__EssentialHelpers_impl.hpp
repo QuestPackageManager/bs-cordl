@@ -52,5 +52,3 @@ template <typename T> inline T GlobalNamespace::EssentialHelpers::GetOrAddCompon
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EssentialHelpers::EssentialHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

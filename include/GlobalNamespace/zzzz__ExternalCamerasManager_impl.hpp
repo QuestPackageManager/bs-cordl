@@ -123,5 +123,3 @@ inline void GlobalNamespace::ExternalCamerasManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ExternalCamerasManager::ExternalCamerasManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

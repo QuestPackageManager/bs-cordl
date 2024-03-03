@@ -680,5 +680,3 @@ inline void GlobalNamespace::OVRDebugInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDebugInfo::OVRDebugInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

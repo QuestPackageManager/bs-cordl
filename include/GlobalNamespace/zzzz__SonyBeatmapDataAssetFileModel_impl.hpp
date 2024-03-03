@@ -225,5 +225,3 @@ inline void GlobalNamespace::SonyBeatmapDataAssetFileModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyBeatmapDataAssetFileModel::SonyBeatmapDataAssetFileModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

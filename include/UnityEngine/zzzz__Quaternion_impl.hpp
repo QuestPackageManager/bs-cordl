@@ -1099,5 +1099,3 @@ constexpr ::UnityEngine::Quaternion::Quaternion(float_t x, float_t y, float_t z,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Quaternion::Quaternion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

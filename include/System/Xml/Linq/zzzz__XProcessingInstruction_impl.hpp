@@ -217,5 +217,3 @@ inline void System::Xml::Linq::XProcessingInstruction::ValidateName(::StringW na
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XProcessingInstruction::XProcessingInstruction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

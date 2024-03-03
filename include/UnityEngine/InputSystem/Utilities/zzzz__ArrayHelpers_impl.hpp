@@ -667,5 +667,3 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Arra
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers::ArrayHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -333,5 +333,3 @@ inline void Tayx::Graphy::Ram::G_RamManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Ram::G_RamManager::G_RamManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

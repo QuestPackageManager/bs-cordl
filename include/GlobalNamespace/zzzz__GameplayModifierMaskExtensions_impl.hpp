@@ -114,5 +114,3 @@ inline ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifier
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifierMaskExtensions::GameplayModifierMaskExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

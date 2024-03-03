@@ -233,5 +233,3 @@ inline void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::Reseed(::ArrayW<
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SP800SecureRandom() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

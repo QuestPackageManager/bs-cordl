@@ -85,5 +85,3 @@ constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayer
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

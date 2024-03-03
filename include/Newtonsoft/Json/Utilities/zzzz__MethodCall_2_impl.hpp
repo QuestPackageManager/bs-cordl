@@ -36,5 +36,3 @@ template <typename T, typename TResult> inline TResult Newtonsoft::Json::Utiliti
 }
 // Ctor Parameters []
 template <typename T, typename TResult> constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>::MethodCall_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

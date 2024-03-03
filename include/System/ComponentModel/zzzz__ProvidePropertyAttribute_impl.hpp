@@ -65,5 +65,3 @@ inline ::StringW System::ComponentModel::ProvidePropertyAttribute::get_ReceiverT
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ProvidePropertyAttribute::ProvidePropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

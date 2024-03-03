@@ -1369,5 +1369,3 @@ constexpr ::UnityEngine::InputSystem::InputControlScheme::InputControlScheme(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputControlScheme::InputControlScheme() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -70,5 +70,3 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UxmlFa
 }
 // Ctor Parameters []
 template <typename TCreatedType, typename TTraits> constexpr ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::UxmlFactory_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

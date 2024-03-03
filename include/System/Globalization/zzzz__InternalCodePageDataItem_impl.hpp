@@ -10,5 +10,3 @@ constexpr ::System::Globalization::InternalCodePageDataItem::InternalCodePageDat
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::InternalCodePageDataItem::InternalCodePageDataItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

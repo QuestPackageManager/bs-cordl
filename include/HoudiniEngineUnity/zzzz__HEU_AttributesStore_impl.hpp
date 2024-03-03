@@ -1525,5 +1525,3 @@ inline void HoudiniEngineUnity::HEU_AttributesStore::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AttributesStore::HEU_AttributesStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

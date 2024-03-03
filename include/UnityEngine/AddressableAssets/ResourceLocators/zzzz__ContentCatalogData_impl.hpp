@@ -935,5 +935,3 @@ inline void UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::ContentCatalogData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

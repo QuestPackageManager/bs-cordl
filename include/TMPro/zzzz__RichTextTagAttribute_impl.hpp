@@ -18,5 +18,3 @@ constexpr ::TMPro::RichTextTagAttribute::RichTextTagAttribute(int32_t nameHashCo
 }
 // Ctor Parameters []
 constexpr ::TMPro::RichTextTagAttribute::RichTextTagAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

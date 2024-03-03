@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_LODGroup::IsEquivalentTo(::HoudiniEngineUni
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_LODGroup::Test_LODGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

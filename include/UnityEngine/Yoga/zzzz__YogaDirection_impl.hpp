@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Yoga::YogaDirection::YogaDirection() {}
 constexpr ::UnityEngine::Yoga::YogaDirection UnityEngine::Yoga::YogaDirection::Inherit{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Yoga::YogaDirection UnityEngine::Yoga::YogaDirection::LTR{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Yoga::YogaDirection UnityEngine::Yoga::YogaDirection::RTL{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -33,5 +33,3 @@ inline void GlobalNamespace::SteamNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SteamNetworkPlayerModel::SteamNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

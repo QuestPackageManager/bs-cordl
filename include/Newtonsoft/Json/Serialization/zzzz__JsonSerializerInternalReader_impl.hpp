@@ -1796,5 +1796,3 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::Handl
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::JsonSerializerInternalReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -167,5 +167,3 @@ constexpr ::UnityEngine::UIElements::ListDragAndDropArgs::ListDragAndDropArgs(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListDragAndDropArgs::ListDragAndDropArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

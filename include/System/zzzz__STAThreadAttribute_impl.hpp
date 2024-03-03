@@ -24,5 +24,3 @@ inline void System::STAThreadAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::STAThreadAttribute::STAThreadAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

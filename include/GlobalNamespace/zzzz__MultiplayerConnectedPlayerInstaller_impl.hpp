@@ -232,5 +232,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerInstaller::MultiplayerConnectedPlayerInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

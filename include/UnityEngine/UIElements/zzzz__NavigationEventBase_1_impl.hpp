@@ -30,5 +30,3 @@ template <typename T> inline void UnityEngine::UIElements::NavigationEventBase_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::NavigationEventBase_1<T>::NavigationEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

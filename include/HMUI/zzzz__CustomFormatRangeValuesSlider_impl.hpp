@@ -56,5 +56,3 @@ inline void HMUI::CustomFormatRangeValuesSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::CustomFormatRangeValuesSlider::CustomFormatRangeValuesSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

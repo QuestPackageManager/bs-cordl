@@ -74,5 +74,3 @@ inline void Oculus::Platform::Models::UserCapability::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::UserCapability::UserCapability() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

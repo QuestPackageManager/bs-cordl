@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_Material::IsEquivalentTo(::HoudiniEngineUni
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Material::Test_Material() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

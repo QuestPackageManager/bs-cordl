@@ -566,5 +566,3 @@ inline void GlobalNamespace::OVRHandTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRHandTest::OVRHandTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

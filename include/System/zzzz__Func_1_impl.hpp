@@ -18,5 +18,3 @@ template <typename TResult> inline TResult System::Func_1<TResult>::Invoke() {
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Func_1<TResult>::Func_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

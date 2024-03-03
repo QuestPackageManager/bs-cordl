@@ -130,5 +130,3 @@ inline bool Org::BouncyCastle::Cmp::CertificateStatus::IsVerified(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CertificateStatus::CertificateStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

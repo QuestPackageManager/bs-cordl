@@ -51,5 +51,3 @@ inline void UnityEngine::Networking::PlayerConnection::MessageEventArgs::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::PlayerConnection::MessageEventArgs::MessageEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

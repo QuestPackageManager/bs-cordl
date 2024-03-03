@@ -479,5 +479,3 @@ inline void System::Net::ResponseStream::SetLength(int64_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ResponseStream::ResponseStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -229,5 +229,3 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation::InitalizationObjectsOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

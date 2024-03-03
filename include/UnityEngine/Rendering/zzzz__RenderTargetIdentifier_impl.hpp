@@ -244,5 +244,3 @@ constexpr ::UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

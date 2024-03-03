@@ -175,5 +175,3 @@ inline void System::Xml::Schema::Datatype_short::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_short::Datatype_short() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::UserAgeCategory GlobalNamespace::UserAgeCategory::U
 constexpr ::GlobalNamespace::UserAgeCategory GlobalNamespace::UserAgeCategory::Child{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::UserAgeCategory GlobalNamespace::UserAgeCategory::Teen{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::UserAgeCategory GlobalNamespace::UserAgeCategory::Adult{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::InputSystem::InputActionPhase UnityEngine::InputSystem:
 constexpr ::UnityEngine::InputSystem::InputActionPhase UnityEngine::InputSystem::InputActionPhase::Started{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::InputActionPhase UnityEngine::InputSystem::InputActionPhase::Performed{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputSystem::InputActionPhase UnityEngine::InputSystem::InputActionPhase::Canceled{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

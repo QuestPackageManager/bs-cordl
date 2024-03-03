@@ -22,5 +22,3 @@ constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionF
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::ServerIsTerminating{ static_cast<int32_t>(0xd) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::Timeout{ static_cast<int32_t>(0xe) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::FailedToFindMatch{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -147,5 +147,3 @@ inline void UnityEngine::UIElements::InputEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InputEvent::InputEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

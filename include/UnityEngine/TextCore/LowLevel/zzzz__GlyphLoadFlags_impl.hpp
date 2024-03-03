@@ -17,5 +17,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags UnityEngine::TextCor
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags UnityEngine::TextCore::LowLevel::GlyphLoadFlags::LOAD_COLOR{ static_cast<int32_t>(0x100000) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags UnityEngine::TextCore::LowLevel::GlyphLoadFlags::LOAD_COMPUTE_METRICS{ static_cast<int32_t>(0x200000) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags UnityEngine::TextCore::LowLevel::GlyphLoadFlags::LOAD_BITMAP_METRICS_ONLY{ static_cast<int32_t>(0x400000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

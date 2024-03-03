@@ -80,5 +80,3 @@ inline void UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor(::System::Ty
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackBindingTypeAttribute::TrackBindingTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

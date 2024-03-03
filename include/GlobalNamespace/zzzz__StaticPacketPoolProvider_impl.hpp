@@ -47,5 +47,3 @@ inline bool GlobalNamespace::StaticPacketPoolProvider::TryGetPacketPool(::System
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticPacketPoolProvider::StaticPacketPoolProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

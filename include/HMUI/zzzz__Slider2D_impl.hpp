@@ -660,5 +660,3 @@ inline ::UnityW<::UnityEngine::Transform> HMUI::Slider2D::UnityEngine_UI_ICanvas
 }
 // Ctor Parameters []
 constexpr ::HMUI::Slider2D::Slider2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

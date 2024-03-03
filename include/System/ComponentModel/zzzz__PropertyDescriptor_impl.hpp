@@ -384,5 +384,3 @@ inline bool System::ComponentModel::PropertyDescriptor::ShouldSerializeValue(::S
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::PropertyDescriptor::PropertyDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -796,5 +796,3 @@ inline void UnityEngine::TextCore::Text::SpriteAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::SpriteAsset::SpriteAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

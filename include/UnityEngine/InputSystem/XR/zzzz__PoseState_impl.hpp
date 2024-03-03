@@ -133,5 +133,3 @@ constexpr ::UnityEngine::InputSystem::XR::PoseState::PoseState(bool isTracked, :
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::PoseState::PoseState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

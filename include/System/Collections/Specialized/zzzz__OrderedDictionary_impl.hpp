@@ -1076,5 +1076,3 @@ inline void System::Collections::Specialized::OrderedDictionary::OnDeserializati
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::OrderedDictionary::OrderedDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -231,5 +231,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlProcessingInstruction::CloneNode(
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlProcessingInstruction::XmlProcessingInstruction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

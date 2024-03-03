@@ -1053,5 +1053,3 @@ inline void System::Security::Claims::ClaimsIdentity::Deserialize(::System::Runt
 }
 // Ctor Parameters []
 constexpr ::System::Security::Claims::ClaimsIdentity::ClaimsIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

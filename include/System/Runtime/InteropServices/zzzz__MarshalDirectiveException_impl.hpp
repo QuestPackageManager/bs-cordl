@@ -80,5 +80,3 @@ inline void System::Runtime::InteropServices::MarshalDirectiveException::_ctor(:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::MarshalDirectiveException::MarshalDirectiveException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

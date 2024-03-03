@@ -108,5 +108,3 @@ inline void GlobalNamespace::PlayerMissionStatsData::_ctor(::StringW missionId, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerMissionStatsData::PlayerMissionStatsData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ inline void LiteNetLib::Utils::ParseException::_ctor(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::ParseException::ParseException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

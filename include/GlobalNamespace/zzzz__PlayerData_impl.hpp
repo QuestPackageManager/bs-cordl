@@ -2307,5 +2307,3 @@ inline bool GlobalNamespace::PlayerData::DidSelectRegion() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerData::PlayerData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

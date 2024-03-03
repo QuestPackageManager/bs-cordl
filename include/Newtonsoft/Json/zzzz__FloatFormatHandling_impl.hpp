@@ -9,5 +9,3 @@ constexpr ::Newtonsoft::Json::FloatFormatHandling::FloatFormatHandling() {}
 constexpr ::Newtonsoft::Json::FloatFormatHandling Newtonsoft::Json::FloatFormatHandling::String{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::FloatFormatHandling Newtonsoft::Json::FloatFormatHandling::Symbol{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::FloatFormatHandling Newtonsoft::Json::FloatFormatHandling::DefaultValue{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

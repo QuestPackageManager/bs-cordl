@@ -178,5 +178,3 @@ inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Dig
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Sha3Digest::Sha3Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

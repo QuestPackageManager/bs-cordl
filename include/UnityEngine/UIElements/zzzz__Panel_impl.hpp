@@ -1369,5 +1369,3 @@ inline ::UnityEngine::Vector2Int UnityEngine::UIElements::Panel::_Pick_g__PixelO
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Panel::Panel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

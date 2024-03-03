@@ -102,5 +102,3 @@ inline ::System::Type* UnityEngine::InputSystem::Utilities::TypeHelpers::GetGene
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::TypeHelpers::TypeHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

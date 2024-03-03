@@ -140,5 +140,3 @@ inline void GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StartMiddleEndButtonBackgroundController::StartMiddleEndButtonBackgroundController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

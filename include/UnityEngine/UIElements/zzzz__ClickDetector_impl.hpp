@@ -291,5 +291,3 @@ inline bool UnityEngine::UIElements::ClickDetector::ContainsPointer(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ClickDetector::ClickDetector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

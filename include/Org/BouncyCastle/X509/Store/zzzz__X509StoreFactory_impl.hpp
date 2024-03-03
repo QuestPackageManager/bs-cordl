@@ -75,5 +75,3 @@ inline void Org::BouncyCastle::X509::Store::X509StoreFactory::checkCorrectType(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509StoreFactory::X509StoreFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

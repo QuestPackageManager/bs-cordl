@@ -25,5 +25,3 @@ inline void GlobalNamespace::MultiplayerLobbyCenterScreenSystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyCenterScreenSystem::MultiplayerLobbyCenterScreenSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

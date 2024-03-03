@@ -383,5 +383,3 @@ inline bool UnityEngine::UIElements::ScheduledItem::ShouldUnschedule() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ScheduledItem::ScheduledItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

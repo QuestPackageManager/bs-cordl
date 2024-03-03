@@ -24,5 +24,3 @@ inline void GlobalNamespace::DoubleSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DoubleSO::DoubleSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

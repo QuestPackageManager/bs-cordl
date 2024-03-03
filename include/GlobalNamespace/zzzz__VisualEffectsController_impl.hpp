@@ -146,5 +146,3 @@ inline void GlobalNamespace::VisualEffectsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VisualEffectsController::VisualEffectsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

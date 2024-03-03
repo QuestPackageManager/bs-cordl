@@ -269,5 +269,3 @@ inline void GlobalNamespace::CoreGameHUDController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CoreGameHUDController::CoreGameHUDController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

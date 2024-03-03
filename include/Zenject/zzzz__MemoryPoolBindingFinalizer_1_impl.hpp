@@ -52,5 +52,3 @@ template <typename TContract> inline void Zenject::MemoryPoolBindingFinalizer_1<
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolBindingFinalizer_1<TContract>::MemoryPoolBindingFinalizer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

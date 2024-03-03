@@ -176,5 +176,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryConverter:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::BinaryConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -302,5 +302,3 @@ inline void VRUIControls::VRGraphicRaycaster::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

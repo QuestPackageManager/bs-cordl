@@ -125,5 +125,3 @@ inline void BeatSaber::PerformancePresets::QuestPerformanceSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::PerformancePresets::QuestPerformanceSettings::QuestPerformanceSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

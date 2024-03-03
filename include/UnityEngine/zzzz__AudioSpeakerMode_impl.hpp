@@ -14,5 +14,3 @@ constexpr ::UnityEngine::AudioSpeakerMode UnityEngine::AudioSpeakerMode::Surroun
 constexpr ::UnityEngine::AudioSpeakerMode UnityEngine::AudioSpeakerMode::Mode5point1{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::AudioSpeakerMode UnityEngine::AudioSpeakerMode::Mode7point1{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::AudioSpeakerMode UnityEngine::AudioSpeakerMode::Prologic{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

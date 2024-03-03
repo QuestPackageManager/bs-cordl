@@ -105,5 +105,3 @@ inline void GlobalNamespace::EmptyPlatformAchievementsHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EmptyPlatformAchievementsHandler::EmptyPlatformAchievementsHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

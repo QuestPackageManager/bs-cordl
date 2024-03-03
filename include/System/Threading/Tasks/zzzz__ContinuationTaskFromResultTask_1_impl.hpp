@@ -51,5 +51,3 @@ template <typename TAntecedentResult> inline void System::Threading::Tasks::Cont
 }
 // Ctor Parameters []
 template <typename TAntecedentResult> constexpr ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::ContinuationTaskFromResultTask_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -67,5 +67,3 @@ constexpr ::UnityEngine::Experimental::Video::VideoClipPlayable::VideoClipPlayab
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Video::VideoClipPlayable::VideoClipPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -77,5 +77,3 @@ inline void System::Threading::LockRecursionException::_ctor(::System::Runtime::
 }
 // Ctor Parameters []
 constexpr ::System::Threading::LockRecursionException::LockRecursionException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

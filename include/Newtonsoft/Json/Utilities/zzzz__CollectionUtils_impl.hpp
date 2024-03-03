@@ -290,5 +290,3 @@ inline ::System::Array* Newtonsoft::Json::Utilities::CollectionUtils::ToMultidim
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::CollectionUtils::CollectionUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

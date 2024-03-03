@@ -22,5 +22,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarsha
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

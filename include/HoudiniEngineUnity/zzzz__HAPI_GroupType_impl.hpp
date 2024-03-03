@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_GroupType HoudiniEngineUnity::HAPI_GroupTyp
 constexpr ::HoudiniEngineUnity::HAPI_GroupType HoudiniEngineUnity::HAPI_GroupType::HAPI_GROUPTYPE_PRIM{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_GroupType HoudiniEngineUnity::HAPI_GroupType::HAPI_GROUPTYPE_EDGE{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_GroupType HoudiniEngineUnity::HAPI_GroupType::HAPI_GROUPTYPE_MAX{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

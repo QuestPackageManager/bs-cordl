@@ -97,5 +97,3 @@ inline void UnityEngine::XR::WindowsMR::Input::WMRHMD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::WindowsMR::Input::WMRHMD::WMRHMD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

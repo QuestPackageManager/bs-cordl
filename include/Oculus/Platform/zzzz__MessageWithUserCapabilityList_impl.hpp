@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::UserCapabilityList* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithUserCapabilityList::MessageWithUserCapabilityList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

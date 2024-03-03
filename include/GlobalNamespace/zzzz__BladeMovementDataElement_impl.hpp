@@ -15,5 +15,3 @@ constexpr ::GlobalNamespace::BladeMovementDataElement::BladeMovementDataElement(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BladeMovementDataElement::BladeMovementDataElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

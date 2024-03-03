@@ -467,5 +467,3 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::OculusInit::CheckUserA
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusInit::OculusInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

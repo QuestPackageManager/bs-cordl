@@ -204,5 +204,3 @@ inline void GlobalNamespace::PackLevelListHeaderTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PackLevelListHeaderTableCell::PackLevelListHeaderTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

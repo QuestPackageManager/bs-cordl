@@ -37,5 +37,3 @@ constexpr ::UnityEngine::InputSystem::UI::NavigationModel::NavigationModel(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::NavigationModel::NavigationModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

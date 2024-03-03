@@ -285,5 +285,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Security::DigestU
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::DigestUtilities::DigestUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

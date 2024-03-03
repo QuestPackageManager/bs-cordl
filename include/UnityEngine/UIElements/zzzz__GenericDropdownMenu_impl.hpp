@@ -789,5 +789,3 @@ UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_25_1(i
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GenericDropdownMenu::GenericDropdownMenu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

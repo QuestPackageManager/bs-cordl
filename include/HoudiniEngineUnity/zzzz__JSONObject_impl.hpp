@@ -734,5 +734,3 @@ inline void HoudiniEngineUnity::JSONObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONObject::JSONObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

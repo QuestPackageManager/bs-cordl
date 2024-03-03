@@ -257,5 +257,3 @@ inline void UnityEngine::UI::Shadow::ModifyMesh(::UnityEngine::UI::VertexHelper*
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Shadow::Shadow() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

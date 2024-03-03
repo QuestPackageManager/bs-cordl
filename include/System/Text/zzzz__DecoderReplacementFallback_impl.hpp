@@ -226,5 +226,3 @@ inline int32_t System::Text::DecoderReplacementFallback::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::DecoderReplacementFallback::DecoderReplacementFallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

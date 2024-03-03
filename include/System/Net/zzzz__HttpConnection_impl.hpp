@@ -778,5 +778,3 @@ inline bool System::Net::HttpConnection::__ctor_b__24_0(::System::Object* t, ::S
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpConnection::HttpConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

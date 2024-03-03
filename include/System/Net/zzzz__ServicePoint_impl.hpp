@@ -840,5 +840,3 @@ inline bool System::Net::ServicePoint::CallEndPointDelegate(::System::Net::Socke
 }
 // Ctor Parameters []
 constexpr ::System::Net::ServicePoint::ServicePoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -151,5 +151,3 @@ inline void GlobalNamespace::AsyncComputeManager::ComputeThreadRun() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AsyncComputeManager::AsyncComputeManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

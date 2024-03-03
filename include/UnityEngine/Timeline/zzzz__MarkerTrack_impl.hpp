@@ -46,5 +46,3 @@ inline void UnityEngine::Timeline::MarkerTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::MarkerTrack::MarkerTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

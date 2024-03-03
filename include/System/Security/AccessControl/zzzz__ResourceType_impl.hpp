@@ -19,5 +19,3 @@ constexpr ::System::Security::AccessControl::ResourceType System::Security::Acce
 constexpr ::System::Security::AccessControl::ResourceType System::Security::AccessControl::ResourceType::ProviderDefined{ static_cast<int32_t>(0xa) };
 constexpr ::System::Security::AccessControl::ResourceType System::Security::AccessControl::ResourceType::WmiGuidObject{ static_cast<int32_t>(0xb) };
 constexpr ::System::Security::AccessControl::ResourceType System::Security::AccessControl::ResourceType::RegistryWow6432Key{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

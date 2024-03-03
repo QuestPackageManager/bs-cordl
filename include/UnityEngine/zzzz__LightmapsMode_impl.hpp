@@ -8,5 +8,3 @@ constexpr ::UnityEngine::LightmapsMode::LightmapsMode(int32_t value__) noexcept 
 constexpr ::UnityEngine::LightmapsMode::LightmapsMode() {}
 constexpr ::UnityEngine::LightmapsMode UnityEngine::LightmapsMode::NonDirectional{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LightmapsMode UnityEngine::LightmapsMode::CombinedDirectional{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

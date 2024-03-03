@@ -95,5 +95,3 @@ inline void GlobalNamespace::ScreenCaptureCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenCaptureCache::ScreenCaptureCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

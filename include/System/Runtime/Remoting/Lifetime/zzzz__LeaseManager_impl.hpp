@@ -155,5 +155,3 @@ inline void System::Runtime::Remoting::Lifetime::LeaseManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseManager::LeaseManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

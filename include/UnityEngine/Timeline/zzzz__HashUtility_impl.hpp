@@ -163,5 +163,3 @@ inline int32_t UnityEngine::Timeline::HashUtility::CombineHash(::ArrayW<int32_t,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::HashUtility::HashUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

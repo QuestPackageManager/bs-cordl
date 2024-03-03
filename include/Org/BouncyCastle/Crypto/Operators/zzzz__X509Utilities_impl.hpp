@@ -198,5 +198,3 @@ inline void Org::BouncyCastle::Crypto::Operators::X509Utilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::X509Utilities::X509Utilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

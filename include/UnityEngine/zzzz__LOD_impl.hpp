@@ -34,5 +34,3 @@ constexpr ::UnityEngine::LOD::LOD(float_t screenRelativeTransitionHeight, float_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LOD::LOD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

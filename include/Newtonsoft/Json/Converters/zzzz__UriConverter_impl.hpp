@@ -91,5 +91,3 @@ inline void Newtonsoft::Json::Converters::UriConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::UriConverter::UriConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

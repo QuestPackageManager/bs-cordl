@@ -1292,5 +1292,3 @@ inline void GlobalNamespace::OVRPassthroughColorLut::Destroy() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughColorLut::OVRPassthroughColorLut() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

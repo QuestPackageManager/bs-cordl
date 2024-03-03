@@ -352,5 +352,3 @@ inline void UnityEngine::Gradient::Evaluate_Injected(float_t time, ByRef<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Gradient::Gradient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

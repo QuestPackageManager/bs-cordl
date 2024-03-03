@@ -85,5 +85,3 @@ constexpr ::UnityEngine::Rendering::LODParameters::LODParameters(int32_t m_IsOrt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LODParameters::LODParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

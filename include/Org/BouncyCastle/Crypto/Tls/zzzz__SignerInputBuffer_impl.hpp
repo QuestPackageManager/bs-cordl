@@ -131,5 +131,3 @@ inline void Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::SignerInputBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

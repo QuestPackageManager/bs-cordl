@@ -444,5 +444,3 @@ inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocation
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ResourceLocationBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

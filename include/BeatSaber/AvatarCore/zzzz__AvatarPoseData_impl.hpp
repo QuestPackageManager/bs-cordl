@@ -36,5 +36,3 @@ constexpr ::BeatSaber::AvatarCore::AvatarPoseData::AvatarPoseData(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarPoseData::AvatarPoseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

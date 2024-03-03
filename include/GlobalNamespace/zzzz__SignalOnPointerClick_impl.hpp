@@ -77,5 +77,3 @@ inline void GlobalNamespace::SignalOnPointerClick::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SignalOnPointerClick::SignalOnPointerClick() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

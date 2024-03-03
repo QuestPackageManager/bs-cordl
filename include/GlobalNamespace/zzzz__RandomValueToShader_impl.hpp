@@ -61,5 +61,3 @@ inline void GlobalNamespace::RandomValueToShader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RandomValueToShader::RandomValueToShader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

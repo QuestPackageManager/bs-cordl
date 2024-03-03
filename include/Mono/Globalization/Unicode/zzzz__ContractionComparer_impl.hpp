@@ -68,5 +68,3 @@ inline void Mono::Globalization::Unicode::ContractionComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::ContractionComparer::ContractionComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

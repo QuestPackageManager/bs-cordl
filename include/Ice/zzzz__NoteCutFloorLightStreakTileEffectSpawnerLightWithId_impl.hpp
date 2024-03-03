@@ -65,5 +65,3 @@ inline void Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::NoteCutFloorLightStreakTileEffectSpawnerLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

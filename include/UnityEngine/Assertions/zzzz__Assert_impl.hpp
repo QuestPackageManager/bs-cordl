@@ -299,5 +299,3 @@ inline void UnityEngine::Assertions::_cordl_Assert::AreEqual(int32_t expected, i
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Assertions::_cordl_Assert::_cordl_Assert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

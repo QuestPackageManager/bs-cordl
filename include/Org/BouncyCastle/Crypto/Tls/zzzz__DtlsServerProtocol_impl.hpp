@@ -709,5 +709,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::ExpectCertificat
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol::DtlsServerProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -64,5 +64,3 @@ inline int32_t Org::BouncyCastle::Utilities::Encoders::IEncoder::DecodeString(::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::IEncoder*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, data, outStream);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

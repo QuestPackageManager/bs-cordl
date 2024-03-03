@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Playables::PlayState::PlayState() {}
 constexpr ::UnityEngine::Playables::PlayState UnityEngine::Playables::PlayState::Paused{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Playables::PlayState UnityEngine::Playables::PlayState::Playing{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Playables::PlayState UnityEngine::Playables::PlayState::Delayed{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

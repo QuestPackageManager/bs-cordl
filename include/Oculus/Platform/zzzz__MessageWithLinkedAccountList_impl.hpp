@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::LinkedAccountList* Oculus::Platform::MessageW
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLinkedAccountList::MessageWithLinkedAccountList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

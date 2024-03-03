@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Asn1::BerSetGenerator::_ctor(::System::IO::Stream
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerSetGenerator::BerSetGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

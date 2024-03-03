@@ -60,5 +60,3 @@ inline void GlobalNamespace::DisableGCWhileEnabled::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableGCWhileEnabled::DisableGCWhileEnabled() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

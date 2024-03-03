@@ -1575,5 +1575,3 @@ inline void GlobalNamespace::BaseNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseNetworkPlayerModel::BaseNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

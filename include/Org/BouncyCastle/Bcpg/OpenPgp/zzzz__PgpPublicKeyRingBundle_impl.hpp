@@ -413,5 +413,3 @@ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::RemovePublicKeyRing(::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle::PgpPublicKeyRingBundle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

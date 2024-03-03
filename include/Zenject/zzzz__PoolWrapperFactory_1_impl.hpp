@@ -61,5 +61,3 @@ template <typename T> inline ::Zenject::InjectTypeInfo* Zenject::PoolWrapperFact
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::PoolWrapperFactory_1<T>::PoolWrapperFactory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

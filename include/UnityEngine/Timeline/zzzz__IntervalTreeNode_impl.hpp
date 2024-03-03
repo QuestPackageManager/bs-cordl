@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Timeline::IntervalTreeNode::IntervalTreeNode(int64_t ce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::IntervalTreeNode::IntervalTreeNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

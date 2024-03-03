@@ -72,5 +72,3 @@ inline void System::Net::NetworkInformation::NetworkInterfaceFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceFactory::NetworkInterfaceFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -99,5 +99,3 @@ inline void System::ComponentModel::NotifyCollectionChangedEventHandler::EndInvo
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::NotifyCollectionChangedEventHandler::NotifyCollectionChangedEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

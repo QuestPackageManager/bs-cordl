@@ -24,5 +24,3 @@ constexpr ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonToken::EndArray{ s
 constexpr ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonToken::EndConstructor{ static_cast<int32_t>(0xf) };
 constexpr ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonToken::Date{ static_cast<int32_t>(0x10) };
 constexpr ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonToken::Bytes{ static_cast<int32_t>(0x11) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

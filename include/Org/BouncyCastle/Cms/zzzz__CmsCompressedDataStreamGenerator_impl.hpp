@@ -268,5 +268,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Cms::CmsCompressedDataStreamGene
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::CmsCompressedDataStreamGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

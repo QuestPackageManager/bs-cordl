@@ -1301,5 +1301,3 @@ inline void System::ComponentModel::TypeConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeConverter::TypeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

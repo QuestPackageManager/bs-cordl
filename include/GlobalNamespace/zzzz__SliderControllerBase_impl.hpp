@@ -85,5 +85,3 @@ inline void GlobalNamespace::SliderControllerBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderControllerBase::SliderControllerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

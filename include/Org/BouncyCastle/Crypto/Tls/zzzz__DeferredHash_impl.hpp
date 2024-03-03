@@ -454,5 +454,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DeferredHash::CheckTrackingHash(uint
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DeferredHash::DeferredHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

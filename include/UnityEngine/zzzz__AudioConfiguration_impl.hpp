@@ -15,5 +15,3 @@ constexpr ::UnityEngine::AudioConfiguration::AudioConfiguration(::UnityEngine::A
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioConfiguration::AudioConfiguration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

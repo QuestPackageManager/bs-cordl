@@ -162,5 +162,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Tsp::Mess
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint::MessageImprint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

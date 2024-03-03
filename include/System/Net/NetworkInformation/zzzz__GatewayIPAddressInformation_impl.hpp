@@ -27,5 +27,3 @@ inline void System::Net::NetworkInformation::GatewayIPAddressInformation::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::GatewayIPAddressInformation::GatewayIPAddressInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

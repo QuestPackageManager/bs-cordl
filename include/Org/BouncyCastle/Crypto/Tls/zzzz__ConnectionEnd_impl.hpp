@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ConnectionEnd::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ConnectionEnd::ConnectionEnd() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

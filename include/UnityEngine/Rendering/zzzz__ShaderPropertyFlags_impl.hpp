@@ -16,5 +16,3 @@ constexpr ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Rendering::
 constexpr ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Rendering::ShaderPropertyFlags::NonModifiableTextureData{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Rendering::ShaderPropertyFlags::MainTexture{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Rendering::ShaderPropertyFlags::MainColor{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

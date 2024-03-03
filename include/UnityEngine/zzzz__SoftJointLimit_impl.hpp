@@ -237,5 +237,3 @@ constexpr ::UnityEngine::SoftJointLimit::SoftJointLimit(float_t m_Limit, float_t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SoftJointLimit::SoftJointLimit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

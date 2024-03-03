@@ -220,5 +220,3 @@ inline void GlobalNamespace::DeactivateOnInputFocusCapture::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeactivateOnInputFocusCapture::DeactivateOnInputFocusCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

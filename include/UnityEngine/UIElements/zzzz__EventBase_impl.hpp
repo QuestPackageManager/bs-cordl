@@ -1562,5 +1562,3 @@ inline void UnityEngine::UIElements::EventBase::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventBase::EventBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -827,5 +827,3 @@ inline void GlobalNamespace::LobbySetupViewController::_DidActivate_b__44_5() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbySetupViewController::LobbySetupViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

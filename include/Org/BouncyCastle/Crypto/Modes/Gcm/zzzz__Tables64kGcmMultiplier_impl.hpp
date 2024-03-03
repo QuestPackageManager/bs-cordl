@@ -109,5 +109,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier::Tables64kGcmMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

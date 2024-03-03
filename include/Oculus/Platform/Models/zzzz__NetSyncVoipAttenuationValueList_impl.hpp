@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::NetSyncVoipAttenuationValueList::_ctor(voi
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList::NetSyncVoipAttenuationValueList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

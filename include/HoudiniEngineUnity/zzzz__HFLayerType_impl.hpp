@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HFLayerType HoudiniEngineUnity::HFLayerType::DEF
 constexpr ::HoudiniEngineUnity::HFLayerType HoudiniEngineUnity::HFLayerType::HEIGHT{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HFLayerType HoudiniEngineUnity::HFLayerType::MASK{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HFLayerType HoudiniEngineUnity::HFLayerType::DETAIL{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

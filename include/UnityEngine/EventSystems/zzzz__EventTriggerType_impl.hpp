@@ -23,5 +23,3 @@ constexpr ::UnityEngine::EventSystems::EventTriggerType UnityEngine::EventSystem
 constexpr ::UnityEngine::EventSystems::EventTriggerType UnityEngine::EventSystems::EventTriggerType::EndDrag{ static_cast<int32_t>(0xe) };
 constexpr ::UnityEngine::EventSystems::EventTriggerType UnityEngine::EventSystems::EventTriggerType::Submit{ static_cast<int32_t>(0xf) };
 constexpr ::UnityEngine::EventSystems::EventTriggerType UnityEngine::EventSystems::EventTriggerType::Cancel{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

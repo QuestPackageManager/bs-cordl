@@ -96,5 +96,3 @@ inline int32_t Zenject::Internal::LookupId::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::LookupId::LookupId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

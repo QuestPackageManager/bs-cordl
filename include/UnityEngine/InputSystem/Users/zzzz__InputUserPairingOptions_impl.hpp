@@ -10,5 +10,3 @@ constexpr ::UnityEngine::InputSystem::Users::InputUserPairingOptions UnityEngine
 constexpr ::UnityEngine::InputSystem::Users::InputUserPairingOptions UnityEngine::InputSystem::Users::InputUserPairingOptions::ForcePlatformUserAccountSelection{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::Users::InputUserPairingOptions UnityEngine::InputSystem::Users::InputUserPairingOptions::ForceNoPlatformUserAccountSelection{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::Users::InputUserPairingOptions UnityEngine::InputSystem::Users::InputUserPairingOptions::UnpairCurrentDevicesFromUser{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

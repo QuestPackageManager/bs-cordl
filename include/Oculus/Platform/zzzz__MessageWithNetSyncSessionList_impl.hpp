@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::NetSyncSessionList* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithNetSyncSessionList::MessageWithNetSyncSessionList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

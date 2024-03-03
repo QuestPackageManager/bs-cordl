@@ -153,5 +153,3 @@ inline int32_t Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenera
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator::ConcatenationKdfGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

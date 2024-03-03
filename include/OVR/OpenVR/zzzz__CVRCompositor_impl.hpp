@@ -932,5 +932,3 @@ inline ::OVR::OpenVR::EVRCompositorError OVR::OpenVR::CVRCompositor::SubmitExpli
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRCompositor::CVRCompositor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

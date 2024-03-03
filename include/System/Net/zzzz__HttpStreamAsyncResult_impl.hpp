@@ -272,5 +272,3 @@ inline void System::Net::HttpStreamAsyncResult::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpStreamAsyncResult::HttpStreamAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

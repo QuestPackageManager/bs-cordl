@@ -620,5 +620,3 @@ inline float_t GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroupEffect::LightTranslationGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

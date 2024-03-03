@@ -2130,5 +2130,3 @@ inline void UnityEngine::Timeline::TimelineClip::UpdateDirty(double_t oldValue, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineClip::TimelineClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

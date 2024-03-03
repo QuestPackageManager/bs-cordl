@@ -96,5 +96,3 @@ inline ::UnityEngine::Color Tweening::ColorTween::GetValue(float_t t) {
 }
 // Ctor Parameters []
 constexpr ::Tweening::ColorTween::ColorTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

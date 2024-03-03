@@ -398,5 +398,3 @@ inline ::StringW System::Xml::XmlNamespaceManager::LookupPrefix(::StringW uri) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNamespaceManager::XmlNamespaceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

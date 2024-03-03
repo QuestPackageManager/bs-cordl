@@ -593,5 +593,3 @@ inline void UnityEngine::UI::LayoutElement::SetDirty() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::LayoutElement::LayoutElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

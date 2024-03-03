@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Ocsp::UnknownStatus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::UnknownStatus::UnknownStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

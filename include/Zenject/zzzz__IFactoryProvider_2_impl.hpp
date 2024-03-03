@@ -28,5 +28,3 @@ inline void Zenject::IFactoryProvider_2<TParam1, TContract>::GetAllInstancesWith
 }
 // Ctor Parameters []
 template <typename TParam1, typename TContract> constexpr ::Zenject::IFactoryProvider_2<TParam1, TContract>::IFactoryProvider_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

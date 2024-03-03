@@ -57,5 +57,3 @@ inline void BeatSaber::AvatarCore::LobbyAvatarInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::LobbyAvatarInstaller::LobbyAvatarInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

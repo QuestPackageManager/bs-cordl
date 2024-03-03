@@ -66,5 +66,3 @@ inline void System::Net::NetworkInformation::UnixNetworkInterfaceAPI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI::UnixNetworkInterfaceAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

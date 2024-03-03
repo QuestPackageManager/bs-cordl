@@ -24,5 +24,3 @@ inline void Unity::XR::OpenVR::ViveLighthouse::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::ViveLighthouse::ViveLighthouse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -162,5 +162,3 @@ inline void Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultReferenceResolver::DefaultReferenceResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -811,5 +811,3 @@ constexpr ::System::Int32::Int32(int32_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Int32::Int32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

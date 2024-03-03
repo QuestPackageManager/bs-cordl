@@ -60,5 +60,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFla
 };
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags System::Security::Cryptography::X509Certificates::X509ChainStatusFlags::HasWeakSignature{ static_cast<int32_t>(
     0x100000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

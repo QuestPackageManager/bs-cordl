@@ -33,5 +33,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Keyframe::HAPI_Keyframe(float_t time, float
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_Keyframe::HAPI_Keyframe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

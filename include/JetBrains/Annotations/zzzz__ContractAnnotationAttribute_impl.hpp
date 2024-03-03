@@ -155,5 +155,3 @@ inline void JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullSt
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::ContractAnnotationAttribute::ContractAnnotationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -18,5 +18,3 @@ template <typename TEventArgs> inline void System::EventHandler_1<TEventArgs>::I
 }
 // Ctor Parameters []
 template <typename TEventArgs> constexpr ::System::EventHandler_1<TEventArgs>::EventHandler_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

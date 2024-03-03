@@ -246,5 +246,3 @@ inline void GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::MultiplayerLocalActiveCenterRingLightsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

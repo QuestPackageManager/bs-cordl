@@ -1295,5 +1295,3 @@ template <typename T> inline ::ArrayW<uint8_t, ::Array<uint8_t>*> LiteNetLib::Ut
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetSerializer::NetSerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

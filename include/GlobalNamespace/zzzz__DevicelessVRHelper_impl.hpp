@@ -838,5 +838,3 @@ inline void GlobalNamespace::DevicelessVRHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DevicelessVRHelper::DevicelessVRHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

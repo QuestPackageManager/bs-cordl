@@ -237,5 +237,3 @@ inline void System::Runtime::Remoting::Channels::CrossAppDomainSink::_AsyncProce
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainSink::CrossAppDomainSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::MaterialGlobalIlluminationFlags UnityEngine::MaterialGl
 constexpr ::UnityEngine::MaterialGlobalIlluminationFlags UnityEngine::MaterialGlobalIlluminationFlags::BakedEmissive{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::MaterialGlobalIlluminationFlags UnityEngine::MaterialGlobalIlluminationFlags::EmissiveIsBlack{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::MaterialGlobalIlluminationFlags UnityEngine::MaterialGlobalIlluminationFlags::AnyEmissive{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void GlobalNamespace::PlayingMultiplayerRichPresenceData::_ctor(bool atMa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayingMultiplayerRichPresenceData::PlayingMultiplayerRichPresenceData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

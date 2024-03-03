@@ -67,5 +67,3 @@ inline void UnityEngine::InputSystem::Controls::DoubleControl::WriteValueIntoSta
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DoubleControl::DoubleControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

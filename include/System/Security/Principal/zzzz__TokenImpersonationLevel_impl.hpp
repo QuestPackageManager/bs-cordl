@@ -11,5 +11,3 @@ constexpr ::System::Security::Principal::TokenImpersonationLevel System::Securit
 constexpr ::System::Security::Principal::TokenImpersonationLevel System::Security::Principal::TokenImpersonationLevel::Identification{ static_cast<int32_t>(0x2) };
 constexpr ::System::Security::Principal::TokenImpersonationLevel System::Security::Principal::TokenImpersonationLevel::Impersonation{ static_cast<int32_t>(0x3) };
 constexpr ::System::Security::Principal::TokenImpersonationLevel System::Security::Principal::TokenImpersonationLevel::Delegation{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

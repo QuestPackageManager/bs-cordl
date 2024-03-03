@@ -195,5 +195,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Mac
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::MacData::MacData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

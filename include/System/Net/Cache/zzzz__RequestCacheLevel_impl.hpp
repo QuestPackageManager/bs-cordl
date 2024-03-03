@@ -13,5 +13,3 @@ constexpr ::System::Net::Cache::RequestCacheLevel System::Net::Cache::RequestCac
 constexpr ::System::Net::Cache::RequestCacheLevel System::Net::Cache::RequestCacheLevel::Revalidate{ static_cast<int32_t>(0x4) };
 constexpr ::System::Net::Cache::RequestCacheLevel System::Net::Cache::RequestCacheLevel::Reload{ static_cast<int32_t>(0x5) };
 constexpr ::System::Net::Cache::RequestCacheLevel System::Net::Cache::RequestCacheLevel::NoCacheNoStore{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

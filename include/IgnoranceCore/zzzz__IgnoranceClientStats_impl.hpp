@@ -14,5 +14,3 @@ constexpr ::IgnoranceCore::IgnoranceClientStats::IgnoranceClientStats(uint32_t R
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceClientStats::IgnoranceClientStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

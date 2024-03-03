@@ -1392,5 +1392,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Cms::CmsSignedDataStreamGenerato
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::CmsSignedDataStreamGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

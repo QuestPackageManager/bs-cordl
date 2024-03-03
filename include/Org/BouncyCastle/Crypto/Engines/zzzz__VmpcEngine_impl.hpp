@@ -222,5 +222,3 @@ inline void Org::BouncyCastle::Crypto::Engines::VmpcEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::VmpcEngine::VmpcEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

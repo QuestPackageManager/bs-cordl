@@ -76,5 +76,3 @@ inline void UnityEngine::Coroutine::ReleaseCoroutine(void* ptr) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Coroutine::Coroutine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

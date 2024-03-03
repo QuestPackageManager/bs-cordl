@@ -104,5 +104,3 @@ inline void GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadSong(::Global
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioClipAsyncLoaderExtensions::AudioClipAsyncLoaderExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

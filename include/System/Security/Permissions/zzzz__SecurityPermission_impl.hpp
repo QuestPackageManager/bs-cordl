@@ -190,5 +190,3 @@ inline ::System::Security::Permissions::SecurityPermission* System::Security::Pe
 }
 // Ctor Parameters []
 constexpr ::System::Security::Permissions::SecurityPermission::SecurityPermission() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

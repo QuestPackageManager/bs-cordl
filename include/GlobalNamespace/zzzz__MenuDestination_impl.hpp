@@ -24,5 +24,3 @@ inline void GlobalNamespace::MenuDestination::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuDestination::MenuDestination() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

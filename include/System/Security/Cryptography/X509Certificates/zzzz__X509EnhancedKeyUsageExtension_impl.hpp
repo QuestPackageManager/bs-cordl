@@ -201,5 +201,3 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509EnhancedK
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::X509EnhancedKeyUsageExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

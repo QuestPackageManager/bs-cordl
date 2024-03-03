@@ -96,5 +96,3 @@ inline void System::ComponentModel::AddingNewEventHandler::EndInvoke(::System::I
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::AddingNewEventHandler::AddingNewEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

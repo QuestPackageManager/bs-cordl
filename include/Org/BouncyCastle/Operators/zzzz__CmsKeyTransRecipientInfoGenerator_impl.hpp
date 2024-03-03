@@ -118,5 +118,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Operators::CmsKey
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::CmsKeyTransRecipientInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Net::FtpLoginState System::Net::FtpLoginState::NotLoggedIn{ 
 constexpr ::System::Net::FtpLoginState System::Net::FtpLoginState::LoggedIn{ static_cast<uint8_t>(0x1u) };
 constexpr ::System::Net::FtpLoginState System::Net::FtpLoginState::LoggedInButNeedsRelogin{ static_cast<uint8_t>(0x2u) };
 constexpr ::System::Net::FtpLoginState System::Net::FtpLoginState::ReloginFailed{ static_cast<uint8_t>(0x3u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

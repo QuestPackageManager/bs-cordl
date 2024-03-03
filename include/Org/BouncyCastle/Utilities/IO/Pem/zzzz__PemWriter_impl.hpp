@@ -190,5 +190,3 @@ inline void Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WritePostEncapsula
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::PemWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

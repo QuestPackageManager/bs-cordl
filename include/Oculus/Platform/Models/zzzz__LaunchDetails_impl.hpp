@@ -112,5 +112,3 @@ inline void Oculus::Platform::Models::LaunchDetails::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LaunchDetails::LaunchDetails() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

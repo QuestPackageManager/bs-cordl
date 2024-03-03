@@ -128,5 +128,3 @@ inline bool GlobalNamespace::NullAllowedIf::IsNullAllowedFor(::System::Object* v
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NullAllowedIf::NullAllowedIf() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

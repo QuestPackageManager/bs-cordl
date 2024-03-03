@@ -1,3 +1,5 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "Org/BouncyCastle/X509/zzzz__IX509Extension_impl.hpp"
+#endif

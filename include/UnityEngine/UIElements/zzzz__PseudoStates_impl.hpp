@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::Pseud
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Disabled{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Focus{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::UIElements::PseudoStates UnityEngine::UIElements::PseudoStates::Root{ static_cast<int32_t>(0x80) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

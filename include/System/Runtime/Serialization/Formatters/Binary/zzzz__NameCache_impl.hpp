@@ -92,5 +92,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::NameCache::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::NameCache::NameCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

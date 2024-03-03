@@ -57,5 +57,3 @@ inline void System::Xml::Schema::XmlSchemaSequence::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSequence::XmlSchemaSequence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

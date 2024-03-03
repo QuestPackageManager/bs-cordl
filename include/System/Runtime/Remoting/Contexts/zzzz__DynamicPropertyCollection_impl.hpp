@@ -207,5 +207,3 @@ inline void System::Runtime::Remoting::Contexts::DynamicPropertyCollection::_cto
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

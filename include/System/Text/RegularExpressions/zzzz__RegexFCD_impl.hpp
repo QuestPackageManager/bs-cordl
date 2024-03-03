@@ -343,5 +343,3 @@ constexpr ::System::Text::RegularExpressions::RegexFCD::RegexFCD(::System::Colle
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexFCD::RegexFCD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

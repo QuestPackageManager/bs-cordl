@@ -144,5 +144,3 @@ inline void GlobalNamespace::OVRSemanticClassification::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSemanticClassification::OVRSemanticClassification() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

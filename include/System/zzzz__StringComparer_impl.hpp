@@ -267,5 +267,3 @@ inline void System::StringComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::StringComparer::StringComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

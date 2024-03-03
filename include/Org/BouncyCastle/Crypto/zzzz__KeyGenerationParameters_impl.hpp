@@ -92,5 +92,3 @@ inline int32_t Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Strength(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::KeyGenerationParameters::KeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

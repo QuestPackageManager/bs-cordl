@@ -112,5 +112,3 @@ inline void System::ComponentModel::TimeSpanConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TimeSpanConverter::TimeSpanConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

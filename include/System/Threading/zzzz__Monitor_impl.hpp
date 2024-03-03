@@ -374,5 +374,3 @@ inline void System::Threading::Monitor::ReliableEnter(::System::Object* obj, ByR
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Monitor::Monitor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

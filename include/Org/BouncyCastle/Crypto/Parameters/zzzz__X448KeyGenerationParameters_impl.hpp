@@ -29,5 +29,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::X448KeyGenerationParameters::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::X448KeyGenerationParameters::X448KeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

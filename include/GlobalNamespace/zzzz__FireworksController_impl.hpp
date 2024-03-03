@@ -388,5 +388,3 @@ inline void GlobalNamespace::FireworksController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FireworksController::FireworksController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

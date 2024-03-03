@@ -81,5 +81,3 @@ inline void GlobalNamespace::EnvironmentAudioEffectsPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentAudioEffectsPlayer::EnvironmentAudioEffectsPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

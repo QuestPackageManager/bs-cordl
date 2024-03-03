@@ -866,5 +866,3 @@ constexpr ::UnityEngine::Color::Color(float_t r, float_t g, float_t b, float_t a
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Color::Color() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

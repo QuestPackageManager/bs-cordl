@@ -340,5 +340,3 @@ inline ::System::Object* System::Resources::ResourceSet::GetCaseInsensitiveObjec
 }
 // Ctor Parameters []
 constexpr ::System::Resources::ResourceSet::ResourceSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

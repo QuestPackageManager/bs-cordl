@@ -24,5 +24,3 @@ inline void UnityEngine::WritableAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WritableAttribute::WritableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

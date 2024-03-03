@@ -68,5 +68,3 @@ inline ::System::Xml::Schema::XmlSchemaException* System::Xml::Schema::Validatio
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ValidationEventArgs::ValidationEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

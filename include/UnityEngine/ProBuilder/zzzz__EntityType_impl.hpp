@@ -11,5 +11,3 @@ constexpr ::UnityEngine::ProBuilder::EntityType UnityEngine::ProBuilder::EntityT
 constexpr ::UnityEngine::ProBuilder::EntityType UnityEngine::ProBuilder::EntityType::Trigger{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::EntityType UnityEngine::ProBuilder::EntityType::Collider{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ProBuilder::EntityType UnityEngine::ProBuilder::EntityType::Mover{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

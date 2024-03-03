@@ -862,5 +862,3 @@ constexpr ::System::Double::Double(double_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Double::Double() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

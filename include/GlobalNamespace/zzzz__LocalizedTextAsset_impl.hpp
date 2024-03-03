@@ -265,5 +265,3 @@ inline void GlobalNamespace::LocalizedTextAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalizedTextAsset::LocalizedTextAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -75,5 +75,3 @@ inline void GlobalNamespace::HealthWarningNoTransitionInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningNoTransitionInstaller::HealthWarningNoTransitionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

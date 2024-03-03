@@ -10,5 +10,3 @@ constexpr ::System::Reflection::EventAttributes System::Reflection::EventAttribu
 constexpr ::System::Reflection::EventAttributes System::Reflection::EventAttributes::SpecialName{ static_cast<int32_t>(0x200) };
 constexpr ::System::Reflection::EventAttributes System::Reflection::EventAttributes::RTSpecialName{ static_cast<int32_t>(0x400) };
 constexpr ::System::Reflection::EventAttributes System::Reflection::EventAttributes::ReservedMask{ static_cast<int32_t>(0x400) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

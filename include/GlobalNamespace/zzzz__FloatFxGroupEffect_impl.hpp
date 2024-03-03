@@ -226,5 +226,3 @@ inline void GlobalNamespace::FloatFxGroupEffect::SetValue(float_t value) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxGroupEffect::FloatFxGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ inline void Zenject::ZenInjectMethod::EndInvoke(::System::IAsyncResult* result) 
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenInjectMethod::ZenInjectMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

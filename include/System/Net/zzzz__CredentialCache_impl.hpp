@@ -41,5 +41,3 @@ inline ::System::Net::NetworkCredential* System::Net::CredentialCache::get_Defau
 }
 // Ctor Parameters []
 constexpr ::System::Net::CredentialCache::CredentialCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

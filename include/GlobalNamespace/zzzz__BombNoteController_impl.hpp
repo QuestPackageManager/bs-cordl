@@ -268,5 +268,3 @@ inline void GlobalNamespace::__BombNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BombNoteController__Pool::__BombNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

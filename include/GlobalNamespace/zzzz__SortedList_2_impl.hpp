@@ -106,5 +106,3 @@ template <typename T, typename TBase> inline void GlobalNamespace::SortedList_2<
 }
 // Ctor Parameters []
 template <typename T, typename TBase> constexpr ::GlobalNamespace::SortedList_2<T, TBase>::SortedList_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

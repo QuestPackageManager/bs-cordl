@@ -163,5 +163,3 @@ inline void GlobalNamespace::ObstacleScaleUp::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleScaleUp::ObstacleScaleUp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

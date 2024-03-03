@@ -184,5 +184,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Crypto::Tls::TlsDeflateCompressi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::TlsDeflateCompression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

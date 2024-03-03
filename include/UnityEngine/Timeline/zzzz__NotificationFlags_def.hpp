@@ -34,7 +34,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int16_t() const noexcept {
+  constexpr explicit operator int16_t() const noexcept {
     return static_cast<int16_t>(this->value__);
   }
 

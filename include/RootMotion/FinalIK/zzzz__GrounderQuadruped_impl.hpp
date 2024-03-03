@@ -755,5 +755,3 @@ inline void RootMotion::FinalIK::GrounderQuadruped::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::GrounderQuadruped::GrounderQuadruped() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

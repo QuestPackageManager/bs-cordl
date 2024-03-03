@@ -24,5 +24,3 @@ inline void UnityEngine::ExcludeFromPresetAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExcludeFromPresetAttribute::ExcludeFromPresetAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

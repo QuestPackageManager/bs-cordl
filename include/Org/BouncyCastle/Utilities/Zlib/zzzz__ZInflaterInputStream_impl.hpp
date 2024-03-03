@@ -435,5 +435,3 @@ inline int32_t Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::ReadByt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::ZInflaterInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

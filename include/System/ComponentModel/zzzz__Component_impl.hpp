@@ -247,5 +247,3 @@ inline void System::ComponentModel::Component::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Component::Component() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

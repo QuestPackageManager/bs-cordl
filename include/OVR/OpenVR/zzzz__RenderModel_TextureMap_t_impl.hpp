@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::RenderModel_TextureMap_t::RenderModel_TextureMap_t(uint
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_TextureMap_t::RenderModel_TextureMap_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

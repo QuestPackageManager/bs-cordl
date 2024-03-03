@@ -146,5 +146,3 @@ inline void Org::BouncyCastle::Cmp::RevocationDetailsBuilder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::RevocationDetailsBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

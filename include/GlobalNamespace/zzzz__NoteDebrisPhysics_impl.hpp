@@ -85,5 +85,3 @@ inline void GlobalNamespace::NoteDebrisPhysics::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteDebrisPhysics::NoteDebrisPhysics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

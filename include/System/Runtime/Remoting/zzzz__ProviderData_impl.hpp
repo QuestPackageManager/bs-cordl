@@ -107,5 +107,3 @@ inline void System::Runtime::Remoting::ProviderData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ProviderData::ProviderData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

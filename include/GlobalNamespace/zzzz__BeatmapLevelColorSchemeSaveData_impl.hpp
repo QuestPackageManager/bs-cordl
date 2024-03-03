@@ -69,5 +69,3 @@ inline void GlobalNamespace::BeatmapLevelColorSchemeSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelColorSchemeSaveData::BeatmapLevelColorSchemeSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

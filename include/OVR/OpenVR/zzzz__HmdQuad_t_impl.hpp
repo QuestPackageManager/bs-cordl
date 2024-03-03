@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::HmdQuad_t::HmdQuad_t(::OVR::OpenVR::HmdVector3_t vCorne
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdQuad_t::HmdQuad_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

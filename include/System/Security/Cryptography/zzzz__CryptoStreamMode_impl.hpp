@@ -8,5 +8,3 @@ constexpr ::System::Security::Cryptography::CryptoStreamMode::CryptoStreamMode(i
 constexpr ::System::Security::Cryptography::CryptoStreamMode::CryptoStreamMode() {}
 constexpr ::System::Security::Cryptography::CryptoStreamMode System::Security::Cryptography::CryptoStreamMode::Read{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Cryptography::CryptoStreamMode System::Security::Cryptography::CryptoStreamMode::Write{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

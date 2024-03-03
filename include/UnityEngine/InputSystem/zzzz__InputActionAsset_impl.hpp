@@ -1421,5 +1421,3 @@ inline void UnityEngine::InputSystem::InputActionAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionAsset::InputActionAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

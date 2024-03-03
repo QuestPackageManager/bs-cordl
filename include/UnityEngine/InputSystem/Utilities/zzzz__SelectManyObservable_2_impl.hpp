@@ -155,5 +155,3 @@ inline ::System::IDisposable* UnityEngine::InputSystem::Utilities::SelectManyObs
 }
 // Ctor Parameters []
 template <typename TSource, typename TResult> constexpr ::UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>::SelectManyObservable_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

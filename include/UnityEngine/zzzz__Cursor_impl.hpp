@@ -115,5 +115,3 @@ inline void UnityEngine::Cursor::SetCursor_Injected(::UnityEngine::Texture2D* te
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Cursor::Cursor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

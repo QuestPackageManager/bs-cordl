@@ -118,5 +118,3 @@ inline float_t GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::BeatmapObjectAvoidanceTiltEvaluator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

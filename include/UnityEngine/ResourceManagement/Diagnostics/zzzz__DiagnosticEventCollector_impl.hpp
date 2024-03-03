@@ -152,5 +152,3 @@ inline void UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollect
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::DiagnosticEventCollector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

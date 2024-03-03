@@ -117,5 +117,3 @@ inline ::StringW UnityEngine::Timeline::TimelineUndo::UndoName(::StringW name) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineUndo::TimelineUndo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline bool System::UncNameHelper::IsValid(::cordl_internals::Ptr<char16_t> name
 }
 // Ctor Parameters []
 constexpr ::System::UncNameHelper::UncNameHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

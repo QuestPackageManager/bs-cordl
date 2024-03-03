@@ -208,5 +208,3 @@ inline void GlobalNamespace::OVRBoneCapsule::_ctor(int16_t boneIndex, ::UnityEng
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBoneCapsule::OVRBoneCapsule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

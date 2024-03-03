@@ -48,5 +48,3 @@ inline void System::Security::Cryptography::HMACMD5::_ctor(::ArrayW<uint8_t, ::A
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMACMD5::HMACMD5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

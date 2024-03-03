@@ -8,5 +8,3 @@ constexpr ::TMPro::Compute_DistanceTransform_EventTypes::Compute_DistanceTransfo
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes::Compute_DistanceTransform_EventTypes() {}
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes TMPro::Compute_DistanceTransform_EventTypes::Processing{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::Compute_DistanceTransform_EventTypes TMPro::Compute_DistanceTransform_EventTypes::Completed{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

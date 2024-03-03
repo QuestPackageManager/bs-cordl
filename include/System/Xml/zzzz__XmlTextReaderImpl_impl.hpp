@@ -7829,5 +7829,3 @@ inline void System::Xml::XmlTextReaderImpl::BlockCopy(::ArrayW<uint8_t, ::Array<
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlTextReaderImpl::XmlTextReaderImpl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

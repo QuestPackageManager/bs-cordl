@@ -67,5 +67,3 @@ inline bool System::Net::Mail::QuotedStringFormatReader::IsValidQtext(bool allow
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::QuotedStringFormatReader::QuotedStringFormatReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

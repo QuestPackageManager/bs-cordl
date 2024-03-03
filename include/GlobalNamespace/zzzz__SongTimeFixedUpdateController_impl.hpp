@@ -230,5 +230,3 @@ inline void GlobalNamespace::SongTimeFixedUpdateController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongTimeFixedUpdateController::SongTimeFixedUpdateController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

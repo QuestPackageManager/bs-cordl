@@ -37,5 +37,3 @@ template <typename TKey, typename TValue> constexpr ::System::Collections::Gener
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>::KeyValuePair_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1499,5 +1499,3 @@ template <typename T> inline void GlobalNamespace::OVRCameraRig::_CheckForAnchor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCameraRig::OVRCameraRig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

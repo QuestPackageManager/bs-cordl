@@ -89,5 +89,3 @@ constexpr ::GlobalNamespace::OVRSpaceUser::OVRSpaceUser(uint64_t _handle) noexce
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSpaceUser::OVRSpaceUser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

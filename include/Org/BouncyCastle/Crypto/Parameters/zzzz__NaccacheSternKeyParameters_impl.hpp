@@ -135,5 +135,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Paramet
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::NaccacheSternKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

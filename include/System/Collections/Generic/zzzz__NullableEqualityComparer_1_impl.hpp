@@ -55,5 +55,3 @@ template <typename T> inline void System::Collections::Generic::NullableEquality
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::NullableEqualityComparer_1<T>::NullableEqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

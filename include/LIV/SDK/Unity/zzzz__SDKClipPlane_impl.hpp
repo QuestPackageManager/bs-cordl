@@ -49,5 +49,3 @@ constexpr ::LIV::SDK::Unity::SDKClipPlane::SDKClipPlane(::LIV::SDK::Unity::SDKMa
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKClipPlane::SDKClipPlane() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

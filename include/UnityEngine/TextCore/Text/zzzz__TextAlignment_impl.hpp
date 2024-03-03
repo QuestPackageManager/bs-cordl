@@ -42,5 +42,3 @@ constexpr ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Te
 constexpr ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text::TextAlignment::CaplineJustified{ static_cast<int32_t>(0x2008) };
 constexpr ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text::TextAlignment::CaplineFlush{ static_cast<int32_t>(0x2010) };
 constexpr ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text::TextAlignment::CaplineGeoAligned{ static_cast<int32_t>(0x2020) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

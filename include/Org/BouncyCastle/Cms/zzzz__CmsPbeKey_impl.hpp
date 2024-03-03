@@ -328,5 +328,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Org::BouncyCastle:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsPbeKey::CmsPbeKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

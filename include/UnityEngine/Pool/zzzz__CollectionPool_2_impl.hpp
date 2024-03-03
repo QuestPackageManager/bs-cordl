@@ -66,5 +66,3 @@ template <typename TCollection, typename TItem> inline void UnityEngine::Pool::C
 }
 // Ctor Parameters []
 template <typename TCollection, typename TItem> constexpr ::UnityEngine::Pool::CollectionPool_2<TCollection, TItem>::CollectionPool_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

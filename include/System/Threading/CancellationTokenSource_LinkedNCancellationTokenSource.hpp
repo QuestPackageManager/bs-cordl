@@ -1,3 +1,5 @@
 #pragma once
 #include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_impl.hpp"
+#endif

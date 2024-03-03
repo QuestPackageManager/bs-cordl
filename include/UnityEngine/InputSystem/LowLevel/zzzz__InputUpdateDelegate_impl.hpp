@@ -102,5 +102,3 @@ inline void UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::EndInvoke(B
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::InputUpdateDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

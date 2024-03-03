@@ -116,5 +116,3 @@ inline void GlobalNamespace::TimelinePauseReceiver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimelinePauseReceiver::TimelinePauseReceiver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

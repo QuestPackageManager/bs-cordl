@@ -124,5 +124,3 @@ inline void LiteNetLib::NetPacketReader::Recycle() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetPacketReader::NetPacketReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

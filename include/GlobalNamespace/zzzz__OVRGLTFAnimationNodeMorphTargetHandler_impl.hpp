@@ -146,5 +146,3 @@ inline void GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModifie
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::OVRGLTFAnimationNodeMorphTargetHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

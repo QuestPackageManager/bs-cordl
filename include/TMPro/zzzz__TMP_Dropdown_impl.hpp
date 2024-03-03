@@ -2130,5 +2130,3 @@ inline void TMPro::TMP_Dropdown::OnSelectItem(::UnityEngine::UI::Toggle* toggle)
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Dropdown::TMP_Dropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

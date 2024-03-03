@@ -26,5 +26,3 @@ inline ::System::Type* Zenject::ProviderUtil::GetTypeToInstantiate(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::Zenject::ProviderUtil::ProviderUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

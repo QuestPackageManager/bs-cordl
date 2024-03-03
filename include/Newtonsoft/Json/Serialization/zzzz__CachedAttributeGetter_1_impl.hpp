@@ -21,5 +21,3 @@ template <typename T> inline T Newtonsoft::Json::Serialization::CachedAttributeG
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>::CachedAttributeGetter_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

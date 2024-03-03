@@ -8,5 +8,3 @@ constexpr ::TMPro::TextElementType::TextElementType(uint8_t value__) noexcept {
 constexpr ::TMPro::TextElementType::TextElementType() {}
 constexpr ::TMPro::TextElementType TMPro::TextElementType::Character{ static_cast<uint8_t>(0x1u) };
 constexpr ::TMPro::TextElementType TMPro::TextElementType::Sprite{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

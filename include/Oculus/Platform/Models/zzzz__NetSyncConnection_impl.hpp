@@ -89,5 +89,3 @@ inline void Oculus::Platform::Models::NetSyncConnection::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::NetSyncConnection::NetSyncConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

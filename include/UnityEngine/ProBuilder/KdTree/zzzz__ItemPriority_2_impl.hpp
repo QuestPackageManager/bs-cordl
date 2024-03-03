@@ -7,5 +7,3 @@ template <typename TItem, typename TPriority> constexpr ::UnityEngine::ProBuilde
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>::ItemPriority_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

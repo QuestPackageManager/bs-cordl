@@ -3,5 +3,3 @@
 #include "System/Net/Configuration/zzzz__BypassElement_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::BypassElement::BypassElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

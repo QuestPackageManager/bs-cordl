@@ -114,5 +114,3 @@ inline void RootMotion::FinalIK::IKSolverCCD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKSolverCCD::IKSolverCCD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

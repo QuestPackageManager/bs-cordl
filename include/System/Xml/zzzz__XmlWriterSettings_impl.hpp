@@ -980,5 +980,3 @@ inline void System::Xml::XmlWriterSettings::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlWriterSettings::XmlWriterSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

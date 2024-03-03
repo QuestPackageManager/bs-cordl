@@ -31,5 +31,3 @@ constexpr ::System::Globalization::HebrewNumberParsingContext::HebrewNumberParsi
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::HebrewNumberParsingContext::HebrewNumberParsingContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

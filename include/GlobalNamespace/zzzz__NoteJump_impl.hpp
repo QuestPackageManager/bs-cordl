@@ -768,5 +768,3 @@ inline void GlobalNamespace::NoteJump::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteJump::NoteJump() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

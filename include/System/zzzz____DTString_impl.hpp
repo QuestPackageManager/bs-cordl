@@ -520,5 +520,3 @@ constexpr ::System::__DTString::__DTString(::System::ReadOnlySpan_1<char16_t> Va
 }
 // Ctor Parameters []
 constexpr ::System::__DTString::__DTString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

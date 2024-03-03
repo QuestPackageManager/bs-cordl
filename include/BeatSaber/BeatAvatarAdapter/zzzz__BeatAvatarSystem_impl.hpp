@@ -366,5 +366,3 @@ inline void BeatSaber::BeatAvatarAdapter::BeatAvatarSystem::DeleteUserCreatedAva
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem::BeatAvatarSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

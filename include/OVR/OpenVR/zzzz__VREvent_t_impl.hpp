@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::VREvent_t::VREvent_t(uint32_t eventType, uint32_t track
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_t::VREvent_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

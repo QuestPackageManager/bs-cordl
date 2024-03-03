@@ -60,5 +60,3 @@ template <typename T> inline ::Unity::Jobs::JobHandle Unity::Jobs::IJobExtension
 }
 // Ctor Parameters []
 constexpr ::Unity::Jobs::IJobExtensions::IJobExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

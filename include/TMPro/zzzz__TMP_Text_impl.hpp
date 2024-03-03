@@ -8929,5 +8929,3 @@ inline void TMPro::TMP_Text::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Text::TMP_Text() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

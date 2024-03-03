@@ -37,5 +37,3 @@ constexpr ::BGLib::Polyglot::Language BGLib::Polyglot::Language::Bosnian{ static
 constexpr ::BGLib::Polyglot::Language BGLib::Polyglot::Language::Debug_Keys{ static_cast<int32_t>(0x1c) };
 constexpr ::BGLib::Polyglot::Language BGLib::Polyglot::Language::Debug_English_Reverted{ static_cast<int32_t>(0x1d) };
 constexpr ::BGLib::Polyglot::Language BGLib::Polyglot::Language::Debug_Word_With_Max_Lenght{ static_cast<int32_t>(0x1e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

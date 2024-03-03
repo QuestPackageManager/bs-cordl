@@ -251,5 +251,3 @@ inline void GlobalNamespace::BeatmapCharacteristicSelectionViewController::_ctor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicSelectionViewController::BeatmapCharacteristicSelectionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

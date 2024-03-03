@@ -106,5 +106,3 @@ inline ::System::Runtime::Serialization::SerializationEvents* System::Runtime::S
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationEventsCache::SerializationEventsCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

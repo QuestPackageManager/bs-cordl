@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::EVRNotificationError:
 constexpr ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::EVRNotificationError::NotificationQueueFull{ static_cast<int32_t>(0x65) };
 constexpr ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::EVRNotificationError::InvalidOverlayHandle{ static_cast<int32_t>(0x66) };
 constexpr ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::EVRNotificationError::SystemWithUserValueAlreadyExists{ static_cast<int32_t>(0x67) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

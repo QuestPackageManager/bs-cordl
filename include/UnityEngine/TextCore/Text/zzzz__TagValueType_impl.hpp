@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextCore::Text::TagValueType UnityEngine::TextCore::Tex
 constexpr ::UnityEngine::TextCore::Text::TagValueType UnityEngine::TextCore::Text::TagValueType::NumericalValue{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::Text::TagValueType UnityEngine::TextCore::Text::TagValueType::StringValue{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::Text::TagValueType UnityEngine::TextCore::Text::TagValueType::ColorValue{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

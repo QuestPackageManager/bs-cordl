@@ -26,5 +26,3 @@ inline void System::Runtime::CompilerServices::IsByRefLikeAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::IsByRefLikeAttribute::IsByRefLikeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

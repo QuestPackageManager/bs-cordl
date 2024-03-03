@@ -167,5 +167,3 @@ inline ::Newtonsoft::Json::Serialization::JsonProperty* Newtonsoft::Json::Serial
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection::JsonPropertyCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

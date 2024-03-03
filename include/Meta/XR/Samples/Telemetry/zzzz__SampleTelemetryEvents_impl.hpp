@@ -8,5 +8,3 @@ constexpr ::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__EventTypes::_
 constexpr ::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__AnnotationTypes::__SampleTelemetryEvents__AnnotationTypes() {}
 // Ctor Parameters []
 constexpr ::Meta::XR::Samples::Telemetry::SampleTelemetryEvents::SampleTelemetryEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

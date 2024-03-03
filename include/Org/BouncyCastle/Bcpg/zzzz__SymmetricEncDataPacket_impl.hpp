@@ -28,5 +28,3 @@ inline void Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::_ctor(::Org::Bouncy
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::SymmetricEncDataPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

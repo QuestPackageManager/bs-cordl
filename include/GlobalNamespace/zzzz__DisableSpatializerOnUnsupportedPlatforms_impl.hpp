@@ -40,5 +40,3 @@ inline void GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms::DisableSpatializerOnUnsupportedPlatforms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

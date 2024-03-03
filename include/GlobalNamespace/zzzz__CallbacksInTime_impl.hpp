@@ -208,5 +208,3 @@ inline void GlobalNamespace::CallbacksInTime::CallCallbacks(::System::Type* beat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CallbacksInTime::CallbacksInTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

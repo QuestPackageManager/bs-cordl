@@ -52,5 +52,3 @@ inline void System::Diagnostics::DebuggableAttribute::_ctor(::System::Diagnostic
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggableAttribute::DebuggableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

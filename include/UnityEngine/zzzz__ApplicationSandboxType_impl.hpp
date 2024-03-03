@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ApplicationSandboxType UnityEngine::ApplicationSandboxT
 constexpr ::UnityEngine::ApplicationSandboxType UnityEngine::ApplicationSandboxType::NotSandboxed{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ApplicationSandboxType UnityEngine::ApplicationSandboxType::Sandboxed{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ApplicationSandboxType UnityEngine::ApplicationSandboxType::SandboxBroken{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

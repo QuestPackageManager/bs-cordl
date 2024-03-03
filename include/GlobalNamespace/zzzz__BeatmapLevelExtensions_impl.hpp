@@ -91,5 +91,3 @@ inline ::GlobalNamespace::BeatmapLevel* GlobalNamespace::BeatmapLevelExtensions:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelExtensions::BeatmapLevelExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -254,5 +254,3 @@ inline void GlobalNamespace::__BeatEffect__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BeatEffect__Pool::__BeatEffect__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -131,5 +131,3 @@ inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstalle
 }
 // Ctor Parameters []
 constexpr ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::EnvironmentTracksDefinitionsAsyncInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

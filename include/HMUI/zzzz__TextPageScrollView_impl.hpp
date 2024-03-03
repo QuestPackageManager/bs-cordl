@@ -57,5 +57,3 @@ inline void HMUI::TextPageScrollView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::TextPageScrollView::TextPageScrollView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

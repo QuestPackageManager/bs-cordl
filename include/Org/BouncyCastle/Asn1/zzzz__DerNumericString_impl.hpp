@@ -234,5 +234,3 @@ inline bool Org::BouncyCastle::Asn1::DerNumericString::IsNumericString(::StringW
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerNumericString::DerNumericString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

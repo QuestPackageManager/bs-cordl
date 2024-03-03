@@ -66,5 +66,3 @@ inline ::Unity::Jobs::JobHandle Unity::Jobs::IJobParallelForExtensions::Schedule
 }
 // Ctor Parameters []
 constexpr ::Unity::Jobs::IJobParallelForExtensions::IJobParallelForExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

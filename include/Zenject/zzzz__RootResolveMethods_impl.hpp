@@ -8,5 +8,3 @@ constexpr ::Zenject::RootResolveMethods::RootResolveMethods(int32_t value__) noe
 constexpr ::Zenject::RootResolveMethods::RootResolveMethods() {}
 constexpr ::Zenject::RootResolveMethods Zenject::RootResolveMethods::NonLazyOnly{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::RootResolveMethods Zenject::RootResolveMethods::All{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

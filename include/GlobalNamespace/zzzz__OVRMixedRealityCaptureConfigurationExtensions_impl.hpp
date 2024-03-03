@@ -52,5 +52,3 @@ inline void GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::Read
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::OVRMixedRealityCaptureConfigurationExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

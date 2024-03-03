@@ -56,5 +56,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::AttitudeState::AttitudeState(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::AttitudeState::AttitudeState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

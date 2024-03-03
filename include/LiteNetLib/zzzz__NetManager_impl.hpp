@@ -2410,5 +2410,3 @@ inline ::System::Collections::IEnumerator* LiteNetLib::NetManager::System_Collec
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetManager::NetManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

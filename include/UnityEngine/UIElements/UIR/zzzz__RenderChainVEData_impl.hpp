@@ -166,5 +166,3 @@ constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData::RenderChainVEData(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChainVEData::RenderChainVEData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

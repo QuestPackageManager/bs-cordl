@@ -50,5 +50,3 @@ constexpr ::GlobalNamespace::__OVRTelemetryConstants__SBB__AnnotationType::__OVR
 constexpr ::GlobalNamespace::__OVRTelemetryConstants__SBB::__OVRTelemetryConstants__SBB() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTelemetryConstants::OVRTelemetryConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

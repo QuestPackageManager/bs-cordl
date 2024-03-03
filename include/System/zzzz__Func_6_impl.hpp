@@ -20,5 +20,3 @@ inline TResult System::Func_6<T1, T2, T3, T4, T5, TResult>::Invoke(T1 arg1, T2 a
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> constexpr ::System::Func_6<T1, T2, T3, T4, T5, TResult>::Func_6() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

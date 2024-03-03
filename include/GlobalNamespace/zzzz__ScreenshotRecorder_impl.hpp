@@ -429,5 +429,3 @@ inline void GlobalNamespace::ScreenshotRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenshotRecorder::ScreenshotRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

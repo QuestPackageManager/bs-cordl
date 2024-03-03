@@ -204,5 +204,3 @@ inline void GlobalNamespace::ListSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ListSettingsController::ListSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::KeyUpEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyUpEvent::KeyUpEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -236,5 +236,3 @@ constexpr ::System::Variant::Variant(int16_t vt, uint16_t wReserved1, uint16_t w
 }
 // Ctor Parameters []
 constexpr ::System::Variant::Variant() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -621,5 +621,3 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::UnityAsyncHelper::Wait
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityAsyncHelper::UnityAsyncHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

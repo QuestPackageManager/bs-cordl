@@ -53,5 +53,3 @@ template <typename T> inline bool TMPro::SetPropertyUtility::SetClass(ByRef<T> c
 }
 // Ctor Parameters []
 constexpr ::TMPro::SetPropertyUtility::SetPropertyUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

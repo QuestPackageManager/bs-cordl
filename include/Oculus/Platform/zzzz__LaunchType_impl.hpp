@@ -11,5 +11,3 @@ constexpr ::Oculus::Platform::LaunchType Oculus::Platform::LaunchType::Normal{ s
 constexpr ::Oculus::Platform::LaunchType Oculus::Platform::LaunchType::Invite{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::LaunchType Oculus::Platform::LaunchType::Coordinated{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::LaunchType Oculus::Platform::LaunchType::Deeplink{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

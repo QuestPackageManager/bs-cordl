@@ -163,5 +163,3 @@ inline void System::Diagnostics::Tracing::EventAttribute::set_Message(::StringW 
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Tracing::EventAttribute::EventAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -110,5 +110,3 @@ inline void GlobalNamespace::EnableEmmisionOnVisible::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnableEmmisionOnVisible::EnableEmmisionOnVisible() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -33,5 +33,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedN
 constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags::ForceUTF8Encoding{
   static_cast<int32_t>(0x4000)
 };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

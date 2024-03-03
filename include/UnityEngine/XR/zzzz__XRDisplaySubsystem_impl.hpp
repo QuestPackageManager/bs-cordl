@@ -50,5 +50,3 @@ constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc::__XRDis
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc::__XRDisplaySubsystem__XRMirrorViewBlitDesc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

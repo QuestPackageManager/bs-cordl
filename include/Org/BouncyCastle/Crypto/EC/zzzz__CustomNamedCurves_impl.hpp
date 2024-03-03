@@ -2144,5 +2144,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Crypto::EC::Custom
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::CustomNamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

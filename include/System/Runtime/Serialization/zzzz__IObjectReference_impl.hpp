@@ -23,5 +23,3 @@ inline ::System::Object* System::Runtime::Serialization::IObjectReference::GetRe
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::IObjectReference*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, context);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

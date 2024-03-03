@@ -82,5 +82,3 @@ inline int32_t GlobalNamespace::DeterministicHitChanceScoreCalculator::GetScoreF
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeterministicHitChanceScoreCalculator::DeterministicHitChanceScoreCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

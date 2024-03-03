@@ -284,5 +284,3 @@ inline void UnityEngine::UIElements::VisualTreeUpdater::SetDefaultUpdaters() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeUpdater::VisualTreeUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

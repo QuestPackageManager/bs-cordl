@@ -548,5 +548,3 @@ inline void System::Net::WebReadStream::Dispose(bool disposing) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebReadStream::WebReadStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

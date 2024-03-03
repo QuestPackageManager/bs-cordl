@@ -849,5 +849,3 @@ inline void UnityEngine::Rendering::SupportedRenderingFeatures::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures::SupportedRenderingFeatures() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -645,5 +645,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock::InputStateBlock
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock::InputStateBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

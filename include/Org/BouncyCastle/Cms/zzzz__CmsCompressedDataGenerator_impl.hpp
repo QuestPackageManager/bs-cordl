@@ -50,5 +50,3 @@ inline ::Org::BouncyCastle::Cms::CmsCompressedData* Org::BouncyCastle::Cms::CmsC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator::CmsCompressedDataGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

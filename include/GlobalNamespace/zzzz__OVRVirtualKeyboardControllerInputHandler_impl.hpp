@@ -48,5 +48,3 @@ inline void GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler::OVRVirtualKeyboardControllerInputHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

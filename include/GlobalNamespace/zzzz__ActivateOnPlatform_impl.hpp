@@ -68,5 +68,3 @@ inline void GlobalNamespace::ActivateOnPlatform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ActivateOnPlatform::ActivateOnPlatform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

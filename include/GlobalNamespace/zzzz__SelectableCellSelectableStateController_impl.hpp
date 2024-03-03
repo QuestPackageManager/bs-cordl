@@ -171,5 +171,3 @@ inline void GlobalNamespace::SelectableCellSelectableStateController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectableCellSelectableStateController::SelectableCellSelectableStateController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

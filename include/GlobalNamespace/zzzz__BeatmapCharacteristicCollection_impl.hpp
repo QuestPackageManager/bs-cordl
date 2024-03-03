@@ -102,5 +102,3 @@ inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::Bea
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicCollection::BeatmapCharacteristicCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

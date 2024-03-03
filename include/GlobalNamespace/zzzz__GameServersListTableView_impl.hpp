@@ -388,5 +388,3 @@ inline void GlobalNamespace::GameServersListTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServersListTableView::GameServersListTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

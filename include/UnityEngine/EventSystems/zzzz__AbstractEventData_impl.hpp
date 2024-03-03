@@ -97,5 +97,3 @@ inline void UnityEngine::EventSystems::AbstractEventData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::AbstractEventData::AbstractEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

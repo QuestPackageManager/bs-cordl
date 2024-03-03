@@ -32,5 +32,3 @@ inline void System::Net::SystemNetworkCredential::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::SystemNetworkCredential::SystemNetworkCredential() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

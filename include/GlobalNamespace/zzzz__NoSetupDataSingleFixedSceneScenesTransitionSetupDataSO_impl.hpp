@@ -48,5 +48,3 @@ inline void GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

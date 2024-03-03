@@ -594,5 +594,3 @@ inline ::StringW System::Reflection::MethodBase::ConstructParameters(::ArrayW<::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MethodBase::MethodBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

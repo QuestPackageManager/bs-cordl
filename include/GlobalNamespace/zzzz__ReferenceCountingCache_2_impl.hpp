@@ -90,5 +90,3 @@ template <typename TKey, typename TValue> inline void GlobalNamespace::Reference
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::ReferenceCountingCache_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

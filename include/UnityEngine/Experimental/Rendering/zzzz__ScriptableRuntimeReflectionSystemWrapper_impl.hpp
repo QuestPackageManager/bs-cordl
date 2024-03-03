@@ -110,5 +110,3 @@ inline void UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSys
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::ScriptableRuntimeReflectionSystemWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

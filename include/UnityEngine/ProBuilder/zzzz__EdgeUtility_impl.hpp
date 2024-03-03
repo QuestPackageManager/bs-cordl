@@ -287,5 +287,3 @@ inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::EdgeUtility::Ge
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::EdgeUtility::EdgeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -157,5 +157,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X509::Subjec
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::SubjectDirectoryAttributes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

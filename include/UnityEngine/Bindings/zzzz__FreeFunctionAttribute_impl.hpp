@@ -72,5 +72,3 @@ inline void UnityEngine::Bindings::FreeFunctionAttribute::_ctor(::StringW name, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::FreeFunctionAttribute::FreeFunctionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

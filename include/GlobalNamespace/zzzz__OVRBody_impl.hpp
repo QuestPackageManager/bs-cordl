@@ -379,5 +379,3 @@ inline bool GlobalNamespace::OVRBody::OVRSkeleton_IOVRSkeletonDataProvider_get_e
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBody::OVRBody() {}
 constexpr ::GlobalNamespace::__OVRPermissionsRequester__Permission GlobalNamespace::OVRBody::BodyTrackingPermission{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

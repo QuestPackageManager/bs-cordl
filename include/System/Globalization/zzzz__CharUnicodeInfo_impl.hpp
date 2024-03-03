@@ -398,5 +398,3 @@ inline ::System::ReadOnlySpan_1<uint8_t> System::Globalization::CharUnicodeInfo:
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CharUnicodeInfo::CharUnicodeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

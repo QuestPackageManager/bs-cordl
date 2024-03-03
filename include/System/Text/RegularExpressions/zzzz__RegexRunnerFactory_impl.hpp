@@ -26,5 +26,3 @@ inline ::System::Text::RegularExpressions::RegexRunner* System::Text::RegularExp
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexRunnerFactory::RegexRunnerFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -542,5 +542,3 @@ Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CreateCacheSafeLookupT
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::SecT193R2Curve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -202,5 +202,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Protocol::Ntlm::Mess
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Protocol::Ntlm::MessageBase::MessageBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

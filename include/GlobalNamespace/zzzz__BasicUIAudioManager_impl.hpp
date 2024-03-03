@@ -174,5 +174,3 @@ inline void GlobalNamespace::BasicUIAudioManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicUIAudioManager::BasicUIAudioManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ inline ::Mono::Security::X509::X509Store* Mono::Security::X509::X509Stores::Open
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Stores::X509Stores() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

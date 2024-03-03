@@ -414,5 +414,3 @@ inline int32_t Org::BouncyCastle::Security::ParameterUtilities::FindBasicIVSize(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::ParameterUtilities::ParameterUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

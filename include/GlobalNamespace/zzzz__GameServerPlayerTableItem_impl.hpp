@@ -77,5 +77,3 @@ inline void GlobalNamespace::GameServerPlayerTableItem::_ctor(::StringW playerNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerPlayerTableItem::GameServerPlayerTableItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

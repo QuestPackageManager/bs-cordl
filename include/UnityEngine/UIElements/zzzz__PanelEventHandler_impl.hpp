@@ -2095,5 +2095,3 @@ inline void UnityEngine::UIElements::PanelEventHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelEventHandler::PanelEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

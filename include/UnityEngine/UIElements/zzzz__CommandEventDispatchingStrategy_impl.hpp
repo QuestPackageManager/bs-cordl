@@ -81,5 +81,3 @@ inline void UnityEngine::UIElements::CommandEventDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CommandEventDispatchingStrategy::CommandEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

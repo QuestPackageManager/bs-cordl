@@ -14,5 +14,3 @@ constexpr ::ENet::PacketFlags ENet::PacketFlags::UnreliableFragmented{ static_ca
 constexpr ::ENet::PacketFlags ENet::PacketFlags::Instant{ static_cast<int32_t>(0x10) };
 constexpr ::ENet::PacketFlags ENet::PacketFlags::Unthrottled{ static_cast<int32_t>(0x20) };
 constexpr ::ENet::PacketFlags ENet::PacketFlags::Sent{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

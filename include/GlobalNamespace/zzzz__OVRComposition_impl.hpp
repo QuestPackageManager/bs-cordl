@@ -235,5 +235,3 @@ inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::ComputeCamera
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRComposition::OVRComposition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

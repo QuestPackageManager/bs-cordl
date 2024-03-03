@@ -812,5 +812,3 @@ inline void HoudiniEngineUnity::HEU_PluginStorage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PluginStorage::HEU_PluginStorage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

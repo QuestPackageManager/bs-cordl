@@ -112,5 +112,3 @@ inline void UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::BatchRendererGroup::BatchRendererGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

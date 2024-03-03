@@ -7321,5 +7321,3 @@ inline void UnityEngine::Mesh::set_bounds_Injected(ByRef<::UnityEngine::Bounds> 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Mesh::Mesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

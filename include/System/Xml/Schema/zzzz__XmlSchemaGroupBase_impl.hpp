@@ -45,5 +45,3 @@ inline void System::Xml::Schema::XmlSchemaGroupBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaGroupBase::XmlSchemaGroupBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

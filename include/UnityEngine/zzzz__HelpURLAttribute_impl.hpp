@@ -62,5 +62,3 @@ inline void UnityEngine::HelpURLAttribute::_ctor(::StringW url) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HelpURLAttribute::HelpURLAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -34,5 +34,3 @@ inline bool System::Runtime::Serialization::DataContractAttribute::get_IsReferen
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::DataContractAttribute::DataContractAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

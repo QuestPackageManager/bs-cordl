@@ -738,5 +738,3 @@ inline void System::Reflection::RuntimeConstructorInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeConstructorInfo::RuntimeConstructorInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

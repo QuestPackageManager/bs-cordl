@@ -67,5 +67,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::SerObjectInfoIni
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::SerObjectInfoInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

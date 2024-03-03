@@ -99,5 +99,3 @@ inline ::System::Guid GlobalNamespace::OVRTask::GetId(uint64_t value) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTask::OVRTask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

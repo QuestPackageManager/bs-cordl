@@ -210,5 +210,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Pki
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::PkiArchiveOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

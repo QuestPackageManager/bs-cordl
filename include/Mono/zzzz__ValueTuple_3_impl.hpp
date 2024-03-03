@@ -9,5 +9,3 @@ template <typename T1, typename T2, typename T3> constexpr ::Mono::ValueTuple_3<
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::Mono::ValueTuple_3<T1, T2, T3>::ValueTuple_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

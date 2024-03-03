@@ -754,5 +754,3 @@ inline void Mono::Unity::UnityTlsContext::CertificateCallback(::cordl_internals:
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTlsContext::UnityTlsContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

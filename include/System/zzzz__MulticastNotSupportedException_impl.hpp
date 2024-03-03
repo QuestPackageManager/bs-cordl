@@ -76,5 +76,3 @@ inline void System::MulticastNotSupportedException::_ctor(::System::Runtime::Ser
 }
 // Ctor Parameters []
 constexpr ::System::MulticastNotSupportedException::MulticastNotSupportedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

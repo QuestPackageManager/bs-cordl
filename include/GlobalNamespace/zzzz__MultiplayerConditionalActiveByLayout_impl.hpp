@@ -119,5 +119,3 @@ inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout::MultiplayerConditionalActiveByLayout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

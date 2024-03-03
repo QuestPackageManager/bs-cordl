@@ -297,5 +297,3 @@ inline void Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::NaccacheSternEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

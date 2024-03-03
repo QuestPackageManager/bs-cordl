@@ -19,5 +19,3 @@ constexpr ::HoudiniEngineUnity::HAPI_TransformComponent HoudiniEngineUnity::HAPI
 constexpr ::HoudiniEngineUnity::HAPI_TransformComponent HoudiniEngineUnity::HAPI_TransformComponent::HAPI_TRANSFORM_SX{ static_cast<int32_t>(0xa) };
 constexpr ::HoudiniEngineUnity::HAPI_TransformComponent HoudiniEngineUnity::HAPI_TransformComponent::HAPI_TRANSFORM_SY{ static_cast<int32_t>(0xb) };
 constexpr ::HoudiniEngineUnity::HAPI_TransformComponent HoudiniEngineUnity::HAPI_TransformComponent::HAPI_TRANSFORM_SZ{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -59,5 +59,3 @@ inline ::StringW UnityEngine::Assertions::AssertionException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Assertions::AssertionException::AssertionException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

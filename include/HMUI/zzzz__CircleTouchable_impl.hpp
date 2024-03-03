@@ -162,5 +162,3 @@ inline void HMUI::CircleTouchable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::CircleTouchable::CircleTouchable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ template <typename TDerived> inline ::Zenject::InjectTypeInfo* Zenject::MonoInst
 }
 // Ctor Parameters []
 template <typename TDerived> constexpr ::Zenject::MonoInstaller_1<TDerived>::MonoInstaller_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

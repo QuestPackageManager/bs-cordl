@@ -211,5 +211,3 @@ template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBa
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::DisappearingArrowControllerBase_1<T>::DisappearingArrowControllerBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VREvent_Notification_t::VREvent_Notification_t(uint64_t
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Notification_t::VREvent_Notification_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

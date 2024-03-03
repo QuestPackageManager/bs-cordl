@@ -46,5 +46,3 @@ inline void UnityEngine::InputSystem::XR::XRControllerWithRumble::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRControllerWithRumble::XRControllerWithRumble() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

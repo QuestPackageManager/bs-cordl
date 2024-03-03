@@ -315,5 +315,3 @@ template <typename T> inline void System::Collections::Concurrent::BlockingColle
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Concurrent::BlockingCollection_1<T>::BlockingCollection_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

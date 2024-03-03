@@ -1611,5 +1611,3 @@ inline void LiteNetLib::Utils::NetDataReader::Clear() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetDataReader::NetDataReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

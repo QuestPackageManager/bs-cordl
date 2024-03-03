@@ -199,5 +199,3 @@ template <typename T> inline void Oculus::Platform::Models::DeserializableList_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Oculus::Platform::Models::DeserializableList_1<T>::DeserializableList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

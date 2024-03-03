@@ -497,5 +497,3 @@ inline float_t System::BitConverter::Int32BitsToSingle(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::BitConverter::BitConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

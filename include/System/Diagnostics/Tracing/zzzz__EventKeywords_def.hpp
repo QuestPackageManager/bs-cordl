@@ -41,7 +41,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int64_t() const noexcept {
+  constexpr explicit operator int64_t() const noexcept {
     return static_cast<int64_t>(this->value__);
   }
 

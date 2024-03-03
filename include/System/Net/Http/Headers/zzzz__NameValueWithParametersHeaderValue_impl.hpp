@@ -248,5 +248,3 @@ inline bool System::Net::Http::Headers::NameValueWithParametersHeaderValue::TryP
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

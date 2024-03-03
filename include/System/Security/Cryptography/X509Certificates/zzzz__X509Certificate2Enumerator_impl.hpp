@@ -159,5 +159,3 @@ inline void System::Security::Cryptography::X509Certificates::X509Certificate2En
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::X509Certificate2Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

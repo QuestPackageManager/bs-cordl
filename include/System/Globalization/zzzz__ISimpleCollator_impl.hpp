@@ -122,5 +122,3 @@ inline int32_t System::Globalization::ISimpleCollator::LastIndexOf(::StringW s, 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::ISimpleCollator*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, target, start, length, opt);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

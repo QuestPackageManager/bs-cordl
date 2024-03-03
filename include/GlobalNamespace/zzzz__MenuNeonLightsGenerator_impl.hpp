@@ -171,5 +171,3 @@ inline void GlobalNamespace::MenuNeonLightsGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuNeonLightsGenerator::MenuNeonLightsGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

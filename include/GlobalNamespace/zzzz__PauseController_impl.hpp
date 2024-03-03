@@ -825,5 +825,3 @@ inline void GlobalNamespace::PauseController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PauseController::PauseController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

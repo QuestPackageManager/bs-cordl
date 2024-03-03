@@ -75,5 +75,3 @@ inline void UnityEngine::UI::RectangularVertexClipper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::RectangularVertexClipper::RectangularVertexClipper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

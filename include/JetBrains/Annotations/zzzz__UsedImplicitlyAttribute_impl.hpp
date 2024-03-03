@@ -80,5 +80,3 @@ inline void JetBrains::Annotations::UsedImplicitlyAttribute::_ctor(::JetBrains::
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::UsedImplicitlyAttribute::UsedImplicitlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

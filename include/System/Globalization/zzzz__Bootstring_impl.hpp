@@ -235,5 +235,3 @@ inline ::StringW System::Globalization::Bootstring::Decode(::StringW s, int32_t 
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::Bootstring::Bootstring() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ImagePosition UnityEngine::ImagePosition::ImageLeft{ st
 constexpr ::UnityEngine::ImagePosition UnityEngine::ImagePosition::ImageAbove{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ImagePosition UnityEngine::ImagePosition::ImageOnly{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ImagePosition UnityEngine::ImagePosition::TextOnly{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

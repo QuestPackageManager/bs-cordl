@@ -499,5 +499,3 @@ inline bool Mono::Security::X509::X509Crl::VerifySignature(::System::Security::C
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Crl::X509Crl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -54,5 +54,3 @@ inline void UnityEngine::UIElements::EventDebuggerLogExecuteDefaultAction::Dispo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDebuggerLogExecuteDefaultAction::EventDebuggerLogExecuteDefaultAction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

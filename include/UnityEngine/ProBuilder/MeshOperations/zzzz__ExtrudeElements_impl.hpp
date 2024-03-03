@@ -338,5 +338,3 @@ UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::GetPerimeterEdges(::Sy
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudeElements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

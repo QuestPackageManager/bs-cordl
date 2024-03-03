@@ -42,5 +42,3 @@ inline bool GlobalNamespace::IHapticFeedbackPlayer::CanPlayHapticPreset(::Librar
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IHapticFeedbackPlayer*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hapticPreset);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

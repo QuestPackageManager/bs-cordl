@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::NavigationCancelEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigationCancelEvent::NavigationCancelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

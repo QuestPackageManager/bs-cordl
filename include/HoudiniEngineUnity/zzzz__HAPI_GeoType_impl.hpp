@@ -12,5 +12,3 @@ constexpr ::HoudiniEngineUnity::HAPI_GeoType HoudiniEngineUnity::HAPI_GeoType::H
 constexpr ::HoudiniEngineUnity::HAPI_GeoType HoudiniEngineUnity::HAPI_GeoType::HAPI_GEOTYPE_INPUT{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_GeoType HoudiniEngineUnity::HAPI_GeoType::HAPI_GEOTYPE_CURVE{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_GeoType HoudiniEngineUnity::HAPI_GeoType::HAPI_GEOTYPE_MAX{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

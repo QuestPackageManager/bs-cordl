@@ -264,5 +264,3 @@ constexpr ::Newtonsoft::Json::Utilities::StringBuffer::StringBuffer(::ArrayW<cha
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::StringBuffer::StringBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

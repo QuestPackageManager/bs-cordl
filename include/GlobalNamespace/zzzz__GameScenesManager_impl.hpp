@@ -2615,5 +2615,3 @@ inline bool GlobalNamespace::GameScenesManager::_get_waitUntilSceneTransitionFin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameScenesManager::GameScenesManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

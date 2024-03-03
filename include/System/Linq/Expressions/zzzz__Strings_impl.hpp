@@ -24,5 +24,3 @@ inline ::StringW System::Linq::Expressions::Strings::ExtensionNodeMustOverridePr
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Strings::Strings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

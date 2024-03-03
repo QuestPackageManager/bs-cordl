@@ -14,5 +14,3 @@ constexpr ::System::Globalization::CultureTypes System::Globalization::CultureTy
 constexpr ::System::Globalization::CultureTypes System::Globalization::CultureTypes::ReplacementCultures{ static_cast<int32_t>(0x10) };
 constexpr ::System::Globalization::CultureTypes System::Globalization::CultureTypes::WindowsOnlyCultures{ static_cast<int32_t>(0x20) };
 constexpr ::System::Globalization::CultureTypes System::Globalization::CultureTypes::FrameworkCultures{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

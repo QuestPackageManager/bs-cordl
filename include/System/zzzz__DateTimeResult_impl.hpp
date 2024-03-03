@@ -217,5 +217,3 @@ constexpr ::System::DateTimeResult::DateTimeResult(int32_t Year, int32_t Month, 
 }
 // Ctor Parameters []
 constexpr ::System::DateTimeResult::DateTimeResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

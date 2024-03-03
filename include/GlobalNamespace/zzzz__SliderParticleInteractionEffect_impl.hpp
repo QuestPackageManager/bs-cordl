@@ -197,5 +197,3 @@ inline void GlobalNamespace::SliderParticleInteractionEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderParticleInteractionEffect::SliderParticleInteractionEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

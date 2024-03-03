@@ -1103,5 +1103,3 @@ inline void UnityEngine::UIElements::UIR::Utility::GetUnityProjectionMatrix_Inje
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Utility::Utility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

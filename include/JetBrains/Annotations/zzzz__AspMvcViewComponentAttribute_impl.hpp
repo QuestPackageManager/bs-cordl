@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMvcViewComponentAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcViewComponentAttribute::AspMvcViewComponentAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -205,5 +205,3 @@ inline void System::Security::Cryptography::CspParameters::_ctor(int32_t provide
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CspParameters::CspParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

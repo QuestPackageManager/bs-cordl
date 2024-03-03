@@ -376,5 +376,3 @@ template <typename T> inline int32_t System::Threading::ThreadLocal_1<T>::GetNew
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::ThreadLocal_1<T>::ThreadLocal_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

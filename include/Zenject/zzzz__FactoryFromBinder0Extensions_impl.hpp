@@ -349,5 +349,3 @@ Zenject::FactoryFromBinder0Extensions::FromIFactory(::Zenject::FactoryFromBinder
 }
 // Ctor Parameters []
 constexpr ::Zenject::FactoryFromBinder0Extensions::FactoryFromBinder0Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

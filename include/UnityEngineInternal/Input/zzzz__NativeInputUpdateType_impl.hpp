@@ -11,5 +11,3 @@ constexpr ::UnityEngineInternal::Input::NativeInputUpdateType UnityEngineInterna
 constexpr ::UnityEngineInternal::Input::NativeInputUpdateType UnityEngineInternal::Input::NativeInputUpdateType::BeforeRender{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngineInternal::Input::NativeInputUpdateType UnityEngineInternal::Input::NativeInputUpdateType::Editor{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngineInternal::Input::NativeInputUpdateType UnityEngineInternal::Input::NativeInputUpdateType::IgnoreFocus{ static_cast<int32_t>(0x80000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

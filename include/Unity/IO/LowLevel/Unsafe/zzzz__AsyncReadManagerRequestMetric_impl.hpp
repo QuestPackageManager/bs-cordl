@@ -42,5 +42,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric::AsyncRea
 }
 // Ctor Parameters []
 constexpr ::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric::AsyncReadManagerRequestMetric() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

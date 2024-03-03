@@ -19,5 +19,3 @@ constexpr ::UnityEngine::Android::AndroidAssetPackError UnityEngine::Android::An
 constexpr ::UnityEngine::Android::AndroidAssetPackError UnityEngine::Android::AndroidAssetPackError::NetworkUnrestricted{ static_cast<int32_t>(0xfffffff4) };
 constexpr ::UnityEngine::Android::AndroidAssetPackError UnityEngine::Android::AndroidAssetPackError::AppNotOwned{ static_cast<int32_t>(0xfffffff3) };
 constexpr ::UnityEngine::Android::AndroidAssetPackError UnityEngine::Android::AndroidAssetPackError::InternalError{ static_cast<int32_t>(0xffffff9c) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -143,5 +143,3 @@ inline void UnityEngine::SphereCollider::set_center_Injected(ByRef<::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SphereCollider::SphereCollider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

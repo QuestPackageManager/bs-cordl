@@ -184,5 +184,3 @@ inline void GlobalNamespace::MusicPackPromoBanner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MusicPackPromoBanner::MusicPackPromoBanner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

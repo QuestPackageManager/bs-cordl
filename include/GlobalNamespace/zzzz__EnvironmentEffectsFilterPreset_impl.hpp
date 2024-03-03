@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset::EnvironmentEffectsF
 constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset GlobalNamespace::EnvironmentEffectsFilterPreset::AllEffects{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset GlobalNamespace::EnvironmentEffectsFilterPreset::StrobeFilter{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::EnvironmentEffectsFilterPreset GlobalNamespace::EnvironmentEffectsFilterPreset::NoEffects{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

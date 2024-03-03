@@ -22,5 +22,3 @@ inline ::Oculus::Platform::Request* Oculus::Platform::Entitlements::IsUserEntitl
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Entitlements::Entitlements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

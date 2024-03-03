@@ -630,5 +630,3 @@ inline void GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__18_2
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelPackDetailViewController::LevelPackDetailViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

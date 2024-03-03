@@ -344,5 +344,3 @@ inline void GlobalNamespace::DirectionalLightWithIdsGroupEntry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::DirectionalLightWithIdsGroupEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -88,5 +88,3 @@ inline ::System::Object* System::Runtime::Serialization::SurrogateForCyclicalRef
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateForCyclicalReference::SurrogateForCyclicalReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1352,5 +1352,3 @@ inline void UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::Gener
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter::UIRStylePainter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

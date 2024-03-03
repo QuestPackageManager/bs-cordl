@@ -273,5 +273,3 @@ inline bool Mono::Security::X509::X509Chain::IsParent(::Mono::Security::X509::X5
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Chain::X509Chain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

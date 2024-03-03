@@ -879,5 +879,3 @@ inline void UnityEngine::TextCore::LowLevel::FontEngine::ResetAtlasTexture(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::FontEngine::FontEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

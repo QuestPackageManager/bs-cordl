@@ -119,5 +119,3 @@ inline void GlobalNamespace::HapticFeedbackManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HapticFeedbackManager::HapticFeedbackManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

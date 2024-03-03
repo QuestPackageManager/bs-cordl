@@ -387,5 +387,3 @@ inline void GlobalNamespace::OVRGrabbable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGrabbable::OVRGrabbable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

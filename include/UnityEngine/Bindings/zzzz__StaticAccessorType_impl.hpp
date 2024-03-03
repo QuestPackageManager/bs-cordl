@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Bindings::StaticAccessorType UnityEngine::Bindings::Sta
 constexpr ::UnityEngine::Bindings::StaticAccessorType UnityEngine::Bindings::StaticAccessorType::Arrow{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Bindings::StaticAccessorType UnityEngine::Bindings::StaticAccessorType::DoubleColon{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Bindings::StaticAccessorType UnityEngine::Bindings::StaticAccessorType::ArrowWithDefaultReturnIfNull{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

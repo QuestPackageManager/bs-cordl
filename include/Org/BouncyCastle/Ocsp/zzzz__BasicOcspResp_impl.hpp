@@ -410,5 +410,3 @@ inline int32_t Org::BouncyCastle::Ocsp::BasicOcspResp::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::BasicOcspResp::BasicOcspResp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ constexpr ::UnityEngine::HumanLimit::HumanLimit(::UnityEngine::Vector3 m_Min, ::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanLimit::HumanLimit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

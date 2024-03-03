@@ -59,5 +59,3 @@ inline void GlobalNamespace::MaterialPropertyBlockFloatAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator::MaterialPropertyBlockFloatAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

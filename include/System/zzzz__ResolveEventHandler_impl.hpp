@@ -49,5 +49,3 @@ inline ::System::Reflection::Assembly* System::ResolveEventHandler::Invoke(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::ResolveEventHandler::ResolveEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

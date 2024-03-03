@@ -424,5 +424,3 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> UnityEngine::ProBuilder::MeshOperati
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteElements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

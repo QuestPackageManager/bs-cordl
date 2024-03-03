@@ -1404,5 +1404,3 @@ inline void GlobalNamespace::OVRSceneManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneManager::OVRSceneManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

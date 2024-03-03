@@ -30,5 +30,3 @@ inline void System::__UriParser__BuiltInUriParser::_ctor(::StringW lwrCaseScheme
 }
 // Ctor Parameters []
 constexpr ::System::__UriParser__BuiltInUriParser::__UriParser__BuiltInUriParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

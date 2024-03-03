@@ -403,5 +403,3 @@ inline ::StringW GlobalNamespace::RecordingSettings::ToString() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingSettings::RecordingSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

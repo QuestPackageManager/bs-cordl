@@ -21,5 +21,3 @@ constexpr ::System::ParseFlags System::ParseFlags::CaptureOffset{ static_cast<in
 constexpr ::System::ParseFlags System::ParseFlags::YearDefault{ static_cast<int32_t>(0x1000) };
 constexpr ::System::ParseFlags System::ParseFlags::Rfc1123Pattern{ static_cast<int32_t>(0x2000) };
 constexpr ::System::ParseFlags System::ParseFlags::UtcSortPattern{ static_cast<int32_t>(0x4000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

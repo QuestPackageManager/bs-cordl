@@ -45,5 +45,3 @@ inline void GlobalNamespace::SteamInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SteamInit::SteamInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

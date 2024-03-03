@@ -1481,5 +1481,3 @@ inline ::System::Threading::ThreadState System::Threading::Thread::ValidateThrea
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Thread::Thread() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

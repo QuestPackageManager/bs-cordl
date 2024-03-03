@@ -101,5 +101,3 @@ inline void System::OverflowException::_ctor(::System::Runtime::Serialization::S
 }
 // Ctor Parameters []
 constexpr ::System::OverflowException::OverflowException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

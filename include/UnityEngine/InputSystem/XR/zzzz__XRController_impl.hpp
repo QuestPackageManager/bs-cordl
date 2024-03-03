@@ -80,5 +80,3 @@ inline void UnityEngine::InputSystem::XR::XRController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRController::XRController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -7,5 +7,3 @@ constexpr ::BeatmapSaveDataVersion4::BombNote::BombNote(int32_t x, int32_t y) no
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::BombNote::BombNote() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

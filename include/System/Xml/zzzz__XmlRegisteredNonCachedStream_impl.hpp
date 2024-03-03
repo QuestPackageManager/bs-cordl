@@ -452,5 +452,3 @@ inline void System::Xml::XmlRegisteredNonCachedStream::set_Position(int64_t valu
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlRegisteredNonCachedStream::XmlRegisteredNonCachedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

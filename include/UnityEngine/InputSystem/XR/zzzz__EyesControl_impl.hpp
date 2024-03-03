@@ -459,5 +459,3 @@ inline void UnityEngine::InputSystem::XR::EyesControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::EyesControl::EyesControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

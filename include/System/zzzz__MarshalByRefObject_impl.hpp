@@ -119,5 +119,3 @@ inline ::System::Object* System::MarshalByRefObject::InitializeLifetimeService()
 }
 // Ctor Parameters []
 constexpr ::System::MarshalByRefObject::MarshalByRefObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

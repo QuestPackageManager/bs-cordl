@@ -264,5 +264,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshImporter::MeshImporter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

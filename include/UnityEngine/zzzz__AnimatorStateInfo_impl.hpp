@@ -36,5 +36,3 @@ constexpr ::UnityEngine::AnimatorStateInfo::AnimatorStateInfo(int32_t m_Name, in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorStateInfo::AnimatorStateInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

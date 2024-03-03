@@ -14,5 +14,3 @@ constexpr ::System::Reflection::GenericParameterAttributes System::Reflection::G
 constexpr ::System::Reflection::GenericParameterAttributes System::Reflection::GenericParameterAttributes::ReferenceTypeConstraint{ static_cast<int32_t>(0x4) };
 constexpr ::System::Reflection::GenericParameterAttributes System::Reflection::GenericParameterAttributes::NotNullableValueTypeConstraint{ static_cast<int32_t>(0x8) };
 constexpr ::System::Reflection::GenericParameterAttributes System::Reflection::GenericParameterAttributes::DefaultConstructorConstraint{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -36,5 +36,3 @@ constexpr ::OVR::OpenVR::VREvent_Keyboard_t::VREvent_Keyboard_t(uint8_t cNewInpu
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Keyboard_t::VREvent_Keyboard_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

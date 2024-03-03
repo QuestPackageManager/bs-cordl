@@ -27,5 +27,3 @@ inline void System::Net::Configuration::ConnectionManagementElementCollection::_
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::ConnectionManagementElementCollection::ConnectionManagementElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

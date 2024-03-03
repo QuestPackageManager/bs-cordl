@@ -277,5 +277,3 @@ constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter::ManipulatorAct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter::ManipulatorActivationFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

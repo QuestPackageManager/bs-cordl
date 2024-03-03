@@ -70,5 +70,3 @@ inline void Org::BouncyCastle::Asn1::Cms::CmsAttributes::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::CmsAttributes::CmsAttributes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -81,5 +81,3 @@ inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::LinuxIPInterfaceProperties::LinuxIPInterfaceProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

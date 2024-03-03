@@ -74,5 +74,3 @@ inline void UnityEngine::Audio::AudioMixerSnapshot::TransitionTo(float_t timeToR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Audio::AudioMixerSnapshot::AudioMixerSnapshot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

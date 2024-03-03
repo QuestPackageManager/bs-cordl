@@ -147,5 +147,3 @@ inline void HMUI::UIKeyboardKey::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::UIKeyboardKey::UIKeyboardKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

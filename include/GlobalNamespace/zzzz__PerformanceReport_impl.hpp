@@ -91,5 +91,3 @@ inline ::StringW GlobalNamespace::PerformanceReport::ListFrameDurations(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceReport::PerformanceReport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

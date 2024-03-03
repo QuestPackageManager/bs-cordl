@@ -26,5 +26,3 @@ inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* HoudiniEngineUnity::Test_
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions::Test_HAPI_TransformEuler_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -107,5 +107,3 @@ inline ::StringW UnityEngine::ProBuilder::Transform2D::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Transform2D::Transform2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

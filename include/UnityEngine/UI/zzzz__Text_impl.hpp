@@ -1037,5 +1037,3 @@ inline int32_t UnityEngine::UI::Text::get_layoutPriority() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Text::Text() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

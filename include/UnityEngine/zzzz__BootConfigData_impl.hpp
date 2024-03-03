@@ -59,5 +59,3 @@ inline void UnityEngine::BootConfigData::_ctor(void* nativeHandle) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BootConfigData::BootConfigData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

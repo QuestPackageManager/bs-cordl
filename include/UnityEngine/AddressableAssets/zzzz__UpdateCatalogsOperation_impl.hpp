@@ -401,5 +401,3 @@ inline void UnityEngine::AddressableAssets::UpdateCatalogsOperation::OnCleanCach
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation::UpdateCatalogsOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

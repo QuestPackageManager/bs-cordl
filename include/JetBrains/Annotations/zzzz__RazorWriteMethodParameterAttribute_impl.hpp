@@ -27,5 +27,3 @@ inline void JetBrains::Annotations::RazorWriteMethodParameterAttribute::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorWriteMethodParameterAttribute::RazorWriteMethodParameterAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

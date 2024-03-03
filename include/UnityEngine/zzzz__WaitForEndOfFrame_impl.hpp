@@ -24,5 +24,3 @@ inline void UnityEngine::WaitForEndOfFrame::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WaitForEndOfFrame::WaitForEndOfFrame() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

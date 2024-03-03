@@ -24,5 +24,3 @@ inline ::HoudiniEngineUnity::JSONNode* HoudiniEngineUnity::JSON::Parse(::StringW
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSON::JSON() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

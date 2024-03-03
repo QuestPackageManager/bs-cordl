@@ -116,5 +116,3 @@ inline ::System::Object* UnityEngine::JsonUtility::FromJson(::StringW json, ::Sy
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::JsonUtility::JsonUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

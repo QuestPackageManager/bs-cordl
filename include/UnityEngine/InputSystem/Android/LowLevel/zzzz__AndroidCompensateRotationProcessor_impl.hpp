@@ -52,5 +52,3 @@ inline void UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotati
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::AndroidCompensateRotationProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

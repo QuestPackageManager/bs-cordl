@@ -119,5 +119,3 @@ inline int32_t System::ComponentModel::SettingsBindableAttribute::GetHashCode() 
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::SettingsBindableAttribute::SettingsBindableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

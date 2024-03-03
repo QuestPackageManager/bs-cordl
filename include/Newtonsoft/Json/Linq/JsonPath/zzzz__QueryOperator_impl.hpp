@@ -16,5 +16,3 @@ constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Li
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::GreaterThanOrEquals{ static_cast<int32_t>(0x7) };
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::And{ static_cast<int32_t>(0x8) };
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Newtonsoft::Json::Linq::JsonPath::QueryOperator::Or{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

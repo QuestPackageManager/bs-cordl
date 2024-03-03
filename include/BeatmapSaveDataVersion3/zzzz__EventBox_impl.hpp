@@ -129,5 +129,3 @@ inline void BeatmapSaveDataVersion3::EventBox::_ctor(::BeatmapSaveDataVersion3::
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::EventBox::EventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

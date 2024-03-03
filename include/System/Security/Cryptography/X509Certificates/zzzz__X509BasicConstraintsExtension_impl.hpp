@@ -288,5 +288,3 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509BasicCons
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::X509BasicConstraintsExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -175,5 +175,3 @@ inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TriggerFloatFxGroupEffectManager::TriggerFloatFxGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

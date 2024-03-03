@@ -36,5 +36,3 @@ inline void UnityEngine::MultilineAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MultilineAttribute::MultilineAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

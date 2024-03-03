@@ -45,5 +45,3 @@ template <typename T> inline void UnityEngine::UIElements::TypedUxmlAttributeDes
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>::TypedUxmlAttributeDescription_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

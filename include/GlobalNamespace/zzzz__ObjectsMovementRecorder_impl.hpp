@@ -518,5 +518,3 @@ inline void GlobalNamespace::ObjectsMovementRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectsMovementRecorder::ObjectsMovementRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

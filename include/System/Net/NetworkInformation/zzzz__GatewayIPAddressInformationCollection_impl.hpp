@@ -299,5 +299,3 @@ inline void System::Net::NetworkInformation::GatewayIPAddressInformationCollecti
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GatewayIPAddressInformationCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

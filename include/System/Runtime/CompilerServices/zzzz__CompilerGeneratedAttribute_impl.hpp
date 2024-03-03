@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::CompilerGeneratedAttribute::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CompilerGeneratedAttribute::CompilerGeneratedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

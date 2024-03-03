@@ -50,5 +50,3 @@ constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloadUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

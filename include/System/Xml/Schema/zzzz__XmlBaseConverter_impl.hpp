@@ -2766,5 +2766,3 @@ inline ::System::DateTimeOffset System::Xml::Schema::XmlBaseConverter::UntypedAt
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlBaseConverter::XmlBaseConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

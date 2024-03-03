@@ -650,5 +650,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::Symmet
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::SymmetricTransform::SymmetricTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

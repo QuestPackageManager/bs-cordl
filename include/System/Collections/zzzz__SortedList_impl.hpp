@@ -1894,5 +1894,3 @@ inline ::System::Collections::SortedList* System::Collections::SortedList::Synch
 }
 // Ctor Parameters []
 constexpr ::System::Collections::SortedList::SortedList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

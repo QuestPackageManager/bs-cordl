@@ -475,5 +475,3 @@ inline ::System::Net::Http::Headers::Token System::Net::Http::Headers::Lexer::Sc
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::Lexer::Lexer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

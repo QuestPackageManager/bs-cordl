@@ -36,5 +36,3 @@ inline int32_t UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Co
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Vector2MagnitudeComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ChangeCipherSpec::ChangeCipherSpec() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

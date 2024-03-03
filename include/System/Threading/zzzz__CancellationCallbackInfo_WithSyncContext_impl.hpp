@@ -60,5 +60,3 @@ inline void System::Threading::__CancellationCallbackInfo__WithSyncContext::_cto
 }
 // Ctor Parameters []
 constexpr ::System::Threading::__CancellationCallbackInfo__WithSyncContext::__CancellationCallbackInfo__WithSyncContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

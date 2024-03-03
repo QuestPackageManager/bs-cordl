@@ -602,5 +602,3 @@ inline void System::Net::Http::HttpContent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpContent::HttpContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

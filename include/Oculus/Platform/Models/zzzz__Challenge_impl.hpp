@@ -175,5 +175,3 @@ inline void Oculus::Platform::Models::Challenge::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::Challenge::Challenge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

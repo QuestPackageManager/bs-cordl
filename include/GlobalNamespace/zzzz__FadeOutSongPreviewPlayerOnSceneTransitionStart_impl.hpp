@@ -116,5 +116,3 @@ inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::_ct
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::FadeOutSongPreviewPlayerOnSceneTransitionStart() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

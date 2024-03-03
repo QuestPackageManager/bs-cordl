@@ -1,3 +1,5 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OculusXPlatformAccessTokenRequestOperation_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "GlobalNamespace/zzzz__OculusXPlatformAccessTokenRequestOperation_impl.hpp"
+#endif

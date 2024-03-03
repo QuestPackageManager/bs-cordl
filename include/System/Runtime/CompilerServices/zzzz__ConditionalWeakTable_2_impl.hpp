@@ -305,5 +305,3 @@ inline ::System::Collections::IEnumerator* System::Runtime::CompilerServices::Co
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::ConditionalWeakTable_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

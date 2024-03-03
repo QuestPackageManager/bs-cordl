@@ -9,5 +9,3 @@ constexpr ::System::Xml::TriState::TriState() {}
 constexpr ::System::Xml::TriState System::Xml::TriState::Unknown{ static_cast<int32_t>(0xffffffff) };
 constexpr ::System::Xml::TriState System::Xml::TriState::False{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::TriState System::Xml::TriState::True{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

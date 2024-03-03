@@ -668,5 +668,3 @@ inline void Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine::CamelliaLightEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -105,5 +105,3 @@ inline void GlobalNamespace::SyncBackgroundCommand::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SyncBackgroundCommand::SyncBackgroundCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

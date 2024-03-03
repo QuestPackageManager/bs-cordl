@@ -1344,5 +1344,3 @@ inline void Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::set_Position(in
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream::CBZip2InputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

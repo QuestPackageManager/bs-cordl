@@ -24,5 +24,3 @@ inline void System::SerializableAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::SerializableAttribute::SerializableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

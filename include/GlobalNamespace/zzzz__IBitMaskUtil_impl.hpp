@@ -117,5 +117,3 @@ inline char16_t GlobalNamespace::IBitMaskUtil::GetBase64Char(uint64_t digit) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IBitMaskUtil::IBitMaskUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

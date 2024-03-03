@@ -103,5 +103,3 @@ constexpr ::MidiParser::MidiEvent::MidiEvent(int32_t AbsoluteTicksTime, uint8_t 
 }
 // Ctor Parameters []
 constexpr ::MidiParser::MidiEvent::MidiEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

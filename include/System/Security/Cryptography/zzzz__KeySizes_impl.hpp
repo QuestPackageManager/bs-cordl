@@ -169,5 +169,3 @@ inline bool System::Security::Cryptography::KeySizes::IsLegalKeySize(::ArrayW<::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::KeySizes::KeySizes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

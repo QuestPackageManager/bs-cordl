@@ -157,5 +157,3 @@ inline bool System::Xml::Schema::ContentValidator::get_IsOpen() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ContentValidator::ContentValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1660,5 +1660,3 @@ constexpr ::UnityEngine::PhysicsScene::PhysicsScene(int32_t m_Handle) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PhysicsScene::PhysicsScene() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

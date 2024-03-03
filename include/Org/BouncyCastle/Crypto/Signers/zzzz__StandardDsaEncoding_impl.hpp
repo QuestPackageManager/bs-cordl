@@ -164,5 +164,3 @@ inline void Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::StandardDsaEncoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

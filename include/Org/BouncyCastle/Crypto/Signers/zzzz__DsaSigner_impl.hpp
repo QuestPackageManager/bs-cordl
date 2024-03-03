@@ -257,5 +257,3 @@ inline ::Org::BouncyCastle::Security::SecureRandom* Org::BouncyCastle::Crypto::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::DsaSigner::DsaSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

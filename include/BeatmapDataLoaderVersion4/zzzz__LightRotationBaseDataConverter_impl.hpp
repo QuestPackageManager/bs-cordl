@@ -28,5 +28,3 @@ inline ::GlobalNamespace::LightRotationBaseData* BeatmapDataLoaderVersion4::Ligh
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightRotationBaseDataConverter::LightRotationBaseDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

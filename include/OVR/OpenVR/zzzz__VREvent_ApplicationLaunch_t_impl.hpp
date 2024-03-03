@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t::VREvent_ApplicationLaunch_
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t::VREvent_ApplicationLaunch_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

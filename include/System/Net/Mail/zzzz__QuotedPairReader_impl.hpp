@@ -45,5 +45,3 @@ inline int32_t System::Net::Mail::QuotedPairReader::CountBackslashes(::StringW d
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::QuotedPairReader::QuotedPairReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

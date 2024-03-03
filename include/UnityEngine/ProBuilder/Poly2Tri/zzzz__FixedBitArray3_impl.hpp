@@ -504,5 +504,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::ProBuilder::Poly2Tri::__
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::__FixedBitArray3___Enumerate_d__10() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

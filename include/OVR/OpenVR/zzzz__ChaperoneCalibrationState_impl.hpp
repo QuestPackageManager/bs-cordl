@@ -16,5 +16,3 @@ constexpr ::OVR::OpenVR::ChaperoneCalibrationState OVR::OpenVR::ChaperoneCalibra
 constexpr ::OVR::OpenVR::ChaperoneCalibrationState OVR::OpenVR::ChaperoneCalibrationState::Error_BaseStationConflict{ static_cast<int32_t>(0xca) };
 constexpr ::OVR::OpenVR::ChaperoneCalibrationState OVR::OpenVR::ChaperoneCalibrationState::Error_PlayAreaInvalid{ static_cast<int32_t>(0xcb) };
 constexpr ::OVR::OpenVR::ChaperoneCalibrationState OVR::OpenVR::ChaperoneCalibrationState::Error_CollisionBoundsInvalid{ static_cast<int32_t>(0xcc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

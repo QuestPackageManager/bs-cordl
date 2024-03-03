@@ -235,5 +235,3 @@ inline void UnityEngine::UIElements::TextureRegistry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextureRegistry::TextureRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

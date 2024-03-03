@@ -60,5 +60,3 @@ inline uint8_t System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString(::Str
 }
 // Ctor Parameters []
 constexpr ::System::Xml::TernaryTreeReadOnly::TernaryTreeReadOnly() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

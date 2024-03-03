@@ -839,5 +839,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities::_ctor()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities::JPakeUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

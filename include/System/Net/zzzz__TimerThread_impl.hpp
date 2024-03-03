@@ -963,5 +963,3 @@ inline void System::Net::TimerThread::OnDomainUnload(::System::Object* sender, :
 }
 // Ctor Parameters []
 constexpr ::System::Net::TimerThread::TimerThread() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

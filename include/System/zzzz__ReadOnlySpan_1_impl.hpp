@@ -109,5 +109,3 @@ template <typename T> constexpr ::System::ReadOnlySpan_1<T>::ReadOnlySpan_1(::Sy
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::ReadOnlySpan_1<T>::ReadOnlySpan_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

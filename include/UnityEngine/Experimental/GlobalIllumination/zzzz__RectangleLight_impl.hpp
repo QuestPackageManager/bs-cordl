@@ -36,5 +36,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::RectangleLight::Recta
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::RectangleLight::RectangleLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

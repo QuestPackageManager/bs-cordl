@@ -25,5 +25,3 @@ template <typename T> inline ::Unity::Collections::NativeSlice_1<T> Unity::Colle
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::NativeSliceExtensions::NativeSliceExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

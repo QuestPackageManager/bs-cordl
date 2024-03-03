@@ -243,5 +243,3 @@ inline void UnityEngine::AsyncOperation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AsyncOperation::AsyncOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

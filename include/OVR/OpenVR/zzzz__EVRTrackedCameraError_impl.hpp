@@ -23,5 +23,3 @@ constexpr ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::EVRTrackedCameraErro
 constexpr ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::EVRTrackedCameraError::NoFrameAvailable{ static_cast<int32_t>(0x71) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::EVRTrackedCameraError::InvalidArgument{ static_cast<int32_t>(0x72) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::EVRTrackedCameraError::InvalidFrameBufferSize{ static_cast<int32_t>(0x73) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

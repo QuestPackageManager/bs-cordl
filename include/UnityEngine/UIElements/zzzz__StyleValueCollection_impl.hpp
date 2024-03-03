@@ -152,5 +152,3 @@ inline void UnityEngine::UIElements::StyleValueCollection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleValueCollection::StyleValueCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

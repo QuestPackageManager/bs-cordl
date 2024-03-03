@@ -135,5 +135,3 @@ constexpr ::UnityEngine::TextCore::Text::WordWrapState::WordWrapState(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::WordWrapState::WordWrapState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void System::Security::SecurityManager::EnsureElevatedPermissions() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecurityManager::SecurityManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

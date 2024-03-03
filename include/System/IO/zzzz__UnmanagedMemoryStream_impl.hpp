@@ -726,5 +726,3 @@ inline void System::IO::UnmanagedMemoryStream::WriteByte(uint8_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::UnmanagedMemoryStream::UnmanagedMemoryStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

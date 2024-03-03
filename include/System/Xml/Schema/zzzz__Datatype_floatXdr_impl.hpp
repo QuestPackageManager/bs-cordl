@@ -47,5 +47,3 @@ inline void System::Xml::Schema::Datatype_floatXdr::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_floatXdr::Datatype_floatXdr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

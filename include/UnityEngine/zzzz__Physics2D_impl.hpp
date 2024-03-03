@@ -499,5 +499,3 @@ inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Physics2D::Physics2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

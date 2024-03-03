@@ -61,5 +61,3 @@ inline ::GlobalNamespace::__RankModel__Rank GlobalNamespace::RankModel::GetRankF
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RankModel::RankModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ template <typename T> inline void Zenject::ListPool_1<T>::OnDespawned(::System::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::ListPool_1<T>::ListPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

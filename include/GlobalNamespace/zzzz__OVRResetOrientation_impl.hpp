@@ -55,5 +55,3 @@ inline void GlobalNamespace::OVRResetOrientation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRResetOrientation::OVRResetOrientation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

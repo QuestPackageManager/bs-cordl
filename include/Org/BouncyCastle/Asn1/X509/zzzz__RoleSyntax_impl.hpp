@@ -268,5 +268,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::RoleSyntax::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::RoleSyntax::RoleSyntax() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

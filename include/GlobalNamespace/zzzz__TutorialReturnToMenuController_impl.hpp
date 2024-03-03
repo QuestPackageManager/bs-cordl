@@ -66,5 +66,3 @@ inline void GlobalNamespace::TutorialReturnToMenuController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialReturnToMenuController::TutorialReturnToMenuController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

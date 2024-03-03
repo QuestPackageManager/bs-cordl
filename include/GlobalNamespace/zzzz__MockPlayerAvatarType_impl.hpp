@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::MockPlayerAvatarType::MockPlayerAvatarType(int32_t 
 constexpr ::GlobalNamespace::MockPlayerAvatarType::MockPlayerAvatarType() {}
 constexpr ::GlobalNamespace::MockPlayerAvatarType GlobalNamespace::MockPlayerAvatarType::Beat{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MockPlayerAvatarType GlobalNamespace::MockPlayerAvatarType::Meta{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -153,5 +153,3 @@ GlobalNamespace::BeatmapLevelPack::CreateLevelPackForFiltering(::ArrayW<::Global
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelPack::BeatmapLevelPack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

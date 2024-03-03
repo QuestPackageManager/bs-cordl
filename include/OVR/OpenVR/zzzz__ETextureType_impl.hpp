@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::ETextureType OVR::OpenVR::ETextureType::IOSurface{ stat
 constexpr ::OVR::OpenVR::ETextureType OVR::OpenVR::ETextureType::DirectX12{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::ETextureType OVR::OpenVR::ETextureType::DXGISharedHandle{ static_cast<int32_t>(0x5) };
 constexpr ::OVR::OpenVR::ETextureType OVR::OpenVR::ETextureType::Metal{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

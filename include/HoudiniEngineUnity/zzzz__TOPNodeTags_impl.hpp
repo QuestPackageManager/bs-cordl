@@ -48,5 +48,3 @@ inline void HoudiniEngineUnity::TOPNodeTags::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::TOPNodeTags::TOPNodeTags() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

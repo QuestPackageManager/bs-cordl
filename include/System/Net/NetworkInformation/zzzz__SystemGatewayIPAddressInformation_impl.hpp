@@ -67,5 +67,3 @@ System::Net::NetworkInformation::SystemGatewayIPAddressInformation::ToGatewayIpA
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::SystemGatewayIPAddressInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

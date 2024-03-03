@@ -48,5 +48,3 @@ inline void GlobalNamespace::NoteJumpStartBeatOffsetDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::NoteJumpStartBeatOffsetDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

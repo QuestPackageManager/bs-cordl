@@ -188,5 +188,3 @@ inline void GlobalNamespace::OVRCubemapCapture::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCubemapCapture::OVRCubemapCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

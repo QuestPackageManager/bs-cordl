@@ -306,5 +306,3 @@ template <typename T> inline bool Priority_Queue::StablePriorityQueue_1<T>::IsVa
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Priority_Queue::StablePriorityQueue_1<T>::StablePriorityQueue_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

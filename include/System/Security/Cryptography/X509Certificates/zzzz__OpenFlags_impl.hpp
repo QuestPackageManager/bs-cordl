@@ -11,5 +11,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags System::
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags System::Security::Cryptography::X509Certificates::OpenFlags::MaxAllowed{ static_cast<int32_t>(0x2) };
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags System::Security::Cryptography::X509Certificates::OpenFlags::OpenExistingOnly{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags System::Security::Cryptography::X509Certificates::OpenFlags::IncludeArchived{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

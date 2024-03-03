@@ -519,5 +519,3 @@ inline ::System::Collections::IEnumerator* System::Net::CookieCollection::GetEnu
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieCollection::CookieCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

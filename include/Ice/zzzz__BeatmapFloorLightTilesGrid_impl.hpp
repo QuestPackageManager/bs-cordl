@@ -104,5 +104,3 @@ inline void Ice::BeatmapFloorLightTilesGrid::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::BeatmapFloorLightTilesGrid::BeatmapFloorLightTilesGrid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

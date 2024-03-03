@@ -38,5 +38,3 @@ template <typename T> inline void GlobalNamespace::BeatmapDataCallbackWrapper_1<
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::BeatmapDataCallbackWrapper_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -152,5 +152,3 @@ inline void System::Xml::BitStack::PopCurr() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::BitStack::BitStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

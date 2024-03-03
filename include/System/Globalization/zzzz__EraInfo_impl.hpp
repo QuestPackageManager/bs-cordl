@@ -164,5 +164,3 @@ inline void System::Globalization::EraInfo::_ctor(int32_t era, int32_t startYear
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::EraInfo::EraInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

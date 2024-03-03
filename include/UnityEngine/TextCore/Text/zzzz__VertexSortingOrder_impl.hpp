@@ -8,5 +8,3 @@ constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder::VertexSortingOrder(
 constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder::VertexSortingOrder() {}
 constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder UnityEngine::TextCore::Text::VertexSortingOrder::Normal{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder UnityEngine::TextCore::Text::VertexSortingOrder::Reverse{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

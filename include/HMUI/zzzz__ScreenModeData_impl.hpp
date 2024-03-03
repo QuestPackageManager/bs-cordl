@@ -121,5 +121,3 @@ inline void HMUI::ScreenModeData::_ctor(::UnityEngine::Vector3 position, ::Unity
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScreenModeData::ScreenModeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

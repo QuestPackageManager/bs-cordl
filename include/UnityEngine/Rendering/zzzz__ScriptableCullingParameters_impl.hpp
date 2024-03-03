@@ -225,5 +225,3 @@ constexpr ::UnityEngine::Rendering::ScriptableCullingParameters::ScriptableCulli
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ScriptableCullingParameters::ScriptableCullingParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

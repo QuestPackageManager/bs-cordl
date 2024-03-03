@@ -514,5 +514,3 @@ inline void Org::BouncyCastle::Crypto::Engines::AesLightEngine::DecryptBlock(::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::AesLightEngine::AesLightEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::VRTextureBounds_t::VRTextureBounds_t(float_t uMin, floa
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRTextureBounds_t::VRTextureBounds_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

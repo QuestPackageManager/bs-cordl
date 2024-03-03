@@ -79,5 +79,3 @@ inline void Mono::Net::Security::MobileTlsProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MobileTlsProvider::MobileTlsProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

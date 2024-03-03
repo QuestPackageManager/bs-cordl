@@ -132,5 +132,3 @@ constexpr ::TMPro::MarkupTag TMPro::MarkupTag::FALSE{ static_cast<int32_t>(0x517
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::INVALID{ static_cast<int32_t>(0x5e7f8411) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::NORMAL{ static_cast<int32_t>(0xb97550f3) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::DEFAULT{ static_cast<int32_t>(0xdafcb04b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

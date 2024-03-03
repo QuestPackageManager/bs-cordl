@@ -39,5 +39,3 @@ inline void UnityEngine::Timeline::MenuCategoryAttribute::_ctor(::StringW catego
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::MenuCategoryAttribute::MenuCategoryAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

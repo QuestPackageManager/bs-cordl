@@ -24,5 +24,3 @@ inline void System::Xml::Schema::MiscFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::MiscFacetsChecker::MiscFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

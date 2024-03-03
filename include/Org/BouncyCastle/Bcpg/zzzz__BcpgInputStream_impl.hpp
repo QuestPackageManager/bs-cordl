@@ -377,5 +377,3 @@ inline void Org::BouncyCastle::Bcpg::BcpgInputStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream::BcpgInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

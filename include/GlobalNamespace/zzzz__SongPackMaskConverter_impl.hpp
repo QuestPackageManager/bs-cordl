@@ -91,5 +91,3 @@ inline void GlobalNamespace::SongPackMaskConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPackMaskConverter::SongPackMaskConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

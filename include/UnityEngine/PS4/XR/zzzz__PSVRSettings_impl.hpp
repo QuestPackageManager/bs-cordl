@@ -24,5 +24,3 @@ inline void UnityEngine::PS4::XR::PSVRSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PS4::XR::PSVRSettings::PSVRSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

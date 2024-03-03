@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::UnsafeValueTypeAttribute::_ctor()
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute::UnsafeValueTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

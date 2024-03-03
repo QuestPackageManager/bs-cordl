@@ -474,5 +474,3 @@ inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier::DerObjectIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

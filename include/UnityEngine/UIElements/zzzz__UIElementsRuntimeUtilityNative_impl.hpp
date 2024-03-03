@@ -115,5 +115,3 @@ inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::VisualEleme
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UIElementsRuntimeUtilityNative() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

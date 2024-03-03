@@ -53,5 +53,3 @@ constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::EmbeddedL
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::LinuxServer{ static_cast<int32_t>(0x2b) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::WindowsServer{ static_cast<int32_t>(0x2c) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::OSXServer{ static_cast<int32_t>(0x2d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

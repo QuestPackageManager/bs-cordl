@@ -142,5 +142,3 @@ inline bool GlobalNamespace::ObjectsMovementRecorderSerializedMethods::PlaybackS
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::ObjectsMovementRecorderSerializedMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

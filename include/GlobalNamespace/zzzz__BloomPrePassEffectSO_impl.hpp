@@ -198,5 +198,3 @@ inline void GlobalNamespace::BloomPrePassEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassEffectSO::BloomPrePassEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

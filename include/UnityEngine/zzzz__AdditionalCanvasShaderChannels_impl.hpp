@@ -12,5 +12,3 @@ constexpr ::UnityEngine::AdditionalCanvasShaderChannels UnityEngine::AdditionalC
 constexpr ::UnityEngine::AdditionalCanvasShaderChannels UnityEngine::AdditionalCanvasShaderChannels::TexCoord3{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::AdditionalCanvasShaderChannels UnityEngine::AdditionalCanvasShaderChannels::Normal{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::AdditionalCanvasShaderChannels UnityEngine::AdditionalCanvasShaderChannels::Tangent{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

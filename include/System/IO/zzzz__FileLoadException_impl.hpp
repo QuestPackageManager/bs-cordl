@@ -213,5 +213,3 @@ inline ::StringW System::IO::FileLoadException::FormatFileLoadExceptionMessage(:
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileLoadException::FileLoadException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

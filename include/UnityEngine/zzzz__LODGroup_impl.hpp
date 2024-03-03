@@ -98,5 +98,3 @@ inline void UnityEngine::LODGroup::SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LODGroup::LODGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

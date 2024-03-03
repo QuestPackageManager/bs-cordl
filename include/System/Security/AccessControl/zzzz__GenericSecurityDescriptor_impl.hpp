@@ -72,5 +72,3 @@ inline void System::Security::AccessControl::GenericSecurityDescriptor::set_Owne
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::GenericSecurityDescriptor::GenericSecurityDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

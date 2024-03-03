@@ -15,5 +15,3 @@ constexpr ::System::Globalization::CompareOptions System::Globalization::Compare
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareOptions::OrdinalIgnoreCase{ static_cast<int32_t>(0x10000000) };
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareOptions::StringSort{ static_cast<int32_t>(0x20000000) };
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareOptions::Ordinal{ static_cast<int32_t>(0x40000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

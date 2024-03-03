@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::LeaderboardFilterType Oculus::Platform::Leaderboar
 constexpr ::Oculus::Platform::LeaderboardFilterType Oculus::Platform::LeaderboardFilterType::Friends{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::LeaderboardFilterType Oculus::Platform::LeaderboardFilterType::Unknown{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::LeaderboardFilterType Oculus::Platform::LeaderboardFilterType::UserIds{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

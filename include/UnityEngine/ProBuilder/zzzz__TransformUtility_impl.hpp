@@ -106,5 +106,3 @@ inline ::UnityEngine::ProBuilder::Vertex* UnityEngine::ProBuilder::TransformUtil
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::TransformUtility::TransformUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

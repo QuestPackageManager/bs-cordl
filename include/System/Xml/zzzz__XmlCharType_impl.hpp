@@ -582,5 +582,3 @@ constexpr ::System::Xml::XmlCharType::XmlCharType(::ArrayW<uint8_t, ::Array<uint
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCharType::XmlCharType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

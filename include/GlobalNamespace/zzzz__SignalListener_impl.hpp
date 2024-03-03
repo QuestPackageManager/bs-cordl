@@ -104,5 +104,3 @@ inline void GlobalNamespace::SignalListener::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SignalListener::SignalListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

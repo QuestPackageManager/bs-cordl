@@ -144,5 +144,3 @@ inline void BeatmapSaveDataVersion4::ArcBeatIndex::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::ArcBeatIndex::ArcBeatIndex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

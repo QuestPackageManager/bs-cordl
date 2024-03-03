@@ -312,5 +312,3 @@ inline int32_t Org::BouncyCastle::Utilities::Zlib::InfCodes::inflate_fast(int32_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes::InfCodes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -156,5 +156,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::ProviderLoadRequestOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

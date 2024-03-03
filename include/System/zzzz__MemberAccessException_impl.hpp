@@ -75,5 +75,3 @@ inline void System::MemberAccessException::_ctor(::System::Runtime::Serializatio
 }
 // Ctor Parameters []
 constexpr ::System::MemberAccessException::MemberAccessException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -534,5 +534,3 @@ inline void Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::reverse(::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest::Gost3411_2012Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

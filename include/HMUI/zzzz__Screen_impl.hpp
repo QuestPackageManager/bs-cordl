@@ -384,5 +384,3 @@ inline void HMUI::Screen::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::Screen::Screen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

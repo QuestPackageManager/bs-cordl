@@ -440,5 +440,3 @@ inline void GlobalNamespace::MirroredBeatmapObjectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MirroredBeatmapObjectManager::MirroredBeatmapObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

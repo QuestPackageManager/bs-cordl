@@ -136,5 +136,3 @@ template <typename T> inline void UnityEngine::UIElements::FocusEventBase_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::FocusEventBase_1<T>::FocusEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

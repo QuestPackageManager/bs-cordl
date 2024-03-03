@@ -222,5 +222,3 @@ constexpr ::UnityEngine::UIElements::LayoutData::LayoutData(::UnityEngine::UIEle
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::LayoutData::LayoutData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

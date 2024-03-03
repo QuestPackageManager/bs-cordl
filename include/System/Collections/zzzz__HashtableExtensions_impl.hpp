@@ -15,5 +15,3 @@ template <typename T> inline bool System::Collections::HashtableExtensions::TryG
 }
 // Ctor Parameters []
 constexpr ::System::Collections::HashtableExtensions::HashtableExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

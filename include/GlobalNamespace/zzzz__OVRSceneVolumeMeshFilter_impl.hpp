@@ -616,5 +616,3 @@ inline void GlobalNamespace::OVRSceneVolumeMeshFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneVolumeMeshFilter::OVRSceneVolumeMeshFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

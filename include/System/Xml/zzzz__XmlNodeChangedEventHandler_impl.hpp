@@ -49,5 +49,3 @@ inline void System::Xml::XmlNodeChangedEventHandler::Invoke(::System::Object* se
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNodeChangedEventHandler::XmlNodeChangedEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::CameraType UnityEngine::CameraType::SceneView{ static_c
 constexpr ::UnityEngine::CameraType UnityEngine::CameraType::Preview{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::CameraType UnityEngine::CameraType::VR{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::CameraType UnityEngine::CameraType::Reflection{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

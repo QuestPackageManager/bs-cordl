@@ -307,5 +307,3 @@ inline bool UnityEngine::UIElements::ListViewDraggerAnimated::TryGetDragPosition
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListViewDraggerAnimated::ListViewDraggerAnimated() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

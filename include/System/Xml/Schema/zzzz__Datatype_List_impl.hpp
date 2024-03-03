@@ -225,5 +225,3 @@ inline ::System::Exception* System::Xml::Schema::Datatype_List::TryParseValue(::
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_List::Datatype_List() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

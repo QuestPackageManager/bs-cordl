@@ -47,5 +47,3 @@ inline void GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::MultiplayerBadgeDataGoodCutsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

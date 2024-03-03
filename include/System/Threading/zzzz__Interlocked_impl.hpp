@@ -510,5 +510,3 @@ inline void System::Threading::Interlocked::MemoryBarrier() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Interlocked::Interlocked() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

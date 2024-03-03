@@ -65,5 +65,3 @@ inline bool UnityEngine::UIElements::StyleSheets::StylePropertyCache::TryGetNonT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyCache::StylePropertyCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

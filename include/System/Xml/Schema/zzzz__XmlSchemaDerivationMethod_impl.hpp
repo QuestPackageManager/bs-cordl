@@ -14,5 +14,3 @@ constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::
 constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::XmlSchemaDerivationMethod::Union{ static_cast<int32_t>(0x10) };
 constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::XmlSchemaDerivationMethod::All{ static_cast<int32_t>(0xff) };
 constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod System::Xml::Schema::XmlSchemaDerivationMethod::None{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

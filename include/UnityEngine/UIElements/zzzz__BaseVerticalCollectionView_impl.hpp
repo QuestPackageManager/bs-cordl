@@ -2464,5 +2464,3 @@ inline void UnityEngine::UIElements::BaseVerticalCollectionView::_Apply_g__Handl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView::BaseVerticalCollectionView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

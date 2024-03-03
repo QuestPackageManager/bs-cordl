@@ -83,5 +83,3 @@ inline void UnityEngine::InputSystem::InputValue::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputValue::InputValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

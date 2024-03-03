@@ -105,5 +105,3 @@ inline ::System::Nullable_1<int64_t> UnityEngine::InputSystem::LowLevel::InputDe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::InputDeviceCommandDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -448,5 +448,3 @@ inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::MultiplayerConnectedP
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::MultiplayerConnectedPlayerSpectatingSpot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

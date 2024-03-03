@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::TextOverflow::TextOverflow(int32_t value__)
 constexpr ::UnityEngine::UIElements::TextOverflow::TextOverflow() {}
 constexpr ::UnityEngine::UIElements::TextOverflow UnityEngine::UIElements::TextOverflow::Clip{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::TextOverflow UnityEngine::UIElements::TextOverflow::Ellipsis{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

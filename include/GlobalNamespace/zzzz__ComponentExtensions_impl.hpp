@@ -13,5 +13,3 @@ template <typename T> inline T GlobalNamespace::ComponentExtensions::GetComponen
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ComponentExtensions::ComponentExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

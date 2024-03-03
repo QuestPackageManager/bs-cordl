@@ -437,5 +437,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::TextDataProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

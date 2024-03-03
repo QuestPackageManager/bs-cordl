@@ -276,5 +276,3 @@ inline void HMUI::SimpleTextDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SimpleTextDropdown::SimpleTextDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

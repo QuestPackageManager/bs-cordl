@@ -25,5 +25,3 @@ template <typename T> inline void UnityEngine::UIElements::ObjectListPool_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::ObjectListPool_1<T>::ObjectListPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

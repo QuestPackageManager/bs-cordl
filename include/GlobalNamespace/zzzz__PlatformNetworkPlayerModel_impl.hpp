@@ -104,5 +104,3 @@ inline void GlobalNamespace::PlatformNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformNetworkPlayerModel::PlatformNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

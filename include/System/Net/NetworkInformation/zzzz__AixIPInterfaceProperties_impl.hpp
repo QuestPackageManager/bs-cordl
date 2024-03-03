@@ -96,5 +96,3 @@ inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixIPInterfaceProperties::AixIPInterfaceProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

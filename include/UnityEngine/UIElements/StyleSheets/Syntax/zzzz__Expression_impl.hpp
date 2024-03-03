@@ -108,5 +108,3 @@ inline void UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::Expression::Expression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

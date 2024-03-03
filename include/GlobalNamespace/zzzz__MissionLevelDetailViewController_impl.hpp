@@ -399,5 +399,3 @@ inline void GlobalNamespace::MissionLevelDetailViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelDetailViewController::MissionLevelDetailViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -151,5 +151,3 @@ inline void Unity::XR::OpenVR::ViveTracker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::ViveTracker::ViveTracker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

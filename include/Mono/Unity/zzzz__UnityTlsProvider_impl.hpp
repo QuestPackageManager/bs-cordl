@@ -246,5 +246,3 @@ inline void Mono::Unity::UnityTlsProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTlsProvider::UnityTlsProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

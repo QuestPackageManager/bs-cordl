@@ -148,5 +148,3 @@ inline void UnityEngine::Playables::PlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableAsset::PlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

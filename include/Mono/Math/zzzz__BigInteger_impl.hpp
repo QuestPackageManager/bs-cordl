@@ -1556,5 +1556,3 @@ inline void Mono::Math::BigInteger::Incr2() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Math::BigInteger::BigInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

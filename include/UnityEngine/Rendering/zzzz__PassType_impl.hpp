@@ -21,5 +21,3 @@ constexpr ::UnityEngine::Rendering::PassType UnityEngine::Rendering::PassType::M
 constexpr ::UnityEngine::Rendering::PassType UnityEngine::Rendering::PassType::ScriptableRenderPipeline{ static_cast<int32_t>(0xd) };
 constexpr ::UnityEngine::Rendering::PassType UnityEngine::Rendering::PassType::ScriptableRenderPipelineDefaultUnlit{ static_cast<int32_t>(0xe) };
 constexpr ::UnityEngine::Rendering::PassType UnityEngine::Rendering::PassType::GrabPass{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

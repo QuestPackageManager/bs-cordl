@@ -82,5 +82,3 @@ inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MacOsIPInterfaceProperties::MacOsIPInterfaceProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

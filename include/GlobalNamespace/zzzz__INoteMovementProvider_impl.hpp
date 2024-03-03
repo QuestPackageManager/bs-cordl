@@ -21,5 +21,3 @@ inline ::UnityW<::GlobalNamespace::NoteMovement> GlobalNamespace::INoteMovementP
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::INoteMovementProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::NoteMovement>, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

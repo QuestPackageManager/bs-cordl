@@ -590,5 +590,3 @@ inline void HMUI::SectionTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SectionTableView::SectionTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -301,5 +301,3 @@ constexpr ::GlobalNamespace::PoseSerializable::PoseSerializable(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PoseSerializable::PoseSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

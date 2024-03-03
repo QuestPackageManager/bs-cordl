@@ -178,5 +178,3 @@ inline bool UnityEngine::ImageConversion::LoadImage(::UnityEngine::Texture2D* te
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ImageConversion::ImageConversion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

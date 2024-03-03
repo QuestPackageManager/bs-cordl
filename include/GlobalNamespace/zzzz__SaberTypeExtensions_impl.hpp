@@ -90,5 +90,3 @@ inline ::GlobalNamespace::SaberType GlobalNamespace::SaberTypeExtensions::ToSabe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberTypeExtensions::SaberTypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

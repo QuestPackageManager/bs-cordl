@@ -70,5 +70,3 @@ inline void GlobalNamespace::BasicBeatmapEventDataProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicBeatmapEventDataProcessor::BasicBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

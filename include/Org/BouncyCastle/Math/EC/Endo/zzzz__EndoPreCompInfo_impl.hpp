@@ -145,5 +145,3 @@ inline void Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo::EndoPreCompInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

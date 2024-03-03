@@ -351,5 +351,3 @@ inline void UnityEngine::TextCore::Glyph::_ctor(uint32_t index, ::UnityEngine::T
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Glyph::Glyph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

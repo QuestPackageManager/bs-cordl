@@ -8,5 +8,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ErrorCode::HAPI_ErrorCode(int32_t value__) 
 constexpr ::HoudiniEngineUnity::HAPI_ErrorCode::HAPI_ErrorCode() {}
 constexpr ::HoudiniEngineUnity::HAPI_ErrorCode HoudiniEngineUnity::HAPI_ErrorCode::HAPI_ERRORCODE_ASSET_DEF_NOT_FOUND{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_ErrorCode HoudiniEngineUnity::HAPI_ErrorCode::HAPI_ERRORCODE_PYTHON_NODE_ERROR{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Net::Http::Headers::HttpHeaderKind System::Net::Http::Header
 constexpr ::System::Net::Http::Headers::HttpHeaderKind System::Net::Http::Headers::HttpHeaderKind::Request{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Http::Headers::HttpHeaderKind System::Net::Http::Headers::HttpHeaderKind::Response{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::Http::Headers::HttpHeaderKind System::Net::Http::Headers::HttpHeaderKind::Content{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

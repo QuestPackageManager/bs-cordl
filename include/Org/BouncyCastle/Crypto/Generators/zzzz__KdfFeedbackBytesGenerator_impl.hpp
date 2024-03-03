@@ -282,5 +282,3 @@ inline ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crypto::Generators:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::KdfFeedbackBytesGenerator::KdfFeedbackBytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

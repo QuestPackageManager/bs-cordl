@@ -183,5 +183,3 @@ inline void RootMotion::AxisTools::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::AxisTools::AxisTools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

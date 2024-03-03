@@ -287,5 +287,3 @@ inline bool Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::Verify() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::PgpEncryptedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

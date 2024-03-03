@@ -21,5 +21,3 @@ inline void UnityEngine::ClassLibraryInitializer::Init() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ClassLibraryInitializer::ClassLibraryInitializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

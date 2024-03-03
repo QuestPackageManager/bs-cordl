@@ -123,5 +123,3 @@ inline bool Mono::Security::Interface::ValidationResult::get_UserDenied() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::ValidationResult::ValidationResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

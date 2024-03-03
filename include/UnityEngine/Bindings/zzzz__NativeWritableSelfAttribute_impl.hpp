@@ -58,5 +58,3 @@ inline void UnityEngine::Bindings::NativeWritableSelfAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeWritableSelfAttribute::NativeWritableSelfAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -87,5 +87,3 @@ template <typename T> inline void System::Collections::Generic::EqualityComparer
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::EqualityComparer_1<T>::EqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

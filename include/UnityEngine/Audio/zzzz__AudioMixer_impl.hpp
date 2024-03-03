@@ -283,5 +283,3 @@ inline bool UnityEngine::Audio::AudioMixer::GetFloat(::StringW name, ByRef<float
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Audio::AudioMixer::AudioMixer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -517,5 +517,3 @@ inline void System::Net::HttpWebResponse::FillCookies() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpWebResponse::HttpWebResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

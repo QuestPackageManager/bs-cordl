@@ -13,5 +13,3 @@ constexpr ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRText
 constexpr ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRTextureQualityFiltering::Aniso4x{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRTextureQualityFiltering::Aniso8x{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRTextureQualityFiltering::Aniso16x{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

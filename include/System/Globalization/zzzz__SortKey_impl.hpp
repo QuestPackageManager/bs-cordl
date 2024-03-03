@@ -293,5 +293,3 @@ inline void System::Globalization::SortKey::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::SortKey::SortKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

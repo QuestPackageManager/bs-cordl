@@ -98,5 +98,3 @@ inline void Newtonsoft::Json::Serialization::ExtensionDataSetter::EndInvoke(::Sy
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ExtensionDataSetter::ExtensionDataSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode HoudiniEngineUnity
 constexpr ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode HoudiniEngineUnity::HAPI_PackedPrimInstancingMode::HAPI_PACKEDPRIM_INSTANCING_MODE_HIERARCHY{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode HoudiniEngineUnity::HAPI_PackedPrimInstancingMode::HAPI_PACKEDPRIM_INSTANCING_MODE_FLAT{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode HoudiniEngineUnity::HAPI_PackedPrimInstancingMode::HAPI_PACKEDPRIM_INSTANCING_MODE_MAX{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

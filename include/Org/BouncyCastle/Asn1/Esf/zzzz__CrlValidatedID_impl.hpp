@@ -187,5 +187,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::CrlV
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID::CrlValidatedID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -85,5 +85,3 @@ inline void Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil::KeyWrapperUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

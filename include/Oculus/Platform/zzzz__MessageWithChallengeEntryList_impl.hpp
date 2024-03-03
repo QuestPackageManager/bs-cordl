@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::ChallengeEntryList* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithChallengeEntryList::MessageWithChallengeEntryList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

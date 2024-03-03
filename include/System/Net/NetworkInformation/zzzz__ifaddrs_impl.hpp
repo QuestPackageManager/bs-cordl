@@ -19,5 +19,3 @@ constexpr ::System::Net::NetworkInformation::ifaddrs::ifaddrs(void* ifa_next, ::
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::ifaddrs::ifaddrs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

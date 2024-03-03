@@ -144,5 +144,3 @@ inline void System::Xml::Schema::XmlSchemaObjectCollection::OnRemove(int32_t ind
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -694,5 +694,3 @@ inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetry::AddS
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTelemetry::OVRTelemetry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

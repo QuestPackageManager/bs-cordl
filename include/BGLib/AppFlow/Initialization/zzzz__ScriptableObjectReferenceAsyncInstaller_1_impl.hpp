@@ -119,5 +119,3 @@ template <typename T> inline void BGLib::AppFlow::Initialization::ScriptableObje
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<T>::ScriptableObjectReferenceAsyncInstaller_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

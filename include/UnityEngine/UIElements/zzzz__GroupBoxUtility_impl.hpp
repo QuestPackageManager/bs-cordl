@@ -163,5 +163,3 @@ inline void UnityEngine::UIElements::GroupBoxUtility::OnPanelDestroyed(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GroupBoxUtility::GroupBoxUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

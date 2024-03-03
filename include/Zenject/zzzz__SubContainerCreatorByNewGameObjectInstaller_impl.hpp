@@ -211,5 +211,3 @@ inline void Zenject::SubContainerCreatorByNewGameObjectInstaller::AddInstallers(
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewGameObjectInstaller::SubContainerCreatorByNewGameObjectInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

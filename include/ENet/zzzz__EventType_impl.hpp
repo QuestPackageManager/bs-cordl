@@ -11,5 +11,3 @@ constexpr ::ENet::EventType ENet::EventType::Connect{ static_cast<int32_t>(0x1) 
 constexpr ::ENet::EventType ENet::EventType::Disconnect{ static_cast<int32_t>(0x2) };
 constexpr ::ENet::EventType ENet::EventType::Receive{ static_cast<int32_t>(0x3) };
 constexpr ::ENet::EventType ENet::EventType::Timeout{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -625,5 +625,3 @@ inline bool System::Net::HttpListenerResponse::IsToken(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerResponse::HttpListenerResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

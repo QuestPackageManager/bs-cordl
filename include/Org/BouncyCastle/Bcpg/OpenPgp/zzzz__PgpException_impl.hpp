@@ -95,5 +95,3 @@ inline ::System::Exception* Org::BouncyCastle::Bcpg::OpenPgp::PgpException::get_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException::PgpException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

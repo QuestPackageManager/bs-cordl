@@ -771,5 +771,3 @@ inline int32_t System::Text::UTF32Encoding::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::UTF32Encoding::UTF32Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void System::Security::Cryptography::AsymmetricSignatureFormatter::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AsymmetricSignatureFormatter::AsymmetricSignatureFormatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

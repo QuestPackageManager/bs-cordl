@@ -59,5 +59,3 @@ inline ::StringW System::Runtime::Serialization::TypeLoadExceptionHolder::get_Ty
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::TypeLoadExceptionHolder::TypeLoadExceptionHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

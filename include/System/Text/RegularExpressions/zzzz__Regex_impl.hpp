@@ -1393,5 +1393,3 @@ inline bool System::Text::RegularExpressions::Regex::UseOptionInvariant() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::Regex::Regex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

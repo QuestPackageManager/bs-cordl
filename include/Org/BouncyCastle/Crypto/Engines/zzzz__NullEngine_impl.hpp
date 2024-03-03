@@ -173,5 +173,3 @@ inline void Org::BouncyCastle::Crypto::Engines::NullEngine::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::NullEngine::NullEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

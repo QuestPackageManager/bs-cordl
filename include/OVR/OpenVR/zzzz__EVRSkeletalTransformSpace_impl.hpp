@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVRSkeletalTransformSpace::EVRSkeletalTransformSpace() 
 constexpr ::OVR::OpenVR::EVRSkeletalTransformSpace OVR::OpenVR::EVRSkeletalTransformSpace::Model{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRSkeletalTransformSpace OVR::OpenVR::EVRSkeletalTransformSpace::Parent{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRSkeletalTransformSpace OVR::OpenVR::EVRSkeletalTransformSpace::Additive{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

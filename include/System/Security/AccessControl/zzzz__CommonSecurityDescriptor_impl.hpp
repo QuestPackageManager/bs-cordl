@@ -340,5 +340,3 @@ inline void System::Security::AccessControl::CommonSecurityDescriptor::CheckAclC
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::CommonSecurityDescriptor::CommonSecurityDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

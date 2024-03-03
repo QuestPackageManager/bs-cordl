@@ -333,5 +333,3 @@ inline void RootMotion::FinalIK::PenetrationAvoidance::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::PenetrationAvoidance::PenetrationAvoidance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

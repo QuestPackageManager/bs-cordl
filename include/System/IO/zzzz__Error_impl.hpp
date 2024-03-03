@@ -76,5 +76,3 @@ inline ::System::Exception* System::IO::Error::GetWriteNotSupported() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::Error::Error() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -190,5 +190,3 @@ inline void GlobalNamespace::MainSettingsAsyncLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSettingsAsyncLoader::MainSettingsAsyncLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

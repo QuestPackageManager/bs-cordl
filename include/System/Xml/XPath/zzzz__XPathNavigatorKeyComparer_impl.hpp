@@ -79,5 +79,3 @@ inline void System::Xml::XPath::XPathNavigatorKeyComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XPath::XPathNavigatorKeyComparer::XPathNavigatorKeyComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

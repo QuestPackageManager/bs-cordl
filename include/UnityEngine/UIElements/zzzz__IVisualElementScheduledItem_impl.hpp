@@ -110,5 +110,3 @@ inline ::UnityEngine::UIElements::IVisualElementScheduledItem* UnityEngine::UIEl
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IVisualElementScheduledItem*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IVisualElementScheduledItem*, false>(this, ___internal_method, intervalMs);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

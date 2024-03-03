@@ -91,5 +91,3 @@ inline int32_t Org::BouncyCastle::Bcpg::Sig::KeyFlags::get_Flags() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::KeyFlags::KeyFlags() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

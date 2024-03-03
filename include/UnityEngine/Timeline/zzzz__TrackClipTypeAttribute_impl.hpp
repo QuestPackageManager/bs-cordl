@@ -76,5 +76,3 @@ inline void UnityEngine::Timeline::TrackClipTypeAttribute::_ctor(::System::Type*
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackClipTypeAttribute::TrackClipTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

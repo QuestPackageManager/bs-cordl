@@ -42,5 +42,3 @@ inline ::System::Security::Cryptography::MD5* System::Security::Cryptography::MD
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::MD5::MD5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -69,5 +69,3 @@ inline void Org::BouncyCastle::Utilities::IO::NullOutputStream::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::NullOutputStream::NullOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

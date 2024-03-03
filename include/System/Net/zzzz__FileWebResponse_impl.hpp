@@ -322,5 +322,3 @@ inline ::System::IO::Stream* System::Net::FileWebResponse::GetResponseStream() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebResponse::FileWebResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

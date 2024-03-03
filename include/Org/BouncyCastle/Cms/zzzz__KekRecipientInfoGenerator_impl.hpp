@@ -212,5 +212,3 @@ inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Org::BouncyCastle::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator::KekRecipientInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -130,5 +130,3 @@ constexpr ::Newtonsoft::Json::Utilities::StringReference::StringReference(::Arra
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::StringReference::StringReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

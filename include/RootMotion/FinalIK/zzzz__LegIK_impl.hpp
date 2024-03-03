@@ -131,5 +131,3 @@ inline void RootMotion::FinalIK::LegIK::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::LegIK::LegIK() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

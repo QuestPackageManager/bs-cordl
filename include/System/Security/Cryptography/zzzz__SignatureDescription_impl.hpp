@@ -157,5 +157,3 @@ inline void System::Security::Cryptography::SignatureDescription::set_Deformatte
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SignatureDescription::SignatureDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

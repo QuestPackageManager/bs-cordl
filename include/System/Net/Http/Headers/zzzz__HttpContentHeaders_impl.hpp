@@ -101,5 +101,3 @@ inline void System::Net::Http::Headers::HttpContentHeaders::set_ContentType(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::HttpContentHeaders::HttpContentHeaders() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

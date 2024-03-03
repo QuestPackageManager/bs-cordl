@@ -115,5 +115,3 @@ template <typename T> inline void GlobalNamespace::TaskExtensions::WaitForTask(:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TaskExtensions::TaskExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

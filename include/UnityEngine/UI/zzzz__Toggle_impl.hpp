@@ -551,5 +551,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::Toggle::UnityEngine_U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Toggle::Toggle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

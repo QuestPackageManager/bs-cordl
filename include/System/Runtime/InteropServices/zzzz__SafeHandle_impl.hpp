@@ -383,5 +383,3 @@ inline void System::Runtime::InteropServices::SafeHandle::DangerousReleaseIntern
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::SafeHandle::SafeHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

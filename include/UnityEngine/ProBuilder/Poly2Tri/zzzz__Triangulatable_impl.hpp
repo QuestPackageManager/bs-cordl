@@ -153,5 +153,3 @@ inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode UnityEngine::ProBu
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

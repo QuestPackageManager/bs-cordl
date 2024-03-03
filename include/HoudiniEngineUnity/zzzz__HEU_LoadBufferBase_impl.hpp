@@ -108,5 +108,3 @@ inline void HoudiniEngineUnity::HEU_LoadBufferBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_LoadBufferBase::HEU_LoadBufferBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

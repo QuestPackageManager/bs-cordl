@@ -90,5 +90,3 @@ inline bool Org::BouncyCastle::Bcpg::Sig::Revocable::IsRevocable() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::Revocable::Revocable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -302,5 +302,3 @@ inline void Org::BouncyCastle::Bcpg::S2k::Encode(::Org::BouncyCastle::Bcpg::Bcpg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::S2k::S2k() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

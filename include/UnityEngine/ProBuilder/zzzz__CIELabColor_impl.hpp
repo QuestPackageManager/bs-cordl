@@ -128,5 +128,3 @@ inline ::StringW UnityEngine::ProBuilder::CIELabColor::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::CIELabColor::CIELabColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

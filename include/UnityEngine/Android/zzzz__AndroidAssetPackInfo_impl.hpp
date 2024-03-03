@@ -114,5 +114,3 @@ inline void UnityEngine::Android::AndroidAssetPackInfo::_ctor(::StringW name, ::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::AndroidAssetPackInfo::AndroidAssetPackInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

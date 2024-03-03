@@ -527,5 +527,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::X509::X509V2CrlGen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509V2CrlGenerator::X509V2CrlGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

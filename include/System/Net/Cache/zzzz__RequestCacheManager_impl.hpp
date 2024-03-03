@@ -88,5 +88,3 @@ inline void System::Net::Cache::RequestCacheManager::LoadConfigSettings() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCacheManager::RequestCacheManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

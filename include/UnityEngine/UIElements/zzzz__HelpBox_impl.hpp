@@ -327,5 +327,3 @@ inline void UnityEngine::UIElements::__HelpBox__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__HelpBox__UxmlFactory::__HelpBox__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

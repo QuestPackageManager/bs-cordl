@@ -62,5 +62,3 @@ constexpr ::UnityEngine::HumanBodyBones UnityEngine::HumanBodyBones::RightLittle
 constexpr ::UnityEngine::HumanBodyBones UnityEngine::HumanBodyBones::RightLittleIntermediate{ static_cast<int32_t>(0x34) };
 constexpr ::UnityEngine::HumanBodyBones UnityEngine::HumanBodyBones::RightLittleDistal{ static_cast<int32_t>(0x35) };
 constexpr ::UnityEngine::HumanBodyBones UnityEngine::HumanBodyBones::LastBone{ static_cast<int32_t>(0x37) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

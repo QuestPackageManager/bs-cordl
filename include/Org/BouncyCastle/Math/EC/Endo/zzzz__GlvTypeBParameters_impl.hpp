@@ -295,5 +295,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Bits()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::GlvTypeBParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

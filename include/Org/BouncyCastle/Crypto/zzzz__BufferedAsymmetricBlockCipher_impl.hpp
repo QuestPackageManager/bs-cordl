@@ -306,5 +306,3 @@ inline void Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::BufferedAsymmetricBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

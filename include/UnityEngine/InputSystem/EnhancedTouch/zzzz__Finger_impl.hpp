@@ -303,5 +303,3 @@ inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory UnityEngine::Inpu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Finger::Finger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

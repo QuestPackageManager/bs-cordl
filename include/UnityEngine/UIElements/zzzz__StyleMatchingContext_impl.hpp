@@ -171,5 +171,3 @@ inline ::UnityW<::UnityEngine::UIElements::StyleSheet> UnityEngine::UIElements::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleMatchingContext::StyleMatchingContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

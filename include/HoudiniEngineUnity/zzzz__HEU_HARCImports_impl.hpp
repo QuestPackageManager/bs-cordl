@@ -24,5 +24,3 @@ inline void HoudiniEngineUnity::HEU_HARCImports::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HARCImports::HEU_HARCImports() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

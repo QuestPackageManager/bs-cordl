@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AssertionMethodAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AssertionMethodAttribute::AssertionMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

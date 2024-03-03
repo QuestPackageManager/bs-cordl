@@ -722,5 +722,3 @@ inline void GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::MultiplayerLevelScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -112,5 +112,3 @@ inline bool System::Net::Security::AuthenticatedStream::get_IsAuthenticated() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::AuthenticatedStream::AuthenticatedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -241,5 +241,3 @@ inline void System::Security::Cryptography::SHA1Managed::SHAExpand(::cordl_inter
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA1Managed::SHA1Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

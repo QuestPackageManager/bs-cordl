@@ -137,5 +137,3 @@ inline bool GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBea
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::BeatmapDataObstaclesAndBombsTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline void GlobalNamespace::AssemblyInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AssemblyInfo::AssemblyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

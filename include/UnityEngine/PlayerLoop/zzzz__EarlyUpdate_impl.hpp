@@ -65,5 +65,3 @@ constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate::__EarlyUpdate_
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate::__EarlyUpdate__PerformanceAnalyticsUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::EarlyUpdate::EarlyUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

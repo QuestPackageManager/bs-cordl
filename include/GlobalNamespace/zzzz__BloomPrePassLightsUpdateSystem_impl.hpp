@@ -44,5 +44,3 @@ inline void GlobalNamespace::BloomPrePassLightsUpdateSystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassLightsUpdateSystem::BloomPrePassLightsUpdateSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

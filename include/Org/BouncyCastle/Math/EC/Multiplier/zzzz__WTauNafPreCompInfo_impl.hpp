@@ -100,5 +100,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::_ctor()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::WTauNafPreCompInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -759,5 +759,3 @@ inline ::StringW System::Net::WebHeaderCollection::GetKey(int32_t index) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebHeaderCollection::WebHeaderCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

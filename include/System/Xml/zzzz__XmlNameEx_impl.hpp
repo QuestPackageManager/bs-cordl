@@ -310,5 +310,3 @@ inline bool System::Xml::XmlNameEx::Equals(::System::Xml::Schema::IXmlSchemaInfo
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNameEx::XmlNameEx() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

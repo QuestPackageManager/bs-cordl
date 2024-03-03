@@ -130,5 +130,3 @@ inline void Newtonsoft::Json::Bson::BsonProperty::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonProperty::BsonProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

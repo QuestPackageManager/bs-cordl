@@ -21,5 +21,3 @@ inline void UnityEngine::InputSystem::XR::XRSupport::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRSupport::XRSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

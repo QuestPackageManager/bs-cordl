@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::AchievementType Oculus::Platform::AchievementType:
 constexpr ::Oculus::Platform::AchievementType Oculus::Platform::AchievementType::Simple{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::AchievementType Oculus::Platform::AchievementType::Bitfield{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::AchievementType Oculus::Platform::AchievementType::Count{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

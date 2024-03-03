@@ -648,5 +648,3 @@ inline void UnityEngine::AddressableAssets::Initialization::ResourceManagerRunti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::ResourceManagerRuntimeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

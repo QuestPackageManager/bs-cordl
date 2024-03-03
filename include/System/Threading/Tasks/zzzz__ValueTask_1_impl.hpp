@@ -204,5 +204,3 @@ template <typename TResult> constexpr ::System::Threading::Tasks::ValueTask_1<TR
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::ValueTask_1<TResult>::ValueTask_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -71,5 +71,3 @@ inline void GlobalNamespace::OculusInvitePlatformHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusInvitePlatformHandler::OculusInvitePlatformHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

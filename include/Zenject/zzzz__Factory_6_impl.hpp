@@ -32,5 +32,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::Factory_6<TParam1, TParam2, TParam3, 
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 constexpr ::Zenject::Factory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::Factory_6() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

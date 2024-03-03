@@ -1,3 +1,5 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatarInstaller_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatarInstaller_impl.hpp"
+#endif

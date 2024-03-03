@@ -216,5 +216,3 @@ inline ::System::Threading::Tasks::Task_1<int32_t>* System::IO::__TextReader__Sy
 }
 // Ctor Parameters []
 constexpr ::System::IO::__TextReader__SyncTextReader::__TextReader__SyncTextReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

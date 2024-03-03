@@ -103,5 +103,3 @@ inline void GlobalNamespace::StaticJumpOffsetYProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticJumpOffsetYProvider::StaticJumpOffsetYProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

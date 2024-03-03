@@ -324,5 +324,3 @@ inline void GlobalNamespace::TabBarViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TabBarViewController::TabBarViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

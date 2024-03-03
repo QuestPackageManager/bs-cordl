@@ -319,5 +319,3 @@ inline void GlobalNamespace::TutorialPause::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialPause::TutorialPause() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

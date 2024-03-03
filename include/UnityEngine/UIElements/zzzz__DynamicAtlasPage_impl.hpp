@@ -527,5 +527,3 @@ inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::UIElements::DynamicAt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DynamicAtlasPage::DynamicAtlasPage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

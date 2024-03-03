@@ -75,5 +75,3 @@ inline void GlobalNamespace::PlatformLeaderboardsHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformLeaderboardsHandler::PlatformLeaderboardsHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

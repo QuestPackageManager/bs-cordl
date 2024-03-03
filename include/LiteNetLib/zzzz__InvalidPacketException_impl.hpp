@@ -74,5 +74,3 @@ inline void LiteNetLib::InvalidPacketException::_ctor(::StringW message, ::Syste
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::InvalidPacketException::InvalidPacketException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

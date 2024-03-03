@@ -123,5 +123,3 @@ inline void UnityEngine::UIElements::PanelTextSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelTextSettings::PanelTextSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

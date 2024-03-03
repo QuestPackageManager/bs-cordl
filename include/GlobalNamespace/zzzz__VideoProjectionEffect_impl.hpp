@@ -661,5 +661,3 @@ inline void GlobalNamespace::VideoProjectionEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VideoProjectionEffect::VideoProjectionEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

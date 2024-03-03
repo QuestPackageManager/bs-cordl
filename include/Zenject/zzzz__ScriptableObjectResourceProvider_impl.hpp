@@ -377,5 +377,3 @@ inline void Zenject::ScriptableObjectResourceProvider::GetAllInstancesWithInject
 }
 // Ctor Parameters []
 constexpr ::Zenject::ScriptableObjectResourceProvider::ScriptableObjectResourceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

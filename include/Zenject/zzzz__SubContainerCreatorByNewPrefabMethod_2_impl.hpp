@@ -127,5 +127,3 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>::A
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2> constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_2<TParam1, TParam2>::SubContainerCreatorByNewPrefabMethod_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

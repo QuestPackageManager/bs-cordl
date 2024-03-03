@@ -360,5 +360,3 @@ inline ::StringW System::Net::CookieContainer::GetCookieHeader(::System::Uri* ur
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieContainer::CookieContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

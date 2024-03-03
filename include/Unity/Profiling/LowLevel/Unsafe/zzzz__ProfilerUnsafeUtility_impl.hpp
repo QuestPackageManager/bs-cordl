@@ -69,5 +69,3 @@ inline void Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::EndSample
 }
 // Ctor Parameters []
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::ProfilerUnsafeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

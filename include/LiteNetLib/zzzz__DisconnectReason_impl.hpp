@@ -17,5 +17,3 @@ constexpr ::LiteNetLib::DisconnectReason LiteNetLib::DisconnectReason::InvalidPr
 constexpr ::LiteNetLib::DisconnectReason LiteNetLib::DisconnectReason::UnknownHost{ static_cast<int32_t>(0x8) };
 constexpr ::LiteNetLib::DisconnectReason LiteNetLib::DisconnectReason::Reconnect{ static_cast<int32_t>(0x9) };
 constexpr ::LiteNetLib::DisconnectReason LiteNetLib::DisconnectReason::PeerToPeerConnection{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

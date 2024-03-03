@@ -70,5 +70,3 @@ inline void GlobalNamespace::LevelFailedText::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelFailedText::LevelFailedText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

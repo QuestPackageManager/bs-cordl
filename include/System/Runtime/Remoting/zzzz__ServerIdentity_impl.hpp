@@ -324,5 +324,3 @@ inline void System::Runtime::Remoting::ServerIdentity::DisposeServerObject() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ServerIdentity::ServerIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

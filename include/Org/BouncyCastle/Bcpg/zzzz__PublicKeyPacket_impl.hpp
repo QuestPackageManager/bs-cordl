@@ -262,5 +262,3 @@ inline void Org::BouncyCastle::Bcpg::PublicKeyPacket::Encode(::Org::BouncyCastle
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::PublicKeyPacket::PublicKeyPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

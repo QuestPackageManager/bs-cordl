@@ -8,5 +8,3 @@ constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel::TypeFil
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel::TypeFilterLevel() {}
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel System::Runtime::Serialization::Formatters::TypeFilterLevel::Low{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel System::Runtime::Serialization::Formatters::TypeFilterLevel::Full{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

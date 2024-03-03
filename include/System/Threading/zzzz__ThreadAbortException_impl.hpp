@@ -53,5 +53,3 @@ inline void System::Threading::ThreadAbortException::_ctor(::System::Runtime::Se
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadAbortException::ThreadAbortException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

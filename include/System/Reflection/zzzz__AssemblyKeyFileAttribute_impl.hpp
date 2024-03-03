@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyKeyFileAttribute::_ctor(::StringW keyFil
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyKeyFileAttribute::AssemblyKeyFileAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

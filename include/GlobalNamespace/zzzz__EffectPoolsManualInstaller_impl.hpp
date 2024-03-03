@@ -138,5 +138,3 @@ inline void GlobalNamespace::EffectPoolsManualInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EffectPoolsManualInstaller::EffectPoolsManualInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

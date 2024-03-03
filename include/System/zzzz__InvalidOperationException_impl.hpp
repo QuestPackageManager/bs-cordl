@@ -103,5 +103,3 @@ inline void System::InvalidOperationException::_ctor(::System::Runtime::Serializ
 }
 // Ctor Parameters []
 constexpr ::System::InvalidOperationException::InvalidOperationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

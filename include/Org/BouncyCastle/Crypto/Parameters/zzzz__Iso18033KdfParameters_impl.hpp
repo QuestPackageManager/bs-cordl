@@ -69,5 +69,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Parameter
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters::Iso18033KdfParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

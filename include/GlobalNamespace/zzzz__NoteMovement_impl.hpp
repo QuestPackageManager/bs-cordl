@@ -979,5 +979,3 @@ inline void GlobalNamespace::NoteMovement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteMovement::NoteMovement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

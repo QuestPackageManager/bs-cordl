@@ -162,5 +162,3 @@ inline bool UnityEngine::UIElements::EventCallbackFunctorBase::PhaseMatches(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCallbackFunctorBase::EventCallbackFunctorBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

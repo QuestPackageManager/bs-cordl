@@ -223,5 +223,3 @@ inline int32_t System::Net::IPEndPoint::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::IPEndPoint::IPEndPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

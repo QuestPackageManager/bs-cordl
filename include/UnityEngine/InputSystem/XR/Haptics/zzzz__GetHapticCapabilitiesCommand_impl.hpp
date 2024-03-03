@@ -146,5 +146,3 @@ constexpr ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::GetHapticCapabilitiesCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

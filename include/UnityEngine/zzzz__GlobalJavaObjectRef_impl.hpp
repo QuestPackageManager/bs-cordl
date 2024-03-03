@@ -108,5 +108,3 @@ inline void UnityEngine::GlobalJavaObjectRef::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GlobalJavaObjectRef::GlobalJavaObjectRef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

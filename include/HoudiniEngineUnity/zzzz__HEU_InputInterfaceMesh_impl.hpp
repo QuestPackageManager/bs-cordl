@@ -395,5 +395,3 @@ inline ::UnityW<::UnityEngine::Mesh> HoudiniEngineUnity::HEU_InputInterfaceMesh:
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputInterfaceMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

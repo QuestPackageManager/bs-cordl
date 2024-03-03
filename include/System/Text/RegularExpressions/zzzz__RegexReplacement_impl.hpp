@@ -200,5 +200,3 @@ inline ::StringW System::Text::RegularExpressions::RegexReplacement::Replace(::S
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexReplacement::RegexReplacement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

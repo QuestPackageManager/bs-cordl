@@ -5027,5 +5027,3 @@ inline int32_t System::Convert::FromBase64_ComputeResultLength(::cordl_internals
 }
 // Ctor Parameters []
 constexpr ::System::Convert::Convert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -23,5 +23,3 @@ template <typename TSubsystem> inline void UnityEngine::IntegratedSubsystemDescr
 }
 // Ctor Parameters []
 template <typename TSubsystem> constexpr ::UnityEngine::IntegratedSubsystemDescriptor_1<TSubsystem>::IntegratedSubsystemDescriptor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

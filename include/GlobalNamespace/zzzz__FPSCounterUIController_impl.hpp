@@ -372,5 +372,3 @@ inline void GlobalNamespace::FPSCounterUIController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FPSCounterUIController::FPSCounterUIController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

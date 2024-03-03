@@ -163,5 +163,3 @@ inline void GlobalNamespace::ParticleSystemContinuousEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParticleSystemContinuousEventEffect::ParticleSystemContinuousEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

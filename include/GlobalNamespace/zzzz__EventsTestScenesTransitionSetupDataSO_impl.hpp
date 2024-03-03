@@ -82,5 +82,3 @@ inline void GlobalNamespace::EventsTestScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO::EventsTestScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

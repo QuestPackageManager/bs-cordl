@@ -60,5 +60,3 @@ inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::LightR
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter::LightRotationEventBoxGroupConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

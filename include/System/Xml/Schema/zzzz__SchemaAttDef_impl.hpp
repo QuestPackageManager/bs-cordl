@@ -687,5 +687,3 @@ inline void System::Xml::Schema::SchemaAttDef::CheckXmlSpace(::System::Xml::IVal
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaAttDef::SchemaAttDef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

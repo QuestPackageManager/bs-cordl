@@ -363,5 +363,3 @@ inline void UnityEngine::InputSystem::XR::XRHMD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRHMD::XRHMD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

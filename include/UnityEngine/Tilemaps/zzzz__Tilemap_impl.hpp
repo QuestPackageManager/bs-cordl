@@ -471,5 +471,3 @@ inline void UnityEngine::Tilemaps::Tilemap::RefreshTile_Injected(ByRef<::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::Tilemap::Tilemap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -397,5 +397,3 @@ inline void GlobalNamespace::CreditsContent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CreditsContent::CreditsContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

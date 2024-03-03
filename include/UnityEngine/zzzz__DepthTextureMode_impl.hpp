@@ -10,5 +10,3 @@ constexpr ::UnityEngine::DepthTextureMode UnityEngine::DepthTextureMode::None{ s
 constexpr ::UnityEngine::DepthTextureMode UnityEngine::DepthTextureMode::Depth{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::DepthTextureMode UnityEngine::DepthTextureMode::DepthNormals{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::DepthTextureMode UnityEngine::DepthTextureMode::MotionVectors{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

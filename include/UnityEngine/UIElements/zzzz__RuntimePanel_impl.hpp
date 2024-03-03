@@ -110,5 +110,3 @@ inline void UnityEngine::UIElements::RuntimePanel::Update() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RuntimePanel::RuntimePanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

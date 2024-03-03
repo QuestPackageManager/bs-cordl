@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::PlayerSensit
 constexpr ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::PlayerSensitivityFlag::Safe{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::PlayerSensitivityFlag::Themes{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::PlayerSensitivityFlag::Explicit{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

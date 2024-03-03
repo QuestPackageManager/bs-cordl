@@ -649,5 +649,3 @@ inline void RootMotion::FinalIK::RotationLimitPolygonal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::RotationLimitPolygonal::RotationLimitPolygonal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

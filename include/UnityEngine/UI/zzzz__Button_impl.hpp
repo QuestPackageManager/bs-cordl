@@ -424,5 +424,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::UI::Button::OnFinishSubm
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Button::Button() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ template <typename TContract> inline ::Zenject::FactoryArgumentsToChoiceBinder_1
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolExpandBinder_1<TContract>::MemoryPoolExpandBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

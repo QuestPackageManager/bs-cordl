@@ -31,5 +31,3 @@ constexpr ::OVR::OpenVR::COpenVRContext::COpenVRContext(void* m_pVRSystem, void*
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::COpenVRContext::COpenVRContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyFileVersionAttribute::_ctor(::StringW ve
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyFileVersionAttribute::AssemblyFileVersionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

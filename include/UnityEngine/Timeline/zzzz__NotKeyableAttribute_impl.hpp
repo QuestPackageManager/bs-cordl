@@ -24,5 +24,3 @@ inline void UnityEngine::Timeline::NotKeyableAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::NotKeyableAttribute::NotKeyableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

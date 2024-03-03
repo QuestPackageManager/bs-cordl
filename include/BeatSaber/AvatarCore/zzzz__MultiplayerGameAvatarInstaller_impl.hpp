@@ -60,5 +60,3 @@ inline void BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::MultiplayerGameAvatarInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

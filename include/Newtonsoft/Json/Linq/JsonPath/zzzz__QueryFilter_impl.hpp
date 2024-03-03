@@ -476,5 +476,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::QueryFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryFilter::QueryFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

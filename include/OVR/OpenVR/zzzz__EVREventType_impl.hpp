@@ -154,5 +154,3 @@ constexpr ::OVR::OpenVR::EVREventType OVR::OpenVR::EVREventType::VREvent_Spatial
 constexpr ::OVR::OpenVR::EVREventType OVR::OpenVR::EVREventType::VREvent_SpatialAnchors_RequestDescriptorUpdate{ static_cast<int32_t>(0x70b) };
 constexpr ::OVR::OpenVR::EVREventType OVR::OpenVR::EVREventType::VREvent_VendorSpecific_Reserved_Start{ static_cast<int32_t>(0x2710) };
 constexpr ::OVR::OpenVR::EVREventType OVR::OpenVR::EVREventType::VREvent_VendorSpecific_Reserved_End{ static_cast<int32_t>(0x4e1f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

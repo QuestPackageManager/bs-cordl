@@ -28,5 +28,3 @@ inline ::GlobalNamespace::IndexFilter* BeatmapDataLoaderVersion4::IndexFilterCon
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::IndexFilterConverter::IndexFilterConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

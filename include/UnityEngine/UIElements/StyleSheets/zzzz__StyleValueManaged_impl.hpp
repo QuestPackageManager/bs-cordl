@@ -15,5 +15,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueM
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueManaged() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -43,5 +43,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::DefaultGameObjectKernel::__zenCreateI
 }
 // Ctor Parameters []
 constexpr ::Zenject::DefaultGameObjectKernel::DefaultGameObjectKernel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

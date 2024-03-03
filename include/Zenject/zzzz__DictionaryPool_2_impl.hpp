@@ -38,5 +38,3 @@ template <typename TKey, typename TValue> inline void Zenject::DictionaryPool_2<
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::Zenject::DictionaryPool_2<TKey, TValue>::DictionaryPool_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

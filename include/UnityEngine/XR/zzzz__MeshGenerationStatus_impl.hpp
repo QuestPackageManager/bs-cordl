@@ -11,5 +11,3 @@ constexpr ::UnityEngine::XR::MeshGenerationStatus UnityEngine::XR::MeshGeneratio
 constexpr ::UnityEngine::XR::MeshGenerationStatus UnityEngine::XR::MeshGenerationStatus::GenerationAlreadyInProgress{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::XR::MeshGenerationStatus UnityEngine::XR::MeshGenerationStatus::Canceled{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::XR::MeshGenerationStatus UnityEngine::XR::MeshGenerationStatus::UnknownError{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

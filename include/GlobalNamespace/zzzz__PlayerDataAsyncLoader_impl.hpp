@@ -174,5 +174,3 @@ inline void GlobalNamespace::PlayerDataAsyncLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerDataAsyncLoader::PlayerDataAsyncLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

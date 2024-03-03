@@ -175,5 +175,3 @@ inline int32_t System::Runtime::Serialization::ObjectHolderList::get_Count() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectHolderList::ObjectHolderList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

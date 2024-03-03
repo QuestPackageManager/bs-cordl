@@ -187,5 +187,3 @@ inline void Org::BouncyCastle::Utilities::Collections::CollectionUtilities::_cto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::CollectionUtilities::CollectionUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

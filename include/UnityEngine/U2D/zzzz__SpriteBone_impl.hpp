@@ -22,5 +22,3 @@ constexpr ::UnityEngine::U2D::SpriteBone::SpriteBone(::StringW m_Name, ::StringW
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::U2D::SpriteBone::SpriteBone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

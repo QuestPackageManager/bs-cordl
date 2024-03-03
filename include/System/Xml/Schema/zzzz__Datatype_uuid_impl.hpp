@@ -144,5 +144,3 @@ inline void System::Xml::Schema::Datatype_uuid::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_uuid::Datatype_uuid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

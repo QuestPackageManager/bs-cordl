@@ -219,5 +219,3 @@ inline void BeatSaber::AvatarCore::MultiplayerAvatarPoseController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::MultiplayerAvatarPoseController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

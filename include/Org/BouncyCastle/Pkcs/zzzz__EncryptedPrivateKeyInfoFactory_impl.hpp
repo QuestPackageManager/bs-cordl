@@ -221,5 +221,3 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* Org::BouncyCast
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::EncryptedPrivateKeyInfoFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

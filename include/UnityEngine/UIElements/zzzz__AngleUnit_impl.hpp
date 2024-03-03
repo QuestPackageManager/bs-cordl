@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::AngleUnit UnityEngine::UIElements::AngleUni
 constexpr ::UnityEngine::UIElements::AngleUnit UnityEngine::UIElements::AngleUnit::Gradian{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::AngleUnit UnityEngine::UIElements::AngleUnit::Radian{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::AngleUnit UnityEngine::UIElements::AngleUnit::Turn{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

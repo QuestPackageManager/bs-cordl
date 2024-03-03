@@ -65,5 +65,3 @@ inline ::StringW System::ComponentModel::AttributeProviderAttribute::get_Propert
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::AttributeProviderAttribute::AttributeProviderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

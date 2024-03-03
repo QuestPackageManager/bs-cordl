@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ProBuilder::MeshSyncState UnityEngine::ProBuilder::Mesh
 constexpr ::UnityEngine::ProBuilder::MeshSyncState UnityEngine::ProBuilder::MeshSyncState::InstanceIDMismatch{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::MeshSyncState UnityEngine::ProBuilder::MeshSyncState::Lightmap{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::MeshSyncState UnityEngine::ProBuilder::MeshSyncState::InSync{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

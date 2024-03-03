@@ -20,5 +20,3 @@ template <typename TElement> constexpr ::System::Linq::Buffer_1<TElement>::Buffe
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::Buffer_1<TElement>::Buffer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

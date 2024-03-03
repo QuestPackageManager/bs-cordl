@@ -253,5 +253,3 @@ constexpr ::LIV::SDK::Unity::SDKVector3::SDKVector3(float_t x, float_t y, float_
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKVector3::SDKVector3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

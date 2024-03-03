@@ -3245,5 +3245,3 @@ inline void UnityEngine::ArticulationBody::GetPointVelocity_Injected(ByRef<::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ArticulationBody::ArticulationBody() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

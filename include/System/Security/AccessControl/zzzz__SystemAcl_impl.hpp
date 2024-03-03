@@ -44,5 +44,3 @@ inline int32_t System::Security::AccessControl::SystemAcl::GetAceInsertPosition(
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::SystemAcl::SystemAcl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

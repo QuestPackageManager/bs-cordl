@@ -16,5 +16,3 @@ constexpr ::System::Security::AccessControl::AceFlags System::Security::AccessCo
 constexpr ::System::Security::AccessControl::AceFlags System::Security::AccessControl::AceFlags::SuccessfulAccess{ static_cast<uint8_t>(0x40u) };
 constexpr ::System::Security::AccessControl::AceFlags System::Security::AccessControl::AceFlags::FailedAccess{ static_cast<uint8_t>(0x80u) };
 constexpr ::System::Security::AccessControl::AceFlags System::Security::AccessControl::AceFlags::AuditFlags{ static_cast<uint8_t>(0xc0u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

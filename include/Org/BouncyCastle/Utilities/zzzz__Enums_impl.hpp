@@ -106,5 +106,3 @@ inline void Org::BouncyCastle::Utilities::Enums::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Enums::Enums() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

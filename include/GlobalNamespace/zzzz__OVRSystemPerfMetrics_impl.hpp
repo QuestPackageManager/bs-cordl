@@ -607,5 +607,3 @@ inline void GlobalNamespace::OVRSystemPerfMetrics::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetrics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

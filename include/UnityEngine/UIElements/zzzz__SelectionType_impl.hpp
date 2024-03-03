@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::SelectionType::SelectionType() {}
 constexpr ::UnityEngine::UIElements::SelectionType UnityEngine::UIElements::SelectionType::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::SelectionType UnityEngine::UIElements::SelectionType::Single{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::SelectionType UnityEngine::UIElements::SelectionType::Multiple{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

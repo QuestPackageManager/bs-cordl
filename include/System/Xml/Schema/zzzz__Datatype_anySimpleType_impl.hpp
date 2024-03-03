@@ -237,5 +237,3 @@ inline void System::Xml::Schema::Datatype_anySimpleType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_anySimpleType::Datatype_anySimpleType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

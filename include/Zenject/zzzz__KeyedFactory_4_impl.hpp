@@ -41,5 +41,3 @@ template <typename TBase, typename TKey, typename TParam1, typename TParam2> inl
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey, typename TParam1, typename TParam2> constexpr ::Zenject::KeyedFactory_4<TBase, TKey, TParam1, TParam2>::KeyedFactory_4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

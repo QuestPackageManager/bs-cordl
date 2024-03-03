@@ -207,5 +207,3 @@ inline ::StringW Org::BouncyCastle::Security::AgreementUtilities::GetMechanism(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::AgreementUtilities::AgreementUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

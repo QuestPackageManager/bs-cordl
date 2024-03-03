@@ -52,5 +52,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PrmScriptType HoudiniEngineUnity::HAPI_PrmS
 constexpr ::HoudiniEngineUnity::HAPI_PrmScriptType HoudiniEngineUnity::HAPI_PrmScriptType::HAPI_PRM_SCRIPT_TYPE_GROUPCOLLAPSIBLE{ static_cast<int32_t>(0x3e9) };
 constexpr ::HoudiniEngineUnity::HAPI_PrmScriptType HoudiniEngineUnity::HAPI_PrmScriptType::HAPI_PRM_SCRIPT_TYPE_GROUPSIMPLE{ static_cast<int32_t>(0x3ea) };
 constexpr ::HoudiniEngineUnity::HAPI_PrmScriptType HoudiniEngineUnity::HAPI_PrmScriptType::HAPI_PRM_SCRIPT_TYPE_GROUP{ static_cast<int32_t>(0x3eb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

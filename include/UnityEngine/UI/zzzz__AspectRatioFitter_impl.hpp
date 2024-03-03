@@ -510,5 +510,3 @@ inline bool UnityEngine::UI::AspectRatioFitter::DoesParentExists() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::AspectRatioFitter::AspectRatioFitter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

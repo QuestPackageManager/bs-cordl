@@ -176,5 +176,3 @@ inline void GlobalNamespace::FloorAdjustViewController::_DidActivate_b__9_1() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloorAdjustViewController::FloorAdjustViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

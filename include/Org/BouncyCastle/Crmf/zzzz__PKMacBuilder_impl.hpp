@@ -391,5 +391,3 @@ inline ::Org::BouncyCastle::Crypto::IMacFactory* Org::BouncyCastle::Crmf::PKMacB
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

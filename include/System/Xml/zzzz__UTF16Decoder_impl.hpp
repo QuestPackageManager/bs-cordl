@@ -132,5 +132,3 @@ inline void System::Xml::UTF16Decoder::Convert(::ArrayW<uint8_t, ::Array<uint8_t
 }
 // Ctor Parameters []
 constexpr ::System::Xml::UTF16Decoder::UTF16Decoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

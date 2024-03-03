@@ -127,5 +127,3 @@ template <typename TKey, typename TValue> inline ::StringW UnityEngine::ProBuild
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>::KdTreeNode_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline ::StringW UnityEngine::ColorUtility::ToHtmlStringRGB(::UnityEngine::Color
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ColorUtility::ColorUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

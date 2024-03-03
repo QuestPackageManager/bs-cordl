@@ -20,5 +20,3 @@ inline bool UnityEngine::UIElements::IUxmlAttributes::TryGetAttributeValue(::Str
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IUxmlAttributes*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, attributeName, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

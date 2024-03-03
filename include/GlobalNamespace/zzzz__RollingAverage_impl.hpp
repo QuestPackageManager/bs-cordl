@@ -160,5 +160,3 @@ inline void GlobalNamespace::RollingAverage::Reset() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RollingAverage::RollingAverage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

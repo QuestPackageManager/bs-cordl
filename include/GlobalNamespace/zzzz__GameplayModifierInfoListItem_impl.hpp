@@ -76,5 +76,3 @@ inline void GlobalNamespace::GameplayModifierInfoListItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifierInfoListItem::GameplayModifierInfoListItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

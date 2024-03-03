@@ -11,5 +11,3 @@ constexpr ::System::Net::Sockets::SocketOptionLevel System::Net::Sockets::Socket
 constexpr ::System::Net::Sockets::SocketOptionLevel System::Net::Sockets::SocketOptionLevel::IPv6{ static_cast<int32_t>(0x29) };
 constexpr ::System::Net::Sockets::SocketOptionLevel System::Net::Sockets::SocketOptionLevel::Tcp{ static_cast<int32_t>(0x6) };
 constexpr ::System::Net::Sockets::SocketOptionLevel System::Net::Sockets::SocketOptionLevel::Udp{ static_cast<int32_t>(0x11) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

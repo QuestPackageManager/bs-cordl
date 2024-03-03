@@ -132,5 +132,3 @@ inline void TMPro::TMP_TextElement_Legacy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_TextElement_Legacy::TMP_TextElement_Legacy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

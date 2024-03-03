@@ -97,5 +97,3 @@ inline void Oculus::Platform::AvatarEditorOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AvatarEditorOptions::AvatarEditorOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

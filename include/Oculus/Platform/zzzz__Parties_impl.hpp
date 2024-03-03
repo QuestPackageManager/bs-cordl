@@ -48,5 +48,3 @@ inline void Oculus::Platform::Parties::SetPartyUpdateNotificationCallback(::Ocul
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Parties::Parties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

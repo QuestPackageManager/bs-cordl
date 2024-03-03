@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_boolean::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_boolean::Datatype_boolean() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

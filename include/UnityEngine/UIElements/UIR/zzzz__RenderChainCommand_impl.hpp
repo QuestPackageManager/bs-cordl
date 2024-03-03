@@ -288,5 +288,3 @@ inline void UnityEngine::UIElements::UIR::RenderChainCommand::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand::RenderChainCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

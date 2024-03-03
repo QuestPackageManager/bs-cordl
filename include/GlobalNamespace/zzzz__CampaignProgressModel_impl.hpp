@@ -310,5 +310,3 @@ inline void GlobalNamespace::CampaignProgressModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CampaignProgressModel::CampaignProgressModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

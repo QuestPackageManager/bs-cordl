@@ -287,5 +287,3 @@ inline void BGNet::Logging::Debug::LogWarning(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::BGNet::Logging::Debug::Debug() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

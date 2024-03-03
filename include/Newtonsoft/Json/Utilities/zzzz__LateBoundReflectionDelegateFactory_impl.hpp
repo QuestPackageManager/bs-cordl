@@ -489,5 +489,3 @@ inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::_ct
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::LateBoundReflectionDelegateFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

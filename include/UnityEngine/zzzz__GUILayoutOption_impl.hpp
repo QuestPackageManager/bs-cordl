@@ -76,5 +76,3 @@ inline void UnityEngine::GUILayoutOption::_ctor(::UnityEngine::__GUILayoutOption
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUILayoutOption::GUILayoutOption() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

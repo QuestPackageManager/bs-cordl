@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::EIOBufferError OVR::OpenVR::EIOBufferError::IOBuffer_In
 constexpr ::OVR::OpenVR::EIOBufferError OVR::OpenVR::EIOBufferError::IOBuffer_PathExists{ static_cast<int32_t>(0x67) };
 constexpr ::OVR::OpenVR::EIOBufferError OVR::OpenVR::EIOBufferError::IOBuffer_PathDoesNotExist{ static_cast<int32_t>(0x68) };
 constexpr ::OVR::OpenVR::EIOBufferError OVR::OpenVR::EIOBufferError::IOBuffer_Permission{ static_cast<int32_t>(0x69) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

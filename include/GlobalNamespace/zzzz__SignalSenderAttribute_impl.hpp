@@ -24,5 +24,3 @@ inline void GlobalNamespace::SignalSenderAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SignalSenderAttribute::SignalSenderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

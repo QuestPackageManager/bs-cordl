@@ -24,5 +24,3 @@ inline void GlobalNamespace::FloatSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatSO::FloatSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

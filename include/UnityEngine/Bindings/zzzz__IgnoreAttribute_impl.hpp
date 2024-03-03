@@ -57,5 +57,3 @@ inline void UnityEngine::Bindings::IgnoreAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::IgnoreAttribute::IgnoreAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

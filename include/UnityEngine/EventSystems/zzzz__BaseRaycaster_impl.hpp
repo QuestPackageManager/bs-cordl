@@ -257,5 +257,3 @@ inline void UnityEngine::EventSystems::BaseRaycaster::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::BaseRaycaster::BaseRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

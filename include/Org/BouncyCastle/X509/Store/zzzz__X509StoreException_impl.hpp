@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::X509::Store::X509StoreException::_ctor(::StringW 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509StoreException::X509StoreException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

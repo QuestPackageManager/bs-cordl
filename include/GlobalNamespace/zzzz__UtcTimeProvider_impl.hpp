@@ -84,5 +84,3 @@ inline void GlobalNamespace::UtcTimeProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UtcTimeProvider::UtcTimeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

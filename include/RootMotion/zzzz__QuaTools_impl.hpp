@@ -304,5 +304,3 @@ inline float_t RootMotion::QuaTools::ToBiPolar(float_t angle) {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::QuaTools::QuaTools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

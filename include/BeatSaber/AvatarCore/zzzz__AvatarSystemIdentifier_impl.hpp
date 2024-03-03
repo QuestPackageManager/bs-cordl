@@ -168,5 +168,3 @@ constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier::AvatarSystemIdentifie
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier::AvatarSystemIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

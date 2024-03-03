@@ -731,5 +731,3 @@ UnityEngine::ProBuilder::MeshOperations::UVEditing::FitUVs(::ArrayW<::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::UVEditing::UVEditing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

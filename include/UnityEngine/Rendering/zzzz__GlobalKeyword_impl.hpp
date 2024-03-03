@@ -26,5 +26,3 @@ constexpr ::UnityEngine::Rendering::GlobalKeyword::GlobalKeyword(::StringW m_Nam
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GlobalKeyword::GlobalKeyword() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

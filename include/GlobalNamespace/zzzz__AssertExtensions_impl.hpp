@@ -26,5 +26,3 @@ inline void GlobalNamespace::AssertExtensions::LessThan(float_t expected, float_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AssertExtensions::AssertExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -145,5 +145,3 @@ inline ::GlobalNamespace::FloatFxBeatmapEventData* GlobalNamespace::FloatFxBeatm
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxBeatmapEventDataBox::FloatFxBeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

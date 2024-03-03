@@ -171,5 +171,3 @@ inline void GlobalNamespace::BaseNoteVisuals::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseNoteVisuals::BaseNoteVisuals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

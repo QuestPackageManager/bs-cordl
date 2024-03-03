@@ -11,5 +11,3 @@ constexpr ::System::Threading::Tasks::CausalityRelation System::Threading::Tasks
 constexpr ::System::Threading::Tasks::CausalityRelation System::Threading::Tasks::CausalityRelation::Choice{ static_cast<int32_t>(0x2) };
 constexpr ::System::Threading::Tasks::CausalityRelation System::Threading::Tasks::CausalityRelation::Cancel{ static_cast<int32_t>(0x3) };
 constexpr ::System::Threading::Tasks::CausalityRelation System::Threading::Tasks::CausalityRelation::Error{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -338,5 +338,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::Clear() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::DTSweepDebugContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

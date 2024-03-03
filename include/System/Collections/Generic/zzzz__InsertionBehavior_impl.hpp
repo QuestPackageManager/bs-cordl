@@ -9,5 +9,3 @@ constexpr ::System::Collections::Generic::InsertionBehavior::InsertionBehavior()
 constexpr ::System::Collections::Generic::InsertionBehavior System::Collections::Generic::InsertionBehavior::None{ static_cast<uint8_t>(0x0u) };
 constexpr ::System::Collections::Generic::InsertionBehavior System::Collections::Generic::InsertionBehavior::OverwriteExisting{ static_cast<uint8_t>(0x1u) };
 constexpr ::System::Collections::Generic::InsertionBehavior System::Collections::Generic::InsertionBehavior::ThrowOnExisting{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

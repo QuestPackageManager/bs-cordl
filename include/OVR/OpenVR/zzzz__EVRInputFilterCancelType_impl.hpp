@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVRInputFilterCancelType::EVRInputFilterCancelType(int3
 constexpr ::OVR::OpenVR::EVRInputFilterCancelType::EVRInputFilterCancelType() {}
 constexpr ::OVR::OpenVR::EVRInputFilterCancelType OVR::OpenVR::EVRInputFilterCancelType::VRInputFilterCancel_Timers{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRInputFilterCancelType OVR::OpenVR::EVRInputFilterCancelType::VRInputFilterCancel_Momentum{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

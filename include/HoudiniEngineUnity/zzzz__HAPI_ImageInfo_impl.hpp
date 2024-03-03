@@ -20,5 +20,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ImageInfo::HAPI_ImageInfo(int32_t imageFile
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ImageInfo::HAPI_ImageInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

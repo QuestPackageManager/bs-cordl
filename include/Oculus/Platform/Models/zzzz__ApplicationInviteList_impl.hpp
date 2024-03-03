@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::ApplicationInviteList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::ApplicationInviteList::ApplicationInviteList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

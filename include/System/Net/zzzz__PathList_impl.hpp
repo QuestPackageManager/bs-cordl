@@ -236,5 +236,3 @@ inline ::System::Object* System::Net::PathList::get_SyncRoot() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::PathList::PathList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

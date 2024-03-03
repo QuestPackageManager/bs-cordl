@@ -1199,5 +1199,3 @@ inline bool System::Net::WebResponseStream::GetResponse(::System::Net::BufferOff
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebResponseStream::WebResponseStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

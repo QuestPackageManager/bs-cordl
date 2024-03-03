@@ -134,5 +134,3 @@ inline void System::Net::NetworkInformation::NetworkInterface::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::NetworkInterface::NetworkInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -152,5 +152,3 @@ inline bool System::ComponentModel::NotifyParentPropertyAttribute::IsDefaultAttr
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::NotifyParentPropertyAttribute::NotifyParentPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

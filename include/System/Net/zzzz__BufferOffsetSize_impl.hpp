@@ -93,5 +93,3 @@ inline void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t, ::Array<uint8
 }
 // Ctor Parameters []
 constexpr ::System::Net::BufferOffsetSize::BufferOffsetSize() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

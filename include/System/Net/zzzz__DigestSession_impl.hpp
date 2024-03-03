@@ -353,5 +353,3 @@ inline ::System::DateTime System::Net::DigestSession::get_LastUse() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::DigestSession::DigestSession() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

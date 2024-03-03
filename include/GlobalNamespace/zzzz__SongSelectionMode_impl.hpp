@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::SongSelectionMode GlobalNamespace::SongSelectionMod
 constexpr ::GlobalNamespace::SongSelectionMode GlobalNamespace::SongSelectionMode::Random{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::SongSelectionMode GlobalNamespace::SongSelectionMode::OwnerPicks{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::SongSelectionMode GlobalNamespace::SongSelectionMode::RandomPlayerPicks{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

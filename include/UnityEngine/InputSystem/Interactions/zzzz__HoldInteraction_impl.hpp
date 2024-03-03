@@ -153,5 +153,3 @@ inline void UnityEngine::InputSystem::Interactions::HoldInteraction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Interactions::HoldInteraction::HoldInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -392,5 +392,3 @@ inline void IgnoranceCore::IgnoranceClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceClient::IgnoranceClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

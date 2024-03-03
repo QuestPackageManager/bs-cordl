@@ -248,5 +248,3 @@ inline void* UnityEngine::AndroidJavaProxy::GetRawProxy() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaProxy::AndroidJavaProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

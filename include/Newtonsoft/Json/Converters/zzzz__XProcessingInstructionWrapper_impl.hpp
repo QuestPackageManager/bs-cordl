@@ -116,5 +116,3 @@ inline void Newtonsoft::Json::Converters::XProcessingInstructionWrapper::set_Val
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::XProcessingInstructionWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

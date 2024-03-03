@@ -24,5 +24,3 @@ inline void System::ThreadStaticAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ThreadStaticAttribute::ThreadStaticAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

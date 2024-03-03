@@ -126,5 +126,3 @@ inline void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::BloomPrePassGraphicsSettingsPresetsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -57,5 +57,3 @@ inline ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncWri
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncWriteRequest::AsyncWriteRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

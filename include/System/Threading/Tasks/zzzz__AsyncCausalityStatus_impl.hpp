@@ -10,5 +10,3 @@ constexpr ::System::Threading::Tasks::AsyncCausalityStatus System::Threading::Ta
 constexpr ::System::Threading::Tasks::AsyncCausalityStatus System::Threading::Tasks::AsyncCausalityStatus::Completed{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::Tasks::AsyncCausalityStatus System::Threading::Tasks::AsyncCausalityStatus::Canceled{ static_cast<int32_t>(0x2) };
 constexpr ::System::Threading::Tasks::AsyncCausalityStatus System::Threading::Tasks::AsyncCausalityStatus::Error{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

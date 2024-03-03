@@ -141,5 +141,3 @@ inline bool System::Xml::Schema::LeafNode::get_IsNullable() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::LeafNode::LeafNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

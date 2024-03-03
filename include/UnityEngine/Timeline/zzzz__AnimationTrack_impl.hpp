@@ -2303,5 +2303,3 @@ inline void UnityEngine::Timeline::AnimationTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AnimationTrack::AnimationTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

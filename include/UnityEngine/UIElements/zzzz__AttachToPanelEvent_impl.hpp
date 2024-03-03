@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::AttachToPanelEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::AttachToPanelEvent::AttachToPanelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

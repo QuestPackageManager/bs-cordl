@@ -147,5 +147,3 @@ inline ::System::IDisposable* UnityEngine::InputSystem::LowLevel::SelectObservab
 }
 // Ctor Parameters []
 template <typename TSource, typename TResult> constexpr ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::SelectObservable_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -53,5 +53,3 @@ inline ::UnityEngine::Playables::PlayableOutput UnityEngine::Audio::AudioPlayabl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Audio::AudioPlayableBinding::AudioPlayableBinding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

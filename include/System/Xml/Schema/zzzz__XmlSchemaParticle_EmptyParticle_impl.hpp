@@ -26,5 +26,3 @@ inline void System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::__XmlSchemaParticle__EmptyParticle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

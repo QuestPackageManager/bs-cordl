@@ -45,5 +45,3 @@ inline void System::Xml::Schema::Datatype_day::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_day::Datatype_day() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

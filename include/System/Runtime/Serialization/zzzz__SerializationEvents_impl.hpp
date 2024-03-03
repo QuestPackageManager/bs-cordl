@@ -303,5 +303,3 @@ System::Runtime::Serialization::SerializationEvents::AddOnDelegate(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationEvents::SerializationEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

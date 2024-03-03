@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::InvitePanelResultInfo* Oculus::Platform::Mess
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithInvitePanelResultInfo::MessageWithInvitePanelResultInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

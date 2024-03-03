@@ -9,5 +9,3 @@ constexpr ::System::Runtime::CompilerServices::LoadHint::LoadHint() {}
 constexpr ::System::Runtime::CompilerServices::LoadHint System::Runtime::CompilerServices::LoadHint::Default{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::CompilerServices::LoadHint System::Runtime::CompilerServices::LoadHint::Always{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::CompilerServices::LoadHint System::Runtime::CompilerServices::LoadHint::Sometimes{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

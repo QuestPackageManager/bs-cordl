@@ -41,5 +41,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::_ctor(::Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::PgpExperimental() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

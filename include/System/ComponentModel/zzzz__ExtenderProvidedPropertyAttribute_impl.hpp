@@ -289,5 +289,3 @@ inline bool System::ComponentModel::ExtenderProvidedPropertyAttribute::IsDefault
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ExtenderProvidedPropertyAttribute::ExtenderProvidedPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::Org::BouncyCastle::Bcpg::RevocationKeyTag::RevocationKeyTag(uint8_t 
 constexpr ::Org::BouncyCastle::Bcpg::RevocationKeyTag::RevocationKeyTag() {}
 constexpr ::Org::BouncyCastle::Bcpg::RevocationKeyTag Org::BouncyCastle::Bcpg::RevocationKeyTag::ClassDefault{ static_cast<uint8_t>(0x80u) };
 constexpr ::Org::BouncyCastle::Bcpg::RevocationKeyTag Org::BouncyCastle::Bcpg::RevocationKeyTag::ClassSensitive{ static_cast<uint8_t>(0x40u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

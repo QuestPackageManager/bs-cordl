@@ -31,5 +31,3 @@ constexpr ::SFB::ExtensionFilter::ExtensionFilter(::StringW _name, ::ArrayW<::St
 }
 // Ctor Parameters []
 constexpr ::SFB::ExtensionFilter::ExtensionFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline void Oculus::Platform::Models::UserReportID::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::UserReportID::UserReportID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

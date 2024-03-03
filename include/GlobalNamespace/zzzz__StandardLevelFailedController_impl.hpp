@@ -468,5 +468,3 @@ inline void GlobalNamespace::StandardLevelFailedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelFailedController::StandardLevelFailedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

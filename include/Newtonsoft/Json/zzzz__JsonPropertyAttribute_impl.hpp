@@ -789,5 +789,3 @@ inline void Newtonsoft::Json::JsonPropertyAttribute::_ctor(::StringW propertyNam
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonPropertyAttribute::JsonPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

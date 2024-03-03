@@ -95,5 +95,3 @@ inline void System::Runtime::RuntimeImports::Memmove_wbarrier(::cordl_internals:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::RuntimeImports::RuntimeImports() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

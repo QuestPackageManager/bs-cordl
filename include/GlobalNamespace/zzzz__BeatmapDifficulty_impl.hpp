@@ -11,5 +11,3 @@ constexpr ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::BeatmapDifficult
 constexpr ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::BeatmapDifficulty::Hard{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::BeatmapDifficulty::Expert{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::BeatmapDifficulty::ExpertPlus{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

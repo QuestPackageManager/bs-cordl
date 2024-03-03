@@ -49,5 +49,3 @@ inline void System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Contexts::ContextCallbackObject::ContextCallbackObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

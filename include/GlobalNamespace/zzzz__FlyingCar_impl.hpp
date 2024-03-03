@@ -139,5 +139,3 @@ inline void GlobalNamespace::FlyingCar::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingCar::FlyingCar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

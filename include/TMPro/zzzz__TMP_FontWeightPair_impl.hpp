@@ -9,5 +9,3 @@ constexpr ::TMPro::TMP_FontWeightPair::TMP_FontWeightPair(::UnityW<::TMPro::TMP_
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontWeightPair::TMP_FontWeightPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

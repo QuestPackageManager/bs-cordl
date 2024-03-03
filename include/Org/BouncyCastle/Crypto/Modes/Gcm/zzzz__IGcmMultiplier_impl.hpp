@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier::MultiplyH(::A
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Material_Extensions::ToTestObject(::System::Collections
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Material_Extensions::Test_Material_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

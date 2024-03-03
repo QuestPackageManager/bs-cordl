@@ -177,5 +177,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Enc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::EncryptedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -171,5 +171,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::DisplayText::GetString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText::DisplayText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

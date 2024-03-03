@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TextCore::Text::TagUnitType::TagUnitType() {}
 constexpr ::UnityEngine::TextCore::Text::TagUnitType UnityEngine::TextCore::Text::TagUnitType::Pixels{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextCore::Text::TagUnitType UnityEngine::TextCore::Text::TagUnitType::FontUnits{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::Text::TagUnitType UnityEngine::TextCore::Text::TagUnitType::Percentage{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

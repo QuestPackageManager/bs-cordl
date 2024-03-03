@@ -180,5 +180,3 @@ inline void GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::_cto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::MultiplayerSpectatingSpotPickerViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

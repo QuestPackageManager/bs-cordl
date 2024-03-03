@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVREye::EVREye(int32_t value__) noexcept {
 constexpr ::OVR::OpenVR::EVREye::EVREye() {}
 constexpr ::OVR::OpenVR::EVREye OVR::OpenVR::EVREye::Eye_Left{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVREye OVR::OpenVR::EVREye::Eye_Right{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

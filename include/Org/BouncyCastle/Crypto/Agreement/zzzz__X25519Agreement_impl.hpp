@@ -115,5 +115,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::X25519Agreement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::X25519Agreement::X25519Agreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

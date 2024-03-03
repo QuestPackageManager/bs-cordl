@@ -180,5 +180,3 @@ inline int32_t UnityEngine::UIElements::UIRUtility::GetNextPow2Exp(int32_t n) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIRUtility::UIRUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

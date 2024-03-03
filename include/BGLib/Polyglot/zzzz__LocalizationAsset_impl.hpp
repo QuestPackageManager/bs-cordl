@@ -94,5 +94,3 @@ inline void BGLib::Polyglot::LocalizationAsset::_ctor(::UnityEngine::TextAsset* 
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationAsset::LocalizationAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

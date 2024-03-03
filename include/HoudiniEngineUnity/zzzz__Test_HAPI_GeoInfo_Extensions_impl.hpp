@@ -26,5 +26,3 @@ inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* HoudiniEngineUnity::Test_HAPI_Ge
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_GeoInfo_Extensions::Test_HAPI_GeoInfo_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

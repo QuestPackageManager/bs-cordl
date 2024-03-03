@@ -11,5 +11,3 @@ constexpr ::UnityEngine::XR::MeshVertexAttributes UnityEngine::XR::MeshVertexAtt
 constexpr ::UnityEngine::XR::MeshVertexAttributes UnityEngine::XR::MeshVertexAttributes::Tangents{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::XR::MeshVertexAttributes UnityEngine::XR::MeshVertexAttributes::UVs{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::XR::MeshVertexAttributes UnityEngine::XR::MeshVertexAttributes::Colors{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

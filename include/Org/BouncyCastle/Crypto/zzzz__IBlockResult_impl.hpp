@@ -40,5 +40,3 @@ inline int32_t Org::BouncyCastle::Crypto::IBlockResult::Collect(::ArrayW<uint8_t
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::IBlockResult*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, destination, offset);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

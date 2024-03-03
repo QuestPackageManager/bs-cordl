@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVRSkeletalMotionRange::EVRSkeletalMotionRange(int32_t 
 constexpr ::OVR::OpenVR::EVRSkeletalMotionRange::EVRSkeletalMotionRange() {}
 constexpr ::OVR::OpenVR::EVRSkeletalMotionRange OVR::OpenVR::EVRSkeletalMotionRange::WithController{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRSkeletalMotionRange OVR::OpenVR::EVRSkeletalMotionRange::WithoutController{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

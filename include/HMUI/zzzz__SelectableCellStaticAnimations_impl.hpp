@@ -209,5 +209,3 @@ inline void HMUI::SelectableCellStaticAnimations::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SelectableCellStaticAnimations::SelectableCellStaticAnimations() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

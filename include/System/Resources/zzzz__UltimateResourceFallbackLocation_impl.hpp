@@ -8,5 +8,3 @@ constexpr ::System::Resources::UltimateResourceFallbackLocation::UltimateResourc
 constexpr ::System::Resources::UltimateResourceFallbackLocation::UltimateResourceFallbackLocation() {}
 constexpr ::System::Resources::UltimateResourceFallbackLocation System::Resources::UltimateResourceFallbackLocation::MainAssembly{ static_cast<int32_t>(0x0) };
 constexpr ::System::Resources::UltimateResourceFallbackLocation System::Resources::UltimateResourceFallbackLocation::Satellite{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

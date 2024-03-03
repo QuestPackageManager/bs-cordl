@@ -361,5 +361,3 @@ inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Org::BouncyCastle::Tsp::Time
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::TimeStampResponseGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

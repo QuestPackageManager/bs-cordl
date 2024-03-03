@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Timeline::ClipCaps UnityEngine::Timeline::ClipCaps::Spe
 constexpr ::UnityEngine::Timeline::ClipCaps UnityEngine::Timeline::ClipCaps::Blending{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::Timeline::ClipCaps UnityEngine::Timeline::ClipCaps::AutoScale{ static_cast<int32_t>(0x28) };
 constexpr ::UnityEngine::Timeline::ClipCaps UnityEngine::Timeline::ClipCaps::All{ static_cast<int32_t>(0xffffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

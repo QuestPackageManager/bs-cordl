@@ -21,5 +21,3 @@ inline void GlobalNamespace::IStandaloneThreadRunner::Run(::GlobalNamespace::ISt
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IStandaloneThreadRunner*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, runnable);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

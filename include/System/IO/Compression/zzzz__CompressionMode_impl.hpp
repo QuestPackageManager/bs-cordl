@@ -8,5 +8,3 @@ constexpr ::System::IO::Compression::CompressionMode::CompressionMode(int32_t va
 constexpr ::System::IO::Compression::CompressionMode::CompressionMode() {}
 constexpr ::System::IO::Compression::CompressionMode System::IO::Compression::CompressionMode::Decompress{ static_cast<int32_t>(0x0) };
 constexpr ::System::IO::Compression::CompressionMode System::IO::Compression::CompressionMode::Compress{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

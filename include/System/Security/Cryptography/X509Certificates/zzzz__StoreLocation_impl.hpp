@@ -8,5 +8,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation::Sto
 constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation::StoreLocation() {}
 constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation System::Security::Cryptography::X509Certificates::StoreLocation::CurrentUser{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation System::Security::Cryptography::X509Certificates::StoreLocation::LocalMachine{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

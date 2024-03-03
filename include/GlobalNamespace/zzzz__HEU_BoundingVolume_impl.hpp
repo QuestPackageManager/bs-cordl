@@ -65,5 +65,3 @@ inline void GlobalNamespace::HEU_BoundingVolume::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_BoundingVolume::HEU_BoundingVolume() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

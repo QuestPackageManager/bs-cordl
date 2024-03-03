@@ -60,5 +60,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::Cal
 }
 // Ctor Parameters []
 template <typename TDelegate> constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::CallbackArray_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

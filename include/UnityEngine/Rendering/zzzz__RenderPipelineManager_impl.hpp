@@ -280,5 +280,3 @@ inline void UnityEngine::Rendering::RenderPipelineManager::PrepareRenderPipeline
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderPipelineManager::RenderPipelineManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

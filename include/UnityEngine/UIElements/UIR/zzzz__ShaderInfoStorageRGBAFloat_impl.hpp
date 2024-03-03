@@ -101,5 +101,3 @@ inline void UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::_ctor(int3
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::ShaderInfoStorageRGBAFloat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -184,5 +184,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord::GlyphValueRecord(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphValueRecord::GlyphValueRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

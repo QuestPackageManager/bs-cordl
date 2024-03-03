@@ -404,5 +404,3 @@ inline int32_t System::Globalization::ThaiBuddhistCalendar::ToFourDigitYear(int3
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::ThaiBuddhistCalendar::ThaiBuddhistCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -52,5 +52,3 @@ inline ::UnityEngine::Yoga::YogaSize UnityEngine::Yoga::MeasureFunction::Invoke(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::MeasureFunction::MeasureFunction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

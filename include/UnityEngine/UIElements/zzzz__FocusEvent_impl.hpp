@@ -45,5 +45,3 @@ inline void UnityEngine::UIElements::FocusEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FocusEvent::FocusEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

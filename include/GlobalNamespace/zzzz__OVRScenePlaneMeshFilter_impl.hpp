@@ -455,5 +455,3 @@ inline void GlobalNamespace::OVRScenePlaneMeshFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRScenePlaneMeshFilter::OVRScenePlaneMeshFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

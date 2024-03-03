@@ -131,5 +131,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::GetH
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters::ElGamalKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

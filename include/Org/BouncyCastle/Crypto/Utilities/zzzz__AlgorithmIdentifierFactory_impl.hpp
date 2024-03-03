@@ -87,5 +87,3 @@ inline void Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::_c
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::AlgorithmIdentifierFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::EDeviceActivityLevel OVR::OpenVR::EDeviceActivityLevel:
 constexpr ::OVR::OpenVR::EDeviceActivityLevel OVR::OpenVR::EDeviceActivityLevel::k_EDeviceActivityLevel_UserInteraction{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EDeviceActivityLevel OVR::OpenVR::EDeviceActivityLevel::k_EDeviceActivityLevel_UserInteraction_Timeout{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EDeviceActivityLevel OVR::OpenVR::EDeviceActivityLevel::k_EDeviceActivityLevel_Standby{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3,5 +3,3 @@
 #include "Unity/Collections/zzzz__NativeFixedLengthAttribute_def.hpp"
 // Ctor Parameters []
 constexpr ::Unity::Collections::NativeFixedLengthAttribute::NativeFixedLengthAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

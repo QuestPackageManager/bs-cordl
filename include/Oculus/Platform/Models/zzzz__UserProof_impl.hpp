@@ -38,5 +38,3 @@ inline void Oculus::Platform::Models::UserProof::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::UserProof::UserProof() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

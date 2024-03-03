@@ -418,5 +418,3 @@ inline void System::Xml::XmlEntity::SetBaseURI(::StringW inBaseURI) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlEntity::XmlEntity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

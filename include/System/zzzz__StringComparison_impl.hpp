@@ -12,5 +12,3 @@ constexpr ::System::StringComparison System::StringComparison::InvariantCulture{
 constexpr ::System::StringComparison System::StringComparison::InvariantCultureIgnoreCase{ static_cast<int32_t>(0x3) };
 constexpr ::System::StringComparison System::StringComparison::Ordinal{ static_cast<int32_t>(0x4) };
 constexpr ::System::StringComparison System::StringComparison::OrdinalIgnoreCase{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

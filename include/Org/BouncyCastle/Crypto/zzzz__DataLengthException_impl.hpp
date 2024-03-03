@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Crypto::DataLengthException::_ctor(::StringW mess
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::DataLengthException::DataLengthException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

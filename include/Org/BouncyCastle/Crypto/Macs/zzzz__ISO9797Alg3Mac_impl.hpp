@@ -365,5 +365,3 @@ inline void Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::ISO9797Alg3Mac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

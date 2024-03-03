@@ -233,5 +233,3 @@ constexpr ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::Diagn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::DiagnosticEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

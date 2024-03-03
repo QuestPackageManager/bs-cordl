@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviou
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags::CanProvideWithFailedDependencies{
   static_cast<int32_t>(0x1)
 };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

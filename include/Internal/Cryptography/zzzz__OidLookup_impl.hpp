@@ -246,5 +246,3 @@ inline ::StringW Internal::Cryptography::OidLookup::NativeFriendlyNameToOid(::St
 }
 // Ctor Parameters []
 constexpr ::Internal::Cryptography::OidLookup::OidLookup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

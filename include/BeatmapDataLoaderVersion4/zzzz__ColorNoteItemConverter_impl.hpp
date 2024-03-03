@@ -73,5 +73,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::ColorNot
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ColorNoteItemConverter::ColorNoteItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

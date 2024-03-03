@@ -103,5 +103,3 @@ inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Org::BouncyCastle::Crmf::Pk
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::PkiArchiveControlBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

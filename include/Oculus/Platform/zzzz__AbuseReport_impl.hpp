@@ -48,5 +48,3 @@ inline void Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCal
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AbuseReport::AbuseReport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -104,5 +104,3 @@ inline void GlobalNamespace::SceneInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SceneInfo::SceneInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

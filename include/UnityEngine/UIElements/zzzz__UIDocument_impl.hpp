@@ -651,5 +651,3 @@ inline void UnityEngine::UIElements::UIDocument::ReactToHierarchyChanged() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIDocument::UIDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

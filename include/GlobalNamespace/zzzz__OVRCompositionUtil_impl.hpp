@@ -158,5 +158,3 @@ inline void GlobalNamespace::OVRCompositionUtil::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCompositionUtil::OVRCompositionUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ inline void UnityEngine::UnhandledExceptionHandler::RegisterUECatcher() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnhandledExceptionHandler::UnhandledExceptionHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

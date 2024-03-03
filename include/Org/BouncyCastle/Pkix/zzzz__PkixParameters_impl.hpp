@@ -1155,5 +1155,3 @@ inline void Org::BouncyCastle::Pkix::PkixParameters::SetAttrCertCheckers(::Org::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixParameters::PkixParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::TMPro::ColorMode TMPro::ColorMode::Single{ static_cast<int32_t>(0x0)
 constexpr ::TMPro::ColorMode TMPro::ColorMode::HorizontalGradient{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::ColorMode TMPro::ColorMode::VerticalGradient{ static_cast<int32_t>(0x2) };
 constexpr ::TMPro::ColorMode TMPro::ColorMode::FourCornersGradient{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

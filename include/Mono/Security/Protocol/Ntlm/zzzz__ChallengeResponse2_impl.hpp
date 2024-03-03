@@ -245,5 +245,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Protocol::Ntlm::Chal
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Protocol::Ntlm::ChallengeResponse2::ChallengeResponse2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

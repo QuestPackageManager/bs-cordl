@@ -20,5 +20,3 @@ inline ::StringW System::IFormattable::ToString(::StringW format, ::System::IFor
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IFormattable*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, format, formatProvider);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

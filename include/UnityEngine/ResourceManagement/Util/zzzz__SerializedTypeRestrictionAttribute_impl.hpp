@@ -40,5 +40,3 @@ inline void UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::SerializedTypeRestrictionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

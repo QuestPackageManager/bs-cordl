@@ -52,5 +52,3 @@ UnityEngine::ProBuilder::MeshOperations::Subdivision::Subdivide(::UnityEngine::P
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::Subdivision::Subdivision() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

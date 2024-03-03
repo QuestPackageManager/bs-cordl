@@ -76,5 +76,3 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> Newtonsoft::Json::Utilities::Buffe
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::BufferUtils::BufferUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

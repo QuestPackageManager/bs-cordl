@@ -333,5 +333,3 @@ template <typename T> inline void UnityEngine::UIElements::DynamicHeightVirtuali
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::DynamicHeightVirtualizationController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

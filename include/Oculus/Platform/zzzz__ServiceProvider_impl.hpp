@@ -12,5 +12,3 @@ constexpr ::Oculus::Platform::ServiceProvider Oculus::Platform::ServiceProvider:
 constexpr ::Oculus::Platform::ServiceProvider Oculus::Platform::ServiceProvider::Google{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::ServiceProvider Oculus::Platform::ServiceProvider::Instagram{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::ServiceProvider Oculus::Platform::ServiceProvider::RemoteMedia{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

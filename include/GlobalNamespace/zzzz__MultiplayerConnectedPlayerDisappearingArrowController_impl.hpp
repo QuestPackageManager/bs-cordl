@@ -66,5 +66,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowControll
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::MultiplayerConnectedPlayerDisappearingArrowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

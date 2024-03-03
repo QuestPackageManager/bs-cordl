@@ -668,5 +668,3 @@ Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::BuildHMac(::Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder::SP800SecureRandomBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

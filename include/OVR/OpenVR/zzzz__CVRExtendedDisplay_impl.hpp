@@ -115,5 +115,3 @@ inline void OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo(ByRef<int32_t> pn
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRExtendedDisplay::CVRExtendedDisplay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

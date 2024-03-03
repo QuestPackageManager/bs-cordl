@@ -527,5 +527,3 @@ inline void GlobalNamespace::OVRNetwork::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRNetwork::OVRNetwork() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

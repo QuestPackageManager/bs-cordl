@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::DefaultValueHandling Newtonsoft::Json::DefaultValu
 constexpr ::Newtonsoft::Json::DefaultValueHandling Newtonsoft::Json::DefaultValueHandling::Ignore{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::DefaultValueHandling Newtonsoft::Json::DefaultValueHandling::Populate{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::DefaultValueHandling Newtonsoft::Json::DefaultValueHandling::IgnoreAndPopulate{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

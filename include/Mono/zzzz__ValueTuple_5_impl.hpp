@@ -12,5 +12,3 @@ template <typename T1, typename T2, typename T3, typename T4, typename T5> const
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3, typename T4, typename T5> constexpr ::Mono::ValueTuple_5<T1, T2, T3, T4, T5>::ValueTuple_5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -98,5 +98,3 @@ inline void UnityEngine::UIElements::UIR::MeshHandle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::MeshHandle::MeshHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

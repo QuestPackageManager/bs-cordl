@@ -53,5 +53,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier::MontgomeryLadderMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

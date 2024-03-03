@@ -303,5 +303,3 @@ inline void LiteNetLib::Utils::FastBitConverter::GetBytes(::ArrayW<uint8_t, ::Ar
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::FastBitConverter::FastBitConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

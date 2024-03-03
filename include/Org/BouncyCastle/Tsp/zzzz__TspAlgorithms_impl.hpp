@@ -112,5 +112,3 @@ inline void Org::BouncyCastle::Tsp::TspAlgorithms::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspAlgorithms::TspAlgorithms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

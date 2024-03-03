@@ -166,5 +166,3 @@ inline ::Zenject::FactorySubContainerBinder_2<TParam1, TContract>* Zenject::Fact
 }
 // Ctor Parameters []
 template <typename TParam1, typename TContract> constexpr ::Zenject::FactoryFromBinder_2<TParam1, TContract>::FactoryFromBinder_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

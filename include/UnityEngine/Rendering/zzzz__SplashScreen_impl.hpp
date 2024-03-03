@@ -21,5 +21,3 @@ inline bool UnityEngine::Rendering::SplashScreen::get_isFinished() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::SplashScreen::SplashScreen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ inline void GlobalNamespace::BadNoteCutEffectSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BadNoteCutEffectSpawner::BadNoteCutEffectSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

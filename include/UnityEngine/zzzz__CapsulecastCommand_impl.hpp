@@ -492,5 +492,3 @@ constexpr ::UnityEngine::CapsulecastCommand::CapsulecastCommand(::UnityEngine::V
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CapsulecastCommand::CapsulecastCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

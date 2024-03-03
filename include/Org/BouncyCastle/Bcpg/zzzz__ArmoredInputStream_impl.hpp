@@ -512,5 +512,3 @@ inline void Org::BouncyCastle::Bcpg::ArmoredInputStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ArmoredInputStream::ArmoredInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

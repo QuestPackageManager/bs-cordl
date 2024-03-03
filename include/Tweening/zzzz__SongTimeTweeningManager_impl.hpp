@@ -56,5 +56,3 @@ inline void Tweening::SongTimeTweeningManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tweening::SongTimeTweeningManager::SongTimeTweeningManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

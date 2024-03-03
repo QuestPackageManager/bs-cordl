@@ -109,5 +109,3 @@ inline void GlobalNamespace::Billboard::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Billboard::Billboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

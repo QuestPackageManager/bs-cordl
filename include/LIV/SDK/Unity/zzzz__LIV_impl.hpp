@@ -1264,5 +1264,3 @@ inline void LIV::SDK::Unity::LIV::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::LIV::LIV() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

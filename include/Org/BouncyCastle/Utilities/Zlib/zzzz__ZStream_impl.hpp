@@ -589,5 +589,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::ZStream::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream::ZStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -126,5 +126,3 @@ inline void BeatmapSaveDataVersion3::BasicEventData::_ctor(float_t beat, ::Beatm
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::BasicEventData::BasicEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

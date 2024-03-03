@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::KeyValuePairType Oculus::Platform::KeyValuePairTyp
 constexpr ::Oculus::Platform::KeyValuePairType Oculus::Platform::KeyValuePairType::Int{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::KeyValuePairType Oculus::Platform::KeyValuePairType::Double{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::KeyValuePairType Oculus::Platform::KeyValuePairType::Unknown{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -172,5 +172,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::GetHashC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::RsaKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -240,5 +240,3 @@ inline void HMUI::StackLayoutGroup::SetChildrenAlongAxis(int32_t axis) {
 }
 // Ctor Parameters []
 constexpr ::HMUI::StackLayoutGroup::StackLayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

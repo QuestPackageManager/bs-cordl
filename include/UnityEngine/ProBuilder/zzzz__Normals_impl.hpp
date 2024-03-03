@@ -110,5 +110,3 @@ inline void UnityEngine::ProBuilder::Normals::CalculateNormals(::UnityEngine::Pr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Normals::Normals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

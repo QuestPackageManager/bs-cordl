@@ -124,5 +124,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand::Ena
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand::EnableIMECompositionCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

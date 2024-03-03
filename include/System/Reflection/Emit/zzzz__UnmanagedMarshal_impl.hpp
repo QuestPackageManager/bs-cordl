@@ -24,5 +24,3 @@ inline void System::Reflection::Emit::UnmanagedMarshal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::UnmanagedMarshal::UnmanagedMarshal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

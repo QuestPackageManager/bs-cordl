@@ -54,5 +54,3 @@ inline bool UnityEngine::Motion::get_isLooping() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Motion::Motion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

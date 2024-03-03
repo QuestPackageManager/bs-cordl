@@ -265,5 +265,3 @@ constexpr ::System::Text::RegularExpressions::RegexWriter::RegexWriter(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexWriter::RegexWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

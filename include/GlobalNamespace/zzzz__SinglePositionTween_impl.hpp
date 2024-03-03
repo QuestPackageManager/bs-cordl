@@ -103,5 +103,3 @@ inline void GlobalNamespace::SinglePositionTween::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SinglePositionTween::SinglePositionTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

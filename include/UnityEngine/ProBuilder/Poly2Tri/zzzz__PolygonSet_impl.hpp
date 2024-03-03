@@ -105,5 +105,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet::PolygonSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

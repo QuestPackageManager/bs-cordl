@@ -289,5 +289,3 @@ inline void GlobalNamespace::GameSongController::_FailStopSong_b__14_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameSongController::GameSongController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

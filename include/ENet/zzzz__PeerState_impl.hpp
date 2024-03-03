@@ -17,5 +17,3 @@ constexpr ::ENet::PeerState ENet::PeerState::DisconnectLater{ static_cast<int32_
 constexpr ::ENet::PeerState ENet::PeerState::Disconnecting{ static_cast<int32_t>(0x7) };
 constexpr ::ENet::PeerState ENet::PeerState::AcknowledgingDisconnect{ static_cast<int32_t>(0x8) };
 constexpr ::ENet::PeerState ENet::PeerState::Zombie{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

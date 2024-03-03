@@ -103,5 +103,3 @@ inline void Org::BouncyCastle::X509::X509SignatureUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509SignatureUtilities::X509SignatureUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

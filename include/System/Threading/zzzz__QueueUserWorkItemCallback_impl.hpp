@@ -154,5 +154,3 @@ inline void System::Threading::QueueUserWorkItemCallback::WaitCallback_Context(:
 }
 // Ctor Parameters []
 constexpr ::System::Threading::QueueUserWorkItemCallback::QueueUserWorkItemCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

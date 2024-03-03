@@ -38,5 +38,3 @@ inline void GlobalNamespace::PS4ActivePublisherSKUSettingsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO::PS4ActivePublisherSKUSettingsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

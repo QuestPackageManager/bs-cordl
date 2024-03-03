@@ -28,5 +28,3 @@ inline ::System::Version* System::Net::HttpVersion::getStaticF_Version20() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpVersion::HttpVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

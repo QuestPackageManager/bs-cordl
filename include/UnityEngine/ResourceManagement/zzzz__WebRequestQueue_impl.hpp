@@ -120,5 +120,3 @@ inline void UnityEngine::ResourceManagement::WebRequestQueue::OnWebAsyncOpComple
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::WebRequestQueue::WebRequestQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

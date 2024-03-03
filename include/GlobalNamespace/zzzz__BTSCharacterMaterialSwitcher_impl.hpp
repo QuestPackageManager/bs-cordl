@@ -224,5 +224,3 @@ inline void GlobalNamespace::BTSCharacterMaterialSwitcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacterMaterialSwitcher::BTSCharacterMaterialSwitcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

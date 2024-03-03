@@ -179,5 +179,3 @@ inline ::System::Xml::Linq::XNode* System::Xml::Linq::XText::CloneNode() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XText::XText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

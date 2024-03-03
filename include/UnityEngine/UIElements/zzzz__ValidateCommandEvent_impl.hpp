@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::ValidateCommandEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ValidateCommandEvent::ValidateCommandEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

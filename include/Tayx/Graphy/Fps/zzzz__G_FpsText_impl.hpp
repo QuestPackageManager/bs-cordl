@@ -266,5 +266,3 @@ inline void Tayx::Graphy::Fps::G_FpsText::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Fps::G_FpsText::G_FpsText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

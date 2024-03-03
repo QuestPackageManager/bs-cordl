@@ -392,5 +392,3 @@ inline ::UnityEngine::Vector4 Newtonsoft::Json::Converters::VectorConverter::Pop
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::VectorConverter::VectorConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

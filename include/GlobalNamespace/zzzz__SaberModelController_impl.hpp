@@ -196,5 +196,3 @@ inline void GlobalNamespace::SaberModelController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberModelController::SaberModelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::GradientType::GradientType(int32_t value__)
 constexpr ::UnityEngine::UIElements::GradientType::GradientType() {}
 constexpr ::UnityEngine::UIElements::GradientType UnityEngine::UIElements::GradientType::Linear{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::GradientType UnityEngine::UIElements::GradientType::Radial{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

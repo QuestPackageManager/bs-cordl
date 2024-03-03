@@ -430,5 +430,3 @@ inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::Compare(::Newtonso
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JPropertyKeyedCollection::JPropertyKeyedCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

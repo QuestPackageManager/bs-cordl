@@ -1664,5 +1664,3 @@ inline ::System::Threading::Tasks::Task* System::IO::BufferedStream::CopyToAsync
 }
 // Ctor Parameters []
 constexpr ::System::IO::BufferedStream::BufferedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

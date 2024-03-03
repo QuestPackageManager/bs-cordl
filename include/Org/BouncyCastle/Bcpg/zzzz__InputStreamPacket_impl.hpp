@@ -59,5 +59,3 @@ inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Org::BouncyCastle::Bcpg::Inpu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket::InputStreamPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

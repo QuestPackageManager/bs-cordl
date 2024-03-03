@@ -31,5 +31,3 @@ constexpr ::GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData(uint32
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags::
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags::UseSchedulingContext{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags::FlowExecutionContext{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

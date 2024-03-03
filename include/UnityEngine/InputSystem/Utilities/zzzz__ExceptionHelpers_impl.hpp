@@ -25,5 +25,3 @@ inline bool UnityEngine::InputSystem::Utilities::ExceptionHelpers::IsExceptionIn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::ExceptionHelpers::ExceptionHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

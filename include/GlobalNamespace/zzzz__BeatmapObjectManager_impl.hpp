@@ -1857,5 +1857,3 @@ inline void GlobalNamespace::BeatmapObjectManager::INoteControllerNoteWasCutEven
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectManager::BeatmapObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -646,5 +646,3 @@ inline void UnityEngine::TextCore::Text::TextGenerationSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextGenerationSettings::TextGenerationSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

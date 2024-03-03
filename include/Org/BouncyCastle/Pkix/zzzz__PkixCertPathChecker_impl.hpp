@@ -132,5 +132,3 @@ inline ::System::Object* Org::BouncyCastle::Pkix::PkixCertPathChecker::Clone() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixCertPathChecker::PkixCertPathChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

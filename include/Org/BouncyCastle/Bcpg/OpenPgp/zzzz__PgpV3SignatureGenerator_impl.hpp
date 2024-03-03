@@ -344,5 +344,3 @@ inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Org::BouncyCastle::Bcpg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator::PgpV3SignatureGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

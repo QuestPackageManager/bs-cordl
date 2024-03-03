@@ -130,5 +130,3 @@ inline ::StringW Mono::Security::Interface::Alert::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::Alert::Alert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

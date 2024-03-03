@@ -196,5 +196,3 @@ inline void BGNet::Core::DefaultTaskUtility::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::DefaultTaskUtility::DefaultTaskUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

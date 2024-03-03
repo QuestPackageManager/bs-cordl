@@ -323,5 +323,3 @@ inline void Unity::XR::Oculus::OculusSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusSettings::OculusSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

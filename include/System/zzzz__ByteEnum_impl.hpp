@@ -6,5 +6,3 @@ constexpr ::System::ByteEnum::ByteEnum(uint8_t value__) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::ByteEnum::ByteEnum() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

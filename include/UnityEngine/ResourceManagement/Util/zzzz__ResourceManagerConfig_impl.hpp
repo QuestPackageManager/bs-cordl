@@ -192,5 +192,3 @@ template <typename T1, typename T2> inline bool UnityEngine::ResourceManagement:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ResourceManagerConfig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

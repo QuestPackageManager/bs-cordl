@@ -25,5 +25,3 @@ inline void System::Runtime::CompilerServices::ExtensionAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::ExtensionAttribute::ExtensionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

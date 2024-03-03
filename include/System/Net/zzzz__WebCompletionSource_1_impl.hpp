@@ -232,5 +232,3 @@ template <typename T> inline ::System::Threading::Tasks::Task_1<T>* System::Net:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Net::WebCompletionSource_1<T>::WebCompletionSource_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

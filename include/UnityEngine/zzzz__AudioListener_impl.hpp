@@ -279,5 +279,3 @@ inline void UnityEngine::AudioListener::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioListener::AudioListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

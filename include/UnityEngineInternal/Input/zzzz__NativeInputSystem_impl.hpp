@@ -330,5 +330,3 @@ inline void UnityEngineInternal::Input::NativeInputSystem::Update(::UnityEngineI
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::Input::NativeInputSystem::NativeInputSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

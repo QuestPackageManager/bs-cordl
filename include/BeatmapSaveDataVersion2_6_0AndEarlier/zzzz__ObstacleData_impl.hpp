@@ -192,5 +192,3 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::_ctor(float_t t
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::ObstacleData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

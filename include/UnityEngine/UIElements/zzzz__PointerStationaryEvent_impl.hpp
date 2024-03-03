@@ -65,5 +65,3 @@ inline void UnityEngine::UIElements::PointerStationaryEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerStationaryEvent::PointerStationaryEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

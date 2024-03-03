@@ -113,5 +113,3 @@ inline void UnityEngine::UIElements::UIR::DrawParams::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::DrawParams::DrawParams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

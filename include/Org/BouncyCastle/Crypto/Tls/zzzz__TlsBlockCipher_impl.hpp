@@ -325,5 +325,3 @@ inline int32_t Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::LowestBitSet(int3
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::TlsBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

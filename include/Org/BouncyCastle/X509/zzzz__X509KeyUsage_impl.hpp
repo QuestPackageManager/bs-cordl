@@ -59,5 +59,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::X509::X509KeyUs
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509KeyUsage::X509KeyUsage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

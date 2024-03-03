@@ -286,5 +286,3 @@ inline ::MidiParser::MidiTrack* MidiParser::MidiFile::ParseTrack(int32_t index, 
 }
 // Ctor Parameters []
 constexpr ::MidiParser::MidiFile::MidiFile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

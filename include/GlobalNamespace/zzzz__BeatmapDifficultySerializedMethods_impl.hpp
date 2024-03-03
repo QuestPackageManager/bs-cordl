@@ -50,5 +50,3 @@ inline bool GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficul
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultySerializedMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

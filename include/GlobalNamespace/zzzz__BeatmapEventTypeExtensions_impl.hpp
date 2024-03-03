@@ -36,5 +36,3 @@ constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BeatmapEvent
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BeatmapEventTypeExtensions::kCompressExpand{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BeatmapEventTypeExtensions::kLegacyEarlySpawnRotation{ static_cast<int32_t>(0xe) };
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BeatmapEventTypeExtensions::kLegacyLateSpawnRotation{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

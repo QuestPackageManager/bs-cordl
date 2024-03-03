@@ -244,5 +244,3 @@ inline void Org::BouncyCastle::Crypto::Modes::SicBlockCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher::SicBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

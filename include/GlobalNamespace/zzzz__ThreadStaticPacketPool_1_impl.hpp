@@ -9,5 +9,3 @@ template <typename T> inline ::GlobalNamespace::PacketPool_1<T>* GlobalNamespace
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ThreadStaticPacketPool_1<T>::ThreadStaticPacketPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

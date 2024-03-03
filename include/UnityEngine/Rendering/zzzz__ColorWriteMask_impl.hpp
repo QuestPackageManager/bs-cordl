@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Rendering::ColorWriteMask UnityEngine::Rendering::Color
 constexpr ::UnityEngine::Rendering::ColorWriteMask UnityEngine::Rendering::ColorWriteMask::Green{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::ColorWriteMask UnityEngine::Rendering::ColorWriteMask::Red{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::Rendering::ColorWriteMask UnityEngine::Rendering::ColorWriteMask::All{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

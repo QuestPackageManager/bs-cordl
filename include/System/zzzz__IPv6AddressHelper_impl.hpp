@@ -184,5 +184,3 @@ inline bool System::IPv6AddressHelper::IsValid(::cordl_internals::Ptr<char16_t> 
 }
 // Ctor Parameters []
 constexpr ::System::IPv6AddressHelper::IPv6AddressHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

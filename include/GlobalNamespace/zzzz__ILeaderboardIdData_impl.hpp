@@ -20,5 +20,3 @@ inline ::StringW GlobalNamespace::ILeaderboardIdData::get_difficultyBeatmapId() 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ILeaderboardIdData*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

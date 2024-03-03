@@ -192,5 +192,3 @@ inline void GlobalNamespace::AlphaFloatFxGroupEffectTarget::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AlphaFloatFxGroupEffectTarget::AlphaFloatFxGroupEffectTarget() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

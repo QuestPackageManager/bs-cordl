@@ -1553,5 +1553,3 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::_cto
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>::NetworkPlayerModel_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

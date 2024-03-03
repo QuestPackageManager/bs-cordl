@@ -624,5 +624,3 @@ constexpr ::System::Boolean::Boolean(bool m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Boolean::Boolean() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

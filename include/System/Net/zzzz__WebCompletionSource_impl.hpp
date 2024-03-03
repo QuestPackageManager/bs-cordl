@@ -25,5 +25,3 @@ inline void System::Net::WebCompletionSource::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebCompletionSource::WebCompletionSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

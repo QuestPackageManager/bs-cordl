@@ -29,5 +29,3 @@ template <typename TValue> inline void UnityEngine::InputSystem::InputProcessor_
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::InputProcessor_1<TValue>::InputProcessor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

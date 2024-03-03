@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::PanelScaleMode::PanelScaleMode() {}
 constexpr ::UnityEngine::UIElements::PanelScaleMode UnityEngine::UIElements::PanelScaleMode::ConstantPixelSize{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::PanelScaleMode UnityEngine::UIElements::PanelScaleMode::ConstantPhysicalSize{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::PanelScaleMode UnityEngine::UIElements::PanelScaleMode::ScaleWithScreenSize{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

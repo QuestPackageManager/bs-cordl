@@ -238,5 +238,3 @@ inline void GlobalNamespace::OVRSceneSampleController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneSampleController::OVRSceneSampleController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

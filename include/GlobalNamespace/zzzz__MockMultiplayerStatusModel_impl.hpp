@@ -70,5 +70,3 @@ inline void GlobalNamespace::MockMultiplayerStatusModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockMultiplayerStatusModel::MockMultiplayerStatusModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -840,5 +840,3 @@ inline void GlobalNamespace::OVRFaceExpressions::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRFaceExpressions::OVRFaceExpressions() {}
 constexpr ::GlobalNamespace::__OVRPermissionsRequester__Permission GlobalNamespace::OVRFaceExpressions::FaceTrackingPermission{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

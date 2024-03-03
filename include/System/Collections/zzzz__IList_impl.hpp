@@ -228,5 +228,3 @@ inline void System::Collections::IList::RemoveAt(int32_t index) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::IList*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

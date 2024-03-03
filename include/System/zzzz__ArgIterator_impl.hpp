@@ -50,5 +50,3 @@ constexpr ::System::ArgIterator::ArgIterator(void* sig, void* args, int32_t next
 }
 // Ctor Parameters []
 constexpr ::System::ArgIterator::ArgIterator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

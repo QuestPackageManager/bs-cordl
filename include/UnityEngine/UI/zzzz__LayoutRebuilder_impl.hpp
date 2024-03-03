@@ -657,5 +657,3 @@ inline void UnityEngine::UI::LayoutRebuilder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::LayoutRebuilder::LayoutRebuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

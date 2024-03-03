@@ -2323,5 +2323,3 @@ inline void Tayx::Graphy::GraphyManager::RefreshAllParameters() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::GraphyManager::GraphyManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

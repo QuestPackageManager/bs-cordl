@@ -1035,5 +1035,3 @@ inline void GlobalNamespace::OculusPlatformAdditionalContentModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel::OculusPlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

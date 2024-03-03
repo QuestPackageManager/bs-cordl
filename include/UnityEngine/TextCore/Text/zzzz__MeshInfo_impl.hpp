@@ -155,5 +155,3 @@ constexpr ::UnityEngine::TextCore::Text::MeshInfo::MeshInfo(int32_t vertexCount,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::MeshInfo::MeshInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

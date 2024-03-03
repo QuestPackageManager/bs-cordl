@@ -45,5 +45,3 @@ inline void UnityEngine::UIElements::IGenericMenu::DropDown(::UnityEngine::Rect 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IGenericMenu*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, targetElement, anchored);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ template <typename T> inline uint64_t GlobalNamespace::IBitMask_1<T>::GetBits(in
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBitMask_1<T>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, offset, count);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

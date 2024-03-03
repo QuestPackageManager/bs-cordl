@@ -193,5 +193,3 @@ inline void GlobalNamespace::__BombCutSoundEffect__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool::__BombCutSoundEffect__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

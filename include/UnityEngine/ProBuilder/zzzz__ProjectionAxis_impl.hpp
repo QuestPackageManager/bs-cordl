@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ProBuilder::ProjectionAxis UnityEngine::ProBuilder::Pro
 constexpr ::UnityEngine::ProBuilder::ProjectionAxis UnityEngine::ProBuilder::ProjectionAxis::XNegative{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ProBuilder::ProjectionAxis UnityEngine::ProBuilder::ProjectionAxis::YNegative{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ProBuilder::ProjectionAxis UnityEngine::ProBuilder::ProjectionAxis::ZNegative{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

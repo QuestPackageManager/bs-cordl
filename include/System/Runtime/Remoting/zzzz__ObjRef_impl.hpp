@@ -486,5 +486,3 @@ inline ::System::Type* System::Runtime::Remoting::ObjRef::get_ServerType() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ObjRef::ObjRef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

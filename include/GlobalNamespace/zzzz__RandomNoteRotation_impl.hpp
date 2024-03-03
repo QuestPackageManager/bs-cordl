@@ -116,5 +116,3 @@ inline void GlobalNamespace::RandomNoteRotation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RandomNoteRotation::RandomNoteRotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -179,5 +179,3 @@ inline void GlobalNamespace::HelpMenuViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HelpMenuViewController::HelpMenuViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

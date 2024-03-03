@@ -89,5 +89,3 @@ inline void GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Poo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool::__MultiplayerConnectedPlayerBombNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

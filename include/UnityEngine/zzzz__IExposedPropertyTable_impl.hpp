@@ -22,5 +22,3 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::IExposedPropertyTable::GetRe
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IExposedPropertyTable*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method, id, idValid);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

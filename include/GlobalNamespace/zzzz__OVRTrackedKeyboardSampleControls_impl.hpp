@@ -605,5 +605,3 @@ inline bool GlobalNamespace::OVRTrackedKeyboardSampleControls::_SetShaderCorouti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTrackedKeyboardSampleControls::OVRTrackedKeyboardSampleControls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

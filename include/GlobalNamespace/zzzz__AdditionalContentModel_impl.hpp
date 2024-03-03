@@ -356,5 +356,3 @@ GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetP
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AdditionalContentModel::AdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

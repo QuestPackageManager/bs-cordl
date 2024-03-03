@@ -471,5 +471,3 @@ inline void UnityEngine::InputSystem::LowLevel::InputState::RemoveChangeMonitorT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputState::InputState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

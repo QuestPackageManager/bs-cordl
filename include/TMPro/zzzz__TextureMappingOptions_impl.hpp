@@ -10,5 +10,3 @@ constexpr ::TMPro::TextureMappingOptions TMPro::TextureMappingOptions::Character
 constexpr ::TMPro::TextureMappingOptions TMPro::TextureMappingOptions::Line{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::TextureMappingOptions TMPro::TextureMappingOptions::Paragraph{ static_cast<int32_t>(0x2) };
 constexpr ::TMPro::TextureMappingOptions TMPro::TextureMappingOptions::MatchAspect{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

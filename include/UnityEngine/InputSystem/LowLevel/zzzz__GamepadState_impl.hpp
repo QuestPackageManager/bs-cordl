@@ -157,5 +157,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::GamepadState::GamepadState(uint3
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::GamepadState::GamepadState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

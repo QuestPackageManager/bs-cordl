@@ -68,5 +68,3 @@ template <typename T> inline T UnityEngine::UIElements::TransitionEventBase_1<T>
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::TransitionEventBase_1<T>::TransitionEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -120,5 +120,3 @@ inline ::StringW UnityEngine::UIElements::UxmlStringAttributeDescription::GetVal
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription::UxmlStringAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

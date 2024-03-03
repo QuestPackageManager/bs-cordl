@@ -208,5 +208,3 @@ inline void UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::ResourceManagerDiagnostics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

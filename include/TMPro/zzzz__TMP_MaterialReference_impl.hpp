@@ -9,5 +9,3 @@ constexpr ::TMPro::TMP_MaterialReference::TMP_MaterialReference(::UnityW<::Unity
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_MaterialReference::TMP_MaterialReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

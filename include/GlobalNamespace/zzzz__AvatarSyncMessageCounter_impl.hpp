@@ -113,5 +113,3 @@ inline void GlobalNamespace::AvatarSyncMessageCounter::CleanOldMessages() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AvatarSyncMessageCounter::AvatarSyncMessageCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

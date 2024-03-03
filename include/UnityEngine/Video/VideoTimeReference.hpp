@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/Video/zzzz__VideoTimeReference_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/Video/zzzz__VideoTimeReference_impl.hpp"
+#endif

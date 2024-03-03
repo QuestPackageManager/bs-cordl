@@ -195,5 +195,3 @@ inline void GlobalNamespace::PlatformInstaller::BindMockPlatformAdditionalConten
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformInstaller::PlatformInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

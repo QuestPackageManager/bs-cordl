@@ -35,5 +35,3 @@ constexpr ::System::UriSyntaxFlags System::UriSyntaxFlags::CanonicalizeAsFilePat
 constexpr ::System::UriSyntaxFlags System::UriSyntaxFlags::UnEscapeDotsAndSlashes{ static_cast<int32_t>(0x2000000) };
 constexpr ::System::UriSyntaxFlags System::UriSyntaxFlags::AllowIdn{ static_cast<int32_t>(0x4000000) };
 constexpr ::System::UriSyntaxFlags System::UriSyntaxFlags::AllowIriParsing{ static_cast<int32_t>(0x10000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

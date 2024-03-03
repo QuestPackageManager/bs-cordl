@@ -25,5 +25,3 @@ inline void GlobalNamespace::IgnoreForReflectionProbeBaking::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IgnoreForReflectionProbeBaking::IgnoreForReflectionProbeBaking() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

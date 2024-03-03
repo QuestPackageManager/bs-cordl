@@ -97,5 +97,3 @@ inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::X
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo::XPathNodePageInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

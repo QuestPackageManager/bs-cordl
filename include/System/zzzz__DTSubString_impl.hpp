@@ -36,5 +36,3 @@ constexpr ::System::DTSubString::DTSubString(::System::ReadOnlySpan_1<char16_t> 
 }
 // Ctor Parameters []
 constexpr ::System::DTSubString::DTSubString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

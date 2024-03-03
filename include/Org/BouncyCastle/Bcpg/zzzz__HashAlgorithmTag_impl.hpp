@@ -17,5 +17,3 @@ constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag Org::BouncyCastle::Bcpg::H
 constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag Org::BouncyCastle::Bcpg::HashAlgorithmTag::Sha384{ static_cast<int32_t>(0x9) };
 constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag Org::BouncyCastle::Bcpg::HashAlgorithmTag::Sha512{ static_cast<int32_t>(0xa) };
 constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag Org::BouncyCastle::Bcpg::HashAlgorithmTag::Sha224{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

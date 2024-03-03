@@ -108,5 +108,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::AbstractECMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

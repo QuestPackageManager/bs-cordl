@@ -126,5 +126,3 @@ inline void System::Threading::Tasks::AsyncCausalityTracer::TraceSynchronousWork
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::AsyncCausalityTracer::AsyncCausalityTracer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

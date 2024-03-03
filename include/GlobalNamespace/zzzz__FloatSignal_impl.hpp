@@ -24,5 +24,3 @@ inline void GlobalNamespace::FloatSignal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatSignal::FloatSignal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

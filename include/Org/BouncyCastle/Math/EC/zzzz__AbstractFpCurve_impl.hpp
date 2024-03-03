@@ -165,5 +165,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::EC::Abstr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractFpCurve::AbstractFpCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

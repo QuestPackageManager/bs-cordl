@@ -518,5 +518,3 @@ inline void UnityEngine::UIElements::__TextField__TextInput::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__TextField__TextInput::__TextField__TextInput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

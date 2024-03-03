@@ -156,5 +156,3 @@ inline void UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveSc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::MemoryProfiler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

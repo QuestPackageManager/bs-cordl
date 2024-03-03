@@ -9,5 +9,3 @@ inline bool System::CompatibilitySwitches::getStaticF_IsAppEarlierThanWindowsPho
 }
 // Ctor Parameters []
 constexpr ::System::CompatibilitySwitches::CompatibilitySwitches() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -115,5 +115,3 @@ inline void System::Threading::ThreadPoolWorkQueueThreadLocals::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadPoolWorkQueueThreadLocals::ThreadPoolWorkQueueThreadLocals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

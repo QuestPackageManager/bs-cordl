@@ -93,5 +93,3 @@ inline int32_t Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult::Col
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult::DefaultSignatureResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

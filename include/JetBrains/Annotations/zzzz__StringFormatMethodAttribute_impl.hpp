@@ -80,5 +80,3 @@ inline void JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParam
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::StringFormatMethodAttribute::StringFormatMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

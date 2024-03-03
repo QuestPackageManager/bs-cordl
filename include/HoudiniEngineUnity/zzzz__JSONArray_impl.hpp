@@ -650,5 +650,3 @@ inline void HoudiniEngineUnity::JSONArray::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONArray::JSONArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

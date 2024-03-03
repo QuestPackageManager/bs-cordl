@@ -31,5 +31,3 @@ constexpr ::UnityEngine::GradientColorKey::GradientColorKey(::UnityEngine::Color
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GradientColorKey::GradientColorKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

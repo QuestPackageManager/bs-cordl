@@ -9,5 +9,3 @@ constexpr ::UnityEngine::LightmapsModeLegacy::LightmapsModeLegacy() {}
 constexpr ::UnityEngine::LightmapsModeLegacy UnityEngine::LightmapsModeLegacy::Single{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LightmapsModeLegacy UnityEngine::LightmapsModeLegacy::Dual{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::LightmapsModeLegacy UnityEngine::LightmapsModeLegacy::Directional{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

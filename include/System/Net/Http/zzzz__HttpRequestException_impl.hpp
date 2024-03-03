@@ -74,5 +74,3 @@ inline void System::Net::Http::HttpRequestException::_ctor(::StringW message, ::
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpRequestException::HttpRequestException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

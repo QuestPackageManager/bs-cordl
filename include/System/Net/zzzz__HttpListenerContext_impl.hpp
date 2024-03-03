@@ -310,5 +310,3 @@ inline ::System::Security::Principal::IPrincipal* System::Net::HttpListenerConte
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerContext::HttpListenerContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

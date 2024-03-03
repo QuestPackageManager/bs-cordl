@@ -94,5 +94,3 @@ inline bool System::Security::Cryptography::AsymmetricSignatureDeformatter::Veri
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AsymmetricSignatureDeformatter::AsymmetricSignatureDeformatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

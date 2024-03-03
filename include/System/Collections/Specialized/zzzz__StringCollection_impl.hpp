@@ -571,5 +571,3 @@ inline void System::Collections::Specialized::StringCollection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::StringCollection::StringCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

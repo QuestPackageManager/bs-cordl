@@ -487,5 +487,3 @@ inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Org::BouncyCastle::Math::E
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP224K1Curve::SecP224K1Curve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

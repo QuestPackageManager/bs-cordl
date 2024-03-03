@@ -329,5 +329,3 @@ inline void Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::Dstu7624Mac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

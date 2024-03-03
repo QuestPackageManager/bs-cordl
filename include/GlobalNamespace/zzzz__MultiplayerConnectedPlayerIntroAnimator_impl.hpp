@@ -59,5 +59,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::MultiplayerConnectedPlayerIntroAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

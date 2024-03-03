@@ -87,5 +87,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::DisableDev
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::DisableDeviceCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

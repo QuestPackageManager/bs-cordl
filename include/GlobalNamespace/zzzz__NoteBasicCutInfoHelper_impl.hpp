@@ -47,5 +47,3 @@ inline void GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteBasicCutInfoHelper::NoteBasicCutInfoHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

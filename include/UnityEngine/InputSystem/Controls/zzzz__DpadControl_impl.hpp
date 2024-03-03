@@ -487,5 +487,3 @@ inline ::UnityEngine::Vector2 UnityEngine::InputSystem::Controls::DpadControl::M
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DpadControl::DpadControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -224,5 +224,3 @@ inline void Oculus::Platform::AdvancedAbuseReportOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AdvancedAbuseReportOptions::AdvancedAbuseReportOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

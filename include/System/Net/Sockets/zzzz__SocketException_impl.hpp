@@ -213,5 +213,3 @@ inline ::System::Net::Sockets::SocketError System::Net::Sockets::SocketException
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SocketException::SocketException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

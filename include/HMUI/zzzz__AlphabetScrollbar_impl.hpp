@@ -634,5 +634,3 @@ inline void HMUI::AlphabetScrollbar::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::AlphabetScrollbar::AlphabetScrollbar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

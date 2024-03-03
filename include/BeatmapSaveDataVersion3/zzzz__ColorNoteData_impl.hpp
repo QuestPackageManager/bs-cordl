@@ -192,5 +192,3 @@ inline void BeatmapSaveDataVersion3::ColorNoteData::_ctor(float_t beat, int32_t 
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::ColorNoteData::ColorNoteData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

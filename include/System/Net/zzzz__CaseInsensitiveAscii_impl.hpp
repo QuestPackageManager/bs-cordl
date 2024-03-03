@@ -144,5 +144,3 @@ inline void System::Net::CaseInsensitiveAscii::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::CaseInsensitiveAscii::CaseInsensitiveAscii() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

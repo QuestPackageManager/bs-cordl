@@ -119,5 +119,3 @@ inline void GlobalNamespace::PlatformException::_ctor(::GlobalNamespace::__Platf
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformException::PlatformException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

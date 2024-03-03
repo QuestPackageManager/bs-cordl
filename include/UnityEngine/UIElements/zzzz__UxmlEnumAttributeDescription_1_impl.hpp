@@ -95,5 +95,3 @@ template <typename T> template <typename U> inline U UnityEngine::UIElements::Ux
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>::UxmlEnumAttributeDescription_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

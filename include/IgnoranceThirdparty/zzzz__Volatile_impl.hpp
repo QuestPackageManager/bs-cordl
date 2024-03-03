@@ -321,5 +321,3 @@ constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong::__Volatile__PaddedLong(
 constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong::__Volatile__PaddedLong() {}
 // Ctor Parameters []
 constexpr ::IgnoranceThirdparty::Volatile::Volatile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

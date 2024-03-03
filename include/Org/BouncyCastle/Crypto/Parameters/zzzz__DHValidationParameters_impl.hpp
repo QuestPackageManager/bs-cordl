@@ -162,5 +162,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Ge
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::DHValidationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

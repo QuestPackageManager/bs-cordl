@@ -91,5 +91,3 @@ inline void GlobalNamespace::MultiplayerBadgesModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgesModelSO::MultiplayerBadgesModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

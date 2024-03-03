@@ -284,5 +284,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* Org::BouncyCastle::Cryp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient::SrpTlsClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

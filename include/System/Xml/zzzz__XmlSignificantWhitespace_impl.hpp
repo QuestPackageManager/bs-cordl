@@ -187,5 +187,3 @@ inline bool System::Xml::XmlSignificantWhitespace::get_IsText() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlSignificantWhitespace::XmlSignificantWhitespace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

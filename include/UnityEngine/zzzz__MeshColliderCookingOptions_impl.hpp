@@ -12,5 +12,3 @@ constexpr ::UnityEngine::MeshColliderCookingOptions UnityEngine::MeshColliderCoo
 constexpr ::UnityEngine::MeshColliderCookingOptions UnityEngine::MeshColliderCookingOptions::EnableMeshCleaning{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::MeshColliderCookingOptions UnityEngine::MeshColliderCookingOptions::WeldColocatedVertices{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::MeshColliderCookingOptions UnityEngine::MeshColliderCookingOptions::UseFastMidphase{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

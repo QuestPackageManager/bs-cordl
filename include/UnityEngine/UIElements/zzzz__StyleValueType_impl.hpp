@@ -20,5 +20,3 @@ constexpr ::UnityEngine::UIElements::StyleValueType UnityEngine::UIElements::Sty
 constexpr ::UnityEngine::UIElements::StyleValueType UnityEngine::UIElements::StyleValueType::CommaSeparator{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::UIElements::StyleValueType UnityEngine::UIElements::StyleValueType::ScalableImage{ static_cast<int32_t>(0xc) };
 constexpr ::UnityEngine::UIElements::StyleValueType UnityEngine::UIElements::StyleValueType::MissingAssetReference{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

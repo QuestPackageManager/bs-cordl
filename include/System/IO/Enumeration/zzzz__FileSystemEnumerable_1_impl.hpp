@@ -259,5 +259,3 @@ template <typename TResult> inline ::System::Collections::IEnumerator* System::I
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>::FileSystemEnumerable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

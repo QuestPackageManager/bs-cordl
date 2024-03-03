@@ -9,5 +9,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode System::Security::Cryptography::X509Certificates::X509RevocationMode::NoCheck{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode System::Security::Cryptography::X509Certificates::X509RevocationMode::Online{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode System::Security::Cryptography::X509Certificates::X509RevocationMode::Offline{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

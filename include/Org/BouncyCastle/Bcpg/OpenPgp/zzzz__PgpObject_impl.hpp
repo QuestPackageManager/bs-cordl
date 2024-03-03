@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject::PgpObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

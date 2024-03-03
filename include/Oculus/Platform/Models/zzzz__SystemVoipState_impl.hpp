@@ -52,5 +52,3 @@ inline void Oculus::Platform::Models::SystemVoipState::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::SystemVoipState::SystemVoipState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

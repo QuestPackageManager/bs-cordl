@@ -47,5 +47,3 @@ template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::GenericSignal_1<T>::GenericSignal_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

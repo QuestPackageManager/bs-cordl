@@ -114,5 +114,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::NoTransitionContext::__zenCreateInjec
 }
 // Ctor Parameters []
 constexpr ::Zenject::NoTransitionContext::NoTransitionContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

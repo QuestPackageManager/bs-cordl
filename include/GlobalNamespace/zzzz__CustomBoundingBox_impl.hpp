@@ -80,5 +80,3 @@ inline void GlobalNamespace::CustomBoundingBox::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomBoundingBox::CustomBoundingBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

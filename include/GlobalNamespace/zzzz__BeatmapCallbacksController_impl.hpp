@@ -774,5 +774,3 @@ inline void GlobalNamespace::BeatmapCallbacksController::HandleBeatmapEventDataW
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCallbacksController::BeatmapCallbacksController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -70,5 +70,3 @@ inline void GlobalNamespace::EnvironmentSceneSetupData::_ctor(::GlobalNamespace:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentSceneSetupData::EnvironmentSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

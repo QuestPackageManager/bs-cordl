@@ -290,5 +290,3 @@ inline void System::Resources::FastResourceComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Resources::FastResourceComparer::FastResourceComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

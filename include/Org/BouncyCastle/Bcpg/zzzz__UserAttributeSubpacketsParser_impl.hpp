@@ -63,5 +63,3 @@ inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::UserAttributeSubpacketsParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

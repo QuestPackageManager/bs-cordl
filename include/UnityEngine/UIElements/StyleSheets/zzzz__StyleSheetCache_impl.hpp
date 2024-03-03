@@ -226,5 +226,3 @@ inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId UnityEngine::UIEl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleSheetCache::StyleSheetCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

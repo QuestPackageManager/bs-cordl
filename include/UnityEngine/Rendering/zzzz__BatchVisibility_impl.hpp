@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::BatchVisibility::BatchVisibility(int32_t off
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::BatchVisibility::BatchVisibility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

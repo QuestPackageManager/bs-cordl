@@ -292,5 +292,3 @@ inline void RootMotion::FinalIK::GenericPoser::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::GenericPoser::GenericPoser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

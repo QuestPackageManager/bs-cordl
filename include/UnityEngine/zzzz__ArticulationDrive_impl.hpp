@@ -16,5 +16,3 @@ constexpr ::UnityEngine::ArticulationDrive::ArticulationDrive(float_t lowerLimit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ArticulationDrive::ArticulationDrive() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

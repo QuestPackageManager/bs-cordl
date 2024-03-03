@@ -52,5 +52,3 @@ inline void GlobalNamespace::LocalLeaderboardTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalLeaderboardTableView::LocalLeaderboardTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

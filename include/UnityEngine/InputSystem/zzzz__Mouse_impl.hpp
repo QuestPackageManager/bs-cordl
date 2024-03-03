@@ -637,5 +637,3 @@ inline void UnityEngine::InputSystem::Mouse::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Mouse::Mouse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

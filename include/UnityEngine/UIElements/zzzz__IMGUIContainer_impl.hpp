@@ -1203,5 +1203,3 @@ inline void UnityEngine::UIElements::__IMGUIContainer__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory::__IMGUIContainer__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

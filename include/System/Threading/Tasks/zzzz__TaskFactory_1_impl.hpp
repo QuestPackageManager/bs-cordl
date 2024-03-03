@@ -492,5 +492,3 @@ System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncTrim(TInstance thisRe
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::TaskFactory_1<TResult>::TaskFactory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

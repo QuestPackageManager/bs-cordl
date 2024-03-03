@@ -150,5 +150,3 @@ inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinRuntimeReflectionSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -575,5 +575,3 @@ inline void GlobalNamespace::LevelListTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelListTableCell::LevelListTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

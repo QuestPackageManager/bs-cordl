@@ -257,5 +257,3 @@ inline void GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_1(::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerScoreItem::MultiplayerScoreItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

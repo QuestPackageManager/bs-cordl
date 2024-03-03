@@ -15,5 +15,3 @@ constexpr ::UnityEngine::UIElements::ComputedTransitionProperty::ComputedTransit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ComputedTransitionProperty::ComputedTransitionProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

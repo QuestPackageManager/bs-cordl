@@ -1037,5 +1037,3 @@ inline void RootMotion::FinalIK::RagdollUtility::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::RagdollUtility::RagdollUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

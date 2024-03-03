@@ -125,5 +125,3 @@ inline void UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleF
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider::AudioSampleProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

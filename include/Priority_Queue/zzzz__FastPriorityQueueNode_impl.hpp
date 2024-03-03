@@ -125,5 +125,3 @@ inline void Priority_Queue::FastPriorityQueueNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Priority_Queue::FastPriorityQueueNode::FastPriorityQueueNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

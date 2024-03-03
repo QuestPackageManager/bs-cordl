@@ -410,5 +410,3 @@ inline void Org::BouncyCastle::Crypto::Digests::Sha1Digest::Reset(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Sha1Digest::Sha1Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

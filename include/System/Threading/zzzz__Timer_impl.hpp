@@ -725,5 +725,3 @@ inline int64_t System::Threading::Timer::GetTimeMonotonic() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Timer::Timer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

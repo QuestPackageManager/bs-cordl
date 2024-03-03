@@ -880,5 +880,3 @@ inline int32_t System::Security::Cryptography::DerSequenceReader::ScanContentLen
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DerSequenceReader::DerSequenceReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

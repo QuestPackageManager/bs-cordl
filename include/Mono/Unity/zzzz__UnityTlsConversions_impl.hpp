@@ -140,5 +140,3 @@ Mono::Unity::UnityTlsConversions::VerifyResultToChainStatus(::Mono::Unity::__Uni
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTlsConversions::UnityTlsConversions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

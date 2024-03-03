@@ -514,5 +514,3 @@ inline void UnityEngine::Timeline::TimeNotificationBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimeNotificationBehaviour::TimeNotificationBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

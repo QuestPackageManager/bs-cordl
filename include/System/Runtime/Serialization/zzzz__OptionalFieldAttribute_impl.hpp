@@ -58,5 +58,3 @@ inline void System::Runtime::Serialization::OptionalFieldAttribute::set_VersionA
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::OptionalFieldAttribute::OptionalFieldAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

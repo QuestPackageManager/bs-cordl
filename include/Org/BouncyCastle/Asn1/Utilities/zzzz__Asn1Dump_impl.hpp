@@ -195,5 +195,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscStrin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Utilities::Asn1Dump::Asn1Dump() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

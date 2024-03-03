@@ -1176,5 +1176,3 @@ inline bool Unity::XR::Oculus::NativeMethods::GetShouldRestartSession() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::NativeMethods::NativeMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

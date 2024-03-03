@@ -208,5 +208,3 @@ inline void GlobalNamespace::NoteCutter::Cut(::GlobalNamespace::Saber* saber) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutter::NoteCutter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

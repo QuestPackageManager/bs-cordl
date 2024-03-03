@@ -172,5 +172,3 @@ inline void LiteNetLib::NetEvent::_ctor(::LiteNetLib::NetManager* manager) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetEvent::NetEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

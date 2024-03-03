@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVRMouseButton::EVRMouseButton() {}
 constexpr ::OVR::OpenVR::EVRMouseButton OVR::OpenVR::EVRMouseButton::Left{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRMouseButton OVR::OpenVR::EVRMouseButton::Right{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EVRMouseButton OVR::OpenVR::EVRMouseButton::Middle{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -55,5 +55,3 @@ inline void HMUI::ScreenModeSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScreenModeSO::ScreenModeSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -361,5 +361,3 @@ inline void UnityEngine::Texture2DArray::ValidateIsNotCrunched(::UnityEngine::Ex
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Texture2DArray::Texture2DArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

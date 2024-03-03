@@ -1471,5 +1471,3 @@ inline bool GlobalNamespace::LeaderboardScoreUploader::_UploadScoresCoroutine_b_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardScoreUploader::LeaderboardScoreUploader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

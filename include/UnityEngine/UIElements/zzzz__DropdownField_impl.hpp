@@ -682,5 +682,3 @@ inline void UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::_Ad
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0::__DropdownField____c__DisplayClass38_0() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -226,5 +226,3 @@ GlobalNamespace::MockPlayerAuthenticationTokenProvider::GetXPlatformAccessToken(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerAuthenticationTokenProvider::MockPlayerAuthenticationTokenProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

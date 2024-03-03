@@ -87,5 +87,3 @@ inline void GlobalNamespace::MultiplayerLocalPlayerInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalPlayerInstaller::MultiplayerLocalPlayerInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

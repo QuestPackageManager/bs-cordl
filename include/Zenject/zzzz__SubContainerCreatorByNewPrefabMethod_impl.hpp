@@ -77,5 +77,3 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod::AddInstallers(::Syste
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod::SubContainerCreatorByNewPrefabMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

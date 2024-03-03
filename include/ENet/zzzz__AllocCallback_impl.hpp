@@ -87,5 +87,3 @@ inline void* ENet::AllocCallback::EndInvoke(::System::IAsyncResult* result) {
 }
 // Ctor Parameters []
 constexpr ::ENet::AllocCallback::AllocCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

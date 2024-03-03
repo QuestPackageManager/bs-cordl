@@ -147,5 +147,3 @@ inline ::System::Collections::IList* Org::BouncyCastle::Bcpg::OpenPgp::PgpObject
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::PgpObjectFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

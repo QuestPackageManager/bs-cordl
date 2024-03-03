@@ -9,5 +9,3 @@ constexpr ::UnityEngine::AnimatorCullingMode::AnimatorCullingMode() {}
 constexpr ::UnityEngine::AnimatorCullingMode UnityEngine::AnimatorCullingMode::AlwaysAnimate{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::AnimatorCullingMode UnityEngine::AnimatorCullingMode::CullUpdateTransforms{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AnimatorCullingMode UnityEngine::AnimatorCullingMode::CullCompletely{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

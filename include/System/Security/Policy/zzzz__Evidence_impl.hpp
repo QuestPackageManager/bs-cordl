@@ -310,5 +310,3 @@ inline ::System::Collections::IEnumerator* System::Security::Policy::Evidence::G
 }
 // Ctor Parameters []
 constexpr ::System::Security::Policy::Evidence::Evidence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

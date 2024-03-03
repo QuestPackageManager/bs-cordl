@@ -174,5 +174,3 @@ inline ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::Pkcs5S1ParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

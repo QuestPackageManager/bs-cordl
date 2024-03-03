@@ -176,5 +176,3 @@ inline void System::Runtime::Remoting::Messaging::StackBuilderSink::_AsyncProces
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::StackBuilderSink::StackBuilderSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

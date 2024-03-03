@@ -42,5 +42,3 @@ inline void System::Runtime::InteropServices::InterfaceTypeAttribute::_ctor(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::InterfaceTypeAttribute::InterfaceTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

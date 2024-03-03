@@ -10,5 +10,3 @@ constexpr ::UnityEngine::VRTextureUsage UnityEngine::VRTextureUsage::None{ stati
 constexpr ::UnityEngine::VRTextureUsage UnityEngine::VRTextureUsage::OneEye{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::VRTextureUsage UnityEngine::VRTextureUsage::TwoEyes{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::VRTextureUsage UnityEngine::VRTextureUsage::DeviceSpecific{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

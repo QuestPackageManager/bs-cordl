@@ -225,5 +225,3 @@ inline void GlobalNamespace::CountdownController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CountdownController::CountdownController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

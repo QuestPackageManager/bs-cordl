@@ -180,5 +180,3 @@ inline void UnityEngine::UIElements::VisualTreeTransformClipUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeTransformClipUpdater::VisualTreeTransformClipUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

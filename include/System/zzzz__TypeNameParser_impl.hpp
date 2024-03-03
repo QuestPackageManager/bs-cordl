@@ -42,5 +42,3 @@ inline ::System::Type* System::TypeNameParser::GetType(::StringW typeName, ::Sys
 }
 // Ctor Parameters []
 constexpr ::System::TypeNameParser::TypeNameParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

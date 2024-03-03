@@ -291,5 +291,3 @@ inline void UnityEngine::InputSystem::InputActionReference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionReference::InputActionReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

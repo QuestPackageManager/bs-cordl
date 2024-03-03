@@ -359,5 +359,3 @@ inline ::StringW UnityEngine::EventSystems::TouchInputModule::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::TouchInputModule::TouchInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

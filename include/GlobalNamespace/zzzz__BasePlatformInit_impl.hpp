@@ -295,5 +295,3 @@ inline void GlobalNamespace::BasePlatformInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasePlatformInit::BasePlatformInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

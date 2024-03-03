@@ -435,5 +435,3 @@ inline void System::Collections::Specialized::NameValueCollection::_ctor(::Syste
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::NameValueCollection::NameValueCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

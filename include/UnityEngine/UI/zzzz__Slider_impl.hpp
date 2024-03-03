@@ -1201,5 +1201,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::Slider::UnityEngine_U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Slider::Slider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

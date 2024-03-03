@@ -987,5 +987,3 @@ inline bool BeatSaber::BeatAvatarSDK::AvatarData::Equals(::System::Object* obj) 
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarData::AvatarData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

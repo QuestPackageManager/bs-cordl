@@ -126,5 +126,3 @@ inline void UnityEngine::WaitForSecondsRealtime::Reset() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WaitForSecondsRealtime::WaitForSecondsRealtime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

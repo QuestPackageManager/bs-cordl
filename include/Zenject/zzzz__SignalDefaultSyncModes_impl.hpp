@@ -8,5 +8,3 @@ constexpr ::Zenject::SignalDefaultSyncModes::SignalDefaultSyncModes(int32_t valu
 constexpr ::Zenject::SignalDefaultSyncModes::SignalDefaultSyncModes() {}
 constexpr ::Zenject::SignalDefaultSyncModes Zenject::SignalDefaultSyncModes::Synchronous{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::SignalDefaultSyncModes Zenject::SignalDefaultSyncModes::Asynchronous{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

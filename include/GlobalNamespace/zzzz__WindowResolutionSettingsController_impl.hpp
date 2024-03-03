@@ -117,5 +117,3 @@ inline void GlobalNamespace::WindowResolutionSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WindowResolutionSettingsController::WindowResolutionSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

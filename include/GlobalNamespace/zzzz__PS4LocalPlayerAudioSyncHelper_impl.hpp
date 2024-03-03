@@ -25,5 +25,3 @@ inline void GlobalNamespace::PS4LocalPlayerAudioSyncHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4LocalPlayerAudioSyncHelper::PS4LocalPlayerAudioSyncHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

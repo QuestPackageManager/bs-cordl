@@ -194,5 +194,3 @@ inline bool System::ComponentModel::DescriptionAttribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DescriptionAttribute::DescriptionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

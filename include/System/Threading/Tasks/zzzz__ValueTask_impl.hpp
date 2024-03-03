@@ -414,5 +414,3 @@ constexpr ::System::Threading::Tasks::ValueTask::ValueTask(::System::Object* _ob
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::ValueTask::ValueTask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -72,5 +72,3 @@ inline void System::Threading::Tasks::StackGuard::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::StackGuard::StackGuard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

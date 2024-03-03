@@ -458,5 +458,3 @@ constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer(::OVR::OpenVR::__IVRIOBuffer__
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRIOBuffer::IVRIOBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

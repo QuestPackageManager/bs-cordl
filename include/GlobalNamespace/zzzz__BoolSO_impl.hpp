@@ -24,5 +24,3 @@ inline void GlobalNamespace::BoolSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BoolSO::BoolSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

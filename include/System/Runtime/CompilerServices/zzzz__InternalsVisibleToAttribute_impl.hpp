@@ -72,5 +72,3 @@ inline void System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::InternalsVisibleToAttribute::InternalsVisibleToAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

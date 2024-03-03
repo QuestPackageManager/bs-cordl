@@ -254,5 +254,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::_cto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::MultiplayerConnectedPlayerLevelFailController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -75,5 +75,3 @@ inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::ProviderException::ProviderException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

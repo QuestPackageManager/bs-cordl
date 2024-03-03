@@ -210,5 +210,3 @@ inline void UnityEngine::PS4::XR::PSVRLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PS4::XR::PSVRLoader::PSVRLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

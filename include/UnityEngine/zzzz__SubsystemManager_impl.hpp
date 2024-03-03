@@ -279,5 +279,3 @@ inline void UnityEngine::SubsystemManager::StaticConstructScriptingClassMap() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SubsystemManager::SubsystemManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

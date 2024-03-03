@@ -174,5 +174,3 @@ inline int64_t Org::BouncyCastle::Crypto::Tls::DtlsEpoch::get_SequenceNumber() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch::DtlsEpoch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

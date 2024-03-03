@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ConfigurableJointMotion::ConfigurableJointMotion() {}
 constexpr ::UnityEngine::ConfigurableJointMotion UnityEngine::ConfigurableJointMotion::Locked{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ConfigurableJointMotion UnityEngine::ConfigurableJointMotion::Limited{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ConfigurableJointMotion UnityEngine::ConfigurableJointMotion::Free{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

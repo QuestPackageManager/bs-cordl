@@ -23,5 +23,3 @@ constexpr ::HoudiniEngineUnity::HAPI_NodeFlags HoudiniEngineUnity::HAPI_NodeFlag
 constexpr ::HoudiniEngineUnity::HAPI_NodeFlags HoudiniEngineUnity::HAPI_NodeFlags::HAPI_NODEFLAGS_SOP_GUIDE{ static_cast<int32_t>(0x1000) };
 constexpr ::HoudiniEngineUnity::HAPI_NodeFlags HoudiniEngineUnity::HAPI_NodeFlags::HAPI_NODEFLAGS_TOP_NONSCHEDULER{ static_cast<int32_t>(0x2000) };
 constexpr ::HoudiniEngineUnity::HAPI_NodeFlags HoudiniEngineUnity::HAPI_NodeFlags::HAPI_NODEFLAGS_NON_BYPASS{ static_cast<int32_t>(0x4000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -77,5 +77,3 @@ inline void GlobalNamespace::GameServerListItem::_ctor(::StringW serverName, int
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerListItem::GameServerListItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -85,5 +85,3 @@ inline ::StringW UnityEngine::TextCore::Text::TextUtilities::UintToString(::Syst
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextUtilities::TextUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

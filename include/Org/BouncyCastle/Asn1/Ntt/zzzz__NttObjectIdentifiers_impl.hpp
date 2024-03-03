@@ -80,5 +80,3 @@ inline void Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers::NttObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

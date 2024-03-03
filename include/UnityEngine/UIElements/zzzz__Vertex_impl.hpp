@@ -34,5 +34,3 @@ constexpr ::UnityEngine::UIElements::Vertex::Vertex(::UnityEngine::Vector3 posit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Vertex::Vertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -290,5 +290,3 @@ inline ::System::Object* System::Xml::Schema::SymbolsDictionary::GetParticle(int
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SymbolsDictionary::SymbolsDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -522,5 +522,3 @@ inline ::UnityEngine::Quaternion GlobalNamespace::OVRGLTFAnimatinonNode::CloneQu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode::OVRGLTFAnimatinonNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

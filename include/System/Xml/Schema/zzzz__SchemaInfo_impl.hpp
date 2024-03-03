@@ -542,5 +542,3 @@ inline ::StringW System::Xml::Schema::SchemaInfo::System_Xml_IDtdInfo_get_Intern
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaInfo::SchemaInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

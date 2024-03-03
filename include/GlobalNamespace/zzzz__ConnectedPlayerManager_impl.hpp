@@ -5248,5 +5248,3 @@ inline void GlobalNamespace::ConnectedPlayerManager::Log(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectedPlayerManager::ConnectedPlayerManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

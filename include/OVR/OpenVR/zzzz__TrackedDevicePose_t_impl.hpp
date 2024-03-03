@@ -22,5 +22,3 @@ constexpr ::OVR::OpenVR::TrackedDevicePose_t::TrackedDevicePose_t(::OVR::OpenVR:
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::TrackedDevicePose_t::TrackedDevicePose_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

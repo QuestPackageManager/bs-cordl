@@ -2345,5 +2345,3 @@ inline void System::Xml::XmlWellFormedWriter::AddToAttrHashTable(int32_t attribu
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlWellFormedWriter::XmlWellFormedWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

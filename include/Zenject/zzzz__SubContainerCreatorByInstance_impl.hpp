@@ -76,5 +76,3 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByInstance::CreateSub
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByInstance::SubContainerCreatorByInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

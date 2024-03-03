@@ -78,5 +78,3 @@ inline ::StringW System::Net::CookieParser::CheckQuoted(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieParser::CookieParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

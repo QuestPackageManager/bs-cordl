@@ -159,5 +159,3 @@ inline void GlobalNamespace::OVRMixedRealityCaptureTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMixedRealityCaptureTest::OVRMixedRealityCaptureTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -97,5 +97,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::_ctor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::BloomPrePassBackgroundParticleSystemRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

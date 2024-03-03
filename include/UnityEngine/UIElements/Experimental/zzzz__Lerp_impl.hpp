@@ -78,5 +78,3 @@ inline ::UnityEngine::UIElements::Experimental::StyleValues UnityEngine::UIEleme
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Experimental::Lerp::Lerp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

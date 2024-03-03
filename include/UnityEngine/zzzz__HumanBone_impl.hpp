@@ -11,5 +11,3 @@ constexpr ::UnityEngine::HumanBone::HumanBone(::StringW m_BoneName, ::StringW m_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanBone::HumanBone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -353,5 +353,3 @@ constexpr ::UnityEngine::Timeline::MarkerList::MarkerList(::System::Collections:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::MarkerList::MarkerList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

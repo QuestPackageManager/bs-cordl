@@ -412,5 +412,3 @@ inline void Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::Inc(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::DsaParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

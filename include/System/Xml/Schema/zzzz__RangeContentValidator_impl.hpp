@@ -138,5 +138,3 @@ inline void System::Xml::Schema::RangeContentValidator::_ctor(::System::Xml::Sch
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::RangeContentValidator::RangeContentValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

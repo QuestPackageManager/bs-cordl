@@ -146,5 +146,3 @@ inline void GlobalNamespace::MissedNoteEffectSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissedNoteEffectSpawner::MissedNoteEffectSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

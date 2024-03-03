@@ -81,5 +81,3 @@ inline void System::ComponentModel::PropertyChangingEventArgs::set_PropertyName(
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::PropertyChangingEventArgs::PropertyChangingEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

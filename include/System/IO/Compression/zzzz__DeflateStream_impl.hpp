@@ -882,5 +882,3 @@ inline void System::IO::Compression::DeflateStream::set_Position(int64_t value) 
 }
 // Ctor Parameters []
 constexpr ::System::IO::Compression::DeflateStream::DeflateStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

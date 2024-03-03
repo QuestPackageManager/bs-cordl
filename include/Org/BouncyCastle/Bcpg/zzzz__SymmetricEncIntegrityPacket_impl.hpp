@@ -40,5 +40,3 @@ inline void Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket::_ctor(::Org::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket::SymmetricEncIntegrityPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

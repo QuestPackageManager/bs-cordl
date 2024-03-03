@@ -94,5 +94,3 @@ inline ::StringW UnityEngine::StackTraceUtility::ExtractFormattedStackTrace(::Sy
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::StackTraceUtility::StackTraceUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

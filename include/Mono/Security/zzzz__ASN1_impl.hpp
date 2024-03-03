@@ -256,5 +256,3 @@ inline ::StringW Mono::Security::ASN1::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::ASN1::ASN1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

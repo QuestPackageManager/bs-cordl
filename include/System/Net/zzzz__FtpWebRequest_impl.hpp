@@ -1549,5 +1549,3 @@ inline void System::Net::FtpWebRequest::DataStreamClosed(::System::Net::CloseExS
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpWebRequest::FtpWebRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

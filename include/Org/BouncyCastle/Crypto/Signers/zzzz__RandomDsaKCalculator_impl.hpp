@@ -150,5 +150,3 @@ inline void Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::RandomDsaKCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

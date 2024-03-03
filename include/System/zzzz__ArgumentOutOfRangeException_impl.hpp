@@ -178,5 +178,3 @@ inline ::StringW System::ArgumentOutOfRangeException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::ArgumentOutOfRangeException::ArgumentOutOfRangeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

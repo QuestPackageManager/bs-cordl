@@ -371,5 +371,3 @@ inline ::System::Guid System::Reflection::Module::GetModuleVersionId() {
 // Ctor Parameters []
 constexpr ::System::Reflection::Module::Module() {}
 constexpr ::System::Reflection::BindingFlags System::Reflection::Module::DefaultLookup{ static_cast<int32_t>(0x1c) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

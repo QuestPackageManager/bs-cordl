@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::StringFreezingAttribute::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::StringFreezingAttribute::StringFreezingAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

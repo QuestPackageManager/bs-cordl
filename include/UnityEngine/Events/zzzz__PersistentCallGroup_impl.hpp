@@ -82,5 +82,3 @@ inline void UnityEngine::Events::PersistentCallGroup::Initialize(::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::PersistentCallGroup::PersistentCallGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

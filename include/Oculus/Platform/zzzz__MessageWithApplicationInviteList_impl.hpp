@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::ApplicationInviteList* Oculus::Platform::Mess
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithApplicationInviteList::MessageWithApplicationInviteList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

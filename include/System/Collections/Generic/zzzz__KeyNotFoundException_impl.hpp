@@ -78,5 +78,3 @@ inline void System::Collections::Generic::KeyNotFoundException::_ctor(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::KeyNotFoundException::KeyNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -409,5 +409,3 @@ inline ::BeatmapSaveDataVersion3::IndexFilter* BeatmapSaveDataVersion3::IndexFil
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::IndexFilter::IndexFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

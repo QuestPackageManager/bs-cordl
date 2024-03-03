@@ -250,5 +250,3 @@ inline void GlobalNamespace::FriendsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FriendsViewController::FriendsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

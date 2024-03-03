@@ -42,5 +42,3 @@ inline ::System::Security::Cryptography::SHA384* System::Security::Cryptography:
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA384::SHA384() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::LogOption::LogOption(int32_t value__) noexcept {
 constexpr ::UnityEngine::LogOption::LogOption() {}
 constexpr ::UnityEngine::LogOption UnityEngine::LogOption::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LogOption UnityEngine::LogOption::NoStacktrace{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

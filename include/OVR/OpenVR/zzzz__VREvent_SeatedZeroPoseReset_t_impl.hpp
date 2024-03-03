@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t::VREvent_SeatedZeroPoseRe
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t::VREvent_SeatedZeroPoseReset_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

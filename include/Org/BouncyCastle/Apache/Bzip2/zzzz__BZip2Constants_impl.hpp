@@ -33,5 +33,3 @@ inline void Org::BouncyCastle::Apache::Bzip2::BZip2Constants::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants::BZip2Constants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

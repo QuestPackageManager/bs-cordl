@@ -347,5 +347,3 @@ inline bool System::Runtime::Serialization::Formatters::Binary::ObjectProgress::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ObjectProgress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

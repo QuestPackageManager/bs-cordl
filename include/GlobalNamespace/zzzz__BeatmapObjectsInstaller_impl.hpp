@@ -208,5 +208,3 @@ inline void GlobalNamespace::BeatmapObjectsInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectsInstaller::BeatmapObjectsInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

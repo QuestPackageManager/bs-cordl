@@ -149,5 +149,3 @@ inline void GlobalNamespace::SetSaberBladeParams::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetSaberBladeParams::SetSaberBladeParams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

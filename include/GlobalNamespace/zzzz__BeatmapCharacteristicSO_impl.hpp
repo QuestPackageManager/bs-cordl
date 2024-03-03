@@ -306,5 +306,3 @@ inline void GlobalNamespace::BeatmapCharacteristicSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicSO::BeatmapCharacteristicSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

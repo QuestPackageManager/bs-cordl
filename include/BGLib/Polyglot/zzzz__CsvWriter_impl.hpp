@@ -90,5 +90,3 @@ inline void BGLib::Polyglot::CsvWriter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::CsvWriter::CsvWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

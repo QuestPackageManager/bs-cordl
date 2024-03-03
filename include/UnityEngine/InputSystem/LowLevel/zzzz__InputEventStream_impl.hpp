@@ -253,5 +253,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream::InputEventStre
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream::InputEventStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

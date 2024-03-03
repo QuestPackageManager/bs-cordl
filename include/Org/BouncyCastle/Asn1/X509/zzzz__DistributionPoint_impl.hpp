@@ -272,5 +272,3 @@ inline void Org::BouncyCastle::Asn1::X509::DistributionPoint::appendObject(::Sys
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPoint::DistributionPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

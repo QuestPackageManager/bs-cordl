@@ -292,5 +292,3 @@ inline void GlobalNamespace::ColorSaturationValueSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSaturationValueSlider::ColorSaturationValueSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

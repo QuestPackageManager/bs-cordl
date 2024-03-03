@@ -1498,5 +1498,3 @@ inline void UnityEngine::UI::Selectable::Select() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Selectable::Selectable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -59,5 +59,3 @@ template <typename TItem, typename TPriority> inline int32_t Priority_Queue::IPr
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

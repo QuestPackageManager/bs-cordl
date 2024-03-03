@@ -38,5 +38,3 @@ inline void Oculus::Platform::Models::PartyID::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PartyID::PartyID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

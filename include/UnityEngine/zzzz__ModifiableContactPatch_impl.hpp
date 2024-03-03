@@ -39,5 +39,3 @@ constexpr ::UnityEngine::ModifiableContactPatch::ModifiableContactPatch(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ModifiableContactPatch::ModifiableContactPatch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

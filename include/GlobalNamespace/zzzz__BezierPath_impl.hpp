@@ -572,5 +572,3 @@ inline void GlobalNamespace::BezierPath::NotifyPathModified() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BezierPath::BezierPath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

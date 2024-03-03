@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Playables::PlayableTraversalMode::PlayableTraversalMode
 constexpr ::UnityEngine::Playables::PlayableTraversalMode::PlayableTraversalMode() {}
 constexpr ::UnityEngine::Playables::PlayableTraversalMode UnityEngine::Playables::PlayableTraversalMode::Mix{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Playables::PlayableTraversalMode UnityEngine::Playables::PlayableTraversalMode::Passthrough{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

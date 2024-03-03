@@ -330,5 +330,3 @@ inline ::System::Object* System::IConvertible::ToType(::System::Type* conversion
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IConvertible*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, conversionType, provider);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -57,5 +57,3 @@ inline void HoudiniEngineUnity::ReverseCompare::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::ReverseCompare::ReverseCompare() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

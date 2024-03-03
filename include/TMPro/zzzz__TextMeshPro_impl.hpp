@@ -1823,5 +1823,3 @@ inline void TMPro::TextMeshPro::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TextMeshPro::TextMeshPro() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

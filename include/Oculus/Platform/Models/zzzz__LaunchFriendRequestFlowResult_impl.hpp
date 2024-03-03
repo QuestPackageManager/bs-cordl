@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::LaunchFriendRequestFlowResult::_ctor(void*
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LaunchFriendRequestFlowResult::LaunchFriendRequestFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

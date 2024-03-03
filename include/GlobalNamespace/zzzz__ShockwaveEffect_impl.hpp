@@ -115,5 +115,3 @@ inline void GlobalNamespace::ShockwaveEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShockwaveEffect::ShockwaveEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

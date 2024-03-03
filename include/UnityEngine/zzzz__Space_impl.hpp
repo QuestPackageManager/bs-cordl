@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Space::Space(int32_t value__) noexcept {
 constexpr ::UnityEngine::Space::Space() {}
 constexpr ::UnityEngine::Space UnityEngine::Space::World{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Space UnityEngine::Space::Self{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

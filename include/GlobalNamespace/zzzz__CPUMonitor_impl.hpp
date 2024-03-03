@@ -140,5 +140,3 @@ inline void GlobalNamespace::CPUMonitor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CPUMonitor::CPUMonitor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

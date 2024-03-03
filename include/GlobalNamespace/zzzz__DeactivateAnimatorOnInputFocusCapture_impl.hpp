@@ -139,5 +139,3 @@ inline void GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::DeactivateAnimatorOnInputFocusCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

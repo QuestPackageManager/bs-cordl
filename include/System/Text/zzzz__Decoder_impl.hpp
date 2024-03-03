@@ -310,5 +310,3 @@ inline void System::Text::Decoder::Convert(::cordl_internals::Ptr<uint8_t> bytes
 }
 // Ctor Parameters []
 constexpr ::System::Text::Decoder::Decoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

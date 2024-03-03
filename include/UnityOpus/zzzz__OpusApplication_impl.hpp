@@ -9,5 +9,3 @@ constexpr ::UnityOpus::OpusApplication::OpusApplication() {}
 constexpr ::UnityOpus::OpusApplication UnityOpus::OpusApplication::VoIP{ static_cast<int32_t>(0x800) };
 constexpr ::UnityOpus::OpusApplication UnityOpus::OpusApplication::Audio{ static_cast<int32_t>(0x801) };
 constexpr ::UnityOpus::OpusApplication UnityOpus::OpusApplication::RestrictedLowDelay{ static_cast<int32_t>(0x803) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

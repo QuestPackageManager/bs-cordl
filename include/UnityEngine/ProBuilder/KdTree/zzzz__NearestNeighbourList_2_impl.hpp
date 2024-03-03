@@ -116,5 +116,3 @@ template <typename TItem, typename TDistance> inline bool UnityEngine::ProBuilde
 }
 // Ctor Parameters []
 template <typename TItem, typename TDistance> constexpr ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::NearestNeighbourList_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

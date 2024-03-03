@@ -97,5 +97,3 @@ inline void UnityEngine::InputSystem::InputProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputProcessor::InputProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

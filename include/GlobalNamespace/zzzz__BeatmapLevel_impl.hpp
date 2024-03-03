@@ -623,5 +623,3 @@ GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__21_0(::System::ValueTuple_2<::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevel::BeatmapLevel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

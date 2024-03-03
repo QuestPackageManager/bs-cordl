@@ -610,5 +610,3 @@ inline bool GlobalNamespace::AppInit::_InitializeAsync_b__13_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInit::AppInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

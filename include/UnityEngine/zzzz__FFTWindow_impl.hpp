@@ -12,5 +12,3 @@ constexpr ::UnityEngine::FFTWindow UnityEngine::FFTWindow::Hamming{ static_cast<
 constexpr ::UnityEngine::FFTWindow UnityEngine::FFTWindow::Hanning{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::FFTWindow UnityEngine::FFTWindow::Blackman{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::FFTWindow UnityEngine::FFTWindow::BlackmanHarris{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

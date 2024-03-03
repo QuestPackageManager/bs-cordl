@@ -522,5 +522,3 @@ inline uint32_t Org::BouncyCastle::Crypto::Engines::Cast5Engine::IntsTo32bits(::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::Cast5Engine::Cast5Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -680,5 +680,3 @@ inline void ENet::Host::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::ENet::Host::Host() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

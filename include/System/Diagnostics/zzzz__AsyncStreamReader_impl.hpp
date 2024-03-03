@@ -173,5 +173,3 @@ inline void System::Diagnostics::AsyncStreamReader::CancelOperation() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::AsyncStreamReader::AsyncStreamReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

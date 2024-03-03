@@ -156,5 +156,3 @@ inline ::System::TypeIdentifier* System::TypeIdentifiers::FromDisplay(::StringW 
 }
 // Ctor Parameters []
 constexpr ::System::TypeIdentifiers::TypeIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

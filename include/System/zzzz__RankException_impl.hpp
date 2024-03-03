@@ -75,5 +75,3 @@ inline void System::RankException::_ctor(::System::Runtime::Serialization::Seria
 }
 // Ctor Parameters []
 constexpr ::System::RankException::RankException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

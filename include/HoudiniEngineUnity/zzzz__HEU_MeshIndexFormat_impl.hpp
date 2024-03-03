@@ -80,5 +80,3 @@ inline void HoudiniEngineUnity::HEU_MeshIndexFormat::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat::HEU_MeshIndexFormat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

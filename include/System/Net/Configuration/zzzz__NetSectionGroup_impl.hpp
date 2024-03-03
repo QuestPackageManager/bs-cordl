@@ -24,5 +24,3 @@ inline void System::Net::Configuration::NetSectionGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::NetSectionGroup::NetSectionGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

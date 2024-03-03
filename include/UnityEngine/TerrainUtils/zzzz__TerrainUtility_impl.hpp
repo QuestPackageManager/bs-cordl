@@ -194,5 +194,3 @@ inline void UnityEngine::TerrainUtils::TerrainUtility::AutoConnect() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainUtils::TerrainUtility::TerrainUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

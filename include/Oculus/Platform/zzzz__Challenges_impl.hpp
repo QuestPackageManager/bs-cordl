@@ -345,5 +345,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Challenge*>* Oc
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Challenges::Challenges() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

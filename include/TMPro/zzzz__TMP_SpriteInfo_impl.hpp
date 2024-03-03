@@ -9,5 +9,3 @@ constexpr ::TMPro::TMP_SpriteInfo::TMP_SpriteInfo(int32_t spriteIndex, int32_t c
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteInfo::TMP_SpriteInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

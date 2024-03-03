@@ -22,5 +22,3 @@ constexpr ::System::AttributeTargets System::AttributeTargets::Delegate{ static_
 constexpr ::System::AttributeTargets System::AttributeTargets::ReturnValue{ static_cast<int32_t>(0x2000) };
 constexpr ::System::AttributeTargets System::AttributeTargets::GenericParameter{ static_cast<int32_t>(0x4000) };
 constexpr ::System::AttributeTargets System::AttributeTargets::All{ static_cast<int32_t>(0x7fff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

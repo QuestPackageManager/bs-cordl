@@ -596,5 +596,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer::InputEventBuff
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer::InputEventBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

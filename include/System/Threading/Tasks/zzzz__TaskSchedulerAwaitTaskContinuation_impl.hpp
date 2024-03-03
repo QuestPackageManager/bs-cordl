@@ -138,5 +138,3 @@ inline void System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::Run(::
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::TaskSchedulerAwaitTaskContinuation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -250,5 +250,3 @@ inline void GlobalNamespace::BloomPrePassNonLightPass::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassNonLightPass::BloomPrePassNonLightPass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

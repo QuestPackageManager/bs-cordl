@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyTitleAttribute::_ctor(::StringW title) {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyTitleAttribute::AssemblyTitleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

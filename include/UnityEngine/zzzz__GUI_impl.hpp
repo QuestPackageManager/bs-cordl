@@ -733,5 +733,3 @@ inline void UnityEngine::GUI::set_contentColor_Injected(ByRef<::UnityEngine::Col
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUI::GUI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

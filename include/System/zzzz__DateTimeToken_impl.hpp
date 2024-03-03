@@ -13,5 +13,3 @@ constexpr ::System::DateTimeToken::DateTimeToken(::System::__DateTimeParse__DTT 
 }
 // Ctor Parameters []
 constexpr ::System::DateTimeToken::DateTimeToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

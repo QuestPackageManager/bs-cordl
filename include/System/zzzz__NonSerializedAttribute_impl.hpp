@@ -24,5 +24,3 @@ inline void System::NonSerializedAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::NonSerializedAttribute::NonSerializedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

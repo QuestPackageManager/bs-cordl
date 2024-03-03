@@ -1139,5 +1139,3 @@ constexpr ::System::__Guid__GuidResult::__Guid__GuidResult(::System::Guid _parse
 }
 // Ctor Parameters []
 constexpr ::System::__Guid__GuidResult::__Guid__GuidResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

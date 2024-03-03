@@ -215,5 +215,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::Evidence* Org::BouncyCastle::Asn1::Cms::T
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser::TimeStampedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

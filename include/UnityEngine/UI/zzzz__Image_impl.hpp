@@ -1768,5 +1768,3 @@ inline void UnityEngine::UI::Image::OnDidApplyAnimationProperties() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Image::Image() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

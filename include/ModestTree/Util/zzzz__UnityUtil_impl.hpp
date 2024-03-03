@@ -2056,5 +2056,3 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject
 }
 // Ctor Parameters []
 constexpr ::ModestTree::Util::UnityUtil::UnityUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

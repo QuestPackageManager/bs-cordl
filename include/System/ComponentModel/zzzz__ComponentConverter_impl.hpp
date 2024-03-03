@@ -75,5 +75,3 @@ inline bool System::ComponentModel::ComponentConverter::GetPropertiesSupported(:
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ComponentConverter::ComponentConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

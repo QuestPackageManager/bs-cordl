@@ -315,5 +315,3 @@ inline void UnityEngine::AddressableAssets::CheckCatalogsOperation::Execute() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::CheckCatalogsOperation::CheckCatalogsOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

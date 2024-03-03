@@ -14,5 +14,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509ContentType Sy
 constexpr ::System::Security::Cryptography::X509Certificates::X509ContentType System::Security::Cryptography::X509Certificates::X509ContentType::SerializedStore{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509ContentType System::Security::Cryptography::X509Certificates::X509ContentType::Pkcs7{ static_cast<int32_t>(0x5) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509ContentType System::Security::Cryptography::X509Certificates::X509ContentType::Authenticode{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

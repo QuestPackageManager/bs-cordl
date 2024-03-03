@@ -416,5 +416,3 @@ constexpr ::GlobalNamespace::__OVRSpaceQuery__Options::__OVRSpaceQuery__Options(
 constexpr ::GlobalNamespace::__OVRSpaceQuery__Options::__OVRSpaceQuery__Options() {}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSpaceQuery::OVRSpaceQuery() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

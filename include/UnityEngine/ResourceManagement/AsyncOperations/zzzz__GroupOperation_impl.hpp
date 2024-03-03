@@ -524,5 +524,3 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::On
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

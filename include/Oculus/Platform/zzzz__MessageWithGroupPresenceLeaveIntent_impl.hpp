@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* Oculus::Platform::M
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::MessageWithGroupPresenceLeaveIntent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

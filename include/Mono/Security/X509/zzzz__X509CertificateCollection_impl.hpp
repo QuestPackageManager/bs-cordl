@@ -382,5 +382,3 @@ inline bool Mono::Security::X509::X509CertificateCollection::Compare(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509CertificateCollection::X509CertificateCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

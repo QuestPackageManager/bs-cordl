@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::UIR::Alloc::Alloc(uint32_t start, uint32_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Alloc::Alloc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

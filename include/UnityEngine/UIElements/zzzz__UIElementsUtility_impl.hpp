@@ -516,5 +516,3 @@ inline float_t UnityEngine::UIElements::UIElementsUtility::PixelsPerUnitScaleFor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIElementsUtility::UIElementsUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

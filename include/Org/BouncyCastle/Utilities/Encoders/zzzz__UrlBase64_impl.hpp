@@ -166,5 +166,3 @@ inline void Org::BouncyCastle::Utilities::Encoders::UrlBase64::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::UrlBase64::UrlBase64() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

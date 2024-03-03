@@ -588,5 +588,3 @@ inline void Org::BouncyCastle::Math::EC::Abc::Tnaf::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Abc::Tnaf::Tnaf() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

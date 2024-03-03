@@ -365,5 +365,3 @@ constexpr ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTween(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::CoroutineTween::ColorTween::ColorTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

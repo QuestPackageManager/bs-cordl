@@ -296,5 +296,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::FourCC::FourCC(int32_t m_Code) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::FourCC::FourCC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

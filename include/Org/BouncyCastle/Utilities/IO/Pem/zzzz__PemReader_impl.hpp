@@ -100,5 +100,3 @@ inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Org::BouncyCastle::Ut
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemReader::PemReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

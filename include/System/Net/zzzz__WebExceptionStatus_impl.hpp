@@ -27,5 +27,3 @@ constexpr ::System::Net::WebExceptionStatus System::Net::WebExceptionStatus::Mes
 constexpr ::System::Net::WebExceptionStatus System::Net::WebExceptionStatus::CacheEntryNotFound{ static_cast<int32_t>(0x12) };
 constexpr ::System::Net::WebExceptionStatus System::Net::WebExceptionStatus::RequestProhibitedByCachePolicy{ static_cast<int32_t>(0x13) };
 constexpr ::System::Net::WebExceptionStatus System::Net::WebExceptionStatus::RequestProhibitedByProxy{ static_cast<int32_t>(0x14) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

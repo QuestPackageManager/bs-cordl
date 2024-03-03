@@ -46,5 +46,3 @@ inline void GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DistanceObjectiveValueFormatterSO::DistanceObjectiveValueFormatterSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

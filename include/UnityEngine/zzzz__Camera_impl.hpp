@@ -5212,5 +5212,3 @@ inline void UnityEngine::Camera::SetStereoViewMatrix_Injected(::UnityEngine::__C
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Camera::Camera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

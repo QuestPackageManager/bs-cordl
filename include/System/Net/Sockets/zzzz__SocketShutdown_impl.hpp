@@ -9,5 +9,3 @@ constexpr ::System::Net::Sockets::SocketShutdown::SocketShutdown() {}
 constexpr ::System::Net::Sockets::SocketShutdown System::Net::Sockets::SocketShutdown::Receive{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Sockets::SocketShutdown System::Net::Sockets::SocketShutdown::Send{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Sockets::SocketShutdown System::Net::Sockets::SocketShutdown::Both{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

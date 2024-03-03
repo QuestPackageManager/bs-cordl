@@ -382,5 +382,3 @@ inline void UnityEngine::UIElements::__Foldout__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Foldout__UxmlFactory::__Foldout__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

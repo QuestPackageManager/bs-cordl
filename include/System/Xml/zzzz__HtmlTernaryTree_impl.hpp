@@ -17,5 +17,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Xml::HtmlTernaryTree::getSta
 }
 // Ctor Parameters []
 constexpr ::System::Xml::HtmlTernaryTree::HtmlTernaryTree() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -156,5 +156,3 @@ inline void GlobalNamespace::ColorSchemeTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeTableCell::ColorSchemeTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

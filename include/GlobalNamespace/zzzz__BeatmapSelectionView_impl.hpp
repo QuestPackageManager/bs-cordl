@@ -84,5 +84,3 @@ inline void GlobalNamespace::BeatmapSelectionView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapSelectionView::BeatmapSelectionView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

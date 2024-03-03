@@ -469,5 +469,3 @@ inline void GlobalNamespace::UnityXRController::ResetManufacturerName() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityXRController::UnityXRController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

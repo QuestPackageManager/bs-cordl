@@ -167,5 +167,3 @@ inline bool System::Security::Cryptography::TripleDES::IsLegalKeySize(::ArrayW<u
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::TripleDES::TripleDES() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

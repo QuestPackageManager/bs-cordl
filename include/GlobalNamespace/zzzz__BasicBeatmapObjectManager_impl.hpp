@@ -430,5 +430,3 @@ inline void GlobalNamespace::BasicBeatmapObjectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicBeatmapObjectManager::BasicBeatmapObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -89,5 +89,3 @@ constexpr ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TR
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult>::ConfiguredValueTaskAwaitable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

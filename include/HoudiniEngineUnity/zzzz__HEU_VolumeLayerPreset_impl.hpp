@@ -72,5 +72,3 @@ inline void HoudiniEngineUnity::HEU_VolumeLayerPreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VolumeLayerPreset::HEU_VolumeLayerPreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

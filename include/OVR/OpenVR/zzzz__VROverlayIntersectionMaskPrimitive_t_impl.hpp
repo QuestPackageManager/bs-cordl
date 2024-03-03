@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t::VROverlayIntersec
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t::VROverlayIntersectionMaskPrimitive_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

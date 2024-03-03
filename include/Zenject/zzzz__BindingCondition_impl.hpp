@@ -88,5 +88,3 @@ inline bool Zenject::BindingCondition::EndInvoke(::System::IAsyncResult* result)
 }
 // Ctor Parameters []
 constexpr ::Zenject::BindingCondition::BindingCondition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

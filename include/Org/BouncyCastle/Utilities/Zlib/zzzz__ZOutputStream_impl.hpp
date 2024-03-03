@@ -651,5 +651,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::ZOutputStream::WriteByte(uint8_t
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream::ZOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

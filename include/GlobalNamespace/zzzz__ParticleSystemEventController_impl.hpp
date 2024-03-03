@@ -267,5 +267,3 @@ inline void GlobalNamespace::__ParticleSystemEventController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__ParticleSystemEventController__Pool::__ParticleSystemEventController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

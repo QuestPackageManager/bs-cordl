@@ -623,5 +623,3 @@ inline void UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute::_cto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute::InputControlLayoutAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

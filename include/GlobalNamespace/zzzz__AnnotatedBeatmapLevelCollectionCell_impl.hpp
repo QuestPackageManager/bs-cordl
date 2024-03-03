@@ -526,5 +526,3 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::AnnotatedBeatmapLevelCollectionCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

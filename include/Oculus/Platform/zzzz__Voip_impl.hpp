@@ -311,5 +311,3 @@ inline void Oculus::Platform::Voip::SetSystemVoipStateNotificationCallback(::Ocu
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Voip::Voip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

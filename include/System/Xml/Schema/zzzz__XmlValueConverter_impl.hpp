@@ -1181,5 +1181,3 @@ inline void System::Xml::Schema::XmlValueConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlValueConverter::XmlValueConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

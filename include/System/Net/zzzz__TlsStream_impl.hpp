@@ -280,5 +280,3 @@ inline void System::Net::TlsStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::TlsStream::TlsStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

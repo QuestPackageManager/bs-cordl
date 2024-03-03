@@ -152,5 +152,3 @@ inline void UnityEngine::UIElements::PropagationPaths::Release() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PropagationPaths::PropagationPaths() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

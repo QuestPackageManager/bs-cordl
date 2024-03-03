@@ -731,5 +731,3 @@ inline void GlobalNamespace::BeatmapObjectSpawnController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectSpawnController::BeatmapObjectSpawnController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -127,5 +127,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Misc::Ide
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::IdeaCbcPar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

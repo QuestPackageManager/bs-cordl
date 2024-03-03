@@ -96,5 +96,3 @@ inline void GlobalNamespace::ClientCertificateValidator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ClientCertificateValidator::ClientCertificateValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

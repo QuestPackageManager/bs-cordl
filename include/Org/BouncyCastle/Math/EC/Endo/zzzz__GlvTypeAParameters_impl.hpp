@@ -140,5 +140,3 @@ inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* Org::BouncyCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::GlvTypeAParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

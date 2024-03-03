@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::AmbientMode UnityEngine::Rendering::AmbientM
 constexpr ::UnityEngine::Rendering::AmbientMode UnityEngine::Rendering::AmbientMode::Trilight{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::AmbientMode UnityEngine::Rendering::AmbientMode::Flat{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::AmbientMode UnityEngine::Rendering::AmbientMode::Custom{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

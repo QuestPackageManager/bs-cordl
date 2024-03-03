@@ -115,5 +115,3 @@ inline int32_t GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicMockPlayerScoreCalculator::BasicMockPlayerScoreCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

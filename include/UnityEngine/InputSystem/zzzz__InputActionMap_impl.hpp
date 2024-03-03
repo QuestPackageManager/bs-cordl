@@ -1961,5 +1961,3 @@ inline void UnityEngine::InputSystem::InputActionMap::OnAfterDeserialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionMap::InputActionMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

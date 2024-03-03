@@ -103,5 +103,3 @@ inline uint64_t OVR::OpenVR::CVRDriverManager::GetDriverHandle(::StringW pchDriv
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRDriverManager::CVRDriverManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

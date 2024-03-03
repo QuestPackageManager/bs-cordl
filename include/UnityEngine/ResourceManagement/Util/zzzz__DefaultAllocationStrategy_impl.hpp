@@ -81,5 +81,3 @@ inline void UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::_c
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::DefaultAllocationStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

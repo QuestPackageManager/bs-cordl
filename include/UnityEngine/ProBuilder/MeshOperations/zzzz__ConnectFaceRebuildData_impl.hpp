@@ -60,5 +60,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::_ct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::ConnectFaceRebuildData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ParticleSystemCustomData::ParticleSystemCustomData(int3
 constexpr ::UnityEngine::ParticleSystemCustomData::ParticleSystemCustomData() {}
 constexpr ::UnityEngine::ParticleSystemCustomData UnityEngine::ParticleSystemCustomData::Custom1{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemCustomData UnityEngine::ParticleSystemCustomData::Custom2{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -46,5 +46,3 @@ inline void UnityEngine::UI::BaseVertexEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::BaseVertexEffect::BaseVertexEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

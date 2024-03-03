@@ -24,5 +24,3 @@ inline void System::ContextBoundObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ContextBoundObject::ContextBoundObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

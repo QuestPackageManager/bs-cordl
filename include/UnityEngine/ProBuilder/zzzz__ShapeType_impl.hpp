@@ -19,5 +19,3 @@ constexpr ::UnityEngine::ProBuilder::ShapeType UnityEngine::ProBuilder::ShapeTyp
 constexpr ::UnityEngine::ProBuilder::ShapeType UnityEngine::ProBuilder::ShapeType::Arch{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::ProBuilder::ShapeType UnityEngine::ProBuilder::ShapeType::Sphere{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::ProBuilder::ShapeType UnityEngine::ProBuilder::ShapeType::Torus{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

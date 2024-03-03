@@ -893,5 +893,3 @@ inline void System::Text::RegularExpressions::RegexInterpreter::Go() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexInterpreter::RegexInterpreter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

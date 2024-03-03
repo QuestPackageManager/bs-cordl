@@ -651,5 +651,3 @@ inline bool System::Attribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::Attribute::Attribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

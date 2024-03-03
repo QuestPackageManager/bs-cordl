@@ -124,5 +124,3 @@ inline ::System::Object* System::Net::NclUtilities::get_LocalAddressesLock() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NclUtilities::NclUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

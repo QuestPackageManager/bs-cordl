@@ -125,5 +125,3 @@ inline ::System::Object* System::ComponentModel::Design::Serialization::RootDesi
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::RootDesignerSerializerAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

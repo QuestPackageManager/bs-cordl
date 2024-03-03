@@ -209,5 +209,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

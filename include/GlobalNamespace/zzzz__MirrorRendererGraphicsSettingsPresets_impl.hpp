@@ -225,5 +225,3 @@ inline void GlobalNamespace::MirrorRendererGraphicsSettingsPresets::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::MirrorRendererGraphicsSettingsPresets() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

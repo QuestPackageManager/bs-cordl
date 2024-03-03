@@ -212,5 +212,3 @@ inline int32_t Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::Genera
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator::HkdfBytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

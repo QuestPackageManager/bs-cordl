@@ -62,5 +62,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::IBasicA
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::IBasicAgreement*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method, pubKey);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

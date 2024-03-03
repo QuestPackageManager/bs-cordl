@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyCopyrightAttribute::_ctor(::StringW copy
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyCopyrightAttribute::AssemblyCopyrightAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

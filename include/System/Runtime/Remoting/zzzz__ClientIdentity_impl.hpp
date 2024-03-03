@@ -124,5 +124,3 @@ inline ::StringW System::Runtime::Remoting::ClientIdentity::get_TargetUri() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ClientIdentity::ClientIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

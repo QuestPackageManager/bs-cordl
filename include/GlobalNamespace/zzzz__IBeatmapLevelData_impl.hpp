@@ -141,5 +141,3 @@ inline ::StringW GlobalNamespace::IBeatmapLevelData::GetBeatmapChecksum(ByRef<::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLevelData*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, beatmapKey);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -120,5 +120,3 @@ inline void UnityEngine::UIElements::VisualElementFactoryRegistry::RegisterUserF
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFactoryRegistry::VisualElementFactoryRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

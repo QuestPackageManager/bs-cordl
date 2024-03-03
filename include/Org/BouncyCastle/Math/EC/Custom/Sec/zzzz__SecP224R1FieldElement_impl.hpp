@@ -666,5 +666,3 @@ inline bool Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::Try
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::SecP224R1FieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

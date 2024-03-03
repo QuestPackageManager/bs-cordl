@@ -100,5 +100,3 @@ inline void GlobalNamespace::UnityLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityLightWithId::UnityLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

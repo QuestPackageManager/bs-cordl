@@ -54,5 +54,3 @@ inline void GlobalNamespace::SelectSubMenuDestination::_ctor(::GlobalNamespace::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectSubMenuDestination::SelectSubMenuDestination() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

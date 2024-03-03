@@ -24,5 +24,3 @@ constexpr ::BeatmapSaveDataVersion4::LightRotationEventBox::LightRotationEventBo
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightRotationEventBox::LightRotationEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

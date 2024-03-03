@@ -524,5 +524,3 @@ inline void UnityEngine::Component::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Component::Component() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

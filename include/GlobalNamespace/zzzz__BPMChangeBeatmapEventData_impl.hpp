@@ -81,5 +81,3 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::BPMChangeBeatmapEve
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BPMChangeBeatmapEventData::BPMChangeBeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

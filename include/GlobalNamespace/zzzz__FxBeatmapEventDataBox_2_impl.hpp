@@ -81,5 +81,3 @@ inline TOut GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::CreateVfxBeatma
 }
 // Ctor Parameters []
 template <typename TIn, typename TOut> constexpr ::GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::FxBeatmapEventDataBox_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

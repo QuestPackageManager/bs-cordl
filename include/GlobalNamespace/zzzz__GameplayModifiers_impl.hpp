@@ -801,5 +801,3 @@ inline bool GlobalNamespace::GameplayModifiers::AreValuesEqual(::GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiers::GameplayModifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

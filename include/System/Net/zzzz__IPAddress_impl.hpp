@@ -700,5 +700,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Net::IPAddress::ThrowAddress
 }
 // Ctor Parameters []
 constexpr ::System::Net::IPAddress::IPAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

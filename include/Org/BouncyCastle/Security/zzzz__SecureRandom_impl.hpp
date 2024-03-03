@@ -465,5 +465,3 @@ inline int64_t Org::BouncyCastle::Security::SecureRandom::NextLong() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::SecureRandom::SecureRandom() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

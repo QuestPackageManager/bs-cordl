@@ -155,5 +155,3 @@ inline bool System::Security::Principal::IdentityReference::op_Equality(::System
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::IdentityReference::IdentityReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

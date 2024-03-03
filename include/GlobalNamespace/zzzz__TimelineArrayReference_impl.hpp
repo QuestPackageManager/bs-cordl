@@ -121,5 +121,3 @@ inline void GlobalNamespace::TimelineArrayReference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimelineArrayReference::TimelineArrayReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

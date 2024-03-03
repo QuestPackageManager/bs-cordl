@@ -9,5 +9,3 @@ constexpr ::UnityEngine::CullingGroupEvent::CullingGroupEvent(int32_t m_Index, u
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CullingGroupEvent::CullingGroupEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

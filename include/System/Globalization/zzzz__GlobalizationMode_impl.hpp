@@ -46,5 +46,3 @@ inline bool System::Globalization::GlobalizationMode::GetGlobalizationInvariantM
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::GlobalizationMode::GlobalizationMode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

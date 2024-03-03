@@ -1065,5 +1065,3 @@ inline bool System::Security::Cryptography::X509Certificates::X509ChainImplMono:
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImplMono::X509ChainImplMono() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

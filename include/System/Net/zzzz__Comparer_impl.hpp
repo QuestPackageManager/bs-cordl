@@ -57,5 +57,3 @@ inline void System::Net::Comparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Comparer::Comparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

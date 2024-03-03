@@ -404,5 +404,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamG
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator::CmsAuthenticatedDataStreamGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

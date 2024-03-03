@@ -500,5 +500,3 @@ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::ToSubpacketArray(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::PgpSignatureSubpacketVector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

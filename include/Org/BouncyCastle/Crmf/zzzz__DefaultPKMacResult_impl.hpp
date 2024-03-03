@@ -91,5 +91,3 @@ inline int32_t Org::BouncyCastle::Crmf::DefaultPKMacResult::Collect(::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::DefaultPKMacResult::DefaultPKMacResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

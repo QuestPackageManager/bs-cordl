@@ -131,5 +131,3 @@ inline bool UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::AdvancingFrontNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

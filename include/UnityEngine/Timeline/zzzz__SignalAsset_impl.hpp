@@ -94,5 +94,3 @@ inline void UnityEngine::Timeline::SignalAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SignalAsset::SignalAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

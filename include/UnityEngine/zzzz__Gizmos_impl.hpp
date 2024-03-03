@@ -329,5 +329,3 @@ inline void UnityEngine::Gizmos::set_matrix_Injected(ByRef<::UnityEngine::Matrix
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Gizmos::Gizmos() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

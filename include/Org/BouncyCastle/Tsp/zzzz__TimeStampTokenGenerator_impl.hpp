@@ -411,5 +411,3 @@ inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeSta
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator::TimeStampTokenGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

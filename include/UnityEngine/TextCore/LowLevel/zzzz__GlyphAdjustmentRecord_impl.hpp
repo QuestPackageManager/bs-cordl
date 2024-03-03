@@ -124,5 +124,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::GlyphAdjustm
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::GlyphAdjustmentRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

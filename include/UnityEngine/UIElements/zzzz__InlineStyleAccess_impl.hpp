@@ -1765,5 +1765,3 @@ inline void UnityEngine::UIElements::InlineStyleAccess::UnityEngine_UIElements_I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InlineStyleAccess::InlineStyleAccess() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

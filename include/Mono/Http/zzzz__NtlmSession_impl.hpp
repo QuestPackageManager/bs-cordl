@@ -65,5 +65,3 @@ inline ::System::Net::Authorization* Mono::Http::NtlmSession::Authenticate(::Str
 }
 // Ctor Parameters []
 constexpr ::Mono::Http::NtlmSession::NtlmSession() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

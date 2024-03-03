@@ -87,5 +87,3 @@ inline uint64_t ENet::ChecksumCallback::EndInvoke(::System::IAsyncResult* result
 }
 // Ctor Parameters []
 constexpr ::ENet::ChecksumCallback::ChecksumCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

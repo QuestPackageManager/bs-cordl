@@ -27,5 +27,3 @@ System::Runtime::Serialization::ISurrogateSelector::GetSurrogate(::System::Type*
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ISurrogateSelector*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ISerializationSurrogate*, false>(this, ___internal_method, type, context, selector);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

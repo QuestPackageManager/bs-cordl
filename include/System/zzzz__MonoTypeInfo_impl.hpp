@@ -49,5 +49,3 @@ inline void System::MonoTypeInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::MonoTypeInfo::MonoTypeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

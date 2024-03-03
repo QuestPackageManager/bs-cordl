@@ -179,5 +179,3 @@ inline void GlobalNamespace::CachedMediaAsyncLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CachedMediaAsyncLoader::CachedMediaAsyncLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

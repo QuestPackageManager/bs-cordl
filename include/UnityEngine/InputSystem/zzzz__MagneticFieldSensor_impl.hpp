@@ -191,5 +191,3 @@ inline void UnityEngine::InputSystem::MagneticFieldSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::MagneticFieldSensor::MagneticFieldSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

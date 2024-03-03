@@ -26,5 +26,3 @@ inline void GlobalNamespace::ColorBoostBeatmapEventDataProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorBoostBeatmapEventDataProcessor::ColorBoostBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

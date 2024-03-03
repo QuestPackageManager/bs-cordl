@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/zzzz__TouchScreenKeyboard_InternalConstructorHelperArguments_impl.hpp"
+#endif

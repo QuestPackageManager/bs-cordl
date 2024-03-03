@@ -150,5 +150,3 @@ inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Dig
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::Gost3411_2012_256Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

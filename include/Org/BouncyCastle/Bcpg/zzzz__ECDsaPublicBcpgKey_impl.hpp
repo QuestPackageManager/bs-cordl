@@ -85,5 +85,3 @@ inline void Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey::_ctor(::Org::BouncyCast
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey::ECDsaPublicBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

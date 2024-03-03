@@ -128,5 +128,3 @@ inline void Newtonsoft::Json::Bson::BsonString::_ctor(::System::Object* value, b
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonString::BsonString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

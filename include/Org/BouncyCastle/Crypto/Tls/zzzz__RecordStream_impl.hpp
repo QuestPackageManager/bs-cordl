@@ -921,5 +921,3 @@ inline void Org::BouncyCastle::Crypto::Tls::RecordStream::CheckLength(int32_t le
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream::RecordStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

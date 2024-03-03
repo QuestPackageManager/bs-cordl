@@ -300,5 +300,3 @@ inline ::StringW Org::BouncyCastle::Pkix::TrustAnchor::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::TrustAnchor::TrustAnchor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

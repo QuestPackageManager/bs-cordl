@@ -886,5 +886,3 @@ inline void System::Xml::Schema::SchemaEntity::set_DeclaredURI(::StringW value) 
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaEntity::SchemaEntity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

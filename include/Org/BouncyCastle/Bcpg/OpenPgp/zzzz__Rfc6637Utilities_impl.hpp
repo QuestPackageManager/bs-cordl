@@ -175,5 +175,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::OpenPgp::Rf
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities::Rfc6637Utilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

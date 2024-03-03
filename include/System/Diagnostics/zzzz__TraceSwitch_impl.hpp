@@ -26,5 +26,3 @@ inline void System::Diagnostics::TraceSwitch::_ctor(::StringW displayName, ::Str
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceSwitch::TraceSwitch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

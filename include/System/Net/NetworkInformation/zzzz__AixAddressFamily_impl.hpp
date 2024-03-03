@@ -9,5 +9,3 @@ constexpr ::System::Net::NetworkInformation::AixAddressFamily::AixAddressFamily(
 constexpr ::System::Net::NetworkInformation::AixAddressFamily System::Net::NetworkInformation::AixAddressFamily::AF_INET{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::NetworkInformation::AixAddressFamily System::Net::NetworkInformation::AixAddressFamily::AF_INET6{ static_cast<int32_t>(0x18) };
 constexpr ::System::Net::NetworkInformation::AixAddressFamily System::Net::NetworkInformation::AixAddressFamily::AF_LINK{ static_cast<int32_t>(0x12) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

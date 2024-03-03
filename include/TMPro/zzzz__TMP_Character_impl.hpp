@@ -101,5 +101,3 @@ inline void TMPro::TMP_Character::_ctor(uint32_t unicode, uint32_t glyphIndex) {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Character::TMP_Character() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

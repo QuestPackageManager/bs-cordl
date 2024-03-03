@@ -124,5 +124,3 @@ inline bool GlobalNamespace::ConnectedPlayerHelpers::IsFailed(::GlobalNamespace:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectedPlayerHelpers::ConnectedPlayerHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

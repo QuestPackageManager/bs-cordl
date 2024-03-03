@@ -2059,5 +2059,3 @@ inline void UnityEngine::ConfigurableJoint::set_slerpDrive_Injected(ByRef<::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ConfigurableJoint::ConfigurableJoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

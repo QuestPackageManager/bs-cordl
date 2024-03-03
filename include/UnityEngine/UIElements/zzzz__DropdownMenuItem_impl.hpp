@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::DropdownMenuItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownMenuItem::DropdownMenuItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

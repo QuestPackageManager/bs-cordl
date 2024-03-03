@@ -167,5 +167,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Cms::CmsCompresse
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsCompressedData::CmsCompressedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

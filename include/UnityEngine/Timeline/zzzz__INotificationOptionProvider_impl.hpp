@@ -22,5 +22,3 @@ inline ::UnityEngine::Timeline::NotificationFlags UnityEngine::Timeline::INotifi
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::INotificationOptionProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::NotificationFlags, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

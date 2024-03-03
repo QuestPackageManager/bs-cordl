@@ -47,5 +47,3 @@ inline int64_t UnityEngine::UIElements::TimeMsFunction::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimeMsFunction::TimeMsFunction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

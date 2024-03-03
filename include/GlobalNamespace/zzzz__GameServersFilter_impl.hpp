@@ -135,5 +135,3 @@ inline void GlobalNamespace::GameServersFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServersFilter::GameServersFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

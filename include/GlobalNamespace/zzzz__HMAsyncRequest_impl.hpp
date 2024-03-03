@@ -220,5 +220,3 @@ inline void GlobalNamespace::HMAsyncRequest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HMAsyncRequest::HMAsyncRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -206,5 +206,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData::Process
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData::PgpPublicKeyEncryptedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

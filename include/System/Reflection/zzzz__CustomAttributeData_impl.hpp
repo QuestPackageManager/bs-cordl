@@ -539,5 +539,3 @@ inline int32_t System::Reflection::CustomAttributeData::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::CustomAttributeData::CustomAttributeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void System::Diagnostics::ConditionalAttribute::_ctor(::StringW condition
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::ConditionalAttribute::ConditionalAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -19,5 +19,3 @@ constexpr ::System::Security::Cryptography::DSAParameters::DSAParameters(::Array
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DSAParameters::DSAParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

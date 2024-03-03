@@ -67,5 +67,3 @@ inline void GlobalNamespace::ConfigSerializer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConfigSerializer::ConfigSerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

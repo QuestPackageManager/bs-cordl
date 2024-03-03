@@ -320,5 +320,3 @@ inline void GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::PlayerLobbyPermissionConfigurationNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

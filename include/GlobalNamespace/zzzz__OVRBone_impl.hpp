@@ -206,5 +206,3 @@ inline void GlobalNamespace::OVRBone::_ctor(::GlobalNamespace::__OVRSkeleton__Bo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBone::OVRBone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -281,5 +281,3 @@ inline ::System::Exception* System::Xml::Schema::XmlListConverter::CreateInvalid
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlListConverter::XmlListConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -193,5 +193,3 @@ inline void GlobalNamespace::SonyBackgroundExecutionHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper::SonyBackgroundExecutionHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

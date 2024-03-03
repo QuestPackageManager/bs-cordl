@@ -240,5 +240,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Revo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::RevocationValues::RevocationValues() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -22,5 +22,3 @@ template <typename T> inline bool System::Buffers::MemoryManager_1<T>::TryGetArr
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::MemoryManager_1<T>::MemoryManager_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

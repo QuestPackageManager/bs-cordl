@@ -161,5 +161,3 @@ inline ::System::Net::KnownHttpVerb* System::Net::KnownHttpVerb::Parse(::StringW
 }
 // Ctor Parameters []
 constexpr ::System::Net::KnownHttpVerb::KnownHttpVerb() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

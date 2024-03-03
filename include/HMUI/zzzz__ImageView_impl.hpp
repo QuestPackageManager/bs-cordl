@@ -899,5 +899,3 @@ inline void HMUI::ImageView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ImageView::ImageView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

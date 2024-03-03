@@ -79,5 +79,3 @@ constexpr ::UnityEngine::TextCore::Text::TextElementInfo::TextElementInfo(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextElementInfo::TextElementInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

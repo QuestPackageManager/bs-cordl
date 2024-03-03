@@ -839,5 +839,3 @@ inline void UnityEngine::Font::RequestCharactersInTexture(::StringW characters) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Font::Font() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::EChaperoneImportFlags::EChaperoneImportFlags(int32_t va
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::EChaperoneImportFlags::EChaperoneImportFlags() {}
 constexpr ::OVR::OpenVR::EChaperoneImportFlags OVR::OpenVR::EChaperoneImportFlags::EChaperoneImport_BoundsOnly{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

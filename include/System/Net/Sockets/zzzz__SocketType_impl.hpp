@@ -12,5 +12,3 @@ constexpr ::System::Net::Sockets::SocketType System::Net::Sockets::SocketType::R
 constexpr ::System::Net::Sockets::SocketType System::Net::Sockets::SocketType::Rdm{ static_cast<int32_t>(0x4) };
 constexpr ::System::Net::Sockets::SocketType System::Net::Sockets::SocketType::Seqpacket{ static_cast<int32_t>(0x5) };
 constexpr ::System::Net::Sockets::SocketType System::Net::Sockets::SocketType::Unknown{ static_cast<int32_t>(0xffffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

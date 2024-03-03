@@ -62,5 +62,3 @@ inline ::System::Net::IPAddress* System::Net::NetworkInformation::LinuxUnicastIP
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::LinuxUnicastIPAddressInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

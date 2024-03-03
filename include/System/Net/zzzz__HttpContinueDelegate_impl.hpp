@@ -49,5 +49,3 @@ inline void System::Net::HttpContinueDelegate::Invoke(int32_t StatusCode, ::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpContinueDelegate::HttpContinueDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

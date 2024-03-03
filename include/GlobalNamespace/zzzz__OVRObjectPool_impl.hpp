@@ -259,5 +259,3 @@ template <typename T> inline void GlobalNamespace::OVRObjectPool::Return(::Syste
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRObjectPool::OVRObjectPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

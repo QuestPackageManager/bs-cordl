@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Pkix::PkixCertPathBuilderException::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException::PkixCertPathBuilderException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

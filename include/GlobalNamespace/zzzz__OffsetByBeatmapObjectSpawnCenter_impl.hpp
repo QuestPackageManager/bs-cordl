@@ -78,5 +78,3 @@ inline void GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::OffsetByBeatmapObjectSpawnCenter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

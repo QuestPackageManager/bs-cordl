@@ -24,5 +24,3 @@ inline void GlobalNamespace::PSSortingLayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PSSortingLayer::PSSortingLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

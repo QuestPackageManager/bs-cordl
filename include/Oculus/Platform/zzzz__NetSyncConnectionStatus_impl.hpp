@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::NetSyncConnectionStatus Oculus::Platform::NetSyncC
 constexpr ::Oculus::Platform::NetSyncConnectionStatus Oculus::Platform::NetSyncConnectionStatus::Connecting{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::NetSyncConnectionStatus Oculus::Platform::NetSyncConnectionStatus::Disconnected{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::NetSyncConnectionStatus Oculus::Platform::NetSyncConnectionStatus::Connected{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

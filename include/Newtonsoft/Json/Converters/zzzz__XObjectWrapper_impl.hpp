@@ -269,5 +269,3 @@ inline ::StringW Newtonsoft::Json::Converters::XObjectWrapper::get_NamespaceUri(
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XObjectWrapper::XObjectWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

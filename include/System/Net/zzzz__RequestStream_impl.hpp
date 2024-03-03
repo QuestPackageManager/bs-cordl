@@ -472,5 +472,3 @@ inline void System::Net::RequestStream::EndWrite(::System::IAsyncResult* async_r
 }
 // Ctor Parameters []
 constexpr ::System::Net::RequestStream::RequestStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

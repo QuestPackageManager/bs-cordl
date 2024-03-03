@@ -153,5 +153,3 @@ inline void System::ComponentModel::WeakHashtable::Remove(::System::Object* key)
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::WeakHashtable::WeakHashtable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

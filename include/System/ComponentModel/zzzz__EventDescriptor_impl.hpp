@@ -30,5 +30,3 @@ inline void System::ComponentModel::EventDescriptor::_ctor(::StringW name, ::Arr
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EventDescriptor::EventDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

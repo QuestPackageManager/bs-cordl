@@ -818,5 +818,3 @@ inline ::System::Text::Encoding* System::Diagnostics::ProcessStartInfo::get_Stan
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::ProcessStartInfo::ProcessStartInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

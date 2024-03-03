@@ -133,5 +133,3 @@ template <typename T> constexpr ::UnityEngine::Playables::ScriptPlayable_1<T>::S
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Playables::ScriptPlayable_1<T>::ScriptPlayable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

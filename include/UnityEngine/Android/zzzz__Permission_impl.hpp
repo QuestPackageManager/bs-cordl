@@ -120,5 +120,3 @@ inline void UnityEngine::Android::Permission::RequestUserPermissions(::ArrayW<::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::Permission::Permission() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

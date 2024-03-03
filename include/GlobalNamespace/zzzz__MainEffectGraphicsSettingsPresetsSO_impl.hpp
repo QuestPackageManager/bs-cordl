@@ -126,5 +126,3 @@ inline void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::MainEffectGraphicsSettingsPresetsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

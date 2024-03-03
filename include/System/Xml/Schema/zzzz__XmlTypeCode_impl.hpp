@@ -61,5 +61,3 @@ constexpr ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::XmlTypeCode::U
 constexpr ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::XmlTypeCode::PositiveInteger{ static_cast<int32_t>(0x34) };
 constexpr ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::XmlTypeCode::YearMonthDuration{ static_cast<int32_t>(0x35) };
 constexpr ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::XmlTypeCode::DayTimeDuration{ static_cast<int32_t>(0x36) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

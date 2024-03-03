@@ -500,5 +500,3 @@ inline void GlobalNamespace::INetworkPlayer::SendInviteResponse(bool accept) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::INetworkPlayer*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, accept);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

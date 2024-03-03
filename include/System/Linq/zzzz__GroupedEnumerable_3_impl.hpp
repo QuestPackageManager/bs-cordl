@@ -124,5 +124,3 @@ inline ::System::Collections::IEnumerator* System::Linq::GroupedEnumerable_3<TSo
 }
 // Ctor Parameters []
 template <typename TSource, typename TKey, typename TElement> constexpr ::System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::GroupedEnumerable_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

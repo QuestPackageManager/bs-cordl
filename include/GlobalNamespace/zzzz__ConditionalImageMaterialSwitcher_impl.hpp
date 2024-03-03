@@ -95,5 +95,3 @@ inline void GlobalNamespace::ConditionalImageMaterialSwitcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConditionalImageMaterialSwitcher::ConditionalImageMaterialSwitcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

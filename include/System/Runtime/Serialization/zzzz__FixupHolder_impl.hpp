@@ -66,5 +66,3 @@ inline void System::Runtime::Serialization::FixupHolder::_ctor(int64_t id, ::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FixupHolder::FixupHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

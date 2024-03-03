@@ -202,5 +202,3 @@ inline void Unity::XR::Oculus::Input::OculusRemote::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Input::OculusRemote::OculusRemote() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

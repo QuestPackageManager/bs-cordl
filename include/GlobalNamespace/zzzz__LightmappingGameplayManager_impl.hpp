@@ -56,5 +56,3 @@ inline void GlobalNamespace::LightmappingGameplayManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightmappingGameplayManager::LightmappingGameplayManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

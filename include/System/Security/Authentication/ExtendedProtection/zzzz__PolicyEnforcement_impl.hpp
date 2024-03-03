@@ -9,5 +9,3 @@ constexpr ::System::Security::Authentication::ExtendedProtection::PolicyEnforcem
 constexpr ::System::Security::Authentication::ExtendedProtection::PolicyEnforcement System::Security::Authentication::ExtendedProtection::PolicyEnforcement::Never{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Authentication::ExtendedProtection::PolicyEnforcement System::Security::Authentication::ExtendedProtection::PolicyEnforcement::WhenSupported{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::Authentication::ExtendedProtection::PolicyEnforcement System::Security::Authentication::ExtendedProtection::PolicyEnforcement::Always{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

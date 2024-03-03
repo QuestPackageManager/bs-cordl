@@ -156,5 +156,3 @@ inline ::StringW System::TypeInitializationException::get_TypeName() {
 }
 // Ctor Parameters []
 constexpr ::System::TypeInitializationException::TypeInitializationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -219,5 +219,3 @@ inline void GlobalNamespace::ShowTextOnGameEventController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShowTextOnGameEventController::ShowTextOnGameEventController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

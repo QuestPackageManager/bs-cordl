@@ -32,5 +32,3 @@ Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism::DecomposeScalar(::Org::Bounc
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>, false>(this, ___internal_method, k);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -235,5 +235,3 @@ inline void GlobalNamespace::MockBeatmapDataAssetFileModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockBeatmapDataAssetFileModel::MockBeatmapDataAssetFileModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

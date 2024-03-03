@@ -8,5 +8,3 @@ constexpr ::BGLib::Polyglot::LanguageDirection::LanguageDirection(int32_t value_
 constexpr ::BGLib::Polyglot::LanguageDirection::LanguageDirection() {}
 constexpr ::BGLib::Polyglot::LanguageDirection BGLib::Polyglot::LanguageDirection::LeftToRight{ static_cast<int32_t>(0x0) };
 constexpr ::BGLib::Polyglot::LanguageDirection BGLib::Polyglot::LanguageDirection::RightToLeft{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

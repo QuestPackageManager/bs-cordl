@@ -365,5 +365,3 @@ inline void Mono::Security::Authenticode::AuthenticodeDeformatter::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Authenticode::AuthenticodeDeformatter::AuthenticodeDeformatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

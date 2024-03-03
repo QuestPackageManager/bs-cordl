@@ -138,5 +138,3 @@ inline void HMUI::ButtonSpriteSwapToggle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ButtonSpriteSwapToggle::ButtonSpriteSwapToggle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

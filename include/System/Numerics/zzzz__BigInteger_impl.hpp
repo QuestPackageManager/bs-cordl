@@ -722,5 +722,3 @@ constexpr ::System::Numerics::BigInteger::BigInteger(int32_t _sign, ::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::BigInteger::BigInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -142,5 +142,3 @@ inline void Newtonsoft::Json::Bson::BsonArray::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonArray::BsonArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

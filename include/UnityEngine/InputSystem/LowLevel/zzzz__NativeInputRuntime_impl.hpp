@@ -979,5 +979,3 @@ inline void UnityEngine::InputSystem::LowLevel::NativeInputRuntime::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime::NativeInputRuntime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

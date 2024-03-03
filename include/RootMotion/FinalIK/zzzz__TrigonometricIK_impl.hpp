@@ -132,5 +132,3 @@ inline void RootMotion::FinalIK::TrigonometricIK::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::TrigonometricIK::TrigonometricIK() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

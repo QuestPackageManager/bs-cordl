@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::AccountAgeCategory Oculus::Platform::AccountAgeCat
 constexpr ::Oculus::Platform::AccountAgeCategory Oculus::Platform::AccountAgeCategory::Ch{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::AccountAgeCategory Oculus::Platform::AccountAgeCategory::Tn{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::AccountAgeCategory Oculus::Platform::AccountAgeCategory::Ad{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

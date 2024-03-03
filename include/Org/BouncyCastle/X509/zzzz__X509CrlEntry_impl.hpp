@@ -325,5 +325,3 @@ inline ::StringW Org::BouncyCastle::X509::X509CrlEntry::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509CrlEntry::X509CrlEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -133,5 +133,3 @@ inline void GlobalNamespace::CommandBufferOwners::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandBufferOwners::CommandBufferOwners() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

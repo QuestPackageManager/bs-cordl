@@ -169,5 +169,3 @@ inline bool Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::get_IsEmpty() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::PgpSignatureList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

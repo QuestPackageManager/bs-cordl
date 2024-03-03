@@ -9,5 +9,3 @@ constexpr ::System::Xml::WhitespaceHandling::WhitespaceHandling() {}
 constexpr ::System::Xml::WhitespaceHandling System::Xml::WhitespaceHandling::All{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::WhitespaceHandling System::Xml::WhitespaceHandling::Significant{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::WhitespaceHandling System::Xml::WhitespaceHandling::None{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

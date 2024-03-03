@@ -52,5 +52,3 @@ template <typename T> inline bool HoudiniEngineUnity::ArrayExtensions::IsNull(::
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::ArrayExtensions::ArrayExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

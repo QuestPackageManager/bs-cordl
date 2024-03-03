@@ -219,5 +219,3 @@ inline ::UnityEngine::AI::NavMeshPathStatus UnityEngine::AI::NavMeshPath::get_st
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AI::NavMeshPath::NavMeshPath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

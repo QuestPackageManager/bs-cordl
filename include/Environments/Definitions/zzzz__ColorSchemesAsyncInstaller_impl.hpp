@@ -193,5 +193,3 @@ inline void Environments::Definitions::ColorSchemesAsyncInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Environments::Definitions::ColorSchemesAsyncInstaller::ColorSchemesAsyncInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

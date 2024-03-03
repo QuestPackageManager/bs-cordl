@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::EncryptionAlgorithm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::EncryptionAlgorithm::EncryptionAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

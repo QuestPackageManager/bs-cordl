@@ -86,5 +86,3 @@ inline int32_t UnityEngine::ProBuilder::VectorHash::GetHashCode(::UnityEngine::V
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::VectorHash::VectorHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

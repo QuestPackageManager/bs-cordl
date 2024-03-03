@@ -576,5 +576,3 @@ inline void GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitch
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleLevelStarter::SimpleLevelStarter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -23,5 +23,3 @@ inline void System::Runtime::Serialization::IDeserializationCallback::OnDeserial
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::IDeserializationCallback*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

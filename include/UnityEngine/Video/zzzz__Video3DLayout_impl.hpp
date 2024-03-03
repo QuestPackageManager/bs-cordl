@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Video::Video3DLayout::Video3DLayout() {}
 constexpr ::UnityEngine::Video::Video3DLayout UnityEngine::Video::Video3DLayout::No3D{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Video::Video3DLayout UnityEngine::Video::Video3DLayout::SideBySide3D{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Video::Video3DLayout UnityEngine::Video::Video3DLayout::OverUnder3D{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

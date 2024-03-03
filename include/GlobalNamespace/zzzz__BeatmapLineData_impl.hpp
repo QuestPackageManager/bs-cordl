@@ -115,5 +115,3 @@ inline void GlobalNamespace::BeatmapLineData::AddBeatmapObjectData(::GlobalNames
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLineData::BeatmapLineData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

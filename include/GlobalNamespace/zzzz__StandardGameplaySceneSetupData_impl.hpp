@@ -112,5 +112,3 @@ inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRest
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardGameplaySceneSetupData::StandardGameplaySceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

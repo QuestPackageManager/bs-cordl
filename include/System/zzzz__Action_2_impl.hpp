@@ -18,5 +18,3 @@ template <typename T1, typename T2> inline void System::Action_2<T1, T2>::Invoke
 }
 // Ctor Parameters []
 template <typename T1, typename T2> constexpr ::System::Action_2<T1, T2>::Action_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

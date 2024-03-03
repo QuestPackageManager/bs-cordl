@@ -213,5 +213,3 @@ inline void GlobalNamespace::SongPackMasksModelItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPackMasksModelItem::SongPackMasksModelItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

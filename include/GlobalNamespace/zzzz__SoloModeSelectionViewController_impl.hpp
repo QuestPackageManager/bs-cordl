@@ -269,5 +269,3 @@ inline void GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SoloModeSelectionViewController::SoloModeSelectionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

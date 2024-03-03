@@ -523,5 +523,3 @@ inline void UnityEngine::Rendering::RenderPipelineAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderPipelineAsset::RenderPipelineAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

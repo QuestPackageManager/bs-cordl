@@ -118,5 +118,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::GuiRenderer::__zenCreateInjectTypeInf
 }
 // Ctor Parameters []
 constexpr ::Zenject::GuiRenderer::GuiRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

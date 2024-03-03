@@ -98,5 +98,3 @@ inline void System::MonoAsyncCall::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::MonoAsyncCall::MonoAsyncCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

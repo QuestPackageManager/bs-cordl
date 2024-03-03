@@ -758,5 +758,3 @@ inline void GlobalNamespace::LevelCollectionViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCollectionViewController::LevelCollectionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

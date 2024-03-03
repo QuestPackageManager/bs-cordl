@@ -114,5 +114,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::X448Agreement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::X448Agreement::X448Agreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

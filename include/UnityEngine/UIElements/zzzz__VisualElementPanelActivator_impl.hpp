@@ -248,5 +248,3 @@ inline void UnityEngine::UIElements::VisualElementPanelActivator::OnLeave(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementPanelActivator::VisualElementPanelActivator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

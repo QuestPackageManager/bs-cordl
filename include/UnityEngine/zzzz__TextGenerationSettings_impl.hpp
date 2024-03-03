@@ -116,5 +116,3 @@ constexpr ::UnityEngine::TextGenerationSettings::TextGenerationSettings(::UnityW
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextGenerationSettings::TextGenerationSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

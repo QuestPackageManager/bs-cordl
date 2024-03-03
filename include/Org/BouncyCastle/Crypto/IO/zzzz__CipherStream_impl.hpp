@@ -472,5 +472,3 @@ inline void Org::BouncyCastle::Crypto::IO::CipherStream::SetLength(int64_t lengt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream::CipherStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

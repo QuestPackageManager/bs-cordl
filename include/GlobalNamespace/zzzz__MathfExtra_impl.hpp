@@ -105,5 +105,3 @@ inline bool GlobalNamespace::MathfExtra::Approximately(float_t a, float_t b, flo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MathfExtra::MathfExtra() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

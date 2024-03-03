@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Asn1::Asn1ParsingException::_ctor(::StringW messa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1ParsingException::Asn1ParsingException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

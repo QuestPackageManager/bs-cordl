@@ -331,5 +331,3 @@ inline bool Org::BouncyCastle::Crypto::Signers::X931Signer::VerifySignature(::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::X931Signer::X931Signer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

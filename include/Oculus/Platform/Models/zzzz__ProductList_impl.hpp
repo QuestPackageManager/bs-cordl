@@ -27,5 +27,3 @@ inline void Oculus::Platform::Models::ProductList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::ProductList::ProductList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

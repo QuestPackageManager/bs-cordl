@@ -1854,5 +1854,3 @@ inline void HMUI::ViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ViewController::ViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

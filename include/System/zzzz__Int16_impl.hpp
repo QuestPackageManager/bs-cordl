@@ -706,5 +706,3 @@ constexpr ::System::Int16::Int16(int16_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Int16::Int16() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

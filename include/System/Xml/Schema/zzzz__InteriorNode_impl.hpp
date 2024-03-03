@@ -177,5 +177,3 @@ inline void System::Xml::Schema::InteriorNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::InteriorNode::InteriorNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline ::System::ComponentModel::IComponent* System::ComponentModel::ComponentCo
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ComponentCollection::ComponentCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

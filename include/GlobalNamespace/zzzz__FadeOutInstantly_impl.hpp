@@ -55,5 +55,3 @@ inline void GlobalNamespace::FadeOutInstantly::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeOutInstantly::FadeOutInstantly() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

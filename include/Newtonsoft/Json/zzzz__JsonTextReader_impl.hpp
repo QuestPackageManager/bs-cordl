@@ -1354,5 +1354,3 @@ inline int32_t Newtonsoft::Json::JsonTextReader::get_LinePosition() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonTextReader::JsonTextReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

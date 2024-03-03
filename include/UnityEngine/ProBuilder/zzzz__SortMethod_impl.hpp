@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ProBuilder::SortMethod::SortMethod(int32_t value__) noe
 constexpr ::UnityEngine::ProBuilder::SortMethod::SortMethod() {}
 constexpr ::UnityEngine::ProBuilder::SortMethod UnityEngine::ProBuilder::SortMethod::Clockwise{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::SortMethod UnityEngine::ProBuilder::SortMethod::CounterClockwise{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ template <typename T> constexpr ::UnityEngine::UIElements::CustomStyleProperty_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::CustomStyleProperty_1<T>::CustomStyleProperty_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -85,5 +85,3 @@ inline void UnityEngine::ProBuilder::TriggerBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::TriggerBehaviour::TriggerBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

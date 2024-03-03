@@ -744,5 +744,3 @@ constexpr ::OVR::OpenVR::IVRChaperone::IVRChaperone(::OVR::OpenVR::__IVRChaperon
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRChaperone::IVRChaperone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

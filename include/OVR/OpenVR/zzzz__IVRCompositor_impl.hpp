@@ -4069,5 +4069,3 @@ constexpr ::OVR::OpenVR::IVRCompositor::IVRCompositor(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRCompositor::IVRCompositor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

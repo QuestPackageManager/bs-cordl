@@ -41,5 +41,3 @@ inline void UnityEngine::Timeline::TrackMediaType::_ctor(::UnityEngine::Timeline
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackMediaType::TrackMediaType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

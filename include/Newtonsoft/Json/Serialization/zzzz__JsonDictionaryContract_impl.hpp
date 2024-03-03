@@ -611,5 +611,3 @@ inline ::System::Collections::IDictionary* Newtonsoft::Json::Serialization::Json
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonDictionaryContract::JsonDictionaryContract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

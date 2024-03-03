@@ -76,5 +76,3 @@ inline void GlobalNamespace::HEU_ScriptCallbackExample::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_ScriptCallbackExample::HEU_ScriptCallbackExample() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

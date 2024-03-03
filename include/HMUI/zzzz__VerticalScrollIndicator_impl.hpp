@@ -230,5 +230,3 @@ inline void HMUI::VerticalScrollIndicator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::VerticalScrollIndicator::VerticalScrollIndicator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

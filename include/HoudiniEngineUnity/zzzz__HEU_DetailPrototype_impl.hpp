@@ -188,5 +188,3 @@ inline bool HoudiniEngineUnity::HEU_DetailPrototype::IsEquivalentTo(::HoudiniEng
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_DetailPrototype::HEU_DetailPrototype() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

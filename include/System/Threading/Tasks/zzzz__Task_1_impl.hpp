@@ -348,5 +348,3 @@ System::Threading::Tasks::Task_1<TResult>::ContinueWith(::System::Func_2<::Syste
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>::Task_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

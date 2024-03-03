@@ -8,5 +8,3 @@ constexpr ::System::Runtime::Remoting::WellKnownObjectMode::WellKnownObjectMode(
 constexpr ::System::Runtime::Remoting::WellKnownObjectMode::WellKnownObjectMode() {}
 constexpr ::System::Runtime::Remoting::WellKnownObjectMode System::Runtime::Remoting::WellKnownObjectMode::Singleton{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Remoting::WellKnownObjectMode System::Runtime::Remoting::WellKnownObjectMode::SingleCall{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

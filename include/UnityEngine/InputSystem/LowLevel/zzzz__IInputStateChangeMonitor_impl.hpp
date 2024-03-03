@@ -49,5 +49,3 @@ inline void UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor::Notify
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, control, time, monitorIndex, timerIndex);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

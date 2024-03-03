@@ -311,5 +311,3 @@ inline ::StringW System::Net::Http::Headers::EntityTagHeaderValue::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::EntityTagHeaderValue::EntityTagHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

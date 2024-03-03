@@ -25,5 +25,3 @@ inline void GlobalNamespace::MultiplayerLevelNoTransitionInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelNoTransitionInstaller::MultiplayerLevelNoTransitionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

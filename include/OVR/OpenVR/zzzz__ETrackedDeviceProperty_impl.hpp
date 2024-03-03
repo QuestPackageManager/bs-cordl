@@ -164,5 +164,3 @@ constexpr ::OVR::OpenVR::ETrackedDeviceProperty OVR::OpenVR::ETrackedDevicePrope
 constexpr ::OVR::OpenVR::ETrackedDeviceProperty OVR::OpenVR::ETrackedDeviceProperty::Prop_VendorSpecific_Reserved_Start{ static_cast<int32_t>(0x2710) };
 constexpr ::OVR::OpenVR::ETrackedDeviceProperty OVR::OpenVR::ETrackedDeviceProperty::Prop_VendorSpecific_Reserved_End{ static_cast<int32_t>(0x2af7) };
 constexpr ::OVR::OpenVR::ETrackedDeviceProperty OVR::OpenVR::ETrackedDeviceProperty::Prop_TrackedDeviceProperty_Max{ static_cast<int32_t>(0xf4240) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

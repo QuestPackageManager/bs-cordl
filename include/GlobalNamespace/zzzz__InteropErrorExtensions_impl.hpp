@@ -25,5 +25,3 @@ inline ::GlobalNamespace::__Interop__ErrorInfo GlobalNamespace::InteropErrorExte
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InteropErrorExtensions::InteropErrorExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

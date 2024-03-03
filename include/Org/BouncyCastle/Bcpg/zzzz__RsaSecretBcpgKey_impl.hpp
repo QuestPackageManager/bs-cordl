@@ -345,5 +345,3 @@ inline void Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::Encode(::Org::BouncyCastl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::RsaSecretBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -821,5 +821,3 @@ inline void RootMotion::BipedReferences::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BipedReferences::BipedReferences() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

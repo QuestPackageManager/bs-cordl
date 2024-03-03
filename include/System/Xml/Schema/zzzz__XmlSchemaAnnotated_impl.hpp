@@ -24,5 +24,3 @@ inline void System::Xml::Schema::XmlSchemaAnnotated::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaAnnotated::XmlSchemaAnnotated() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

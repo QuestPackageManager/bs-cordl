@@ -127,5 +127,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::TextEvent::TextEvent(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::TextEvent::TextEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

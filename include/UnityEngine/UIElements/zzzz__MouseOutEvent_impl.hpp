@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::MouseOutEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseOutEvent::MouseOutEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void UnityEngine::Timeline::FrameRateFieldAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::FrameRateFieldAttribute::FrameRateFieldAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

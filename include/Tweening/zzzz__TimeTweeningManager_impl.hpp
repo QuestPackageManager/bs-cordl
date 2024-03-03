@@ -43,5 +43,3 @@ inline void Tweening::TimeTweeningManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tweening::TimeTweeningManager::TimeTweeningManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

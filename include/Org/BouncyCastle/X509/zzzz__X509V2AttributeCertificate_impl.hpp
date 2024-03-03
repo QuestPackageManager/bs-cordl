@@ -648,5 +648,3 @@ inline int32_t Org::BouncyCastle::X509::X509V2AttributeCertificate::GetHashCode(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509V2AttributeCertificate::X509V2AttributeCertificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

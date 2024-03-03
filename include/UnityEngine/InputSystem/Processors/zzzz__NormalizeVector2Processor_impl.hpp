@@ -74,5 +74,3 @@ inline void UnityEngine::InputSystem::Processors::NormalizeVector2Processor::_ct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor::NormalizeVector2Processor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

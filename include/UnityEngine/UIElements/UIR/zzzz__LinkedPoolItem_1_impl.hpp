@@ -23,5 +23,3 @@ template <typename T> inline void UnityEngine::UIElements::UIR::LinkedPoolItem_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::LinkedPoolItem_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

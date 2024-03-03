@@ -404,5 +404,3 @@ inline void GlobalNamespace::BTSCharacterSpawnEventEffect::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacterSpawnEventEffect::BTSCharacterSpawnEventEffect() {}
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BTSCharacterSpawnEventEffect::kCharacterDisplayEventType{ static_cast<int32_t>(0x28) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

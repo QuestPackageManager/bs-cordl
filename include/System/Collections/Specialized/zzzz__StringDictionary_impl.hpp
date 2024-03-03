@@ -90,5 +90,3 @@ inline ::System::Collections::IEnumerator* System::Collections::Specialized::Str
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::StringDictionary::StringDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

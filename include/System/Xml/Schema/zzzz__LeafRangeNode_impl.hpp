@@ -118,5 +118,3 @@ inline void System::Xml::Schema::LeafRangeNode::set_NextIteration(::System::Xml:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::LeafRangeNode::LeafRangeNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

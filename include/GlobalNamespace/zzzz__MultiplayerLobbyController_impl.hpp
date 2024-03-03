@@ -217,5 +217,3 @@ inline void GlobalNamespace::MultiplayerLobbyController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyController::MultiplayerLobbyController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

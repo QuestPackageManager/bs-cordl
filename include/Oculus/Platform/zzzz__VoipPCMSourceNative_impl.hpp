@@ -124,5 +124,3 @@ inline void Oculus::Platform::VoipPCMSourceNative::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::VoipPCMSourceNative::VoipPCMSourceNative() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

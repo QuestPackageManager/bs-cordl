@@ -70,5 +70,3 @@ inline void System::ComponentModel::StringConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::StringConverter::StringConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

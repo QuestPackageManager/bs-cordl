@@ -250,5 +250,3 @@ inline char16_t System::Text::InternalEncoderBestFitFallbackBuffer::TryBestFit(c
 }
 // Ctor Parameters []
 constexpr ::System::Text::InternalEncoderBestFitFallbackBuffer::InternalEncoderBestFitFallbackBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

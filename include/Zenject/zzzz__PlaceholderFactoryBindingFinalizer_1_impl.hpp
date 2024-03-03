@@ -37,5 +37,3 @@ template <typename TContract> inline void Zenject::PlaceholderFactoryBindingFina
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>::PlaceholderFactoryBindingFinalizer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

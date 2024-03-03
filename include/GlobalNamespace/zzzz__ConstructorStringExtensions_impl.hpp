@@ -76,5 +76,3 @@ template <typename T> inline ::StringW GlobalNamespace::ConstructorStringExtensi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConstructorStringExtensions::ConstructorStringExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

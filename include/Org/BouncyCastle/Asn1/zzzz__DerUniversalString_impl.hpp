@@ -175,5 +175,3 @@ inline bool Org::BouncyCastle::Asn1::DerUniversalString::Asn1Equals(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerUniversalString::DerUniversalString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

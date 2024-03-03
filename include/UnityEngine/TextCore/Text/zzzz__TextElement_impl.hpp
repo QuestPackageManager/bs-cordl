@@ -318,5 +318,3 @@ inline void UnityEngine::TextCore::Text::TextElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextElement::TextElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

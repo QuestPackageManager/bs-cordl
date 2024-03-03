@@ -254,5 +254,3 @@ inline bool System::Reflection::Emit::MethodBuilder::IsDefined(::System::Type* a
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::MethodBuilder::MethodBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

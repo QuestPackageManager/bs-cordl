@@ -90,5 +90,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner::TlsECDsaSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

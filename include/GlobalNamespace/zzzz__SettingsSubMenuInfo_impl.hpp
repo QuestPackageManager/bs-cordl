@@ -87,5 +87,3 @@ inline void GlobalNamespace::SettingsSubMenuInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SettingsSubMenuInfo::SettingsSubMenuInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

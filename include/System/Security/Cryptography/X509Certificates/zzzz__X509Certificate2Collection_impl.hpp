@@ -225,5 +225,3 @@ inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enume
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection::X509Certificate2Collection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

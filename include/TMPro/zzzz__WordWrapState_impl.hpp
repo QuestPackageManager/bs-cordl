@@ -147,5 +147,3 @@ constexpr ::TMPro::WordWrapState::WordWrapState(
 }
 // Ctor Parameters []
 constexpr ::TMPro::WordWrapState::WordWrapState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

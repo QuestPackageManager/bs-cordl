@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Timeline::StandardFrameRates UnityEngine::Timeline::Sta
 constexpr ::UnityEngine::Timeline::StandardFrameRates UnityEngine::Timeline::StandardFrameRates::Fps50{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Timeline::StandardFrameRates UnityEngine::Timeline::StandardFrameRates::Fps60{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Timeline::StandardFrameRates UnityEngine::Timeline::StandardFrameRates::Fps59_94{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

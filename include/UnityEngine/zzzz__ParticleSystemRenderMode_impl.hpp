@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ParticleSystemRenderMode UnityEngine::ParticleSystemRen
 constexpr ::UnityEngine::ParticleSystemRenderMode UnityEngine::ParticleSystemRenderMode::VerticalBillboard{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ParticleSystemRenderMode UnityEngine::ParticleSystemRenderMode::Mesh{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ParticleSystemRenderMode UnityEngine::ParticleSystemRenderMode::None{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

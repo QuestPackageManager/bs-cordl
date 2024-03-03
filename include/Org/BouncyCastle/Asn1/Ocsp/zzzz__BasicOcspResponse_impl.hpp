@@ -355,5 +355,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ocsp::Bas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::BasicOcspResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -331,5 +331,3 @@ inline ::UnityEngine::XR::__XRSettings__StereoRenderingMode UnityEngine::XR::XRS
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRSettings::XRSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -550,5 +550,3 @@ inline void GlobalNamespace::LightWithIds::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightWithIds::LightWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

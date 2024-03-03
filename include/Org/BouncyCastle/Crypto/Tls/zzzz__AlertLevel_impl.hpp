@@ -64,5 +64,3 @@ inline void Org::BouncyCastle::Crypto::Tls::AlertLevel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AlertLevel::AlertLevel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

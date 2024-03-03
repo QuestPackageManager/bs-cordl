@@ -8,5 +8,3 @@ constexpr ::System::ComponentModel::ListSortDirection::ListSortDirection(int32_t
 constexpr ::System::ComponentModel::ListSortDirection::ListSortDirection() {}
 constexpr ::System::ComponentModel::ListSortDirection System::ComponentModel::ListSortDirection::Ascending{ static_cast<int32_t>(0x0) };
 constexpr ::System::ComponentModel::ListSortDirection System::ComponentModel::ListSortDirection::Descending{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

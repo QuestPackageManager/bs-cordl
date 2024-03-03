@@ -191,5 +191,3 @@ inline void RootMotion::BakerMuscle::SetLoopFrame(float_t time) {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BakerMuscle::BakerMuscle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

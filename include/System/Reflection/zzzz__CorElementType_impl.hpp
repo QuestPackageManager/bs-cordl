@@ -78,5 +78,3 @@ constexpr ::System::Reflection::CorElementType System::Reflection::CorElementTyp
 constexpr ::System::Reflection::CorElementType System::Reflection::CorElementType::ELEMENT_TYPE_MODIFIER{ static_cast<uint8_t>(0x40u) };
 constexpr ::System::Reflection::CorElementType System::Reflection::CorElementType::ELEMENT_TYPE_SENTINEL{ static_cast<uint8_t>(0x41u) };
 constexpr ::System::Reflection::CorElementType System::Reflection::CorElementType::ELEMENT_TYPE_PINNED{ static_cast<uint8_t>(0x45u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

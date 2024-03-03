@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Crypto::InvalidCipherTextException::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::InvalidCipherTextException::InvalidCipherTextException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

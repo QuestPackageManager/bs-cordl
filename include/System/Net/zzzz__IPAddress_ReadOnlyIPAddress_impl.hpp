@@ -27,5 +27,3 @@ inline void System::Net::__IPAddress__ReadOnlyIPAddress::_ctor(int64_t newAddres
 }
 // Ctor Parameters []
 constexpr ::System::Net::__IPAddress__ReadOnlyIPAddress::__IPAddress__ReadOnlyIPAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -106,5 +106,3 @@ System::Collections::HashHelpers::get_SerializationInfoTable() {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::HashHelpers::HashHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

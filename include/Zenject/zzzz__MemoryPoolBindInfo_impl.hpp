@@ -228,5 +228,3 @@ inline void Zenject::MemoryPoolBindInfo::set_MaxSize(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::Zenject::MemoryPoolBindInfo::MemoryPoolBindInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

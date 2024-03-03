@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::LeaderboardEntryList* Oculus::Platform::Messa
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLeaderboardEntryList::MessageWithLeaderboardEntryList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

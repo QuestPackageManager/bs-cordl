@@ -743,5 +743,3 @@ inline int32_t System::Text::RegularExpressions::RegexRunner::MatchLength(int32_
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexRunner::RegexRunner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

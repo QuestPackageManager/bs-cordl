@@ -135,5 +135,3 @@ inline void GlobalNamespace::MoveBackWall::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MoveBackWall::MoveBackWall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

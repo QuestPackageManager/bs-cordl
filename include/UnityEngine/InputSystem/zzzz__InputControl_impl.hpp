@@ -1450,5 +1450,3 @@ inline void UnityEngine::InputSystem::InputControl::AddProcessor(::System::Objec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputControl::InputControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

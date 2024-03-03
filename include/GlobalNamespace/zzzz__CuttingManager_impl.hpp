@@ -110,5 +110,3 @@ inline void GlobalNamespace::CuttingManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CuttingManager::CuttingManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::GameStateType GlobalNamespace::GameStateType::Empty
 constexpr ::GlobalNamespace::GameStateType GlobalNamespace::GameStateType::SelectingLevel{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameStateType GlobalNamespace::GameStateType::StartingLevel{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::GameStateType GlobalNamespace::GameStateType::RunningLevel{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -276,5 +276,3 @@ inline void UnityEngine::EventSystems::UIBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::UIBehaviour::UIBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

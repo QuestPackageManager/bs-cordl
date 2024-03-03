@@ -50,5 +50,3 @@ inline void UnityEngine::UIElements::__ProgressBar__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__ProgressBar__UxmlFactory::__ProgressBar__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

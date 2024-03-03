@@ -220,5 +220,3 @@ inline void GlobalNamespace::SelectableStateController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectableStateController::SelectableStateController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

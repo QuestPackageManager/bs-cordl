@@ -63,5 +63,3 @@ inline void Oculus::Platform::Models::LanguagePackInfo::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LanguagePackInfo::LanguagePackInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

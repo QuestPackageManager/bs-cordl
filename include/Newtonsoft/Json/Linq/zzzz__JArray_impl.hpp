@@ -734,5 +734,3 @@ inline int32_t Newtonsoft::Json::Linq::JArray::GetDeepHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JArray::JArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

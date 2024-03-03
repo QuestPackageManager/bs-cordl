@@ -74,5 +74,3 @@ inline void System::Security::Cryptography::HMACSHA1::_ctor(::ArrayW<uint8_t, ::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMACSHA1::HMACSHA1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

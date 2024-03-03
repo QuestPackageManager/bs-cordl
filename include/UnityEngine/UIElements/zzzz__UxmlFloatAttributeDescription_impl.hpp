@@ -139,5 +139,3 @@ inline float_t UnityEngine::UIElements::UxmlFloatAttributeDescription::ConvertVa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription::UxmlFloatAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

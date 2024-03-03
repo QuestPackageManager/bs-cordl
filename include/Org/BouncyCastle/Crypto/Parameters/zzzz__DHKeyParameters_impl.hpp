@@ -193,5 +193,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::GetHashCo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters::DHKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

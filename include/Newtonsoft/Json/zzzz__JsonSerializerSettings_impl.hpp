@@ -1752,5 +1752,3 @@ constexpr ::Newtonsoft::Json::FloatParseHandling Newtonsoft::Json::JsonSerialize
 constexpr ::Newtonsoft::Json::FloatFormatHandling Newtonsoft::Json::JsonSerializerSettings::DefaultFloatFormatHandling{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::StringEscapeHandling Newtonsoft::Json::JsonSerializerSettings::DefaultStringEscapeHandling{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle Newtonsoft::Json::JsonSerializerSettings::DefaultFormatterAssemblyStyle{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

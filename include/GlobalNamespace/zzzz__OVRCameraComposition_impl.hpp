@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRCameraComposition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCameraComposition::OVRCameraComposition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

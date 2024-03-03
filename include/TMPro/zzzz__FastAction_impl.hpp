@@ -112,5 +112,3 @@ inline void TMPro::FastAction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::FastAction::FastAction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -46,5 +46,3 @@ inline void BeatmapSaveDataCommon::BeatmapEventTypeExtensions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions::BeatmapEventTypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

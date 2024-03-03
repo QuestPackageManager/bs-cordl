@@ -81,5 +81,3 @@ constexpr ::System::DateTimeRawInfo::DateTimeRawInfo(::cordl_internals::Ptr<int3
 }
 // Ctor Parameters []
 constexpr ::System::DateTimeRawInfo::DateTimeRawInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

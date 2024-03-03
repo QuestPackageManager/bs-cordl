@@ -20,5 +20,3 @@ constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag Org::BouncyCastle:
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag::Camellia128{ static_cast<int32_t>(0xb) };
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag::Camellia192{ static_cast<int32_t>(0xc) };
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag::Camellia256{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

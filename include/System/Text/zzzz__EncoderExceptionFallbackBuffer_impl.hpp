@@ -129,5 +129,3 @@ inline int32_t System::Text::EncoderExceptionFallbackBuffer::get_Remaining() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderExceptionFallbackBuffer::EncoderExceptionFallbackBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

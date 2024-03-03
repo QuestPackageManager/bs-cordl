@@ -76,5 +76,3 @@ inline void System::InvalidProgramException::_ctor(::System::Runtime::Serializat
 }
 // Ctor Parameters []
 constexpr ::System::InvalidProgramException::InvalidProgramException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

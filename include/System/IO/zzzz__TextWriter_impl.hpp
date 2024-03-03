@@ -548,5 +548,3 @@ inline ::System::IO::TextWriter* System::IO::TextWriter::Synchronized(::System::
 }
 // Ctor Parameters []
 constexpr ::System::IO::TextWriter::TextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

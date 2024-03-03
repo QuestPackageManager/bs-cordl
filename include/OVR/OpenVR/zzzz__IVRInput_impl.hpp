@@ -1746,5 +1746,3 @@ constexpr ::OVR::OpenVR::IVRInput::IVRInput(::OVR::OpenVR::__IVRInput___SetActio
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRInput::IVRInput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

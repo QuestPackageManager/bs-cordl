@@ -10,5 +10,3 @@ constexpr ::System::Xml::XmlOutputMethod System::Xml::XmlOutputMethod::Xml{ stat
 constexpr ::System::Xml::XmlOutputMethod System::Xml::XmlOutputMethod::Html{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlOutputMethod System::Xml::XmlOutputMethod::Text{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::XmlOutputMethod System::Xml::XmlOutputMethod::AutoDetect{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

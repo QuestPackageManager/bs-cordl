@@ -334,5 +334,3 @@ inline bool System::UriHelper::Is3986Unreserved(char16_t c) {
 }
 // Ctor Parameters []
 constexpr ::System::UriHelper::UriHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

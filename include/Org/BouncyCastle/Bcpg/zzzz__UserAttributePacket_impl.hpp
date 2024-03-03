@@ -114,5 +114,3 @@ inline void Org::BouncyCastle::Bcpg::UserAttributePacket::Encode(::Org::BouncyCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributePacket::UserAttributePacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

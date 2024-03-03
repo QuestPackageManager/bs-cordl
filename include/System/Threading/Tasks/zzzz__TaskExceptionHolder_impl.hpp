@@ -319,5 +319,3 @@ inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* System::Thre
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskExceptionHolder::TaskExceptionHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

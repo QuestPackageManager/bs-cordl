@@ -139,5 +139,3 @@ inline int64_t UnityEngine::UIElements::UxmlLongAttributeDescription::ConvertVal
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlLongAttributeDescription::UxmlLongAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

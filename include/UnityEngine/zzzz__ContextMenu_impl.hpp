@@ -110,5 +110,3 @@ inline void UnityEngine::ContextMenu::_ctor(::StringW itemName, bool isValidateF
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContextMenu::ContextMenu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

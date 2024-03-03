@@ -59,5 +59,3 @@ inline ::StringW System::ComponentModel::TypeDescriptionProviderAttribute::get_T
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeDescriptionProviderAttribute::TypeDescriptionProviderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

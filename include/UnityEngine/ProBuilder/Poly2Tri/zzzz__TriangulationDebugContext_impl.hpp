@@ -64,5 +64,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::Clear(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext::TriangulationDebugContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

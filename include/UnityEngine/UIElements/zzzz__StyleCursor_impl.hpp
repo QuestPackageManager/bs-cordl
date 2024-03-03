@@ -237,5 +237,3 @@ constexpr ::UnityEngine::UIElements::StyleCursor::StyleCursor(::UnityEngine::UIE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleCursor::StyleCursor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

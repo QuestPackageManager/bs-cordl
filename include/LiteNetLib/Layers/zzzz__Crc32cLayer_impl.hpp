@@ -67,5 +67,3 @@ inline void LiteNetLib::Layers::Crc32cLayer::ProcessOutBoundPacket(::System::Net
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Layers::Crc32cLayer::Crc32cLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -238,5 +238,3 @@ inline void GlobalNamespace::MultiplayerResultsPyramidView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsPyramidView::MultiplayerResultsPyramidView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

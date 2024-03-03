@@ -486,5 +486,3 @@ inline void UnityEngine::TextCore::Text::MaterialReferenceManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::MaterialReferenceManager::MaterialReferenceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

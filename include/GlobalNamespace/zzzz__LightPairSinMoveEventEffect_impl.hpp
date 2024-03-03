@@ -442,5 +442,3 @@ inline void GlobalNamespace::LightPairSinMoveEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightPairSinMoveEventEffect::LightPairSinMoveEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

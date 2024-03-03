@@ -308,5 +308,3 @@ inline void TMPro::TMP_TextElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_TextElement::TMP_TextElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

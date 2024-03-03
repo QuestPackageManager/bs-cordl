@@ -56,5 +56,3 @@ inline void GlobalNamespace::Vector4SO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Vector4SO::Vector4SO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

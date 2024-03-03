@@ -177,5 +177,3 @@ constexpr ::System::Xml::Linq::ElementWriter::ElementWriter(::System::Xml::XmlWr
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::ElementWriter::ElementWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

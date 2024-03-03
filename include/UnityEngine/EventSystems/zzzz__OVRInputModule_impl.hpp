@@ -1168,5 +1168,3 @@ inline ::UnityEngine::Vector2 UnityEngine::EventSystems::OVRInputModule::GetExtr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::OVRInputModule::OVRInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

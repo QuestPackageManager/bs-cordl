@@ -141,5 +141,3 @@ inline void System::Security::Cryptography::RSA::ImportParameters(::System::Secu
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSA::RSA() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

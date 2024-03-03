@@ -591,5 +591,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::X509::X509V3Certif
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509V3CertificateGenerator::X509V3CertificateGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

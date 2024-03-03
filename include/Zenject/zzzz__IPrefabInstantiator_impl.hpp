@@ -107,5 +107,3 @@ inline ::UnityW<::UnityEngine::Object> Zenject::IPrefabInstantiator::GetPrefab()
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

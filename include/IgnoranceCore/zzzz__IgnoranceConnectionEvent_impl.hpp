@@ -10,5 +10,3 @@ constexpr ::IgnoranceCore::IgnoranceConnectionEvent::IgnoranceConnectionEvent(ui
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceConnectionEvent::IgnoranceConnectionEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

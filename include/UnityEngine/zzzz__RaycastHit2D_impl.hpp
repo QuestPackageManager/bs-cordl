@@ -107,5 +107,3 @@ constexpr ::UnityEngine::RaycastHit2D::RaycastHit2D(::UnityEngine::Vector2 m_Cen
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RaycastHit2D::RaycastHit2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -142,5 +142,3 @@ inline void UnityEngine::UI::ClipperRegistry::Disable(::UnityEngine::UI::IClippe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ClipperRegistry::ClipperRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

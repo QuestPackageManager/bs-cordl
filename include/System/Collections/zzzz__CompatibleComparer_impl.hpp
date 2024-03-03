@@ -171,5 +171,3 @@ inline int32_t System::Collections::CompatibleComparer::GetHashCode(::System::Ob
 }
 // Ctor Parameters []
 constexpr ::System::Collections::CompatibleComparer::CompatibleComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

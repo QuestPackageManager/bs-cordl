@@ -69,5 +69,3 @@ constexpr ::LIV::SDK::Unity::SDKTexture::SDKTexture(::LIV::SDK::Unity::TEXTURE_I
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKTexture::SDKTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

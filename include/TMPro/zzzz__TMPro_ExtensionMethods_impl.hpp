@@ -346,5 +346,3 @@ inline bool TMPro::TMPro_ExtensionMethods::Compare(::UnityEngine::Quaternion q1,
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMPro_ExtensionMethods::TMPro_ExtensionMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

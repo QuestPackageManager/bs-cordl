@@ -298,5 +298,3 @@ inline float_t GlobalNamespace::IBeatmapObjectSpawnController::JumpPosYForLineLa
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapObjectSpawnController*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, lineLayer, distanceFromPlayer);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

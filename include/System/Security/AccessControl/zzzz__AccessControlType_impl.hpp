@@ -8,5 +8,3 @@ constexpr ::System::Security::AccessControl::AccessControlType::AccessControlTyp
 constexpr ::System::Security::AccessControl::AccessControlType::AccessControlType() {}
 constexpr ::System::Security::AccessControl::AccessControlType System::Security::AccessControl::AccessControlType::Allow{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::AccessControl::AccessControlType System::Security::AccessControl::AccessControlType::Deny{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

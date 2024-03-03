@@ -24,5 +24,3 @@ inline ::Zenject::DiContainer* Zenject::ISubContainerCreator::CreateSubContainer
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ISubContainerCreator*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method, args, context);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

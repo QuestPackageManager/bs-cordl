@@ -610,5 +610,3 @@ Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange::ValidateRsaPublicKey(::Org::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange::TlsPskKeyExchange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

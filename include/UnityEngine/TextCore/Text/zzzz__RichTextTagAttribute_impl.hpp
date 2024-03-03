@@ -15,5 +15,3 @@ constexpr ::UnityEngine::TextCore::Text::RichTextTagAttribute::RichTextTagAttrib
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::RichTextTagAttribute::RichTextTagAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

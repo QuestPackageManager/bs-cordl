@@ -494,5 +494,3 @@ inline bool Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::HasFullMessage(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::Iso9796d2Signer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

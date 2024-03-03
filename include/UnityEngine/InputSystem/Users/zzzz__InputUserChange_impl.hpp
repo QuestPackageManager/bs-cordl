@@ -19,5 +19,3 @@ constexpr ::UnityEngine::InputSystem::Users::InputUserChange UnityEngine::InputS
 constexpr ::UnityEngine::InputSystem::Users::InputUserChange UnityEngine::InputSystem::Users::InputUserChange::AccountSelectionComplete{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::InputSystem::Users::InputUserChange UnityEngine::InputSystem::Users::InputUserChange::ControlSchemeChanged{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::InputSystem::Users::InputUserChange UnityEngine::InputSystem::Users::InputUserChange::ControlsChanged{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

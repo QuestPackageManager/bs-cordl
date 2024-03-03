@@ -80,5 +80,3 @@ inline void Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::DefaultPKMacPrimitivesProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

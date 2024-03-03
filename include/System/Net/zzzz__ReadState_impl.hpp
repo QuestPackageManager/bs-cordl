@@ -11,5 +11,3 @@ constexpr ::System::Net::ReadState System::Net::ReadState::Status{ static_cast<i
 constexpr ::System::Net::ReadState System::Net::ReadState::Headers{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::ReadState System::Net::ReadState::Content{ static_cast<int32_t>(0x3) };
 constexpr ::System::Net::ReadState System::Net::ReadState::Aborted{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

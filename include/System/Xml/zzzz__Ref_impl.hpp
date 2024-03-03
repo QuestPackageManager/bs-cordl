@@ -23,5 +23,3 @@ inline bool System::Xml::Ref::Equal(::StringW strA, ::StringW strB) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Ref::Ref() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -146,5 +146,3 @@ inline void GlobalNamespace::EnableOnVisible::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnableOnVisible::EnableOnVisible() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

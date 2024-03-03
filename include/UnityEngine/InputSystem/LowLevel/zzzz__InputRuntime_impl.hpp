@@ -21,5 +21,3 @@ inline double_t UnityEngine::InputSystem::LowLevel::InputRuntime::getStaticF_s_C
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputRuntime::InputRuntime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

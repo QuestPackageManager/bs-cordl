@@ -139,5 +139,3 @@ template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::InputControl_1<TValue>::InputControl_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

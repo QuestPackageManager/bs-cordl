@@ -95,5 +95,3 @@ inline void Newtonsoft::Json::Converters::VersionConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::VersionConverter::VersionConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

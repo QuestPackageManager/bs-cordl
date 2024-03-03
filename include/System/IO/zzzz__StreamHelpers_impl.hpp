@@ -28,5 +28,3 @@ inline void System::IO::StreamHelpers::ValidateCopyToArgs(::System::IO::Stream* 
 }
 // Ctor Parameters []
 constexpr ::System::IO::StreamHelpers::StreamHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

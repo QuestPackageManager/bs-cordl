@@ -123,5 +123,3 @@ inline void GlobalNamespace::EnvironmentBrandingManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentBrandingManager::EnvironmentBrandingManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

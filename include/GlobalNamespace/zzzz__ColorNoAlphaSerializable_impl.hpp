@@ -215,5 +215,3 @@ constexpr ::GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

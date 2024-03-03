@@ -323,5 +323,3 @@ inline void System::Security::Cryptography::HMAC::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMAC::HMAC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

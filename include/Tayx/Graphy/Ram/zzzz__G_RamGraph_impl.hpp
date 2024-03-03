@@ -313,5 +313,3 @@ inline void Tayx::Graphy::Ram::G_RamGraph::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Ram::G_RamGraph::G_RamGraph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -87,5 +87,3 @@ inline uint8_t Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::get_AlertDescripti
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::TlsFatalAlert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

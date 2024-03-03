@@ -394,5 +394,3 @@ inline void LiteNetLib::EventBasedNatPunchListener::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::EventBasedNatPunchListener::EventBasedNatPunchListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

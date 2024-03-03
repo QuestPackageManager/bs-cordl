@@ -47,5 +47,3 @@ inline void GlobalNamespace::MainMenuAdditionalComponentsInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainMenuAdditionalComponentsInstaller::MainMenuAdditionalComponentsInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

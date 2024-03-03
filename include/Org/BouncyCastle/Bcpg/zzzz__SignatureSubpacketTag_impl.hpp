@@ -30,5 +30,3 @@ constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag Org::BouncyCastle::Bc
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag Org::BouncyCastle::Bcpg::SignatureSubpacketTag::Features{ static_cast<int32_t>(0x1e) };
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag Org::BouncyCastle::Bcpg::SignatureSubpacketTag::SignatureTarget{ static_cast<int32_t>(0x1f) };
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag Org::BouncyCastle::Bcpg::SignatureSubpacketTag::EmbeddedSignature{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -517,5 +517,3 @@ inline void GlobalNamespace::OVRRuntimeController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRRuntimeController::OVRRuntimeController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

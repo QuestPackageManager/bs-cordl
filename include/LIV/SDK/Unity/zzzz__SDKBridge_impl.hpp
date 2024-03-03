@@ -664,5 +664,3 @@ inline bool LIV::SDK::Unity::SDKBridge::GetResolution(ByRef<::LIV::SDK::Unity::S
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKBridge::SDKBridge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

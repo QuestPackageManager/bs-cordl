@@ -59,5 +59,3 @@ constexpr ::GlobalNamespace::XPlatformAccessTokenData::XPlatformAccessTokenData(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::XPlatformAccessTokenData::XPlatformAccessTokenData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -67,5 +67,3 @@ inline bool UnityEngine::UIElements::PointerType::IsDirectManipulationDevice(::S
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerType::PointerType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -65,5 +65,3 @@ inline void GlobalNamespace::LeaderboardViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardViewController::LeaderboardViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

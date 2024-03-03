@@ -170,5 +170,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::Nist::NistNa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::NistNamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

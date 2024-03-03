@@ -344,5 +344,3 @@ inline void GlobalNamespace::LoadingControl::_Awake_b__14_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LoadingControl::LoadingControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

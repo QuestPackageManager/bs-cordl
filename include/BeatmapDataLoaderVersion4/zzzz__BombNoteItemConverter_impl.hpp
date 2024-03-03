@@ -70,5 +70,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::BombNote
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BombNoteItemConverter::BombNoteItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

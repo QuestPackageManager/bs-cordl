@@ -45,5 +45,3 @@ inline void UnityEngine::UIElements::CustomStyleResolvedEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CustomStyleResolvedEvent::CustomStyleResolvedEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

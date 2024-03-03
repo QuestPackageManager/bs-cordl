@@ -336,5 +336,3 @@ inline void GlobalNamespace::AutoSetupController::_OnEnable_b__12_4(bool isOn) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AutoSetupController::AutoSetupController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

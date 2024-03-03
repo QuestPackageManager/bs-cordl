@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::CodeAnalysis::EmbeddedAttribute::*)()>(&::Microsoft::CodeAnalysis::EmbeddedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x129ead0;
+  constexpr static std::size_t addrs = 0x27ff38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::CodeAnalysis::EmbeddedAttribute*>::get(), ".ctor",
@@ -24,5 +24,3 @@ inline void Microsoft::CodeAnalysis::EmbeddedAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Microsoft::CodeAnalysis::EmbeddedAttribute::EmbeddedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -99,5 +99,3 @@ inline void Assets::OVR::Scripts::FixRecord::_ctor(int32_t order, ::StringW cat,
 }
 // Ctor Parameters []
 constexpr ::Assets::OVR::Scripts::FixRecord::FixRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

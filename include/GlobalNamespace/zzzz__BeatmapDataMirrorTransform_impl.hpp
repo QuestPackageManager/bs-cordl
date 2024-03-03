@@ -88,5 +88,3 @@ inline ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapDataMirr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataMirrorTransform::BeatmapDataMirrorTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

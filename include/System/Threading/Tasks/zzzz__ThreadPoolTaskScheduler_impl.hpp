@@ -199,5 +199,3 @@ inline bool System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomi
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::ThreadPoolTaskScheduler::ThreadPoolTaskScheduler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Priority_Queue::StablePriorityQueueNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Priority_Queue::StablePriorityQueueNode::StablePriorityQueueNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

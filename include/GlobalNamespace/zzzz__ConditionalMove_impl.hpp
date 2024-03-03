@@ -80,5 +80,3 @@ inline void GlobalNamespace::ConditionalMove::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConditionalMove::ConditionalMove() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

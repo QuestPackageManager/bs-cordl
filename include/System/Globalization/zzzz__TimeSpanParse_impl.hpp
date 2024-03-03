@@ -1362,5 +1362,3 @@ inline bool System::Globalization::TimeSpanParse::TryParseTimeSpanConstant(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::TimeSpanParse::TimeSpanParse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

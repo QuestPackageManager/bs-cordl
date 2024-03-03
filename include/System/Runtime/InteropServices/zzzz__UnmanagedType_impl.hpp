@@ -44,5 +44,3 @@ constexpr ::System::Runtime::InteropServices::UnmanagedType System::Runtime::Int
 constexpr ::System::Runtime::InteropServices::UnmanagedType System::Runtime::InteropServices::UnmanagedType::IInspectable{ static_cast<int32_t>(0x2e) };
 constexpr ::System::Runtime::InteropServices::UnmanagedType System::Runtime::InteropServices::UnmanagedType::HString{ static_cast<int32_t>(0x2f) };
 constexpr ::System::Runtime::InteropServices::UnmanagedType System::Runtime::InteropServices::UnmanagedType::LPUTF8Str{ static_cast<int32_t>(0x30) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

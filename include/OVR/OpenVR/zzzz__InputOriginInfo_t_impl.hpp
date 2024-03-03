@@ -254,5 +254,3 @@ constexpr ::OVR::OpenVR::InputOriginInfo_t::InputOriginInfo_t(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::InputOriginInfo_t::InputOriginInfo_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyCompanyAttribute::_ctor(::StringW compan
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyCompanyAttribute::AssemblyCompanyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

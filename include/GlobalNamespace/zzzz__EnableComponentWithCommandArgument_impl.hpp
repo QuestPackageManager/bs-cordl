@@ -69,5 +69,3 @@ inline void GlobalNamespace::EnableComponentWithCommandArgument::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnableComponentWithCommandArgument::EnableComponentWithCommandArgument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

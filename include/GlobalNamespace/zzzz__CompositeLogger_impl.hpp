@@ -243,5 +243,3 @@ inline void GlobalNamespace::CompositeLogger::LogException(::System::Exception* 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CompositeLogger::CompositeLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

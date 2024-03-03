@@ -63,5 +63,3 @@ inline void GlobalNamespace::StandaloneThreadContext::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandaloneThreadContext::StandaloneThreadContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

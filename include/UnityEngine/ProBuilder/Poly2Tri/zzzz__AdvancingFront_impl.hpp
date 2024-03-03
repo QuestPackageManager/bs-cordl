@@ -215,5 +215,3 @@ inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* UnityEngine::Pro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront::AdvancingFront() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

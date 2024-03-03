@@ -184,5 +184,3 @@ inline void System::Xml::XmlNotation::set_InnerXml(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNotation::XmlNotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

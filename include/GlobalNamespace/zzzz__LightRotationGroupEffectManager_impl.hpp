@@ -108,5 +108,3 @@ inline void GlobalNamespace::LightRotationGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationGroupEffectManager::LightRotationGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

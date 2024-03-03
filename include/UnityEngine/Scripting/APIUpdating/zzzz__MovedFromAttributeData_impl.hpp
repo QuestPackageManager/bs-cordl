@@ -42,5 +42,3 @@ constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::MovedFr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::MovedFromAttributeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

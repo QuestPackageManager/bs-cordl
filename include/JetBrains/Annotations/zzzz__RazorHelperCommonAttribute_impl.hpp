@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::RazorHelperCommonAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorHelperCommonAttribute::RazorHelperCommonAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

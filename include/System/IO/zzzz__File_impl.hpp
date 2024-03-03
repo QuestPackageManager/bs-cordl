@@ -806,5 +806,3 @@ inline ::System::Security::AccessControl::FileSecurity* System::IO::File::GetAcc
 }
 // Ctor Parameters []
 constexpr ::System::IO::File::File() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -685,5 +685,3 @@ constexpr ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>::__OVR
 }
 // Ctor Parameters []
 template <typename TResult, typename T> constexpr ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>::__OVRTask_1__CallbackWithState_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

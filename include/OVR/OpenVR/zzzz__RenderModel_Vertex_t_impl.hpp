@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::RenderModel_Vertex_t::RenderModel_Vertex_t(::OVR::OpenV
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_Vertex_t::RenderModel_Vertex_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

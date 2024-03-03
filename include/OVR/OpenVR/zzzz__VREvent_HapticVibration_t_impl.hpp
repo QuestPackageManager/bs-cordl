@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::VREvent_HapticVibration_t::VREvent_HapticVibration_t(ui
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_HapticVibration_t::VREvent_HapticVibration_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::NoSuchAlgorithmException::NoSuchAlgorithmException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

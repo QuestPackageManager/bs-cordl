@@ -1784,5 +1784,3 @@ inline void System::Collections::Hashtable::OnDeserialization(::System::Object* 
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Hashtable::Hashtable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -139,5 +139,3 @@ inline ::StringW GlobalNamespace::NetworkUtility::GetHashBase64(::StringW input)
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkUtility::NetworkUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

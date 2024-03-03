@@ -94,5 +94,3 @@ inline void UnityEngine::InputSystem::Processors::ClampProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::ClampProcessor::ClampProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

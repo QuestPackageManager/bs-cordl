@@ -181,5 +181,3 @@ inline void System::ComponentModel::ArrayConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ArrayConverter::ArrayConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

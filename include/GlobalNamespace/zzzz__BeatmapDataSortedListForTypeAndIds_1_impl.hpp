@@ -188,5 +188,3 @@ template <typename TBase> inline void GlobalNamespace::BeatmapDataSortedListForT
 }
 // Ctor Parameters []
 template <typename TBase> constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::BeatmapDataSortedListForTypeAndIds_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

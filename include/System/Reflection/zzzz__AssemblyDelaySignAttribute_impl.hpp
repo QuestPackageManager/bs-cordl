@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyDelaySignAttribute::_ctor(bool delaySign
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyDelaySignAttribute::AssemblyDelaySignAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

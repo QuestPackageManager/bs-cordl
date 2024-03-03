@@ -23,5 +23,3 @@ inline int32_t ENet::Extensions::StringLength(::ArrayW<uint8_t, ::Array<uint8_t>
 }
 // Ctor Parameters []
 constexpr ::ENet::Extensions::Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

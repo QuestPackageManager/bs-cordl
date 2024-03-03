@@ -430,5 +430,3 @@ constexpr ::UnityEngine::UIElements::TextCoreHandle::TextCoreHandle(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextCoreHandle::TextCoreHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

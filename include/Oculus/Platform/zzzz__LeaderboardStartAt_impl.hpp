@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::LeaderboardStartAt Oculus::Platform::LeaderboardSt
 constexpr ::Oculus::Platform::LeaderboardStartAt Oculus::Platform::LeaderboardStartAt::CenteredOnViewer{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::LeaderboardStartAt Oculus::Platform::LeaderboardStartAt::CenteredOnViewerOrTop{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::LeaderboardStartAt Oculus::Platform::LeaderboardStartAt::Unknown{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

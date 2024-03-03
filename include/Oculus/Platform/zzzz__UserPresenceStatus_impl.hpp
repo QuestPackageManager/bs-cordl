@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::UserPresenceStatus::UserPresenceStatus() {}
 constexpr ::Oculus::Platform::UserPresenceStatus Oculus::Platform::UserPresenceStatus::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::UserPresenceStatus Oculus::Platform::UserPresenceStatus::Online{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::UserPresenceStatus Oculus::Platform::UserPresenceStatus::Offline{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

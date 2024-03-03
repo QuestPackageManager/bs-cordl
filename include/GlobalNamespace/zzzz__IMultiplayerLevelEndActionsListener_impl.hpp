@@ -45,5 +45,3 @@ inline void GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerNe
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMultiplayerLevelEndActionsListener*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, results);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

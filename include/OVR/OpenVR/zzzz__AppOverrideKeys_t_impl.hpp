@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::AppOverrideKeys_t::AppOverrideKeys_t(void* pchKey, void
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::AppOverrideKeys_t::AppOverrideKeys_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

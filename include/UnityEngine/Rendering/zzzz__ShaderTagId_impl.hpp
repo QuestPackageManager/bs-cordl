@@ -133,5 +133,3 @@ constexpr ::UnityEngine::Rendering::ShaderTagId::ShaderTagId(int32_t m_Id) noexc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ShaderTagId::ShaderTagId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

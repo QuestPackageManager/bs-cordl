@@ -385,5 +385,3 @@ inline void GlobalNamespace::DisconnectedPlayer::_ctor(::StringW userId, ::Strin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisconnectedPlayer::DisconnectedPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

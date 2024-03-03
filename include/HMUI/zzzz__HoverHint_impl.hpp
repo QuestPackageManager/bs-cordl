@@ -223,5 +223,3 @@ inline void HMUI::HoverHint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverHint::HoverHint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

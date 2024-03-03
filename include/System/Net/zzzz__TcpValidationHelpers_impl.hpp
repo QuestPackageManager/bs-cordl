@@ -23,5 +23,3 @@ inline bool System::Net::TcpValidationHelpers::ValidatePortNumber(int32_t port) 
 }
 // Ctor Parameters []
 constexpr ::System::Net::TcpValidationHelpers::TcpValidationHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

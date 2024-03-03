@@ -113,5 +113,3 @@ inline void GlobalNamespace::MoveAndRotateWithMainCamera::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MoveAndRotateWithMainCamera::MoveAndRotateWithMainCamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

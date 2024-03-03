@@ -712,5 +712,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtilit
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

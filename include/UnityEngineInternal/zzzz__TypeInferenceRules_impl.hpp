@@ -10,5 +10,3 @@ constexpr ::UnityEngineInternal::TypeInferenceRules UnityEngineInternal::TypeInf
 constexpr ::UnityEngineInternal::TypeInferenceRules UnityEngineInternal::TypeInferenceRules::TypeReferencedBySecondArgument{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngineInternal::TypeInferenceRules UnityEngineInternal::TypeInferenceRules::ArrayOfTypeReferencedByFirstArgument{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngineInternal::TypeInferenceRules UnityEngineInternal::TypeInferenceRules::TypeOfFirstArgument{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

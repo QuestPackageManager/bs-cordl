@@ -10,5 +10,3 @@ constexpr ::UnityEngine::FontStyle UnityEngine::FontStyle::Normal{ static_cast<i
 constexpr ::UnityEngine::FontStyle UnityEngine::FontStyle::Bold{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::FontStyle UnityEngine::FontStyle::Italic{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::FontStyle UnityEngine::FontStyle::BoldAndItalic{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

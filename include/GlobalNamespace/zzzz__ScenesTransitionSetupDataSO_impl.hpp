@@ -165,5 +165,3 @@ inline void GlobalNamespace::ScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO::ScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

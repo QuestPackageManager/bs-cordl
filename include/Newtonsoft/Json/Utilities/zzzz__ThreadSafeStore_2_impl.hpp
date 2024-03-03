@@ -70,5 +70,3 @@ template <typename TKey, typename TValue> inline TValue Newtonsoft::Json::Utilit
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::ThreadSafeStore_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

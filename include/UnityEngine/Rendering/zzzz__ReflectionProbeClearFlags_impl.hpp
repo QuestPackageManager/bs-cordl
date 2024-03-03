@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeClearFlags::ReflectionProbeCl
 constexpr ::UnityEngine::Rendering::ReflectionProbeClearFlags::ReflectionProbeClearFlags() {}
 constexpr ::UnityEngine::Rendering::ReflectionProbeClearFlags UnityEngine::Rendering::ReflectionProbeClearFlags::Skybox{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeClearFlags UnityEngine::Rendering::ReflectionProbeClearFlags::SolidColor{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

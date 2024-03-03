@@ -153,5 +153,3 @@ inline void Unity::XR::Oculus::Input::OculusHMDExtended::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Input::OculusHMDExtended::OculusHMDExtended() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

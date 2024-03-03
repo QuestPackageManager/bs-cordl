@@ -568,5 +568,3 @@ constexpr ::UnityEngine::PhysicsScene2D::PhysicsScene2D(int32_t m_Handle) noexce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PhysicsScene2D::PhysicsScene2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

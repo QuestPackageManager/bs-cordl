@@ -590,5 +590,3 @@ inline void GlobalNamespace::OVRMeshRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshRenderer::OVRMeshRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

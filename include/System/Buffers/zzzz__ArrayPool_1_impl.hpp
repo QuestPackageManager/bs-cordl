@@ -35,5 +35,3 @@ template <typename T> inline void System::Buffers::ArrayPool_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::ArrayPool_1<T>::ArrayPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

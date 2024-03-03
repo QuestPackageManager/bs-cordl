@@ -1257,5 +1257,3 @@ inline void Newtonsoft::Json::JsonTextWriter::WriteIntegerValue(uint64_t uvalue)
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonTextWriter::JsonTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

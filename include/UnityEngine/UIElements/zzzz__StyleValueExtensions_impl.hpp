@@ -157,5 +157,3 @@ template <typename T> inline void UnityEngine::UIElements::StyleValueExtensions:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleValueExtensions::StyleValueExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

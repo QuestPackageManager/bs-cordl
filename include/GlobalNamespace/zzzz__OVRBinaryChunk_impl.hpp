@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::OVRBinaryChunk::OVRBinaryChunk(::System::IO::Stream
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBinaryChunk::OVRBinaryChunk() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

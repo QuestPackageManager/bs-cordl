@@ -1004,5 +1004,3 @@ inline void HMUI::ContainerViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ContainerViewController::ContainerViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

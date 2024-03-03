@@ -44,5 +44,3 @@ template <typename T> inline int32_t System::Collections::Generic::SByteEnumEqua
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>::SByteEnumEqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

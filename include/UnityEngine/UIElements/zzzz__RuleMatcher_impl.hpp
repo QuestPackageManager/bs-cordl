@@ -29,5 +29,3 @@ constexpr ::UnityEngine::UIElements::RuleMatcher::RuleMatcher(::UnityW<::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RuleMatcher::RuleMatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

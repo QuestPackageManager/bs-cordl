@@ -33,5 +33,3 @@ constexpr ::Mono::MonoAssemblyName::MonoAssemblyName(void* name, void* culture, 
 }
 // Ctor Parameters []
 constexpr ::Mono::MonoAssemblyName::MonoAssemblyName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

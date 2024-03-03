@@ -14,5 +14,3 @@ constexpr ::System::Security::Authentication::SslProtocols System::Security::Aut
 constexpr ::System::Security::Authentication::SslProtocols System::Security::Authentication::SslProtocols::Tls12{ static_cast<int32_t>(0xc00) };
 constexpr ::System::Security::Authentication::SslProtocols System::Security::Authentication::SslProtocols::Tls13{ static_cast<int32_t>(0x3000) };
 constexpr ::System::Security::Authentication::SslProtocols System::Security::Authentication::SslProtocols::Default{ static_cast<int32_t>(0xf0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

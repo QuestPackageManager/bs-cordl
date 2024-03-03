@@ -120,5 +120,3 @@ template <typename T> inline void System::Threading::Volatile::Write(ByRef<T> lo
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Volatile::Volatile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

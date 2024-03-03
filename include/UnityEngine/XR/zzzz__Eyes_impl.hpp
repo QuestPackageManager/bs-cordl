@@ -111,5 +111,3 @@ constexpr ::UnityEngine::XR::Eyes::Eyes(uint64_t m_DeviceId, uint32_t m_FeatureI
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Eyes::Eyes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

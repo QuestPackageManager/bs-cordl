@@ -47,5 +47,3 @@ inline void BeatSaber::AvatarCore::AbstractAdapterInstallerSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AbstractAdapterInstallerSO::AbstractAdapterInstallerSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

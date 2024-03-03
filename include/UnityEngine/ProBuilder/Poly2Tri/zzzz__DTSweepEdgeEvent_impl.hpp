@@ -51,5 +51,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent::DTSweepEdgeEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

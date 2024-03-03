@@ -220,5 +220,3 @@ inline ::System::TimeSpan System::Text::RegularExpressions::RegexMatchTimeoutExc
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexMatchTimeoutException::RegexMatchTimeoutException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

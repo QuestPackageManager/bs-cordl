@@ -8,5 +8,3 @@ constexpr ::UnityEngine::PlayMode::PlayMode(int32_t value__) noexcept {
 constexpr ::UnityEngine::PlayMode::PlayMode() {}
 constexpr ::UnityEngine::PlayMode UnityEngine::PlayMode::StopSameLayer{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::PlayMode UnityEngine::PlayMode::StopAll{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

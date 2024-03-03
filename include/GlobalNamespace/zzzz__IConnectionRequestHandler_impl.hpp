@@ -43,5 +43,3 @@ inline bool GlobalNamespace::IConnectionRequestHandler::ValidateConnectionMessag
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionRequestHandler*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, reader, userId, userName, isConnectionOwner);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

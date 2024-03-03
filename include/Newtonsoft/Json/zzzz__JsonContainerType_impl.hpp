@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonContainerT
 constexpr ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonContainerType::Object{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonContainerType::Array{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::JsonContainerType Newtonsoft::Json::JsonContainerType::Constructor{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

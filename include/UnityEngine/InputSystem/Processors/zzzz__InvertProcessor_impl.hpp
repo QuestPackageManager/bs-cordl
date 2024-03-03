@@ -70,5 +70,3 @@ inline void UnityEngine::InputSystem::Processors::InvertProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::InvertProcessor::InvertProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

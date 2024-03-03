@@ -124,5 +124,3 @@ inline void System::Xml::Schema::XmlSchemaParticle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaParticle::XmlSchemaParticle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

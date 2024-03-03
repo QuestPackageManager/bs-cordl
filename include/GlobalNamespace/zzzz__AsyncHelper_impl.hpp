@@ -127,5 +127,3 @@ inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::AsyncHelper::A
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AsyncHelper::AsyncHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

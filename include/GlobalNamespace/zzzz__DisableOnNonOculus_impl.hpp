@@ -24,5 +24,3 @@ inline void GlobalNamespace::DisableOnNonOculus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableOnNonOculus::DisableOnNonOculus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

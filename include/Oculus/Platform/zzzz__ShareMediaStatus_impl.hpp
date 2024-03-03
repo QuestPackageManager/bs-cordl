@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::ShareMediaStatus::ShareMediaStatus() {}
 constexpr ::Oculus::Platform::ShareMediaStatus Oculus::Platform::ShareMediaStatus::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::ShareMediaStatus Oculus::Platform::ShareMediaStatus::Shared{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::ShareMediaStatus Oculus::Platform::ShareMediaStatus::Canceled{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

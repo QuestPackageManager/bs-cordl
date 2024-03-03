@@ -184,5 +184,3 @@ constexpr ::UnityEngine::Yoga::YogaValue::YogaValue(float_t value, ::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::YogaValue::YogaValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

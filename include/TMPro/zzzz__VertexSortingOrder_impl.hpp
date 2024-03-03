@@ -8,5 +8,3 @@ constexpr ::TMPro::VertexSortingOrder::VertexSortingOrder(int32_t value__) noexc
 constexpr ::TMPro::VertexSortingOrder::VertexSortingOrder() {}
 constexpr ::TMPro::VertexSortingOrder TMPro::VertexSortingOrder::Normal{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::VertexSortingOrder TMPro::VertexSortingOrder::Reverse{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

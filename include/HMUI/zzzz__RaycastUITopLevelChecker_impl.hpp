@@ -88,5 +88,3 @@ inline void HMUI::RaycastUITopLevelChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::RaycastUITopLevelChecker::RaycastUITopLevelChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

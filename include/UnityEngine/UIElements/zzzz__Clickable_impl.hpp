@@ -768,5 +768,3 @@ inline void UnityEngine::UIElements::Clickable::_SimulateSingleClick_b__43_0() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Clickable::Clickable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -29,5 +29,3 @@ inline int32_t System::Numerics::Hashing::HashHelpers::Combine(int32_t h1, int32
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::Hashing::HashHelpers::HashHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

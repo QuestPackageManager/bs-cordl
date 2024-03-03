@@ -81,5 +81,3 @@ Tayx::Graphy::Utils::G_ExtensionMethods::SetAllActive(::System::Collections::Gen
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Utils::G_ExtensionMethods::G_ExtensionMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

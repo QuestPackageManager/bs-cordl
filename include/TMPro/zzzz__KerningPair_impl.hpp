@@ -308,5 +308,3 @@ inline void TMPro::KerningPair::ConvertLegacyKerningData() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::KerningPair::KerningPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

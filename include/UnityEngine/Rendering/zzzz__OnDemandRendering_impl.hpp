@@ -48,5 +48,3 @@ inline void UnityEngine::Rendering::OnDemandRendering::GetRenderFrameInterval(By
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OnDemandRendering::OnDemandRendering() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

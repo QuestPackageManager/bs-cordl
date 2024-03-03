@@ -546,5 +546,3 @@ inline void UnityEngine::InputSystem::Touchscreen::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Touchscreen::Touchscreen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

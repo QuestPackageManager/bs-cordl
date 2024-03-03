@@ -160,5 +160,3 @@ inline void LiteNetLib::NetDebug::WriteError(::StringW str, ::ArrayW<::System::O
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetDebug::NetDebug() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

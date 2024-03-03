@@ -242,5 +242,3 @@ inline void Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::OfbBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

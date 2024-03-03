@@ -1422,5 +1422,3 @@ inline void HMUI::TableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::TableView::TableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

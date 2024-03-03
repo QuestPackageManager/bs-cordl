@@ -39,5 +39,3 @@ inline void System::Xml::Serialization::XmlAttributeAttribute::_ctor(::StringW a
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlAttributeAttribute::XmlAttributeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -467,5 +467,3 @@ inline void System::Security::AccessControl::GenericAce::WriteUShort(uint16_t va
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::GenericAce::GenericAce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

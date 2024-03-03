@@ -73,5 +73,3 @@ inline void System::Threading::Lock::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Lock::Lock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

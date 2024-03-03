@@ -88,5 +88,3 @@ inline void GlobalNamespace::BeatmapDataCallbackWrapper::CallCallback(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper::BeatmapDataCallbackWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

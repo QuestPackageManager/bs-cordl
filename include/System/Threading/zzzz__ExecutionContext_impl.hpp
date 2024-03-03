@@ -1066,5 +1066,3 @@ inline bool System::Threading::ExecutionContext::IsDefaultFTContext(bool ignoreS
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ExecutionContext::ExecutionContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

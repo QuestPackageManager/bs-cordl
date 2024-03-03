@@ -435,5 +435,3 @@ inline ::System::Text::Encoder* System::Text::ASCIIEncoding::GetEncoder() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::ASCIIEncoding::ASCIIEncoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

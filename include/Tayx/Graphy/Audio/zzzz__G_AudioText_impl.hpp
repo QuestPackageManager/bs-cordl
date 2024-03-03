@@ -159,5 +159,3 @@ inline void Tayx::Graphy::Audio::G_AudioText::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Audio::G_AudioText::G_AudioText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

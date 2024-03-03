@@ -12,5 +12,3 @@ constexpr ::System::Security::Cryptography::AsnDecodeStatus System::Security::Cr
 constexpr ::System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::AsnDecodeStatus::BadTag{ static_cast<int32_t>(0x2) };
 constexpr ::System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::AsnDecodeStatus::BadLength{ static_cast<int32_t>(0x3) };
 constexpr ::System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::AsnDecodeStatus::InformationNotAvailable{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

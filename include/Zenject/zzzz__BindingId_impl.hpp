@@ -238,5 +238,3 @@ constexpr ::Zenject::BindingId::BindingId(::System::Type* _type, ::System::Objec
 }
 // Ctor Parameters []
 constexpr ::Zenject::BindingId::BindingId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

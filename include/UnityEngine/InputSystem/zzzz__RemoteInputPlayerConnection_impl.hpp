@@ -548,5 +548,3 @@ inline void UnityEngine::InputSystem::RemoteInputPlayerConnection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::RemoteInputPlayerConnection::RemoteInputPlayerConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

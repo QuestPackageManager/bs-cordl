@@ -72,5 +72,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::PathFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::PathFilter::PathFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

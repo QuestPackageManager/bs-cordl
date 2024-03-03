@@ -226,5 +226,3 @@ inline void Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::DefaultSignatureAlgorithmIdentifierFinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

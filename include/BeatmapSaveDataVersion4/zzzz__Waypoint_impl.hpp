@@ -11,5 +11,3 @@ constexpr ::BeatmapSaveDataVersion4::Waypoint::Waypoint(int32_t x, int32_t y, ::
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::Waypoint::Waypoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

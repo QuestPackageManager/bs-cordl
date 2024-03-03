@@ -114,5 +114,3 @@ inline void System::Text::EncoderFallback::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderFallback::EncoderFallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

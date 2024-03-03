@@ -1154,5 +1154,3 @@ inline void UnityEngine::Cubemap::GetPixelImpl_Injected(int32_t image, int32_t m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Cubemap::Cubemap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

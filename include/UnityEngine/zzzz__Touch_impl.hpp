@@ -345,5 +345,3 @@ constexpr ::UnityEngine::Touch::Touch(int32_t m_FingerId, ::UnityEngine::Vector2
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Touch::Touch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

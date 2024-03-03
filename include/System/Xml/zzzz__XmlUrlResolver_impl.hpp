@@ -227,5 +227,3 @@ inline ::System::Threading::Tasks::Task_1<::System::Object*>* System::Xml::XmlUr
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlUrlResolver::XmlUrlResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

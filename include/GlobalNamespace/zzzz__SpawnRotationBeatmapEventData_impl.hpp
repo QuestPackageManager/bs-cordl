@@ -254,5 +254,3 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::SpawnRotationBeatma
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpawnRotationBeatmapEventData::SpawnRotationBeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

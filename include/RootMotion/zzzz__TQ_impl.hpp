@@ -56,5 +56,3 @@ inline void RootMotion::TQ::_ctor(::UnityEngine::Vector3 translation, ::UnityEng
 }
 // Ctor Parameters []
 constexpr ::RootMotion::TQ::TQ() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

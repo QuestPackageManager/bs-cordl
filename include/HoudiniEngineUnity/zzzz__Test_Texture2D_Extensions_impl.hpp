@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Texture2D_Extensions::ToTestObject(::System::Collection
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Texture2D_Extensions::Test_Texture2D_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

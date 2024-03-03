@@ -208,5 +208,3 @@ inline void Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::Encode(::Org::Bo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::PublicKeyEncSessionPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

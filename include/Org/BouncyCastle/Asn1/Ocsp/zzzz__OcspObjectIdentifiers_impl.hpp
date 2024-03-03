@@ -98,5 +98,3 @@ inline void Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers::OcspObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

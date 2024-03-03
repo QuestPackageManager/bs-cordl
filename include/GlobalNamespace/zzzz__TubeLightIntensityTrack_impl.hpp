@@ -24,5 +24,3 @@ inline void GlobalNamespace::TubeLightIntensityTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeLightIntensityTrack::TubeLightIntensityTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

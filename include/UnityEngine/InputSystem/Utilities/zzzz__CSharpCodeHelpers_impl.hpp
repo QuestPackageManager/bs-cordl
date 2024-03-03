@@ -105,5 +105,3 @@ inline ::StringW UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::MakeTyp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::CSharpCodeHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

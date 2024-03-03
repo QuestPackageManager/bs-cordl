@@ -20,5 +20,3 @@ constexpr ::UnityEngine::UIElements::GradientSettings::GradientSettings(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GradientSettings::GradientSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -32,5 +32,3 @@ inline ::UnityEngine::Vector3 GlobalNamespace::SplineUtils::Interpolate(::UnityE
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SplineUtils::SplineUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

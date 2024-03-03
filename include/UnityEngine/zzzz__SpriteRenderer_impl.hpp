@@ -657,5 +657,3 @@ inline void UnityEngine::SpriteRenderer::Internal_GetSpriteBounds_Injected(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpriteRenderer::SpriteRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

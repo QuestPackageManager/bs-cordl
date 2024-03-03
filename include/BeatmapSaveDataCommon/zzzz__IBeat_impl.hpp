@@ -48,5 +48,3 @@ inline int32_t BeatmapSaveDataCommon::IBeat::System_IComparable_BeatmapSaveDataC
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::IBeat*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, other);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -92,5 +92,3 @@ template <typename T> inline void System::WeakReference_1<T>::Finalize() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::WeakReference_1<T>::WeakReference_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

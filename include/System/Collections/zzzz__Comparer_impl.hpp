@@ -148,5 +148,3 @@ inline int32_t System::Collections::Comparer::Compare(::System::Object* a, ::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Comparer::Comparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

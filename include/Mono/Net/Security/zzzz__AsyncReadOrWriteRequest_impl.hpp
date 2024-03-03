@@ -141,5 +141,3 @@ inline ::StringW Mono::Net::Security::AsyncReadOrWriteRequest::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncReadOrWriteRequest::AsyncReadOrWriteRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

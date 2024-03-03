@@ -90,5 +90,3 @@ inline int32_t System::Xml::IDtdDefaultAttributeInfo::get_ValueLinePosition() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdDefaultAttributeInfo*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

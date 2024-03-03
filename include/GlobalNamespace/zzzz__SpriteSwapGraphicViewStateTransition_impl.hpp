@@ -326,5 +326,3 @@ inline void GlobalNamespace::SpriteSwapGraphicViewStateTransition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SpriteSwapGraphicViewStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -531,5 +531,3 @@ inline void GlobalNamespace::SelectLevelCategoryViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectLevelCategoryViewController::SelectLevelCategoryViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

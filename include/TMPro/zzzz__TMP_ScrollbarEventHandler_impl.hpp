@@ -137,5 +137,3 @@ inline void TMPro::TMP_ScrollbarEventHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_ScrollbarEventHandler::TMP_ScrollbarEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

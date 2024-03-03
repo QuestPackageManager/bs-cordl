@@ -53,5 +53,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier::ZSignedDigitR2LMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

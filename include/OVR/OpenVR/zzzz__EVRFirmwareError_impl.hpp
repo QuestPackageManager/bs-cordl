@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVRFirmwareError::EVRFirmwareError() {}
 constexpr ::OVR::OpenVR::EVRFirmwareError OVR::OpenVR::EVRFirmwareError::None{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRFirmwareError OVR::OpenVR::EVRFirmwareError::Success{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRFirmwareError OVR::OpenVR::EVRFirmwareError::Fail{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

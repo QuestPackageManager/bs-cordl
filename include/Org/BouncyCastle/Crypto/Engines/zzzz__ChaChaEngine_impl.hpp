@@ -179,5 +179,3 @@ inline void Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChachaCore(int32_t
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChaChaEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

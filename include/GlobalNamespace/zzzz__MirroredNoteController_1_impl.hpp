@@ -194,5 +194,3 @@ template <typename T> inline void GlobalNamespace::MirroredNoteController_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::MirroredNoteController_1<T>::MirroredNoteController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

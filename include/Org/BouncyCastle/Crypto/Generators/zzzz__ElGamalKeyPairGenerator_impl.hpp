@@ -95,5 +95,3 @@ inline void Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::_cto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::ElGamalKeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

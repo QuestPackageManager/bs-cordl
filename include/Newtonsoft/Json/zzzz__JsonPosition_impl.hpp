@@ -151,5 +151,3 @@ constexpr ::Newtonsoft::Json::JsonPosition::JsonPosition(::Newtonsoft::Json::Jso
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonPosition::JsonPosition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

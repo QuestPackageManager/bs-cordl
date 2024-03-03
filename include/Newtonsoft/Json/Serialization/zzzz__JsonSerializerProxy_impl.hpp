@@ -1466,5 +1466,3 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerProxy::SerializeInter
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerProxy::JsonSerializerProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

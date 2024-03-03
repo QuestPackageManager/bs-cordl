@@ -82,5 +82,3 @@ inline bool Org::BouncyCastle::Crypto::IDsa::VerifySignature(::ArrayW<uint8_t, :
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::IDsa*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, message, r, s);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -606,5 +606,3 @@ inline void System::Xml::XmlAttribute::SetParent(::System::Xml::XmlNode* node) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAttribute::XmlAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -242,5 +242,3 @@ inline void Ice::__FloorLightTile__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::__FloorLightTile__Pool::__FloorLightTile__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

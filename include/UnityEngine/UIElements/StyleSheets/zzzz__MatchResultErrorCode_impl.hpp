@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode UnityEngi
 constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode UnityEngine::UIElements::StyleSheets::MatchResultErrorCode::Syntax{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode UnityEngine::UIElements::StyleSheets::MatchResultErrorCode::EmptyValue{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode UnityEngine::UIElements::StyleSheets::MatchResultErrorCode::ExpectedEndOfValue{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

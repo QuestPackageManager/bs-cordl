@@ -366,5 +366,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::FpCu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::FpCurve::FpCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -276,5 +276,3 @@ inline void GlobalNamespace::DefaultSceneStart::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultSceneStart::DefaultSceneStart() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

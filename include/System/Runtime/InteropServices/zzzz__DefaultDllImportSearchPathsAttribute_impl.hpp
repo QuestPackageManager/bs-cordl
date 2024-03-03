@@ -42,5 +42,3 @@ inline void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribu
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::DefaultDllImportSearchPathsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

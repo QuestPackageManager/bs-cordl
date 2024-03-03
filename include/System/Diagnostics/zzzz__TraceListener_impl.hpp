@@ -448,5 +448,3 @@ inline bool System::Diagnostics::TraceListener::IsEnabled(::System::Diagnostics:
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceListener::TraceListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

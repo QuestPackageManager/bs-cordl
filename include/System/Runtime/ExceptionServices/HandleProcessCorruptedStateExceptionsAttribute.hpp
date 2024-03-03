@@ -1,3 +1,5 @@
 #pragma once
 #include "System/Runtime/ExceptionServices/zzzz__HandleProcessCorruptedStateExceptionsAttribute_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "System/Runtime/ExceptionServices/zzzz__HandleProcessCorruptedStateExceptionsAttribute_impl.hpp"
+#endif

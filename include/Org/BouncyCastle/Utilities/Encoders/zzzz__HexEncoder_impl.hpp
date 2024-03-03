@@ -222,5 +222,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Utilities::Encode
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::HexEncoder::HexEncoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

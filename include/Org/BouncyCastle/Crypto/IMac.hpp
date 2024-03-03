@@ -1,3 +1,5 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_impl.hpp"
+#endif

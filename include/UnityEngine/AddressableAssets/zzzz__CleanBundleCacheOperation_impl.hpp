@@ -381,5 +381,3 @@ inline ::System::Collections::Generic::HashSet_1<::StringW>* UnityEngine::Addres
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::CleanBundleCacheOperation::CleanBundleCacheOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

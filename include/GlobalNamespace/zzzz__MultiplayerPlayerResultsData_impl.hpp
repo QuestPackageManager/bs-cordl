@@ -102,5 +102,3 @@ inline int32_t GlobalNamespace::MultiplayerPlayerResultsData::CompareTo(::System
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPlayerResultsData::MultiplayerPlayerResultsData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

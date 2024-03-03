@@ -1056,5 +1056,3 @@ inline ::StringW System::Runtime::Remoting::RemotingServices::GetNormalizedUri(:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::RemotingServices::RemotingServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

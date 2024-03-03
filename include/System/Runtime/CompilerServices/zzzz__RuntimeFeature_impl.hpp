@@ -21,5 +21,3 @@ inline bool System::Runtime::CompilerServices::RuntimeFeature::get_IsDynamicCode
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::RuntimeFeature::RuntimeFeature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

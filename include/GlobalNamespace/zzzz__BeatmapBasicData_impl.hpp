@@ -158,5 +158,3 @@ inline void GlobalNamespace::BeatmapBasicData::_ctor(float_t noteJumpMovementSpe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapBasicData::BeatmapBasicData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -159,5 +159,3 @@ inline void GlobalNamespace::QuestAppInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuestAppInit::QuestAppInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

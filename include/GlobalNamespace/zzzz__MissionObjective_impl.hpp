@@ -215,5 +215,3 @@ inline void GlobalNamespace::MissionObjective::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionObjective::MissionObjective() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

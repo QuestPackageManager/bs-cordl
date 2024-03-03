@@ -25,5 +25,3 @@ inline void BGLib::DotnetExtension::IntegerExtensions::ToUInt(int32_t number, By
 }
 // Ctor Parameters []
 constexpr ::BGLib::DotnetExtension::IntegerExtensions::IntegerExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

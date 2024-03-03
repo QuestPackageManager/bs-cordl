@@ -89,5 +89,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::FileHelpers::Ge
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileHelpers::FileHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

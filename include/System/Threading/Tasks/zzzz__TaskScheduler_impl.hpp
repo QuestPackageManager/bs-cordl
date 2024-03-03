@@ -307,5 +307,3 @@ inline void System::Threading::Tasks::TaskScheduler::PublishUnobservedTaskExcept
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskScheduler::TaskScheduler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

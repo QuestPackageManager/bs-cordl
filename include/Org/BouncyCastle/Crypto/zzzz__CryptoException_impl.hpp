@@ -75,5 +75,3 @@ inline void Org::BouncyCastle::Crypto::CryptoException::_ctor(::StringW message,
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::CryptoException::CryptoException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

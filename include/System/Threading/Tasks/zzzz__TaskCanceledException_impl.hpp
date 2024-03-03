@@ -115,5 +115,3 @@ inline void System::Threading::Tasks::TaskCanceledException::_ctor(::System::Run
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskCanceledException::TaskCanceledException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

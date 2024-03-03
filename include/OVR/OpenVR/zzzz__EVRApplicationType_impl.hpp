@@ -15,5 +15,3 @@ constexpr ::OVR::OpenVR::EVRApplicationType OVR::OpenVR::EVRApplicationType::VRA
 constexpr ::OVR::OpenVR::EVRApplicationType OVR::OpenVR::EVRApplicationType::VRApplication_SteamWatchdog{ static_cast<int32_t>(0x6) };
 constexpr ::OVR::OpenVR::EVRApplicationType OVR::OpenVR::EVRApplicationType::VRApplication_Bootstrapper{ static_cast<int32_t>(0x7) };
 constexpr ::OVR::OpenVR::EVRApplicationType OVR::OpenVR::EVRApplicationType::VRApplication_Max{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -284,5 +284,3 @@ inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::OpenSsl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::PemReader::PemReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

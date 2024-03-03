@@ -68,5 +68,3 @@ inline void Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::_c
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::AbstractTlsEncryptionCredentials() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

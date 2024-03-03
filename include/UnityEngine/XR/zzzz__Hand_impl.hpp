@@ -111,5 +111,3 @@ constexpr ::UnityEngine::XR::Hand::Hand(uint64_t m_DeviceId, uint32_t m_FeatureI
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Hand::Hand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

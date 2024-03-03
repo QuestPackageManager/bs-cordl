@@ -96,5 +96,3 @@ inline void UnityEngine::ProBuilder::Entity::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Entity::Entity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

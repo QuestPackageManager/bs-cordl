@@ -218,5 +218,3 @@ constexpr ::UnityEngine::ProBuilder::Triangle::Triangle(int32_t m_A, int32_t m_B
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Triangle::Triangle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

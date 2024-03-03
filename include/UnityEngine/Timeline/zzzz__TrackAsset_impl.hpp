@@ -2736,5 +2736,3 @@ inline void UnityEngine::Timeline::TrackAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackAsset::TrackAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

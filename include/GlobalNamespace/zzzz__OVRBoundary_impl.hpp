@@ -237,5 +237,3 @@ inline void GlobalNamespace::OVRBoundary::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBoundary::OVRBoundary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

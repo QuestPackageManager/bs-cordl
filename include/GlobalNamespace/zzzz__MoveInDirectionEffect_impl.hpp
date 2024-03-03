@@ -163,5 +163,3 @@ inline void GlobalNamespace::MoveInDirectionEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MoveInDirectionEffect::MoveInDirectionEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

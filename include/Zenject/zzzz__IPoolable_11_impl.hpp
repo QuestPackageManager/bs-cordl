@@ -20,5 +20,3 @@ inline void Zenject::IPoolable_11<TParam1, TParam2, TParam3, TParam4, TParam5, T
       1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

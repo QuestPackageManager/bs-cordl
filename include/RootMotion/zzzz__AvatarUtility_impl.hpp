@@ -101,5 +101,3 @@ inline void RootMotion::AvatarUtility::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::AvatarUtility::AvatarUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

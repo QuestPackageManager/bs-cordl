@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyDescriptionAttribute::_ctor(::StringW de
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyDescriptionAttribute::AssemblyDescriptionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

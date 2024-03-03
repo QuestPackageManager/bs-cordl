@@ -116,5 +116,3 @@ inline void System::OrdinalIgnoreCaseComparer::GetObjectData(::System::Runtime::
 }
 // Ctor Parameters []
 constexpr ::System::OrdinalIgnoreCaseComparer::OrdinalIgnoreCaseComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

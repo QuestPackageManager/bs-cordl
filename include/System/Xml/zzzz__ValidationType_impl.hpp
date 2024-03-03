@@ -11,5 +11,3 @@ constexpr ::System::Xml::ValidationType System::Xml::ValidationType::Auto{ stati
 constexpr ::System::Xml::ValidationType System::Xml::ValidationType::DTD{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::ValidationType System::Xml::ValidationType::XDR{ static_cast<int32_t>(0x3) };
 constexpr ::System::Xml::ValidationType System::Xml::ValidationType::Schema{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

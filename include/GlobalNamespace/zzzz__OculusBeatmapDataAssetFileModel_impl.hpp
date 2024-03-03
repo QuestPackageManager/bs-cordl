@@ -1016,5 +1016,3 @@ inline void GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDow
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel::OculusBeatmapDataAssetFileModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

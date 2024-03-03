@@ -190,5 +190,3 @@ inline void System::__Enum__ValuesAndNames::_ctor(::ArrayW<uint64_t, ::Array<uin
 }
 // Ctor Parameters []
 constexpr ::System::__Enum__ValuesAndNames::__Enum__ValuesAndNames() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

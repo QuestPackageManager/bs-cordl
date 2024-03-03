@@ -127,5 +127,3 @@ inline void Newtonsoft::Json::JsonConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonConverter::JsonConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

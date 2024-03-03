@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VREvent_Overlay_t::VREvent_Overlay_t(uint64_t overlayHa
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Overlay_t::VREvent_Overlay_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

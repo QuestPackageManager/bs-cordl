@@ -176,5 +176,3 @@ inline bool System::Xml::XmlCharacterData::CheckOnData(::StringW data) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCharacterData::XmlCharacterData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -166,5 +166,3 @@ inline bool System::ComponentModel::DesignerSerializationVisibilityAttribute::Is
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignerSerializationVisibilityAttribute::DesignerSerializationVisibilityAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Video::VideoRenderMode UnityEngine::Video::VideoRenderM
 constexpr ::UnityEngine::Video::VideoRenderMode UnityEngine::Video::VideoRenderMode::RenderTexture{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Video::VideoRenderMode UnityEngine::Video::VideoRenderMode::MaterialOverride{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Video::VideoRenderMode UnityEngine::Video::VideoRenderMode::APIOnly{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

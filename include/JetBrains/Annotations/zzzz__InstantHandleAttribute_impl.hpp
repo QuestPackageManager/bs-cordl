@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::InstantHandleAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::InstantHandleAttribute::InstantHandleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -80,5 +80,3 @@ inline void Newtonsoft::Json::Linq::JTokenEqualityComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JTokenEqualityComparer::JTokenEqualityComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

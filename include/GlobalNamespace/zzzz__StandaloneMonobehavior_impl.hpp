@@ -792,5 +792,3 @@ inline void GlobalNamespace::StandaloneMonobehavior::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandaloneMonobehavior::StandaloneMonobehavior() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

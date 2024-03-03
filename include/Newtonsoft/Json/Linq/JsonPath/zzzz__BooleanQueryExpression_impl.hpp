@@ -185,5 +185,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::BooleanQueryExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

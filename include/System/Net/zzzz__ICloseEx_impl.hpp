@@ -20,5 +20,3 @@ inline void System::Net::ICloseEx::CloseEx(::System::Net::CloseExState closeStat
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ICloseEx*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, closeState);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

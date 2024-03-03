@@ -42,5 +42,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::JZlib::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::JZlib::JZlib() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

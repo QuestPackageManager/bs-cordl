@@ -96,5 +96,3 @@ inline void System::Threading::Tasks::StandardTaskContinuation::Run(::System::Th
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::StandardTaskContinuation::StandardTaskContinuation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

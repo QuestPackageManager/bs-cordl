@@ -94,5 +94,3 @@ inline void BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::LightGroupDuplicationGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

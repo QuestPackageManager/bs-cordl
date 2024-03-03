@@ -388,5 +388,3 @@ constexpr ::UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayabl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

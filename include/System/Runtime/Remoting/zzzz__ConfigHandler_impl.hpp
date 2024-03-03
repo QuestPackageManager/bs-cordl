@@ -637,5 +637,3 @@ inline void System::Runtime::Remoting::ConfigHandler::OnEndParsing(::Mono::Xml::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ConfigHandler::ConfigHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

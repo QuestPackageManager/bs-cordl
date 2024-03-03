@@ -519,5 +519,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1FieldElement::SM2P256V1FieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

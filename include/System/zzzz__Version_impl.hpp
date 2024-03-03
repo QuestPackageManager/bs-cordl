@@ -777,5 +777,3 @@ inline bool System::Version::op_GreaterThanOrEqual(::System::Version* v1, ::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Version::Version() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

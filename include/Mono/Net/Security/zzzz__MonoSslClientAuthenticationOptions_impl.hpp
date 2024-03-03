@@ -351,5 +351,3 @@ inline void Mono::Net::Security::MonoSslClientAuthenticationOptions::set_ServerC
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MonoSslClientAuthenticationOptions::MonoSslClientAuthenticationOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

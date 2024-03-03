@@ -74,5 +74,3 @@ inline void GlobalNamespace::LightColorBeatmapEventDataProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBeatmapEventDataProcessor::LightColorBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -200,5 +200,3 @@ inline ::System::Exception* System::Xml::ValidateNames::GetInvalidNameException(
 }
 // Ctor Parameters []
 constexpr ::System::Xml::ValidateNames::ValidateNames() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

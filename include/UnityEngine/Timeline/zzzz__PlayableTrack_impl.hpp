@@ -45,5 +45,3 @@ inline void UnityEngine::Timeline::PlayableTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::PlayableTrack::PlayableTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

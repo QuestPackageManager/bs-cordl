@@ -135,5 +135,3 @@ constexpr ::System::Runtime::Serialization::StreamingContext::StreamingContext(:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::StreamingContext::StreamingContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -521,5 +521,3 @@ inline int32_t Newtonsoft::Json::Serialization::TraceJsonReader::Newtonsoft_Json
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::TraceJsonReader::TraceJsonReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

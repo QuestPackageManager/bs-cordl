@@ -143,5 +143,3 @@ inline void GlobalNamespace::MockComboController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockComboController::MockComboController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EDualAnalogWhich::EDualAnalogWhich(int32_t value__) noe
 constexpr ::OVR::OpenVR::EDualAnalogWhich::EDualAnalogWhich() {}
 constexpr ::OVR::OpenVR::EDualAnalogWhich OVR::OpenVR::EDualAnalogWhich::k_EDualAnalog_Left{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EDualAnalogWhich OVR::OpenVR::EDualAnalogWhich::k_EDualAnalog_Right{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

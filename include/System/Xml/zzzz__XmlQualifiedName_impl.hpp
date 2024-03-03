@@ -435,5 +435,3 @@ inline ::System::Xml::XmlQualifiedName* System::Xml::XmlQualifiedName::Parse(::S
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlQualifiedName::XmlQualifiedName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -233,5 +233,3 @@ inline void GlobalNamespace::LobbyGameStateModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyGameStateModel::LobbyGameStateModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

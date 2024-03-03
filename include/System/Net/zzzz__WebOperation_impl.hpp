@@ -1001,5 +1001,3 @@ inline void System::Net::WebOperation::_RegisterRequest_b__48_0() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebOperation::WebOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

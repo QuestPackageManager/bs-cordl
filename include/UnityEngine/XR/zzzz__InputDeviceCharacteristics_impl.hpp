@@ -18,5 +18,3 @@ constexpr ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDe
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDeviceCharacteristics::Left{ static_cast<uint32_t>(0x820081u) };
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDeviceCharacteristics::Right{ static_cast<uint32_t>(0x840082u) };
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDeviceCharacteristics::Simulated6DOF{ static_cast<uint32_t>(0x1000084u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -599,5 +599,3 @@ inline ::System::Xml::IDtdInfo* System::Xml::XmlTextReader::get_DtdInfo() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlTextReader::XmlTextReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

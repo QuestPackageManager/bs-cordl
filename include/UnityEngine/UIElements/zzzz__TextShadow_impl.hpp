@@ -172,5 +172,3 @@ constexpr ::UnityEngine::UIElements::TextShadow::TextShadow(::UnityEngine::Vecto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextShadow::TextShadow() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

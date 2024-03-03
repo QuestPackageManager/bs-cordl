@@ -158,5 +158,3 @@ inline void GlobalNamespace::PresentHiddenSettingsAfterNClicks::_OnEnable_b__6_0
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PresentHiddenSettingsAfterNClicks::PresentHiddenSettingsAfterNClicks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

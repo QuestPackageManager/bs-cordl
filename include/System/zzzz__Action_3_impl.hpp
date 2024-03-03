@@ -18,5 +18,3 @@ template <typename T1, typename T2, typename T3> inline void System::Action_3<T1
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::System::Action_3<T1, T2, T3>::Action_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

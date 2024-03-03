@@ -1322,5 +1322,3 @@ inline void UnityEngine::RenderSettings::set_ambientProbe_Injected(ByRef<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RenderSettings::RenderSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

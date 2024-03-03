@@ -16,5 +16,3 @@ constexpr ::System::Text::RegularExpressions::RegexOptions System::Text::Regular
 constexpr ::System::Text::RegularExpressions::RegexOptions System::Text::RegularExpressions::RegexOptions::RightToLeft{ static_cast<int32_t>(0x40) };
 constexpr ::System::Text::RegularExpressions::RegexOptions System::Text::RegularExpressions::RegexOptions::ECMAScript{ static_cast<int32_t>(0x100) };
 constexpr ::System::Text::RegularExpressions::RegexOptions System::Text::RegularExpressions::RegexOptions::CultureInvariant{ static_cast<int32_t>(0x200) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

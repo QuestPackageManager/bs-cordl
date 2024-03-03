@@ -891,5 +891,3 @@ inline int32_t System::Text::UTF8Encoding::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::UTF8Encoding::UTF8Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

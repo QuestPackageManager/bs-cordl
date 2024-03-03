@@ -1535,5 +1535,3 @@ inline ::System::Object* GlobalNamespace::__SliderController___DissolveCoroutine
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__SliderController___DissolveCoroutine_d__70::__SliderController___DissolveCoroutine_d__70() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -285,5 +285,3 @@ inline void GlobalNamespace::CuttableBySaber::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CuttableBySaber::CuttableBySaber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

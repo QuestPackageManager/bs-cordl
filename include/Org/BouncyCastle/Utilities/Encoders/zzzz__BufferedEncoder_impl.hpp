@@ -121,5 +121,3 @@ inline int32_t Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessB
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::BufferedEncoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

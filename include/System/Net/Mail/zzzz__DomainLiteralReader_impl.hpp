@@ -23,5 +23,3 @@ inline int32_t System::Net::Mail::DomainLiteralReader::ReadReverse(::StringW dat
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::DomainLiteralReader::DomainLiteralReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

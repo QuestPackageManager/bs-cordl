@@ -148,5 +148,3 @@ inline void UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt(double_t local
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::InfiniteRuntimeClip::InfiniteRuntimeClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

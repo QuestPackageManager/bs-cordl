@@ -69,5 +69,3 @@ inline ::StringW System::Net::NetRes::GetWebStatusCodeString(::System::Net::FtpS
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetRes::NetRes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

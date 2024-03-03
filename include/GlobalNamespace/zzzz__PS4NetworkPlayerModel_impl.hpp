@@ -24,5 +24,3 @@ inline void GlobalNamespace::PS4NetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4NetworkPlayerModel::PS4NetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

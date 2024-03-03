@@ -127,5 +127,3 @@ inline void Org::BouncyCastle::Asn1::DerSetGenerator::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerSetGenerator::DerSetGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

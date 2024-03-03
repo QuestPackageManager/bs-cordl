@@ -76,5 +76,3 @@ inline void Oculus::Platform::RichPresenceOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::RichPresenceOptions::RichPresenceOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

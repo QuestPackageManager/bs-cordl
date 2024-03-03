@@ -279,5 +279,3 @@ inline bool System::Xml::XmlDocumentFragment::CanInsertAfter(::System::Xml::XmlN
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlDocumentFragment::XmlDocumentFragment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

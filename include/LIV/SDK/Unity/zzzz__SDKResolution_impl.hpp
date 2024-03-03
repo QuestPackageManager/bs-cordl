@@ -44,5 +44,3 @@ constexpr ::LIV::SDK::Unity::SDKResolution::SDKResolution(int32_t width, int32_t
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKResolution::SDKResolution() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

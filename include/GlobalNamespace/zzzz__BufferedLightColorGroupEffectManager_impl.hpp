@@ -124,5 +124,3 @@ inline void GlobalNamespace::BufferedLightColorGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BufferedLightColorGroupEffectManager::BufferedLightColorGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

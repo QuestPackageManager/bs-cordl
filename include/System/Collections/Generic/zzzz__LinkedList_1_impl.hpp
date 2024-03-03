@@ -473,5 +473,3 @@ template <typename T> inline ::System::Collections::IEnumerator* System::Collect
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>::LinkedList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

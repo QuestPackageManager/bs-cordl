@@ -567,5 +567,3 @@ inline void RootMotion::FinalIK::VRIK::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::VRIK::VRIK() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

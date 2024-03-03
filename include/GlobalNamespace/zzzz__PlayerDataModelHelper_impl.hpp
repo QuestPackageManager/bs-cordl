@@ -141,5 +141,3 @@ GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData(::GlobalNamespa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerDataModelHelper::PlayerDataModelHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

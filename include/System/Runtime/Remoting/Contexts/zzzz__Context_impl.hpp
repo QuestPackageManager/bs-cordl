@@ -927,5 +927,3 @@ inline void System::Runtime::Remoting::Contexts::Context::SetData(::System::Loca
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Contexts::Context::Context() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

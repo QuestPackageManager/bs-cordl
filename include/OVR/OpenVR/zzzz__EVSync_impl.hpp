@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVSync::EVSync() {}
 constexpr ::OVR::OpenVR::EVSync OVR::OpenVR::EVSync::None{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVSync OVR::OpenVR::EVSync::WaitRender{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVSync OVR::OpenVR::EVSync::NoWaitRender{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

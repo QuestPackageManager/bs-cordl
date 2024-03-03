@@ -91,5 +91,3 @@ constexpr ::System::Linq::Expressions::ExpressionType System::Linq::Expressions:
 constexpr ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::ExpressionType::OnesComplement{ static_cast<int32_t>(0x52) };
 constexpr ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::ExpressionType::IsTrue{ static_cast<int32_t>(0x53) };
 constexpr ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::ExpressionType::IsFalse{ static_cast<int32_t>(0x54) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

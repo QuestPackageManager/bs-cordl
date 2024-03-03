@@ -421,5 +421,3 @@ inline void UnityEngine::Networking::DownloadHandler::CreateNativeArrayForNative
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandler::DownloadHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

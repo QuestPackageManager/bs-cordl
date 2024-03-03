@@ -45,5 +45,3 @@ inline void GlobalNamespace::TextureEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextureEffectSO::TextureEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

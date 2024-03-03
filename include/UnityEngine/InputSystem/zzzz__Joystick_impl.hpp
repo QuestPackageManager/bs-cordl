@@ -394,5 +394,3 @@ inline void UnityEngine::InputSystem::Joystick::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Joystick::Joystick() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

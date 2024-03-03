@@ -58,5 +58,3 @@ Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke(::Strin
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback::MonoLocalCertificateSelectionCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

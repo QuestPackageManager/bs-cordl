@@ -40,5 +40,3 @@ inline void GlobalNamespace::IntFxBaseData::_ctor(float_t beat, bool usePrevious
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IntFxBaseData::IntFxBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

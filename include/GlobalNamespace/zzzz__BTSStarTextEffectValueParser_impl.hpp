@@ -63,5 +63,3 @@ inline int32_t GlobalNamespace::BTSStarTextEffectValueParser::MergeValuesIntoOne
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSStarTextEffectValueParser::BTSStarTextEffectValueParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

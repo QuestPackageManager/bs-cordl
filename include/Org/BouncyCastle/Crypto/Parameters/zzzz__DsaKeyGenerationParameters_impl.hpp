@@ -67,5 +67,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* Org::BouncyCastle
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters::DsaKeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

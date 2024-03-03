@@ -9,5 +9,3 @@ constexpr ::System::Threading::Tasks::CausalitySynchronousWork::CausalitySynchro
 constexpr ::System::Threading::Tasks::CausalitySynchronousWork System::Threading::Tasks::CausalitySynchronousWork::CompletionNotification{ static_cast<int32_t>(0x0) };
 constexpr ::System::Threading::Tasks::CausalitySynchronousWork System::Threading::Tasks::CausalitySynchronousWork::ProgressNotification{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::Tasks::CausalitySynchronousWork System::Threading::Tasks::CausalitySynchronousWork::Execution{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

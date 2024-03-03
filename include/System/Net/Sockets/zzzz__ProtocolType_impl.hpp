@@ -31,5 +31,3 @@ constexpr ::System::Net::Sockets::ProtocolType System::Net::Sockets::ProtocolTyp
 constexpr ::System::Net::Sockets::ProtocolType System::Net::Sockets::ProtocolType::Spx{ static_cast<int32_t>(0x4e8) };
 constexpr ::System::Net::Sockets::ProtocolType System::Net::Sockets::ProtocolType::SpxII{ static_cast<int32_t>(0x4e9) };
 constexpr ::System::Net::Sockets::ProtocolType System::Net::Sockets::ProtocolType::Unknown{ static_cast<int32_t>(0xffffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

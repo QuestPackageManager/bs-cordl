@@ -452,5 +452,3 @@ inline void UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ShorthandApplicator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

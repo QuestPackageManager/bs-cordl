@@ -15,5 +15,3 @@ constexpr ::UnityEngine::Rendering::CompareFunction UnityEngine::Rendering::Comp
 constexpr ::UnityEngine::Rendering::CompareFunction UnityEngine::Rendering::CompareFunction::NotEqual{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Rendering::CompareFunction UnityEngine::Rendering::CompareFunction::GreaterEqual{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::Rendering::CompareFunction UnityEngine::Rendering::CompareFunction::Always{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -418,5 +418,3 @@ template <typename TValueType> inline ::UnityEngine::Rect UnityEngine::UIElement
 }
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseField_1<TValueType>::BaseField_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

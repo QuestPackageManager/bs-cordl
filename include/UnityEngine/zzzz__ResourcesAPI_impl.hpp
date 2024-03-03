@@ -197,5 +197,3 @@ inline void UnityEngine::ResourcesAPI::UnloadAsset(::UnityEngine::Object* assetT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourcesAPI::ResourcesAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

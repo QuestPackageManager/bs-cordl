@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject(::System::Collections
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Collider_Extensions::Test_Collider_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

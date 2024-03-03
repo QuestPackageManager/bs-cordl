@@ -1102,5 +1102,3 @@ constexpr ::OVR::OpenVR::IVRSettings::IVRSettings(::OVR::OpenVR::__IVRSettings__
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRSettings::IVRSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

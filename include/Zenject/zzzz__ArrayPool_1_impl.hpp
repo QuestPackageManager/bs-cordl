@@ -56,5 +56,3 @@ template <typename T> inline ::Zenject::ArrayPool_1<T>* Zenject::ArrayPool_1<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::ArrayPool_1<T>::ArrayPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

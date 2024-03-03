@@ -52,5 +52,3 @@ inline void System::TypeAccessException::_ctor(::System::Runtime::Serialization:
 }
 // Ctor Parameters []
 constexpr ::System::TypeAccessException::TypeAccessException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline float_t UnityEngine::UIElements::AlignmentUtils::CeilToPixelGrid(float_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::AlignmentUtils::AlignmentUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::VREvent_Scroll_t::VREvent_Scroll_t(float_t xdelta, floa
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Scroll_t::VREvent_Scroll_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

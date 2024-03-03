@@ -152,5 +152,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::AreParam
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::DefaultTlsSrpGroupVerifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

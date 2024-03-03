@@ -205,5 +205,3 @@ inline void GlobalNamespace::BlurredCoverImageView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BlurredCoverImageView::BlurredCoverImageView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

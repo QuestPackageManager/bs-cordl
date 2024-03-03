@@ -63,5 +63,3 @@ inline void TMPro::TMP_SelectionCaret::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SelectionCaret::TMP_SelectionCaret() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

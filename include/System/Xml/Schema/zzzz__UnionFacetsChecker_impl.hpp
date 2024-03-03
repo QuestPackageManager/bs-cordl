@@ -68,5 +68,3 @@ inline void System::Xml::Schema::UnionFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::UnionFacetsChecker::UnionFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

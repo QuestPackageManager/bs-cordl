@@ -423,5 +423,3 @@ inline void GlobalNamespace::ScreenCaptureAfterDelay::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenCaptureAfterDelay::ScreenCaptureAfterDelay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

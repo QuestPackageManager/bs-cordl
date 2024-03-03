@@ -82,5 +82,3 @@ inline void GlobalNamespace::EnvironmentLightSimpleController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentLightSimpleController::EnvironmentLightSimpleController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

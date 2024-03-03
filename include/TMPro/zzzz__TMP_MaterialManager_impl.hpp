@@ -837,5 +837,3 @@ inline void TMPro::TMP_MaterialManager::CopyMaterialPresetProperties(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_MaterialManager::TMP_MaterialManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

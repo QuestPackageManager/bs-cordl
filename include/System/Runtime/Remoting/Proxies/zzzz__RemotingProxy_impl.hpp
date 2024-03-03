@@ -255,5 +255,3 @@ inline void System::Runtime::Remoting::Proxies::RemotingProxy::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Proxies::RemotingProxy::RemotingProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

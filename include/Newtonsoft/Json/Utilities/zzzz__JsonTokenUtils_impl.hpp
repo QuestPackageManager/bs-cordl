@@ -64,5 +64,3 @@ inline bool Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken(::Newt
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::JsonTokenUtils::JsonTokenUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

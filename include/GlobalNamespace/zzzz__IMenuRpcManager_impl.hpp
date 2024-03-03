@@ -2067,5 +2067,3 @@ inline void GlobalNamespace::IMenuRpcManager::RequestKickPlayer(::StringW kicked
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMenuRpcManager*>::get(), 102)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, kickedPlayerId);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

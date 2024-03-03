@@ -181,5 +181,3 @@ constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationPar
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::InstantiationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

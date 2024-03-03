@@ -27,5 +27,3 @@ inline void Oculus::Platform::Models::DestinationList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::DestinationList::DestinationList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

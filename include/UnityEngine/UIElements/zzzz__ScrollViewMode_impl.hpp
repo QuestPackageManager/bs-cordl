@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::ScrollViewMode::ScrollViewMode() {}
 constexpr ::UnityEngine::UIElements::ScrollViewMode UnityEngine::UIElements::ScrollViewMode::Vertical{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::ScrollViewMode UnityEngine::UIElements::ScrollViewMode::Horizontal{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::ScrollViewMode UnityEngine::UIElements::ScrollViewMode::VerticalAndHorizontal{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

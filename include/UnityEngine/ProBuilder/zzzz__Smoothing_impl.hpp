@@ -281,5 +281,3 @@ inline bool UnityEngine::ProBuilder::Smoothing::IsSoftEdge(::ArrayW<::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Smoothing::Smoothing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

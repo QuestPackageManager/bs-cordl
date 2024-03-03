@@ -11,5 +11,3 @@ constexpr ::BeatmapSaveDataVersion4::BasicEvent::BasicEvent(::BeatmapSaveDataCom
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::BasicEvent::BasicEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

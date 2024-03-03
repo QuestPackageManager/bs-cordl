@@ -8,5 +8,3 @@ constexpr ::HoudiniEngineUnity::SessionMode::SessionMode(int32_t value__) noexce
 constexpr ::HoudiniEngineUnity::SessionMode::SessionMode() {}
 constexpr ::HoudiniEngineUnity::SessionMode HoudiniEngineUnity::SessionMode::Socket{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::SessionMode HoudiniEngineUnity::SessionMode::Pipe{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

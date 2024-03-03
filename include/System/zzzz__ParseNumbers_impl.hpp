@@ -310,5 +310,3 @@ inline bool System::ParseNumbers::IsDigit(char16_t c, int32_t radix, ByRef<int32
 }
 // Ctor Parameters []
 constexpr ::System::ParseNumbers::ParseNumbers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

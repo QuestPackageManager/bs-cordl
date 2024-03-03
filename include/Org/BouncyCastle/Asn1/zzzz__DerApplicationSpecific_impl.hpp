@@ -377,5 +377,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Asn1::DerApplicat
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerApplicationSpecific::DerApplicationSpecific() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

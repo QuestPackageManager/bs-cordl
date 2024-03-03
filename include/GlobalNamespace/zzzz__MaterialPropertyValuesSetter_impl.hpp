@@ -444,5 +444,3 @@ inline void GlobalNamespace::MaterialPropertyValuesSetter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyValuesSetter::MaterialPropertyValuesSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

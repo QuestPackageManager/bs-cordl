@@ -216,5 +216,3 @@ inline void GlobalNamespace::ConditionalSpriteSwitcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConditionalSpriteSwitcher::ConditionalSpriteSwitcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

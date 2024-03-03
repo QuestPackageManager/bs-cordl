@@ -109,5 +109,3 @@ inline void UnityEngine::CustomYieldInstruction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CustomYieldInstruction::CustomYieldInstruction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

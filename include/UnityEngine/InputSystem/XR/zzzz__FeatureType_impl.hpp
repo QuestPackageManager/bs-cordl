@@ -16,5 +16,3 @@ constexpr ::UnityEngine::InputSystem::XR::FeatureType UnityEngine::InputSystem::
 constexpr ::UnityEngine::InputSystem::XR::FeatureType UnityEngine::InputSystem::XR::FeatureType::Hand{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::InputSystem::XR::FeatureType UnityEngine::InputSystem::XR::FeatureType::Bone{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::XR::FeatureType UnityEngine::InputSystem::XR::FeatureType::Eyes{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

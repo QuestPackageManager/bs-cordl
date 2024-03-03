@@ -260,5 +260,3 @@ inline void GlobalNamespace::PracticeSettings::ResetToDefault() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PracticeSettings::PracticeSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

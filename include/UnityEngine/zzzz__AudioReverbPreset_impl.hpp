@@ -34,5 +34,3 @@ constexpr ::UnityEngine::AudioReverbPreset UnityEngine::AudioReverbPreset::Drugg
 constexpr ::UnityEngine::AudioReverbPreset UnityEngine::AudioReverbPreset::Dizzy{ static_cast<int32_t>(0x19) };
 constexpr ::UnityEngine::AudioReverbPreset UnityEngine::AudioReverbPreset::Psychotic{ static_cast<int32_t>(0x1a) };
 constexpr ::UnityEngine::AudioReverbPreset UnityEngine::AudioReverbPreset::User{ static_cast<int32_t>(0x1b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

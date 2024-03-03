@@ -39,5 +39,3 @@ inline void System::Resources::SatelliteContractVersionAttribute::_ctor(::String
 }
 // Ctor Parameters []
 constexpr ::System::Resources::SatelliteContractVersionAttribute::SatelliteContractVersionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

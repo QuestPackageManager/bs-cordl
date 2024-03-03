@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Experimental::Rendering::TextureCreationFlags::TextureC
 constexpr ::UnityEngine::Experimental::Rendering::TextureCreationFlags UnityEngine::Experimental::Rendering::TextureCreationFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Experimental::Rendering::TextureCreationFlags UnityEngine::Experimental::Rendering::TextureCreationFlags::MipChain{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Experimental::Rendering::TextureCreationFlags UnityEngine::Experimental::Rendering::TextureCreationFlags::Crunch{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

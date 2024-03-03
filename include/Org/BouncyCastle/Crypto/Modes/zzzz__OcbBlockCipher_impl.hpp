@@ -846,5 +846,3 @@ inline void Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::Xor(::ArrayW<uint8
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher::OcbBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

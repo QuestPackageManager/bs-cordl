@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::AchievementProgressList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AchievementProgressList::AchievementProgressList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

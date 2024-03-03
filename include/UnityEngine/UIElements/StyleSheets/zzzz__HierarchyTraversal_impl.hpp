@@ -94,5 +94,3 @@ inline void UnityEngine::UIElements::StyleSheets::HierarchyTraversal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::HierarchyTraversal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

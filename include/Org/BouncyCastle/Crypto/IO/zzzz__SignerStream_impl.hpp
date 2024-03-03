@@ -403,5 +403,3 @@ inline void Org::BouncyCastle::Crypto::IO::SignerStream::SetLength(int64_t lengt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::SignerStream::SignerStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

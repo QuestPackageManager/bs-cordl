@@ -184,5 +184,3 @@ inline void GlobalNamespace::ObstacleSaberSoundEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleSaberSoundEffect::ObstacleSaberSoundEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

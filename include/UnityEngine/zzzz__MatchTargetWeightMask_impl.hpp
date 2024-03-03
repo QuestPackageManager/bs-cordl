@@ -10,5 +10,3 @@ constexpr ::UnityEngine::MatchTargetWeightMask::MatchTargetWeightMask(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MatchTargetWeightMask::MatchTargetWeightMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

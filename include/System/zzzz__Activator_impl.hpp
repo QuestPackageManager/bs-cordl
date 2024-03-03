@@ -192,5 +192,3 @@ template <typename T> inline T System::Activator::CreateInstance() {
 }
 // Ctor Parameters []
 constexpr ::System::Activator::Activator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

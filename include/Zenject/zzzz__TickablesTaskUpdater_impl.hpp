@@ -86,5 +86,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::TickablesTaskUpdater::__zenCreateInje
 }
 // Ctor Parameters []
 constexpr ::Zenject::TickablesTaskUpdater::TickablesTaskUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

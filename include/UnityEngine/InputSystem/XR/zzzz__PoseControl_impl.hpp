@@ -407,5 +407,3 @@ inline void UnityEngine::InputSystem::XR::PoseControl::WriteValueIntoState(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::PoseControl::PoseControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

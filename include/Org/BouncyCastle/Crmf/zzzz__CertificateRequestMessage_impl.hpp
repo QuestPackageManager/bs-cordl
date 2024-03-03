@@ -375,5 +375,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crmf::Certificate
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::CertificateRequestMessage::CertificateRequestMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

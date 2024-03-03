@@ -116,5 +116,3 @@ inline void GlobalNamespace::PromoInfoSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PromoInfoSO::PromoInfoSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -909,5 +909,3 @@ inline void Mono::Security::Interface::MonoTlsSettings::_ctor(::Mono::Security::
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoTlsSettings::MonoTlsSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -418,5 +418,3 @@ inline void Org::BouncyCastle::Crypto::Tls::CombinedHash::Ssl3Complete(::Org::Bo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CombinedHash::CombinedHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

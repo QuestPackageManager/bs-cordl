@@ -145,5 +145,3 @@ inline void GlobalNamespace::BufferedAudioStream::AddData(::ArrayW<float_t, ::Ar
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BufferedAudioStream::BufferedAudioStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -374,5 +374,3 @@ inline void System::Security::Principal::WellKnownAccount::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::WellKnownAccount::WellKnownAccount() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

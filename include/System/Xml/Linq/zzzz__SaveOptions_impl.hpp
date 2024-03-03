@@ -9,5 +9,3 @@ constexpr ::System::Xml::Linq::SaveOptions::SaveOptions() {}
 constexpr ::System::Xml::Linq::SaveOptions System::Xml::Linq::SaveOptions::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::Linq::SaveOptions System::Xml::Linq::SaveOptions::DisableFormatting{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Linq::SaveOptions System::Xml::Linq::SaveOptions::OmitDuplicateNamespaces{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

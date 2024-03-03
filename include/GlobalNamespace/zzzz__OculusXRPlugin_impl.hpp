@@ -132,5 +132,3 @@ inline void GlobalNamespace::OculusXRPlugin::SetDepthSubmission(bool enable) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusXRPlugin::OculusXRPlugin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

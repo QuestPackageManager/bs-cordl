@@ -86,5 +86,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::SignatureSu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::SignatureSubpacketsParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

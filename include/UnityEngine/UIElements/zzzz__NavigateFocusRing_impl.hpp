@@ -564,5 +564,3 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Naviga
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigateFocusRing::NavigateFocusRing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

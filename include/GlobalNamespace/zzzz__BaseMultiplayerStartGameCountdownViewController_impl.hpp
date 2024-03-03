@@ -267,5 +267,3 @@ inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::_D
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::BaseMultiplayerStartGameCountdownViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

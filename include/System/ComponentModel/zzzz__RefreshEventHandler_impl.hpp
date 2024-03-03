@@ -50,5 +50,3 @@ inline void System::ComponentModel::RefreshEventHandler::Invoke(::System::Compon
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::RefreshEventHandler::RefreshEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

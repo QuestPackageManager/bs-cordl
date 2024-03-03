@@ -123,5 +123,3 @@ constexpr ::UnityEngine::JointMotor::JointMotor(float_t m_TargetVelocity, float_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::JointMotor::JointMotor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

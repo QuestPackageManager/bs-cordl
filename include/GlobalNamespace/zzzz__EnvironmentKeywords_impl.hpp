@@ -93,5 +93,3 @@ inline bool GlobalNamespace::EnvironmentKeywords::HasKeyword(::StringW keyword) 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentKeywords::EnvironmentKeywords() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

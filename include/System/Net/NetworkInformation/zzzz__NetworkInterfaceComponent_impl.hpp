@@ -8,5 +8,3 @@ constexpr ::System::Net::NetworkInformation::NetworkInterfaceComponent::NetworkI
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceComponent::NetworkInterfaceComponent() {}
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceComponent System::Net::NetworkInformation::NetworkInterfaceComponent::IPv4{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::NetworkInformation::NetworkInterfaceComponent System::Net::NetworkInformation::NetworkInterfaceComponent::IPv6{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

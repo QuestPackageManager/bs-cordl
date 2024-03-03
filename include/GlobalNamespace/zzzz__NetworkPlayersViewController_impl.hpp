@@ -413,5 +413,3 @@ inline void GlobalNamespace::NetworkPlayersViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkPlayersViewController::NetworkPlayersViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

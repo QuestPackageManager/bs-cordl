@@ -26,5 +26,3 @@ inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* HoudiniEngineUnity::Test_H
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions::Test_HAPI_AttributeInfo_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

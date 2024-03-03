@@ -176,5 +176,3 @@ inline bool GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaterni
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRNodeStateProperties::OVRNodeStateProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

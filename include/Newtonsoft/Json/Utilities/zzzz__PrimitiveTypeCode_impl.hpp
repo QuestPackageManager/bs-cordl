@@ -48,5 +48,3 @@ constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode Newtonsoft::Json::Uti
 constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode Newtonsoft::Json::Utilities::PrimitiveTypeCode::String{ static_cast<int32_t>(0x27) };
 constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode Newtonsoft::Json::Utilities::PrimitiveTypeCode::Bytes{ static_cast<int32_t>(0x28) };
 constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode Newtonsoft::Json::Utilities::PrimitiveTypeCode::DBNull{ static_cast<int32_t>(0x29) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

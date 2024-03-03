@@ -18,5 +18,3 @@ constexpr ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::Restricti
 constexpr ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::RestrictionFlags::MinExclusive{ static_cast<int32_t>(0x200) };
 constexpr ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::RestrictionFlags::TotalDigits{ static_cast<int32_t>(0x400) };
 constexpr ::System::Xml::Schema::RestrictionFlags System::Xml::Schema::RestrictionFlags::FractionDigits{ static_cast<int32_t>(0x800) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

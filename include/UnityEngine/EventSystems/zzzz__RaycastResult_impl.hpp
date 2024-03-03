@@ -124,5 +124,3 @@ constexpr ::UnityEngine::EventSystems::RaycastResult::RaycastResult(::UnityW<::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::RaycastResult::RaycastResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

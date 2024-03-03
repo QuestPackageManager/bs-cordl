@@ -8,5 +8,3 @@ constexpr ::BeatmapSaveDataCommon::NoteColorType::NoteColorType(int32_t value__)
 constexpr ::BeatmapSaveDataCommon::NoteColorType::NoteColorType() {}
 constexpr ::BeatmapSaveDataCommon::NoteColorType BeatmapSaveDataCommon::NoteColorType::ColorA{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::NoteColorType BeatmapSaveDataCommon::NoteColorType::ColorB{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

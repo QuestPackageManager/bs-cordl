@@ -792,5 +792,3 @@ inline void GlobalNamespace::SteamPlatformAdditionalContentModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SteamPlatformAdditionalContentModel::SteamPlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

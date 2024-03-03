@@ -78,5 +78,3 @@ inline void System::Threading::SynchronizationLockException::_ctor(::System::Run
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SynchronizationLockException::SynchronizationLockException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

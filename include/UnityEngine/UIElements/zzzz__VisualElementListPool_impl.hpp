@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::VisualElementListPool::Release(::System::Co
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementListPool::VisualElementListPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

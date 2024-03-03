@@ -10,5 +10,3 @@ constexpr ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::Async
 constexpr ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncOperationStatus::Continue{ static_cast<int32_t>(0x1) };
 constexpr ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncOperationStatus::ReadDone{ static_cast<int32_t>(0x2) };
 constexpr ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncOperationStatus::Complete{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

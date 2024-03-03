@@ -123,5 +123,3 @@ inline void VRUIControls::MouseState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::MouseState::MouseState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

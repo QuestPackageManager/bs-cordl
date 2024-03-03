@@ -95,5 +95,3 @@ inline ::StringW UnityEngineInternal::WebRequestUtils::URLDecode(::StringW encod
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::WebRequestUtils::WebRequestUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

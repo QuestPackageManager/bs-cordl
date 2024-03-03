@@ -585,5 +585,3 @@ inline void UnityEngine::EventSystems::BaseInputModule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::BaseInputModule::BaseInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

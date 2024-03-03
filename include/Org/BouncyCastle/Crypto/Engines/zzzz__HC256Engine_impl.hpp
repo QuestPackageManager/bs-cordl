@@ -314,5 +314,3 @@ inline void Org::BouncyCastle::Crypto::Engines::HC256Engine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::HC256Engine::HC256Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

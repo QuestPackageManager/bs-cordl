@@ -80,5 +80,3 @@ inline void System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::ContinuationTaskFromTask::ContinuationTaskFromTask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

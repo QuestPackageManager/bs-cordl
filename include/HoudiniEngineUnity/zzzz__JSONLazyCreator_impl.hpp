@@ -586,5 +586,3 @@ inline void HoudiniEngineUnity::JSONLazyCreator::WriteToStringBuilder(::System::
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONLazyCreator::JSONLazyCreator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

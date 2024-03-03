@@ -175,5 +175,3 @@ inline void GlobalNamespace::PlayerHeightToJumpOffsetYProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::PlayerHeightToJumpOffsetYProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

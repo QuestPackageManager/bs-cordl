@@ -163,5 +163,3 @@ inline ::System::Object* System::ComponentModel::Design::Serialization::Instance
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Design::Serialization::InstanceDescriptor::InstanceDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

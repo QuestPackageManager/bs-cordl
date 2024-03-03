@@ -211,5 +211,3 @@ constexpr ::OVR::OpenVR::IVRNotifications::IVRNotifications(::OVR::OpenVR::__IVR
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRNotifications::IVRNotifications() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

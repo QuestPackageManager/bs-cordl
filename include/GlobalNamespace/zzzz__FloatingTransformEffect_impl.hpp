@@ -377,5 +377,3 @@ inline void GlobalNamespace::FloatingTransformEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatingTransformEffect::FloatingTransformEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

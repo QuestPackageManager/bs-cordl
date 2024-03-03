@@ -240,5 +240,3 @@ inline void Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::Sign
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::Pkcs10CertificationRequestDelaySigned() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -118,5 +118,3 @@ template <typename T> inline void UnityEngine::ProBuilder::ObjectPool_1<T>::Disp
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::ObjectPool_1<T>::ObjectPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

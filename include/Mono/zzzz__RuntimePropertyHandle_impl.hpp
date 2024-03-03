@@ -84,5 +84,3 @@ constexpr ::Mono::RuntimePropertyHandle::RuntimePropertyHandle(void* value) noex
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimePropertyHandle::RuntimePropertyHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

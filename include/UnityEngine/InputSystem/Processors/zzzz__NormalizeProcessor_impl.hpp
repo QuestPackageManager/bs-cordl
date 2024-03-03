@@ -153,5 +153,3 @@ inline void UnityEngine::InputSystem::Processors::NormalizeProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::NormalizeProcessor::NormalizeProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

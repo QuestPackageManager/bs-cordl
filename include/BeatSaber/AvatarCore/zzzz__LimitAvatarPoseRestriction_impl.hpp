@@ -242,5 +242,3 @@ inline void BeatSaber::AvatarCore::LimitAvatarPoseRestriction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::LimitAvatarPoseRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

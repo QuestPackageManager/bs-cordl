@@ -206,5 +206,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::SecureString::GetB
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecureString::SecureString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

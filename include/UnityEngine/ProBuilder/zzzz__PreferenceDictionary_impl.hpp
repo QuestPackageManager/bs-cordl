@@ -796,5 +796,3 @@ inline void UnityEngine::ProBuilder::PreferenceDictionary::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PreferenceDictionary::PreferenceDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

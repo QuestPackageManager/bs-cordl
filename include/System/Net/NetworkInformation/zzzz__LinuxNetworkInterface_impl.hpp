@@ -148,5 +148,3 @@ inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::ReadLin
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::LinuxNetworkInterface::LinuxNetworkInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

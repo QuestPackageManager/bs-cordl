@@ -153,5 +153,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::PenState::PenState(::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::PenState::PenState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

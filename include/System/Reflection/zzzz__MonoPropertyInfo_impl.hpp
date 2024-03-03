@@ -19,5 +19,3 @@ constexpr ::System::Reflection::MonoPropertyInfo::MonoPropertyInfo(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MonoPropertyInfo::MonoPropertyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

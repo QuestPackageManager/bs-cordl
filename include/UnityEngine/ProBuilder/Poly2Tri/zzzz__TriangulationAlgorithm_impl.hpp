@@ -7,5 +7,3 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm::Triangula
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm::TriangulationAlgorithm() {}
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm::DTSweep{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

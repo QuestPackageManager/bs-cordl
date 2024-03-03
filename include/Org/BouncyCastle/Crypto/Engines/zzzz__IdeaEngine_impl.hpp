@@ -389,5 +389,3 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> Org::BouncyCastle::Crypto::Engines::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::IdeaEngine::IdeaEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

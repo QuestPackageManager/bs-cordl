@@ -12,5 +12,3 @@ constexpr ::GlobalNamespace::OVRGLTFComponentType GlobalNamespace::OVRGLTFCompon
 constexpr ::GlobalNamespace::OVRGLTFComponentType GlobalNamespace::OVRGLTFComponentType::UNSIGNED_SHORT{ static_cast<int32_t>(0x1403) };
 constexpr ::GlobalNamespace::OVRGLTFComponentType GlobalNamespace::OVRGLTFComponentType::UNSIGNED_INT{ static_cast<int32_t>(0x1405) };
 constexpr ::GlobalNamespace::OVRGLTFComponentType GlobalNamespace::OVRGLTFComponentType::FLOAT{ static_cast<int32_t>(0x1406) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::ColliderType::ColliderType() {}
 constexpr ::UnityEngine::ProBuilder::ColliderType UnityEngine::ProBuilder::ColliderType::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::ColliderType UnityEngine::ProBuilder::ColliderType::BoxCollider{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::ColliderType UnityEngine::ProBuilder::ColliderType::MeshCollider{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

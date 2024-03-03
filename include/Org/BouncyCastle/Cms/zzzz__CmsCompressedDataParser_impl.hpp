@@ -72,5 +72,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::CmsComp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsCompressedDataParser::CmsCompressedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

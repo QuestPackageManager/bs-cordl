@@ -50,5 +50,3 @@ template <typename T> inline void Newtonsoft::Json::Converters::CustomCreationCo
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>::CustomCreationConverter_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

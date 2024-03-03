@@ -1747,5 +1747,3 @@ inline int32_t System::Text::RegularExpressions::RegexParser::CharsRight() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexParser::RegexParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -181,5 +181,3 @@ inline void UnityEngine::TextCore::Text::TextStyle::RefreshStyle() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextStyle::TextStyle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

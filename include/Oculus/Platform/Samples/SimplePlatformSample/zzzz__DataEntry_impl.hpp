@@ -641,5 +641,3 @@ inline void Oculus::Platform::Samples::SimplePlatformSample::DataEntry::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Samples::SimplePlatformSample::DataEntry::DataEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

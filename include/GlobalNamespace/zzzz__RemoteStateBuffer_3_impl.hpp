@@ -149,5 +149,3 @@ inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::_c
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState> constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::RemoteStateBuffer_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

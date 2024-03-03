@@ -272,5 +272,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::RC2WrapEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

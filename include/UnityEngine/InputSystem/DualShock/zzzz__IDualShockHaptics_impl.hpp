@@ -41,5 +41,3 @@ inline void UnityEngine::InputSystem::DualShock::IDualShockHaptics::SetLightBarC
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::IDualShockHaptics*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -132,5 +132,3 @@ UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::StyleSelectorHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

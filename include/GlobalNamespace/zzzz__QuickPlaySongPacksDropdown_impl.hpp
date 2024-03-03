@@ -607,5 +607,3 @@ GlobalNamespace::QuickPlaySongPacksDropdown::_LazyInit_b__15_1(::GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuickPlaySongPacksDropdown::QuickPlaySongPacksDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

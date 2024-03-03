@@ -24,5 +24,3 @@ inline void System::__ComObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::__ComObject::__ComObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

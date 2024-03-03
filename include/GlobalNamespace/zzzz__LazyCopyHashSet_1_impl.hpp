@@ -89,5 +89,3 @@ template <typename T> inline void GlobalNamespace::LazyCopyHashSet_1<T>::Clear()
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>::LazyCopyHashSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

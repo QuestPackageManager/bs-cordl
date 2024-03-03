@@ -92,5 +92,3 @@ inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__Visua
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TemplateAsset::TemplateAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

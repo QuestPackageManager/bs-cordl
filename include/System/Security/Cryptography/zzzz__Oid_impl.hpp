@@ -238,5 +238,3 @@ inline void System::Security::Cryptography::Oid::_ctor(::StringW value, ::String
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::Oid::Oid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

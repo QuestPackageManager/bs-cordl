@@ -124,5 +124,3 @@ constexpr ::System::Threading::SpinWait::SpinWait(int32_t _count) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SpinWait::SpinWait() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

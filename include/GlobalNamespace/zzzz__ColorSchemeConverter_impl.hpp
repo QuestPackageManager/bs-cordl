@@ -26,5 +26,3 @@ inline ::GlobalNamespace::ColorScheme* GlobalNamespace::ColorSchemeConverter::Fr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeConverter::ColorSchemeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

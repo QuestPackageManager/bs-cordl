@@ -247,5 +247,3 @@ inline bool Newtonsoft::Json::Utilities::PropertyNameTable::TextEquals(::StringW
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable::PropertyNameTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

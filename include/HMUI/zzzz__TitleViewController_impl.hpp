@@ -57,5 +57,3 @@ inline void HMUI::TitleViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::TitleViewController::TitleViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

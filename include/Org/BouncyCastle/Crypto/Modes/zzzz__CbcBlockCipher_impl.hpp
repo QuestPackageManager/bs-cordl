@@ -304,5 +304,3 @@ inline int32_t Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::DecryptBlock(::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher::CbcBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

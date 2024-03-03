@@ -5588,5 +5588,3 @@ inline void UnityEngine::InputSystem::InputActionState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionState::InputActionState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -37,5 +37,3 @@ constexpr ::System::Net::Sockets::AddressFamily System::Net::Sockets::AddressFam
 constexpr ::System::Net::Sockets::AddressFamily System::Net::Sockets::AddressFamily::Irda{ static_cast<int32_t>(0x1a) };
 constexpr ::System::Net::Sockets::AddressFamily System::Net::Sockets::AddressFamily::NetworkDesigners{ static_cast<int32_t>(0x1c) };
 constexpr ::System::Net::Sockets::AddressFamily System::Net::Sockets::AddressFamily::Max{ static_cast<int32_t>(0x1d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

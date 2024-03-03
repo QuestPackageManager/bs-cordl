@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_VolumeType HoudiniEngineUnity::HAPI_VolumeT
 constexpr ::HoudiniEngineUnity::HAPI_VolumeType HoudiniEngineUnity::HAPI_VolumeType::HAPI_VOLUMETYPE_HOUDINI{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::HAPI_VolumeType HoudiniEngineUnity::HAPI_VolumeType::HAPI_VOLUMETYPE_VDB{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_VolumeType HoudiniEngineUnity::HAPI_VolumeType::HAPI_VOLUMETYPE_MAX{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

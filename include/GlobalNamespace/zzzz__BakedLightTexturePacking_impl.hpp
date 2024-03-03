@@ -46,5 +46,3 @@ inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::BakedLightTexture
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BakedLightTexturePacking::BakedLightTexturePacking() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

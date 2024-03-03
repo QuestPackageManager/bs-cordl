@@ -351,5 +351,3 @@ inline ::GlobalNamespace::ColorScheme* GlobalNamespace::ColorSchemesSettings::Ge
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemesSettings::ColorSchemesSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

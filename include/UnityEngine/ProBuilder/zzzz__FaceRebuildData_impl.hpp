@@ -197,5 +197,3 @@ inline void UnityEngine::ProBuilder::FaceRebuildData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::FaceRebuildData::FaceRebuildData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

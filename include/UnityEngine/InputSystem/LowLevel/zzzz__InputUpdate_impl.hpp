@@ -257,5 +257,3 @@ inline bool UnityEngine::InputSystem::LowLevel::InputUpdate::IsPlayerUpdate(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdate::InputUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

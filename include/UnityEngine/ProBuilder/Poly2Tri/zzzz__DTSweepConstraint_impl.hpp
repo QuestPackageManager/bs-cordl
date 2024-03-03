@@ -31,5 +31,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::_ctor(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint::DTSweepConstraint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

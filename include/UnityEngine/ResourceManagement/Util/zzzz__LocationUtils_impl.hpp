@@ -58,5 +58,3 @@ UnityEngine::ResourceManagement::Util::LocationUtils::DependenciesEqual(::System
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::LocationUtils::LocationUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

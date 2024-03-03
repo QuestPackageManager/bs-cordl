@@ -99,5 +99,3 @@ inline void GlobalNamespace::LeaderboardEntry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardEntry::LeaderboardEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline void Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers::EtsiQCObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

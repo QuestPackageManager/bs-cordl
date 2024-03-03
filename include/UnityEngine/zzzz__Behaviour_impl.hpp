@@ -80,5 +80,3 @@ inline void UnityEngine::Behaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Behaviour::Behaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

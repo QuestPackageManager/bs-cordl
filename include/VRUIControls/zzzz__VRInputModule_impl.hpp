@@ -510,5 +510,3 @@ inline void VRUIControls::VRInputModule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::VRInputModule::VRInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

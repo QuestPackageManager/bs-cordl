@@ -168,5 +168,3 @@ HoudiniEngineUnity::Test_TreeInstance_Extensions::ToTestObject(::System::Collect
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_TreeInstance_Extensions::Test_TreeInstance_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

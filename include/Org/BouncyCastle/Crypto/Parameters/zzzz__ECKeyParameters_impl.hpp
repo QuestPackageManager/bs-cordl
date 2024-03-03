@@ -296,5 +296,3 @@ Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::LookupParameters(::Org::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::ECKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

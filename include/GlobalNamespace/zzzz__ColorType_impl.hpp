@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::ColorType::ColorType() {}
 constexpr ::GlobalNamespace::ColorType GlobalNamespace::ColorType::ColorA{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ColorType GlobalNamespace::ColorType::ColorB{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::ColorType GlobalNamespace::ColorType::None{ static_cast<int32_t>(0xffffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

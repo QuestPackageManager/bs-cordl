@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType::BeatmapObj
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType::Note{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType::Obstacle{ static_cast<int32_t>(0x2) };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapObjectType::Slider{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

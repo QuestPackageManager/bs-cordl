@@ -226,5 +226,3 @@ inline ::StringW Org::BouncyCastle::Pkix::PkixBuilderParameters::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixBuilderParameters::PkixBuilderParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

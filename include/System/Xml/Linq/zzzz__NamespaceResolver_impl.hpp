@@ -194,5 +194,3 @@ constexpr ::System::Xml::Linq::NamespaceResolver::NamespaceResolver(int32_t _sco
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::NamespaceResolver::NamespaceResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -91,5 +91,3 @@ inline bool Org::BouncyCastle::Bcpg::Sig::Exportable::IsExportable() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::Exportable::Exportable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

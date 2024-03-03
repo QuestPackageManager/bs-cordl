@@ -117,5 +117,3 @@ inline void GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoTransitionToggleSelectableStateController::NoTransitionToggleSelectableStateController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

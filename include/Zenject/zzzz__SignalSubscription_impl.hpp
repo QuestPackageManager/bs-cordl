@@ -338,5 +338,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::__SignalSubscription__Pool::__zenCrea
 }
 // Ctor Parameters []
 constexpr ::Zenject::__SignalSubscription__Pool::__SignalSubscription__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

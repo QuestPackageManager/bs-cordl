@@ -136,5 +136,3 @@ template <typename T> inline void UnityEngine::Timeline::IntervalTree_1<T>::_cto
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Timeline::IntervalTree_1<T>::IntervalTree_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

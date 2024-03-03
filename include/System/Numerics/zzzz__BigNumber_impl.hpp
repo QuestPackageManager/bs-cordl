@@ -123,5 +123,3 @@ inline ::StringW System::Numerics::BigNumber::FormatBigInteger(bool targetSpan, 
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::BigNumber::BigNumber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -18,5 +18,3 @@ constexpr ::Oculus::Platform::MultiplayerErrorErrorKey Oculus::Platform::Multipl
 constexpr ::Oculus::Platform::MultiplayerErrorErrorKey Oculus::Platform::MultiplayerErrorErrorKey::NoLongerAvailable{ static_cast<int32_t>(0x9) };
 constexpr ::Oculus::Platform::MultiplayerErrorErrorKey Oculus::Platform::MultiplayerErrorErrorKey::UpdateRequired{ static_cast<int32_t>(0xa) };
 constexpr ::Oculus::Platform::MultiplayerErrorErrorKey Oculus::Platform::MultiplayerErrorErrorKey::TutorialRequired{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -300,5 +300,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::NameAndParameters::NameAndParam
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::NameAndParameters::NameAndParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

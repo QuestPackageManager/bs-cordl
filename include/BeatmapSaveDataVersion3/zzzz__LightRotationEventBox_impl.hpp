@@ -284,5 +284,3 @@ inline void BeatmapSaveDataVersion3::LightRotationEventBox::_ctor(::BeatmapSaveD
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightRotationEventBox::LightRotationEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

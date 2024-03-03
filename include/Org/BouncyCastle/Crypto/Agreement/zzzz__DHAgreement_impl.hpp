@@ -145,5 +145,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::DHAgreement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::DHAgreement::DHAgreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

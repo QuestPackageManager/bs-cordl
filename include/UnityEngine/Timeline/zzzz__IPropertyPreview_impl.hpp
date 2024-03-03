@@ -22,5 +22,3 @@ inline void UnityEngine::Timeline::IPropertyPreview::GatherProperties(::UnityEng
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IPropertyPreview*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, director, driver);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

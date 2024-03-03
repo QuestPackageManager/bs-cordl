@@ -30,5 +30,3 @@ constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::Do
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::DownloadStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

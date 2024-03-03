@@ -19,5 +19,3 @@ constexpr ::UnityEngine::Tilemaps::TileChangeData::TileChangeData(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TileChangeData::TileChangeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

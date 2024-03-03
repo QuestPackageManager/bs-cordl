@@ -720,5 +720,3 @@ inline void RootMotion::FinalIK::IKSolverTrigonometric::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKSolverTrigonometric::IKSolverTrigonometric() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

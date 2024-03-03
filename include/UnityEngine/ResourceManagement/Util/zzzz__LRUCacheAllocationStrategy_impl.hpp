@@ -194,5 +194,3 @@ inline void UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::R
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::LRUCacheAllocationStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

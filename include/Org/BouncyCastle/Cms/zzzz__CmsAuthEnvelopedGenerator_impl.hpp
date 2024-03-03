@@ -67,5 +67,3 @@ inline void Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator::CmsAuthEnvelopedGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -301,5 +301,3 @@ constexpr ::OVR::OpenVR::IVRExtendedDisplay::IVRExtendedDisplay(::OVR::OpenVR::_
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRExtendedDisplay::IVRExtendedDisplay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

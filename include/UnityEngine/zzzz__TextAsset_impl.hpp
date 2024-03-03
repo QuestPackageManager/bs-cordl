@@ -312,5 +312,3 @@ inline ::StringW UnityEngine::TextAsset::DecodeString(::ArrayW<uint8_t, ::Array<
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextAsset::TextAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -138,5 +138,3 @@ inline int32_t System::Text::InternalEncoderBestFitFallback::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::InternalEncoderBestFitFallback::InternalEncoderBestFitFallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

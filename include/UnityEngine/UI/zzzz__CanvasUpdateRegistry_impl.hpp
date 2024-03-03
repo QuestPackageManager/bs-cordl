@@ -513,5 +513,3 @@ inline bool UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingGraphics() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::CanvasUpdateRegistry::CanvasUpdateRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

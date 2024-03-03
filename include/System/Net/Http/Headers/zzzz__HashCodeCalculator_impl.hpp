@@ -13,5 +13,3 @@ template <typename T> inline int32_t System::Net::Http::Headers::HashCodeCalcula
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::HashCodeCalculator::HashCodeCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

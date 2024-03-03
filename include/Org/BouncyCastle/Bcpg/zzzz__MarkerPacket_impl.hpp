@@ -61,5 +61,3 @@ inline void Org::BouncyCastle::Bcpg::MarkerPacket::Encode(::Org::BouncyCastle::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::MarkerPacket::MarkerPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

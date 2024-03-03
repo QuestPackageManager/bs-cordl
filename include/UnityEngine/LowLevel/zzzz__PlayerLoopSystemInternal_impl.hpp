@@ -16,5 +16,3 @@ constexpr ::UnityEngine::LowLevel::PlayerLoopSystemInternal::PlayerLoopSystemInt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LowLevel::PlayerLoopSystemInternal::PlayerLoopSystemInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

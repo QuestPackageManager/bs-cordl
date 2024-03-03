@@ -87,5 +87,3 @@ inline void ENet::NoMemoryCallback::EndInvoke(::System::IAsyncResult* result) {
 }
 // Ctor Parameters []
 constexpr ::ENet::NoMemoryCallback::NoMemoryCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

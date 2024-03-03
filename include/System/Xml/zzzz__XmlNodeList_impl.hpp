@@ -118,5 +118,3 @@ inline void System::Xml::XmlNodeList::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNodeList::XmlNodeList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

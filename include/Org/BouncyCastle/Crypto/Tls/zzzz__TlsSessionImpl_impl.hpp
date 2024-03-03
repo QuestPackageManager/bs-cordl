@@ -161,5 +161,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_IsResumable() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::TlsSessionImpl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

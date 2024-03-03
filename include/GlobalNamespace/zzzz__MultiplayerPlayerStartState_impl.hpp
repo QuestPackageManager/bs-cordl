@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::MultiplayerPlayerStartState::MultiplayerPlayerStart
 constexpr ::GlobalNamespace::MultiplayerPlayerStartState::MultiplayerPlayerStartState() {}
 constexpr ::GlobalNamespace::MultiplayerPlayerStartState GlobalNamespace::MultiplayerPlayerStartState::InSync{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MultiplayerPlayerStartState GlobalNamespace::MultiplayerPlayerStartState::Late{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -82,5 +82,3 @@ template <typename T> inline T Zenject::LazyInject_1<T>::get_Value() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::LazyInject_1<T>::LazyInject_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

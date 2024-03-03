@@ -115,5 +115,3 @@ inline void System::Reflection::Pointer::System_Runtime_Serialization_ISerializa
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Pointer::Pointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

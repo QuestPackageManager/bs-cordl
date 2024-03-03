@@ -142,5 +142,3 @@ constexpr ::UnityEngine::Resolution::Resolution(int32_t m_Width, int32_t m_Heigh
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Resolution::Resolution() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

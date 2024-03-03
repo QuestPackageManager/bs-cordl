@@ -344,5 +344,3 @@ inline ::System::Collections::Generic::Queue_1<float_t>* GlobalNamespace::Averag
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AveragingValueRecorder::AveragingValueRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

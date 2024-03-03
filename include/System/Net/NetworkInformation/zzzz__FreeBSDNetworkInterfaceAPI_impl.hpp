@@ -27,5 +27,3 @@ inline void System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor()
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::FreeBSDNetworkInterfaceAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

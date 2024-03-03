@@ -480,5 +480,3 @@ inline void System::Net::EndPointListener::RemovePrefix(::System::Net::ListenerP
 }
 // Ctor Parameters []
 constexpr ::System::Net::EndPointListener::EndPointListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

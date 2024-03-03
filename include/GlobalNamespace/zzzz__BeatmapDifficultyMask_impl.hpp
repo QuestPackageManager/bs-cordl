@@ -12,5 +12,3 @@ constexpr ::GlobalNamespace::BeatmapDifficultyMask GlobalNamespace::BeatmapDiffi
 constexpr ::GlobalNamespace::BeatmapDifficultyMask GlobalNamespace::BeatmapDifficultyMask::Expert{ static_cast<uint8_t>(0x8u) };
 constexpr ::GlobalNamespace::BeatmapDifficultyMask GlobalNamespace::BeatmapDifficultyMask::ExpertPlus{ static_cast<uint8_t>(0x10u) };
 constexpr ::GlobalNamespace::BeatmapDifficultyMask GlobalNamespace::BeatmapDifficultyMask::All{ static_cast<uint8_t>(0x1fu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

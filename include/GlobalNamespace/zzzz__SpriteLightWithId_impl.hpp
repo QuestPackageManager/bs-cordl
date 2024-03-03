@@ -195,5 +195,3 @@ inline void GlobalNamespace::SpriteLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpriteLightWithId::SpriteLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

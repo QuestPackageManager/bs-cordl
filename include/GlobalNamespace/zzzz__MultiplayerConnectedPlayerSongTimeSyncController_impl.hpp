@@ -520,5 +520,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::MultiplayerConnectedPlayerSongTimeSyncController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

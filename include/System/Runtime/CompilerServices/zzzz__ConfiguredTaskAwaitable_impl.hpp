@@ -193,5 +193,3 @@ constexpr ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::Configur
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaitable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

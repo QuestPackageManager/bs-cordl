@@ -53,5 +53,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier::DoubleAddMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

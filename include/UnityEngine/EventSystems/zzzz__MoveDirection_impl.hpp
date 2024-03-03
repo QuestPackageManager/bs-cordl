@@ -11,5 +11,3 @@ constexpr ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::
 constexpr ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::MoveDirection::Right{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::MoveDirection::Down{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::EventSystems::MoveDirection UnityEngine::EventSystems::MoveDirection::None{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

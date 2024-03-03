@@ -16,5 +16,3 @@ constexpr ::System::Net::NetworkInformation::sockaddr_ll::sockaddr_ll(uint16_t s
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::sockaddr_ll::sockaddr_ll() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

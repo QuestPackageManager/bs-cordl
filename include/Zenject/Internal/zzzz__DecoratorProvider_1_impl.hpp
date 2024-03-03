@@ -128,5 +128,3 @@ template <typename TContract> inline ::System::Object* Zenject::Internal::Decora
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::Internal::DecoratorProvider_1<TContract>::DecoratorProvider_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

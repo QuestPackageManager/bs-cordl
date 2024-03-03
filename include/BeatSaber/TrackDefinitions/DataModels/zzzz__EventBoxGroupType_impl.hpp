@@ -10,5 +10,3 @@ constexpr ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType BeatSaber
 constexpr ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType::Rotation{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType::Translation{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType::FloatFx{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

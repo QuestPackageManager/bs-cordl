@@ -97,5 +97,3 @@ inline bool HoudiniEngineUnity::Test_Mesh::IsEquivalentTo(::HoudiniEngineUnity::
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Mesh::Test_Mesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

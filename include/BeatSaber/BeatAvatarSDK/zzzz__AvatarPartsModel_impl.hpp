@@ -385,5 +385,3 @@ inline ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO> BeatSaber::BeatAvatarSD
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel::AvatarPartsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

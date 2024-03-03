@@ -48,5 +48,3 @@ inline void UnityEngine::DrivenRectTransformTracker::Clear() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DrivenRectTransformTracker::DrivenRectTransformTracker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

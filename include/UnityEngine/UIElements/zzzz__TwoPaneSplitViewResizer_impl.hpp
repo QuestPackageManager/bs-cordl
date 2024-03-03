@@ -303,5 +303,3 @@ inline void UnityEngine::UIElements::TwoPaneSplitViewResizer::OnPointerUp(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TwoPaneSplitViewResizer::TwoPaneSplitViewResizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

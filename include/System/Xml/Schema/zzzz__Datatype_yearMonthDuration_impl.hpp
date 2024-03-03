@@ -74,5 +74,3 @@ inline void System::Xml::Schema::Datatype_yearMonthDuration::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_yearMonthDuration::Datatype_yearMonthDuration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

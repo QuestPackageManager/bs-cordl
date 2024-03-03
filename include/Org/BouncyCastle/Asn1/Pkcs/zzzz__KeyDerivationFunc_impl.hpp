@@ -57,5 +57,3 @@ inline void Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc::_ctor(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc::KeyDerivationFunc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

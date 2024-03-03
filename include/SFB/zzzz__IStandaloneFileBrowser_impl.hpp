@@ -127,5 +127,3 @@ inline void SFB::IStandaloneFileBrowser::SaveFilePanelAsync(::StringW title, ::S
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::SFB::IStandaloneFileBrowser*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, directory, defaultName, extensions, cb);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

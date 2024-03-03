@@ -9,5 +9,3 @@ constexpr ::System::Xml::ConformanceLevel::ConformanceLevel() {}
 constexpr ::System::Xml::ConformanceLevel System::Xml::ConformanceLevel::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::ConformanceLevel System::Xml::ConformanceLevel::Fragment{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::ConformanceLevel System::Xml::ConformanceLevel::Document{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

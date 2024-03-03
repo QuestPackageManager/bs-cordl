@@ -25,5 +25,3 @@ inline ::StringW GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey(::G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CannotStartGameReasonMethods::CannotStartGameReasonMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

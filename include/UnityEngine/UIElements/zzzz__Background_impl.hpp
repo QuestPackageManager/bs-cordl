@@ -414,5 +414,3 @@ constexpr ::UnityEngine::UIElements::Background::Background(::UnityW<::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Background::Background() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

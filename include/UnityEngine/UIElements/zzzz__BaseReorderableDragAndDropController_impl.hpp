@@ -234,5 +234,3 @@ inline void UnityEngine::UIElements::BaseReorderableDragAndDropController::OnDro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseReorderableDragAndDropController::BaseReorderableDragAndDropController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

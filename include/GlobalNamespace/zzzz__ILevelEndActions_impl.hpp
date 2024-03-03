@@ -81,5 +81,3 @@ inline void GlobalNamespace::ILevelEndActions::remove_levelFinishedEvent(::Syste
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ILevelEndActions*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

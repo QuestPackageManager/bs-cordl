@@ -20,5 +20,3 @@ constexpr ::System::ParsingError System::ParsingError::NonEmptyHost{ static_cast
 constexpr ::System::ParsingError System::ParsingError::BadPort{ static_cast<int32_t>(0xa) };
 constexpr ::System::ParsingError System::ParsingError::BadAuthorityTerminator{ static_cast<int32_t>(0xb) };
 constexpr ::System::ParsingError System::ParsingError::CannotCreateRelative{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

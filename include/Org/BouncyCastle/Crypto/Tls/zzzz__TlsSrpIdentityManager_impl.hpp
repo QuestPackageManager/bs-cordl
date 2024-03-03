@@ -23,5 +23,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* Org::BouncyCastl
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*, false>(this, ___internal_method, identity);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

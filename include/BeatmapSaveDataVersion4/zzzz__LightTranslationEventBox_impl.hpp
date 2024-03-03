@@ -24,5 +24,3 @@ constexpr ::BeatmapSaveDataVersion4::LightTranslationEventBox::LightTranslationE
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightTranslationEventBox::LightTranslationEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

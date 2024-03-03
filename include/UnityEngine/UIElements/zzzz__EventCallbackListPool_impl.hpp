@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::EventCallbackListPool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCallbackListPool::EventCallbackListPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

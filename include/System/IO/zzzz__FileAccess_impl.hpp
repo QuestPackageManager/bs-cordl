@@ -9,5 +9,3 @@ constexpr ::System::IO::FileAccess::FileAccess() {}
 constexpr ::System::IO::FileAccess System::IO::FileAccess::Read{ static_cast<int32_t>(0x1) };
 constexpr ::System::IO::FileAccess System::IO::FileAccess::Write{ static_cast<int32_t>(0x2) };
 constexpr ::System::IO::FileAccess System::IO::FileAccess::ReadWrite{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

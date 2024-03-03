@@ -160,5 +160,3 @@ inline void Zenject::CopyNonLazyBinder::SetInheritanceMethod(::Zenject::BindingI
 }
 // Ctor Parameters []
 constexpr ::Zenject::CopyNonLazyBinder::CopyNonLazyBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -148,5 +148,3 @@ inline ::System::Text::Encoding* System::Text::EncodingProvider::GetEncodingFrom
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncodingProvider::EncodingProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

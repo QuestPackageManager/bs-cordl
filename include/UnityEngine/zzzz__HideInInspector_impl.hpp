@@ -24,5 +24,3 @@ inline void UnityEngine::HideInInspector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HideInInspector::HideInInspector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -88,5 +88,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent::DeviceRemoveE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent::DeviceRemoveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

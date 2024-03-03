@@ -15,5 +15,3 @@ constexpr ::System::Reflection::MemberTypes System::Reflection::MemberTypes::Typ
 constexpr ::System::Reflection::MemberTypes System::Reflection::MemberTypes::Custom{ static_cast<int32_t>(0x40) };
 constexpr ::System::Reflection::MemberTypes System::Reflection::MemberTypes::NestedType{ static_cast<int32_t>(0x80) };
 constexpr ::System::Reflection::MemberTypes System::Reflection::MemberTypes::All{ static_cast<int32_t>(0xbf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

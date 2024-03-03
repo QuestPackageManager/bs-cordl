@@ -75,5 +75,3 @@ inline void System::OutOfMemoryException::_ctor(::System::Runtime::Serialization
 }
 // Ctor Parameters []
 constexpr ::System::OutOfMemoryException::OutOfMemoryException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

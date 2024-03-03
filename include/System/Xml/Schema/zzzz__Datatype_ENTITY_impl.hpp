@@ -66,5 +66,3 @@ inline void System::Xml::Schema::Datatype_ENTITY::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_ENTITY::Datatype_ENTITY() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

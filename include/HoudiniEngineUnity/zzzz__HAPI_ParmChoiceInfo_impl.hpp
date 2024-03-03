@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ParmChoiceInfo::HAPI_ParmChoiceInfo(int32_t
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ParmChoiceInfo::HAPI_ParmChoiceInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

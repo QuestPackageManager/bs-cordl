@@ -73,5 +73,3 @@ inline bool UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, type, locations);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

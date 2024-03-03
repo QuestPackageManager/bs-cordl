@@ -73,5 +73,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::NetscapeCertType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

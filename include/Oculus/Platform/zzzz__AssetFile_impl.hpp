@@ -305,5 +305,3 @@ inline void Oculus::Platform::AssetFile::SetDownloadUpdateNotificationCallback(:
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AssetFile::AssetFile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

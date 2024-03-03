@@ -109,5 +109,3 @@ inline void System::Xml::Schema::SyntaxTreeNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SyntaxTreeNode::SyntaxTreeNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

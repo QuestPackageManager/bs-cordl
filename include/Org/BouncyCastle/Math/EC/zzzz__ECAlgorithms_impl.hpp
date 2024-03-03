@@ -655,5 +655,3 @@ inline void Org::BouncyCastle::Math::EC::ECAlgorithms::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::ECAlgorithms::ECAlgorithms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

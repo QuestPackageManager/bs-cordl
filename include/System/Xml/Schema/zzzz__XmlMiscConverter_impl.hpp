@@ -164,5 +164,3 @@ inline ::System::Object* System::Xml::Schema::XmlMiscConverter::ChangeTypeWildca
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlMiscConverter::XmlMiscConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -110,5 +110,3 @@ inline void GlobalNamespace::MockPlatformEntitlement::GetIt() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlatformEntitlement::MockPlatformEntitlement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

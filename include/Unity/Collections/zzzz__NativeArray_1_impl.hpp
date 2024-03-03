@@ -309,5 +309,3 @@ template <typename T> constexpr ::Unity::Collections::__NativeArray_1__Enumerato
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::__NativeArray_1__Enumerator<T>::__NativeArray_1__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

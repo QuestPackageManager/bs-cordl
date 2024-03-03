@@ -10,5 +10,3 @@ constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::
 constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::Bcpg::CompressionAlgorithmTag::Zip{ static_cast<int32_t>(0x1) };
 constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::Bcpg::CompressionAlgorithmTag::ZLib{ static_cast<int32_t>(0x2) };
 constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Org::BouncyCastle::Bcpg::CompressionAlgorithmTag::BZip2{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -572,5 +572,3 @@ inline bool GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::MultiplayerLocalInactivePlayerSongSyncController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

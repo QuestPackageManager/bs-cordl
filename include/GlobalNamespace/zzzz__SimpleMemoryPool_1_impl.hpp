@@ -70,5 +70,3 @@ template <typename T> inline void GlobalNamespace::SimpleMemoryPool_1<T>::Despaw
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::SimpleMemoryPool_1<T>::SimpleMemoryPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

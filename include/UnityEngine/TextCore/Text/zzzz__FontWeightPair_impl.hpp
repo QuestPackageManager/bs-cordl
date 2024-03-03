@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextCore::Text::FontWeightPair::FontWeightPair(::UnityW
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontWeightPair::FontWeightPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

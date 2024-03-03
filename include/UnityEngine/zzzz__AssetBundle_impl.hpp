@@ -402,5 +402,3 @@ inline ::UnityEngine::AssetBundleRequest* UnityEngine::AssetBundle::LoadAssetWit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetBundle::AssetBundle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

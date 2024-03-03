@@ -433,5 +433,3 @@ inline ::Org::BouncyCastle::Math::EC::FpPoint* Org::BouncyCastle::Math::EC::FpPo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::FpPoint::FpPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline void UnityEngine::UI::IMeshModifier::ModifyMesh(::UnityEngine::UI::Vertex
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::IMeshModifier*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, verts);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

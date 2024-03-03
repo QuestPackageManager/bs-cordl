@@ -134,5 +134,3 @@ inline void GlobalNamespace::PresetsSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PresetsSettingsController::PresetsSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

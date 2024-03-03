@@ -10,5 +10,3 @@ constexpr ::System::SmallRect::SmallRect(int16_t Left, int16_t Top, int16_t Righ
 }
 // Ctor Parameters []
 constexpr ::System::SmallRect::SmallRect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

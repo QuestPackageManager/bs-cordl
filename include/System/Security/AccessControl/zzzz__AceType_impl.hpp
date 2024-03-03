@@ -24,5 +24,3 @@ constexpr ::System::Security::AccessControl::AceType System::Security::AccessCon
 constexpr ::System::Security::AccessControl::AceType System::Security::AccessControl::AceType::SystemAuditCallbackObject{ static_cast<uint8_t>(0xfu) };
 constexpr ::System::Security::AccessControl::AceType System::Security::AccessControl::AceType::SystemAlarmCallbackObject{ static_cast<uint8_t>(0x10u) };
 constexpr ::System::Security::AccessControl::AceType System::Security::AccessControl::AceType::MaxDefinedAceType{ static_cast<uint8_t>(0x10u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

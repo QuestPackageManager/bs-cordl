@@ -483,5 +483,3 @@ inline void UnityEngine::Caching::set_currentCacheForWriting_Injected(ByRef<::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Caching::Caching() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

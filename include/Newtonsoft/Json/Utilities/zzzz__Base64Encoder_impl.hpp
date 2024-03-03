@@ -140,5 +140,3 @@ inline void Newtonsoft::Json::Utilities::Base64Encoder::WriteChars(::ArrayW<char
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::Base64Encoder::Base64Encoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ inline ::GlobalNamespace::BeatmapKeyNetSerializable* GlobalNamespace::BeatmapIde
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapIdentifierNetSerializableHelper::BeatmapIdentifierNetSerializableHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

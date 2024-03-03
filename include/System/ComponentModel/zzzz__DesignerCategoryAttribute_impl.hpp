@@ -201,5 +201,3 @@ inline ::System::Object* System::ComponentModel::DesignerCategoryAttribute::get_
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignerCategoryAttribute::DesignerCategoryAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

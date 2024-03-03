@@ -23,5 +23,3 @@ template <typename T> inline void GlobalNamespace::BaseStateTransition_1<T>::_ct
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::BaseStateTransition_1<T>::BaseStateTransition_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

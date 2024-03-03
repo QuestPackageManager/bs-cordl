@@ -1117,5 +1117,3 @@ inline ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Syste
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SystemInfo::SystemInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

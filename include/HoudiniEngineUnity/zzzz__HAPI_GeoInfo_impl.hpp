@@ -48,5 +48,3 @@ constexpr ::HoudiniEngineUnity::HAPI_GeoInfo::HAPI_GeoInfo(::HoudiniEngineUnity:
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_GeoInfo::HAPI_GeoInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ inline void System::Security::Cryptography::X509Certificates::X509ChainElementEn
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::X509ChainElementEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

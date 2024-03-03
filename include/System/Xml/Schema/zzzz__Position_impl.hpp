@@ -28,5 +28,3 @@ constexpr ::System::Xml::Schema::Position::Position(int32_t symbol, ::System::Ob
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Position::Position() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

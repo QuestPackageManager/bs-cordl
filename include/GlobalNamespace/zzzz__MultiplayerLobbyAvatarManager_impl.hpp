@@ -505,5 +505,3 @@ inline void GlobalNamespace::MultiplayerLobbyAvatarManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarManager::MultiplayerLobbyAvatarManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

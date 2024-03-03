@@ -147,5 +147,3 @@ inline void HoudiniEngineUnity::HEU_HoudiniAssetRoot::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HoudiniAssetRoot::HEU_HoudiniAssetRoot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

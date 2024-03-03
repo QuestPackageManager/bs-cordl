@@ -1025,5 +1025,3 @@ inline void GlobalNamespace::OVRPlayerController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlayerController::OVRPlayerController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

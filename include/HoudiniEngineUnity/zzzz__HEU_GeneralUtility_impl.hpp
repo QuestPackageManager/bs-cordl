@@ -2147,5 +2147,3 @@ inline void HoudiniEngineUnity::HEU_GeneralUtility::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeneralUtility::HEU_GeneralUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

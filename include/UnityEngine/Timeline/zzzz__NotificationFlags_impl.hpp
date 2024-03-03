@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Timeline::NotificationFlags::NotificationFlags() {}
 constexpr ::UnityEngine::Timeline::NotificationFlags UnityEngine::Timeline::NotificationFlags::TriggerInEditMode{ static_cast<int16_t>(0x1) };
 constexpr ::UnityEngine::Timeline::NotificationFlags UnityEngine::Timeline::NotificationFlags::Retroactive{ static_cast<int16_t>(0x2) };
 constexpr ::UnityEngine::Timeline::NotificationFlags UnityEngine::Timeline::NotificationFlags::TriggerOnce{ static_cast<int16_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

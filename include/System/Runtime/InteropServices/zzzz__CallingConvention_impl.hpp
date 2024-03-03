@@ -11,5 +11,3 @@ constexpr ::System::Runtime::InteropServices::CallingConvention System::Runtime:
 constexpr ::System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::CallingConvention::StdCall{ static_cast<int32_t>(0x3) };
 constexpr ::System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::CallingConvention::ThisCall{ static_cast<int32_t>(0x4) };
 constexpr ::System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::CallingConvention::FastCall{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

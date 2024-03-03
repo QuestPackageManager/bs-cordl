@@ -242,5 +242,3 @@ inline void GlobalNamespace::PreviousColorPanelController::_Awake_b__9_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PreviousColorPanelController::PreviousColorPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

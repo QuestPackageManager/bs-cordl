@@ -20,5 +20,3 @@ constexpr ::UnityEngine::CharacterInfo::CharacterInfo(int32_t index, ::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CharacterInfo::CharacterInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ constexpr ::UnityEngine::XR::XRNode UnityEngine::XR::XRNode::RightHand{ static_c
 constexpr ::UnityEngine::XR::XRNode UnityEngine::XR::XRNode::GameController{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::XR::XRNode UnityEngine::XR::XRNode::TrackingReference{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::XR::XRNode UnityEngine::XR::XRNode::HardwareTracker{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

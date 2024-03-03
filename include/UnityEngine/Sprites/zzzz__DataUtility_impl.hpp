@@ -86,5 +86,3 @@ inline ::UnityEngine::Vector2 UnityEngine::Sprites::DataUtility::GetMinSize(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Sprites::DataUtility::DataUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

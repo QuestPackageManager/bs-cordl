@@ -24,5 +24,3 @@ inline float_t UnityEngine::Timeline::WeightUtility::NormalizeMixer(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::WeightUtility::WeightUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -181,5 +181,3 @@ inline void GlobalNamespace::OVRPlatformMenu::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlatformMenu::OVRPlatformMenu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

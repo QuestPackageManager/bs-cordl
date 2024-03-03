@@ -28,5 +28,3 @@ inline bool UnityEngine::ScriptingUtility::IsManagedCodeWorking() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScriptingUtility::ScriptingUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

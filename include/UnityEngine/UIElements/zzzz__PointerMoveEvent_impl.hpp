@@ -134,5 +134,3 @@ inline void UnityEngine::UIElements::PointerMoveEvent::PostDispatch(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerMoveEvent::PointerMoveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

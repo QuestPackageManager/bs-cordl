@@ -8,5 +8,3 @@ constexpr ::System::StringSplitOptions::StringSplitOptions(int32_t value__) noex
 constexpr ::System::StringSplitOptions::StringSplitOptions() {}
 constexpr ::System::StringSplitOptions System::StringSplitOptions::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::StringSplitOptions System::StringSplitOptions::RemoveEmptyEntries{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

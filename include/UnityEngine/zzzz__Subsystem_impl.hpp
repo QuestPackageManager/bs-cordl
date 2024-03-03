@@ -108,5 +108,3 @@ inline void UnityEngine::Subsystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Subsystem::Subsystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -638,5 +638,3 @@ inline bool UnityEngine::DetailPrototype::Equals(::UnityEngine::DetailPrototype*
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DetailPrototype::DetailPrototype() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

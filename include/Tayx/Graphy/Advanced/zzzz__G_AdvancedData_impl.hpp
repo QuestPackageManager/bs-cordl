@@ -408,5 +408,3 @@ inline void Tayx::Graphy::Advanced::G_AdvancedData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Advanced::G_AdvancedData::G_AdvancedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

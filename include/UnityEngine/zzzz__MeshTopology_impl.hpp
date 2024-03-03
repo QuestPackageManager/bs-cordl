@@ -11,5 +11,3 @@ constexpr ::UnityEngine::MeshTopology UnityEngine::MeshTopology::Quads{ static_c
 constexpr ::UnityEngine::MeshTopology UnityEngine::MeshTopology::Lines{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::MeshTopology UnityEngine::MeshTopology::LineStrip{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::MeshTopology UnityEngine::MeshTopology::Points{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

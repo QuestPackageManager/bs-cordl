@@ -430,5 +430,3 @@ inline void GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorsOverrideSettingsPanelController::ColorsOverrideSettingsPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

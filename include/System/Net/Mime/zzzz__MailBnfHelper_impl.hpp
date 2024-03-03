@@ -293,5 +293,3 @@ inline bool System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace(char16_t c) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mime::MailBnfHelper::MailBnfHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

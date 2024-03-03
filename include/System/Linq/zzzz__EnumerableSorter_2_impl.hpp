@@ -96,5 +96,3 @@ template <typename TElement, typename TKey> inline int32_t System::Linq::Enumera
 }
 // Ctor Parameters []
 template <typename TElement, typename TKey> constexpr ::System::Linq::EnumerableSorter_2<TElement, TKey>::EnumerableSorter_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

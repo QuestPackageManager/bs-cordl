@@ -43,5 +43,3 @@ inline void GlobalNamespace::FileStorageInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileStorageInstaller::FileStorageInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

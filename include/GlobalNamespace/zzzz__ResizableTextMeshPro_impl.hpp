@@ -138,5 +138,3 @@ inline void GlobalNamespace::ResizableTextMeshPro::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ResizableTextMeshPro::ResizableTextMeshPro() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

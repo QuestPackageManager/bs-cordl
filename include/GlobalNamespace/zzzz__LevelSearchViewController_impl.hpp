@@ -823,5 +823,3 @@ inline void GlobalNamespace::LevelSearchViewController::_LocalizedLevelFilterPar
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelSearchViewController::LevelSearchViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

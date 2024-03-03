@@ -47,5 +47,3 @@ constexpr ::System::Net::HttpRequestHeader System::Net::HttpRequestHeader::Range
 constexpr ::System::Net::HttpRequestHeader System::Net::HttpRequestHeader::Te{ static_cast<int32_t>(0x26) };
 constexpr ::System::Net::HttpRequestHeader System::Net::HttpRequestHeader::Translate{ static_cast<int32_t>(0x27) };
 constexpr ::System::Net::HttpRequestHeader System::Net::HttpRequestHeader::UserAgent{ static_cast<int32_t>(0x28) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

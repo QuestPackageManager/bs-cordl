@@ -11,5 +11,3 @@ constexpr ::System::IO::MonoFileType System::IO::MonoFileType::Disk{ static_cast
 constexpr ::System::IO::MonoFileType System::IO::MonoFileType::Char{ static_cast<int32_t>(0x2) };
 constexpr ::System::IO::MonoFileType System::IO::MonoFileType::Pipe{ static_cast<int32_t>(0x3) };
 constexpr ::System::IO::MonoFileType System::IO::MonoFileType::Remote{ static_cast<int32_t>(0x8000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

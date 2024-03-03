@@ -13,5 +13,3 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus Org::BouncyCastle::Asn1::Cmp
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus Org::BouncyCastle::Asn1::Cmp::PkiStatus::RevocationWarning{ static_cast<int32_t>(0x4) };
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus Org::BouncyCastle::Asn1::Cmp::PkiStatus::RevocationNotification{ static_cast<int32_t>(0x5) };
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus Org::BouncyCastle::Asn1::Cmp::PkiStatus::KeyUpdateWarning{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

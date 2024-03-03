@@ -235,5 +235,3 @@ inline void Org::BouncyCastle::Bcpg::OnePassSignaturePacket::Encode(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket::OnePassSignaturePacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

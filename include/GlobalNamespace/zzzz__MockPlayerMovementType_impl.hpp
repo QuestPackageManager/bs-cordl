@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::MockPlayerMovementType::MockPlayerMovementType() {}
 constexpr ::GlobalNamespace::MockPlayerMovementType GlobalNamespace::MockPlayerMovementType::AI{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MockPlayerMovementType GlobalNamespace::MockPlayerMovementType::MirrorPlayer{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::MockPlayerMovementType GlobalNamespace::MockPlayerMovementType::Recording{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

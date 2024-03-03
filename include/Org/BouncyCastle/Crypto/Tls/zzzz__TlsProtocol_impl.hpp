@@ -1873,5 +1873,3 @@ inline int32_t Org::BouncyCastle::Crypto::Tls::TlsProtocol::GetPrfAlgorithm(::Or
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocol::TlsProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

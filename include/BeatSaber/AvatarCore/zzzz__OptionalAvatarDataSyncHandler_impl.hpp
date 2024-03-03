@@ -266,5 +266,3 @@ inline ::BeatSaber::AvatarCore::OptionalAvatarData BeatSaber::AvatarCore::Option
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler::OptionalAvatarDataSyncHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

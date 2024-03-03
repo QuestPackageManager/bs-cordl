@@ -258,5 +258,3 @@ inline ::StringW RootMotion::LayerMaskExtensions::MaskToString(::UnityEngine::La
 }
 // Ctor Parameters []
 constexpr ::RootMotion::LayerMaskExtensions::LayerMaskExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

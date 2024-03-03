@@ -130,5 +130,3 @@ inline void GlobalNamespace::SimpleTextWithIconTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTextWithIconTableCell::SimpleTextWithIconTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

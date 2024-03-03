@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::EVRControllerAxisType OVR::OpenVR::EVRControllerAxisTyp
 constexpr ::OVR::OpenVR::EVRControllerAxisType OVR::OpenVR::EVRControllerAxisType::k_eControllerAxis_TrackPad{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRControllerAxisType OVR::OpenVR::EVRControllerAxisType::k_eControllerAxis_Joystick{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EVRControllerAxisType OVR::OpenVR::EVRControllerAxisType::k_eControllerAxis_Trigger{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

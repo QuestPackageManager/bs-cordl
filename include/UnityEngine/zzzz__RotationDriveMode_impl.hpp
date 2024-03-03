@@ -8,5 +8,3 @@ constexpr ::UnityEngine::RotationDriveMode::RotationDriveMode(int32_t value__) n
 constexpr ::UnityEngine::RotationDriveMode::RotationDriveMode() {}
 constexpr ::UnityEngine::RotationDriveMode UnityEngine::RotationDriveMode::XYAndZ{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::RotationDriveMode UnityEngine::RotationDriveMode::Slerp{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

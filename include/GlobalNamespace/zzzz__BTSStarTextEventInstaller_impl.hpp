@@ -57,5 +57,3 @@ inline void GlobalNamespace::BTSStarTextEventInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSStarTextEventInstaller::BTSStarTextEventInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

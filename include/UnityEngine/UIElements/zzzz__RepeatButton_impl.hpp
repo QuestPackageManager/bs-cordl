@@ -197,5 +197,3 @@ inline void UnityEngine::UIElements::__RepeatButton__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__RepeatButton__UxmlFactory::__RepeatButton__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

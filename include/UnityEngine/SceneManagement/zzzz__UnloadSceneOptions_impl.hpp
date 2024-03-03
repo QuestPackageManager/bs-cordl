@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions::UnloadSceneOptions
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions::UnloadSceneOptions() {}
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions UnityEngine::SceneManagement::UnloadSceneOptions::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions UnityEngine::SceneManagement::UnloadSceneOptions::UnloadAllEmbeddedSceneObjects{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

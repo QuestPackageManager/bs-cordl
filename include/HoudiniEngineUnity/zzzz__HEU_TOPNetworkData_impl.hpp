@@ -112,5 +112,3 @@ inline void HoudiniEngineUnity::HEU_TOPNetworkData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TOPNetworkData::HEU_TOPNetworkData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

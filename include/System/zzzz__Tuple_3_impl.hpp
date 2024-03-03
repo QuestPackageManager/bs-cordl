@@ -168,5 +168,3 @@ template <typename T1, typename T2, typename T3> inline int32_t System::Tuple_3<
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::System::Tuple_3<T1, T2, T3>::Tuple_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

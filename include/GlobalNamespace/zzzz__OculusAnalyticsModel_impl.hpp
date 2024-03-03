@@ -187,5 +187,3 @@ inline void GlobalNamespace::OculusAnalyticsModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusAnalyticsModel::OculusAnalyticsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

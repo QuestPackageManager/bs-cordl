@@ -161,5 +161,3 @@ inline void Unity::XR::Oculus::InputFocus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::InputFocus::InputFocus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

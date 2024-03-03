@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::UIR::Implementation::ClipMethod UnityEngine
 constexpr ::UnityEngine::UIElements::UIR::Implementation::ClipMethod UnityEngine::UIElements::UIR::Implementation::ClipMethod::Scissor{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::UIR::Implementation::ClipMethod UnityEngine::UIElements::UIR::Implementation::ClipMethod::ShaderDiscard{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::UIR::Implementation::ClipMethod UnityEngine::UIElements::UIR::Implementation::ClipMethod::Stencil{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

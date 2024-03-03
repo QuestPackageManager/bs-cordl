@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::TransitionEndEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TransitionEndEvent::TransitionEndEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

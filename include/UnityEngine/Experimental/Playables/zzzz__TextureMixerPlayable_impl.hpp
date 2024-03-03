@@ -69,5 +69,3 @@ constexpr ::UnityEngine::Experimental::Playables::TextureMixerPlayable::TextureM
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Playables::TextureMixerPlayable::TextureMixerPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

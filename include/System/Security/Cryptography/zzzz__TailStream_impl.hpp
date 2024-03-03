@@ -352,5 +352,3 @@ inline void System::Security::Cryptography::TailStream::Write(::ArrayW<uint8_t, 
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::TailStream::TailStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

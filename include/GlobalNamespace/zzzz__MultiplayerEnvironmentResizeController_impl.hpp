@@ -494,5 +494,3 @@ inline void GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController::MultiplayerEnvironmentResizeController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

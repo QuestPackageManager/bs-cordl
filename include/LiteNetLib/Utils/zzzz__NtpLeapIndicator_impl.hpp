@@ -10,5 +10,3 @@ constexpr ::LiteNetLib::Utils::NtpLeapIndicator LiteNetLib::Utils::NtpLeapIndica
 constexpr ::LiteNetLib::Utils::NtpLeapIndicator LiteNetLib::Utils::NtpLeapIndicator::LastMinuteHas61Seconds{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::Utils::NtpLeapIndicator LiteNetLib::Utils::NtpLeapIndicator::LastMinuteHas59Seconds{ static_cast<int32_t>(0x2) };
 constexpr ::LiteNetLib::Utils::NtpLeapIndicator LiteNetLib::Utils::NtpLeapIndicator::AlarmCondition{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

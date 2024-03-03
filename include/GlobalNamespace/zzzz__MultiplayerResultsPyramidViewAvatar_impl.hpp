@@ -578,5 +578,3 @@ inline void GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory::_ct
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory::__MultiplayerResultsPyramidViewAvatar__Factory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

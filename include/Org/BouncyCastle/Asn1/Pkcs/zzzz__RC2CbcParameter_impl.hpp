@@ -187,5 +187,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::RC2
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter::RC2CbcParameter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

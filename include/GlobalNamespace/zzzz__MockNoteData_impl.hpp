@@ -409,5 +409,3 @@ inline void GlobalNamespace::MockNoteData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockNoteData::MockNoteData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

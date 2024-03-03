@@ -58,5 +58,3 @@ inline ::System::Object* System::Diagnostics::DiagnosticsConfigurationHandler::C
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DiagnosticsConfigurationHandler::DiagnosticsConfigurationHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

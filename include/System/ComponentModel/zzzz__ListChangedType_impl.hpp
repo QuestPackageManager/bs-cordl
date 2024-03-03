@@ -14,5 +14,3 @@ constexpr ::System::ComponentModel::ListChangedType System::ComponentModel::List
 constexpr ::System::ComponentModel::ListChangedType System::ComponentModel::ListChangedType::PropertyDescriptorAdded{ static_cast<int32_t>(0x5) };
 constexpr ::System::ComponentModel::ListChangedType System::ComponentModel::ListChangedType::PropertyDescriptorDeleted{ static_cast<int32_t>(0x6) };
 constexpr ::System::ComponentModel::ListChangedType System::ComponentModel::ListChangedType::PropertyDescriptorChanged{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

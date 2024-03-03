@@ -365,5 +365,3 @@ inline void TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT(::System::Object* Sen
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMPro_EventManager::TMPro_EventManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

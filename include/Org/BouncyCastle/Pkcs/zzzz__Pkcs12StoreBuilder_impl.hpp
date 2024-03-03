@@ -193,5 +193,3 @@ inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* Org::BouncyCastle::Pkcs::P
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::Pkcs12StoreBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

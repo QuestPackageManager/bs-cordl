@@ -60,5 +60,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::LinearA
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::LinearAccelerationState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

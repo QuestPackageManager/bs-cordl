@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Engines::AesWrapEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::AesWrapEngine::AesWrapEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

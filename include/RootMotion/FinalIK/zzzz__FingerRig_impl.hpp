@@ -322,5 +322,3 @@ inline void RootMotion::FinalIK::FingerRig::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::FingerRig::FingerRig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

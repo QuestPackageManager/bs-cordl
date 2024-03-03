@@ -205,5 +205,3 @@ inline void System::IO::CStreamWriter::WriteLine(::StringW val) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::CStreamWriter::CStreamWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

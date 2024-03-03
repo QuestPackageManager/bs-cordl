@@ -328,5 +328,3 @@ inline void OVR::OpenVR::CVRSettings::RemoveKeyInSection(::StringW pchSection, :
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRSettings::CVRSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -159,5 +159,3 @@ inline void GlobalNamespace::DefaultScenesTransitionsFromInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit::DefaultScenesTransitionsFromInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

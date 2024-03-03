@@ -208,5 +208,3 @@ inline void UnityEngine::Rendering::RenderPipeline::Dispose(bool disposing) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderPipeline::RenderPipeline() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -134,5 +134,3 @@ inline void System::Runtime::Serialization::SerializationObjectManager::AddOnSer
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationObjectManager::SerializationObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ inline void Org::BouncyCastle::Utilities::Encoders::HexTranslator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::HexTranslator::HexTranslator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -257,5 +257,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UnityEngine::WWWTranscoder::Decode(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WWWTranscoder::WWWTranscoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

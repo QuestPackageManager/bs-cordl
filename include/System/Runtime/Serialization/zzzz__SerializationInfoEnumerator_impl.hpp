@@ -268,5 +268,3 @@ inline ::System::Type* System::Runtime::Serialization::SerializationInfoEnumerat
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationInfoEnumerator::SerializationInfoEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

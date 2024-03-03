@@ -278,5 +278,3 @@ inline void GlobalNamespace::BeatmapDifficultySegmentedControlController::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultySegmentedControlController::BeatmapDifficultySegmentedControlController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

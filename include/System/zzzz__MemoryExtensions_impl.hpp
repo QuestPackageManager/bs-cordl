@@ -333,5 +333,3 @@ template <typename T> inline bool System::MemoryExtensions::IsTypeComparableAsBy
 }
 // Ctor Parameters []
 constexpr ::System::MemoryExtensions::MemoryExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

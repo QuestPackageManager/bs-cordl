@@ -56,5 +56,3 @@ constexpr ::OVR::OpenVR::RenderModel_t_Packed::RenderModel_t_Packed(void* rVerte
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_t_Packed::RenderModel_t_Packed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

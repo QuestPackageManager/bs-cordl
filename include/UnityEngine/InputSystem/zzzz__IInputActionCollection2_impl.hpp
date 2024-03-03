@@ -94,5 +94,3 @@ inline int32_t UnityEngine::InputSystem::IInputActionCollection2::FindBinding(::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::IInputActionCollection2*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, mask, action);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

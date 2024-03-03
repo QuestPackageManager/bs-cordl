@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::NavigationSubmitEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigationSubmitEvent::NavigationSubmitEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

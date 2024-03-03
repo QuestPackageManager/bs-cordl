@@ -138,5 +138,3 @@ inline void GlobalNamespace::BombExplosionEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BombExplosionEffect::BombExplosionEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

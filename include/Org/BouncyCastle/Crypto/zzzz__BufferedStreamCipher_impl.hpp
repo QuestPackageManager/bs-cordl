@@ -294,5 +294,3 @@ inline void Org::BouncyCastle::Crypto::BufferedStreamCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedStreamCipher::BufferedStreamCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

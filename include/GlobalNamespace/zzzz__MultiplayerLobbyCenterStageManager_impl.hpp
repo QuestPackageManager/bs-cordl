@@ -166,5 +166,3 @@ inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyCenterStageManager::MultiplayerLobbyCenterStageManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle(::cordl_int
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeRemoteClassHandle::RuntimeRemoteClassHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

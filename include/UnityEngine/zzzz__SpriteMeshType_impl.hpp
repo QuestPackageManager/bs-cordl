@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SpriteMeshType::SpriteMeshType(int32_t value__) noexcep
 constexpr ::UnityEngine::SpriteMeshType::SpriteMeshType() {}
 constexpr ::UnityEngine::SpriteMeshType UnityEngine::SpriteMeshType::FullRect{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpriteMeshType UnityEngine::SpriteMeshType::Tight{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

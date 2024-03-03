@@ -73,5 +73,3 @@ inline int32_t System::Xml::Bits::LeastPosition(uint32_t num) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Bits::Bits() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -75,5 +75,3 @@ inline void GlobalNamespace::BaseTransitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseTransitionSO::BaseTransitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

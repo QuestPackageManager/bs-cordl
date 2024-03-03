@@ -57,5 +57,3 @@ inline void UnityEngine::Bindings::NativeThrowsAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeThrowsAttribute::NativeThrowsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

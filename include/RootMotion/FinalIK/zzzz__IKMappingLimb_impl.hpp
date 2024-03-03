@@ -391,5 +391,3 @@ inline void RootMotion::FinalIK::IKMappingLimb::WritePose(::RootMotion::FinalIK:
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKMappingLimb::IKMappingLimb() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -177,5 +177,3 @@ inline void GlobalNamespace::LightColorGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorGroupEffectManager::LightColorGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

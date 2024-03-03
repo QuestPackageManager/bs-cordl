@@ -12,5 +12,3 @@ constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::DIR
 constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::OPENGL{ static_cast<uint32_t>(0x50403u) };
 constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::VULKAN{ static_cast<uint32_t>(0x1000504u) };
 constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::METAL{ static_cast<uint32_t>(0x2010005u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

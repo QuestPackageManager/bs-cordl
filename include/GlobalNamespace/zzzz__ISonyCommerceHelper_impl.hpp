@@ -106,5 +106,3 @@ GlobalNamespace::ISonyCommerceHelper::DisplayCategoryBrowseDialogAsync(::StringW
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>*, false>(this, ___internal_method,
                                                                                                                                                                       categoryLabel, token);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

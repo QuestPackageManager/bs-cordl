@@ -245,5 +245,3 @@ constexpr ::UnityEngine::UIElements::Translate::Translate(::UnityEngine::UIEleme
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Translate::Translate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

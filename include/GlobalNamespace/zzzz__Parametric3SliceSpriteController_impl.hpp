@@ -415,5 +415,3 @@ inline void GlobalNamespace::Parametric3SliceSpriteController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Parametric3SliceSpriteController::Parametric3SliceSpriteController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

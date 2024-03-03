@@ -156,5 +156,3 @@ inline void UnityEngine::ProBuilder::Shapes::Arch::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Arch::Arch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

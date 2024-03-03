@@ -188,5 +188,3 @@ inline void System::Runtime::Remoting::ChannelData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ChannelData::ChannelData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -181,5 +181,3 @@ inline void UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextEditorEventHandler::TextEditorEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

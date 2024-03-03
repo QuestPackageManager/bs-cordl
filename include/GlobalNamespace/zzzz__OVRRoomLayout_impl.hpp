@@ -384,5 +384,3 @@ constexpr ::GlobalNamespace::OVRRoomLayout::OVRRoomLayout(uint64_t _Handle_k__Ba
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRRoomLayout::OVRRoomLayout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

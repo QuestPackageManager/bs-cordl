@@ -2242,5 +2242,3 @@ inline void GlobalNamespace::OVRSpatialAnchor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSpatialAnchor::OVRSpatialAnchor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

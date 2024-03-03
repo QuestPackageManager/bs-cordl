@@ -87,5 +87,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator::PgpUserAttributeSubpacketVectorGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

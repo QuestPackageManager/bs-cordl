@@ -172,5 +172,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlChildEnumerator::get_Current() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlChildEnumerator::XmlChildEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

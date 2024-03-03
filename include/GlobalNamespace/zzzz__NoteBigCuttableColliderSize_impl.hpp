@@ -131,5 +131,3 @@ inline void GlobalNamespace::NoteBigCuttableColliderSize::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteBigCuttableColliderSize::NoteBigCuttableColliderSize() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

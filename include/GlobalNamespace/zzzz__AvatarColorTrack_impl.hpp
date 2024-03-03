@@ -24,5 +24,3 @@ inline void GlobalNamespace::AvatarColorTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AvatarColorTrack::AvatarColorTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

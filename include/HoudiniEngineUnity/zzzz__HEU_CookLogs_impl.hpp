@@ -229,5 +229,3 @@ inline void HoudiniEngineUnity::HEU_CookLogs::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_CookLogs::HEU_CookLogs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

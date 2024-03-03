@@ -646,5 +646,3 @@ inline ::System::Object* System::Runtime::Remoting::Messaging::AsyncResult::Invo
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::AsyncResult::AsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

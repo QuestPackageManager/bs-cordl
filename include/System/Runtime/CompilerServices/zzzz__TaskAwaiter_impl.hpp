@@ -310,5 +310,3 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter::TaskAwaiter(::System
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::TaskAwaiter::TaskAwaiter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

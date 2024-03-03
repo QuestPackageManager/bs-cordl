@@ -361,5 +361,3 @@ inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* System::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectMap::ObjectMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

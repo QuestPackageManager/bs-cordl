@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMvcActionSelectorAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcActionSelectorAttribute::AspMvcActionSelectorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

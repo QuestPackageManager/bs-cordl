@@ -187,5 +187,3 @@ inline void RootMotion::FinalIK::RotationLimitSpline::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::RotationLimitSpline::RotationLimitSpline() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

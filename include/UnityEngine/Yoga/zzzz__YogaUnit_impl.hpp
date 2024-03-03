@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Yoga::YogaUnit UnityEngine::Yoga::YogaUnit::Undefined{ 
 constexpr ::UnityEngine::Yoga::YogaUnit UnityEngine::Yoga::YogaUnit::Point{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Yoga::YogaUnit UnityEngine::Yoga::YogaUnit::Percent{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Yoga::YogaUnit UnityEngine::Yoga::YogaUnit::Auto{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

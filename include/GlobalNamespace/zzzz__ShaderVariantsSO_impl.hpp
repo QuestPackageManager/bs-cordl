@@ -286,5 +286,3 @@ inline void GlobalNamespace::ShaderVariantsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShaderVariantsSO::ShaderVariantsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -359,5 +359,3 @@ inline void RootMotion::FinalIK::LookAtController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::LookAtController::LookAtController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

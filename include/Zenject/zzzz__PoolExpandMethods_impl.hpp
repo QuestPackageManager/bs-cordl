@@ -9,5 +9,3 @@ constexpr ::Zenject::PoolExpandMethods::PoolExpandMethods() {}
 constexpr ::Zenject::PoolExpandMethods Zenject::PoolExpandMethods::OneAtATime{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::PoolExpandMethods Zenject::PoolExpandMethods::Double{ static_cast<int32_t>(0x1) };
 constexpr ::Zenject::PoolExpandMethods Zenject::PoolExpandMethods::Disabled{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

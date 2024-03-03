@@ -52,5 +52,3 @@ inline void System::Threading::Tasks::UnobservedTaskExceptionEventArgs::_ctor(::
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::UnobservedTaskExceptionEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

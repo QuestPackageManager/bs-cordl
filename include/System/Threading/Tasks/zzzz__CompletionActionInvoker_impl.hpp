@@ -108,5 +108,3 @@ inline void System::Threading::Tasks::CompletionActionInvoker::MarkAborted(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::CompletionActionInvoker::CompletionActionInvoker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

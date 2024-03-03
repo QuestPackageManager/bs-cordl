@@ -135,5 +135,3 @@ inline ::StringW Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::GenTimeAccuracy::GenTimeAccuracy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

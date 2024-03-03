@@ -9,5 +9,3 @@ constexpr ::UnityEngine::IMECompositionMode::IMECompositionMode() {}
 constexpr ::UnityEngine::IMECompositionMode UnityEngine::IMECompositionMode::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::IMECompositionMode UnityEngine::IMECompositionMode::On{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::IMECompositionMode UnityEngine::IMECompositionMode::Off{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

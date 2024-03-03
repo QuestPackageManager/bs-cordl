@@ -72,5 +72,3 @@ inline bool HoudiniEngineUnity::Test_HAPI_GeoInfo::IsEquivalentTo(::HoudiniEngin
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_HAPI_GeoInfo::Test_HAPI_GeoInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

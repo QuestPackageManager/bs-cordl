@@ -1649,5 +1649,3 @@ inline void LiteNetLib::NetPeer::RecycleAndDeliver(::LiteNetLib::NetPacket* pack
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetPeer::NetPeer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

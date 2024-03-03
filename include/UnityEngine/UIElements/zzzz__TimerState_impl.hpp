@@ -171,5 +171,3 @@ constexpr ::UnityEngine::UIElements::TimerState::TimerState(int64_t _start_k__Ba
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimerState::TimerState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum S
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum::Array{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum::Header{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum::Member{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ inline void System::Runtime::Serialization::OnDeserializingAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::OnDeserializingAttribute::OnDeserializingAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

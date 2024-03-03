@@ -223,5 +223,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalCallbackWithLookupWrapper::__ze
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalCallbackWithLookupWrapper::SignalCallbackWithLookupWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

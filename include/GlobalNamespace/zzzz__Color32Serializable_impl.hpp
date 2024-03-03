@@ -213,5 +213,3 @@ constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Color32Serializable::Color32Serializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

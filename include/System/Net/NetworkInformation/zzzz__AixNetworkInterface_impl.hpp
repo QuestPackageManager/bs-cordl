@@ -99,5 +99,3 @@ inline ::System::Net::NetworkInformation::OperationalStatus System::Net::Network
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixNetworkInterface::AixNetworkInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

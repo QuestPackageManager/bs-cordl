@@ -331,5 +331,3 @@ inline void HMUI::ColorGradientSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ColorGradientSlider::ColorGradientSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

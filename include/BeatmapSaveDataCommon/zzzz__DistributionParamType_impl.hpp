@@ -8,5 +8,3 @@ constexpr ::BeatmapSaveDataCommon::DistributionParamType::DistributionParamType(
 constexpr ::BeatmapSaveDataCommon::DistributionParamType::DistributionParamType() {}
 constexpr ::BeatmapSaveDataCommon::DistributionParamType BeatmapSaveDataCommon::DistributionParamType::Wave{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::DistributionParamType BeatmapSaveDataCommon::DistributionParamType::Step{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

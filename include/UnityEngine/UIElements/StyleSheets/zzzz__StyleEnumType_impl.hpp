@@ -24,5 +24,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::StyleEnumType UnityEngine::UIE
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleEnumType UnityEngine::UIElements::StyleSheets::StyleEnumType::Visibility{ static_cast<int32_t>(0xf) };
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleEnumType UnityEngine::UIElements::StyleSheets::StyleEnumType::WhiteSpace{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleEnumType UnityEngine::UIElements::StyleSheets::StyleEnumType::Wrap{ static_cast<int32_t>(0x11) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

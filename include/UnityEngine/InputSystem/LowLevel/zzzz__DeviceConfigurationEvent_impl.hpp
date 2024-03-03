@@ -91,5 +91,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::Device
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::DeviceConfigurationEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

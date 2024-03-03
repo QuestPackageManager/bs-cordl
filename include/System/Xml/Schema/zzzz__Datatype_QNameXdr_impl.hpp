@@ -123,5 +123,3 @@ inline void System::Xml::Schema::Datatype_QNameXdr::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_QNameXdr::Datatype_QNameXdr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

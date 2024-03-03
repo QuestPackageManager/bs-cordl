@@ -248,5 +248,3 @@ inline bool System::Net::DigestHeaderParser::GetKeywordAndValue(ByRef<::StringW>
 }
 // Ctor Parameters []
 constexpr ::System::Net::DigestHeaderParser::DigestHeaderParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

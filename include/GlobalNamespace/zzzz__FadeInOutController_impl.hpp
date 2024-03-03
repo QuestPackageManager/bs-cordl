@@ -583,5 +583,3 @@ inline void GlobalNamespace::FadeInOutController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeInOutController::FadeInOutController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

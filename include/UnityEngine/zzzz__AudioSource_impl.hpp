@@ -1881,5 +1881,3 @@ inline void UnityEngine::AudioSource::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioSource::AudioSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

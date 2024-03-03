@@ -221,5 +221,3 @@ template <typename T> inline void UnityEngine::UI::Collections::IndexedSet_1<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UI::Collections::IndexedSet_1<T>::IndexedSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

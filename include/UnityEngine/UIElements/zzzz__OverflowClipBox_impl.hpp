@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::OverflowClipBox::OverflowClipBox(int32_t va
 constexpr ::UnityEngine::UIElements::OverflowClipBox::OverflowClipBox() {}
 constexpr ::UnityEngine::UIElements::OverflowClipBox UnityEngine::UIElements::OverflowClipBox::PaddingBox{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::OverflowClipBox UnityEngine::UIElements::OverflowClipBox::ContentBox{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

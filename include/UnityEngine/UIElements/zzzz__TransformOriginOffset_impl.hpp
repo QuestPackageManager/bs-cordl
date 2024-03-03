@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::TransformOriginOffset UnityEngine::UIElemen
 constexpr ::UnityEngine::UIElements::TransformOriginOffset UnityEngine::UIElements::TransformOriginOffset::Top{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::TransformOriginOffset UnityEngine::UIElements::TransformOriginOffset::Bottom{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::TransformOriginOffset UnityEngine::UIElements::TransformOriginOffset::Center{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

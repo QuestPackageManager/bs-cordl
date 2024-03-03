@@ -285,5 +285,3 @@ inline void Zenject::SignalDeclarationBindInfo::set_MissingHandlerResponse(::Zen
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalDeclarationBindInfo::SignalDeclarationBindInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

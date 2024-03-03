@@ -123,5 +123,3 @@ inline void Internal::Threading::Tasks::Tracing::TaskTrace::TaskScheduled(int32_
 }
 // Ctor Parameters []
 constexpr ::Internal::Threading::Tasks::Tracing::TaskTrace::TaskTrace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

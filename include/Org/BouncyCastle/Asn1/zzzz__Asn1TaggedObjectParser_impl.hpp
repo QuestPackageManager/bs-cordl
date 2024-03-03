@@ -51,5 +51,3 @@ inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* Org::BouncyCastle::Asn1::Asn
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IAsn1Convertible*, false>(this, ___internal_method, tag, isExplicit);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

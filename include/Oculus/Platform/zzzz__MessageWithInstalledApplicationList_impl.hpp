@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::InstalledApplicationList* Oculus::Platform::M
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithInstalledApplicationList::MessageWithInstalledApplicationList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

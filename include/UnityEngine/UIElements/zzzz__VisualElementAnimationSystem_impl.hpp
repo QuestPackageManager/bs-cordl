@@ -307,5 +307,3 @@ inline void UnityEngine::UIElements::VisualElementAnimationSystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementAnimationSystem::VisualElementAnimationSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

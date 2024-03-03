@@ -8,5 +8,3 @@ constexpr ::Newtonsoft::Json::MissingMemberHandling::MissingMemberHandling(int32
 constexpr ::Newtonsoft::Json::MissingMemberHandling::MissingMemberHandling() {}
 constexpr ::Newtonsoft::Json::MissingMemberHandling Newtonsoft::Json::MissingMemberHandling::Ignore{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::MissingMemberHandling Newtonsoft::Json::MissingMemberHandling::Error{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

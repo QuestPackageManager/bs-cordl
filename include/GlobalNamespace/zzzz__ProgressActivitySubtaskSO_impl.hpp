@@ -55,5 +55,3 @@ inline void GlobalNamespace::ProgressActivitySubtaskSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProgressActivitySubtaskSO::ProgressActivitySubtaskSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

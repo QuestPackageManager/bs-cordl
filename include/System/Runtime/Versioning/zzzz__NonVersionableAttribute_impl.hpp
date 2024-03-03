@@ -25,5 +25,3 @@ inline void System::Runtime::Versioning::NonVersionableAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Versioning::NonVersionableAttribute::NonVersionableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -88,5 +88,3 @@ inline uint32_t OVR::OpenVR::CVRResources::GetResourceFullPath(::StringW pchReso
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRResources::CVRResources() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

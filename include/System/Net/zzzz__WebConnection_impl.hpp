@@ -1038,5 +1038,3 @@ inline void System::Net::WebConnection::set_UnsafeAuthenticatedConnectionSharing
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebConnection::WebConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

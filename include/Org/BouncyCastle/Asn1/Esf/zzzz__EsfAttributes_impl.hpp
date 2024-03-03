@@ -151,5 +151,3 @@ inline void Org::BouncyCastle::Asn1::Esf::EsfAttributes::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::EsfAttributes::EsfAttributes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

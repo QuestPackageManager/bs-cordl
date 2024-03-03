@@ -21,5 +21,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509FindType Syste
 constexpr ::System::Security::Cryptography::X509Certificates::X509FindType System::Security::Cryptography::X509Certificates::X509FindType::FindByExtension{ static_cast<int32_t>(0xc) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509FindType System::Security::Cryptography::X509Certificates::X509FindType::FindByKeyUsage{ static_cast<int32_t>(0xd) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509FindType System::Security::Cryptography::X509Certificates::X509FindType::FindBySubjectKeyIdentifier{ static_cast<int32_t>(0xe) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

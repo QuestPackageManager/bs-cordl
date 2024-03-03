@@ -338,5 +338,3 @@ inline void Tayx::Graphy::G_GraphShader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::G_GraphShader::G_GraphShader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

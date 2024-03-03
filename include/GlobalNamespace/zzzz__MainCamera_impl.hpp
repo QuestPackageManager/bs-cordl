@@ -144,5 +144,3 @@ inline void GlobalNamespace::MainCamera::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainCamera::MainCamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

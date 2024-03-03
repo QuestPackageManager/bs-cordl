@@ -60,5 +60,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::RC5Parameters::get_Rounds(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RC5Parameters::RC5Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

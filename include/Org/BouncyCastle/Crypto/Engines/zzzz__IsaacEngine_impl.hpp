@@ -323,5 +323,3 @@ inline void Org::BouncyCastle::Crypto::Engines::IsaacEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::IsaacEngine::IsaacEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

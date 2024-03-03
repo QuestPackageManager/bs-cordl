@@ -346,5 +346,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Hol
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Holder::Holder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -57,5 +57,3 @@ template <typename T0, typename T1> inline void GlobalNamespace::MemoryPoolConta
 }
 // Ctor Parameters []
 template <typename T0, typename T1> constexpr ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>::MemoryPoolContainer_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

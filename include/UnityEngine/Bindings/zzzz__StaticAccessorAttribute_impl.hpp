@@ -121,5 +121,3 @@ inline void UnityEngine::Bindings::StaticAccessorAttribute::_ctor(::StringW name
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::StaticAccessorAttribute::StaticAccessorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

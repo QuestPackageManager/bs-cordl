@@ -117,5 +117,3 @@ inline void System::ComponentModel::DateTimeOffsetConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DateTimeOffsetConverter::DateTimeOffsetConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

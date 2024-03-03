@@ -26,5 +26,3 @@ inline ::StringW System::Collections::Generic::KeyValuePair::PairToString(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::KeyValuePair::KeyValuePair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

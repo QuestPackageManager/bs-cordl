@@ -109,5 +109,3 @@ inline int32_t Org::BouncyCastle::Crypto::SimpleBlockResult::Collect(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::SimpleBlockResult::SimpleBlockResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -101,5 +101,3 @@ inline void JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name(::S
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::HtmlElementAttributesAttribute::HtmlElementAttributesAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

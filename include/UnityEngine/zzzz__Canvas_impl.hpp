@@ -1242,5 +1242,3 @@ inline void UnityEngine::Canvas::get_renderingDisplaySize_Injected(ByRef<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Canvas::Canvas() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

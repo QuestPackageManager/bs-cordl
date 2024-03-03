@@ -594,5 +594,3 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PointerEventBase_1<T>::PointerEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

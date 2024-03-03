@@ -64,5 +64,3 @@ inline ::BGLib::Polyglot::Language BGLib::Polyglot::LanguageExtensions::ToLangua
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LanguageExtensions::LanguageExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -242,5 +242,3 @@ inline void GlobalNamespace::SelectLanguageViewController::_DidActivate_b__8_0()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectLanguageViewController::SelectLanguageViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

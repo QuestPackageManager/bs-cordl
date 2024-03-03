@@ -60,5 +60,3 @@ inline void System::Xml::XmlRawWriterBase64Encoder::WriteChars(::ArrayW<char16_t
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlRawWriterBase64Encoder::XmlRawWriterBase64Encoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

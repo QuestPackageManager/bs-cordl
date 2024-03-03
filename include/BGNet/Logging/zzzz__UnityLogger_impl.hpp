@@ -117,5 +117,3 @@ inline void BGNet::Logging::UnityLogger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGNet::Logging::UnityLogger::UnityLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

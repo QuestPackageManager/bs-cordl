@@ -100,5 +100,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData::PgpCompressedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

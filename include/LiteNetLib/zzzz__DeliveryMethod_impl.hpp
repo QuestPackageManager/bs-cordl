@@ -11,5 +11,3 @@ constexpr ::LiteNetLib::DeliveryMethod LiteNetLib::DeliveryMethod::ReliableUnord
 constexpr ::LiteNetLib::DeliveryMethod LiteNetLib::DeliveryMethod::Sequenced{ static_cast<uint8_t>(0x1u) };
 constexpr ::LiteNetLib::DeliveryMethod LiteNetLib::DeliveryMethod::ReliableOrdered{ static_cast<uint8_t>(0x2u) };
 constexpr ::LiteNetLib::DeliveryMethod LiteNetLib::DeliveryMethod::ReliableSequenced{ static_cast<uint8_t>(0x3u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

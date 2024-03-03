@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::LengthUnit::LengthUnit(int32_t value__) noe
 constexpr ::UnityEngine::UIElements::LengthUnit::LengthUnit() {}
 constexpr ::UnityEngine::UIElements::LengthUnit UnityEngine::UIElements::LengthUnit::Pixel{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::LengthUnit UnityEngine::UIElements::LengthUnit::Percent{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

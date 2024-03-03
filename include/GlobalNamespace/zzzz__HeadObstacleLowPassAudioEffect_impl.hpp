@@ -82,5 +82,3 @@ inline void GlobalNamespace::HeadObstacleLowPassAudioEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HeadObstacleLowPassAudioEffect::HeadObstacleLowPassAudioEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

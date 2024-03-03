@@ -33,5 +33,3 @@ inline ::System::Threading::Tasks::Task_1<int32_t>* System::Xml::AsyncHelper::ge
 }
 // Ctor Parameters []
 constexpr ::System::Xml::AsyncHelper::AsyncHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

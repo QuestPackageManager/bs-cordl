@@ -224,5 +224,3 @@ inline ::StringW System::OperatingSystem::get_VersionString() {
 }
 // Ctor Parameters []
 constexpr ::System::OperatingSystem::OperatingSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

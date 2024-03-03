@@ -83,5 +83,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarRandomizer::RandomizeColors(::BeatSa
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarRandomizer::AvatarRandomizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

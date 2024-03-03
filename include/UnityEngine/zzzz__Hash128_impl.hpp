@@ -360,5 +360,3 @@ constexpr ::UnityEngine::Hash128::Hash128(uint64_t u64_0, uint64_t u64_1) noexce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Hash128::Hash128() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

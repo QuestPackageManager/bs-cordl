@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/zzzz__Texture2DArray_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/zzzz__Texture2DArray_impl.hpp"
+#endif

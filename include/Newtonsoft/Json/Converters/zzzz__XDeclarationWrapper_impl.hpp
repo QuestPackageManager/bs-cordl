@@ -219,5 +219,3 @@ inline void Newtonsoft::Json::Converters::XDeclarationWrapper::set_Standalone(::
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XDeclarationWrapper::XDeclarationWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

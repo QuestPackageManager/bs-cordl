@@ -26,5 +26,3 @@ inline int64_t UnityEngine::ResourceManagement::ResourceLocations::ILocationSize
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, location, resourceManager);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

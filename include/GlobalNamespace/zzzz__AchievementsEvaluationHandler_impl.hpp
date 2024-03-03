@@ -571,5 +571,3 @@ inline void GlobalNamespace::AchievementsEvaluationHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AchievementsEvaluationHandler::AchievementsEvaluationHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

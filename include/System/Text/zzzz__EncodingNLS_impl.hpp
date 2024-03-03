@@ -285,5 +285,3 @@ inline ::System::Text::Encoder* System::Text::EncodingNLS::GetEncoder() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncodingNLS::EncodingNLS() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

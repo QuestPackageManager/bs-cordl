@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::CallerMemberNameAttribute::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CallerMemberNameAttribute::CallerMemberNameAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

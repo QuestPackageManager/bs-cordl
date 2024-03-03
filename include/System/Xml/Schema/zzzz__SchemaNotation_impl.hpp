@@ -160,5 +160,3 @@ inline void System::Xml::Schema::SchemaNotation::set_Pubid(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaNotation::SchemaNotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

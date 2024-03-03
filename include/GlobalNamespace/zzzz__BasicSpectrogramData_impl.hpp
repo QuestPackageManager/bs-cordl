@@ -195,5 +195,3 @@ inline void GlobalNamespace::BasicSpectrogramData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicSpectrogramData::BasicSpectrogramData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline void UnityEngine::RangeAttribute::_ctor(float_t min, float_t max) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RangeAttribute::RangeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

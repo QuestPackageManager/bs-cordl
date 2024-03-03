@@ -427,5 +427,3 @@ template <typename T> inline ::StringW UnityEngine::ProBuilder::ArrayUtility::To
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ArrayUtility::ArrayUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

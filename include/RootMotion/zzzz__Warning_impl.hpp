@@ -148,5 +148,3 @@ inline void RootMotion::Warning::Log(::StringW message, ::UnityEngine::Transform
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Warning::Warning() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

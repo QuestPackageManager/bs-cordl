@@ -387,5 +387,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::MatchNorma
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::SurfaceTopology() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

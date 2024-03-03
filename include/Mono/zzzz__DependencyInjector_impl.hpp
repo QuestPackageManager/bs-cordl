@@ -74,5 +74,3 @@ inline ::Mono::ISystemDependencyProvider* Mono::DependencyInjector::ReflectionLo
 }
 // Ctor Parameters []
 constexpr ::Mono::DependencyInjector::DependencyInjector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

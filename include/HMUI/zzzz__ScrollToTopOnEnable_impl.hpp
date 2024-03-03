@@ -55,5 +55,3 @@ inline void HMUI::ScrollToTopOnEnable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollToTopOnEnable::ScrollToTopOnEnable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

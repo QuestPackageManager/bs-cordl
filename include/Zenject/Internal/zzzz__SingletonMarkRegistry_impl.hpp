@@ -115,5 +115,3 @@ inline void Zenject::Internal::SingletonMarkRegistry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::SingletonMarkRegistry::SingletonMarkRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ constexpr ::System::Net::NetworkInformation::AixStructs::ifconf::ifconf(int32_t 
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::ifconf::ifconf() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

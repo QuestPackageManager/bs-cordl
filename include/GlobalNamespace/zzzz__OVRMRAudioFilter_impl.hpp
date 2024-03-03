@@ -90,5 +90,3 @@ inline void GlobalNamespace::OVRMRAudioFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMRAudioFilter::OVRMRAudioFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

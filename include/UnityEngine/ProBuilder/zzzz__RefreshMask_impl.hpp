@@ -13,5 +13,3 @@ constexpr ::UnityEngine::ProBuilder::RefreshMask UnityEngine::ProBuilder::Refres
 constexpr ::UnityEngine::ProBuilder::RefreshMask UnityEngine::ProBuilder::RefreshMask::Collisions{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::ProBuilder::RefreshMask UnityEngine::ProBuilder::RefreshMask::Bounds{ static_cast<int32_t>(0x16) };
 constexpr ::UnityEngine::ProBuilder::RefreshMask UnityEngine::ProBuilder::RefreshMask::All{ static_cast<int32_t>(0x1f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

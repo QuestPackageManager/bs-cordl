@@ -66,5 +66,3 @@ inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> UnityEngine::ProBuild
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ShapeFactory::ShapeFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

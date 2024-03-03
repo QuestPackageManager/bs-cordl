@@ -2622,5 +2622,3 @@ inline bool System::Globalization::DateTimeFormatInfo::CompareStringIgnoreCaseOp
 // Ctor Parameters []
 constexpr ::System::Globalization::DateTimeFormatInfo::DateTimeFormatInfo() {}
 constexpr ::System::Globalization::DateTimeStyles System::Globalization::DateTimeFormatInfo::InvalidDateTimeStyles{ static_cast<int32_t>(0xffffff00) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

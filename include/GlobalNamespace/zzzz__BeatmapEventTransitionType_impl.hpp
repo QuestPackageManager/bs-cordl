@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::BeatmapEventTransitionType::BeatmapEventTransitionT
 constexpr ::GlobalNamespace::BeatmapEventTransitionType GlobalNamespace::BeatmapEventTransitionType::Instant{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::BeatmapEventTransitionType GlobalNamespace::BeatmapEventTransitionType::Interpolate{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::BeatmapEventTransitionType GlobalNamespace::BeatmapEventTransitionType::Extend{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -59,5 +59,3 @@ inline void GlobalNamespace::GraphicSettingsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GraphicSettingsViewController::GraphicSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

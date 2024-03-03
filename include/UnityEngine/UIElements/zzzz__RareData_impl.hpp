@@ -177,5 +177,3 @@ constexpr ::UnityEngine::UIElements::RareData::RareData(::UnityEngine::UIElement
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RareData::RareData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

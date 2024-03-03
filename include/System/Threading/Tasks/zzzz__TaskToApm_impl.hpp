@@ -316,5 +316,3 @@ inline void System::Threading::Tasks::TaskToApm::InvokeCallbackWhenTaskCompletes
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskToApm::TaskToApm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

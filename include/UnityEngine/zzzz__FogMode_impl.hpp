@@ -9,5 +9,3 @@ constexpr ::UnityEngine::FogMode::FogMode() {}
 constexpr ::UnityEngine::FogMode UnityEngine::FogMode::Linear{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::FogMode UnityEngine::FogMode::Exponential{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::FogMode UnityEngine::FogMode::ExponentialSquared{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

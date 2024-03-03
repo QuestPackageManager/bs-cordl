@@ -128,5 +128,3 @@ inline void Newtonsoft::Json::JsonExtensionDataAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonExtensionDataAttribute::JsonExtensionDataAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

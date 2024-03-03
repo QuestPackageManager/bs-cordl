@@ -61,5 +61,3 @@ inline void HoudiniEngineUnity::HEU_Defines::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Defines::HEU_Defines() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

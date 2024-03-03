@@ -356,5 +356,3 @@ inline void GlobalNamespace::MissionSelectionNavigationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionSelectionNavigationController::MissionSelectionNavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

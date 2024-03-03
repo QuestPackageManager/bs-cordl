@@ -486,5 +486,3 @@ inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> System::Runtime:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Proxies::RealProxy::RealProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

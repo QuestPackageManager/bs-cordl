@@ -84,5 +84,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities::TlsRsaUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

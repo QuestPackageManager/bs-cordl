@@ -794,5 +794,3 @@ System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::GetObjectInf
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo::ReadObjectInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

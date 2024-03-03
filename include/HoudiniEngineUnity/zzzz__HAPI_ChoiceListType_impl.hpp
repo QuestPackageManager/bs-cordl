@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType HoudiniEngineUnity::HAPI_Cho
 constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType HoudiniEngineUnity::HAPI_ChoiceListType::HAPI_CHOICELISTTYPE_MINI{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType HoudiniEngineUnity::HAPI_ChoiceListType::HAPI_CHOICELISTTYPE_REPLACE{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType HoudiniEngineUnity::HAPI_ChoiceListType::HAPI_CHOICELISTTYPE_TOGGLE{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -91,5 +91,3 @@ inline void UnityEngine::UIElements::DropdownMenuEventInfo::_ctor(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo::DropdownMenuEventInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

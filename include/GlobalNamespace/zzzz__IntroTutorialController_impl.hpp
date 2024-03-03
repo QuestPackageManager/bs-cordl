@@ -622,5 +622,3 @@ inline void GlobalNamespace::IntroTutorialController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IntroTutorialController::IntroTutorialController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

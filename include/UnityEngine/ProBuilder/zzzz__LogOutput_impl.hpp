@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::LogOutput::LogOutput() {}
 constexpr ::UnityEngine::ProBuilder::LogOutput UnityEngine::ProBuilder::LogOutput::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::LogOutput UnityEngine::ProBuilder::LogOutput::Console{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::LogOutput UnityEngine::ProBuilder::LogOutput::File{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

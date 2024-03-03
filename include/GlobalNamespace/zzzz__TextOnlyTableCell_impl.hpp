@@ -172,5 +172,3 @@ inline void GlobalNamespace::TextOnlyTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextOnlyTableCell::TextOnlyTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

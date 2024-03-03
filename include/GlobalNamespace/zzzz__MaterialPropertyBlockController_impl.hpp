@@ -134,5 +134,3 @@ inline void GlobalNamespace::MaterialPropertyBlockController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockController::MaterialPropertyBlockController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

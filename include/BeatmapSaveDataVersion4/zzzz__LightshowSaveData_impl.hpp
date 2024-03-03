@@ -302,5 +302,3 @@ inline void BeatmapSaveDataVersion4::LightshowSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightshowSaveData::LightshowSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

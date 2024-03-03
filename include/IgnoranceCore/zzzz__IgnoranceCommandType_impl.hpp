@@ -10,5 +10,3 @@ constexpr ::IgnoranceCore::IgnoranceCommandType IgnoranceCore::IgnoranceCommandT
 constexpr ::IgnoranceCore::IgnoranceCommandType IgnoranceCore::IgnoranceCommandType::ClientStatusRequest{ static_cast<int32_t>(0x1) };
 constexpr ::IgnoranceCore::IgnoranceCommandType IgnoranceCore::IgnoranceCommandType::ServerKickPeer{ static_cast<int32_t>(0x2) };
 constexpr ::IgnoranceCore::IgnoranceCommandType IgnoranceCore::IgnoranceCommandType::ServerStatusRequest{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* Oculus::P
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::MessageWithNetSyncSessionsChangedNotification() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -30,5 +30,3 @@ inline void UnityEngine::EventSystems::IScrollHandler::OnScroll(::UnityEngine::E
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::IScrollHandler*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

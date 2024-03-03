@@ -794,5 +794,3 @@ inline void GlobalNamespace::MockPlayerSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerSettings::MockPlayerSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

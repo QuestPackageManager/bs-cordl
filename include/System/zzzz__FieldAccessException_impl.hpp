@@ -75,5 +75,3 @@ inline void System::FieldAccessException::_ctor(::System::Runtime::Serialization
 }
 // Ctor Parameters []
 constexpr ::System::FieldAccessException::FieldAccessException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

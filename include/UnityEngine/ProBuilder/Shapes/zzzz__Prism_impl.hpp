@@ -69,5 +69,3 @@ inline void UnityEngine::ProBuilder::Shapes::Prism::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Prism::Prism() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

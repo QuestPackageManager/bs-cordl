@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EGamepadTextInputMode::EGamepadTextInputMode() {}
 constexpr ::OVR::OpenVR::EGamepadTextInputMode OVR::OpenVR::EGamepadTextInputMode::k_EGamepadTextInputModeNormal{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EGamepadTextInputMode OVR::OpenVR::EGamepadTextInputMode::k_EGamepadTextInputModePassword{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EGamepadTextInputMode OVR::OpenVR::EGamepadTextInputMode::k_EGamepadTextInputModeSubmit{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1420,5 +1420,3 @@ inline void System::ComponentModel::PropertyDescriptorCollection::System_Collect
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::PropertyDescriptorCollection::PropertyDescriptorCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

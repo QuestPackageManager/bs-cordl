@@ -118,5 +118,3 @@ inline ::StringW System::MissingMethodException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::MissingMethodException::MissingMethodException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

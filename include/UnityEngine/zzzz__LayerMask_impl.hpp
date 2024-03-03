@@ -144,5 +144,3 @@ constexpr ::UnityEngine::LayerMask::LayerMask(int32_t m_Mask) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LayerMask::LayerMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2182,5 +2182,3 @@ inline void TMPro::TextMeshProUGUI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TextMeshProUGUI::TextMeshProUGUI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -16,5 +16,3 @@ constexpr ::BeatmapSaveDataCommon::NoteCutDirection BeatmapSaveDataCommon::NoteC
 constexpr ::BeatmapSaveDataCommon::NoteCutDirection BeatmapSaveDataCommon::NoteCutDirection::DownRight{ static_cast<int32_t>(0x7) };
 constexpr ::BeatmapSaveDataCommon::NoteCutDirection BeatmapSaveDataCommon::NoteCutDirection::Any{ static_cast<int32_t>(0x8) };
 constexpr ::BeatmapSaveDataCommon::NoteCutDirection BeatmapSaveDataCommon::NoteCutDirection::None{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

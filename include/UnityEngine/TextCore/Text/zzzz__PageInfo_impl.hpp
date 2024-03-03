@@ -12,5 +12,3 @@ constexpr ::UnityEngine::TextCore::Text::PageInfo::PageInfo(int32_t firstCharact
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::PageInfo::PageInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

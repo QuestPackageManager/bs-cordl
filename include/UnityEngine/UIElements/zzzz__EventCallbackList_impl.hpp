@@ -339,5 +339,3 @@ inline void UnityEngine::UIElements::EventCallbackList::Clear() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCallbackList::EventCallbackList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

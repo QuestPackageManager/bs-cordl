@@ -204,5 +204,3 @@ inline void UnityEngine::XR::XRInputSubsystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRInputSubsystem::XRInputSubsystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

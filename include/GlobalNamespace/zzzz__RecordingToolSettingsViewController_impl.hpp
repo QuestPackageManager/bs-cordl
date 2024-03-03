@@ -161,5 +161,3 @@ inline void GlobalNamespace::RecordingToolSettingsViewController::_DidActivate_b
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettingsViewController::RecordingToolSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

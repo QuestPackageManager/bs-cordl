@@ -8,5 +8,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CompositorOptions::HAPI_CompositorOptions(i
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_CompositorOptions::HAPI_CompositorOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

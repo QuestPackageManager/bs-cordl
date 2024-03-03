@@ -72,5 +72,3 @@ inline void System::Xml::Serialization::XmlSchemaProviderAttribute::set_IsAny(bo
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlSchemaProviderAttribute::XmlSchemaProviderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

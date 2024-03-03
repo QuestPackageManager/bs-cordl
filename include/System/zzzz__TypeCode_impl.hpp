@@ -24,5 +24,3 @@ constexpr ::System::TypeCode System::TypeCode::Double{ static_cast<int32_t>(0xe)
 constexpr ::System::TypeCode System::TypeCode::Decimal{ static_cast<int32_t>(0xf) };
 constexpr ::System::TypeCode System::TypeCode::DateTime{ static_cast<int32_t>(0x10) };
 constexpr ::System::TypeCode System::TypeCode::String{ static_cast<int32_t>(0x12) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

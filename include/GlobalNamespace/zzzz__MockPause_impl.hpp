@@ -262,5 +262,3 @@ inline void GlobalNamespace::MockPause::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPause::MockPause() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

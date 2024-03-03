@@ -156,5 +156,3 @@ inline ::StringW Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::get_Local
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::XmlDocumentTypeWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

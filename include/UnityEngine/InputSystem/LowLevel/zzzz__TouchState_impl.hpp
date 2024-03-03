@@ -561,5 +561,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::TouchState::TouchState(int32_t t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchState::TouchState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1202,5 +1202,3 @@ inline void UnityEngine::Sprite::get_pivot_Injected(ByRef<::UnityEngine::Vector2
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Sprite::Sprite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

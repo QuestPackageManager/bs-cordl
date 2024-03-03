@@ -31,5 +31,3 @@ constexpr ::TMPro::CaretInfo::CaretInfo(int32_t index, ::TMPro::CaretPosition po
 }
 // Ctor Parameters []
 constexpr ::TMPro::CaretInfo::CaretInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

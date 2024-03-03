@@ -334,5 +334,3 @@ inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::BeatmapCharacteristicSegmentedControlController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -109,5 +109,3 @@ inline ::LiteNetLib::NetPacket* LiteNetLib::NetConnectAcceptPacket::Make(int64_t
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetConnectAcceptPacket::NetConnectAcceptPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

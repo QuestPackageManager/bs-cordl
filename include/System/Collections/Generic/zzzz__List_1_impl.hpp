@@ -599,5 +599,3 @@ template <typename T> inline void System::Collections::Generic::List_1<T>::AddEn
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>::List_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

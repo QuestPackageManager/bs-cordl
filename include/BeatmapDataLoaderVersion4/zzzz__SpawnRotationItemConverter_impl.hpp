@@ -75,5 +75,3 @@ inline ::GlobalNamespace::BeatmapEventData* BeatmapDataLoaderVersion4::SpawnRota
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter::SpawnRotationItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

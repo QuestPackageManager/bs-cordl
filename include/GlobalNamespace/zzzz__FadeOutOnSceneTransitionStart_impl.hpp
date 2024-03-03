@@ -110,5 +110,3 @@ inline void GlobalNamespace::FadeOutOnSceneTransitionStart::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeOutOnSceneTransitionStart::FadeOutOnSceneTransitionStart() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

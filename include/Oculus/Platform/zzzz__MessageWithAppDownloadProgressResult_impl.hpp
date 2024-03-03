@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::AppDownloadProgressResult* Oculus::Platform::
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAppDownloadProgressResult::MessageWithAppDownloadProgressResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

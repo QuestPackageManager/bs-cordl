@@ -572,5 +572,3 @@ inline void Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::PadKey(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg::CtrSP800Drbg() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -355,5 +355,3 @@ template <typename T> inline void UnityEngine::UIElements::MouseEventBase_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::MouseEventBase_1<T>::MouseEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

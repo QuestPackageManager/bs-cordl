@@ -313,5 +313,3 @@ inline void System::Text::DecoderNLS::ClearMustFlush() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::DecoderNLS::DecoderNLS() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

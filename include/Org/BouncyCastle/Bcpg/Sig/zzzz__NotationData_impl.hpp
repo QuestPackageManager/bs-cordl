@@ -154,5 +154,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::Sig::Notati
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::NotationData::NotationData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

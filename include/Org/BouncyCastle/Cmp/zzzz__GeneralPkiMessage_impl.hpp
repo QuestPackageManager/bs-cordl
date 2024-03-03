@@ -163,5 +163,3 @@ inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* Org::BouncyCastle::Cmp::Gener
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::GeneralPkiMessage::GeneralPkiMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -170,5 +170,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::IntSizedArray::I
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::IntSizedArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

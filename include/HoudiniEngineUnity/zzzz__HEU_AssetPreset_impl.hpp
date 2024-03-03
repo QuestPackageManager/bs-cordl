@@ -126,5 +126,3 @@ inline void HoudiniEngineUnity::HEU_AssetPreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetPreset::HEU_AssetPreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

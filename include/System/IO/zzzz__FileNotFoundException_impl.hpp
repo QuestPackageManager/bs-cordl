@@ -235,5 +235,3 @@ inline void System::IO::FileNotFoundException::GetObjectData(::System::Runtime::
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileNotFoundException::FileNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -832,5 +832,3 @@ inline void UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher::BaseStyleMatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

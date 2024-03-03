@@ -77,5 +77,3 @@ inline void UnityEngine::BeforeRenderOrderAttribute::_ctor(int32_t order) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BeforeRenderOrderAttribute::BeforeRenderOrderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

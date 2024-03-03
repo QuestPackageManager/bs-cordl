@@ -114,5 +114,3 @@ inline void Mono::Net::Security::AsyncProtocolResult::_ctor(::System::Runtime::E
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncProtocolResult::AsyncProtocolResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

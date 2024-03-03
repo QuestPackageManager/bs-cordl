@@ -23,5 +23,3 @@ constexpr ::System::Net::NetworkInformation::LinuxArpHardware System::Net::Netwo
 constexpr ::System::Net::NetworkInformation::LinuxArpHardware System::Net::NetworkInformation::LinuxArpHardware::IPDDP{ static_cast<int32_t>(0x309) };
 constexpr ::System::Net::NetworkInformation::LinuxArpHardware System::Net::NetworkInformation::LinuxArpHardware::IPGRE{ static_cast<int32_t>(0x30a) };
 constexpr ::System::Net::NetworkInformation::LinuxArpHardware System::Net::NetworkInformation::LinuxArpHardware::IP6GRE{ static_cast<int32_t>(0x337) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

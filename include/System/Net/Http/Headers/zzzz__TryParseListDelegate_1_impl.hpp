@@ -20,5 +20,3 @@ template <typename T> inline bool System::Net::Http::Headers::TryParseListDelega
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Net::Http::Headers::TryParseListDelegate_1<T>::TryParseListDelegate_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

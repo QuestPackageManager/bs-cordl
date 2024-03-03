@@ -162,5 +162,3 @@ inline void UnityEngine::Events::UnityEvent::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::UnityEvent::UnityEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

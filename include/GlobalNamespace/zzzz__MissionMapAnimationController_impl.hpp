@@ -1233,5 +1233,3 @@ inline void GlobalNamespace::MissionMapAnimationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionMapAnimationController::MissionMapAnimationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

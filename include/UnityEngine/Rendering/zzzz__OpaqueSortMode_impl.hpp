@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::OpaqueSortMode::OpaqueSortMode() {}
 constexpr ::UnityEngine::Rendering::OpaqueSortMode UnityEngine::Rendering::OpaqueSortMode::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::OpaqueSortMode UnityEngine::Rendering::OpaqueSortMode::FrontToBack{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::OpaqueSortMode UnityEngine::Rendering::OpaqueSortMode::NoDistanceSort{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

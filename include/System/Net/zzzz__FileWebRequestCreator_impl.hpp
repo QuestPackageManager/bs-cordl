@@ -56,5 +56,3 @@ inline ::System::Net::WebRequest* System::Net::FileWebRequestCreator::Create(::S
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebRequestCreator::FileWebRequestCreator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

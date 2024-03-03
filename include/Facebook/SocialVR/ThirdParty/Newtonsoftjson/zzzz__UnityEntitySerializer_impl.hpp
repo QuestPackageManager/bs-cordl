@@ -101,5 +101,3 @@ inline void Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerialize
 }
 // Ctor Parameters []
 constexpr ::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySerializer::UnityEntitySerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

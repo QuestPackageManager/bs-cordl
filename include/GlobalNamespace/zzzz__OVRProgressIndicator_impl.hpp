@@ -85,5 +85,3 @@ inline void GlobalNamespace::OVRProgressIndicator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRProgressIndicator::OVRProgressIndicator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -395,5 +395,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::X50
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure::X509CertificateStructure() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

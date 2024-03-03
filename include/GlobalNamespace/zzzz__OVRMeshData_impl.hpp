@@ -16,5 +16,3 @@ constexpr ::GlobalNamespace::OVRMeshData::OVRMeshData(::UnityW<::UnityEngine::Me
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshData::OVRMeshData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

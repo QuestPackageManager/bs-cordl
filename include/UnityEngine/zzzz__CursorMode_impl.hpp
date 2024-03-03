@@ -8,5 +8,3 @@ constexpr ::UnityEngine::CursorMode::CursorMode(int32_t value__) noexcept {
 constexpr ::UnityEngine::CursorMode::CursorMode() {}
 constexpr ::UnityEngine::CursorMode UnityEngine::CursorMode::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::CursorMode UnityEngine::CursorMode::ForceSoftware{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

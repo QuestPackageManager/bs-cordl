@@ -182,5 +182,3 @@ inline void GlobalNamespace::ExplicitContentWarningViewController::_DidActivate_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ExplicitContentWarningViewController::ExplicitContentWarningViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

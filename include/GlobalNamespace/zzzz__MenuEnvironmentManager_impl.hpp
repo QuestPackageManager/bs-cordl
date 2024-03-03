@@ -195,5 +195,3 @@ inline void GlobalNamespace::MenuEnvironmentManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

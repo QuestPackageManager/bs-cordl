@@ -241,5 +241,3 @@ inline void GlobalNamespace::DeactivateAfterFirstFrame::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeactivateAfterFirstFrame::DeactivateAfterFirstFrame() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

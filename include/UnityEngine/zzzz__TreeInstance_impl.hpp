@@ -21,5 +21,3 @@ constexpr ::UnityEngine::TreeInstance::TreeInstance(::UnityEngine::Vector3 posit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TreeInstance::TreeInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

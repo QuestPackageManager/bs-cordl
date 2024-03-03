@@ -775,5 +775,3 @@ inline void Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine::Dstu7624Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

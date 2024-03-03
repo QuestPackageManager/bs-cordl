@@ -784,5 +784,3 @@ constexpr ::UnityEngine::InputSystem::UI::PointerModel::PointerModel(bool change
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::PointerModel::PointerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -23,5 +23,3 @@ inline bool UnityEngine::Yoga::YogaConstants::IsUndefined(float_t value) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::YogaConstants::YogaConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

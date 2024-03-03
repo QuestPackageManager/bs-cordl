@@ -83,5 +83,3 @@ inline void System::Runtime::Remoting::Messaging::ConstructionCallDictionary::Se
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::ConstructionCallDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

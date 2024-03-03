@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Yoga::YogaPositionType::YogaPositionType(int32_t value_
 constexpr ::UnityEngine::Yoga::YogaPositionType::YogaPositionType() {}
 constexpr ::UnityEngine::Yoga::YogaPositionType UnityEngine::Yoga::YogaPositionType::Relative{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Yoga::YogaPositionType UnityEngine::Yoga::YogaPositionType::Absolute{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

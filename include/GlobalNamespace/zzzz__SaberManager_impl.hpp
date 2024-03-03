@@ -360,5 +360,3 @@ inline void GlobalNamespace::SaberManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberManager::SaberManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

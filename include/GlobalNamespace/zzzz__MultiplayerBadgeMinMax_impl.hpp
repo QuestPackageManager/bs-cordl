@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::MultiplayerBadgeMinMax::MultiplayerBadgeMinMax(int3
 constexpr ::GlobalNamespace::MultiplayerBadgeMinMax::MultiplayerBadgeMinMax() {}
 constexpr ::GlobalNamespace::MultiplayerBadgeMinMax GlobalNamespace::MultiplayerBadgeMinMax::Min{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MultiplayerBadgeMinMax GlobalNamespace::MultiplayerBadgeMinMax::Max{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

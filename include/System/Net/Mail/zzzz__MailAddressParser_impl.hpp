@@ -151,5 +151,3 @@ inline ::StringW System::Net::Mail::MailAddressParser::NormalizeOrThrow(::String
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::MailAddressParser::MailAddressParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

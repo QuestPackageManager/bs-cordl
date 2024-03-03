@@ -1373,5 +1373,3 @@ inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RenderTexture::RenderTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

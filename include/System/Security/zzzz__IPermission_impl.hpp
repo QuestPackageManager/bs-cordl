@@ -48,5 +48,3 @@ inline bool System::Security::IPermission::IsSubsetOf(::System::Security::IPermi
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::IPermission*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, target);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

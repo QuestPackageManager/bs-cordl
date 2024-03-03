@@ -22,5 +22,3 @@ constexpr ::System::Security::Permissions::SecurityPermissionFlag System::Securi
 constexpr ::System::Security::Permissions::SecurityPermissionFlag System::Security::Permissions::SecurityPermissionFlag::Infrastructure{ static_cast<int32_t>(0x1000) };
 constexpr ::System::Security::Permissions::SecurityPermissionFlag System::Security::Permissions::SecurityPermissionFlag::BindingRedirects{ static_cast<int32_t>(0x2000) };
 constexpr ::System::Security::Permissions::SecurityPermissionFlag System::Security::Permissions::SecurityPermissionFlag::AllFlags{ static_cast<int32_t>(0x3fff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

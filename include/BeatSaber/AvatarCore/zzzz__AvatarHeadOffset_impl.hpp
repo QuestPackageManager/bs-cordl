@@ -108,5 +108,3 @@ inline void BeatSaber::AvatarCore::AvatarHeadOffset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarHeadOffset::AvatarHeadOffset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

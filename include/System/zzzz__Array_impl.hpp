@@ -3471,5 +3471,3 @@ template <typename S, typename R> inline R System::Array::UnsafeMov(S instance) 
 }
 // Ctor Parameters []
 constexpr ::System::Array::Array() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

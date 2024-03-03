@@ -25,5 +25,3 @@ inline void GlobalNamespace::DIContainerSignal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DIContainerSignal::DIContainerSignal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

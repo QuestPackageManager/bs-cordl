@@ -979,5 +979,3 @@ inline ::System::RuntimeType* System::Resources::ResourceReader::FindType(int32_
 }
 // Ctor Parameters []
 constexpr ::System::Resources::ResourceReader::ResourceReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -53,5 +53,3 @@ constexpr ::OVR::OpenVR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

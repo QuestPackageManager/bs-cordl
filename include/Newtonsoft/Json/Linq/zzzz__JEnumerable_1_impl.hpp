@@ -84,5 +84,3 @@ template <typename T> constexpr ::Newtonsoft::Json::Linq::JEnumerable_1<T>::JEnu
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Linq::JEnumerable_1<T>::JEnumerable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

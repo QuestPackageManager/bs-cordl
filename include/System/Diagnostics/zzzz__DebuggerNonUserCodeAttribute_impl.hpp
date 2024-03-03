@@ -25,5 +25,3 @@ inline void System::Diagnostics::DebuggerNonUserCodeAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerNonUserCodeAttribute::DebuggerNonUserCodeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -146,5 +146,3 @@ inline void GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack(float_t groupBoxB
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IntVfxBeatmapEventDataBox::IntVfxBeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -7781,5 +7781,3 @@ constexpr ::OVR::OpenVR::IVROverlay::IVROverlay(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVROverlay::IVROverlay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

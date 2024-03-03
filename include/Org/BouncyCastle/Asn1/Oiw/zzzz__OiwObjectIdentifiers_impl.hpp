@@ -134,5 +134,3 @@ inline void Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::OiwObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::FilterMode::FilterMode() {}
 constexpr ::UnityEngine::FilterMode UnityEngine::FilterMode::Point{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::FilterMode UnityEngine::FilterMode::Bilinear{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::FilterMode UnityEngine::FilterMode::Trilinear{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

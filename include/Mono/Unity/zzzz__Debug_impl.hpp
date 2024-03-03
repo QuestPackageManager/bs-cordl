@@ -60,5 +60,3 @@ inline void Mono::Unity::Debug::CheckAndThrow(::Mono::Unity::__UnityTls__unitytl
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::Debug::Debug() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

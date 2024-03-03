@@ -32,17 +32,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x28fcb54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x2a2b6f0, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x28fcad8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x2a2b674, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x28fcbd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x2a2b774, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x28fcaa8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2b644, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x28fca70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2b60c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
 protected:

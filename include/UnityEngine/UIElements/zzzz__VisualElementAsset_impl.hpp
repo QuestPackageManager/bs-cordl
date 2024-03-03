@@ -461,5 +461,3 @@ inline bool UnityEngine::UIElements::VisualElementAsset::TryGetAttributeValue(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementAsset::VisualElementAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

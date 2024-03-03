@@ -80,5 +80,3 @@ constexpr ::UnityEngine::Rendering::CoreCameraValues::CoreCameraValues(int32_t f
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CoreCameraValues::CoreCameraValues() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -122,5 +122,3 @@ inline void Org::BouncyCastle::Asn1::BerBitString::Encode(::Org::BouncyCastle::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerBitString::BerBitString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Globalization::HebrewNumberParsingState System::Globalizatio
 constexpr ::System::Globalization::HebrewNumberParsingState System::Globalization::HebrewNumberParsingState::NotHebrewDigit{ static_cast<int32_t>(0x1) };
 constexpr ::System::Globalization::HebrewNumberParsingState System::Globalization::HebrewNumberParsingState::FoundEndOfHebrewNumber{ static_cast<int32_t>(0x2) };
 constexpr ::System::Globalization::HebrewNumberParsingState System::Globalization::HebrewNumberParsingState::ContinueParsing{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

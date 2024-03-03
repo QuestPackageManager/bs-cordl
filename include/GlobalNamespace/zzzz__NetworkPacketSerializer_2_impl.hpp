@@ -579,5 +579,3 @@ template <typename TType, typename TData> inline void GlobalNamespace::NetworkPa
 }
 // Ctor Parameters []
 template <typename TType, typename TData> constexpr ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::NetworkPacketSerializer_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

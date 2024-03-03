@@ -101,5 +101,3 @@ inline void UnityEngine::EventSystems::BaseEventData::set_selectedObject(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::BaseEventData::BaseEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -806,5 +806,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement::Ge
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT113FieldElement::SecT113FieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

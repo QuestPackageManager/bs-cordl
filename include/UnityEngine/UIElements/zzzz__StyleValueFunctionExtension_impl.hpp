@@ -25,5 +25,3 @@ inline ::StringW UnityEngine::UIElements::StyleValueFunctionExtension::ToUssStri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleValueFunctionExtension::StyleValueFunctionExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

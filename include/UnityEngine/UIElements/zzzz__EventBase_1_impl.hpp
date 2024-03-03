@@ -81,5 +81,3 @@ template <typename T> inline int64_t UnityEngine::UIElements::EventBase_1<T>::ge
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::EventBase_1<T>::EventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

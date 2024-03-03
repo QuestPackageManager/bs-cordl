@@ -104,5 +104,3 @@ inline void System::Runtime::Remoting::RemotingException::_ctor(::StringW messag
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::RemotingException::RemotingException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

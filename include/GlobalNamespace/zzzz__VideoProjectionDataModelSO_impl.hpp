@@ -157,5 +157,3 @@ inline void GlobalNamespace::VideoProjectionDataModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VideoProjectionDataModelSO::VideoProjectionDataModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

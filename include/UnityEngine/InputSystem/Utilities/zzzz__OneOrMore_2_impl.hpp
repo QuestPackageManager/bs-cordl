@@ -205,5 +205,3 @@ template <typename TValue, typename TList> inline void UnityEngine::InputSystem:
 }
 // Ctor Parameters []
 template <typename TValue, typename TList> constexpr ::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator<TValue, TList>::__OneOrMore_2__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

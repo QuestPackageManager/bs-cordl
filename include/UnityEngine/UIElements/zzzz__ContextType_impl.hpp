@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::ContextType::ContextType(int32_t value__) n
 constexpr ::UnityEngine::UIElements::ContextType::ContextType() {}
 constexpr ::UnityEngine::UIElements::ContextType UnityEngine::UIElements::ContextType::Player{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::ContextType UnityEngine::UIElements::ContextType::Editor{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

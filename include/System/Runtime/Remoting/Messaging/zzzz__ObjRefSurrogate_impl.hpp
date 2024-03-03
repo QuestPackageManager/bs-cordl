@@ -87,5 +87,3 @@ inline void System::Runtime::Remoting::Messaging::ObjRefSurrogate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ObjRefSurrogate::ObjRefSurrogate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

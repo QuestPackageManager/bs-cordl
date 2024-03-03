@@ -87,5 +87,3 @@ inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* Org::BouncyCastle::Cryp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CipherFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

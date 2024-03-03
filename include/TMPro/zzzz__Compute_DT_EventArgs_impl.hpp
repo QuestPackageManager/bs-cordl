@@ -94,5 +94,3 @@ inline void TMPro::Compute_DT_EventArgs::_ctor(::TMPro::Compute_DistanceTransfor
 }
 // Ctor Parameters []
 constexpr ::TMPro::Compute_DT_EventArgs::Compute_DT_EventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

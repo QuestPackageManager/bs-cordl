@@ -259,5 +259,3 @@ inline void UnityEngine::UIElements::BaseBoolField::UpdateMixedValueContent() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseBoolField::BaseBoolField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

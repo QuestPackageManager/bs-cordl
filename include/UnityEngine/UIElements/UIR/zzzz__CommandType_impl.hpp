@@ -18,5 +18,3 @@ constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::U
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::BlitToPreviousRT{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PushDefaultMaterial{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::UIElements::UIR::CommandType UnityEngine::UIElements::UIR::CommandType::PopDefaultMaterial{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -197,5 +197,3 @@ inline bool UnityEngine::UIElements::UxmlBoolAttributeDescription::ConvertValueT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription::UxmlBoolAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

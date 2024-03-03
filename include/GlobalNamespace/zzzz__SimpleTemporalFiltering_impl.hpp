@@ -119,5 +119,3 @@ inline void GlobalNamespace::SimpleTemporalFiltering::CreateRenderTexturesIfNeed
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTemporalFiltering::SimpleTemporalFiltering() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

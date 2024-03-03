@@ -8,5 +8,3 @@ constexpr ::LiteNetLib::UnconnectedMessageType::UnconnectedMessageType(int32_t v
 constexpr ::LiteNetLib::UnconnectedMessageType::UnconnectedMessageType() {}
 constexpr ::LiteNetLib::UnconnectedMessageType LiteNetLib::UnconnectedMessageType::BasicMessage{ static_cast<int32_t>(0x0) };
 constexpr ::LiteNetLib::UnconnectedMessageType LiteNetLib::UnconnectedMessageType::Broadcast{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

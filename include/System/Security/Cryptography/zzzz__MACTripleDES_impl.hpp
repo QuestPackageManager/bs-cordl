@@ -172,5 +172,3 @@ inline void System::Security::Cryptography::MACTripleDES::Dispose(bool disposing
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::MACTripleDES::MACTripleDES() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

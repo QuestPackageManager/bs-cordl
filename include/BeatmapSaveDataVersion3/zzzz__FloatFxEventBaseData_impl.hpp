@@ -158,5 +158,3 @@ inline void BeatmapSaveDataVersion3::FloatFxEventBaseData::_ctor(float_t beat, b
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FloatFxEventBaseData::FloatFxEventBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

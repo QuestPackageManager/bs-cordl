@@ -176,5 +176,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Prng::X93
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom::X931SecureRandom() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

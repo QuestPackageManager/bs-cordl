@@ -4499,5 +4499,3 @@ inline void Newtonsoft::Json::Linq::JToken::RemoveAnnotations(::System::Type* ty
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JToken::JToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

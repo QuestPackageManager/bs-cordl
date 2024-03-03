@@ -168,5 +168,3 @@ inline ::StringW System::ObjectDisposedException::get_ObjectName() {
 }
 // Ctor Parameters []
 constexpr ::System::ObjectDisposedException::ObjectDisposedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

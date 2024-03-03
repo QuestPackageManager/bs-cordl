@@ -74,5 +74,3 @@ inline void GlobalNamespace::ParticleSystemEmitEventEffectInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::ParticleSystemEmitEventEffectInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

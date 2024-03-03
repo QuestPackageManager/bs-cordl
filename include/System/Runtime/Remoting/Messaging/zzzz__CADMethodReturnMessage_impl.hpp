@@ -198,5 +198,3 @@ inline int32_t System::Runtime::Remoting::Messaging::CADMethodReturnMessage::get
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::CADMethodReturnMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

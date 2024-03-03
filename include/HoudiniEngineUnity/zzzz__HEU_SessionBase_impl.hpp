@@ -4230,5 +4230,3 @@ inline bool HoudiniEngineUnity::HEU_SessionBase::SetNodeDisplay(int32_t node_id,
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionBase::HEU_SessionBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

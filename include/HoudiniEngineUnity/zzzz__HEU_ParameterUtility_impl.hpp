@@ -541,5 +541,3 @@ inline bool HoudiniEngineUnity::HEU_ParameterUtility::GetParameterColor3Value(::
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ParameterUtility::HEU_ParameterUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

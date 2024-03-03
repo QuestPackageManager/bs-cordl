@@ -263,5 +263,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Engines
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine::RsaBlindingEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

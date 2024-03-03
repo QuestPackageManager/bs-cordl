@@ -722,5 +722,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::MeshValidation::EnsureValid
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshValidation::MeshValidation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

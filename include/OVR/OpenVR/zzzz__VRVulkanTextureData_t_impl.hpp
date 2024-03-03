@@ -21,5 +21,3 @@ constexpr ::OVR::OpenVR::VRVulkanTextureData_t::VRVulkanTextureData_t(uint64_t m
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRVulkanTextureData_t::VRVulkanTextureData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

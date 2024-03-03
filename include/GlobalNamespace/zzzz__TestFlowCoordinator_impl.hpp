@@ -105,5 +105,3 @@ inline void GlobalNamespace::TestFlowCoordinator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TestFlowCoordinator::TestFlowCoordinator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

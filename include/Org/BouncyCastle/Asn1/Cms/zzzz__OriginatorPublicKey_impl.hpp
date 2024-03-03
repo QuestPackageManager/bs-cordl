@@ -187,5 +187,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Orig
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey::OriginatorPublicKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

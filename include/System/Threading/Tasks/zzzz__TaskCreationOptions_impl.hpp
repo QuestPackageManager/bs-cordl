@@ -13,5 +13,3 @@ constexpr ::System::Threading::Tasks::TaskCreationOptions System::Threading::Tas
 constexpr ::System::Threading::Tasks::TaskCreationOptions System::Threading::Tasks::TaskCreationOptions::DenyChildAttach{ static_cast<int32_t>(0x8) };
 constexpr ::System::Threading::Tasks::TaskCreationOptions System::Threading::Tasks::TaskCreationOptions::HideScheduler{ static_cast<int32_t>(0x10) };
 constexpr ::System::Threading::Tasks::TaskCreationOptions System::Threading::Tasks::TaskCreationOptions::RunContinuationsAsynchronously{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

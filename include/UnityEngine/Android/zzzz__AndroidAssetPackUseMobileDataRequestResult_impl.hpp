@@ -39,5 +39,3 @@ inline void UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::_c
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::AndroidAssetPackUseMobileDataRequestResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

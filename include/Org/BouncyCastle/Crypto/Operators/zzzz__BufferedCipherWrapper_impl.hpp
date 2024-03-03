@@ -130,5 +130,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Crypto::Operators::BufferedCiphe
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::BufferedCipherWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

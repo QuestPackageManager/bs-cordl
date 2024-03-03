@@ -58,5 +58,3 @@ inline ::ArrayW<float_t, ::Array<float_t>*> Oculus::Platform::IMicrophone::Updat
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::IMicrophone*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t, ::Array<float_t>*>, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

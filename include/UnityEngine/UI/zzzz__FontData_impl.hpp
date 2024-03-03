@@ -706,5 +706,3 @@ inline void UnityEngine::UI::FontData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::FontData::FontData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

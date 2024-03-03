@@ -130,5 +130,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::Dump
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull::ObjectNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -346,5 +346,3 @@ inline void GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory::__MultiplayerConnectedPlayerFacade__Factory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -360,5 +360,3 @@ inline bool System::Net::ListenerAsyncResult::get_IsCompleted() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ListenerAsyncResult::ListenerAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::set_Previous(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::PolygonPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

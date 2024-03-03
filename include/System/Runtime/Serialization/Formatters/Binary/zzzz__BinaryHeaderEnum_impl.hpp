@@ -37,5 +37,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum
     0x14) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum::MethodCall{ static_cast<int32_t>(0x15) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum::MethodReturn{ static_cast<int32_t>(0x16) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

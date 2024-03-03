@@ -25,5 +25,3 @@ inline void System::Diagnostics::DebuggerStepThroughAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerStepThroughAttribute::DebuggerStepThroughAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

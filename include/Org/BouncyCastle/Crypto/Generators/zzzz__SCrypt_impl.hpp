@@ -253,5 +253,3 @@ inline void Org::BouncyCastle::Crypto::Generators::SCrypt::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::SCrypt::SCrypt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -36,5 +36,3 @@ inline void HoudiniEngineUnity::HEU_ReloadEventData::_ctor(::HoudiniEngineUnity:
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ReloadEventData::HEU_ReloadEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

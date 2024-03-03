@@ -81,5 +81,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWit
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::IOUtil::IOUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

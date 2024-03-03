@@ -1180,5 +1180,3 @@ Newtonsoft::Json::Serialization::JsonContract::CreateSerializationErrorCallback(
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonContract::JsonContract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

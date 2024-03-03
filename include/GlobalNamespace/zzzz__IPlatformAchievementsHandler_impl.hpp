@@ -292,5 +292,3 @@ GlobalNamespace::IPlatformAchievementsHandler::GetUnlockedAchievements(::GlobalN
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::HMAsyncRequest*, false>(this, ___internal_method, completionHandler);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

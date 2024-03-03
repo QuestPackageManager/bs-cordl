@@ -16,5 +16,3 @@ constexpr ::System::Net::Sockets::SocketFlags System::Net::Sockets::SocketFlags:
 constexpr ::System::Net::Sockets::SocketFlags System::Net::Sockets::SocketFlags::Broadcast{ static_cast<int32_t>(0x400) };
 constexpr ::System::Net::Sockets::SocketFlags System::Net::Sockets::SocketFlags::Multicast{ static_cast<int32_t>(0x800) };
 constexpr ::System::Net::Sockets::SocketFlags System::Net::Sockets::SocketFlags::Partial{ static_cast<int32_t>(0x8000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -346,5 +346,3 @@ inline void GlobalNamespace::LevelBar::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelBar::LevelBar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

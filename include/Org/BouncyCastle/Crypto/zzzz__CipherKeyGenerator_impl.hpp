@@ -200,5 +200,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::CipherKey
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::CipherKeyGenerator::CipherKeyGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

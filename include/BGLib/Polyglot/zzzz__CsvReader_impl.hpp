@@ -56,5 +56,3 @@ inline void BGLib::Polyglot::CsvReader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::CsvReader::CsvReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

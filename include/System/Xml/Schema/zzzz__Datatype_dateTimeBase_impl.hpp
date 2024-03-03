@@ -227,5 +227,3 @@ inline ::System::Exception* System::Xml::Schema::Datatype_dateTimeBase::TryParse
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_dateTimeBase::Datatype_dateTimeBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

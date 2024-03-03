@@ -192,5 +192,3 @@ inline void GlobalNamespace::HowToPlayViewController::_DidActivate_b__7_1() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HowToPlayViewController::HowToPlayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

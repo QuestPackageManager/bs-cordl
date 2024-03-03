@@ -92,5 +92,3 @@ constexpr ::System::Xml::Xsl::Runtime::StringConcat::StringConcat(::StringW s1, 
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Xsl::Runtime::StringConcat::StringConcat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

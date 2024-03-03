@@ -387,5 +387,3 @@ inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Tsp::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampRequest::TimeStampRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

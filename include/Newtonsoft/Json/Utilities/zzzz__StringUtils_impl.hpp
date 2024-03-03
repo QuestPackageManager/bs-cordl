@@ -411,5 +411,3 @@ inline bool Newtonsoft::Json::Utilities::StringUtils::EndsWith(::StringW source,
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::StringUtils::StringUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

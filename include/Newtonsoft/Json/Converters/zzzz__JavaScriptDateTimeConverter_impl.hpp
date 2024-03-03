@@ -78,5 +78,3 @@ inline void Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::JavaScriptDateTimeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

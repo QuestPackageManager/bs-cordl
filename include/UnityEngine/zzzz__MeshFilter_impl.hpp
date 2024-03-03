@@ -119,5 +119,3 @@ inline void UnityEngine::MeshFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MeshFilter::MeshFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

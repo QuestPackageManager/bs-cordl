@@ -97,5 +97,3 @@ inline float_t UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetQuadScor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::QuadUtility::QuadUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

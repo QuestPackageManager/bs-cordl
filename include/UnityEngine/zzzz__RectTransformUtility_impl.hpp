@@ -387,5 +387,3 @@ inline bool UnityEngine::RectTransformUtility::PointInRectangle_Injected(ByRef<:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RectTransformUtility::RectTransformUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

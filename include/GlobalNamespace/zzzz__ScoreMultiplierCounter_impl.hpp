@@ -147,5 +147,3 @@ inline void GlobalNamespace::ScoreMultiplierCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreMultiplierCounter::ScoreMultiplierCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

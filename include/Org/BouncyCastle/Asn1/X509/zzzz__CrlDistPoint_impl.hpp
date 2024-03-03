@@ -199,5 +199,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::CrlDistPoint::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::CrlDistPoint::CrlDistPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

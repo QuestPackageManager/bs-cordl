@@ -374,5 +374,3 @@ inline void GlobalNamespace::BeatmapDifficultyDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultyDropdown::BeatmapDifficultyDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

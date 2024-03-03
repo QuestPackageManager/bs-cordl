@@ -471,5 +471,3 @@ GlobalNamespace::OculusPlatformLeaderboardsHandler::UploadScore(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler::OculusPlatformLeaderboardsHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -98,5 +98,3 @@ inline bool HoudiniEngineUnity::Test_Terrain::IsEquivalentTo(::HoudiniEngineUnit
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Terrain::Test_Terrain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

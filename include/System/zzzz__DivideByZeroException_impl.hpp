@@ -52,5 +52,3 @@ inline void System::DivideByZeroException::_ctor(::System::Runtime::Serializatio
 }
 // Ctor Parameters []
 constexpr ::System::DivideByZeroException::DivideByZeroException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

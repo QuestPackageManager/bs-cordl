@@ -49,5 +49,3 @@ constexpr ::OVR::OpenVR::Compositor_FrameTiming::Compositor_FrameTiming(uint32_t
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::Compositor_FrameTiming::Compositor_FrameTiming() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

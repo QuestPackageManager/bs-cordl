@@ -57,5 +57,3 @@ inline void GlobalNamespace::VideoProjectionInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VideoProjectionInstaller::VideoProjectionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

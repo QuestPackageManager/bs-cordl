@@ -43,5 +43,3 @@ inline int32_t System::Net::Mail::WhitespaceReader::ReadCfwsReverse(::StringW da
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::WhitespaceReader::WhitespaceReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

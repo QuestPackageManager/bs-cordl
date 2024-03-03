@@ -508,5 +508,3 @@ inline bool Mono::Net::Security::ChainValidationHelper::InvokeCallback(::System:
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::ChainValidationHelper::ChainValidationHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

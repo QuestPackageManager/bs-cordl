@@ -78,5 +78,3 @@ inline void System::Threading::WaitHandleCannotBeOpenedException::_ctor(::System
 }
 // Ctor Parameters []
 constexpr ::System::Threading::WaitHandleCannotBeOpenedException::WaitHandleCannotBeOpenedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

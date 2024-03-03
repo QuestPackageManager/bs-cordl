@@ -86,5 +86,3 @@ inline void TMPro::TMP_Sprite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Sprite::TMP_Sprite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

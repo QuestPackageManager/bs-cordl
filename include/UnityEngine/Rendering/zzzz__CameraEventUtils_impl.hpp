@@ -24,5 +24,3 @@ inline bool UnityEngine::Rendering::CameraEventUtils::IsValid(::UnityEngine::Ren
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CameraEventUtils::CameraEventUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

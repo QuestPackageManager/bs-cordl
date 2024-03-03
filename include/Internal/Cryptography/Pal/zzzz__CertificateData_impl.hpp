@@ -503,5 +503,3 @@ constexpr ::Internal::Cryptography::Pal::CertificateData::CertificateData(
 }
 // Ctor Parameters []
 constexpr ::Internal::Cryptography::Pal::CertificateData::CertificateData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

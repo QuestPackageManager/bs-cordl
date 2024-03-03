@@ -131,5 +131,3 @@ inline void HMUI::ToggleWithCallbacks::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ToggleWithCallbacks::ToggleWithCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -38,5 +38,3 @@ constexpr ::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::sockaddr
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::sockaddr_dl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

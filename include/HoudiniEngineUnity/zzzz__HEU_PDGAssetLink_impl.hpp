@@ -1325,5 +1325,3 @@ inline void HoudiniEngineUnity::HEU_PDGAssetLink::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PDGAssetLink::HEU_PDGAssetLink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

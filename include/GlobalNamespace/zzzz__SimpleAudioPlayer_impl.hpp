@@ -231,5 +231,3 @@ inline void GlobalNamespace::SimpleAudioPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleAudioPlayer::SimpleAudioPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1067,5 +1067,3 @@ inline void System::Text::RegularExpressions::MatchCollection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::MatchCollection::MatchCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

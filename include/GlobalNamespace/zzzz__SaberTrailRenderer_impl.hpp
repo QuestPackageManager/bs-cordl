@@ -363,5 +363,3 @@ inline void GlobalNamespace::SaberTrailRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberTrailRenderer::SaberTrailRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

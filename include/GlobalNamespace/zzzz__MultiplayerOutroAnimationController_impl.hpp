@@ -461,5 +461,3 @@ inline void GlobalNamespace::MultiplayerOutroAnimationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerOutroAnimationController::MultiplayerOutroAnimationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

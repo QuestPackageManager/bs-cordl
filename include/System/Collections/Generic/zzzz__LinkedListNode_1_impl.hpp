@@ -106,5 +106,3 @@ template <typename T> inline void System::Collections::Generic::LinkedListNode_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>::LinkedListNode_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

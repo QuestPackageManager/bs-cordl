@@ -914,5 +914,3 @@ inline void Newtonsoft::Json::Bson::BsonWriter::WriteRegex(::StringW pattern, ::
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonWriter::BsonWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

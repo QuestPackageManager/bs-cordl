@@ -105,5 +105,3 @@ inline bool GlobalNamespace::OVRKeyboard::StopKeyboardTracking(::GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRKeyboard::OVRKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -549,5 +549,3 @@ inline void GlobalNamespace::PartyMessageHandler::HandleConnectToMasterServer(::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PartyMessageHandler::PartyMessageHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

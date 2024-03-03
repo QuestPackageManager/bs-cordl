@@ -2158,5 +2158,3 @@ constexpr ::System::DateTime::DateTime(uint64_t _dateData) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::DateTime::DateTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

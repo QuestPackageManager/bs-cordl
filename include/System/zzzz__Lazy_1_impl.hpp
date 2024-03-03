@@ -136,5 +136,3 @@ template <typename T> inline T System::Lazy_1<T>::get_Value() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Lazy_1<T>::Lazy_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

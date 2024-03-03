@@ -122,5 +122,3 @@ inline void UnityEngine::UIElements::VisualElementExtensions::RemoveManipulator(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementExtensions::VisualElementExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

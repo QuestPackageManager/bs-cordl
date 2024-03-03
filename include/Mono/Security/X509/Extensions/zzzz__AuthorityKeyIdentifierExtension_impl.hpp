@@ -128,5 +128,3 @@ inline ::StringW Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtensi
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::AuthorityKeyIdentifierExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

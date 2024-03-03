@@ -154,5 +154,3 @@ constexpr ::UnityEngine::UIElements::TextureId::TextureId(int32_t m_Index) noexc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextureId::TextureId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ inline ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt::ParametersWithSalt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

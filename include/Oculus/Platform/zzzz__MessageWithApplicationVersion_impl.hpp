@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::ApplicationVersion* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithApplicationVersion::MessageWithApplicationVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

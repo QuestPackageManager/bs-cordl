@@ -519,5 +519,3 @@ inline bool Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded(uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Salsa20Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -126,5 +126,3 @@ inline void HoudiniEngineUnity::HEU_InputPreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputPreset::HEU_InputPreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

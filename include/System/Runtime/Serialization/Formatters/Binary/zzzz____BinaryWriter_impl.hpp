@@ -1451,5 +1451,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter::__BinaryWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

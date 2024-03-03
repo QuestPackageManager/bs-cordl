@@ -201,5 +201,3 @@ inline void GlobalNamespace::ObstacleMaterialSetter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleMaterialSetter::ObstacleMaterialSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

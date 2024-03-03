@@ -60,5 +60,3 @@ inline void System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::se
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute::RuntimeCompatibilityAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

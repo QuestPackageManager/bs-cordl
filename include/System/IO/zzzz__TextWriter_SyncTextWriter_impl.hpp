@@ -368,5 +368,3 @@ inline ::System::Threading::Tasks::Task* System::IO::__TextWriter__SyncTextWrite
 }
 // Ctor Parameters []
 constexpr ::System::IO::__TextWriter__SyncTextWriter::__TextWriter__SyncTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -141,5 +141,3 @@ constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2::SphericalHarmonicsL2(f
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2::SphericalHarmonicsL2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

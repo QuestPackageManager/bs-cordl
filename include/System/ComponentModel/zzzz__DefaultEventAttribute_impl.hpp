@@ -110,5 +110,3 @@ inline int32_t System::ComponentModel::DefaultEventAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DefaultEventAttribute::DefaultEventAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

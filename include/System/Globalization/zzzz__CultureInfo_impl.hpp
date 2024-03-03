@@ -1873,5 +1873,3 @@ inline bool System::Globalization::CultureInfo::VerifyCultureName(::System::Glob
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CultureInfo::CultureInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

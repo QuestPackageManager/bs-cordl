@@ -20,5 +20,3 @@ inline bool UnityEngineInternal::MathfInternal::getStaticF_IsFlushToZeroEnabled(
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::MathfInternal::MathfInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

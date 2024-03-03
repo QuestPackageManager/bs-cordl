@@ -107,5 +107,3 @@ System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate(::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::RemotingSurrogateSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

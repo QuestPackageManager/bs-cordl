@@ -489,5 +489,3 @@ inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeBindingsUpdater::VisualTreeBindingsUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

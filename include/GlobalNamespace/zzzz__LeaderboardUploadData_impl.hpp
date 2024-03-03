@@ -176,5 +176,3 @@ inline void GlobalNamespace::LeaderboardUploadData::_ctor(::StringW playerName, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardUploadData::LeaderboardUploadData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

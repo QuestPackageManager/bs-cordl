@@ -822,5 +822,3 @@ constexpr ::System::Single::Single(float_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Single::Single() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -270,5 +270,3 @@ inline void Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::gen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::KdfCounterBytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

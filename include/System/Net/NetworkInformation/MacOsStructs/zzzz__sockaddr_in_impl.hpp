@@ -10,5 +10,3 @@ constexpr ::System::Net::NetworkInformation::MacOsStructs::sockaddr_in::sockaddr
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MacOsStructs::sockaddr_in::sockaddr_in() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

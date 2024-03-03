@@ -98,5 +98,3 @@ inline void Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::BsonObjectIdConverter::BsonObjectIdConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

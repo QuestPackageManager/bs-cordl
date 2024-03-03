@@ -73,5 +73,3 @@ inline void BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::_cto
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider::ConnectedPlayerAvatarVisualDataProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

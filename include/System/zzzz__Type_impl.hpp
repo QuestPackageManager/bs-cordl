@@ -3133,5 +3133,3 @@ inline ::StringW System::Type::get_NameOrDefault() {
 // Ctor Parameters []
 constexpr ::System::Type::Type() {}
 constexpr ::System::Reflection::BindingFlags System::Type::DefaultLookup{ static_cast<int32_t>(0x1c) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

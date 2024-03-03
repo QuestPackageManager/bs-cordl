@@ -227,5 +227,3 @@ inline ::StringW System::Net::Http::Headers::RangeItemHeaderValue::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::RangeItemHeaderValue::RangeItemHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

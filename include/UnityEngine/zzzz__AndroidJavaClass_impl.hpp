@@ -69,5 +69,3 @@ inline void UnityEngine::AndroidJavaClass::_ctor(void* jclass) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaClass::AndroidJavaClass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

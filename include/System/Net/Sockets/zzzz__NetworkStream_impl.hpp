@@ -883,5 +883,3 @@ inline ::System::Net::Sockets::Socket* System::Net::Sockets::NetworkStream::get_
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::NetworkStream::NetworkStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

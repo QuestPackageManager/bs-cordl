@@ -293,5 +293,3 @@ inline void System::GC::ReRegisterForFinalize(::System::Object* obj) {
 }
 // Ctor Parameters []
 constexpr ::System::GC::GC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

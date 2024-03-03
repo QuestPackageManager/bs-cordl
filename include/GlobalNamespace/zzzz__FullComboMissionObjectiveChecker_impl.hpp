@@ -98,5 +98,3 @@ inline void GlobalNamespace::FullComboMissionObjectiveChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FullComboMissionObjectiveChecker::FullComboMissionObjectiveChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

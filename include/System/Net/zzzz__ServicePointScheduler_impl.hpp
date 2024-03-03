@@ -1217,5 +1217,3 @@ inline ::System::Threading::Tasks::Task* System::Net::ServicePointScheduler::_Ru
 }
 // Ctor Parameters []
 constexpr ::System::Net::ServicePointScheduler::ServicePointScheduler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

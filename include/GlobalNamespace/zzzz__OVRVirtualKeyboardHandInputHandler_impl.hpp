@@ -44,5 +44,3 @@ inline void GlobalNamespace::OVRVirtualKeyboardHandInputHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler::OVRVirtualKeyboardHandInputHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

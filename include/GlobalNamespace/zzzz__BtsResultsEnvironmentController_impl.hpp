@@ -632,5 +632,3 @@ inline void GlobalNamespace::BtsResultsEnvironmentController::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BtsResultsEnvironmentController::BtsResultsEnvironmentController() {}
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BtsResultsEnvironmentController::kCharacterDisplayEventType{ static_cast<int32_t>(0x28) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

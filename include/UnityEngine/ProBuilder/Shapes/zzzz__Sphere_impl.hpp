@@ -167,5 +167,3 @@ inline void UnityEngine::ProBuilder::Shapes::Sphere::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Sphere::Sphere() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

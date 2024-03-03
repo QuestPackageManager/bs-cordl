@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::SupplementaryMetric::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::SupplementaryMetric::SupplementaryMetric() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

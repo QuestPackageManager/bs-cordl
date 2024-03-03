@@ -284,5 +284,3 @@ inline void GlobalNamespace::MaterialPropertyBlockColorSetter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter::MaterialPropertyBlockColorSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ inline void UnityEngine::UI::Outline::ModifyMesh(::UnityEngine::UI::VertexHelper
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Outline::Outline() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

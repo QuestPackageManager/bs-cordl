@@ -10,5 +10,3 @@ constexpr ::System::Runtime::InteropServices::CharSet System::Runtime::InteropSe
 constexpr ::System::Runtime::InteropServices::CharSet System::Runtime::InteropServices::CharSet::Ansi{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::InteropServices::CharSet System::Runtime::InteropServices::CharSet::Unicode{ static_cast<int32_t>(0x3) };
 constexpr ::System::Runtime::InteropServices::CharSet System::Runtime::InteropServices::CharSet::Auto{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

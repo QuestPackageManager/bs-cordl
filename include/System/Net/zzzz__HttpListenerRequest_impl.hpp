@@ -593,5 +593,3 @@ inline ::StringW System::Net::HttpListenerRequest::get_UserHostName() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerRequest::HttpListenerRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

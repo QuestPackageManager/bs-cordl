@@ -635,5 +635,3 @@ inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* Org::BouncyCastle::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::PgpKeyRingGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

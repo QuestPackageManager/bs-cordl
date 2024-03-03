@@ -145,5 +145,3 @@ inline void HMUI::CurvedCanvasSettingsHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::CurvedCanvasSettingsHelper::CurvedCanvasSettingsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

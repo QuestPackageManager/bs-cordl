@@ -25,5 +25,3 @@ inline void UnityEngine::Bindings::NativeAsStructAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeAsStructAttribute::NativeAsStructAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -163,5 +163,3 @@ inline void RootMotion::FinalIK::RotationLimitAngle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::RotationLimitAngle::RotationLimitAngle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

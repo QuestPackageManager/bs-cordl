@@ -21,5 +21,3 @@ constexpr ::ENet::ENetSslConfiguration::ENetSslConfiguration(::ENet::SslMode mod
 }
 // Ctor Parameters []
 constexpr ::ENet::ENetSslConfiguration::ENetSslConfiguration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

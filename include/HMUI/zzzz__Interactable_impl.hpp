@@ -129,5 +129,3 @@ inline void HMUI::Interactable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::Interactable::Interactable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

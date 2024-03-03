@@ -101,5 +101,3 @@ inline void System::ComponentModel::AddingNewEventArgs::_ctor(::System::Object* 
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::AddingNewEventArgs::AddingNewEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

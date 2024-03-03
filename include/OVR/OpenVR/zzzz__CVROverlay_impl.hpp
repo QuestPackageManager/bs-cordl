@@ -2071,5 +2071,3 @@ inline void OVR::OpenVR::CVROverlay::CloseMessageOverlay() {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVROverlay::CVROverlay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

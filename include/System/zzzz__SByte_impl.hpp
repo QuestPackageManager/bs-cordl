@@ -706,5 +706,3 @@ constexpr ::System::SByte::SByte(int8_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::SByte::SByte() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

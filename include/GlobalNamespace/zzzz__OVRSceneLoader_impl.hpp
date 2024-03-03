@@ -797,5 +797,3 @@ inline void GlobalNamespace::OVRSceneLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneLoader::OVRSceneLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

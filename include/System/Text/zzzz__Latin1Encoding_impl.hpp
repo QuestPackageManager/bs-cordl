@@ -244,5 +244,3 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Text::Latin1Encoding::GetB
 }
 // Ctor Parameters []
 constexpr ::System::Text::Latin1Encoding::Latin1Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

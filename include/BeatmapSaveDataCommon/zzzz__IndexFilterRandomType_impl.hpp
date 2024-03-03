@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataCommon::IndexFilterRandomType::IndexFilterRandomType(
 constexpr ::BeatmapSaveDataCommon::IndexFilterRandomType BeatmapSaveDataCommon::IndexFilterRandomType::NoRandom{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::IndexFilterRandomType BeatmapSaveDataCommon::IndexFilterRandomType::KeepOrder{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::IndexFilterRandomType BeatmapSaveDataCommon::IndexFilterRandomType::RandomElements{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

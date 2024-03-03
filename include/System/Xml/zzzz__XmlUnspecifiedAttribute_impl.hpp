@@ -164,5 +164,3 @@ inline void System::Xml::XmlUnspecifiedAttribute::SetSpecified(bool f) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlUnspecifiedAttribute::XmlUnspecifiedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -519,5 +519,3 @@ inline void GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory::_cto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory::__MultiplayerLocalActivePlayerFacade__Factory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

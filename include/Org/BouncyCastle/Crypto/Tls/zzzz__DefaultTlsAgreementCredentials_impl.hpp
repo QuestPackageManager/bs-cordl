@@ -129,5 +129,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Defa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::DefaultTlsAgreementCredentials() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

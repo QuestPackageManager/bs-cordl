@@ -80,5 +80,3 @@ inline ::StringW System::Reflection::LocalVariableInfo::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::LocalVariableInfo::LocalVariableInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

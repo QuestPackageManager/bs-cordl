@@ -798,5 +798,3 @@ inline void LiteNetLib::NatPunchModule::OnNatPunch(::LiteNetLib::__NatPunchModul
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NatPunchModule::NatPunchModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

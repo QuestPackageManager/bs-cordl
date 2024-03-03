@@ -569,5 +569,3 @@ inline void Unity::XR::OpenVR::ViveWand::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::ViveWand::ViveWand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

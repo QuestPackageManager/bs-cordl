@@ -137,5 +137,3 @@ inline void Org::BouncyCastle::Apache::Bzip2::CRC::UpdateCRC(int32_t inCh) {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC::CRC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

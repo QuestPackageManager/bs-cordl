@@ -81,5 +81,3 @@ inline void UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::DisplayStringFormatAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

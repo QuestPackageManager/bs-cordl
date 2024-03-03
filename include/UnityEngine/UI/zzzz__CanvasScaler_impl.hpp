@@ -805,5 +805,3 @@ inline void UnityEngine::UI::CanvasScaler::SetReferencePixelsPerUnit(float_t ref
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::CanvasScaler::CanvasScaler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

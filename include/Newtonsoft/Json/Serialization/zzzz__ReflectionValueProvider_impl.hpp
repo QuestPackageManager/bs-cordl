@@ -94,5 +94,3 @@ inline ::System::Object* Newtonsoft::Json::Serialization::ReflectionValueProvide
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ReflectionValueProvider::ReflectionValueProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -28,5 +28,3 @@ inline void Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDealloc
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute::NativeContainerSupportsDeallocateOnJobCompletionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

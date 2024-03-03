@@ -99,5 +99,3 @@ constexpr ::UnityEngine::jvalue::jvalue(bool z, int8_t b, char16_t c, int16_t s,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::jvalue::jvalue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

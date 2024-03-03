@@ -73,5 +73,3 @@ inline void GlobalNamespace::TutorialNoTransitionInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialNoTransitionInstaller::TutorialNoTransitionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

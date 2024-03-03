@@ -82,5 +82,3 @@ inline ::UnityEngine::ProBuilder::ChangelogEntry* UnityEngine::ProBuilder::Chang
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Changelog::Changelog() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

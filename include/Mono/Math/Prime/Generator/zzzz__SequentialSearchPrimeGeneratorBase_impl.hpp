@@ -117,5 +117,3 @@ inline void Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::_c
 }
 // Ctor Parameters []
 constexpr ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::SequentialSearchPrimeGeneratorBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

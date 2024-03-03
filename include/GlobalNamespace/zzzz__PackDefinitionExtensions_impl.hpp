@@ -3499,5 +3499,3 @@ GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs(::System::Col
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PackDefinitionExtensions::PackDefinitionExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

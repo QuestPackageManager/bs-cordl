@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::IntersectionMaskCircle_t::IntersectionMaskCircle_t(floa
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IntersectionMaskCircle_t::IntersectionMaskCircle_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

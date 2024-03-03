@@ -93,5 +93,3 @@ inline void UnityEngine::Networking::CertificateHandler::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::CertificateHandler::CertificateHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

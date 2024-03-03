@@ -118,5 +118,3 @@ inline bool System::IO::Enumeration::FileSystemName::MatchPattern(::System::Read
 }
 // Ctor Parameters []
 constexpr ::System::IO::Enumeration::FileSystemName::FileSystemName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

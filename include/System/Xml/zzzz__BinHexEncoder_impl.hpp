@@ -76,5 +76,3 @@ inline int32_t System::Xml::BinHexEncoder::Encode(::ArrayW<uint8_t, ::Array<uint
 }
 // Ctor Parameters []
 constexpr ::System::Xml::BinHexEncoder::BinHexEncoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

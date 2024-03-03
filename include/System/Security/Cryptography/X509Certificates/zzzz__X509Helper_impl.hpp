@@ -190,5 +190,3 @@ System::Security::Cryptography::X509Certificates::X509Helper::Import(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Helper::X509Helper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

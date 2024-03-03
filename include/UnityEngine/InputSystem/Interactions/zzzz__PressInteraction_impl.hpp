@@ -154,5 +154,3 @@ inline void UnityEngine::InputSystem::Interactions::PressInteraction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Interactions::PressInteraction::PressInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

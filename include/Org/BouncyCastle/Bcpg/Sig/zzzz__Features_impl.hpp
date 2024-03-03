@@ -143,5 +143,3 @@ inline void Org::BouncyCastle::Bcpg::Sig::Features::SetSupportsFeature(uint8_t f
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::Features::Features() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

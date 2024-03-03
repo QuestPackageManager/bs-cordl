@@ -24,5 +24,3 @@ inline ::UnityEngine::Yoga::YogaSize UnityEngine::Yoga::MeasureOutput::Make(floa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::MeasureOutput::MeasureOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

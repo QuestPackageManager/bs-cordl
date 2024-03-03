@@ -71,5 +71,3 @@ inline void GlobalNamespace::BlueNoiseDithering::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BlueNoiseDithering::BlueNoiseDithering() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

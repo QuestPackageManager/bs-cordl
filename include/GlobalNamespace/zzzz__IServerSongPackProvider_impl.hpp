@@ -22,5 +22,3 @@ GlobalNamespace::IServerSongPackProvider::DecomposeSongPackMask(::GlobalNamespac
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IServerSongPackProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::SongPackMask, ::Array<::GlobalNamespace::SongPackMask>*>, false>(this, ___internal_method, songPackMask);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

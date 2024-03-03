@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::Justify UnityEngine::UIElements::Justify::C
 constexpr ::UnityEngine::UIElements::Justify UnityEngine::UIElements::Justify::FlexEnd{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::Justify UnityEngine::UIElements::Justify::SpaceBetween{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::Justify UnityEngine::UIElements::Justify::SpaceAround{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -373,5 +373,3 @@ inline ::StringW System::Diagnostics::StackFrame::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::StackFrame::StackFrame() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

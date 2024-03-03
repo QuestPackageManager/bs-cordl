@@ -525,5 +525,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::FieldFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::FieldFilter::FieldFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

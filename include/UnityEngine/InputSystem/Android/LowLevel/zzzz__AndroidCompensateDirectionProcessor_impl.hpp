@@ -52,5 +52,3 @@ inline void UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirect
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::AndroidCompensateDirectionProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

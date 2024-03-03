@@ -143,5 +143,3 @@ inline void System::IO::__TextWriter__NullTextWriter::Write(char16_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::__TextWriter__NullTextWriter::__TextWriter__NullTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

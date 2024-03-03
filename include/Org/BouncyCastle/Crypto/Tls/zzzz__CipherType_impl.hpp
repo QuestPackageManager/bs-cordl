@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Crypto::Tls::CipherType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CipherType::CipherType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

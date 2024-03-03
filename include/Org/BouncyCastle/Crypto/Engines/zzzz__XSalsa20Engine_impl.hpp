@@ -91,5 +91,3 @@ inline void Org::BouncyCastle::Crypto::Engines::XSalsa20Engine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine::XSalsa20Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

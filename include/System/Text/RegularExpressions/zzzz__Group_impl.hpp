@@ -128,5 +128,3 @@ inline void System::Text::RegularExpressions::Group::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::Group::Group() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

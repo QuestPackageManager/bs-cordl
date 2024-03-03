@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::Cookie::Cookie(int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::Cookie::Cookie() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

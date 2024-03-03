@@ -179,5 +179,3 @@ inline void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::UnicodeLineBreakingRules() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

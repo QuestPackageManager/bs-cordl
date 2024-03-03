@@ -304,5 +304,3 @@ template <typename T> inline void System::Collections::ObjectModel::ReadOnlyColl
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>::ReadOnlyCollection_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

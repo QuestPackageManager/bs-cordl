@@ -125,5 +125,3 @@ inline ::System::TimeSpan System::Globalization::DaylightTime::get_Delta() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::DaylightTime::DaylightTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -174,5 +174,3 @@ inline void System::Xml::Schema::Datatype_byte::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_byte::Datatype_byte() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

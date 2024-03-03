@@ -224,5 +224,3 @@ inline void HoudiniEngineUnity::HEU_ThreadManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ThreadManager::HEU_ThreadManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

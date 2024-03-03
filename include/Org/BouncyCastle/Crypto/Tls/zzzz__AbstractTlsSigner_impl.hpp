@@ -272,5 +272,3 @@ inline void Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner::AbstractTlsSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

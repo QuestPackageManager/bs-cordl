@@ -28,5 +28,3 @@ inline void Newtonsoft::Json::Serialization::JsonStringContract::_ctor(::System:
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonStringContract::JsonStringContract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

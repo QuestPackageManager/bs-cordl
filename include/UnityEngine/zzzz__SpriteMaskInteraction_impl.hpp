@@ -9,5 +9,3 @@ constexpr ::UnityEngine::SpriteMaskInteraction::SpriteMaskInteraction() {}
 constexpr ::UnityEngine::SpriteMaskInteraction UnityEngine::SpriteMaskInteraction::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpriteMaskInteraction UnityEngine::SpriteMaskInteraction::VisibleInsideMask{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SpriteMaskInteraction UnityEngine::SpriteMaskInteraction::VisibleOutsideMask{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

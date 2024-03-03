@@ -134,5 +134,3 @@ inline void System::Xml::Schema::Numeric2FacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Numeric2FacetsChecker::Numeric2FacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

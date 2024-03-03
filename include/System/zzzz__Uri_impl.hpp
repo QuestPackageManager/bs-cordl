@@ -3127,5 +3127,3 @@ inline void System::Uri::CreateThisFromUri(::System::Uri* otherUri) {
 constexpr ::System::Uri::Uri() {}
 constexpr ::System::UriKind System::Uri::DotNetRelativeOrAbsolute{ static_cast<int32_t>(0x12c) };
 constexpr ::System::UriFormat System::Uri::V1ToStringUnescape{ static_cast<int32_t>(0x7fff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

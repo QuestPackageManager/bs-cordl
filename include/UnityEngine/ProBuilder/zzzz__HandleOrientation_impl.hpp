@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::HandleOrientation::HandleOrientation() {}
 constexpr ::UnityEngine::ProBuilder::HandleOrientation UnityEngine::ProBuilder::HandleOrientation::World{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::HandleOrientation UnityEngine::ProBuilder::HandleOrientation::ActiveObject{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::HandleOrientation UnityEngine::ProBuilder::HandleOrientation::ActiveElement{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

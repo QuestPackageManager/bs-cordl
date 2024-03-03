@@ -167,5 +167,3 @@ inline bool System::Platform::get_IsAix() {
 }
 // Ctor Parameters []
 constexpr ::System::Platform::Platform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

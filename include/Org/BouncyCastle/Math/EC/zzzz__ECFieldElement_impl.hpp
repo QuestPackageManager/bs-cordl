@@ -573,5 +573,3 @@ inline void Org::BouncyCastle::Math::EC::ECFieldElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement::ECFieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

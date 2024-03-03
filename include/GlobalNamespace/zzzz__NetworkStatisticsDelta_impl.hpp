@@ -66,5 +66,3 @@ constexpr ::GlobalNamespace::NetworkStatisticsDelta::NetworkStatisticsDelta(int6
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkStatisticsDelta::NetworkStatisticsDelta() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

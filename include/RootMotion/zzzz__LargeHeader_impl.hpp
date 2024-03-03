@@ -73,5 +73,3 @@ inline void RootMotion::LargeHeader::_ctor(::StringW name, ::StringW color) {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::LargeHeader::LargeHeader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

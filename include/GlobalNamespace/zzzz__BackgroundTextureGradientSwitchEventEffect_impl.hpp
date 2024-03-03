@@ -144,5 +144,3 @@ inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::BackgroundTextureGradientSwitchEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -177,5 +177,3 @@ inline void UnityEngine::Timeline::Marker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::Marker::Marker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

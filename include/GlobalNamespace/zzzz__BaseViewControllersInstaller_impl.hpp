@@ -77,5 +77,3 @@ inline void GlobalNamespace::BaseViewControllersInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseViewControllersInstaller::BaseViewControllersInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

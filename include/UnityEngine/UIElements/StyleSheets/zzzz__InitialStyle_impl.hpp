@@ -1488,5 +1488,3 @@ inline ::UnityEngine::UIElements::Length UnityEngine::UIElements::StyleSheets::I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::InitialStyle::InitialStyle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

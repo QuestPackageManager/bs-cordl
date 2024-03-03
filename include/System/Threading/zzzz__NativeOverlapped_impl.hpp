@@ -13,5 +13,3 @@ constexpr ::System::Threading::NativeOverlapped::NativeOverlapped(void* Internal
 }
 // Ctor Parameters []
 constexpr ::System::Threading::NativeOverlapped::NativeOverlapped() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -117,5 +117,3 @@ inline void Org::BouncyCastle::Crypto::Paddings::TbcPadding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Paddings::TbcPadding::TbcPadding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

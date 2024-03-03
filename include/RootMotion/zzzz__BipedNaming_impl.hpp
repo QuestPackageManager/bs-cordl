@@ -662,5 +662,3 @@ inline ::StringW RootMotion::BipedNaming::lastLetter(::StringW boneName) {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BipedNaming::BipedNaming() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

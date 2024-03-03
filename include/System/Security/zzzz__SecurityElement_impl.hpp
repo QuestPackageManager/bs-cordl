@@ -572,5 +572,3 @@ inline ::StringW System::Security::SecurityElement::SearchForTextOfLocalName(::S
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecurityElement::SecurityElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

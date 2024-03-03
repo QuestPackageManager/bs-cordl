@@ -175,5 +175,3 @@ inline void HMUI::HoverTextSetter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverTextSetter::HoverTextSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

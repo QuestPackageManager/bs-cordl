@@ -50,5 +50,3 @@ inline void UnityEngine::UIElements::HierarchyEvent::Invoke(::UnityEngine::UIEle
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::HierarchyEvent::HierarchyEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

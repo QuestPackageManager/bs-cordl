@@ -223,5 +223,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::X962P
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::X962Parameters::X962Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3,5 +3,3 @@
 #include "UnityEngine/zzzz__WaitForFixedUpdate_def.hpp"
 // Ctor Parameters []
 constexpr ::UnityEngine::WaitForFixedUpdate::WaitForFixedUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

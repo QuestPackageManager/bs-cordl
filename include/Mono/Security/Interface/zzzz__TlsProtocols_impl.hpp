@@ -18,5 +18,3 @@ constexpr ::Mono::Security::Interface::TlsProtocols Mono::Security::Interface::T
 constexpr ::Mono::Security::Interface::TlsProtocols Mono::Security::Interface::TlsProtocols::Tls12{ static_cast<int32_t>(0xc00) };
 constexpr ::Mono::Security::Interface::TlsProtocols Mono::Security::Interface::TlsProtocols::ClientMask{ static_cast<int32_t>(0xa80) };
 constexpr ::Mono::Security::Interface::TlsProtocols Mono::Security::Interface::TlsProtocols::ServerMask{ static_cast<int32_t>(0x540) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

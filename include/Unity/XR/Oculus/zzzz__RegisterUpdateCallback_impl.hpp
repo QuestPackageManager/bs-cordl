@@ -57,5 +57,3 @@ inline void Unity::XR::Oculus::RegisterUpdateCallback::Update() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::RegisterUpdateCallback::RegisterUpdateCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

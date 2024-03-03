@@ -19,5 +19,3 @@ template <typename T0, typename T1, typename T2> inline void UnityEngine::Events
 }
 // Ctor Parameters []
 template <typename T0, typename T1, typename T2> constexpr ::UnityEngine::Events::UnityAction_3<T0, T1, T2>::UnityAction_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -493,5 +493,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::BeatmapLevelDataUti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelDataUtils::BeatmapLevelDataUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

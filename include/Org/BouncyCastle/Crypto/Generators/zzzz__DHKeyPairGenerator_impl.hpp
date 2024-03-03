@@ -97,5 +97,3 @@ inline void Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::DHKeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

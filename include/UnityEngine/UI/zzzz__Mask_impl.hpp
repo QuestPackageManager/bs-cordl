@@ -297,5 +297,3 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::UI::Mask::GetModifiedMater
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Mask::Mask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

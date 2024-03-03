@@ -56,5 +56,3 @@ inline bool Mono::Security::Interface::MonoRemoteCertificateValidationCallback::
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::MonoRemoteCertificateValidationCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

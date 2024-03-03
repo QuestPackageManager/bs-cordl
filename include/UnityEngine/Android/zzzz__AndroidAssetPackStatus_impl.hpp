@@ -15,5 +15,3 @@ constexpr ::UnityEngine::Android::AndroidAssetPackStatus UnityEngine::Android::A
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus UnityEngine::Android::AndroidAssetPackStatus::Canceled{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus UnityEngine::Android::AndroidAssetPackStatus::WaitingForWifi{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::Android::AndroidAssetPackStatus UnityEngine::Android::AndroidAssetPackStatus::NotInstalled{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

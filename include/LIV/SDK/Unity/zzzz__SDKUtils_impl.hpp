@@ -513,5 +513,3 @@ inline void LIV::SDK::Unity::SDKUtils::ForceForwardRendering(::UnityEngine::Came
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKUtils::SDKUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

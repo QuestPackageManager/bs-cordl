@@ -288,5 +288,3 @@ inline ::System::Net::NetworkCredential* System::Net::NetworkCredential::GetCred
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkCredential::NetworkCredential() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

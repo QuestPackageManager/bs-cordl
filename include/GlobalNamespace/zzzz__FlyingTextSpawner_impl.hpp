@@ -180,5 +180,3 @@ inline void GlobalNamespace::FlyingTextSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingTextSpawner::FlyingTextSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

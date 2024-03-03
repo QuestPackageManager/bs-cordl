@@ -118,5 +118,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::InstanceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

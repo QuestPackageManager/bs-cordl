@@ -28,5 +28,3 @@ inline void Zenject::SubContainerCreatorUtil::ApplyBindSettings(::Zenject::SubCo
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorUtil::SubContainerCreatorUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

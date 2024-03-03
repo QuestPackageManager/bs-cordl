@@ -805,5 +805,3 @@ inline void GlobalNamespace::OVRGLTFLoader::ProcessAnimations() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFLoader::OVRGLTFLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -758,5 +758,3 @@ inline void UnityEngine::UIElements::__TextElement__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__TextElement__UxmlFactory::__TextElement__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

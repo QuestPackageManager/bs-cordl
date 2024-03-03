@@ -9,5 +9,3 @@ constexpr ::Newtonsoft::Json::ReferenceLoopHandling::ReferenceLoopHandling() {}
 constexpr ::Newtonsoft::Json::ReferenceLoopHandling Newtonsoft::Json::ReferenceLoopHandling::Error{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::ReferenceLoopHandling Newtonsoft::Json::ReferenceLoopHandling::Ignore{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::ReferenceLoopHandling Newtonsoft::Json::ReferenceLoopHandling::Serialize{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

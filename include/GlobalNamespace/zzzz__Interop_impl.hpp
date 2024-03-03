@@ -1106,5 +1106,3 @@ inline void GlobalNamespace::Interop::GetRandomBytes(::cordl_internals::Ptr<uint
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Interop::Interop() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

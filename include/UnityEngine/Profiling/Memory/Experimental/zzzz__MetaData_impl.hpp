@@ -49,5 +49,3 @@ inline void UnityEngine::Profiling::Memory::Experimental::MetaData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Profiling::Memory::Experimental::MetaData::MetaData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

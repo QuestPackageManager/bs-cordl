@@ -130,5 +130,3 @@ inline void LIV::SDK::Unity::SDKShaders::StopBackgroundRendering() {
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKShaders::SDKShaders() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

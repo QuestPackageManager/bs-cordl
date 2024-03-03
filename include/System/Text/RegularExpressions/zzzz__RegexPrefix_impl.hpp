@@ -94,5 +94,3 @@ constexpr ::System::Text::RegularExpressions::RegexPrefix::RegexPrefix(bool _Cas
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexPrefix::RegexPrefix() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

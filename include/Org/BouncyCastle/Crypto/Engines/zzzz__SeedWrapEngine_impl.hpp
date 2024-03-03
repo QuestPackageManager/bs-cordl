@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Engines::SeedWrapEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine::SeedWrapEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

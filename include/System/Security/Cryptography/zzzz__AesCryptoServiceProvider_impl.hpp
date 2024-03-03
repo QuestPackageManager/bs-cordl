@@ -429,5 +429,3 @@ inline void System::Security::Cryptography::AesCryptoServiceProvider::Dispose(bo
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AesCryptoServiceProvider::AesCryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

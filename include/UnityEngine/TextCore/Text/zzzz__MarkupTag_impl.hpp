@@ -132,5 +132,3 @@ constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::INVALID{ static_cast<int32_t>(0x5e7f8411) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::NORMAL{ static_cast<int32_t>(0xb97550f3) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::DEFAULT{ static_cast<int32_t>(0xdafcb04b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -148,5 +148,3 @@ inline void HoudiniEngineUnity::HEU_AssetSerializedMetaData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetSerializedMetaData::HEU_AssetSerializedMetaData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

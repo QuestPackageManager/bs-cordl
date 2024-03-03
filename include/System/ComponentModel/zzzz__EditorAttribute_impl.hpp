@@ -161,5 +161,3 @@ inline int32_t System::ComponentModel::EditorAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EditorAttribute::EditorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

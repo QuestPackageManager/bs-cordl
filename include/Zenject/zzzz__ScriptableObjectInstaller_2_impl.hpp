@@ -42,5 +42,3 @@ template <typename TParam1, typename TDerived> inline ::Zenject::InjectTypeInfo*
 }
 // Ctor Parameters []
 template <typename TParam1, typename TDerived> constexpr ::Zenject::ScriptableObjectInstaller_2<TParam1, TDerived>::ScriptableObjectInstaller_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::VREvent_InputBindingLoad_t::VREvent_InputBindingLoad_t(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_InputBindingLoad_t::VREvent_InputBindingLoad_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

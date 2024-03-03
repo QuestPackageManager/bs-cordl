@@ -50,5 +50,3 @@ inline void System::ComponentModel::ListChangedEventHandler::Invoke(::System::Ob
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ListChangedEventHandler::ListChangedEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

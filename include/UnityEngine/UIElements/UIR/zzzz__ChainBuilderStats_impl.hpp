@@ -47,5 +47,3 @@ constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats::ChainBuilderStats(u
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats::ChainBuilderStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

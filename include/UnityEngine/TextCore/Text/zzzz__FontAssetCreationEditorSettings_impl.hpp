@@ -32,5 +32,3 @@ constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings::FontAs
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings::FontAssetCreationEditorSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

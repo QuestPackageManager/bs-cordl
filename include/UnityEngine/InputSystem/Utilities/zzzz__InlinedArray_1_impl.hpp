@@ -266,5 +266,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TV
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>::__InlinedArray_1__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

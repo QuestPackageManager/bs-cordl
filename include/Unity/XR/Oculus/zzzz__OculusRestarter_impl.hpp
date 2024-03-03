@@ -753,5 +753,3 @@ inline void Unity::XR::Oculus::OculusRestarter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusRestarter::OculusRestarter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

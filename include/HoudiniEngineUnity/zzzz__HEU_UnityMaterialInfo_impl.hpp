@@ -65,5 +65,3 @@ inline void HoudiniEngineUnity::HEU_UnityMaterialInfo::_ctor(::StringW unityMate
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_UnityMaterialInfo::HEU_UnityMaterialInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

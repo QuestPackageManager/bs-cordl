@@ -957,5 +957,3 @@ constexpr ::System::Xml::Schema::XsdDateTime::XsdDateTime(::System::DateTime dt,
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XsdDateTime::XsdDateTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

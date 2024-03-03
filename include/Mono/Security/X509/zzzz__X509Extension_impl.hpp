@@ -263,5 +263,3 @@ inline ::StringW Mono::Security::X509::X509Extension::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Extension::X509Extension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

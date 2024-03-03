@@ -307,5 +307,3 @@ inline void UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Submesh::Submesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

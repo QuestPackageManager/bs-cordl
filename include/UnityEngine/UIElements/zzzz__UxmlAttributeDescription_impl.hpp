@@ -314,5 +314,3 @@ inline T UnityEngine::UIElements::UxmlAttributeDescription::GetValueFromBag(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlAttributeDescription::UxmlAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

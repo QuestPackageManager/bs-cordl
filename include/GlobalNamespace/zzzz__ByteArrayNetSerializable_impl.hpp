@@ -418,5 +418,3 @@ inline void GlobalNamespace::ByteArrayNetSerializable::CopyTo(::ArrayW<uint8_t, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ByteArrayNetSerializable::ByteArrayNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

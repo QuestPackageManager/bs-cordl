@@ -14,5 +14,3 @@ constexpr ::UnityEngine::UIElements::StyleSelectorType UnityEngine::UIElements::
 constexpr ::UnityEngine::UIElements::StyleSelectorType UnityEngine::UIElements::StyleSelectorType::RecursivePseudoClass{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::StyleSelectorType UnityEngine::UIElements::StyleSelectorType::_cordl_ID{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::UIElements::StyleSelectorType UnityEngine::UIElements::StyleSelectorType::Predicate{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

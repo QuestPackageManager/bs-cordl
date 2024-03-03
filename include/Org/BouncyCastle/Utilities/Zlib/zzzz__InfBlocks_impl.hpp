@@ -411,5 +411,3 @@ inline int32_t Org::BouncyCastle::Utilities::Zlib::InfBlocks::inflate_flush(::Or
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::InfBlocks::InfBlocks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

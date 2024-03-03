@@ -77,5 +77,3 @@ inline void GlobalNamespace::SimpleColorSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleColorSO::SimpleColorSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

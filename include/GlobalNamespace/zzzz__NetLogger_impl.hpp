@@ -60,5 +60,3 @@ inline void GlobalNamespace::NetLogger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetLogger::NetLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -160,5 +160,3 @@ inline void UnityEngine::InputSystem::Composites::AxisComposite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::AxisComposite::AxisComposite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

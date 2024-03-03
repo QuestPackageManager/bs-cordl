@@ -81,5 +81,3 @@ constexpr ::UnityEngine::TextCore::Text::FontStyleStack::FontStyleStack(uint8_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontStyleStack::FontStyleStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

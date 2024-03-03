@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType::A
 constexpr ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType::AngularFalloffType() {}
 constexpr ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType UnityEngine::Experimental::GlobalIllumination::AngularFalloffType::LUT{ static_cast<uint8_t>(0x0u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType UnityEngine::Experimental::GlobalIllumination::AngularFalloffType::AnalyticAndInnerAngle{ static_cast<uint8_t>(0x1u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

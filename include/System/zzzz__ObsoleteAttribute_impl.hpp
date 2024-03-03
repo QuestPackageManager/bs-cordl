@@ -112,5 +112,3 @@ inline ::StringW System::ObsoleteAttribute::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::ObsoleteAttribute::ObsoleteAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

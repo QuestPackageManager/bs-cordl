@@ -357,5 +357,3 @@ template <typename TItem, typename TPriority> inline bool Priority_Queue::Generi
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>::GenericPriorityQueue_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

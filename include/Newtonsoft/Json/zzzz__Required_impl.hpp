@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::Required Newtonsoft::Json::Required::Default{ stat
 constexpr ::Newtonsoft::Json::Required Newtonsoft::Json::Required::AllowNull{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::Required Newtonsoft::Json::Required::Always{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::Required Newtonsoft::Json::Required::DisallowNull{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

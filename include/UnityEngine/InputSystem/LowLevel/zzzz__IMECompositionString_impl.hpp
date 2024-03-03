@@ -342,5 +342,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::__IMECompositionString__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

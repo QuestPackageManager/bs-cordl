@@ -74,5 +74,3 @@ inline ::System::Text::RegularExpressions::GroupCollection* System::Text::Regula
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::MatchSparse::MatchSparse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

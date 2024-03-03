@@ -21,5 +21,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Cms::CmsReadable::GetInputStream
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsReadable*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline void HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::HEU_InputInterfaceTilemapSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

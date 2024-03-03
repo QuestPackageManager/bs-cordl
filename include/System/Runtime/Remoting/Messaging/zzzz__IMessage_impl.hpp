@@ -22,5 +22,3 @@ inline ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMessage*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

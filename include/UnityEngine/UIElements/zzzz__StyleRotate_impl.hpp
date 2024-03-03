@@ -237,5 +237,3 @@ constexpr ::UnityEngine::UIElements::StyleRotate::StyleRotate(::UnityEngine::UIE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleRotate::StyleRotate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

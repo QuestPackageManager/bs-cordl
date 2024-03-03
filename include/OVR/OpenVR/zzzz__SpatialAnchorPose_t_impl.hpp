@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::SpatialAnchorPose_t::SpatialAnchorPose_t(::OVR::OpenVR:
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::SpatialAnchorPose_t::SpatialAnchorPose_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::VREvent_Chaperone_t::VREvent_Chaperone_t(uint64_t m_nPr
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Chaperone_t::VREvent_Chaperone_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

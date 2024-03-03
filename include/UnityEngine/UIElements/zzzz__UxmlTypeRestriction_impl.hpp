@@ -55,5 +55,3 @@ inline void UnityEngine::UIElements::UxmlTypeRestriction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlTypeRestriction::UxmlTypeRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

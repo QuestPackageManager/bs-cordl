@@ -57,5 +57,3 @@ constexpr ::System::ExceptionArgument System::ExceptionArgument::comparisonType{
 constexpr ::System::ExceptionArgument System::ExceptionArgument::s{ static_cast<int32_t>(0x30) };
 constexpr ::System::ExceptionArgument System::ExceptionArgument::input{ static_cast<int32_t>(0x31) };
 constexpr ::System::ExceptionArgument System::ExceptionArgument::format{ static_cast<int32_t>(0x32) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

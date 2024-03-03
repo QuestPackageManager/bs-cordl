@@ -94,5 +94,3 @@ inline void UnityEngine::UIElements::MouseCaptureDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseCaptureDispatchingStrategy::MouseCaptureDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

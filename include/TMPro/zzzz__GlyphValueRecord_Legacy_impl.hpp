@@ -55,5 +55,3 @@ constexpr ::TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy(float_t xPla
 }
 // Ctor Parameters []
 constexpr ::TMPro::GlyphValueRecord_Legacy::GlyphValueRecord_Legacy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

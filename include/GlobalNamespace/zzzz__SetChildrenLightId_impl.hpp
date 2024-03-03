@@ -24,5 +24,3 @@ inline void GlobalNamespace::SetChildrenLightId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetChildrenLightId::SetChildrenLightId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

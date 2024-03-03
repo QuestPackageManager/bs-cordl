@@ -668,5 +668,3 @@ inline void Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes(int
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::TwofishEngine::TwofishEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

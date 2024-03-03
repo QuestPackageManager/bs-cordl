@@ -18,5 +18,3 @@ constexpr ::System::Xml::Schema::XsdDateTimeFlags System::Xml::Schema::XsdDateTi
 constexpr ::System::Xml::Schema::XsdDateTimeFlags System::Xml::Schema::XsdDateTimeFlags::XdrDateTime{ static_cast<int32_t>(0x200) };
 constexpr ::System::Xml::Schema::XsdDateTimeFlags System::Xml::Schema::XsdDateTimeFlags::XdrTimeNoTz{ static_cast<int32_t>(0x400) };
 constexpr ::System::Xml::Schema::XsdDateTimeFlags System::Xml::Schema::XsdDateTimeFlags::AllXsd{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

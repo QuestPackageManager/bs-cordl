@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::TextOverflowPosition::TextOverflowPosition(
 constexpr ::UnityEngine::UIElements::TextOverflowPosition UnityEngine::UIElements::TextOverflowPosition::End{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::TextOverflowPosition UnityEngine::UIElements::TextOverflowPosition::Start{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::TextOverflowPosition UnityEngine::UIElements::TextOverflowPosition::Middle{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

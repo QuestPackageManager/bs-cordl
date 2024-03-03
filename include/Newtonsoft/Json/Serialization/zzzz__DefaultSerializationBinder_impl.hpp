@@ -193,5 +193,3 @@ inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor()
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultSerializationBinder::DefaultSerializationBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

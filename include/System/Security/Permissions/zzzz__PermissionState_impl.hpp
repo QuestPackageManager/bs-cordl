@@ -8,5 +8,3 @@ constexpr ::System::Security::Permissions::PermissionState::PermissionState(int3
 constexpr ::System::Security::Permissions::PermissionState::PermissionState() {}
 constexpr ::System::Security::Permissions::PermissionState System::Security::Permissions::PermissionState::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Permissions::PermissionState System::Security::Permissions::PermissionState::Unrestricted{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

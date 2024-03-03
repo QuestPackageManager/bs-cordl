@@ -272,5 +272,3 @@ constexpr ::Mono::Security::Interface::CipherSuiteCode Mono::Security::Interface
 constexpr ::Mono::Security::Interface::CipherSuiteCode Mono::Security::Interface::CipherSuiteCode::TLS_DHE_RSA_WITH_ESTREAM_SALSA20_SHA1{ static_cast<uint16_t>(0xe41eu) };
 constexpr ::Mono::Security::Interface::CipherSuiteCode Mono::Security::Interface::CipherSuiteCode::TLS_DHE_RSA_WITH_SALSA20_SHA1{ static_cast<uint16_t>(0xe41fu) };
 constexpr ::Mono::Security::Interface::CipherSuiteCode Mono::Security::Interface::CipherSuiteCode::TLS_FALLBACK_SCSV{ static_cast<uint16_t>(0x5600u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

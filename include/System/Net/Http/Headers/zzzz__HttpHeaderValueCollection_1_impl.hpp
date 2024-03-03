@@ -189,5 +189,3 @@ template <typename T> inline T System::Net::Http::Headers::HttpHeaderValueCollec
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::HttpHeaderValueCollection_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

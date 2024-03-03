@@ -164,5 +164,3 @@ inline void UnityEngine::HumanPoseHandler::GetHumanPose(ByRef<::UnityEngine::Hum
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanPoseHandler::HumanPoseHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

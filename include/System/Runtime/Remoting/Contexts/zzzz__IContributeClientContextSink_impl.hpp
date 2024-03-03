@@ -25,5 +25,3 @@ System::Runtime::Remoting::Contexts::IContributeClientContextSink::GetClientCont
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::IContributeClientContextSink*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageSink*, false>(this, ___internal_method, nextSink);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

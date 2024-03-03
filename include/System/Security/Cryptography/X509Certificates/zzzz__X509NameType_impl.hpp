@@ -12,5 +12,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509NameType Syste
 constexpr ::System::Security::Cryptography::X509Certificates::X509NameType System::Security::Cryptography::X509Certificates::X509NameType::DnsName{ static_cast<int32_t>(0x3) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509NameType System::Security::Cryptography::X509Certificates::X509NameType::DnsFromAlternativeName{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509NameType System::Security::Cryptography::X509Certificates::X509NameType::UrlName{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

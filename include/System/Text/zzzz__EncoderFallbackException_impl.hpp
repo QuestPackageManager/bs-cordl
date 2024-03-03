@@ -153,5 +153,3 @@ inline void System::Text::EncoderFallbackException::_ctor(::System::Runtime::Ser
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderFallbackException::EncoderFallbackException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

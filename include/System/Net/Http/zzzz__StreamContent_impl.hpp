@@ -202,5 +202,3 @@ inline bool System::Net::Http::StreamContent::TryComputeLength(ByRef<int64_t> le
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::StreamContent::StreamContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

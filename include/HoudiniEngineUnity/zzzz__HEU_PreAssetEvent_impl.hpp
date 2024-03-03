@@ -25,5 +25,3 @@ inline void HoudiniEngineUnity::HEU_PreAssetEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent::HEU_PreAssetEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

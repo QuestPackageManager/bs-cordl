@@ -25,5 +25,3 @@ inline ::Oculus::Platform::Request_1<::StringW>* Oculus::Platform::DeviceApplica
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::DeviceApplicationIntegrity::DeviceApplicationIntegrity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

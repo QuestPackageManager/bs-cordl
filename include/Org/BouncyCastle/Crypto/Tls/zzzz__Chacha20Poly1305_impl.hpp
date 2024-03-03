@@ -328,5 +328,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Chac
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::Chacha20Poly1305() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

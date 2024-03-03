@@ -98,5 +98,3 @@ inline void Org::BouncyCastle::Math::EC::AbstractECLookupTable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractECLookupTable::AbstractECLookupTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

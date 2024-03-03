@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Timeline::MatchTargetFields UnityEngine::Timeline::Matc
 constexpr ::UnityEngine::Timeline::MatchTargetFields UnityEngine::Timeline::MatchTargetFields::RotationX{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::Timeline::MatchTargetFields UnityEngine::Timeline::MatchTargetFields::RotationY{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::Timeline::MatchTargetFields UnityEngine::Timeline::MatchTargetFields::RotationZ{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

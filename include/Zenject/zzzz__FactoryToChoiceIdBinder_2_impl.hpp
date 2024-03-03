@@ -29,5 +29,3 @@ inline ::Zenject::FactoryArgumentsToChoiceBinder_2<TParam1, TContract>* Zenject:
 }
 // Ctor Parameters []
 template <typename TParam1, typename TContract> constexpr ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>::FactoryToChoiceIdBinder_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -356,5 +356,3 @@ inline ::System::Reflection::EventInfo* System::Reflection::EventInfo::GetEventF
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::EventInfo::EventInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -69,5 +69,3 @@ inline void System::Reflection::Missing::System_Runtime_Serialization_ISerializa
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Missing::Missing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

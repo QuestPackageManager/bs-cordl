@@ -60,5 +60,3 @@ inline void GlobalNamespace::MaterialPropertyBlockPositionUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockPositionUpdater::MaterialPropertyBlockPositionUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

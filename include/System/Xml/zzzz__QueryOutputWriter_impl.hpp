@@ -744,5 +744,3 @@ inline void System::Xml::QueryOutputWriter::EndCDataSection() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::QueryOutputWriter::QueryOutputWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

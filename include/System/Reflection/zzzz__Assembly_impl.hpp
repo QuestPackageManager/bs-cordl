@@ -730,5 +730,3 @@ inline void System::Reflection::Assembly::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Assembly::Assembly() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

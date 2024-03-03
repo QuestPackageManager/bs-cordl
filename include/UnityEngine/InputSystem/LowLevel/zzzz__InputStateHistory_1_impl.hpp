@@ -387,5 +387,3 @@ inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::set
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::InputStateHistory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

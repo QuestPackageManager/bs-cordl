@@ -24,5 +24,3 @@ inline void GlobalNamespace::MockServerSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockServerSettings::MockServerSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -107,5 +107,3 @@ inline void System::Net::WebRequestPrefixElement::_ctor(::StringW P, ::System::N
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebRequestPrefixElement::WebRequestPrefixElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

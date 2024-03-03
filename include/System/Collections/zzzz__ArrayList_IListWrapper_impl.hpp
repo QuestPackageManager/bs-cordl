@@ -592,5 +592,3 @@ inline ::System::Array* System::Collections::__ArrayList__IListWrapper::ToArray(
 }
 // Ctor Parameters []
 constexpr ::System::Collections::__ArrayList__IListWrapper::__ArrayList__IListWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

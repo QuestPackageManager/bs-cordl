@@ -1189,5 +1189,3 @@ inline void Org::BouncyCastle::Math::Raw::Nat256::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Nat256::Nat256() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

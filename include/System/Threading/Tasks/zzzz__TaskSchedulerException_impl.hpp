@@ -79,5 +79,3 @@ inline void System::Threading::Tasks::TaskSchedulerException::_ctor(::System::Ru
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskSchedulerException::TaskSchedulerException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

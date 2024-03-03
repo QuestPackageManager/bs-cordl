@@ -91,5 +91,3 @@ inline ::System::Resources::UltimateResourceFallbackLocation System::Resources::
 }
 // Ctor Parameters []
 constexpr ::System::Resources::NeutralResourcesLanguageAttribute::NeutralResourcesLanguageAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

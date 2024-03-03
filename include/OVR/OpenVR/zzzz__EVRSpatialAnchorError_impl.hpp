@@ -20,5 +20,3 @@ constexpr ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::EVRSpatialAnchorErro
 constexpr ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::EVRSpatialAnchorError::NoRoomCalibration{ static_cast<int32_t>(0xb) };
 constexpr ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::EVRSpatialAnchorError::InvalidArgument{ static_cast<int32_t>(0xc) };
 constexpr ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::EVRSpatialAnchorError::UnknownDriver{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

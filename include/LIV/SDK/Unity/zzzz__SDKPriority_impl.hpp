@@ -54,5 +54,3 @@ constexpr ::LIV::SDK::Unity::SDKPriority::SDKPriority(int8_t pose, int8_t clipPl
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKPriority::SDKPriority() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

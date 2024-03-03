@@ -133,5 +133,3 @@ inline int32_t Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Field::GF2Polynomial::GF2Polynomial() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

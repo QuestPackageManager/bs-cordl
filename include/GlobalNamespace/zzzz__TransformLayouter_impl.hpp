@@ -24,5 +24,3 @@ inline void GlobalNamespace::TransformLayouter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TransformLayouter::TransformLayouter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

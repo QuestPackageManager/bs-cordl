@@ -230,5 +230,3 @@ inline void GlobalNamespace::__MirroredGameNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MirroredGameNoteController__Pool::__MirroredGameNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

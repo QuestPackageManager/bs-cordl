@@ -81,5 +81,3 @@ inline ::StringW Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject::DateTimeObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -94,5 +94,3 @@ inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::ScriptableObject::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScriptableObject::ScriptableObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -301,5 +301,3 @@ inline int32_t Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSize(::Newtons
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryWriter::BsonBinaryWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

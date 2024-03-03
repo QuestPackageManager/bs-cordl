@@ -1583,5 +1583,3 @@ inline void GlobalNamespace::GameLiftConnectionManager::GetPublicServers(::Syste
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

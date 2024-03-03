@@ -2187,5 +2187,3 @@ inline int32_t UnityEngine::TextEditor::NextCodePointIndex(int32_t index) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextEditor::TextEditor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

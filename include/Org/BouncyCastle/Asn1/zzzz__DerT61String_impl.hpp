@@ -188,5 +188,3 @@ inline bool Org::BouncyCastle::Asn1::DerT61String::Asn1Equals(::Org::BouncyCastl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerT61String::DerT61String() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

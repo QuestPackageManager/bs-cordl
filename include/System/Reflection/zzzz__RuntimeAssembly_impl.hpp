@@ -628,5 +628,3 @@ inline ::StringW System::Reflection::RuntimeAssembly::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeAssembly::RuntimeAssembly() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

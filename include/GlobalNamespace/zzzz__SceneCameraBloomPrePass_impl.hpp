@@ -63,5 +63,3 @@ inline void GlobalNamespace::SceneCameraBloomPrePass::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SceneCameraBloomPrePass::SceneCameraBloomPrePass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

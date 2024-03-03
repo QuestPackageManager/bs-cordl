@@ -24,5 +24,3 @@ inline void HMUI::ItemForFocussedScrolling::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ItemForFocussedScrolling::ItemForFocussedScrolling() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void UnityEngine::Internal::ExcludeFromDocsAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Internal::ExcludeFromDocsAttribute::ExcludeFromDocsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

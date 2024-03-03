@@ -1070,5 +1070,3 @@ inline void UnityEngine::InputSystem::Utilities::InputActionTrace::CloneActionSt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::InputActionTrace::InputActionTrace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

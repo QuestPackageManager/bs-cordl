@@ -1309,5 +1309,3 @@ inline ::System::Reflection::ConstructorInfo* Zenject::Internal::ReflectionTypeA
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::ReflectionTypeAnalyzer::ReflectionTypeAnalyzer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ constexpr ::UnityEngine::TextCore::Text::TextFontWeight UnityEngine::TextCore::T
 constexpr ::UnityEngine::TextCore::Text::TextFontWeight UnityEngine::TextCore::Text::TextFontWeight::Bold{ static_cast<int32_t>(0x2bc) };
 constexpr ::UnityEngine::TextCore::Text::TextFontWeight UnityEngine::TextCore::Text::TextFontWeight::Heavy{ static_cast<int32_t>(0x320) };
 constexpr ::UnityEngine::TextCore::Text::TextFontWeight UnityEngine::TextCore::Text::TextFontWeight::Black{ static_cast<int32_t>(0x384) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

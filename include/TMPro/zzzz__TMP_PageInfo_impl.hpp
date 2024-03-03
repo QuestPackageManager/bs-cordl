@@ -12,5 +12,3 @@ constexpr ::TMPro::TMP_PageInfo::TMP_PageInfo(int32_t firstCharacterIndex, int32
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_PageInfo::TMP_PageInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -294,5 +294,3 @@ inline void GlobalNamespace::OVRFace::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRFace::OVRFace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -163,5 +163,3 @@ inline void System::Security::AccessControl::KnownAce::set_SecurityIdentifier(::
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::KnownAce::KnownAce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

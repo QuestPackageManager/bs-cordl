@@ -115,5 +115,3 @@ inline void GlobalNamespace::ArrayPositionTween::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ArrayPositionTween::ArrayPositionTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

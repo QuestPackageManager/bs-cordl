@@ -70,5 +70,3 @@ template <typename T> inline int32_t System::Collections::Generic::EnumEqualityC
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::EnumEqualityComparer_1<T>::EnumEqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

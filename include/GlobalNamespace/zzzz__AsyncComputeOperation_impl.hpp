@@ -107,5 +107,3 @@ inline void GlobalNamespace::AsyncComputeOperation::Execute(bool disposed) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AsyncComputeOperation::AsyncComputeOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

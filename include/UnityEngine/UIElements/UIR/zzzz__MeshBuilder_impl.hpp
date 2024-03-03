@@ -921,5 +921,3 @@ inline float_t UnityEngine::UIElements::UIR::MeshBuilder::IntersectSegments(floa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::MeshBuilder::MeshBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

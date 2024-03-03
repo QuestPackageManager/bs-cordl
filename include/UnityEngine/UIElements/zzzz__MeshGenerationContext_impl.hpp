@@ -50,5 +50,3 @@ inline void UnityEngine::UIElements::MeshGenerationContext::_ctor(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshGenerationContext::MeshGenerationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

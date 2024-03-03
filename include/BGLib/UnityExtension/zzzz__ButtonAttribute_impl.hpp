@@ -40,5 +40,3 @@ inline void BGLib::UnityExtension::ButtonAttribute::_ctor(::StringW title) {
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::ButtonAttribute::ButtonAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

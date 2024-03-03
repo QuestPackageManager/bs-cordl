@@ -527,5 +527,3 @@ inline int32_t UnityEngine::InputSystem::UI::ExtendedPointerEventData::GetTouchP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::ExtendedPointerEventData::ExtendedPointerEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

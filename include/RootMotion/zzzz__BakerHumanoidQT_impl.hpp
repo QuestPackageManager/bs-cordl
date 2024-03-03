@@ -454,5 +454,3 @@ inline void RootMotion::BakerHumanoidQT::SetCurves(ByRef<::UnityEngine::Animatio
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BakerHumanoidQT::BakerHumanoidQT() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

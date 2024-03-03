@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SrtpProtectionProfile::SrtpProtectionProfile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

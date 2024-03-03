@@ -256,5 +256,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Bcpg::DsaPublic
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::DsaPublicBcpgKey::DsaPublicBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

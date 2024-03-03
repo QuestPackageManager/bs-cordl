@@ -24,5 +24,3 @@ inline void GlobalNamespace::PrefabTemplate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PrefabTemplate::PrefabTemplate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

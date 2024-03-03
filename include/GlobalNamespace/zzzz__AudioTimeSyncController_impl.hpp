@@ -918,5 +918,3 @@ inline bool GlobalNamespace::AudioTimeSyncController::_get_waitUntilAudioIsLoade
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioTimeSyncController::AudioTimeSyncController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

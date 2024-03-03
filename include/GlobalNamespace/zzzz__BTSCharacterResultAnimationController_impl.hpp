@@ -117,5 +117,3 @@ inline void GlobalNamespace::BTSCharacterResultAnimationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacterResultAnimationController::BTSCharacterResultAnimationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

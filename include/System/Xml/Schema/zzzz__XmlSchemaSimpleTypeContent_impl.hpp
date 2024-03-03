@@ -25,5 +25,3 @@ inline void System::Xml::Schema::XmlSchemaSimpleTypeContent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeContent::XmlSchemaSimpleTypeContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

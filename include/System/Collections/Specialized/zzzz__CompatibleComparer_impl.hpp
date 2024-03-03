@@ -204,5 +204,3 @@ inline ::System::Collections::IHashCodeProvider* System::Collections::Specialize
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::CompatibleComparer::CompatibleComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

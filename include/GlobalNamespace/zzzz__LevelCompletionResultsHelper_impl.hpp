@@ -103,5 +103,3 @@ inline void GlobalNamespace::LevelCompletionResultsHelper::ProcessScore(ByRef<::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCompletionResultsHelper::LevelCompletionResultsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

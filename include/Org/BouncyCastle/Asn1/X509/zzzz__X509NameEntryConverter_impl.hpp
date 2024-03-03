@@ -92,5 +92,3 @@ inline void Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::X509NameEntryConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

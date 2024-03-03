@@ -35,5 +35,3 @@ inline ::System::Object* System::ComponentModel::AmbientValueAttribute::get_Valu
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::AmbientValueAttribute::AmbientValueAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

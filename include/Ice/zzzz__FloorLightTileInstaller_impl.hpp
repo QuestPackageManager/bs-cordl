@@ -56,5 +56,3 @@ inline void Ice::FloorLightTileInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::FloorLightTileInstaller::FloorLightTileInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

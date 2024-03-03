@@ -74,5 +74,3 @@ inline void UnityEngine::XR::XRDevice::InvokeDeviceLoaded(::StringW loadedDevice
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRDevice::XRDevice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

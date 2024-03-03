@@ -231,5 +231,3 @@ inline void UnityEngine::Experimental::GlobalIllumination::Lightmapping::Request
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::Lightmapping::Lightmapping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

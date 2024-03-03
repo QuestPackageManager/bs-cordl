@@ -142,5 +142,3 @@ inline void HoudiniEngineUnity::HEU_MeshData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_MeshData::HEU_MeshData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

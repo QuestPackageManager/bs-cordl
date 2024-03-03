@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::ToneMapping::ToneMapping(int32_t value__) noexcept 
 constexpr ::GlobalNamespace::ToneMapping::ToneMapping() {}
 constexpr ::GlobalNamespace::ToneMapping GlobalNamespace::ToneMapping::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ToneMapping GlobalNamespace::ToneMapping::Aces{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

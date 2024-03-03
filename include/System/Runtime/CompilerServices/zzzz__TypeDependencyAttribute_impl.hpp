@@ -39,5 +39,3 @@ inline void System::Runtime::CompilerServices::TypeDependencyAttribute::_ctor(::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::TypeDependencyAttribute::TypeDependencyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

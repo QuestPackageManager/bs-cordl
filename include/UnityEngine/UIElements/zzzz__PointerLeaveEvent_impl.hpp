@@ -61,5 +61,3 @@ inline void UnityEngine::UIElements::PointerLeaveEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerLeaveEvent::PointerLeaveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

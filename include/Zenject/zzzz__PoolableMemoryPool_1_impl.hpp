@@ -34,5 +34,3 @@ template <typename TValue> inline ::Zenject::InjectTypeInfo* Zenject::PoolableMe
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::PoolableMemoryPool_1<TValue>::PoolableMemoryPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

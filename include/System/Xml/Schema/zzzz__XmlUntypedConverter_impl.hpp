@@ -839,5 +839,3 @@ inline bool System::Xml::Schema::XmlUntypedConverter::SupportsType(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlUntypedConverter::XmlUntypedConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

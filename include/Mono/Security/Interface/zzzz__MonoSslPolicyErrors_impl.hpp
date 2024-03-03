@@ -10,5 +10,3 @@ constexpr ::Mono::Security::Interface::MonoSslPolicyErrors Mono::Security::Inter
 constexpr ::Mono::Security::Interface::MonoSslPolicyErrors Mono::Security::Interface::MonoSslPolicyErrors::RemoteCertificateNotAvailable{ static_cast<int32_t>(0x1) };
 constexpr ::Mono::Security::Interface::MonoSslPolicyErrors Mono::Security::Interface::MonoSslPolicyErrors::RemoteCertificateNameMismatch{ static_cast<int32_t>(0x2) };
 constexpr ::Mono::Security::Interface::MonoSslPolicyErrors Mono::Security::Interface::MonoSslPolicyErrors::RemoteCertificateChainErrors{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

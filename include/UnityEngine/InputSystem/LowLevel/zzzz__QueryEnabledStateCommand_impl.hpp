@@ -102,5 +102,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand::QueryE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand::QueryEnabledStateCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

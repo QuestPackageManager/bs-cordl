@@ -9,5 +9,3 @@ constexpr ::System::IO::SearchTarget::SearchTarget() {}
 constexpr ::System::IO::SearchTarget System::IO::SearchTarget::Files{ static_cast<int32_t>(0x1) };
 constexpr ::System::IO::SearchTarget System::IO::SearchTarget::Directories{ static_cast<int32_t>(0x2) };
 constexpr ::System::IO::SearchTarget System::IO::SearchTarget::Both{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

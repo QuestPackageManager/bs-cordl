@@ -548,5 +548,3 @@ inline void GlobalNamespace::CutScoreBuffer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CutScoreBuffer::CutScoreBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

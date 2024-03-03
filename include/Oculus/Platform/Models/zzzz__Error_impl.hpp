@@ -65,5 +65,3 @@ inline void Oculus::Platform::Models::Error::_ctor(int32_t code, ::StringW messa
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::Error::Error() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

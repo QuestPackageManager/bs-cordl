@@ -400,5 +400,3 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::HashSet::get
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::HashSet::HashSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

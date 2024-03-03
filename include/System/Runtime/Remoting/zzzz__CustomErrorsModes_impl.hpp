@@ -9,5 +9,3 @@ constexpr ::System::Runtime::Remoting::CustomErrorsModes::CustomErrorsModes() {}
 constexpr ::System::Runtime::Remoting::CustomErrorsModes System::Runtime::Remoting::CustomErrorsModes::On{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::Remoting::CustomErrorsModes System::Runtime::Remoting::CustomErrorsModes::Off{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Remoting::CustomErrorsModes System::Runtime::Remoting::CustomErrorsModes::RemoteOnly{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

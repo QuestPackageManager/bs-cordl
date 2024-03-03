@@ -59,5 +59,3 @@ inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::FloatF
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::FloatFxEventBoxGroupConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

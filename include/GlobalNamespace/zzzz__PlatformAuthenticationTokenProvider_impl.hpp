@@ -507,5 +507,3 @@ GlobalNamespace::PlatformAuthenticationTokenProvider::RequestXPlatformAccessToke
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider::PlatformAuthenticationTokenProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

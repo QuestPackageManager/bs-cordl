@@ -11,5 +11,3 @@ constexpr ::System::Threading::ThreadPriority System::Threading::ThreadPriority:
 constexpr ::System::Threading::ThreadPriority System::Threading::ThreadPriority::Normal{ static_cast<int32_t>(0x2) };
 constexpr ::System::Threading::ThreadPriority System::Threading::ThreadPriority::AboveNormal{ static_cast<int32_t>(0x3) };
 constexpr ::System::Threading::ThreadPriority System::Threading::ThreadPriority::Highest{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

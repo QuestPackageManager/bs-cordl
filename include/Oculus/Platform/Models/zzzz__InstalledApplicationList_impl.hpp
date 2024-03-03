@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::InstalledApplicationList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::InstalledApplicationList::InstalledApplicationList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

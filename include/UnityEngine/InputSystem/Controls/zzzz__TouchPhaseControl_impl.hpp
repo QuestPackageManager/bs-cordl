@@ -71,5 +71,3 @@ inline void UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueInt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::TouchPhaseControl::TouchPhaseControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

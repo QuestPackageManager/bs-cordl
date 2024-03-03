@@ -598,5 +598,3 @@ inline ::BeatSaber::AvatarCore::IAvatarSystem* BeatSaber::AvatarCore::AvatarSyst
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection::AvatarSystemCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

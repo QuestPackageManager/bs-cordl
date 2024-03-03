@@ -33,5 +33,3 @@ constexpr ::RootMotion::InterpolationMode RootMotion::InterpolationMode::OutBack
 constexpr ::RootMotion::InterpolationMode RootMotion::InterpolationMode::OutBackQuartic{ static_cast<int32_t>(0x18) };
 constexpr ::RootMotion::InterpolationMode RootMotion::InterpolationMode::BackInCubic{ static_cast<int32_t>(0x19) };
 constexpr ::RootMotion::InterpolationMode RootMotion::InterpolationMode::BackInQuartic{ static_cast<int32_t>(0x1a) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

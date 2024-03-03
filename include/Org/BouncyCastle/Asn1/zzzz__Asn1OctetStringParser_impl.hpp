@@ -31,5 +31,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Asn1::Asn1OctetStringParser::Get
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1OctetStringParser*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

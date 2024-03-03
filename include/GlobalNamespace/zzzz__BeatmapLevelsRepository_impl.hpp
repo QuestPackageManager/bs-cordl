@@ -167,5 +167,3 @@ inline ::GlobalNamespace::BeatmapLevel* GlobalNamespace::BeatmapLevelsRepository
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsRepository::BeatmapLevelsRepository() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ inline ::System::Object* Mono::Runtime::getStaticF_dump() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Runtime::Runtime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ constexpr ::UnityEngine::HumanPose::HumanPose(::UnityEngine::Vector3 bodyPositio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanPose::HumanPose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

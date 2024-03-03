@@ -131,5 +131,3 @@ inline void RootMotion::FinalIK::CCDIK::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::CCDIK::CCDIK() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

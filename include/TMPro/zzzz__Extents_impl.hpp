@@ -63,5 +63,3 @@ constexpr ::TMPro::Extents::Extents(::UnityEngine::Vector2 min, ::UnityEngine::V
 }
 // Ctor Parameters []
 constexpr ::TMPro::Extents::Extents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

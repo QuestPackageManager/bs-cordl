@@ -88,5 +88,3 @@ System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse(::StringW 
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

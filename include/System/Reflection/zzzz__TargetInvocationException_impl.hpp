@@ -83,5 +83,3 @@ inline void System::Reflection::TargetInvocationException::_ctor(::System::Runti
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::TargetInvocationException::TargetInvocationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

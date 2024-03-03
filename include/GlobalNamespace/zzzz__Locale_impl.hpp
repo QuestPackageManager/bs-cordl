@@ -47,5 +47,3 @@ inline ::StringW GlobalNamespace::Locale::GetText(::StringW fmt, ::ArrayW<::Syst
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Locale::Locale() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

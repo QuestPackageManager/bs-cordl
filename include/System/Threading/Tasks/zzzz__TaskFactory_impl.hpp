@@ -464,5 +464,3 @@ inline void System::Threading::Tasks::TaskFactory::CheckMultiTaskContinuationOpt
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskFactory::TaskFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

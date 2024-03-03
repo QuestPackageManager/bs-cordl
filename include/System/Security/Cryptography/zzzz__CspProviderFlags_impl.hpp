@@ -15,5 +15,3 @@ constexpr ::System::Security::Cryptography::CspProviderFlags System::Security::C
 constexpr ::System::Security::Cryptography::CspProviderFlags System::Security::Cryptography::CspProviderFlags::UseUserProtectedKey{ static_cast<int32_t>(0x20) };
 constexpr ::System::Security::Cryptography::CspProviderFlags System::Security::Cryptography::CspProviderFlags::NoPrompt{ static_cast<int32_t>(0x40) };
 constexpr ::System::Security::Cryptography::CspProviderFlags System::Security::Cryptography::CspProviderFlags::CreateEphemeralKey{ static_cast<int32_t>(0x80) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

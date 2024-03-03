@@ -130,5 +130,3 @@ inline void UnityEngine::UIElements::NavigationTabEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigationTabEvent::NavigationTabEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

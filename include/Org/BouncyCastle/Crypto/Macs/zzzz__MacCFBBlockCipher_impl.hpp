@@ -245,5 +245,3 @@ inline void Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::GetMacBlock(::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher::MacCFBBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

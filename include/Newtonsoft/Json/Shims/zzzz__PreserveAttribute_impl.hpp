@@ -24,5 +24,3 @@ inline void Newtonsoft::Json::Shims::PreserveAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Shims::PreserveAttribute::PreserveAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

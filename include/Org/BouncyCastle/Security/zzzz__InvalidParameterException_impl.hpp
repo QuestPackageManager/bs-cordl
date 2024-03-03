@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Security::InvalidParameterException::_ctor(::Stri
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::InvalidParameterException::InvalidParameterException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

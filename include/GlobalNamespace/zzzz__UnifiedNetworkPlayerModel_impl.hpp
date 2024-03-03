@@ -1709,5 +1709,3 @@ inline void GlobalNamespace::UnifiedNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, uint
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::Character::Character() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

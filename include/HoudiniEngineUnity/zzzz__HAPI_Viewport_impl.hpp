@@ -47,5 +47,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Viewport::HAPI_Viewport(::ArrayW<float_t, :
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_Viewport::HAPI_Viewport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

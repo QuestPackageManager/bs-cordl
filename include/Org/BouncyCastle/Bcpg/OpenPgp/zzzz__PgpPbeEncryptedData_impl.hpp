@@ -177,5 +177,3 @@ inline ::Org::BouncyCastle::Crypto::IBufferedCipher* Org::BouncyCastle::Bcpg::Op
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData::PgpPbeEncryptedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

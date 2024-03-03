@@ -86,5 +86,3 @@ inline void System::AsyncCallback::EndInvoke(::System::IAsyncResult* result) {
 }
 // Ctor Parameters []
 constexpr ::System::AsyncCallback::AsyncCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -17,5 +17,3 @@ constexpr ::UnityEngine::XR::InputFeatureType UnityEngine::XR::InputFeatureType:
 constexpr ::UnityEngine::XR::InputFeatureType UnityEngine::XR::InputFeatureType::Bone{ static_cast<uint32_t>(0xff0908u) };
 constexpr ::UnityEngine::XR::InputFeatureType UnityEngine::XR::InputFeatureType::Eyes{ static_cast<uint32_t>(0x100ff09u) };
 constexpr ::UnityEngine::XR::InputFeatureType UnityEngine::XR::InputFeatureType::kUnityXRInputFeatureTypeInvalid{ static_cast<uint32_t>(0x20100ffu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

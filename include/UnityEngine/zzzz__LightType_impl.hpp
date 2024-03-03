@@ -12,5 +12,3 @@ constexpr ::UnityEngine::LightType UnityEngine::LightType::Point{ static_cast<in
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Area{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Rectangle{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Disc{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

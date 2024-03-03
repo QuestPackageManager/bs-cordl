@@ -62,5 +62,3 @@ template <typename T0> inline void UnityEngine::Events::UnityEvent_1<T0>::Invoke
 }
 // Ctor Parameters []
 template <typename T0> constexpr ::UnityEngine::Events::UnityEvent_1<T0>::UnityEvent_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

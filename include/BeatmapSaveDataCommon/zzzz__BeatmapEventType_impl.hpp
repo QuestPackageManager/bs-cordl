@@ -34,5 +34,3 @@ constexpr ::BeatmapSaveDataCommon::BeatmapEventType BeatmapSaveDataCommon::Beatm
 constexpr ::BeatmapSaveDataCommon::BeatmapEventType BeatmapSaveDataCommon::BeatmapEventType::LegacyBpmEventType{ static_cast<int32_t>(0xa) };
 constexpr ::BeatmapSaveDataCommon::BeatmapEventType BeatmapSaveDataCommon::BeatmapEventType::EarlyRotationEventType{ static_cast<int32_t>(0xe) };
 constexpr ::BeatmapSaveDataCommon::BeatmapEventType BeatmapSaveDataCommon::BeatmapEventType::LateRotationEventType{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

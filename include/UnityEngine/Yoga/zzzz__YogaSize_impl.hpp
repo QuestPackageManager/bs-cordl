@@ -7,5 +7,3 @@ constexpr ::UnityEngine::Yoga::YogaSize::YogaSize(float_t width, float_t height)
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::YogaSize::YogaSize() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

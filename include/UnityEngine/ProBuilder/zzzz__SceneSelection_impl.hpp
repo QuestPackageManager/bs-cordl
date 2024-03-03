@@ -649,5 +649,3 @@ inline bool UnityEngine::ProBuilder::SceneSelection::op_Inequality(::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SceneSelection::SceneSelection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

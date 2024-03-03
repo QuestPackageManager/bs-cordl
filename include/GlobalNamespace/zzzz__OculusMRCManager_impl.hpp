@@ -1639,5 +1639,3 @@ inline void GlobalNamespace::OculusMRCManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusMRCManager::OculusMRCManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

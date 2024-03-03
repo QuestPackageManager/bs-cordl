@@ -79,5 +79,3 @@ inline void GlobalNamespace::EmptyAdvancedHapticsPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EmptyAdvancedHapticsPlayer::EmptyAdvancedHapticsPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

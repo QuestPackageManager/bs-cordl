@@ -233,5 +233,3 @@ inline void Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::BsiObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

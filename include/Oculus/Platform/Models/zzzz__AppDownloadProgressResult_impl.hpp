@@ -64,5 +64,3 @@ inline void Oculus::Platform::Models::AppDownloadProgressResult::_ctor(void* o) 
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AppDownloadProgressResult::AppDownloadProgressResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

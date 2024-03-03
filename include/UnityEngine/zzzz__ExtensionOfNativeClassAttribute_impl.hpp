@@ -24,5 +24,3 @@ inline void UnityEngine::ExtensionOfNativeClassAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExtensionOfNativeClassAttribute::ExtensionOfNativeClassAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

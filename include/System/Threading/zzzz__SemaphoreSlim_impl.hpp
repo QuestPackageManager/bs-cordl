@@ -744,5 +744,3 @@ inline ::StringW System::Threading::SemaphoreSlim::GetResourceString(::StringW s
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SemaphoreSlim::SemaphoreSlim() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -16,5 +16,3 @@ constexpr ::System::Diagnostics::TraceEventType System::Diagnostics::TraceEventT
 constexpr ::System::Diagnostics::TraceEventType System::Diagnostics::TraceEventType::Suspend{ static_cast<int32_t>(0x400) };
 constexpr ::System::Diagnostics::TraceEventType System::Diagnostics::TraceEventType::Resume{ static_cast<int32_t>(0x800) };
 constexpr ::System::Diagnostics::TraceEventType System::Diagnostics::TraceEventType::Transfer{ static_cast<int32_t>(0x1000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

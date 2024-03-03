@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::HelpBoxMessageType UnityEngine::UIElements:
 constexpr ::UnityEngine::UIElements::HelpBoxMessageType UnityEngine::UIElements::HelpBoxMessageType::Info{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::HelpBoxMessageType UnityEngine::UIElements::HelpBoxMessageType::Warning{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::HelpBoxMessageType UnityEngine::UIElements::HelpBoxMessageType::Error{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

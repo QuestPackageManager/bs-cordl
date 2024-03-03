@@ -11,5 +11,3 @@ constexpr ::UnityEngine::CameraClearFlags UnityEngine::CameraClearFlags::Color{ 
 constexpr ::UnityEngine::CameraClearFlags UnityEngine::CameraClearFlags::SolidColor{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::CameraClearFlags UnityEngine::CameraClearFlags::Depth{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::CameraClearFlags UnityEngine::CameraClearFlags::Nothing{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -365,5 +365,3 @@ inline ::StringW System::Xml::Schema::XmlSchemaException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaException::XmlSchemaException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

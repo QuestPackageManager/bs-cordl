@@ -140,5 +140,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Tls::Tl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::TlsSrpLoginParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

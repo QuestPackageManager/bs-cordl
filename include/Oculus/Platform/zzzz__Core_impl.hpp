@@ -193,5 +193,3 @@ inline void Oculus::Platform::Core::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Core::Core() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

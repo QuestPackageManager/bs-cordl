@@ -328,5 +328,3 @@ inline void Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::CbcBlockCipherMac::CbcBlockCipherMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

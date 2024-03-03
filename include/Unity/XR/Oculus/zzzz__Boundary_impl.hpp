@@ -92,5 +92,3 @@ inline void Unity::XR::Oculus::Boundary::SetBoundaryVisible(bool boundaryVisible
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Boundary::Boundary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

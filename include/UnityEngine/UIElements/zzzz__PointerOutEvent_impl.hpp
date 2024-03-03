@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::PointerOutEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerOutEvent::PointerOutEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

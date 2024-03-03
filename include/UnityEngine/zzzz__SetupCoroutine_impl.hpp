@@ -50,5 +50,3 @@ inline ::System::Object* UnityEngine::SetupCoroutine::InvokeMember(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SetupCoroutine::SetupCoroutine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

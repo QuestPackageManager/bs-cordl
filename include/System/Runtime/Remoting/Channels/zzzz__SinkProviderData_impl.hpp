@@ -105,5 +105,3 @@ inline ::System::Collections::IDictionary* System::Runtime::Remoting::Channels::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::SinkProviderData::SinkProviderData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

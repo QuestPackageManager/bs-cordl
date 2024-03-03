@@ -565,5 +565,3 @@ inline bool Org::BouncyCastle::Crypto::Modes::CcmBlockCipher::HasAssociatedText(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher::CcmBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -455,5 +455,3 @@ constexpr ::System::Xml::Schema::XsdDuration::XsdDuration(int32_t years, int32_t
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XsdDuration::XsdDuration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

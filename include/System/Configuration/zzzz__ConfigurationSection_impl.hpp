@@ -87,5 +87,3 @@ inline ::StringW System::Configuration::ConfigurationSection::SerializeSection(:
 }
 // Ctor Parameters []
 constexpr ::System::Configuration::ConfigurationSection::ConfigurationSection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -218,5 +218,3 @@ inline bool System::ComponentModel::BaseNumberConverter::CanConvertTo(::System::
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::BaseNumberConverter::BaseNumberConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

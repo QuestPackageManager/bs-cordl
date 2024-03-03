@@ -151,5 +151,3 @@ inline void GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::SonyOnGoingToBackgroundSaveHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

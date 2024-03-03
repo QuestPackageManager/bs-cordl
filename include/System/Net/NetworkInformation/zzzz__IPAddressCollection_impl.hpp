@@ -289,5 +289,3 @@ inline void System::Net::NetworkInformation::IPAddressCollection::Clear() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::IPAddressCollection::IPAddressCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

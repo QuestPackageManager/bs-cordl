@@ -198,5 +198,3 @@ inline bool System::Reflection::CustomAttributeExtensions::IsDefined(::System::R
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::CustomAttributeExtensions::CustomAttributeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void System::Net::Configuration::WebRequestModuleElementCollection::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::WebRequestModuleElementCollection::WebRequestModuleElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

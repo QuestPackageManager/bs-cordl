@@ -101,5 +101,3 @@ inline void BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor(int32_t hea
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::RandomizeAvatarColorMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

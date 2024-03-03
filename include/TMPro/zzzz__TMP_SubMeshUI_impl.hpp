@@ -1102,5 +1102,3 @@ inline void TMPro::TMP_SubMeshUI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SubMeshUI::TMP_SubMeshUI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

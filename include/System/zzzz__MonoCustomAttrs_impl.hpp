@@ -583,5 +583,3 @@ inline ::System::AttributeUsageAttribute* System::MonoCustomAttrs::RetrieveAttri
 }
 // Ctor Parameters []
 constexpr ::System::MonoCustomAttrs::MonoCustomAttrs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

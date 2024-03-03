@@ -151,5 +151,3 @@ inline void UnityEngine::InputSystem::Composites::ButtonWithOneModifier::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::ButtonWithOneModifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -258,5 +258,3 @@ inline int32_t HoudiniEngineUnity::JSONBool::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONBool::JSONBool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

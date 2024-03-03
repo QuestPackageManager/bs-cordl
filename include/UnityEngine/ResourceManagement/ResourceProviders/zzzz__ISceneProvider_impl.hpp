@@ -62,5 +62,3 @@ UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider::ReleaseScene
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, false>(
       this, ___internal_method, resourceManager, sceneLoadHandle);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

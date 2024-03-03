@@ -481,5 +481,3 @@ inline void GlobalNamespace::OVRVirtualKeyboardSampleControls::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboardSampleControls::OVRVirtualKeyboardSampleControls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

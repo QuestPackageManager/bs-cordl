@@ -165,5 +165,3 @@ inline void TMPro::TMP_StyleSheet::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_StyleSheet::TMP_StyleSheet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

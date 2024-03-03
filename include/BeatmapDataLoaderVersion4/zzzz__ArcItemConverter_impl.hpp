@@ -87,5 +87,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::ArcItemC
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ArcItemConverter::ArcItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

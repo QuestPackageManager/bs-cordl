@@ -702,5 +702,3 @@ constexpr ::UnityEngine::UIElements::Experimental::StyleValues::StyleValues(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Experimental::StyleValues::StyleValues() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

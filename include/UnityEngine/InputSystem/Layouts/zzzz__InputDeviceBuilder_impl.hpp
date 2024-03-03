@@ -706,5 +706,3 @@ constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder::InputDeviceBu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder::InputDeviceBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

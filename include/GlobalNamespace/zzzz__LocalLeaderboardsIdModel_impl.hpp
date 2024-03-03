@@ -46,5 +46,3 @@ inline void GlobalNamespace::LocalLeaderboardsIdModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalLeaderboardsIdModel::LocalLeaderboardsIdModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

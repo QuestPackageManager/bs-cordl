@@ -176,5 +176,3 @@ template <typename TValue> inline TValue System::Xml::Linq::XHashtable_1<TValue>
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::System::Xml::Linq::XHashtable_1<TValue>::XHashtable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

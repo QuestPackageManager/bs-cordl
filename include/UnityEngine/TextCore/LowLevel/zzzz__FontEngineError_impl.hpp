@@ -21,5 +21,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::FontEngineError UnityEngine::TextCo
 constexpr ::UnityEngine::TextCore::LowLevel::FontEngineError UnityEngine::TextCore::LowLevel::FontEngineError::Atlas_Generation_Cancelled{ static_cast<int32_t>(0x64) };
 constexpr ::UnityEngine::TextCore::LowLevel::FontEngineError UnityEngine::TextCore::LowLevel::FontEngineError::Invalid_SharedTextureData{ static_cast<int32_t>(0x65) };
 constexpr ::UnityEngine::TextCore::LowLevel::FontEngineError UnityEngine::TextCore::LowLevel::FontEngineError::OpenTypeLayoutLookup_Mismatch{ static_cast<int32_t>(0x74) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

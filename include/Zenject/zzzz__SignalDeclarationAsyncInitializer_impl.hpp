@@ -129,5 +129,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalDeclarationAsyncInitializer::__
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalDeclarationAsyncInitializer::SignalDeclarationAsyncInitializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

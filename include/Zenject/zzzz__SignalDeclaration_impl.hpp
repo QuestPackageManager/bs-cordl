@@ -437,5 +437,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::__SignalDeclaration__Factory::__zenCr
 }
 // Ctor Parameters []
 constexpr ::Zenject::__SignalDeclaration__Factory::__SignalDeclaration__Factory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

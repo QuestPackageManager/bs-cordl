@@ -278,5 +278,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::GetHas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::Gost3410Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

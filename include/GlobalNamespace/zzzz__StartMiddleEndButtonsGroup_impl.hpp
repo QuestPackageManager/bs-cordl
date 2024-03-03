@@ -71,5 +71,3 @@ inline void GlobalNamespace::StartMiddleEndButtonsGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StartMiddleEndButtonsGroup::StartMiddleEndButtonsGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -40,5 +40,3 @@ constexpr ::System::Net::Sockets::IOControlCode System::Net::Sockets::IOControlC
 constexpr ::System::Net::Sockets::IOControlCode System::Net::Sockets::IOControlCode::MulticastInterface{ static_cast<int64_t>(0x98000009) };
 constexpr ::System::Net::Sockets::IOControlCode System::Net::Sockets::IOControlCode::AddMulticastGroupOnInterface{ static_cast<int64_t>(0x9800000a) };
 constexpr ::System::Net::Sockets::IOControlCode System::Net::Sockets::IOControlCode::DeleteMulticastGroupFromInterface{ static_cast<int64_t>(0x9800000b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -406,5 +406,3 @@ inline int64_t Org::BouncyCastle::Crypto::Macs::SipHash::RotateLeft(int64_t x, i
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::SipHash::SipHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

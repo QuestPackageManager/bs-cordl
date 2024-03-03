@@ -27,5 +27,3 @@ inline void System::Security::Cryptography::RSAPKCS1SignatureFormatter::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFormatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

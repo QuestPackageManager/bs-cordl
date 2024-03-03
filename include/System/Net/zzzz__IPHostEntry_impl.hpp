@@ -172,5 +172,3 @@ inline void System::Net::IPHostEntry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::IPHostEntry::IPHostEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

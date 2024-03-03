@@ -134,5 +134,3 @@ inline void Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::_ctor()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::Poly1305KeyGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

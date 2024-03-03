@@ -127,5 +127,3 @@ inline void GlobalNamespace::StaticPreviewMediaData::UnloadPreviewAudioClip() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticPreviewMediaData::StaticPreviewMediaData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

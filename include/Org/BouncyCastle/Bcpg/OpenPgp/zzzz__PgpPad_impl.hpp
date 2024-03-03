@@ -89,5 +89,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::OpenPgp::Pg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPad::PgpPad() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

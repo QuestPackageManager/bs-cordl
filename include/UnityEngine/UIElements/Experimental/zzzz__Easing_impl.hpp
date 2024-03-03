@@ -503,5 +503,3 @@ inline float_t UnityEngine::UIElements::Experimental::Easing::InOutCirc(float_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Experimental::Easing::Easing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

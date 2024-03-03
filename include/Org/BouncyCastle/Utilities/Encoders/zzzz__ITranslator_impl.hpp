@@ -90,5 +90,3 @@ inline int32_t Org::BouncyCastle::Utilities::Encoders::ITranslator::Decode(::Arr
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::ITranslator*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, input, inOff, length, outBytes, outOff);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -383,5 +383,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RC564Engine::WordToBytes(int64_t
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RC564Engine::RC564Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

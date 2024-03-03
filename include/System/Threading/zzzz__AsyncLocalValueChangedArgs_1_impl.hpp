@@ -23,5 +23,3 @@ constexpr ::System::Threading::AsyncLocalValueChangedArgs_1<T>::AsyncLocalValueC
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::AsyncLocalValueChangedArgs_1<T>::AsyncLocalValueChangedArgs_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

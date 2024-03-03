@@ -209,5 +209,3 @@ inline void Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::Encode(::Org:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::SymmetricKeyEncSessionPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

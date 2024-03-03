@@ -58,5 +58,3 @@ inline ::UnityEngine::Color32 UnityEngine::UIElements::StyleSheets::StyleSheetCo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleSheetColor::StyleSheetColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

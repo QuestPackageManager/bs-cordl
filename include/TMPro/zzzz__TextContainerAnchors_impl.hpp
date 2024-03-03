@@ -16,5 +16,3 @@ constexpr ::TMPro::TextContainerAnchors TMPro::TextContainerAnchors::BottomLeft{
 constexpr ::TMPro::TextContainerAnchors TMPro::TextContainerAnchors::Bottom{ static_cast<int32_t>(0x7) };
 constexpr ::TMPro::TextContainerAnchors TMPro::TextContainerAnchors::BottomRight{ static_cast<int32_t>(0x8) };
 constexpr ::TMPro::TextContainerAnchors TMPro::TextContainerAnchors::Custom{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

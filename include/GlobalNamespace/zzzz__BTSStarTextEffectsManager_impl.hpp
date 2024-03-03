@@ -345,5 +345,3 @@ inline void GlobalNamespace::BTSStarTextEffectsManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSStarTextEffectsManager::BTSStarTextEffectsManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

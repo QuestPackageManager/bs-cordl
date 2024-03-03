@@ -24,5 +24,3 @@ inline void UnityEngine::Timeline::ControlTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ControlTrack::ControlTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

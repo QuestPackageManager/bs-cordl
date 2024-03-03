@@ -257,5 +257,3 @@ inline ::System::IDisposable* UnityEngine::InputSystem::Utilities::ForDeviceEven
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::ForDeviceEventObservable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

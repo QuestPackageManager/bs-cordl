@@ -51,5 +51,3 @@ inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::HaveEq
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::ReadOnlyArrayExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

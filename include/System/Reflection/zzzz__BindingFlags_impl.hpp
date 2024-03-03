@@ -27,5 +27,3 @@ constexpr ::System::Reflection::BindingFlags System::Reflection::BindingFlags::S
 constexpr ::System::Reflection::BindingFlags System::Reflection::BindingFlags::OptionalParamBinding{ static_cast<int32_t>(0x40000) };
 constexpr ::System::Reflection::BindingFlags System::Reflection::BindingFlags::IgnoreReturn{ static_cast<int32_t>(0x1000000) };
 constexpr ::System::Reflection::BindingFlags System::Reflection::BindingFlags::DoNotWrapExceptions{ static_cast<int32_t>(0x2000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

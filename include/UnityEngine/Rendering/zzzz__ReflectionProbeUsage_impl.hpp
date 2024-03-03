@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeUsage UnityEngine::Rendering:
 constexpr ::UnityEngine::Rendering::ReflectionProbeUsage UnityEngine::Rendering::ReflectionProbeUsage::BlendProbes{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeUsage UnityEngine::Rendering::ReflectionProbeUsage::BlendProbesAndSkybox{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeUsage UnityEngine::Rendering::ReflectionProbeUsage::Simple{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

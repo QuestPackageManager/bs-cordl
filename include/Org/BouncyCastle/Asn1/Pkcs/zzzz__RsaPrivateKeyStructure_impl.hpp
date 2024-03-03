@@ -394,5 +394,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Rsa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::RsaPrivateKeyStructure() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

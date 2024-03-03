@@ -95,5 +95,3 @@ inline ::UnityEngine::GUILayoutOption* UnityEngine::GUILayout::Height(float_t he
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUILayout::GUILayout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

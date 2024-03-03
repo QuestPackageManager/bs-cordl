@@ -1573,5 +1573,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue::PrimitiveValue(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue::PrimitiveValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

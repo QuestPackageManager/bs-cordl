@@ -189,5 +189,3 @@ inline ::System::Runtime::InteropServices::MarshalAsAttribute* System::Runtime::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::MarshalAsAttribute::MarshalAsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -54,5 +54,3 @@ constexpr ::System::Threading::LockHolder::LockHolder(::System::Threading::Lock*
 }
 // Ctor Parameters []
 constexpr ::System::Threading::LockHolder::LockHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

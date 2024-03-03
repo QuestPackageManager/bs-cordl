@@ -25,5 +25,3 @@ inline void System::Xml::Schema::Datatype_dateTimeTimeZone::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_dateTimeTimeZone::Datatype_dateTimeTimeZone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

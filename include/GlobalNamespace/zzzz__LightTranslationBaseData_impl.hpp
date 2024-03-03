@@ -82,5 +82,3 @@ inline void GlobalNamespace::LightTranslationBaseData::_ctor(float_t beat, bool 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationBaseData::LightTranslationBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

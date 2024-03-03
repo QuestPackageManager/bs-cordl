@@ -338,5 +338,3 @@ inline void System::AppDomainSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::AppDomainSetup::AppDomainSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

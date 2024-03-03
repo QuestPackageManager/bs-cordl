@@ -11,5 +11,3 @@ constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Highlighted{ static_c
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Pressed{ static_cast<int32_t>(0x2) };
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Selected{ static_cast<int32_t>(0x3) };
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Disabled{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

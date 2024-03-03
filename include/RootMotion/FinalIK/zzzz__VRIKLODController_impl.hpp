@@ -128,5 +128,3 @@ inline void RootMotion::FinalIK::VRIKLODController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::VRIKLODController::VRIKLODController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

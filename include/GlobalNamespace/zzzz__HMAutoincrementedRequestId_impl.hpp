@@ -134,5 +134,3 @@ inline int32_t GlobalNamespace::HMAutoincrementedRequestId::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HMAutoincrementedRequestId::HMAutoincrementedRequestId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

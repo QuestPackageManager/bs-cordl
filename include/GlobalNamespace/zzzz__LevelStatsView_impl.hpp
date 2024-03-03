@@ -104,5 +104,3 @@ inline void GlobalNamespace::LevelStatsView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelStatsView::LevelStatsView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

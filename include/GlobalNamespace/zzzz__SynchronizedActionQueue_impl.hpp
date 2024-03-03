@@ -129,5 +129,3 @@ inline void GlobalNamespace::SynchronizedActionQueue::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SynchronizedActionQueue::SynchronizedActionQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

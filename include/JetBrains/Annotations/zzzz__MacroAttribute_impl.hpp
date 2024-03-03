@@ -178,5 +178,3 @@ inline void JetBrains::Annotations::MacroAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::MacroAttribute::MacroAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ inline ::UnityEngine::XR::XRInputSubsystem* GlobalNamespace::XRSubsystemHelper::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::XRSubsystemHelper::XRSubsystemHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

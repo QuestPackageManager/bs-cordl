@@ -46,5 +46,3 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Collections::Concu
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

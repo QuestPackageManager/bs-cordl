@@ -320,5 +320,3 @@ inline void System::Xml::XmlDownloadManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlDownloadManager::XmlDownloadManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

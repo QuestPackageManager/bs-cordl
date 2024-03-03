@@ -307,5 +307,3 @@ inline void Org::BouncyCastle::Tsp::TimeStampRequestGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::TimeStampRequestGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

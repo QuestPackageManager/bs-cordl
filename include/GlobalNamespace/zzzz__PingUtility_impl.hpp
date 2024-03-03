@@ -166,5 +166,3 @@ inline ::System::Threading::Tasks::Task_1<int64_t>* GlobalNamespace::PingUtility
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PingUtility::PingUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

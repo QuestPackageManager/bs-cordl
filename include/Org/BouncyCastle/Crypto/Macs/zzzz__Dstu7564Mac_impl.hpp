@@ -281,5 +281,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Macs::Dst
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac::Dstu7564Mac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

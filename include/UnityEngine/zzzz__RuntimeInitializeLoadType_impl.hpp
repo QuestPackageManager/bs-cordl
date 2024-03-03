@@ -11,5 +11,3 @@ constexpr ::UnityEngine::RuntimeInitializeLoadType UnityEngine::RuntimeInitializ
 constexpr ::UnityEngine::RuntimeInitializeLoadType UnityEngine::RuntimeInitializeLoadType::AfterAssembliesLoaded{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::RuntimeInitializeLoadType UnityEngine::RuntimeInitializeLoadType::BeforeSplashScreen{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::RuntimeInitializeLoadType UnityEngine::RuntimeInitializeLoadType::SubsystemRegistration{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

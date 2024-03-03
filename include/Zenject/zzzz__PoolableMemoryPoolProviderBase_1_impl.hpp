@@ -110,5 +110,3 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::Poolabl
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::PoolableMemoryPoolProviderBase_1<TContract>::PoolableMemoryPoolProviderBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

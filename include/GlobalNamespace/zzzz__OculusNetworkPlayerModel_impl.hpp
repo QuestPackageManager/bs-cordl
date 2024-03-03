@@ -24,5 +24,3 @@ inline void GlobalNamespace::OculusNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

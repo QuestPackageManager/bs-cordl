@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject(::System::Collections
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Gradient_Extensions::Test_Gradient_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

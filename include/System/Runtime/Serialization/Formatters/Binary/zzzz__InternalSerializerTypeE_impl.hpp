@@ -9,5 +9,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializ
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE::Soap{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE::Binary{ static_cast<int32_t>(
     0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

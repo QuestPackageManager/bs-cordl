@@ -23,5 +23,3 @@ inline int32_t UnityEngine::ComputeShader::FindKernel(::StringW name) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ComputeShader::ComputeShader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

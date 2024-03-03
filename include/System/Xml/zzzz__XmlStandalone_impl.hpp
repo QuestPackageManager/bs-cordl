@@ -9,5 +9,3 @@ constexpr ::System::Xml::XmlStandalone::XmlStandalone() {}
 constexpr ::System::Xml::XmlStandalone System::Xml::XmlStandalone::Omit{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::XmlStandalone System::Xml::XmlStandalone::Yes{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlStandalone System::Xml::XmlStandalone::No{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

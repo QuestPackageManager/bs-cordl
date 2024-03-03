@@ -28,5 +28,3 @@ inline void System::Runtime::CompilerServices::IteratorStateMachineAttribute::_c
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::IteratorStateMachineAttribute::IteratorStateMachineAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -118,5 +118,3 @@ inline ::System::Xml::IDtdEntityInfo* System::Xml::IDtdInfo::LookupEntity(::Stri
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IDtdInfo*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdEntityInfo*, false>(this, ___internal_method, name);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

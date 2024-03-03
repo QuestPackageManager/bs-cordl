@@ -134,5 +134,3 @@ constexpr ::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::BufferedRumbl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::BufferedRumble() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

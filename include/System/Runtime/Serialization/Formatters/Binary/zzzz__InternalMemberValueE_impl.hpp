@@ -11,5 +11,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalMemberVa
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE::Nested{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE::Reference{ static_cast<int32_t>(0x3) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE::Null{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ inline ::Mono::Security::ASN1* Mono::Security::X509::SafeBag::get_ASN1() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::SafeBag::SafeBag() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

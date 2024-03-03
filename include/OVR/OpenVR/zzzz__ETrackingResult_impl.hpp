@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::ETrackingResult OVR::OpenVR::ETrackingResult::Calibrati
 constexpr ::OVR::OpenVR::ETrackingResult OVR::OpenVR::ETrackingResult::Calibrating_OutOfRange{ static_cast<int32_t>(0x65) };
 constexpr ::OVR::OpenVR::ETrackingResult OVR::OpenVR::ETrackingResult::Running_OK{ static_cast<int32_t>(0xc8) };
 constexpr ::OVR::OpenVR::ETrackingResult OVR::OpenVR::ETrackingResult::Running_OutOfRange{ static_cast<int32_t>(0xc9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

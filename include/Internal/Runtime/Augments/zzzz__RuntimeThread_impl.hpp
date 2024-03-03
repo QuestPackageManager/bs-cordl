@@ -191,5 +191,3 @@ inline int32_t Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::RuntimeThread::RuntimeThread() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

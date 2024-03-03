@@ -704,5 +704,3 @@ inline ::System::Reflection::AssemblyName* System::Reflection::AssemblyName::Cre
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyName::AssemblyName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

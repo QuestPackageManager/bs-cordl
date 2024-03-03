@@ -185,5 +185,3 @@ constexpr ::UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderCon
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -6473,5 +6473,3 @@ inline void GlobalNamespace::OVRManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRManager::OVRManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

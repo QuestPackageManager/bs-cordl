@@ -379,5 +379,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::Filter
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::InternalMeshUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

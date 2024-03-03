@@ -372,5 +372,3 @@ inline ::System::Type* Zenject::TransientProvider::GetTypeToCreate(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::Zenject::TransientProvider::TransientProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

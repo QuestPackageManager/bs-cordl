@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::SystemVoipState* Oculus::Platform::MessageWit
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithSystemVoipState::MessageWithSystemVoipState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

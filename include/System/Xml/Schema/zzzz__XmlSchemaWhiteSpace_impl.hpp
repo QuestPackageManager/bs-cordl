@@ -9,5 +9,3 @@ constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace::XmlSchemaWhiteSpace() {}
 constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace System::Xml::Schema::XmlSchemaWhiteSpace::Preserve{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace System::Xml::Schema::XmlSchemaWhiteSpace::Replace{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Schema::XmlSchemaWhiteSpace System::Xml::Schema::XmlSchemaWhiteSpace::Collapse{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ constexpr ::System::Resources::ResourceTypeCode System::Resources::ResourceTypeC
 constexpr ::System::Resources::ResourceTypeCode System::Resources::ResourceTypeCode::ByteArray{ static_cast<int32_t>(0x20) };
 constexpr ::System::Resources::ResourceTypeCode System::Resources::ResourceTypeCode::Stream{ static_cast<int32_t>(0x21) };
 constexpr ::System::Resources::ResourceTypeCode System::Resources::ResourceTypeCode::StartOfUserTypes{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

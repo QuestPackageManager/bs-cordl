@@ -7,5 +7,3 @@ constexpr ::System::Runtime::CompilerServices::CompilationRelaxations::Compilati
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CompilationRelaxations::CompilationRelaxations() {}
 constexpr ::System::Runtime::CompilerServices::CompilationRelaxations System::Runtime::CompilerServices::CompilationRelaxations::NoStringInterning{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

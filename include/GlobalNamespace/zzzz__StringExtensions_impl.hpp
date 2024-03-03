@@ -49,5 +49,3 @@ inline bool GlobalNamespace::StringExtensions::Contains(::StringW source, ::Stri
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StringExtensions::StringExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -146,5 +146,3 @@ inline int32_t Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::DoFinal(::Array
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::CtsBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

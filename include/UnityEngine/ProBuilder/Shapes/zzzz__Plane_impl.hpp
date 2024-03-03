@@ -93,5 +93,3 @@ inline void UnityEngine::ProBuilder::Shapes::Plane::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Plane::Plane() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

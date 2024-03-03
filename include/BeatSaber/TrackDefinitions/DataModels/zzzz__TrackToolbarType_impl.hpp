@@ -13,5 +13,3 @@ constexpr ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType BeatSaber:
 constexpr ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType BeatSaber::TrackDefinitions::DataModels::TrackToolbarType::IntValue{ static_cast<int32_t>(0x4) };
 constexpr ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType BeatSaber::TrackDefinitions::DataModels::TrackToolbarType::BtsCharacterSelection{ static_cast<int32_t>(0x5) };
 constexpr ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType BeatSaber::TrackDefinitions::DataModels::TrackToolbarType::CarSelection{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

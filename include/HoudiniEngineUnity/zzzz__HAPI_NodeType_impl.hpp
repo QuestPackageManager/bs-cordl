@@ -17,5 +17,3 @@ constexpr ::HoudiniEngineUnity::HAPI_NodeType HoudiniEngineUnity::HAPI_NodeType:
 constexpr ::HoudiniEngineUnity::HAPI_NodeType HoudiniEngineUnity::HAPI_NodeType::HAPI_NODETYPE_VOP{ static_cast<int32_t>(0x40) };
 constexpr ::HoudiniEngineUnity::HAPI_NodeType HoudiniEngineUnity::HAPI_NodeType::HAPI_NODETYPE_DOP{ static_cast<int32_t>(0x80) };
 constexpr ::HoudiniEngineUnity::HAPI_NodeType HoudiniEngineUnity::HAPI_NodeType::HAPI_NODETYPE_TOP{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

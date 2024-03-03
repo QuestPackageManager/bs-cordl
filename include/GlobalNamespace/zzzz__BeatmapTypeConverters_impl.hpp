@@ -389,5 +389,3 @@ GlobalNamespace::BeatmapTypeConverters::ConvertSpawnRotationEventType(::BeatmapS
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapTypeConverters::BeatmapTypeConverters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

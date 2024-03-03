@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Asn1::Smime::SmimeAttributes::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Smime::SmimeAttributes::SmimeAttributes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -146,5 +146,3 @@ inline ::System::Object* Org::BouncyCastle::Crypto::Operators::GenericKey::get_R
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::GenericKey::GenericKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

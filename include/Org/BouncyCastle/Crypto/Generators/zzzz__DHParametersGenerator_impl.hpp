@@ -109,5 +109,3 @@ inline void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::DHParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

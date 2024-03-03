@@ -112,5 +112,3 @@ inline void Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Math::Prime::Generator::PrimeGeneratorBase::PrimeGeneratorBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -84,5 +84,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::RequestResetCommand::RequestRese
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::RequestResetCommand::RequestResetCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

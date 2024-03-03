@@ -72,5 +72,3 @@ inline void GlobalNamespace::AutoSetupData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AutoSetupData::AutoSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

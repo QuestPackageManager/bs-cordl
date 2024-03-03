@@ -24,5 +24,3 @@ inline void GlobalNamespace::MainSettingsDefaultValues::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSettingsDefaultValues::MainSettingsDefaultValues() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline bool Mono::Net::Security::SystemCertificateValidator::NeedsChain(::Mono::
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::SystemCertificateValidator::SystemCertificateValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

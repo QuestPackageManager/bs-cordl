@@ -891,5 +891,3 @@ inline void Newtonsoft::Json::Serialization::TraceJsonWriter::Flush() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::TraceJsonWriter::TraceJsonWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

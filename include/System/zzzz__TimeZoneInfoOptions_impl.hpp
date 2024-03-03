@@ -8,5 +8,3 @@ constexpr ::System::TimeZoneInfoOptions::TimeZoneInfoOptions(int32_t value__) no
 constexpr ::System::TimeZoneInfoOptions::TimeZoneInfoOptions() {}
 constexpr ::System::TimeZoneInfoOptions System::TimeZoneInfoOptions::None{ static_cast<int32_t>(0x1) };
 constexpr ::System::TimeZoneInfoOptions System::TimeZoneInfoOptions::NoThrowOnInvalidTime{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

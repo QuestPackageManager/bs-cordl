@@ -152,5 +152,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::X509::X509Attri
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509Attribute::X509Attribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

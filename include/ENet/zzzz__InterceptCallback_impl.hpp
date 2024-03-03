@@ -92,5 +92,3 @@ inline int32_t ENet::InterceptCallback::EndInvoke(ByRef<::ENet::Event> event, By
 }
 // Ctor Parameters []
 constexpr ::ENet::InterceptCallback::InterceptCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

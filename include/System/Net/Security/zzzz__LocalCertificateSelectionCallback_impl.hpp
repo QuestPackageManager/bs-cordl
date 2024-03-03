@@ -57,5 +57,3 @@ inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Syst
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::LocalCertificateSelectionCallback::LocalCertificateSelectionCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

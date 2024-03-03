@@ -52,5 +52,3 @@ template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>::HyperRect_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

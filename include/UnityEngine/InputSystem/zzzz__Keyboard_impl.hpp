@@ -2993,5 +2993,3 @@ inline void UnityEngine::InputSystem::Keyboard::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Keyboard::Keyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

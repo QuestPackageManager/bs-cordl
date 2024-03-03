@@ -109,5 +109,3 @@ inline ::System::Xml::Linq::XNode* System::Xml::Linq::XCData::CloneNode() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XCData::XCData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -21,5 +21,3 @@ inline bool HMUI::EventSystemHelpers::IsInputFieldSelected() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::EventSystemHelpers::EventSystemHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

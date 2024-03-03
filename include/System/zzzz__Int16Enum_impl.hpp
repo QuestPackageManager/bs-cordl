@@ -6,5 +6,3 @@ constexpr ::System::Int16Enum::Int16Enum(int16_t value__) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Int16Enum::Int16Enum() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::DTSweepPointComparator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

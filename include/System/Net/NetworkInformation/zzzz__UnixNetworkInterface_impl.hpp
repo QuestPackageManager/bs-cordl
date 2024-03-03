@@ -185,5 +185,3 @@ inline ::System::Net::NetworkInformation::NetworkInterfaceType System::Net::Netw
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixNetworkInterface::UnixNetworkInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

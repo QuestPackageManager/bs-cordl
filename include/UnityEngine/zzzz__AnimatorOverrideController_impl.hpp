@@ -210,5 +210,3 @@ inline void UnityEngine::AnimatorOverrideController::OnInvalidateOverrideControl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorOverrideController::AnimatorOverrideController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

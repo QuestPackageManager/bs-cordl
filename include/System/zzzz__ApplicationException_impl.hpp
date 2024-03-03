@@ -101,5 +101,3 @@ inline void System::ApplicationException::_ctor(::System::Runtime::Serialization
 }
 // Ctor Parameters []
 constexpr ::System::ApplicationException::ApplicationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

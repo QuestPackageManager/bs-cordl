@@ -409,5 +409,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRendere
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer::BloomPrePassBackgroundNonLightInstancedGroupRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

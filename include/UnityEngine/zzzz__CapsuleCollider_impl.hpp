@@ -300,5 +300,3 @@ inline void UnityEngine::CapsuleCollider::CalculateTransform_Injected(ByRef<::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CapsuleCollider::CapsuleCollider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

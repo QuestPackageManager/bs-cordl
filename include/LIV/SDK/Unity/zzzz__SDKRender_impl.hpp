@@ -1291,5 +1291,3 @@ inline void LIV::SDK::Unity::SDKRender::SendTextureToBridge(::UnityEngine::Rende
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKRender::SDKRender() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

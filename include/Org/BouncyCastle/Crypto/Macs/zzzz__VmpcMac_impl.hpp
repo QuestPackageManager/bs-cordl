@@ -326,5 +326,3 @@ inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::VmpcMac::VmpcMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

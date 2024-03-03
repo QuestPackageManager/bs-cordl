@@ -207,5 +207,3 @@ inline bool System::IO::PathInternal::IsPartiallyQualified(::StringW path) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::PathInternal::PathInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

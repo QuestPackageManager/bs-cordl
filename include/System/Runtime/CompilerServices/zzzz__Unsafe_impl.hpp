@@ -169,5 +169,3 @@ template <typename T> inline ByRef<T> System::Runtime::CompilerServices::Unsafe:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::Unsafe::Unsafe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -199,5 +199,3 @@ constexpr ::UnityEngine::TextCore::GlyphMetrics::GlyphMetrics(float_t m_Width, f
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::GlyphMetrics::GlyphMetrics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

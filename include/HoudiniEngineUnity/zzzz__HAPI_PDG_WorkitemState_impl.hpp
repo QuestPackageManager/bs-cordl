@@ -16,5 +16,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemState HoudiniEngineUnity::HAPI_
 constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemState HoudiniEngineUnity::HAPI_PDG_WorkitemState::HAPI_PDG_WORKITEM_COOKED_FAIL{ static_cast<int32_t>(0x7) };
 constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemState HoudiniEngineUnity::HAPI_PDG_WorkitemState::HAPI_PDG_WORKITEM_COOKED_CANCEL{ static_cast<int32_t>(0x8) };
 constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemState HoudiniEngineUnity::HAPI_PDG_WorkitemState::HAPI_PDG_WORKITEM_DIRTY{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

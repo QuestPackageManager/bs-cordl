@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::HmdQuaternion_t::HmdQuaternion_t(double_t w, double_t x
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdQuaternion_t::HmdQuaternion_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

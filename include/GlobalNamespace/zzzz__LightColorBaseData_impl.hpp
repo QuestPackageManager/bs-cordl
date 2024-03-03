@@ -138,5 +138,3 @@ inline void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, bool usePre
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBaseData::LightColorBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -239,5 +239,3 @@ inline void UnityEngine::UIElements::TextEditorEngine::OnSelectIndexChange() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextEditorEngine::TextEditorEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

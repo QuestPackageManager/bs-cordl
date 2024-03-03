@@ -2787,5 +2787,3 @@ inline void Org::BouncyCastle::Math::Raw::Nat::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Nat::Nat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

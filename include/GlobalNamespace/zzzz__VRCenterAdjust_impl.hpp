@@ -220,5 +220,3 @@ inline void GlobalNamespace::VRCenterAdjust::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRCenterAdjust::VRCenterAdjust() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -305,5 +305,3 @@ inline void UnityEngine::GUIClip::Internal_PushParentClip_Injected(ByRef<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIClip::GUIClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

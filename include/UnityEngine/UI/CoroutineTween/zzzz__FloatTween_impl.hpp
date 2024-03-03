@@ -310,5 +310,3 @@ constexpr ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTween(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

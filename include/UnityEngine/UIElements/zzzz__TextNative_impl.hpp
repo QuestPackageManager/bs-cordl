@@ -376,5 +376,3 @@ inline void UnityEngine::UIElements::TextNative::DoGetOffset_Injected(ByRef<::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextNative::TextNative() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

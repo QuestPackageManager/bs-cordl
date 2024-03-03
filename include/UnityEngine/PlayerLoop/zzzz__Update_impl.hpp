@@ -11,5 +11,3 @@ constexpr ::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedDynamicFrameRate:
 constexpr ::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks::__Update__ScriptRunDelayedTasks() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::Update::Update() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ProBuilder::LogLevel UnityEngine::ProBuilder::LogLevel:
 constexpr ::UnityEngine::ProBuilder::LogLevel UnityEngine::ProBuilder::LogLevel::Info{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ProBuilder::LogLevel UnityEngine::ProBuilder::LogLevel::Default{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ProBuilder::LogLevel UnityEngine::ProBuilder::LogLevel::All{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

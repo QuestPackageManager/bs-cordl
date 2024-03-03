@@ -272,5 +272,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NI
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::NameInfo::NameInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline void System::Threading::SendOrPostCallback::Invoke(::System::Object* stat
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SendOrPostCallback::SendOrPostCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

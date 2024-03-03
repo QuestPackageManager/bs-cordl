@@ -233,5 +233,3 @@ inline void GlobalNamespace::VRPlatformEventsDebugger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRPlatformEventsDebugger::VRPlatformEventsDebugger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

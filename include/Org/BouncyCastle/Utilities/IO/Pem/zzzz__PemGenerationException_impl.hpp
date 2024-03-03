@@ -78,5 +78,3 @@ inline void Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::PemGenerationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

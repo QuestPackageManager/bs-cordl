@@ -47,5 +47,3 @@ inline void GlobalNamespace::UrlInputFieldSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UrlInputFieldSettingsController::UrlInputFieldSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

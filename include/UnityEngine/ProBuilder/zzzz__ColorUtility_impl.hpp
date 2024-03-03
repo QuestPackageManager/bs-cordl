@@ -250,5 +250,3 @@ inline ::UnityEngine::ProBuilder::CIELabColor* UnityEngine::ProBuilder::ColorUti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ColorUtility::ColorUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

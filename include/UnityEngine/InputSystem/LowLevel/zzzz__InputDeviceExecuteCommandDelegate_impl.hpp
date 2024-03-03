@@ -101,5 +101,3 @@ inline int64_t UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDele
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate::InputDeviceExecuteCommandDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

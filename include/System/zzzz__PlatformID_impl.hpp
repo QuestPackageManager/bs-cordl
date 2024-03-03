@@ -13,5 +13,3 @@ constexpr ::System::PlatformID System::PlatformID::WinCE{ static_cast<int32_t>(0
 constexpr ::System::PlatformID System::PlatformID::Unix{ static_cast<int32_t>(0x4) };
 constexpr ::System::PlatformID System::PlatformID::Xbox{ static_cast<int32_t>(0x5) };
 constexpr ::System::PlatformID System::PlatformID::MacOSX{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

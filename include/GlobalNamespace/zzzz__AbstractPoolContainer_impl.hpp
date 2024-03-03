@@ -43,5 +43,3 @@ inline void GlobalNamespace::AbstractPoolContainer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AbstractPoolContainer::AbstractPoolContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

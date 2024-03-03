@@ -232,5 +232,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

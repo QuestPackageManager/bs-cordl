@@ -9,5 +9,3 @@ constexpr ::UnityEngine::RenderMode::RenderMode() {}
 constexpr ::UnityEngine::RenderMode UnityEngine::RenderMode::ScreenSpaceOverlay{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::RenderMode UnityEngine::RenderMode::ScreenSpaceCamera{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RenderMode UnityEngine::RenderMode::WorldSpace{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

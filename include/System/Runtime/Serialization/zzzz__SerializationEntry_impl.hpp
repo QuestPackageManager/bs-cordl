@@ -72,5 +72,3 @@ constexpr ::System::Runtime::Serialization::SerializationEntry::SerializationEnt
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationEntry::SerializationEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

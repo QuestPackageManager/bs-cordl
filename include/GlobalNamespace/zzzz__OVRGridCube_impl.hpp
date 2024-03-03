@@ -254,5 +254,3 @@ inline void GlobalNamespace::OVRGridCube::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGridCube::OVRGridCube() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

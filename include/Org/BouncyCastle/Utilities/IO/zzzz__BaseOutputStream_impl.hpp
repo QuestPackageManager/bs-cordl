@@ -331,5 +331,3 @@ inline void Org::BouncyCastle::Utilities::IO::BaseOutputStream::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::BaseOutputStream::BaseOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -282,5 +282,3 @@ inline void GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController__Poo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController__Pool::__MultiplayerConnectedPlayerGameNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

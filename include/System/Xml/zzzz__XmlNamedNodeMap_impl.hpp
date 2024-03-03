@@ -536,5 +536,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlNamedNodeMap::InsertNodeAt(int32_
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNamedNodeMap::XmlNamedNodeMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

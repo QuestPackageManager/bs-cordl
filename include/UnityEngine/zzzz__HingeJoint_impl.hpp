@@ -417,5 +417,3 @@ inline void UnityEngine::HingeJoint::set_spring_Injected(ByRef<::UnityEngine::Jo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HingeJoint::HingeJoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -140,5 +140,3 @@ inline int32_t Mono::Globalization::Unicode::CodePointIndexer::ToIndex(int32_t c
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::CodePointIndexer::CodePointIndexer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

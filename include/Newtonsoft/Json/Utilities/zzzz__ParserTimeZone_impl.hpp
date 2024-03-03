@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::Utilities::ParserTimeZone Newtonsoft::Json::Utilit
 constexpr ::Newtonsoft::Json::Utilities::ParserTimeZone Newtonsoft::Json::Utilities::ParserTimeZone::Utc{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::Utilities::ParserTimeZone Newtonsoft::Json::Utilities::ParserTimeZone::LocalWestOfUtc{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::Utilities::ParserTimeZone Newtonsoft::Json::Utilities::ParserTimeZone::LocalEastOfUtc{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

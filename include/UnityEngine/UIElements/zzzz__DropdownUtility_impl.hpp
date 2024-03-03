@@ -32,5 +32,3 @@ inline ::UnityEngine::UIElements::IGenericMenu* UnityEngine::UIElements::Dropdow
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownUtility::DropdownUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

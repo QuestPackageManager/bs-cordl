@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Rendering::MeshUpdateFlags UnityEngine::Rendering::Mesh
 constexpr ::UnityEngine::Rendering::MeshUpdateFlags UnityEngine::Rendering::MeshUpdateFlags::DontResetBoneBounds{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::MeshUpdateFlags UnityEngine::Rendering::MeshUpdateFlags::DontNotifyMeshUsers{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::MeshUpdateFlags UnityEngine::Rendering::MeshUpdateFlags::DontRecalculateBounds{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

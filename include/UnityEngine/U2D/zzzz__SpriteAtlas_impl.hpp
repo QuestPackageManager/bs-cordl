@@ -208,5 +208,3 @@ inline void UnityEngine::U2D::SpriteAtlas::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::U2D::SpriteAtlas::SpriteAtlas() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -89,5 +89,3 @@ inline void UnityEngine::UIElements::UxmlStyleFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlStyleFactory::UxmlStyleFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

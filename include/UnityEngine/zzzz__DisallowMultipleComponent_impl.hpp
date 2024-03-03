@@ -24,5 +24,3 @@ inline void UnityEngine::DisallowMultipleComponent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DisallowMultipleComponent::DisallowMultipleComponent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

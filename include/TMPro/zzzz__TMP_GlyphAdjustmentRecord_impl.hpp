@@ -133,5 +133,3 @@ constexpr ::TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord(uint32_t
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

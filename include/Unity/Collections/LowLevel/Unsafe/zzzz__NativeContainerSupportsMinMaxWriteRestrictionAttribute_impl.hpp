@@ -28,5 +28,3 @@ inline void Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxW
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute::NativeContainerSupportsMinMaxWriteRestrictionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

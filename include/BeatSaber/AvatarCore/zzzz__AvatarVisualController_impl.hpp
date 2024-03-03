@@ -317,5 +317,3 @@ inline void BeatSaber::AvatarCore::AvatarVisualController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarVisualController::AvatarVisualController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

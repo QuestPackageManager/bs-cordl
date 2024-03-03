@@ -12,5 +12,3 @@ constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext BeatSaber::AvatarCore::A
 constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext BeatSaber::AvatarCore::AvatarDisplayContext::MultiplayerGameplay{ static_cast<int32_t>(0x3) };
 constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext BeatSaber::AvatarCore::AvatarDisplayContext::MultiplayerResults{ static_cast<int32_t>(0x4) };
 constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext BeatSaber::AvatarCore::AvatarDisplayContext::MultiplayerBigAvatar{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

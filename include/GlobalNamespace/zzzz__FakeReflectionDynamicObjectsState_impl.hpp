@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::FakeReflectionDynamicObjectsState::FakeReflectionDy
 constexpr ::GlobalNamespace::FakeReflectionDynamicObjectsState::FakeReflectionDynamicObjectsState() {}
 constexpr ::GlobalNamespace::FakeReflectionDynamicObjectsState GlobalNamespace::FakeReflectionDynamicObjectsState::Disabled{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::FakeReflectionDynamicObjectsState GlobalNamespace::FakeReflectionDynamicObjectsState::Enabled{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

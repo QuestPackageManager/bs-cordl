@@ -502,5 +502,3 @@ inline void System::Net::HttpListenerRequestUriBuilder::LogWarning(::StringW met
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerRequestUriBuilder::HttpListenerRequestUriBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

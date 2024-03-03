@@ -612,5 +612,3 @@ inline void HoudiniEngineUnity::HEU_ShelfTools::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ShelfTools::HEU_ShelfTools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

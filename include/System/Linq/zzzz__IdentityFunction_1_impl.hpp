@@ -44,5 +44,3 @@ template <typename TElement> inline ::System::Func_2<TElement, TElement>* System
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::IdentityFunction_1<TElement>::IdentityFunction_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

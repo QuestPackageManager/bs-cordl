@@ -392,5 +392,3 @@ inline void GlobalNamespace::PyramidBloomMainEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PyramidBloomMainEffectSO::PyramidBloomMainEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

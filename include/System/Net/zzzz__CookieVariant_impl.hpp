@@ -11,5 +11,3 @@ constexpr ::System::Net::CookieVariant System::Net::CookieVariant::Plain{ static
 constexpr ::System::Net::CookieVariant System::Net::CookieVariant::Rfc2109{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::CookieVariant System::Net::CookieVariant::Rfc2965{ static_cast<int32_t>(0x3) };
 constexpr ::System::Net::CookieVariant System::Net::CookieVariant::Default{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

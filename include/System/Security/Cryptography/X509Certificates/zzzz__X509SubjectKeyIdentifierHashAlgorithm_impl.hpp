@@ -15,5 +15,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIden
 constexpr ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm::CapiSha1{
   static_cast<int32_t>(0x2)
 };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

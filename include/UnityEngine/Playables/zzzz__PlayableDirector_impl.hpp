@@ -1292,5 +1292,3 @@ inline void UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected(By
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableDirector::PlayableDirector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

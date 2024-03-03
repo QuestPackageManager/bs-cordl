@@ -347,5 +347,3 @@ template <typename T> inline void System::Buffer::Memmove(ByRef<T> destination, 
 }
 // Ctor Parameters []
 constexpr ::System::Buffer::Buffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -149,5 +149,3 @@ inline void BGLib::Polyglot::LocalizationDocument::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationDocument::LocalizationDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

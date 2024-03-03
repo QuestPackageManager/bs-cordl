@@ -401,5 +401,3 @@ inline void GlobalNamespace::ScaleRectTransformViewStateTransition::_StartTween_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScaleRectTransformViewStateTransition::ScaleRectTransformViewStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

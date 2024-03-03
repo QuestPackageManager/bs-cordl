@@ -237,5 +237,3 @@ inline void GlobalNamespace::NoteCutParticlesEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutParticlesEffect::NoteCutParticlesEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::Us
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::UseWindowsGamingInputCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

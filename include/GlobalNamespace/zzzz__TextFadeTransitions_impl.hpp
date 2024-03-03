@@ -201,5 +201,3 @@ inline void GlobalNamespace::TextFadeTransitions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextFadeTransitions::TextFadeTransitions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

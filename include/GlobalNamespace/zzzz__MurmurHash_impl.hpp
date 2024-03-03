@@ -23,5 +23,3 @@ inline uint32_t GlobalNamespace::MurmurHash::MurmurHash2(::StringW key) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MurmurHash::MurmurHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

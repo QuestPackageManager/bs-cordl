@@ -24,5 +24,3 @@ inline void GlobalNamespace::VoipManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VoipManager::VoipManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

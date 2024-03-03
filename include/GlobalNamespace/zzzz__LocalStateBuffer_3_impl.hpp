@@ -206,5 +206,3 @@ template <typename TStateTable, typename TType, typename TState> inline TState G
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState> constexpr ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::LocalStateBuffer_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

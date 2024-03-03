@@ -299,5 +299,3 @@ inline int32_t GlobalNamespace::VarIntExtensions::GetSize(uint64_t val) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VarIntExtensions::VarIntExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

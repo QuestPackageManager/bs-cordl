@@ -237,5 +237,3 @@ inline void LiteNetLib::Utils::NtpRequest::LiteNetLib_INetSocketListener_OnMessa
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NtpRequest::NtpRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

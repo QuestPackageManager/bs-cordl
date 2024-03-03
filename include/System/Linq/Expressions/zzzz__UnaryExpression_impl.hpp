@@ -35,5 +35,3 @@ inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Unary
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::UnaryExpression::UnaryExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

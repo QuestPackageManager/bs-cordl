@@ -447,5 +447,3 @@ template <typename ReturnType> inline ::StringW UnityEngine::AndroidJNIHelper::G
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJNIHelper::AndroidJNIHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

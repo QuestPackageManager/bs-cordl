@@ -138,5 +138,3 @@ inline ::System::TimeSpan System::TimeZone::CalculateUtcOffset(::System::DateTim
 }
 // Ctor Parameters []
 constexpr ::System::TimeZone::TimeZone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

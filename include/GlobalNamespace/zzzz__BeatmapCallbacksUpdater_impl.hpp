@@ -105,5 +105,3 @@ inline void GlobalNamespace::BeatmapCallbacksUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCallbacksUpdater::BeatmapCallbacksUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

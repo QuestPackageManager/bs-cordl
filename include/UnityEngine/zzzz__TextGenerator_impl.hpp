@@ -940,5 +940,3 @@ inline bool UnityEngine::TextGenerator::Populate_Internal_Injected(::StringW str
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextGenerator::TextGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

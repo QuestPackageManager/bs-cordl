@@ -373,5 +373,3 @@ inline void Org::BouncyCastle::Crypto::BufferedBlockCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedBlockCipher::BufferedBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

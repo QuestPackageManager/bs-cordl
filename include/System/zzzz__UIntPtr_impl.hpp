@@ -332,5 +332,3 @@ constexpr ::System::UIntPtr::UIntPtr(::cordl_internals::Ptr<void> _pointer) noex
 }
 // Ctor Parameters []
 constexpr ::System::UIntPtr::UIntPtr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

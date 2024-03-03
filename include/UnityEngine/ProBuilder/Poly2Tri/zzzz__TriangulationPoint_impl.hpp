@@ -268,5 +268,3 @@ inline bool UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_HasEdges(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::TriangulationPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

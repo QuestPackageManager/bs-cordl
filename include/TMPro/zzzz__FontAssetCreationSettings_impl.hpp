@@ -62,5 +62,3 @@ constexpr ::TMPro::FontAssetCreationSettings::FontAssetCreationSettings(::String
 }
 // Ctor Parameters []
 constexpr ::TMPro::FontAssetCreationSettings::FontAssetCreationSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

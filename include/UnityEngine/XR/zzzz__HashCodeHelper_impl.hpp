@@ -169,5 +169,3 @@ inline int32_t UnityEngine::XR::HashCodeHelper::Combine(int32_t hash1, int32_t h
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::HashCodeHelper::HashCodeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

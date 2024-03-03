@@ -273,5 +273,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::KeyAgre
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::KeyAgreeRecipientInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

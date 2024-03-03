@@ -21,5 +21,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum Syst
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum System::Runtime::Serialization::Formatters::Binary::MessageEnum::ReturnValueInArray{ static_cast<int32_t>(0x1000) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum System::Runtime::Serialization::Formatters::Binary::MessageEnum::ExceptionInArray{ static_cast<int32_t>(0x2000) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnum System::Runtime::Serialization::Formatters::Binary::MessageEnum::GenericMethod{ static_cast<int32_t>(0x8000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

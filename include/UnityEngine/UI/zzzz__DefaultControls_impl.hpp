@@ -556,5 +556,3 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::Cre
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::DefaultControls::DefaultControls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

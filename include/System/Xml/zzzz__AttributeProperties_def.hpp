@@ -35,7 +35,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator uint32_t() const noexcept {
+  constexpr explicit operator uint32_t() const noexcept {
     return static_cast<uint32_t>(this->value__);
   }
 

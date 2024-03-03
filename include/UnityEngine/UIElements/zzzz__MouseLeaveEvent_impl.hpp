@@ -61,5 +61,3 @@ inline void UnityEngine::UIElements::MouseLeaveEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseLeaveEvent::MouseLeaveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -105,5 +105,3 @@ inline void System::Reflection::InvalidFilterCriteriaException::_ctor(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::InvalidFilterCriteriaException::InvalidFilterCriteriaException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

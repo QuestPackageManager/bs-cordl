@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::CallbackPhase::CallbackPhase(int32_t value_
 constexpr ::UnityEngine::UIElements::CallbackPhase::CallbackPhase() {}
 constexpr ::UnityEngine::UIElements::CallbackPhase UnityEngine::UIElements::CallbackPhase::TargetAndBubbleUp{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::CallbackPhase UnityEngine::UIElements::CallbackPhase::TrickleDownAndTarget{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

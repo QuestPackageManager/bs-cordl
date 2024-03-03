@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::EVRTrackedCameraFrameType OVR::OpenVR::EVRTrackedCamera
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameType OVR::OpenVR::EVRTrackedCameraFrameType::Undistorted{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameType OVR::OpenVR::EVRTrackedCameraFrameType::MaximumUndistorted{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameType OVR::OpenVR::EVRTrackedCameraFrameType::MAX_CAMERA_FRAME_TYPES{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

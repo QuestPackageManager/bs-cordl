@@ -3,5 +3,3 @@
 #include "System/Xml/Schema/zzzz__BaseValidator_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::BaseValidator::BaseValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

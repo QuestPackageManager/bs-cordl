@@ -1431,5 +1431,3 @@ inline ::UnityEngine::ProBuilder::Vertex* UnityEngine::ProBuilder::Vertex::Mix(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Vertex::Vertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

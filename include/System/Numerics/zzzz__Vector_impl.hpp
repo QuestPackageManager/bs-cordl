@@ -41,5 +41,3 @@ template <typename T> inline ::System::Numerics::Vector_1<uint64_t> System::Nume
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::Vector::Vector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

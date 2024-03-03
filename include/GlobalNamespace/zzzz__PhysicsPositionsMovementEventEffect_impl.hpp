@@ -361,5 +361,3 @@ inline void GlobalNamespace::PhysicsPositionsMovementEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PhysicsPositionsMovementEventEffect::PhysicsPositionsMovementEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

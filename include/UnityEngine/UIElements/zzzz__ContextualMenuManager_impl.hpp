@@ -60,5 +60,3 @@ inline void UnityEngine::UIElements::ContextualMenuManager::DoDisplayMenu(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ContextualMenuManager::ContextualMenuManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

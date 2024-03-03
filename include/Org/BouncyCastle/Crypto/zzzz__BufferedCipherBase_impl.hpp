@@ -423,5 +423,3 @@ inline void Org::BouncyCastle::Crypto::BufferedCipherBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedCipherBase::BufferedCipherBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

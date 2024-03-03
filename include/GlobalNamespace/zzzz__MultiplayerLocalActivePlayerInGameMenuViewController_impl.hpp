@@ -617,5 +617,3 @@ inline void GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewControlle
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::MultiplayerLocalActivePlayerInGameMenuViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

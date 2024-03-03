@@ -515,5 +515,3 @@ inline ::System::Globalization::SortKey* Mono::Globalization::Unicode::SortKeyBu
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::SortKeyBuffer::SortKeyBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

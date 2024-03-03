@@ -225,5 +225,3 @@ inline int32_t Org::BouncyCastle::Utilities::Encoders::Base64::Decode(::StringW 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::Base64::Base64() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

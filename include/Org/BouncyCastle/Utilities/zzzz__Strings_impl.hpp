@@ -249,5 +249,3 @@ inline void Org::BouncyCastle::Utilities::Strings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Strings::Strings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

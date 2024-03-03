@@ -368,5 +368,3 @@ inline int32_t MS::Internal::Xml::Cache::XPathDocumentNavigator::GetPositionHash
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathDocumentNavigator::XPathDocumentNavigator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

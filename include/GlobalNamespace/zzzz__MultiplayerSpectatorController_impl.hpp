@@ -791,5 +791,3 @@ inline void GlobalNamespace::MultiplayerSpectatorController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerSpectatorController::MultiplayerSpectatorController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

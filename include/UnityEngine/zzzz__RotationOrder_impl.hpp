@@ -12,5 +12,3 @@ constexpr ::UnityEngine::RotationOrder UnityEngine::RotationOrder::OrderYZX{ sta
 constexpr ::UnityEngine::RotationOrder UnityEngine::RotationOrder::OrderYXZ{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::RotationOrder UnityEngine::RotationOrder::OrderZXY{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::RotationOrder UnityEngine::RotationOrder::OrderZYX{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

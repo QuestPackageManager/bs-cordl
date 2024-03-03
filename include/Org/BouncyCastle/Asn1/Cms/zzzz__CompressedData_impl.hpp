@@ -223,5 +223,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Comp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::CompressedData::CompressedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

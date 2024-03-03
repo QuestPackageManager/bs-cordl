@@ -250,5 +250,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Time
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::TimeStampedData::TimeStampedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

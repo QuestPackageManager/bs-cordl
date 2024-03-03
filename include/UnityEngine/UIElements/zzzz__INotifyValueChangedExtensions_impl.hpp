@@ -30,5 +30,3 @@ inline bool UnityEngine::UIElements::INotifyValueChangedExtensions::UnregisterVa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::INotifyValueChangedExtensions::INotifyValueChangedExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

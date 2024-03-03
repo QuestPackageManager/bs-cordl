@@ -340,5 +340,3 @@ inline void GlobalNamespace::GhostEffectBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GhostEffectBehaviour::GhostEffectBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

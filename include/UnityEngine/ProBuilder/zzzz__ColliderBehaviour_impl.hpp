@@ -86,5 +86,3 @@ inline void UnityEngine::ProBuilder::ColliderBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ColliderBehaviour::ColliderBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

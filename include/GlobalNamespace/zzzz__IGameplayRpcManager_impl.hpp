@@ -962,5 +962,3 @@ inline void GlobalNamespace::IGameplayRpcManager::LevelFinished(::GlobalNamespac
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IGameplayRpcManager*>::get(), 46)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, results);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

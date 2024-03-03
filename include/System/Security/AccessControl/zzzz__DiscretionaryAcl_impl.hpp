@@ -151,5 +151,3 @@ inline bool System::Security::AccessControl::DiscretionaryAcl::IsAceMeaningless(
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::DiscretionaryAcl::DiscretionaryAcl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

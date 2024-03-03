@@ -67,5 +67,3 @@ inline void Assets::OVR::Scripts::RangedRecord::_ctor(int32_t order, ::StringW c
 }
 // Ctor Parameters []
 constexpr ::Assets::OVR::Scripts::RangedRecord::RangedRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

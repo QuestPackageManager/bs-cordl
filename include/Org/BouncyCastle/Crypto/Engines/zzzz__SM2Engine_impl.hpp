@@ -357,5 +357,3 @@ inline void Org::BouncyCastle::Crypto::Engines::SM2Engine::AddFieldElement(::Org
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::SM2Engine::SM2Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

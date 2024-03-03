@@ -75,5 +75,3 @@ inline void System::TimeoutException::_ctor(::System::Runtime::Serialization::Se
 }
 // Ctor Parameters []
 constexpr ::System::TimeoutException::TimeoutException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

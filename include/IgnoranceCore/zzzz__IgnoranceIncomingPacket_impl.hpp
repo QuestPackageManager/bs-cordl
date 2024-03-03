@@ -11,5 +11,3 @@ constexpr ::IgnoranceCore::IgnoranceIncomingPacket::IgnoranceIncomingPacket(uint
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceIncomingPacket::IgnoranceIncomingPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

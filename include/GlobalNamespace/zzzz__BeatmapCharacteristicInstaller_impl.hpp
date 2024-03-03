@@ -47,5 +47,3 @@ inline void GlobalNamespace::BeatmapCharacteristicInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicInstaller::BeatmapCharacteristicInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -342,5 +342,3 @@ inline void System::Security::Cryptography::X509Certificates::X509Chain::Finaliz
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Chain::X509Chain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

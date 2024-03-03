@@ -9,5 +9,3 @@ constexpr ::System::Security::AccessControl::AuditFlags::AuditFlags() {}
 constexpr ::System::Security::AccessControl::AuditFlags System::Security::AccessControl::AuditFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::AccessControl::AuditFlags System::Security::AccessControl::AuditFlags::Success{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::AccessControl::AuditFlags System::Security::AccessControl::AuditFlags::Failure{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

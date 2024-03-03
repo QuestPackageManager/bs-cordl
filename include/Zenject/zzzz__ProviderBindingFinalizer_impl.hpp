@@ -468,5 +468,3 @@ inline void Zenject::ProviderBindingFinalizer::RegisterProvidersForAllContractsP
 }
 // Ctor Parameters []
 constexpr ::Zenject::ProviderBindingFinalizer::ProviderBindingFinalizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

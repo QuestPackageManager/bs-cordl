@@ -56,5 +56,3 @@ template <typename T> inline bool GlobalNamespace::BinaryHeap_1<T>::RemoveMin(By
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::BinaryHeap_1<T>::BinaryHeap_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

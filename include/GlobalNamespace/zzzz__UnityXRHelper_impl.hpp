@@ -1411,5 +1411,3 @@ inline void GlobalNamespace::UnityXRHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityXRHelper::UnityXRHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

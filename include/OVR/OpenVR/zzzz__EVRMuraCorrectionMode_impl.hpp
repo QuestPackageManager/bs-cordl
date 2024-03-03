@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVRMuraCorrectionMode::EVRMuraCorrectionMode(int32_t va
 constexpr ::OVR::OpenVR::EVRMuraCorrectionMode::EVRMuraCorrectionMode() {}
 constexpr ::OVR::OpenVR::EVRMuraCorrectionMode OVR::OpenVR::EVRMuraCorrectionMode::Default{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRMuraCorrectionMode OVR::OpenVR::EVRMuraCorrectionMode::NoCorrection{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

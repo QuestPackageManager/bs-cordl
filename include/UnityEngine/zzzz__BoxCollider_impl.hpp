@@ -223,5 +223,3 @@ inline void UnityEngine::BoxCollider::set_size_Injected(ByRef<::UnityEngine::Vec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BoxCollider::BoxCollider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

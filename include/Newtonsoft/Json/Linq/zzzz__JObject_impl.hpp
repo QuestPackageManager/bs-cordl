@@ -1804,5 +1804,3 @@ inline ::System::Object* Newtonsoft::Json::Linq::JObject::System_ComponentModel_
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JObject::JObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

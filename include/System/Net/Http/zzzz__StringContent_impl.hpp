@@ -55,5 +55,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Net::Http::StringContent::Ge
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::StringContent::StringContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -276,5 +276,3 @@ inline void System::Net::FileWebStream::CheckError() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebStream::FileWebStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

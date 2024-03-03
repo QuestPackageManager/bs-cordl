@@ -7,5 +7,3 @@ constexpr ::MidiParser::MetaEventType::MetaEventType(uint8_t value__) noexcept {
 // Ctor Parameters []
 constexpr ::MidiParser::MetaEventType::MetaEventType() {}
 constexpr ::MidiParser::MetaEventType MidiParser::MetaEventType::Tempo{ static_cast<uint8_t>(0x51u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

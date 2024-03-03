@@ -423,5 +423,3 @@ inline int32_t System::Globalization::TaiwanCalendar::ToFourDigitYear(int32_t ye
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::TaiwanCalendar::TaiwanCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

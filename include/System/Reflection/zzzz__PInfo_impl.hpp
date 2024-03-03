@@ -12,5 +12,3 @@ constexpr ::System::Reflection::PInfo System::Reflection::PInfo::SetMethod{ stat
 constexpr ::System::Reflection::PInfo System::Reflection::PInfo::ReflectedType{ static_cast<int32_t>(0x8) };
 constexpr ::System::Reflection::PInfo System::Reflection::PInfo::DeclaringType{ static_cast<int32_t>(0x10) };
 constexpr ::System::Reflection::PInfo System::Reflection::PInfo::Name{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

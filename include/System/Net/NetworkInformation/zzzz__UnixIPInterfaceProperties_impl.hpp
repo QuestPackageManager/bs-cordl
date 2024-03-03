@@ -104,5 +104,3 @@ inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection*
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixIPInterfaceProperties::UnixIPInterfaceProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

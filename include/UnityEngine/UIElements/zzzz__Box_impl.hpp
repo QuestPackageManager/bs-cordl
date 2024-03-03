@@ -55,5 +55,3 @@ inline void UnityEngine::UIElements::__Box__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Box__UxmlFactory::__Box__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

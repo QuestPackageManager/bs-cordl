@@ -71,5 +71,3 @@ inline void GlobalNamespace::NoInvitePlatformHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoInvitePlatformHandler::NoInvitePlatformHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -38,5 +38,3 @@ inline void UnityEngine::TooltipAttribute::_ctor(::StringW tooltip) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TooltipAttribute::TooltipAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

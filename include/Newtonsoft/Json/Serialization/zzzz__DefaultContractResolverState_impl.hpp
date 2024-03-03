@@ -60,5 +60,3 @@ inline void Newtonsoft::Json::Serialization::DefaultContractResolverState::_ctor
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolverState::DefaultContractResolverState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

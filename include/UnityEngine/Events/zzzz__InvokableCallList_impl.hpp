@@ -199,5 +199,3 @@ inline void UnityEngine::Events::InvokableCallList::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::InvokableCallList::InvokableCallList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

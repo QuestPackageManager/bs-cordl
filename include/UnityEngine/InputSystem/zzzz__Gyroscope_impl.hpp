@@ -181,5 +181,3 @@ inline void UnityEngine::InputSystem::Gyroscope::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Gyroscope::Gyroscope() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1672,5 +1672,3 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::_
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController::AvatarTweenController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

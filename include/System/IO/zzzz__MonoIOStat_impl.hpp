@@ -14,5 +14,3 @@ constexpr ::System::IO::MonoIOStat::MonoIOStat(::System::IO::FileAttributes file
 }
 // Ctor Parameters []
 constexpr ::System::IO::MonoIOStat::MonoIOStat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

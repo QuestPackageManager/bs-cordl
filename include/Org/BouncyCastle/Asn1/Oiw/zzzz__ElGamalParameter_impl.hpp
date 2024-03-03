@@ -140,5 +140,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Oiw::ElGa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::ElGamalParameter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

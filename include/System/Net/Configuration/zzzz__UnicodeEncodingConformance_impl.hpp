@@ -9,5 +9,3 @@ constexpr ::System::Net::Configuration::UnicodeEncodingConformance::UnicodeEncod
 constexpr ::System::Net::Configuration::UnicodeEncodingConformance System::Net::Configuration::UnicodeEncodingConformance::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Configuration::UnicodeEncodingConformance System::Net::Configuration::UnicodeEncodingConformance::Strict{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Configuration::UnicodeEncodingConformance System::Net::Configuration::UnicodeEncodingConformance::Compat{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

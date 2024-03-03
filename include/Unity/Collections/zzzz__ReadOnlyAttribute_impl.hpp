@@ -24,5 +24,3 @@ inline void Unity::Collections::ReadOnlyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::ReadOnlyAttribute::ReadOnlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

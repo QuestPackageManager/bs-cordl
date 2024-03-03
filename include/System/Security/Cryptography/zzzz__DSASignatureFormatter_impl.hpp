@@ -37,5 +37,3 @@ inline void System::Security::Cryptography::DSASignatureFormatter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DSASignatureFormatter::DSASignatureFormatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

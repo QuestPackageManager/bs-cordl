@@ -562,5 +562,3 @@ inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedN
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SchemaElementDecl::SchemaElementDecl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

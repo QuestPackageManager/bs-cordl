@@ -20,5 +20,3 @@ constexpr UnityEngine::UIElements::ICollectionDragAndDropController::operator ::
 constexpr ::UnityEngine::UIElements::IReorderable* UnityEngine::UIElements::ICollectionDragAndDropController::i___UnityEngine__UIElements__IReorderable() noexcept {
   return static_cast<::UnityEngine::UIElements::IReorderable*>(static_cast<void*>(this));
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

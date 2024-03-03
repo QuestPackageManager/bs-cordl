@@ -1075,5 +1075,3 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
 }
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>::TextInputBaseField_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

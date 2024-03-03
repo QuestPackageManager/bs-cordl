@@ -124,5 +124,3 @@ inline void UnityEngine::AnimationState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimationState::AnimationState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

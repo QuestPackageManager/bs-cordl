@@ -36,5 +36,3 @@ inline int32_t UnityEngine::GUITargetAttribute::GetGUITargetAttrValue(::System::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUITargetAttribute::GUITargetAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -604,5 +604,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::MultiplayerConnectedPlayerBeatmapObjectEventManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

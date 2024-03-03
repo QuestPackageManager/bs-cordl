@@ -64,5 +64,3 @@ template <typename T> inline T UnityEngine::UIElements::FixedHeightVirtualizatio
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::FixedHeightVirtualizationController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

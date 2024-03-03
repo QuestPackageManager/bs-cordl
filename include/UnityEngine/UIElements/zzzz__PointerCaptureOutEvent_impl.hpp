@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::PointerCaptureOutEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerCaptureOutEvent::PointerCaptureOutEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

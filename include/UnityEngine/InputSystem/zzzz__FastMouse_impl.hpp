@@ -908,5 +908,3 @@ inline bool UnityEngine::InputSystem::FastMouse::UnityEngine_InputSystem_LowLeve
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::FastMouse::FastMouse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

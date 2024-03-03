@@ -174,5 +174,3 @@ inline void GlobalNamespace::__MissScoringElement__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MissScoringElement__Pool::__MissScoringElement__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -40,5 +40,3 @@ inline void System::Diagnostics::DebuggerTypeProxyAttribute::_ctor(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerTypeProxyAttribute::DebuggerTypeProxyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

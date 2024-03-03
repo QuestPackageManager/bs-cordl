@@ -556,5 +556,3 @@ inline void GlobalNamespace::ConsoleCommandBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConsoleCommandBase::ConsoleCommandBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

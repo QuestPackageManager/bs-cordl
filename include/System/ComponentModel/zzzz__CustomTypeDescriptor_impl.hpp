@@ -306,5 +306,3 @@ inline ::System::Object* System::ComponentModel::CustomTypeDescriptor::GetProper
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CustomTypeDescriptor::CustomTypeDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

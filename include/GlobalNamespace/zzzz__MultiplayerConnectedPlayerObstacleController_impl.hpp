@@ -99,5 +99,3 @@ inline void GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Poo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool::__MultiplayerConnectedPlayerObstacleController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

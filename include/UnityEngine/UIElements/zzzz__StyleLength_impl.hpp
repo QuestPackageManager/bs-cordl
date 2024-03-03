@@ -278,5 +278,3 @@ constexpr ::UnityEngine::UIElements::StyleLength::StyleLength(::UnityEngine::UIE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleLength::StyleLength() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -419,5 +419,3 @@ inline void System::Globalization::DateTimeFormatInfoScanner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::DateTimeFormatInfoScanner::DateTimeFormatInfoScanner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

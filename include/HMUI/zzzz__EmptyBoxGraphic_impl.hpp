@@ -74,5 +74,3 @@ inline void HMUI::EmptyBoxGraphic::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::EmptyBoxGraphic::EmptyBoxGraphic() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

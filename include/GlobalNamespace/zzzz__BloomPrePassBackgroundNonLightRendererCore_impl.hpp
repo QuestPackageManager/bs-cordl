@@ -275,5 +275,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::BloomPrePassBackgroundNonLightRendererCore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

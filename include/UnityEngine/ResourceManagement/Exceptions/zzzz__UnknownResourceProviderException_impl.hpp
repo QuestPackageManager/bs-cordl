@@ -246,5 +246,3 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::UnknownResourcePro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -692,5 +692,3 @@ inline int32_t Newtonsoft::Json::Utilities::ConvertUtils::HexCharToInt(char16_t 
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::ConvertUtils::ConvertUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

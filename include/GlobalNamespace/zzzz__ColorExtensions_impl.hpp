@@ -161,5 +161,3 @@ inline ::UnityEngine::Color GlobalNamespace::ColorExtensions::LerpRGBUnclamped(:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorExtensions::ColorExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

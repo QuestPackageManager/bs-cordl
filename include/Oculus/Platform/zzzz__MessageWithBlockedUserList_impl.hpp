@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::BlockedUserList* Oculus::Platform::MessageWit
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithBlockedUserList::MessageWithBlockedUserList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

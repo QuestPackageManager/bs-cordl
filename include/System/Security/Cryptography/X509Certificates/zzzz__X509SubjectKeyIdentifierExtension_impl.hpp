@@ -388,5 +388,3 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509SubjectKe
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::X509SubjectKeyIdentifierExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

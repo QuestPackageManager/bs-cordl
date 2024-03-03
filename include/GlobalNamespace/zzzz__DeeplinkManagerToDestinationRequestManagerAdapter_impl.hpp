@@ -246,5 +246,3 @@ inline void GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::DeeplinkManagerToDestinationRequestManagerAdapter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

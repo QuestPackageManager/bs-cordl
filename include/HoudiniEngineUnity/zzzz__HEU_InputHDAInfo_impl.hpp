@@ -113,5 +113,3 @@ inline void HoudiniEngineUnity::HEU_InputHDAInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputHDAInfo::HEU_InputHDAInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

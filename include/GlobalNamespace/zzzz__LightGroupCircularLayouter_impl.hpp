@@ -107,5 +107,3 @@ inline void GlobalNamespace::LightGroupCircularLayouter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupCircularLayouter::LightGroupCircularLayouter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

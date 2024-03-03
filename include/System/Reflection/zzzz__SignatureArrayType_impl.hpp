@@ -181,5 +181,3 @@ inline ::StringW System::Reflection::SignatureArrayType::get_Suffix() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureArrayType::SignatureArrayType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

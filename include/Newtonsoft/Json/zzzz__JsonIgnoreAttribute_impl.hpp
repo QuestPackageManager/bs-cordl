@@ -24,5 +24,3 @@ inline void Newtonsoft::Json::JsonIgnoreAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonIgnoreAttribute::JsonIgnoreAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

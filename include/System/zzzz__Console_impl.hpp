@@ -502,5 +502,3 @@ inline void System::Console::DoConsoleCancelEvent() {
 }
 // Ctor Parameters []
 constexpr ::System::Console::Console() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

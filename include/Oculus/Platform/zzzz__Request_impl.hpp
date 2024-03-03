@@ -150,5 +150,3 @@ inline void Oculus::Platform::Request::RunCallbacks(uint32_t limit) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Request::Request() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

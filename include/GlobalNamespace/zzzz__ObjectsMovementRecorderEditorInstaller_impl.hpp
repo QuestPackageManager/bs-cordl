@@ -48,5 +48,3 @@ inline void GlobalNamespace::ObjectsMovementRecorderEditorInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::ObjectsMovementRecorderEditorInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

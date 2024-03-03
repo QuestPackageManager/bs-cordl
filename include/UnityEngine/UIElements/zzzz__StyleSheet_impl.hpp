@@ -1120,5 +1120,3 @@ inline void UnityEngine::UIElements::StyleSheet::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheet::StyleSheet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

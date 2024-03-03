@@ -25,5 +25,3 @@ inline void UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Internal_SubsystemDescriptors::Internal_SubsystemDescriptors() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

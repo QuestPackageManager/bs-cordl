@@ -134,5 +134,3 @@ inline ::System::Exception* System::Linq::Error::NotSupported() {
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Error::Error() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

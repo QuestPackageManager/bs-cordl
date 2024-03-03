@@ -299,5 +299,3 @@ inline void GlobalNamespace::MissionObjectiveGameUIView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionObjectiveGameUIView::MissionObjectiveGameUIView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

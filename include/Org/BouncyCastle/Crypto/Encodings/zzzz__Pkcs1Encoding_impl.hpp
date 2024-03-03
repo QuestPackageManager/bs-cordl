@@ -471,5 +471,3 @@ inline int32_t Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart(ui
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Pkcs1Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

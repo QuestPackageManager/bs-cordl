@@ -167,5 +167,3 @@ inline void GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelNoTransitionInstaller::MissionLevelNoTransitionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

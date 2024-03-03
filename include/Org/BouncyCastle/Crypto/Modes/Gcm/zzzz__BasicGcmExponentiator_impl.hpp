@@ -93,5 +93,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator::BasicGcmExponentiator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

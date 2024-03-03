@@ -326,5 +326,3 @@ inline void System::Xml::Ucs4Encoding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Ucs4Encoding::Ucs4Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

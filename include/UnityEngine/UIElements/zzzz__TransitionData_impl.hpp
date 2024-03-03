@@ -162,5 +162,3 @@ constexpr ::UnityEngine::UIElements::TransitionData::TransitionData(::System::Co
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TransitionData::TransitionData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

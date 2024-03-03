@@ -67,5 +67,3 @@ inline void RootMotion::DemoGUIMessage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::DemoGUIMessage::DemoGUIMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

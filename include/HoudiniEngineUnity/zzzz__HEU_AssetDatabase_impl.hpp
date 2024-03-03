@@ -1332,5 +1332,3 @@ template <typename T> inline T HoudiniEngineUnity::HEU_AssetDatabase::GetBuiltin
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetDatabase::HEU_AssetDatabase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

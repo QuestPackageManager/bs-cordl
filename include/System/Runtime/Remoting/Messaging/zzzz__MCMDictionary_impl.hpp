@@ -37,5 +37,3 @@ inline void System::Runtime::Remoting::Messaging::MCMDictionary::_ctor(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MCMDictionary::MCMDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

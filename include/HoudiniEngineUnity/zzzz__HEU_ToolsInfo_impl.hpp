@@ -329,5 +329,3 @@ inline void HoudiniEngineUnity::HEU_ToolsInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ToolsInfo::HEU_ToolsInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

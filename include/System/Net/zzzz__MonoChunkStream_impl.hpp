@@ -310,5 +310,3 @@ inline ::System::Threading::Tasks::Task* System::Net::MonoChunkStream::__n__0(::
 }
 // Ctor Parameters []
 constexpr ::System::Net::MonoChunkStream::MonoChunkStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

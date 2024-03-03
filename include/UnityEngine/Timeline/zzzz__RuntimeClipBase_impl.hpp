@@ -102,5 +102,3 @@ inline void UnityEngine::Timeline::RuntimeClipBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::RuntimeClipBase::RuntimeClipBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

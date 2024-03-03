@@ -13,5 +13,3 @@ constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore:
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::ScrollRect{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Page{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode UnityEngine::TextCore::Text::TextOverflowMode::Linked{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ inline void System::Security::AccessControl::DirectorySecurity::_ctor(::StringW 
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::DirectorySecurity::DirectorySecurity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

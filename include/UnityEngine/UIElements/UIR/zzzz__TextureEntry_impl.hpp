@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::UIR::TextureEntry::TextureEntry(::UnityW<::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::TextureEntry::TextureEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

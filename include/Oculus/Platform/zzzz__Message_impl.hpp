@@ -1970,5 +1970,3 @@ inline ::Oculus::Platform::__Message__ExtraMessageTypesHandler* Oculus::Platform
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Message::Message() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

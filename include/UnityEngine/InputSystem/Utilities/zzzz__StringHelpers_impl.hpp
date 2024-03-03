@@ -1112,5 +1112,3 @@ inline ::StringW UnityEngine::InputSystem::Utilities::StringHelpers::ExpandTempl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::StringHelpers::StringHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

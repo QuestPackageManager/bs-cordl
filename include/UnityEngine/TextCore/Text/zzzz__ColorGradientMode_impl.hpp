@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextCore::Text::ColorGradientMode UnityEngine::TextCore
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode UnityEngine::TextCore::Text::ColorGradientMode::HorizontalGradient{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode UnityEngine::TextCore::Text::ColorGradientMode::VerticalGradient{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode UnityEngine::TextCore::Text::ColorGradientMode::FourCornersGradient{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

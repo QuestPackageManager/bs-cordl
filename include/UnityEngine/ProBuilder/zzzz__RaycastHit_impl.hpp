@@ -81,5 +81,3 @@ inline void UnityEngine::ProBuilder::RaycastHit::_ctor(float_t distance, ::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::RaycastHit::RaycastHit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

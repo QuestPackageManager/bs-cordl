@@ -9,5 +9,3 @@ constexpr ::UnityEngine::MixedLightingMode::MixedLightingMode() {}
 constexpr ::UnityEngine::MixedLightingMode UnityEngine::MixedLightingMode::IndirectOnly{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::MixedLightingMode UnityEngine::MixedLightingMode::Shadowmask{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::MixedLightingMode UnityEngine::MixedLightingMode::Subtractive{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

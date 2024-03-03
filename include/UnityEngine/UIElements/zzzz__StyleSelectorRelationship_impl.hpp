@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::StyleSelectorRelationship::StyleSelectorRel
 constexpr ::UnityEngine::UIElements::StyleSelectorRelationship UnityEngine::UIElements::StyleSelectorRelationship::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::StyleSelectorRelationship UnityEngine::UIElements::StyleSelectorRelationship::Child{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::StyleSelectorRelationship UnityEngine::UIElements::StyleSelectorRelationship::Descendent{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -245,5 +245,3 @@ inline void Org::BouncyCastle::Asn1::DerOutputStream::WriteObject(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerOutputStream::DerOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

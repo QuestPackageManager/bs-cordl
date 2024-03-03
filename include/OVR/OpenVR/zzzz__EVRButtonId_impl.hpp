@@ -27,5 +27,3 @@ constexpr ::OVR::OpenVR::EVRButtonId OVR::OpenVR::EVRButtonId::k_EButton_Knuckle
 constexpr ::OVR::OpenVR::EVRButtonId OVR::OpenVR::EVRButtonId::k_EButton_Knuckles_B{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRButtonId OVR::OpenVR::EVRButtonId::k_EButton_Knuckles_JoyStick{ static_cast<int32_t>(0x23) };
 constexpr ::OVR::OpenVR::EVRButtonId OVR::OpenVR::EVRButtonId::k_EButton_Max{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

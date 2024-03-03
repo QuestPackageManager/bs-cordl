@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Rendering::TextureDimension UnityEngine::Rendering::Tex
 constexpr ::UnityEngine::Rendering::TextureDimension UnityEngine::Rendering::TextureDimension::Cube{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::TextureDimension UnityEngine::Rendering::TextureDimension::Tex2DArray{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Rendering::TextureDimension UnityEngine::Rendering::TextureDimension::CubeArray{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

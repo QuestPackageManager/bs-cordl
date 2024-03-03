@@ -65,5 +65,3 @@ inline void GlobalNamespace::ColorSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSO::ColorSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

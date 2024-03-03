@@ -135,5 +135,3 @@ constexpr ::TMPro::MaterialReference::MaterialReference(int32_t index, ::UnityW<
 }
 // Ctor Parameters []
 constexpr ::TMPro::MaterialReference::MaterialReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

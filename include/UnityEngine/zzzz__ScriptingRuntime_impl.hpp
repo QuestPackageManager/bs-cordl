@@ -21,5 +21,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> UnityEngine::ScriptingRuntime::G
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScriptingRuntime::ScriptingRuntime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

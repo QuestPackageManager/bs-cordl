@@ -24,5 +24,3 @@ inline void JetBrains::Annotations::RazorLayoutAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorLayoutAttribute::RazorLayoutAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

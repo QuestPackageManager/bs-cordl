@@ -5208,5 +5208,3 @@ inline bool GlobalNamespace::OVRInput::ShouldResolveController(::GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRInput::OVRInput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

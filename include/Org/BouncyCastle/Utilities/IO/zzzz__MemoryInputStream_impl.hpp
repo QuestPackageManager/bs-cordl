@@ -46,5 +46,3 @@ inline bool Org::BouncyCastle::Utilities::IO::MemoryInputStream::get_CanWrite() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::MemoryInputStream::MemoryInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

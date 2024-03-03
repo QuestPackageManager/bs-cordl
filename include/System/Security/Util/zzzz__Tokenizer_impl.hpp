@@ -638,5 +638,3 @@ inline ::StringW System::Security::Util::Tokenizer::GetStringToken() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Util::Tokenizer::Tokenizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

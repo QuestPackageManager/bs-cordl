@@ -79,5 +79,3 @@ inline void Org::BouncyCastle::Security::Certificates::CertificateExpiredExcepti
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::CertificateExpiredException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

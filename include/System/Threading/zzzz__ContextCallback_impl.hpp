@@ -47,5 +47,3 @@ inline void System::Threading::ContextCallback::Invoke(::System::Object* state) 
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ContextCallback::ContextCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

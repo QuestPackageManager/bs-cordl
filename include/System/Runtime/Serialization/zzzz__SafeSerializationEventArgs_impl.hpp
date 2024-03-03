@@ -79,5 +79,3 @@ inline ::System::Collections::Generic::IList_1<::System::Object*>* System::Runti
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SafeSerializationEventArgs::SafeSerializationEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

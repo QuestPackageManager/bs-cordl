@@ -155,5 +155,3 @@ inline void Org::BouncyCastle::Cms::CmsProcessableInputStream::CheckSingleUsage(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsProcessableInputStream::CmsProcessableInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

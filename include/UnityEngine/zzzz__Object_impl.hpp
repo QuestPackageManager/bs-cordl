@@ -1183,5 +1183,3 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_Instantiate
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Object::Object() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

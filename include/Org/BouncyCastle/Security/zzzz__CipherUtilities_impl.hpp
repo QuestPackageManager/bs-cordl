@@ -291,5 +291,3 @@ inline ::Org::BouncyCastle::Crypto::IBlockCipher* Org::BouncyCastle::Security::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::CipherUtilities::CipherUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

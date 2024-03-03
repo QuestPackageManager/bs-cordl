@@ -10,5 +10,3 @@ constexpr ::System::Security::Principal::WindowsAccountType System::Security::Pr
 constexpr ::System::Security::Principal::WindowsAccountType System::Security::Principal::WindowsAccountType::Guest{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::Principal::WindowsAccountType System::Security::Principal::WindowsAccountType::System{ static_cast<int32_t>(0x2) };
 constexpr ::System::Security::Principal::WindowsAccountType System::Security::Principal::WindowsAccountType::Anonymous{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

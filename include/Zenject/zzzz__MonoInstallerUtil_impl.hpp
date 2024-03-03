@@ -22,5 +22,3 @@ template <typename TInstaller> inline TInstaller Zenject::MonoInstallerUtil::Cre
 }
 // Ctor Parameters []
 constexpr ::Zenject::MonoInstallerUtil::MonoInstallerUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

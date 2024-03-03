@@ -132,5 +132,3 @@ inline void GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::SongPreviewPlayerPauseOnInputFocusLost() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

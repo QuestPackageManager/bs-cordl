@@ -131,5 +131,3 @@ inline ::System::Nullable_1<float_t> GlobalNamespace::PerceivedLoudnessPerLevelM
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel::PerceivedLoudnessPerLevelModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

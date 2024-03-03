@@ -81,5 +81,3 @@ inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* System::Runtime::Re
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::SingleCallIdentity::SingleCallIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline void GlobalNamespace::StandardLevelRestartController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelRestartController::StandardLevelRestartController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

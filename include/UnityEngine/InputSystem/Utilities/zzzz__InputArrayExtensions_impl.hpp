@@ -35,5 +35,3 @@ template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::Inpu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::InputArrayExtensions::InputArrayExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

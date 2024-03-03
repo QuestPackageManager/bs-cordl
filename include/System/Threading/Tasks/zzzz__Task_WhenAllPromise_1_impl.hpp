@@ -74,5 +74,3 @@ template <typename T> inline bool System::Threading::Tasks::__Task__WhenAllPromi
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::Tasks::__Task__WhenAllPromise_1<T>::__Task__WhenAllPromise_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

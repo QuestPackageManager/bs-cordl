@@ -122,5 +122,3 @@ inline void UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation::WebRequestQueueOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

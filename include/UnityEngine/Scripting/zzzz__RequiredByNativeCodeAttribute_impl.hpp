@@ -148,5 +148,3 @@ inline void UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::RequiredByNativeCodeAttribute::RequiredByNativeCodeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

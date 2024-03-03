@@ -490,5 +490,3 @@ inline ::UnityEngine::UIElements::Focusable* UnityEngine::UIElements::VisualElem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFocusRing::VisualElementFocusRing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

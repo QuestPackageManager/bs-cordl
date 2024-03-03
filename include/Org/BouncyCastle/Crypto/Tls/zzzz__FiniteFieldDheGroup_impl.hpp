@@ -45,5 +45,3 @@ inline void Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup::FiniteFieldDheGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

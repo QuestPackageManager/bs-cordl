@@ -142,5 +142,3 @@ inline void GlobalNamespace::GuestNameButtonsListItem::_Awake_b__7_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GuestNameButtonsListItem::GuestNameButtonsListItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

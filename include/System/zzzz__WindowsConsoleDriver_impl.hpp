@@ -182,5 +182,3 @@ inline bool System::WindowsConsoleDriver::ReadConsoleInput(void* handle, ByRef<:
 }
 // Ctor Parameters []
 constexpr ::System::WindowsConsoleDriver::WindowsConsoleDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ template <typename T1, typename T2, typename T3, typename T4> inline ::ModestTre
 }
 // Ctor Parameters []
 constexpr ::ModestTree::Util::ValuePair::ValuePair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

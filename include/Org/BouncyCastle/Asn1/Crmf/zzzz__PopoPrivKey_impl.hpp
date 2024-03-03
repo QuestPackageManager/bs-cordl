@@ -171,5 +171,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Pop
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::PopoPrivKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

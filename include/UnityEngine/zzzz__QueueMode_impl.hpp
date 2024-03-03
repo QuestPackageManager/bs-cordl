@@ -8,5 +8,3 @@ constexpr ::UnityEngine::QueueMode::QueueMode(int32_t value__) noexcept {
 constexpr ::UnityEngine::QueueMode::QueueMode() {}
 constexpr ::UnityEngine::QueueMode UnityEngine::QueueMode::CompleteOthers{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::QueueMode UnityEngine::QueueMode::PlayNow{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

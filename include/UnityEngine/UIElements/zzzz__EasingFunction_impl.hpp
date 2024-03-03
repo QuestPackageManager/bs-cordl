@@ -181,5 +181,3 @@ constexpr ::UnityEngine::UIElements::EasingFunction::EasingFunction(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EasingFunction::EasingFunction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

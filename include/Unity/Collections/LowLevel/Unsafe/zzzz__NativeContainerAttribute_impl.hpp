@@ -27,5 +27,3 @@ inline void Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::_cto
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::NativeContainerAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

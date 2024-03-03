@@ -183,5 +183,3 @@ inline void UnityEngine::Timeline::RuntimeElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::RuntimeElement::RuntimeElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

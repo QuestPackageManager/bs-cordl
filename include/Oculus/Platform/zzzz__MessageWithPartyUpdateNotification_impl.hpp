@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::PartyUpdateNotification* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithPartyUpdateNotification::MessageWithPartyUpdateNotification() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

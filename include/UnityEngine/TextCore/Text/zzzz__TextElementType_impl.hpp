@@ -8,5 +8,3 @@ constexpr ::UnityEngine::TextCore::Text::TextElementType::TextElementType(uint8_
 constexpr ::UnityEngine::TextCore::Text::TextElementType::TextElementType() {}
 constexpr ::UnityEngine::TextCore::Text::TextElementType UnityEngine::TextCore::Text::TextElementType::Character{ static_cast<uint8_t>(0x1u) };
 constexpr ::UnityEngine::TextCore::Text::TextElementType UnityEngine::TextCore::Text::TextElementType::Sprite{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

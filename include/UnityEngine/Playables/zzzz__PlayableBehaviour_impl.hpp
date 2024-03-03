@@ -225,5 +225,3 @@ inline ::System::Object* UnityEngine::Playables::PlayableBehaviour::Clone() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableBehaviour::PlayableBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

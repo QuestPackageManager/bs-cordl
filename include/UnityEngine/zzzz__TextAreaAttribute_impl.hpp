@@ -71,5 +71,3 @@ inline void UnityEngine::TextAreaAttribute::_ctor(int32_t minLines, int32_t maxL
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextAreaAttribute::TextAreaAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

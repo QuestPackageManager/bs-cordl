@@ -430,5 +430,3 @@ inline void UnityEngine::UI::GraphicRaycaster::Raycast(::UnityEngine::Canvas* ca
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::GraphicRaycaster::GraphicRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

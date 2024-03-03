@@ -293,5 +293,3 @@ inline ::StringW GlobalNamespace::SongPackMasksModel::ToSerializedName(::GlobalN
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPackMasksModel::SongPackMasksModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

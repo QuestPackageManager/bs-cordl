@@ -40,5 +40,3 @@ inline void System::ComponentModel::RefreshEventArgs::_ctor(::System::Type* type
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::RefreshEventArgs::RefreshEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

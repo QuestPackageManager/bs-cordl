@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::UIR::GfxUpdateBufferRange::GfxUpdateBufferR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GfxUpdateBufferRange::GfxUpdateBufferRange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

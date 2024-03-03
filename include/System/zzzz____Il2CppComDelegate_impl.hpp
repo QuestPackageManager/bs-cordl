@@ -22,5 +22,3 @@ inline void System::__Il2CppComDelegate::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::System::__Il2CppComDelegate::__Il2CppComDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

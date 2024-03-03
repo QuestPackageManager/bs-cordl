@@ -15,5 +15,3 @@ template <typename T1, typename T2> inline void System::TupleExtensions::Deconst
 }
 // Ctor Parameters []
 constexpr ::System::TupleExtensions::TupleExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -28,5 +28,3 @@ inline void UnityEngine::Timeline::TimelineHelpURLAttribute::_ctor(::System::Typ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineHelpURLAttribute::TimelineHelpURLAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

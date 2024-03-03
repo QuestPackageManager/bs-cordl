@@ -50,5 +50,3 @@ template <typename T> constexpr ::UnityEngine::XR::InputFeatureUsage_1<T>::Input
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::XR::InputFeatureUsage_1<T>::InputFeatureUsage_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

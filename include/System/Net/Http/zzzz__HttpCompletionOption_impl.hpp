@@ -8,5 +8,3 @@ constexpr ::System::Net::Http::HttpCompletionOption::HttpCompletionOption(int32_
 constexpr ::System::Net::Http::HttpCompletionOption::HttpCompletionOption() {}
 constexpr ::System::Net::Http::HttpCompletionOption System::Net::Http::HttpCompletionOption::ResponseContentRead{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Http::HttpCompletionOption System::Net::Http::HttpCompletionOption::ResponseHeadersRead{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

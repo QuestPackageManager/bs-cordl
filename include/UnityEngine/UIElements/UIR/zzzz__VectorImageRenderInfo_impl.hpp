@@ -83,5 +83,3 @@ inline void UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfo::VectorImageRenderInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

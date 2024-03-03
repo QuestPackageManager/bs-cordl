@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidRelativeHumidity::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidRelativeHumidity::AndroidRelativeHumidity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

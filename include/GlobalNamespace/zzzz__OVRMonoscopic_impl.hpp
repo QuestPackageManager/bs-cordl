@@ -67,5 +67,3 @@ inline void GlobalNamespace::OVRMonoscopic::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMonoscopic::OVRMonoscopic() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -748,5 +748,3 @@ inline ::System::Object* System::Runtime::Serialization::Formatters::Binary::Con
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::Converter::Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

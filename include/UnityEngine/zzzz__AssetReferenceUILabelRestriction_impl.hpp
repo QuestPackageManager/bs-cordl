@@ -115,5 +115,3 @@ inline ::StringW UnityEngine::AssetReferenceUILabelRestriction::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetReferenceUILabelRestriction::AssetReferenceUILabelRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -36,5 +36,3 @@ constexpr ::System::Globalization::UnicodeCategory System::Globalization::Unicod
 constexpr ::System::Globalization::UnicodeCategory System::Globalization::UnicodeCategory::ModifierSymbol{ static_cast<int32_t>(0x1b) };
 constexpr ::System::Globalization::UnicodeCategory System::Globalization::UnicodeCategory::OtherSymbol{ static_cast<int32_t>(0x1c) };
 constexpr ::System::Globalization::UnicodeCategory System::Globalization::UnicodeCategory::OtherNotAssigned{ static_cast<int32_t>(0x1d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

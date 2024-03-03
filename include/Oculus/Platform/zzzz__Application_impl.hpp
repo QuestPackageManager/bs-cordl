@@ -131,5 +131,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResu
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Application::Application() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

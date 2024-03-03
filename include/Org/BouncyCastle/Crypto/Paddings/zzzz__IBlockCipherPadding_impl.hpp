@@ -89,5 +89,3 @@ inline int32_t Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::PadCoun
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, input);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline bool UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotif
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::NotificationUtilities::NotificationUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

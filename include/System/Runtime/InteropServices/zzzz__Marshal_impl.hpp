@@ -1360,5 +1360,3 @@ inline ::System::Runtime::InteropServices::ICustomMarshaler* System::Runtime::In
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::Marshal::Marshal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

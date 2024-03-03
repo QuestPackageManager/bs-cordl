@@ -140,5 +140,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::LiteralData
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::LiteralDataPacket::LiteralDataPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

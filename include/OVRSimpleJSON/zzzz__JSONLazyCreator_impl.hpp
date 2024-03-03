@@ -581,5 +581,3 @@ inline void OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder(::System::Text:
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONLazyCreator::JSONLazyCreator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

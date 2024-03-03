@@ -242,5 +242,3 @@ inline void GlobalNamespace::LightTranslationGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroup::LightTranslationGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

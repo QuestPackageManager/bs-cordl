@@ -467,5 +467,3 @@ inline ::System::Object* System::DBNull::System_IConvertible_ToType(::System::Ty
 }
 // Ctor Parameters []
 constexpr ::System::DBNull::DBNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

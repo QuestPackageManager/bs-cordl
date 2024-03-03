@@ -124,5 +124,3 @@ inline ::Mono::Security::X509::X509CertificateCollection* Mono::Security::X509::
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509StoreManager::X509StoreManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

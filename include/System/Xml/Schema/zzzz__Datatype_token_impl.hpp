@@ -66,5 +66,3 @@ inline void System::Xml::Schema::Datatype_token::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_token::Datatype_token() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

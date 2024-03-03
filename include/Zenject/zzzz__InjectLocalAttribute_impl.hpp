@@ -24,5 +24,3 @@ inline void Zenject::InjectLocalAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectLocalAttribute::InjectLocalAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -976,5 +976,3 @@ inline ::StringW System::ThrowHelper::GetResourceName(::System::ExceptionResourc
 }
 // Ctor Parameters []
 constexpr ::System::ThrowHelper::ThrowHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

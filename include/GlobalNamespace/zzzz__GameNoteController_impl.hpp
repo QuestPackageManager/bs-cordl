@@ -560,5 +560,3 @@ inline void GlobalNamespace::__GameNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__GameNoteController__Pool::__GameNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

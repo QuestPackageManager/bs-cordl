@@ -241,5 +241,3 @@ inline bool System::ComponentModel::EnumConverter::IsValid(::System::ComponentMo
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EnumConverter::EnumConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

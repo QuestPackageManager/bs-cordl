@@ -10,5 +10,3 @@ constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotation
 constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotations::ImplicitUseTargetFlags::Itself{ static_cast<int32_t>(0x1) };
 constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotations::ImplicitUseTargetFlags::Members{ static_cast<int32_t>(0x2) };
 constexpr ::JetBrains::Annotations::ImplicitUseTargetFlags JetBrains::Annotations::ImplicitUseTargetFlags::WithMembers{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

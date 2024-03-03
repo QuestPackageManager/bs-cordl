@@ -76,5 +76,3 @@ inline void System::Net::ReceiveState::_ctor(::System::Net::CommandStream* conne
 }
 // Ctor Parameters []
 constexpr ::System::Net::ReceiveState::ReceiveState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

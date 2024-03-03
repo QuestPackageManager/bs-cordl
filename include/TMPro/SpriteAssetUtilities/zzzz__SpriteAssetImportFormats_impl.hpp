@@ -8,5 +8,3 @@ constexpr ::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats::SpriteAssetIm
 constexpr ::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats::SpriteAssetImportFormats() {}
 constexpr ::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats TMPro::SpriteAssetUtilities::SpriteAssetImportFormats::None{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::SpriteAssetUtilities::SpriteAssetImportFormats TMPro::SpriteAssetUtilities::SpriteAssetImportFormats::TexturePackerJsonArray{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

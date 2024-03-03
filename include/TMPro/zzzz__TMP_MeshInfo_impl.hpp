@@ -307,5 +307,3 @@ constexpr ::TMPro::TMP_MeshInfo::TMP_MeshInfo(::UnityW<::UnityEngine::Mesh> mesh
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_MeshInfo::TMP_MeshInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

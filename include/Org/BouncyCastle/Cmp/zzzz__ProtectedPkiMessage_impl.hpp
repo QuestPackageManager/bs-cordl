@@ -233,5 +233,3 @@ inline bool Org::BouncyCastle::Cmp::ProtectedPkiMessage::Verify(::Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::ProtectedPkiMessage::ProtectedPkiMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

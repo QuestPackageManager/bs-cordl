@@ -125,5 +125,3 @@ inline ::Org::BouncyCastle::Math::EC::ECCurve* Org::BouncyCastle::Math::EC::Mult
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MixedNafR2LMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ inline ::StringW System::Net::HttpStatusDescription::Get(int32_t code) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpStatusDescription::HttpStatusDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

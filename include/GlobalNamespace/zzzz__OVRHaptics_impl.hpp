@@ -882,5 +882,3 @@ inline void GlobalNamespace::OVRHaptics::Process() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRHaptics::OVRHaptics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline bool System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSp
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlConfiguration::XmlReaderSection::XmlReaderSection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

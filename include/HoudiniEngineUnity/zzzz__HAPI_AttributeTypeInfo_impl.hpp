@@ -22,5 +22,3 @@ constexpr ::HoudiniEngineUnity::HAPI_AttributeTypeInfo HoudiniEngineUnity::HAPI_
 constexpr ::HoudiniEngineUnity::HAPI_AttributeTypeInfo HoudiniEngineUnity::HAPI_AttributeTypeInfo::HAPI_ATTRIBUTE_TYPE_BOX{ static_cast<int32_t>(0xc) };
 constexpr ::HoudiniEngineUnity::HAPI_AttributeTypeInfo HoudiniEngineUnity::HAPI_AttributeTypeInfo::HAPI_ATTRIBUTE_TYPE_TEXTURE{ static_cast<int32_t>(0xd) };
 constexpr ::HoudiniEngineUnity::HAPI_AttributeTypeInfo HoudiniEngineUnity::HAPI_AttributeTypeInfo::HAPI_ATTRIBUTE_TYPE_MAX{ static_cast<int32_t>(0xe) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

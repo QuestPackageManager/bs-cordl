@@ -140,5 +140,3 @@ template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::ClampedDragger_1<T>::ClampedDragger_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

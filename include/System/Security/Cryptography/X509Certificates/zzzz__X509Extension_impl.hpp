@@ -154,5 +154,3 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509Extension
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Extension::X509Extension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

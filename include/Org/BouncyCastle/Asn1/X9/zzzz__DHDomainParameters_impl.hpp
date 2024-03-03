@@ -312,5 +312,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::DHDom
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::DHDomainParameters::DHDomainParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

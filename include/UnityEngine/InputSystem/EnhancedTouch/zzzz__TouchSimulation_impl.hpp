@@ -585,5 +585,3 @@ inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::TouchSimulation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

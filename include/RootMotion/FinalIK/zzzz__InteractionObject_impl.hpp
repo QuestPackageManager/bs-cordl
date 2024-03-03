@@ -1236,5 +1236,3 @@ inline void RootMotion::FinalIK::InteractionObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::InteractionObject::InteractionObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

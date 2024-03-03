@@ -24,5 +24,3 @@ inline void GlobalNamespace::StaticBatchedMeshContainer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticBatchedMeshContainer::StaticBatchedMeshContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

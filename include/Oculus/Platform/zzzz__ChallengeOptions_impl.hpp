@@ -287,5 +287,3 @@ inline void Oculus::Platform::ChallengeOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::ChallengeOptions::ChallengeOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

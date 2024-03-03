@@ -1821,5 +1821,3 @@ inline void UnityEngine::UIElements::BaseVisualElementPanel::Update() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVisualElementPanel::BaseVisualElementPanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

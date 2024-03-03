@@ -1747,5 +1747,3 @@ inline void GlobalNamespace::LobbyPlayersDataModel::ILobbyPlayersDataModel_SetLo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyPlayersDataModel::LobbyPlayersDataModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

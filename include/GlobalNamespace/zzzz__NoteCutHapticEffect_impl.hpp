@@ -134,5 +134,3 @@ inline void GlobalNamespace::NoteCutHapticEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutHapticEffect::NoteCutHapticEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

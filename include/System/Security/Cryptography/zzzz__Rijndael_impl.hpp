@@ -43,5 +43,3 @@ inline void System::Security::Cryptography::Rijndael::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::Rijndael::Rijndael() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -929,5 +929,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetDelaunayEdge
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::DelaunayTriangle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

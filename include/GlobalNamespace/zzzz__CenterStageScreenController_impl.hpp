@@ -415,5 +415,3 @@ inline void GlobalNamespace::CenterStageScreenController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CenterStageScreenController::CenterStageScreenController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

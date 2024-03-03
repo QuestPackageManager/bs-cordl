@@ -2186,5 +2186,3 @@ constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollingResult::__Scrol
 constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollingResult UnityEngine::UIElements::__ScrollView__TouchScrollingResult::Apply{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollingResult UnityEngine::UIElements::__ScrollView__TouchScrollingResult::Forward{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollingResult UnityEngine::UIElements::__ScrollView__TouchScrollingResult::Block{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

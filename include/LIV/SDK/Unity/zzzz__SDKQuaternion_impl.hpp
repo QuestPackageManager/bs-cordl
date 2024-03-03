@@ -159,5 +159,3 @@ constexpr ::LIV::SDK::Unity::SDKQuaternion::SDKQuaternion(float_t x, float_t y, 
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKQuaternion::SDKQuaternion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

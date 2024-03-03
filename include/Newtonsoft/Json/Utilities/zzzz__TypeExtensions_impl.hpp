@@ -355,5 +355,3 @@ inline bool Newtonsoft::Json::Utilities::TypeExtensions::ImplementInterface(::Sy
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::TypeExtensions::TypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

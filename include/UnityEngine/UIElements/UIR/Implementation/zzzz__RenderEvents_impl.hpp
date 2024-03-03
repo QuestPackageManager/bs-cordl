@@ -727,5 +727,3 @@ inline void UnityEngine::UIElements::UIR::Implementation::RenderEvents::SetColor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Implementation::RenderEvents::RenderEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

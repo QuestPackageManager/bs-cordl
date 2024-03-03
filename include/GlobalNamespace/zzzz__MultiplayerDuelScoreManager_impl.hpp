@@ -248,5 +248,3 @@ inline void GlobalNamespace::MultiplayerDuelScoreManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerDuelScoreManager::MultiplayerDuelScoreManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

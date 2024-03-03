@@ -716,5 +716,3 @@ inline ::UnityEngine::UI::ReflectionMethodsCache* UnityEngine::UI::ReflectionMet
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ReflectionMethodsCache::ReflectionMethodsCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

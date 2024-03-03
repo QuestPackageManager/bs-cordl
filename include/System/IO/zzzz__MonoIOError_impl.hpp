@@ -33,5 +33,3 @@ constexpr ::System::IO::MonoIOError System::IO::MonoIOError::ERROR_ALREADY_EXIST
 constexpr ::System::IO::MonoIOError System::IO::MonoIOError::ERROR_FILENAME_EXCED_RANGE{ static_cast<int32_t>(0xce) };
 constexpr ::System::IO::MonoIOError System::IO::MonoIOError::ERROR_DIRECTORY{ static_cast<int32_t>(0x10b) };
 constexpr ::System::IO::MonoIOError System::IO::MonoIOError::ERROR_ENCRYPTION_FAILED{ static_cast<int32_t>(0x1770) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

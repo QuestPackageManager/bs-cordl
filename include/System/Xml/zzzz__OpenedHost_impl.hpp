@@ -36,5 +36,3 @@ inline void System::Xml::OpenedHost::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::OpenedHost::OpenedHost() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

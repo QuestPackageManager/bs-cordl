@@ -84,5 +84,3 @@ inline void System::Configuration::ConfigurationElement::ResetModified() {
 }
 // Ctor Parameters []
 constexpr ::System::Configuration::ConfigurationElement::ConfigurationElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

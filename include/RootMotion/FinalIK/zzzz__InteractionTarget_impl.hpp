@@ -409,5 +409,3 @@ inline void RootMotion::FinalIK::InteractionTarget::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::InteractionTarget::InteractionTarget() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

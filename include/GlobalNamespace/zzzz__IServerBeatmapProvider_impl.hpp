@@ -50,5 +50,3 @@ inline ::GlobalNamespace::BeatmapKeyNetSerializable* GlobalNamespace::IServerBea
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKeyNetSerializable*, false>(this, ___internal_method, playerCount, beatmapsSuggestedByPlayers, selectionMask,
                                                                                                    playerOwnedSongPacks);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

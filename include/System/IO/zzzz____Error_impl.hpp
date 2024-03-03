@@ -115,5 +115,3 @@ inline void System::IO::__Error::WriterClosed() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::__Error::__Error() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

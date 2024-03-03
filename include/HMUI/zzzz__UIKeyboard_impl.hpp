@@ -456,5 +456,3 @@ inline void HMUI::UIKeyboard::_Awake_b__13_1() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::UIKeyboard::UIKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

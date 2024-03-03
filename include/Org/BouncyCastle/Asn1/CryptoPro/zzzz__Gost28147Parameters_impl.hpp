@@ -124,5 +124,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::CryptoPro
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters::Gost28147Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

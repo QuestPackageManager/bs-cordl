@@ -1390,5 +1390,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputControlPath::InputControlPath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

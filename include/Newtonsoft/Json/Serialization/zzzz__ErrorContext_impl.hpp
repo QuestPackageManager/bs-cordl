@@ -346,5 +346,3 @@ inline void Newtonsoft::Json::Serialization::ErrorContext::set_Handled(bool valu
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ErrorContext::ErrorContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

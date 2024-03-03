@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_TimelineOptions::HAPI_TimelineOptions(float
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_TimelineOptions::HAPI_TimelineOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

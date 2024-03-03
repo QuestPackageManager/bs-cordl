@@ -545,5 +545,3 @@ inline ::System::Object* System::Net::LazyAsyncResult::WaitForCompletion(bool sn
 }
 // Ctor Parameters []
 constexpr ::System::Net::LazyAsyncResult::LazyAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

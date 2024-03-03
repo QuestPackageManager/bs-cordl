@@ -211,5 +211,3 @@ inline void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::Tick()
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::ConnectedPlayerAvatarPoseDataProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

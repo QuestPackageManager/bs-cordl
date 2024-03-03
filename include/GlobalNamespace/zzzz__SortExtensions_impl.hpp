@@ -57,5 +57,3 @@ template <typename T> inline void GlobalNamespace::SortExtensions::Sort(::System
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SortExtensions::SortExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

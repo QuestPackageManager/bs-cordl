@@ -747,5 +747,3 @@ inline void System::Xml::Linq::XElement::ValidateNode(::System::Xml::Linq::XNode
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XElement::XElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

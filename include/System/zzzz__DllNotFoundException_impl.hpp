@@ -75,5 +75,3 @@ inline void System::DllNotFoundException::_ctor(::System::Runtime::Serialization
 }
 // Ctor Parameters []
 constexpr ::System::DllNotFoundException::DllNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

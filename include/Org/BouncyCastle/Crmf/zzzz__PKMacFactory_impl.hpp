@@ -105,5 +105,3 @@ inline ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crmf::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PKMacFactory::PKMacFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1502,5 +1502,3 @@ inline void OVR::OpenVR::CVRSystem::AcknowledgeQuit_UserPrompt() {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRSystem::CVRSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

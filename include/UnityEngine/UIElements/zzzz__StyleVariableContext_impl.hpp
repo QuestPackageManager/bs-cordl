@@ -200,5 +200,3 @@ inline int32_t UnityEngine::UIElements::StyleVariableContext::GetVariableHash() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleVariableContext::StyleVariableContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -139,5 +139,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Sign
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::SignaturePolicyIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

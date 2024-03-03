@@ -280,5 +280,3 @@ inline float_t GlobalNamespace::BpmTimeProcessor::CalculateTime(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BpmTimeProcessor::BpmTimeProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

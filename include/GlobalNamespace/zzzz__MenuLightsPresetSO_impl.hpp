@@ -208,5 +208,3 @@ inline void GlobalNamespace::MenuLightsPresetSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuLightsPresetSO::MenuLightsPresetSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

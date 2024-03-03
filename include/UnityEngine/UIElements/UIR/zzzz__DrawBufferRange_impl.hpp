@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::UIR::DrawBufferRange::DrawBufferRange(int32
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::DrawBufferRange::DrawBufferRange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

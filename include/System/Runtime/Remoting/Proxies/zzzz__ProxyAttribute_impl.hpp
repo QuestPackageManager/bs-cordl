@@ -110,5 +110,3 @@ inline bool System::Runtime::Remoting::Proxies::ProxyAttribute::IsContextOK(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Proxies::ProxyAttribute::ProxyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

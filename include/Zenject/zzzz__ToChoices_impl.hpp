@@ -8,5 +8,3 @@ constexpr ::Zenject::ToChoices::ToChoices(int32_t value__) noexcept {
 constexpr ::Zenject::ToChoices::ToChoices() {}
 constexpr ::Zenject::ToChoices Zenject::ToChoices::Self{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::ToChoices Zenject::ToChoices::Concrete{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

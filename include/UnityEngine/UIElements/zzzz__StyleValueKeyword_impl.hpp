@@ -13,5 +13,3 @@ constexpr ::UnityEngine::UIElements::StyleValueKeyword UnityEngine::UIElements::
 constexpr ::UnityEngine::UIElements::StyleValueKeyword UnityEngine::UIElements::StyleValueKeyword::True{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::StyleValueKeyword UnityEngine::UIElements::StyleValueKeyword::False{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::StyleValueKeyword UnityEngine::UIElements::StyleValueKeyword::None{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

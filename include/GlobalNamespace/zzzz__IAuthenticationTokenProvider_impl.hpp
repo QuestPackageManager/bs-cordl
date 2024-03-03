@@ -133,5 +133,3 @@ inline ::GlobalNamespace::__AuthenticationToken__Platform GlobalNamespace::IAuth
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAuthenticationTokenProvider*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__AuthenticationToken__Platform, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

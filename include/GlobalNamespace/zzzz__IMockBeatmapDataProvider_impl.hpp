@@ -35,5 +35,3 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMockBeatmapDataProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>*, false>(this, ___internal_method, beatmap, cancellationToken);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

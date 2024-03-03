@@ -80,5 +80,3 @@ inline void UnityEngine::UIElements::DefaultDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultDispatchingStrategy::DefaultDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::Q
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::QuerySamplingFrequencyCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

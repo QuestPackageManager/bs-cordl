@@ -31,5 +31,3 @@ constexpr ::UnityEngine::Rendering::BatchRendererCullingOutput::BatchRendererCul
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::BatchRendererCullingOutput::BatchRendererCullingOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

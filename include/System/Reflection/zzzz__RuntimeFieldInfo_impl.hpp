@@ -733,5 +733,3 @@ inline void System::Reflection::RuntimeFieldInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeFieldInfo::RuntimeFieldInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -412,5 +412,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProv
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::BundledAssetProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

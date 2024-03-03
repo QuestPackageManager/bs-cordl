@@ -116,5 +116,3 @@ inline void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::OpenXRRuntimeBasedActionBindingComposite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

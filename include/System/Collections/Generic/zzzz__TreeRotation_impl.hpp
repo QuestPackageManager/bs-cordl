@@ -10,5 +10,3 @@ constexpr ::System::Collections::Generic::TreeRotation System::Collections::Gene
 constexpr ::System::Collections::Generic::TreeRotation System::Collections::Generic::TreeRotation::LeftRight{ static_cast<uint8_t>(0x1u) };
 constexpr ::System::Collections::Generic::TreeRotation System::Collections::Generic::TreeRotation::Right{ static_cast<uint8_t>(0x2u) };
 constexpr ::System::Collections::Generic::TreeRotation System::Collections::Generic::TreeRotation::RightLeft{ static_cast<uint8_t>(0x3u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1388,5 +1388,3 @@ inline ::StringW System::IO::FileStream::GetSecureFileName(::StringW filename, b
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileStream::FileStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

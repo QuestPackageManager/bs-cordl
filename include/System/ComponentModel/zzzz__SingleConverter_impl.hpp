@@ -126,5 +126,3 @@ inline void System::ComponentModel::SingleConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::SingleConverter::SingleConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

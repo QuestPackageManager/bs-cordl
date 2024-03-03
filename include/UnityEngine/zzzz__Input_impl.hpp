@@ -592,5 +592,3 @@ inline void UnityEngine::Input::set_compositionCursorPos_Injected(ByRef<::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Input::Input() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

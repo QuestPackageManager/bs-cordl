@@ -144,5 +144,3 @@ inline void GlobalNamespace::CrashManagerSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CrashManagerSO::CrashManagerSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

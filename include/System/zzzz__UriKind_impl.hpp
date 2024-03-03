@@ -9,5 +9,3 @@ constexpr ::System::UriKind::UriKind() {}
 constexpr ::System::UriKind System::UriKind::RelativeOrAbsolute{ static_cast<int32_t>(0x0) };
 constexpr ::System::UriKind System::UriKind::Absolute{ static_cast<int32_t>(0x1) };
 constexpr ::System::UriKind System::UriKind::Relative{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

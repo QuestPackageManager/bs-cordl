@@ -57,5 +57,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::KnownTerminals::get_ansi() {
 }
 // Ctor Parameters []
 constexpr ::System::KnownTerminals::KnownTerminals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

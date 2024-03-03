@@ -194,5 +194,3 @@ inline void UnityEngine::Timeline::PrefabControlPlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::PrefabControlPlayable::PrefabControlPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

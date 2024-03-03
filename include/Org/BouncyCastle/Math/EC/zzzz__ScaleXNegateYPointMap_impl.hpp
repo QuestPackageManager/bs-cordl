@@ -71,5 +71,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Scal
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::ScaleXNegateYPointMap::ScaleXNegateYPointMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

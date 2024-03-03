@@ -109,5 +109,3 @@ template <typename T> inline T Tweening::Tween_1<T>::GetValue(float_t t) {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Tweening::Tween_1<T>::Tween_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void System::Security::Cryptography::CryptographicOperations::ZeroMemory(
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptographicOperations::CryptographicOperations() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

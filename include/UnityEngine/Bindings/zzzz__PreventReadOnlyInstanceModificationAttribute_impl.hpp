@@ -27,5 +27,3 @@ inline void UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute::PreventReadOnlyInstanceModificationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

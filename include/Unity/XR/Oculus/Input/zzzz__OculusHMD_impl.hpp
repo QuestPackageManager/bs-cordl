@@ -1279,5 +1279,3 @@ inline void Unity::XR::Oculus::Input::OculusHMD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Input::OculusHMD::OculusHMD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

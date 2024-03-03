@@ -39,5 +39,3 @@ template <typename T> inline void BeatmapSaveDataVersion3::EventBoxGroup_1<T>::_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BeatmapSaveDataVersion3::EventBoxGroup_1<T>::EventBoxGroup_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

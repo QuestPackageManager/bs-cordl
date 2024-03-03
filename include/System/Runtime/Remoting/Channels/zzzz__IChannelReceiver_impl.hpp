@@ -54,5 +54,3 @@ inline void System::Runtime::Remoting::Channels::IChannelReceiver::StartListenin
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::IChannelReceiver*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

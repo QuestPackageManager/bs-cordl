@@ -44,5 +44,3 @@ inline void TMPro::TMP_Glyph::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Glyph::TMP_Glyph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

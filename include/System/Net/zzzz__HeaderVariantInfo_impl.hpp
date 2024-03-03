@@ -70,5 +70,3 @@ constexpr ::System::Net::HeaderVariantInfo::HeaderVariantInfo(::StringW m_name, 
 }
 // Ctor Parameters []
 constexpr ::System::Net::HeaderVariantInfo::HeaderVariantInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

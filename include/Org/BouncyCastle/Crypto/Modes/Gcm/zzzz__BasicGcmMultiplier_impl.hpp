@@ -90,5 +90,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmMultiplier::BasicGcmMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

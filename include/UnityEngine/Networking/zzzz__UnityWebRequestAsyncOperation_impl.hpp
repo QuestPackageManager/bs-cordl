@@ -79,5 +79,3 @@ inline void UnityEngine::Networking::UnityWebRequestAsyncOperation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation::UnityWebRequestAsyncOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

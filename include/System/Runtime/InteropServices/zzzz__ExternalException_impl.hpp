@@ -146,5 +146,3 @@ inline ::StringW System::Runtime::InteropServices::ExternalException::ToString()
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ExternalException::ExternalException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundLightWithId::BloomPrePassBackgroundLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::AssetDetailsList* Oculus::Platform::MessageWi
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAssetDetailsList::MessageWithAssetDetailsList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

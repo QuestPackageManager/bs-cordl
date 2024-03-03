@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SpriteTileMode::SpriteTileMode(int32_t value__) noexcep
 constexpr ::UnityEngine::SpriteTileMode::SpriteTileMode() {}
 constexpr ::UnityEngine::SpriteTileMode UnityEngine::SpriteTileMode::Continuous{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpriteTileMode UnityEngine::SpriteTileMode::Adaptive{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

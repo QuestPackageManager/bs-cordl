@@ -68,5 +68,3 @@ inline void GlobalNamespace::SliderShaderWarmup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderShaderWarmup::SliderShaderWarmup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

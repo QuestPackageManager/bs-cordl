@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::NoEnumerationAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::NoEnumerationAttribute::NoEnumerationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ inline void System::Net::NetworkInformation::UnixIPGlobalProperties::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixIPGlobalProperties::UnixIPGlobalProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

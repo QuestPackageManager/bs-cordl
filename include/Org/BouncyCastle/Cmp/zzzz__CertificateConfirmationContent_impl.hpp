@@ -122,5 +122,3 @@ inline ::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::Bou
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CertificateConfirmationContent::CertificateConfirmationContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -242,5 +242,3 @@ constexpr ::System::Reflection::CustomAttributeTypedArgument::CustomAttributeTyp
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

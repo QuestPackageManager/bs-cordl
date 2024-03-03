@@ -201,5 +201,3 @@ inline void GlobalNamespace::AchievementsModelSO::_Initialize_b__3_0(::GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AchievementsModelSO::AchievementsModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

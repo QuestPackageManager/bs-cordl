@@ -41,5 +41,3 @@ inline int32_t System::Threading::TimeoutHelper::UpdateTimeOut(uint32_t startTim
 }
 // Ctor Parameters []
 constexpr ::System::Threading::TimeoutHelper::TimeoutHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

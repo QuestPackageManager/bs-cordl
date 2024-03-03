@@ -244,5 +244,3 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::MemoryP
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolBase_1<TContract>::MemoryPoolBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

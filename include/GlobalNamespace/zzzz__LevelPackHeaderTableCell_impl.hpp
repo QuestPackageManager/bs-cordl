@@ -168,5 +168,3 @@ inline void GlobalNamespace::LevelPackHeaderTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelPackHeaderTableCell::LevelPackHeaderTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

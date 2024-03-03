@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ProBuilder::RectSelectMode::RectSelectMode(int32_t valu
 constexpr ::UnityEngine::ProBuilder::RectSelectMode::RectSelectMode() {}
 constexpr ::UnityEngine::ProBuilder::RectSelectMode UnityEngine::ProBuilder::RectSelectMode::Partial{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::RectSelectMode UnityEngine::ProBuilder::RectSelectMode::Complete{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

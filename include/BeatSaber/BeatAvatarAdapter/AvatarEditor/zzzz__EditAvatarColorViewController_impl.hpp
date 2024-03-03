@@ -439,5 +439,3 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewContr
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController::EditAvatarColorViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

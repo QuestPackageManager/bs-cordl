@@ -131,5 +131,3 @@ inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Crypto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::ECKeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

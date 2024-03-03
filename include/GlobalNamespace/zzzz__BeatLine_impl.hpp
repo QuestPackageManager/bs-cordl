@@ -280,5 +280,3 @@ constexpr ::GlobalNamespace::__BeatLine__HighlightData::__BeatLine__HighlightDat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BeatLine__HighlightData::__BeatLine__HighlightData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

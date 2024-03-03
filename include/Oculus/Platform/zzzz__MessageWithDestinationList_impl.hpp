@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::DestinationList* Oculus::Platform::MessageWit
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithDestinationList::MessageWithDestinationList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

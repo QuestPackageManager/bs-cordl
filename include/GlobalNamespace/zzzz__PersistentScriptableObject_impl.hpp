@@ -44,5 +44,3 @@ inline void GlobalNamespace::PersistentScriptableObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PersistentScriptableObject::PersistentScriptableObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

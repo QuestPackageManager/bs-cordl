@@ -466,5 +466,3 @@ inline void GlobalNamespace::BTSStarTextEventEffect::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSStarTextEventEffect::BTSStarTextEventEffect() {}
 constexpr ::GlobalNamespace::BasicBeatmapEventType GlobalNamespace::BTSStarTextEventEffect::kStarTextAppearEventType{ static_cast<int32_t>(0x29) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ inline void System::UnauthorizedAccessException::_ctor(::System::Runtime::Serial
 }
 // Ctor Parameters []
 constexpr ::System::UnauthorizedAccessException::UnauthorizedAccessException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

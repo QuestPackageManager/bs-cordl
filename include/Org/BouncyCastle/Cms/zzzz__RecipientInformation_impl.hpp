@@ -262,5 +262,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::Recipie
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::RecipientInformation::RecipientInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -324,5 +324,3 @@ inline void Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::intTobytes(int32_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::GOfbBlockCipher::GOfbBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

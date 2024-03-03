@@ -76,5 +76,3 @@ inline void GlobalNamespace::XPlatformAuthFeatureFlag::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag::XPlatformAuthFeatureFlag() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

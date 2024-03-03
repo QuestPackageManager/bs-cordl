@@ -108,5 +108,3 @@ inline ::StringW UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayout
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::InputDeviceFindControlLayoutDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void UnityEngine::PropertyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PropertyAttribute::PropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

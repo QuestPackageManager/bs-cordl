@@ -16,5 +16,3 @@ inline int32_t LiteNetLib::NetConstants::getStaticF_MaxPacketSize() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetConstants::NetConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

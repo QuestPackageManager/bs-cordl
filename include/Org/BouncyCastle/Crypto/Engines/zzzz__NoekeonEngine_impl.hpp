@@ -256,5 +256,3 @@ inline int32_t Org::BouncyCastle::Crypto::Engines::NoekeonEngine::DecryptBlock(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::NoekeonEngine::NoekeonEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

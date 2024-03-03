@@ -25,5 +25,3 @@ inline void System::Xml::Serialization::XmlIgnoreAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlIgnoreAttribute::XmlIgnoreAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

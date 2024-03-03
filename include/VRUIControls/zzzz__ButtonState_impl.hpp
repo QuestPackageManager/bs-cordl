@@ -181,5 +181,3 @@ inline void VRUIControls::ButtonState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::ButtonState::ButtonState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

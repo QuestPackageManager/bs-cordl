@@ -106,5 +106,3 @@ inline bool System::Net::Http::ByteArrayContent::TryComputeLength(ByRef<int64_t>
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::ByteArrayContent::ByteArrayContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

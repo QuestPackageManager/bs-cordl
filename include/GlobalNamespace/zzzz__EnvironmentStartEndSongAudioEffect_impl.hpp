@@ -352,5 +352,3 @@ inline void GlobalNamespace::EnvironmentStartEndSongAudioEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentStartEndSongAudioEffect::EnvironmentStartEndSongAudioEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

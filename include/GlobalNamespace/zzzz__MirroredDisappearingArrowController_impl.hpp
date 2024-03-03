@@ -61,5 +61,3 @@ inline void GlobalNamespace::MirroredDisappearingArrowController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MirroredDisappearingArrowController::MirroredDisappearingArrowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

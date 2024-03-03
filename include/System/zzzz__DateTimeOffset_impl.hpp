@@ -1144,5 +1144,3 @@ constexpr ::System::DateTimeOffset::DateTimeOffset(::System::DateTime _dateTime,
 }
 // Ctor Parameters []
 constexpr ::System::DateTimeOffset::DateTimeOffset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

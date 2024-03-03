@@ -46,5 +46,3 @@ inline void System::Action::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::System::Action::Action() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

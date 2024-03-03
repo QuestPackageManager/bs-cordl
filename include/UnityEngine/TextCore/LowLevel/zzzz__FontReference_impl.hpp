@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::FontReference::FontReference(::Stri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::FontReference::FontReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline void GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::HealthWarningScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

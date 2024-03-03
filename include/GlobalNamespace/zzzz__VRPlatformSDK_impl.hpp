@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::VRPlatformSDK::VRPlatformSDK() {}
 constexpr ::GlobalNamespace::VRPlatformSDK GlobalNamespace::VRPlatformSDK::OpenXR{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::VRPlatformSDK GlobalNamespace::VRPlatformSDK::Oculus{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::VRPlatformSDK GlobalNamespace::VRPlatformSDK::Unknown{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

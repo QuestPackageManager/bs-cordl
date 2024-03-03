@@ -47,5 +47,3 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::BeatmapDataNoArrowsT
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataNoArrowsTransform::BeatmapDataNoArrowsTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

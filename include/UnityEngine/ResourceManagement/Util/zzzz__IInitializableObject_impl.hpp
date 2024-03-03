@@ -48,5 +48,3 @@ UnityEngine::ResourceManagement::Util::IInitializableObject::InitializeAsync(::U
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::IInitializableObject*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>, false>(this, ___internal_method, rm, id, data);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

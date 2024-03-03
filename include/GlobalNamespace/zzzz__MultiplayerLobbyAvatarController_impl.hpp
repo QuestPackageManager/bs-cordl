@@ -846,5 +846,3 @@ inline ::System::Object* GlobalNamespace::__MultiplayerLobbyAvatarController___D
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12::__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

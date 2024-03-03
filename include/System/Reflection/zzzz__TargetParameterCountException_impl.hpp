@@ -78,5 +78,3 @@ inline void System::Reflection::TargetParameterCountException::_ctor(::System::R
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::TargetParameterCountException::TargetParameterCountException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -87,5 +87,3 @@ inline void ENet::FreeCallback::EndInvoke(::System::IAsyncResult* result) {
 }
 // Ctor Parameters []
 constexpr ::ENet::FreeCallback::FreeCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

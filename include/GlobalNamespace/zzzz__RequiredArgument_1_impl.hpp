@@ -55,5 +55,3 @@ template <typename T> inline ::StringW GlobalNamespace::RequiredArgument_1<T>::T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::RequiredArgument_1<T>::RequiredArgument_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

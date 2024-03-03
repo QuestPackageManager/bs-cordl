@@ -17,5 +17,3 @@ constexpr ::UnityEngine::AddressableAssets::AddressablesPlatform UnityEngine::Ad
 constexpr ::UnityEngine::AddressableAssets::AddressablesPlatform UnityEngine::AddressableAssets::AddressablesPlatform::iOS{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::AddressableAssets::AddressablesPlatform UnityEngine::AddressableAssets::AddressablesPlatform::Android{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::AddressableAssets::AddressablesPlatform UnityEngine::AddressableAssets::AddressablesPlatform::WindowsUniversal{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

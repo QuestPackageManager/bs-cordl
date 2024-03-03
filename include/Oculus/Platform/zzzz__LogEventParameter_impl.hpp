@@ -37,5 +37,3 @@ constexpr ::Oculus::Platform::LogEventParameter Oculus::Platform::LogEventParame
 constexpr ::Oculus::Platform::LogEventParameter Oculus::Platform::LogEventParameter::VrIapTrialPeriod{ static_cast<int32_t>(0x1c) };
 constexpr ::Oculus::Platform::LogEventParameter Oculus::Platform::LogEventParameter::VrIapTrialPrice{ static_cast<int32_t>(0x1d) };
 constexpr ::Oculus::Platform::LogEventParameter Oculus::Platform::LogEventParameter::SessionId{ static_cast<int32_t>(0x1e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline bool UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetO
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::APIUpdaterRuntimeHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

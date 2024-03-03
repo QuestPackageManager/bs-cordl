@@ -242,5 +242,3 @@ inline int32_t Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GenericPolynomialExtensionField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

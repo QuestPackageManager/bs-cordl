@@ -57,5 +57,3 @@ inline void GlobalNamespace::FloatFxBaseData::_ctor(float_t beat, bool usePrevio
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxBaseData::FloatFxBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

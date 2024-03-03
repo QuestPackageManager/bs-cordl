@@ -10,5 +10,3 @@ constexpr ::System::Runtime::InteropServices::Architecture System::Runtime::Inte
 constexpr ::System::Runtime::InteropServices::Architecture System::Runtime::InteropServices::Architecture::X64{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::InteropServices::Architecture System::Runtime::InteropServices::Architecture::Arm{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::InteropServices::Architecture System::Runtime::InteropServices::Architecture::Arm64{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

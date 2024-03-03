@@ -133,5 +133,3 @@ inline void System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SafeSocketHandle::SafeSocketHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

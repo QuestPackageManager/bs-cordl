@@ -334,5 +334,3 @@ constexpr ::System::IO::Enumeration::FileSystemEntry::FileSystemEntry(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::System::IO::Enumeration::FileSystemEntry::FileSystemEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline ::System::Collections::IEnumerator* System::Xml::XmlChildNodes::GetEnumer
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlChildNodes::XmlChildNodes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

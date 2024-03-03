@@ -643,5 +643,3 @@ inline bool BGLib::Polyglot::LocalizationModel::KeyExist(::StringW key, ::BGLib:
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationModel::LocalizationModel() {}
 constexpr ::BGLib::Polyglot::Language BGLib::Polyglot::LocalizationModel::kDefaultLanguage{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

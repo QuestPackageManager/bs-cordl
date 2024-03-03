@@ -137,5 +137,3 @@ inline void GlobalNamespace::BeatmapEventDataBoxGroupProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor::BeatmapEventDataBoxGroupProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

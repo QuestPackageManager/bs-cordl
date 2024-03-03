@@ -259,5 +259,3 @@ inline bool System::Xml::NameTable::TextEquals(::StringW str1, ::ArrayW<char16_t
 }
 // Ctor Parameters []
 constexpr ::System::Xml::NameTable::NameTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

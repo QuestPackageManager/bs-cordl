@@ -271,5 +271,3 @@ constexpr ::UnityEngine::InputSystem::InputActionProperty::InputActionProperty(b
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionProperty::InputActionProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

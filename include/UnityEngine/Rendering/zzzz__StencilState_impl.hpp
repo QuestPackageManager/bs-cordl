@@ -324,5 +324,3 @@ constexpr ::UnityEngine::Rendering::StencilState::StencilState(uint8_t m_Enabled
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::StencilState::StencilState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

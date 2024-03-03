@@ -124,5 +124,3 @@ constexpr ::UnityEngine::ContactFilter2D::ContactFilter2D(bool useTriggers, bool
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContactFilter2D::ContactFilter2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

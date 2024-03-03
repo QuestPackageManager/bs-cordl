@@ -86,5 +86,3 @@ inline ::StringW System::ComponentModel::UInt64Converter::ToString(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::UInt64Converter::UInt64Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

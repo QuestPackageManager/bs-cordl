@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_MaterialInfo::HAPI_MaterialInfo(int32_t nod
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_MaterialInfo::HAPI_MaterialInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

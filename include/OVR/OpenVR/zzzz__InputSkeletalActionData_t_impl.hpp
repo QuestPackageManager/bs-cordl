@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::InputSkeletalActionData_t::InputSkeletalActionData_t(bo
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::InputSkeletalActionData_t::InputSkeletalActionData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

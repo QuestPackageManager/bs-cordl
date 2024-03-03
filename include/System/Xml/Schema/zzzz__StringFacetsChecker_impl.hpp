@@ -192,5 +192,3 @@ inline void System::Xml::Schema::StringFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::StringFacetsChecker::StringFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

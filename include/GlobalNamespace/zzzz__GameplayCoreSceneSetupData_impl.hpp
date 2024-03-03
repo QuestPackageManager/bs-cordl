@@ -797,5 +797,3 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayCoreSceneSetupData::GameplayCoreSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

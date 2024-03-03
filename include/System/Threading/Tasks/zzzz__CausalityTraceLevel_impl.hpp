@@ -9,5 +9,3 @@ constexpr ::System::Threading::Tasks::CausalityTraceLevel::CausalityTraceLevel()
 constexpr ::System::Threading::Tasks::CausalityTraceLevel System::Threading::Tasks::CausalityTraceLevel::Required{ static_cast<int32_t>(0x0) };
 constexpr ::System::Threading::Tasks::CausalityTraceLevel System::Threading::Tasks::CausalityTraceLevel::Important{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::Tasks::CausalityTraceLevel System::Threading::Tasks::CausalityTraceLevel::Verbose{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -177,5 +177,3 @@ inline void GlobalNamespace::ObstacleSaberSparkleEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleSaberSparkleEffect::ObstacleSaberSparkleEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

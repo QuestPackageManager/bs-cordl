@@ -186,5 +186,3 @@ inline bool Org::BouncyCastle::Asn1::DerVideotexString::Asn1Equals(::Org::Bouncy
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerVideotexString::DerVideotexString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

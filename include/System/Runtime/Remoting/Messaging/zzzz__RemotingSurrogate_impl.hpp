@@ -88,5 +88,3 @@ inline void System::Runtime::Remoting::Messaging::RemotingSurrogate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::RemotingSurrogate::RemotingSurrogate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

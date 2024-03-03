@@ -198,5 +198,3 @@ inline void GlobalNamespace::SongProgressUIController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongProgressUIController::SongProgressUIController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

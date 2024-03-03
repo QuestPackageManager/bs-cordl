@@ -69,5 +69,3 @@ constexpr ::UnityEngine::Experimental::Playables::MaterialEffectPlayable::Materi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Playables::MaterialEffectPlayable::MaterialEffectPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

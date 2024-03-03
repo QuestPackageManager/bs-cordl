@@ -735,5 +735,3 @@ HoudiniEngineUnity::HEU_MaterialFactory::GetMaterialDataMapFromCache(::System::C
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_MaterialFactory::HEU_MaterialFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -820,5 +820,3 @@ inline void Newtonsoft::Json::Utilities::DateTimeUtils::GetDateValues(::System::
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::DateTimeUtils::DateTimeUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

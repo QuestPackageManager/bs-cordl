@@ -26,5 +26,3 @@ inline void LiteNetLib::Utils::InvalidTypeException::_ctor(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::InvalidTypeException::InvalidTypeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -269,5 +269,3 @@ inline void GlobalNamespace::EditableBeatmapSelectionView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EditableBeatmapSelectionView::EditableBeatmapSelectionView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

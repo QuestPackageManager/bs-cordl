@@ -24,5 +24,3 @@ inline void GlobalNamespace::BoolSignal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BoolSignal::BoolSignal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

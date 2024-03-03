@@ -1625,5 +1625,3 @@ inline void HoudiniEngineUnity::HEU_InputNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputNode::HEU_InputNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

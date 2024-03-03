@@ -38,5 +38,3 @@ constexpr ::UnityEngine::TextCore::Text::LinkInfo::LinkInfo(int32_t hashCode, in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::LinkInfo::LinkInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

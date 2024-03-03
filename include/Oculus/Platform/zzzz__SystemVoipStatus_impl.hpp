@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::SystemVoipStatus Oculus::Platform::SystemVoipStatu
 constexpr ::Oculus::Platform::SystemVoipStatus Oculus::Platform::SystemVoipStatus::Unavailable{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::SystemVoipStatus Oculus::Platform::SystemVoipStatus::Suppressed{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::SystemVoipStatus Oculus::Platform::SystemVoipStatus::Active{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

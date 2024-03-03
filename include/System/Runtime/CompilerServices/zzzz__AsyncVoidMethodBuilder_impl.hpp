@@ -174,5 +174,3 @@ constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AsyncVoid
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AsyncVoidMethodBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

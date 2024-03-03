@@ -224,5 +224,3 @@ inline ::System::Object* System::Security::Cryptography::OidCollection::get_Sync
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::OidCollection::OidCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

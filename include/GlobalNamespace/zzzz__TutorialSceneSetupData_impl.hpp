@@ -56,5 +56,3 @@ inline void GlobalNamespace::TutorialSceneSetupData::_ctor(::GlobalNamespace::Co
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialSceneSetupData::TutorialSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

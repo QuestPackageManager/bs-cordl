@@ -602,5 +602,3 @@ inline void GlobalNamespace::PracticeViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PracticeViewController::PracticeViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

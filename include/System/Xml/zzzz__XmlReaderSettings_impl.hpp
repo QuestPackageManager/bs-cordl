@@ -709,5 +709,3 @@ inline bool System::Xml::XmlReaderSettings::EnableLegacyXmlSettings() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlReaderSettings::XmlReaderSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

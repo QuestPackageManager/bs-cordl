@@ -867,5 +867,3 @@ constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::UIRVEShaderI
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::UIRVEShaderInfoAllocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -787,5 +787,3 @@ inline uint64_t Org::BouncyCastle::Crypto::Engines::ThreefishEngine::XorRotr(uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -386,5 +386,3 @@ constexpr ::GlobalNamespace::QuaternionSerializable::QuaternionSerializable(int3
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuaternionSerializable::QuaternionSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

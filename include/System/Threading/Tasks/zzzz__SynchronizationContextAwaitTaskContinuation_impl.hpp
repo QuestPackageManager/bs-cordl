@@ -189,5 +189,3 @@ inline ::System::Threading::ContextCallback* System::Threading::Tasks::Synchroni
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::SynchronizationContextAwaitTaskContinuation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

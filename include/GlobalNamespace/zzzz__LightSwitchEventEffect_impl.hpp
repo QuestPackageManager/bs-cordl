@@ -548,5 +548,3 @@ inline void GlobalNamespace::LightSwitchEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightSwitchEventEffect::LightSwitchEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

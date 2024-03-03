@@ -50,5 +50,3 @@ constexpr ::TMPro::GlyphPairKey::GlyphPairKey(uint32_t firstGlyphIndex, uint32_t
 }
 // Ctor Parameters []
 constexpr ::TMPro::GlyphPairKey::GlyphPairKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

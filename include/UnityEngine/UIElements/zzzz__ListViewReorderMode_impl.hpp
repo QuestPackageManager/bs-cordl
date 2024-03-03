@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::ListViewReorderMode::ListViewReorderMode(in
 constexpr ::UnityEngine::UIElements::ListViewReorderMode::ListViewReorderMode() {}
 constexpr ::UnityEngine::UIElements::ListViewReorderMode UnityEngine::UIElements::ListViewReorderMode::Simple{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::ListViewReorderMode UnityEngine::UIElements::ListViewReorderMode::Animated{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

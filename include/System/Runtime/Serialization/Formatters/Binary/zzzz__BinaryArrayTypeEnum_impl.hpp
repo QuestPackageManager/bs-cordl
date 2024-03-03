@@ -13,5 +13,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeE
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum::JaggedOffset{ static_cast<int32_t>(0x4) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum::RectangularOffset{ static_cast<int32_t>(
     0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

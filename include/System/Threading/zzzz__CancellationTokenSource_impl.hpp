@@ -766,5 +766,3 @@ inline void System::Threading::CancellationTokenSource::WaitForCallbackToComplet
 }
 // Ctor Parameters []
 constexpr ::System::Threading::CancellationTokenSource::CancellationTokenSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

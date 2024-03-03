@@ -132,5 +132,3 @@ inline void BeatmapSaveDataVersion4::ChainBeatIndex::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::ChainBeatIndex::ChainBeatIndex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

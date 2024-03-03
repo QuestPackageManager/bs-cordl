@@ -184,5 +184,3 @@ inline void GlobalNamespace::SaberSound::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberSound::SaberSound() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

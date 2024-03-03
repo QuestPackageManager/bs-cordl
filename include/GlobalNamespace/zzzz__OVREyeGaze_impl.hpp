@@ -429,5 +429,3 @@ inline void GlobalNamespace::OVREyeGaze::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVREyeGaze::OVREyeGaze() {}
 constexpr ::GlobalNamespace::__OVRPermissionsRequester__Permission GlobalNamespace::OVREyeGaze::EyeTrackingPermission{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

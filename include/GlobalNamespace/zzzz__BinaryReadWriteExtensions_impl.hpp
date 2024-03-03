@@ -210,5 +210,3 @@ inline ::System::Collections::Generic::List_1<T>* GlobalNamespace::BinaryReadWri
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BinaryReadWriteExtensions::BinaryReadWriteExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

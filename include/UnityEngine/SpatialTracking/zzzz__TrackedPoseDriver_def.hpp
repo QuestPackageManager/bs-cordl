@@ -81,7 +81,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int32_t() const noexcept {
+  constexpr explicit operator int32_t() const noexcept {
     return static_cast<int32_t>(this->value__);
   }
 
@@ -146,7 +146,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int32_t() const noexcept {
+  constexpr explicit operator int32_t() const noexcept {
     return static_cast<int32_t>(this->value__);
   }
 
@@ -227,7 +227,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int32_t() const noexcept {
+  constexpr explicit operator int32_t() const noexcept {
     return static_cast<int32_t>(this->value__);
   }
 
@@ -284,7 +284,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator int32_t() const noexcept {
+  constexpr explicit operator int32_t() const noexcept {
     return static_cast<int32_t>(this->value__);
   }
 

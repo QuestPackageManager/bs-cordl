@@ -534,5 +534,3 @@ inline void TMPro::TMP_SpriteAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteAnimator::TMP_SpriteAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

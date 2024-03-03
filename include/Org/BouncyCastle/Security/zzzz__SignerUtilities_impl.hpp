@@ -268,5 +268,3 @@ inline ::Org::BouncyCastle::Crypto::ISigner* Org::BouncyCastle::Security::Signer
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::SignerUtilities::SignerUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

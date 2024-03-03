@@ -547,5 +547,3 @@ constexpr ::System::IntPtr::IntPtr(::cordl_internals::Ptr<void> m_value) noexcep
 }
 // Ctor Parameters []
 constexpr ::System::IntPtr::IntPtr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

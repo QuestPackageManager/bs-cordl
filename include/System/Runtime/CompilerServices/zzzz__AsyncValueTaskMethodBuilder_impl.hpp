@@ -141,5 +141,3 @@ constexpr ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::Asyn
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::AsyncValueTaskMethodBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

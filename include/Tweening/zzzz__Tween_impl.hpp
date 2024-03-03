@@ -533,5 +533,3 @@ inline void Tweening::Tween::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tweening::Tween::Tween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

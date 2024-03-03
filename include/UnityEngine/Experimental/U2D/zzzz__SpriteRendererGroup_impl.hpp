@@ -3,5 +3,3 @@
 #include "UnityEngine/Experimental/U2D/zzzz__SpriteRendererGroup_def.hpp"
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::U2D::SpriteRendererGroup::SpriteRendererGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

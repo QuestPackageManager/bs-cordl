@@ -135,5 +135,3 @@ inline void GlobalNamespace::BookmarksFoldersModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BookmarksFoldersModel::BookmarksFoldersModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

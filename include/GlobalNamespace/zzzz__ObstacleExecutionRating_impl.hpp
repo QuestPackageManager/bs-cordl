@@ -70,5 +70,3 @@ inline void GlobalNamespace::ObstacleExecutionRating::_ctor(float_t time, ::Glob
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleExecutionRating::ObstacleExecutionRating() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

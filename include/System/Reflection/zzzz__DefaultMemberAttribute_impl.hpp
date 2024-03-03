@@ -58,5 +58,3 @@ inline ::StringW System::Reflection::DefaultMemberAttribute::get_MemberName() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::DefaultMemberAttribute::DefaultMemberAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

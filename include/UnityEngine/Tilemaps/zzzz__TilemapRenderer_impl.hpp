@@ -64,5 +64,3 @@ inline void UnityEngine::Tilemaps::TilemapRenderer::OnSpriteAtlasRegistered(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TilemapRenderer::TilemapRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

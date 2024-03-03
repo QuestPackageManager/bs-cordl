@@ -8,5 +8,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::Priority::Priority(int32_t value__) noe
 constexpr ::Unity::IO::LowLevel::Unsafe::Priority::Priority() {}
 constexpr ::Unity::IO::LowLevel::Unsafe::Priority Unity::IO::LowLevel::Unsafe::Priority::PriorityLow{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::IO::LowLevel::Unsafe::Priority Unity::IO::LowLevel::Unsafe::Priority::PriorityHigh{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

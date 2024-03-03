@@ -659,5 +659,3 @@ inline void HMUI::HoverHintController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverHintController::HoverHintController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

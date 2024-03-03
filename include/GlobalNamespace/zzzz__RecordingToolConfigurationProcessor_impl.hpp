@@ -883,5 +883,3 @@ inline ::GlobalNamespace::MenuDestination* GlobalNamespace::RecordingToolConfigu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor::RecordingToolConfigurationProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

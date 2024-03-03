@@ -40,5 +40,3 @@ inline void System::Reflection::AssemblyInformationalVersionAttribute::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyInformationalVersionAttribute::AssemblyInformationalVersionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -484,5 +484,3 @@ inline float_t UnityEngine::UIElements::AbstractProgressBar::CalculateProgressWi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::AbstractProgressBar::AbstractProgressBar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

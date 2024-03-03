@@ -351,5 +351,3 @@ inline void HMUI::ScrollViewItemsVisibilityController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollViewItemsVisibilityController::ScrollViewItemsVisibilityController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

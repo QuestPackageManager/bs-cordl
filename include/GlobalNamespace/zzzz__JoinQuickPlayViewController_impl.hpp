@@ -279,5 +279,3 @@ inline void GlobalNamespace::JoinQuickPlayViewController::_DidActivate_b__12_1()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JoinQuickPlayViewController::JoinQuickPlayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -141,5 +141,3 @@ inline void GlobalNamespace::BakedLightDataLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BakedLightDataLoader::BakedLightDataLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

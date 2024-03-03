@@ -218,5 +218,3 @@ inline void System::Xml::Schema::Datatype_decimal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_decimal::Datatype_decimal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

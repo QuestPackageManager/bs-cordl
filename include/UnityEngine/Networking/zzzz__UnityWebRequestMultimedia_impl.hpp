@@ -28,5 +28,3 @@ inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UnityWebRequestMultimedia::UnityWebRequestMultimedia() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

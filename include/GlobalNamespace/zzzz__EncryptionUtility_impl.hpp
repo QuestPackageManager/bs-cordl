@@ -911,5 +911,3 @@ inline void GlobalNamespace::EncryptionUtility::LogV(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EncryptionUtility::EncryptionUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -165,5 +165,3 @@ inline void System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflect
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SoapMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

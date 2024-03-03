@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/UI/zzzz__Button_impl.hpp"
+#endif

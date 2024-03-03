@@ -324,5 +324,3 @@ inline void GlobalNamespace::ContinuousFireEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ContinuousFireEffect::ContinuousFireEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

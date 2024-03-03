@@ -103,5 +103,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* Org::BouncyCastle::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::HeartbeatExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

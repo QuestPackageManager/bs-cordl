@@ -9,5 +9,3 @@ constexpr ::System::UriFormat::UriFormat() {}
 constexpr ::System::UriFormat System::UriFormat::UriEscaped{ static_cast<int32_t>(0x1) };
 constexpr ::System::UriFormat System::UriFormat::Unescaped{ static_cast<int32_t>(0x2) };
 constexpr ::System::UriFormat System::UriFormat::SafeUnescaped{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::BeatmapSaveDataVersion4::Chain::Chain(int32_t tx, int32_t ty, int32_
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::Chain::Chain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

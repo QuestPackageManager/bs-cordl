@@ -21,5 +21,3 @@ constexpr ::OVR::OpenVR::VRControllerState_t::VRControllerState_t(uint32_t unPac
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRControllerState_t::VRControllerState_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

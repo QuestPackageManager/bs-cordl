@@ -48,5 +48,3 @@ inline void GlobalNamespace::PerformanceVisualizer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceVisualizer::PerformanceVisualizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

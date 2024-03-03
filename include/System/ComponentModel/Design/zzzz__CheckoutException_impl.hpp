@@ -87,5 +87,3 @@ inline void System::ComponentModel::Design::CheckoutException::_ctor(::System::R
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Design::CheckoutException::CheckoutException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

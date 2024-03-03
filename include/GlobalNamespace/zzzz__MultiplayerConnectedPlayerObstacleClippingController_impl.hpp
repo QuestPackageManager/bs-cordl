@@ -87,5 +87,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingControlle
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::MultiplayerConnectedPlayerObstacleClippingController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

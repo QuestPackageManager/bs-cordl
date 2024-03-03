@@ -27,5 +27,3 @@ inline void GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene(::Un
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityScenesHelper::UnityScenesHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

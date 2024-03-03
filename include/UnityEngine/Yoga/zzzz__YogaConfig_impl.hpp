@@ -175,5 +175,3 @@ inline void UnityEngine::Yoga::YogaConfig::set_PointScaleFactor(float_t value) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::YogaConfig::YogaConfig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

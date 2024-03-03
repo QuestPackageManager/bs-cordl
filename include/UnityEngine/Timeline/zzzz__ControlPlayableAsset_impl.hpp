@@ -1176,5 +1176,3 @@ inline void UnityEngine::Timeline::ControlPlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ControlPlayableAsset::ControlPlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -636,5 +636,3 @@ inline void GlobalNamespace::GameplaySetupViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplaySetupViewController::GameplaySetupViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

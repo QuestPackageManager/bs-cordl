@@ -79,5 +79,3 @@ inline void Org::BouncyCastle::Bcpg::OutputStreamPacket::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OutputStreamPacket::OutputStreamPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

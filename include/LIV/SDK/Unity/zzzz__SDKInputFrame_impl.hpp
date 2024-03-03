@@ -102,5 +102,3 @@ constexpr ::LIV::SDK::Unity::SDKInputFrame::SDKInputFrame(::LIV::SDK::Unity::SDK
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKInputFrame::SDKInputFrame() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

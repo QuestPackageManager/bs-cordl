@@ -518,5 +518,3 @@ inline void System::Collections::__SortedList__SyncSortedList::Remove(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Collections::__SortedList__SyncSortedList::__SortedList__SyncSortedList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

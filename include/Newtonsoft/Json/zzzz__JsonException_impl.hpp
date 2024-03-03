@@ -127,5 +127,3 @@ inline ::Newtonsoft::Json::JsonException* Newtonsoft::Json::JsonException::Creat
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonException::JsonException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

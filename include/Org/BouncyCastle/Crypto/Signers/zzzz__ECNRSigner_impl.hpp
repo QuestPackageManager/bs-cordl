@@ -190,5 +190,3 @@ inline void Org::BouncyCastle::Crypto::Signers::ECNRSigner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::ECNRSigner::ECNRSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

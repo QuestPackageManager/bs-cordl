@@ -12,5 +12,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CacheProperty HoudiniEngineUnity::HAPI_Cach
 constexpr ::HoudiniEngineUnity::HAPI_CacheProperty HoudiniEngineUnity::HAPI_CacheProperty::HAPI_CACHEPROP_HAS_MAX{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_CacheProperty HoudiniEngineUnity::HAPI_CacheProperty::HAPI_CACHEPROP_MAX{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_CacheProperty HoudiniEngineUnity::HAPI_CacheProperty::HAPI_CACHEPROP_CULL_LEVEL{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

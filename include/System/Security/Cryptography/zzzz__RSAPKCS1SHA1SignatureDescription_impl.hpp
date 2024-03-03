@@ -27,5 +27,3 @@ inline void System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::_c
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::RSAPKCS1SHA1SignatureDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

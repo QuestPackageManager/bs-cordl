@@ -659,5 +659,3 @@ inline void Mono::Net::Security::MobileTlsContext::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MobileTlsContext::MobileTlsContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

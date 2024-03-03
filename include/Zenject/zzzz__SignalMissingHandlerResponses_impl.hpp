@@ -9,5 +9,3 @@ constexpr ::Zenject::SignalMissingHandlerResponses::SignalMissingHandlerResponse
 constexpr ::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::Ignore{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::Throw{ static_cast<int32_t>(0x1) };
 constexpr ::Zenject::SignalMissingHandlerResponses Zenject::SignalMissingHandlerResponses::Warn{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

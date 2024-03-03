@@ -163,5 +163,3 @@ inline void UnityEngine::InputSystem::UI::MultiplayerEventSystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::MultiplayerEventSystem::MultiplayerEventSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

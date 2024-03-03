@@ -261,5 +261,3 @@ inline void System::Security::Cryptography::SHA1Internal::AddLength(uint64_t len
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA1Internal::SHA1Internal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

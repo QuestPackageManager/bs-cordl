@@ -135,5 +135,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::Prepare(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::ConstrainedPointSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

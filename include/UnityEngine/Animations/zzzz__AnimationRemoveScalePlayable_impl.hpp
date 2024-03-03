@@ -215,5 +215,3 @@ constexpr ::UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemoveScalePlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

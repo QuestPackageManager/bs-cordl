@@ -585,5 +585,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ExpectCertificate
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::TlsServerProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -117,5 +117,3 @@ inline void System::Runtime::Remoting::Lifetime::LeaseSink::RenewLease(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseSink::LeaseSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

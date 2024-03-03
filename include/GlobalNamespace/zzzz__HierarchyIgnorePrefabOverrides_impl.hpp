@@ -25,5 +25,3 @@ inline void GlobalNamespace::HierarchyIgnorePrefabOverrides::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HierarchyIgnorePrefabOverrides::HierarchyIgnorePrefabOverrides() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

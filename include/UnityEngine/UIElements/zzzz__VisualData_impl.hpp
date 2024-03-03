@@ -178,5 +178,3 @@ constexpr ::UnityEngine::UIElements::VisualData::VisualData(::UnityEngine::Color
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualData::VisualData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

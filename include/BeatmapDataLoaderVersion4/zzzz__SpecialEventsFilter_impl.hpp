@@ -69,5 +69,3 @@ inline bool BeatmapDataLoaderVersion4::SpecialEventsFilter::IsEventValid(::Beatm
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::SpecialEventsFilter::SpecialEventsFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

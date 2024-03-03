@@ -723,5 +723,3 @@ inline void OVRSimpleJSON::JSONObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONObject::JSONObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

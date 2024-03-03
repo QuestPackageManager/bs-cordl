@@ -142,5 +142,3 @@ constexpr ::System::TypedReference::TypedReference(::System::RuntimeTypeHandle t
 }
 // Ctor Parameters []
 constexpr ::System::TypedReference::TypedReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

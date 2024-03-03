@@ -227,5 +227,3 @@ inline void GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_2()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SettingsNavigationController::SettingsNavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

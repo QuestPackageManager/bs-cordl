@@ -92,5 +92,3 @@ inline void Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::AbstractF2mFieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

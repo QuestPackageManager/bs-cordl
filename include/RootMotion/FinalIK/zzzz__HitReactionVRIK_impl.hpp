@@ -1042,5 +1042,3 @@ inline void RootMotion::FinalIK::HitReactionVRIK::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::HitReactionVRIK::HitReactionVRIK() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

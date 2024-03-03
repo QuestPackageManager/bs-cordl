@@ -447,5 +447,3 @@ constexpr ::UnityEngine::SpherecastCommand::SpherecastCommand(::UnityEngine::Vec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpherecastCommand::SpherecastCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

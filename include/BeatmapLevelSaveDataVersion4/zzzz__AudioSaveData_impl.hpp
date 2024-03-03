@@ -101,5 +101,3 @@ inline void BeatmapLevelSaveDataVersion4::AudioSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::AudioSaveData::AudioSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

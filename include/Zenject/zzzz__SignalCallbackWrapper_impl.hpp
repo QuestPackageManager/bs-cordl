@@ -172,5 +172,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalCallbackWrapper::__zenCreateInj
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalCallbackWrapper::SignalCallbackWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

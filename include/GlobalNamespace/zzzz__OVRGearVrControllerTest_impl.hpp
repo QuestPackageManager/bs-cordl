@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRGearVrControllerTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGearVrControllerTest::OVRGearVrControllerTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

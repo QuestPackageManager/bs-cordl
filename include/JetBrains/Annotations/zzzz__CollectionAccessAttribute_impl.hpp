@@ -81,5 +81,3 @@ inline void JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAcc
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::CollectionAccessAttribute::CollectionAccessAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

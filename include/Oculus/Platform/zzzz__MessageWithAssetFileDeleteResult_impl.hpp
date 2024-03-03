@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::AssetFileDeleteResult* Oculus::Platform::Mess
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAssetFileDeleteResult::MessageWithAssetFileDeleteResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

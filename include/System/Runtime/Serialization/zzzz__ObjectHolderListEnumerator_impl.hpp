@@ -123,5 +123,3 @@ inline ::System::Runtime::Serialization::ObjectHolder* System::Runtime::Serializ
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectHolderListEnumerator::ObjectHolderListEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

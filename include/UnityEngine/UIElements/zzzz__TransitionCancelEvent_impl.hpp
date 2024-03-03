@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::TransitionCancelEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TransitionCancelEvent::TransitionCancelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

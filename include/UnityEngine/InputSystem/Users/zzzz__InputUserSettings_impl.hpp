@@ -685,5 +685,3 @@ inline void UnityEngine::InputSystem::Users::InputUserSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::InputUserSettings::InputUserSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

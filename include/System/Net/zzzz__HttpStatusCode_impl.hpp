@@ -72,5 +72,3 @@ constexpr ::System::Net::HttpStatusCode System::Net::HttpStatusCode::Insufficien
 constexpr ::System::Net::HttpStatusCode System::Net::HttpStatusCode::LoopDetected{ static_cast<int32_t>(0x1fc) };
 constexpr ::System::Net::HttpStatusCode System::Net::HttpStatusCode::NotExtended{ static_cast<int32_t>(0x1fe) };
 constexpr ::System::Net::HttpStatusCode System::Net::HttpStatusCode::NetworkAuthenticationRequired{ static_cast<int32_t>(0x1ff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

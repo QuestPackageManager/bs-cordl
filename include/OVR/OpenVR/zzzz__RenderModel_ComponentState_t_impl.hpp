@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::RenderModel_ComponentState_t::RenderModel_ComponentStat
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_ComponentState_t::RenderModel_ComponentState_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

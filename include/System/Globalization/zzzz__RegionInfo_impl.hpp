@@ -588,5 +588,3 @@ inline void System::Globalization::RegionInfo::ClearCachedData() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::RegionInfo::RegionInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

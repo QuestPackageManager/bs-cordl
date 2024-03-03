@@ -593,5 +593,3 @@ inline void System::ComponentModel::NotifyCollectionChangedEventArgs::_ctor(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

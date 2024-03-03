@@ -15,5 +15,3 @@ constexpr ::ENet::ENetAddress::ENetAddress(uint16_t port) noexcept {
 }
 // Ctor Parameters []
 constexpr ::ENet::ENetAddress::ENetAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ inline bool Org::BouncyCastle::X509::Store::IX509Selector::Match(::System::Objec
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::IX509Selector*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

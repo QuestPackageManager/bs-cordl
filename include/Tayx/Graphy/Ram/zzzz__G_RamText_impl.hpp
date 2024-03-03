@@ -183,5 +183,3 @@ inline void Tayx::Graphy::Ram::G_RamText::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Ram::G_RamText::G_RamText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -164,5 +164,3 @@ constexpr ::UnityEngine::Playables::Playable::Playable(::UnityEngine::Playables:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::Playable::Playable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

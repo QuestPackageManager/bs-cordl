@@ -30,5 +30,3 @@ constexpr ::OVR::OpenVR::EVROverlayError OVR::OpenVR::EVROverlayError::BadMaskPr
 constexpr ::OVR::OpenVR::EVROverlayError OVR::OpenVR::EVROverlayError::TextureAlreadyLocked{ static_cast<int32_t>(0x1f) };
 constexpr ::OVR::OpenVR::EVROverlayError OVR::OpenVR::EVROverlayError::TextureLockCapacityReached{ static_cast<int32_t>(0x20) };
 constexpr ::OVR::OpenVR::EVROverlayError OVR::OpenVR::EVROverlayError::TextureNotLocked{ static_cast<int32_t>(0x21) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

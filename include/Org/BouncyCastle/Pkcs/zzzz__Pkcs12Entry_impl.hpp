@@ -166,5 +166,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Pkcs::Pkcs12Entry:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs12Entry::Pkcs12Entry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

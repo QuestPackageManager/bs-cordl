@@ -85,5 +85,3 @@ inline float_t GlobalNamespace::BeatmapDifficultyMethods::NoteJumpMovementSpeed(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultyMethods::BeatmapDifficultyMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

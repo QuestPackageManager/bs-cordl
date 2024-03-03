@@ -209,5 +209,3 @@ inline void OVR::OpenVR::OpenVRInterop::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::OpenVRInterop::OpenVRInterop() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

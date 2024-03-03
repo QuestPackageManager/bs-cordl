@@ -1586,5 +1586,3 @@ inline ::UnityEngine::Vector4 UnityEngine::ProBuilder::Math::EnsureUnitVector(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Math::Math() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

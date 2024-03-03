@@ -495,5 +495,3 @@ inline void System::Xml::TextEncodedRawTextWriter::WriteRaw(::StringW data) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::TextEncodedRawTextWriter::TextEncodedRawTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

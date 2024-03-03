@@ -409,5 +409,3 @@ inline ::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*, ::
 }
 // Ctor Parameters []
 constexpr ::System::Net::Dns::Dns() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

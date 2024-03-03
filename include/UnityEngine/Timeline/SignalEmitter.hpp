@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_impl.hpp"
+#endif

@@ -158,5 +158,3 @@ inline void UnityEngine::Timeline::TimeControlPlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimeControlPlayable::TimeControlPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

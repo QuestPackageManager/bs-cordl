@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::DiscoveryPolicy::DiscoveryPolicy() {}
 constexpr ::GlobalNamespace::DiscoveryPolicy GlobalNamespace::DiscoveryPolicy::Hidden{ static_cast<uint8_t>(0x0u) };
 constexpr ::GlobalNamespace::DiscoveryPolicy GlobalNamespace::DiscoveryPolicy::WithCode{ static_cast<uint8_t>(0x1u) };
 constexpr ::GlobalNamespace::DiscoveryPolicy GlobalNamespace::DiscoveryPolicy::Public{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

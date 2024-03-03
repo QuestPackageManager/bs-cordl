@@ -25,5 +25,3 @@ inline void GlobalNamespace::ObstaclesQualitySO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstaclesQualitySO::ObstaclesQualitySO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ inline void Zenject::IPoolable_10<TParam1, TParam2, TParam3, TParam4, TParam5, T
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPoolable_10<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::UnityEngine::AvatarTarget UnityEngine::AvatarTarget::LeftFoot{ stati
 constexpr ::UnityEngine::AvatarTarget UnityEngine::AvatarTarget::RightFoot{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::AvatarTarget UnityEngine::AvatarTarget::LeftHand{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::AvatarTarget UnityEngine::AvatarTarget::RightHand{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

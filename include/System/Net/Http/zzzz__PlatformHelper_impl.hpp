@@ -73,5 +73,3 @@ inline ::System::Net::Http::StreamContent* System::Net::Http::PlatformHelper::Cr
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::PlatformHelper::PlatformHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

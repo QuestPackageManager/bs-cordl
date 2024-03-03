@@ -92,5 +92,3 @@ inline void GlobalNamespace::OneTimeLightColorEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OneTimeLightColorEffect::OneTimeLightColorEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

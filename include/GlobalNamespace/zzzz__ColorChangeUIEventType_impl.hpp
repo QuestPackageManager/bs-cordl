@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::ColorChangeUIEventType::ColorChangeUIEventType(int3
 constexpr ::GlobalNamespace::ColorChangeUIEventType::ColorChangeUIEventType() {}
 constexpr ::GlobalNamespace::ColorChangeUIEventType GlobalNamespace::ColorChangeUIEventType::Drag{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ColorChangeUIEventType GlobalNamespace::ColorChangeUIEventType::PointerUp{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

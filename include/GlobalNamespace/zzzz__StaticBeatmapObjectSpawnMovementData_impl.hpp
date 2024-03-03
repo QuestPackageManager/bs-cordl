@@ -67,5 +67,3 @@ inline float_t GlobalNamespace::StaticBeatmapObjectSpawnMovementData::get_layerH
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticBeatmapObjectSpawnMovementData::StaticBeatmapObjectSpawnMovementData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

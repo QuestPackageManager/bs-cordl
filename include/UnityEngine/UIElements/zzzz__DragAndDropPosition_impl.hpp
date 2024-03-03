@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::DragAndDropPosition::DragAndDropPosition() 
 constexpr ::UnityEngine::UIElements::DragAndDropPosition UnityEngine::UIElements::DragAndDropPosition::OverItem{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::DragAndDropPosition UnityEngine::UIElements::DragAndDropPosition::BetweenItems{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::DragAndDropPosition UnityEngine::UIElements::DragAndDropPosition::OutsideItems{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

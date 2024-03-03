@@ -1207,5 +1207,3 @@ constexpr ::OVR::OpenVR::IVRTrackedCamera::IVRTrackedCamera(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRTrackedCamera::IVRTrackedCamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

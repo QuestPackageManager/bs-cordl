@@ -670,5 +670,3 @@ inline bool UnityEngine::AddressableAssets::AssetReference::ValidateAsset(::Stri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReference::AssetReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

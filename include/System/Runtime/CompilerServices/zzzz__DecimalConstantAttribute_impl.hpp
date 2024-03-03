@@ -67,5 +67,3 @@ inline ::System::Decimal System::Runtime::CompilerServices::DecimalConstantAttri
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DecimalConstantAttribute::DecimalConstantAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

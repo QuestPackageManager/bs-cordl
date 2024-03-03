@@ -563,5 +563,3 @@ inline ::System::Security::Cryptography::RSA* Org::BouncyCastle::Security::DotNe
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::DotNetUtilities::DotNetUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -40,5 +40,3 @@ inline void GlobalNamespace::ProgressActivitySO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProgressActivitySO::ProgressActivitySO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

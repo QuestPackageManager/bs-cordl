@@ -111,5 +111,3 @@ inline void GlobalNamespace::JumpReceiver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JumpReceiver::JumpReceiver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

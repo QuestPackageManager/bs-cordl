@@ -98,5 +98,3 @@ inline void UnityEngine::InputSystem::Processors::ScaleVector2Processor::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::ScaleVector2Processor::ScaleVector2Processor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

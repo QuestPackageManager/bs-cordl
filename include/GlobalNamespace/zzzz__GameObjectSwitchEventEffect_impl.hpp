@@ -161,5 +161,3 @@ inline void GlobalNamespace::GameObjectSwitchEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameObjectSwitchEventEffect::GameObjectSwitchEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

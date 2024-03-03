@@ -49,5 +49,3 @@ template <typename TSignal> inline ::Zenject::BindSignalIdToBinder_1<TSignal>* Z
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalExtensions::SignalExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1048,5 +1048,3 @@ inline void System::Collections::ListDictionaryInternal::Remove(::System::Object
 }
 // Ctor Parameters []
 constexpr ::System::Collections::ListDictionaryInternal::ListDictionaryInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

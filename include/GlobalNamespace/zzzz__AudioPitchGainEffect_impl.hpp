@@ -457,5 +457,3 @@ inline void GlobalNamespace::AudioPitchGainEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioPitchGainEffect::AudioPitchGainEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -628,5 +628,3 @@ inline void Unity::XR::OpenVR::OpenVRControllerWMR::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::OpenVRControllerWMR::OpenVRControllerWMR() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

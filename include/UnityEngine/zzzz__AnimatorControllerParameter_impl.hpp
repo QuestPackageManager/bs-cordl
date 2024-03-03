@@ -144,5 +144,3 @@ inline void UnityEngine::AnimatorControllerParameter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorControllerParameter::AnimatorControllerParameter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

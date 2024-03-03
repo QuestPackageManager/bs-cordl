@@ -987,5 +987,3 @@ inline void HoudiniEngineUnity::HEU_BaseSync::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_BaseSync::HEU_BaseSync() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

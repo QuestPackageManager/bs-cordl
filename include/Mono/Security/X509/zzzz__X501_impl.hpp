@@ -185,5 +185,3 @@ inline void Mono::Security::X509::X501::AppendEntry(::System::Text::StringBuilde
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X501::X501() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -296,5 +296,3 @@ inline void GlobalNamespace::StandardScoreSyncStateNetSerializable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardScoreSyncStateNetSerializable::StandardScoreSyncStateNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

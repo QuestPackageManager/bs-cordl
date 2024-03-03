@@ -50,5 +50,3 @@ inline void Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::_ctor(::Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator::CmsAuthenticatedGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

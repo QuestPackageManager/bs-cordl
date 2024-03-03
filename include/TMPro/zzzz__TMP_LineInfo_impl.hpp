@@ -41,5 +41,3 @@ constexpr ::TMPro::TMP_LineInfo::TMP_LineInfo(int32_t controlCharacterCount, int
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_LineInfo::TMP_LineInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

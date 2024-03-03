@@ -14,5 +14,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum S
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum::ObjectArray{ static_cast<int32_t>(0x5) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum::StringArray{ static_cast<int32_t>(0x6) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum::PrimitiveArray{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

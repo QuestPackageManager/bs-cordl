@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::MultiplayerSongEntitlementsStatus::MultiplayerSongE
 constexpr ::GlobalNamespace::MultiplayerSongEntitlementsStatus::MultiplayerSongEntitlementsStatus() {}
 constexpr ::GlobalNamespace::MultiplayerSongEntitlementsStatus GlobalNamespace::MultiplayerSongEntitlementsStatus::Ok{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MultiplayerSongEntitlementsStatus GlobalNamespace::MultiplayerSongEntitlementsStatus::Invalid{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

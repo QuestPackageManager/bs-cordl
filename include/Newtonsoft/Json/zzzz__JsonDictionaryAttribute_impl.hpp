@@ -48,5 +48,3 @@ inline void Newtonsoft::Json::JsonDictionaryAttribute::_ctor(::StringW id) {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonDictionaryAttribute::JsonDictionaryAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -118,5 +118,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Sequence* Org::BouncyCastle::X509::PemPars
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::PemParser::PemParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

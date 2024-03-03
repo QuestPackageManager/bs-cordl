@@ -2646,5 +2646,3 @@ inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rigidbody::Rigidbody() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

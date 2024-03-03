@@ -250,5 +250,3 @@ inline void GlobalNamespace::FakeMirrorObjectsInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FakeMirrorObjectsInstaller::FakeMirrorObjectsInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

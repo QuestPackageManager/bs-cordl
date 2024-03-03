@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TransparencySortMode UnityEngine::TransparencySortMode:
 constexpr ::UnityEngine::TransparencySortMode UnityEngine::TransparencySortMode::Perspective{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TransparencySortMode UnityEngine::TransparencySortMode::Orthographic{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TransparencySortMode UnityEngine::TransparencySortMode::CustomAxis{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

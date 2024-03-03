@@ -12,5 +12,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::ProcessingState Unity::IO::LowLevel::Un
 constexpr ::Unity::IO::LowLevel::Unsafe::ProcessingState Unity::IO::LowLevel::Unsafe::ProcessingState::Completed{ static_cast<int32_t>(0x3) };
 constexpr ::Unity::IO::LowLevel::Unsafe::ProcessingState Unity::IO::LowLevel::Unsafe::ProcessingState::Failed{ static_cast<int32_t>(0x4) };
 constexpr ::Unity::IO::LowLevel::Unsafe::ProcessingState Unity::IO::LowLevel::Unsafe::ProcessingState::Canceled{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

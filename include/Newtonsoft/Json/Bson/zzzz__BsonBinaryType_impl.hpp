@@ -13,5 +13,3 @@ constexpr ::Newtonsoft::Json::Bson::BsonBinaryType Newtonsoft::Json::Bson::BsonB
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType Newtonsoft::Json::Bson::BsonBinaryType::Uuid{ static_cast<uint8_t>(0x4u) };
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType Newtonsoft::Json::Bson::BsonBinaryType::Md5{ static_cast<uint8_t>(0x5u) };
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType Newtonsoft::Json::Bson::BsonBinaryType::UserDefined{ static_cast<uint8_t>(0x80u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

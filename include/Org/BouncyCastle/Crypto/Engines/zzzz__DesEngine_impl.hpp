@@ -349,5 +349,3 @@ inline void Org::BouncyCastle::Crypto::Engines::DesEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::DesEngine::DesEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

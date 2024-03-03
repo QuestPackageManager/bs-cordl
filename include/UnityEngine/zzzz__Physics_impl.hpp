@@ -5903,5 +5903,3 @@ inline void UnityEngine::Physics::Internal_RebuildBroadphaseRegions_Injected(ByR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Physics::Physics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

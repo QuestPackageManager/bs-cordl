@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::NetSyncSessionList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::NetSyncSessionList::NetSyncSessionList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline void MidiParser::MidiTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::MidiParser::MidiTrack::MidiTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

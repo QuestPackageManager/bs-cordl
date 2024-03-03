@@ -26,5 +26,3 @@ constexpr ::UnityEngine::SortingLayer::SortingLayer(int32_t m_Id) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SortingLayer::SortingLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

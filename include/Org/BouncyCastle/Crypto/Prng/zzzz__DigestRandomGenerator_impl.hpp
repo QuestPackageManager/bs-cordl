@@ -284,5 +284,3 @@ inline void Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestDoFina
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestRandomGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -14,5 +14,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ImageDataFormat HoudiniEngineUnity::HAPI_Im
 constexpr ::HoudiniEngineUnity::HAPI_ImageDataFormat HoudiniEngineUnity::HAPI_ImageDataFormat::HAPI_IMAGE_DATA_FLOAT32{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_ImageDataFormat HoudiniEngineUnity::HAPI_ImageDataFormat::HAPI_IMAGE_DATA_MAX{ static_cast<int32_t>(0x5) };
 constexpr ::HoudiniEngineUnity::HAPI_ImageDataFormat HoudiniEngineUnity::HAPI_ImageDataFormat::HAPI_IMAGE_DATA_DEFAULT{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

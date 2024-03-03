@@ -358,5 +358,3 @@ inline void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, T
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::MultiplayerSyncStateManager_5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

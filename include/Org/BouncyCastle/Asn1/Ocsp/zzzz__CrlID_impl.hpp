@@ -145,5 +145,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ocsp::Crl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::CrlID::CrlID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

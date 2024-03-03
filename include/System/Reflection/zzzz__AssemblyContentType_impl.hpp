@@ -8,5 +8,3 @@ constexpr ::System::Reflection::AssemblyContentType::AssemblyContentType(int32_t
 constexpr ::System::Reflection::AssemblyContentType::AssemblyContentType() {}
 constexpr ::System::Reflection::AssemblyContentType System::Reflection::AssemblyContentType::Default{ static_cast<int32_t>(0x0) };
 constexpr ::System::Reflection::AssemblyContentType System::Reflection::AssemblyContentType::WindowsRuntime{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

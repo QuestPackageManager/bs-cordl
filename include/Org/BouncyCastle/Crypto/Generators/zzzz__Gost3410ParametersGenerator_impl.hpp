@@ -250,5 +250,3 @@ inline void Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator::Gost3410ParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

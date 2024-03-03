@@ -192,5 +192,3 @@ inline void Org::BouncyCastle::Cms::SignerInfoGenerator::setAssociatedCertificat
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInfoGenerator::SignerInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

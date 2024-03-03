@@ -74,5 +74,3 @@ inline void Org::BouncyCastle::Ocsp::OcspException::_ctor(::StringW message, ::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcspException::OcspException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

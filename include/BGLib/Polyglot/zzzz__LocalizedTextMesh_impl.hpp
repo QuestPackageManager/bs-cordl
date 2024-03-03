@@ -201,5 +201,3 @@ inline void BGLib::Polyglot::LocalizedTextMesh::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizedTextMesh::LocalizedTextMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

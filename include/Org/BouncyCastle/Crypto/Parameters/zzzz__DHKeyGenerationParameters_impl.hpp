@@ -88,5 +88,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters::DHKeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

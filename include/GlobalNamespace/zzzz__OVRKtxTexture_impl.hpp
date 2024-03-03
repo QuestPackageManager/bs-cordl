@@ -48,5 +48,3 @@ inline void GlobalNamespace::OVRKtxTexture::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRKtxTexture::OVRKtxTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

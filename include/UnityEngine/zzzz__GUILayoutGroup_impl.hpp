@@ -542,5 +542,3 @@ inline ::StringW UnityEngine::GUILayoutGroup::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUILayoutGroup::GUILayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

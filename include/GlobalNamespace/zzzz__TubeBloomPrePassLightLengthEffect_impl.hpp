@@ -80,5 +80,3 @@ inline void GlobalNamespace::TubeBloomPrePassLightLengthEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeBloomPrePassLightLengthEffect::TubeBloomPrePassLightLengthEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -151,5 +151,3 @@ inline void GlobalNamespace::__SpawnRotationChevron__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__SpawnRotationChevron__Pool::__SpawnRotationChevron__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

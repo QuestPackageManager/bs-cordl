@@ -112,5 +112,3 @@ inline void System::UriFormatException::System_Runtime_Serialization_ISerializab
 }
 // Ctor Parameters []
 constexpr ::System::UriFormatException::UriFormatException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

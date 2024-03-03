@@ -666,5 +666,3 @@ inline void UnityEngine::TerrainLayer::set_maskMapRemapMax_Injected(ByRef<::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainLayer::TerrainLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

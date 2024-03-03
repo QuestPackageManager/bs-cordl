@@ -186,5 +186,3 @@ inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Spline::Spline() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1528,5 +1528,3 @@ inline void ENet::Native::enet_peer_reset(void* peer) {
 }
 // Ctor Parameters []
 constexpr ::ENet::Native::Native() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

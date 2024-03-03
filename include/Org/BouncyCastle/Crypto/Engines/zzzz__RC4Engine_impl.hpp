@@ -217,5 +217,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RC4Engine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RC4Engine::RC4Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

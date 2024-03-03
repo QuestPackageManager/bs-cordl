@@ -67,5 +67,3 @@ template <typename A, typename B, typename C> inline void TMPro::FastAction_3<A,
 }
 // Ctor Parameters []
 template <typename A, typename B, typename C> constexpr ::TMPro::FastAction_3<A, B, C>::FastAction_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

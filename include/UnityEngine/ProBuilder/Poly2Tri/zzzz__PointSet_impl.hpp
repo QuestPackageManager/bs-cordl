@@ -265,5 +265,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::PointSet::Prepare(::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::PointSet::PointSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

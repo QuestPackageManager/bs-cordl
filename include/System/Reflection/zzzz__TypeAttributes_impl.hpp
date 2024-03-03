@@ -38,5 +38,3 @@ constexpr ::System::Reflection::TypeAttributes System::Reflection::TypeAttribute
 constexpr ::System::Reflection::TypeAttributes System::Reflection::TypeAttributes::RTSpecialName{ static_cast<int32_t>(0x800) };
 constexpr ::System::Reflection::TypeAttributes System::Reflection::TypeAttributes::HasSecurity{ static_cast<int32_t>(0x40000) };
 constexpr ::System::Reflection::TypeAttributes System::Reflection::TypeAttributes::ReservedMask{ static_cast<int32_t>(0x40800) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

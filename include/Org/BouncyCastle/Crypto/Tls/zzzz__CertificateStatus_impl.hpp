@@ -179,5 +179,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::CertificateStatus::IsCorrectType(uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateStatus::CertificateStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -63,5 +63,3 @@ inline void GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::_ctor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::MultiplayerResultsPyramidViewAvatarInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

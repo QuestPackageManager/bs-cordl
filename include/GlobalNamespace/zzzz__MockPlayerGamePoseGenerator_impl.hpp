@@ -237,5 +237,3 @@ GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerGamePoseGenerator::MockPlayerGamePoseGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

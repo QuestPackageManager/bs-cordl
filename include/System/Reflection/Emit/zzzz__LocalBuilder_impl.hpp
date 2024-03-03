@@ -52,5 +52,3 @@ constexpr void System::Reflection::Emit::LocalBuilder::__cordl_internal_set_endO
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::LocalBuilder::LocalBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

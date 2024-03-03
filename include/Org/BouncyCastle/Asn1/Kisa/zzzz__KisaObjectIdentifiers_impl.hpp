@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers::KisaObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

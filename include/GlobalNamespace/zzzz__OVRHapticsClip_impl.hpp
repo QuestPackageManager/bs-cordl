@@ -344,5 +344,3 @@ inline void GlobalNamespace::OVRHapticsClip::InitializeFromAudioFloatTrack(::Arr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRHapticsClip::OVRHapticsClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

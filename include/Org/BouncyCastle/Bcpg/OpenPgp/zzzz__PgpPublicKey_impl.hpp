@@ -1193,5 +1193,3 @@ inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* Org::BouncyCastle::Bcpg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey::PgpPublicKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

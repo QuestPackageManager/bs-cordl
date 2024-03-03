@@ -222,5 +222,3 @@ inline void GlobalNamespace::MockPlatformUserModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlatformUserModel::MockPlatformUserModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

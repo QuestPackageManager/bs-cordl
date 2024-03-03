@@ -112,5 +112,3 @@ inline void Oculus::Platform::Models::PartyUpdateNotification::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PartyUpdateNotification::PartyUpdateNotification() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

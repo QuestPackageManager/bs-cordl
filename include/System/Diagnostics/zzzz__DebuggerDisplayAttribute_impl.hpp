@@ -63,5 +63,3 @@ inline void System::Diagnostics::DebuggerDisplayAttribute::_ctor(::StringW value
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerDisplayAttribute::DebuggerDisplayAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

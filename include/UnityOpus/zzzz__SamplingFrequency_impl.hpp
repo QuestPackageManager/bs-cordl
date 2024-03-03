@@ -11,5 +11,3 @@ constexpr ::UnityOpus::SamplingFrequency UnityOpus::SamplingFrequency::Frequency
 constexpr ::UnityOpus::SamplingFrequency UnityOpus::SamplingFrequency::Frequency_16000{ static_cast<int32_t>(0x3e80) };
 constexpr ::UnityOpus::SamplingFrequency UnityOpus::SamplingFrequency::Frequency_24000{ static_cast<int32_t>(0x5dc0) };
 constexpr ::UnityOpus::SamplingFrequency UnityOpus::SamplingFrequency::Frequency_48000{ static_cast<int32_t>(0xbb80) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

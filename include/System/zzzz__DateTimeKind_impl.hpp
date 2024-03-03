@@ -9,5 +9,3 @@ constexpr ::System::DateTimeKind::DateTimeKind() {}
 constexpr ::System::DateTimeKind System::DateTimeKind::Unspecified{ static_cast<int32_t>(0x0) };
 constexpr ::System::DateTimeKind System::DateTimeKind::Utc{ static_cast<int32_t>(0x1) };
 constexpr ::System::DateTimeKind System::DateTimeKind::Local{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

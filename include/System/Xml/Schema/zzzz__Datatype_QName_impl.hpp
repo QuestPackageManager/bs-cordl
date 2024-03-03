@@ -211,5 +211,3 @@ inline void System::Xml::Schema::Datatype_QName::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_QName::Datatype_QName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

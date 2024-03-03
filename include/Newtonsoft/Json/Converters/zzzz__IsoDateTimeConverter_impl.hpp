@@ -233,5 +233,3 @@ inline void Newtonsoft::Json::Converters::IsoDateTimeConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::IsoDateTimeConverter::IsoDateTimeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

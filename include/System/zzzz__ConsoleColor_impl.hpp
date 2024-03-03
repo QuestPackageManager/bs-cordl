@@ -22,5 +22,3 @@ constexpr ::System::ConsoleColor System::ConsoleColor::Red{ static_cast<int32_t>
 constexpr ::System::ConsoleColor System::ConsoleColor::Magenta{ static_cast<int32_t>(0xd) };
 constexpr ::System::ConsoleColor System::ConsoleColor::Yellow{ static_cast<int32_t>(0xe) };
 constexpr ::System::ConsoleColor System::ConsoleColor::White{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

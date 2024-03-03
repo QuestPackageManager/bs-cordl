@@ -94,5 +94,3 @@ constexpr ::OVR::OpenVR::EVRInitError OVR::OpenVR::EVRInitError::VendorSpecific_
 constexpr ::OVR::OpenVR::EVRInitError OVR::OpenVR::EVRInitError::VendorSpecific_HmdFound_UserDataError{ static_cast<int32_t>(0x458) };
 constexpr ::OVR::OpenVR::EVRInitError OVR::OpenVR::EVRInitError::VendorSpecific_HmdFound_ConfigFailedSanityCheck{ static_cast<int32_t>(0x459) };
 constexpr ::OVR::OpenVR::EVRInitError OVR::OpenVR::EVRInitError::Steam_SteamInstallationNotFound{ static_cast<int32_t>(0x7d0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

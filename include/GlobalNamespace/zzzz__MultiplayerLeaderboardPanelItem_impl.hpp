@@ -230,5 +230,3 @@ inline void GlobalNamespace::MultiplayerLeaderboardPanelItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLeaderboardPanelItem::MultiplayerLeaderboardPanelItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

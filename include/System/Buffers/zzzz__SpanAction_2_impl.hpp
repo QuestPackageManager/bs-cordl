@@ -19,5 +19,3 @@ template <typename T, typename TArg> inline void System::Buffers::SpanAction_2<T
 }
 // Ctor Parameters []
 template <typename T, typename TArg> constexpr ::System::Buffers::SpanAction_2<T, TArg>::SpanAction_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

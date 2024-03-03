@@ -473,5 +473,3 @@ inline ::UnityEngine::Bounds UnityEngine::ProBuilder::MeshUtility::GetBounds(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshUtility::MeshUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

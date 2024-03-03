@@ -354,5 +354,3 @@ inline void UnityEngine::UIElements::__RadioButton__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__RadioButton__UxmlFactory::__RadioButton__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

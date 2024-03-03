@@ -62,5 +62,3 @@ inline void Tayx::Graphy::Graph::G_Graph::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Graph::G_Graph::G_Graph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

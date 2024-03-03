@@ -15,5 +15,3 @@ constexpr void System::Runtime::InteropServices::ErrorWrapper::__cordl_internal_
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ErrorWrapper::ErrorWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

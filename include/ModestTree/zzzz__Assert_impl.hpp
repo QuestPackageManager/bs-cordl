@@ -743,5 +743,3 @@ inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(:
 }
 // Ctor Parameters []
 constexpr ::ModestTree::_cordl_Assert::_cordl_Assert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

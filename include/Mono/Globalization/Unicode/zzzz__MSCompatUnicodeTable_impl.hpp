@@ -695,5 +695,3 @@ inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore(::St
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::MSCompatUnicodeTable::MSCompatUnicodeTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

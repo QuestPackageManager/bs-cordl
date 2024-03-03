@@ -822,5 +822,3 @@ template <typename T> inline void System::Net::Http::Headers::HttpHeaders::SetVa
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::HttpHeaders::HttpHeaders() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

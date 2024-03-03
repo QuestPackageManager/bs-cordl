@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Pkcs::PkcsIOException::_ctor(::StringW message, :
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::PkcsIOException::PkcsIOException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

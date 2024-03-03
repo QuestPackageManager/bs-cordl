@@ -169,5 +169,3 @@ inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Org::BouncyCastle::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::X931SecureRandomBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

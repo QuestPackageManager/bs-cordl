@@ -487,5 +487,3 @@ inline void GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::MultiplayerLocalActivePlayerGameplayManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

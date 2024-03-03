@@ -50,5 +50,3 @@ inline void UnityEngine::Yoga::Logger::Invoke(::UnityEngine::Yoga::YogaConfig* c
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::Logger::Logger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

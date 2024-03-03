@@ -339,5 +339,3 @@ inline void GlobalNamespace::AutomaticSFXVolume::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AutomaticSFXVolume::AutomaticSFXVolume() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

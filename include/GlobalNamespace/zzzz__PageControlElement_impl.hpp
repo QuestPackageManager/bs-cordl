@@ -114,5 +114,3 @@ inline void GlobalNamespace::PageControlElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PageControlElement::PageControlElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

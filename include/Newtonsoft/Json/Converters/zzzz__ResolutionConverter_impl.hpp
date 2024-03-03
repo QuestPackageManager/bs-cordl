@@ -116,5 +116,3 @@ inline void Newtonsoft::Json::Converters::ResolutionConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::ResolutionConverter::ResolutionConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

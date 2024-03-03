@@ -132,5 +132,3 @@ inline void HMUI::ScreenModeController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScreenModeController::ScreenModeController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

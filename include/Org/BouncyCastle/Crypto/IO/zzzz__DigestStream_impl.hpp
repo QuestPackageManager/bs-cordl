@@ -403,5 +403,3 @@ inline void Org::BouncyCastle::Crypto::IO::DigestStream::SetLength(int64_t lengt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::DigestStream::DigestStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::System::Net::Sockets::SelectMode::SelectMode() {}
 constexpr ::System::Net::Sockets::SelectMode System::Net::Sockets::SelectMode::SelectRead{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Sockets::SelectMode System::Net::Sockets::SelectMode::SelectWrite{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Sockets::SelectMode System::Net::Sockets::SelectMode::SelectError{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

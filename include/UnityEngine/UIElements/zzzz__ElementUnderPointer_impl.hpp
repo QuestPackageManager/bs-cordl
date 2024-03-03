@@ -310,5 +310,3 @@ inline void UnityEngine::UIElements::ElementUnderPointer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ElementUnderPointer::ElementUnderPointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

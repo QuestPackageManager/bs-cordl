@@ -465,5 +465,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::AddFieldElemen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::SM2KeyExchange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

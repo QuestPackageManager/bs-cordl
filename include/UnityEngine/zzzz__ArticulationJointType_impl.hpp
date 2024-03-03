@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ArticulationJointType UnityEngine::ArticulationJointTyp
 constexpr ::UnityEngine::ArticulationJointType UnityEngine::ArticulationJointType::PrismaticJoint{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ArticulationJointType UnityEngine::ArticulationJointType::RevoluteJoint{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ArticulationJointType UnityEngine::ArticulationJointType::SphericalJoint{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

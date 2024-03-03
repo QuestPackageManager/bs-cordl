@@ -14,5 +14,3 @@ constexpr ::UnityOpus::ErrorCode UnityOpus::ErrorCode::InvalidPacket{ static_cas
 constexpr ::UnityOpus::ErrorCode UnityOpus::ErrorCode::Unimplemented{ static_cast<int32_t>(0xfffffffb) };
 constexpr ::UnityOpus::ErrorCode UnityOpus::ErrorCode::InvalidState{ static_cast<int32_t>(0xfffffffa) };
 constexpr ::UnityOpus::ErrorCode UnityOpus::ErrorCode::AllocFail{ static_cast<int32_t>(0xfffffff9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

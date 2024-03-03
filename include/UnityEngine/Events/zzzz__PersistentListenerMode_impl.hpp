@@ -13,5 +13,3 @@ constexpr ::UnityEngine::Events::PersistentListenerMode UnityEngine::Events::Per
 constexpr ::UnityEngine::Events::PersistentListenerMode UnityEngine::Events::PersistentListenerMode::Float{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Events::PersistentListenerMode UnityEngine::Events::PersistentListenerMode::String{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Events::PersistentListenerMode UnityEngine::Events::PersistentListenerMode::Bool{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

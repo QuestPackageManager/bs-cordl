@@ -33,5 +33,3 @@ template <typename T> inline T System::Collections::Generic::IReadOnlyList_1<T>:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::IReadOnlyList_1<T>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, index);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -63,5 +63,3 @@ template <typename T> inline T GlobalNamespace::RandomObjectPicker_1<T>::PickRan
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::RandomObjectPicker_1<T>::RandomObjectPicker_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1196,5 +1196,3 @@ inline void Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::PkcsObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

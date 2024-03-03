@@ -835,5 +835,3 @@ inline void Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities::PkixCertPathValidatorUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

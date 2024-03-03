@@ -23,5 +23,3 @@ constexpr ::System::Security::AccessControl::ControlFlags System::Security::Acce
 constexpr ::System::Security::AccessControl::ControlFlags System::Security::AccessControl::ControlFlags::SystemAclProtected{ static_cast<int32_t>(0x2000) };
 constexpr ::System::Security::AccessControl::ControlFlags System::Security::AccessControl::ControlFlags::RMControlValid{ static_cast<int32_t>(0x4000) };
 constexpr ::System::Security::AccessControl::ControlFlags System::Security::AccessControl::ControlFlags::SelfRelative{ static_cast<int32_t>(0x8000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::ECollisionBoundsStyle OVR::OpenVR::ECollisionBoundsStyl
 constexpr ::OVR::OpenVR::ECollisionBoundsStyle OVR::OpenVR::ECollisionBoundsStyle::COLLISION_BOUNDS_STYLE_ADVANCED{ static_cast<int32_t>(0x3) };
 constexpr ::OVR::OpenVR::ECollisionBoundsStyle OVR::OpenVR::ECollisionBoundsStyle::COLLISION_BOUNDS_STYLE_NONE{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::ECollisionBoundsStyle OVR::OpenVR::ECollisionBoundsStyle::COLLISION_BOUNDS_STYLE_COUNT{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

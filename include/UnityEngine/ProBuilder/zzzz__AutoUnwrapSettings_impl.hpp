@@ -542,5 +542,3 @@ constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings::AutoUnwrapSettings(bool
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings::AutoUnwrapSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

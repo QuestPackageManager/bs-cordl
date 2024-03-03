@@ -126,5 +126,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::DHPub
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::DHPublicKey::DHPublicKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

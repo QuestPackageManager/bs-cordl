@@ -273,5 +273,3 @@ inline void GlobalNamespace::GameLiftNetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLiftNetworkPlayerModel::GameLiftNetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

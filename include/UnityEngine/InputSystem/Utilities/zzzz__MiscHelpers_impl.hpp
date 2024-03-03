@@ -296,5 +296,3 @@ template <typename TValue> inline int32_t UnityEngine::InputSystem::Utilities::M
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::MiscHelpers::MiscHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -122,5 +122,3 @@ inline void BGLib::Polyglot::LanguageDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LanguageDropdown::LanguageDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

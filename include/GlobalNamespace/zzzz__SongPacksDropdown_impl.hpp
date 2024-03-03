@@ -354,5 +354,3 @@ inline void GlobalNamespace::SongPacksDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPacksDropdown::SongPacksDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

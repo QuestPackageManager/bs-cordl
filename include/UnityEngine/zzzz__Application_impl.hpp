@@ -1108,5 +1108,3 @@ inline bool UnityEngine::Application::get_isEditor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Application::Application() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

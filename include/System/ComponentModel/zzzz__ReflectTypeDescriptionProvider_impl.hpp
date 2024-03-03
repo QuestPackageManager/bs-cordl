@@ -1455,5 +1455,3 @@ inline ::System::Object* System::ComponentModel::ReflectTypeDescriptionProvider:
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectTypeDescriptionProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

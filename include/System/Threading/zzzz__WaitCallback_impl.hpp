@@ -46,5 +46,3 @@ inline void System::Threading::WaitCallback::Invoke(::System::Object* state) {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::WaitCallback::WaitCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

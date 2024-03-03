@@ -438,5 +438,3 @@ template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnima
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::ValueAnimation_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

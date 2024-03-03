@@ -1508,5 +1508,3 @@ constexpr ::System::Globalization::CompareOptions System::Globalization::Compare
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareInfo::ValidCompareMaskOffFlags{ static_cast<int32_t>(0xdfffffe0) };
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareInfo::ValidHashCodeOfStringMaskOffFlags{ static_cast<int32_t>(0xffffffe0) };
 constexpr ::System::Globalization::CompareOptions System::Globalization::CompareInfo::ValidSortkeyCtorMaskOffFlags{ static_cast<int32_t>(0xdfffffe0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

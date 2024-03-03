@@ -49,5 +49,3 @@ inline void System::UnhandledExceptionEventHandler::Invoke(::System::Object* sen
 }
 // Ctor Parameters []
 constexpr ::System::UnhandledExceptionEventHandler::UnhandledExceptionEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif
